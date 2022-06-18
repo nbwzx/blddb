@@ -374,18 +374,19 @@ function commutatormain(array, depth, maxdepth) {
                                     part2y = party;
                                 }
                             }
-                            // For a b c b' a' d c' d' = a b:[c,b' a' d] = d:[d' a b,c] (Temporarily deprecated)
-                            const part0 = simplify(partc.concat(repeatEnd(arrbak.slice(0, d), dr))),
+                            // For a b c b' a' d c' d' = a b:[c,b' a' d] = d:[d' a b,c]
+                            let part0 = simplify(partc.concat(repeatEnd(arrbak.slice(0, d), dr))),
                                 part1 = part1y,
                                 part2 = part2y;
-                            // if (part0.length > 0 && maxdepth === 1) {
-                            //     const partz = simplify(part0.concat(part2y));
-                            //     if (partz.length < part0.length) {
-                            //         part0 = partz;
-                            //         part1 = invert(part2y);
-                            //         part2 = part1y;
-                            //     }
-                            // }
+                            if (part0.length > 0 && maxdepth === 1) {
+                                const partz = simplify(part0.concat(part2y));
+                                // Avoid S U' R E R' U R' E' R S' = R':[R U' R,E]
+                                if (partz.length < part0.length - 1) {
+                                    part0 = partz;
+                                    part1 = invert(part2y);
+                                    part2 = part1y;
+                                }
+                            }
                             const part1Output = simplifyfinal(part1),
                                 part2Output = simplifyfinal(part2),
                                 part0Output = simplifyfinal(part0);
