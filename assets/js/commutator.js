@@ -374,34 +374,18 @@ function commutatormain(array, depth, maxdepth) {
                                     part2y = party;
                                 }
                             }
-                            // For a b c b' a' d c' d' = a b:[c,b' a' d] = d:[d' a b,c]
-                            let part0 = simplify(partc.concat(repeatEnd(arrbak.slice(0, d), dr))),
+                            // For a b c b' a' d c' d' = a b:[c,b' a' d] = d:[d' a b,c] (Temporarily deprecated)
+                            const part0 = simplify(partc.concat(repeatEnd(arrbak.slice(0, d), dr))),
                                 part1 = part1y,
                                 part2 = part2y;
-                            if (part0.length > 0 && maxdepth === 1) {
-                                const partz = simplify(part0.concat(part2y));
-                                if (partz.length < part0.length) {
-                                    part0 = partz;
-                                    part1 = invert(part2y);
-                                    part2 = part1y;
-                                }
-                            }
-                            // Avoid (b c Ux,Dy)
-                            if (part2.length === 1 && simplifyfinal([part1[part1.length - 1], part2[0]]) === simplifyfinal([part2[0], part1[part1.length - 1]])){
-                                continue;
-                            }
-                            // Avoid (Dy,b c Ux)
-                            if (part1.length === 1 && simplifyfinal([part2[part2.length - 1], part1[0]]) === simplifyfinal([part1[0], part2[part2.length - 1]])){
-                                continue;
-                            }
-                            // Avoid (Ux b c,Dy)
-                            if (part2.length === 1 && simplifyfinal([part2[0], part1[0]]) === simplifyfinal([part1[0], part2[0]])){
-                                continue;
-                            }
-                            // Avoid (Dy,Ux b c)
-                            if (part1.length === 1 && simplifyfinal([part2[0], part1[0]]) === simplifyfinal([part1[0], part2[0]])){
-                                continue;
-                            }
+                            // if (part0.length > 0 && maxdepth === 1) {
+                            //     const partz = simplify(part0.concat(part2y));
+                            //     if (partz.length < part0.length) {
+                            //         part0 = partz;
+                            //         part1 = invert(part2y);
+                            //         part2 = part1y;
+                            //     }
+                            // }
                             const part1Output = simplifyfinal(part1),
                                 part2Output = simplifyfinal(part2),
                                 part0Output = simplifyfinal(part0);
@@ -410,10 +394,10 @@ function commutatormain(array, depth, maxdepth) {
                             } else {
                                 text1 = multiOutput(part0Output, part1Output, part2Output, partb);
                             }
-                            if (depth !== maxdepth) {
-                                return text1;
-                            }
                             if (text0 === "") {
+                                text0 = text1;
+                            }
+                            if (score(text1) < score(text0)){
                                 text0 = text1;
                             }
                             if (depth === maxdepth && result.indexOf(text1) === -1) {
