@@ -10163,6 +10163,9 @@ function algSearch() {
     if (cornerAlgToInfo.hasOwnProperty(idValue)) {
         let tab = "<table id=\"table\"><thead><tr><th>序号</th><th>公式</th><th>交换子</th><th>起手</th></tr></thead><tbody>";
         for (let i = 0; i < rows; i++){
+            if (cornerAlgToInfo[idValue][i] === ""){
+                break;
+            }
             tab += "<tr>";
             tab += `<td>${i + 1}</td>`;
             tab += `<td>${cornerAlgToInfo[idValue][i]}</td>`;
@@ -10171,7 +10174,6 @@ function algSearch() {
             tab += "</tr>";
         }
         tab += "</tbody></table>";
-        console.log(tab);
         div1.innerHTML = tab;
     } else {
         div1.innerHTML = "";
