@@ -3,7 +3,18 @@
 let result = [];
 const order = 4,
     minAmount = -1,
-    maxAmount = 2;
+    maxAmount = 2,
+    commute = {
+        "U": 1,
+        "D": 1,
+        "E": 1,
+        "R": 2,
+        "L": 2,
+        "M": 2,
+        "F": 3,
+        "B": 3,
+        "S": 3
+    };
 
 function isOperator(val) {
     const operatorString = "+:,[]";
@@ -171,8 +182,7 @@ function commutator(x) {
         arrex = [];
     const locationud = [];
     for (let i = 0; i < arr.length - 1; i++) {
-        const similarstr = "UD DU UE EU DE ED RM MR RL LR LM ML FS SF FB BF SB BS";
-        if (similarstr.indexOf(arr[i][0] + arr[i + 1][0]) > -1) {
+        if (commute[arr[i][0]] === commute[arr[i + 1][0]] && arr[i][0] in commute && arr[i + 1][0] in commute) {
             locationud[count] = i;
             count += 1;
         }
@@ -259,8 +269,7 @@ function commutatorpre(arr1, depth, maxdepth) {
         arrex = [];
     const locationud = [];
     for (let i = 0; i < arr1.length - 1; i++) {
-        const similarstr = "UD DU UE EU DE ED RM MR RL LR LM ML FS SF FB BF SB BS";
-        if (similarstr.indexOf(arr1[i][0] + arr1[i + 1][0]) > -1) {
+        if (commute[arr1[i][0]] === commute[arr1[i + 1][0]] && arr1[i][0] in commute && arr1[i + 1][0] in commute) {
             locationud[count] = i;
             count += 1;
         }
@@ -317,7 +326,7 @@ function commutatormain(array, depth, maxdepth) {
         } else {
             drList.push(0);
         }
-        for (let drKey = 0; drKey <= order; drKey++) {
+        for (let drKey = 0; drKey < order; drKey++) {
             // 0, 1, -1, 2, -2...
             const dr = (drKey % 2 * 2 - 1) * Math.floor((drKey + 1) / 2);
             if (drList.indexOf(dr) === -1) {
@@ -341,7 +350,7 @@ function commutatormain(array, depth, maxdepth) {
                 for (let j = minj; j <= arr1.length / 2 - 1; j++) {
                     let irList = [];
                     if (arr1[i - 1][0] === arr1[i + j - 1][0]) {
-                        // (a bx,by c bz)
+                        // [a bx,by c bz]
                         irList = [];
                         for (let irValue = minAmount; irValue <= maxAmount; irValue++) {
                             irList.push(irValue);
@@ -364,59 +373,80 @@ function commutatormain(array, depth, maxdepth) {
                             part1x = simplify(repeatEnd(arr1.slice(0, i), ir));
                             part2x = simplify(invert(part1x).concat(repeatEnd(arr1.slice(0, i + j), jr)));
                         }
-                        const arra = simplify(part2x.concat(part1x, invert(part2x), invert(part1x))),
-                            arrb = simplify(arra.concat(arr1));
-                        let partb = "";
-                        if (depth > 1) {
-                            partb = commutatorpre(arrb, depth - 1, maxdepth);
-                        } else if (arrb.length > 0) {
+                        if (part1x.length < i || part2x.length < j) {
                             continue;
                         }
-                        if (partb !== "Not found.") {
-                            let part1y = part1x,
-                                part2y = part2x;
-                            const party = simplify(part2x.concat(part1x));
-                            if (party.length < Math.max(part1x.length, part2x.length)) {
-                                if (part1x.length <= part2x.length) {
-                                    // For a b c d e b' a' c' e' d' = [a b c,d e b' a'] = [a b c,d e c]
-                                    part1y = part1x;
-                                    part2y = party;
+                        const commuteAddList = [part2x];
+                        let commuteCase = [];
+                        if (commute[part2x[part2x.length - 1][0]] === commute[part1x[part1x.length - 1][0]] && part1x[part1x.length - 1][0] in commute && part2x[part2x.length - 1][0] in commute && part2x[part2x.length - 1][0] !== part1x[part1x.length - 1][0]) {
+                            // L b R c L' b' R' c' = [L b R,c L' R]
+                            commuteCase = simplify(part2x.concat([part1x[part1x.length - 1]]));
+                            commuteAddList.push(commuteCase);
+                            // L b R L c R L2 b' R2 c' = [L b R L,c R2 L']
+                            if (part1x.length >= 2) {
+                                if (commute[part1x[part1x.length - 2][0]] === commute[part1x[part1x.length - 1][0]] && part1x[part1x.length - 1][0] in commute && part1x[part1x.length - 2][0] in commute) {
+                                    commuteCase = simplify(part2x.concat(part1x.slice(part1x.length - 2, part1x.length)));
+                                    commuteAddList.push(commuteCase);
+                                }
+                            }
+                        }
+                        for (const commuteAddKey in commuteAddList) {
+                            part2x = commuteAddList[commuteAddKey];
+                            const arra = simplify(part2x.concat(part1x, invert(part2x), invert(part1x))),
+                                arrb = simplify(arra.concat(arr1));
+                            let partb = "";
+                            if (depth > 1) {
+                                partb = commutatorpre(arrb, depth - 1, maxdepth);
+                            } else if (arrb.length > 0) {
+                                continue;
+                            }
+                            if (partb !== "Not found.") {
+                                let part1y = part1x,
+                                    part2y = part2x;
+                                const party = simplify(part2x.concat(part1x));
+                                if (party.length < Math.max(part1x.length, part2x.length)) {
+                                    if (part1x.length <= part2x.length) {
+                                        // For a b c d e b' a' c' e' d' = [a b c,d e b' a'] = [a b c,d e c]
+                                        part1y = part1x;
+                                        part2y = party;
+                                    } else {
+                                        // For a b c d e b' a' d' c' e' = [a b c,d e b' a'] = [a b c d,e b' a']
+                                        part1y = invert(part2x);
+                                        part2y = party;
+                                    }
+                                }
+                                // For a b c b' a' d c' d' = a b:[c,b' a' d] = d:[d' a b,c]
+                                let part0 = simplify(repeatEnd(arrbak.slice(0, d), dr)),
+                                    part1 = part1y,
+                                    part2 = part2y;
+                                if (part0.length > 0 && maxdepth === 1) {
+                                    const partz = simplify(part0.concat(part2y));
+                                    // Avoid S U' R E R' U R' E' R S' = R':[R U' R,E]
+                                    if (partz.length < part0.length - 1) {
+                                        part0 = partz;
+                                        part1 = invert(part2y);
+                                        part2 = part1y;
+                                    }
+                                }
+                                const part1Output = simplifyfinal(part1),
+                                    part2Output = simplifyfinal(part2),
+                                    part0Output = simplifyfinal(part0);
+                                if (depth === 1) {
+                                    text1 = singleOutput(part0Output, part1Output, part2Output);
                                 } else {
-                                    // For a b c d e b' a' d' c' e' = [a b c,d e b' a'] = [a b c d,e b' a']
-                                    part1y = invert(part2x);
-                                    part2y = party;
+                                    text1 = multiOutput(part0Output, part1Output, part2Output, partb);
+                                }
+                                if (text0 === "") {
+                                    text0 = text1;
+                                }
+                                if (score(text1) < score(text0)) {
+                                    text0 = text1;
+                                }
+                                if (depth === maxdepth && result.indexOf(text1) === -1) {
+                                    result.push(text1);
                                 }
                             }
-                            // For a b c b' a' d c' d' = a b:[c,b' a' d] = d:[d' a b,c]
-                            let part0 = simplify(repeatEnd(arrbak.slice(0, d), dr)),
-                                part1 = part1y,
-                                part2 = part2y;
-                            if (part0.length > 0 && maxdepth === 1) {
-                                const partz = simplify(part0.concat(part2y));
-                                // Avoid S U' R E R' U R' E' R S' = R':[R U' R,E]
-                                if (partz.length < part0.length - 1) {
-                                    part0 = partz;
-                                    part1 = invert(part2y);
-                                    part2 = part1y;
-                                }
-                            }
-                            const part1Output = simplifyfinal(part1),
-                                part2Output = simplifyfinal(part2),
-                                part0Output = simplifyfinal(part0);
-                            if (depth === 1) {
-                                text1 = singleOutput(part0Output, part1Output, part2Output);
-                            } else {
-                                text1 = multiOutput(part0Output, part1Output, part2Output, partb);
-                            }
-                            if (text0 === "") {
-                                text0 = text1;
-                            }
-                            if (score(text1) < score(text0)){
-                                text0 = text1;
-                            }
-                            if (depth === maxdepth && result.indexOf(text1) === -1) {
-                                result.push(text1);
-                            }
+
                         }
                     }
                 }
@@ -477,33 +507,35 @@ function simplifyfinal(array) {
     if (arr.length === 0) {
         return "";
     }
-    for (let i = 0; i < arr.length - 1; i++) {
-        if (arr[i][0] === "D" && arr[i + 1][0] === "U") {
-            arr = swaparr(arr, i, i + 1);
-        }
-        if (arr[i][0] === "B" && arr[i + 1][0] === "F") {
-            arr = swaparr(arr, i, i + 1);
-        }
-        if (arr[i][0] === "L" && arr[i + 1][0] === "R") {
-            arr = swaparr(arr, i, i + 1);
-        }
-        if (arr[i][0] === "E" && arr[i + 1][0] === "U") {
-            arr = swaparr(arr, i, i + 1);
-        }
-        if (arr[i][0] === "S" && arr[i + 1][0] === "F") {
-            arr = swaparr(arr, i, i + 1);
-        }
-        if (arr[i][0] === "M" && arr[i + 1][0] === "R") {
-            arr = swaparr(arr, i, i + 1);
-        }
-        if (arr[i][0] === "D" && arr[i + 1][0] === "E") {
-            arr = swaparr(arr, i, i + 1);
-        }
-        if (arr[i][0] === "B" && arr[i + 1][0] === "S") {
-            arr = swaparr(arr, i, i + 1);
-        }
-        if (arr[i][0] === "L" && arr[i + 1][0] === "M") {
-            arr = swaparr(arr, i, i + 1);
+    for (let times = 0; times <= 1; times++) {
+        for (let i = 0; i < arr.length - 1; i++) {
+            if (arr[i][0] === "D" && arr[i + 1][0] === "U") {
+                arr = swaparr(arr, i, i + 1);
+            }
+            if (arr[i][0] === "B" && arr[i + 1][0] === "F") {
+                arr = swaparr(arr, i, i + 1);
+            }
+            if (arr[i][0] === "L" && arr[i + 1][0] === "R") {
+                arr = swaparr(arr, i, i + 1);
+            }
+            if (arr[i][0] === "E" && arr[i + 1][0] === "U") {
+                arr = swaparr(arr, i, i + 1);
+            }
+            if (arr[i][0] === "S" && arr[i + 1][0] === "F") {
+                arr = swaparr(arr, i, i + 1);
+            }
+            if (arr[i][0] === "M" && arr[i + 1][0] === "R") {
+                arr = swaparr(arr, i, i + 1);
+            }
+            if (arr[i][0] === "D" && arr[i + 1][0] === "E") {
+                arr = swaparr(arr, i, i + 1);
+            }
+            if (arr[i][0] === "B" && arr[i + 1][0] === "S") {
+                arr = swaparr(arr, i, i + 1);
+            }
+            if (arr[i][0] === "L" && arr[i + 1][0] === "M") {
+                arr = swaparr(arr, i, i + 1);
+            }
         }
     }
     const arrOutput1 = [];
@@ -578,62 +610,46 @@ function simplify(array) {
             i += 1;
             continue;
         }
-        if (arr.length >= 1) {
-            if (arr[len - 1][0] === arrayAdd[0]) {
-                const x = [];
-                x[0] = arr[len - 1][0];
-                x[1] = normalize(arr[len - 1][1] + arrayAdd[1]);
-                if (x[1] === 0) {
-                    arr.splice(-1, 1);
-                    i += 1;
-                    continue;
-                } else {
-                    arr.splice(-1, 1, x);
-                    i += 1;
-                    continue;
-                }
-            }
-        }
-        if (arr.length >= 2) {
-            const similarstr1 = "UD DU UE EU DE ED RM MR RL LR LM ML FS SF FB BF SB BS";
-            if (arr[len - 2][0] === arrayAdd[0]) {
-                if (similarstr1.indexOf(arr[len - 2][0] + arr[len - 1][0]) > -1) {
-                    const x = [];
-                    x[0] = arr[len - 2][0];
-                    x[1] = normalize(arr[len - 2][1] + arrayAdd[1]);
-                    if (x[1] === 0) {
-                        arr.splice(-2, 1);
-                        i += 1;
-                        continue;
-                    } else {
-                        arr.splice(-2, 1, x);
-                        i += 1;
-                        continue;
+        let hasChanged = false;
+        for (let j = 1; j <= 3; j++) {
+            if (arr.length >= j) {
+                if (arr[len - j][0] === arrayAdd[0]) {
+                    let canCommute = true;
+                    if (j >= 2) {
+                        for (let k = 1; k <= j; k++) {
+                            if (arr[len - k][0] in commute === false) {
+                                canCommute = false;
+                            }
+                        }
+                    }
+                    for (let k = 2; k <= j; k++) {
+                        if (commute[arr[len - k][0]] !== commute[arr[len - (k - 1)][0]]) {
+                            canCommute = false;
+                        }
+                    }
+                    if (canCommute) {
+                        const x = [];
+                        x[0] = arr[len - j][0];
+                        x[1] = normalize(arr[len - j][1] + arrayAdd[1]);
+                        if (x[1] === 0) {
+                            arr.splice(-j, 1);
+                            i += 1;
+                            hasChanged = true;
+                            break;
+                        } else {
+                            arr.splice(-j, 1, x);
+                            i += 1;
+                            hasChanged = true;
+                            break;
+                        }
                     }
                 }
             }
         }
-        if (arr.length >= 3) {
-            const similarstr2 = "UDE DUE UED EUD DEU EDU RML MRL RLM LRM LMR MLR FSB SFB FBS BFS SBF BSF";
-            if (arr[len - 3][0] === arrayAdd[0]) {
-                if (similarstr2.indexOf(arr[len - 3][0] + arr[len - 2][0] + arr[len - 1][0]) > -1) {
-                    const x = [];
-                    x[0] = arr[len - 3][0];
-                    x[1] = normalize(arr[len - 3][1] + arrayAdd[1]);
-                    if (x[1] === 0) {
-                        arr.splice(-3, 1);
-                        i += 1;
-                        continue;
-                    } else {
-                        arr.splice(-3, 1, x);
-                        i += 1;
-                        continue;
-                    }
-                }
-            }
+        if (hasChanged === false) {
+            arr[len] = arrayAdd;
+            i += 1;
         }
-        arr[len] = arrayAdd;
-        i += 1;
     }
     return arr;
 }
