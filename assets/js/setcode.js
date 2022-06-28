@@ -127,6 +127,10 @@ function getCookie(cname) {
 
 window.onload = function onload() {
     for (const i in cornerCodeToCustom) {
+        if (byid(i) === null){
+            setCookie(i, cornerCodeToCustom[i], 30);
+            continue;
+        }
         if (byid(i).value === ""){
             byid(i).value = cornerCodeToCustom[i];
         }
