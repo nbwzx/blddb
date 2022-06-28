@@ -130,8 +130,6 @@ window.onload = function onload() {
         if (byid(i) === null) {
             if (getCookie(i) === "") {
                 setCookie(i, cornerCodeToCustom[i], 30);
-            } else {
-                continue;
             }
         } else {
             if (byid(i).value === "") {
