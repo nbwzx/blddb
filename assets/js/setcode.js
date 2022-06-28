@@ -127,17 +127,21 @@ function getCookie(cname) {
 
 window.onload = function onload() {
     for (const i in cornerCodeToCustom) {
-        if (byid(i) === null && getCookie(i) === ""){
-            setCookie(i, cornerCodeToCustom[i], 30);
-            continue;
-        }
-        if (byid(i).value === ""){
-            byid(i).value = cornerCodeToCustom[i];
-        }
-        if (getCookie(i) === ""){
-            setCookie(i, byid(i).value, 30);
+        if (byid(i) === null) {
+            if (getCookie(i) === "") {
+                setCookie(i, cornerCodeToCustom[i], 30);
+            } else {
+                continue;
+            }
         } else {
-            byid(i).value = getCookie(i);
+            if (byid(i).value === "") {
+                byid(i).value = cornerCodeToCustom[i];
+            }
+            if (getCookie(i) === "") {
+                setCookie(i, byid(i).value, 30);
+            } else {
+                byid(i).value = getCookie(i);
+            }
         }
     }
 };
