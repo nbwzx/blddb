@@ -27,7 +27,7 @@ const cornerChichuToCode = {
     "P": "a69"
 };
 
-const cornerCodeToCustom = {
+const cornerCodeToChichu = {
     "a11": "D",
     "a13": "G",
     "a17": "A",
@@ -10157,13 +10157,34 @@ function getCookie(cname) {
 }
 
 function algSearch() {
-    const idValue = cornerAlgToStandard[`${document.getElementById("cornerinput").value}`];
+    const idValueOrigin = document.getElementById("cornerinput").value;
+    if (typeof idValueOrigin === "undefined") {
+        return;
+    }
+    if (idValueOrigin.length !== 3) {
+        return;
+    }
+    let id1 = "",
+        id2 = "",
+        id3 = "";
+    for (const i in cornerCodeToCustom) {
+        if (getCookie(i) === idValueOrigin[0] && i[2] % 2 === 1) {
+            id1 = i;
+        }
+        if (getCookie(i) === idValueOrigin[1] && i[2] % 2 === 1) {
+            id2 = i;
+        }
+        if (getCookie(i) === idValueOrigin[2] && i[2] % 2 === 1) {
+            id3 = i;
+        }
+    }
+    const idValue = cornerAlgToStandard[`${cornerCodeToChichu[id1]}${cornerCodeToChichu[id2]}${cornerCodeToChichu[id3]}`];
     const div1 = document.getElementById("div1");
     const rows = 18;
     if (cornerAlgToInfo.hasOwnProperty(idValue)) {
         let tab = "<table id=\"table\"><thead><tr><th>序号</th><th>公式</th><th>交换子</th><th>起手</th></tr></thead><tbody>";
-        for (let i = 0; i < rows; i++){
-            if (cornerAlgToInfo[idValue][i] === ""){
+        for (let i = 0; i < rows; i++) {
+            if (cornerAlgToInfo[idValue][i] === "") {
                 break;
             }
             tab += "<tr>";

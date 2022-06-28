@@ -9228,7 +9228,6 @@ function getCookie(cname) {
 
 function algSearch() {
     const idValue = corner1ToCode[document.getElementById("cornerinput1").value] + corner2ToCode[document.getElementById("cornerinput2").value];
-    console.log(idValue);
     const div1 = document.getElementById("div1");
     const rows = 18;
     if (cornerAlgToInfo.hasOwnProperty(idValue)) {
