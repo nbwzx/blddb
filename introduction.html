@@ -23,12 +23,26 @@
         <div class="inner">
           <header>
             <h1 style="text-align:center">说明</h1>
-            <p>To be continued...</p>
+            <p><strong>角块公式库采用如下规则筛选：</strong>
+              <ul>
+                <li>stm ≤ 17, qtm ≤ 20</li>
+                <li>|R2| ≤ 6, |U2| ≤ 4, |D2| ≤ 2, |F2| ≤ 2, |B2| ≤ 2</li> 
+                <li>|D*| ≤ 6, |F*| ≤ 3, |B*| ≤ 3</li>
+                <li>不含 L*</li>
+                <li>F* 和 B* 不同时出现</li>
+                <li>在手位为上时，不做U2或者F2</li>
+                <li>在手位为中时，不做B*或者F*</li>
+                <li>在手位为下时，不做U2或者B2</li>
+                <li>在手位为后时，不做U2或者D2或者B*或者F*</li>
+                <li>起落手一致，中途不换手</li>
+                <li>至多一次成为后手位</li>
+              </ul>
+            </p>
           </header>
-          </div>
         </div>
       </div>
     </div>
+  </div>
   </div>
   <script src="assets/js/jquery.min.js"></script>
   <script src="assets/js/browser.min.js"></script>
