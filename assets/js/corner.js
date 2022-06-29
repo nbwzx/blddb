@@ -11175,21 +11175,15 @@ function algSearch() {
     if (idValueOrigin.length !== 3) {
         return;
     }
-    let id1 = idValueOrigin[0],
-        id2 = idValueOrigin[1],
-        id3 = idValueOrigin[2];
+    const id = [idValueOrigin[0], idValueOrigin[1], idValueOrigin[2]];
     for (const i in cornerCodeToCustom) {
-        if (getCookie(i) === idValueOrigin[0] && i[2] % 2 === 1) {
-            id1 = cornerCodeToChichu[i];
-        }
-        if (getCookie(i) === idValueOrigin[1] && i[2] % 2 === 1) {
-            id2 = cornerCodeToChichu[i];
-        }
-        if (getCookie(i) === idValueOrigin[2] && i[2] % 2 === 1) {
-            id3 = cornerCodeToChichu[i];
+        for (let j = 0; j <= 2; j++) {
+            if (getCookie(i) === idValueOrigin[j] && i[2] % 2 === 1) {
+                id[j] = cornerCodeToChichu[i];
+            }
         }
     }
-    const idValue = cornerAlgToStandard[`${id1}${id2}${id3}`];
+    const idValue = cornerAlgToStandard[`${id[0]}${id[1]}${id[2]}`];
     const div1 = document.getElementById("div1");
     const rows = 18;
     if (cornerAlgToInfo.hasOwnProperty(idValue)) {
