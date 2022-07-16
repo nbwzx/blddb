@@ -174,7 +174,6 @@ function commutator(x) {
             }
         }
         if (sum % order !== 0) {
-            document.getElementById("out").innerHTML = "Not found.";
             return "Not found.";
         }
     }
