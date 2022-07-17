@@ -22,10 +22,45 @@
       <div id="main">
         <div class="inner">
           <header>
-            <h1 style="text-align:center">三盲翻棱公式库</h1>
-            <p>To be continued...</p>
+            <h1 style="text-align:center">三盲翻棱公式库<sup>BETA</sup></h1>
+            <p>请在下方选择你要查询的翻棱公式</p>
           </header>
+          <p><strong>第一个：</strong>
+            <select style="width:5em" id="edgeinput1" onchange="algSearch()">
+              <option></option> 
+              <option>UR</option>
+              <option>UF</option>
+              <option>UL</option>
+              <option>UB</option>
+              <option>DR</option>
+              <option>DL</option>
+              <option>FR</option>
+              <option>FL</option>
+              <option>BR</option>
+              <option>DF</option>
+              <option>BL</option>
+              <option>DB</option>
+            </select>
+            <strong>第二个：</strong>
+            <select style="width:5em" id="edgeinput2" onchange="algSearch()">
+              <option></option>
+              <option>UR</option>
+              <option>UF</option>
+              <option>UL</option>
+              <option>UB</option>
+              <option>DR</option>
+              <option>DL</option>
+              <option>FR</option>
+              <option>FL</option>
+              <option>BR</option>
+              <option>DF</option>
+              <option>BL</option>
+              <option>DB</option>
+            </select>
+          </p>
+          <div id="div1">
           </div>
+          <br />
         </div>
       </div>
     </div>
@@ -35,7 +70,10 @@
   <script src="assets/js/breakpoints.min.js"></script>
   <script src="assets/js/util.js"></script>
   <script src="assets/js/main.js"></script>
-  <script src="assets/js/corner.js"></script>
+  <script src="assets/js/finger.js"></script>
+  <script src="assets/js/commutator.js"></script>
+  <script src="assets/js/setcode.js"></script>
+  <script src="assets/js/2flips.js"></script>
 </body>
 
 </html>
