@@ -11168,13 +11168,14 @@ function getCookie(cname) {
 }
 
 function algSearch() {
-    const idValueOrigin = document.getElementById("cornerinput").value;
+    let idValueOrigin = document.getElementById("cornerinput").value;
     if (typeof idValueOrigin === "undefined") {
         return;
     }
     if (idValueOrigin.length !== 3) {
         return;
     }
+    idValueOrigin = idValueOrigin.toUpperCase();
     const id = [idValueOrigin[0], idValueOrigin[1], idValueOrigin[2]];
     for (const i in cornerCodeToCustom) {
         for (let j = 0; j <= 2; j++) {
