@@ -11151,6 +11151,60 @@ const cornerAlgToNightmare = {
     "XWT": "R2 F' R U' R D R' U' R D' R' U2 R' F R2"
 };
 
+const cornerLocationToCode = {
+    "UBL": "D",
+    "UBR": "G",
+    "UFR": "J",
+    "UFL": "A",
+    "LUB": "E",
+    "LUF": "C",
+    "LDF": "M",
+    "LDB": "Q",
+    "FUL": "B",
+    "FUR": "L",
+    "FDR": "Y",
+    "FDL": "N",
+    "RUF": "K",
+    "RUB": "I",
+    "RDB": "S",
+    "RDF": "Z",
+    "BUR": "H",
+    "BUL": "F",
+    "BDL": "P",
+    "BDR": "T",
+    "DFL": "W",
+    "DFR": "X",
+    "DBR": "R",
+    "DBL": "O"
+};
+
+const cornerCodeToLocation = {
+    "D": "UBL",
+    "G": "UBR",
+    "J": "UFR",
+    "A": "UFL",
+    "E": "LUB",
+    "C": "LUF",
+    "M": "LDF",
+    "Q": "LDB",
+    "B": "FUL",
+    "L": "FUR",
+    "Y": "FDR",
+    "N": "FDL",
+    "K": "RUF",
+    "I": "RUB",
+    "S": "RDB",
+    "Z": "RDF",
+    "H": "BUR",
+    "F": "BUL",
+    "P": "BDL",
+    "T": "BDR",
+    "W": "DFL",
+    "X": "DFR",
+    "R": "DBR",
+    "O": "DBL"
+};
+
 function getCookie(cname) {
     const name = `${cname}=`;
     const decodedCookie = decodeURIComponent(document.cookie);
@@ -11172,19 +11226,69 @@ function algSearch() {
     if (typeof idValueOrigin === "undefined") {
         return;
     }
-    if (idValueOrigin.length !== 3) {
-        return;
-    }
     idValueOrigin = idValueOrigin.toUpperCase();
     const id = [idValueOrigin[0], idValueOrigin[1], idValueOrigin[2]];
-    for (const i in cornerCodeToCustom) {
+    for (const i in cornerCodeToChichu) {
         for (let j = 0; j <= 2; j++) {
             if (getCookie(i) === idValueOrigin[j] && i[2] % 2 === 1) {
                 id[j] = cornerCodeToChichu[i];
             }
         }
     }
+    document.getElementById("cornerinput1").value = cornerCodeToLocation[id[0]];
+    document.getElementById("cornerinput2").value = cornerCodeToLocation[id[1]];
+    document.getElementById("cornerinput3").value = cornerCodeToLocation[id[2]];
     const idValue = cornerAlgToStandard[`${id[0]}${id[1]}${id[2]}`];
+    const div1 = document.getElementById("div1");
+    const rows = 18;
+    if (cornerAlgToInfo.hasOwnProperty(idValue)) {
+        let tab = "<table id=\"table\"><thead><tr><th>序号</th><th>公式</th><th>交换子</th><th>起手</th></tr></thead><tbody>";
+        for (let i = 0; i < rows; i++) {
+            if (cornerAlgToInfo[idValue][i] === "") {
+                break;
+            }
+            if (cornerAlgToInfo[idValue][i] === cornerAlgToNightmare[idValue]) {
+                tab += "<tr bgcolor=\"#D0D0D0\">";
+            } else {
+                tab += "<tr>";
+            }
+            tab += `<td>${i + 1}</td>`;
+            tab += `<td>${cornerAlgToInfo[idValue][i]}</td>`;
+            tab += `<td>${commutator(cornerAlgToInfo[idValue][i])}</td>`;
+            tab += `<td>${fingerbeginfrom(cornerAlgToInfo[idValue][i])}</td>`;
+            tab += "</tr>";
+        }
+        tab += "</tbody></table>";
+        div1.innerHTML = tab;
+    } else {
+        div1.innerHTML = "";
+    }
+}
+
+function algSearchByLocation() {
+    const id = [];
+    id[0] = cornerLocationToCode[document.getElementById("cornerinput1").value];
+    id[1] = cornerLocationToCode[document.getElementById("cornerinput2").value];
+    id[2] = cornerLocationToCode[document.getElementById("cornerinput3").value];
+    const idValue = cornerAlgToStandard[`${id[0]}${id[1]}${id[2]}`];
+    const cornerinput = [];
+    if (typeof id[0] === "undefined") {
+        id[0] = "";
+    }
+    if (typeof id[1] === "undefined") {
+        id[1] = "";
+    }
+    if (typeof id[2] === "undefined") {
+        id[2] = "";
+    }
+    for (let i = 0; i <= 2; i++) {
+        if (getCookie(cornerChichuToCode[id[i]]) === "") {
+            cornerinput[i] = id[i];
+        } else {
+            cornerinput[i] = getCookie(cornerChichuToCode[id[0]]);
+        }
+    }
+    document.getElementById("cornerinput").value = `${cornerinput[0]}${cornerinput[1]}${cornerinput[2]}`;
     const div1 = document.getElementById("div1");
     const rows = 18;
     if (cornerAlgToInfo.hasOwnProperty(idValue)) {

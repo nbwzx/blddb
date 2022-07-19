@@ -14186,6 +14186,60 @@ const edgeAlgToNightmare = {
     "IXN":  "D' R' E' R' S' R2 S R' E R D"
 };
 
+const edgeLocationToCode = {
+    "UB": "E",
+    "UR": "G",
+    "UF": "A",
+    "UL": "C",
+    "LU": "D",
+    "LF": "T",
+    "LD": "L",
+    "LB": "X",
+    "FU": "B",
+    "FR": "Q",
+    "FD": "J",
+    "FL": "S",
+    "RU": "H",
+    "RB": "Z",
+    "RD": "P",
+    "RF": "R",
+    "BU": "F",
+    "BL": "W",
+    "BD": "N",
+    "BR": "Y",
+    "DF": "I",
+    "DR": "O",
+    "DB": "M",
+    "DL": "K"
+};
+
+const edgeCodeToLocation = {
+    "E": "UB",
+    "G": "UR",
+    "A": "UF",
+    "C": "UL",
+    "D": "LU",
+    "T": "LF",
+    "L": "LD",
+    "X": "LB",
+    "B": "FU",
+    "Q": "FR",
+    "J": "FD",
+    "S": "FL",
+    "H": "RU",
+    "Z": "RB",
+    "P": "RD",
+    "R": "RF",
+    "F": "BU",
+    "W": "BL",
+    "N": "BD",
+    "Y": "BR",
+    "I": "DF",
+    "O": "DR",
+    "M": "DB",
+    "K": "DL"
+};
+
 function getCookie(cname) {
     const name = `${cname}=`;
     const decodedCookie = decodeURIComponent(document.cookie);
@@ -14207,9 +14261,6 @@ function algSearch() {
     if (typeof idValueOrigin === "undefined") {
         return;
     }
-    if (idValueOrigin.length !== 3) {
-        return;
-    }
     idValueOrigin = idValueOrigin.toUpperCase();
     const id = [idValueOrigin[0], idValueOrigin[1], idValueOrigin[2]];
     for (const i in edgeCodeToCustom) {
@@ -14219,7 +14270,59 @@ function algSearch() {
             }
         }
     }
+    document.getElementById("edgeinput1").value = edgeCodeToLocation[id[0]];
+    document.getElementById("edgeinput2").value = edgeCodeToLocation[id[1]];
+    document.getElementById("edgeinput3").value = edgeCodeToLocation[id[2]];
     const idValue = edgeAlgToStandard[`${id[0]}${id[1]}${id[2]}`];
+    const div1 = document.getElementById("div1");
+    const rows = 18;
+    if (edgeAlgToInfo.hasOwnProperty(idValue)) {
+        let tab = "<table id=\"table\"><thead><tr><th>序号</th><th>公式</th><th>交换子</th></tr></thead><tbody>";
+        for (let i = 0; i < rows; i++) {
+            if (edgeAlgToInfo[idValue][i] === "") {
+                break;
+            }
+            if (edgeAlgToInfo[idValue][i] === edgeAlgToNightmare[idValue]) {
+                tab += "<tr bgcolor=\"#D0D0D0\">";
+            } else {
+                tab += "<tr>";
+            }
+            tab += `<td>${i + 1}</td>`;
+            tab += `<td>${edgeAlgToInfo[idValue][i]}</td>`;
+            tab += `<td>${commutator(edgeAlgToInfo[idValue][i])}</td>`;
+            tab += "</tr>";
+        }
+        tab += "</tbody></table>";
+        div1.innerHTML = tab;
+    } else {
+        div1.innerHTML = "";
+    }
+}
+
+function algSearchByLocation() {
+    const id = [];
+    id[0] = edgeLocationToCode[document.getElementById("edgeinput1").value];
+    id[1] = edgeLocationToCode[document.getElementById("edgeinput2").value];
+    id[2] = edgeLocationToCode[document.getElementById("edgeinput3").value];
+    const idValue = edgeAlgToStandard[`${id[0]}${id[1]}${id[2]}`];
+    const edgeinput = [];
+    if (typeof id[0] === "undefined") {
+        id[0] = "";
+    }
+    if (typeof id[1] === "undefined") {
+        id[1] = "";
+    }
+    if (typeof id[2] === "undefined") {
+        id[2] = "";
+    }
+    for (let i = 0; i <= 2; i++) {
+        if (getCookie(edgeChichuToCode[id[i]]) === "") {
+            edgeinput[i] = id[i];
+        } else {
+            edgeinput[i] = getCookie(edgeChichuToCode[id[0]]);
+        }
+    }
+    document.getElementById("edgeinput").value = `${edgeinput[0]}${edgeinput[1]}${edgeinput[2]}`;
     const div1 = document.getElementById("div1");
     const rows = 18;
     if (edgeAlgToInfo.hasOwnProperty(idValue)) {
