@@ -2912,20 +2912,6 @@ body.is-touch .tilesthree article .content {
 
 }
 
-@media screen and (max-width: 480px) {
-
-	.tilesthree {
-		margin: 0;
-	}
-
-	.tilesthree article {
-		width: 100%;
-		margin: 1.25em 0 0 0;
-	}
-
-}
-
-
 .tileseight {
 	display: -moz-flex;
 	display: -webkit-flex;
