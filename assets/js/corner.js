@@ -11285,7 +11285,7 @@ function algSearchByLocation() {
         if (getCookie(cornerChichuToCode[id[i]]) === "") {
             cornerinput[i] = id[i];
         } else {
-            cornerinput[i] = getCookie(cornerChichuToCode[id[0]]);
+            cornerinput[i] = getCookie(cornerChichuToCode[id[i]]);
         }
     }
     document.getElementById("cornerinput").value = `${cornerinput[0]}${cornerinput[1]}${cornerinput[2]}`;
