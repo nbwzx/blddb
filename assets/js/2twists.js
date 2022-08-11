@@ -9291,8 +9291,8 @@ function algSearch() {
     const rows = 18;
     if (cornerAlgToInfo.hasOwnProperty(idValue)) {
         let tab = "<table id=\"table\"><thead><tr><th>序号</th><th>公式</th><th>交换子</th><th>起手</th></tr></thead><tbody>";
-        for (let i = 0; i < rows; i++){
-            if (cornerAlgToInfo[idValue][i] === ""){
+        for (let i = 0; i < rows; i++) {
+            if (cornerAlgToInfo[idValue][i] === "") {
                 break;
             }
             if (cornerAlgToInfo[idValue][i] === cornerAlgToNightmare[idValue]) {

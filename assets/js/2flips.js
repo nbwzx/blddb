@@ -10846,7 +10846,7 @@ function getCookie(cname) {
 
 function algSearch() {
     let idValue = "";
-    if (edgeToNumber[document.getElementById("edgeinput1").value] < edgeToNumber[document.getElementById("edgeinput2").value]){
+    if (edgeToNumber[document.getElementById("edgeinput1").value] < edgeToNumber[document.getElementById("edgeinput2").value]) {
         idValue = edgeToCode[document.getElementById("edgeinput1").value] + edgeToCode[document.getElementById("edgeinput2").value];
     } else {
         idValue = edgeToCode[document.getElementById("edgeinput2").value] + edgeToCode[document.getElementById("edgeinput1").value];
