@@ -357,13 +357,13 @@ function setColor() {
         </tr>
       </tbody>`;
     init();
-    setCookie("codeinput", byid("codeinput").value, 30);
+    setCookie("codeinput", encodeURI(byid("codeinput").value), 30);
 }
 
 window.onload = function onload() {
     if (document.title === "编码") {
         if (getCookie("codeinput") !== "") {
-            byid("codeinput").value = getCookie("codeinput");
+            byid("codeinput").value = decodeURI(getCookie("codeinput"));
         }
         setColor();
     }
