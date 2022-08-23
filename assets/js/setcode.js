@@ -125,7 +125,7 @@ function getCookie(cname) {
     return "";
 }
 
-window.onload = function onload() {
+function init() {
     for (const i in cornerCodeToCustom) {
         if (byid(i) === null) {
             if (getCookie(i) === "") {
@@ -142,6 +142,232 @@ window.onload = function onload() {
             }
         }
     }
+}
+
+function setColor() {
+    let color1 = "1",
+        color2 = "2",
+        color3 = "3",
+        color4 = "4",
+        color5 = "5",
+        color6 = "6";
+    switch (document.getElementById("codeinput").value) {
+    case "黄顶红前":
+        [color1, color2, color3, color4, color5, color6] = ["1", "2", "3", "4", "5", "6"];
+        break;
+    case "黄顶橙前":
+        [color1, color2, color3, color4, color5, color6] = ["1", "4", "5", "2", "3", "6"];
+        break;
+    case "黄顶蓝前":
+        [color1, color2, color3, color4, color5, color6] = ["1", "5", "2", "3", "4", "6"];
+        break;
+    case "黄顶绿前":
+        [color1, color2, color3, color4, color5, color6] = ["1", "3", "4", "5", "2", "6"];
+        break;
+    case "白顶红前":
+        [color1, color2, color3, color4, color5, color6] = ["6", "4", "3", "2", "5", "1"];
+        break;
+    case "白顶橙前":
+        [color1, color2, color3, color4, color5, color6] = ["6", "2", "5", "4", "3", "1"];
+        break;
+    case "白顶蓝前":
+        [color1, color2, color3, color4, color5, color6] = ["6", "3", "2", "5", "4", "1"];
+        break;
+    case "白顶绿前":
+        [color1, color2, color3, color4, color5, color6] = ["6", "5", "4", "3", "2", "1"];
+        break;
+    case "蓝顶红前":
+        [color1, color2, color3, color4, color5, color6] = ["2", "6", "3", "1", "5", "4"];
+        break;
+    case "蓝顶橙前":
+        [color1, color2, color3, color4, color5, color6] = ["2", "1", "5", "6", "3", "4"];
+        break;
+    case "蓝顶黄前":
+        [color1, color2, color3, color4, color5, color6] = ["2", "3", "1", "5", "6", "4"];
+        break;
+    case "蓝顶白前":
+        [color1, color2, color3, color4, color5, color6] = ["2", "5", "6", "3", "1", "4"];
+        break;
+    case "绿顶红前":
+        [color1, color2, color3, color4, color5, color6] = ["4", "1", "3", "6", "5", "2"];
+        break;
+    case "绿顶橙前":
+        [color1, color2, color3, color4, color5, color6] = ["4", "6", "5", "1", "3", "2"];
+        break;
+    case "绿顶黄前":
+        [color1, color2, color3, color4, color5, color6] = ["4", "5", "1", "3", "6", "2"];
+        break;
+    case "绿顶白前":
+        [color1, color2, color3, color4, color5, color6] = ["4", "3", "6", "5", "1", "2"];
+        break;
+    case "红顶蓝前":
+        [color1, color2, color3, color4, color5, color6] = ["3", "1", "2", "6", "4", "5"];
+        break;
+    case "红顶绿前":
+        [color1, color2, color3, color4, color5, color6] = ["3", "6", "4", "1", "2", "5"];
+        break;
+    case "红顶黄前":
+        [color1, color2, color3, color4, color5, color6] = ["3", "4", "1", "2", "6", "5"];
+        break;
+    case "红顶白前":
+        [color1, color2, color3, color4, color5, color6] = ["3", "2", "6", "4", "1", "5"];
+        break;
+    case "橙顶蓝前":
+        [color1, color2, color3, color4, color5, color6] = ["5", "6", "2", "1", "4", "3"];
+        break;
+    case "橙顶绿前":
+        [color1, color2, color3, color4, color5, color6] = ["5", "1", "4", "6", "2", "3"];
+        break;
+    case "橙顶黄前":
+        [color1, color2, color3, color4, color5, color6] = ["5", "2", "1", "4", "6", "3"];
+        break;
+    case "橙顶白前":
+        [color1, color2, color3, color4, color5, color6] = ["5", "4", "6", "2", "1", "3"];
+        break;
+    default:
+        break;
+    }
+    document.getElementById("table").innerHTML = `
+        <tbody>
+        <tr>
+          <td class=xl0></td>
+          <td class=xl0></td>
+          <td class=xl0></td>
+          <td class=xl${color1}><input id="a11" class="xl${color1} input" onkeyup="setAll()"></td>
+          <td class=xl${color1}><input id="a12" class="xl${color1} input" onkeyup="setAll()"></td>
+          <td class=xl${color1}><input id="a13" class="xl${color1} input" onkeyup="setAll()"></td>
+          <td class=xl0></td>
+          <td class=xl0></td>
+          <td class=xl0></td>
+          <td class=xl0></td>
+          <td class=xl0></td>
+          <td class=xl0></td>
+        </tr>
+        <tr>
+          <td class=xl0></td>
+          <td class=xl0></td>
+          <td class=xl0></td>
+          <td class=xl${color1}><input id="a14" class="xl${color1} input" onkeyup="setAll()"></td>
+          <td class=xl${color1}></td>
+          <td class=xl${color1}><input id="a16" class="xl${color1} input" onkeyup="setAll()"></td>
+          <td class=xl0></td>
+          <td class=xl0></td>
+          <td class=xl0></td>
+          <td class=xl0></td>
+          <td class=xl0></td>
+          <td class=xl0></td>
+        </tr>
+        <tr>
+          <td class=xl0></td>
+          <td class=xl0></td>
+          <td class=xl0></td>
+          <td class=xl${color1}><input id="a17" class="xl${color1} input" onkeyup="setAll()"></td>
+          <td class=xl${color1}><input id="a18" class="xl${color1} input" onkeyup="setAll()"></td>
+          <td class=xl${color1}><input id="a19" class="xl${color1} input" onkeyup="setAll()"></td>
+          <td class=xl0></td>
+          <td class=xl0></td>
+          <td class=xl0></td>
+          <td class=xl0></td>
+          <td class=xl0></td>
+          <td class=xl0></td>
+        </tr>
+        <tr>
+          <td class=xl${color2}><input id="a31" class="xl${color2} input" onkeyup="setAll()"></td>
+          <td class=xl${color2}><input id="a32" class="xl${color2} input" onkeyup="setAll()"></td>
+          <td class=xl${color2}><input id="a33" class="xl${color2} input" onkeyup="setAll()"></td>
+          <td class=xl${color3}><input id="a51" class="xl${color3} input" onkeyup="setAll()"></td>
+          <td class=xl${color3}><input id="a52" class="xl${color3} input" onkeyup="setAll()"></td>
+          <td class=xl${color3}><input id="a53" class="xl${color3} input" onkeyup="setAll()"></td>
+          <td class=xl${color4}><input id="a41" class="xl${color4} input" onkeyup="setAll()"></td>
+          <td class=xl${color4}><input id="a42" class="xl${color4} input" onkeyup="setAll()"></td>
+          <td class=xl${color4}><input id="a43" class="xl${color4} input" onkeyup="setAll()"></td>
+          <td class=xl${color5}><input id="a61" class="xl${color5} input" onkeyup="setAll()"></td>
+          <td class=xl${color5}><input id="a62" class="xl${color5} input" onkeyup="setAll()"></td>
+          <td class=xl${color5}><input id="a63" class="xl${color5} input" onkeyup="setAll()"></td>
+        </tr>
+        <tr>
+          <td class=xl${color2}><input id="a34" class="xl${color2} input" onkeyup="setAll()"></td>
+          <td class=xl${color2}></td>
+          <td class=xl${color2}><input id="a36" class="xl${color2} input" onkeyup="setAll()"></td>
+          <td class=xl${color3}><input id="a54" class="xl${color3} input" onkeyup="setAll()"></td>
+          <td class=xl${color3}></td>
+          <td class=xl${color3}><input id="a56" class="xl${color3} input" onkeyup="setAll()"></td>
+          <td class=xl${color4}><input id="a44" class="xl${color4} input" onkeyup="setAll()"></td>
+          <td class=xl${color4}></td>
+          <td class=xl${color4}><input id="a46" class="xl${color4} input" onkeyup="setAll()"></td>
+          <td class=xl${color5}><input id="a64" class="xl${color5} input" onkeyup="setAll()"></td>
+          <td class=xl${color5}></td>
+          <td class=xl${color5}><input id="a66" class="xl${color5} input" onkeyup="setAll()"></td>
+        </tr>
+        <tr>
+          <td class=xl${color2}><input id="a37" class="xl${color2} input" onkeyup="setAll()"></td>
+          <td class=xl${color2}><input id="a38" class="xl${color2} input" onkeyup="setAll()"></td>
+          <td class=xl${color2}><input id="a39" class="xl${color2} input" onkeyup="setAll()"></td>
+          <td class=xl${color3}><input id="a57" class="xl${color3} input" onkeyup="setAll()"></td>
+          <td class=xl${color3}><input id="a58" class="xl${color3} input" onkeyup="setAll()"></td>
+          <td class=xl${color3}><input id="a59" class="xl${color3} input" onkeyup="setAll()"></td>
+          <td class=xl${color4}><input id="a47" class="xl${color4} input" onkeyup="setAll()"></td>
+          <td class=xl${color4}><input id="a48" class="xl${color4} input" onkeyup="setAll()"></td>
+          <td class=xl${color4}><input id="a49" class="xl${color4} input" onkeyup="setAll()"></td>
+          <td class=xl${color5}><input id="a67" class="xl${color5} input" onkeyup="setAll()"></td>
+          <td class=xl${color5}><input id="a68" class="xl${color5} input" onkeyup="setAll()"></td>
+          <td class=xl${color5}><input id="a69" class="xl${color5} input" onkeyup="setAll()"></td>
+        </tr>
+        <tr>
+          <td class=xl0></td>
+          <td class=xl0></td>
+          <td class=xl0></td>
+          <td class=xl${color6}><input id="a21" class="xl${color6} input" onkeyup="setAll()"></td>
+          <td class=xl${color6}><input id="a22" class="xl${color6} input" onkeyup="setAll()"></td>
+          <td class=xl${color6}><input id="a23" class="xl${color6} input" onkeyup="setAll()"></td>
+          <td class=xl0></td>
+          <td class=xl0></td>
+          <td class=xl0></td>
+          <td class=xl0></td>
+          <td class=xl0></td>
+          <td class=xl0></td>
+        </tr>
+        <tr>
+          <td class=xl0></td>
+          <td class=xl0></td>
+          <td class=xl0></td>
+          <td class=xl${color6}><input id="a24" class="xl${color6} input" onkeyup="setAll()"></td>
+          <td class=xl${color6}></td>
+          <td class=xl${color6}><input id="a26" class="xl${color6} input" onkeyup="setAll()"></td>
+          <td class=xl0></td>
+          <td class=xl0></td>
+          <td class=xl0></td>
+          <td class=xl0></td>
+          <td class=xl0></td>
+          <td class=xl0></td>
+        </tr>
+        <tr>
+          <td class=xl0></td>
+          <td class=xl0></td>
+          <td class=xl0></td>
+          <td class=xl${color6}><input id="a27" class="xl${color6} input" onkeyup="setAll()"></td>
+          <td class=xl${color6}><input id="a28" class="xl${color6} input" onkeyup="setAll()"></td>
+          <td class=xl${color6}><input id="a29" class="xl${color6} input" onkeyup="setAll()"></td>
+          <td class=xl0></td>
+          <td class=xl0></td>
+          <td class=xl0></td>
+          <td class=xl0></td>
+          <td class=xl0></td>
+          <td class=xl0></td>
+        </tr>
+      </tbody>`;
+    init();
+    setCookie("codeinput", byid("codeinput").value, 30);
+}
+
+window.onload = function onload() {
+    if (document.title === "编码") {
+        if (getCookie("codeinput") !== "") {
+            byid("codeinput").value = getCookie("codeinput");
+        }
+        setColor();
+    }
+    init();
 };
 
 function byid(id) {

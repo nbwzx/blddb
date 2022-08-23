@@ -25,15 +25,15 @@
     }
 
     .xl4 {
-      background: white;
-    }
-
-    .xl5 {
       background: #33CC33;
     }
 
-    .xl6 {
+    .xl5 {
       background: #FF9900;
+    }
+
+    .xl6 {
+      background: white;
     }
 
     .input {
@@ -81,142 +81,41 @@
       <div class="inner">
         <header>
           <h1 style="text-align:center">编码</h1>
-          <p>三盲公式库的在线网页版本。</p>
         </header>
         <div>
           编码设置：<button type="button" onclick="setChichu()">彳亍编码</button>
           <button type="button" onclick="setSpeffz()">Speffz编码</button>
         </div>
+        <div>
+          坐标设置：<select style="width:5.5em" id="codeinput" onchange="setColor()">
+            <option>黄顶红前</option>
+            <option>黄顶橙前</option>
+            <option>黄顶蓝前</option>
+            <option>黄顶绿前</option>
+            <option>白顶红前</option>
+            <option>白顶橙前</option>
+            <option>白顶蓝前</option>
+            <option>白顶绿前</option>
+            <option>蓝顶红前</option>
+            <option>蓝顶橙前</option>
+            <option>蓝顶黄前</option>
+            <option>蓝顶白前</option>
+            <option>绿顶红前</option>
+            <option>绿顶橙前</option>
+            <option>绿顶黄前</option>
+            <option>绿顶白前</option>
+            <option>红顶蓝前</option>
+            <option>红顶绿前</option>
+            <option>红顶黄前</option>
+            <option>红顶白前</option>
+            <option>橙顶蓝前</option>
+            <option>橙顶绿前</option>
+            <option>橙顶黄前</option>
+            <option>橙顶白前</option>
+          </select>
+        </div>
         <br />
         <table id="table">
-          <tbody>
-            <tr>
-              <td class=xl0></td>
-              <td class=xl0></td>
-              <td class=xl0></td>
-              <td class=xl1><input id="a11" class="xl1 input" onkeyup="setAll()"></td>
-              <td class=xl1><input id="a12" class="xl1 input" onkeyup="setAll()"></td>
-              <td class=xl1><input id="a13" class="xl1 input" onkeyup="setAll()"></td>
-              <td class=xl0></td>
-              <td class=xl0></td>
-              <td class=xl0></td>
-              <td class=xl0></td>
-              <td class=xl0></td>
-              <td class=xl0></td>
-            </tr>
-            <tr>
-              <td class=xl0></td>
-              <td class=xl0></td>
-              <td class=xl0></td>
-              <td class=xl1><input id="a14" class="xl1 input" onkeyup="setAll()"></td>
-              <td class=xl1></td>
-              <td class=xl1><input id="a16" class="xl1 input" onkeyup="setAll()"></td>
-              <td class=xl0></td>
-              <td class=xl0></td>
-              <td class=xl0></td>
-              <td class=xl0></td>
-              <td class=xl0></td>
-              <td class=xl0></td>
-            </tr>
-            <tr>
-              <td class=xl0></td>
-              <td class=xl0></td>
-              <td class=xl0></td>
-              <td class=xl1><input id="a17" class="xl1 input" onkeyup="setAll()"></td>
-              <td class=xl1><input id="a18" class="xl1 input" onkeyup="setAll()"></td>
-              <td class=xl1><input id="a19" class="xl1 input" onkeyup="setAll()"></td>
-              <td class=xl0></td>
-              <td class=xl0></td>
-              <td class=xl0></td>
-              <td class=xl0></td>
-              <td class=xl0></td>
-              <td class=xl0></td>
-            </tr>
-            <tr>
-              <td class=xl2><input id="a31" class="xl2 input" onkeyup="setAll()"></td>
-              <td class=xl2><input id="a32" class="xl2 input" onkeyup="setAll()"></td>
-              <td class=xl2><input id="a33" class="xl2 input" onkeyup="setAll()"></td>
-              <td class=xl3><input id="a51" class="xl3 input" onkeyup="setAll()"></td>
-              <td class=xl3><input id="a52" class="xl3 input" onkeyup="setAll()"></td>
-              <td class=xl3><input id="a53" class="xl3 input" onkeyup="setAll()"></td>
-              <td class=xl5><input id="a41" class="xl5 input" onkeyup="setAll()"></td>
-              <td class=xl5><input id="a42" class="xl5 input" onkeyup="setAll()"></td>
-              <td class=xl5><input id="a43" class="xl5 input" onkeyup="setAll()"></td>
-              <td class=xl6><input id="a61" class="xl6 input" onkeyup="setAll()"></td>
-              <td class=xl6><input id="a62" class="xl6 input" onkeyup="setAll()"></td>
-              <td class=xl6><input id="a63" class="xl6 input" onkeyup="setAll()"></td>
-            </tr>
-            <tr>
-              <td class=xl2><input id="a34" class="xl2 input" onkeyup="setAll()"></td>
-              <td class=xl2></td>
-              <td class=xl2><input id="a36" class="xl2 input" onkeyup="setAll()"></td>
-              <td class=xl3><input id="a54" class="xl3 input" onkeyup="setAll()"></td>
-              <td class=xl3></td>
-              <td class=xl3><input id="a56" class="xl3 input" onkeyup="setAll()"></td>
-              <td class=xl5><input id="a44" class="xl5 input" onkeyup="setAll()"></td>
-              <td class=xl5></td>
-              <td class=xl5><input id="a46" class="xl5 input" onkeyup="setAll()"></td>
-              <td class=xl6><input id="a64" class="xl6 input" onkeyup="setAll()"></td>
-              <td class=xl6></td>
-              <td class=xl6><input id="a66" class="xl6 input" onkeyup="setAll()"></td>
-            </tr>
-            <tr>
-              <td class=xl2><input id="a37" class="xl2 input" onkeyup="setAll()"></td>
-              <td class=xl2><input id="a38" class="xl2 input" onkeyup="setAll()"></td>
-              <td class=xl2><input id="a39" class="xl2 input" onkeyup="setAll()"></td>
-              <td class=xl3><input id="a57" class="xl3 input" onkeyup="setAll()"></td>
-              <td class=xl3><input id="a58" class="xl3 input" onkeyup="setAll()"></td>
-              <td class=xl3><input id="a59" class="xl3 input" onkeyup="setAll()"></td>
-              <td class=xl5><input id="a47" class="xl5 input" onkeyup="setAll()"></td>
-              <td class=xl5><input id="a48" class="xl5 input" onkeyup="setAll()"></td>
-              <td class=xl5><input id="a49" class="xl5 input" onkeyup="setAll()"></td>
-              <td class=xl6><input id="a67" class="xl6 input" onkeyup="setAll()"></td>
-              <td class=xl6><input id="a68" class="xl6 input" onkeyup="setAll()"></td>
-              <td class=xl6><input id="a69" class="xl6 input" onkeyup="setAll()"></td>
-            </tr>
-            <tr>
-              <td class=xl0></td>
-              <td class=xl0></td>
-              <td class=xl0></td>
-              <td class=xl4><input id="a21" class="xl4 input" onkeyup="setAll()"></td>
-              <td class=xl4><input id="a22" class="xl4 input" onkeyup="setAll()"></td>
-              <td class=xl4><input id="a23" class="xl4 input" onkeyup="setAll()"></td>
-              <td class=xl0></td>
-              <td class=xl0></td>
-              <td class=xl0></td>
-              <td class=xl0></td>
-              <td class=xl0></td>
-              <td class=xl0></td>
-            </tr>
-            <tr>
-              <td class=xl0></td>
-              <td class=xl0></td>
-              <td class=xl0></td>
-              <td class=xl4><input id="a24" class="xl4 input" onkeyup="setAll()"></td>
-              <td class=xl4></td>
-              <td class=xl4><input id="a26" class="xl4 input" onkeyup="setAll()"></td>
-              <td class=xl0></td>
-              <td class=xl0></td>
-              <td class=xl0></td>
-              <td class=xl0></td>
-              <td class=xl0></td>
-              <td class=xl0></td>
-            </tr>
-            <tr>
-              <td class=xl0></td>
-              <td class=xl0></td>
-              <td class=xl0></td>
-              <td class=xl4><input id="a27" class="xl4 input" onkeyup="setAll()"></td>
-              <td class=xl4><input id="a28" class="xl4 input" onkeyup="setAll()"></td>
-              <td class=xl4><input id="a29" class="xl4 input" onkeyup="setAll()"></td>
-              <td class=xl0></td>
-              <td class=xl0></td>
-              <td class=xl0></td>
-              <td class=xl0></td>
-              <td class=xl0></td>
-              <td class=xl0></td>
-            </tr>
-          </tbody>
         </table>
       </div>
     </div>
