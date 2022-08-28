@@ -212,10 +212,21 @@ function commutator(x) {
 }
 
 function preprocessing(algValue) {
-    let x = algValue.trim();
-    x = x.replace(/\s+/igu, " ");
-    x = x.replace(/[‘]/gu, "'");
-    x = x.replace(/[’]/gu, "'");
+    let xold = algValue.trim();
+    xold = xold.replace(/\s+/igu, "");
+    xold = xold.replace(/[‘]/gu, "'");
+    xold = xold.replace(/[’]/gu, "'");
+    if (xold.length === 0) {
+        return [];
+    }
+    let x = "";
+    for (let i = 0; i < xold.length; i++) {
+        if ((xold[i + 1] < "0" || xold[i + 1] > "9") && xold[i + 1] !== "'") {
+            x = `${x + xold[i]} `;
+        } else {
+            x = x + xold[i];
+        }
+    }
     if (x.indexOf("R") > -1 || x.indexOf("M") > -1) {
         x = x.replace(/r2/gu, "R2 M2");
         x = x.replace(/r'/gu, "R' M");
