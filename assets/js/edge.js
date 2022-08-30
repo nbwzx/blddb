@@ -14395,7 +14395,9 @@ function algSearchByLocation() {
 }
 
 function isnightmare(s1) {
-    if (fingerbeginfrom(s1) !== "" && stm(s1) <= 16 && qtm(s1) <= 18 && count(s1, "D") <= 6 && count(s1, "D2") <= 2 && count(s1, "2") <= 6 && count(s1, "U2") <= 4 && count(s1, "R2") <= 6 && count(s1, "F2") <= 2 && count(s1, "B2") <= 2 && count(s1, "F") <= 4 && count(s1, "B") <= 4 && count(s1, "E2") <= 2 && count(s1, "S2") <= 2 && count(s1, "M2") <= 2 && count(s1, "f") === 0 && count(s1, "b") === 0) {
+    const regString = /^[RUDFBEMSru0-9 ']*$/gu;
+    const regPos = /^[0-9]*$/gu;
+    if (fingerbeginfrom(s1) !== "" && stm(s1) <= 16 && qtm(s1) <= 18 && count(s1, "D") <= 6 && count(s1, "D2") <= 2 && count(s1, "2") <= 6 && count(s1, "U2") <= 4 && count(s1, "R2") <= 6 && count(s1, "F2") <= 2 && count(s1, "B2") <= 2 && count(s1, "F") <= 4 && count(s1, "B") <= 4 && count(s1, "E2") <= 2 && count(s1, "S2") <= 2 && count(s1, "M2") <= 2 && regString.test(s1) && regPos.test(s1[0]) === false) {
         return 1;
     }
     return 0;
