@@ -11226,6 +11226,10 @@ function algSearch() {
     if (typeof idValueOrigin === "undefined") {
         return;
     }
+    if (idValueOrigin.length === 3) {
+        document.activeElement.blur();
+        document.getElementById("cornerinput").blur();
+    }
     idValueOrigin = idValueOrigin.toUpperCase();
     const id = [idValueOrigin[0], idValueOrigin[1], idValueOrigin[2]];
     for (const i in cornerCodeToChichu) {
