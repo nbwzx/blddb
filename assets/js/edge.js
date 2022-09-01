@@ -14261,7 +14261,7 @@ function algSearch() {
     if (typeof idValueOrigin === "undefined") {
         return;
     }
-    if (idValueOrigin.length === 3) {
+    if (idValueOrigin.length === 3 && document.getElementById("edgesetup").value === "") {
         document.activeElement.blur();
         document.getElementById("edgeinput").blur();
     }
