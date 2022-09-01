@@ -14261,10 +14261,6 @@ function algSearch() {
     if (typeof idValueOrigin === "undefined") {
         return;
     }
-    if (idValueOrigin.length === 3 && document.getElementById("edgesetup").value === "") {
-        document.activeElement.blur();
-        document.getElementById("edgeinput").blur();
-    }
     idValueOrigin = idValueOrigin.toUpperCase();
     const id = [idValueOrigin[0], idValueOrigin[1], idValueOrigin[2]];
     for (const i in edgeCodeToCustom) {
@@ -14286,6 +14282,9 @@ function algSearch() {
         idValue = edgeAlgToStandard[edgefullstr[0] + edgefullstr[2] + edgefullstr[1]];
     }
     if (edgeAlgToInfo.hasOwnProperty(idValue)) {
+        if (document.getElementById("edgeinput") === document.activeElement) {
+            document.getElementById("edgeinput").blur();
+        }
         let tab = "";
         let inew = 0;
         for (let i = 0; i < rows; i++) {

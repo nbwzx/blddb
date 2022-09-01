@@ -11226,10 +11226,6 @@ function algSearch() {
     if (typeof idValueOrigin === "undefined") {
         return;
     }
-    if (idValueOrigin.length === 3) {
-        document.activeElement.blur();
-        document.getElementById("cornerinput").blur();
-    }
     idValueOrigin = idValueOrigin.toUpperCase();
     const id = [idValueOrigin[0], idValueOrigin[1], idValueOrigin[2]];
     for (const i in cornerCodeToChichu) {
@@ -11246,6 +11242,7 @@ function algSearch() {
     const div1 = document.getElementById("div1");
     const rows = 18;
     if (cornerAlgToInfo.hasOwnProperty(idValue)) {
+        document.getElementById("cornerinput").blur();
         let tab = "<table id=\"table\"><thead><tr><th>序号</th><th>公式</th><th>交换子</th><th>起手</th></tr></thead><tbody>";
         for (let i = 0; i < rows; i++) {
             if (cornerAlgToInfo[idValue].length <= i) {
