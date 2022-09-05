@@ -2,11 +2,14 @@
 <html>
 
 <head>
-  <title>编码</title>
+  <title class="lang" key="code"></title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
   <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="assets/css/language.css" />
   <link rel="icon" href="images/logo.svg" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="images/logo.png" />
+  <meta name="google-site-verification" content="s3hE2D_rJuuUUj4rVvWBADMHqHqiSM-bQh80mnwzDMA" />
   <style>
     .xl0 {
       border: 0px solid black;
@@ -67,56 +70,74 @@
     }
   </style>
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7X9DPS593M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+  gtag('config', 'G-7X9DPS593M');
+</script>
 
 <body>
-  <div id="wrapper">
-    <header id="header">
-      <div class="inner">
-        <a href="index.html" class="logo">
-          <span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">blddb</span>
-        </a>
-      </div>
-    </header>
-    <div id="main">
-      <div class="inner">
-        <header>
-          <h1 style="text-align:center">编码</h1>
-        </header>
-        <div>
-          编码设置：<button type="button" onclick="setChichu()">彳亍编码</button>
-          <button type="button" onclick="setSpeffz()">Speffz编码</button>
+  <div class="allscreen">
+    <div id="wrapper">
+      <header id="header">
+        <div class="inner">
+          <a href="index.html" class="logo">
+            <span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">blddb</span>
+          </a>
+          <div class="language translate" style="float:right;width:90px;">
+            <div class="status_circle status_circle_hide">English</div>
+          </div>
         </div>
-        <div>
-          坐标设置：<select style="width:5.5em" id="codeinput" onchange="setColor()">
-            <option>黄顶红前</option>
-            <option>黄顶橙前</option>
-            <option>黄顶蓝前</option>
-            <option>黄顶绿前</option>
-            <option>白顶红前</option>
-            <option>白顶橙前</option>
-            <option>白顶蓝前</option>
-            <option>白顶绿前</option>
-            <option>蓝顶红前</option>
-            <option>蓝顶橙前</option>
-            <option>蓝顶黄前</option>
-            <option>蓝顶白前</option>
-            <option>绿顶红前</option>
-            <option>绿顶橙前</option>
-            <option>绿顶黄前</option>
-            <option>绿顶白前</option>
-            <option>红顶蓝前</option>
-            <option>红顶绿前</option>
-            <option>红顶黄前</option>
-            <option>红顶白前</option>
-            <option>橙顶蓝前</option>
-            <option>橙顶绿前</option>
-            <option>橙顶黄前</option>
-            <option>橙顶白前</option>
-          </select>
+      </header>
+      <div id="main">
+        <div class="inner">
+          <header>
+            <h1 style="text-align:center" class="lang" key="code"></h1>
+          </header>
+          <p>
+            <sentence class="lang" key="codeLetterSetting"></sentence>
+            <button type="button" onclick="setChichu()" class="lang" key="codeChichu"></button>
+            <button type="button" onclick="setSpeffz()" class="lang" key="codeSpeffz"></button>
+          </p>
+          <div>
+            <sentence class="lang" key="codeOrientationSetting"></sentence>
+            <select style="width:5.5em" id="codeinput" onchange="setColor(0)">
+              <option class="lang" key="code1" value="1"></option>
+              <option class="lang" key="code2" value="2"></option>
+              <option class="lang" key="code3" value="3"></option>
+              <option class="lang" key="code4" value="4"></option>
+              <option class="lang" key="code5" value="5"></option>
+              <option class="lang" key="code6" value="6"></option>
+              <option class="lang" key="code7" value="7"></option>
+              <option class="lang" key="code8" value="8"></option>
+              <option class="lang" key="code9" value="9"></option>
+              <option class="lang" key="code10" value="10"></option>
+              <option class="lang" key="code11" value="11"></option>
+              <option class="lang" key="code12" value="12"></option>
+              <option class="lang" key="code13" value="13"></option>
+              <option class="lang" key="code14" value="14"></option>
+              <option class="lang" key="code15" value="15"></option>
+              <option class="lang" key="code16" value="16"></option>
+              <option class="lang" key="code17" value="17"></option>
+              <option class="lang" key="code18" value="18"></option>
+              <option class="lang" key="code19" value="19"></option>
+              <option class="lang" key="code20" value="20"></option>
+              <option class="lang" key="code21" value="21"></option>
+              <option class="lang" key="code22" value="22"></option>
+              <option class="lang" key="code23" value="23"></option>
+              <option class="lang" key="code24" value="24"></option>
+            </select>
+          </div>
+          <br />
+          <table id="table">
+          </table>
         </div>
-        <br />
-        <table id="table">
-        </table>
       </div>
     </div>
   </div>
@@ -126,6 +147,7 @@
   <script src="assets/js/util.js"></script>
   <script src="assets/js/main.js"></script>
   <script src="assets/js/setcode.js"></script>
+  <script src="assets/js/language.js"></script>
 </body>
 
 </html>

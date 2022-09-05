@@ -51,9 +51,6 @@ function finger(s1, position) {
             return 0;
         }
     }
-    if (fingerposition !== position) {
-        return 0;
-    }
     return 1;
 }
 
@@ -148,20 +145,27 @@ function fingerback(s1, position) {
 
 
 function fingerbeginfrom(s1) {
-    let fingerbegin = "";
+    let fingerbegin = "",
+        count = 0;
     for (let i = 0; i <= 2; i++) {
         if (finger(s1, 2) === 1 && fingerpain(s1, 2) === i) {
-            fingerbegin = `${fingerbegin}中/`;
+            count = count + 1;
+            fingerbegin = `${fingerbegin}${arrLang[lang]["homegrip"]}/`;
         }
         if (finger(s1, 1) === 1 && fingerpain(s1, 1) === i) {
-            fingerbegin = `${fingerbegin}下/`;
+            count = count + 1;
+            fingerbegin = `${fingerbegin}${arrLang[lang]["thumbdown"]}/`;
         }
         if (finger(s1, 3) === 1 && fingerpain(s1, 3) === i) {
-            fingerbegin = `${fingerbegin}上/`;
+            count = count + 1;
+            fingerbegin = `${fingerbegin}${arrLang[lang]["thumbup"]}/`;
         }
         if (fingerbegin.length > 0) {
             break;
         }
+    }
+    if (count === 3) {
+        return `${arrLang[lang]["all"]}`;
     }
     return fingerbegin.substring(0, fingerbegin.length - 1);
 }

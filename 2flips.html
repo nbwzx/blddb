@@ -2,32 +2,49 @@
 <html>
 
 <head>
-  <title>三盲翻棱公式库</title>
+  <title class="lang" key="2flips"></title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
   <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="assets/css/language.css" />
   <link rel="icon" href="images/logo.svg" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="images/logo.png" />
+  <meta name="google-site-verification" content="s3hE2D_rJuuUUj4rVvWBADMHqHqiSM-bQh80mnwzDMA" />
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7X9DPS593M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+  gtag('config', 'G-7X9DPS593M');
+</script>
 
 <body>
-  <div id="allscreen">
+  <div class="allscreen">
     <div id="wrapper">
       <header id="header">
         <div class="inner">
           <a href="index.html" class="logo">
             <span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">blddb</span>
           </a>
+          <div class="language translate" style="float:right;width:90px;">
+            <div class="status_circle status_circle_hide">English</div>
+          </div>
         </div>
       </header>
       <div id="main">
         <div class="inner">
           <header>
-            <h1 style="text-align:center">三盲翻棱公式库<sup>BETA</sup></h1>
-            <p>请在下方选择你要查询的翻棱公式</p>
+            <h1 style="text-align:center" class="lang" key="2flips"></h1>
+            <p class="lang" key="2flipsHint"></p>
           </header>
-          <p><strong>第一个：</strong>
+          <p><strong class="lang" key="2flips1"></strong>
             <select style="width:3em" id="edgeinput1" onchange="algSearch()">
-              <option></option> 
+              <option></option>
               <option>UR</option>
               <option>UF</option>
               <option>UL</option>
@@ -42,7 +59,7 @@
               <option>DB</option>
             </select>
             &nbsp;&nbsp;
-            <strong>第二个：</strong>
+            <strong class="lang" key="2flips2"></strong>
             <select style="width:3em" id="edgeinput2" onchange="algSearch()">
               <option></option>
               <option>UR</option>
@@ -75,6 +92,7 @@
   <script src="assets/js/commutator.js"></script>
   <script src="assets/js/setcode.js"></script>
   <script src="assets/js/2flips.js"></script>
+  <script src="assets/js/language.js"></script>
 </body>
 
 </html>

@@ -14317,7 +14317,7 @@ function algSearch() {
             tab += "</tr>";
         }
         if (tab !== "") {
-            tab = `<table id="table"><thead><tr><th>序号</th><th>公式</th><th>交换子</th><th>起手</th></tr></thead><tbody>${tab}</tbody></table>`;
+            tab = `<table id="table"><thead><tr><th>${arrLang[lang]["no"]}</th><th>${arrLang[lang]["algorithm"]}</th><th>${arrLang[lang]["commutator"]}</th><th>${arrLang[lang]["thumbPosition"]}</th></tr></thead><tbody>${tab}</tbody></table>`;
         }
         div1.innerHTML = tab;
     } else {
@@ -14389,7 +14389,7 @@ function algSearchByLocation() {
             tab += "</tr>";
         }
         if (tab !== "") {
-            tab = `<table id="table"><thead><tr><th>序号</th><th>公式</th><th>交换子</th><th>起手</th></tr></thead><tbody>${tab}</tbody></table>`;
+            tab = `<table id="table"><thead><tr><th>${arrLang[lang]["no"]}</th><th>${arrLang[lang]["algorithm"]}</th><th>${arrLang[lang]["commutator"]}</th><th>${arrLang[lang]["thumbPosition"]}</th></tr></thead><tbody>${tab}</tbody></table>`;
         }
         div1.innerHTML = tab;
     } else {

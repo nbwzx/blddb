@@ -27,33 +27,6 @@ const cornerChichuToCode = {
     "P": "a69"
 };
 
-const cornerCodeToCustom = {
-    "a11": "D",
-    "a13": "G",
-    "a17": "A",
-    "a19": "J",
-    "a21": "W",
-    "a23": "X",
-    "a27": "O",
-    "a29": "R",
-    "a31": "E",
-    "a33": "C",
-    "a37": "Q",
-    "a39": "M",
-    "a41": "K",
-    "a43": "I",
-    "a47": "Z",
-    "a49": "S",
-    "a51": "B",
-    "a53": "L",
-    "a57": "N",
-    "a59": "Y",
-    "a61": "H",
-    "a63": "F",
-    "a67": "T",
-    "a69": "P"
-};
-
 const cornerAlgToStandard = {
     "ADM": "ADM",
     "DMA": "ADM",
@@ -9290,7 +9263,12 @@ function algSearch() {
     const div1 = document.getElementById("div1");
     const rows = 18;
     if (cornerAlgToInfo.hasOwnProperty(idValue)) {
-        let tab = "<table id=\"table\"><thead><tr><th>序号</th><th>公式</th><th>交换子</th><th>起手</th></tr></thead><tbody>";
+        let tab = "";
+        if (lang === "zh") {
+            tab = "<table id=\"table\"><thead><tr><th>序号</th><th>公式</th><th>交换子</th><th>起手</th></tr></thead><tbody>";
+        } else {
+            tab = "<table id=\"table\"><thead><tr><th>No.</th><th>Algorithm</th><th>Commutator</th><th>Thumb Position</th></tr></thead><tbody>";
+        }
         for (let i = 0; i < rows; i++) {
             if (cornerAlgToInfo[idValue].length <= i) {
                 break;

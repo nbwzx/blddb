@@ -62,24 +62,34 @@ function fingerback(s1, position) {
 
 
 function fingerbeginfrom(s1) {
-    let fingerbegin = "";
+    let fingerbegin = "",
+        count = 0;
     if (finger(s1, 2) === 1 && fingerback(s1, 2) === 0) {
-        fingerbegin = `${fingerbegin}中/`;
+        count = count + 1;
+        fingerbegin = `${fingerbegin}${arrLang[lang]["homegrip"]}/`;
     }
     if (finger(s1, 1) === 1 && fingerback(s1, 1) === 0) {
-        fingerbegin = `${fingerbegin}下/`;
+        count = count + 1;
+        fingerbegin = `${fingerbegin}${arrLang[lang]["thumbdown"]}/`;
     }
     if (finger(s1, 3) === 1 && fingerback(s1, 3) === 0) {
-        fingerbegin = `${fingerbegin}上/`;
+        count = count + 1;
+        fingerbegin = `${fingerbegin}${arrLang[lang]["thumbup"]}/`;
     }
     if (finger(s1, 2) === 1 && fingerback(s1, 2) === 2) {
-        fingerbegin = `${fingerbegin}中/`;
+        count = count + 1;
+        fingerbegin = `${fingerbegin}${arrLang[lang]["homegrip"]}/`;
     }
     if (finger(s1, 1) === 1 && fingerback(s1, 1) === 2) {
-        fingerbegin = `${fingerbegin}下/`;
+        count = count + 1;
+        fingerbegin = `${fingerbegin}${arrLang[lang]["thumbdown"]}/`;
     }
     if (finger(s1, 3) === 1 && fingerback(s1, 3) === 2) {
-        fingerbegin = `${fingerbegin}上/`;
+        count = count + 1;
+        fingerbegin = `${fingerbegin}${arrLang[lang]["thumbup"]}/`;
+    }
+    if (count === 3) {
+        return `${arrLang[lang]["all"]}`;
     }
     return fingerbegin.substring(0, fingerbegin.length - 1);
 }

@@ -2,31 +2,48 @@
 <html>
 
 <head>
-  <title>三盲角块公式库</title>
+  <title class="lang" key="corner"></title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
   <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="assets/css/language.css" />
   <link rel="icon" href="images/logo.svg" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="images/logo.png" />
+  <meta name="google-site-verification" content="s3hE2D_rJuuUUj4rVvWBADMHqHqiSM-bQh80mnwzDMA" />
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7X9DPS593M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+  gtag('config', 'G-7X9DPS593M');
+</script>
 
 <body>
-  <div id="allscreen">
+  <div class="allscreen">
     <div id="wrapper">
       <header id="header">
         <div class="inner">
           <a href="index.html" class="logo">
             <span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">blddb</span>
           </a>
+          <div class="language translate" style="float:right;width:90px;">
+            <div class="status_circle status_circle_hide">English</div>
+          </div>
         </div>
       </header>
       <div id="main">
         <div class="inner">
           <header>
-            <h1 style="text-align:center">三盲角块公式库</h1>
-            <p>请在下方输入你要查询的公式编码（例如: JAD）</p>
+            <h1 style="text-align:center" class="lang" key="corner"></h1>
+            <p class="lang" key="cornerHint"></p>
           </header>
           <p>
-            <strong>位置类：</strong>
+            <strong class="lang" key="position"></strong>
             <select style="width:3.5em" id="cornerinput1" onchange="algSearchByLocation()">
               <option></option>
               <option>UBL</option>
@@ -111,8 +128,9 @@
               <option>DBL</option>
             </select>
           </p>
-          <p><strong>公式查询：</strong><input type="text" placeholder="" id="cornerinput" onkeyup="algSearch()" type="text"
-              maxlength="3" style="text-align:center;width:3em;text-transform:uppercase">
+          <p><strong class="lang" key="pairs"></strong><input type="text" placeholder="" id="cornerinput"
+              onkeyup="algSearch()" type="text" maxlength="3"
+              style="text-align:center;width:3em;text-transform:uppercase">
           </p>
           <div id="div1">
           </div>
@@ -130,6 +148,7 @@
   <script src="assets/js/commutator.js"></script>
   <script src="assets/js/setcode.js"></script>
   <script src="assets/js/corner.js"></script>
+  <script src="assets/js/language.js"></script>
 </body>
 
 </html>

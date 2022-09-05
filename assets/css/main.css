@@ -247,7 +247,7 @@ a {
 	-ms-transition: border-bottom-color 0.2s ease, color 0.2s ease;
 	transition: border-bottom-color 0.2s ease, color 0.2s ease;
 	text-decoration: none;
-	color: #000000;
+	color: #0000ff;
 	border-bottom: dotted 1px rgba(88, 88, 88, 0.5);
 }
 
@@ -305,10 +305,9 @@ h4,
 h5,
 h6 {
 	font-weight: 900;
-	line-height: 1.5;
-	margin: 0 0 2em 0;
-	text-transform: uppercase;
-	letter-spacing: 0.35em;
+	line-height: 1.2;
+	margin: 0 0 1em 0;
+	letter-spacing: 0.2em;
 }
 
 h2 a,
@@ -320,7 +319,7 @@ h6 a {
 }
 
 h2 {
-	font-size: 1.8em;
+	font-size: 1.5em;
 }
 
 h3 {
@@ -355,7 +354,7 @@ h6 {
 @media screen and (max-width: 736px) {
 
 	h2 {
-		font-size: 1.8em;
+		font-size: 1.3em;
 	}
 
 	h3 {
@@ -1905,7 +1904,7 @@ article.special {
 }
 
 header p {
-	margin-top: -1em;
+	margin-top: 0em;
 }
 
 @media screen and (max-width: 736px) {
@@ -2561,7 +2560,7 @@ button,
 	font-size: 0.8em;
 	font-weight: 900;
 	height: 3.5em;
-	letter-spacing: 0.2em;
+	letter-spacing: 0em;
 	line-height: 3.45em;
 	overflow: hidden;
 	padding: 0 1em 0 1em;
@@ -3399,7 +3398,7 @@ body.is-touch .tilessix article .content {
 	}
 
 	.tilessix article {
-		width: calc(25% - 1.25em);
+		width: calc(33.33333% - 1.25em);
 		margin: 1.25em 0 0 1.25em;
 	}
 
@@ -3412,7 +3411,7 @@ body.is-touch .tilessix article .content {
 	}
 
 	.tilessix article {
-		width: calc(25% - 1.25em);
+		width: calc(33.33333% - 1.25em);
 		margin: 1.25em 0 0 1.25em;
 	}
 
@@ -3428,12 +3427,12 @@ body.is-touch .tilessix article .content {
 @media screen and (max-width: 480px) {
 
 	.tilessix {
-		margin: 0;
+		margin: -1.25em 0 0 -1.25em;
 	}
 
 	.tilessix article {
-		width: 25%;
-		margin: 0 0 0 0;
+		width: calc(50% - 1.25em);
+		margin: 1.25em 0 0 1.25em;
 	}
 
 }
