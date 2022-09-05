@@ -54,6 +54,33 @@ const cornerCodeToChichu = {
     "a69": "P"
 };
 
+const cornerCodeToNumber = {
+    "a11": 0,
+    "a13": 2,
+    "a17": 5,
+    "a19": 7,
+    "a21": 8,
+    "a23": 10,
+    "a27": 13,
+    "a29": 15,
+    "a31": 16,
+    "a33": 18,
+    "a37": 21,
+    "a39": 23,
+    "a41": 24,
+    "a43": 26,
+    "a47": 29,
+    "a49": 31,
+    "a51": 32,
+    "a53": 34,
+    "a57": 37,
+    "a59": 39,
+    "a61": 40,
+    "a63": 42,
+    "a67": 45,
+    "a69": 47
+};
+
 const cornerAlgToStandard = {
     "ADM": "ADM",
     "DMA": "ADM",
@@ -11228,9 +11255,10 @@ function algSearch() {
     }
     idValueOrigin = idValueOrigin.toUpperCase();
     const id = [idValueOrigin[0], idValueOrigin[1], idValueOrigin[2]];
+    const codecookie = getCookie("code");
     for (const i in cornerCodeToChichu) {
         for (let j = 0; j <= 2; j++) {
-            if (getCookie(i) === idValueOrigin[j] && i[2] % 2 === 1) {
+            if (codecookie[cornerCodeToNumber[i]] === idValueOrigin[j] && i[2] % 2 === 1) {
                 id[j] = cornerCodeToChichu[i];
             }
         }
@@ -11282,11 +11310,12 @@ function algSearchByLocation() {
     if (typeof id[2] === "undefined") {
         id[2] = "";
     }
+    const codecookie = getCookie("code");
     for (let i = 0; i <= 2; i++) {
-        if (getCookie(cornerChichuToCode[id[i]]) === "") {
+        if (codecookie[cornerCodeToNumber[cornerChichuToCode[id[i]]]] === "") {
             cornerinput[i] = id[i];
         } else {
-            cornerinput[i] = getCookie(cornerChichuToCode[id[i]]);
+            cornerinput[i] = codecookie[cornerCodeToNumber[cornerChichuToCode[id[i]]]];
         }
     }
     document.getElementById("cornerinput").value = `${cornerinput[0]}${cornerinput[1]}${cornerinput[2]}`;

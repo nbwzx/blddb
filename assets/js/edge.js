@@ -54,6 +54,33 @@ const edgeCodeToChichu = {
     "a68": "N"
 };
 
+const edgeCodeToNumber = {
+    "a12": 1,
+    "a14": 3,
+    "a16": 4,
+    "a18": 6,
+    "a22": 9,
+    "a24": 11,
+    "a26": 12,
+    "a28": 14,
+    "a32": 17,
+    "a34": 19,
+    "a36": 20,
+    "a38": 22,
+    "a42": 25,
+    "a44": 27,
+    "a46": 28,
+    "a48": 30,
+    "a52": 33,
+    "a54": 35,
+    "a56": 36,
+    "a58": 38,
+    "a62": 41,
+    "a64": 43,
+    "a66": 44,
+    "a68": 46
+};
+
 const edgeCodeToCustom = {
     "a12": "E",
     "a14": "C",
@@ -14263,9 +14290,10 @@ function algSearch() {
     }
     idValueOrigin = idValueOrigin.toUpperCase();
     const id = [idValueOrigin[0], idValueOrigin[1], idValueOrigin[2]];
+    const codecookie = getCookie("code");
     for (const i in edgeCodeToCustom) {
         for (let j = 0; j <= 2; j++) {
-            if (getCookie(i) === idValueOrigin[j] && i[2] % 2 === 0) {
+            if (codecookie[edgeCodeToNumber[i]] === idValueOrigin[j] && i[2] % 2 === 0) {
                 id[j] = edgeCodeToChichu[i];
             }
         }
@@ -14341,11 +14369,12 @@ function algSearchByLocation() {
     if (typeof id[2] === "undefined") {
         id[2] = "";
     }
+    const codecookie = getCookie("code");
     for (let i = 0; i <= 2; i++) {
-        if (getCookie(edgeChichuToCode[id[i]]) === "") {
+        if (codecookie[edgeCodeToNumber[edgeChichuToCode[id[i]]]] === "") {
             edgeinput[i] = id[i];
         } else {
-            edgeinput[i] = getCookie(edgeChichuToCode[id[i]]);
+            edgeinput[i] = codecookie[edgeCodeToNumber[edgeChichuToCode[id[i]]]];
         }
     }
     document.getElementById("edgeinput").value = `${edgeinput[0]}${edgeinput[1]}${edgeinput[2]}`;
