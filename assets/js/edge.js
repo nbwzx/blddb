@@ -14290,7 +14290,10 @@ function algSearch() {
     }
     idValueOrigin = idValueOrigin.toUpperCase();
     const id = [idValueOrigin[0], idValueOrigin[1], idValueOrigin[2]];
-    const codecookie = getCookie("code");
+    let codecookie = "DEGCGAAJWIXKOOMREDCXTQLMKHIRZZPSBBLSQNJYHFFYWTNP";
+    if (getCookie("code") !== "") {
+        codecookie = getCookie("code");
+    }
     for (const i in edgeCodeToCustom) {
         for (let j = 0; j <= 2; j++) {
             if (codecookie[edgeCodeToNumber[i]] === idValueOrigin[j] && i[2] % 2 === 0) {
@@ -14369,9 +14372,14 @@ function algSearchByLocation() {
     if (typeof id[2] === "undefined") {
         id[2] = "";
     }
-    const codecookie = getCookie("code");
+    let codecookie = "DEGCGAAJWIXKOOMREDCXTQLMKHIRZZPSBBLSQNJYHFFYWTNP";
+    if (getCookie("code") !== "") {
+        codecookie = getCookie("code");
+    }
     for (let i = 0; i <= 2; i++) {
-        if (codecookie[edgeCodeToNumber[edgeChichuToCode[id[i]]]] === "") {
+        if (id[i] === "") {
+            edgeinput[i] = "";
+        } else if (codecookie[edgeCodeToNumber[edgeChichuToCode[id[i]]]] === "") {
             edgeinput[i] = id[i];
         } else {
             edgeinput[i] = codecookie[edgeCodeToNumber[edgeChichuToCode[id[i]]]];
