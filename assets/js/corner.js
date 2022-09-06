@@ -11319,7 +11319,7 @@ function algSearchByLocation() {
     }
     for (let i = 0; i <= 2; i++) {
         if (id[i] === "") {
-            edgeinput[i] = "";
+            cornerinput[i] = "";
         } else if (codecookie[cornerCodeToNumber[cornerChichuToCode[id[i]]]] === "") {
             cornerinput[i] = id[i];
         } else {
