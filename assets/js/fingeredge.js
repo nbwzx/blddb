@@ -33,6 +33,7 @@ function finger(s1, position) {
         }
         if (arr[i] === "R2" || arr[i] === "r2") {
             if (fingerposition === 2) {
+                fingerposition = 0;
                 for (let j = i + 1; j <= arr.length - 1; j++) {
                     if (arr[j] === "R" || arr[i] === "r" || arr[j] === "R2" || arr[i] === "r2") {
                         fingerposition = 0;
@@ -91,6 +92,7 @@ function fingerpain(s1, position) {
         }
         if (arr[i] === "R2" || arr[i] === "r2") {
             if (fingerposition === 2) {
+                fingerposition = 0;
                 for (let j = i + 1; j <= arr.length - 1; j++) {
                     if (arr[j] === "R" || arr[i] === "r" || arr[j] === "R2" || arr[i] === "r2") {
                         fingerposition = 0;
@@ -122,6 +124,7 @@ function fingerback(s1, position) {
         }
         if (arr[i] === "R2" || arr[i] === "r2") {
             if (fingerposition === 2) {
+                fingerposition = 0;
                 for (let j = i + 1; j <= arr.length - 1; j++) {
                     if (arr[j] === "R" || arr[i] === "r" || arr[j] === "R2" || arr[i] === "r2") {
                         fingerposition = 0;
