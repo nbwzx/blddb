@@ -2,7 +2,7 @@
 
 function finger(s1, position) {
     // R' F R' S' R F R' S R F2 R
-    if (fingerback(s1, position) > 4) {
+    if (fingerback(s1, position) > 5) {
         return 0;
     }
     let fingerposition = position;
@@ -57,17 +57,9 @@ function finger(s1, position) {
 
 function fingerpain(s1, position) {
     let pain = 0;
-    if (fingerback(s1, position) > 2) {
-        pain = pain + 1;
-    }
     let fingerposition = position;
     const arr = s1.split(" ");
-    if (arr[0][0] === "B") {
-        pain = pain + 1;
-    }
-    if (arr[arr.length - 1][0] === "B") {
-        pain = pain + 1;
-    }
+    pain = pain + Math.floor(fingerback(s1, position) / 2);
     for (let i = 0; i <= arr.length - 1; i++) {
         if (fingerposition === 4 && (arr[i] === "U2" || arr[i][0] === "M" || arr[i][0] === "E")) {
             pain = pain + 1;
@@ -151,7 +143,7 @@ function fingerbeginfrom(s1) {
     let fingerbegin = "",
         count = 0;
     for (let i = 0; i <= 2; i++) {
-        if (finger(s1, 2) === 1 && fingerpain(s1, 2) === i) {
+        if (finger(s1, 2) === 1 && (fingerpain(s1, 2) === i || fingerpain(s1, 2) === i + 1)) {
             count = count + 1;
             fingerbegin = `${fingerbegin}${arrLang[lang]["homegrip"]}/`;
         }
