@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <title class="lang" key="parity"></title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="assets/css/language.css" />
+  <link rel="icon" href="images/logo.svg" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="images/logo.png" />
+</head>
+
+<body>
+  <div class="allscreen">
+    <div id="wrapper">
+      <header id="header">
+        <div class="inner">
+          <a href="index.html" class="logo">
+            <span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">blddb</span>
+          </a>
+          <div class="language translate" style="float:right;width:90px;">
+            <div class="status_circle status_circle_hide">English</div>
+          </div>
+        </div>
+      </header>
+      <div id="main">
+        <div class="inner">
+          <header>
+            <h1 style="text-align:center" class="lang" key="parity"></h1>
+            <p class="lang" key="parityHint"></p>
+          </header>
+          <p><strong class="lang" key="parity1"></strong>
+            <input type="text" placeholder="" id="parityinput1" onkeyup="algSearch()" type="text"
+              maxlength="1" style="text-align:center;width:1.5em;text-transform:uppercase">
+            --
+            <input type="text" placeholder="" id="parityinput2" onkeyup="algSearch()" type="text"
+              maxlength="1" style="text-align:center;width:1.5em;text-transform:uppercase">
+            &nbsp;&nbsp;
+            <strong  class="lang" key="parity2"></strong>
+            <input type="text" placeholder="" id="parityinput3" onkeyup="algSearch()" type="text"
+              maxlength="1" style="text-align:center;width:1.5em;text-transform:uppercase">
+            --
+            <input type="text" placeholder="" id="parityinput4" onkeyup="algSearch()" type="text"
+              maxlength="1" style="text-align:center;width:1.5em;text-transform:uppercase">
+          </p>
+          <div id="div1">
+          </div>
+          <br />
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/fingeredge.js"></script>
+  <script src="assets/js/commutator.js"></script>
+  <script src="assets/js/setcode.js"></script>
+  <script src="assets/js/parity.js"></script>
+  <script src="assets/js/language.js"></script>
+</body>
+
+</html>
