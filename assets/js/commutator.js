@@ -529,13 +529,13 @@ function simplifyfinal(array) {
             if (arr[i][0] === "M" && arr[i + 1][0] === "R") {
                 arr = swaparr(arr, i, i + 1);
             }
-            if (arr[i][0] === "D" && arr[i + 1][0] === "E") {
+            if (arr[i][0] === "E" && arr[i + 1][0] === "D") {
                 arr = swaparr(arr, i, i + 1);
             }
-            if (arr[i][0] === "B" && arr[i + 1][0] === "S") {
+            if (arr[i][0] === "S" && arr[i + 1][0] === "B") {
                 arr = swaparr(arr, i, i + 1);
             }
-            if (arr[i][0] === "L" && arr[i + 1][0] === "M") {
+            if (arr[i][0] === "M" && arr[i + 1][0] === "L") {
                 arr = swaparr(arr, i, i + 1);
             }
         }

@@ -8,6 +8,38 @@ function finger(s1, position) {
     let fingerposition = position;
     const arr = s1.split(" ");
     for (let i = 0; i <= arr.length - 1; i++) {
+        if (i > 0 && arr[i][0] === "E") {
+            if (arr[i - 1][0] === "D") {
+                return 0;
+            }
+            if (arr[i - 1] === "U2") {
+                return 0;
+            }
+            if (arr[i - 1][0] === "U" && arr[i] === "E2") {
+                return 0;
+            }
+        }
+        if (i > 0 && arr[i][0] === "S") {
+            if (arr[i - 1] === "F2" || arr[i - 1][0] === "B") {
+                return 0;
+            }
+        }
+        if (i > 0 && arr[i][0] === "B") {
+            if (arr[i - 1][0] === "F") {
+                if (arr[i - 1] === "F2" || arr[i] === "B2") {
+                    return 0;
+                }
+            }
+        }
+        if (i > 0 && i < arr.length - 1) {
+            if (arr[i][0] === "E" || arr[i][0] === "M" || arr[i][0] === "S") {
+                if (arr[i - 1][0] === "E" || arr[i - 1][0] === "M" || arr[i - 1][0] === "S") {
+                    if (arr[i + 1][0] === "E" || arr[i + 1][0] === "M" || arr[i + 1][0] === "S") {
+                        return 0;
+                    }
+                }
+            }
+        }
         if (fingerposition === 4 && (arr[i][0] === "B" || arr[i][0] === "F" || arr[i] === "D2" || arr[i] === "S2" || arr[i] === "M2")) {
             return 0;
         }
