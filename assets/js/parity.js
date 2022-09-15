@@ -1707,7 +1707,7 @@ function getCookie(cname) {
 }
 
 function algSearch() {
-    let idValueOrigin = document.getElementById("parityinput1").value + document.getElementById("parityinput2").value + document.getElementById("parityinput3").value + document.getElementById("parityinput4").value ;
+    let idValueOrigin = document.getElementById("parityinput1").value + document.getElementById("parityinput2").value + document.getElementById("parityinput3").value + document.getElementById("parityinput4").value;
     if (typeof idValueOrigin === "undefined") {
         return;
     }
@@ -1735,6 +1735,18 @@ function algSearch() {
     const div1 = document.getElementById("div1");
     const rows = 18;
     if (parityAlgToInfo.hasOwnProperty(idValue)) {
+        if (document.getElementById("parityinput1") === document.activeElement) {
+            document.getElementById("parityinput1").blur();
+        }
+        if (document.getElementById("parityinput2") === document.activeElement) {
+            document.getElementById("parityinput2").blur();
+        }
+        if (document.getElementById("parityinput3") === document.activeElement) {
+            document.getElementById("parityinput3").blur();
+        }
+        if (document.getElementById("parityinput4") === document.activeElement) {
+            document.getElementById("parityinput4").blur();
+        }
         let tab = `<table id="table"><thead><tr><th>${arrLang[lang]["no"]}</th><th>${arrLang[lang]["algorithm"]}</th><th>${arrLang[lang]["thumbPosition"]}</th></tr></thead><tbody>`;
         for (let i = 0; i < rows; i++) {
             if (parityAlgToInfo[idValue].length <= i) {
