@@ -3340,6 +3340,14 @@ body.is-touch .tileseight article .content {
 	background-color: #8499e7;
 }
 
+.tilessix article.style7>.image:before {
+	background-color: #e7b984;
+}
+
+.tilessix article.style8>.image:before {
+	background-color: #98c316;
+}
+
 body:not(.is-touch) .tilessix article:hover>.image {
 	-moz-transform: scale(1.1);
 	-webkit-transform: scale(1.1);
