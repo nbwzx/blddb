@@ -58,7 +58,10 @@ const arrLang = {
         "no": "No.",
         "algorithm": "Algorithm",
         "commutator": "Commutator",
-        "thumbPosition": "Thumb Position"
+        "thumbPosition": "Thumb Position",
+        "image": "Letter pairs Image (Chinese)",
+        "imageHint": "请在下方输入你要查询的联想词编码（例如: CK）",
+        "imagePairs": "联想词查询："
     },
     "zh": {
         "title": "三盲公式库",
@@ -119,7 +122,10 @@ const arrLang = {
         "no": "序号",
         "algorithm": "公式",
         "commutator": "交换子",
-        "thumbPosition": "起手"
+        "thumbPosition": "起手",
+        "image": "联想词库",
+        "imageHint": "请在下方输入你要查询的联想词编码（例如: CK）",
+        "imagePairs": "联想词查询："
     }
 };
 
