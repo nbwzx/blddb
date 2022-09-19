@@ -521,6 +521,11 @@ const imageAlgToInfo = {
     "ZZ":  ["政治", "住宅", "战争", "制造业", "作者", "症状", "杂志", "郑州", "主张", "增长率", "自治区", "职责", "整治", "资质", "装置", "制造商", "增值税", "种子", "准则", "中证", "资助", "中资", "著作", "政治性", "政治局", "总值", "支柱", "郑州市", "桌子", "重症", "种族", "正值", "著作权", "宗旨", "重灾区", "周转", "粽子", "执政党", "政治家", "州长", "专职", "珍珠", "组织者", "正宗", "纸质", "藏族", "自治州", "政治权利", "佐证", "征兆", "尊者", "蜘蛛", "株洲", "债主", "杂质", "转折点", "壮族", "助长", "纸张", "智者", "长子", "自主权", "漳州", "专制", "真主党", "重镇", "总长", "长者", "杂志社", "总站", "住址", "主旨", "侄子", "证照", "质子", "住宅楼", "指针", "庄子", "竹子", "政治学", "总指挥", "政治部", "重装", "株洲市", "爪子", "专著", "制造者", "住宅区", "主治", "智障", "中组部", "助阵", "祖宗", "自治县", "柱子", "章子怡", "枣庄", "主政", "中转站", "政治化"]
 };
 
+function vw(v) {
+    const w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+    return v * w / 100;
+}
+
 function algSearch() {
     let idValueOrigin = document.getElementById("imageinput").value;
     if (typeof idValueOrigin === "undefined") {
@@ -536,18 +541,17 @@ function algSearch() {
         }
         let tab = "";
         let maxi = rows;
+        const maxMod = Math.floor(vw(95) / 95);
         for (let i = 0; i < rows; i++) {
             if (imageAlgToInfo[idValue].length <= i) {
                 maxi = i;
                 break;
             }
-            let imageAlgToInfoNew = "";
-            if (i % 5 === 0) {
+            if (i % maxMod === 0) {
                 tab += "<tr>";
             }
-            imageAlgToInfoNew = imageAlgToInfo[idValue][i];
-            tab += `<td style='width:min(20vw, 12vh)'>${imageAlgToInfoNew}</td>`;
-            if (i % 5 === 4) {
+            tab += `<td style='width:95px'>${imageAlgToInfo[idValue][i]}</td>`;
+            if ((i + 1) % maxMod === 0) {
                 tab += "</tr>";
             }
         }

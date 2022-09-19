@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title class="lang" key="image"></title>
+  <title>联想词库</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
   <link rel="stylesheet" href="assets/css/main.css" />
@@ -16,7 +16,7 @@
       border-spacing: 0;
       border-spacing: 0;
     }
-  </style>  
+  </style>
 </head>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-7X9DPS593M"></script>
@@ -31,32 +31,26 @@
 </script>
 
 <body>
-  <div class="allscreen">
-    <div id="wrapper">
-      <header id="header">
-        <div class="inner">
-          <a href="index.html" class="logo">
-            <span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">blddb</span>
-          </a>
-          <div class="language translate" style="float:right;width:90px;">
-            <div class="status_circle status_circle_hide">English</div>
-          </div>
+  <div id="wrapper">
+    <header id="header">
+      <div class="inner">
+        <a href="index.html" class="logo">
+          <span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">blddb</span>
+        </a>
+      </div>
+    </header>
+    <div id="main">
+      <div class="inner">
+        <header>
+          <h1 style="text-align:center">联想词库</h1>
+          <p>请在下方输入你要查询的联想词编码（例如: CK）</p>
+        </header>
+        <p><strong>联想词查询：</strong><input type="text" placeholder="" id="imageinput" onkeyup="algSearch()" type="text"
+            maxlength="2" style="text-align:center;width:2.5em;text-transform:uppercase">
+        </p>
+        <div id="div1">
         </div>
-      </header>
-      <div id="main">
-        <div class="inner">
-          <header>
-            <h1 style="text-align:center" class="lang" key="image"></h1>
-            <p class="lang" key="imageHint"></p>
-          </header>
-          <p><strong class="lang" key="imagePairs"></strong><input type="text" placeholder="" id="imageinput"
-              onkeyup="algSearch()" type="text" maxlength="2"
-              style="text-align:center;width:2.5em;text-transform:uppercase">
-          </p>
-          <div id="div1">
-          </div>
-          <br />
-        </div>
+        <br />
       </div>
     </div>
   </div>
@@ -67,7 +61,6 @@
   <script src="assets/js/main.js"></script>
   <script src="assets/js/setcode.js"></script>
   <script src="assets/js/image.js"></script>
-  <script src="assets/js/language.js"></script>
 </body>
 
 </html>
