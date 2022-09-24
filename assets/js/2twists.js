@@ -9263,12 +9263,7 @@ function algSearch() {
     const div1 = document.getElementById("div1");
     const rows = 18;
     if (cornerAlgToInfo.hasOwnProperty(idValue)) {
-        let tab = "";
-        if (lang === "zh") {
-            tab = "<table id=\"table\"><thead><tr><th>序号</th><th>公式</th><th>交换子</th><th>起手</th></tr></thead><tbody>";
-        } else {
-            tab = "<table id=\"table\"><thead><tr><th>No.</th><th>Algorithm</th><th>Commutator</th><th>Thumb Position</th></tr></thead><tbody>";
-        }
+        let tab = `<table id="table"><thead><tr><th>${arrLang[lang]["no"]}</th><th>${arrLang[lang]["algorithm"]}</th><th>${arrLang[lang]["commutator"]}</th><th>${arrLang[lang]["thumbPosition"]}</th></tr></thead><tbody>`;
         for (let i = 0; i < rows; i++) {
             if (cornerAlgToInfo[idValue].length <= i) {
                 break;
