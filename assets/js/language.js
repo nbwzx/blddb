@@ -58,7 +58,22 @@ const arrLang = {
         "no": "No.",
         "algorithm": "Algorithm",
         "commutator": "Commutator",
-        "thumbPosition": "Thumb Position"
+        "thumbPosition": "Thumb Position",
+        "buffer":"Buffer: ",
+        "nightmare": "Nightmare Alg Set",
+        "nightmareDescription": "The online website for Nightmare.",
+        "nightmareLetters": "Letters",
+        "nightmareEdge": "3-Style Edge",
+        "nightmareCorner": "3-Style Corner",
+        "nightmare2Flips": "Edge Flip",
+        "nightmare2Twists": "Corner Twist",
+        "nightmareParity": "Parity",
+        "nightmareParityTwist": "Parity with a Flip/Twist",
+        "nightmare2e2e": "2e2e",
+        "nightmare2c2c": "2c2c",
+        "nightmare3Twists": "3 Corner Twist",
+        "nightmare4Flips": "4 Edge Flip",
+        "nightmare5Style": "5-Style Edge(UR)"
     },
     "zh": {
         "title": "三盲公式库",
@@ -119,7 +134,22 @@ const arrLang = {
         "no": "序号",
         "algorithm": "公式",
         "commutator": "交换子",
-        "thumbPosition": "起手"
+        "thumbPosition": "起手",
+        "buffer":"缓冲：",
+        "nightmare": "噩梦公式集",
+        "nightmareDescription": "噩梦公式集的在线网页版本。",
+        "nightmareLetters": "编码",
+        "nightmareEdge": "全缓冲棱",
+        "nightmareCorner": "全缓冲角",
+        "nightmare2Flips": "全两棱翻",
+        "nightmare2Twists": "全两角翻",
+        "nightmareParity": "奇偶",
+        "nightmareParityTwist": "奇偶带翻",
+        "nightmare2e2e": "2e2e",
+        "nightmare2c2c": "2c2c",
+        "nightmare3Twists": "全三角翻",
+        "nightmare4Flips": "全四棱翻",
+        "nightmare5Style": "五循环(UR)"
     }
 };
 

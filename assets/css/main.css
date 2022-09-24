@@ -307,7 +307,7 @@ h6 {
 	font-weight: 900;
 	line-height: 1.2;
 	margin: 0 0 1em 0;
-	letter-spacing: 0.2em;
+	letter-spacing: 0.1em;
 }
 
 h2 a,
@@ -3321,23 +3321,23 @@ body.is-touch .tileseight article .content {
 }
 
 .tilessix article.style2>.image:before {
-	background-color: #7ecaf6;
-}
-
-.tilessix article.style3>.image:before {
 	background-color: #7bd0c1;
 }
 
-.tilessix article.style4>.image:before {
-	background-color: #c75b9b;
+.tilessix article.style3>.image:before {
+	background-color: #7ecaf6;
 }
 
-.tilessix article.style5>.image:before {
+.tilessix article.style4>.image:before {
 	background-color: #ae85ca;
 }
 
-.tilessix article.style6>.image:before {
+.tilessix article.style5>.image:before {
 	background-color: #8499e7;
+}
+
+.tilessix article.style6>.image:before {
+	background-color: #c75b9b;
 }
 
 .tilessix article.style7>.image:before {
@@ -3345,7 +3345,23 @@ body.is-touch .tileseight article .content {
 }
 
 .tilessix article.style8>.image:before {
+	background-color: #e58cdb;
+}
+
+.tilessix article.style9>.image:before {
 	background-color: #98c316;
+}
+
+.tilessix article.style10>.image:before {
+	background-color: #619fc1;
+}
+
+.tilessix article.style11>.image:before {
+	background-color: #e59b8c;
+}
+
+.tilessix article.style12>.image:before {
+	background-color: #ffd333;
 }
 
 body:not(.is-touch) .tilessix article:hover>.image {
