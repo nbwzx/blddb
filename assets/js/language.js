@@ -73,7 +73,8 @@ const arrLang = {
         "nightmare2c2c": "2c2c",
         "nightmare3Twists": "3 Corner Twist",
         "nightmare4Flips": "4 Edge Flip",
-        "nightmare5Style": "5-Style Edge(UR)"
+        "nightmare5Style": "5-Style Edge(UR)",
+        "style": "Style："
     },
     "zh": {
         "title": "三盲公式库",
@@ -149,7 +150,8 @@ const arrLang = {
         "nightmare2c2c": "2c2c",
         "nightmare3Twists": "全三角翻",
         "nightmare4Flips": "全四棱翻",
-        "nightmare5Style": "五循环(UR)"
+        "nightmare5Style": "五循环(UR)",
+        "style": "风格："
     }
 };
 
