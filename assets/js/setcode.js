@@ -134,9 +134,9 @@ function setColor(casenumgiven) {
           <td class=xl0></td>
           <td class=xl0></td>
           <td class=xl0></td>
-          <td class=xl${color1}><input id="a11" class="xl${color1} input" maxlength="1" onkeyup="setAll()"></td>
-          <td class=xl${color1}><input id="a12" class="xl${color1} input" maxlength="1" onkeyup="setAll()"></td>
-          <td class=xl${color1}><input id="a13" class="xl${color1} input" maxlength="1" onkeyup="setAll()"></td>
+          <td class=xl${color1}><input id="a11" class="xl${color1} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase"></td>
+          <td class=xl${color1}><input id="a12" class="xl${color1} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase"></td>
+          <td class=xl${color1}><input id="a13" class="xl${color1} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase"></td>
           <td class=xl0></td>
           <td class=xl0></td>
           <td class=xl0></td>
@@ -148,9 +148,9 @@ function setColor(casenumgiven) {
           <td class=xl0></td>
           <td class=xl0></td>
           <td class=xl0></td>
-          <td class=xl${color1}><input id="a14" class="xl${color1} input" maxlength="1" onkeyup="setAll()"></td>
+          <td class=xl${color1}><input id="a14" class="xl${color1} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase"></td>
           <td class=xl${color1}></td>
-          <td class=xl${color1}><input id="a16" class="xl${color1} input" maxlength="1" onkeyup="setAll()"></td>
+          <td class=xl${color1}><input id="a16" class="xl${color1} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase"></td>
           <td class=xl0></td>
           <td class=xl0></td>
           <td class=xl0></td>
@@ -162,9 +162,9 @@ function setColor(casenumgiven) {
           <td class=xl0></td>
           <td class=xl0></td>
           <td class=xl0></td>
-          <td class=xl${color1}><input id="a17" class="xl${color1} input" maxlength="1" onkeyup="setAll()"></td>
-          <td class=xl${color1}><input id="a18" class="xl${color1} input" maxlength="1" onkeyup="setAll()"></td>
-          <td class=xl${color1}><input id="a19" class="xl${color1} input" maxlength="1" onkeyup="setAll()"></td>
+          <td class=xl${color1}><input id="a17" class="xl${color1} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase"></td>
+          <td class=xl${color1}><input id="a18" class="xl${color1} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase"></td>
+          <td class=xl${color1}><input id="a19" class="xl${color1} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase"></td>
           <td class=xl0></td>
           <td class=xl0></td>
           <td class=xl0></td>
@@ -173,68 +173,68 @@ function setColor(casenumgiven) {
           <td class=xl0></td>
         </tr>
         <tr>
-          <td class=xl${color2}><input id="a31" class="xl${color2} input" maxlength="1" onkeyup="setAll()"></td>
-          <td class=xl${color2}><input id="a32" class="xl${color2} input" maxlength="1" onkeyup="setAll()"></td>
-          <td class=xl${color2}><input id="a33" class="xl${color2} input" maxlength="1" onkeyup="setAll()"></td>
-          <td class=xl${color3}><input id="a51" class="xl${color3} input" maxlength="1" onkeyup="setAll()"></td>
-          <td class=xl${color3}><input id="a52" class="xl${color3} input" maxlength="1" onkeyup="setAll()"></td>
-          <td class=xl${color3}><input id="a53" class="xl${color3} input" maxlength="1" onkeyup="setAll()"></td>
-          <td class=xl${color4}><input id="a41" class="xl${color4} input" maxlength="1" onkeyup="setAll()"></td>
-          <td class=xl${color4}><input id="a42" class="xl${color4} input" maxlength="1" onkeyup="setAll()"></td>
-          <td class=xl${color4}><input id="a43" class="xl${color4} input" maxlength="1" onkeyup="setAll()"></td>
-          <td class=xl${color5}><input id="a61" class="xl${color5} input" maxlength="1" onkeyup="setAll()"></td>
-          <td class=xl${color5}><input id="a62" class="xl${color5} input" maxlength="1" onkeyup="setAll()"></td>
-          <td class=xl${color5}><input id="a63" class="xl${color5} input" maxlength="1" onkeyup="setAll()"></td>
+          <td class=xl${color2}><input id="a31" class="xl${color2} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase"></td>
+          <td class=xl${color2}><input id="a32" class="xl${color2} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase"></td>
+          <td class=xl${color2}><input id="a33" class="xl${color2} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase"></td>
+          <td class=xl${color3}><input id="a51" class="xl${color3} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase"></td>
+          <td class=xl${color3}><input id="a52" class="xl${color3} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase"></td>
+          <td class=xl${color3}><input id="a53" class="xl${color3} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase"></td>
+          <td class=xl${color4}><input id="a41" class="xl${color4} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase"></td>
+          <td class=xl${color4}><input id="a42" class="xl${color4} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase"></td>
+          <td class=xl${color4}><input id="a43" class="xl${color4} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase"></td>
+          <td class=xl${color5}><input id="a61" class="xl${color5} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase"></td>
+          <td class=xl${color5}><input id="a62" class="xl${color5} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase"></td>
+          <td class=xl${color5}><input id="a63" class="xl${color5} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase"></td>
         </tr>
         <tr>
-          <td class=xl${color2}><input id="a34" class="xl${color2} input" maxlength="1" onkeyup="setAll()"></td>
+          <td class=xl${color2}><input id="a34" class="xl${color2} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase"></td>
           <td class=xl${color2}></td>
-          <td class=xl${color2}><input id="a36" class="xl${color2} input" maxlength="1" onkeyup="setAll()"></td>
-          <td class=xl${color3}><input id="a54" class="xl${color3} input" maxlength="1" onkeyup="setAll()"></td>
+          <td class=xl${color2}><input id="a36" class="xl${color2} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase"></td>
+          <td class=xl${color3}><input id="a54" class="xl${color3} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase"></td>
           <td class=xl${color3}></td>
-          <td class=xl${color3}><input id="a56" class="xl${color3} input" maxlength="1" onkeyup="setAll()"></td>
-          <td class=xl${color4}><input id="a44" class="xl${color4} input" maxlength="1" onkeyup="setAll()"></td>
+          <td class=xl${color3}><input id="a56" class="xl${color3} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase"></td>
+          <td class=xl${color4}><input id="a44" class="xl${color4} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase"></td>
           <td class=xl${color4}></td>
-          <td class=xl${color4}><input id="a46" class="xl${color4} input" maxlength="1" onkeyup="setAll()"></td>
-          <td class=xl${color5}><input id="a64" class="xl${color5} input" maxlength="1" onkeyup="setAll()"></td>
+          <td class=xl${color4}><input id="a46" class="xl${color4} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase"></td>
+          <td class=xl${color5}><input id="a64" class="xl${color5} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase"></td>
           <td class=xl${color5}></td>
-          <td class=xl${color5}><input id="a66" class="xl${color5} input" maxlength="1" onkeyup="setAll()"></td>
+          <td class=xl${color5}><input id="a66" class="xl${color5} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase"></td>
         </tr>
         <tr>
-          <td class=xl${color2}><input id="a37" class="xl${color2} input" maxlength="1" onkeyup="setAll()"></td>
-          <td class=xl${color2}><input id="a38" class="xl${color2} input" maxlength="1" onkeyup="setAll()"></td>
-          <td class=xl${color2}><input id="a39" class="xl${color2} input" maxlength="1" onkeyup="setAll()"></td>
-          <td class=xl${color3}><input id="a57" class="xl${color3} input" maxlength="1" onkeyup="setAll()"></td>
-          <td class=xl${color3}><input id="a58" class="xl${color3} input" maxlength="1" onkeyup="setAll()"></td>
-          <td class=xl${color3}><input id="a59" class="xl${color3} input" maxlength="1" onkeyup="setAll()"></td>
-          <td class=xl${color4}><input id="a47" class="xl${color4} input" maxlength="1" onkeyup="setAll()"></td>
-          <td class=xl${color4}><input id="a48" class="xl${color4} input" maxlength="1" onkeyup="setAll()"></td>
-          <td class=xl${color4}><input id="a49" class="xl${color4} input" maxlength="1" onkeyup="setAll()"></td>
-          <td class=xl${color5}><input id="a67" class="xl${color5} input" maxlength="1" onkeyup="setAll()"></td>
-          <td class=xl${color5}><input id="a68" class="xl${color5} input" maxlength="1" onkeyup="setAll()"></td>
-          <td class=xl${color5}><input id="a69" class="xl${color5} input" maxlength="1" onkeyup="setAll()"></td>
-        </tr>
-        <tr>
-          <td class=xl0></td>
-          <td class=xl0></td>
-          <td class=xl0></td>
-          <td class=xl${color6}><input id="a21" class="xl${color6} input" maxlength="1" onkeyup="setAll()"></td>
-          <td class=xl${color6}><input id="a22" class="xl${color6} input" maxlength="1" onkeyup="setAll()"></td>
-          <td class=xl${color6}><input id="a23" class="xl${color6} input" maxlength="1" onkeyup="setAll()"></td>
-          <td class=xl0></td>
-          <td class=xl0></td>
-          <td class=xl0></td>
-          <td class=xl0></td>
-          <td class=xl0></td>
-          <td class=xl0></td>
+          <td class=xl${color2}><input id="a37" class="xl${color2} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase"></td>
+          <td class=xl${color2}><input id="a38" class="xl${color2} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase"></td>
+          <td class=xl${color2}><input id="a39" class="xl${color2} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase"></td>
+          <td class=xl${color3}><input id="a57" class="xl${color3} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase"></td>
+          <td class=xl${color3}><input id="a58" class="xl${color3} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase"></td>
+          <td class=xl${color3}><input id="a59" class="xl${color3} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase"></td>
+          <td class=xl${color4}><input id="a47" class="xl${color4} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase"></td>
+          <td class=xl${color4}><input id="a48" class="xl${color4} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase"></td>
+          <td class=xl${color4}><input id="a49" class="xl${color4} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase"></td>
+          <td class=xl${color5}><input id="a67" class="xl${color5} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase"></td>
+          <td class=xl${color5}><input id="a68" class="xl${color5} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase"></td>
+          <td class=xl${color5}><input id="a69" class="xl${color5} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase"></td>
         </tr>
         <tr>
           <td class=xl0></td>
           <td class=xl0></td>
           <td class=xl0></td>
-          <td class=xl${color6}><input id="a24" class="xl${color6} input" maxlength="1" onkeyup="setAll()"></td>
+          <td class=xl${color6}><input id="a21" class="xl${color6} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase"></td>
+          <td class=xl${color6}><input id="a22" class="xl${color6} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase"></td>
+          <td class=xl${color6}><input id="a23" class="xl${color6} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase"></td>
+          <td class=xl0></td>
+          <td class=xl0></td>
+          <td class=xl0></td>
+          <td class=xl0></td>
+          <td class=xl0></td>
+          <td class=xl0></td>
+        </tr>
+        <tr>
+          <td class=xl0></td>
+          <td class=xl0></td>
+          <td class=xl0></td>
+          <td class=xl${color6}><input id="a24" class="xl${color6} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase"></td>
           <td class=xl${color6}></td>
-          <td class=xl${color6}><input id="a26" class="xl${color6} input" maxlength="1" onkeyup="setAll()"></td>
+          <td class=xl${color6}><input id="a26" class="xl${color6} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase"></td>
           <td class=xl0></td>
           <td class=xl0></td>
           <td class=xl0></td>
@@ -246,9 +246,9 @@ function setColor(casenumgiven) {
           <td class=xl0></td>
           <td class=xl0></td>
           <td class=xl0></td>
-          <td class=xl${color6}><input id="a27" class="xl${color6} input" maxlength="1" onkeyup="setAll()"></td>
-          <td class=xl${color6}><input id="a28" class="xl${color6} input" maxlength="1" onkeyup="setAll()"></td>
-          <td class=xl${color6}><input id="a29" class="xl${color6} input" maxlength="1" onkeyup="setAll()"></td>
+          <td class=xl${color6}><input id="a27" class="xl${color6} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase"></td>
+          <td class=xl${color6}><input id="a28" class="xl${color6} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase"></td>
+          <td class=xl${color6}><input id="a29" class="xl${color6} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase"></td>
           <td class=xl0></td>
           <td class=xl0></td>
           <td class=xl0></td>
@@ -281,7 +281,7 @@ function setAll() {
         if (byid(i).value === "") {
             str = str + codecookie[count];
         } else {
-            str = str + byid(i).value;
+            str = str + byid(i).value.toUpperCase();
         }
         count = count + 1;
     }
