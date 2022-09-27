@@ -54,33 +54,6 @@ const edgeCodeToChichu = {
     "a68": "N"
 };
 
-const edgeCodeToCustom = {
-    "a12": "E",
-    "a14": "C",
-    "a16": "G",
-    "a18": "A",
-    "a22": "I",
-    "a24": "K",
-    "a26": "O",
-    "a28": "M",
-    "a32": "D",
-    "a34": "X",
-    "a36": "T",
-    "a38": "L",
-    "a42": "H",
-    "a44": "R",
-    "a46": "Z",
-    "a48": "P",
-    "a52": "B",
-    "a54": "S",
-    "a56": "Q",
-    "a58": "J",
-    "a62": "F",
-    "a64": "Y",
-    "a66": "W",
-    "a68": "N"
-};
-
 const edgeCodeToNumber = {
     "a12": 1,
     "a14": 3,
@@ -1869,7 +1842,7 @@ function algSearch() {
     if (getCookie("code") !== "") {
         codecookie = getCookie("code");
     }
-    for (const i in edgeCodeToCustom) {
+    for (const i in edgeCodeToChichu) {
         for (let j = 0; j <= 1; j++) {
             if (codecookie[edgeCodeToNumber[i]] === idValueOrigin[j] && i[2] % 2 === 0) {
                 id[j] = edgeCodeToChichu[i];

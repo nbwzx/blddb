@@ -1,106 +1,6 @@
 "use strict";
 
-const cornerCodeToCustom = {
-    "a11": "D",
-    "a12": "E",
-    "a13": "G",
-    "a14": "C",
-    "a16": "G",
-    "a17": "A",
-    "a18": "A",
-    "a19": "J",
-    "a21": "W",
-    "a22": "I",
-    "a23": "X",
-    "a24": "K",
-    "a26": "O",
-    "a27": "O",
-    "a28": "M",
-    "a29": "R",
-    "a31": "E",
-    "a32": "D",
-    "a33": "C",
-    "a34": "X",
-    "a36": "T",
-    "a37": "Q",
-    "a38": "L",
-    "a39": "M",
-    "a41": "K",
-    "a42": "H",
-    "a43": "I",
-    "a44": "R",
-    "a46": "Z",
-    "a47": "Z",
-    "a48": "P",
-    "a49": "S",
-    "a51": "B",
-    "a52": "B",
-    "a53": "L",
-    "a54": "S",
-    "a56": "Q",
-    "a57": "N",
-    "a58": "J",
-    "a59": "Y",
-    "a61": "H",
-    "a62": "F",
-    "a63": "F",
-    "a64": "Y",
-    "a66": "W",
-    "a67": "T",
-    "a68": "N",
-    "a69": "P"
-};
-
-const cornerCodeToSpeffz = {
-    "a11": "A",
-    "a12": "A",
-    "a13": "B",
-    "a14": "D",
-    "a16": "B",
-    "a17": "D",
-    "a18": "C",
-    "a19": "C",
-    "a21": "U",
-    "a22": "U",
-    "a23": "V",
-    "a24": "X",
-    "a26": "V",
-    "a27": "X",
-    "a28": "W",
-    "a29": "W",
-    "a31": "E",
-    "a32": "E",
-    "a33": "F",
-    "a34": "H",
-    "a36": "F",
-    "a37": "H",
-    "a38": "G",
-    "a39": "G",
-    "a41": "M",
-    "a42": "M",
-    "a43": "N",
-    "a44": "P",
-    "a46": "N",
-    "a47": "P",
-    "a48": "O",
-    "a49": "O",
-    "a51": "I",
-    "a52": "I",
-    "a53": "J",
-    "a54": "L",
-    "a56": "J",
-    "a57": "L",
-    "a58": "K",
-    "a59": "K",
-    "a61": "Q",
-    "a62": "Q",
-    "a63": "R",
-    "a64": "T",
-    "a66": "R",
-    "a67": "T",
-    "a68": "S",
-    "a69": "S"
-};
+const idOrder = ["a11", "a12", "a13", "a14", "a16", "a17", "a18", "a19", "a21", "a22", "a23", "a24", "a26", "a27", "a28", "a29", "a31", "a32", "a33", "a34", "a36", "a37", "a38", "a39", "a41", "a42", "a43", "a44", "a46", "a47", "a48", "a49", "a51", "a52", "a53", "a54", "a56", "a57", "a58", "a59", "a61", "a62", "a63", "a64", "a66", "a67", "a68", "a69"];
 
 function setCookie(cname, cvalue, exdays) {
     const d = new Date();
@@ -134,7 +34,7 @@ function init() {
     }
     if (byid("codeinput") !== null) {
         let count = 0;
-        for (const i in cornerCodeToCustom) {
+        for (const i of idOrder) {
             byid(i).value = codecookie[count];
             count = count + 1;
         }
@@ -377,7 +277,7 @@ function setAll() {
     let str = "";
     let count = 0;
     const codecookie = getCookie("code");
-    for (const i in cornerCodeToCustom) {
+    for (const i of idOrder) {
         if (byid(i).value === "") {
             str = str + codecookie[count];
         } else {
@@ -391,7 +291,7 @@ function setAll() {
 function setChichu() {
     const str = "DEGCGAAJWIXKOOMREDCXTQLMKHIRZZPSBBLSQNJYHFFYWTNP";
     let count = 0;
-    for (const i in cornerCodeToCustom) {
+    for (const i of idOrder) {
         byid(i).value = str[count];
         count = count + 1;
     }
@@ -401,7 +301,7 @@ function setChichu() {
 function setSpeffz() {
     const str = "AABDBDCCUUVXVXWWEEFHFHGGMMNPNPOOIIJLJLKKQQRTRTSS";
     let count = 0;
-    for (const i in cornerCodeToCustom) {
+    for (const i of idOrder) {
         byid(i).value = str[count];
         count = count + 1;
     }
