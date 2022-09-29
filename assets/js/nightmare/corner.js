@@ -6,22 +6,6 @@ const cornerAlgToStandard = JSON.parse($.getJSON({"url": "../assets/json/cornerA
 const cornerPosToCode = JSON.parse($.getJSON({"url": "../assets/json/cornerPosToCode.json", "async": false}).responseText);
 const nightmareCornerAlgToInfo = JSON.parse($.getJSON({"url": "../assets/json/nightmare/nightmareCornerAlgToInfo.json", "async": false}).responseText);
 
-function getCookie(cname) {
-    const name = `${cname}=`;
-    const decodedCookie = decodeURIComponent(document.cookie);
-    const ca = decodedCookie.split(";");
-    for (let i = 0; i < ca.length; i++) {
-        let c = ca[i];
-        while (c.charAt(0) === " ") {
-            c = c.substring(1);
-        }
-        if (c.indexOf(name) === 0) {
-            return c.substring(name.length, c.length);
-        }
-    }
-    return "";
-}
-
 function sortByCode(x, y) {
     const cornerCodeToNumber2 = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "W", "M", "N", "O", "P", "Q", "R", "S", "T", "X", "Y", "Z"];
     return (cornerCodeToNumber2.indexOf(x[1]) - cornerCodeToNumber2.indexOf(y[1])) * 24 + (cornerCodeToNumber2.indexOf(x[2]) - cornerCodeToNumber2.indexOf(y[2]));

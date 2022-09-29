@@ -5,22 +5,6 @@ const twoTwistsPos1ToCode = JSON.parse($.getJSON({"url": "assets/json/twoTwistsP
 const twoTwistsPos2ToCode = JSON.parse($.getJSON({"url": "assets/json/twoTwistsPos2ToCode.json", "async": false}).responseText);
 const twoTwistsAlgToNightmare = JSON.parse($.getJSON({"url": "assets/json/twoTwistsAlgToNightmare.json", "async": false}).responseText);
 
-function getCookie(cname) {
-    const name = `${cname}=`;
-    const decodedCookie = decodeURIComponent(document.cookie);
-    const ca = decodedCookie.split(";");
-    for (let i = 0; i < ca.length; i++) {
-        let c = ca[i];
-        while (c.charAt(0) === " ") {
-            c = c.substring(1);
-        }
-        if (c.indexOf(name) === 0) {
-            return c.substring(name.length, c.length);
-        }
-    }
-    return "";
-}
-
 function algSearch() {
     const idValue = twoTwistsPos1ToCode[document.getElementById("cornerinput1").value] + twoTwistsPos2ToCode[document.getElementById("cornerinput2").value];
     const div1 = document.getElementById("div1");

@@ -5,22 +5,6 @@ const twoFlipsAlgToNightmare = JSON.parse($.getJSON({"url": "assets/json/twoFlip
 const twoFlipsPosToCode = JSON.parse($.getJSON({"url": "assets/json/twoFlipsPosToCode.json", "async": false}).responseText);
 const twoFlipsPosToNumber = JSON.parse($.getJSON({"url": "assets/json/twoFlipsPosToNumber.json", "async": false}).responseText);
 
-function getCookie(cname) {
-    const name = `${cname}=`;
-    const decodedCookie = decodeURIComponent(document.cookie);
-    const ca = decodedCookie.split(";");
-    for (let i = 0; i < ca.length; i++) {
-        let c = ca[i];
-        while (c.charAt(0) === " ") {
-            c = c.substring(1);
-        }
-        if (c.indexOf(name) === 0) {
-            return c.substring(name.length, c.length);
-        }
-    }
-    return "";
-}
-
 function algSearch() {
     let idValue = "";
     if (twoFlipsPosToNumber[document.getElementById("edgeinput1").value] < twoFlipsPosToNumber[document.getElementById("edgeinput2").value]) {
