@@ -6,10 +6,41 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
   <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" href="images/logo.svg" type="image/x-icon" />
   <link rel="apple-touch-icon" href="images/logo.png" />
   <meta name="google-site-verification" content="s3hE2D_rJuuUUj4rVvWBADMHqHqiSM-bQh80mnwzDMA" />
   <style>
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+      width: 500px;
+    }
+
+    th,
+    td {
+      text-align: center;
+      position: static;
+      background-clip: padding-box;
+    }
+
+    th:first-child,
+    td:first-child {
+      text-align: left;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f2f2f2
+    }
+
+    .fa-check {
+      color: green;
+    }
+
+    .fa-remove {
+      color: red;
+    }
+
     p {
       margin: 0 0 0 0;
     }
@@ -52,7 +83,7 @@
               (<a href="https://blddb.net" target="blank">blddb.net</a>) in this
               article. This website includes thousands of algorithms including corner twist, edge flip, 3-style corner
               (all buffers), 3-style edge (all buffers). It supports simplified Chinese and English, and is compatible
-              with mobile phones, PCs and tablets. The website provides many options for each case, so the readers can
+              with mobile phones, PCs and tablets. The website provides many options for each case, so the users can
               select algorithm based on their own preference.
             </p>
             <img src="images/index_en.png" alt="" style="width:min(70%, 400px)" />
@@ -85,6 +116,56 @@
               provided. It also provides a commutator form and recommendation position of gripping the cube.
             </p>
             <img src="images/corner_en.png" alt="" style="width:min(70%, 400px)" />
+            <p>
+              　　What's more, users can choose the preferred 3-style corner algorithm style among nightmare, balance
+              and yuanzi. Please refer to the table below for the main differences.
+            </p>
+            <p></p>
+            <table style="width:min(70%, 400px)">
+              <thead>
+                <th>Features</th>
+                <th>nightmare</th>
+                <th>balance</th>
+                <th>yuanzi</th>
+              </thead>
+              <tr>
+                <td>R, U, D, F, B Layer Turns</td>
+                <td><i class="fa fa-check"></i></td>
+                <td><i class="fa fa-check"></i></td>
+                <td><i class="fa fa-check"></i></td>
+              </tr>
+              <tr>
+                <td>L Layer Turns</td>
+                <td><i class="fa fa-remove"></i></td>
+                <td><i class="fa fa-remove"></i></td>
+                <td><i class="fa fa-check"></i></td>
+              </tr>
+              <tr>
+                <td>Double Layer Turns</td>
+                <td><i class="fa fa-remove"></i></td>
+                <td><i class="fa fa-remove"></i></td>
+                <td><i class="fa fa-check"></i></td>
+              </tr>
+              <tr>
+                <td>Rotations</td>
+                <td><i class="fa fa-remove"></i></td>
+                <td><i class="fa fa-remove"></i></td>
+                <td><i class="fa fa-check"></i></td>
+              </tr>
+              <tr>
+                <td>D2 Moves</td>
+                <td><i class="fa fa-remove"></i></td>
+                <td><i class="fa fa-check"></i></td>
+                <td><i class="fa fa-check"></i></td>
+              </tr>
+              <tr>
+                <td>Not alternate D and D'</td>
+                <td><i class="fa fa-remove"></i></td>
+                <td><i class="fa fa-check"></i></td>
+                <td><i class="fa fa-check"></i></td>
+              </tr>
+            </table>
+            <br />
             <p><strong>3-style edge and edge flip</strong></p>
             <p>
               　　Most of the algorithms are traditional ones (including some symmetrical cases or swapping U, U' moves
@@ -116,7 +197,7 @@
               further comments or questions.
             </p>
             <br />
-            <p><i>Last edited on September 24<sup>th</sup>, 2022.</i></p>
+            <p><i>Last edited on October 10<sup>th</sup>, 2022.</i></p>
             <p><i>Translated from the Chinese original by <strong>Chenhao Sun</strong>.</i></p>
             <p><i>Translation reviewed by <strong>Abhijeet Ghodgaonkar</strong>.</i></p>
             <br />

@@ -6,10 +6,41 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
   <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" href="images/logo.svg" type="image/x-icon" />
   <link rel="apple-touch-icon" href="images/logo.png" />
   <meta name="google-site-verification" content="s3hE2D_rJuuUUj4rVvWBADMHqHqiSM-bQh80mnwzDMA" />
   <style>
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+      width: 500px;
+    }
+
+    th,
+    td {
+      text-align: center;
+      position: static;
+      background-clip: padding-box;
+    }
+
+    th:first-child,
+    td:first-child {
+      text-align: left;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f2f2f2
+    }
+
+    .fa-check {
+      color: green;
+    }
+
+    .fa-remove {
+      color: red;
+    }
+
     p {
       margin: 0 0 0 0;
     }
@@ -69,6 +100,54 @@
               　　查询方式：一般而言，只要在公式查询右边的横线上输入要查询的公式编码即可，上面的位置类会自动生成。你也可以通过选择位置类的方式来查询。输入完毕后，网页会显示该状态排序前18条的公式以及对应的交换子形式和起手位置。
             </p>
             <img src="images/corner_zh.png" alt="" style="width:min(70%, 400px)" />
+            <p>
+              　　此外，现在用户可以在 nightmare (噩梦)、balance (平衡)、 yuanzi (圆子) 中选择喜欢的风格作为角块公式库的风格。请参阅下表了解它们之间的主要差异。
+            </p>
+            <table style="width:min(70%, 400px)">
+              <thead>
+                <th>特点</th>
+                <th>nightmare</th>
+                <th>balance</th>
+                <th>yuanzi</th>
+              </thead>
+              <tr>
+                <td>R, U, D, F, B 层操作</td>
+                <td><i class="fa fa-check"></i></td>
+                <td><i class="fa fa-check"></i></td>
+                <td><i class="fa fa-check"></i></td>
+              </tr>
+              <tr>
+                <td>L 层操作</td>
+                <td><i class="fa fa-remove"></i></td>
+                <td><i class="fa fa-remove"></i></td>
+                <td><i class="fa fa-check"></i></td>
+              </tr>
+              <tr>
+                <td>双层操作</td>
+                <td><i class="fa fa-remove"></i></td>
+                <td><i class="fa fa-remove"></i></td>
+                <td><i class="fa fa-check"></i></td>
+              </tr>
+              <tr>
+                <td>魔方整体旋转</td>
+                <td><i class="fa fa-remove"></i></td>
+                <td><i class="fa fa-remove"></i></td>
+                <td><i class="fa fa-check"></i></td>
+              </tr>
+              <tr>
+                <td>D2 步骤</td>
+                <td><i class="fa fa-remove"></i></td>
+                <td><i class="fa fa-check"></i></td>
+                <td><i class="fa fa-check"></i></td>
+              </tr>
+              <tr>
+                <td>不交替的 D 和 D'</td>
+                <td><i class="fa fa-remove"></i></td>
+                <td><i class="fa fa-check"></i></td>
+                <td><i class="fa fa-check"></i></td>
+              </tr>
+            </table>
+            <br />
             <p><strong>棱块公式库和翻棱公式库</strong></p>
             <p>
               　　棱块公式库和翻棱公式库大多都是一些传统公式和传统公式的衍生公式（例如镜像，U 和 U'
@@ -101,7 +180,7 @@
               　　欢迎你们将三盲公式库推荐给身边有需要的魔友，希望对三盲魔友们有所帮助！如果你对三盲公式库有任何想法、建议或需求，请随时告诉我。
             </p>
             <br />
-            <p><i>最后编辑于2022年9月24日。</i></p>
+            <p><i>最后编辑于2022年10月5日。</i></p>
             <br />
           </header>
         </div>
