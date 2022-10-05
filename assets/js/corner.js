@@ -7,6 +7,8 @@ const cornerAlgToInfo = JSON.parse($.getJSON({"url": "assets/json/cornerAlgToInf
 const cornerAlgToNightmare = JSON.parse($.getJSON({"url": "assets/json/cornerAlgToNightmare.json", "async": false}).responseText);
 const cornerAlgToInfoYuanzi = JSON.parse($.getJSON({"url": "assets/json/cornerAlgToInfoYuanzi.json", "async": false}).responseText);
 const cornerAlgToYuanzi = JSON.parse($.getJSON({"url": "assets/json/cornerAlgToYuanzi.json", "async": false}).responseText);
+const cornerAlgToInfoBalance = JSON.parse($.getJSON({"url": "assets/json/cornerAlgToInfoBalance.json", "async": false}).responseText);
+const cornerAlgToBalance = JSON.parse($.getJSON({"url": "assets/json/cornerAlgToBalance.json", "async": false}).responseText);
 const cornerPosToCode = JSON.parse($.getJSON({"url": "assets/json/cornerPosToCode.json", "async": false}).responseText);
 const cornerCodeToPos = JSON.parse($.getJSON({"url": "assets/json/cornerCodeToPos.json", "async": false}).responseText);
 
@@ -44,6 +46,10 @@ function algSearch() {
         if (document.getElementById("cornerstyle").value === "yuanzi") {
             cornerAlgToInfoStyle = cornerAlgToInfoYuanzi;
             cornerAlgToStyle = cornerAlgToYuanzi;
+        }
+        if (document.getElementById("cornerstyle").value === "balance") {
+            cornerAlgToInfoStyle = cornerAlgToInfoBalance;
+            cornerAlgToStyle = cornerAlgToBalance;
         }
         document.getElementById("cornerinput").blur();
         let tab = `<table id="table"><thead><tr><th>${arrLang[lang]["no"]}</th><th>${arrLang[lang]["algorithm"]}</th><th>${arrLang[lang]["commutator"]}</th><th>${arrLang[lang]["thumbPosition"]}</th></tr></thead><tbody>`;
@@ -111,6 +117,10 @@ function algSearchByPos() {
         if (document.getElementById("cornerstyle").value === "yuanzi") {
             cornerAlgToInfoStyle = cornerAlgToInfoYuanzi;
             cornerAlgToStyle = cornerAlgToYuanzi;
+        }
+        if (document.getElementById("cornerstyle").value === "balance") {
+            cornerAlgToInfoStyle = cornerAlgToInfoBalance;
+            cornerAlgToStyle = cornerAlgToBalance;
         }
         let tab = `<table id="table"><thead><tr><th>${arrLang[lang]["no"]}</th><th>${arrLang[lang]["algorithm"]}</th><th>${arrLang[lang]["commutator"]}</th><th>${arrLang[lang]["thumbPosition"]}</th></tr></thead><tbody>`;
         for (let i = 0; i < rows; i++) {
