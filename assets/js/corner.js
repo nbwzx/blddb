@@ -102,20 +102,30 @@ function algSearchByPos() {
     const div1 = document.getElementById("div1");
     const rows = 18;
     if (cornerAlgToInfo.hasOwnProperty(idValue)) {
+        let cornerAlgToInfoStyle = {};
+        let cornerAlgToStyle = {};
+        if (document.getElementById("cornerstyle").value === "nightmare") {
+            cornerAlgToInfoStyle = cornerAlgToInfo;
+            cornerAlgToStyle = cornerAlgToNightmare;
+        }
+        if (document.getElementById("cornerstyle").value === "yuanzi") {
+            cornerAlgToInfoStyle = cornerAlgToInfoYuanzi;
+            cornerAlgToStyle = cornerAlgToYuanzi;
+        }
         let tab = `<table id="table"><thead><tr><th>${arrLang[lang]["no"]}</th><th>${arrLang[lang]["algorithm"]}</th><th>${arrLang[lang]["commutator"]}</th><th>${arrLang[lang]["thumbPosition"]}</th></tr></thead><tbody>`;
         for (let i = 0; i < rows; i++) {
-            if (cornerAlgToInfo[idValue][i] === "") {
+            if (cornerAlgToInfoStyle[idValue].length <= i) {
                 break;
             }
-            if (cornerAlgToInfo[idValue][i] === cornerAlgToNightmare[idValue]) {
+            if (cornerAlgToInfoStyle[idValue][i] === cornerAlgToStyle[idValue]) {
                 tab += "<tr bgcolor=\"#D0D0D0\">";
             } else {
                 tab += "<tr>";
             }
             tab += `<td>${i + 1}</td>`;
-            tab += `<td>${cornerAlgToInfo[idValue][i]}</td>`;
-            tab += `<td>${commutator(cornerAlgToInfo[idValue][i])}</td>`;
-            tab += `<td>${fingerbeginfrom(cornerAlgToInfo[idValue][i])}</td>`;
+            tab += `<td>${cornerAlgToInfoStyle[idValue][i]}</td>`;
+            tab += `<td>${commutator(cornerAlgToInfoStyle[idValue][i])}</td>`;
+            tab += `<td>${fingerbeginfrom(cornerAlgToInfoStyle[idValue][i])}</td>`;
             tab += "</tr>";
         }
         tab += "</tbody></table>";
