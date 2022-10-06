@@ -172,7 +172,7 @@ if (!Object.keys(arrLang).includes(lang)) {
 if (Object.keys(arrLang).includes(lang)) {
     if (lang === "zh") {
         $(".language").html("<div class=\"status_circle status_circle_online\">简体中文</div>");
-        $("#introduction").attr("href", "introduction.html");
+        $("#introduction").attr("href", "https://docs.blddb.net/zh");
         $("#donate").attr("href", "donate.html");
         $("#codeinput").width("5.5em");
         $("#image").show();
@@ -181,7 +181,7 @@ if (Object.keys(arrLang).includes(lang)) {
         }
     } else if (lang === "en") {
         $(".language").html("<div class=\"status_circle status_circle_hide\">English</div>");
-        $("#introduction").attr("href", "introduction_en.html");
+        $("#introduction").attr("href", "https://docs.blddb.net/en");
         $("#donate").attr("href", "donate_en.html");
         $("#codeinput").width("14em");
         $("#image").hide();
@@ -191,7 +191,7 @@ if (Object.keys(arrLang).includes(lang)) {
     }
 } else {
     $(".language").html("<div class=\"status_circle status_circle_online\">简体中文</div>");
-    $("#introduction").attr("href", "introduction.html");
+    $("#introduction").attr("href", "https://docs.blddb.net/zh");
     $("#donate").attr("href", "donate.html");
     $("#codeinput").width("5.5em");
     $("#image").show();
@@ -225,7 +225,7 @@ $(".translate").click(() => {
     if (Object.keys(arrLang).includes(lang)) {
         if (lang === "zh") {
             $(".language").html("<div class=\"status_circle status_circle_online\">简体中文</div>");
-            $("#introduction").attr("href", "introduction.html");
+            $("#introduction").attr("href", "https://docs.blddb.net/zh");
             $("#donate").attr("href", "donate.html");
             $("#codeinput").width("5.5em");
             $("#image").show();
@@ -234,7 +234,7 @@ $(".translate").click(() => {
             }
         } else if (lang === "en") {
             $(".language").html("<div class=\"status_circle status_circle_hide\">English</div>");
-            $("#introduction").attr("href", "introduction_en.html");
+            $("#introduction").attr("href", "https://docs.blddb.net/en");
             $("#donate").attr("href", "donate_en.html");
             $("#codeinput").width("14em");
             $("#image").hide();
@@ -244,7 +244,7 @@ $(".translate").click(() => {
         }
     } else {
         $(".language").html("<div class=\"status_circle status_circle_online\">简体中文</div>");
-        $("#introduction").attr("href", "introduction.html");
+        $("#introduction").attr("href", "https://docs.blddb.net/zh");
         $("#donate").attr("href", "donate.html");
         $("#codeinput").width("5.5em");
         $("#image").show();
