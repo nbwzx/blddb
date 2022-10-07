@@ -176,18 +176,12 @@ if (Object.keys(arrLang).includes(lang)) {
         $("#donate").attr("href", "donate.html");
         $("#codeinput").width("5.5em");
         $("#image").show();
-        if (typeof algSearch === "function") {
-            algSearch();
-        }
     } else if (lang === "en") {
         $(".language").html("<div class=\"status_circle status_circle_hide\">English</div>");
         $("#introduction").attr("href", "https://docs.blddb.net/en");
         $("#donate").attr("href", "donate_en.html");
         $("#codeinput").width("14em");
         $("#image").hide();
-        if (typeof algSearch === "function") {
-            algSearch();
-        }
     }
 } else {
     $(".language").html("<div class=\"status_circle status_circle_online\">简体中文</div>");
@@ -195,9 +189,6 @@ if (Object.keys(arrLang).includes(lang)) {
     $("#donate").attr("href", "donate.html");
     $("#codeinput").width("5.5em");
     $("#image").show();
-    if (typeof algSearch === "function") {
-        algSearch();
-    }
 }
 
 $(document).ready(() => {

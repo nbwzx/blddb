@@ -1,11 +1,15 @@
 "use strict";
 
-const edgeChichuToNumber = JSON.parse($.getJSON({"url": "assets/json/edgeChichuToNumber.json", "async": false}).responseText);
-const cornerChichuToNumber = JSON.parse($.getJSON({"url": "assets/json/cornerChichuToNumber.json", "async": false}).responseText);
-const parityEdgeAlgToStandard = JSON.parse($.getJSON({"url": "assets/json/parityEdgeAlgToStandard.json", "async": false}).responseText);
-const parityCornerAlgToStandard = JSON.parse($.getJSON({"url": "assets/json/parityCornerAlgToStandard.json", "async": false}).responseText);
-const parityAlgToInfo = JSON.parse($.getJSON({"url": "assets/json/parityAlgToInfo.json", "async": false}).responseText);
-const parityAlgToNightmare = JSON.parse($.getJSON({"url": "assets/json/parityAlgToNightmare.json", "async": false}).responseText);
+const jsonNameList = ["edgeChichuToNumber", "cornerChichuToNumber", "parityEdgeAlgToStandard", "parityCornerAlgToStandard", "parityAlgToInfo", "parityAlgToNightmare"];
+const jsonNameDict = {};
+const jsonLoaded = jsonNameList.map((name) => $.getJSON(`assets/json/${name}.json`, (json) => {
+    jsonNameDict[name] = json;
+}));
+Reflect.apply($.when, $, jsonLoaded).done(() => {
+    for (const i of jsonNameList) {
+        window[`${i}`] = jsonNameDict[i];
+    }
+});
 
 function parityToCode(str) {
     return str[0] + str[2];

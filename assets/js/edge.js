@@ -1,12 +1,15 @@
 "use strict";
 
-const edgeNumberToChichu = JSON.parse($.getJSON({"url": "assets/json/edgeNumberToChichu.json", "async": false}).responseText);
-const edgeChichuToNumber = JSON.parse($.getJSON({"url": "assets/json/edgeChichuToNumber.json", "async": false}).responseText);
-const edgeAlgToStandard = JSON.parse($.getJSON({"url": "assets/json/edgeAlgToStandard.json", "async": false}).responseText);
-const edgeAlgToInfo = JSON.parse($.getJSON({"url": "assets/json/edgeAlgToInfo.json", "async": false}).responseText);
-const edgeAlgToNightmare = JSON.parse($.getJSON({"url": "assets/json/edgeAlgToNightmare.json", "async": false}).responseText);
-const edgePosToCode = JSON.parse($.getJSON({"url": "assets/json/edgePosToCode.json", "async": false}).responseText);
-const edgeCodeToPos = JSON.parse($.getJSON({"url": "assets/json/edgeCodeToPos.json", "async": false}).responseText);
+const jsonNameList = ["edgeNumberToChichu", "edgeChichuToNumber", "edgeAlgToStandard", "edgeAlgToInfo", "edgeAlgToNightmare", "edgePosToCode", "edgeCodeToPos"];
+const jsonNameDict = {};
+const jsonLoaded = jsonNameList.map((name) => $.getJSON(`assets/json/${name}.json`, (json) => {
+    jsonNameDict[name] = json;
+}));
+Reflect.apply($.when, $, jsonLoaded).done(() => {
+    for (const i of jsonNameList) {
+        window[`${i}`] = jsonNameDict[i];
+    }
+});
 
 function algSearch() {
     let idValueOrigin = document.getElementById("edgeinput").value;

@@ -1,7 +1,17 @@
 "use strict";
 
-const cornerChichuToNumber = JSON.parse($.getJSON({"url": "../assets/json/cornerChichuToNumber.json", "async": false}).responseText);
-const nightmareTwoTwistsAlgToInfo = JSON.parse($.getJSON({"url": "../assets/json/nightmare/nightmareTwoTwistsAlgToInfo.json", "async": false}).responseText);
+const jsonNameList = ["cornerChichuToNumber", "nightmareTwoTwistsAlgToInfo"];
+const jsonNameListPre = {"cornerChichuToNumber":"cornerChichuToNumber", "nightmareTwoTwistsAlgToInfo":"nightmare/nightmareTwoTwistsAlgToInfo"};
+const jsonNameDict = {};
+const jsonLoaded = jsonNameList.map((name) => $.getJSON(`../assets/json/${jsonNameListPre[name]}.json`, (json) => {
+    jsonNameDict[name] = json;
+}));
+Reflect.apply($.when, $, jsonLoaded).done(() => {
+    for (const i of jsonNameList) {
+        window[`${i}`] = jsonNameDict[i];
+    }
+    algSearch();
+});
 
 function sortByCode(x, y) {
     const cornerCodeToNumber2 = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "W", "M", "N", "O", "P", "Q", "R", "S", "T", "X", "Y", "Z"];
@@ -35,7 +45,3 @@ function algSearch() {
     tab += "</tbody></table>";
     div1.innerHTML = tab;
 }
-
-window.onload = function onload() {
-    algSearch();
-};

@@ -1,9 +1,15 @@
 "use strict";
 
-const twoTwistsAlgToInfo = JSON.parse($.getJSON({"url": "assets/json/twoTwistsAlgToInfo.json", "async": false}).responseText);
-const twoTwistsPos1ToCode = JSON.parse($.getJSON({"url": "assets/json/twoTwistsPos1ToCode.json", "async": false}).responseText);
-const twoTwistsPos2ToCode = JSON.parse($.getJSON({"url": "assets/json/twoTwistsPos2ToCode.json", "async": false}).responseText);
-const twoTwistsAlgToNightmare = JSON.parse($.getJSON({"url": "assets/json/twoTwistsAlgToNightmare.json", "async": false}).responseText);
+const jsonNameList = ["twoTwistsAlgToInfo", "twoTwistsPos1ToCode", "twoTwistsPos2ToCode", "twoTwistsAlgToNightmare"];
+const jsonNameDict = {};
+const jsonLoaded = jsonNameList.map((name) => $.getJSON(`assets/json/${name}.json`, (json) => {
+    jsonNameDict[name] = json;
+}));
+Reflect.apply($.when, $, jsonLoaded).done(() => {
+    for (const i of jsonNameList) {
+        window[`${i}`] = jsonNameDict[i];
+    }
+});
 
 function algSearch() {
     const idValue = twoTwistsPos1ToCode[document.getElementById("cornerinput1").value] + twoTwistsPos2ToCode[document.getElementById("cornerinput2").value];

@@ -1,16 +1,15 @@
 "use strict";
 
-const cornerNumberToChichu = JSON.parse($.getJSON({"url": "assets/json/cornerNumberToChichu.json", "async": false}).responseText);
-const cornerChichuToNumber = JSON.parse($.getJSON({"url": "assets/json/cornerChichuToNumber.json", "async": false}).responseText);
-const cornerAlgToStandard = JSON.parse($.getJSON({"url": "assets/json/cornerAlgToStandard.json", "async": false}).responseText);
-const cornerAlgToInfo = JSON.parse($.getJSON({"url": "assets/json/cornerAlgToInfo.json", "async": false}).responseText);
-const cornerAlgToNightmare = JSON.parse($.getJSON({"url": "assets/json/cornerAlgToNightmare.json", "async": false}).responseText);
-const cornerAlgToInfoYuanzi = JSON.parse($.getJSON({"url": "assets/json/cornerAlgToInfoYuanzi.json", "async": false}).responseText);
-const cornerAlgToYuanzi = JSON.parse($.getJSON({"url": "assets/json/cornerAlgToYuanzi.json", "async": false}).responseText);
-const cornerAlgToInfoBalance = JSON.parse($.getJSON({"url": "assets/json/cornerAlgToInfoBalance.json", "async": false}).responseText);
-const cornerAlgToBalance = JSON.parse($.getJSON({"url": "assets/json/cornerAlgToBalance.json", "async": false}).responseText);
-const cornerPosToCode = JSON.parse($.getJSON({"url": "assets/json/cornerPosToCode.json", "async": false}).responseText);
-const cornerCodeToPos = JSON.parse($.getJSON({"url": "assets/json/cornerCodeToPos.json", "async": false}).responseText);
+const jsonNameList = ["cornerNumberToChichu", "cornerChichuToNumber", "cornerAlgToStandard", "cornerAlgToInfo", "cornerAlgToNightmare", "cornerAlgToInfoYuanzi", "cornerAlgToYuanzi", "cornerAlgToInfoBalance", "cornerAlgToBalance", "cornerPosToCode", "cornerCodeToPos"];
+const jsonNameDict = {};
+const jsonLoaded = jsonNameList.map((name) => $.getJSON(`assets/json/${name}.json`, (json) => {
+    jsonNameDict[name] = json;
+}));
+Reflect.apply($.when, $, jsonLoaded).done(() => {
+    for (const i of jsonNameList) {
+        window[`${i}`] = jsonNameDict[i];
+    }
+});
 
 function algSearch() {
     let idValueOrigin = document.getElementById("cornerinput").value;

@@ -1,10 +1,17 @@
 "use strict";
 
-const cornerNumberToChichu = JSON.parse($.getJSON({"url": "../assets/json/cornerNumberToChichu.json", "async": false}).responseText);
-const cornerChichuToNumber = JSON.parse($.getJSON({"url": "../assets/json/cornerChichuToNumber.json", "async": false}).responseText);
-const cornerAlgToStandard = JSON.parse($.getJSON({"url": "../assets/json/cornerAlgToStandard.json", "async": false}).responseText);
-const cornerPosToCode = JSON.parse($.getJSON({"url": "../assets/json/cornerPosToCode.json", "async": false}).responseText);
-const nightmareCornerAlgToInfo = JSON.parse($.getJSON({"url": "../assets/json/nightmare/nightmareCornerAlgToInfo.json", "async": false}).responseText);
+const jsonNameList = ["cornerNumberToChichu", "cornerChichuToNumber", "cornerAlgToStandard", "cornerPosToCode", "nightmareCornerAlgToInfo"];
+const jsonNameListPre = {"cornerNumberToChichu":"cornerNumberToChichu", "cornerChichuToNumber":"cornerChichuToNumber", "cornerAlgToStandard":"cornerAlgToStandard", "cornerPosToCode":"cornerPosToCode", "nightmareCornerAlgToInfo":"nightmare/nightmareCornerAlgToInfo"};
+const jsonNameDict = {};
+const jsonLoaded = jsonNameList.map((name) => $.getJSON(`../assets/json/${jsonNameListPre[name]}.json`, (json) => {
+    jsonNameDict[name] = json;
+}));
+Reflect.apply($.when, $, jsonLoaded).done(() => {
+    for (const i of jsonNameList) {
+        window[`${i}`] = jsonNameDict[i];
+    }
+    algSearch();
+});
 
 function sortByCode(x, y) {
     const cornerCodeToNumber2 = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "W", "M", "N", "O", "P", "Q", "R", "S", "T", "X", "Y", "Z"];
@@ -72,7 +79,3 @@ function algSearch() {
         div1.innerHTML = tab;
     }
 }
-
-window.onload = function onload() {
-    algSearch();
-};

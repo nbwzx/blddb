@@ -1,9 +1,15 @@
 "use strict";
 
-const twoFlipsAlgToInfo = JSON.parse($.getJSON({"url": "assets/json/twoFlipsAlgToInfo.json", "async": false}).responseText);
-const twoFlipsAlgToNightmare = JSON.parse($.getJSON({"url": "assets/json/twoFlipsAlgToNightmare.json", "async": false}).responseText);
-const twoFlipsPosToCode = JSON.parse($.getJSON({"url": "assets/json/twoFlipsPosToCode.json", "async": false}).responseText);
-const twoFlipsPosToNumber = JSON.parse($.getJSON({"url": "assets/json/twoFlipsPosToNumber.json", "async": false}).responseText);
+const jsonNameList = ["twoFlipsAlgToInfo", "twoFlipsAlgToNightmare", "twoFlipsPosToCode", "twoFlipsPosToNumber"];
+const jsonNameDict = {};
+const jsonLoaded = jsonNameList.map((name) => $.getJSON(`assets/json/${name}.json`, (json) => {
+    jsonNameDict[name] = json;
+}));
+Reflect.apply($.when, $, jsonLoaded).done(() => {
+    for (const i of jsonNameList) {
+        window[`${i}`] = jsonNameDict[i];
+    }
+});
 
 function algSearch() {
     let idValue = "";

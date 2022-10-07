@@ -1,7 +1,17 @@
 "use strict";
 
-const edgeChichuToNumber = JSON.parse($.getJSON({"url": "../assets/json/edgeChichuToNumber.json", "async": false}).responseText);
-const nightmareTwoFlipsAlgToInfo = JSON.parse($.getJSON({"url": "../assets/json/nightmare/nightmareTwoFlipsAlgToInfo.json", "async": false}).responseText);
+const jsonNameList = ["edgeChichuToNumber", "nightmareTwoFlipsAlgToInfo"];
+const jsonNameListPre = {"edgeChichuToNumber":"edgeChichuToNumber", "nightmareTwoFlipsAlgToInfo":"nightmare/nightmareTwoFlipsAlgToInfo"};
+const jsonNameDict = {};
+const jsonLoaded = jsonNameList.map((name) => $.getJSON(`../assets/json/${jsonNameListPre[name]}.json`, (json) => {
+    jsonNameDict[name] = json;
+}));
+Reflect.apply($.when, $, jsonLoaded).done(() => {
+    for (const i of jsonNameList) {
+        window[`${i}`] = jsonNameDict[i];
+    }
+    algSearch();
+});
 
 function sortByCode(x, y) {
     const edgeCodeToNumber2 = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "W", "X", "Y", "Z"];
@@ -35,7 +45,3 @@ function algSearch() {
     tab += "</tbody></table>";
     div1.innerHTML = tab;
 }
-
-window.onload = function onload() {
-    algSearch();
-};
