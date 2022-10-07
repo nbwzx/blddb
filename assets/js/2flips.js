@@ -43,4 +43,8 @@ function algSearch() {
     } else {
         div1.innerHTML = "";
     }
+    const r = $("#table").width() / $("#div1").width();
+    if (r > 1) {
+        $("#table").css("font-size", 16 / r);
+    }
 }

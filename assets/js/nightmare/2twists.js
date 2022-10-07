@@ -44,4 +44,8 @@ function algSearch() {
     }
     tab += "</tbody></table>";
     div1.innerHTML = tab;
+    const r = $("#table").width() / $("#div1").width();
+    if (r > 1) {
+        $("#table").css("font-size", 16 / r);
+    }
 }

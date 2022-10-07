@@ -82,6 +82,10 @@ function algSearch() {
     } else {
         div1.innerHTML = "";
     }
+    const r = $("#table").width() / $("#div1").width();
+    if (r > 1) {
+        $("#table").css("font-size", 16 / r);
+    }
 }
 
 function algSearchByPos() {
@@ -159,6 +163,10 @@ function algSearchByPos() {
         div1.innerHTML = tab;
     } else {
         div1.innerHTML = "";
+    }
+    const r = $("#table").width() / $("#div1").width();
+    if (r > 1) {
+        $("#table").css("font-size", 16 / r);
     }
 }
 
