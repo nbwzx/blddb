@@ -9,7 +9,7 @@
 	#footer {
 		$gutter: _size(gutter);
 
-		@include padding(5em, 0, (0, 0, 3em, 0));
+		@include padding(0em, 0, (0, 0, 0em, 0));
 		background-color: _palette(bg-alt);
 
 		> .inner {
@@ -37,7 +37,7 @@
 				margin-top: 5em;
 				list-style: none;
 				font-size: 0.8em;
-				color: transparentize(_palette(fg), 0.5);
+				color: _palette(footer);
 
 				a {
 					color: inherit;
@@ -45,7 +45,7 @@
 
 				li {
 					display: inline-block;
-					border-left: solid 1px transparentize(_palette(fg), 0.85);
+					border-left: solid 1px _palette(footer);
 					line-height: 1;
 					padding: 0 0 0 1em;
 					margin: 0 0 0 1em;
@@ -62,7 +62,7 @@
 		@include breakpoint('<=large') {
 			$gutter: _size(gutter) * 0.5;
 
-			@include padding(5em, 0);
+			@include padding(0em, 0);
 
 			> .inner {
 				section:nth-child(1) {
@@ -94,7 +94,7 @@
 		}
 
 		@include breakpoint('<=small') {
-			@include padding(3em, 0);
+			@include padding(0em, 0);
 
 			> .inner {
 				@include vendor('flex-direction', 'column');

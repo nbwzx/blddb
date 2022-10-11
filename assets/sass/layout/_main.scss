@@ -7,9 +7,9 @@
 /* Main */
 
 	#main {
-		@include padding(5em, 0, (-5em, 0, 3em, 0));
+		@include padding(0em, 0, (0em, 0, 0em, 0));
 
 		@include breakpoint('<=small') {
-			@include padding(3em, 0, (-3em, 0, 3em, 0));
+			@include padding(0em, 0, (0em, 0, 0em, 0));
 		}
 	}

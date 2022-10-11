@@ -13,11 +13,17 @@
 
 /* Tiles */
 
-	.tiles {
-		body.is-preload & {
-			article {
-				@include vendor('transform', 'none');
-				opacity: 1;
-			}
-		}
-	}
+.tiles {
+  body.is-preload & {
+    article {
+      @include vendor('transform', 'none');
+      opacity: 1;
+    }
+  }
+  .main-body.is-preload & {
+    article {
+      @include vendor('transform', 'none');
+      opacity: 1;
+    }
+  }
+}

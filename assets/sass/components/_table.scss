@@ -6,76 +6,49 @@
 
 /* Table */
 
-	.table-wrapper {
-		-webkit-overflow-scrolling: touch;
-		overflow-x: auto;
-	}
+	.allscreen {
+		display: none;
+	  }
+	  
+	  .algtable {
+		height: 60vh;
+		overflow: auto;
+		display: none;
+	  }
+	  
+	  .noscripttable {
+		height: 60vh;
+		overflow: auto;
+	  }
 
 	table {
-		margin: 0 0 _size(element-margin) 0;
-		width: 100%;
+		border-left: 1px solid gray;
+		border-spacing: 0;
+		border-spacing: 0;
+		padding-right: 1.25em;
+	}
 
-		tbody {
-			tr {
-				border: solid _size(border-width) _palette(border);
-				border-left: 0;
-				border-right: 0;
+	td {
+		border-right: 1px solid gray;
+		border-bottom: 1px solid gray;
+		font-size: inherit;
+		white-space: nowrap;
+		font-family: Tahoma, arial, verdana, "\9ed1\4f53", sans-serif;
+		padding: 0.2vw 0.5vw 0.2vw 0.5vw;
+		text-align: center;
+	}
 
-				&:nth-child(2n + 1) {
-					background-color: _palette(border-bg);
-				}
-			}
-		}
-
-		td {
-			padding: 0.75em 0.75em;
-		}
-
-		th {
-			color: _palette(fg-bold);
-			font-size: 0.9em;
-			font-weight: _font(weight-bold);
-			padding: 0 0.75em 0.75em 0.75em;
-			text-align: left;
-		}
-
-		thead {
-			border-bottom: solid (_size(border-width) * 2) _palette(border);
-		}
-
-		tfoot {
-			border-top: solid (_size(border-width) * 2) _palette(border);
-		}
-
-		&.alt {
-			border-collapse: separate;
-
-			tbody {
-				tr {
-					td {
-						border: solid _size(border-width) _palette(border);
-						border-left-width: 0;
-						border-top-width: 0;
-
-						&:first-child {
-							border-left-width: _size(border-width);
-						}
-					}
-
-					&:first-child {
-						td {
-							border-top-width: _size(border-width);
-						}
-					}
-				}
-			}
-
-			thead {
-				border-bottom: 0;
-			}
-
-			tfoot {
-				border-top: 0;
-			}
-		}
+	th {
+		border-top: 1px solid gray;
+		border-right: 1px solid gray;
+		border-bottom: 1px solid gray;
+		font-size: inherit;
+		font-weight: _font(weight-bold);
+		white-space: nowrap;
+		font-family: Tahoma, arial, verdana, "\9ed1\4f53", sans-serif;
+		padding: 0.2vw 0.5vw 0.2vw 0.5vw;
+		text-align: center;
+		background-color: lightblue;
+		position: sticky;
+		top: 0;
 	}

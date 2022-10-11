@@ -6,7 +6,9 @@
 
 /* Form */
 
-	form {
+	@use "sass:math";
+
+form {
 		margin: 0 0 _size(element-margin) 0;
 		overflow-x: hidden;
 
@@ -33,7 +35,7 @@
 				}
 
 				&.third {
-					width: calc(#{100% / 3} - #{$gutter * (1 / 3)});
+					width: calc(#{100% / 3} - #{$gutter * math.div(1, 3)});
 				}
 
 				&.quarter {
@@ -86,9 +88,8 @@
 		background-color: transparent;
 		border: none;
 		border-radius: 0;
-		border-bottom: solid _size(border-width) _palette(border);
+		border-bottom: solid (_size(border-width) * 3) _palette(border);
 		color: inherit;
-		display: block;
 		outline: 0;
 		padding: 0;
 		text-decoration: none;
@@ -108,9 +109,9 @@
 		background-image: svg-url("<svg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'><path d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='#{_palette(border)}' /></svg>");
 		background-size: 1.25rem;
 		background-repeat: no-repeat;
-		background-position: calc(100% - 1rem) center;
-		height: _size(element-height);
-		padding-right: _size(element-height);
+		background-position: calc(100%) center;
+		height: 2em;
+		padding-right: 0em;
 		text-overflow: ellipsis;
 
 		option {
@@ -129,13 +130,6 @@
 		}
 	}
 
-	input[type="text"],
-	input[type="password"],
-	input[type="email"],
-	select {
-		height: _size(element-height);
-	}
-
 	textarea {
 		padding: 0;
 		min-height: (_size(element-height) * 1.25);
@@ -152,7 +146,7 @@
 		z-index: -1;
 
 		& + label {
-			@include icon(false, solid);
+			@include icon;
 			color: _palette(fg);
 			cursor: pointer;
 			display: inline-block;
@@ -167,14 +161,13 @@
 				border: solid _size(border-width) _palette(border);
 				content: '';
 				display: inline-block;
-				font-size: 0.8em;
-				height: (_size(element-height) * 0.75);
+				height: (_size(element-height) * 0.6);
 				left: 0;
-				line-height: (_size(element-height) * 0.75);
+				line-height: (_size(element-height) * 0.575);
 				position: absolute;
 				text-align: center;
 				top: 0;
-				width: (_size(element-height) * 0.75);
+				width: (_size(element-height) * 0.6);
 			}
 		}
 
