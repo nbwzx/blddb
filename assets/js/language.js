@@ -74,7 +74,10 @@ const arrLang = {
         "nightmare3Twists": "3 Corner Twist",
         "nightmare4Flips": "4 Edge Flip",
         "nightmare5Style": "5-Style Edge(UR)",
-        "style": "Style："
+        "style": "Style：",
+        "cornerStyleNightmare": "nightmare",
+        "cornerStyleBalance": "balance",
+        "cornerStyleYuanzi": "yuanzi"
     },
     "zh": {
         "title": "三盲公式库",
@@ -151,7 +154,10 @@ const arrLang = {
         "nightmare3Twists": "全三角翻",
         "nightmare4Flips": "全四棱翻",
         "nightmare5Style": "五循环(UR)",
-        "style": "风格："
+        "style": "风格：",
+        "cornerStyleNightmare": "噩梦",
+        "cornerStyleBalance": "平衡",
+        "cornerStyleYuanzi": "圆子"
     }
 };
 
@@ -175,12 +181,14 @@ if (Object.keys(arrLang).includes(lang)) {
         $("#introduction").attr("href", "https://docs.blddb.net/zh");
         $("#donate").attr("href", "donate.html");
         $("#codeinput").width("5.5em");
+        $("#cornerstyle").width("4em");
         $("#image").show();
     } else if (lang === "en") {
         $(".language").html("<div class=\"status_circle status_circle_hide\">English</div>");
         $("#introduction").attr("href", "https://docs.blddb.net/en");
         $("#donate").attr("href", "donate_en.html");
         $("#codeinput").width("14em");
+        $("#cornerstyle").width("6em");
         $("#image").hide();
     }
 } else {
@@ -188,6 +196,7 @@ if (Object.keys(arrLang).includes(lang)) {
     $("#introduction").attr("href", "https://docs.blddb.net/zh");
     $("#donate").attr("href", "donate.html");
     $("#codeinput").width("5.5em");
+    $("#cornerstyle").width("4em");
     $("#image").show();
 }
 
@@ -219,6 +228,7 @@ $(".translate").click(() => {
             $("#introduction").attr("href", "https://docs.blddb.net/zh");
             $("#donate").attr("href", "donate.html");
             $("#codeinput").width("5.5em");
+            $("#cornerstyle").width("4em");
             $("#image").show();
             if (typeof algSearch === "function") {
                 algSearch();
@@ -228,6 +238,7 @@ $(".translate").click(() => {
             $("#introduction").attr("href", "https://docs.blddb.net/en");
             $("#donate").attr("href", "donate_en.html");
             $("#codeinput").width("14em");
+            $("#cornerstyle").width("6em");
             $("#image").hide();
             if (typeof algSearch === "function") {
                 algSearch();
@@ -238,6 +249,7 @@ $(".translate").click(() => {
         $("#introduction").attr("href", "https://docs.blddb.net/zh");
         $("#donate").attr("href", "donate.html");
         $("#codeinput").width("5.5em");
+        $("#cornerstyle").width("4em");
         $("#image").show();
         if (typeof algSearch === "function") {
             algSearch();
