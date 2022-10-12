@@ -1,185 +1,166 @@
 /*
-	Phantom by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+    Copyright 2022 Jim "JimOfLeisure" Nelson
+    https://github.com/JimOfLeisure/html5up-phantom-plus | @JimOfLeisure
+    Free for personal and commercial use under the CCA 3.0 license (https://creativecommons.org/licenses/by/3.0/)
+
+    This file is a vanillajs rewrite of main.js from:
+    Phantom by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-(function($) {
+document.addEventListener("DOMContentLoaded", () => {
+    const body = document.querySelector("body");
+    enhanceForms();
+    // enableMenu(body);
+    removePreload(body);
+});
 
-	var	$window = $(window),
-		$body = $('body');
+function wrapInner(parent, wrapper, attribute, attributevalue) {
+    // This function from https://codepen.io/kenjiroart/pen/qBmONJ
+    //   It is meant to replace the functionality of jQuery's $.wrapInner
+    if (typeof wrapper === "string") {
+        wrapper = document.createElement(wrapper);
+    }
+    const div = parent.appendChild(wrapper).setAttribute(attribute, attributevalue);
 
-	// Breakpoints.
-		breakpoints({
-			xlarge:   [ '1281px',  '1680px' ],
-			large:    [ '981px',   '1280px' ],
-			medium:   [ '737px',   '980px'  ],
-			small:    [ '481px',   '736px'  ],
-			xsmall:   [ '361px',   '480px'  ],
-			xxsmall:  [ null,      '360px'  ]
-		});
+    while (parent.firstChild !== wrapper) {
+        wrapper.appendChild(parent.firstChild);
+    }
+}
 
-	// Play initial animations on page load.
-		$window.on('load', function() {
-			window.setTimeout(function() {
-				$body.removeClass('is-preload');
-			}, 100);
-		});
+function wrapOuter(element, wrapper, attribute, attributevalue) {
+    // Adapting from wrapInner
+    if (typeof wrapper === "string") {
+        wrapper = document.createElement(wrapper);
+    }
+    attribute && wrapper.setAttribute(attribute, attributevalue);
+    // To ensure the wrapper is in the same sibling-related position as element
+    element.parentElement.insertBefore(wrapper, element);
+}
 
-	// Touch?
-		if (browser.mobile)
-			$body.addClass('is-touch');
+function removePreload(body) {
+    // Play initial animations on page load.
+    //   Wait 100ms to remove is-preload to ensure DOM has had time to update
+    setTimeout(() => body.classList.remove("is-preload"), 100);
+}
 
-	// Forms.
-		var $form = $('form');
+// Touch?
+//   Original sets is-touch based on browser detection
+//   Will replace that with @media(hover: none) in scss instead
 
-		// Auto-resizing textareas.
-			$form.find('textarea').each(function() {
+function enhanceForms() {
+    // Forms.
+    // Find all textareas in forms and loop through each
+    Array.from(document.querySelectorAll("form textarea")).forEach((textarea) => {
+    // Add wrapper div, set some style and attribute
+        wrapOuter(textarea, "div", "class", "textarea-wrapper");
+        textarea.setAttribute("rows", "1");
+        textarea.style.overflow = "hidden";
+        textarea.style.resize = "none";
 
-				var $this = $(this),
-					$wrapper = $('<div class="textarea-wrapper"></div>'),
-					$submits = $this.find('input[type="submit"]');
+        // Trim leading and trailing whitespace in textarea on focus change and ctrl-enter
+        const trimElement = (element) => element.value = element.value.trim();
+        ["blur", "focus"].forEach((eventName) => textarea.addEventListener(eventName, (event) => trimElement(event.target)));
+        textarea.addEventListener("keydown", (event) => {
+            if (event.code === 13 && event.ctrlKey) {
+                event.preventDefault();
+                event.stopPropagation();
+                trimElement(event.target);
+            }
+        });
 
-				$this
-					.wrap($wrapper)
-					.attr('rows', 1)
-					.css('overflow', 'hidden')
-					.css('resize', 'none')
-					.on('keydown', function(event) {
+        // Auto-size the height of the textarea
+        const setHeight = (element) => {
+            element.style.height = "auto";
+            element.style.height = `${element.scrollHeight}px`;
+        };
+        // Set height on initial load
+        setHeight(textarea);
+        // Monitor events to resize
+        ["input", "blur", "focus"].forEach((eventName) => textarea.addEventListener(eventName, (event) => setHeight(event.target)));
 
-						if (event.keyCode == 13
-						&&	event.ctrlKey) {
+        // Select text on tab-out
+        //   This is broken, but it's broken in the original code, too
+        //   It exits the field and doesn't select
+        //   It will select the text if youchange keyup to keydown,
+        //   But then the selection is irrelevant when the focus is lost
+        //   You can make it work with keydown and event.preventDefault(),
+        //     But that prevents you from being able to exit the field with tab
+        textarea.addEventListener("keyup", (event) => {
+            if (event.code === "Tab") {
+                event.target.select();
+            }
+        });
 
-							event.preventDefault();
-							event.stopPropagation();
+        // Limit textarea height for "mobile"
+        // Original code used browser detection; I'll just assume if
+        //   it can't hover we'll limit the height
+        if (matchMedia("(hover: none)").matches) {
+            textarea.style["max-height"] = "10em";
+            textarea.style.overflow = "auto";
+        }
+    });
+}
 
-							$(this).blur();
+function enableMenu(body) {
+    // Menu.
+    const menu = document.querySelector("#menu");
+    wrapInner(menu, "div", "class", "inner");
 
-						}
+    let menuIsDebouncing = false;
+    const menuDebounced = () => {
+        if (!menuIsDebouncing) {
+            setTimeout(() => menuIsDebouncing = false, 350);
+            menuIsDebouncing = true;
+            return true;
+        }
+        return false;
+    };
+    const menuMove = {
+        "hide": () => menuDebounced() && body.classList.remove("is-menu-visible"),
+        "show": () => menuDebounced() && body.classList.add("is-menu-visible"),
+        "toggle": () => menuDebounced() && body.classList.toggle("is-menu-visible")
+    };
 
-					})
-					.on('blur focus', function() {
-						$this.val($.trim($this.val()));
-					})
-					.on('input blur focus --init', function() {
+    // The original script moves #menu to the bottom of body
+    // Why though?
+    //   Ok, the styles only work right when it's down there
+    //   Not sure why it's not just there in the first place
+    body.appendChild(menu);
 
-						$wrapper
-							.css('height', $this.height());
+    // This adds the animated X icon to close the menu
+    //   I don't know why it's being added with script
+    //   I'm just aping the original code so far
+    const close = document.createElement("a");
+    close.href = "#menu";
+    close.classList.add("close");
+    close.innerText = "Close";
+    menu.appendChild(close);
 
-						$this
-							.css('height', 'auto')
-							.css('height', $this.prop('scrollHeight') + 'px');
+    // Add menu toggle to appropriate link targets
+    Array.from(document.querySelectorAll("[href=\"#menu\"]")).forEach((el) => el.addEventListener("click", (event) => {
+        event.preventDefault();
+        event.stopPropagation();
+        menuMove.toggle();
+    }));
 
-					})
-					.on('keyup', function(event) {
+    // Prevents unhandled clicks in #menu from propagating to body to close menu
+    menu.addEventListener("click", (event) => {
+        event.stopPropagation();
+    // The original code on link click stops propagation and changes the
+    // location after a delay. I'm not gonna do that.
+    });
 
-						if (event.keyCode == 9)
-							$this
-								.select();
+    // Hides menu when clicking on body
+    body.addEventListener("click", (event) => {
+        menuMove.hide();
+    });
 
-					})
-					.triggerHandler('--init');
-
-				// Fix.
-					if (browser.name == 'ie'
-					||	browser.mobile)
-						$this
-							.css('max-height', '10em')
-							.css('overflow-y', 'auto');
-
-			});
-
-	// Menu.
-		var $menu = $('#menu');
-
-		$menu.wrapInner('<div class="inner"></div>');
-
-		$menu._locked = false;
-
-		$menu._lock = function() {
-
-			if ($menu._locked)
-				return false;
-
-			$menu._locked = true;
-
-			window.setTimeout(function() {
-				$menu._locked = false;
-			}, 350);
-
-			return true;
-
-		};
-
-		$menu._show = function() {
-
-			if ($menu._lock())
-				$body.addClass('is-menu-visible');
-
-		};
-
-		$menu._hide = function() {
-
-			if ($menu._lock())
-				$body.removeClass('is-menu-visible');
-
-		};
-
-		$menu._toggle = function() {
-
-			if ($menu._lock())
-				$body.toggleClass('is-menu-visible');
-
-		};
-
-		$menu
-			.appendTo($body)
-			.on('click', function(event) {
-				event.stopPropagation();
-			})
-			.on('click', 'a', function(event) {
-
-				var href = $(this).attr('href');
-
-				event.preventDefault();
-				event.stopPropagation();
-
-				// Hide.
-					$menu._hide();
-
-				// Redirect.
-					if (href == '#menu')
-						return;
-
-					window.setTimeout(function() {
-						window.location.href = href;
-					}, 350);
-
-			})
-			.append('<a class="close" href="#menu">Close</a>');
-
-		$body
-			.on('click', 'a[href="#menu"]', function(event) {
-
-				event.stopPropagation();
-				event.preventDefault();
-
-				// Toggle.
-					$menu._toggle();
-
-			})
-			.on('click', function(event) {
-
-				// Hide.
-					$menu._hide();
-
-			})
-			.on('keydown', function(event) {
-
-				// Hide on escape.
-					if (event.keyCode == 27)
-						$menu._hide();
-
-			});
-
-})(jQuery);
+    // Close menu on ESC key pressed
+    body.addEventListener("keydown", (event) => {
+        if (event.code === "Escape") {
+            menuMove.hide();
+        }
+    });
+}
