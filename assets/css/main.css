@@ -1899,7 +1899,6 @@ input[type=radio] + label:before {
 table {
   border-left: 1px solid gray;
   border-spacing: 0;
-  border-spacing: 0;
   padding-right: 1.25em;
 }
 
@@ -2225,7 +2224,7 @@ body:not(.is-touch) .tiles article:hover .content {
   opacity: 1;
 }
 * + .tiles {
-  margin-top: 2em;
+  margin-top: 1em;
 }
 body.is-preload .tiles article {
   -moz-transform: scale(0.9);
@@ -2612,7 +2611,7 @@ body.is-touch .tiles article .content {
 #footer > .inner .copyright {
   width: 100%;
   padding: 0;
-  margin-top: 5em;
+  margin-top: 3em;
   list-style: none;
   font-size: 0.8em;
   color: rgba(88, 88, 88, 0.5);
@@ -2679,12 +2678,12 @@ body.is-touch .tiles article .content {
     margin-left: 0;
   }
   #footer > .inner .copyright {
-    margin-top: 3em;
+    margin-top: 2em;
   }
 }
 @media screen and (max-width: 480px) {
   #footer > .inner .copyright {
-    margin-top: 3em;
+    margin-top: 2em;
   }
   #footer > .inner .copyright li {
     border-left: 0;

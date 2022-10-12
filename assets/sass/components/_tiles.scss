@@ -232,7 +232,7 @@
   }
 
   * + & {
-    margin-top: _size(element-margin);
+    margin-top: _size(element-margin) * 0.5;
   }
 
   body.is-preload & {

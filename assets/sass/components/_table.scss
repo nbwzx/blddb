@@ -8,22 +8,21 @@
 
 	.allscreen {
 		display: none;
-	  }
-	  
-	  .algtable {
+	}
+	
+	.algtable {
 		height: 60vh;
 		overflow: auto;
 		display: none;
-	  }
-	  
-	  .noscripttable {
+	}
+	
+	.noscripttable {
 		height: 60vh;
 		overflow: auto;
-	  }
+	}
 
 	table {
 		border-left: 1px solid gray;
-		border-spacing: 0;
 		border-spacing: 0;
 		padding-right: 1.25em;
 	}

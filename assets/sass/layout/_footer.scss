@@ -34,7 +34,7 @@
 			.copyright {
 				width: 100%;
 				padding: 0;
-				margin-top: 5em;
+				margin-top: 3em;
 				list-style: none;
 				font-size: 0.8em;
 				color: _palette(footer);
@@ -112,7 +112,7 @@
 				}
 
 				.copyright {
-					margin-top: 3em;
+					margin-top: 2em;
 				}
 			}
 		}
@@ -120,7 +120,7 @@
 		@include breakpoint('<=xsmall') {
 			> .inner {
 				.copyright {
-					margin-top: 3em;
+					margin-top: 2em;
 
 					li {
 						border-left: 0;
