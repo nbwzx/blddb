@@ -84,6 +84,9 @@ function finger(s1, position) {
             return 0;
         }
     }
+    if (fingerposition === 4 || fingerposition === 0) {
+        return 0;
+    }
     return 1;
 }
 
