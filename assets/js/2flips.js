@@ -20,7 +20,7 @@ function algSearch() {
     }
 
     const div1 = document.getElementById("div1");
-    const rows = 18;
+    const rows = 100;
     if (twoFlipsAlgToInfo.hasOwnProperty(idValue)) {
         let tab = `<table id="table"><thead><tr><th>${arrLang[lang]["no"]}</th><th>${arrLang[lang]["algorithm"]}</th><th>${arrLang[lang]["commutator"]}</th><th>${arrLang[lang]["thumbPosition"]}</th></tr></thead><tbody>`;
         for (let i = 0; i < rows; i++) {
