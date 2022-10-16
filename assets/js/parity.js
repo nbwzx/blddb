@@ -1,5 +1,6 @@
 "use strict";
 
+$.ajaxSettings.async = false;
 const jsonNameList = ["edgeChichuToNumber", "cornerChichuToNumber", "parityEdgeAlgToStandard", "parityCornerAlgToStandard", "parityAlgToInfo", "parityAlgToNightmare"];
 const jsonNameDict = {};
 const jsonLoaded = jsonNameList.map((name) => $.getJSON(`assets/json/${name}.json`, (json) => {

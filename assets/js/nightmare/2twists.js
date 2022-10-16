@@ -1,5 +1,6 @@
 "use strict";
 
+$.ajaxSettings.async = false;
 const jsonNameList = ["cornerChichuToNumber", "nightmareTwoTwistsAlgToInfo"];
 const jsonNameListPre = {"cornerChichuToNumber":"cornerChichuToNumber", "nightmareTwoTwistsAlgToInfo":"nightmare/nightmareTwoTwistsAlgToInfo"};
 const jsonNameDict = {};

@@ -1,9 +1,16 @@
 "use strict";
 
-const twoTwistsPos1ToCode = JSON.parse($.getJSON({"url": "assets/json/twoTwistsPos1ToCode.json", "async": false}).responseText);
-const twoTwistsPos2ToCode = JSON.parse($.getJSON({"url": "assets/json/twoTwistsPos2ToCode.json", "async": false}).responseText);
-const threeTwistsAlgToInfo = JSON.parse($.getJSON({"url": "assets/json/threeTwistsAlgToInfo.json", "async": false}).responseText);
-const threeTwistsAlgToNightmare = JSON.parse($.getJSON({"url": "assets/json/threeTwistsAlgToNightmare.json", "async": false}).responseText);
+$.ajaxSettings.async = false;
+const jsonNameList = ["twoTwistsPos1ToCode", "twoTwistsPos2ToCode", "threeTwistsAlgToInfo", "threeTwistsAlgToNightmare"];
+const jsonNameDict = {};
+const jsonLoaded = jsonNameList.map((name) => $.getJSON(`assets/json/${name}.json`, (json) => {
+    jsonNameDict[name] = json;
+}));
+Reflect.apply($.when, $, jsonLoaded).done(() => {
+    for (const i of jsonNameList) {
+        window[`${i}`] = jsonNameDict[i];
+    }
+});
 
 function sortByCode(x, y) {
     const cornerCodeToNumber2 = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "W", "M", "N", "O", "P", "Q", "R", "S", "T", "X", "Y", "Z"];

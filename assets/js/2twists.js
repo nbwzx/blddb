@@ -1,5 +1,6 @@
 "use strict";
 
+$.ajaxSettings.async = false;
 const jsonNameList = ["twoTwistsAlgToInfo", "twoTwistsPos1ToCode", "twoTwistsPos2ToCode", "twoTwistsAlgToNightmare"];
 const jsonNameDict = {};
 const jsonLoaded = jsonNameList.map((name) => $.getJSON(`assets/json/${name}.json`, (json) => {

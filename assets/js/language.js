@@ -215,6 +215,10 @@ $(document).ready(() => {
     if (typeof $(".allscreen")[0] !== "undefined") {
         $(".allscreen")[0].style.display = "block";
     }
+    const r = $("#table").width() / $("#div1").width();
+    if (r > 1) {
+        $("#table").css("font-size", 16 / r);
+    }
 });
 
 // get/set the selected language
