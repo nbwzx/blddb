@@ -1,0 +1,24 @@
+.selectize-control {
+    display: inline;
+}
+
+label {
+    width: 10px;
+    line-height: 25px;
+    margin-left: 4px;
+}
+
+.selectize-dropdown,
+.selectize-input,
+.selectize-input input {
+    font-size: inherit;
+    white-space: nowrap;
+    font-family: Tahoma, arial, verdana, "黑体", sans-serif;
+    line-height: 25px;
+    /* width: 20em; */
+}
+
+.selectize-dropdown [data-selectable] .highlight {
+    background: rgba(255, 255, 255, 0);
+    border-radius: 1px;
+}
