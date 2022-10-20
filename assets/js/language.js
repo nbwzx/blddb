@@ -187,6 +187,7 @@ if (Object.keys(arrLang).includes(lang)) {
     if (lang === "zh") {
         $(".language").html("<div class=\"status_circle status_circle_online\">简体中文</div>");
         $("#introduction").attr("href", "https://docs.blddb.net/zh");
+        $("#nightmareIntroduction").attr("href", "https://docs.blddb.net/zh/#nightmare");
         $("#donate").attr("href", "donate.html");
         $("#codeinput").width("5.5em");
         $("#cornerstyle").width("4em");
@@ -194,6 +195,7 @@ if (Object.keys(arrLang).includes(lang)) {
     } else if (lang === "en") {
         $(".language").html("<div class=\"status_circle status_circle_hide\">English</div>");
         $("#introduction").attr("href", "https://docs.blddb.net/en");
+        $("#nightmareIntroduction").attr("href", "https://docs.blddb.net/en/#nightmare");
         $("#donate").attr("href", "donate_en.html");
         $("#codeinput").width("14em");
         $("#cornerstyle").width("6em");
@@ -202,6 +204,7 @@ if (Object.keys(arrLang).includes(lang)) {
 } else {
     $(".language").html("<div class=\"status_circle status_circle_online\">简体中文</div>");
     $("#introduction").attr("href", "https://docs.blddb.net/zh");
+    $("#nightmareIntroduction").attr("href", "https://docs.blddb.net/zh/#nightmare");
     $("#donate").attr("href", "donate.html");
     $("#codeinput").width("5.5em");
     $("#cornerstyle").width("4em");
@@ -238,6 +241,7 @@ $(".translate").click(() => {
         if (lang === "zh") {
             $(".language").html("<div class=\"status_circle status_circle_online\">简体中文</div>");
             $("#introduction").attr("href", "https://docs.blddb.net/zh");
+            $("#nightmareIntroduction").attr("href", "https://docs.blddb.net/zh/#nightmare");
             $("#donate").attr("href", "donate.html");
             $("#codeinput").width("5.5em");
             $("#cornerstyle").width("4em");
@@ -248,6 +252,7 @@ $(".translate").click(() => {
         } else if (lang === "en") {
             $(".language").html("<div class=\"status_circle status_circle_hide\">English</div>");
             $("#introduction").attr("href", "https://docs.blddb.net/en");
+            $("#nightmareIntroduction").attr("href", "https://docs.blddb.net/en/#nightmare");
             $("#donate").attr("href", "donate_en.html");
             $("#codeinput").width("14em");
             $("#cornerstyle").width("6em");
@@ -259,6 +264,7 @@ $(".translate").click(() => {
     } else {
         $(".language").html("<div class=\"status_circle status_circle_online\">简体中文</div>");
         $("#introduction").attr("href", "https://docs.blddb.net/zh");
+        $("#nightmareIntroduction").attr("href", "https://docs.blddb.net/zh/#nightmare");
         $("#donate").attr("href", "donate.html");
         $("#codeinput").width("5.5em");
         $("#cornerstyle").width("4em");
