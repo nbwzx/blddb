@@ -29,7 +29,7 @@ function algSearch() {
         idValue = idValue.split("").sort(sortByCode).join("");
     }
     const div1 = document.getElementById("div1");
-    const rows = 18;
+    const rows = 50;
     if (threeTwistsAlgToInfo.hasOwnProperty(idValue)) {
         let tab = `<table id="table"><thead><tr><th>${arrLang[lang]["no"]}</th><th>${arrLang[lang]["algorithm"]}</th><th>${arrLang[lang]["thumbPosition"]}</th></tr></thead><tbody>`;
         for (let i = 0; i < rows; i++) {
