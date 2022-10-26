@@ -2,15 +2,9 @@
 
 $.ajaxSettings.async = false;
 const jsonNameList = ["twoTwistsAlgToInfo", "twoTwistsPos1ToCode", "twoTwistsPos2ToCode", "twoTwistsAlgToNightmare"];
-const jsonNameDict = {};
 const jsonLoaded = jsonNameList.map((name) => $.getJSON(`assets/json/${name}.json`, (json) => {
-    jsonNameDict[name] = json;
+    window[`${name}`] = json;
 }));
-Reflect.apply($.when, $, jsonLoaded).done(() => {
-    for (const i of jsonNameList) {
-        window[`${i}`] = jsonNameDict[i];
-    }
-});
 
 function algSearch() {
     const idValue = twoTwistsPos1ToCode[document.getElementById("cornerinput1").value] + twoTwistsPos2ToCode[document.getElementById("cornerinput2").value];

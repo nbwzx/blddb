@@ -2,15 +2,9 @@
 
 $.ajaxSettings.async = false;
 const jsonNameList = ["cornerChichuToNumber", "cornerAlgToStandard", "cornerAlgToInfo"];
-const jsonNameDict = {};
 const jsonLoaded = jsonNameList.map((name) => $.getJSON(`assets/json/${name}.json`, (json) => {
-    jsonNameDict[name] = json;
+    window[`${name}`] = json;
 }));
-Reflect.apply($.when, $, jsonLoaded).done(() => {
-    for (const i of jsonNameList) {
-        window[`${i}`] = jsonNameDict[i];
-    }
-});
 
 function sortByCode(x, y) {
     const cornerCodeToNumber2 = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "W", "M", "N", "O", "P", "Q", "R", "S", "T", "X", "Y", "Z"];

@@ -3,16 +3,10 @@
 $.ajaxSettings.async = false;
 const jsonNameList = ["edgeChichuToNumber", "nightmareTwoFlipsAlgToInfo"];
 const jsonNameListPre = {"edgeChichuToNumber":"edgeChichuToNumber", "nightmareTwoFlipsAlgToInfo":"nightmare/nightmareTwoFlipsAlgToInfo"};
-const jsonNameDict = {};
 const jsonLoaded = jsonNameList.map((name) => $.getJSON(`../assets/json/${jsonNameListPre[name]}.json`, (json) => {
-    jsonNameDict[name] = json;
+    window[`${name}`] = json;
 }));
-Reflect.apply($.when, $, jsonLoaded).done(() => {
-    for (const i of jsonNameList) {
-        window[`${i}`] = jsonNameDict[i];
-    }
-    algSearch();
-});
+algSearch();
 
 function sortByCode(x, y) {
     const edgeCodeToNumber2 = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "W", "X", "Y", "Z"];

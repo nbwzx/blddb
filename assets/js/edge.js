@@ -2,15 +2,9 @@
 
 $.ajaxSettings.async = false;
 const jsonNameList = ["edgeNumberToChichu", "edgeChichuToNumber", "edgeAlgToStandard", "edgeAlgToInfo", "edgeAlgToNightmare", "edgePosToCode", "edgeCodeToPos"];
-const jsonNameDict = {};
 const jsonLoaded = jsonNameList.map((name) => $.getJSON(`assets/json/${name}.json`, (json) => {
-    jsonNameDict[name] = json;
+    window[`${name}`] = json;
 }));
-Reflect.apply($.when, $, jsonLoaded).done(() => {
-    for (const i of jsonNameList) {
-        window[`${i}`] = jsonNameDict[i];
-    }
-});
 
 function algSearch() {
     let idValueOrigin = document.getElementById("edgeinput").value;

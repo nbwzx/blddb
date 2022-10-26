@@ -2,15 +2,9 @@
 
 $.ajaxSettings.async = false;
 const jsonNameList = ["imageAlgToInfo"];
-const jsonNameDict = {};
 const jsonLoaded = jsonNameList.map((name) => $.getJSON(`assets/json/${name}.json`, (json) => {
-    jsonNameDict[name] = json;
+    window[`${name}`] = json;
 }));
-Reflect.apply($.when, $, jsonLoaded).done(() => {
-    for (const i of jsonNameList) {
-        window[`${i}`] = jsonNameDict[i];
-    }
-});
 
 function vw(v) {
     const w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
