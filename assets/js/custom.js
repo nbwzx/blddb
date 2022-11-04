@@ -141,20 +141,22 @@ function upFile(ee) {
             arrayTitle.push(tmp[i].split("=")[0].charAt(0));
         }
         arrayTitle = Array.from(new Set(arrayTitle)); //Array deduplication
-        for (let i = 2; i <= maxRowCount; i++) {
-            if (obj.hasOwnProperty(arrayTitle[0] + i)) {
-                const alg = simplifyfinal(preprocessing(obj[arrayTitle[1] + i].replace("'", "")));
-                const cornerfullValue = cornerfull(alg);
-                if (cornerfullValue.length !== 4) {
-                    continue;
+        for (let i = 1; i <= maxRowCount; i++) {
+            for (let j = 0; j < arrayTitle.length; j++) {
+                if (obj.hasOwnProperty(arrayTitle[j] + i)) {
+                    const alg = simplifyfinal(preprocessing(obj[arrayTitle[j] + i].replace("'", "")));
+                    const cornerfullValue = cornerfull(alg);
+                    if (cornerfullValue.length !== 4) {
+                        continue;
+                    }
+                    const standardAlg = cornerfullValue[0] + cornerfullValue[2] + cornerfullValue[1];
+                    if (!(standardAlgList.indexOf(standardAlg) > -1)) {
+                        continue;
+                    }
+                    const selectize = $(`#select-algorithm-${standardAlg}`).selectize()[0].selectize;
+                    selectize.addOption([{"id": "0", "algorithm": alg}]);
+                    selectize.setValue([0, alg]);
                 }
-                const standardAlg = cornerfullValue[0] + cornerfullValue[2] + cornerfullValue[1];
-                if (!(standardAlgList.indexOf(standardAlg) > -1)) {
-                    continue;
-                }
-                const selectize = $(`#select-algorithm-${standardAlg}`).selectize()[0].selectize;
-                selectize.addOption([{"id": "0", "algorithm": alg}]);
-                selectize.setValue([0, alg]);
             }
         }
     };
