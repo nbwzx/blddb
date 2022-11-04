@@ -16,10 +16,14 @@ let bufferPos = "";
 let standardAlgList = [];
 let algList = [];
 let codecookie = "DEGCGAAJWIXKOOMREDCXTQLMKHIRZZPSBBLSQNJYHFFYWTNP";
-function init() {
+function algSearch() {
     algList = [];
     standardAlgList = [];
     buffer = document.getElementById("cornerinput").value;
+    if (buffer === "") {
+        div2.innerHTML = "";
+        return;
+    }
     bufferPos = cornerPosToCode[buffer];
     if (getCookie("code") !== "") {
         codecookie = getCookie("code");
@@ -98,7 +102,11 @@ function setSelect(letter) {
                 }
             }
             const cornerfullValue = cornerfull(simplifyValue);
-            if (cornerfullValue.length !== 4 || cornerfullValue[2] + cornerfullValue[1] !== letter) {
+            if (cornerfullValue.length !== 4) {
+                return false;
+            }
+            const standardValue = cornerfullValue[0] + cornerfullValue[2] + cornerfullValue[1];
+            if (standardValue !== standardAlg) {
                 return false;
             }
             return true;
