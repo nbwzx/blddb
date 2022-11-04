@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Custom</title>
+  <title>自定义</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
   <link rel="stylesheet" href="assets/css/main.css" />
@@ -41,9 +41,13 @@
       <div id="main">
         <div class="inner">
           <header>
-            <h1 style="text-align:center">Custom</h1>
-            <p>Customize your UFR corner alg set! 😍 😍 😍 </p>
+            <h1 style="text-align:center">自定义</h1>
+            <p>自定义你的 UFR 378 公式集 😍 😍 😍 </p>
           </header>
+          <input type="file" id="upfile" accept=".xlsx">
+          <button id="downfile">导出为 Excel</button>
+          <br />
+          <br />
           <div id="div2">
           </div>
           <br />
@@ -59,7 +63,21 @@
   <script src="assets/js/bldhelper.js"></script>
   <script src="assets/js/language.js"></script>
   <script src="assets/js/selectize.min.js"></script>
+  <script src="assets/js/xlsx.full.min.js"></script>
   <script src="assets/js/custom.js"></script>
+  <script>
+    $(document).ready(function () {
+      $("input[type=file]").each(function () {
+        var thisInput$ = $(this);
+        var newElement = $("<input type='button' value='导入本地 Excel' />");
+        newElement.click(function () {
+          thisInput$.click();
+        });
+        thisInput$.after(newElement);
+        thisInput$.hide();
+      });
+    });
+  </script>
 </body>
 
 </html>

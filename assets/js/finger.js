@@ -62,6 +62,9 @@ function fingerback(s1, position) {
 
 
 function fingerbeginfrom(s1) {
+    if (s1 === "") {
+        return "";
+    }
     let fingerbegin = "",
         count = 0;
     if (finger(s1, 2) === 1 && fingerback(s1, 2) === 0) {

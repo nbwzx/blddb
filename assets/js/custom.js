@@ -1,7 +1,7 @@
 "use strict";
 
 $.ajaxSettings.async = false;
-const jsonNameList = ["cornerChichuToNumber", "cornerAlgToStandard", "cornerAlgToInfo"];
+const jsonNameList = ["cornerChichuToNumber", "cornerAlgToStandard", "cornerAlgToInfo", "cornerAlgToNightmare"];
 const jsonLoaded = jsonNameList.map((name) => $.getJSON(`assets/json/${name}.json`, (json) => {
     window[`${name}`] = json;
 }));
@@ -24,7 +24,7 @@ for (const alg in cornerAlgToStandard) {
     }
 }
 algList.sort(sortByCode);
-let tab = `<table id="table"><thead><tr><th style="min-width:58px">${arrLang[lang]["nightmareLetters"]}</th><th style="min-width:420px;z-index:2">${arrLang[lang]["algorithm"]}</th><th style="min-width:220px">${arrLang[lang]["commutator"]}</th><th style="min-width:60px">${arrLang[lang]["thumbPosition"]}</th></tr></thead><tbody>`;
+let tab = `<table id="table"><thead><tr><th style="min-width:58px">${arrLang[lang]["nightmareLetters"]}</th><th style="min-width:450px;z-index:2">${arrLang[lang]["algorithm"]}</th><th style="min-width:220px">${arrLang[lang]["commutator"]}</th><th style="min-width:60px">${arrLang[lang]["thumbPosition"]}</th></tr></thead><tbody>`;
 for (const alg of algList) {
     const algdisplay = alg.slice(1, 3);
     for (let i = 0; i <= 1; i++) {
@@ -108,14 +108,12 @@ function setSelect(letter) {
             }
             const cornerfullValue = cornerfull(simplifyValue);
             if (cornerfullValue.length !== 4 || cornerfullValue[2] + cornerfullValue[1] !== letter) {
-                console.log(cornerfullValue);
                 return false;
             }
             return true;
         },
         "score" (search) {
             return function (option) {
-            // console.log(JSON.stringify(option));
                 if (option.algorithm.indexOf(search) === 0) {
                     return 1;
                 }
@@ -124,3 +122,81 @@ function setSelect(letter) {
         }
     }).data("selectize");
 }
+
+const X = XLSX;
+const upfile = document.getElementById("upfile");
+const downfile = document.getElementById("downfile");
+const out = document.getElementById("out");
+
+function upFile(ee) {
+    const files = ee.target.files[0];
+    // for (let index = 0, f = files[index]; index !== files.length; ++index) {
+    const reader = new FileReader();
+    reader.onload = function (e) {
+        const data = e.target.result;
+        const workbook = XLSX.read(data, {
+            "type": "binary"
+        });
+            // DO SOMETHING WITH workbook HERE
+        let excelResult = "";
+        const tmp = X.utils.sheet_to_formulae(workbook.Sheets[workbook.SheetNames[0]]);
+        let maxRowCount = 0;
+        let tmpRowCount = 0;
+        let arrayTitle = [];
+        const obj = {};
+        for (let i = 0; i < tmp.length; i++) {
+            tmpRowCount = parseInt(tmp[i].split("=")[0].substr(1, tmp[i].split("=")[0].length - 1), 10);
+            if (tmpRowCount >= maxRowCount) {
+                maxRowCount = tmpRowCount;
+            }
+            obj[tmp[i].split("=")[0]] = tmp[i].split("=")[1];
+            arrayTitle.push(tmp[i].split("=")[0].charAt(0));
+        }
+        arrayTitle = Array.from(new Set(arrayTitle)); //Array deduplication
+        excelResult += "<table class=\"productInfo\">";
+        for (let i = 2; i <= maxRowCount; i++) {
+            excelResult += "<tr>";
+            if (obj.hasOwnProperty(arrayTitle[0] + i)) {
+                const letter = obj[arrayTitle[0] + i].replace("'", "");
+                const alg = simplifyfinal(preprocessing(obj[arrayTitle[1] + i].replace("'", "")));
+                const cornerfullValue = cornerfull(alg);
+                if (cornerfullValue.length !== 4 || cornerfullValue[2] + cornerfullValue[1] !== letter) {
+                    continue;
+                }
+                const selectize = $(`#select-algorithm-J${letter}`).selectize()[0].selectize;
+                selectize.addOption([{"id": "0", "algorithm": alg}]);
+                selectize.setValue([0, alg]);
+            }
+            excelResult += "</tr>";
+        }
+    };
+    reader.readAsBinaryString(files);
+    // }
+}
+function downFile() {
+    const Datas = {
+        "Sheet1": []
+    };
+    for (const alg of algList) {
+        const algdisplay = alg.slice(1, 3);
+        for (let i = 0; i <= 1; i++) {
+            if (algdisplay[i] === "") {
+                cornerinput[i] = "";
+            } else if (codecookie[cornerChichuToNumber[algdisplay[i]]] === "") {
+                cornerinput[i] = algdisplay[i];
+            } else {
+                cornerinput[i] = codecookie[cornerChichuToNumber[algdisplay[i]]];
+            }
+        }
+        const letter = `${cornerinput[0]}${cornerinput[1]}`;
+        const selectize = $(`#select-algorithm-J${letter}`).selectize()[0].selectize;
+        const algorithm = selectize.getValue();
+        Datas.Sheet1.push({"编码":letter, "公式":algorithm, "交换子": commutator(algorithm), "起手":fingerbeginfrom(algorithm)});
+    }
+    const Sheet1 = X.utils.json_to_sheet(Datas.Sheet1);
+    const wb = X.utils.book_new();
+    X.utils.book_append_sheet(wb, Sheet1, "Sheet1");
+    XLSX.writeFile(wb, "公式集.xlsx");
+}
+upfile.addEventListener("change", upFile, false);
+downfile.addEventListener("click", downFile, false);

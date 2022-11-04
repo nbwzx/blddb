@@ -152,7 +152,7 @@ function sortRule(a, b) {
 function commutator(x) {
     result = [];
     if (x.length === 0) {
-        return "Empty input.";
+        return "";
     }
     let arr = preprocessing(x);
     // // See https://github.com/cubing/cubing.js/blob/main/src/cubing/alg/traversal.ts

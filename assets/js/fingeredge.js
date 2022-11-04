@@ -175,6 +175,9 @@ function fingerback(s1, position) {
 
 
 function fingerbeginfrom(s1) {
+    if (s1 === "") {
+        return "";
+    }
     let fingerbegin = "",
         count = 0;
     for (let i = 0; i <= 3; i++) {
