@@ -127,35 +127,37 @@ function upFile(ee) {
             "type": "binary"
         });
         // DO SOMETHING WITH workbook HERE
-        const tmp = X.utils.sheet_to_formulae(workbook.Sheets[workbook.SheetNames[0]]);
-        let maxRowCount = 0;
-        let tmpRowCount = 0;
-        let arrayTitle = [];
-        const obj = {};
-        for (let i = 0; i < tmp.length; i++) {
-            tmpRowCount = parseInt(tmp[i].split("=")[0].substr(1, tmp[i].split("=")[0].length - 1), 10);
-            if (tmpRowCount >= maxRowCount) {
-                maxRowCount = tmpRowCount;
+        for (let sheetIndex = 0; sheetIndex < workbook.SheetNames.length; sheetIndex++){
+            const tmp = X.utils.sheet_to_formulae(workbook.Sheets[workbook.SheetNames[sheetIndex]]);
+            let maxRowCount = 0;
+            let tmpRowCount = 0;
+            let arrayTitle = [];
+            const obj = {};
+            for (let i = 0; i < tmp.length; i++) {
+                tmpRowCount = parseInt(tmp[i].split("=")[0].substr(1, tmp[i].split("=")[0].length - 1), 10);
+                if (tmpRowCount >= maxRowCount) {
+                    maxRowCount = tmpRowCount;
+                }
+                obj[tmp[i].split("=")[0]] = tmp[i].split("=")[1];
+                arrayTitle.push(tmp[i].split("=")[0].charAt(0));
             }
-            obj[tmp[i].split("=")[0]] = tmp[i].split("=")[1];
-            arrayTitle.push(tmp[i].split("=")[0].charAt(0));
-        }
-        arrayTitle = Array.from(new Set(arrayTitle)); //Array deduplication
-        for (let i = 1; i <= maxRowCount; i++) {
-            for (let j = 0; j < arrayTitle.length; j++) {
-                if (obj.hasOwnProperty(arrayTitle[j] + i)) {
-                    const alg = simplifyfinal(preprocessing(obj[arrayTitle[j] + i].replace("'", "")));
-                    const cornerfullValue = cornerfull(alg);
-                    if (cornerfullValue.length !== 4) {
-                        continue;
+            arrayTitle = Array.from(new Set(arrayTitle)); //Array deduplication
+            for (let i = 1; i <= maxRowCount; i++) {
+                for (let j = 0; j < arrayTitle.length; j++) {
+                    if (obj.hasOwnProperty(arrayTitle[j] + i)) {
+                        const alg = simplifyfinal(preprocessing(obj[arrayTitle[j] + i].replace("'", "")));
+                        const cornerfullValue = cornerfull(alg);
+                        if (cornerfullValue.length !== 4) {
+                            continue;
+                        }
+                        const standardAlg = cornerfullValue[0] + cornerfullValue[2] + cornerfullValue[1];
+                        if (!(standardAlgList.indexOf(standardAlg) > -1)) {
+                            continue;
+                        }
+                        const selectize = $(`#select-algorithm-${standardAlg}`).selectize()[0].selectize;
+                        selectize.addOption([{"id": "0", "algorithm": alg}]);
+                        selectize.setValue([0, alg]);
                     }
-                    const standardAlg = cornerfullValue[0] + cornerfullValue[2] + cornerfullValue[1];
-                    if (!(standardAlgList.indexOf(standardAlg) > -1)) {
-                        continue;
-                    }
-                    const selectize = $(`#select-algorithm-${standardAlg}`).selectize()[0].selectize;
-                    selectize.addOption([{"id": "0", "algorithm": alg}]);
-                    selectize.setValue([0, alg]);
                 }
             }
         }
