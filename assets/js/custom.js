@@ -39,9 +39,9 @@ for (const alg of algList) {
     const letter = `${cornerinput[0]}${cornerinput[1]}`;
     tab += "<tr>";
     tab += `<td>${letter}</td>`;
-    tab += `<td style="padding:0 0 0 0;"><select id="select-algorithm-J${letter}"></select></td>`;
-    tab += `<td><div id="select-commutator-J${letter}"></div></td>`;
-    tab += `<td><div id="select-finger-J${letter}"></div></td>`;
+    tab += `<td style="padding:0 0 0 0;"><select id="select-algorithm-J${algdisplay}"></select></td>`;
+    tab += `<td><div id="select-commutator-J${algdisplay}"></div></td>`;
+    tab += `<td><div id="select-finger-J${algdisplay}"></div></td>`;
     tab += "</tr>";
 }
 tab += "</tbody></table>";
@@ -49,17 +49,7 @@ div2.innerHTML = tab;
 
 for (const alg of algList) {
     const algdisplay = alg.slice(1, 3);
-    for (let i = 0; i <= 1; i++) {
-        if (algdisplay[i] === "") {
-            cornerinput[i] = "";
-        } else if (codecookie[cornerChichuToNumber[algdisplay[i]]] === "") {
-            cornerinput[i] = algdisplay[i];
-        } else {
-            cornerinput[i] = codecookie[cornerChichuToNumber[algdisplay[i]]];
-        }
-    }
-    const letter = `${cornerinput[0]}${cornerinput[1]}`;
-    setSelect(letter);
+    setSelect(algdisplay);
 }
 
 
@@ -130,15 +120,13 @@ const out = document.getElementById("out");
 
 function upFile(ee) {
     const files = ee.target.files[0];
-    // for (let index = 0, f = files[index]; index !== files.length; ++index) {
     const reader = new FileReader();
     reader.onload = function (e) {
         const data = e.target.result;
         const workbook = XLSX.read(data, {
             "type": "binary"
         });
-            // DO SOMETHING WITH workbook HERE
-        let excelResult = "";
+        // DO SOMETHING WITH workbook HERE
         const tmp = X.utils.sheet_to_formulae(workbook.Sheets[workbook.SheetNames[0]]);
         let maxRowCount = 0;
         let tmpRowCount = 0;
@@ -153,25 +141,21 @@ function upFile(ee) {
             arrayTitle.push(tmp[i].split("=")[0].charAt(0));
         }
         arrayTitle = Array.from(new Set(arrayTitle)); //Array deduplication
-        excelResult += "<table class=\"productInfo\">";
         for (let i = 2; i <= maxRowCount; i++) {
-            excelResult += "<tr>";
             if (obj.hasOwnProperty(arrayTitle[0] + i)) {
-                const letter = obj[arrayTitle[0] + i].replace("'", "");
                 const alg = simplifyfinal(preprocessing(obj[arrayTitle[1] + i].replace("'", "")));
                 const cornerfullValue = cornerfull(alg);
-                if (cornerfullValue.length !== 4 || cornerfullValue[2] + cornerfullValue[1] !== letter) {
+                if (cornerfullValue.length !== 4 || cornerfullValue[0] !== "J") {
                     continue;
                 }
+                const letter = cornerfullValue[2] + cornerfullValue[1];
                 const selectize = $(`#select-algorithm-J${letter}`).selectize()[0].selectize;
                 selectize.addOption([{"id": "0", "algorithm": alg}]);
                 selectize.setValue([0, alg]);
             }
-            excelResult += "</tr>";
         }
     };
     reader.readAsBinaryString(files);
-    // }
 }
 function downFile() {
     const Datas = {
@@ -189,7 +173,7 @@ function downFile() {
             }
         }
         const letter = `${cornerinput[0]}${cornerinput[1]}`;
-        const selectize = $(`#select-algorithm-J${letter}`).selectize()[0].selectize;
+        const selectize = $(`#select-algorithm-J${algdisplay}`).selectize()[0].selectize;
         const algorithm = selectize.getValue();
         Datas.Sheet1.push({"编码":letter, "公式":algorithm, "交换子": commutator(algorithm), "起手":fingerbeginfrom(algorithm)});
     }
