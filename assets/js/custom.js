@@ -22,9 +22,13 @@ function algSearch() {
     standardAlgList = [];
     buffer = document.getElementById("cornerinput").value;
     if (buffer === "") {
+        document.getElementById("newupfile").style.visibility = "hidden";
+        document.getElementById("downfile").style.visibility = "hidden";
         div2.innerHTML = "";
         return;
     }
+    document.getElementById("newupfile").style.visibility = "visible";
+    document.getElementById("downfile").style.visibility = "visible";
     bufferPos = cornerPosToCode[buffer];
     if (getCookie("code") !== "") {
         codecookie = getCookie("code");
