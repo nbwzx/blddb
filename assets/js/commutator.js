@@ -105,12 +105,12 @@ function expand(algorithm) {
     algValue = algValue.replace(/Dw/gu, "d");
     algValue = algValue.replace(/[‘]/gu, "'");
     algValue = algValue.replace(/[’]/gu, "'");
+    algValue = algValue.replace(/\(/gu, "");
+    algValue = algValue.replace(/\)/gu, "");
+    algValue = algValue.replace(/（/gu, "");
+    algValue = algValue.replace(/）/gu, "");
     algValue = algValue.replace(/\s/gu, "");
     algValue = algValue.split("").join(" ");
-    algValue = algValue.replace(/\(/gu, "[");
-    algValue = algValue.replace(/\)/gu, "]");
-    algValue = algValue.replace(/（/gu, "[");
-    algValue = algValue.replace(/）/gu, "]");
     algValue = algValue.replace(/【/gu, "[");
     algValue = algValue.replace(/】/gu, "]");
     algValue = algValue.replace(/，/gu, ",");
