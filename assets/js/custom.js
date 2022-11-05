@@ -24,11 +24,13 @@ function algSearch() {
     if (buffer === "") {
         document.getElementById("newupfile").style.visibility = "hidden";
         document.getElementById("downfile").style.visibility = "hidden";
+        document.getElementById("algsearch").style.visibility = "hidden";
         div2.innerHTML = "";
         return;
     }
     document.getElementById("newupfile").style.visibility = "visible";
     document.getElementById("downfile").style.visibility = "visible";
+    document.getElementById("algsearch").style.visibility = "visible";
     bufferPos = cornerPosToCode[buffer];
     if (getCookie("code") !== "") {
         codecookie = getCookie("code");
@@ -151,6 +153,7 @@ function setSelect(letter) {
 const X = XLSX;
 const upfile = document.getElementById("upfile");
 const downfile = document.getElementById("downfile");
+const algsearch = document.getElementById("algsearch");
 
 function upFile(ee) {
     const standardAlgListCopy = standardAlgList.concat();
@@ -223,5 +226,7 @@ function downFile() {
     X.utils.book_append_sheet(wb, Sheet1, "Sheet1");
     XLSX.writeFile(wb, `公式集-${buffer}.xlsx`);
 }
+
 upfile.addEventListener("change", upFile, false);
 downfile.addEventListener("click", downFile, false);
+algsearch.addEventListener("click", algSearch, false);
