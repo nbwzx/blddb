@@ -124,7 +124,7 @@ function expand(algorithm) {
     algValue = algValue.replace(/ \]/gu, "]");
     algValue = algValue.replace(/\]\[/gu, "]+[");
     if (algValue === "") {
-        return "Empty input.";
+        return "";
     }
     if (order === 0) {
         preprocessing(algValue);
