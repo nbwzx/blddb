@@ -111,6 +111,7 @@ function setSelect(alg) {
             const simplifyValue = expand(algorithm);
             if (simplifyValue !== algorithm) {
                 selectize.removeOption(algorithm);
+                selectize.addOption([{"id": "0", "algorithm": simplifyValue}]);
                 selectize.setValue([0, simplifyValue]);
             }
             $(`#select-commutator-${standardAlg}`).text(commutator(simplifyValue));
@@ -120,6 +121,9 @@ function setSelect(alg) {
             const simplifyValue = expand(value);
             for (const optValue in this.options) {
                 const algorithm = this.options[optValue].algorithm;
+                if (value === algorithm) {
+                    return false;
+                }
                 if (simplifyValue === algorithm) {
                     return true;
                 }
@@ -200,6 +204,9 @@ function upFile(ee) {
                         const selectize = $(`#select-algorithm-${standardAlg}`).selectize()[0].selectize;
                         selectize.addOption([{"id": "0", "algorithm": alg}]);
                         selectize.setValue([0, alg]);
+                        if (standardAlgListCopy.length === 0) {
+                            return;
+                        }
                     }
                 }
             }
@@ -218,7 +225,7 @@ function downFile() {
         const standardAlg = cornerAlgToStandard[alg];
         const selectize = $(`#select-algorithm-${standardAlg}`).selectize()[0].selectize;
         const algorithm = selectize.getValue();
-        Datas.Sheet1.push({"编码":letter, "公式":algorithm, "交换子": commutator(algorithm), "起手":fingerbeginfrom(algorithm)});
+        Datas.Sheet1.push({"编码": letter, "公式": algorithm, "交换子": commutator(algorithm), "起手": fingerbeginfrom(algorithm)});
     }
     const Sheet1 = X.utils.json_to_sheet(Datas.Sheet1);
     const wb = X.utils.book_new();
