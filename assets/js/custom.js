@@ -41,7 +41,12 @@ function algSearch() {
         }
     }
     algList.sort(sortByCode);
-    let tab = `<table id="table" style="table-layout: fixed; width: 800px; padding-right: 0px;"><thead><tr><th style="width:8%">${arrLang[lang]["nightmareLetters"]}</th><th style="width:56%;z-index:2">${arrLang[lang]["algorithm"]}</th><th style="width:28%">${arrLang[lang]["commutator"]}</th><th style="width:8%">${arrLang[lang]["thumbPosition"]}</th></tr></thead><tbody>`;
+    let tab = "";
+    if (lang === "zh") {
+        tab = `<table id="table" style="table-layout: fixed; width: 800px; padding-right: 0px;"><thead><tr><th style="width:8%">${arrLang[lang]["nightmareLetters"]}</th><th style="width:56%;z-index:2">${arrLang[lang]["algorithm"]}</th><th style="width:28%">${arrLang[lang]["commutator"]}</th><th style="width:8%">${arrLang[lang]["thumbPosition"]}</th></tr></thead><tbody>`;
+    } else {
+        tab = `<table id="table" style="table-layout: fixed; width: 976px; padding-right: 0px;"><thead><tr><th style="width:10%">${arrLang[lang]["nightmareLetters"]}</th><th style="width:56%;z-index:2">${arrLang[lang]["algorithm"]}</th><th style="width:28%">${arrLang[lang]["commutator"]}</th><th style="width:28%">${arrLang[lang]["thumbPosition"]}</th></tr></thead><tbody>`;
+    }
     for (const alg of algList) {
         const algdisplay = alg.slice(1, 3);
         for (let i = 0; i <= 1; i++) {
@@ -68,8 +73,12 @@ function algSearch() {
     for (const alg of algList) {
         setSelect(alg);
     }
-
-    const r = 800 / $("#div2").width();
+    let r = 0;
+    if (lang === "zh") {
+        r = 800 / $("#div2").width();
+    } else {
+        r = 976 / $("#div2").width();
+    }
     if (r > 1) {
         $("#table").css("width", $("#div2").width());
         $("#table").css("font-size", 16 / r);
