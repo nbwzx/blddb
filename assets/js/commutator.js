@@ -97,7 +97,16 @@ function expand(algorithm) {
     finalReplace = finalReplaceInit;
     commute = commuteInit;
     let algValue = algorithm;
-    algValue = algValue.replace(/\s/gu, " ");
+    algValue = algValue.replace(/Rw/gu, "r");
+    algValue = algValue.replace(/Lw/gu, "l");
+    algValue = algValue.replace(/Fw/gu, "f");
+    algValue = algValue.replace(/Bw/gu, "b");
+    algValue = algValue.replace(/Uw/gu, "u");
+    algValue = algValue.replace(/Dw/gu, "d");
+    algValue = algValue.replace(/[‘]/gu, "'");
+    algValue = algValue.replace(/[’]/gu, "'");
+    algValue = algValue.replace(/\s/gu, "");
+    algValue = algValue.split("").join(" ");
     algValue = algValue.replace(/\(/gu, "[");
     algValue = algValue.replace(/\)/gu, "]");
     algValue = algValue.replace(/（/gu, "[");
@@ -105,6 +114,14 @@ function expand(algorithm) {
     algValue = algValue.replace(/【/gu, "[");
     algValue = algValue.replace(/】/gu, "]");
     algValue = algValue.replace(/，/gu, ",");
+    algValue = algValue.replace(/: /gu, ":");
+    algValue = algValue.replace(/, /gu, ",");
+    algValue = algValue.replace(/\[ /gu, "[");
+    algValue = algValue.replace(/\] /gu, "]");
+    algValue = algValue.replace(/ :/gu, ":");
+    algValue = algValue.replace(/ ,/gu, ",");
+    algValue = algValue.replace(/ \[/gu, "[");
+    algValue = algValue.replace(/ \]/gu, "]");
     algValue = algValue.replace(/\]\[/gu, "]+[");
     if (algValue === "") {
         return "Empty input.";

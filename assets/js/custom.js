@@ -170,7 +170,7 @@ function upFile(ee) {
             for (let i = 1; i <= maxRowCount; i++) {
                 for (let j = 0; j < arrayTitle.length; j++) {
                     if (obj.hasOwnProperty(arrayTitle[j] + i)) {
-                        const alg = simplifyfinal(preprocessing(obj[arrayTitle[j] + i].replace("'", "")));
+                        const alg = simplifyfinal(preprocessing(expand(obj[arrayTitle[j] + i].replace("'", ""))));
                         const cornerfullValue = cornerfull(alg);
                         if (cornerfullValue.length !== 4) {
                             continue;
