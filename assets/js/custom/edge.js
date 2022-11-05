@@ -1,14 +1,14 @@
 "use strict";
 
 $.ajaxSettings.async = false;
-const jsonNameList = ["cornerAlgToStandard", "cornerAlgToInfo", "cornerChichuToNumber", "cornerPosToCode"];
+const jsonNameList = ["edgeAlgToStandard", "edgeAlgToInfo", "edgeChichuToNumber", "edgePosToCode"];
 const jsonLoaded = jsonNameList.map((name) => $.getJSON(`../assets/json/${name}.json`, (json) => {
     window[`${name}`] = json;
 }));
 
 function sortByCode(x, y) {
-    const cornerCodeToNumber2 = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "W", "M", "N", "O", "P", "Q", "R", "S", "T", "X", "Y", "Z"];
-    return (cornerCodeToNumber2.indexOf(x[1]) - cornerCodeToNumber2.indexOf(y[1])) * 24 + (cornerCodeToNumber2.indexOf(x[2]) - cornerCodeToNumber2.indexOf(y[2]));
+    const edgeCodeToNumber2 = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "W", "X", "Y", "Z"];
+    return (edgeCodeToNumber2.indexOf(x[1]) - edgeCodeToNumber2.indexOf(y[1])) * 24 + (edgeCodeToNumber2.indexOf(x[2]) - edgeCodeToNumber2.indexOf(y[2]));
 }
 
 let buffer = "";
@@ -19,10 +19,10 @@ let codecookie = "DEGCGAAJWIXKOOMREDCXTQLMKHIRZZPSBBLSQNJYHFFYWTNP";
 
 function algSearch() {
     $("#newupfile").val(arrLang[lang]["customUpfile"]);
-    const cornerinput = [];
+    const edgeinput = [];
     algList = [];
     standardAlgList = [];
-    buffer = document.getElementById("cornerinput").value;
+    buffer = document.getElementById("edgeinput").value;
     if (buffer === "") {
         document.getElementById("newupfile").style.visibility = "hidden";
         document.getElementById("downfile").style.visibility = "hidden";
@@ -33,11 +33,11 @@ function algSearch() {
     document.getElementById("newupfile").style.visibility = "visible";
     document.getElementById("downfile").style.visibility = "visible";
     document.getElementById("algsearch").style.visibility = "visible";
-    bufferPos = cornerPosToCode[buffer];
+    bufferPos = edgePosToCode[buffer];
     if (getCookie("code") !== "") {
         codecookie = getCookie("code");
     }
-    for (const alg in cornerAlgToStandard) {
+    for (const alg in edgeAlgToStandard) {
         if (alg[0] === bufferPos) {
             algList.push(alg);
         }
@@ -53,15 +53,15 @@ function algSearch() {
         const algdisplay = alg.slice(1, 3);
         for (let i = 0; i <= 1; i++) {
             if (algdisplay[i] === "") {
-                cornerinput[i] = "";
-            } else if (codecookie[cornerChichuToNumber[algdisplay[i]]] === "") {
-                cornerinput[i] = algdisplay[i];
+                edgeinput[i] = "";
+            } else if (codecookie[edgeChichuToNumber[algdisplay[i]]] === "") {
+                edgeinput[i] = algdisplay[i];
             } else {
-                cornerinput[i] = codecookie[cornerChichuToNumber[algdisplay[i]]];
+                edgeinput[i] = codecookie[edgeChichuToNumber[algdisplay[i]]];
             }
         }
-        const letter = `${cornerinput[0]}${cornerinput[1]}`;
-        const standardAlg = cornerAlgToStandard[alg];
+        const letter = `${edgeinput[0]}${edgeinput[1]}`;
+        const standardAlg = edgeAlgToStandard[alg];
         tab += "<tr>";
         tab += `<td>${letter}</td>`;
         tab += `<td style="padding:0 0 0 0;"><select id="select-algorithm-${standardAlg}"></select></td>`;
@@ -92,7 +92,7 @@ function algSearch() {
 }
 
 function setSelect(alg) {
-    const standardAlg = cornerAlgToStandard[alg];
+    const standardAlg = edgeAlgToStandard[alg];
     if (!(standardAlgList.indexOf(standardAlg) > -1)) {
         standardAlgList.push(standardAlg);
     }
@@ -105,24 +105,24 @@ function setSelect(alg) {
         "searchField": ["algorithm"],
         "sortField": "id",
         "options" : [
-            { "id": 1, "algorithm": cornerAlgToInfo[standardAlg][0]},
-            { "id": 2, "algorithm": cornerAlgToInfo[standardAlg][1]},
-            { "id": 3, "algorithm": cornerAlgToInfo[standardAlg][2]},
-            { "id": 4, "algorithm": cornerAlgToInfo[standardAlg][3]},
-            { "id": 5, "algorithm": cornerAlgToInfo[standardAlg][4]},
-            { "id": 6, "algorithm": cornerAlgToInfo[standardAlg][5]},
-            { "id": 7, "algorithm": cornerAlgToInfo[standardAlg][6]},
-            { "id": 8, "algorithm": cornerAlgToInfo[standardAlg][7]},
-            { "id": 9, "algorithm": cornerAlgToInfo[standardAlg][8]},
-            { "id": 10, "algorithm": cornerAlgToInfo[standardAlg][9]},
-            { "id": 11, "algorithm": cornerAlgToInfo[standardAlg][10]},
-            { "id": 12, "algorithm": cornerAlgToInfo[standardAlg][11]},
-            { "id": 13, "algorithm": cornerAlgToInfo[standardAlg][12]},
-            { "id": 14, "algorithm": cornerAlgToInfo[standardAlg][13]},
-            { "id": 15, "algorithm": cornerAlgToInfo[standardAlg][14]},
-            { "id": 16, "algorithm": cornerAlgToInfo[standardAlg][15]},
-            { "id": 17, "algorithm": cornerAlgToInfo[standardAlg][16]},
-            { "id": 18, "algorithm": cornerAlgToInfo[standardAlg][17]}
+            { "id": 1, "algorithm": edgeAlgToInfo[standardAlg][0]},
+            { "id": 2, "algorithm": edgeAlgToInfo[standardAlg][1]},
+            { "id": 3, "algorithm": edgeAlgToInfo[standardAlg][2]},
+            { "id": 4, "algorithm": edgeAlgToInfo[standardAlg][3]},
+            { "id": 5, "algorithm": edgeAlgToInfo[standardAlg][4]},
+            { "id": 6, "algorithm": edgeAlgToInfo[standardAlg][5]},
+            { "id": 7, "algorithm": edgeAlgToInfo[standardAlg][6]},
+            { "id": 8, "algorithm": edgeAlgToInfo[standardAlg][7]},
+            { "id": 9, "algorithm": edgeAlgToInfo[standardAlg][8]},
+            { "id": 10, "algorithm": edgeAlgToInfo[standardAlg][9]},
+            { "id": 11, "algorithm": edgeAlgToInfo[standardAlg][10]},
+            { "id": 12, "algorithm": edgeAlgToInfo[standardAlg][11]},
+            { "id": 13, "algorithm": edgeAlgToInfo[standardAlg][12]},
+            { "id": 14, "algorithm": edgeAlgToInfo[standardAlg][13]},
+            { "id": 15, "algorithm": edgeAlgToInfo[standardAlg][14]},
+            { "id": 16, "algorithm": edgeAlgToInfo[standardAlg][15]},
+            { "id": 17, "algorithm": edgeAlgToInfo[standardAlg][16]},
+            { "id": 18, "algorithm": edgeAlgToInfo[standardAlg][17]}
         ],
         "create" : true,
         "persist": false,
@@ -148,15 +148,15 @@ function setSelect(alg) {
                     return true;
                 }
             }
-            const cornerfullValue = cornerfull(simplifyValue);
-            if (cornerfullValue.length !== 4) {
-                return false;
-            }
             const edgefullValue = edgefull(simplifyValue);
-            if (edgefullValue.length !== 0) {
+            if (edgefullValue.length !== 4) {
                 return false;
             }
-            const standardValue = cornerfullValue[0] + cornerfullValue[2] + cornerfullValue[1];
+            const cornerfullValue = cornerfull(simplifyValue);
+            if (cornerfullValue.length !== 0) {
+                return false;
+            }
+            const standardValue = edgefullValue[0] + edgefullValue[2] + edgefullValue[1];
             if (standardValue !== standardAlg) {
                 return false;
             }
@@ -211,15 +211,15 @@ function upFile(ee) {
                             continue;
                         }
                         const alg = expand(originAlg);
-                        const cornerfullValue = cornerfull(alg);
-                        if (cornerfullValue.length !== 4) {
-                            continue;
-                        }
                         const edgefullValue = edgefull(alg);
-                        if (edgefullValue.length !== 0) {
+                        if (edgefullValue.length !== 4) {
                             continue;
                         }
-                        const standardAlg = cornerfullValue[0] + cornerfullValue[2] + cornerfullValue[1];
+                        const cornerfullValue = cornerfull(alg);
+                        if (cornerfullValue.length !== 0) {
+                            continue;
+                        }
+                        const standardAlg = edgefullValue[0] + edgefullValue[2] + edgefullValue[1];
                         const indexOfList = standardAlgListCopy.indexOf(standardAlg);
                         if (!(indexOfList > -1)) {
                             continue;
@@ -247,7 +247,7 @@ function downFile() {
     for (const alg of algList) {
         const algdisplay = alg.slice(1, 3);
         const letter = `${algdisplay[0]}${algdisplay[1]}`;
-        const standardAlg = cornerAlgToStandard[alg];
+        const standardAlg = edgeAlgToStandard[alg];
         const selectize = $(`#select-algorithm-${standardAlg}`).selectize()[0].selectize;
         const algorithm = selectize.getValue();
         Datas.Sheet1.push({[arrLang[lang]["nightmareLetters"]]: letter, [arrLang[lang]["algorithm"]]: algorithm, [arrLang[lang]["commutator"]]: commutator(algorithm), [arrLang[lang]["thumbPosition"]]: fingerbeginfrom(algorithm)});
@@ -255,7 +255,7 @@ function downFile() {
     const Sheet1 = X.utils.json_to_sheet(Datas.Sheet1);
     const wb = X.utils.book_new();
     X.utils.book_append_sheet(wb, Sheet1, "Sheet1");
-    XLSX.writeFile(wb, `${arrLang[lang]["customCorner"]}-${buffer}.xlsx`);
+    XLSX.writeFile(wb, `${arrLang[lang]["customEdge"]}-${buffer}.xlsx`);
 }
 
 $(document).ready(() => {

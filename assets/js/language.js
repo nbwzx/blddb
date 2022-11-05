@@ -81,7 +81,14 @@ const arrLang = {
         "style": "Style：",
         "cornerStyleNightmare": "nightmare",
         "cornerStyleBalance": "balance",
-        "cornerStyleYuanzi": "yuanzi"
+        "cornerStyleYuanzi": "yuanzi",
+        "custom": "Custom Alg Set",
+        "customDescription": "Customize your Alg set.",
+        "customEdge": "3-Style Edge",
+        "customCorner": "3-Style Corner",
+        "customUpfile": "Import Local Excel",
+        "customDownfile": "Export Excel",
+        "customClear": "Clear"
     },
     "zh": {
         "title": "三盲公式库",
@@ -165,7 +172,14 @@ const arrLang = {
         "style": "风格：",
         "cornerStyleNightmare": "噩梦",
         "cornerStyleBalance": "平衡",
-        "cornerStyleYuanzi": "圆子"
+        "cornerStyleYuanzi": "圆子",
+        "custom": "个人公式集",
+        "customDescription": "自定义你的盲拧公式集。",
+        "customEdge": "棱块公式集",
+        "customCorner": "角块公式集",
+        "customUpfile": "导入本地 Excel",
+        "customDownfile": "导出为 Excel",
+        "customClear": "清空"
     }
 };
 
