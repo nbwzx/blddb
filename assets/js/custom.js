@@ -106,6 +106,12 @@ function setSelect(letter) {
         "create" : true,
         "persist": false,
         "onChange" (algorithm) {
+            const selectize = $(`#select-algorithm-${standardAlg}`).selectize()[0].selectize;
+            const simplifyValue = simplifyfinal(preprocessing(algorithm));
+            if (simplifyValue !== algorithm) {
+                selectize.removeOption(algorithm);
+                selectize.setValue([0, simplifyValue]);
+            }
             $(`#select-commutator-${standardAlg}`).text(commutator(algorithm));
             $(`#select-finger-${standardAlg}`).text(fingerbeginfrom(algorithm));
         },
@@ -114,7 +120,7 @@ function setSelect(letter) {
             for (const optValue in this.options) {
                 const algorithm = this.options[optValue].algorithm;
                 if (simplifyValue === algorithm) {
-                    return false;
+                    return true;
                 }
             }
             const cornerfullValue = cornerfull(simplifyValue);
