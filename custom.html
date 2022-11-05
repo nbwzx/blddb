@@ -75,7 +75,7 @@
           &nbsp;
           <input type="file" id="upfile" accept=".xlsx">
           <button id="downfile" style="visibility:hidden">导出为 Excel</button>
-          <button id="algsearch" style="visibility:hidden">清空</button>          
+          <button id="algsearch" style="visibility:hidden">清空</button>
           <br />
           <br />
           <div id="div2">
@@ -100,7 +100,7 @@
       $("input[type=file]").each(function () {
         var thisInput$ = $(this);
         var newElement = $(
-        "<input type='button' id='newupfile' value='导入本地 Excel' style='visibility:hidden'/>");
+          "<input type='button' id='newupfile' value='导入本地 Excel' style='visibility:hidden'/>");
         newElement.click(function () {
           thisInput$.click();
         });

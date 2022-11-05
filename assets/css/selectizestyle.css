@@ -15,10 +15,9 @@ label {
     white-space: nowrap;
     font-family: Tahoma, arial, verdana, "黑体", sans-serif;
     line-height: 25px;
-    /* width: 20em; */
+    text-align: center;
 }
 
 .selectize-dropdown [data-selectable] .highlight {
     background: rgba(255, 255, 255, 0);
-    border-radius: 1px;
 }

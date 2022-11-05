@@ -41,7 +41,7 @@ function algSearch() {
         }
     }
     algList.sort(sortByCode);
-    let tab = `<table id="table"><thead><tr><th style="min-width:58px">${arrLang[lang]["nightmareLetters"]}</th><th style="min-width:450px;z-index:2">${arrLang[lang]["algorithm"]}</th><th style="min-width:220px">${arrLang[lang]["commutator"]}</th><th style="min-width:60px">${arrLang[lang]["thumbPosition"]}</th></tr></thead><tbody>`;
+    let tab = `<table id="table" style="table-layout: fixed; width: 800px; padding-right: 0px;"><thead><tr><th style="width:8%">${arrLang[lang]["nightmareLetters"]}</th><th style="width:56%;z-index:2">${arrLang[lang]["algorithm"]}</th><th style="width:28%">${arrLang[lang]["commutator"]}</th><th style="width:8%">${arrLang[lang]["thumbPosition"]}</th></tr></thead><tbody>`;
     for (const alg of algList) {
         const algdisplay = alg.slice(1, 3);
         for (let i = 0; i <= 1; i++) {
@@ -67,6 +67,16 @@ function algSearch() {
 
     for (const alg of algList) {
         setSelect(alg);
+    }
+
+    const r = 800 / $("#div2").width();
+    if (r > 1) {
+        $("#table").css("width", $("#div2").width());
+        $("#table").css("font-size", 16 / r);
+        $(".selectize-dropdown").css("line-height", 1.43);
+        $(".selectize-input").css("line-height", 2.57);
+        $(".selectize-dropdown").css("padding", 0);
+        $(".selectize-input").css("padding", 0);
     }
 }
 
