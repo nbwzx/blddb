@@ -112,8 +112,8 @@ function setSelect(letter) {
                 selectize.removeOption(algorithm);
                 selectize.setValue([0, simplifyValue]);
             }
-            $(`#select-commutator-${standardAlg}`).text(commutator(algorithm));
-            $(`#select-finger-${standardAlg}`).text(fingerbeginfrom(algorithm));
+            $(`#select-commutator-${standardAlg}`).text(commutator(simplifyValue));
+            $(`#select-finger-${standardAlg}`).text(fingerbeginfrom(simplifyValue));
         },
         "createFilter" (value) {
             const simplifyValue = simplifyfinal(preprocessing(value));
