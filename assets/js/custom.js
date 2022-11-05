@@ -54,7 +54,7 @@ function algSearch() {
             }
         }
         const letter = `${cornerinput[0]}${cornerinput[1]}`;
-        const standardAlg = cornerAlgToStandard[bufferPos + algdisplay];
+        const standardAlg = cornerAlgToStandard[alg];
         tab += "<tr>";
         tab += `<td>${letter}</td>`;
         tab += `<td style="padding:0 0 0 0;"><select id="select-algorithm-${standardAlg}"></select></td>`;
@@ -66,14 +66,13 @@ function algSearch() {
     div2.innerHTML = tab;
 
     for (const alg of algList) {
-        const algdisplay = alg.slice(1, 3);
-        setSelect(algdisplay);
+        setSelect(alg);
     }
 }
 
 
-function setSelect(letter) {
-    const standardAlg = cornerAlgToStandard[bufferPos + letter];
+function setSelect(alg) {
+    const standardAlg = cornerAlgToStandard[alg];
     if (!(standardAlgList.indexOf(standardAlg) > -1)) {
         standardAlgList.push(standardAlg);
     }
@@ -109,7 +108,7 @@ function setSelect(letter) {
         "persist": false,
         "onChange" (algorithm) {
             const selectize = $(`#select-algorithm-${standardAlg}`).selectize()[0].selectize;
-            const simplifyValue = simplifyfinal(preprocessing(algorithm));
+            const simplifyValue = expand(algorithm);
             if (simplifyValue !== algorithm) {
                 selectize.removeOption(algorithm);
                 selectize.setValue([0, simplifyValue]);
@@ -118,7 +117,7 @@ function setSelect(letter) {
             $(`#select-finger-${standardAlg}`).text(fingerbeginfrom(simplifyValue));
         },
         "createFilter" (value) {
-            const simplifyValue = simplifyfinal(preprocessing(value));
+            const simplifyValue = expand(value);
             for (const optValue in this.options) {
                 const algorithm = this.options[optValue].algorithm;
                 if (simplifyValue === algorithm) {
@@ -183,7 +182,7 @@ function upFile(ee) {
             for (let i = 1; i <= maxRowCount; i++) {
                 for (let j = 0; j < arrayTitle.length; j++) {
                     if (obj.hasOwnProperty(arrayTitle[j] + i)) {
-                        const alg = simplifyfinal(preprocessing(expand(obj[arrayTitle[j] + i].replace("'", ""))));
+                        const alg = expand(obj[arrayTitle[j] + i].replace("'", ""));
                         const cornerfullValue = cornerfull(alg);
                         if (cornerfullValue.length !== 4) {
                             continue;
@@ -216,7 +215,7 @@ function downFile() {
     for (const alg of algList) {
         const algdisplay = alg.slice(1, 3);
         const letter = `${algdisplay[0]}${algdisplay[1]}`;
-        const standardAlg = cornerAlgToStandard[bufferPos + algdisplay];
+        const standardAlg = cornerAlgToStandard[alg];
         const selectize = $(`#select-algorithm-${standardAlg}`).selectize()[0].selectize;
         const algorithm = selectize.getValue();
         Datas.Sheet1.push({"编码":letter, "公式":algorithm, "交换子": commutator(algorithm), "起手":fingerbeginfrom(algorithm)});
