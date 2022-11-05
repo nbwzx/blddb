@@ -1,7 +1,7 @@
 "use strict";
 
 $.ajaxSettings.async = false;
-const jsonNameList = ["cornerAlgToStandard", "cornerAlgToInfo", "cornerPosToCode"];
+const jsonNameList = ["cornerAlgToStandard", "cornerAlgToInfo", "cornerChichuToNumber", "cornerPosToCode"];
 const jsonLoaded = jsonNameList.map((name) => $.getJSON(`assets/json/${name}.json`, (json) => {
     window[`${name}`] = json;
 }));
@@ -17,6 +17,7 @@ let standardAlgList = [];
 let algList = [];
 let codecookie = "DEGCGAAJWIXKOOMREDCXTQLMKHIRZZPSBBLSQNJYHFFYWTNP";
 function algSearch() {
+    const cornerinput = [];
     algList = [];
     standardAlgList = [];
     buffer = document.getElementById("cornerinput").value;
@@ -37,8 +38,17 @@ function algSearch() {
     let tab = `<table id="table"><thead><tr><th style="min-width:58px">${arrLang[lang]["nightmareLetters"]}</th><th style="min-width:450px;z-index:2">${arrLang[lang]["algorithm"]}</th><th style="min-width:220px">${arrLang[lang]["commutator"]}</th><th style="min-width:60px">${arrLang[lang]["thumbPosition"]}</th></tr></thead><tbody>`;
     for (const alg of algList) {
         const algdisplay = alg.slice(1, 3);
-        const letter = `${algdisplay[0]}${algdisplay[1]}`;
-        const standardAlg = cornerAlgToStandard[bufferPos + letter];
+        for (let i = 0; i <= 1; i++) {
+            if (algdisplay[i] === "") {
+                cornerinput[i] = "";
+            } else if (codecookie[cornerChichuToNumber[algdisplay[i]]] === "") {
+                cornerinput[i] = algdisplay[i];
+            } else {
+                cornerinput[i] = codecookie[cornerChichuToNumber[algdisplay[i]]];
+            }
+        }
+        const letter = `${cornerinput[0]}${cornerinput[1]}`;
+        const standardAlg = cornerAlgToStandard[bufferPos + algdisplay];
         tab += "<tr>";
         tab += `<td>${letter}</td>`;
         tab += `<td style="padding:0 0 0 0;"><select id="select-algorithm-${standardAlg}"></select></td>`;
@@ -58,7 +68,9 @@ function algSearch() {
 
 function setSelect(letter) {
     const standardAlg = cornerAlgToStandard[bufferPos + letter];
-    standardAlgList.push(standardAlg);
+    if (!(standardAlgList.indexOf(standardAlg) > -1)) {
+        standardAlgList.push(standardAlg);
+    }
     $(`#select-algorithm-${standardAlg}`).selectize( {
         "loadingClass": "selectizeLoading",
         "placeholder": "Pick algorithms",
@@ -105,6 +117,10 @@ function setSelect(letter) {
             if (cornerfullValue.length !== 4) {
                 return false;
             }
+            const edgefullValue = edgefull(simplifyValue);
+            if (edgefullValue.length !== 0) {
+                return false;
+            }
             const standardValue = cornerfullValue[0] + cornerfullValue[2] + cornerfullValue[1];
             if (standardValue !== standardAlg) {
                 return false;
@@ -127,6 +143,7 @@ const upfile = document.getElementById("upfile");
 const downfile = document.getElementById("downfile");
 
 function upFile(ee) {
+    const standardAlgListCopy = standardAlgList.concat();
     const files = ee.target.files[0];
     const reader = new FileReader();
     reader.onload = function (e) {
@@ -158,10 +175,16 @@ function upFile(ee) {
                         if (cornerfullValue.length !== 4) {
                             continue;
                         }
-                        const standardAlg = cornerfullValue[0] + cornerfullValue[2] + cornerfullValue[1];
-                        if (!(standardAlgList.indexOf(standardAlg) > -1)) {
+                        const edgefullValue = edgefull(alg);
+                        if (edgefullValue.length !== 0) {
                             continue;
                         }
+                        const standardAlg = cornerfullValue[0] + cornerfullValue[2] + cornerfullValue[1];
+                        const indexOfList = standardAlgListCopy.indexOf(standardAlg);
+                        if (!(indexOfList > -1)) {
+                            continue;
+                        }
+                        standardAlgListCopy.splice(indexOfList, 1);
                         const selectize = $(`#select-algorithm-${standardAlg}`).selectize()[0].selectize;
                         selectize.addOption([{"id": "0", "algorithm": alg}]);
                         selectize.setValue([0, alg]);
@@ -180,7 +203,7 @@ function downFile() {
     for (const alg of algList) {
         const algdisplay = alg.slice(1, 3);
         const letter = `${algdisplay[0]}${algdisplay[1]}`;
-        const standardAlg = cornerAlgToStandard[bufferPos + letter];
+        const standardAlg = cornerAlgToStandard[bufferPos + algdisplay];
         const selectize = $(`#select-algorithm-${standardAlg}`).selectize()[0].selectize;
         const algorithm = selectize.getValue();
         Datas.Sheet1.push({"编码":letter, "公式":algorithm, "交换子": commutator(algorithm), "起手":fingerbeginfrom(algorithm)});
