@@ -12,14 +12,14 @@ function sortByCode(x, y) {
 }
 
 let buffer = "";
-let bufferPos = "";
 let standardAlgList = [];
 let algList = [];
-let codecookie = "DEGCGAAJWIXKOOMREDCXTQLMKHIRZZPSBBLSQNJYHFFYWTNP";
 
 function algSearch() {
     $("#newupfile").val(arrLang[lang]["customUpfile"]);
     const edgeinput = [];
+    let bufferPos = "";
+    let codecookie = "DEGCGAAJWIXKOOMREDCXTQLMKHIRZZPSBBLSQNJYHFFYWTNP";
     algList = [];
     standardAlgList = [];
     buffer = document.getElementById("edgeinput").value;
@@ -50,14 +50,13 @@ function algSearch() {
         tab = `<table id="table" style="table-layout: fixed; width: 1100px; padding-right: 0px;"><thead><tr><th style="width:7.5%">${arrLang[lang]["nightmareLetters"]}</th><th style="width:43%;z-index:2">${arrLang[lang]["algorithm"]}</th><th style="width:27.5%">${arrLang[lang]["commutator"]}</th><th style="width:22%">${arrLang[lang]["thumbPosition"]}</th></tr></thead><tbody>`;
     }
     for (const alg of algList) {
-        const algdisplay = alg.slice(1, 3);
         for (let i = 0; i <= 1; i++) {
-            if (algdisplay[i] === "") {
+            if (alg[i + 1] === "") {
                 edgeinput[i] = "";
-            } else if (codecookie[edgeChichuToNumber[algdisplay[i]]] === "") {
-                edgeinput[i] = algdisplay[i];
+            } else if (codecookie[edgeChichuToNumber[alg[i + 1]]] === "") {
+                edgeinput[i] = alg[i + 1];
             } else {
-                edgeinput[i] = codecookie[edgeChichuToNumber[algdisplay[i]]];
+                edgeinput[i] = codecookie[edgeChichuToNumber[alg[i + 1]]];
             }
         }
         const letter = `${edgeinput[0]}${edgeinput[1]}`;
@@ -173,11 +172,6 @@ function setSelect(alg) {
     }).data("selectize");
 }
 
-const X = XLSX;
-const upfile = document.getElementById("upfile");
-const downfile = document.getElementById("downfile");
-const algsearch = document.getElementById("algsearch");
-
 function upFile(ee) {
     const standardAlgListCopy = standardAlgList.concat();
     const files = ee.target.files[0];
@@ -187,9 +181,8 @@ function upFile(ee) {
         const workbook = XLSX.read(data, {
             "type": "binary"
         });
-        // DO SOMETHING WITH workbook HERE
         for (let sheetIndex = 0; sheetIndex < workbook.SheetNames.length; sheetIndex++){
-            const tmp = X.utils.sheet_to_formulae(workbook.Sheets[workbook.SheetNames[sheetIndex]]);
+            const tmp = XLSX.utils.sheet_to_formulae(workbook.Sheets[workbook.SheetNames[sheetIndex]]);
             let maxRowCount = 0;
             let tmpRowCount = 0;
             let arrayTitle = [];
@@ -202,7 +195,7 @@ function upFile(ee) {
                 obj[tmp[i].split("=")[0]] = tmp[i].split("=")[1];
                 arrayTitle.push(tmp[i].split("=")[0].charAt(0));
             }
-            arrayTitle = Array.from(new Set(arrayTitle)); //Array deduplication
+            arrayTitle = Array.from(new Set(arrayTitle));
             for (let i = 1; i <= maxRowCount; i++) {
                 for (let j = 0; j < arrayTitle.length; j++) {
                     if (obj.hasOwnProperty(arrayTitle[j] + i)) {
@@ -245,16 +238,15 @@ function downFile() {
         "Sheet1": []
     };
     for (const alg of algList) {
-        const algdisplay = alg.slice(1, 3);
-        const letter = `${algdisplay[0]}${algdisplay[1]}`;
+        const letter = `${alg[1]}${alg[2]}`;
         const standardAlg = edgeAlgToStandard[alg];
         const selectize = $(`#select-algorithm-${standardAlg}`).selectize()[0].selectize;
         const algorithm = selectize.getValue();
         Datas.Sheet1.push({[arrLang[lang]["nightmareLetters"]]: letter, [arrLang[lang]["algorithm"]]: algorithm, [arrLang[lang]["commutator"]]: commutator(algorithm), [arrLang[lang]["thumbPosition"]]: fingerbeginfrom(algorithm)});
     }
-    const Sheet1 = X.utils.json_to_sheet(Datas.Sheet1);
-    const wb = X.utils.book_new();
-    X.utils.book_append_sheet(wb, Sheet1, "Sheet1");
+    const Sheet1 = XLSX.utils.json_to_sheet(Datas.Sheet1);
+    const wb = XLSX.utils.book_new();
+    XLSX.utils.book_append_sheet(wb, Sheet1, "Sheet1");
     XLSX.writeFile(wb, `${arrLang[lang]["customEdge"]}-${buffer}.xlsx`);
 }
 
@@ -271,6 +263,6 @@ $(document).ready(() => {
     });
 });
 
-upfile.addEventListener("change", upFile, false);
-downfile.addEventListener("click", downFile, false);
-algsearch.addEventListener("click", algSearch, false);
+document.getElementById("upfile").addEventListener("change", upFile, false);
+document.getElementById("downfile").addEventListener("click", downFile, false);
+document.getElementById("algsearch").addEventListener("click", algSearch, false);
