@@ -14,12 +14,12 @@ function sortByCode(x, y) {
 let buffer = "";
 let standardAlgList = [];
 let algList = [];
+let codecookie = "DEGCGAAJWIXKOOMREDCXTQLMKHIRZZPSBBLSQNJYHFFYWTNP";
+const cornerinput = [];
 
 function algSearch() {
     $("#newupfile").val(arrLang[lang]["customUpfile"]);
-    const cornerinput = [];
     let bufferPos = "";
-    let codecookie = "DEGCGAAJWIXKOOMREDCXTQLMKHIRZZPSBBLSQNJYHFFYWTNP";
     algList = [];
     standardAlgList = [];
     buffer = document.getElementById("cornerinput").value;
@@ -238,7 +238,16 @@ function downFile() {
         "Sheet1": []
     };
     for (const alg of algList) {
-        const letter = `${alg[1]}${alg[2]}`;
+        for (let i = 0; i <= 1; i++) {
+            if (alg[i + 1] === "") {
+                cornerinput[i] = "";
+            } else if (codecookie[cornerChichuToNumber[alg[i + 1]]] === "") {
+                cornerinput[i] = alg[i + 1];
+            } else {
+                cornerinput[i] = codecookie[cornerChichuToNumber[alg[i + 1]]];
+            }
+        }
+        const letter = `${cornerinput[0]}${cornerinput[1]}`;
         const standardAlg = cornerAlgToStandard[alg];
         const selectize = $(`#select-algorithm-${standardAlg}`).selectize()[0].selectize;
         const algorithm = selectize.getValue();
