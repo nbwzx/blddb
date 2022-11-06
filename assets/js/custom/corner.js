@@ -95,6 +95,14 @@ function setSelect(alg) {
     if (!(standardAlgList.indexOf(standardAlg) > -1)) {
         standardAlgList.push(standardAlg);
     }
+    const optionsList = [];
+    const rows = cornerAlgToInfo[standardAlg].length;
+    for (let i = 0; i < rows; i++) {
+        const optionsDict = {};
+        optionsDict["id"] = i + 1;
+        optionsDict["algorithm"] = cornerAlgToInfo[standardAlg][i];
+        optionsList.push(optionsDict);
+    }
     $(`#select-algorithm-${standardAlg}`).selectize( {
         "loadingClass": "selectizeLoading",
         "placeholder": "Pick algorithms",
@@ -103,26 +111,7 @@ function setSelect(alg) {
         "labelField": "algorithm",
         "searchField": ["algorithm"],
         "sortField": "id",
-        "options" : [
-            { "id": 1, "algorithm": cornerAlgToInfo[standardAlg][0]},
-            { "id": 2, "algorithm": cornerAlgToInfo[standardAlg][1]},
-            { "id": 3, "algorithm": cornerAlgToInfo[standardAlg][2]},
-            { "id": 4, "algorithm": cornerAlgToInfo[standardAlg][3]},
-            { "id": 5, "algorithm": cornerAlgToInfo[standardAlg][4]},
-            { "id": 6, "algorithm": cornerAlgToInfo[standardAlg][5]},
-            { "id": 7, "algorithm": cornerAlgToInfo[standardAlg][6]},
-            { "id": 8, "algorithm": cornerAlgToInfo[standardAlg][7]},
-            { "id": 9, "algorithm": cornerAlgToInfo[standardAlg][8]},
-            { "id": 10, "algorithm": cornerAlgToInfo[standardAlg][9]},
-            { "id": 11, "algorithm": cornerAlgToInfo[standardAlg][10]},
-            { "id": 12, "algorithm": cornerAlgToInfo[standardAlg][11]},
-            { "id": 13, "algorithm": cornerAlgToInfo[standardAlg][12]},
-            { "id": 14, "algorithm": cornerAlgToInfo[standardAlg][13]},
-            { "id": 15, "algorithm": cornerAlgToInfo[standardAlg][14]},
-            { "id": 16, "algorithm": cornerAlgToInfo[standardAlg][15]},
-            { "id": 17, "algorithm": cornerAlgToInfo[standardAlg][16]},
-            { "id": 18, "algorithm": cornerAlgToInfo[standardAlg][17]}
-        ],
+        "options" : optionsList,
         "create" : true,
         "persist": false,
         "onChange" (algorithm) {

@@ -95,6 +95,14 @@ function setSelect(alg) {
     if (!(standardAlgList.indexOf(standardAlg) > -1)) {
         standardAlgList.push(standardAlg);
     }
+    const optionsList = [];
+    const rows = edgeAlgToInfo[standardAlg].length;
+    for (let i = 0; i < rows; i++) {
+        const optionsDict = {};
+        optionsDict["id"] = i + 1;
+        optionsDict["algorithm"] = edgeAlgToInfo[standardAlg][i];
+        optionsList.push(optionsDict);
+    }
     $(`#select-algorithm-${standardAlg}`).selectize( {
         "loadingClass": "selectizeLoading",
         "placeholder": "Pick algorithms",
@@ -103,26 +111,7 @@ function setSelect(alg) {
         "labelField": "algorithm",
         "searchField": ["algorithm"],
         "sortField": "id",
-        "options" : [
-            { "id": 1, "algorithm": edgeAlgToInfo[standardAlg][0]},
-            { "id": 2, "algorithm": edgeAlgToInfo[standardAlg][1]},
-            { "id": 3, "algorithm": edgeAlgToInfo[standardAlg][2]},
-            { "id": 4, "algorithm": edgeAlgToInfo[standardAlg][3]},
-            { "id": 5, "algorithm": edgeAlgToInfo[standardAlg][4]},
-            { "id": 6, "algorithm": edgeAlgToInfo[standardAlg][5]},
-            { "id": 7, "algorithm": edgeAlgToInfo[standardAlg][6]},
-            { "id": 8, "algorithm": edgeAlgToInfo[standardAlg][7]},
-            { "id": 9, "algorithm": edgeAlgToInfo[standardAlg][8]},
-            { "id": 10, "algorithm": edgeAlgToInfo[standardAlg][9]},
-            { "id": 11, "algorithm": edgeAlgToInfo[standardAlg][10]},
-            { "id": 12, "algorithm": edgeAlgToInfo[standardAlg][11]},
-            { "id": 13, "algorithm": edgeAlgToInfo[standardAlg][12]},
-            { "id": 14, "algorithm": edgeAlgToInfo[standardAlg][13]},
-            { "id": 15, "algorithm": edgeAlgToInfo[standardAlg][14]},
-            { "id": 16, "algorithm": edgeAlgToInfo[standardAlg][15]},
-            { "id": 17, "algorithm": edgeAlgToInfo[standardAlg][16]},
-            { "id": 18, "algorithm": edgeAlgToInfo[standardAlg][17]}
-        ],
+        "options" : optionsList,
         "create" : true,
         "persist": false,
         "onChange" (algorithm) {
