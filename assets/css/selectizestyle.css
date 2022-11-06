@@ -18,6 +18,15 @@ label {
     text-align: center;
 }
 
+.selectize-input {
+    border: 0;
+    box-shadow: none;
+}
+
+.selectize-input.focus {
+    box-shadow: none;
+}
+
 .selectize-dropdown [data-selectable] .highlight {
     background: rgba(255, 255, 255, 0);
 }
@@ -33,6 +42,9 @@ label {
     border-width: 0 0.3em 0.3em 0.3em;
 }
 
-.selectize-dropdown .option, .selectize-dropdown .optgroup-header, .selectize-dropdown .no-results, .selectize-dropdown .create {
+.selectize-dropdown .option,
+.selectize-dropdown .optgroup-header,
+.selectize-dropdown .no-results,
+.selectize-dropdown .create {
     padding: 0.3em 0.5em;
 }
