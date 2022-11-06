@@ -21,3 +21,18 @@ label {
 .selectize-dropdown [data-selectable] .highlight {
     background: rgba(255, 255, 255, 0);
 }
+
+.selectize-control.single .selectize-input:after {
+    margin-top: -0.2em;
+    right: 1em;
+    border-width: 0.3em 0.3em 0 0.3em;
+}
+
+.selectize-control.single .selectize-input.dropdown-active:after {
+    margin-top: -0.3em;
+    border-width: 0 0.3em 0.3em 0.3em;
+}
+
+.selectize-dropdown .option, .selectize-dropdown .optgroup-header, .selectize-dropdown .no-results, .selectize-dropdown .create {
+    padding: 0.3em 0.5em;
+}
