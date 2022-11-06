@@ -255,7 +255,48 @@ function downFile() {
     }
     const Sheet1 = XLSX.utils.json_to_sheet(Datas.Sheet1);
     const wb = XLSX.utils.book_new();
-    XLSX.utils.book_append_sheet(wb, Sheet1, "Sheet1");
+    XLSX.utils.book_append_sheet(wb, Sheet1, buffer);
+    const Sheet2 = XLSX.utils.aoa_to_sheet([
+        ["", "", "", "", "", "", "", "", "", "", "", "", ""],
+        ["", "", "", "", codecookie[0], codecookie[1], codecookie[2], "", "", "", "", "", ""],
+        ["", "", "", "", codecookie[3], "", codecookie[4], "", "", "", "", "", ""],
+        ["", "", "", "", codecookie[5], codecookie[6], codecookie[7], "", "", "", "", "", ""],
+        ["", codecookie[16], codecookie[17], codecookie[18], codecookie[32], codecookie[33], codecookie[34], codecookie[24], codecookie[25], codecookie[26], codecookie[40], codecookie[41], codecookie[42]],
+        ["", codecookie[19], "", codecookie[20], codecookie[35], "", codecookie[36], codecookie[27], "", codecookie[28], codecookie[43], "", codecookie[44]],
+        ["", codecookie[21], codecookie[22], codecookie[23], codecookie[37], codecookie[38], codecookie[39], codecookie[29], codecookie[30], codecookie[31], codecookie[45], codecookie[46], codecookie[47]],
+        ["", "", "", "", codecookie[8], codecookie[9], codecookie[10], "", "", "", "", "", ""],
+        ["", "", "", "", codecookie[11], "", codecookie[12], "", "", "", "", "", ""],
+        ["", "", "", "", codecookie[13], codecookie[14], codecookie[15], "", "", "", "", "", ""]
+    ]);
+    XLSX.utils.book_append_sheet(wb, Sheet2, arrLang[lang]["code"]);
+    const myDate = new Date();
+    const year = myDate.getFullYear();
+    let month = myDate.getMonth() + 1;
+    let ddate = myDate.getDate();
+    let Sheet3 = "";
+    if (lang === "zh") {
+        if (month >= 1 && month <= 9) {
+            month = `0${month}`;
+        }
+        if (ddate >= 0 && ddate <= 9) {
+            ddate = `0${ddate}`;
+        }
+        Sheet3 = XLSX.utils.aoa_to_sheet([["本文件由 https://blddb.net 进行后期处理"], [`最后更新于${year}年${month}月${ddate}日`]]);
+    } else {
+        const monthArr = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Spt", "Oct", "Nov", "Dec"];
+        const suffix = ["st", "nd", "rd", "th"];
+        if (ddate % 10 < 1 || ddate % 10 > 3) {
+            ddate = ddate + suffix[3];
+        } else if (ddate % 10 === 1) {
+            ddate = ddate + suffix[0];
+        } else if (ddate % 10 === 2) {
+            ddate = ddate + suffix[1];
+        } else {
+            ddate = ddate + suffix[2];
+        }
+        Sheet3 = XLSX.utils.aoa_to_sheet([["This file is post processed by https://blddb.net"], [`Latest update on ${ddate} ${monthArr[month - 1]} ${year}`]]);
+    }
+    XLSX.utils.book_append_sheet(wb, Sheet3, arrLang[lang]["introduction"]);
     XLSX.writeFile(wb, `${arrLang[lang]["customEdge"]}-${buffer}.xlsx`);
 }
 
