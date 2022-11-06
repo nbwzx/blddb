@@ -131,7 +131,7 @@ function setColor(casenumgiven) {
     document.getElementById("table").innerHTML = `
         <tbody>
         <tr>
-          <td class=xl0></td>
+          <td class=xl0 style="border-left:0"></td>
           <td class=xl0></td>
           <td class=xl0></td>
           <td class=xl${color1}><input id="a11" class="xl${color1} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase" onfocus="this.select()"></td>
@@ -145,7 +145,7 @@ function setColor(casenumgiven) {
           <td class=xl0></td>
         </tr>
         <tr>
-          <td class=xl0></td>
+          <td class=xl0 style="border-left:0"></td>
           <td class=xl0></td>
           <td class=xl0></td>
           <td class=xl${color1}><input id="a14" class="xl${color1} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase" onfocus="this.select()"></td>
@@ -159,7 +159,7 @@ function setColor(casenumgiven) {
           <td class=xl0></td>
         </tr>
         <tr>
-          <td class=xl0></td>
+          <td class=xl0 style="border-left:0"></td>
           <td class=xl0></td>
           <td class=xl0></td>
           <td class=xl${color1}><input id="a17" class="xl${color1} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase" onfocus="this.select()"></td>
@@ -173,7 +173,7 @@ function setColor(casenumgiven) {
           <td class=xl0></td>
         </tr>
         <tr>
-          <td class=xl${color2}><input id="a31" class="xl${color2} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase" onfocus="this.select()"></td>
+          <td class=xl${color2} style="border:2px solid black"><input id="a31" class="xl${color2} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase" onfocus="this.select()"></td>
           <td class=xl${color2}><input id="a32" class="xl${color2} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase" onfocus="this.select()"></td>
           <td class=xl${color2}><input id="a33" class="xl${color2} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase" onfocus="this.select()"></td>
           <td class=xl${color3}><input id="a51" class="xl${color3} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase" onfocus="this.select()"></td>
@@ -187,7 +187,7 @@ function setColor(casenumgiven) {
           <td class=xl${color5}><input id="a63" class="xl${color5} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase" onfocus="this.select()"></td>
         </tr>
         <tr>
-          <td class=xl${color2}><input id="a34" class="xl${color2} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase" onfocus="this.select()"></td>
+          <td class=xl${color2} style="border:2px solid black"><input id="a34" class="xl${color2} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase" onfocus="this.select()"></td>
           <td class=xl${color2}></td>
           <td class=xl${color2}><input id="a36" class="xl${color2} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase" onfocus="this.select()"></td>
           <td class=xl${color3}><input id="a54" class="xl${color3} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase" onfocus="this.select()"></td>
@@ -201,7 +201,7 @@ function setColor(casenumgiven) {
           <td class=xl${color5}><input id="a66" class="xl${color5} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase" onfocus="this.select()"></td>
         </tr>
         <tr>
-          <td class=xl${color2}><input id="a37" class="xl${color2} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase" onfocus="this.select()"></td>
+          <td class=xl${color2} style="border:2px solid black"><input id="a37" class="xl${color2} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase" onfocus="this.select()"></td>
           <td class=xl${color2}><input id="a38" class="xl${color2} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase" onfocus="this.select()"></td>
           <td class=xl${color2}><input id="a39" class="xl${color2} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase" onfocus="this.select()"></td>
           <td class=xl${color3}><input id="a57" class="xl${color3} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase" onfocus="this.select()"></td>
@@ -215,7 +215,7 @@ function setColor(casenumgiven) {
           <td class=xl${color5}><input id="a69" class="xl${color5} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase" onfocus="this.select()"></td>
         </tr>
         <tr>
-          <td class=xl0></td>
+          <td class=xl0 style="border-left:0"></td>
           <td class=xl0></td>
           <td class=xl0></td>
           <td class=xl${color6}><input id="a21" class="xl${color6} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase" onfocus="this.select()"></td>
@@ -229,7 +229,7 @@ function setColor(casenumgiven) {
           <td class=xl0></td>
         </tr>
         <tr>
-          <td class=xl0></td>
+          <td class=xl0 style="border-left:0"></td>
           <td class=xl0></td>
           <td class=xl0></td>
           <td class=xl${color6}><input id="a24" class="xl${color6} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase" onfocus="this.select()"></td>
@@ -243,7 +243,7 @@ function setColor(casenumgiven) {
           <td class=xl0></td>
         </tr>
         <tr>
-          <td class=xl0></td>
+          <td class=xl0 style="border-left:0"></td>
           <td class=xl0></td>
           <td class=xl0></td>
           <td class=xl${color6}><input id="a27" class="xl${color6} input" maxlength="1" onkeyup="setAll()" style="text-transform:uppercase" onfocus="this.select()"></td>

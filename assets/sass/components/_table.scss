@@ -22,7 +22,6 @@
 	}
 
 	table {
-		border-left: 1px solid gray;
 		border-spacing: 0;
 		padding-right: 1.25em;
 	}
@@ -35,6 +34,10 @@
 		font-family: Tahoma, arial, verdana, "\9ed1\4f53", sans-serif;
 		padding: 0.2vw 0.5vw 0.2vw 0.5vw;
 		text-align: center;
+	}
+
+	td:nth-child(1) { 
+		border-left: 1px solid gray;
 	}
 
 	th {
@@ -50,4 +53,8 @@
 		background-color: lightblue;
 		position: sticky;
 		top: 0;
+	}
+
+	th:nth-child(1) { 
+		border-left: 1px solid gray;
 	}
