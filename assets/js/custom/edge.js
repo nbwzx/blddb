@@ -292,8 +292,8 @@ function downFile() {
 $(document).ready(() => {
     $("input[type=file]").each(function () {
         const thisInput$ = $(this);
-        const newElement = $(`<input type='button' id='newupfile' value='${arrLang[lang]["customUpfile"]
-        }' style='visibility:hidden'/>`);
+        const newElement = $("<button id='newupfile' style='visibility:hidden' class='lang icon fa-upload' key='customUpfile'></button>");
+        newElement.text(arrLang[lang]["customUpfile"]);
         newElement.click(() => {
             thisInput$.click();
         });
