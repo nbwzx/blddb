@@ -146,3 +146,9 @@ function algSearchByPos() {
         $("#table").css("font-size", 16 / r);
     }
 }
+
+function fontAwesome() {
+    $("select").find("option[key='cornerStyleNightmare']").html(`&#128128; ${$("select").find("option[key='cornerStyleNightmare']").html()}`);
+    $("select").find("option[key='cornerStyleBalance']").html(`&#62030; ${$("select").find("option[key='cornerStyleBalance']").html()}`);
+    $("select").find("option[key='cornerStyleYuanzi']").html(`&thinsp;&#xf5d2;&thinsp; ${$("select").find("option[key='cornerStyleYuanzi']").html()}`);
+}

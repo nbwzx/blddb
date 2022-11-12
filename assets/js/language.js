@@ -204,7 +204,7 @@ if (Object.keys(arrLang).includes(lang)) {
         $("#nightmareIntroduction").attr("href", "https://docs.blddb.net/zh/#nightmare");
         $("#donate").attr("href", "donate.html");
         $("#codeinput").width("5.5em");
-        $("#cornerstyle").width("4em");
+        $("#cornerstyle").width("5em");
         $("#image").show();
     } else if (lang === "en") {
         $(".language").html("<div class=\"status_circle status_circle_hide\">English</div>");
@@ -212,7 +212,7 @@ if (Object.keys(arrLang).includes(lang)) {
         $("#nightmareIntroduction").attr("href", "https://docs.blddb.net/en/#nightmare");
         $("#donate").attr("href", "donate_en.html");
         $("#codeinput").width("14em");
-        $("#cornerstyle").width("6em");
+        $("#cornerstyle").width("7em");
         $("#image").hide();
     }
 } else {
@@ -221,7 +221,7 @@ if (Object.keys(arrLang).includes(lang)) {
     $("#nightmareIntroduction").attr("href", "https://docs.blddb.net/zh/#nightmare");
     $("#donate").attr("href", "donate.html");
     $("#codeinput").width("5.5em");
-    $("#cornerstyle").width("4em");
+    $("#cornerstyle").width("5em");
     $("#image").show();
 }
 
@@ -235,6 +235,9 @@ $(document).ready(() => {
     const r = $("#table").width() / $("#div1").width();
     if (r > 1) {
         $("#table").css("font-size", 16 / r);
+    }
+    if (typeof fontAwesome === "function") {
+        fontAwesome();
     }
 });
 
@@ -258,22 +261,16 @@ $(".translate").click(() => {
             $("#nightmareIntroduction").attr("href", "https://docs.blddb.net/zh/#nightmare");
             $("#donate").attr("href", "donate.html");
             $("#codeinput").width("5.5em");
-            $("#cornerstyle").width("4em");
+            $("#cornerstyle").width("5em");
             $("#image").show();
-            if (typeof algSearch === "function") {
-                algSearch();
-            }
         } else if (lang === "en") {
             $(".language").html("<div class=\"status_circle status_circle_hide\">English</div>");
             $("#introduction").attr("href", "https://docs.blddb.net/en");
             $("#nightmareIntroduction").attr("href", "https://docs.blddb.net/en/#nightmare");
             $("#donate").attr("href", "donate_en.html");
             $("#codeinput").width("14em");
-            $("#cornerstyle").width("6em");
+            $("#cornerstyle").width("7em");
             $("#image").hide();
-            if (typeof algSearch === "function") {
-                algSearch();
-            }
         }
     } else {
         $(".language").html("<div class=\"status_circle status_circle_online\">简体中文</div>");
@@ -281,13 +278,16 @@ $(".translate").click(() => {
         $("#nightmareIntroduction").attr("href", "https://docs.blddb.net/zh/#nightmare");
         $("#donate").attr("href", "donate.html");
         $("#codeinput").width("5.5em");
-        $("#cornerstyle").width("4em");
+        $("#cornerstyle").width("5em");
         $("#image").show();
-        if (typeof algSearch === "function") {
-            algSearch();
-        }
     }
     $(".lang").each(function(index, element) {
         $(this).text(arrLang[lang][$(this).attr("key")]);
     });
+    if (typeof algSearch === "function") {
+        algSearch();
+    }
+    if (typeof fontAwesome === "function") {
+        fontAwesome();
+    }
 });
