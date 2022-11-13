@@ -2277,6 +2277,43 @@ body.is-touch .tiles article .content {
   }
 }
 
+/* Language */
+.translate {
+  float: right;
+  width: 100px;
+  height: 24px;
+  line-height: 24px;
+  margin: 0 auto;
+  cursor: pointer;
+  margin-left: 6px;
+  margin-top: 3px;
+  text-align: left;
+  padding: 0px;
+  font-size: 16px;
+}
+
+.status_circle {
+  padding-left: 28px;
+  display: inline-block;
+  width: 100px;
+  height: 16px;
+  line-height: 16px;
+  background: url(../../images/zh.png) no-repeat left bottom;
+  background-size: 24px 16px;
+  margin-top: 2px;
+}
+
+.status_circle_hide {
+  padding-left: 32px;
+  display: inline-block;
+  width: 100px;
+  height: 16px;
+  line-height: 16px;
+  background: url(../../images/en.png) no-repeat left bottom;
+  background-size: 24px 16px;
+  margin-top: 2px;
+}
+
 /* Header */
 #header {
   padding: 2em 0 0.1em 0;
