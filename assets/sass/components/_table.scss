@@ -24,16 +24,16 @@
 	table {
 		border-spacing: 0;
 		padding-right: 1.25em;
+		white-space: nowrap;
+		font-size: inherit;
+		font-family: Tahoma, arial, verdana, "\9ed1\4f53", sans-serif;
+		text-align: center;
 	}
 
 	td {
 		border-right: 1px solid gray;
 		border-bottom: 1px solid gray;
-		font-size: inherit;
-		white-space: nowrap;
-		font-family: Tahoma, arial, verdana, "\9ed1\4f53", sans-serif;
 		padding: 0.2vw 0.5vw 0.2vw 0.5vw;
-		text-align: center;
 	}
 
 	td:nth-child(1) { 
@@ -41,15 +41,11 @@
 	}
 
 	th {
-		border-top: 1px solid gray;
 		border-right: 1px solid gray;
 		border-bottom: 1px solid gray;
-		font-size: inherit;
-		font-weight: _font(weight-bold);
-		white-space: nowrap;
-		font-family: Tahoma, arial, verdana, "\9ed1\4f53", sans-serif;
+		border-top: 1px solid gray;
 		padding: 0.2vw 0.5vw 0.2vw 0.5vw;
-		text-align: center;
+		font-weight: _font(weight-bold);
 		background-color: lightblue;
 		position: sticky;
 		top: 0;
