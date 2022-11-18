@@ -8,11 +8,6 @@ const jsonLoaded = jsonNameList.map((name) => $.getJSON(`../assets/json/${jsonNa
 }));
 algSearch();
 
-function sortByCode(x, y) {
-    const edgeCodeToNumber2 = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "W", "X", "Y", "Z"];
-    return edgeCodeToNumber2.indexOf(x[1]) - edgeCodeToNumber2.indexOf(y[1]);
-}
-
 function algSearch() {
     let tab = `<table id="table"><thead><tr><th>${arrLang[lang]["nightmareLetters"]}</th><th>${arrLang[lang]["algorithm"]}</th><th>${arrLang[lang]["commutator"]}</th><th>${arrLang[lang]["thumbPosition"]}</th></tr></thead><tbody>`;
     const edgeinput = [];

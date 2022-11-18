@@ -10,7 +10,7 @@ algSearch();
 
 function sortByCode(x, y) {
     const edgeCodeToNumber2 = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "W", "X", "Y", "Z"];
-    return edgeCodeToNumber2.indexOf(x[1]) - edgeCodeToNumber2.indexOf(y[1]);
+    return (edgeCodeToNumber2.indexOf(x[1]) - edgeCodeToNumber2.indexOf(y[1])) * 24 + (edgeCodeToNumber2.indexOf(x[2]) - edgeCodeToNumber2.indexOf(y[2]));
 }
 
 function algSearch() {
@@ -50,7 +50,7 @@ function algSearch() {
                 algList.push(alg);
             }
         }
-        algList.sort();
+        algList.sort(sortByCode);
         for (const alg of algList) {
             const algi = edgeAlgToStandard[alg];
             const algdisplay = alg.slice(1, 3);
