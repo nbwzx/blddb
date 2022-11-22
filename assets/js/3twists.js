@@ -23,13 +23,10 @@ function algSearch() {
         idValue = idValue.split("").sort(sortByCode).join("");
     }
     const div1 = document.getElementById("div1");
-    const rows = 50;
     if (threeTwistsAlgToInfo.hasOwnProperty(idValue)) {
+        const rows = threeTwistsAlgToInfo[idValue].length;
         let tab = `<table id="table"><thead><tr><th>${arrLang[lang]["no"]}</th><th>${arrLang[lang]["algorithm"]}</th><th>${arrLang[lang]["thumbPosition"]}</th></tr></thead><tbody>`;
         for (let i = 0; i < rows; i++) {
-            if (threeTwistsAlgToInfo[idValue].length <= i) {
-                break;
-            }
             if (threeTwistsAlgToInfo[idValue][i] === threeTwistsAlgToNightmare[idValue]) {
                 tab += "<tr bgcolor=\"#D0D0D0\">";
             } else {

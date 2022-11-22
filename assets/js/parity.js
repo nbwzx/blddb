@@ -37,7 +37,6 @@ function algSearch() {
     }
     const idValue = parityEdgeAlgToStandard[`${id[0]}${id[1]}`] + parityCornerAlgToStandard[`${id[2]}${id[3]}`];
     const div1 = document.getElementById("div1");
-    const rows = 18;
     if (parityAlgToInfo.hasOwnProperty(idValue)) {
         if (document.getElementById("parityinput1") === document.activeElement) {
             document.getElementById("parityinput1").blur();
@@ -51,11 +50,9 @@ function algSearch() {
         if (document.getElementById("parityinput4") === document.activeElement) {
             document.getElementById("parityinput4").blur();
         }
+        const rows = parityAlgToInfo[idValue].length;
         let tab = `<table id="table"><thead><tr><th>${arrLang[lang]["no"]}</th><th>${arrLang[lang]["algorithm"]}</th><th>${arrLang[lang]["thumbPosition"]}</th></tr></thead><tbody>`;
         for (let i = 0; i < rows; i++) {
-            if (parityAlgToInfo[idValue].length <= i) {
-                break;
-            }
             if (parityAlgToInfo[idValue][i] === parityAlgToNightmare[idValue]) {
                 tab += "<tr bgcolor=\"#D0D0D0\">";
             } else {

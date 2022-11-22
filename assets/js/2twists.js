@@ -9,13 +9,10 @@ const jsonLoaded = jsonNameList.map((name) => $.getJSON(`assets/json/${name}.jso
 function algSearch() {
     const idValue = twoTwistsPos1ToCode[document.getElementById("cornerinput1").value] + twoTwistsPos2ToCode[document.getElementById("cornerinput2").value];
     const div1 = document.getElementById("div1");
-    const rows = 18;
     if (twoTwistsAlgToInfo.hasOwnProperty(idValue)) {
+        const rows = twoTwistsAlgToInfo[idValue].length;
         let tab = `<table id="table"><thead><tr><th>${arrLang[lang]["no"]}</th><th>${arrLang[lang]["algorithm"]}</th><th>${arrLang[lang]["commutator"]}</th><th>${arrLang[lang]["thumbPosition"]}</th></tr></thead><tbody>`;
         for (let i = 0; i < rows; i++) {
-            if (twoTwistsAlgToInfo[idValue].length <= i) {
-                break;
-            }
             if (twoTwistsAlgToInfo[idValue][i] === twoTwistsAlgToNightmare[idValue]) {
                 tab += "<tr bgcolor=\"#D0D0D0\">";
             } else {

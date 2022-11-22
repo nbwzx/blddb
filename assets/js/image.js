@@ -19,19 +19,14 @@ function algSearch() {
     idValueOrigin = idValueOrigin.toUpperCase();
     const idValue = idValueOrigin[0] + idValueOrigin[1];
     const div1 = document.getElementById("div1");
-    const rows = 100;
     if (imageAlgToInfo.hasOwnProperty(idValue)) {
         if (document.getElementById("imageinput") === document.activeElement) {
             document.getElementById("imageinput").blur();
         }
+        const rows = imageAlgToInfo[idValue].length;
         let tab = "";
-        let maxi = rows;
         const maxMod = Math.floor(vw(95) / 95);
         for (let i = 0; i < rows; i++) {
-            if (imageAlgToInfo[idValue].length <= i) {
-                maxi = i;
-                break;
-            }
             if (i % maxMod === 0) {
                 tab += "<tr>";
             }

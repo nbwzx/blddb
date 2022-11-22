@@ -29,7 +29,6 @@ function algSearch() {
     document.getElementById("cornerinput3").value = cornerCodeToPos[id[2]];
     const idValue = cornerAlgToStandard[`${id[0]}${id[1]}${id[2]}`];
     const div1 = document.getElementById("div1");
-    const rows = 18;
     if (cornerAlgToInfo.hasOwnProperty(idValue)) {
         let cornerAlgToInfoStyle = {};
         let cornerAlgToStyle = {};
@@ -46,11 +45,9 @@ function algSearch() {
             cornerAlgToStyle = cornerAlgToBalance;
         }
         document.getElementById("cornerinput").blur();
+        const rows = cornerAlgToInfoStyle[idValue].length;
         let tab = `<table id="table"><thead><tr><th>${arrLang[lang]["no"]}</th><th>${arrLang[lang]["algorithm"]}</th><th>${arrLang[lang]["commutator"]}</th><th>${arrLang[lang]["thumbPosition"]}</th></tr></thead><tbody>`;
         for (let i = 0; i < rows; i++) {
-            if (cornerAlgToInfoStyle[idValue].length <= i) {
-                break;
-            }
             if (cornerAlgToInfoStyle[idValue][i] === cornerAlgToStyle[idValue]) {
                 tab += "<tr bgcolor=\"#D0D0D0\">";
             } else {
@@ -104,7 +101,6 @@ function algSearchByPos() {
     }
     document.getElementById("cornerinput").value = `${cornerinput[0]}${cornerinput[1]}${cornerinput[2]}`;
     const div1 = document.getElementById("div1");
-    const rows = 18;
     if (cornerAlgToInfo.hasOwnProperty(idValue)) {
         let cornerAlgToInfoStyle = {};
         let cornerAlgToStyle = {};
@@ -120,11 +116,9 @@ function algSearchByPos() {
             cornerAlgToInfoStyle = cornerAlgToInfoBalance;
             cornerAlgToStyle = cornerAlgToBalance;
         }
+        const rows = cornerAlgToInfoStyle[idValue].length;
         let tab = `<table id="table"><thead><tr><th>${arrLang[lang]["no"]}</th><th>${arrLang[lang]["algorithm"]}</th><th>${arrLang[lang]["commutator"]}</th><th>${arrLang[lang]["thumbPosition"]}</th></tr></thead><tbody>`;
         for (let i = 0; i < rows; i++) {
-            if (cornerAlgToInfoStyle[idValue].length <= i) {
-                break;
-            }
             if (cornerAlgToInfoStyle[idValue][i] === cornerAlgToStyle[idValue]) {
                 tab += "<tr bgcolor=\"#D0D0D0\">";
             } else {

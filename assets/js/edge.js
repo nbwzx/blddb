@@ -29,7 +29,6 @@ function algSearch() {
     document.getElementById("edgeinput3").value = edgeCodeToPos[id[2]];
     let idValue = edgeAlgToStandard[`${id[0]}${id[1]}${id[2]}`];
     const div1 = document.getElementById("div1");
-    const rows = 18;
     const setup = simplifyfinal(preprocessing(document.getElementById("edgesetup").value));
     if (setup.length > 0 && edgeAlgToInfo.hasOwnProperty(idValue)) {
         const edgefullstr = edgefull(simplifyfinal(preprocessing(`${simplifyfinal(invert(preprocessing(setup)))} ${edgeAlgToNightmare[idValue]} ${setup}`)));
@@ -39,12 +38,10 @@ function algSearch() {
         if (document.getElementById("edgeinput") === document.activeElement) {
             document.getElementById("edgeinput").blur();
         }
+        const rows = edgeAlgToInfo[idValue].length;
         let tab = "";
         let inew = 0;
         for (let i = 0; i < rows; i++) {
-            if (edgeAlgToInfo[idValue].length <= i) {
-                break;
-            }
             let edgeAlgToInfoNew = "";
             if (setup.length > 0) {
                 edgeAlgToInfoNew = simplifyfinal(preprocessing(`${setup} ${edgeAlgToInfo[idValue][i]} ${simplifyfinal(invert(preprocessing(setup)))}`));
@@ -114,19 +111,16 @@ function algSearchByPos() {
     }
     document.getElementById("edgeinput").value = `${edgeinput[0]}${edgeinput[1]}${edgeinput[2]}`;
     const div1 = document.getElementById("div1");
-    const rows = 18;
     const setup = simplifyfinal(preprocessing(document.getElementById("edgesetup").value));
     if (setup.length > 0 && edgeAlgToInfo.hasOwnProperty(idValue)) {
         const edgefullstr = edgefull(simplifyfinal(preprocessing(`${simplifyfinal(invert(preprocessing(setup)))} ${edgeAlgToNightmare[idValue]} ${setup}`)));
         idValue = edgeAlgToStandard[edgefullstr[0] + edgefullstr[2] + edgefullstr[1]];
     }
     if (edgeAlgToInfo.hasOwnProperty(idValue)) {
+        const rows = edgeAlgToInfo[idValue].length;
         let tab = "";
         let inew = 0;
         for (let i = 0; i < rows; i++) {
-            if (edgeAlgToInfo[idValue].length <= i) {
-                break;
-            }
             let edgeAlgToInfoNew = "";
             if (setup.length > 0) {
                 edgeAlgToInfoNew = simplifyfinal(preprocessing(`${setup} ${edgeAlgToInfo[idValue][i]} ${simplifyfinal(invert(preprocessing(setup)))}`));

@@ -15,13 +15,10 @@ function algSearch() {
     }
 
     const div1 = document.getElementById("div1");
-    const rows = 100;
     if (twoFlipsAlgToInfo.hasOwnProperty(idValue)) {
+        const rows = twoFlipsAlgToInfo[idValue].length;
         let tab = `<table id="table"><thead><tr><th>${arrLang[lang]["no"]}</th><th>${arrLang[lang]["algorithm"]}</th><th>${arrLang[lang]["commutator"]}</th><th>${arrLang[lang]["thumbPosition"]}</th></tr></thead><tbody>`;
         for (let i = 0; i < rows; i++) {
-            if (twoFlipsAlgToInfo[idValue].length <= i) {
-                break;
-            }
             if (twoFlipsAlgToInfo[idValue][i] === twoFlipsAlgToNightmare[idValue]) {
                 tab += "<tr bgcolor=\"#D0D0D0\">";
             } else {
