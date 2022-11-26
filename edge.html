@@ -131,6 +131,13 @@
               onkeyup="algSearch()" maxlength="3" style="text-align:center;width:3em;text-transform:uppercase"
               autocomplete="off">
             &nbsp;&nbsp;
+            <strong class="lang" key="mode"></strong><select style="width:4em; font-family:'FontAwesome'" id="edgemode"
+              onchange="algSearch()">
+              <option class="lang" key="edgeModeDefault" value="default"></option>
+              <option class="lang" key="edgeModeBrute" value="brute"></option>
+            </select>
+          </p>
+          <p>
             <strong class="lang" key="setup"></strong><input type="text" placeholder="" id="edgesetup"
               onkeyup="algSearch()" maxlength="18" style="text-align:left;width:7em" autocomplete="off">
           </p>

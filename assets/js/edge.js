@@ -1,7 +1,7 @@
 "use strict";
 
 $.ajaxSettings.async = false;
-const jsonNameList = ["edgeNumberToChichu", "edgeChichuToNumber", "edgeAlgToStandard", "edgeAlgToInfo", "edgeAlgToNightmare", "edgePosToCode", "edgeCodeToPos"];
+const jsonNameList = ["edgeNumberToChichu", "edgeChichuToNumber", "edgeAlgToStandard", "edgeAlgToInfo", "edgeAlgToNightmare", "edgeAlgToInfoBrute", "edgePosToCode", "edgeCodeToPos"];
 const jsonLoaded = jsonNameList.map((name) => $.getJSON(`assets/json/${name}.json`, (json) => {
     window[`${name}`] = json;
 }));
@@ -35,25 +35,32 @@ function algSearch() {
         idValue = edgeAlgToStandard[edgefullstr[0] + edgefullstr[2] + edgefullstr[1]];
     }
     if (edgeAlgToInfo.hasOwnProperty(idValue)) {
+        let edgeAlgToInfoMode = {};
+        if (document.getElementById("edgemode").value === "default") {
+            edgeAlgToInfoMode = edgeAlgToInfo;
+        }
+        if (document.getElementById("edgemode").value === "brute") {
+            edgeAlgToInfoMode = edgeAlgToInfoBrute;
+        }
         if (document.getElementById("edgeinput") === document.activeElement) {
             document.getElementById("edgeinput").blur();
         }
-        const rows = edgeAlgToInfo[idValue].length;
+        const rows = edgeAlgToInfoMode[idValue].length;
         let tab = "";
         let inew = 0;
         for (let i = 0; i < rows; i++) {
             let edgeAlgToInfoNew = "";
             if (setup.length > 0) {
-                edgeAlgToInfoNew = simplifyfinal(preprocessing(`${setup} ${edgeAlgToInfo[idValue][i]} ${simplifyfinal(invert(preprocessing(setup)))}`));
+                edgeAlgToInfoNew = simplifyfinal(preprocessing(`${setup} ${edgeAlgToInfoMode[idValue][i]} ${simplifyfinal(invert(preprocessing(setup)))}`));
                 if (isnightmare(edgeAlgToInfoNew) === 0) {
                     continue;
                 }
-                if (stm(edgeAlgToInfoNew) + 1 < stm(simplifyfinal(preprocessing(`${edgeAlgToInfo[idValue][i]} ${simplifyfinal(invert(preprocessing(setup)))}`))) + stm(setup)) {
+                if (stm(edgeAlgToInfoNew) + 1 < stm(simplifyfinal(preprocessing(`${edgeAlgToInfoMode[idValue][i]} ${simplifyfinal(invert(preprocessing(setup)))}`))) + stm(setup)) {
                     continue;
                 }
                 inew = inew + 1;
             } else {
-                edgeAlgToInfoNew = edgeAlgToInfo[idValue][i];
+                edgeAlgToInfoNew = edgeAlgToInfoMode[idValue][i];
                 inew = inew + 1;
             }
             if (edgeAlgToInfoNew === edgeAlgToNightmare[edgeAlgToStandard[`${id[0]}${id[1]}${id[2]}`]]) {
@@ -117,22 +124,29 @@ function algSearchByPos() {
         idValue = edgeAlgToStandard[edgefullstr[0] + edgefullstr[2] + edgefullstr[1]];
     }
     if (edgeAlgToInfo.hasOwnProperty(idValue)) {
-        const rows = edgeAlgToInfo[idValue].length;
+        let edgeAlgToInfoMode = {};
+        if (document.getElementById("edgemode").value === "default") {
+            edgeAlgToInfoMode = edgeAlgToInfo;
+        }
+        if (document.getElementById("edgemode").value === "brute") {
+            edgeAlgToInfoMode = edgeAlgToInfoBrute;
+        }
+        const rows = edgeAlgToInfoMode[idValue].length;
         let tab = "";
         let inew = 0;
         for (let i = 0; i < rows; i++) {
             let edgeAlgToInfoNew = "";
             if (setup.length > 0) {
-                edgeAlgToInfoNew = simplifyfinal(preprocessing(`${setup} ${edgeAlgToInfo[idValue][i]} ${simplifyfinal(invert(preprocessing(setup)))}`));
+                edgeAlgToInfoNew = simplifyfinal(preprocessing(`${setup} ${edgeAlgToInfoMode[idValue][i]} ${simplifyfinal(invert(preprocessing(setup)))}`));
                 if (isnightmare(edgeAlgToInfoNew) === 0) {
                     continue;
                 }
-                if (stm(edgeAlgToInfoNew) + 1 < stm(simplifyfinal(preprocessing(`${edgeAlgToInfo[idValue][i]} ${simplifyfinal(invert(preprocessing(setup)))}`))) + stm(setup)) {
+                if (stm(edgeAlgToInfoNew) + 1 < stm(simplifyfinal(preprocessing(`${edgeAlgToInfoMode[idValue][i]} ${simplifyfinal(invert(preprocessing(setup)))}`))) + stm(setup)) {
                     continue;
                 }
                 inew = inew + 1;
             } else {
-                edgeAlgToInfoNew = edgeAlgToInfo[idValue][i];
+                edgeAlgToInfoNew = edgeAlgToInfoMode[idValue][i];
                 inew = inew + 1;
             }
             if (edgeAlgToInfoNew === edgeAlgToNightmare[edgeAlgToStandard[`${id[0]}${id[1]}${id[2]}`]]) {

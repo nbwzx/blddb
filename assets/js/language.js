@@ -82,6 +82,9 @@ const arrLang = {
         "cornerStyleNightmare": "nightmare",
         "cornerStyleBalance": "balance",
         "cornerStyleYuanzi": "yuanzi",
+        "mode": "Mode：",
+        "edgeModeDefault": "default",
+        "edgeModeBrute": "brute force",
         "custom": "Custom Alg Set",
         "customDescription": "Customize your Alg set.",
         "customEdge": "3-Style Edge",
@@ -173,6 +176,9 @@ const arrLang = {
         "cornerStyleNightmare": "噩梦",
         "cornerStyleBalance": "平衡",
         "cornerStyleYuanzi": "圆子",
+        "mode": "模式：",
+        "edgeModeDefault": "默认",
+        "edgeModeBrute": "穷举",
         "custom": "个人公式集",
         "customDescription": "自定义你的盲拧公式集。",
         "customEdge": "棱块公式集",
@@ -205,6 +211,7 @@ if (Object.keys(arrLang).includes(lang)) {
         $("#donate").attr("href", "donate.html");
         $("#codeinput").width("5.5em");
         $("#cornerstyle").width("5em");
+        $("#edgemode").width("4em");
         $("#image").show();
     } else if (lang === "en") {
         $(".language").html("<div class=\"status_circle status_circle_hide\">English</div>");
@@ -213,6 +220,7 @@ if (Object.keys(arrLang).includes(lang)) {
         $("#donate").attr("href", "donate_en.html");
         $("#codeinput").width("14em");
         $("#cornerstyle").width("7em");
+        $("#edgemode").width("6em");
         $("#image").hide();
     }
 } else {
@@ -222,6 +230,7 @@ if (Object.keys(arrLang).includes(lang)) {
     $("#donate").attr("href", "donate.html");
     $("#codeinput").width("5.5em");
     $("#cornerstyle").width("5em");
+    $("#edgemode").width("4em");
     $("#image").show();
 }
 
@@ -262,6 +271,7 @@ $(".translate").click(() => {
             $("#donate").attr("href", "donate.html");
             $("#codeinput").width("5.5em");
             $("#cornerstyle").width("5em");
+            $("#edgemode").width("4em");
             $("#image").show();
         } else if (lang === "en") {
             $(".language").html("<div class=\"status_circle status_circle_hide\">English</div>");
@@ -270,6 +280,7 @@ $(".translate").click(() => {
             $("#donate").attr("href", "donate_en.html");
             $("#codeinput").width("14em");
             $("#cornerstyle").width("7em");
+            $("#edgemode").width("6em");
             $("#image").hide();
         }
     } else {
@@ -279,6 +290,7 @@ $(".translate").click(() => {
         $("#donate").attr("href", "donate.html");
         $("#codeinput").width("5.5em");
         $("#cornerstyle").width("5em");
+        $("#edgemode").width("4em");
         $("#image").show();
     }
     $(".lang").each(function(index, element) {
