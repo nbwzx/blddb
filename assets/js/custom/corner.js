@@ -272,7 +272,7 @@ function downFile() {
         }
         Sheet3 = XLSX.utils.aoa_to_sheet([["本文件由 https://blddb.net 进行后期处理"], [`最后更新于${year}年${month}月${ddate}日`]]);
     } else {
-        const monthArr = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Spt", "Oct", "Nov", "Dec"];
+        const monthArr = ["Jan.", "Feb.", "Mar.", "Apr.", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."];
         const suffix = ["st", "nd", "rd", "th"];
         if (ddate % 10 < 1 || ddate % 10 > 3) {
             ddate = ddate + suffix[3];
