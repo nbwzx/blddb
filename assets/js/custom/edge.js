@@ -26,13 +26,13 @@ function algSearch() {
     if (buffer === "") {
         document.getElementById("newupfile").style.visibility = "hidden";
         document.getElementById("downfile").style.visibility = "hidden";
-        document.getElementById("algsearch").style.visibility = "hidden";
+        document.getElementById("clearSheet").style.visibility = "hidden";
         div2.innerHTML = "";
         return;
     }
     document.getElementById("newupfile").style.visibility = "visible";
     document.getElementById("downfile").style.visibility = "visible";
-    document.getElementById("algsearch").style.visibility = "visible";
+    document.getElementById("clearSheet").style.visibility = "visible";
     bufferPos = edgePosToCode[buffer];
     if (getCookie("code") !== "") {
         codecookie = getCookie("code");
@@ -74,6 +74,7 @@ function algSearch() {
     for (const alg of algList) {
         setSelect(alg);
     }
+    setLocal();
     let r = 0;
     if (lang === "zh") {
         r = 900 / $("#div2").width();
@@ -122,6 +123,7 @@ function setSelect(alg) {
                 selectize.addOption([{"id": "0", "algorithm": simplifyValue}]);
                 selectize.setValue([0, simplifyValue]);
             }
+            localStorage.setItem(`edge-${standardAlg}`, simplifyValue);
             $(`#select-commutator-${standardAlg}`).text(commutator(simplifyValue));
             $(`#select-finger-${standardAlg}`).text(fingerbeginfrom(simplifyValue));
         },
@@ -159,6 +161,26 @@ function setSelect(alg) {
             };
         }
     }).data("selectize");
+}
+
+function setLocal() {
+    for (const alg of algList) {
+        const standardAlg = edgeAlgToStandard[alg];
+        const selectize = $(`#select-algorithm-${standardAlg}`).selectize()[0].selectize;
+        const localValue = localStorage.getItem(`edge-${standardAlg}`);
+        if (typeof localValue !== "undefined" && localValue !== null) {
+            selectize.addOption([{"id": "0", "algorithm": localValue}]);
+            selectize.setValue([0, localValue]);
+        }
+    }
+}
+
+function clearSheet() {
+    for (const alg of algList) {
+        const standardAlg = edgeAlgToStandard[alg];
+        localStorage.removeItem(`edge-${standardAlg}`);
+    }
+    algSearch();
 }
 
 function upFile(ee) {
@@ -304,4 +326,4 @@ $(document).ready(() => {
 
 document.getElementById("upfile").addEventListener("change", upFile, false);
 document.getElementById("downfile").addEventListener("click", downFile, false);
-document.getElementById("algsearch").addEventListener("click", algSearch, false);
+document.getElementById("clearSheet").addEventListener("click", clearSheet, false);
