@@ -1,7 +1,7 @@
 "use strict";
 
 $.ajaxSettings.async = false;
-const jsonNameList = ["edgeNumberToChichu", "edgeChichuToNumber", "edgeAlgToStandard", "edgeAlgToInfo", "edgeAlgToNightmare", "edgeAlgToInfoBrute", "edgePosToCode", "edgeCodeToPos"];
+const jsonNameList = ["edgeNumberToChichu", "edgeChichuToNumber", "edgeAlgToStandard", "edgeAlgToInfo", "edgeAlgToNightmare", "edgeAlgToInfoTradition", "edgePosToCode", "edgeCodeToPos"];
 const jsonLoaded = jsonNameList.map((name) => $.getJSON(`assets/json/${name}.json`, (json) => {
     window[`${name}`] = json;
 }));
@@ -36,11 +36,11 @@ function algSearch() {
     }
     if (edgeAlgToInfo.hasOwnProperty(idValue)) {
         let edgeAlgToInfoMode = {};
-        if (document.getElementById("edgemode").value === "default") {
+        if (document.getElementById("edgemode").value === "brute") {
             edgeAlgToInfoMode = edgeAlgToInfo;
         }
-        if (document.getElementById("edgemode").value === "brute") {
-            edgeAlgToInfoMode = edgeAlgToInfoBrute;
+        if (document.getElementById("edgemode").value === "tradition") {
+            edgeAlgToInfoMode = edgeAlgToInfoTradition;
         }
         if (document.getElementById("edgeinput") === document.activeElement) {
             document.getElementById("edgeinput").blur();
@@ -125,11 +125,11 @@ function algSearchByPos() {
     }
     if (edgeAlgToInfo.hasOwnProperty(idValue)) {
         let edgeAlgToInfoMode = {};
-        if (document.getElementById("edgemode").value === "default") {
+        if (document.getElementById("edgemode").value === "brute") {
             edgeAlgToInfoMode = edgeAlgToInfo;
         }
-        if (document.getElementById("edgemode").value === "brute") {
-            edgeAlgToInfoMode = edgeAlgToInfoBrute;
+        if (document.getElementById("edgemode").value === "tradition") {
+            edgeAlgToInfoMode = edgeAlgToInfoTradition;
         }
         const rows = edgeAlgToInfoMode[idValue].length;
         let tab = "";
