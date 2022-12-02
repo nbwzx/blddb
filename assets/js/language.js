@@ -203,27 +203,7 @@ if (lang === "") {
 if (!Object.keys(arrLang).includes(lang)) {
     lang = "en";
 }
-if (Object.keys(arrLang).includes(lang)) {
-    if (lang === "zh") {
-        $(".language").html("<div class=\"status_circle status_circle_online\">简体中文</div>");
-        $("#introduction").attr("href", "https://docs.blddb.net/zh");
-        $("#nightmareIntroduction").attr("href", "https://docs.blddb.net/zh/#nightmare");
-        $("#donate").attr("href", "donate.html");
-        $("#codeinput").width("5.5em");
-        $("#cornerstyle").width("5em");
-        $("#edgemode").width("4em");
-        $("#image").show();
-    } else if (lang === "en") {
-        $(".language").html("<div class=\"status_circle status_circle_hide\">English</div>");
-        $("#introduction").attr("href", "https://docs.blddb.net/en");
-        $("#nightmareIntroduction").attr("href", "https://docs.blddb.net/en/#nightmare");
-        $("#donate").attr("href", "donate_en.html");
-        $("#codeinput").width("14em");
-        $("#cornerstyle").width("7em");
-        $("#edgemode").width("6em");
-        $("#image").hide();
-    }
-} else {
+if (lang === "zh") {
     $(".language").html("<div class=\"status_circle status_circle_online\">简体中文</div>");
     $("#introduction").attr("href", "https://docs.blddb.net/zh");
     $("#nightmareIntroduction").attr("href", "https://docs.blddb.net/zh/#nightmare");
@@ -232,6 +212,15 @@ if (Object.keys(arrLang).includes(lang)) {
     $("#cornerstyle").width("5em");
     $("#edgemode").width("4em");
     $("#image").show();
+} else if (lang === "en") {
+    $(".language").html("<div class=\"status_circle status_circle_hide\">English</div>");
+    $("#introduction").attr("href", "https://docs.blddb.net/en");
+    $("#nightmareIntroduction").attr("href", "https://docs.blddb.net/en/#nightmare");
+    $("#donate").attr("href", "donate_en.html");
+    $("#codeinput").width("14em");
+    $("#cornerstyle").width("7em");
+    $("#edgemode").width("6em");
+    $("#image").hide();
 }
 
 $(document).ready(() => {
@@ -263,27 +252,7 @@ $(".translate").click(() => {
     if (!Object.keys(arrLang).includes(lang)) {
         lang = "en";
     }
-    if (Object.keys(arrLang).includes(lang)) {
-        if (lang === "zh") {
-            $(".language").html("<div class=\"status_circle status_circle_online\">简体中文</div>");
-            $("#introduction").attr("href", "https://docs.blddb.net/zh");
-            $("#nightmareIntroduction").attr("href", "https://docs.blddb.net/zh/#nightmare");
-            $("#donate").attr("href", "donate.html");
-            $("#codeinput").width("5.5em");
-            $("#cornerstyle").width("5em");
-            $("#edgemode").width("4em");
-            $("#image").show();
-        } else if (lang === "en") {
-            $(".language").html("<div class=\"status_circle status_circle_hide\">English</div>");
-            $("#introduction").attr("href", "https://docs.blddb.net/en");
-            $("#nightmareIntroduction").attr("href", "https://docs.blddb.net/en/#nightmare");
-            $("#donate").attr("href", "donate_en.html");
-            $("#codeinput").width("14em");
-            $("#cornerstyle").width("7em");
-            $("#edgemode").width("6em");
-            $("#image").hide();
-        }
-    } else {
+    if (lang === "zh") {
         $(".language").html("<div class=\"status_circle status_circle_online\">简体中文</div>");
         $("#introduction").attr("href", "https://docs.blddb.net/zh");
         $("#nightmareIntroduction").attr("href", "https://docs.blddb.net/zh/#nightmare");
@@ -292,6 +261,15 @@ $(".translate").click(() => {
         $("#cornerstyle").width("5em");
         $("#edgemode").width("4em");
         $("#image").show();
+    } else if (lang === "en") {
+        $(".language").html("<div class=\"status_circle status_circle_hide\">English</div>");
+        $("#introduction").attr("href", "https://docs.blddb.net/en");
+        $("#nightmareIntroduction").attr("href", "https://docs.blddb.net/en/#nightmare");
+        $("#donate").attr("href", "donate_en.html");
+        $("#codeinput").width("14em");
+        $("#cornerstyle").width("7em");
+        $("#edgemode").width("6em");
+        $("#image").hide();
     }
     $(".lang").each(function(index, element) {
         $(this).text(arrLang[lang][$(this).attr("key")]);
