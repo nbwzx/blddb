@@ -252,10 +252,10 @@ function downFile() {
         for (let i = 0; i <= 1; i++) {
             if (alg[i + 1] === "") {
                 edgeinput[i] = "";
-            } else if (codecookie[cornerChichuToNumber[alg[i + 1]]] === "") {
+            } else if (codecookie[edgeChichuToNumber[alg[i + 1]]] === "") {
                 edgeinput[i] = alg[i + 1];
             } else {
-                edgeinput[i] = codecookie[cornerChichuToNumber[alg[i + 1]]];
+                edgeinput[i] = codecookie[edgeChichuToNumber[alg[i + 1]]];
             }
         }
         const letter = `${edgeinput[0]}${edgeinput[1]}`;
