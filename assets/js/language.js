@@ -189,17 +189,9 @@ const arrLang = {
     }
 };
 
-// Switch between Chinese and English
-let lang = "";
 // Check for cookie support
-lang = getCookie("lang");
-if (lang === "") {
-    lang = navigator.language.slice(0, 2) || navigator.userLanguage.slice(0, 2);
-    // The default language is English
-    if (lang === "") {
-        lang = "en";
-    }
-}
+// The default language is English
+let lang = getCookie("lang") || navigator.language.slice(0, 2) || navigator.userLanguage.slice(0, 2) || "en";
 if (!Object.keys(arrLang).includes(lang)) {
     lang = "en";
 }
@@ -241,14 +233,14 @@ $(document).ready(() => {
 
 // get/set the selected language
 $(".translate").click(() => {
-    // update cookie key
+    // Switch between Chinese and English
     if (lang === "en") {
         lang = "zh";
-        setCookie("lang", "zh", 30);
     } else if (lang === "zh") {
         lang = "en";
-        setCookie("lang", "en", 30);
     }
+    // update cookie key
+    setCookie("lang", lang, 30);
     if (!Object.keys(arrLang).includes(lang)) {
         lang = "en";
     }
