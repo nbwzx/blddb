@@ -2,9 +2,9 @@
 
 function finger(s1, position) {
     // R' F R' S' R F R' S R F2 R
-    if (fingerback(s1, position) > 5) {
-        return 0;
-    }
+    // if (fingerback(s1, position) > 5) {
+    //     return 0;
+    // }
     let fingerposition = position;
     const arr = s1.split(" ");
     for (let i = 0; i <= arr.length - 1; i++) {
