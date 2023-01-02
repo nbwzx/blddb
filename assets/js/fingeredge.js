@@ -180,7 +180,7 @@ function fingerbeginfrom(s1) {
     }
     let fingerbegin = "",
         count = 0;
-    for (let i = 0; i <= 3; i++) {
+    for (let i = 0; i <= 10; i++) {
         if (finger(s1, 2) === 1 && (fingerpain(s1, 2) === i || fingerpain(s1, 2) === i + 1)) {
             count = count + 1;
             fingerbegin = `${fingerbegin}${arrLang[lang]["homegrip"]}/`;
