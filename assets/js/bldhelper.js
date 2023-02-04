@@ -663,8 +663,20 @@ function operate(operateChar) {
 function operatealg(s1) {
     initialize();
     const arr = s1.split(" ");
+    const validMoves = [
+        "R", "L", "F", "B", "U", "D", "R2", "L2", "F2", "B2", "U2", "D2", "R'", "L'", "F'", "B'", "U'", "D'",
+        "x", "x2", "x'", "y", "y2", "y'", "z", "z2", "z'",
+        "r", "r2", "r'", "f", "f2", "f'", "u", "u2", "u'", "d", "d2", "d'", "l", "l2", "l'", "b", "b2", "b'",
+        "S", "S2", "S'", "M", "M2", "M'", "E", "E2", "E'",
+        "Rw", "Rw2", "Rw'", "Fw", "Fw2", "Fw'", "Uw", "Uw2", "Uw'", "Dw", "Dw2", "Dw'", "Lw", "Lw2", "Lw'", "Bw", "Bw2", "Bw'"
+    ];
     for (let i = 0; i < arr.length; i++) {
-        operate(arr[i]);
+        if (validMoves.indexOf(arr[i]) > -1) {
+            operate(arr[i]);
+        } else {
+            initialize();
+            return;
+        }
     }
 }
 
