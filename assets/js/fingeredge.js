@@ -175,7 +175,21 @@ function fingerback(s1, position) {
             }
         }
         if (fingerposition === 0 || fingerposition === 4) {
-            sum = sum + 1;
+            // U R' U' S R2 S' R2 U R U'
+            let isBad = true;
+            if (i > 0) {
+                if ((arr[i - 1] === "S" || arr[i - 1] === "S'") && (arr[i] === "R2" || arr[i] === "r2") || (arr[i] === "S" || arr[i] === "S'") && (arr[i - 1] === "R2" || arr[i - 1] === "r2")) {
+                    isBad = false;
+                }
+            }
+            if (i < arr.length - 1) {
+                if ((arr[i + 1] === "S" || arr[i + 1] === "S'") && (arr[i] === "R2" || arr[i] === "r2") || (arr[i] === "S" || arr[i] === "S'") && (arr[i + 1] === "R2" || arr[i + 1] === "r2")) {
+                    isBad = false;
+                }
+            }
+            if (isBad) {
+                sum = sum + 1;
+            }
         }
     }
     return sum;
