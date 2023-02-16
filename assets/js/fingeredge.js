@@ -9,13 +9,15 @@ function finger(s1, position) {
     const arr = s1.split(" ");
     for (let i = 0; i <= arr.length - 1; i++) {
         if (i > 0 && arr[i][0] === "E") {
-            if (arr[i - 1][0] === "D") {
-                return 0;
-            }
             if (arr[i - 1] === "U2") {
                 return 0;
             }
             if (arr[i - 1][0] === "U" && arr[i] === "E2") {
+                return 0;
+            }
+        }
+        if (i < arr.length - 1 && arr[i][0] === "E") {
+            if (arr[i + 1][0] === "D") {
                 return 0;
             }
         }
@@ -29,6 +31,11 @@ function finger(s1, position) {
                 if (arr[i - 1] === "F2" || arr[i] === "B2") {
                     return 0;
                 }
+            }
+        }
+        if (i > 0 && arr[i][0] === "D") {
+            if (arr[i - 1][0] === "u") {
+                return 0;
             }
         }
         // U E R S' R' U' R S R' E'
