@@ -102,6 +102,8 @@ function expandOrigin(input) {
     algorithm = algorithm.replace(/\)/gu, "");
     algorithm = algorithm.replace(/（/gu, "");
     algorithm = algorithm.replace(/）/gu, "");
+    algorithm = algorithm.replace(/\{/gu, "");
+    algorithm = algorithm.replace(/\}/gu, "");
     algorithm = algorithm.replace(/\s/gu, "");
     algorithm = algorithm.split("").join(" ");
     algorithm = algorithm.replace(/【/gu, "[");
@@ -147,7 +149,7 @@ function expandOrigin(input) {
     return expandOutput;
 }
 function isOperator(sign) {
-    var operatorString = "+:,[]";
+    var operatorString = "+:,/[]";
     return operatorString.indexOf(sign) > -1;
 }
 function initStack(algorithm) {
@@ -163,20 +165,23 @@ function initStack(algorithm) {
     return stack;
 }
 function operatorLevel(operator) {
-    if (operator === ",") {
+    if (operator === ":") {
         return 0;
     }
-    if (operator === ":") {
+    if (operator === ",") {
         return 1;
     }
-    if (operator === "+") {
+    if (operator === "/") {
         return 2;
     }
-    if (operator === "[") {
+    if (operator === "+") {
         return 3;
     }
-    if (operator === "]") {
+    if (operator === "[") {
         return 4;
+    }
+    if (operator === "]") {
+        return 5;
     }
     return -1;
 }
@@ -189,7 +194,7 @@ function rpn(stackInput) {
         if (!isOperator(sign)) {
             stackOutput.push(sign);
         }
-        else if (operatorLevel(sign) === 4) {
+        else if (sign === "]") {
             isMatch = false;
             while (operatorStack.length > 0) {
                 operatorStackPop = operatorStack.pop();
@@ -255,6 +260,8 @@ function calcTwo(algorithm1, algorithm2, sign) {
             return arrayToStr(array1.concat(array2, invert(array1)));
         case ",":
             return arrayToStr(array1.concat(array2, invert(array1), invert(array2)));
+        case "/":
+            return arrayToStr(array1.concat(array2, invert(array1), invert(array1), invert(array2), array1));
         default:
             return arrayToStr(array1.concat(array2));
     }
