@@ -82,11 +82,11 @@ function finger(s1, position) {
             if (fingerposition === 2) {
                 fingerposition = 0;
                 for (let j = i + 1; j <= arr.length - 1; j++) {
-                    if (arr[j] === "R" || arr[i] === "r" || arr[j] === "R2" || arr[i] === "r2") {
+                    if (arr[j] === "R" || arr[j] === "r" || arr[j] === "R2" || arr[j] === "r2") {
                         fingerposition = 0;
                         break;
                     }
-                    if (arr[j] === "R'" || arr[i] === "r'") {
+                    if (arr[j] === "R'" || arr[j] === "r'") {
                         fingerposition = 4;
                         break;
                     }
@@ -136,11 +136,11 @@ function fingerpain(s1, position) {
             if (fingerposition === 2) {
                 fingerposition = 0;
                 for (let j = i + 1; j <= arr.length - 1; j++) {
-                    if (arr[j] === "R" || arr[i] === "r" || arr[j] === "R2" || arr[i] === "r2") {
+                    if (arr[j] === "R" || arr[j] === "r" || arr[j] === "R2" || arr[j] === "r2") {
                         fingerposition = 0;
                         break;
                     }
-                    if (arr[j] === "R'" || arr[i] === "r'") {
+                    if (arr[j] === "R'" || arr[j] === "r'") {
                         fingerposition = 4;
                         break;
                     }
@@ -168,11 +168,11 @@ function fingerback(s1, position) {
             if (fingerposition === 2) {
                 fingerposition = 0;
                 for (let j = i + 1; j <= arr.length - 1; j++) {
-                    if (arr[j] === "R" || arr[i] === "r" || arr[j] === "R2" || arr[i] === "r2") {
+                    if (arr[j] === "R" || arr[j] === "r" || arr[j] === "R2" || arr[j] === "r2") {
                         fingerposition = 0;
                         break;
                     }
-                    if (arr[j] === "R'" || arr[i] === "r'") {
+                    if (arr[j] === "R'" || arr[j] === "r'") {
                         fingerposition = 4;
                         break;
                     }
