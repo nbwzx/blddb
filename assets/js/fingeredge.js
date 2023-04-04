@@ -22,7 +22,22 @@ function finger(s1, position) {
             }
         }
         if (i > 0 && arr[i][0] === "S") {
-            if (arr[i - 1] === "F2" || arr[i - 1][0] === "B") {
+            if (arr[i - 1] === "F2") {
+                return 0;
+            }
+        }
+        if (i < arr.length - 1 && arr[i][0] === "S") {
+            if (arr[i + 1][0] === "B") {
+                return 0;
+            }
+        }
+        if (i > 0 && arr[i] === "S2") {
+            if (arr[i - 1][0] === "F") {
+                return 0;
+            }
+        }
+        if (i < arr.length - 1 && arr[i] === "S2") {
+            if (arr[i + 1][0] === "B") {
                 return 0;
             }
         }
