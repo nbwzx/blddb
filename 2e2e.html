@@ -1,0 +1,186 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <title class="lang" key="2e2e"></title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="icon" href="images/logo.svg" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="images/logo.png" />
+  <meta name="google-site-verification" content="s3hE2D_rJuuUUj4rVvWBADMHqHqiSM-bQh80mnwzDMA" />
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7X9DPS593M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+  gtag('config', 'G-7X9DPS593M');
+</script>
+
+<body>
+  <div class="allscreen">
+    <div id="wrapper">
+      <header id="header">
+        <div class="inner">
+          <a href="./" class="logo">
+            <span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">blddb</span>
+          </a>
+          <div class="language translate">
+            <div class="status_circle status_circle_hide">English</div>
+          </div>
+        </div>
+      </header>
+      <div id="main">
+        <div class="inner">
+          <header>
+            <h1 style="text-align:center" class="lang" key="2e2e"></h1>
+            <p class="lang" key="2e2eHint"></p>
+          </header>
+          <p>
+            <strong class="lang" key="2e2e1"></strong>
+            <select style="width:3em" id="edgeinput1" onchange="algSearchByPos()">
+              <option></option>
+              <option>UB</option>
+              <option>UR</option>
+              <option>UF</option>
+              <option>UL</option>
+              <option>LU</option>
+              <option>LF</option>
+              <option>LD</option>
+              <option>LB</option>
+              <option>FU</option>
+              <option>FR</option>
+              <option>FD</option>
+              <option>FL</option>
+              <option>RU</option>
+              <option>RB</option>
+              <option>RD</option>
+              <option>RF</option>
+              <option>BU</option>
+              <option>BL</option>
+              <option>BD</option>
+              <option>BR</option>
+              <option>DF</option>
+              <option>DR</option>
+              <option>DB</option>
+              <option>DL</option>
+            </select>
+            --
+            <select style="width:3em" id="edgeinput2" onchange="algSearchByPos()">
+              <option></option>
+              <option>UB</option>
+              <option>UR</option>
+              <option>UF</option>
+              <option>UL</option>
+              <option>LU</option>
+              <option>LF</option>
+              <option>LD</option>
+              <option>LB</option>
+              <option>FU</option>
+              <option>FR</option>
+              <option>FD</option>
+              <option>FL</option>
+              <option>RU</option>
+              <option>RB</option>
+              <option>RD</option>
+              <option>RF</option>
+              <option>BU</option>
+              <option>BL</option>
+              <option>BD</option>
+              <option>BR</option>
+              <option>DF</option>
+              <option>DR</option>
+              <option>DB</option>
+              <option>DL</option>
+            </select>
+            &nbsp;&nbsp;
+            <strong class="lang" key="2e2e2"></strong>
+            <select style="width:3em" id="edgeinput3" onchange="algSearchByPos()">
+              <option></option>
+              <option>UB</option>
+              <option>UR</option>
+              <option>UF</option>
+              <option>UL</option>
+              <option>LU</option>
+              <option>LF</option>
+              <option>LD</option>
+              <option>LB</option>
+              <option>FU</option>
+              <option>FR</option>
+              <option>FD</option>
+              <option>FL</option>
+              <option>RU</option>
+              <option>RB</option>
+              <option>RD</option>
+              <option>RF</option>
+              <option>BU</option>
+              <option>BL</option>
+              <option>BD</option>
+              <option>BR</option>
+              <option>DF</option>
+              <option>DR</option>
+              <option>DB</option>
+              <option>DL</option>
+            </select>
+            --
+            <select style="width:3em" id="edgeinput4" onchange="algSearchByPos()">
+              <option></option>
+              <option>UB</option>
+              <option>UR</option>
+              <option>UF</option>
+              <option>UL</option>
+              <option>LU</option>
+              <option>LF</option>
+              <option>LD</option>
+              <option>LB</option>
+              <option>FU</option>
+              <option>FR</option>
+              <option>FD</option>
+              <option>FL</option>
+              <option>RU</option>
+              <option>RB</option>
+              <option>RD</option>
+              <option>RF</option>
+              <option>BU</option>
+              <option>BL</option>
+              <option>BD</option>
+              <option>BR</option>
+              <option>DF</option>
+              <option>DR</option>
+              <option>DB</option>
+              <option>DL</option>
+            </select>
+          </p>
+          <p>
+            <strong class="lang" key="pairs"></strong><input type="text" placeholder="" id="edgeinput"
+              onkeyup="algSearch()" maxlength="4" style="text-align:center;width:4em;text-transform:uppercase"
+              autocomplete="off">
+              &nbsp;&nbsp;
+            <strong class="lang" key="2e2eflips"></strong>
+            <select style="width:3em" id="isFlipped" onchange="algSearchByPos()">
+              <option class="lang" key="2e2eno" value="2e2eno"></option>
+              <option class="lang" key="2e2eyes" value="2e2eyes"></option>
+            </select>
+          </p>
+          <div id="div1">
+          </div>
+          <br />
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/fingeredge.js"></script>
+  <script src="assets/js/commutator.js"></script>
+  <script src="assets/js/setcode.js"></script>
+  <script src="assets/js/language.js"></script>
+  <script src="assets/js/2e2e.js"></script>
+</body>
+
+</html>
