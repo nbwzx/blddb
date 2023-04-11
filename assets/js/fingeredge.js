@@ -124,7 +124,7 @@ function fingerpain(s1, position) {
     let pain = 0;
     let fingerposition = position;
     const arr = s1.split(" ");
-    pain = pain + Math.floor(fingerback(s1, position) / 2);
+    pain = pain + Math.min(Math.floor(fingerback(s1, position) / 2), 2);
     for (let i = 0; i <= arr.length - 1; i++) {
         if (fingerposition === 4 && (arr[i] === "U2" || arr[i][0] === "M" || arr[i][0] === "E")) {
             pain = pain + 1;
