@@ -60,10 +60,16 @@ function algSearch() {
     if (twistsAlgToInfo.hasOwnProperty(idValue)) {
         const rows = twistsAlgToInfo[idValue].length;
         let tab = `<table id="table"><thead><tr><th>${arrLang[lang]["no"]}</th><th>${arrLang[lang]["algorithm"]}</th><th>${arrLang[lang]["thumbPosition"]}</th></tr></thead><tbody>`;
+        if (idValue.length === 2) {
+            tab = `<table id="table"><thead><tr><th>${arrLang[lang]["no"]}</th><th>${arrLang[lang]["algorithm"]}</th><th>${arrLang[lang]["commutator"]}</th><th>${arrLang[lang]["thumbPosition"]}</th></tr></thead><tbody>`;
+        }
         for (let i = 0; i < rows; i++) {
             tab += "<tr>";
             tab += `<td>${i + 1}</td>`;
             tab += `<td>${twistsAlgToInfo[idValue][i]}</td>`;
+            if (idValue.length === 2) {
+                tab += `<td>${commutator(twistsAlgToInfo[idValue][i])}</td>`;
+            }
             tab += `<td>${fingerbeginfrom(twistsAlgToInfo[idValue][i])}</td>`;
             tab += "</tr>";
         }
