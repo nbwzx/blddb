@@ -242,7 +242,7 @@ function fingerbeginfrom(s1) {
         }
     }
     if (count === 3) {
-        return `${arrLang[lang]["all"]}`;
+        return `${arrLang[lang]["homegrip"]}`;
     }
     return fingerbegin.substring(0, fingerbegin.length - 1);
 }

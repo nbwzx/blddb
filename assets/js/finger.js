@@ -92,7 +92,7 @@ function fingerbeginfrom(s1) {
         fingerbegin = `${fingerbegin}${arrLang[lang]["thumbup"]}/`;
     }
     if (count === 3) {
-        return `${arrLang[lang]["all"]}`;
+        return `${arrLang[lang]["homegrip"]}`;
     }
     return fingerbegin.substring(0, fingerbegin.length - 1);
 }
