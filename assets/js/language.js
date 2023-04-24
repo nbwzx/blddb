@@ -91,9 +91,8 @@ const arrLang = {
         "cornerStyleBalance": "balance",
         "cornerStyleYuanzi": "yuanzi",
         "cornerStyleManmade": "manmade",
-        "mode": "Mode：",
-        "edgeModeBrute": "brute force",
-        "edgeModeManmade": "manmade",
+        "edgeStyleNightmare": "nightmare",
+        "edgeStyleManmade": "manmade",
         "custom": "Custom Alg Set",
         "customDescription": "Customize your Alg set.",
         "customEdge": "3-Style Edge",
@@ -194,9 +193,8 @@ const arrLang = {
         "cornerStyleBalance": "平衡",
         "cornerStyleYuanzi": "圆子",
         "cornerStyleManmade": "人造",
-        "mode": "模式：",
-        "edgeModeBrute": "穷举",
-        "edgeModeManmade": "人造",
+        "edgeStyleNightmare": "噩梦",
+        "edgeStyleManmade": "人造",
         "custom": "个人公式集",
         "customDescription": "自定义你的盲拧公式集。",
         "customEdge": "棱块公式集",
@@ -220,7 +218,7 @@ if (lang === "zh") {
     $("#donate").attr("href", "donate.html");
     $("#codeinput").width("5.5em");
     $("#cornerstyle").width("5em");
-    $("#edgemode").width("4em");
+    $("#edgestyle").width("5em");
     $("#image").show();
 } else if (lang === "en") {
     $(".language").html("<div class=\"status_circle status_circle_hide\">English</div>");
@@ -229,7 +227,7 @@ if (lang === "zh") {
     $("#donate").attr("href", "donate_en.html");
     $("#codeinput").width("14em");
     $("#cornerstyle").width("7em");
-    $("#edgemode").width("6em");
+    $("#edgestyle").width("7em");
     $("#image").hide();
 }
 
@@ -269,7 +267,7 @@ $(".translate").click(() => {
         $("#donate").attr("href", "donate.html");
         $("#codeinput").width("5.5em");
         $("#cornerstyle").width("5em");
-        $("#edgemode").width("4em");
+        $("#edgestyle").width("5em");
         $("#image").show();
     } else if (lang === "en") {
         $(".language").html("<div class=\"status_circle status_circle_hide\">English</div>");
@@ -278,7 +276,7 @@ $(".translate").click(() => {
         $("#donate").attr("href", "donate_en.html");
         $("#codeinput").width("14em");
         $("#cornerstyle").width("7em");
-        $("#edgemode").width("6em");
+        $("#edgestyle").width("7em");
         $("#image").hide();
     }
     $(".lang").each(function(index, element) {

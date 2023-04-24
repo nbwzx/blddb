@@ -35,49 +35,49 @@ function algSearch() {
         idValue = edgeAlgToStandard[edgefullstr[0] + edgefullstr[2] + edgefullstr[1]];
     }
     if (edgeAlgToInfo.hasOwnProperty(idValue)) {
-        let edgeAlgToInfoMode = {};
-        if (document.getElementById("edgemode").value === "brute") {
-            edgeAlgToInfoMode = edgeAlgToInfo;
+        let edgeAlgToInfoStyle = {};
+        if (document.getElementById("edgestyle").value === "nightmare") {
+            edgeAlgToInfoStyle = edgeAlgToInfo;
         }
-        if (document.getElementById("edgemode").value === "manmade") {
-            edgeAlgToInfoMode = edgeAlgToInfoManmade;
+        if (document.getElementById("edgestyle").value === "manmade") {
+            edgeAlgToInfoStyle = edgeAlgToInfoManmade;
         }
         if (document.getElementById("edgeinput") === document.activeElement) {
             document.getElementById("edgeinput").blur();
         }
-        const rows = edgeAlgToInfoMode[idValue].length;
+        const rows = edgeAlgToInfoStyle[idValue].length;
         let tab = "";
         let inew = 0;
         for (let i = 0; i < rows; i++) {
             let edgeAlgToInfoNew = "";
             if (setup.length > 0) {
-                if (document.getElementById("edgemode").value === "manmade") {
+                if (document.getElementById("edgestyle").value === "manmade") {
                     div1.innerHTML = "";
                     return;
                 }
-                edgeAlgToInfoNew = arrayToStr(algToArray(`${setup} ${edgeAlgToInfoMode[idValue][i]} ${arrayToStr(invert(algToArray(setup)))}`));
+                edgeAlgToInfoNew = arrayToStr(algToArray(`${setup} ${edgeAlgToInfoStyle[idValue][i]} ${arrayToStr(invert(algToArray(setup)))}`));
                 if (isnightmare(edgeAlgToInfoNew) === 0) {
                     continue;
                 }
-                if (stm(edgeAlgToInfoNew) + 1 < stm(arrayToStr(algToArray(`${edgeAlgToInfoMode[idValue][i]} ${arrayToStr(invert(algToArray(setup)))}`))) + stm(setup)) {
+                if (stm(edgeAlgToInfoNew) + 1 < stm(arrayToStr(algToArray(`${edgeAlgToInfoStyle[idValue][i]} ${arrayToStr(invert(algToArray(setup)))}`))) + stm(setup)) {
                     continue;
                 }
                 inew = inew + 1;
             } else {
-                edgeAlgToInfoNew = edgeAlgToInfoMode[idValue][i];
+                edgeAlgToInfoNew = edgeAlgToInfoStyle[idValue][i];
                 inew = inew + 1;
             }
-            if (document.getElementById("edgemode").value !== "manmade" && edgeAlgToInfoNew === edgeAlgToNightmare[edgeAlgToStandard[`${id[0]}${id[1]}${id[2]}`]]) {
+            if (document.getElementById("edgestyle").value !== "manmade" && edgeAlgToInfoNew === edgeAlgToNightmare[edgeAlgToStandard[`${id[0]}${id[1]}${id[2]}`]]) {
                 tab += "<tr bgcolor=\"#D0D0D0\">";
             } else {
                 tab += "<tr>";
             }
-            if (document.getElementById("edgemode").value === "manmade") {
+            if (document.getElementById("edgestyle").value === "manmade") {
                 tab += `<td>${inew}</td>`;
-                tab += `<td>${edgeAlgToInfoMode[idValue][i][0]}</td>`;
-                tab += `<td>${commutator(edgeAlgToInfoMode[idValue][i][0])}</td>`;
-                tab += `<td>${fingerbeginfrom(edgeAlgToInfoMode[idValue][i][0])}</td>`;
-                tab += `<td class="help">${edgeAlgToInfoMode[idValue][i][1].length} <span class="help-content">${edgeAlgToInfoMode[idValue][i][1].join("<br>")}</span></td>`;
+                tab += `<td>${edgeAlgToInfoStyle[idValue][i][0]}</td>`;
+                tab += `<td>${commutator(edgeAlgToInfoStyle[idValue][i][0])}</td>`;
+                tab += `<td>${fingerbeginfrom(edgeAlgToInfoStyle[idValue][i][0])}</td>`;
+                tab += `<td class="help">${edgeAlgToInfoStyle[idValue][i][1].length} <span class="help-content">${edgeAlgToInfoStyle[idValue][i][1].join("<br>")}</span></td>`;
             } else {
                 tab += `<td>${inew}</td>`;
                 tab += `<td>${edgeAlgToInfoNew}</td>`;
@@ -87,7 +87,7 @@ function algSearch() {
             }
         }
         if (tab !== "") {
-            if (document.getElementById("edgemode").value === "manmade") {
+            if (document.getElementById("edgestyle").value === "manmade") {
                 tab = `<table id="table"><thead><tr><th>${arrLang[lang]["no"]}</th><th>${arrLang[lang]["algorithm"]}</th><th>${arrLang[lang]["commutator"]}</th><th>${arrLang[lang]["thumbPosition"]}</th><th>${arrLang[lang]["source"]}</th></tr></thead><tbody>${tab}</tbody></table>`;
             } else {
                 tab = `<table id="table"><thead><tr><th>${arrLang[lang]["no"]}</th><th>${arrLang[lang]["algorithm"]}</th><th>${arrLang[lang]["commutator"]}</th><th>${arrLang[lang]["thumbPosition"]}</th></tr></thead><tbody>${tab}</tbody></table>`;
@@ -140,46 +140,46 @@ function algSearchByPos() {
         idValue = edgeAlgToStandard[edgefullstr[0] + edgefullstr[2] + edgefullstr[1]];
     }
     if (edgeAlgToInfo.hasOwnProperty(idValue)) {
-        let edgeAlgToInfoMode = {};
-        if (document.getElementById("edgemode").value === "brute") {
-            edgeAlgToInfoMode = edgeAlgToInfo;
+        let edgeAlgToInfoStyle = {};
+        if (document.getElementById("edgestyle").value === "nightmare") {
+            edgeAlgToInfoStyle = edgeAlgToInfo;
         }
-        if (document.getElementById("edgemode").value === "manmade") {
-            edgeAlgToInfoMode = edgeAlgToInfoManmade;
+        if (document.getElementById("edgestyle").value === "manmade") {
+            edgeAlgToInfoStyle = edgeAlgToInfoManmade;
         }
-        const rows = edgeAlgToInfoMode[idValue].length;
+        const rows = edgeAlgToInfoStyle[idValue].length;
         let tab = "";
         let inew = 0;
         for (let i = 0; i < rows; i++) {
             let edgeAlgToInfoNew = "";
             if (setup.length > 0) {
-                if (document.getElementById("edgemode").value === "manmade") {
+                if (document.getElementById("edgestyle").value === "manmade") {
                     div1.innerHTML = "";
                     return;
                 }
-                edgeAlgToInfoNew = arrayToStr(algToArray(`${setup} ${edgeAlgToInfoMode[idValue][i]} ${arrayToStr(invert(algToArray(setup)))}`));
+                edgeAlgToInfoNew = arrayToStr(algToArray(`${setup} ${edgeAlgToInfoStyle[idValue][i]} ${arrayToStr(invert(algToArray(setup)))}`));
                 if (isnightmare(edgeAlgToInfoNew) === 0) {
                     continue;
                 }
-                if (stm(edgeAlgToInfoNew) + 1 < stm(arrayToStr(algToArray(`${edgeAlgToInfoMode[idValue][i]} ${arrayToStr(invert(algToArray(setup)))}`))) + stm(setup)) {
+                if (stm(edgeAlgToInfoNew) + 1 < stm(arrayToStr(algToArray(`${edgeAlgToInfoStyle[idValue][i]} ${arrayToStr(invert(algToArray(setup)))}`))) + stm(setup)) {
                     continue;
                 }
                 inew = inew + 1;
             } else {
-                edgeAlgToInfoNew = edgeAlgToInfoMode[idValue][i];
+                edgeAlgToInfoNew = edgeAlgToInfoStyle[idValue][i];
                 inew = inew + 1;
             }
-            if (document.getElementById("edgemode").value !== "manmade" && edgeAlgToInfoNew === edgeAlgToNightmare[edgeAlgToStandard[`${id[0]}${id[1]}${id[2]}`]]) {
+            if (document.getElementById("edgestyle").value !== "manmade" && edgeAlgToInfoNew === edgeAlgToNightmare[edgeAlgToStandard[`${id[0]}${id[1]}${id[2]}`]]) {
                 tab += "<tr bgcolor=\"#D0D0D0\">";
             } else {
                 tab += "<tr>";
             }
-            if (document.getElementById("edgemode").value === "manmade") {
+            if (document.getElementById("edgestyle").value === "manmade") {
                 tab += `<td>${inew}</td>`;
-                tab += `<td>${edgeAlgToInfoMode[idValue][i][0]}</td>`;
-                tab += `<td>${commutator(edgeAlgToInfoMode[idValue][i][0])}</td>`;
-                tab += `<td>${fingerbeginfrom(edgeAlgToInfoMode[idValue][i][0])}</td>`;
-                tab += `<td class="help">${edgeAlgToInfoMode[idValue][i][1].length} <span class="help-content">${edgeAlgToInfoMode[idValue][i][1].join("<br>")}</span></td>`;
+                tab += `<td>${edgeAlgToInfoStyle[idValue][i][0]}</td>`;
+                tab += `<td>${commutator(edgeAlgToInfoStyle[idValue][i][0])}</td>`;
+                tab += `<td>${fingerbeginfrom(edgeAlgToInfoStyle[idValue][i][0])}</td>`;
+                tab += `<td class="help">${edgeAlgToInfoStyle[idValue][i][1].length} <span class="help-content">${edgeAlgToInfoStyle[idValue][i][1].join("<br>")}</span></td>`;
             } else {
                 tab += `<td>${inew}</td>`;
                 tab += `<td>${edgeAlgToInfoNew}</td>`;
@@ -189,7 +189,7 @@ function algSearchByPos() {
             }
         }
         if (tab !== "") {
-            if (document.getElementById("edgemode").value === "manmade") {
+            if (document.getElementById("edgestyle").value === "manmade") {
                 tab = `<table id="table"><thead><tr><th>${arrLang[lang]["no"]}</th><th>${arrLang[lang]["algorithm"]}</th><th>${arrLang[lang]["commutator"]}</th><th>${arrLang[lang]["thumbPosition"]}</th><th>${arrLang[lang]["source"]}</th></tr></thead><tbody>${tab}</tbody></table>`;
             } else {
                 tab = `<table id="table"><thead><tr><th>${arrLang[lang]["no"]}</th><th>${arrLang[lang]["algorithm"]}</th><th>${arrLang[lang]["commutator"]}</th><th>${arrLang[lang]["thumbPosition"]}</th></tr></thead><tbody>${tab}</tbody></table>`;
@@ -212,4 +212,9 @@ function isnightmare(s1) {
         return 1;
     }
     return 0;
+}
+
+function fontAwesome() {
+    $("select").find("option[key='edgeStyleNightmare']").html(`&#128128; ${$("select").find("option[key='edgeStyleNightmare']").html()}`);
+    $("select").find("option[key='edgeStyleManmade']").html(`&thinsp;&#xf2bd; ${$("select").find("option[key='edgeStyleManmade']").html()}`);
 }
