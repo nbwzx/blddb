@@ -73,10 +73,6 @@ function finger(s1, position) {
         if (fingerposition === 4 && (arr[i][0] === "B" || arr[i][0] === "F" || arr[i] === "D2" || arr[i] === "S2" || arr[i] === "M2")) {
             return 0;
         }
-        // R2 U2 R S R2 S' R U2 R2
-        if (fingerposition === 3 && arr[i] === "F2") {
-            return 0;
-        }
         if (fingerposition === 2 && (arr[i][0] === "B" || arr[i] === "F2" || arr[i] === "S2" || arr[i] === "E2")) {
             return 0;
         }
@@ -139,6 +135,9 @@ function fingerpain(s1, position) {
             pain = pain + 1;
         }
         if (fingerposition === 0 && (arr[i] === "U2" || arr[i][0] === "M" || arr[i][0] === "E")) {
+            pain = pain + 1;
+        }
+        if (fingerposition === 3 && arr[i] === "F2") {
             pain = pain + 1;
         }
         if (arr[i] === "R" || arr[i] === "r") {

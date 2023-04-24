@@ -52,6 +52,7 @@ function algSearch() {
             let edgeAlgToInfoNew = "";
             if (setup.length > 0) {
                 if (document.getElementById("edgemode").value === "manmade") {
+                    div1.innerHTML = "";
                     return;
                 }
                 edgeAlgToInfoNew = arrayToStr(algToArray(`${setup} ${edgeAlgToInfoMode[idValue][i]} ${arrayToStr(invert(algToArray(setup)))}`));
@@ -153,6 +154,7 @@ function algSearchByPos() {
             let edgeAlgToInfoNew = "";
             if (setup.length > 0) {
                 if (document.getElementById("edgemode").value === "manmade") {
+                    div1.innerHTML = "";
                     return;
                 }
                 edgeAlgToInfoNew = arrayToStr(algToArray(`${setup} ${edgeAlgToInfoMode[idValue][i]} ${arrayToStr(invert(algToArray(setup)))}`));
