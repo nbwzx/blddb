@@ -1,7 +1,7 @@
 "use strict";
 
 $.ajaxSettings.async = false;
-const jsonNameList = ["cornerNumberToChichu", "cornerChichuToNumber", "cornerAlgToStandard", "cornerAlgToInfo", "cornerAlgToNightmare", "cornerAlgToInfoYuanzi", "cornerAlgToYuanzi", "cornerAlgToInfoBalance", "cornerAlgToBalance", "cornerPosToCode", "cornerCodeToPos"];
+const jsonNameList = ["cornerNumberToChichu", "cornerChichuToNumber", "cornerAlgToStandard", "cornerAlgToInfo", "cornerAlgToNightmare", "cornerAlgToInfoYuanzi", "cornerAlgToInfoManmade", "cornerAlgToYuanzi", "cornerAlgToInfoBalance", "cornerAlgToBalance", "cornerPosToCode", "cornerCodeToPos"];
 const jsonLoaded = jsonNameList.map((name) => $.getJSON(`assets/json/${name}.json`, (json) => {
     window[`${name}`] = json;
 }));
@@ -44,19 +44,34 @@ function algSearch() {
             cornerAlgToInfoStyle = cornerAlgToInfoBalance;
             cornerAlgToStyle = cornerAlgToBalance;
         }
+        if (document.getElementById("cornerstyle").value === "manmade") {
+            cornerAlgToInfoStyle = cornerAlgToInfoManmade;
+        }
         document.getElementById("cornerinput").blur();
         const rows = cornerAlgToInfoStyle[idValue].length;
-        let tab = `<table id="table"><thead><tr><th>${arrLang[lang]["no"]}</th><th>${arrLang[lang]["algorithm"]}</th><th>${arrLang[lang]["commutator"]}</th><th>${arrLang[lang]["thumbPosition"]}</th></tr></thead><tbody>`;
+        let tab = "";
+        if (document.getElementById("cornerstyle").value === "manmade") {
+            tab = `<table id="table"><thead><tr><th>${arrLang[lang]["no"]}</th><th>${arrLang[lang]["algorithm"]}</th><th>${arrLang[lang]["commutator"]}</th><th>${arrLang[lang]["thumbPosition"]}</th><th>${arrLang[lang]["source"]}</th></tr></thead><tbody>`;
+        } else {
+            tab = `<table id="table"><thead><tr><th>${arrLang[lang]["no"]}</th><th>${arrLang[lang]["algorithm"]}</th><th>${arrLang[lang]["commutator"]}</th><th>${arrLang[lang]["thumbPosition"]}</th></tr></thead><tbody>`;
+        }
         for (let i = 0; i < rows; i++) {
-            if (cornerAlgToInfoStyle[idValue][i] === cornerAlgToStyle[idValue]) {
+            if (document.getElementById("cornerstyle").value !== "manmade" && cornerAlgToInfoStyle[idValue][i] === cornerAlgToStyle[idValue]) {
                 tab += "<tr bgcolor=\"#D0D0D0\">";
             } else {
                 tab += "<tr>";
             }
             tab += `<td>${i + 1}</td>`;
-            tab += `<td>${cornerAlgToInfoStyle[idValue][i]}</td>`;
-            tab += `<td>${commutator(cornerAlgToInfoStyle[idValue][i])}</td>`;
-            tab += `<td>${fingerbeginfrom(cornerAlgToInfoStyle[idValue][i])}</td>`;
+            if (document.getElementById("cornerstyle").value === "manmade") {
+                tab += `<td>${cornerAlgToInfoStyle[idValue][i][0]}</td>`;
+                tab += `<td>${commutator(cornerAlgToInfoStyle[idValue][i][0])}</td>`;
+                tab += `<td>${fingerbeginfrom(cornerAlgToInfoStyle[idValue][i][0])}</td>`;
+                tab += `<td class="help">${cornerAlgToInfoStyle[idValue][i][1].length} <span class="help-content">${cornerAlgToInfoStyle[idValue][i][1].join("<br>")}</span></td>`;
+            } else {
+                tab += `<td>${cornerAlgToInfoStyle[idValue][i]}</td>`;
+                tab += `<td>${commutator(cornerAlgToInfoStyle[idValue][i])}</td>`;
+                tab += `<td>${fingerbeginfrom(cornerAlgToInfoStyle[idValue][i])}</td>`;
+            }
             tab += "</tr>";
         }
         tab += "</tbody></table>";
@@ -116,18 +131,33 @@ function algSearchByPos() {
             cornerAlgToInfoStyle = cornerAlgToInfoBalance;
             cornerAlgToStyle = cornerAlgToBalance;
         }
+        if (document.getElementById("cornerstyle").value === "manmade") {
+            cornerAlgToInfoStyle = cornerAlgToInfoManmade;
+        }
         const rows = cornerAlgToInfoStyle[idValue].length;
-        let tab = `<table id="table"><thead><tr><th>${arrLang[lang]["no"]}</th><th>${arrLang[lang]["algorithm"]}</th><th>${arrLang[lang]["commutator"]}</th><th>${arrLang[lang]["thumbPosition"]}</th></tr></thead><tbody>`;
+        let tab = "";
+        if (document.getElementById("cornerstyle").value === "manmade") {
+            tab = `<table id="table"><thead><tr><th>${arrLang[lang]["no"]}</th><th>${arrLang[lang]["algorithm"]}</th><th>${arrLang[lang]["commutator"]}</th><th>${arrLang[lang]["thumbPosition"]}</th><th>${arrLang[lang]["source"]}</th></tr></thead><tbody>`;
+        } else {
+            tab = `<table id="table"><thead><tr><th>${arrLang[lang]["no"]}</th><th>${arrLang[lang]["algorithm"]}</th><th>${arrLang[lang]["commutator"]}</th><th>${arrLang[lang]["thumbPosition"]}</th></tr></thead><tbody>`;
+        }
         for (let i = 0; i < rows; i++) {
-            if (cornerAlgToInfoStyle[idValue][i] === cornerAlgToStyle[idValue]) {
+            if (document.getElementById("cornerstyle").value !== "manmade" && cornerAlgToInfoStyle[idValue][i] === cornerAlgToStyle[idValue]) {
                 tab += "<tr bgcolor=\"#D0D0D0\">";
             } else {
                 tab += "<tr>";
             }
             tab += `<td>${i + 1}</td>`;
-            tab += `<td>${cornerAlgToInfoStyle[idValue][i]}</td>`;
-            tab += `<td>${commutator(cornerAlgToInfoStyle[idValue][i])}</td>`;
-            tab += `<td>${fingerbeginfrom(cornerAlgToInfoStyle[idValue][i])}</td>`;
+            if (document.getElementById("cornerstyle").value === "manmade") {
+                tab += `<td>${cornerAlgToInfoStyle[idValue][i][0]}</td>`;
+                tab += `<td>${commutator(cornerAlgToInfoStyle[idValue][i][0])}</td>`;
+                tab += `<td>${fingerbeginfrom(cornerAlgToInfoStyle[idValue][i][0])}</td>`;
+                tab += `<td class="help">${cornerAlgToInfoStyle[idValue][i][1].length} <span class="help-content">${cornerAlgToInfoStyle[idValue][i][1].join("<br>")}</span></td>`;
+            } else {
+                tab += `<td>${cornerAlgToInfoStyle[idValue][i]}</td>`;
+                tab += `<td>${commutator(cornerAlgToInfoStyle[idValue][i])}</td>`;
+                tab += `<td>${fingerbeginfrom(cornerAlgToInfoStyle[idValue][i])}</td>`;
+            }
             tab += "</tr>";
         }
         tab += "</tbody></table>";
@@ -145,4 +175,5 @@ function fontAwesome() {
     $("select").find("option[key='cornerStyleNightmare']").html(`&#128128; ${$("select").find("option[key='cornerStyleNightmare']").html()}`);
     $("select").find("option[key='cornerStyleBalance']").html(`&#62030; ${$("select").find("option[key='cornerStyleBalance']").html()}`);
     $("select").find("option[key='cornerStyleYuanzi']").html(`&thinsp;&#xf5d2;&thinsp; ${$("select").find("option[key='cornerStyleYuanzi']").html()}`);
+    $("select").find("option[key='cornerStyleManmade']").html(`&thinsp;&#xf2bd; ${$("select").find("option[key='cornerStyleManmade']").html()}`);
 }

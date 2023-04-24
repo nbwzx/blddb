@@ -1,7 +1,7 @@
 "use strict";
 
 $.ajaxSettings.async = false;
-const jsonNameList = ["edgeNumberToChichu", "edgeChichuToNumber", "edgeAlgToStandard", "edgeAlgToInfo", "edgeAlgToNightmare", "edgeAlgToInfoTradition", "edgePosToCode", "edgeCodeToPos"];
+const jsonNameList = ["edgeNumberToChichu", "edgeChichuToNumber", "edgeAlgToStandard", "edgeAlgToInfo", "edgeAlgToNightmare", "edgeAlgToInfoManmade", "edgePosToCode", "edgeCodeToPos"];
 const jsonLoaded = jsonNameList.map((name) => $.getJSON(`assets/json/${name}.json`, (json) => {
     window[`${name}`] = json;
 }));
@@ -39,8 +39,8 @@ function algSearch() {
         if (document.getElementById("edgemode").value === "brute") {
             edgeAlgToInfoMode = edgeAlgToInfo;
         }
-        if (document.getElementById("edgemode").value === "tradition") {
-            edgeAlgToInfoMode = edgeAlgToInfoTradition;
+        if (document.getElementById("edgemode").value === "manmade") {
+            edgeAlgToInfoMode = edgeAlgToInfoManmade;
         }
         if (document.getElementById("edgeinput") === document.activeElement) {
             document.getElementById("edgeinput").blur();
@@ -51,6 +51,9 @@ function algSearch() {
         for (let i = 0; i < rows; i++) {
             let edgeAlgToInfoNew = "";
             if (setup.length > 0) {
+                if (document.getElementById("edgemode").value === "manmade") {
+                    return;
+                }
                 edgeAlgToInfoNew = arrayToStr(algToArray(`${setup} ${edgeAlgToInfoMode[idValue][i]} ${arrayToStr(invert(algToArray(setup)))}`));
                 if (isnightmare(edgeAlgToInfoNew) === 0) {
                     continue;
@@ -63,19 +66,31 @@ function algSearch() {
                 edgeAlgToInfoNew = edgeAlgToInfoMode[idValue][i];
                 inew = inew + 1;
             }
-            if (edgeAlgToInfoNew === edgeAlgToNightmare[edgeAlgToStandard[`${id[0]}${id[1]}${id[2]}`]]) {
+            if (document.getElementById("edgemode").value !== "manmade" && edgeAlgToInfoNew === edgeAlgToNightmare[edgeAlgToStandard[`${id[0]}${id[1]}${id[2]}`]]) {
                 tab += "<tr bgcolor=\"#D0D0D0\">";
             } else {
                 tab += "<tr>";
             }
-            tab += `<td>${inew}</td>`;
-            tab += `<td>${edgeAlgToInfoNew}</td>`;
-            tab += `<td>${commutator(edgeAlgToInfoNew)}</td>`;
-            tab += `<td>${fingerbeginfrom(edgeAlgToInfoNew)}</td>`;
-            tab += "</tr>";
+            if (document.getElementById("edgemode").value === "manmade") {
+                tab += `<td>${inew}</td>`;
+                tab += `<td>${edgeAlgToInfoMode[idValue][i][0]}</td>`;
+                tab += `<td>${commutator(edgeAlgToInfoMode[idValue][i][0])}</td>`;
+                tab += `<td>${fingerbeginfrom(edgeAlgToInfoMode[idValue][i][0])}</td>`;
+                tab += `<td class="help">${edgeAlgToInfoMode[idValue][i][1].length} <span class="help-content">${edgeAlgToInfoMode[idValue][i][1].join("<br>")}</span></td>`;
+            } else {
+                tab += `<td>${inew}</td>`;
+                tab += `<td>${edgeAlgToInfoNew}</td>`;
+                tab += `<td>${commutator(edgeAlgToInfoNew)}</td>`;
+                tab += `<td>${fingerbeginfrom(edgeAlgToInfoNew)}</td>`;
+                tab += "</tr>";
+            }
         }
         if (tab !== "") {
-            tab = `<table id="table"><thead><tr><th>${arrLang[lang]["no"]}</th><th>${arrLang[lang]["algorithm"]}</th><th>${arrLang[lang]["commutator"]}</th><th>${arrLang[lang]["thumbPosition"]}</th></tr></thead><tbody>${tab}</tbody></table>`;
+            if (document.getElementById("edgemode").value === "manmade") {
+                tab = `<table id="table"><thead><tr><th>${arrLang[lang]["no"]}</th><th>${arrLang[lang]["algorithm"]}</th><th>${arrLang[lang]["commutator"]}</th><th>${arrLang[lang]["thumbPosition"]}</th><th>${arrLang[lang]["source"]}</th></tr></thead><tbody>${tab}</tbody></table>`;
+            } else {
+                tab = `<table id="table"><thead><tr><th>${arrLang[lang]["no"]}</th><th>${arrLang[lang]["algorithm"]}</th><th>${arrLang[lang]["commutator"]}</th><th>${arrLang[lang]["thumbPosition"]}</th></tr></thead><tbody>${tab}</tbody></table>`;
+            }
         }
         div1.innerHTML = tab;
     } else {
@@ -128,8 +143,8 @@ function algSearchByPos() {
         if (document.getElementById("edgemode").value === "brute") {
             edgeAlgToInfoMode = edgeAlgToInfo;
         }
-        if (document.getElementById("edgemode").value === "tradition") {
-            edgeAlgToInfoMode = edgeAlgToInfoTradition;
+        if (document.getElementById("edgemode").value === "manmade") {
+            edgeAlgToInfoMode = edgeAlgToInfoManmade;
         }
         const rows = edgeAlgToInfoMode[idValue].length;
         let tab = "";
@@ -137,6 +152,9 @@ function algSearchByPos() {
         for (let i = 0; i < rows; i++) {
             let edgeAlgToInfoNew = "";
             if (setup.length > 0) {
+                if (document.getElementById("edgemode").value === "manmade") {
+                    return;
+                }
                 edgeAlgToInfoNew = arrayToStr(algToArray(`${setup} ${edgeAlgToInfoMode[idValue][i]} ${arrayToStr(invert(algToArray(setup)))}`));
                 if (isnightmare(edgeAlgToInfoNew) === 0) {
                     continue;
@@ -149,19 +167,31 @@ function algSearchByPos() {
                 edgeAlgToInfoNew = edgeAlgToInfoMode[idValue][i];
                 inew = inew + 1;
             }
-            if (edgeAlgToInfoNew === edgeAlgToNightmare[edgeAlgToStandard[`${id[0]}${id[1]}${id[2]}`]]) {
+            if (document.getElementById("edgemode").value !== "manmade" && edgeAlgToInfoNew === edgeAlgToNightmare[edgeAlgToStandard[`${id[0]}${id[1]}${id[2]}`]]) {
                 tab += "<tr bgcolor=\"#D0D0D0\">";
             } else {
                 tab += "<tr>";
             }
-            tab += `<td>${inew}</td>`;
-            tab += `<td>${edgeAlgToInfoNew}</td>`;
-            tab += `<td>${commutator(edgeAlgToInfoNew)}</td>`;
-            tab += `<td>${fingerbeginfrom(edgeAlgToInfoNew)}</td>`;
-            tab += "</tr>";
+            if (document.getElementById("edgemode").value === "manmade") {
+                tab += `<td>${inew}</td>`;
+                tab += `<td>${edgeAlgToInfoMode[idValue][i][0]}</td>`;
+                tab += `<td>${commutator(edgeAlgToInfoMode[idValue][i][0])}</td>`;
+                tab += `<td>${fingerbeginfrom(edgeAlgToInfoMode[idValue][i][0])}</td>`;
+                tab += `<td class="help">${edgeAlgToInfoMode[idValue][i][1].length} <span class="help-content">${edgeAlgToInfoMode[idValue][i][1].join("<br>")}</span></td>`;
+            } else {
+                tab += `<td>${inew}</td>`;
+                tab += `<td>${edgeAlgToInfoNew}</td>`;
+                tab += `<td>${commutator(edgeAlgToInfoNew)}</td>`;
+                tab += `<td>${fingerbeginfrom(edgeAlgToInfoNew)}</td>`;
+                tab += "</tr>";
+            }
         }
         if (tab !== "") {
-            tab = `<table id="table"><thead><tr><th>${arrLang[lang]["no"]}</th><th>${arrLang[lang]["algorithm"]}</th><th>${arrLang[lang]["commutator"]}</th><th>${arrLang[lang]["thumbPosition"]}</th></tr></thead><tbody>${tab}</tbody></table>`;
+            if (document.getElementById("edgemode").value === "manmade") {
+                tab = `<table id="table"><thead><tr><th>${arrLang[lang]["no"]}</th><th>${arrLang[lang]["algorithm"]}</th><th>${arrLang[lang]["commutator"]}</th><th>${arrLang[lang]["thumbPosition"]}</th><th>${arrLang[lang]["source"]}</th></tr></thead><tbody>${tab}</tbody></table>`;
+            } else {
+                tab = `<table id="table"><thead><tr><th>${arrLang[lang]["no"]}</th><th>${arrLang[lang]["algorithm"]}</th><th>${arrLang[lang]["commutator"]}</th><th>${arrLang[lang]["thumbPosition"]}</th></tr></thead><tbody>${tab}</tbody></table>`;
+            }
         }
         div1.innerHTML = tab;
     } else {
