@@ -1,7 +1,7 @@
 "use strict";
 
 $.ajaxSettings.async = false;
-const jsonNameList = ["edgeNumberToChichu", "edgeChichuToNumber", "edgeAlgToStandard", "edgeAlgToInfo", "edgeAlgToNightmare", "edgeAlgToInfoManmade", "edgePosToCode", "edgeCodeToPos"];
+const jsonNameList = ["edgeNumberToChichu", "edgeChichuToNumber", "edgeAlgToStandard", "edgeAlgToInfo", "edgeAlgToNightmare", "edgeAlgToInfoManmade", "edgePosToCode", "edgeCodeToPos", "sourceToUrl"];
 const jsonLoaded = jsonNameList.map((name) => $.getJSON(`assets/json/${name}.json`, (json) => {
     window[`${name}`] = json;
 }));
@@ -77,7 +77,18 @@ function algSearch() {
                 tab += `<td>${edgeAlgToInfoStyle[idValue][i][0]}</td>`;
                 tab += `<td>${commutator(edgeAlgToInfoStyle[idValue][i][0])}</td>`;
                 tab += `<td>${fingerbeginfrom(edgeAlgToInfoStyle[idValue][i][0])}</td>`;
-                tab += `<td class="help">${edgeAlgToInfoStyle[idValue][i][1].length} <span class="help-content">${edgeAlgToInfoStyle[idValue][i][1].join("<br>")}</span></td>`;
+                let sourceElement = "";
+                for (const source of edgeAlgToInfoStyle[idValue][i][1]) {
+                    if (source in sourceToUrl) {
+                        sourceElement = `${sourceElement}<a href="${sourceToUrl[source][0]}" target="_blank">${source}</a>`;
+                    } else {
+                        sourceElement = `${sourceElement}${source}`;
+                    }
+                    if (source !== edgeAlgToInfoStyle[idValue][i][1][edgeAlgToInfoStyle[idValue][i][1].length - 1]) {
+                        sourceElement += "<br>";
+                    }
+                }
+                tab += `<td class="help">${edgeAlgToInfoStyle[idValue][i][1].length} <span class="help-content">${sourceElement}</span></td>`;
             } else {
                 tab += `<td>${inew}</td>`;
                 tab += `<td>${edgeAlgToInfoNew}</td>`;
@@ -179,7 +190,18 @@ function algSearchByPos() {
                 tab += `<td>${edgeAlgToInfoStyle[idValue][i][0]}</td>`;
                 tab += `<td>${commutator(edgeAlgToInfoStyle[idValue][i][0])}</td>`;
                 tab += `<td>${fingerbeginfrom(edgeAlgToInfoStyle[idValue][i][0])}</td>`;
-                tab += `<td class="help">${edgeAlgToInfoStyle[idValue][i][1].length} <span class="help-content">${edgeAlgToInfoStyle[idValue][i][1].join("<br>")}</span></td>`;
+                let sourceElement = "";
+                for (const source of edgeAlgToInfoStyle[idValue][i][1]) {
+                    if (source in sourceToUrl) {
+                        sourceElement = `${sourceElement}<a href="${sourceToUrl[source][0]}" target="_blank">${source}</a>`;
+                    } else {
+                        sourceElement = `${sourceElement}${source}`;
+                    }
+                    if (source !== edgeAlgToInfoStyle[idValue][i][1][edgeAlgToInfoStyle[idValue][i][1].length - 1]) {
+                        sourceElement += "<br>";
+                    }
+                }
+                tab += `<td class="help">${edgeAlgToInfoStyle[idValue][i][1].length} <span class="help-content">${sourceElement}</span></td>`;
             } else {
                 tab += `<td>${inew}</td>`;
                 tab += `<td>${edgeAlgToInfoNew}</td>`;

@@ -1,7 +1,7 @@
 "use strict";
 
 $.ajaxSettings.async = false;
-const jsonNameList = ["cornerNumberToChichu", "cornerChichuToNumber", "cornerAlgToStandard", "cornerAlgToInfo", "cornerAlgToNightmare", "cornerAlgToInfoYuanzi", "cornerAlgToInfoManmade", "cornerAlgToYuanzi", "cornerAlgToInfoBalance", "cornerAlgToBalance", "cornerPosToCode", "cornerCodeToPos"];
+const jsonNameList = ["cornerNumberToChichu", "cornerChichuToNumber", "cornerAlgToStandard", "cornerAlgToInfo", "cornerAlgToNightmare", "cornerAlgToInfoYuanzi", "cornerAlgToInfoManmade", "cornerAlgToYuanzi", "cornerAlgToInfoBalance", "cornerAlgToBalance", "cornerPosToCode", "cornerCodeToPos", "sourceToUrl"];
 const jsonLoaded = jsonNameList.map((name) => $.getJSON(`assets/json/${name}.json`, (json) => {
     window[`${name}`] = json;
 }));
@@ -66,7 +66,18 @@ function algSearch() {
                 tab += `<td>${cornerAlgToInfoStyle[idValue][i][0]}</td>`;
                 tab += `<td>${commutator(cornerAlgToInfoStyle[idValue][i][0])}</td>`;
                 tab += `<td>${fingerbeginfrom(cornerAlgToInfoStyle[idValue][i][0])}</td>`;
-                tab += `<td class="help">${cornerAlgToInfoStyle[idValue][i][1].length} <span class="help-content">${cornerAlgToInfoStyle[idValue][i][1].join("<br>")}</span></td>`;
+                let sourceElement = "";
+                for (const source of cornerAlgToInfoStyle[idValue][i][1]) {
+                    if (source in sourceToUrl) {
+                        sourceElement = `${sourceElement}<a href="${sourceToUrl[source][sourceToUrl[source].length - 1]}" target="_blank">${source}</a>`;
+                    } else {
+                        sourceElement = `${sourceElement}${source}`;
+                    }
+                    if (source !== cornerAlgToInfoStyle[idValue][i][1][cornerAlgToInfoStyle[idValue][i][1].length - 1]) {
+                        sourceElement += "<br>";
+                    }
+                }
+                tab += `<td class="help">${cornerAlgToInfoStyle[idValue][i][1].length} <span class="help-content">${sourceElement}</span></td>`;
             } else {
                 tab += `<td>${cornerAlgToInfoStyle[idValue][i]}</td>`;
                 tab += `<td>${commutator(cornerAlgToInfoStyle[idValue][i])}</td>`;
@@ -152,7 +163,18 @@ function algSearchByPos() {
                 tab += `<td>${cornerAlgToInfoStyle[idValue][i][0]}</td>`;
                 tab += `<td>${commutator(cornerAlgToInfoStyle[idValue][i][0])}</td>`;
                 tab += `<td>${fingerbeginfrom(cornerAlgToInfoStyle[idValue][i][0])}</td>`;
-                tab += `<td class="help">${cornerAlgToInfoStyle[idValue][i][1].length} <span class="help-content">${cornerAlgToInfoStyle[idValue][i][1].join("<br>")}</span></td>`;
+                let sourceElement = "";
+                for (const source of cornerAlgToInfoStyle[idValue][i][1]) {
+                    if (source in sourceToUrl) {
+                        sourceElement = `${sourceElement}<a href="${sourceToUrl[source][sourceToUrl[source].length - 1]}" target="_blank">${source}</a>`;
+                    } else {
+                        sourceElement = `${sourceElement}${source}`;
+                    }
+                    if (source !== cornerAlgToInfoStyle[idValue][i][1][cornerAlgToInfoStyle[idValue][i][1].length - 1]) {
+                        sourceElement += "<br>";
+                    }
+                }
+                tab += `<td class="help">${cornerAlgToInfoStyle[idValue][i][1].length} <span class="help-content">${sourceElement}</span></td>`;
             } else {
                 tab += `<td>${cornerAlgToInfoStyle[idValue][i]}</td>`;
                 tab += `<td>${commutator(cornerAlgToInfoStyle[idValue][i])}</td>`;
