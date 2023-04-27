@@ -30,8 +30,14 @@
           <a href="./" class="logo">
             <span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">blddb</span>
           </a>
-          <div class="language translate">
-            <div class="status_circle status_circle_hide">English</div>
+          <div class="language">
+            <div class="status_circle">
+            </div>
+            <div class="dropdown-content">
+              <div class="status_circle" data-lang="zh">简体中文</div>
+              <div class="status_circle" data-lang="en">English</div>
+              <div class="status_circle" data-lang="ja">日本語</div>
+            </div>
           </div>
         </div>
       </header>
@@ -162,7 +168,7 @@
               autocomplete="off">
               &nbsp;&nbsp;
             <strong class="lang" key="2e2eflips"></strong>
-            <select style="width:3em" id="isFlipped" onchange="algSearchByPos()">
+            <select style="width:4em" id="isFlipped" onchange="algSearchByPos()">
               <option class="lang" key="2e2eno" value="2e2eno"></option>
               <option class="lang" key="2e2eyes" value="2e2eyes"></option>
             </select>

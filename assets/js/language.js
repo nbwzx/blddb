@@ -65,13 +65,12 @@ const arrLang = {
         "thumbup": "Thumb up",
         "thumbdown": "Thumb down",
         "homegrip": "Home grip",
-        "all": "All",
         "no": "No.",
         "algorithm": "Algorithm",
         "commutator": "Commutator",
         "thumbPosition": "Thumb Position",
         "source": "Source",
-        "buffer":"Buffer: ",
+        "buffer": "Buffer: ",
         "nightmare": "Nightmare Alg Set",
         "nightmareDescription": "The online website for Nightmare.",
         "nightmareLetters": "Letters",
@@ -80,7 +79,7 @@ const arrLang = {
         "nightmare2Flips": "Edge Flip",
         "nightmare2Twists": "Corner Twist",
         "nightmareParity": "Parity",
-        "nightmareParityTwist": "Parity with a Flip/Twist",
+        "nightmareParityTwist": "LTCT/LTEF",
         "nightmare2e2e": "2e2e",
         "nightmare2c2c": "2c2c",
         "nightmare3Twists": "3 Corner Twist",
@@ -167,13 +166,12 @@ const arrLang = {
         "thumbup": "上",
         "thumbdown": "下",
         "homegrip": "中",
-        "all": "全",
         "no": "序号",
         "source": "来源",
         "algorithm": "公式",
         "commutator": "交换子",
         "thumbPosition": "起手",
-        "buffer":"缓冲：",
+        "buffer": "缓冲：",
         "nightmare": "噩梦公式集",
         "nightmareDescription": "噩梦公式集的在线网页版本。",
         "nightmareLetters": "编码",
@@ -202,7 +200,114 @@ const arrLang = {
         "customUpfile": "导入本地 Excel",
         "customDownfile": "导出为 Excel",
         "customClear": "清空"
+    },
+    "ja": {
+        "title": "3BLD手順データベース",
+        "description": "BLDDBのオンラインウェブサイト。",
+        "corner": "3-Styleエッジ",
+        "twists": "コーナーツイスト",
+        "edge": "3-Styleコーナー",
+        "2flips": "エッジフリップ",
+        "parity": "3BLD パリティ",
+        "2e2e": "2e2e",
+        "5style": "5-Style",
+        "code": "ナンバリング設定",
+        "introduction": "Readme",
+        "cornerHint": "検索したい3ナンバリング（バッファ-位置1-位置2）を入力してください（例：JAD）",
+        "edgeHint": "検索したい3ナンバリング（バッファ-位置1-位置2）を入力してください（例：ACG）",
+        "twistsHint": "コーナーツイストの条件を設定してください（未解決の場合は空にしてください）",
+        "2flipsHint": "フリップしたい2つの位置を入力してください",
+        "parityHint": "解決したいパリティを入力してください",
+        "2e2eHint": "交換したい位置を入力してください",
+        "5styleHint": "検索したい5ナンバリング（バッファ-位置1-位置2-位置3-位置4）を入力してください（例：ACEGJ）",
+        "position": "ステッカー：",
+        "pairs": "ナンバリング：",
+        "setup": "Set up：",
+        "cw": "時計回り：",
+        "ccw": "反時計回り：",
+        "2flips1": "位置1：",
+        "2flips2": "位置2：",
+        "parity1": "エッジ：",
+        "parity2": "コーナー：",
+        "twistscw": "時計回り",
+        "twistsccw": "反時計回り",
+        "2e2e1": "交換1：",
+        "2e2e2": "交換2：",
+        "2e2eflips": "フリップ：",
+        "2e2eyes": "はい",
+        "2e2eno": "いいえ",
+        "codeChichu": "Chichuナンバリング",
+        "codeSpeffz": "Speffzナンバリング",
+        "codeLetterSetting": "ナンバリング設定：",
+        "codeOrientationSetting": "向き設定：",
+        "code1": "黄(U面) - 赤(F面)",
+        "code2": "黄(U面) - 橙(F面)",
+        "code3": "黄(U面) - 青(F面)",
+        "code4": "黄(U面) - 緑(F面)",
+        "code5": "白(U面) - 赤(F面)",
+        "code6": "白(U面) - 橙(F面)",
+        "code7": "白(U面) - 青(F面)",
+        "code8": "白(U面) - 緑(F面)",
+        "code9": "青(U面) - 赤(F面)",
+        "code10": "青(U面) - 橙(F面)",
+        "code11": "青(U面) - 黄(F面)",
+        "code12": "青(U面) - 白(F面)",
+        "code13": "緑(U面) - 赤(F面)",
+        "code14": "緑(U面) - 橙(F面)",
+        "code15": "緑(U面) - 黄(F面)",
+        "code16": "緑(U面) - 白(F面)",
+        "code17": "赤(U面) - 青(F面)",
+        "code18": "赤(U面) - 緑(F面)",
+        "code19": "赤(U面) - 黄(F面)",
+        "code20": "赤(U面) - 白(F面)",
+        "code21": "橙(U面) - 青(F面)",
+        "code22": "橙(U面) - 緑(F面)",
+        "code23": "橙(U面) - 黄(F面)",
+        "code24": "橙(U面) - 白(F面)",
+        "thumbup": "上",
+        "thumbdown": "下",
+        "homegrip": "中",
+        "no": "連番",
+        "source": "出典",
+        "algorithm": "手順",
+        "commutator": "コミュテーター",
+        "thumbPosition": "スタート",
+        "buffer": "バッファ：",
+        "nightmare": "悪夢手順表",
+        "nightmareDescription": "悪夢手順表のオンラインウェブサイト。",
+        "nightmareLetters": "ステッカー",
+        "nightmareEdge": "全エッジバッファ",
+        "nightmareCorner": "全コーナーバッファ",
+        "nightmare2Flips": "全2エッジフリップ",
+        "nightmare2Twists": "全2コーナーツイスト",
+        "nightmareParity": "パリティ",
+        "nightmareParityTwist": "LTCT/LTEF",
+        "nightmare2e2e": "2e2e",
+        "nightmare2c2c": "2c2c",
+        "nightmare3Twists": "全3コーナーツイスト",
+        "nightmare4Flips": "全4エッジフリップ",
+        "nightmare5Style": "5-Styleエッジ(UR)",
+        "style": "スタイル：",
+        "cornerStyleNightmare": "悪夢",
+        "cornerStyleBalance": "バランス",
+        "cornerStyleYuanzi": "yuanzi",
+        "cornerStyleManmade": "人工",
+        "edgeStyleNightmare": "悪夢",
+        "edgeStyleManmade": "人工",
+        "custom": "カスタム手順表",
+        "customDescription": "あなたの3BLD手順表をカスタマイズする",
+        "customEdge": "3-Styleエッジ",
+        "customCorner": "3-Styleコーナー",
+        "customUpfile": "Excelファイルをインポート",
+        "customDownfile": "Excelファイルにエクスポート",
+        "customClear": "クリア"
     }
+};
+
+const langNames = {
+    "zh": "简体中文",
+    "en": "English",
+    "ja": "日本語"
 };
 
 // Check for cookie support
@@ -211,8 +316,9 @@ let lang = getCookie("lang") || navigator.language.slice(0, 2) || navigator.user
 if (!Object.keys(arrLang).includes(lang)) {
     lang = "en";
 }
+
+document.querySelector(".language .status_circle").textContent = langNames[lang];
 if (lang === "zh") {
-    $(".language").html("<div class=\"status_circle status_circle_online\">简体中文</div>");
     $("#introduction").attr("href", "https://docs.blddb.net/zh");
     $("#nightmareIntroduction").attr("href", "https://docs.blddb.net/zh/#nightmare");
     $("#donate").attr("href", "donate.html");
@@ -220,8 +326,7 @@ if (lang === "zh") {
     $("#cornerstyle").width("5em");
     $("#edgestyle").width("5em");
     $("#image").show();
-} else if (lang === "en") {
-    $(".language").html("<div class=\"status_circle status_circle_hide\">English</div>");
+} else {
     $("#introduction").attr("href", "https://docs.blddb.net/en");
     $("#nightmareIntroduction").attr("href", "https://docs.blddb.net/en/#nightmare");
     $("#donate").attr("href", "donate_en.html");
@@ -231,8 +336,29 @@ if (lang === "zh") {
     $("#image").hide();
 }
 
+dropdown = document.querySelector(".dropdown-content");
+dropdown.innerHTML = "";
+
+for (const langOther in langNames) {
+    if (langOther !== lang) {
+        dropdown.innerHTML += `<div class="status_circle" data-lang="${langOther}">${langNames[langOther]}</div>`;
+    }
+}
+
+// Get the translate button and dropdown content
+const translateBtn = document.querySelector(".language .status_circle");
+const dropdownContent = document.querySelector(".language .dropdown-content");
+
+translateBtn.textContent = langNames[lang];
+translateBtn.style.backgroundImage = `url(../../images/${lang}.png)`;
+// Add a click event listener to the translate button
+translateBtn.addEventListener("click", () => {
+    // Toggle the "show" class on the dropdown content
+    dropdownContent.classList.toggle("show");
+});
+
 $(document).ready(() => {
-    $(".lang").each(function(index, element) {
+    $(".lang").each(function (index, element) {
         $(this).text(arrLang[lang][$(this).attr("key")]);
     });
     if (typeof $(".allscreen")[0] !== "undefined") {
@@ -247,45 +373,47 @@ $(document).ready(() => {
     }
 });
 
-// get/set the selected language
-$(".translate").click(() => {
-    // Switch between Chinese and English
-    if (lang === "en") {
-        lang = "zh";
-    } else if (lang === "zh") {
-        lang = "en";
-    }
-    // update cookie key
-    setCookie("lang", lang, 30);
-    if (!Object.keys(arrLang).includes(lang)) {
-        lang = "en";
-    }
-    if (lang === "zh") {
-        $(".language").html("<div class=\"status_circle status_circle_online\">简体中文</div>");
-        $("#introduction").attr("href", "https://docs.blddb.net/zh");
-        $("#nightmareIntroduction").attr("href", "https://docs.blddb.net/zh/#nightmare");
-        $("#donate").attr("href", "donate.html");
-        $("#codeinput").width("5.5em");
-        $("#cornerstyle").width("5em");
-        $("#edgestyle").width("5em");
-        $("#image").show();
-    } else if (lang === "en") {
-        $(".language").html("<div class=\"status_circle status_circle_hide\">English</div>");
-        $("#introduction").attr("href", "https://docs.blddb.net/en");
-        $("#nightmareIntroduction").attr("href", "https://docs.blddb.net/en/#nightmare");
-        $("#donate").attr("href", "donate_en.html");
-        $("#codeinput").width("14em");
-        $("#cornerstyle").width("7em");
-        $("#edgestyle").width("7em");
-        $("#image").hide();
-    }
-    $(".lang").each(function(index, element) {
-        $(this).text(arrLang[lang][$(this).attr("key")]);
-    });
-    if (typeof algSearch === "function") {
-        algSearch();
-    }
-    if (typeof fontAwesome === "function") {
-        fontAwesome();
+dropdownContent.addEventListener("click", (event) => {
+    if (event.target.classList.contains("status_circle")) {
+        lang = event.target.dataset.lang;
+        translateBtn.textContent = langNames[lang];
+        translateBtn.style.backgroundImage = `url(../../images/${lang}.png)`;
+        dropdownContent.classList.remove("show");
+        // add options to the dropdown for the other languages
+        dropdown.innerHTML = "";
+        for (const langOther in langNames) {
+            if (langOther !== lang) {
+                dropdown.innerHTML += `<div class="status_circle" data-lang="${langOther}">${langNames[langOther]}</div>`;
+            }
+        }
+        // update cookie key
+        setCookie("lang", lang, 30);
+        document.querySelector(".language .status_circle").textContent = langNames[lang];
+        if (lang === "zh") {
+            $("#introduction").attr("href", "https://docs.blddb.net/zh");
+            $("#nightmareIntroduction").attr("href", "https://docs.blddb.net/zh/#nightmare");
+            $("#donate").attr("href", "donate.html");
+            $("#codeinput").width("5.5em");
+            $("#cornerstyle").width("5em");
+            $("#edgestyle").width("5em");
+            $("#image").show();
+        } else {
+            $("#introduction").attr("href", "https://docs.blddb.net/en");
+            $("#nightmareIntroduction").attr("href", "https://docs.blddb.net/en/#nightmare");
+            $("#donate").attr("href", "donate_en.html");
+            $("#codeinput").width("14em");
+            $("#cornerstyle").width("7em");
+            $("#edgestyle").width("7em");
+            $("#image").hide();
+        }
+        $(".lang").each(function (index, element) {
+            $(this).text(arrLang[lang][$(this).attr("key")]);
+        });
+        if (typeof algSearch === "function") {
+            algSearch();
+        }
+        if (typeof fontAwesome === "function") {
+            fontAwesome();
+        }
     }
 });

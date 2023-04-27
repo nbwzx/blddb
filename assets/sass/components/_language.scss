@@ -1,6 +1,6 @@
 /* Language */
 
-    .translate {
+    .language {
         float: right;
         width: 92px;
         line-height: 16px;
@@ -11,15 +11,47 @@
     }
 
     .status_circle {
-        padding-left: 28px;
-        background: url(../../images/zh.png) no-repeat left bottom;
-        background-size: 24px 16px;
-        white-space: nowrap;
+    display: block;
+    padding-left: 32px;
+    background: url(../../images/zh.png) no-repeat left bottom;
+    background-size: 24px 16px;
+    white-space: nowrap;
+    cursor: pointer;
     }
 
-    .status_circle_hide {
-        padding-left: 32px;
-        background: url(../../images/en.png) no-repeat left bottom;
-        background-size: 24px 16px;
-        white-space: nowrap;
+    .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 0px 5px 10px 5px;
+    margin-top: 5px;
+    z-index: 1;
+    }
+
+    .dropdown-content .status_circle {
+    padding-top: 10px;
+    display: block;
+    padding-left: 32px;
+    background: url(../../images/zh.png) no-repeat left bottom;
+    background-size: 24px 16px;
+    white-space: nowrap;
+    cursor: pointer;
+    }
+
+    .dropdown-content .status_circle[data-lang="en"] {
+    background-image: url(../../images/en.png);
+    }
+
+    .dropdown-content .status_circle[data-lang="ja"] {
+    background-image: url(../../images/ja.png);
+    }
+
+    .dropdown-content .status_circle:last-child {
+    border-bottom: none;
+    }
+
+    .dropdown-content.show {
+    display: block;
     }
