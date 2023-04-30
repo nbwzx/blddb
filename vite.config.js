@@ -5,7 +5,8 @@ export default defineConfig({
   plugins: [
     copy({
       targets: [
-        { src: "./assets/*", dest: "./public/assets" }
+        { src: "./assets/*", dest: "./public/assets" },
+        { src: "./images/*", dest: "./public/images" }
       ],
       verbose: true,
       copyOnce: true,
