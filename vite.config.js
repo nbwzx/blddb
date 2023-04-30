@@ -6,7 +6,7 @@ export default defineConfig({
     copy({
       targets: [
         { src: "./assets/*", dest: "./public/assets" },
-        { src: "./images/*", dest: "./public/images" }
+        { src: ["./images/zh.png","./images/en.png","./images/ja.png"], dest: "./public/images" }
       ],
       verbose: true,
       copyOnce: true,
