@@ -1,7 +1,7 @@
 "use strict";
 
 $.ajaxSettings.async = false;
-const jsonNameList = ["cornerAlgToStandard", "cornerAlgToInfo", "cornerChichuToNumber", "cornerPosToCode"];
+const jsonNameList = ["cornerAlgToStandard", "cornerAlgToInfo", "cornerAlgToInfoYuanzi", "cornerAlgToInfoManmade", "cornerAlgToInfoBalance", "cornerChichuToNumber", "cornerPosToCode"];
 const jsonLoaded = jsonNameList.map((name) => $.getJSON(`../assets/json/${name}.json`, (json) => {
     window[`${name}`] = json;
 }));
@@ -97,11 +97,28 @@ function setSelect(alg) {
         standardAlgList.push(standardAlg);
     }
     const optionsList = [];
-    const rows = cornerAlgToInfo[standardAlg].length;
+    let cornerAlgToInfoStyle = {};
+    if (document.getElementById("cornerstyle").value === "nightmare") {
+        cornerAlgToInfoStyle = cornerAlgToInfo;
+    }
+    if (document.getElementById("cornerstyle").value === "yuanzi") {
+        cornerAlgToInfoStyle = cornerAlgToInfoYuanzi;
+    }
+    if (document.getElementById("cornerstyle").value === "balance") {
+        cornerAlgToInfoStyle = cornerAlgToInfoBalance;
+    }
+    if (document.getElementById("cornerstyle").value === "manmade") {
+        cornerAlgToInfoStyle = cornerAlgToInfoManmade;
+    }
+    const rows = cornerAlgToInfoStyle[standardAlg].length;
     for (let i = 0; i < rows; i++) {
         const optionsDict = {};
         optionsDict["id"] = i + 1;
-        optionsDict["algorithm"] = cornerAlgToInfo[standardAlg][i];
+        if (document.getElementById("cornerstyle").value === "manmade") {
+            optionsDict["algorithm"] = cornerAlgToInfoStyle[standardAlg][i][0];
+        } else {
+            optionsDict["algorithm"] = cornerAlgToInfoStyle[standardAlg][i];
+        }
         optionsList.push(optionsDict);
     }
     $(`#select-algorithm-${standardAlg}`).selectize( {
@@ -309,6 +326,13 @@ function downFile() {
     }
     XLSX.utils.book_append_sheet(wb, Sheet3, arrLang[lang]["introduction"]);
     XLSX.writeFile(wb, `${arrLang[lang]["customCorner"]}-${buffer}.xlsx`);
+}
+
+function fontAwesome() {
+    $("select").find("option[key='cornerStyleNightmare']").html(`&#128128; ${$("select").find("option[key='cornerStyleNightmare']").html()}`);
+    $("select").find("option[key='cornerStyleBalance']").html(`&#62030; ${$("select").find("option[key='cornerStyleBalance']").html()}`);
+    $("select").find("option[key='cornerStyleYuanzi']").html(`&thinsp;&#xf5d2;&thinsp; ${$("select").find("option[key='cornerStyleYuanzi']").html()}`);
+    $("select").find("option[key='cornerStyleManmade']").html(`&thinsp;&#xf2bd; ${$("select").find("option[key='cornerStyleManmade']").html()}`);
 }
 
 $(document).ready(() => {

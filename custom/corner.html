@@ -48,6 +48,14 @@
           <header>
             <h1 style="text-align:center" class="lang" key="customCorner"></h1>
           </header>
+          <strong class="lang" key="style"></strong>
+          <select style="width:5em; font-family:'FontAwesome'" id="cornerstyle" onchange="algSearch()">
+            <option class="lang" key="cornerStyleNightmare" value="nightmare"></option>
+            <option class="lang" key="cornerStyleBalance" value="balance"></option>
+            <option class="lang" key="cornerStyleYuanzi" value="yuanzi"></option>
+            <option class="lang" key="cornerStyleManmade" value="manmade"></option>
+          </select>
+          &nbsp;
           <strong class="lang" key="buffer"></strong>
           <select style="width:3.5em" id="cornerinput" onchange="algSearch()">
             <option></option>
@@ -76,7 +84,8 @@
             <option>DBR</option>
             <option>DBL</option>
           </select>
-          &nbsp;
+          <p>
+          </p>
           <input type="file" id="upfile" accept=".xlsx, .xls, .csv">
           <button id="downfile" style="visibility:hidden" class="lang icon fa-download" key="customDownfile"></button>
           <button id="clearSheet" style="visibility:hidden" class="lang icon fa-xmark" key="customClear"></button>

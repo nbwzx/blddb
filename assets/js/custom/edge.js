@@ -1,7 +1,7 @@
 "use strict";
 
 $.ajaxSettings.async = false;
-const jsonNameList = ["edgeAlgToStandard", "edgeAlgToInfo", "edgeChichuToNumber", "edgePosToCode"];
+const jsonNameList = ["edgeAlgToStandard", "edgeAlgToInfo", "edgeAlgToInfoManmade", "edgeChichuToNumber", "edgePosToCode"];
 const jsonLoaded = jsonNameList.map((name) => $.getJSON(`../assets/json/${name}.json`, (json) => {
     window[`${name}`] = json;
 }));
@@ -97,11 +97,22 @@ function setSelect(alg) {
         standardAlgList.push(standardAlg);
     }
     const optionsList = [];
-    const rows = edgeAlgToInfo[standardAlg].length;
+    let edgeAlgToInfoStyle = {};
+    if (document.getElementById("edgestyle").value === "nightmare") {
+        edgeAlgToInfoStyle = edgeAlgToInfo;
+    }
+    if (document.getElementById("edgestyle").value === "manmade") {
+        edgeAlgToInfoStyle = edgeAlgToInfoManmade;
+    }
+    const rows = edgeAlgToInfoStyle[standardAlg].length;
     for (let i = 0; i < rows; i++) {
         const optionsDict = {};
         optionsDict["id"] = i + 1;
-        optionsDict["algorithm"] = edgeAlgToInfo[standardAlg][i];
+        if (document.getElementById("edgestyle").value === "manmade") {
+            optionsDict["algorithm"] = edgeAlgToInfoStyle[standardAlg][i][0];
+        } else {
+            optionsDict["algorithm"] = edgeAlgToInfoStyle[standardAlg][i];
+        }
         optionsList.push(optionsDict);
     }
     $(`#select-algorithm-${standardAlg}`).selectize( {
@@ -309,6 +320,11 @@ function downFile() {
     }
     XLSX.utils.book_append_sheet(wb, Sheet3, arrLang[lang]["introduction"]);
     XLSX.writeFile(wb, `${arrLang[lang]["customEdge"]}-${buffer}.xlsx`);
+}
+
+function fontAwesome() {
+    $("select").find("option[key='edgeStyleNightmare']").html(`&#128128; ${$("select").find("option[key='edgeStyleNightmare']").html()}`);
+    $("select").find("option[key='edgeStyleManmade']").html(`&thinsp;&#xf2bd; ${$("select").find("option[key='edgeStyleManmade']").html()}`);
 }
 
 $(document).ready(() => {
