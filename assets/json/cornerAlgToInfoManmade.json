@@ -14,6 +14,7 @@
                 "Mark Rivers",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Yifan Wang (王逸帆)",
                 "Yiwei Liu (刘伊玮)"
@@ -42,6 +43,7 @@
                 "Liren Sun (孙立仁)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Shinji Mochizuki (望月真司)",
                 "Yifan Wang (王逸帆)",
                 "Yiwei Liu (刘伊玮)"
@@ -87,6 +89,7 @@
                 "Kai Yamamoto (山本快)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Yiwei Liu (刘伊玮)"
             ]
         ],
@@ -125,6 +128,21 @@
     ],
     "ADP": [
         [
+            "U2 D' R D R' U' R D' R' U' D",
+            [
+                "Antonio Kam Ho Tung (甘浩東)",
+                "Bertie Longden",
+                "Elliott Kobelansky",
+                "Graham Siggins",
+                "Kai Yamamoto (山本快)",
+                "Mark Rivers",
+                "Masato Fujiwara (藤原正人)",
+                "Max Hilliard",
+                "Michael Tripodi",
+                "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
             "U' D R' D R U' R' D' R U2 D'",
             [
                 "Antonio Kam Ho Tung (甘浩東)",
@@ -137,20 +155,6 @@
                 "Morimichi Kikuchi (菊地守道)",
                 "Shinji Mochizuki (望月真司)",
                 "Yiwei Liu (刘伊玮)"
-            ]
-        ],
-        [
-            "U2 D' R D R' U' R D' R' U' D",
-            [
-                "Antonio Kam Ho Tung (甘浩東)",
-                "Bertie Longden",
-                "Elliott Kobelansky",
-                "Graham Siggins",
-                "Kai Yamamoto (山本快)",
-                "Mark Rivers",
-                "Masato Fujiwara (藤原正人)",
-                "Max Hilliard",
-                "Yifan Wang (王逸帆)"
             ]
         ],
         [
@@ -175,6 +179,7 @@
                 "Mark Rivers",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Yifan Wang (王逸帆)",
                 "Yiwei Liu (刘伊玮)"
@@ -214,6 +219,13 @@
             ]
         ],
         [
+            "R D' R' U' R' D R U' R' D' R U2 R D R'",
+            [
+                "Mark Rivers",
+                "Michael Tripodi"
+            ]
+        ],
+        [
             "U' D L2 D' R2 D L2 D' R2 U",
             [
                 "Antonio Kam Ho Tung (甘浩東)"
@@ -223,12 +235,6 @@
             "x' L D L' U2 L D' L' U2 x",
             [
                 "Daniel White"
-            ]
-        ],
-        [
-            "R D' R' U' R' D R U' R' D' R U2 R D R'",
-            [
-                "Mark Rivers"
             ]
         ],
         [
@@ -253,6 +259,7 @@
                 "Mark Rivers",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Yifan Wang (王逸帆)",
                 "Yiwei Liu (刘伊玮)"
@@ -281,6 +288,7 @@
                 "Mark Rivers",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Shinji Mochizuki (望月真司)",
                 "Yifan Wang (王逸帆)"
             ]
@@ -319,7 +327,8 @@
             "U D R2 D' L2 D R2 D' L2 U'",
             [
                 "Antonio Kam Ho Tung (甘浩東)",
-                "Daniel White"
+                "Daniel White",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -368,6 +377,12 @@
             ]
         ],
         [
+            "U D R2 D' r2 U R2 U' r2 U'",
+            [
+                "Michael Tripodi"
+            ]
+        ],
+        [
             "D R' U' D' R' D' R U' R' D R U2 D R D'",
             [
                 "Yiwei Liu (刘伊玮)"
@@ -405,21 +420,28 @@
             ]
         ],
         [
+            "U R2 D' L2 D R2 D' L2 U' D",
+            [
+                "Antonio Kam Ho Tung (甘浩東)",
+                "Michael Tripodi"
+            ]
+        ],
+        [
             "U L' U' L U R2 U' L' U R2 L U'",
             [
                 "Abhijeet Ghodgaonkar"
             ]
         ],
         [
-            "U R2 D' L2 D R2 D' L2 U' D",
-            [
-                "Antonio Kam Ho Tung (甘浩東)"
-            ]
-        ],
-        [
             "x' D2 L' U' L D2 L' U L x",
             [
                 "Daniel White"
+            ]
+        ],
+        [
+            "U R2 D' r2 U R2 U' r2 U' D",
+            [
+                "Michael Tripodi"
             ]
         ],
         [
@@ -484,6 +506,7 @@
                 "Mark Rivers",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Yifan Wang (王逸帆)",
                 "Yiwei Liu (刘伊玮)"
@@ -515,6 +538,7 @@
                 "Mark Rivers",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Yiwei Liu (刘伊玮)"
             ]
         ],
@@ -547,6 +571,7 @@
                 "Mark Rivers",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Shinji Mochizuki (望月真司)",
                 "Yiwei Liu (刘伊玮)"
             ]
@@ -581,6 +606,7 @@
                 "Mark Rivers",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Shinji Mochizuki (望月真司)",
                 "Yiwei Liu (刘伊玮)"
@@ -621,6 +647,7 @@
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Yiwei Liu (刘伊玮)"
             ]
@@ -659,6 +686,7 @@
                 "Mark Rivers",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Yiwei Liu (刘伊玮)"
             ]
         ],
@@ -694,6 +722,7 @@
                 "Mark Rivers",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Yifan Wang (王逸帆)",
                 "Yiwei Liu (刘伊玮)"
@@ -727,6 +756,7 @@
                 "Mark Rivers",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Shinji Mochizuki (望月真司)",
                 "Yifan Wang (王逸帆)",
@@ -767,6 +797,7 @@
                 "Mark Rivers",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Shinji Mochizuki (望月真司)",
                 "Yifan Wang (王逸帆)",
@@ -817,6 +848,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Yiwei Liu (刘伊玮)"
             ]
@@ -858,6 +890,7 @@
                 "Graham Siggins",
                 "James Molloy",
                 "Mark Rivers",
+                "Michael Tripodi",
                 "Yifan Wang (王逸帆)"
             ]
         ],
@@ -919,6 +952,7 @@
                 "Mark Rivers",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Yifan Wang (王逸帆)"
             ]
@@ -960,6 +994,7 @@
                 "Mark Rivers",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Ryota Futagami (二神亮太)",
                 "Shinji Mochizuki (望月真司)",
@@ -1022,6 +1057,7 @@
                 "James Molloy",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Shinji Mochizuki (望月真司)"
             ]
         ],
@@ -1073,7 +1109,8 @@
                 "Ishaan Agrawal",
                 "James Molloy",
                 "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
+                "Max Hilliard",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -1121,7 +1158,8 @@
                 "Graham Siggins",
                 "James Molloy",
                 "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
+                "Max Hilliard",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -1175,6 +1213,7 @@
                 "James Molloy",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Yiwei Liu (刘伊玮)"
             ]
         ],
@@ -1216,6 +1255,7 @@
                 "James Molloy",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Yifan Wang (王逸帆)"
             ]
         ],
@@ -1250,6 +1290,7 @@
                 "James Molloy",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Yiwei Liu (刘伊玮)"
             ]
         ],
@@ -1294,6 +1335,7 @@
                 "Liren Sun (孙立仁)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Shinji Mochizuki (望月真司)",
                 "Tim Wong",
@@ -1312,6 +1354,12 @@
             "U' R' U' R' D' R U2 R' D R U' R U",
             [
                 "Antonio Kam Ho Tung (甘浩東)"
+            ]
+        ],
+        [
+            "r' F R' F' r U R U'",
+            [
+                "Michael Tripodi"
             ]
         ]
     ],
@@ -1332,7 +1380,8 @@
             [
                 "James Molloy",
                 "Mark Rivers",
-                "Masato Fujiwara (藤原正人)"
+                "Masato Fujiwara (藤原正人)",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -1385,6 +1434,7 @@
                 "James Molloy",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Yifan Wang (王逸帆)"
             ]
         ],
@@ -1427,7 +1477,8 @@
                 "Graham Siggins",
                 "James Molloy",
                 "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
+                "Max Hilliard",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -1532,6 +1583,12 @@
             [
                 "Abhijeet Ghodgaonkar"
             ]
+        ],
+        [
+            "U' R F R' U R U' F' U R'",
+            [
+                "Michael Tripodi"
+            ]
         ]
     ],
     "AFZ": [
@@ -1558,7 +1615,8 @@
                 "Elliott Kobelansky",
                 "James Molloy",
                 "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
+                "Max Hilliard",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -1602,6 +1660,7 @@
                 "Mark Rivers",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Neel Gore",
                 "Yifan Wang (王逸帆)"
@@ -1648,6 +1707,7 @@
                 "Mark Rivers",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Ryota Futagami (二神亮太)",
                 "Sebastiano Tronto"
             ]
@@ -1685,6 +1745,7 @@
                 "James Molloy",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Shinji Mochizuki (望月真司)",
                 "Yiwei Liu (刘伊玮)"
@@ -1744,6 +1805,7 @@
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)"
             ]
         ],
@@ -1776,6 +1838,7 @@
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Yiwei Liu (刘伊玮)"
             ]
@@ -1804,6 +1867,7 @@
             "U' D R' F' R D' R' D F D' R U",
             [
                 "Graham Siggins",
+                "Michael Tripodi",
                 "Yiwei Liu (刘伊玮)"
             ]
         ],
@@ -1823,6 +1887,7 @@
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Yiwei Liu (刘伊玮)"
             ]
@@ -1844,6 +1909,7 @@
                 "Kai Yamamoto (山本快)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Yiwei Liu (刘伊玮)"
             ]
@@ -1864,6 +1930,7 @@
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Yifan Wang (王逸帆)",
                 "Yiwei Liu (刘伊玮)"
             ]
@@ -1884,6 +1951,7 @@
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Yifan Wang (王逸帆)",
                 "Yiwei Liu (刘伊玮)"
@@ -1903,6 +1971,7 @@
                 "Marcell Endrey",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Yifan Wang (王逸帆)",
                 "Yiwei Liu (刘伊玮)"
             ]
@@ -1918,6 +1987,7 @@
                 "Kai Yamamoto (山本快)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)"
             ]
         ],
@@ -1942,6 +2012,7 @@
                 "Liren Sun (孙立仁)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Neel Gore",
                 "Shinji Mochizuki (望月真司)",
                 "Yifan Wang (王逸帆)"
@@ -1991,6 +2062,7 @@
                 "Mark Rivers",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Sebastiano Tronto",
                 "Shinji Mochizuki (望月真司)"
@@ -2035,6 +2107,7 @@
                 "James Molloy",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Yiwei Liu (刘伊玮)"
             ]
@@ -2093,6 +2166,7 @@
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Yiwei Liu (刘伊玮)"
             ]
@@ -2121,6 +2195,7 @@
                 "Kai Yamamoto (山本快)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Yiwei Liu (刘伊玮)"
             ]
@@ -2142,6 +2217,7 @@
                 "Kai Yamamoto (山本快)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)"
             ]
         ],
@@ -2188,6 +2264,7 @@
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)"
             ]
         ],
@@ -2215,6 +2292,7 @@
                 "Kai Yamamoto (山本快)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Yiwei Liu (刘伊玮)"
             ]
         ],
@@ -2234,6 +2312,7 @@
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Yiwei Liu (刘伊玮)"
             ]
         ],
@@ -2254,6 +2333,7 @@
                 "Kai Yamamoto (山本快)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Yifan Wang (王逸帆)"
             ]
         ],
@@ -2280,6 +2360,7 @@
                 "Kai Yamamoto (山本快)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Yifan Wang (王逸帆)"
             ]
@@ -2293,6 +2374,18 @@
     ],
     "AOD": [
         [
+            "U' R' D' R D R U' R' D' R U R2 D R U",
+            [
+                "Elliott Kobelansky",
+                "Graham Siggins",
+                "Kai Yamamoto (山本快)",
+                "Masato Fujiwara (藤原正人)",
+                "Max Hilliard",
+                "Michael Tripodi",
+                "Neel Gore"
+            ]
+        ],
+        [
             "D' R U2 D' R' D R U R' D' R U D R' D",
             [
                 "Bertie Longden",
@@ -2301,17 +2394,6 @@
                 "Graham Siggins",
                 "Liren Sun (孙立仁)",
                 "Masato Fujiwara (藤原正人)"
-            ]
-        ],
-        [
-            "U' R' D' R D R U' R' D' R U R2 D R U",
-            [
-                "Elliott Kobelansky",
-                "Graham Siggins",
-                "Kai Yamamoto (山本快)",
-                "Masato Fujiwara (藤原正人)",
-                "Max Hilliard",
-                "Neel Gore"
             ]
         ],
         [
@@ -2380,6 +2462,7 @@
                 "Mark Rivers",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Shinji Mochizuki (望月真司)"
             ]
@@ -2415,7 +2498,8 @@
                 "Graham Siggins",
                 "James Molloy",
                 "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
+                "Max Hilliard",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -2462,7 +2546,8 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
+                "Max Hilliard",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -2498,6 +2583,7 @@
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Yifan Wang (王逸帆)"
             ]
         ]
@@ -2507,7 +2593,8 @@
             "D' R D' R' D R U' R' D' R U D R' D",
             [
                 "Elliott Kobelansky",
-                "Masato Fujiwara (藤原正人)"
+                "Masato Fujiwara (藤原正人)",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -2542,7 +2629,8 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
+                "Max Hilliard",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -2559,7 +2647,8 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
+                "Max Hilliard",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -2585,6 +2674,12 @@
             ]
         ],
         [
+            "D R' U' D' R U R D' R' U' R D R2 U D R D'",
+            [
+                "Michael Tripodi"
+            ]
+        ],
+        [
             "U R B' R2 D' R U2 R' D R U2 R B R' U'",
             [
                 "Yifan Wang (王逸帆)"
@@ -2604,7 +2699,8 @@
             "D' R2 U' R' D R U R' D' R' D",
             [
                 "Elliott Kobelansky",
-                "Graham Siggins"
+                "Graham Siggins",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -2628,6 +2724,7 @@
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Yifan Wang (王逸帆)"
             ]
         ],
@@ -2655,6 +2752,7 @@
                 "Mark Rivers",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Neel Gore",
                 "Yifan Wang (王逸帆)",
@@ -2719,7 +2817,8 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
+                "Max Hilliard",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -2757,6 +2856,7 @@
                 "James Molloy",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)"
             ]
         ],
@@ -2802,7 +2902,8 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
+                "Max Hilliard",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -2844,6 +2945,7 @@
                 "Elliott Kobelansky",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Yiwei Liu (刘伊玮)"
             ]
@@ -2870,6 +2972,7 @@
                 "Kai Yamamoto (山本快)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)"
             ]
         ],
@@ -2886,6 +2989,7 @@
             [
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)"
             ]
         ],
@@ -2915,6 +3019,7 @@
             [
                 "Antonio Kam Ho Tung (甘浩東)",
                 "Graham Siggins",
+                "Michael Tripodi",
                 "Yifan Wang (王逸帆)"
             ]
         ],
@@ -2946,6 +3051,7 @@
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Yiwei Liu (刘伊玮)"
             ]
@@ -2973,7 +3079,8 @@
                 "Kai Yamamoto (山本快)",
                 "Marcell Endrey",
                 "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
+                "Max Hilliard",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -2991,7 +3098,8 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Kai Yamamoto (山本快)",
-                "Masato Fujiwara (藤原正人)"
+                "Masato Fujiwara (藤原正人)",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -3028,6 +3136,7 @@
                 "Mark Rivers",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Neel Gore",
                 "Yifan Wang (王逸帆)"
@@ -3058,7 +3167,8 @@
                 "James Molloy",
                 "Mark Rivers",
                 "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
+                "Max Hilliard",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -3114,6 +3224,7 @@
                 "James Molloy",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Yifan Wang (王逸帆)",
                 "Yiwei Liu (刘伊玮)"
@@ -3160,19 +3271,20 @@
     ],
     "AQM": [
         [
+            "U' R' D F' D' R D R' F R U D'",
+            [
+                "Graham Siggins",
+                "Masato Fujiwara (藤原正人)",
+                "Max Hilliard",
+                "Michael Tripodi"
+            ]
+        ],
+        [
             "D R D R' D' R U' R' D R U D' R' D'",
             [
                 "Benjamin Paul",
                 "Elliott Kobelansky",
                 "Hana Davila"
-            ]
-        ],
-        [
-            "U' R' D F' D' R D R' F R U D'",
-            [
-                "Graham Siggins",
-                "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
             ]
         ],
         [
@@ -3193,6 +3305,7 @@
                 "Kai Yamamoto (山本快)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Yiwei Liu (刘伊玮)"
             ]
         ],
@@ -3239,7 +3352,8 @@
             [
                 "Elliott Kobelansky",
                 "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
+                "Max Hilliard",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -3270,6 +3384,7 @@
                 "Antonio Kam Ho Tung (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Yifan Wang (王逸帆)",
                 "Yiwei Liu (刘伊玮)"
@@ -3317,18 +3432,19 @@
     ],
     "AQX": [
         [
+            "U R' D' R' U R D R' U' R2 U'",
+            [
+                "Antonio Kam Ho Tung (甘浩東)",
+                "Elliott Kobelansky",
+                "Michael Tripodi"
+            ]
+        ],
+        [
             "R' U D' R' U R D R' U' R U' R",
             [
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
                 "Yifan Wang (王逸帆)"
-            ]
-        ],
-        [
-            "U R' D' R' U R D R' U' R2 U'",
-            [
-                "Antonio Kam Ho Tung (甘浩東)",
-                "Elliott Kobelansky"
             ]
         ],
         [
@@ -3366,6 +3482,7 @@
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Yifan Wang (王逸帆)",
                 "Yiwei Liu (刘伊玮)"
             ]
@@ -3385,6 +3502,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Michael Tripodi",
                 "Yiwei Liu (刘伊玮)"
             ]
         ],
@@ -3439,6 +3557,7 @@
             [
                 "Graham Siggins",
                 "Mark Rivers",
+                "Michael Tripodi",
                 "Neel Gore"
             ]
         ],
@@ -3513,6 +3632,7 @@
                 "Mark Rivers",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Yifan Wang (王逸帆)"
             ]
@@ -3554,7 +3674,8 @@
                 "Graham Siggins",
                 "James Molloy",
                 "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
+                "Max Hilliard",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -3601,7 +3722,8 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
+                "Max Hilliard",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -3625,6 +3747,7 @@
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Yifan Wang (王逸帆)"
             ]
         ],
@@ -3643,6 +3766,7 @@
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Yifan Wang (王逸帆)"
             ]
         ],
@@ -3659,7 +3783,8 @@
             [
                 "Elliott Kobelansky",
                 "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
+                "Max Hilliard",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -3685,15 +3810,16 @@
             ]
         ],
         [
-            "R2 U2 R D' R' U R D R' U R2",
+            "U D' R' D R D' R' U R D R' U' D' R U' D",
             [
-                "Masato Fujiwara (藤原正人)"
+                "Max Hilliard",
+                "Michael Tripodi"
             ]
         ],
         [
-            "U D' R' D R D' R' U R D R' U' D' R U' D",
+            "R2 U2 R D' R' U R D R' U R2",
             [
-                "Max Hilliard"
+                "Masato Fujiwara (藤原正人)"
             ]
         ]
     ],
@@ -3704,7 +3830,8 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
+                "Max Hilliard",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -3720,7 +3847,8 @@
             [
                 "Elliott Kobelansky",
                 "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
+                "Max Hilliard",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -3775,6 +3903,7 @@
                 "Kai Yamamoto (山本快)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Yifan Wang (王逸帆)"
             ]
         ]
@@ -3801,6 +3930,12 @@
             ]
         ],
         [
+            "U D' R2 U R D2 R' U' R D2 R U' D",
+            [
+                "Michael Tripodi"
+            ]
+        ],
+        [
             "R2 U' R2 D' R U2 R' D R U2 R U R2",
             [
                 "Yifan Wang (王逸帆)"
@@ -3821,6 +3956,7 @@
                 "Mark Rivers",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Yifan Wang (王逸帆)"
             ]
@@ -3853,6 +3989,7 @@
                 "Mark Rivers",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Shinji Mochizuki (望月真司)",
                 "Yifan Wang (王逸帆)"
             ]
@@ -3902,11 +4039,21 @@
                 "Lucas Rolando",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Neel Gore",
                 "Ryota Futagami (二神亮太)",
                 "Sebastiano Tronto",
                 "Tim Wong",
                 "Timo Norrkniivilä"
+            ]
+        ],
+        [
+            "U R' U' r' F R F' r",
+            [
+                "Christopher Morris",
+                "James Molloy",
+                "Masato Fujiwara (藤原正人)",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -3916,14 +4063,6 @@
                 "Mark Rivers",
                 "Yifan Wang (王逸帆)",
                 "Yiwei Liu (刘伊玮)"
-            ]
-        ],
-        [
-            "U R' U' r' F R F' r",
-            [
-                "Christopher Morris",
-                "James Molloy",
-                "Masato Fujiwara (藤原正人)"
             ]
         ],
         [
@@ -3947,7 +4086,8 @@
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
                 "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
+                "Max Hilliard",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -3964,7 +4104,8 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
+                "Max Hilliard",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -3981,6 +4122,7 @@
             [
                 "Elliott Kobelansky",
                 "Masato Fujiwara (藤原正人)",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)"
             ]
         ],
@@ -4038,6 +4180,7 @@
                 "Kai Yamamoto (山本快)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Yiwei Liu (刘伊玮)"
             ]
         ],
@@ -4054,7 +4197,8 @@
             [
                 "Elliott Kobelansky",
                 "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
+                "Max Hilliard",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -4084,6 +4228,7 @@
                 "Antonio Kam Ho Tung (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Yiwei Liu (刘伊玮)"
             ]
@@ -4133,6 +4278,12 @@
             [
                 "Marcell Endrey"
             ]
+        ],
+        [
+            "D R D2 R U' R' D2 R U R2 D'",
+            [
+                "Michael Tripodi"
+            ]
         ]
     ],
     "ASY": [
@@ -4148,6 +4299,7 @@
                 "Mark Rivers",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Yifan Wang (王逸帆)"
             ]
         ]
@@ -4166,15 +4318,16 @@
             ]
         ],
         [
-            "z' x' L' D' L' U L D L' U' L2 z y'",
+            "U' R' U D' R U R' D R U' R' U' R U",
             [
-                "Abhijeet Ghodgaonkar"
+                "Elliott Kobelansky",
+                "Michael Tripodi"
             ]
         ],
         [
-            "U' R' U D' R U R' D R U' R' U' R U",
+            "z' x' L' D' L' U L D L' U' L2 z y'",
             [
-                "Elliott Kobelansky"
+                "Abhijeet Ghodgaonkar"
             ]
         ],
         [
@@ -4204,6 +4357,7 @@
                 "Mark Rivers",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Neel Gore",
                 "Shinji Mochizuki (望月真司)",
@@ -4250,6 +4404,7 @@
                 "Mark Rivers",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Shinji Mochizuki (望月真司)",
                 "Yifan Wang (王逸帆)"
@@ -4305,6 +4460,15 @@
             ]
         ],
         [
+            "U' F R U R' D' R U' R' D F' U",
+            [
+                "James Molloy",
+                "Mark Rivers",
+                "Max Hilliard",
+                "Michael Tripodi"
+            ]
+        ],
+        [
             "x R U2 R' D2 R U2 R' D2 x'",
             [
                 "Grzegorz Pacewicz",
@@ -4318,14 +4482,6 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)"
-            ]
-        ],
-        [
-            "U' F R U R' D' R U' R' D F' U",
-            [
-                "James Molloy",
-                "Mark Rivers",
-                "Max Hilliard"
             ]
         ],
         [
@@ -4362,6 +4518,7 @@
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Yifan Wang (王逸帆)"
             ]
         ]
@@ -4374,7 +4531,8 @@
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
                 "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
+                "Max Hilliard",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -4393,6 +4551,7 @@
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Yiwei Liu (刘伊玮)"
             ]
         ],
@@ -4410,6 +4569,7 @@
                 "Antonio Kam Ho Tung (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)"
             ]
         ],
@@ -4435,6 +4595,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Marcell Endrey",
+                "Michael Tripodi",
                 "Yifan Wang (王逸帆)"
             ]
         ],
@@ -4455,6 +4616,7 @@
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Yiwei Liu (刘伊玮)"
             ]
@@ -4473,7 +4635,8 @@
                 "Antonio Kam Ho Tung (甘浩東)",
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
+                "Max Hilliard",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -4512,7 +4675,8 @@
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
                 "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
+                "Max Hilliard",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -4531,6 +4695,7 @@
                 "Kai Yamamoto (山本快)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Yifan Wang (王逸帆)"
             ]
@@ -4557,17 +4722,18 @@
             ]
         ],
         [
+            "U L2 D R2 D' L2 D R2 U' D'",
+            [
+                "Daniel White",
+                "Michael Tripodi",
+                "Ryota Futagami (二神亮太)"
+            ]
+        ],
+        [
             "U r U R' U' r2 D R D' r U'",
             [
                 "Graham Siggins",
                 "James Molloy"
-            ]
-        ],
-        [
-            "U L2 D R2 D' L2 D R2 U' D'",
-            [
-                "Daniel White",
-                "Ryota Futagami (二神亮太)"
             ]
         ],
         [
@@ -4615,6 +4781,12 @@
             ]
         ],
         [
+            "U r2 U R2 U' r2 D R2 U' D'",
+            [
+                "Michael Tripodi"
+            ]
+        ],
+        [
             "D r' D L' D' L U L' D L U' D' r D'",
             [
                 "Sebastiano Tronto"
@@ -4648,6 +4820,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
+                "Michael Tripodi",
                 "Sebastiano Tronto"
             ]
         ],
@@ -4683,6 +4856,7 @@
                 "Christopher Morris",
                 "Elliott Kobelansky",
                 "James Molloy",
+                "Michael Tripodi",
                 "Yifan Wang (王逸帆)"
             ]
         ],
@@ -4722,7 +4896,8 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
+                "Max Hilliard",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -4749,6 +4924,7 @@
             "R' F R2 D' R' U2 R D R' U2 R' F' R",
             [
                 "Graham Siggins",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Yifan Wang (王逸帆)"
             ]
@@ -4778,7 +4954,8 @@
             [
                 "Elliott Kobelansky",
                 "Graham Siggins",
-                "Masato Fujiwara (藤原正人)"
+                "Masato Fujiwara (藤原正人)",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -4801,7 +4978,8 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
+                "Max Hilliard",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -4824,7 +5002,8 @@
             "U2 R' U R' D R U' R' D' R2 U2",
             [
                 "Elliott Kobelansky",
-                "Graham Siggins"
+                "Graham Siggins",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -4854,7 +5033,8 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
+                "Max Hilliard",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -4871,6 +5051,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Yiwei Liu (刘伊玮)"
             ]
         ],
@@ -4902,7 +5083,8 @@
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
                 "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
+                "Max Hilliard",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -4997,6 +5179,18 @@
             ]
         ],
         [
+            "U D' L2 D R2 D' L2 D R2 U'",
+            [
+                "Michael Tripodi"
+            ]
+        ],
+        [
+            "U D' r2 U R2 U' r2 D R2 U'",
+            [
+                "Michael Tripodi"
+            ]
+        ],
+        [
             "r' D L' D' L U L' D L U' D' r",
             [
                 "Sebastiano Tronto"
@@ -5013,6 +5207,7 @@
                 "Graham Siggins",
                 "James Molloy",
                 "Mark Rivers",
+                "Michael Tripodi",
                 "Yifan Wang (王逸帆)",
                 "Yiwei Liu (刘伊玮)"
             ]
@@ -5063,7 +5258,8 @@
                 "Graham Siggins",
                 "James Molloy",
                 "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
+                "Max Hilliard",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -5123,6 +5319,7 @@
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Yifan Wang (王逸帆)"
             ]
         ]
@@ -5134,7 +5331,8 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
+                "Max Hilliard",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -5164,6 +5362,12 @@
             ]
         ],
         [
+            "D R' U' D' R2 D' R' U R D R' U' R' U D R D'",
+            [
+                "Michael Tripodi"
+            ]
+        ],
+        [
             "U R B' R' U2 R' D' R U2 R' D R2 B R' U'",
             [
                 "Yifan Wang (王逸帆)"
@@ -5183,7 +5387,8 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
+                "Max Hilliard",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -5205,7 +5410,8 @@
             [
                 "Elliott Kobelansky",
                 "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
+                "Max Hilliard",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -5234,7 +5440,8 @@
                 "Antonio Kam Ho Tung (甘浩東)",
                 "Elliott Kobelansky",
                 "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
+                "Max Hilliard",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -5279,6 +5486,12 @@
                 "Kai Yamamoto (山本快)",
                 "Yifan Wang (王逸帆)"
             ]
+        ],
+        [
+            "D R2 U' R' D2 R U R' D2 R' D'",
+            [
+                "Michael Tripodi"
+            ]
         ]
     ],
     "AXT": [
@@ -5288,7 +5501,8 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
+                "Max Hilliard",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -5311,6 +5525,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Tom Nelson"
             ]
         ],
@@ -5346,6 +5561,7 @@
                 "Mark Rivers",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Neel Gore",
                 "Yifan Wang (王逸帆)"
@@ -5411,6 +5627,7 @@
                 "Mark Rivers",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Sebastiano Tronto",
                 "Yifan Wang (王逸帆)"
@@ -5484,6 +5701,7 @@
         [
             "R U' F U R' U' R F' R' U",
             [
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Yiwei Liu (刘伊玮)"
             ]
@@ -5506,6 +5724,7 @@
                 "Kai Yamamoto (山本快)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Yifan Wang (王逸帆)"
             ]
@@ -5521,6 +5740,7 @@
                 "Kai Yamamoto (山本快)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Yifan Wang (王逸帆)",
                 "Yiwei Liu (刘伊玮)"
@@ -5546,6 +5766,7 @@
                 "Antonio Kam Ho Tung (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Yiwei Liu (刘伊玮)"
             ]
@@ -5588,6 +5809,7 @@
                 "Kai Yamamoto (山本快)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Yiwei Liu (刘伊玮)"
             ]
@@ -5606,6 +5828,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Yifan Wang (王逸帆)"
             ]
@@ -5633,6 +5856,7 @@
                 "Kai Yamamoto (山本快)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Yifan Wang (王逸帆)",
                 "Yiwei Liu (刘伊玮)"
@@ -5658,6 +5882,7 @@
                 "Mark Rivers",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Yifan Wang (王逸帆)",
                 "Yiwei Liu (刘伊玮)"
@@ -5674,6 +5899,7 @@
                 "Kai Yamamoto (山本快)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Yiwei Liu (刘伊玮)"
             ]
@@ -5694,6 +5920,7 @@
                 "Kai Yamamoto (山本快)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)"
             ]
         ],
@@ -5720,6 +5947,7 @@
                 "Mark Rivers",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Neel Gore",
                 "Yifan Wang (王逸帆)"
@@ -5754,6 +5982,7 @@
                 "Mark Rivers",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Shinji Mochizuki (望月真司)",
                 "Yifan Wang (王逸帆)"
             ]
@@ -5820,6 +6049,7 @@
                 "James Molloy",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Yiwei Liu (刘伊玮)"
             ]
         ],
@@ -5858,7 +6088,8 @@
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
                 "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
+                "Max Hilliard",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -5878,6 +6109,7 @@
                 "Kai Yamamoto (山本快)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Yifan Wang (王逸帆)"
             ]
         ]
@@ -5891,6 +6123,7 @@
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Yifan Wang (王逸帆)",
                 "Yiwei Liu (刘伊玮)"
@@ -5914,6 +6147,7 @@
                 "Kai Yamamoto (山本快)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Yiwei Liu (刘伊玮)"
             ]
         ],
@@ -5937,7 +6171,8 @@
                 "Benjamin Paul",
                 "Elliott Kobelansky",
                 "Graham Siggins",
-                "Kai Yamamoto (山本快)"
+                "Kai Yamamoto (山本快)",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -5968,7 +6203,8 @@
             "D' R' U' D R U R' D2 R U' R' U D R D",
             [
                 "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
+                "Max Hilliard",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -5982,6 +6218,12 @@
             "U' D' R U' R2 D R U2 R' D' R U2 R U R' U D",
             [
                 "Kai Yamamoto (山本快)"
+            ]
+        ],
+        [
+            "U D' R' D2 R' U R D2 R' U' R2 U' D",
+            [
+                "Michael Tripodi"
             ]
         ]
     ],
@@ -5997,6 +6239,13 @@
             ]
         ],
         [
+            "U' R' U R U R' D' R U' R' U' D R U",
+            [
+                "Elliott Kobelansky",
+                "Michael Tripodi"
+            ]
+        ],
+        [
             "D' R D R' D' R U' R' D R U D' R' D",
             [
                 "Hana Davila",
@@ -6007,12 +6256,6 @@
             "z' x' L2 U L D' L' U' L D L z y'",
             [
                 "Abhijeet Ghodgaonkar"
-            ]
-        ],
-        [
-            "U' R' U R U R' D' R U' R' U' D R U",
-            [
-                "Elliott Kobelansky"
             ]
         ]
     ],
@@ -6026,6 +6269,7 @@
                 "Kai Yamamoto (山本快)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Yifan Wang (王逸帆)",
                 "Yiwei Liu (刘伊玮)"
             ]
@@ -6034,6 +6278,12 @@
             "z' R U' L2 U R' U' L2 U z",
             [
                 "Abhijeet Ghodgaonkar"
+            ]
+        ],
+        [
+            "U D R' U R D' R' U' R U'",
+            [
+                "Michael Tripodi"
             ]
         ]
     ],
@@ -6047,9 +6297,16 @@
                 "Kai Yamamoto (山本快)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Yifan Wang (王逸帆)",
                 "Yiwei Liu (刘伊玮)"
+            ]
+        ],
+        [
+            "U D R' U D R D' R' U' R D R' D' R U' D'",
+            [
+                "Michael Tripodi"
             ]
         ]
     ],
@@ -6797,17 +7054,18 @@
             ]
         ],
         [
+            "U' R D R' D' R U' R' D R U D' R' U",
+            [
+                "Elliott Kobelansky",
+                "Max Hilliard",
+                "Michael Tripodi"
+            ]
+        ],
+        [
             "F' R' B2 R F R' B2 R",
             [
                 "Grzegorz Pacewicz",
                 "Leonardo Ezequiel Cruz"
-            ]
-        ],
-        [
-            "U' R D R' D' R U' R' D R U D' R' U",
-            [
-                "Elliott Kobelansky",
-                "Max Hilliard"
             ]
         ],
         [
@@ -7679,15 +7937,16 @@
             ]
         ],
         [
-            "y' L D R D' L' D R' D' y",
+            "U' D R D R' D' R U' R' D R U D' R' U D'",
             [
-                "Daniel White"
+                "Graham Siggins",
+                "Michael Tripodi"
             ]
         ],
         [
-            "U' D R D R' D' R U' R' D R U D' R' U D'",
+            "y' L D R D' L' D R' D' y",
             [
-                "Graham Siggins"
+                "Daniel White"
             ]
         ],
         [
@@ -10933,6 +11192,7 @@
                 "Elliott Kobelansky",
                 "Mark Rivers",
                 "Masato Fujiwara (藤原正人)",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)"
             ]
         ],
@@ -10998,6 +11258,7 @@
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Roman Strakhov"
             ]
@@ -11044,6 +11305,7 @@
                 "James Molloy",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Roman Strakhov"
             ]
         ],
@@ -11108,6 +11370,7 @@
                 "Mark Rivers",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Yifan Wang (王逸帆)"
             ]
         ],
@@ -11127,6 +11390,7 @@
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Roman Strakhov",
                 "Yifan Wang (王逸帆)"
             ]
@@ -11152,6 +11416,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Michael Tripodi",
                 "Yifan Wang (王逸帆)"
             ]
         ],
@@ -11199,7 +11464,8 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
+                "Max Hilliard",
+                "Michael Tripodi"
             ]
         ]
     ],
@@ -11216,6 +11482,7 @@
                 "Mark Rivers",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Roman Strakhov",
                 "Yifan Wang (王逸帆)"
             ]
@@ -11223,18 +11490,19 @@
     ],
     "GAR": [
         [
+            "R2 U' R2 D' R2 D R2 U R2 D' R2 D",
+            [
+                "Masato Fujiwara (藤原正人)",
+                "Max Hilliard",
+                "Michael Tripodi"
+            ]
+        ],
+        [
             "U R D' R2 D R U2 R' D' R U2 R D R' U'",
             [
                 "Elliott Kobelansky",
                 "Roman Strakhov",
                 "Yifan Wang (王逸帆)"
-            ]
-        ],
-        [
-            "R2 U' R2 D' R2 D R2 U R2 D' R2 D",
-            [
-                "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
             ]
         ],
         [
@@ -11276,6 +11544,7 @@
                 "Mark Rivers",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Roman Strakhov",
                 "Yifan Wang (王逸帆)"
@@ -11290,6 +11559,16 @@
     ],
     "GAT": [
         [
+            "U D' R' D' R U2 R' D R U D",
+            [
+                "Benjamin Paul",
+                "Elliott Kobelansky",
+                "Masato Fujiwara (藤原正人)",
+                "Max Hilliard",
+                "Michael Tripodi"
+            ]
+        ],
+        [
             "D R D' R' U2 R D R' U2 D'",
             [
                 "Graham Siggins",
@@ -11297,15 +11576,6 @@
                 "Kai Yamamoto (山本快)",
                 "Roman Strakhov",
                 "Yifan Wang (王逸帆)"
-            ]
-        ],
-        [
-            "U D' R' D' R U2 R' D R U D",
-            [
-                "Benjamin Paul",
-                "Elliott Kobelansky",
-                "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
             ]
         ],
         [
@@ -11322,6 +11592,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Michael Tripodi",
                 "Yifan Wang (王逸帆)"
             ]
         ],
@@ -11353,6 +11624,7 @@
                 "Graham Siggins",
                 "Grzegorz Jałocha",
                 "Kai Yamamoto (山本快)",
+                "Michael Tripodi",
                 "Roman Strakhov",
                 "Yifan Wang (王逸帆)"
             ]
@@ -11374,6 +11646,7 @@
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Yifan Wang (王逸帆)"
             ]
         ],
@@ -11402,6 +11675,7 @@
                 "Mark Rivers",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Yifan Wang (王逸帆)"
             ]
         ],
@@ -11424,6 +11698,7 @@
                 "Liren Sun (孙立仁)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Timo Norrkniivilä"
             ]
@@ -11437,6 +11712,7 @@
                 "Grzegorz Jałocha",
                 "James Molloy",
                 "Liren Sun (孙立仁)",
+                "Michael Tripodi",
                 "Tim Wong"
             ]
         ],
@@ -11491,6 +11767,7 @@
                 "Liren Sun (孙立仁)",
                 "Mark Rivers",
                 "Masato Fujiwara (藤原正人)",
+                "Michael Tripodi",
                 "Yifan Wang (王逸帆)",
                 "Yiwei Liu (刘伊玮)"
             ]
@@ -11578,6 +11855,12 @@
             [
                 "Graham Siggins"
             ]
+        ],
+        [
+            "R' U' R U D' R' D' R U2 R' D R U D R' U R",
+            [
+                "Michael Tripodi"
+            ]
         ]
     ],
     "GBM": [
@@ -11587,7 +11870,8 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
+                "Max Hilliard",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -11618,7 +11902,8 @@
                 "Graham Siggins",
                 "Grzegorz Jałocha",
                 "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
+                "Max Hilliard",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -11653,6 +11938,7 @@
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Roman Strakhov",
                 "Yifan Wang (王逸帆)",
@@ -11673,7 +11959,8 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
+                "Max Hilliard",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -11711,18 +11998,19 @@
             ]
         ],
         [
+            "R D2 R U' R' D R U R' D R'",
+            [
+                "Masato Fujiwara (藤原正人)",
+                "Max Hilliard",
+                "Michael Tripodi"
+            ]
+        ],
+        [
             "R' F R U' R D' R' U R D R2 F' R",
             [
                 "Kai Yamamoto (山本快)",
                 "Morimichi Kikuchi (菊地守道)",
                 "Yifan Wang (王逸帆)"
-            ]
-        ],
-        [
-            "R D2 R U' R' D R U R' D R'",
-            [
-                "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
             ]
         ]
     ],
@@ -11732,6 +12020,7 @@
             [
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Roman Strakhov",
                 "Yifan Wang (王逸帆)"
@@ -11763,7 +12052,8 @@
             [
                 "Elliott Kobelansky",
                 "Graham Siggins",
-                "Masato Fujiwara (藤原正人)"
+                "Masato Fujiwara (藤原正人)",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -11792,6 +12082,7 @@
             [
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Yifan Wang (王逸帆)"
             ]
@@ -11838,6 +12129,7 @@
             [
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Roman Strakhov"
             ]
         ],
@@ -11864,6 +12156,7 @@
                 "Grzegorz Jałocha",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)"
             ]
         ],
@@ -11906,7 +12199,8 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
+                "Max Hilliard",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -11944,6 +12238,7 @@
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Yifan Wang (王逸帆)",
                 "Yiwei Liu (刘伊玮)"
             ]
@@ -11979,6 +12274,7 @@
                 "Mark Rivers",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Neel Gore",
                 "Yifan Wang (王逸帆)",
@@ -12021,6 +12317,7 @@
                 "Liren Sun (孙立仁)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Neel Gore",
                 "Timo Norrkniivilä"
             ]
@@ -12029,6 +12326,12 @@
             "F R2 D R' U R D' R' U' R' F'",
             [
                 "Mark Rivers"
+            ]
+        ],
+        [
+            "r' F R F' r U R' U'",
+            [
+                "Michael Tripodi"
             ]
         ],
         [
@@ -12050,6 +12353,7 @@
                 "Mark Rivers",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Roman Strakhov"
             ]
         ],
@@ -12102,6 +12406,7 @@
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Yifan Wang (王逸帆)",
                 "Yiwei Liu (刘伊玮)"
@@ -12125,6 +12430,7 @@
             "U' D' R U R D' R' U' R D R2 U D",
             [
                 "Elliott Kobelansky",
+                "Michael Tripodi",
                 "Roman Strakhov",
                 "Yiwei Liu (刘伊玮)"
             ]
@@ -12168,6 +12474,12 @@
             ]
         ],
         [
+            "R' D R' D R U' R' D' R U D' R",
+            [
+                "Michael Tripodi"
+            ]
+        ],
+        [
             "R' U' D' R D R' U' R D' R' U2 D R",
             [
                 "Yifan Wang (王逸帆)"
@@ -12183,6 +12495,7 @@
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Yifan Wang (王逸帆)",
                 "Yiwei Liu (刘伊玮)"
@@ -12204,6 +12517,7 @@
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Roman Strakhov",
                 "Yifan Wang (王逸帆)"
             ]
@@ -12222,7 +12536,8 @@
                 "Antonio Kam Ho Tung (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
-                "Grzegorz Jałocha"
+                "Grzegorz Jałocha",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -12260,6 +12575,7 @@
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Yifan Wang (王逸帆)"
             ]
@@ -12297,7 +12613,8 @@
             "U' D R U R D' R' U' R D R2 U D'",
             [
                 "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
+                "Max Hilliard",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -12318,6 +12635,7 @@
                 "Hana Davila",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Roman Strakhov",
                 "Yifan Wang (王逸帆)",
@@ -12335,6 +12653,7 @@
                 "Grzegorz Jałocha",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Roman Strakhov",
                 "Yifan Wang (王逸帆)",
@@ -12365,6 +12684,7 @@
                 "Mark Rivers",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Yifan Wang (王逸帆)",
                 "Yiwei Liu (刘伊玮)"
             ]
@@ -12393,7 +12713,8 @@
             "U R2 U R D R' U' R D' R U'",
             [
                 "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
+                "Max Hilliard",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -12447,6 +12768,7 @@
                 "Elliott Kobelansky",
                 "Liren Sun (孙立仁)",
                 "Mark Rivers",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)"
             ]
         ],
@@ -12521,6 +12843,7 @@
                 "James Molloy",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Roman Strakhov",
                 "Sebastiano Tronto",
                 "Timo Norrkniivilä"
@@ -12535,6 +12858,7 @@
                 "Grzegorz Jałocha",
                 "James Molloy",
                 "Liren Sun (孙立仁)",
+                "Michael Tripodi",
                 "Tim Wong"
             ]
         ],
@@ -12599,6 +12923,7 @@
                 "Lucas Rolando",
                 "Mark Rivers",
                 "Masato Fujiwara (藤原正人)",
+                "Michael Tripodi",
                 "Shinji Mochizuki (望月真司)",
                 "Yifan Wang (王逸帆)"
             ]
@@ -13148,7 +13473,8 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
+                "Max Hilliard",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -13177,6 +13503,7 @@
                 "Liren Sun (孙立仁)",
                 "Mark Rivers",
                 "Masato Fujiwara (藤原正人)",
+                "Michael Tripodi",
                 "Yifan Wang (王逸帆)"
             ]
         ],
@@ -13255,6 +13582,7 @@
                 "Lucas Rolando",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Neel Gore",
                 "Roman Strakhov",
@@ -13269,6 +13597,12 @@
             "F R U R D R' U' R D' R2 F'",
             [
                 "Mark Rivers"
+            ]
+        ],
+        [
+            "U R U' r' F R' F' r",
+            [
+                "Michael Tripodi"
             ]
         ],
         [
@@ -13877,6 +14211,7 @@
                 "James Molloy",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)"
             ]
         ],
@@ -13975,6 +14310,12 @@
             [
                 "Lucas Rolando"
             ]
+        ],
+        [
+            "R' U' R U' D' R' D' R U2 R' D R U' D R' U R",
+            [
+                "Michael Tripodi"
+            ]
         ]
     ],
     "GFC": [
@@ -13988,6 +14329,7 @@
                 "Mark Rivers",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Neel Gore"
             ]
@@ -14545,6 +14887,7 @@
                 "Mark Rivers",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Yifan Wang (王逸帆)",
                 "Yiwei Liu (刘伊玮)"
@@ -14560,6 +14903,7 @@
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Yiwei Liu (刘伊玮)"
             ]
@@ -14603,6 +14947,7 @@
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Yifan Wang (王逸帆)"
             ]
         ],
@@ -15001,6 +15346,7 @@
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Yifan Wang (王逸帆)",
                 "Yiwei Liu (刘伊玮)"
@@ -15029,7 +15375,8 @@
                 "Graham Siggins",
                 "Grzegorz Jałocha",
                 "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
+                "Max Hilliard",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -15052,6 +15399,7 @@
                 "Antonio Kam Ho Tung (甘浩東)",
                 "Elliott Kobelansky",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)"
             ]
         ],
@@ -15514,6 +15862,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Michael Tripodi",
                 "Yifan Wang (王逸帆)"
             ]
         ],
@@ -15540,6 +15889,7 @@
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Yifan Wang (王逸帆)"
             ]
         ],
@@ -15567,6 +15917,13 @@
             ]
         ],
         [
+            "R' U' D R' D R U R' D' R D' R",
+            [
+                "Max Hilliard",
+                "Michael Tripodi"
+            ]
+        ],
+        [
             "R' U2 D' R D R' U R D' R' U D R",
             [
                 "Yifan Wang (王逸帆)",
@@ -15577,12 +15934,6 @@
             "R' U' R' D2 R U R' D2 R2",
             [
                 "Grzegorz Jałocha"
-            ]
-        ],
-        [
-            "R' U' D R' D R U R' D' R D' R",
-            [
-                "Max Hilliard"
             ]
         ]
     ],
@@ -15954,6 +16305,7 @@
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)"
             ]
         ],
@@ -15976,6 +16328,7 @@
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Yiwei Liu (刘伊玮)"
             ]
         ],
@@ -16383,6 +16736,7 @@
                 "Mark Rivers",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Yifan Wang (王逸帆)",
                 "Yiwei Liu (刘伊玮)"
@@ -16391,20 +16745,21 @@
     ],
     "GQB": [
         [
+            "R D' R U' R' D' R U R' D2 R'",
+            [
+                "Antonio Kam Ho Tung (甘浩東)",
+                "Masato Fujiwara (藤原正人)",
+                "Max Hilliard",
+                "Michael Tripodi"
+            ]
+        ],
+        [
             "l' U2 R' D R U' R' D' R U' l",
             [
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Grzegorz Jałocha",
                 "Roman Strakhov"
-            ]
-        ],
-        [
-            "R D' R U' R' D' R U R' D2 R'",
-            [
-                "Antonio Kam Ho Tung (甘浩東)",
-                "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
             ]
         ],
         [
@@ -16425,6 +16780,7 @@
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Yifan Wang (王逸帆)",
                 "Yiwei Liu (刘伊玮)"
@@ -16878,7 +17234,8 @@
             "D' R2 D R2 U' R2 D' R2 D R2 U R2",
             [
                 "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
+                "Max Hilliard",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -16907,6 +17264,7 @@
                 "Antonio Kam Ho Tung (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Michael Tripodi",
                 "Yifan Wang (王逸帆)",
                 "Yiwei Liu (刘伊玮)"
             ]
@@ -16937,7 +17295,8 @@
             [
                 "Elliott Kobelansky",
                 "Graham Siggins",
-                "Grzegorz Jałocha"
+                "Grzegorz Jałocha",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -17314,6 +17673,7 @@
                 "Mark Rivers",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Yifan Wang (王逸帆)",
                 "Yiwei Liu (刘伊玮)"
             ]
@@ -17334,6 +17694,7 @@
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Yiwei Liu (刘伊玮)"
             ]
@@ -17361,6 +17722,7 @@
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Yifan Wang (王逸帆)"
             ]
         ],
@@ -17775,6 +18137,7 @@
             [
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
+                "Michael Tripodi",
                 "Yifan Wang (王逸帆)",
                 "Yiwei Liu (刘伊玮)"
             ]
@@ -17807,6 +18170,7 @@
                 "Antonio Kam Ho Tung (甘浩東)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Roman Strakhov"
             ]
@@ -18155,6 +18519,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Michael Tripodi",
                 "Yifan Wang (王逸帆)",
                 "Yiwei Liu (刘伊玮)"
             ]
@@ -18218,6 +18583,7 @@
                 "Hana Davila",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Yifan Wang (王逸帆)"
             ]
         ]
@@ -18630,6 +18996,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Yifan Wang (王逸帆)",
                 "Yiwei Liu (刘伊玮)"
@@ -18650,7 +19017,8 @@
                 "Elliott Kobelansky",
                 "Grzegorz Jałocha",
                 "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
+                "Max Hilliard",
+                "Michael Tripodi"
             ]
         ],
         [
@@ -18701,6 +19069,7 @@
                 "Grzegorz Jałocha",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Yifan Wang (王逸帆)"
             ]
         ],
@@ -19064,6 +19433,7 @@
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Yifan Wang (王逸帆)",
                 "Yiwei Liu (刘伊玮)"
             ]
@@ -19085,6 +19455,7 @@
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Yiwei Liu (刘伊玮)"
             ]
         ],
@@ -19129,6 +19500,7 @@
                 "Mark Rivers",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Yifan Wang (王逸帆)"
             ]
@@ -19563,6 +19935,7 @@
                 "Mark Rivers",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Yifan Wang (王逸帆)",
                 "Yiwei Liu (刘伊玮)"
@@ -19583,6 +19956,7 @@
                 "Graham Siggins",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Yifan Wang (王逸帆)"
             ]
         ],
@@ -19601,6 +19975,14 @@
     ],
     "GZC": [
         [
+            "U R' D R' U R D' R' U' R2 U'",
+            [
+                "Masato Fujiwara (藤原正人)",
+                "Max Hilliard",
+                "Michael Tripodi"
+            ]
+        ],
+        [
             "R' U2 D R D' R' U R D R' U D' R",
             [
                 "Graham Siggins",
@@ -19614,13 +19996,6 @@
                 "Antonio Kam Ho Tung (甘浩東)",
                 "Elliott Kobelansky",
                 "Yiwei Liu (刘伊玮)"
-            ]
-        ],
-        [
-            "U R' D R' U R D' R' U' R2 U'",
-            [
-                "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
             ]
         ],
         [
@@ -31396,6 +31771,7 @@
                 "Hongjie Zhang (张鸿杰)",
                 "Joey Gouly",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Kevin Matthews",
                 "Yifan Wang (王逸帆)",
                 "Zhi Qiao (乔智)"
@@ -35946,7 +36322,6 @@
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
                 "Michael Tripodi",
-                "Neel Gore",
                 "Oliver Fritz",
                 "Roman Strakhov",
                 "Timothy Loh",
@@ -35969,6 +36344,7 @@
             [
                 "Elliott Kobelansky",
                 "Heejun Kim (김희준)",
+                "Neel Gore",
                 "Zhi Qiao (乔智)"
             ]
         ],
