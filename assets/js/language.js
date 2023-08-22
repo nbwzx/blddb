@@ -204,9 +204,9 @@ const arrLang = {
     "ja": {
         "title": "3BLD手順データベース",
         "description": "BLDDBのオンラインウェブサイト。",
-        "corner": "3-Styleエッジ",
+        "corner": "3-Styleコーナー",
         "twists": "コーナーツイスト",
-        "edge": "3-Styleコーナー",
+        "edge": "3-Styleエッジ",
         "2flips": "エッジフリップ",
         "parity": "3BLD パリティ",
         "2e2e": "2e2e",
