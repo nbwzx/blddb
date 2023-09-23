@@ -6,6 +6,17 @@ const jsonLoaded = jsonNameList.map((name) => $.getJSON(`assets/json/${name}.jso
     window[`${name}`] = json;
 }));
 
+if (getCookie("edgestyle") === "") {
+    setCookie("edgestyle", "nightmare", 30);
+} else {
+    document.getElementById("edgestyle").value = getCookie("edgestyle");
+}
+
+function switchStyle() {
+    setCookie("edgestyle", document.getElementById("edgestyle").value, 30);
+    algSearch();
+}
+
 function algSearch() {
     let idValueOrigin = document.getElementById("edgeinput").value;
     if (typeof idValueOrigin === "undefined") {
@@ -24,6 +35,10 @@ function algSearch() {
             }
         }
     }
+    let edgestylecookie = "nightmare";
+    if (getCookie("edgestyle") !== "") {
+        edgestylecookie = getCookie("edgestyle");
+    }
     document.getElementById("edgeinput1").value = edgeCodeToPos[id[0]];
     document.getElementById("edgeinput2").value = edgeCodeToPos[id[1]];
     document.getElementById("edgeinput3").value = edgeCodeToPos[id[2]];
@@ -36,10 +51,10 @@ function algSearch() {
     }
     if (edgeAlgToInfo.hasOwnProperty(idValue)) {
         let edgeAlgToInfoStyle = {};
-        if (document.getElementById("edgestyle").value === "nightmare") {
+        if (edgestylecookie === "nightmare") {
             edgeAlgToInfoStyle = edgeAlgToInfo;
         }
-        if (document.getElementById("edgestyle").value === "manmade") {
+        if (edgestylecookie === "manmade") {
             edgeAlgToInfoStyle = edgeAlgToInfoManmade;
         }
         if (document.getElementById("edgeinput") === document.activeElement) {
@@ -51,7 +66,7 @@ function algSearch() {
         for (let i = 0; i < rows; i++) {
             let edgeAlgToInfoNew = "";
             if (setup.length > 0) {
-                if (document.getElementById("edgestyle").value === "manmade") {
+                if (edgestylecookie === "manmade") {
                     div1.innerHTML = "";
                     return;
                 }
@@ -67,12 +82,12 @@ function algSearch() {
                 edgeAlgToInfoNew = edgeAlgToInfoStyle[idValue][i];
                 inew = inew + 1;
             }
-            if (document.getElementById("edgestyle").value !== "manmade" && edgeAlgToInfoNew === edgeAlgToNightmare[edgeAlgToStandard[`${id[0]}${id[1]}${id[2]}`]]) {
+            if (edgestylecookie !== "manmade" && edgeAlgToInfoNew === edgeAlgToNightmare[edgeAlgToStandard[`${id[0]}${id[1]}${id[2]}`]]) {
                 tab += "<tr bgcolor=\"#D0D0D0\">";
             } else {
                 tab += "<tr>";
             }
-            if (document.getElementById("edgestyle").value === "manmade") {
+            if (edgestylecookie === "manmade") {
                 tab += `<td>${inew}</td>`;
                 tab += `<td>${edgeAlgToInfoStyle[idValue][i][0]}</td>`;
                 tab += `<td>${commutator(edgeAlgToInfoStyle[idValue][i][0])}</td>`;
@@ -98,7 +113,7 @@ function algSearch() {
             }
         }
         if (tab !== "") {
-            if (document.getElementById("edgestyle").value === "manmade") {
+            if (edgestylecookie === "manmade") {
                 tab = `<table id="table"><thead><tr><th>${arrLang[lang]["no"]}</th><th>${arrLang[lang]["algorithm"]}</th><th>${arrLang[lang]["commutator"]}</th><th>${arrLang[lang]["thumbPosition"]}</th><th>${arrLang[lang]["source"]}</th></tr></thead><tbody>${tab}</tbody></table>`;
             } else {
                 tab = `<table id="table"><thead><tr><th>${arrLang[lang]["no"]}</th><th>${arrLang[lang]["algorithm"]}</th><th>${arrLang[lang]["commutator"]}</th><th>${arrLang[lang]["thumbPosition"]}</th></tr></thead><tbody>${tab}</tbody></table>`;
@@ -143,6 +158,10 @@ function algSearchByPos() {
             edgeinput[i] = codecookie[edgeChichuToNumber[id[i]]];
         }
     }
+    let edgestylecookie = "nightmare";
+    if (getCookie("edgestyle") !== "") {
+        edgestylecookie = getCookie("edgestyle");
+    }
     document.getElementById("edgeinput").value = `${edgeinput[0]}${edgeinput[1]}${edgeinput[2]}`;
     const div1 = document.getElementById("div1");
     const setup = arrayToStr(algToArray(document.getElementById("edgesetup").value));
@@ -152,10 +171,10 @@ function algSearchByPos() {
     }
     if (edgeAlgToInfo.hasOwnProperty(idValue)) {
         let edgeAlgToInfoStyle = {};
-        if (document.getElementById("edgestyle").value === "nightmare") {
+        if (edgestylecookie === "nightmare") {
             edgeAlgToInfoStyle = edgeAlgToInfo;
         }
-        if (document.getElementById("edgestyle").value === "manmade") {
+        if (edgestylecookie === "manmade") {
             edgeAlgToInfoStyle = edgeAlgToInfoManmade;
         }
         const rows = edgeAlgToInfoStyle[idValue].length;
@@ -164,7 +183,7 @@ function algSearchByPos() {
         for (let i = 0; i < rows; i++) {
             let edgeAlgToInfoNew = "";
             if (setup.length > 0) {
-                if (document.getElementById("edgestyle").value === "manmade") {
+                if (edgestylecookie === "manmade") {
                     div1.innerHTML = "";
                     return;
                 }
@@ -180,12 +199,12 @@ function algSearchByPos() {
                 edgeAlgToInfoNew = edgeAlgToInfoStyle[idValue][i];
                 inew = inew + 1;
             }
-            if (document.getElementById("edgestyle").value !== "manmade" && edgeAlgToInfoNew === edgeAlgToNightmare[edgeAlgToStandard[`${id[0]}${id[1]}${id[2]}`]]) {
+            if (edgestylecookie !== "manmade" && edgeAlgToInfoNew === edgeAlgToNightmare[edgeAlgToStandard[`${id[0]}${id[1]}${id[2]}`]]) {
                 tab += "<tr bgcolor=\"#D0D0D0\">";
             } else {
                 tab += "<tr>";
             }
-            if (document.getElementById("edgestyle").value === "manmade") {
+            if (edgestylecookie === "manmade") {
                 tab += `<td>${inew}</td>`;
                 tab += `<td>${edgeAlgToInfoStyle[idValue][i][0]}</td>`;
                 tab += `<td>${commutator(edgeAlgToInfoStyle[idValue][i][0])}</td>`;
@@ -211,7 +230,7 @@ function algSearchByPos() {
             }
         }
         if (tab !== "") {
-            if (document.getElementById("edgestyle").value === "manmade") {
+            if (edgestylecookie === "manmade") {
                 tab = `<table id="table"><thead><tr><th>${arrLang[lang]["no"]}</th><th>${arrLang[lang]["algorithm"]}</th><th>${arrLang[lang]["commutator"]}</th><th>${arrLang[lang]["thumbPosition"]}</th><th>${arrLang[lang]["source"]}</th></tr></thead><tbody>${tab}</tbody></table>`;
             } else {
                 tab = `<table id="table"><thead><tr><th>${arrLang[lang]["no"]}</th><th>${arrLang[lang]["algorithm"]}</th><th>${arrLang[lang]["commutator"]}</th><th>${arrLang[lang]["thumbPosition"]}</th></tr></thead><tbody>${tab}</tbody></table>`;

@@ -6,6 +6,17 @@ const jsonLoaded = jsonNameList.map((name) => $.getJSON(`assets/json/${name}.jso
     window[`${name}`] = json;
 }));
 
+if (getCookie("cornerstyle") === "") {
+    setCookie("cornerstyle", "nightmare", 30);
+} else {
+    document.getElementById("cornerstyle").value = getCookie("cornerstyle");
+}
+
+function switchStyle() {
+    setCookie("cornerstyle", document.getElementById("cornerstyle").value, 30);
+    algSearch();
+}
+
 function algSearch() {
     let idValueOrigin = document.getElementById("cornerinput").value;
     if (typeof idValueOrigin === "undefined") {
@@ -24,6 +35,10 @@ function algSearch() {
             }
         }
     }
+    let cornerstylecookie = "nightmare";
+    if (getCookie("cornerstyle") !== "") {
+        cornerstylecookie = getCookie("cornerstyle");
+    }
     document.getElementById("cornerinput1").value = cornerCodeToPos[id[0]];
     document.getElementById("cornerinput2").value = cornerCodeToPos[id[1]];
     document.getElementById("cornerinput3").value = cornerCodeToPos[id[2]];
@@ -32,37 +47,37 @@ function algSearch() {
     if (cornerAlgToInfo.hasOwnProperty(idValue)) {
         let cornerAlgToInfoStyle = {};
         let cornerAlgToStyle = {};
-        if (document.getElementById("cornerstyle").value === "nightmare") {
+        if (cornerstylecookie === "nightmare") {
             cornerAlgToInfoStyle = cornerAlgToInfo;
             cornerAlgToStyle = cornerAlgToNightmare;
         }
-        if (document.getElementById("cornerstyle").value === "yuanzi") {
+        if (cornerstylecookie === "yuanzi") {
             cornerAlgToInfoStyle = cornerAlgToInfoYuanzi;
             cornerAlgToStyle = cornerAlgToYuanzi;
         }
-        if (document.getElementById("cornerstyle").value === "balance") {
+        if (cornerstylecookie === "balance") {
             cornerAlgToInfoStyle = cornerAlgToInfoBalance;
             cornerAlgToStyle = cornerAlgToBalance;
         }
-        if (document.getElementById("cornerstyle").value === "manmade") {
+        if (cornerstylecookie === "manmade") {
             cornerAlgToInfoStyle = cornerAlgToInfoManmade;
         }
         document.getElementById("cornerinput").blur();
         const rows = cornerAlgToInfoStyle[idValue].length;
         let tab = "";
-        if (document.getElementById("cornerstyle").value === "manmade") {
+        if (cornerstylecookie === "manmade") {
             tab = `<table id="table"><thead><tr><th>${arrLang[lang]["no"]}</th><th>${arrLang[lang]["algorithm"]}</th><th>${arrLang[lang]["commutator"]}</th><th>${arrLang[lang]["thumbPosition"]}</th><th>${arrLang[lang]["source"]}</th></tr></thead><tbody>`;
         } else {
             tab = `<table id="table"><thead><tr><th>${arrLang[lang]["no"]}</th><th>${arrLang[lang]["algorithm"]}</th><th>${arrLang[lang]["commutator"]}</th><th>${arrLang[lang]["thumbPosition"]}</th></tr></thead><tbody>`;
         }
         for (let i = 0; i < rows; i++) {
-            if (document.getElementById("cornerstyle").value !== "manmade" && cornerAlgToInfoStyle[idValue][i] === cornerAlgToStyle[idValue]) {
+            if (cornerstylecookie !== "manmade" && cornerAlgToInfoStyle[idValue][i] === cornerAlgToStyle[idValue]) {
                 tab += "<tr bgcolor=\"#D0D0D0\">";
             } else {
                 tab += "<tr>";
             }
             tab += `<td>${i + 1}</td>`;
-            if (document.getElementById("cornerstyle").value === "manmade") {
+            if (cornerstylecookie === "manmade") {
                 tab += `<td>${cornerAlgToInfoStyle[idValue][i][0]}</td>`;
                 tab += `<td>${commutator(cornerAlgToInfoStyle[idValue][i][0])}</td>`;
                 tab += `<td>${fingerbeginfrom(cornerAlgToInfoStyle[idValue][i][0])}</td>`;
@@ -125,41 +140,45 @@ function algSearchByPos() {
             cornerinput[i] = codecookie[cornerChichuToNumber[id[i]]];
         }
     }
+    let cornerstylecookie = "nightmare";
+    if (getCookie("cornerstyle") !== "") {
+        cornerstylecookie = getCookie("cornerstyle");
+    }
     document.getElementById("cornerinput").value = `${cornerinput[0]}${cornerinput[1]}${cornerinput[2]}`;
     const div1 = document.getElementById("div1");
     if (cornerAlgToInfo.hasOwnProperty(idValue)) {
         let cornerAlgToInfoStyle = {};
         let cornerAlgToStyle = {};
-        if (document.getElementById("cornerstyle").value === "nightmare") {
+        if (cornerstylecookie === "nightmare") {
             cornerAlgToInfoStyle = cornerAlgToInfo;
             cornerAlgToStyle = cornerAlgToNightmare;
         }
-        if (document.getElementById("cornerstyle").value === "yuanzi") {
+        if (cornerstylecookie === "yuanzi") {
             cornerAlgToInfoStyle = cornerAlgToInfoYuanzi;
             cornerAlgToStyle = cornerAlgToYuanzi;
         }
-        if (document.getElementById("cornerstyle").value === "balance") {
+        if (cornerstylecookie === "balance") {
             cornerAlgToInfoStyle = cornerAlgToInfoBalance;
             cornerAlgToStyle = cornerAlgToBalance;
         }
-        if (document.getElementById("cornerstyle").value === "manmade") {
+        if (cornerstylecookie === "manmade") {
             cornerAlgToInfoStyle = cornerAlgToInfoManmade;
         }
         const rows = cornerAlgToInfoStyle[idValue].length;
         let tab = "";
-        if (document.getElementById("cornerstyle").value === "manmade") {
+        if (cornerstylecookie === "manmade") {
             tab = `<table id="table"><thead><tr><th>${arrLang[lang]["no"]}</th><th>${arrLang[lang]["algorithm"]}</th><th>${arrLang[lang]["commutator"]}</th><th>${arrLang[lang]["thumbPosition"]}</th><th>${arrLang[lang]["source"]}</th></tr></thead><tbody>`;
         } else {
             tab = `<table id="table"><thead><tr><th>${arrLang[lang]["no"]}</th><th>${arrLang[lang]["algorithm"]}</th><th>${arrLang[lang]["commutator"]}</th><th>${arrLang[lang]["thumbPosition"]}</th></tr></thead><tbody>`;
         }
         for (let i = 0; i < rows; i++) {
-            if (document.getElementById("cornerstyle").value !== "manmade" && cornerAlgToInfoStyle[idValue][i] === cornerAlgToStyle[idValue]) {
+            if (cornerstylecookie !== "manmade" && cornerAlgToInfoStyle[idValue][i] === cornerAlgToStyle[idValue]) {
                 tab += "<tr bgcolor=\"#D0D0D0\">";
             } else {
                 tab += "<tr>";
             }
             tab += `<td>${i + 1}</td>`;
-            if (document.getElementById("cornerstyle").value === "manmade") {
+            if (cornerstylecookie === "manmade") {
                 tab += `<td>${cornerAlgToInfoStyle[idValue][i][0]}</td>`;
                 tab += `<td>${commutator(cornerAlgToInfoStyle[idValue][i][0])}</td>`;
                 tab += `<td>${fingerbeginfrom(cornerAlgToInfoStyle[idValue][i][0])}</td>`;

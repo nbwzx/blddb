@@ -6,6 +6,17 @@ const jsonLoaded = jsonNameList.map((name) => $.getJSON(`../assets/json/${name}.
     window[`${name}`] = json;
 }));
 
+if (getCookie("edgestyle") === "") {
+    setCookie("edgestyle", "nightmare", 30);
+} else {
+    document.getElementById("edgestyle").value = getCookie("edgestyle");
+}
+
+function switchStyle() {
+    setCookie("edgestyle", document.getElementById("edgestyle").value, 30);
+    algSearch();
+}
+
 function sortByCode(x, y) {
     const edgeCodeToNumber2 = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "W", "X", "Y", "Z"];
     return (edgeCodeToNumber2.indexOf(x[1]) - edgeCodeToNumber2.indexOf(y[1])) * 24 + (edgeCodeToNumber2.indexOf(x[2]) - edgeCodeToNumber2.indexOf(y[2]));
@@ -98,17 +109,21 @@ function setSelect(alg) {
     }
     const optionsList = [];
     let edgeAlgToInfoStyle = {};
-    if (document.getElementById("edgestyle").value === "nightmare") {
+    let edgestylecookie = "nightmare";
+    if (getCookie("edgestyle") !== "") {
+        edgestylecookie = getCookie("edgestyle");
+    }
+    if (edgestylecookie === "nightmare") {
         edgeAlgToInfoStyle = edgeAlgToInfo;
     }
-    if (document.getElementById("edgestyle").value === "manmade") {
+    if (edgestylecookie === "manmade") {
         edgeAlgToInfoStyle = edgeAlgToInfoManmade;
     }
     const rows = edgeAlgToInfoStyle[standardAlg].length;
     for (let i = 0; i < rows; i++) {
         const optionsDict = {};
         optionsDict["id"] = i + 1;
-        if (document.getElementById("edgestyle").value === "manmade") {
+        if (edgestylecookie === "manmade") {
             optionsDict["algorithm"] = edgeAlgToInfoStyle[standardAlg][i][0];
         } else {
             optionsDict["algorithm"] = edgeAlgToInfoStyle[standardAlg][i];

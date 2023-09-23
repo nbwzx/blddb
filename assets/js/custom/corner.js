@@ -6,6 +6,17 @@ const jsonLoaded = jsonNameList.map((name) => $.getJSON(`../assets/json/${name}.
     window[`${name}`] = json;
 }));
 
+if (getCookie("cornerstyle") === "") {
+    setCookie("cornerstyle", "nightmare", 30);
+} else {
+    document.getElementById("cornerstyle").value = getCookie("cornerstyle");
+}
+
+function switchStyle() {
+    setCookie("cornerstyle", document.getElementById("cornerstyle").value, 30);
+    algSearch();
+}
+
 function sortByCode(x, y) {
     const cornerCodeToNumber2 = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "W", "M", "N", "O", "P", "Q", "R", "S", "T", "X", "Y", "Z"];
     return (cornerCodeToNumber2.indexOf(x[1]) - cornerCodeToNumber2.indexOf(y[1])) * 24 + (cornerCodeToNumber2.indexOf(x[2]) - cornerCodeToNumber2.indexOf(y[2]));
@@ -98,23 +109,27 @@ function setSelect(alg) {
     }
     const optionsList = [];
     let cornerAlgToInfoStyle = {};
-    if (document.getElementById("cornerstyle").value === "nightmare") {
+    let cornerstylecookie = "nightmare";
+    if (getCookie("cornerstyle") !== "") {
+        cornerstylecookie = getCookie("cornerstyle");
+    }
+    if (cornerstylecookie === "nightmare") {
         cornerAlgToInfoStyle = cornerAlgToInfo;
     }
-    if (document.getElementById("cornerstyle").value === "yuanzi") {
+    if (cornerstylecookie === "yuanzi") {
         cornerAlgToInfoStyle = cornerAlgToInfoYuanzi;
     }
-    if (document.getElementById("cornerstyle").value === "balance") {
+    if (cornerstylecookie === "balance") {
         cornerAlgToInfoStyle = cornerAlgToInfoBalance;
     }
-    if (document.getElementById("cornerstyle").value === "manmade") {
+    if (cornerstylecookie === "manmade") {
         cornerAlgToInfoStyle = cornerAlgToInfoManmade;
     }
     const rows = cornerAlgToInfoStyle[standardAlg].length;
     for (let i = 0; i < rows; i++) {
         const optionsDict = {};
         optionsDict["id"] = i + 1;
-        if (document.getElementById("cornerstyle").value === "manmade") {
+        if (cornerstylecookie === "manmade") {
             optionsDict["algorithm"] = cornerAlgToInfoStyle[standardAlg][i][0];
         } else {
             optionsDict["algorithm"] = cornerAlgToInfoStyle[standardAlg][i];
