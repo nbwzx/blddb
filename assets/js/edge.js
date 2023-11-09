@@ -109,8 +109,8 @@ function algSearch() {
                 tab += `<td>${edgeAlgToInfoNew}</td>`;
                 tab += `<td>${commutator(edgeAlgToInfoNew)}</td>`;
                 tab += `<td>${fingerbeginfrom(edgeAlgToInfoNew)}</td>`;
-                tab += "</tr>";
             }
+            tab += "</tr>";
         }
         if (tab !== "") {
             if (edgestylecookie === "manmade") {
@@ -226,8 +226,8 @@ function algSearchByPos() {
                 tab += `<td>${edgeAlgToInfoNew}</td>`;
                 tab += `<td>${commutator(edgeAlgToInfoNew)}</td>`;
                 tab += `<td>${fingerbeginfrom(edgeAlgToInfoNew)}</td>`;
-                tab += "</tr>";
             }
+            tab += "</tr>";
         }
         if (tab !== "") {
             if (edgestylecookie === "manmade") {
