@@ -131,6 +131,7 @@ function algSearch() {
                     }
                 }
             } else {
+                tab += `<td>${i + 1}</td>`;
                 tab += `<td>${cornerAlgToInfoStyle[idValue][i]}</td>`;
                 tab += `<td>${commutator(cornerAlgToInfoStyle[idValue][i])}</td>`;
                 tab += `<td>${fingerbeginfrom(cornerAlgToInfoStyle[idValue][i])}</td>`;
@@ -269,6 +270,7 @@ function algSearchByPos() {
                     }
                 }
             } else {
+                tab += `<td>${i + 1}</td>`;
                 tab += `<td>${cornerAlgToInfoStyle[idValue][i]}</td>`;
                 tab += `<td>${commutator(cornerAlgToInfoStyle[idValue][i])}</td>`;
                 tab += `<td>${fingerbeginfrom(cornerAlgToInfoStyle[idValue][i])}</td>`;
