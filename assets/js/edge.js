@@ -54,13 +54,29 @@ function algSearch() {
         if (edgestylecookie === "nightmare") {
             edgeAlgToInfoStyle = edgeAlgToInfo;
         }
+        const singleList = [];
+        const groupedValues = {};
         if (edgestylecookie === "manmade") {
             edgeAlgToInfoStyle = edgeAlgToInfoManmade;
+            for (let i = 0; i < edgeAlgToInfoStyle[idValue].length; i++) {
+                const originalValue = edgeAlgToInfoStyle[idValue][i];
+                const singleValue = single(originalValue[0]);
+                // Check if the singleValue is already in the groupedValues object
+                if (groupedValues.hasOwnProperty(singleValue)) {
+                    groupedValues[singleValue].push(originalValue);
+                } else {
+                    groupedValues[singleValue] = [originalValue];
+                    singleList.push(singleValue);
+                }
+            }
         }
         if (document.getElementById("edgeinput") === document.activeElement) {
             document.getElementById("edgeinput").blur();
         }
-        const rows = edgeAlgToInfoStyle[idValue].length;
+        let rows = edgeAlgToInfoStyle[idValue].length;
+        if (edgestylecookie === "manmade") {
+            rows = singleList.length;
+        }
         let tab = "";
         let inew = 0;
         for (let i = 0; i < rows; i++) {
@@ -88,29 +104,50 @@ function algSearch() {
                 tab += "<tr>";
             }
             if (edgestylecookie === "manmade") {
-                tab += `<td>${inew}</td>`;
-                tab += `<td>${edgeAlgToInfoStyle[idValue][i][0]}</td>`;
-                tab += `<td>${commutator(edgeAlgToInfoStyle[idValue][i][0])}</td>`;
-                tab += `<td>${fingerbeginfrom(edgeAlgToInfoStyle[idValue][i][0])}</td>`;
-                let sourceElement = "";
-                for (const source of edgeAlgToInfoStyle[idValue][i][1]) {
-                    if (source in sourceToUrl) {
-                        sourceElement = `${sourceElement}<a href="${sourceToUrl[source][0]}" target="_blank">${source}</a>`;
-                    } else {
-                        sourceElement = `${sourceElement}${source}`;
-                    }
-                    if (source !== edgeAlgToInfoStyle[idValue][i][1][edgeAlgToInfoStyle[idValue][i][1].length - 1]) {
-                        sourceElement += "<br>";
+                tab += `<td rowspan="${groupedValues[singleList[i]].length}">${inew}</td>`;
+                const mergedSource = [];
+                for (let j = 0; j < groupedValues[singleList[i]].length; j++) {
+                    for (const source of groupedValues[singleList[i]][j][1]) {
+                        if (!mergedSource.includes(source)) {
+                            mergedSource.push(source);
+                        }
                     }
                 }
-                tab += `<td class="help">${edgeAlgToInfoStyle[idValue][i][1].length} <span class="help-content">${sourceElement}</span></td>`;
+                mergedSource.sort();
+                for (let j = 0; j < groupedValues[singleList[i]].length; j++) {
+                    if (j === 0) {
+                        tab += `<td>${groupedValues[singleList[i]][j][0]}</td>`;
+                    } else {
+                        tab += `<td style="border-left:0px">${groupedValues[singleList[i]][j][0]}</td>`;
+                    }
+                    tab += `<td>${commutator(groupedValues[singleList[i]][j][0])}</td>`;
+                    let sourceElement = "";
+                    for (const source of mergedSource) {
+                        if (source in sourceToUrl) {
+                            sourceElement = `${sourceElement}<a href="${sourceToUrl[source][0]}" target="_blank">${source}</a>`;
+                        } else {
+                            sourceElement = `${sourceElement}${source}`;
+                        }
+                        if (source !== mergedSource[mergedSource.length - 1]) {
+                            sourceElement += "<br>";
+                        }
+                    }
+                    if (j === 0) {
+                        tab += `<td rowspan="${groupedValues[singleList[i]].length}">${fingerbeginfrom(groupedValues[singleList[i]][j][0])}</td>`;
+                        tab += `<td class="help" rowspan="${groupedValues[singleList[i]].length}">${mergedSource.length} <span class="help-content">${sourceElement}</span></td>`;
+                    }
+                    tab += "</tr>";
+                    if (j !== groupedValues[singleList[i]].length - 1) {
+                        tab += "<tr>";
+                    }
+                }
             } else {
                 tab += `<td>${inew}</td>`;
                 tab += `<td>${edgeAlgToInfoNew}</td>`;
                 tab += `<td>${commutator(edgeAlgToInfoNew)}</td>`;
                 tab += `<td>${fingerbeginfrom(edgeAlgToInfoNew)}</td>`;
+                tab += "</tr>";
             }
-            tab += "</tr>";
         }
         if (tab !== "") {
             if (edgestylecookie === "manmade") {
@@ -174,10 +211,26 @@ function algSearchByPos() {
         if (edgestylecookie === "nightmare") {
             edgeAlgToInfoStyle = edgeAlgToInfo;
         }
+        const singleList = [];
+        const groupedValues = {};
         if (edgestylecookie === "manmade") {
             edgeAlgToInfoStyle = edgeAlgToInfoManmade;
+            for (let i = 0; i < edgeAlgToInfoStyle[idValue].length; i++) {
+                const originalValue = edgeAlgToInfoStyle[idValue][i];
+                const singleValue = single(originalValue[0]);
+                // Check if the singleValue is already in the groupedValues object
+                if (groupedValues.hasOwnProperty(singleValue)) {
+                    groupedValues[singleValue].push(originalValue);
+                } else {
+                    groupedValues[singleValue] = [originalValue];
+                    singleList.push(singleValue);
+                }
+            }
         }
-        const rows = edgeAlgToInfoStyle[idValue].length;
+        let rows = edgeAlgToInfoStyle[idValue].length;
+        if (edgestylecookie === "manmade") {
+            rows = singleList.length;
+        }
         let tab = "";
         let inew = 0;
         for (let i = 0; i < rows; i++) {
@@ -205,29 +258,50 @@ function algSearchByPos() {
                 tab += "<tr>";
             }
             if (edgestylecookie === "manmade") {
-                tab += `<td>${inew}</td>`;
-                tab += `<td>${edgeAlgToInfoStyle[idValue][i][0]}</td>`;
-                tab += `<td>${commutator(edgeAlgToInfoStyle[idValue][i][0])}</td>`;
-                tab += `<td>${fingerbeginfrom(edgeAlgToInfoStyle[idValue][i][0])}</td>`;
-                let sourceElement = "";
-                for (const source of edgeAlgToInfoStyle[idValue][i][1]) {
-                    if (source in sourceToUrl) {
-                        sourceElement = `${sourceElement}<a href="${sourceToUrl[source][0]}" target="_blank">${source}</a>`;
-                    } else {
-                        sourceElement = `${sourceElement}${source}`;
-                    }
-                    if (source !== edgeAlgToInfoStyle[idValue][i][1][edgeAlgToInfoStyle[idValue][i][1].length - 1]) {
-                        sourceElement += "<br>";
+                tab += `<td rowspan="${groupedValues[singleList[i]].length}">${inew}</td>`;
+                const mergedSource = [];
+                for (let j = 0; j < groupedValues[singleList[i]].length; j++) {
+                    for (const source of groupedValues[singleList[i]][j][1]) {
+                        if (!mergedSource.includes(source)) {
+                            mergedSource.push(source);
+                        }
                     }
                 }
-                tab += `<td class="help">${edgeAlgToInfoStyle[idValue][i][1].length} <span class="help-content">${sourceElement}</span></td>`;
+                mergedSource.sort();
+                for (let j = 0; j < groupedValues[singleList[i]].length; j++) {
+                    if (j === 0) {
+                        tab += `<td>${groupedValues[singleList[i]][j][0]}</td>`;
+                    } else {
+                        tab += `<td style="border-left:0px">${groupedValues[singleList[i]][j][0]}</td>`;
+                    }
+                    tab += `<td>${commutator(groupedValues[singleList[i]][j][0])}</td>`;
+                    let sourceElement = "";
+                    for (const source of mergedSource) {
+                        if (source in sourceToUrl) {
+                            sourceElement = `${sourceElement}<a href="${sourceToUrl[source][0]}" target="_blank">${source}</a>`;
+                        } else {
+                            sourceElement = `${sourceElement}${source}`;
+                        }
+                        if (source !== mergedSource[mergedSource.length - 1]) {
+                            sourceElement += "<br>";
+                        }
+                    }
+                    if (j === 0) {
+                        tab += `<td rowspan="${groupedValues[singleList[i]].length}">${fingerbeginfrom(groupedValues[singleList[i]][j][0])}</td>`;
+                        tab += `<td class="help" rowspan="${groupedValues[singleList[i]].length}">${mergedSource.length} <span class="help-content">${sourceElement}</span></td>`;
+                    }
+                    tab += "</tr>";
+                    if (j !== groupedValues[singleList[i]].length - 1) {
+                        tab += "<tr>";
+                    }
+                }
             } else {
                 tab += `<td>${inew}</td>`;
                 tab += `<td>${edgeAlgToInfoNew}</td>`;
                 tab += `<td>${commutator(edgeAlgToInfoNew)}</td>`;
                 tab += `<td>${fingerbeginfrom(edgeAlgToInfoNew)}</td>`;
+                tab += "</tr>";
             }
-            tab += "</tr>";
         }
         if (tab !== "") {
             if (edgestylecookie === "manmade") {

@@ -59,11 +59,27 @@ function algSearch() {
             cornerAlgToInfoStyle = cornerAlgToInfoBalance;
             cornerAlgToStyle = cornerAlgToBalance;
         }
+        const singleList = [];
+        const groupedValues = {};
         if (cornerstylecookie === "manmade") {
             cornerAlgToInfoStyle = cornerAlgToInfoManmade;
+            for (let i = 0; i < cornerAlgToInfoStyle[idValue].length; i++) {
+                const originalValue = cornerAlgToInfoStyle[idValue][i];
+                const singleValue = single(originalValue[0]);
+                // Check if the singleValue is already in the groupedValues object
+                if (groupedValues.hasOwnProperty(singleValue)) {
+                    groupedValues[singleValue].push(originalValue);
+                } else {
+                    groupedValues[singleValue] = [originalValue];
+                    singleList.push(singleValue);
+                }
+            }
         }
         document.getElementById("cornerinput").blur();
-        const rows = cornerAlgToInfoStyle[idValue].length;
+        let rows = cornerAlgToInfoStyle[idValue].length;
+        if (cornerstylecookie === "manmade") {
+            rows = singleList.length;
+        }
         let tab = "";
         if (cornerstylecookie === "manmade") {
             tab = `<table id="table"><thead><tr><th>${arrLang[lang]["no"]}</th><th>${arrLang[lang]["algorithm"]}</th><th>${arrLang[lang]["commutator"]}</th><th>${arrLang[lang]["thumbPosition"]}</th><th>${arrLang[lang]["source"]}</th></tr></thead><tbody>`;
@@ -76,23 +92,44 @@ function algSearch() {
             } else {
                 tab += "<tr>";
             }
-            tab += `<td>${i + 1}</td>`;
             if (cornerstylecookie === "manmade") {
-                tab += `<td>${cornerAlgToInfoStyle[idValue][i][0]}</td>`;
-                tab += `<td>${commutator(cornerAlgToInfoStyle[idValue][i][0])}</td>`;
-                tab += `<td>${fingerbeginfrom(cornerAlgToInfoStyle[idValue][i][0])}</td>`;
-                let sourceElement = "";
-                for (const source of cornerAlgToInfoStyle[idValue][i][1]) {
-                    if (source in sourceToUrl) {
-                        sourceElement = `${sourceElement}<a href="${sourceToUrl[source][sourceToUrl[source].length - 1]}" target="_blank">${source}</a>`;
-                    } else {
-                        sourceElement = `${sourceElement}${source}`;
-                    }
-                    if (source !== cornerAlgToInfoStyle[idValue][i][1][cornerAlgToInfoStyle[idValue][i][1].length - 1]) {
-                        sourceElement += "<br>";
+                tab += `<td rowspan="${groupedValues[singleList[i]].length}">${i + 1}</td>`;
+                const mergedSource = [];
+                for (let j = 0; j < groupedValues[singleList[i]].length; j++) {
+                    for (const source of groupedValues[singleList[i]][j][1]) {
+                        if (!mergedSource.includes(source)) {
+                            mergedSource.push(source);
+                        }
                     }
                 }
-                tab += `<td class="help">${cornerAlgToInfoStyle[idValue][i][1].length} <span class="help-content">${sourceElement}</span></td>`;
+                mergedSource.sort();
+                for (let j = 0; j < groupedValues[singleList[i]].length; j++) {
+                    if (j === 0) {
+                        tab += `<td>${groupedValues[singleList[i]][j][0]}</td>`;
+                    } else {
+                        tab += `<td style="border-left:0px">${groupedValues[singleList[i]][j][0]}</td>`;
+                    }
+                    tab += `<td>${commutator(groupedValues[singleList[i]][j][0])}</td>`;
+                    let sourceElement = "";
+                    for (const source of mergedSource) {
+                        if (source in sourceToUrl) {
+                            sourceElement = `${sourceElement}<a href="${sourceToUrl[source][0]}" target="_blank">${source}</a>`;
+                        } else {
+                            sourceElement = `${sourceElement}${source}`;
+                        }
+                        if (source !== mergedSource[mergedSource.length - 1]) {
+                            sourceElement += "<br>";
+                        }
+                    }
+                    if (j === 0) {
+                        tab += `<td rowspan="${groupedValues[singleList[i]].length}">${fingerbeginfrom(groupedValues[singleList[i]][j][0])}</td>`;
+                        tab += `<td class="help" rowspan="${groupedValues[singleList[i]].length}">${mergedSource.length} <span class="help-content">${sourceElement}</span></td>`;
+                    }
+                    tab += "</tr>";
+                    if (j !== groupedValues[singleList[i]].length - 1) {
+                        tab += "<tr>";
+                    }
+                }
             } else {
                 tab += `<td>${cornerAlgToInfoStyle[idValue][i]}</td>`;
                 tab += `<td>${commutator(cornerAlgToInfoStyle[idValue][i])}</td>`;
@@ -161,10 +198,26 @@ function algSearchByPos() {
             cornerAlgToInfoStyle = cornerAlgToInfoBalance;
             cornerAlgToStyle = cornerAlgToBalance;
         }
+        const singleList = [];
+        const groupedValues = {};
         if (cornerstylecookie === "manmade") {
             cornerAlgToInfoStyle = cornerAlgToInfoManmade;
+            for (let i = 0; i < cornerAlgToInfoStyle[idValue].length; i++) {
+                const originalValue = cornerAlgToInfoStyle[idValue][i];
+                const singleValue = single(originalValue[0]);
+                // Check if the singleValue is already in the groupedValues object
+                if (groupedValues.hasOwnProperty(singleValue)) {
+                    groupedValues[singleValue].push(originalValue);
+                } else {
+                    groupedValues[singleValue] = [originalValue];
+                    singleList.push(singleValue);
+                }
+            }
         }
-        const rows = cornerAlgToInfoStyle[idValue].length;
+        let rows = cornerAlgToInfoStyle[idValue].length;
+        if (cornerstylecookie === "manmade") {
+            rows = singleList.length;
+        }
         let tab = "";
         if (cornerstylecookie === "manmade") {
             tab = `<table id="table"><thead><tr><th>${arrLang[lang]["no"]}</th><th>${arrLang[lang]["algorithm"]}</th><th>${arrLang[lang]["commutator"]}</th><th>${arrLang[lang]["thumbPosition"]}</th><th>${arrLang[lang]["source"]}</th></tr></thead><tbody>`;
@@ -177,23 +230,44 @@ function algSearchByPos() {
             } else {
                 tab += "<tr>";
             }
-            tab += `<td>${i + 1}</td>`;
             if (cornerstylecookie === "manmade") {
-                tab += `<td>${cornerAlgToInfoStyle[idValue][i][0]}</td>`;
-                tab += `<td>${commutator(cornerAlgToInfoStyle[idValue][i][0])}</td>`;
-                tab += `<td>${fingerbeginfrom(cornerAlgToInfoStyle[idValue][i][0])}</td>`;
-                let sourceElement = "";
-                for (const source of cornerAlgToInfoStyle[idValue][i][1]) {
-                    if (source in sourceToUrl) {
-                        sourceElement = `${sourceElement}<a href="${sourceToUrl[source][sourceToUrl[source].length - 1]}" target="_blank">${source}</a>`;
-                    } else {
-                        sourceElement = `${sourceElement}${source}`;
-                    }
-                    if (source !== cornerAlgToInfoStyle[idValue][i][1][cornerAlgToInfoStyle[idValue][i][1].length - 1]) {
-                        sourceElement += "<br>";
+                tab += `<td rowspan="${groupedValues[singleList[i]].length}">${i + 1}</td>`;
+                const mergedSource = [];
+                for (let j = 0; j < groupedValues[singleList[i]].length; j++) {
+                    for (const source of groupedValues[singleList[i]][j][1]) {
+                        if (!mergedSource.includes(source)) {
+                            mergedSource.push(source);
+                        }
                     }
                 }
-                tab += `<td class="help">${cornerAlgToInfoStyle[idValue][i][1].length} <span class="help-content">${sourceElement}</span></td>`;
+                mergedSource.sort();
+                for (let j = 0; j < groupedValues[singleList[i]].length; j++) {
+                    if (j === 0) {
+                        tab += `<td>${groupedValues[singleList[i]][j][0]}</td>`;
+                    } else {
+                        tab += `<td style="border-left:0px">${groupedValues[singleList[i]][j][0]}</td>`;
+                    }
+                    tab += `<td>${commutator(groupedValues[singleList[i]][j][0])}</td>`;
+                    let sourceElement = "";
+                    for (const source of mergedSource) {
+                        if (source in sourceToUrl) {
+                            sourceElement = `${sourceElement}<a href="${sourceToUrl[source][0]}" target="_blank">${source}</a>`;
+                        } else {
+                            sourceElement = `${sourceElement}${source}`;
+                        }
+                        if (source !== mergedSource[mergedSource.length - 1]) {
+                            sourceElement += "<br>";
+                        }
+                    }
+                    if (j === 0) {
+                        tab += `<td rowspan="${groupedValues[singleList[i]].length}">${fingerbeginfrom(groupedValues[singleList[i]][j][0])}</td>`;
+                        tab += `<td class="help" rowspan="${groupedValues[singleList[i]].length}">${mergedSource.length} <span class="help-content">${sourceElement}</span></td>`;
+                    }
+                    tab += "</tr>";
+                    if (j !== groupedValues[singleList[i]].length - 1) {
+                        tab += "<tr>";
+                    }
+                }
             } else {
                 tab += `<td>${cornerAlgToInfoStyle[idValue][i]}</td>`;
                 tab += `<td>${commutator(cornerAlgToInfoStyle[idValue][i])}</td>`;
