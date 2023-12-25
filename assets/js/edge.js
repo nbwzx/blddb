@@ -43,127 +43,12 @@ function algSearch() {
     document.getElementById("edgeinput2").value = edgeCodeToPos[id[1]];
     document.getElementById("edgeinput3").value = edgeCodeToPos[id[2]];
     let idValue = edgeAlgToStandard[`${id[0]}${id[1]}${id[2]}`];
-    const div1 = document.getElementById("div1");
     const setup = arrayToStr(algToArray(document.getElementById("edgesetup").value));
     if (setup.length > 0 && edgeAlgToInfo.hasOwnProperty(idValue)) {
         const edgefullstr = edgefull(arrayToStr(algToArray(`${arrayToStr(invert(algToArray(setup)))} ${edgeAlgToNightmare[idValue]} ${setup}`)));
         idValue = edgeAlgToStandard[edgefullstr[0] + edgefullstr[2] + edgefullstr[1]];
     }
-    if (edgeAlgToInfo.hasOwnProperty(idValue)) {
-        let edgeAlgToInfoStyle = {};
-        if (edgestylecookie === "nightmare") {
-            edgeAlgToInfoStyle = edgeAlgToInfo;
-        }
-        const singleList = [];
-        const groupedValues = {};
-        if (edgestylecookie === "manmade") {
-            edgeAlgToInfoStyle = edgeAlgToInfoManmade;
-            for (let i = 0; i < edgeAlgToInfoStyle[idValue].length; i++) {
-                const originalValue = edgeAlgToInfoStyle[idValue][i];
-                const singleValue = single(originalValue[0]);
-                // Check if the singleValue is already in the groupedValues object
-                if (groupedValues.hasOwnProperty(singleValue)) {
-                    groupedValues[singleValue].push(originalValue);
-                } else {
-                    groupedValues[singleValue] = [originalValue];
-                    singleList.push(singleValue);
-                }
-            }
-        }
-        if (document.getElementById("edgeinput") === document.activeElement) {
-            document.getElementById("edgeinput").blur();
-        }
-        let rows = edgeAlgToInfoStyle[idValue].length;
-        if (edgestylecookie === "manmade") {
-            rows = singleList.length;
-        }
-        let tab = "";
-        let inew = 0;
-        for (let i = 0; i < rows; i++) {
-            let edgeAlgToInfoNew = "";
-            if (setup.length > 0) {
-                if (edgestylecookie === "manmade") {
-                    div1.innerHTML = "";
-                    return;
-                }
-                edgeAlgToInfoNew = arrayToStr(algToArray(`${setup} ${edgeAlgToInfoStyle[idValue][i]} ${arrayToStr(invert(algToArray(setup)))}`));
-                if (isnightmare(edgeAlgToInfoNew) === 0) {
-                    continue;
-                }
-                if (stm(edgeAlgToInfoNew) + 1 < stm(arrayToStr(algToArray(`${edgeAlgToInfoStyle[idValue][i]} ${arrayToStr(invert(algToArray(setup)))}`))) + stm(setup)) {
-                    continue;
-                }
-                inew = inew + 1;
-            } else {
-                edgeAlgToInfoNew = edgeAlgToInfoStyle[idValue][i];
-                inew = inew + 1;
-            }
-            if (edgestylecookie !== "manmade" && edgeAlgToInfoNew === edgeAlgToNightmare[edgeAlgToStandard[`${id[0]}${id[1]}${id[2]}`]]) {
-                tab += "<tr bgcolor=\"#D0D0D0\">";
-            } else {
-                tab += "<tr>";
-            }
-            if (edgestylecookie === "manmade") {
-                tab += `<td rowspan="${groupedValues[singleList[i]].length}">${inew}</td>`;
-                const mergedSource = [];
-                for (let j = 0; j < groupedValues[singleList[i]].length; j++) {
-                    for (const source of groupedValues[singleList[i]][j][1]) {
-                        if (!mergedSource.includes(source)) {
-                            mergedSource.push(source);
-                        }
-                    }
-                }
-                mergedSource.sort();
-                for (let j = 0; j < groupedValues[singleList[i]].length; j++) {
-                    if (j === 0) {
-                        tab += `<td>${groupedValues[singleList[i]][j][0]}</td>`;
-                    } else {
-                        tab += `<td style="border-left:0px">${groupedValues[singleList[i]][j][0]}</td>`;
-                    }
-                    tab += `<td>${commutator(groupedValues[singleList[i]][j][0])}</td>`;
-                    let sourceElement = "";
-                    for (const source of mergedSource) {
-                        if (source in sourceToUrl) {
-                            sourceElement = `${sourceElement}<a href="${sourceToUrl[source][0]}" target="_blank">${source}</a>`;
-                        } else {
-                            sourceElement = `${sourceElement}${source}`;
-                        }
-                        if (source !== mergedSource[mergedSource.length - 1]) {
-                            sourceElement += "<br>";
-                        }
-                    }
-                    if (j === 0) {
-                        tab += `<td rowspan="${groupedValues[singleList[i]].length}">${fingerbeginfrom(groupedValues[singleList[i]][j][0])}</td>`;
-                        tab += `<td class="help" rowspan="${groupedValues[singleList[i]].length}">${mergedSource.length} <span class="help-content">${sourceElement}</span></td>`;
-                    }
-                    tab += "</tr>";
-                    if (j !== groupedValues[singleList[i]].length - 1) {
-                        tab += "<tr>";
-                    }
-                }
-            } else {
-                tab += `<td>${inew}</td>`;
-                tab += `<td>${edgeAlgToInfoNew}</td>`;
-                tab += `<td>${commutator(edgeAlgToInfoNew)}</td>`;
-                tab += `<td>${fingerbeginfrom(edgeAlgToInfoNew)}</td>`;
-                tab += "</tr>";
-            }
-        }
-        if (tab !== "") {
-            if (edgestylecookie === "manmade") {
-                tab = `<table id="table"><thead><tr><th>${arrLang[lang]["no"]}</th><th>${arrLang[lang]["algorithm"]}</th><th>${arrLang[lang]["commutator"]}</th><th>${arrLang[lang]["thumbPosition"]}</th><th>${arrLang[lang]["source"]}</th></tr></thead><tbody>${tab}</tbody></table>`;
-            } else {
-                tab = `<table id="table"><thead><tr><th>${arrLang[lang]["no"]}</th><th>${arrLang[lang]["algorithm"]}</th><th>${arrLang[lang]["commutator"]}</th><th>${arrLang[lang]["thumbPosition"]}</th></tr></thead><tbody>${tab}</tbody></table>`;
-            }
-        }
-        div1.innerHTML = tab;
-    } else {
-        div1.innerHTML = "";
-    }
-    const r = $("#table").width() / $("#div1").width();
-    if (r > 1) {
-        $("#table").css("font-size", 16 / r);
-    }
+    algSearchMain(idValue, setup, id, edgestylecookie);
 }
 
 function algSearchByPos() {
@@ -200,12 +85,16 @@ function algSearchByPos() {
         edgestylecookie = getCookie("edgestyle");
     }
     document.getElementById("edgeinput").value = `${edgeinput[0]}${edgeinput[1]}${edgeinput[2]}`;
-    const div1 = document.getElementById("div1");
     const setup = arrayToStr(algToArray(document.getElementById("edgesetup").value));
     if (setup.length > 0 && edgeAlgToInfo.hasOwnProperty(idValue)) {
         const edgefullstr = edgefull(arrayToStr(algToArray(`${arrayToStr(invert(algToArray(setup)))} ${edgeAlgToNightmare[idValue]} ${setup}`)));
         idValue = edgeAlgToStandard[edgefullstr[0] + edgefullstr[2] + edgefullstr[1]];
     }
+    algSearchMain(idValue, setup, id, edgestylecookie);
+}
+
+function algSearchMain(idValue, setup, id, edgestylecookie) {
+    const div1 = document.getElementById("div1");
     if (edgeAlgToInfo.hasOwnProperty(idValue)) {
         let edgeAlgToInfoStyle = {};
         if (edgestylecookie === "nightmare") {
@@ -226,6 +115,9 @@ function algSearchByPos() {
                     singleList.push(singleValue);
                 }
             }
+        }
+        if (document.getElementById("edgeinput") === document.activeElement) {
+            document.getElementById("edgeinput").blur();
         }
         let rows = edgeAlgToInfoStyle[idValue].length;
         if (edgestylecookie === "manmade") {

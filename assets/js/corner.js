@@ -43,110 +43,7 @@ function algSearch() {
     document.getElementById("cornerinput2").value = cornerCodeToPos[id[1]];
     document.getElementById("cornerinput3").value = cornerCodeToPos[id[2]];
     const idValue = cornerAlgToStandard[`${id[0]}${id[1]}${id[2]}`];
-    const div1 = document.getElementById("div1");
-    if (cornerAlgToInfo.hasOwnProperty(idValue)) {
-        let cornerAlgToInfoStyle = {};
-        let cornerAlgToStyle = {};
-        if (cornerstylecookie === "nightmare") {
-            cornerAlgToInfoStyle = cornerAlgToInfo;
-            cornerAlgToStyle = cornerAlgToNightmare;
-        }
-        if (cornerstylecookie === "yuanzi") {
-            cornerAlgToInfoStyle = cornerAlgToInfoYuanzi;
-            cornerAlgToStyle = cornerAlgToYuanzi;
-        }
-        if (cornerstylecookie === "balance") {
-            cornerAlgToInfoStyle = cornerAlgToInfoBalance;
-            cornerAlgToStyle = cornerAlgToBalance;
-        }
-        const singleList = [];
-        const groupedValues = {};
-        if (cornerstylecookie === "manmade") {
-            cornerAlgToInfoStyle = cornerAlgToInfoManmade;
-            for (let i = 0; i < cornerAlgToInfoStyle[idValue].length; i++) {
-                const originalValue = cornerAlgToInfoStyle[idValue][i];
-                const singleValue = single(originalValue[0]);
-                // Check if the singleValue is already in the groupedValues object
-                if (groupedValues.hasOwnProperty(singleValue)) {
-                    groupedValues[singleValue].push(originalValue);
-                } else {
-                    groupedValues[singleValue] = [originalValue];
-                    singleList.push(singleValue);
-                }
-            }
-        }
-        document.getElementById("cornerinput").blur();
-        let rows = cornerAlgToInfoStyle[idValue].length;
-        if (cornerstylecookie === "manmade") {
-            rows = singleList.length;
-        }
-        let tab = "";
-        if (cornerstylecookie === "manmade") {
-            tab = `<table id="table"><thead><tr><th>${arrLang[lang]["no"]}</th><th>${arrLang[lang]["algorithm"]}</th><th>${arrLang[lang]["commutator"]}</th><th>${arrLang[lang]["thumbPosition"]}</th><th>${arrLang[lang]["source"]}</th></tr></thead><tbody>`;
-        } else {
-            tab = `<table id="table"><thead><tr><th>${arrLang[lang]["no"]}</th><th>${arrLang[lang]["algorithm"]}</th><th>${arrLang[lang]["commutator"]}</th><th>${arrLang[lang]["thumbPosition"]}</th></tr></thead><tbody>`;
-        }
-        for (let i = 0; i < rows; i++) {
-            if (cornerstylecookie !== "manmade" && cornerAlgToInfoStyle[idValue][i] === cornerAlgToStyle[idValue]) {
-                tab += "<tr bgcolor=\"#D0D0D0\">";
-            } else {
-                tab += "<tr>";
-            }
-            if (cornerstylecookie === "manmade") {
-                tab += `<td rowspan="${groupedValues[singleList[i]].length}">${i + 1}</td>`;
-                const mergedSource = [];
-                for (let j = 0; j < groupedValues[singleList[i]].length; j++) {
-                    for (const source of groupedValues[singleList[i]][j][1]) {
-                        if (!mergedSource.includes(source)) {
-                            mergedSource.push(source);
-                        }
-                    }
-                }
-                mergedSource.sort();
-                for (let j = 0; j < groupedValues[singleList[i]].length; j++) {
-                    if (j === 0) {
-                        tab += `<td>${groupedValues[singleList[i]][j][0]}</td>`;
-                    } else {
-                        tab += `<td style="border-left:0px">${groupedValues[singleList[i]][j][0]}</td>`;
-                    }
-                    tab += `<td>${commutator(groupedValues[singleList[i]][j][0])}</td>`;
-                    let sourceElement = "";
-                    for (const source of mergedSource) {
-                        if (source in sourceToUrl) {
-                            sourceElement = `${sourceElement}<a href="${sourceToUrl[source][0]}" target="_blank">${source}</a>`;
-                        } else {
-                            sourceElement = `${sourceElement}${source}`;
-                        }
-                        if (source !== mergedSource[mergedSource.length - 1]) {
-                            sourceElement += "<br>";
-                        }
-                    }
-                    if (j === 0) {
-                        tab += `<td rowspan="${groupedValues[singleList[i]].length}">${fingerbeginfrom(groupedValues[singleList[i]][j][0])}</td>`;
-                        tab += `<td class="help" rowspan="${groupedValues[singleList[i]].length}">${mergedSource.length} <span class="help-content">${sourceElement}</span></td>`;
-                    }
-                    tab += "</tr>";
-                    if (j !== groupedValues[singleList[i]].length - 1) {
-                        tab += "<tr>";
-                    }
-                }
-            } else {
-                tab += `<td>${i + 1}</td>`;
-                tab += `<td>${cornerAlgToInfoStyle[idValue][i]}</td>`;
-                tab += `<td>${commutator(cornerAlgToInfoStyle[idValue][i])}</td>`;
-                tab += `<td>${fingerbeginfrom(cornerAlgToInfoStyle[idValue][i])}</td>`;
-            }
-            tab += "</tr>";
-        }
-        tab += "</tbody></table>";
-        div1.innerHTML = tab;
-    } else {
-        div1.innerHTML = "";
-    }
-    const r = $("#table").width() / $("#div1").width();
-    if (r > 1) {
-        $("#table").css("font-size", 16 / r);
-    }
+    algSearchMain(idValue, cornerstylecookie);
 }
 
 function algSearchByPos() {
@@ -183,6 +80,10 @@ function algSearchByPos() {
         cornerstylecookie = getCookie("cornerstyle");
     }
     document.getElementById("cornerinput").value = `${cornerinput[0]}${cornerinput[1]}${cornerinput[2]}`;
+    algSearchMain(idValue, cornerstylecookie);
+}
+
+function algSearchMain(idValue, cornerstylecookie) {
     const div1 = document.getElementById("div1");
     if (cornerAlgToInfo.hasOwnProperty(idValue)) {
         let cornerAlgToInfoStyle = {};
@@ -214,6 +115,9 @@ function algSearchByPos() {
                     singleList.push(singleValue);
                 }
             }
+        }
+        if (document.getElementById("cornerinput") === document.activeElement) {
+            document.getElementById("cornerinput").blur();
         }
         let rows = cornerAlgToInfoStyle[idValue].length;
         if (cornerstylecookie === "manmade") {
