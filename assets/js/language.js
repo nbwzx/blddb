@@ -18,6 +18,10 @@ const arrLang = {
         "parityHint": "Please enter the parity you want to solve",
         "2e2eHint": "Please enter the positions you want to swap",
         "5styleHint": "Please enter 5 letter pairs (buffer-position1-position2-position3-position4) you want to query (eg. ACEGJ)",
+        "wingHint": "Please enter 3 letter pairs (buffer-position1-position2) you want to query (eg. ACG)",
+        "midgeHint": "Please enter 3 letter pairs (buffer-position1-position2) you want to query (eg. ACG)",
+        "xcenterHint": "Please enter 3 letter pairs (buffer-position1-position2) you want to query (eg. JAB)",
+        "tcenterHint": "Please enter 3 letter pairs (buffer-position1-position2) you want to query (eg. ACF)",
         "position": "Position: ",
         "pairs": "Letter Pairs: ",
         "setup": "Set up: ",
@@ -98,7 +102,12 @@ const arrLang = {
         "customCorner": "3-Style Corner",
         "customUpfile": "Import Local Excel",
         "customDownfile": "Export Excel",
-        "customClear": "Clear"
+        "customClear": "Clear",
+        "bigbld": "BigBLD Alg Set",
+        "wing": "Wing",
+        "midge": "Midge",
+        "xcenter": "X-center",
+        "tcenter": "T-center"
     },
     "zh": {
         "title": "三盲公式库",
@@ -119,6 +128,10 @@ const arrLang = {
         "parityHint": "请在下方输入你要查询的奇偶公式",
         "2e2eHint": "请在下方选择你要查询的 2e2e 公式",
         "5styleHint": "请在下方输入你要查询的五循环公式",
+        "wingHint": "请在下方输入你要查询的公式编码（例如: ACG）",
+        "midgeHint": "请在下方输入你要查询的公式编码（例如: ACG）",
+        "xcenterHint": "请在下方输入你要查询的公式编码（例如: JAB）",
+        "tcenterHint": "请在下方输入你要查询的公式编码（例如: ACF）",
         "position": "位置类：",
         "pairs": "公式查询：",
         "setup": "Set up：",
@@ -199,7 +212,12 @@ const arrLang = {
         "customCorner": "角块公式集",
         "customUpfile": "导入本地 Excel",
         "customDownfile": "导出为 Excel",
-        "customClear": "清空"
+        "customClear": "清空",
+        "bigbld": "高盲公式库",
+        "wing": "翼棱公式库",
+        "midge": "中棱公式库",
+        "xcenter": "角心公式库",
+        "tcenter": "边心公式库"
     },
     "ja": {
         "title": "3BLD手順データベース",
@@ -220,6 +238,10 @@ const arrLang = {
         "parityHint": "解決したいパリティを入力してください",
         "2e2eHint": "交換したい位置を入力してください",
         "5styleHint": "検索したい5ナンバリング（バッファ-位置1-位置2-位置3-位置4）を入力してください（例：ACEGJ）",
+        "wingHint": "検索したい3ナンバリング（バッファ-位置1-位置2）を入力してください（例：ACG）",
+        "midgeHint": "検索したい3ナンバリング（バッファ-位置1-位置2）を入力してください（例：ACG）",
+        "xcenterHint": "検索したい3ナンバリング（バッファ-位置1-位置2）を入力してください（例：JAB）",
+        "tcenterHint": "検索したい3ナンバリング（バッファ-位置1-位置2）を入力してください（例：ACF）",
         "position": "ステッカー：",
         "pairs": "ナンバリング：",
         "setup": "Set up：",
@@ -300,7 +322,12 @@ const arrLang = {
         "customCorner": "3-Styleコーナー",
         "customUpfile": "Excelファイルをインポート",
         "customDownfile": "Excelファイルにエクスポート",
-        "customClear": "クリア"
+        "customClear": "クリア",
+        "bigbld": "BigBLD Alg Set",
+        "wing": "Wing",
+        "midge": "Midge",
+        "xcenter": "X-center",
+        "tcenter": "T-center"
     }
 };
 
