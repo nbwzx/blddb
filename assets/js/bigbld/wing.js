@@ -1,17 +1,46 @@
 "use strict";
 
 $.ajaxSettings.async = false;
-const jsonNameList = ["bigbldWingAlgToInfoManmade", "bigbldSourceToUrl", "bidbldWingCodeToPos", "bidbldWingPosToCode"];
-const jsonNameListPre = {"bigbldWingAlgToInfoManmade":"bigbld/bigbldWingAlgToInfoManmade", "bigbldSourceToUrl":"bigbld/bigbldSourceToUrl", "bidbldWingCodeToPos":"bigbld/bidbldWingCodeToPos", "bidbldWingPosToCode":"bigbld/bidbldWingPosToCode"};
+const jsonNameList = ["bigbldWingAlgToInfoManmade", "bigbldSourceToUrl", "bidbldWingCodeToPos", "bidbldWingPosToCode", "bigbldWingChichuToNumber", "bigbldWingChichuToNumber1", "bidbldWingCodeToPos1", "bidbldWingPosToCode1"];
+const jsonNameListPre = {"bigbldWingAlgToInfoManmade":"bigbld/bigbldWingAlgToInfoManmade", "bigbldSourceToUrl":"bigbld/bigbldSourceToUrl", "bidbldWingCodeToPos":"bigbld/bidbldWingCodeToPos", "bidbldWingPosToCode":"bigbld/bidbldWingPosToCode", "bigbldWingChichuToNumber":"bigbld/bigbldWingChichuToNumber", "bigbldWingChichuToNumber1":"bigbld/bigbldWingChichuToNumber1", "bidbldWingCodeToPos1":"bigbld/bidbldWingCodeToPos1", "bidbldWingPosToCode1":"bigbld/bidbldWingPosToCode1"};
 const jsonLoaded = jsonNameList.map((name) => $.getJSON(`../assets/json/${jsonNameListPre[name]}.json`, (json) => {
     window[`${name}`] = json;
 }));
 
-// if (getCookie("cornerstyle") === "") {
-//     setCookie("cornerstyle", "nightmare", 30);
-// } else {
-//     document.getElementById("cornerstyle").value = getCookie("cornerstyle");
-// }
+if (getCookie("codeBig") !== "") {
+    // Non-standard
+    if (getCookie("codeBig")[1] === " ") {
+        for (let i = 1; i <= 3; i++) {
+            document.getElementById(`cornerinput${i}`).innerHTML = `
+            <option></option>
+            <option>UBr</option>
+            <option>URf</option>
+            <option>UFl</option>
+            <option>ULb</option>
+            <option>LUf</option>
+            <option>LFd</option>
+            <option>LDb</option>
+            <option>LBu</option>
+            <option>FUr</option>
+            <option>FRd</option>
+            <option>FDl</option>
+            <option>FLu</option>
+            <option>RUb</option>
+            <option>RBd</option>
+            <option>RDf</option>
+            <option>RFu</option>
+            <option>BUl</option>
+            <option>BLd</option>
+            <option>BDr</option>
+            <option>BRu</option>
+            <option>DFr</option>
+            <option>DRb</option>
+            <option>DBl</option>
+            <option>DLf</option>
+            `;
+        }
+    }
+}
 
 function switchStyle() {
     setCookie("cornerstyle", document.getElementById("cornerstyle").value, 30);
@@ -25,9 +54,33 @@ function algSearch() {
     }
     idValueOrigin = idValueOrigin.toUpperCase();
     const id = [idValueOrigin[0], idValueOrigin[1], idValueOrigin[2]];
-    document.getElementById("cornerinput1").value = bidbldWingCodeToPos[id[0]];
-    document.getElementById("cornerinput2").value = bidbldWingCodeToPos[id[1]];
-    document.getElementById("cornerinput3").value = bidbldWingCodeToPos[id[2]];
+    let codecookie = "DEE G DEGGCCGGCAAJ A AAJWII X WIXOKKOOKOMR O MMREDD C EDCTXXTTXQLM Q LLMKHH I KHIZRRZZRZPS Z PPSBBB L BBLQSSQQSNJY N JJYHFF F HFFWYYWWYTNP T NNP";
+    if (getCookie("codeBig") !== "") {
+        codecookie = getCookie("codeBig");
+    }
+    if (getCookie("codeBig")[1] === " ") {
+        for (const i in bigbldWingChichuToNumber1) {
+            for (let j = 0; j <= 2; j++) {
+                if (codecookie[bigbldWingChichuToNumber1[i]] === idValueOrigin[j]) {
+                    id[j] = i;
+                }
+            }
+        }
+        document.getElementById("cornerinput1").value = bidbldWingCodeToPos1[id[0]];
+        document.getElementById("cornerinput2").value = bidbldWingCodeToPos1[id[1]];
+        document.getElementById("cornerinput3").value = bidbldWingCodeToPos1[id[2]];
+    } else {
+        for (const i in bigbldWingChichuToNumber) {
+            for (let j = 0; j <= 2; j++) {
+                if (codecookie[bigbldWingChichuToNumber[i]] === idValueOrigin[j]) {
+                    id[j] = i;
+                }
+            }
+        }
+        document.getElementById("cornerinput1").value = bidbldWingCodeToPos[id[0]];
+        document.getElementById("cornerinput2").value = bidbldWingCodeToPos[id[1]];
+        document.getElementById("cornerinput3").value = bidbldWingCodeToPos[id[2]];
+    }
     let idValue = `${id[0]}${id[1]}${id[2]}`;
     if (!bigbldWingAlgToInfoManmade.hasOwnProperty(idValue)) {
         idValue = `${id[1]}${id[2]}${id[0]}`;
@@ -39,10 +92,20 @@ function algSearch() {
 }
 
 function algSearchByPos() {
+    let codecookie = "DEE G DEGGCCGGCAAJ A AAJWII X WIXOKKOOKOMR O MMREDD C EDCTXXTTXQLM Q LLMKHH I KHIZRRZZRZPS Z PPSBBB L BBLQSSQQSNJY N JJYHFF F HFFWYYWWYTNP T NNP";
+    if (getCookie("codeBig") !== "") {
+        codecookie = getCookie("codeBig");
+    }
     const id = [];
-    id[0] = bidbldWingPosToCode[document.getElementById("cornerinput1").value];
-    id[1] = bidbldWingPosToCode[document.getElementById("cornerinput2").value];
-    id[2] = bidbldWingPosToCode[document.getElementById("cornerinput3").value];
+    if (getCookie("codeBig")[1] === " ") {
+        id[0] = bidbldWingPosToCode1[document.getElementById("cornerinput1").value];
+        id[1] = bidbldWingPosToCode1[document.getElementById("cornerinput2").value];
+        id[2] = bidbldWingPosToCode1[document.getElementById("cornerinput3").value];
+    } else {
+        id[0] = bidbldWingPosToCode[document.getElementById("cornerinput1").value];
+        id[1] = bidbldWingPosToCode[document.getElementById("cornerinput2").value];
+        id[2] = bidbldWingPosToCode[document.getElementById("cornerinput3").value];
+    }
     let idValue = `${id[0]}${id[1]}${id[2]}`;
     const cornerinput = [];
     if (typeof id[0] === "undefined") {
@@ -54,11 +117,25 @@ function algSearchByPos() {
     if (typeof id[2] === "undefined") {
         id[2] = "";
     }
-    for (let i = 0; i <= 2; i++) {
-        if (id[i] === "") {
-            cornerinput[i] = "";
-        } else {
-            cornerinput[i] = id[i];
+    if (getCookie("codeBig")[1] === " ") {
+        for (let i = 0; i <= 2; i++) {
+            if (id[i] === "") {
+                cornerinput[i] = "";
+            } else if (codecookie[bigbldWingChichuToNumber1[id[i]]] === "") {
+                cornerinput[i] = id[i];
+            } else {
+                cornerinput[i] = codecookie[bigbldWingChichuToNumber1[id[i]]];
+            }
+        }
+    } else {
+        for (let i = 0; i <= 2; i++) {
+            if (id[i] === "") {
+                cornerinput[i] = "";
+            } else if (codecookie[bigbldWingChichuToNumber[id[i]]] === "") {
+                cornerinput[i] = id[i];
+            } else {
+                cornerinput[i] = codecookie[bigbldWingChichuToNumber[id[i]]];
+            }
         }
     }
     document.getElementById("cornerinput").value = `${cornerinput[0]}${cornerinput[1]}${cornerinput[2]}`;
@@ -127,8 +204,5 @@ function algSearchMain(idValue, cornerstylecookie) {
 }
 
 function fontAwesome() {
-    $("select").find("option[key='cornerStyleNightmare']").html(`&#128128; ${$("select").find("option[key='cornerStyleNightmare']").html()}`);
-    $("select").find("option[key='cornerStyleBalance']").html(`&#62030; ${$("select").find("option[key='cornerStyleBalance']").html()}`);
-    $("select").find("option[key='cornerStyleYuanzi']").html(`&thinsp;&#xf5d2;&thinsp; ${$("select").find("option[key='cornerStyleYuanzi']").html()}`);
     $("select").find("option[key='cornerStyleManmade']").html(`&thinsp;&#xf2bd; ${$("select").find("option[key='cornerStyleManmade']").html()}`);
 }

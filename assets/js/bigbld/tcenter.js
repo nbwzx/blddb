@@ -1,8 +1,8 @@
 "use strict";
 
 $.ajaxSettings.async = false;
-const jsonNameList = ["bigbldTcenterAlgToInfoManmade", "bigbldSourceToUrl", "edgeCodeToPos", "edgePosToCode"];
-const jsonNameListPre = {"bigbldTcenterAlgToInfoManmade":"bigbld/bigbldTcenterAlgToInfoManmade", "bigbldSourceToUrl":"bigbld/bigbldSourceToUrl", "edgeCodeToPos":"edgeCodeToPos", "edgePosToCode":"edgePosToCode"};
+const jsonNameList = ["bigbldTcenterAlgToInfoManmade", "bigbldSourceToUrl", "edgeCodeToPos", "edgePosToCode", "bigbldTcenterChichuToNumber"];
+const jsonNameListPre = {"bigbldTcenterAlgToInfoManmade":"bigbld/bigbldTcenterAlgToInfoManmade", "bigbldSourceToUrl":"bigbld/bigbldSourceToUrl", "edgeCodeToPos":"edgeCodeToPos", "edgePosToCode":"edgePosToCode", "bigbldTcenterChichuToNumber":"bigbld/bigbldTcenterChichuToNumber"};
 const jsonLoaded = jsonNameList.map((name) => $.getJSON(`../assets/json/${jsonNameListPre[name]}.json`, (json) => {
     window[`${name}`] = json;
 }));
@@ -32,6 +32,17 @@ function algSearch() {
     }
     idValueOrigin = idValueOrigin.toUpperCase();
     const id = [idValueOrigin[0], idValueOrigin[1], idValueOrigin[2]];
+    let codecookie = "DEE G DEGGCCGGCAAJ A AAJWII X WIXOKKOOKOMR O MMREDD C EDCTXXTTXQLM Q LLMKHH I KHIZRRZZRZPS Z PPSBBB L BBLQSSQQSNJY N JJYHFF F HFFWYYWWYTNP T NNP";
+    if (getCookie("codeBig") !== "") {
+        codecookie = getCookie("codeBig");
+    }
+    for (const i in bigbldTcenterChichuToNumber) {
+        for (let j = 0; j <= 2; j++) {
+            if (codecookie[bigbldTcenterChichuToNumber[i]] === idValueOrigin[j]) {
+                id[j] = i;
+            }
+        }
+    }
     document.getElementById("cornerinput1").value = capitalizeFirstLetter(edgeCodeToPos[id[0]]);
     document.getElementById("cornerinput2").value = capitalizeFirstLetter(edgeCodeToPos[id[1]]);
     document.getElementById("cornerinput3").value = capitalizeFirstLetter(edgeCodeToPos[id[2]]);
@@ -61,11 +72,17 @@ function algSearchByPos() {
     if (typeof id[2] === "undefined") {
         id[2] = "";
     }
+    let codecookie = "DEE G DEGGCCGGCAAJ A AAJWII X WIXOKKOOKOMR O MMREDD C EDCTXXTTXQLM Q LLMKHH I KHIZRRZZRZPS Z PPSBBB L BBLQSSQQSNJY N JJYHFF F HFFWYYWWYTNP T NNP";
+    if (getCookie("codeBig") !== "") {
+        codecookie = getCookie("codeBig");
+    }
     for (let i = 0; i <= 2; i++) {
         if (id[i] === "") {
             cornerinput[i] = "";
-        } else {
+        } else if (codecookie[bigbldTcenterChichuToNumber[id[i]]] === "") {
             cornerinput[i] = id[i];
+        } else {
+            cornerinput[i] = codecookie[bigbldTcenterChichuToNumber[id[i]]];
         }
     }
     document.getElementById("cornerinput").value = `${cornerinput[0]}${cornerinput[1]}${cornerinput[2]}`;
@@ -134,8 +151,5 @@ function algSearchMain(idValue, cornerstylecookie) {
 }
 
 function fontAwesome() {
-    $("select").find("option[key='cornerStyleNightmare']").html(`&#128128; ${$("select").find("option[key='cornerStyleNightmare']").html()}`);
-    $("select").find("option[key='cornerStyleBalance']").html(`&#62030; ${$("select").find("option[key='cornerStyleBalance']").html()}`);
-    $("select").find("option[key='cornerStyleYuanzi']").html(`&thinsp;&#xf5d2;&thinsp; ${$("select").find("option[key='cornerStyleYuanzi']").html()}`);
     $("select").find("option[key='cornerStyleManmade']").html(`&thinsp;&#xf2bd; ${$("select").find("option[key='cornerStyleManmade']").html()}`);
 }
