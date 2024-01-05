@@ -9478,23 +9478,23 @@
     ],
     "DWZ": [
         [
-            "Rw2 Uw r Uw' l2 Uw r' Uw' l2 Rw2",
-            [
-                "Hana Davila",
-                "James Molloy",
-                "Michael Tripodi",
-                "Timo Norrkniivilä"
-            ],
-            "Rw2:[Uw r Uw',l2]"
-        ],
-        [
             "d U r' U' l2 U r U' l2 d'",
             [
+                "Michael Tripodi",
                 "Oliver Fritz",
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
             "d:[U r' U',l2]"
+        ],
+        [
+            "Rw2 Uw r Uw' l2 Uw r' Uw' l2 Rw2",
+            [
+                "Hana Davila",
+                "James Molloy",
+                "Timo Norrkniivilä"
+            ],
+            "Rw2:[Uw r Uw',l2]"
         ],
         [
             "R2 Uw r Uw' l2 Uw r' Uw' l2 R2",
@@ -10458,23 +10458,23 @@
     ],
     "DZW": [
         [
-            "Rw2 l2 Uw r Uw' l2 Uw r' Uw' Rw2",
-            [
-                "Hana Davila",
-                "James Molloy",
-                "Michael Tripodi",
-                "Timo Norrkniivilä"
-            ],
-            "Rw2:[l2,Uw r Uw']"
-        ],
-        [
             "d l2 U r' U' l2 U r U' d'",
             [
+                "Michael Tripodi",
                 "Oliver Fritz",
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
             "d:[l2,U r' U']"
+        ],
+        [
+            "Rw2 l2 Uw r Uw' l2 Uw r' Uw' Rw2",
+            [
+                "Hana Davila",
+                "James Molloy",
+                "Timo Norrkniivilä"
+            ],
+            "Rw2:[l2,Uw r Uw']"
         ],
         [
             "R2 l2 Uw r Uw' l2 Uw r' Uw' R2",
@@ -20291,8 +20291,7 @@
         [
             "x' Rw r d2 r' U' r d2 r' U Rw' x",
             [
-                "Daniel Lin",
-                "Vinicius Shaw"
+                "Daniel Lin"
             ],
             "x' Rw:[r d2 r',U']"
         ]
@@ -21113,7 +21112,6 @@
                 "Ryan Eckersley",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
-                "Vinicius Shaw",
                 "Ziyi Xu (徐梓翼)"
             ],
             "[U,r u2 r']"
@@ -21792,7 +21790,6 @@
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Tom Nelson",
-                "Vinicius Shaw",
                 "Ziyi Xu (徐梓翼)"
             ],
             "[r' u' r,U']"
@@ -22026,7 +22023,6 @@
                 "Antonio Kam Ho Tung (甘浩東)",
                 "Daniel Wallin",
                 "Ethan Pan",
-                "Kai Yamamoto (山本快)",
                 "Ryan Eckersley",
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
@@ -22055,6 +22051,13 @@
                 "James Molloy"
             ],
             "Lw:[U2,r' d r]"
+        ],
+        [
+            "Uw2 l Uw r Uw' l' Uw r' Uw",
+            [
+                "Kai Yamamoto (山本快)"
+            ],
+            "Uw':[Uw' l Uw,r]"
         ],
         [
             "3Lw U2 r' d r U2 r' d' r 3Lw'",
@@ -22512,8 +22515,7 @@
         [
             "x Rw' U r' d2 r U' r' d2 r Rw x'",
             [
-                "Daniel Lin",
-                "Vinicius Shaw"
+                "Daniel Lin"
             ],
             "x Rw':[U,r' d2 r]"
         ],
@@ -22733,7 +22735,6 @@
                 "Stanley Chapel",
                 "Tim Wong",
                 "Timo Norrkniivilä",
-                "Vinicius Shaw",
                 "Ziyi Xu (徐梓翼)"
             ],
             "[r' d r,U2]"
@@ -23565,7 +23566,6 @@
                 "Ryan Eckersley",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
-                "Vinicius Shaw",
                 "Ziyi Xu (徐梓翼)"
             ],
             "[U,r u r']"
@@ -24430,7 +24430,6 @@
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Tom Nelson",
-                "Vinicius Shaw",
                 "Ziyi Xu (徐梓翼)"
             ],
             "[r' u2 r,U']"
@@ -24910,8 +24909,7 @@
         [
             "x' Rw U' r d2 r' U r d2 r' Rw' x",
             [
-                "Daniel Lin",
-                "Vinicius Shaw"
+                "Daniel Lin"
             ],
             "x' Rw:[U',r d2 r']"
         ]
@@ -24935,7 +24933,6 @@
                 "Ryan Eckersley",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
-                "Vinicius Shaw",
                 "Ziyi Xu (徐梓翼)"
             ],
             "[r u2 r',U]"
@@ -24972,7 +24969,6 @@
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Tom Nelson",
-                "Vinicius Shaw",
                 "Ziyi Xu (徐梓翼)"
             ],
             "[U',r' u' r]"
@@ -24982,8 +24978,7 @@
         [
             "x Rw' r' d2 r U r' d2 r U' Rw x'",
             [
-                "Daniel Lin",
-                "Vinicius Shaw"
+                "Daniel Lin"
             ],
             "x Rw':[r' d2 r,U]"
         ],
@@ -25016,7 +25011,6 @@
                 "Ryan Eckersley",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
-                "Vinicius Shaw",
                 "Ziyi Xu (徐梓翼)"
             ],
             "[r u r',U]"
@@ -25041,7 +25035,6 @@
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Tom Nelson",
-                "Vinicius Shaw",
                 "Ziyi Xu (徐梓翼)"
             ],
             "[U',r' u2 r]"
@@ -25105,8 +25098,7 @@
         [
             "u' r u r' U r u' r' U' u",
             [
-                "Kevin Matthews",
-                "Vinicius Shaw"
+                "Kevin Matthews"
             ],
             "u':[r u r',U]"
         ]
@@ -25133,7 +25125,6 @@
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Tom Nelson",
-                "Vinicius Shaw",
                 "Ziyi Xu (徐梓翼)"
             ],
             "[U',r' u r]"
@@ -25160,24 +25151,12 @@
                 "Ryan Eckersley",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
-                "Vinicius Shaw",
                 "Ziyi Xu (徐梓翼)"
             ],
             "[r u' r',U]"
         ]
     ],
     "JGL": [
-        [
-            "y' r' u r U r' u' r U' y",
-            [
-                "Benjamin Paul",
-                "Daniel Lin",
-                "Dong Zhu (朱栋)",
-                "Krzysztof Bober",
-                "Vinicius Shaw"
-            ],
-            "y':[r' u r,U]"
-        ],
         [
             "Uw' r' u r U r' u' r U' Uw",
             [
@@ -25188,6 +25167,16 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "Uw':[r' u r,U]"
+        ],
+        [
+            "y' r' u r U r' u' r U' y",
+            [
+                "Benjamin Paul",
+                "Daniel Lin",
+                "Dong Zhu (朱栋)",
+                "Krzysztof Bober"
+            ],
+            "y':[r' u r,U]"
         ],
         [
             "U' Lw' r U' l U r' U' l' U Lw U",
@@ -25267,7 +25256,6 @@
                 "Ryan Eckersley",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
-                "Vinicius Shaw",
                 "Ziyi Xu (徐梓翼)"
             ],
             "[U',r d2 r']"
@@ -25310,19 +25298,9 @@
             [
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
-                "Ethan Pan",
-                "Vinicius Shaw"
+                "Ethan Pan"
             ],
             "x:[r' U' r,d2]"
-        ],
-        [
-            "l' U' r d2 r' U r d2 r' l",
-            [
-                "Kai Yamamoto (山本快)",
-                "Stanley Chapel",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "l':[U',r d2 r']"
         ],
         [
             "U r' l2 U' r U l2 U' r' U r U'",
@@ -25331,6 +25309,21 @@
                 "Ryan Eckersley"
             ],
             "U r':[l2,U' r U]"
+        ],
+        [
+            "l' U' r d2 r' U r d2 r' l",
+            [
+                "Stanley Chapel",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "l':[U',r d2 r']"
+        ],
+        [
+            "l U' r' u2 r U r' u2 r l'",
+            [
+                "Kai Yamamoto (山本快)"
+            ],
+            "l:[U',r' u2 r]"
         ],
         [
             "3Lw U' r' u2 r U r' u2 r 3Lw'",
@@ -25363,7 +25356,6 @@
                 "Roman Strakhov",
                 "Ryan Eckersley",
                 "Stanley Chapel",
-                "Vinicius Shaw",
                 "Ziyi Xu (徐梓翼)"
             ],
             "[r' d2 r,U]"
@@ -25405,7 +25397,6 @@
                 "Ryan Eckersley",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
-                "Vinicius Shaw",
                 "Ziyi Xu (徐梓翼)"
             ],
             "[U',r d' r']"
@@ -25421,8 +25412,7 @@
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
-                "Krzysztof Bober",
-                "Vinicius Shaw"
+                "Krzysztof Bober"
             ],
             "U Lw:[U l' U',r2]"
         ],
@@ -25479,7 +25469,6 @@
                 "Ryan Eckersley",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
-                "Vinicius Shaw",
                 "Ziyi Xu (徐梓翼)"
             ],
             "[r' d' r,U]"
@@ -25492,8 +25481,7 @@
                 "Benjamin Paul",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
-                "Kevin Matthews",
-                "Vinicius Shaw"
+                "Kevin Matthews"
             ],
             "y':[r d' r',U]"
         ],
@@ -25564,8 +25552,7 @@
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
-                "Krzysztof Bober",
-                "Vinicius Shaw"
+                "Krzysztof Bober"
             ],
             "x':[d2,r U r']"
         ],
@@ -25636,16 +25623,6 @@
             "U':[D' l2 D,r2]"
         ],
         [
-            "U' Lw r2 U' l' U r2 U' l U Lw' U",
-            [
-                "Antonio Kam Ho Tung (甘浩東)",
-                "Daniel Wallin",
-                "Krzysztof Bober",
-                "Vinicius Shaw"
-            ],
-            "U' Lw:[r2,U' l' U]"
-        ],
-        [
             "U' Lw' r2 U' l U r2 U' l' U Lw U",
             [
                 "Daniel Lin",
@@ -25653,6 +25630,15 @@
                 "Ethan Pan"
             ],
             "U' Lw':[r2,U' l U]"
+        ],
+        [
+            "U' Lw r2 U' l' U r2 U' l U Lw' U",
+            [
+                "Antonio Kam Ho Tung (甘浩東)",
+                "Daniel Wallin",
+                "Krzysztof Bober"
+            ],
+            "U' Lw:[r2,U' l' U]"
         ],
         [
             "U' 3Lw' r2 U' l U r2 U' l' U 3Lw U",
@@ -25677,8 +25663,7 @@
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
                 "Kevin Matthews",
-                "Krzysztof Bober",
-                "Vinicius Shaw"
+                "Krzysztof Bober"
             ],
             "y:[U',r' d r]"
         ],
@@ -25756,7 +25741,6 @@
                 "Ryan Eckersley",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
-                "Vinicius Shaw",
                 "Ziyi Xu (徐梓翼)"
             ],
             "[U',r d r']"
@@ -26043,12 +26027,11 @@
             "y':[l u' l',U']"
         ],
         [
-            "u' U r u r' U' r u' r' u",
+            "U u' r u r' U' r u' r' U u U'",
             [
-                "Kevin Matthews",
-                "Vinicius Shaw"
+                "Kevin Matthews"
             ],
-            "u':[U,r u r']"
+            "U u':[r u r',U']"
         ]
     ],
     "JHI": [
@@ -26700,7 +26683,6 @@
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Tom Nelson",
-                "Vinicius Shaw",
                 "Ziyi Xu (徐梓翼)"
             ],
             "[r' u r,U']"
@@ -27460,7 +27442,6 @@
                 "Ryan Eckersley",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
-                "Vinicius Shaw",
                 "Ziyi Xu (徐梓翼)"
             ],
             "[U,r u' r']"
@@ -28152,17 +28133,6 @@
     ],
     "JLG": [
         [
-            "y' U r' u r U' r' u' r y",
-            [
-                "Benjamin Paul",
-                "Daniel Lin",
-                "Dong Zhu (朱栋)",
-                "Krzysztof Bober",
-                "Vinicius Shaw"
-            ],
-            "y':[U,r' u r]"
-        ],
-        [
             "u' r' u r U' r' u' r U u",
             [
                 "Ethan Pan",
@@ -28172,6 +28142,16 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "u':[r' u r,U']"
+        ],
+        [
+            "y' U r' u r U' r' u' r y",
+            [
+                "Benjamin Paul",
+                "Daniel Lin",
+                "Dong Zhu (朱栋)",
+                "Krzysztof Bober"
+            ],
+            "y':[U,r' u r]"
         ],
         [
             "U' Lw' U' l U r U' l' U r' Lw U",
@@ -28782,7 +28762,6 @@
                 "Stanley Chapel",
                 "Tim Wong",
                 "Timo Norrkniivilä",
-                "Vinicius Shaw",
                 "Ziyi Xu (徐梓翼)"
             ],
             "[U2,r' d r]"
@@ -29381,7 +29360,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "James Molloy",
-                "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Ryan Eckersley",
@@ -29396,6 +29374,13 @@
                 "Daniel Lin"
             ],
             "x:[Uw l Uw',r']"
+        ],
+        [
+            "4Lw' Uw l Uw' r' Uw l' Uw' r 4Lw",
+            [
+                "Kai Yamamoto (山本快)"
+            ],
+            "4Lw':[Uw l Uw',r']"
         ]
     ],
     "JMZ": [
@@ -29725,7 +29710,6 @@
                 "Ryan Eckersley",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
-                "Vinicius Shaw",
                 "Ziyi Xu (徐梓翼)"
             ],
             "[r d2 r',U']"
@@ -30480,8 +30464,7 @@
             [
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
-                "Ethan Pan",
-                "Vinicius Shaw"
+                "Ethan Pan"
             ],
             "x:[d2,r' U' r]"
         ],
@@ -30494,12 +30477,11 @@
             "U r':[U' r U,l2]"
         ],
         [
-            "M' d2 r' U' r d2 r' U r M",
+            "l r' u2 r U' r' u2 r U l'",
             [
-                "Kai Yamamoto (山本快)",
-                "Stanley Chapel"
+                "Kai Yamamoto (山本快)"
             ],
-            "M':[d2,r' U' r]"
+            "l:[r' u2 r,U']"
         ],
         [
             "4Lw u2 r U' r' u2 r U r' 4Lw'",
@@ -30514,6 +30496,13 @@
                 "Oliver Fritz"
             ],
             "U' D:[D r2 D',l2]"
+        ],
+        [
+            "M' d2 r' U' r d2 r' U r M",
+            [
+                "Stanley Chapel"
+            ],
+            "M':[d2,r' U' r]"
         ],
         [
             "l' r d2 r' U' r d2 r' U l",
@@ -31052,7 +31041,6 @@
                 "Antonio Kam Ho Tung (甘浩東)",
                 "Daniel Wallin",
                 "Ethan Pan",
-                "Kai Yamamoto (山本快)",
                 "Ryan Eckersley",
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
@@ -31081,6 +31069,13 @@
                 "James Molloy"
             ],
             "Lw:[r' d r,U2]"
+        ],
+        [
+            "Uw' r Uw' l Uw r' Uw' l' Uw2",
+            [
+                "Kai Yamamoto (山本快)"
+            ],
+            "Uw':[r,Uw' l Uw]"
         ],
         [
             "4Lw d r U2 r' d' r U2 r' 4Lw'",
@@ -31211,7 +31206,6 @@
                 "Roman Strakhov",
                 "Ryan Eckersley",
                 "Stanley Chapel",
-                "Vinicius Shaw",
                 "Ziyi Xu (徐梓翼)"
             ],
             "[U,r' d2 r]"
@@ -31900,7 +31894,6 @@
                 "Ryan Eckersley",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
-                "Vinicius Shaw",
                 "Ziyi Xu (徐梓翼)"
             ],
             "[r d' r',U']"
@@ -32667,8 +32660,7 @@
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
-                "Krzysztof Bober",
-                "Vinicius Shaw"
+                "Krzysztof Bober"
             ],
             "U Lw:[r2,U l' U']"
         ],
@@ -33325,7 +33317,6 @@
                 "Ryan Eckersley",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
-                "Vinicius Shaw",
                 "Ziyi Xu (徐梓翼)"
             ],
             "[U,r' d' r]"
@@ -34033,8 +34024,7 @@
                 "Benjamin Paul",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
-                "Kevin Matthews",
-                "Vinicius Shaw"
+                "Kevin Matthews"
             ],
             "y':[U,r d' r']"
         ],
@@ -34926,8 +34916,7 @@
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
-                "Krzysztof Bober",
-                "Vinicius Shaw"
+                "Krzysztof Bober"
             ],
             "x':[r U r',d2]"
         ],
@@ -35652,16 +35641,6 @@
             "U':[r2,D' l2 D]"
         ],
         [
-            "U' Lw U' l' U r2 U' l U r2 Lw' U",
-            [
-                "Antonio Kam Ho Tung (甘浩東)",
-                "Daniel Wallin",
-                "Krzysztof Bober",
-                "Vinicius Shaw"
-            ],
-            "U' Lw:[U' l' U,r2]"
-        ],
-        [
             "U' Lw' U' l U r2 U' l' U r2 Lw U",
             [
                 "Daniel Lin",
@@ -35669,6 +35648,15 @@
                 "Ethan Pan"
             ],
             "U' Lw':[U' l U,r2]"
+        ],
+        [
+            "U' Lw U' l' U r2 U' l U r2 Lw' U",
+            [
+                "Antonio Kam Ho Tung (甘浩東)",
+                "Daniel Wallin",
+                "Krzysztof Bober"
+            ],
+            "U' Lw:[U' l' U,r2]"
         ],
         [
             "U' 3Lw' U' l U r2 U' l' U r2 3Lw U",
@@ -36374,8 +36362,7 @@
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
                 "Kevin Matthews",
-                "Krzysztof Bober",
-                "Vinicius Shaw"
+                "Krzysztof Bober"
             ],
             "y:[r' d r,U']"
         ],
@@ -36548,7 +36535,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "James Molloy",
-                "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Ryan Eckersley",
@@ -36563,6 +36549,13 @@
                 "Daniel Lin"
             ],
             "x:[r',Uw l Uw']"
+        ],
+        [
+            "Lw' Uw l Uw' r Uw l' Uw' r' Lw",
+            [
+                "Kai Yamamoto (山本快)"
+            ],
+            "Lw':[Uw l Uw',r]"
         ]
     ],
     "JYN": [
@@ -37136,7 +37129,6 @@
                 "Ryan Eckersley",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
-                "Vinicius Shaw",
                 "Ziyi Xu (徐梓翼)"
             ],
             "[r d r',U']"
@@ -40647,6 +40639,13 @@
             "Lw r':[U' l' U,r2]"
         ],
         [
+            "u r' U r' u' r U' r' u r2 u'",
+            [
+                "Michael Tripodi"
+            ],
+            "u r':[U,r' u' r]"
+        ],
+        [
             "u' r' U r' u r U' r' u' r2 u",
             [
                 "Stanley Chapel"
@@ -41728,6 +41727,13 @@
                 "Michael Tripodi"
             ],
             "Lw' r:[U' l U,r2]"
+        ],
+        [
+            "u r2 u' r U r' u r U' r u'",
+            [
+                "Michael Tripodi"
+            ],
+            "u r':[r' u' r,U]"
         ],
         [
             "u' r2 u r U r' u' r U' r u",

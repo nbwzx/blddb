@@ -8349,15 +8349,6 @@
             "y':[m D' m',U']"
         ]
     ],
-    "CEM": [
-        [
-            "U m' D2 m U' m' D2 m",
-            [
-                "Vinicius Shaw"
-            ],
-            "[U,m' D2 m]"
-        ]
-    ],
     "CFI": [
         [
             "U R m' U' R' U m2 U' R U m' R' U'",
@@ -8939,15 +8930,6 @@
                 "Mark Rivers"
             ],
             "[L F L',s]"
-        ]
-    ],
-    "CME": [
-        [
-            "m' D2 m U m' D2 m U'",
-            [
-                "Vinicius Shaw"
-            ],
-            "[m' D2 m,U]"
         ]
     ],
     "CMI": [
@@ -10245,8 +10227,7 @@
                 "Hana Davila",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
-                "Michael Tripodi",
-                "Vinicius Shaw"
+                "Michael Tripodi"
             ],
             "m2 U':[m,U2]"
         ]
@@ -10258,8 +10239,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
-                "Michael Tripodi",
-                "Vinicius Shaw"
+                "Michael Tripodi"
             ],
             "U' Rw:[m',U R' U']"
         ],
@@ -10286,8 +10266,7 @@
         [
             "U' m2 U' m' U2 m U' m2 U",
             [
-                "Hana Davila",
-                "Vinicius Shaw"
+                "Hana Davila"
             ],
             "U' m2 U':[m',U2]"
         ]
@@ -10299,8 +10278,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
-                "Michael Tripodi",
-                "Vinicius Shaw"
+                "Michael Tripodi"
             ],
             "Rw':[U' R U,m]"
         ],
@@ -10321,8 +10299,7 @@
                 "Hana Davila",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
-                "Roman Strakhov",
-                "Vinicius Shaw"
+                "Roman Strakhov"
             ],
             "[U,m D2 m']"
         ],
@@ -10348,8 +10325,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
-                "Michael Tripodi",
-                "Vinicius Shaw"
+                "Michael Tripodi"
             ],
             "Rw:[U' R' U,m']"
         ],
@@ -10388,8 +10364,7 @@
         [
             "R2 D' m D2 m' D' R2",
             [
-                "Graham Siggins",
-                "Vinicius Shaw"
+                "Graham Siggins"
             ],
             "R2 D':[m,D2]"
         ]
@@ -10403,8 +10378,7 @@
                 "Hana Davila",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
-                "Roman Strakhov",
-                "Vinicius Shaw"
+                "Roman Strakhov"
             ],
             "[U,m D m']"
         ]
@@ -10439,13 +10413,6 @@
                 "Michael Tripodi"
             ],
             "Rw':[U' R U,m2]"
-        ],
-        [
-            "R U' R' U m2 U' R U R' m2",
-            [
-                "Vinicius Shaw"
-            ],
-            "[R U' R' U,m2]"
         ]
     ],
     "GAN": [
@@ -10471,13 +10438,6 @@
                 "Hana Davila"
             ],
             "U':[m,R' U R U']"
-        ],
-        [
-            "y m D' m' U' m D m' U y'",
-            [
-                "Vinicius Shaw"
-            ],
-            "y:[m D' m',U']"
         ]
     ],
     "GAO": [
@@ -10497,13 +10457,6 @@
                 "Graham Siggins"
             ],
             "4Lw:[R2,U m' U']"
-        ],
-        [
-            "D R U' R' U m2 U' R U R' m2 D'",
-            [
-                "Vinicius Shaw"
-            ],
-            "D:[R U' R' U,m2]"
         ]
     ],
     "GAP": [
@@ -10515,8 +10468,7 @@
                 "Hana Davila",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
-                "Roman Strakhov",
-                "Vinicius Shaw"
+                "Roman Strakhov"
             ],
             "[U,m D' m']"
         ]
@@ -10528,8 +10480,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "Michael Tripodi",
-                "Vinicius Shaw"
+                "Michael Tripodi"
             ],
             "4Lw:[R,U m' U']"
         ],
@@ -10546,8 +10497,7 @@
             "U Rw' m D' m' U' m D m' U Rw U'",
             [
                 "Daniel Wallin",
-                "Hana Davila",
-                "Vinicius Shaw"
+                "Hana Davila"
             ],
             "U Rw':[m D' m',U']"
         ],
@@ -10579,8 +10529,7 @@
             [
                 "Daniel Wallin",
                 "Hana Davila",
-                "Michael Tripodi",
-                "Vinicius Shaw"
+                "Michael Tripodi"
             ],
             "z':[U m2 U',L']"
         ],
@@ -10599,8 +10548,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "Michael Tripodi",
-                "Vinicius Shaw"
+                "Michael Tripodi"
             ],
             "Lw:[U,m D m']"
         ],
@@ -10617,8 +10565,7 @@
             "z' U' m2 U L' U' m2 U L z",
             [
                 "Graham Siggins",
-                "Michael Tripodi",
-                "Vinicius Shaw"
+                "Michael Tripodi"
             ],
             "z':[U' m2 U,L']"
         ],
@@ -10650,8 +10597,7 @@
             [
                 "Daniel Wallin",
                 "Graham Siggins",
-                "Michael Tripodi",
-                "Vinicius Shaw"
+                "Michael Tripodi"
             ],
             "z':[U m U',L']"
         ],
@@ -10675,8 +10621,7 @@
             "4Lw R' U m' U' R U m U' 4Lw'",
             [
                 "Daniel Wallin",
-                "Graham Siggins",
-                "Vinicius Shaw"
+                "Graham Siggins"
             ],
             "4Lw:[R',U m' U']"
         ],
@@ -10705,19 +10650,18 @@
             "Rw D':[U' R' U,m']"
         ],
         [
-            "z R2 U' m U R' U' m' U R' z'",
-            [
-                "Hana Davila",
-                "Vinicius Shaw"
-            ],
-            "z R:[R,U' m U]"
-        ],
-        [
             "R D' U' R' U m' U' R U m D R'",
             [
                 "Graham Siggins"
             ],
             "R D':[U' R' U,m']"
+        ],
+        [
+            "z R2 U' m U R' U' m' U R' z'",
+            [
+                "Hana Davila"
+            ],
+            "z R:[R,U' m U]"
         ],
         [
             "U2 L' e L U' L' e' L U'",
@@ -10746,8 +10690,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
-                "Michael Tripodi",
-                "Vinicius Shaw"
+                "Michael Tripodi"
             ],
             "U' Rw':[U' R U,m]"
         ],
@@ -10766,8 +10709,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
-                "Michael Tripodi",
-                "Vinicius Shaw"
+                "Michael Tripodi"
             ],
             "Rw:[m',U R' U']"
         ],
@@ -11173,8 +11115,7 @@
                 "Hana Davila",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
-                "Michael Tripodi",
-                "Vinicius Shaw"
+                "Michael Tripodi"
             ],
             "m2 U:[m,U2]"
         ]
@@ -11216,8 +11157,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
-                "Michael Tripodi",
-                "Vinicius Shaw"
+                "Michael Tripodi"
             ],
             "U' Rw:[U R' U',m']"
         ],
@@ -11250,8 +11190,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
-                "Michael Tripodi",
-                "Vinicius Shaw"
+                "Michael Tripodi"
             ],
             "U' Rw':[m,U' R U]"
         ],
@@ -11342,8 +11281,7 @@
         [
             "U' m2 U m' U2 m U m2 U",
             [
-                "Hana Davila",
-                "Vinicius Shaw"
+                "Hana Davila"
             ],
             "U' m2 U:[m',U2]"
         ]
@@ -11355,8 +11293,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
-                "Michael Tripodi",
-                "Vinicius Shaw"
+                "Michael Tripodi"
             ],
             "Rw:[U R' U',m']"
         ],
@@ -11401,8 +11338,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
-                "Michael Tripodi",
-                "Vinicius Shaw"
+                "Michael Tripodi"
             ],
             "Rw':[m,U' R U]"
         ],
@@ -11485,8 +11421,7 @@
                 "Hana Davila",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
-                "Roman Strakhov",
-                "Vinicius Shaw"
+                "Roman Strakhov"
             ],
             "[m D2 m',U]"
         ],
@@ -11805,8 +11740,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
-                "Michael Tripodi",
-                "Vinicius Shaw"
+                "Michael Tripodi"
             ],
             "Rw:[m',U' R' U]"
         ],
@@ -12173,8 +12107,7 @@
         [
             "R2 D m D2 m' D R2",
             [
-                "Graham Siggins",
-                "Vinicius Shaw"
+                "Graham Siggins"
             ],
             "R2 D:[m,D2]"
         ]
@@ -12232,8 +12165,7 @@
                 "Hana Davila",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
-                "Roman Strakhov",
-                "Vinicius Shaw"
+                "Roman Strakhov"
             ],
             "[m D m',U]"
         ]
@@ -12327,13 +12259,6 @@
                 "Michael Tripodi"
             ],
             "Rw':[m2,U' R U]"
-        ],
-        [
-            "m2 R U' R' U m2 U' R U R'",
-            [
-                "Vinicius Shaw"
-            ],
-            "[m2,R U' R' U]"
         ]
     ],
     "GMB": [
@@ -12409,13 +12334,6 @@
                 "Hana Davila"
             ],
             "U':[R' U R U',m]"
-        ],
-        [
-            "y U' m D' m' U m D m' y'",
-            [
-                "Vinicius Shaw"
-            ],
-            "y:[U',m D' m']"
         ]
     ],
     "GNB": [
@@ -12487,13 +12405,6 @@
                 "Graham Siggins"
             ],
             "4Lw:[U m' U',R2]"
-        ],
-        [
-            "D m2 R U' R' U m2 U' R U R' D'",
-            [
-                "Vinicius Shaw"
-            ],
-            "D:[m2,R U' R' U]"
         ]
     ],
     "GOB": [
@@ -12556,8 +12467,7 @@
                 "Hana Davila",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
-                "Roman Strakhov",
-                "Vinicius Shaw"
+                "Roman Strakhov"
             ],
             "[m D' m',U]"
         ]
@@ -12637,8 +12547,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "Michael Tripodi",
-                "Vinicius Shaw"
+                "Michael Tripodi"
             ],
             "4Lw:[U m' U',R]"
         ],
@@ -12689,22 +12598,12 @@
             "[U m' U',R]"
         ]
     ],
-    "GQX": [
-        [
-            "x' R U' m' U R U' m U R2 x",
-            [
-                "Vinicius Shaw"
-            ],
-            "x' R:[U' m' U,R]"
-        ]
-    ],
     "GRA": [
         [
             "U Rw' U' m D' m' U m D m' Rw U'",
             [
                 "Daniel Wallin",
-                "Hana Davila",
-                "Vinicius Shaw"
+                "Hana Davila"
             ],
             "U Rw':[U',m D' m']"
         ],
@@ -12789,8 +12688,7 @@
             [
                 "Daniel Wallin",
                 "Hana Davila",
-                "Michael Tripodi",
-                "Vinicius Shaw"
+                "Michael Tripodi"
             ],
             "z':[L',U m2 U']"
         ],
@@ -12854,8 +12752,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "Michael Tripodi",
-                "Vinicius Shaw"
+                "Michael Tripodi"
             ],
             "Lw:[m D m',U]"
         ],
@@ -12946,8 +12843,7 @@
             "z' L' U' m2 U L U' m2 U z",
             [
                 "Graham Siggins",
-                "Michael Tripodi",
-                "Vinicius Shaw"
+                "Michael Tripodi"
             ],
             "z':[L',U' m2 U]"
         ],
@@ -13011,8 +12907,7 @@
             [
                 "Daniel Wallin",
                 "Graham Siggins",
-                "Michael Tripodi",
-                "Vinicius Shaw"
+                "Michael Tripodi"
             ],
             "z':[L',U m U']"
         ],
@@ -13105,22 +13000,12 @@
             "L':[D,m' U m]"
         ]
     ],
-    "GXQ": [
-        [
-            "x' R2 U' m' U R' U' m U R' x",
-            [
-                "Vinicius Shaw"
-            ],
-            "x' R:[R,U' m' U]"
-        ]
-    ],
     "GYA": [
         [
             "4Lw U m' U' R' U m U' R 4Lw'",
             [
                 "Daniel Wallin",
-                "Graham Siggins",
-                "Vinicius Shaw"
+                "Graham Siggins"
             ],
             "4Lw:[U m' U',R']"
         ],
@@ -13200,19 +13085,18 @@
             "Rw D':[m',U' R' U]"
         ],
         [
-            "z R U' m U R U' m' U R2 z'",
-            [
-                "Hana Davila",
-                "Vinicius Shaw"
-            ],
-            "z R:[U' m U,R]"
-        ],
-        [
             "R D' m' U' R' U m U' R U D R'",
             [
                 "Graham Siggins"
             ],
             "R D':[m',U' R' U]"
+        ],
+        [
+            "z R U' m U R U' m' U R2 z'",
+            [
+                "Hana Davila"
+            ],
+            "z R:[U' m U,R]"
         ],
         [
             "U L' e L U L' e' L U2",

@@ -851,14 +851,6 @@
             "Lw:[m2,U l' U']"
         ],
         [
-            "Lw' m2 U l U' m2 U l' U' Lw",
-            [
-                "Daniel Lin",
-                "Kai Yamamoto (山本快)"
-            ],
-            "Lw':[m2,U l U']"
-        ],
-        [
             "U2 m u2 m' U' m u2 m' U'",
             [
                 "Kevin Matthews",
@@ -869,9 +861,17 @@
         [
             "D l2 D' m2 D l2 D' m2",
             [
+                "Kai Yamamoto (山本快)",
                 "Marcell Endrey"
             ],
             "[D l2 D',m2]"
+        ],
+        [
+            "Lw' m2 U l U' m2 U l' U' Lw",
+            [
+                "Daniel Lin"
+            ],
+            "Lw':[m2,U l U']"
         ],
         [
             "D2 m d2 m' U' m d2 m' U D2",
@@ -3372,6 +3372,14 @@
     ],
     "AIR": [
         [
+            "3Uw' r' 3Uw' m2 3Uw r 3Uw' m2 3Uw2",
+            [
+                "Kai Yamamoto (山本快)",
+                "Kevin Matthews"
+            ],
+            "3Uw':[r',3Uw' m2 3Uw]"
+        ],
+        [
             "D r2 U' r e r' U r e' r D'",
             [
                 "Daniel Lin"
@@ -3391,20 +3399,6 @@
                 "Daniel Wallin"
             ],
             "3Uw:[l',U m2 U']"
-        ],
-        [
-            "3Uw' r' U' m2 U r U' m2 U 3Uw",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "3Uw':[r',U' m2 U]"
-        ],
-        [
-            "3Uw' r' 3Uw' m2 3Uw r 3Uw' m2 3Uw2",
-            [
-                "Kevin Matthews"
-            ],
-            "3Uw':[r',3Uw' m2 3Uw]"
         ],
         [
             "3Uw l' 3Uw m2 3Uw' l 3Uw m2 3Uw2",
@@ -3453,12 +3447,12 @@
     ],
     "AIT": [
         [
-            "3Uw' r U' m2 U r' U' m2 U 3Uw",
+            "3Uw' r 3Uw' m2 3Uw r' 3Uw' m2 3Uw2",
             [
-                "Daniel Wallin",
-                "Kai Yamamoto (山本快)"
+                "Kai Yamamoto (山本快)",
+                "Kevin Matthews"
             ],
-            "3Uw':[r,U' m2 U]"
+            "3Uw':[r,3Uw' m2 3Uw]"
         ],
         [
             "D r2 U' r' e r U r' e' r' D'",
@@ -3468,11 +3462,11 @@
             "D r:[r U' r',e]"
         ],
         [
-            "3Uw' r 3Uw' m2 3Uw r' 3Uw' m2 3Uw2",
+            "3Uw' r U' m2 U r' U' m2 U 3Uw",
             [
-                "Kevin Matthews"
+                "Daniel Wallin"
             ],
-            "3Uw':[r,3Uw' m2 3Uw]"
+            "3Uw':[r,U' m2 U]"
         ],
         [
             "4Uw l 4Uw m2 4Uw' l' 4Uw m2 4Uw2",
@@ -3817,7 +3811,6 @@
             "U m' U' m d m' U m d' U'",
             [
                 "Daniel Lin",
-                "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -3832,6 +3825,13 @@
                 "Daniel Wallin"
             ],
             "Lw':[3Uw l 3Uw',m']"
+        ],
+        [
+            "Lw' 3Uw' r 3Uw m' 3Uw' r' 3Uw m Lw",
+            [
+                "Kai Yamamoto (山本快)"
+            ],
+            "Lw':[3Uw' r 3Uw,m']"
         ]
     ],
     "AJM": [
@@ -3920,7 +3920,6 @@
             "U m' U' m d' m' U m d U'",
             [
                 "Daniel Lin",
-                "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Marcell Endrey",
                 "Michael Tripodi",
@@ -3932,7 +3931,8 @@
         [
             "Rw 3Uw' r' 3Uw m' 3Uw' r 3Uw m Rw'",
             [
-                "Daniel Wallin"
+                "Daniel Wallin",
+                "Kai Yamamoto (山本快)"
             ],
             "Rw:[3Uw' r' 3Uw,m']"
         ],
@@ -4468,18 +4468,12 @@
             [
                 "Daniel Lin",
                 "Daniel Wallin",
+                "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
                 "Ryan Eckersley"
             ],
             "D':[U' r U,m2]"
-        ],
-        [
-            "l2 U l' e2 l U' l' e2 l'",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "l:[l U l',e2]"
         ],
         [
             "4Lw' U2 l' U' m U l U' m' U' 4Lw",
@@ -4641,18 +4635,11 @@
             [
                 "Daniel Lin",
                 "Daniel Wallin",
+                "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley"
             ],
             "D':[U' r' U,m2]"
-        ],
-        [
-            "l2 U l e2 l' U' l e2 l",
-            [
-                "Kai Yamamoto (山本快)",
-                "Leonardo Ezequiel Cruz"
-            ],
-            "l':[l' U l,e2]"
         ],
         [
             "4Lw U2 l U' m' U l' U' m U' 4Lw'",
@@ -4660,6 +4647,13 @@
                 "Kevin Matthews"
             ],
             "4Lw U:[U l U',m']"
+        ],
+        [
+            "l2 U l e2 l' U' l e2 l",
+            [
+                "Leonardo Ezequiel Cruz"
+            ],
+            "l':[l' U l,e2]"
         ]
     ],
     "AKZ": [
@@ -4850,7 +4844,6 @@
             "U d m' U' m d' m' U m U'",
             [
                 "Daniel Lin",
-                "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -4865,6 +4858,13 @@
                 "Daniel Wallin"
             ],
             "Lw':[m',3Uw l 3Uw']"
+        ],
+        [
+            "3Lw' 3Uw' r 3Uw m 3Uw' r' 3Uw m' 3Lw",
+            [
+                "Kai Yamamoto (山本快)"
+            ],
+            "3Lw':[3Uw' r 3Uw,m]"
         ]
     ],
     "ALK": [
@@ -5017,6 +5017,14 @@
             "y:[d2,m' U' m]"
         ],
         [
+            "U d m' U' m d2 m' U m d U'",
+            [
+                "Kai Yamamoto (山本快)",
+                "Ryan Eckersley"
+            ],
+            "U d:[m' U' m,d2]"
+        ],
+        [
             "y' m' U m d2 m' U' m d2 y",
             [
                 "Daniel Lin"
@@ -5031,25 +5039,11 @@
             "R y:[l',U m U']"
         ],
         [
-            "3Uw d m' U' m d2 m' U m d 3Uw'",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "3Uw d:[m' U' m,d2]"
-        ],
-        [
             "R y' r' U m' U' r U m U' y R'",
             [
                 "Michael Tripodi"
             ],
             "R y':[r',U m' U']"
-        ],
-        [
-            "U d m' U' m d2 m' U m d U'",
-            [
-                "Ryan Eckersley"
-            ],
-            "U d:[m' U' m,d2]"
         ]
     ],
     "ALQ": [
@@ -5264,14 +5258,6 @@
             "Lw:[U l' U',m2]"
         ],
         [
-            "Lw' U l U' m2 U l' U' m2 Lw",
-            [
-                "Daniel Lin",
-                "Kai Yamamoto (山本快)"
-            ],
-            "Lw':[U l U',m2]"
-        ],
-        [
             "U m u2 m' U m u2 m' U2",
             [
                 "Kevin Matthews",
@@ -5282,9 +5268,17 @@
         [
             "m2 D l2 D' m2 D l2 D'",
             [
+                "Kai Yamamoto (山本快)",
                 "Marcell Endrey"
             ],
             "[m2,D l2 D']"
+        ],
+        [
+            "Lw' U l U' m2 U l' U' m2 Lw",
+            [
+                "Daniel Lin"
+            ],
+            "Lw':[U l U',m2]"
         ],
         [
             "D2 U' m d2 m' U m d2 m' D2",
@@ -6171,11 +6165,11 @@
             "3Uw:[l',U m U']"
         ],
         [
-            "3Uw' r' U' m U r U' m' U 3Uw",
+            "3Uw' r' 3Uw' m 3Uw r 3Uw' m' 3Uw2",
             [
                 "Kai Yamamoto (山本快)"
             ],
-            "3Uw':[r',U' m U]"
+            "3Uw':[r',3Uw' m 3Uw]"
         ],
         [
             "x' d' U m' U m d m' U' m U' x",
@@ -6213,7 +6207,6 @@
             "3Uw' r U' m U r' U' m' U 3Uw",
             [
                 "Daniel Wallin",
-                "Kai Yamamoto (山本快)",
                 "Kevin Matthews"
             ],
             "3Uw':[r,U' m U]"
@@ -6231,6 +6224,13 @@
                 "Daniel Lin"
             ],
             "z x':[m' U' m,d']"
+        ],
+        [
+            "3Uw' r 3Uw' m 3Uw r' 3Uw' m' 3Uw2",
+            [
+                "Kai Yamamoto (山本快)"
+            ],
+            "3Uw':[r,3Uw' m 3Uw]"
         ]
     ],
     "ANW": [
@@ -6703,18 +6703,11 @@
             [
                 "Daniel Lin",
                 "Daniel Wallin",
+                "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley"
             ],
             "D:[U l' U',m2]"
-        ],
-        [
-            "r2 U' r e2 r' U r e2 r",
-            [
-                "Kai Yamamoto (山本快)",
-                "Leonardo Ezequiel Cruz"
-            ],
-            "r':[r' U' r,e2]"
         ],
         [
             "4Lw' U2 r U m U' r' U m' U 4Lw",
@@ -6722,6 +6715,13 @@
                 "Kevin Matthews"
             ],
             "4Lw' U':[U' r U,m]"
+        ],
+        [
+            "r2 U' r e2 r' U r e2 r",
+            [
+                "Leonardo Ezequiel Cruz"
+            ],
+            "r':[r' U' r,e2]"
         ]
     ],
     "AOT": [
@@ -6759,18 +6759,11 @@
             [
                 "Daniel Lin",
                 "Daniel Wallin",
+                "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley"
             ],
             "D:[U l U',m2]"
-        ],
-        [
-            "r2 U' r' e2 r U r' e2 r'",
-            [
-                "Kai Yamamoto (山本快)",
-                "Leonardo Ezequiel Cruz"
-            ],
-            "r:[r U' r',e2]"
         ],
         [
             "4Lw U2 r' U m' U' r U m U 4Lw'",
@@ -6778,6 +6771,13 @@
                 "Kevin Matthews"
             ],
             "4Lw U':[U' r' U,m']"
+        ],
+        [
+            "r2 U' r' e2 r U r' e2 r'",
+            [
+                "Leonardo Ezequiel Cruz"
+            ],
+            "r:[r U' r',e2]"
         ]
     ],
     "AOX": [
@@ -7069,7 +7069,6 @@
             "U d' m' U' m d m' U m U'",
             [
                 "Daniel Lin",
-                "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Marcell Endrey",
                 "Roman Strakhov",
@@ -7080,7 +7079,8 @@
         [
             "Rw m' 3Uw' r' 3Uw m 3Uw' r 3Uw Rw'",
             [
-                "Daniel Wallin"
+                "Daniel Wallin",
+                "Kai Yamamoto (山本快)"
             ],
             "Rw:[m',3Uw' r' 3Uw]"
         ],
@@ -7145,6 +7145,14 @@
             "y:[m' U' m,d2]"
         ],
         [
+            "U d' m' U' m d2 m' U m d' U'",
+            [
+                "Kai Yamamoto (山本快)",
+                "Ryan Eckersley"
+            ],
+            "U d':[m' U' m,d2]"
+        ],
+        [
             "y' d2 m' U m d2 m' U' m y",
             [
                 "Daniel Lin"
@@ -7159,25 +7167,11 @@
             "R y:[U m U',l']"
         ],
         [
-            "4Uw m' U' m d2 m' U m d2 4Uw'",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "4Uw:[m' U' m,d2]"
-        ],
-        [
             "R y' U m' U' r' U m U' r y R'",
             [
                 "Michael Tripodi"
             ],
             "R y':[U m' U',r']"
-        ],
-        [
-            "U d' m' U' m d2 m' U m d' U'",
-            [
-                "Ryan Eckersley"
-            ],
-            "U d':[m' U' m,d2]"
         ]
     ],
     "APM": [
@@ -7637,18 +7631,12 @@
             [
                 "Daniel Lin",
                 "Daniel Wallin",
+                "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
                 "Ryan Eckersley"
             ],
             "D':[m2,U' r U]"
-        ],
-        [
-            "l e2 l U l' e2 l U' l2",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "l:[e2,l U l']"
         ],
         [
             "4Lw' U m U l' U' m' U l U2 4Lw",
@@ -8114,6 +8102,14 @@
     ],
     "ARI": [
         [
+            "3Uw2 m2 3Uw r' 3Uw' m2 3Uw r 3Uw",
+            [
+                "Kai Yamamoto (山本快)",
+                "Kevin Matthews"
+            ],
+            "3Uw':[3Uw' m2 3Uw,r']"
+        ],
+        [
             "D r' e r' U' r e' r' U r2 D'",
             [
                 "Daniel Lin"
@@ -8133,20 +8129,6 @@
                 "Daniel Wallin"
             ],
             "3Uw:[U m2 U',l']"
-        ],
-        [
-            "3Uw' U' m2 U r' U' m2 U r 3Uw",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "3Uw':[U' m2 U,r']"
-        ],
-        [
-            "3Uw2 m2 3Uw r' 3Uw' m2 3Uw r 3Uw",
-            [
-                "Kevin Matthews"
-            ],
-            "3Uw':[3Uw' m2 3Uw,r']"
         ],
         [
             "3Uw2 m2 3Uw' l' 3Uw m2 3Uw' l 3Uw'",
@@ -8345,11 +8327,11 @@
             "3Uw:[U m U',l']"
         ],
         [
-            "3Uw' U' m U r' U' m' U r 3Uw",
+            "3Uw2 m 3Uw r' 3Uw' m' 3Uw r 3Uw",
             [
                 "Kai Yamamoto (山本快)"
             ],
-            "3Uw':[U' m U,r']"
+            "3Uw':[3Uw' m 3Uw,r']"
         ],
         [
             "x' U m' U m d' m' U' m U' d x",
@@ -8890,18 +8872,12 @@
             [
                 "Daniel Lin",
                 "Daniel Wallin",
+                "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
                 "Ryan Eckersley"
             ],
             "D:[m2,U l' U']"
-        ],
-        [
-            "r' e2 r' U' r e2 r' U r2",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "r':[e2,r' U' r]"
         ],
         [
             "4Lw' U' m U' r U m' U' r' U2 4Lw",
@@ -9273,12 +9249,12 @@
     ],
     "ATI": [
         [
-            "3Uw' U' m2 U r U' m2 U r' 3Uw",
+            "3Uw2 m2 3Uw r 3Uw' m2 3Uw r' 3Uw",
             [
-                "Daniel Wallin",
-                "Kai Yamamoto (山本快)"
+                "Kai Yamamoto (山本快)",
+                "Kevin Matthews"
             ],
-            "3Uw':[U' m2 U,r]"
+            "3Uw':[3Uw' m2 3Uw,r]"
         ],
         [
             "D r e r U' r' e' r U r2 D'",
@@ -9288,11 +9264,11 @@
             "D r:[e,r U' r']"
         ],
         [
-            "3Uw2 m2 3Uw r 3Uw' m2 3Uw r' 3Uw",
+            "3Uw' U' m2 U r U' m2 U r' 3Uw",
             [
-                "Kevin Matthews"
+                "Daniel Wallin"
             ],
-            "3Uw':[3Uw' m2 3Uw,r]"
+            "3Uw':[U' m2 U,r]"
         ],
         [
             "4Uw2 m2 4Uw' l 4Uw m2 4Uw' l' 4Uw'",
@@ -9443,7 +9419,6 @@
             "3Uw' U' m U r U' m' U r' 3Uw",
             [
                 "Daniel Wallin",
-                "Kai Yamamoto (山本快)",
                 "Kevin Matthews"
             ],
             "3Uw':[U' m U,r]"
@@ -9461,6 +9436,13 @@
                 "Daniel Lin"
             ],
             "z x':[d',m' U' m]"
+        ],
+        [
+            "3Uw2 m 3Uw r 3Uw' m' 3Uw r' 3Uw",
+            [
+                "Kai Yamamoto (山本快)"
+            ],
+            "3Uw':[3Uw' m 3Uw,r]"
         ]
     ],
     "ATO": [
@@ -9952,18 +9934,11 @@
             [
                 "Daniel Lin",
                 "Daniel Wallin",
+                "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley"
             ],
             "D:[m2,U l U']"
-        ],
-        [
-            "r e2 r U' r' e2 r U r2",
-            [
-                "Kai Yamamoto (山本快)",
-                "Leonardo Ezequiel Cruz"
-            ],
-            "r:[e2,r U' r']"
         ],
         [
             "4Lw U' m' U' r' U m U' r U2 4Lw'",
@@ -9971,6 +9946,13 @@
                 "Kevin Matthews"
             ],
             "4Lw U':[m',U' r' U]"
+        ],
+        [
+            "r e2 r U' r' e2 r U r2",
+            [
+                "Leonardo Ezequiel Cruz"
+            ],
+            "r:[e2,r U' r']"
         ]
     ],
     "AWP": [
@@ -10949,18 +10931,11 @@
             [
                 "Daniel Lin",
                 "Daniel Wallin",
+                "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley"
             ],
             "D':[m2,U' r' U]"
-        ],
-        [
-            "l' e2 l' U l e2 l' U' l2",
-            [
-                "Kai Yamamoto (山本快)",
-                "Leonardo Ezequiel Cruz"
-            ],
-            "l':[e2,l' U l]"
         ],
         [
             "4Lw U m' U l U' m U l' U2 4Lw'",
@@ -10968,6 +10943,13 @@
                 "Kevin Matthews"
             ],
             "4Lw U:[m',U l U']"
+        ],
+        [
+            "l' e2 l' U l e2 l' U' l2",
+            [
+                "Leonardo Ezequiel Cruz"
+            ],
+            "l':[e2,l' U l]"
         ]
     ],
     "AYL": [
@@ -15891,20 +15873,26 @@
             "Rw':[U' r U,m2]"
         ],
         [
-            "Rw U' r' U m2 U' r U m2 Rw'",
-            [
-                "Daniel Lin",
-                "Kai Yamamoto (山本快)"
-            ],
-            "Rw:[U' r' U,m2]"
-        ],
-        [
             "U' m u2 m' U' m u2 m' U2",
             [
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz"
             ],
             "U':[m u2 m',U']"
+        ],
+        [
+            "Rw U' r' U m2 U' r U m2 Rw'",
+            [
+                "Daniel Lin"
+            ],
+            "Rw:[U' r' U,m2]"
+        ],
+        [
+            "m2 D' r2 D m2 D' r2 D",
+            [
+                "Kai Yamamoto (山本快)"
+            ],
+            "[m2,D' r2 D]"
         ],
         [
             "r' U' r U m2 U' r' U m2 r",
@@ -16795,6 +16783,15 @@
             "[m' d' m,U']"
         ]
     ],
+    "GLP": [
+        [
+            "U2 d m' U' m d2 m' U m d U2",
+            [
+                "Kai Yamamoto (山本快)"
+            ],
+            "U2 d:[m' U' m,d2]"
+        ]
+    ],
     "GMA": [
         [
             "Rw' m2 U' r U m2 U' r' U Rw",
@@ -16806,20 +16803,26 @@
             "Rw':[m2,U' r U]"
         ],
         [
-            "Rw m2 U' r' U m2 U' r U Rw'",
-            [
-                "Daniel Lin",
-                "Kai Yamamoto (山本快)"
-            ],
-            "Rw:[m2,U' r' U]"
-        ],
-        [
             "U2 m u2 m' U m u2 m' U",
             [
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz"
             ],
             "U':[U',m u2 m']"
+        ],
+        [
+            "Rw m2 U' r' U m2 U' r U Rw'",
+            [
+                "Daniel Lin"
+            ],
+            "Rw:[m2,U' r' U]"
+        ],
+        [
+            "D' r2 D m2 D' r2 D m2",
+            [
+                "Kai Yamamoto (山本快)"
+            ],
+            "[D' r2 D,m2]"
         ],
         [
             "r' m2 U' r U m2 U' r' U r",
@@ -16973,6 +16976,15 @@
                 "Ryan Eckersley"
             ],
             "[m' d m,U']"
+        ]
+    ],
+    "GPL": [
+        [
+            "U2 d' m' U' m d2 m' U m d' U2",
+            [
+                "Kai Yamamoto (山本快)"
+            ],
+            "U2 d':[m' U' m,d2]"
         ]
     ],
     "GQA": [
