@@ -110,7 +110,7 @@ const arrLang = {
         "wing": "Wing",
         "midge": "Midge",
         "xcenter": "X-center",
-        "tcenter": "T-center"
+        "tcenter": "+-center"
     },
     "zh": {
         "title": "三盲公式库",
@@ -336,7 +336,7 @@ const arrLang = {
         "wing": "Wing",
         "midge": "Midge",
         "xcenter": "X-center",
-        "tcenter": "T-center"
+        "tcenter": "+-center"
     }
 };
 
