@@ -1,7 +1,7 @@
 "use strict";
 
 $.ajaxSettings.async = false;
-const jsonNameList = ["edgeNumberToChichu", "edgeChichuToNumber", "edgeAlgToStandard", "edgeAlgToInfo", "edgeAlgToNightmare", "edgeAlgToInfoManmade", "edgePosToCode", "edgeCodeToPos", "sourceToUrl"];
+const jsonNameList = ["edgeChichuToNumber", "edgeAlgToStandard", "edgeAlgToInfo", "edgeAlgToNightmare", "edgeAlgToInfoManmade", "edgePosToCode", "edgeCodeToPos", "sourceToUrl"];
 const jsonLoaded = jsonNameList.map((name) => $.getJSON(`assets/json/${name}.json`, (json) => {
     window[`${name}`] = json;
 }));

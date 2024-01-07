@@ -1,7 +1,7 @@
 "use strict";
 
 $.ajaxSettings.async = false;
-const jsonNameList = ["cornerNumberToChichu", "cornerChichuToNumber", "cornerAlgToStandard", "cornerAlgToInfo", "cornerAlgToNightmare", "cornerAlgToInfoYuanzi", "cornerAlgToInfoManmade", "cornerAlgToYuanzi", "cornerAlgToInfoBalance", "cornerAlgToBalance", "cornerPosToCode", "cornerCodeToPos", "sourceToUrl"];
+const jsonNameList = ["cornerChichuToNumber", "cornerAlgToStandard", "cornerAlgToInfo", "cornerAlgToNightmare", "cornerAlgToInfoYuanzi", "cornerAlgToInfoManmade", "cornerAlgToYuanzi", "cornerAlgToInfoBalance", "cornerAlgToBalance", "cornerPosToCode", "cornerCodeToPos", "sourceToUrl"];
 const jsonLoaded = jsonNameList.map((name) => $.getJSON(`assets/json/${name}.json`, (json) => {
     window[`${name}`] = json;
 }));
