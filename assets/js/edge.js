@@ -125,6 +125,20 @@ function algSearchMain(idValue, setup, id, edgestylecookie) {
         }
         let tab = "";
         let inew = 0;
+        if (edgestylecookie === "manmade") {
+            const mergedSourceDict = {};
+            for (let i = 0; i < rows; i++) {
+                mergedSourceDict[singleList[i]] = [];
+                for (let j = 0; j < groupedValues[singleList[i]].length; j++) {
+                    for (const source of groupedValues[singleList[i]][j][1]) {
+                        if (!mergedSourceDict[singleList[i]].includes(source)) {
+                            mergedSourceDict[singleList[i]].push(source);
+                        }
+                    }
+                }
+            }
+            singleList.sort((a, b) => mergedSourceDict[b].length - mergedSourceDict[a].length);
+        }
         for (let i = 0; i < rows; i++) {
             let edgeAlgToInfoNew = "";
             if (setup.length > 0) {

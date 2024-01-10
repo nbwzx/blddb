@@ -129,6 +129,20 @@ function algSearchMain(idValue, cornerstylecookie) {
         } else {
             tab = `<table id="table"><thead><tr><th>${arrLang[lang]["no"]}</th><th>${arrLang[lang]["algorithm"]}</th><th>${arrLang[lang]["commutator"]}</th><th>${arrLang[lang]["thumbPosition"]}</th></tr></thead><tbody>`;
         }
+        if (cornerstylecookie === "manmade") {
+            const mergedSourceDict = {};
+            for (let i = 0; i < rows; i++) {
+                mergedSourceDict[singleList[i]] = [];
+                for (let j = 0; j < groupedValues[singleList[i]].length; j++) {
+                    for (const source of groupedValues[singleList[i]][j][1]) {
+                        if (!mergedSourceDict[singleList[i]].includes(source)) {
+                            mergedSourceDict[singleList[i]].push(source);
+                        }
+                    }
+                }
+            }
+            singleList.sort((a, b) => mergedSourceDict[b].length - mergedSourceDict[a].length);
+        }
         for (let i = 0; i < rows; i++) {
             if (cornerstylecookie !== "manmade" && cornerAlgToInfoStyle[idValue][i] === cornerAlgToStyle[idValue]) {
                 tab += "<tr bgcolor=\"#D0D0D0\">";
