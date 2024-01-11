@@ -119,16 +119,28 @@ function setSelect(alg) {
     if (edgestylecookie === "manmade") {
         edgeAlgToInfoStyle = edgeAlgToInfoManmade;
     }
-    const rows = edgeAlgToInfoStyle[standardAlg].length;
-    for (let i = 0; i < rows; i++) {
-        const optionsDict = {};
-        optionsDict["id"] = i + 1;
-        if (edgestylecookie === "manmade") {
-            optionsDict["algorithm"] = edgeAlgToInfoStyle[standardAlg][i][0];
-        } else {
-            optionsDict["algorithm"] = edgeAlgToInfoStyle[standardAlg][i];
+    if (edgestylecookie === "manmade") {
+        const singleList = [];
+        for (const algs of edgeAlgToInfoStyle[standardAlg]) {
+            for (const singleAlg of algs[0]) {
+                singleList.push(singleAlg);
+            }
         }
-        optionsList.push(optionsDict);
+        const rows = singleList.length;
+        for (let i = 0; i < rows; i++) {
+            const optionsDict = {};
+            optionsDict["id"] = i + 1;
+            optionsDict["algorithm"] = singleList[i];
+            optionsList.push(optionsDict);
+        }
+    } else {
+        const rows = edgeAlgToInfoStyle[standardAlg].length;
+        for (let i = 0; i < rows; i++) {
+            const optionsDict = {};
+            optionsDict["id"] = i + 1;
+            optionsDict["algorithm"] = edgeAlgToInfoStyle[standardAlg][i];
+            optionsList.push(optionsDict);
+        }
     }
     $(`#select-algorithm-${standardAlg}`).selectize( {
         "loadingClass": "selectizeLoading",

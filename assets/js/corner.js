@@ -100,48 +100,18 @@ function algSearchMain(idValue, cornerstylecookie) {
             cornerAlgToInfoStyle = cornerAlgToInfoBalance;
             cornerAlgToStyle = cornerAlgToBalance;
         }
-        const singleList = [];
-        const groupedValues = {};
         if (cornerstylecookie === "manmade") {
             cornerAlgToInfoStyle = cornerAlgToInfoManmade;
-            for (let i = 0; i < cornerAlgToInfoStyle[idValue].length; i++) {
-                const originalValue = cornerAlgToInfoStyle[idValue][i];
-                const singleValue = single(originalValue[0]);
-                // Check if the singleValue is already in the groupedValues object
-                if (groupedValues.hasOwnProperty(singleValue)) {
-                    groupedValues[singleValue].push(originalValue);
-                } else {
-                    groupedValues[singleValue] = [originalValue];
-                    singleList.push(singleValue);
-                }
-            }
         }
         if (document.getElementById("cornerinput") === document.activeElement) {
             document.getElementById("cornerinput").blur();
         }
-        let rows = cornerAlgToInfoStyle[idValue].length;
-        if (cornerstylecookie === "manmade") {
-            rows = singleList.length;
-        }
+        const rows = cornerAlgToInfoStyle[idValue].length;
         let tab = "";
         if (cornerstylecookie === "manmade") {
             tab = `<table id="table"><thead><tr><th>${arrLang[lang]["no"]}</th><th>${arrLang[lang]["algorithm"]}</th><th>${arrLang[lang]["commutator"]}</th><th>${arrLang[lang]["thumbPosition"]}</th><th>${arrLang[lang]["source"]}</th></tr></thead><tbody>`;
         } else {
             tab = `<table id="table"><thead><tr><th>${arrLang[lang]["no"]}</th><th>${arrLang[lang]["algorithm"]}</th><th>${arrLang[lang]["commutator"]}</th><th>${arrLang[lang]["thumbPosition"]}</th></tr></thead><tbody>`;
-        }
-        if (cornerstylecookie === "manmade") {
-            const mergedSourceDict = {};
-            for (let i = 0; i < rows; i++) {
-                mergedSourceDict[singleList[i]] = [];
-                for (let j = 0; j < groupedValues[singleList[i]].length; j++) {
-                    for (const source of groupedValues[singleList[i]][j][1]) {
-                        if (!mergedSourceDict[singleList[i]].includes(source)) {
-                            mergedSourceDict[singleList[i]].push(source);
-                        }
-                    }
-                }
-            }
-            singleList.sort((a, b) => mergedSourceDict[b].length - mergedSourceDict[a].length);
         }
         for (let i = 0; i < rows; i++) {
             if (cornerstylecookie !== "manmade" && cornerAlgToInfoStyle[idValue][i] === cornerAlgToStyle[idValue]) {
@@ -150,40 +120,33 @@ function algSearchMain(idValue, cornerstylecookie) {
                 tab += "<tr>";
             }
             if (cornerstylecookie === "manmade") {
-                tab += `<td rowspan="${groupedValues[singleList[i]].length}">${i + 1}</td>`;
-                const mergedSource = [];
-                for (let j = 0; j < groupedValues[singleList[i]].length; j++) {
-                    for (const source of groupedValues[singleList[i]][j][1]) {
-                        if (!mergedSource.includes(source)) {
-                            mergedSource.push(source);
-                        }
-                    }
-                }
-                mergedSource.sort();
-                for (let j = 0; j < groupedValues[singleList[i]].length; j++) {
+                const algInfo = cornerAlgToInfoStyle[idValue][i][0];
+                const sourceInfo = cornerAlgToInfoStyle[idValue][i][1];
+                tab += `<td rowspan="${algInfo.length}">${i + 1}</td>`;
+                for (let j = 0; j < algInfo.length; j++) {
                     if (j === 0) {
-                        tab += `<td>${groupedValues[singleList[i]][j][0]}</td>`;
+                        tab += `<td>${algInfo[j]}</td>`;
                     } else {
-                        tab += `<td style="border-left:0px">${groupedValues[singleList[i]][j][0]}</td>`;
+                        tab += `<td style="border-left:0px">${algInfo[j]}</td>`;
                     }
-                    tab += `<td>${commutator(groupedValues[singleList[i]][j][0])}</td>`;
+                    tab += `<td>${commutator(algInfo[j])}</td>`;
                     let sourceElement = "";
-                    for (const source of mergedSource) {
+                    for (const source of sourceInfo) {
                         if (source in sourceToUrl) {
                             sourceElement = `${sourceElement}<a href="${sourceToUrl[source][0]}" target="_blank">${source}</a>`;
                         } else {
                             sourceElement = `${sourceElement}${source}`;
                         }
-                        if (source !== mergedSource[mergedSource.length - 1]) {
+                        if (source !== sourceInfo[sourceInfo.length - 1]) {
                             sourceElement += "<br>";
                         }
                     }
                     if (j === 0) {
-                        tab += `<td rowspan="${groupedValues[singleList[i]].length}">${fingerbeginfrom(groupedValues[singleList[i]][j][0])}</td>`;
-                        tab += `<td class="help" rowspan="${groupedValues[singleList[i]].length}">${mergedSource.length} <span class="help-content">${sourceElement}</span></td>`;
+                        tab += `<td rowspan="${algInfo.length}">${fingerbeginfrom(algInfo[j])}</td>`;
+                        tab += `<td class="help" rowspan="${algInfo.length}">${sourceInfo.length} <span class="help-content">${sourceElement}</span></td>`;
                     }
                     tab += "</tr>";
-                    if (j !== groupedValues[singleList[i]].length - 1) {
+                    if (j !== algInfo.length - 1) {
                         tab += "<tr>";
                     }
                 }

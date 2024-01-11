@@ -100,45 +100,15 @@ function algSearchMain(idValue, setup, id, edgestylecookie) {
         if (edgestylecookie === "nightmare") {
             edgeAlgToInfoStyle = edgeAlgToInfo;
         }
-        const singleList = [];
-        const groupedValues = {};
         if (edgestylecookie === "manmade") {
             edgeAlgToInfoStyle = edgeAlgToInfoManmade;
-            for (let i = 0; i < edgeAlgToInfoStyle[idValue].length; i++) {
-                const originalValue = edgeAlgToInfoStyle[idValue][i];
-                const singleValue = single(originalValue[0]);
-                // Check if the singleValue is already in the groupedValues object
-                if (groupedValues.hasOwnProperty(singleValue)) {
-                    groupedValues[singleValue].push(originalValue);
-                } else {
-                    groupedValues[singleValue] = [originalValue];
-                    singleList.push(singleValue);
-                }
-            }
         }
         if (document.getElementById("edgeinput") === document.activeElement) {
             document.getElementById("edgeinput").blur();
         }
-        let rows = edgeAlgToInfoStyle[idValue].length;
-        if (edgestylecookie === "manmade") {
-            rows = singleList.length;
-        }
+        const rows = edgeAlgToInfoStyle[idValue].length;
         let tab = "";
         let inew = 0;
-        if (edgestylecookie === "manmade") {
-            const mergedSourceDict = {};
-            for (let i = 0; i < rows; i++) {
-                mergedSourceDict[singleList[i]] = [];
-                for (let j = 0; j < groupedValues[singleList[i]].length; j++) {
-                    for (const source of groupedValues[singleList[i]][j][1]) {
-                        if (!mergedSourceDict[singleList[i]].includes(source)) {
-                            mergedSourceDict[singleList[i]].push(source);
-                        }
-                    }
-                }
-            }
-            singleList.sort((a, b) => mergedSourceDict[b].length - mergedSourceDict[a].length);
-        }
         for (let i = 0; i < rows; i++) {
             let edgeAlgToInfoNew = "";
             if (setup.length > 0) {
@@ -164,40 +134,33 @@ function algSearchMain(idValue, setup, id, edgestylecookie) {
                 tab += "<tr>";
             }
             if (edgestylecookie === "manmade") {
-                tab += `<td rowspan="${groupedValues[singleList[i]].length}">${inew}</td>`;
-                const mergedSource = [];
-                for (let j = 0; j < groupedValues[singleList[i]].length; j++) {
-                    for (const source of groupedValues[singleList[i]][j][1]) {
-                        if (!mergedSource.includes(source)) {
-                            mergedSource.push(source);
-                        }
-                    }
-                }
-                mergedSource.sort();
-                for (let j = 0; j < groupedValues[singleList[i]].length; j++) {
+                const algInfo = edgeAlgToInfoStyle[idValue][i][0];
+                const sourceInfo = edgeAlgToInfoStyle[idValue][i][1];
+                tab += `<td rowspan="${algInfo.length}">${inew}</td>`;
+                for (let j = 0; j < algInfo.length; j++) {
                     if (j === 0) {
-                        tab += `<td>${groupedValues[singleList[i]][j][0]}</td>`;
+                        tab += `<td>${algInfo[j]}</td>`;
                     } else {
-                        tab += `<td style="border-left:0px">${groupedValues[singleList[i]][j][0]}</td>`;
+                        tab += `<td style="border-left:0px">${algInfo[j]}</td>`;
                     }
-                    tab += `<td>${commutator(groupedValues[singleList[i]][j][0])}</td>`;
+                    tab += `<td>${commutator(algInfo[j])}</td>`;
                     let sourceElement = "";
-                    for (const source of mergedSource) {
+                    for (const source of sourceInfo) {
                         if (source in sourceToUrl) {
                             sourceElement = `${sourceElement}<a href="${sourceToUrl[source][0]}" target="_blank">${source}</a>`;
                         } else {
                             sourceElement = `${sourceElement}${source}`;
                         }
-                        if (source !== mergedSource[mergedSource.length - 1]) {
+                        if (source !== sourceInfo[sourceInfo.length - 1]) {
                             sourceElement += "<br>";
                         }
                     }
                     if (j === 0) {
-                        tab += `<td rowspan="${groupedValues[singleList[i]].length}">${fingerbeginfrom(groupedValues[singleList[i]][j][0])}</td>`;
-                        tab += `<td class="help" rowspan="${groupedValues[singleList[i]].length}">${mergedSource.length} <span class="help-content">${sourceElement}</span></td>`;
+                        tab += `<td rowspan="${algInfo.length}">${fingerbeginfrom(algInfo[j])}</td>`;
+                        tab += `<td class="help" rowspan="${algInfo.length}">${sourceInfo.length} <span class="help-content">${sourceElement}</span></td>`;
                     }
                     tab += "</tr>";
-                    if (j !== groupedValues[singleList[i]].length - 1) {
+                    if (j !== algInfo.length - 1) {
                         tab += "<tr>";
                     }
                 }
