@@ -31,18 +31,18 @@
             "Lw:[m,U L' U']"
         ],
         [
-            "m L U L' U' m' U L U' L'",
-            [
-                "Hana Davila"
-            ],
-            "[m,L U L' U']"
-        ],
-        [
             "Lw' m U L U' m' U L' U' Lw",
             [
                 "Michael Tripodi"
             ],
             "Lw':[m,U L U']"
+        ],
+        [
+            "m L U L' U' m' U L U' L'",
+            [
+                "Hana Davila"
+            ],
+            "[m,L U L' U']"
         ]
     ],
     "ACI": [
@@ -90,11 +90,11 @@
             "D:[m D' m',U']"
         ],
         [
-            "m' L U L' U' m U L U' L'",
+            "x U L U' m U L' U' m' x'",
             [
-                "Hana Davila"
+                "Oliver Fritz"
             ],
-            "[m',L U L' U']"
+            "x:[U L U',m]"
         ],
         [
             "L' m' U L U' m U L' U' L",
@@ -104,11 +104,11 @@
             "L':[m',U L U']"
         ],
         [
-            "x U L U' m U L' U' m' x'",
+            "m' L U L' U' m U L U' L'",
             [
-                "Oliver Fritz"
+                "Hana Davila"
             ],
-            "x:[U L U',m]"
+            "[m',L U L' U']"
         ]
     ],
     "ACK": [
@@ -146,20 +146,20 @@
     ],
     "ACM": [
         [
-            "m2 L U L' U' m2 U L U' L'",
-            [
-                "Hana Davila",
-                "Leonardo Ezequiel Cruz"
-            ],
-            "[m2,L U L' U']"
-        ],
-        [
             "Lw' m2 U L U' m2 U L' U' Lw",
             [
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi"
             ],
             "Lw':[m2,U L U']"
+        ],
+        [
+            "m2 L U L' U' m2 U L U' L'",
+            [
+                "Hana Davila",
+                "Leonardo Ezequiel Cruz"
+            ],
+            "[m2,L U L' U']"
         ],
         [
             "U' Rw U' R' U m2 U' R U m2 Rw' U",
@@ -197,20 +197,20 @@
     ],
     "ACO": [
         [
-            "D' m D2 m' U' m D2 m' U D",
-            [
-                "Hana Davila",
-                "Kai Yamamoto (山本快)"
-            ],
-            "D':[m D2 m',U']"
-        ],
-        [
             "4Rw2 U' m U2 m' U' 4Rw2",
             [
                 "Daniel Wallin",
                 "Michael Tripodi"
             ],
             "4Rw2 U':[m,U2]"
+        ],
+        [
+            "D' m D2 m' U' m D2 m' U D",
+            [
+                "Hana Davila",
+                "Kai Yamamoto (山本快)"
+            ],
+            "D':[m D2 m',U']"
         ],
         [
             "L2 D' m D2 m' D' L2",
@@ -283,18 +283,18 @@
             "4Rw':[U' m' U,L']"
         ],
         [
-            "M U' m' U L' U' m U L M'",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "M:[U' m' U,L']"
-        ],
-        [
             "m U' m' U L' U' m U L m'",
             [
                 "Michael Tripodi"
             ],
             "m:[U' m' U,L']"
+        ],
+        [
+            "M U' m' U L' U' m U L M'",
+            [
+                "Kai Yamamoto (山本快)"
+            ],
+            "M:[U' m' U,L']"
         ]
     ],
     "ACT": [
@@ -314,18 +314,18 @@
             "z' L':[U' m' U,L']"
         ],
         [
-            "U' R' e R U' R' e' R U2",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "U':[R' e R,U']"
-        ],
-        [
             "Lw D m' U L' U' m U L U' D' Lw'",
             [
                 "Michael Tripodi"
             ],
             "Lw D:[m',U L' U']"
+        ],
+        [
+            "U' R' e R U' R' e' R U2",
+            [
+                "Kai Yamamoto (山本快)"
+            ],
+            "U':[R' e R,U']"
         ]
     ],
     "ACW": [
@@ -339,18 +339,18 @@
             "4Rw':[U' m' U,L]"
         ],
         [
-            "M U' m' U L U' m U L' M'",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "M:[U' m' U,L]"
-        ],
-        [
             "m U' m' U L U' m U L' m'",
             [
                 "Michael Tripodi"
             ],
             "m:[U' m' U,L]"
+        ],
+        [
+            "M U' m' U L U' m U L' M'",
+            [
+                "Kai Yamamoto (山本快)"
+            ],
+            "M:[U' m' U,L]"
         ]
     ],
     "ACX": [
@@ -370,18 +370,18 @@
             "L' D:[m',U L U']"
         ],
         [
-            "z' L' U m U' L' U m' U' L2 z",
-            [
-                "Hana Davila"
-            ],
-            "z' L':[U m U',L']"
-        ],
-        [
             "U' R e' R' U' R e R' U2",
             [
                 "Kai Yamamoto (山本快)"
             ],
             "U':[R e' R',U']"
+        ],
+        [
+            "z' L' U m U' L' U m' U' L2 z",
+            [
+                "Hana Davila"
+            ],
+            "z' L':[U m U',L']"
         ]
     ],
     "ACY": [
@@ -478,18 +478,11 @@
             "3Rw' U':[m,D2]"
         ],
         [
-            "L' B' U2 m' U2 m B L",
+            "U2 x' m2 U' R U m2 U' R' U x U2",
             [
-                "Hana Davila"
+                "Oliver Fritz"
             ],
-            "L' B':[U2,m']"
-        ],
-        [
-            "M U' m D2 m' D2 U M'",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "M U':[m,D2]"
+            "U2 x':[m2,U' R U]"
         ],
         [
             "U' m D R2 D' m' D R2 D' U",
@@ -506,11 +499,18 @@
             "L U':[L' s' L,F]"
         ],
         [
-            "U2 x' m2 U' R U m2 U' R' U x U2",
+            "M U' m D2 m' D2 U M'",
             [
-                "Oliver Fritz"
+                "Kai Yamamoto (山本快)"
             ],
-            "U2 x':[m2,U' R U]"
+            "M U':[m,D2]"
+        ],
+        [
+            "L' B' U2 m' U2 m B L",
+            [
+                "Hana Davila"
+            ],
+            "L' B':[U2,m']"
         ]
     ],
     "ADJ": [
@@ -526,6 +526,13 @@
             "3Lw':[m',U' L U]"
         ],
         [
+            "x m' U' L U m U' L' U x'",
+            [
+                "Oliver Fritz"
+            ],
+            "x:[m',U' L U]"
+        ],
+        [
             "L m2 U' L' U m U' L U m L'",
             [
                 "Mark Rivers"
@@ -538,13 +545,6 @@
                 "Mark Rivers"
             ],
             "[D' L2 D,m]"
-        ],
-        [
-            "x m' U' L U m U' L' U x'",
-            [
-                "Oliver Fritz"
-            ],
-            "x:[m',U' L U]"
         ]
     ],
     "ADK": [
@@ -590,18 +590,18 @@
             "s' D':[m,D2]"
         ],
         [
-            "4Rw' U m2 U' L2 U m2 U' L2 4Rw",
-            [
-                "Hana Davila"
-            ],
-            "4Rw':[U m2 U',L2]"
-        ],
-        [
             "4Rw2 U m U' 4Rw2 D m' D'",
             [
                 "Michael Tripodi"
             ],
             "4Rw2 U:[m,U' 4Rw2 D]"
+        ],
+        [
+            "4Rw' U m2 U' L2 U m2 U' L2 4Rw",
+            [
+                "Hana Davila"
+            ],
+            "4Rw':[U m2 U',L2]"
         ]
     ],
     "ADM": [
@@ -616,29 +616,21 @@
             "3Lw':[m2,U' L U]"
         ],
         [
-            "m L' U' L U m2 U' L' U L m",
-            [
-                "Hana Davila"
-            ],
-            "m:[L' U' L U,m2]"
-        ],
-        [
             "Lw m U' L' U m2 U' L U m Lw'",
             [
                 "Michael Tripodi"
             ],
             "Lw m:[U' L' U,m2]"
+        ],
+        [
+            "m L' U' L U m2 U' L' U L m",
+            [
+                "Hana Davila"
+            ],
+            "m:[L' U' L U,m2]"
         ]
     ],
     "ADN": [
-        [
-            "U' 3Rw U R' U' m2 U R U' m2 3Rw' U",
-            [
-                "Daniel Wallin",
-                "Kai Yamamoto (山本快)"
-            ],
-            "U' 3Rw:[U R' U',m2]"
-        ],
         [
             "3Lw' U2 m' U L U' m U L' U 3Lw",
             [
@@ -646,6 +638,14 @@
                 "Michael Tripodi"
             ],
             "3Lw' U':[U' m' U,L]"
+        ],
+        [
+            "U' 3Rw U R' U' m2 U R U' m2 3Rw' U",
+            [
+                "Daniel Wallin",
+                "Kai Yamamoto (山本快)"
+            ],
+            "U' 3Rw:[U R' U',m2]"
         ],
         [
             "x U2 m' U L U' m U L' U x'",
@@ -700,20 +700,20 @@
     ],
     "ADQ": [
         [
-            "L e R U' R' e' R U R' L'",
-            [
-                "Hana Davila",
-                "Kai Yamamoto (山本快)"
-            ],
-            "L:[e,R U' R']"
-        ],
-        [
             "z' D m' U L' U' m U L U' D' z",
             [
                 "Graham Siggins",
                 "Michael Tripodi"
             ],
             "z' D:[m',U L' U']"
+        ],
+        [
+            "L e R U' R' e' R U R' L'",
+            [
+                "Hana Davila",
+                "Kai Yamamoto (山本快)"
+            ],
+            "L:[e,R U' R']"
         ],
         [
             "Rw U' Rw m' U R' U' m U R U' Rw' U Rw'",
@@ -734,18 +734,18 @@
             "R m U:[m',U2]"
         ],
         [
-            "m U m2 U R U' m2 U R' U2 m'",
-            [
-                "Hana Davila"
-            ],
-            "m U:[m2,U R U']"
-        ],
-        [
             "U 4Lw e' L' U L e L' U' L 4Lw' U'",
             [
                 "Kai Yamamoto (山本快)"
             ],
             "U 4Lw:[e',L' U L]"
+        ],
+        [
+            "m U m2 U R U' m2 U R' U2 m'",
+            [
+                "Hana Davila"
+            ],
+            "m U:[m2,U R U']"
         ]
     ],
     "ADS": [
@@ -810,18 +810,18 @@
             "3Lw:[L',U m2 U']"
         ],
         [
-            "S U' R e' R' U R e R' S'",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "S:[U',R e' R']"
-        ],
-        [
             "m U m2 U' L U m2 U' L' m'",
             [
                 "Michael Tripodi"
             ],
             "m:[U m2 U',L]"
+        ],
+        [
+            "S U' R e' R' U R e R' S'",
+            [
+                "Kai Yamamoto (山本快)"
+            ],
+            "S:[U',R e' R']"
         ]
     ],
     "ADY": [
@@ -840,11 +840,11 @@
             "z' D':[m,U' L' U]"
         ],
         [
-            "x D m U' L U m' U' L' U D' x'",
+            "3Rw m' D m U m' D' m U' 3Rw'",
             [
-                "Hana Davila"
+                "Michael Tripodi"
             ],
-            "x D:[m,U' L U]"
+            "3Rw:[m' D m,U]"
         ],
         [
             "L' e' R' U' R e R' U R L",
@@ -854,11 +854,11 @@
             "L':[e',R' U' R]"
         ],
         [
-            "3Rw m' D m U m' D' m U' 3Rw'",
+            "x D m U' L U m' U' L' U D' x'",
             [
-                "Michael Tripodi"
+                "Hana Davila"
             ],
-            "3Rw:[m' D m,U]"
+            "x D:[m,U' L U]"
         ]
     ],
     "ADZ": [
@@ -932,15 +932,6 @@
     ],
     "AEJ": [
         [
-            "U' m U m U2 m' U m' U",
-            [
-                "Graham Siggins",
-                "Hana Davila",
-                "Mark Rivers"
-            ],
-            "U' m U:[m,U2]"
-        ],
-        [
             "U m U' m U2 m' U' m' U'",
             [
                 "Daniel Wallin",
@@ -948,6 +939,15 @@
                 "Michael Tripodi"
             ],
             "U m U':[m,U2]"
+        ],
+        [
+            "U' m U m U2 m' U m' U",
+            [
+                "Graham Siggins",
+                "Hana Davila",
+                "Mark Rivers"
+            ],
+            "U' m U:[m,U2]"
         ],
         [
             "D m D' m' U2 m D m' U2 D'",
@@ -1560,18 +1560,11 @@
             "3Rw' U':[D2,m]"
         ],
         [
-            "L' B' m' U2 m U2 B L",
+            "U2 x' U' R U m2 U' R' U m2 x U2",
             [
-                "Hana Davila"
+                "Oliver Fritz"
             ],
-            "L' B':[m',U2]"
-        ],
-        [
-            "M U' D2 m D2 m' U M'",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "M U':[D2,m]"
+            "U2 x':[U' R U,m2]"
         ],
         [
             "U' D R2 D' m D R2 D' m' U",
@@ -1588,11 +1581,18 @@
             "L U':[F,L' s' L]"
         ],
         [
-            "U2 x' U' R U m2 U' R' U m2 x U2",
+            "M U' D2 m D2 m' U M'",
             [
-                "Oliver Fritz"
+                "Kai Yamamoto (山本快)"
             ],
-            "U2 x':[U' R U,m2]"
+            "M U':[D2,m]"
+        ],
+        [
+            "L' B' m' U2 m U2 B L",
+            [
+                "Hana Davila"
+            ],
+            "L' B':[m',U2]"
         ]
     ],
     "AIE": [
@@ -1686,11 +1686,11 @@
             "m' D:[m',U2]"
         ],
         [
-            "M' D m' U2 m U2 D' M",
+            "y' U m' U' R2 U m U' R2 y",
             [
-                "Kai Yamamoto (山本快)"
+                "Oliver Fritz"
             ],
-            "M' D:[m',U2]"
+            "y':[U m' U',R2]"
         ],
         [
             "U2 m U L2 U' m2 U L2 U' m U2",
@@ -1700,11 +1700,11 @@
             "U2 m:[U L2 U',m2]"
         ],
         [
-            "y' U m' U' R2 U m U' R2 y",
+            "M' D m' U2 m U2 D' M",
             [
-                "Oliver Fritz"
+                "Kai Yamamoto (山本快)"
             ],
-            "y':[U m' U',R2]"
+            "M' D:[m',U2]"
         ]
     ],
     "AIM": [
@@ -1810,20 +1810,6 @@
             "m' D':[m',U2]"
         ],
         [
-            "M' D' m' U2 m U2 D M",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "M' D':[m',U2]"
-        ],
-        [
-            "U2 m U' R2 U m2 U' R2 U m U2",
-            [
-                "Mark Rivers"
-            ],
-            "U2 m:[U' R2 U,m2]"
-        ],
-        [
             "3Lw' D U2 m U2 m' D' 3Lw",
             [
                 "Michael Tripodi"
@@ -1836,6 +1822,20 @@
                 "Oliver Fritz"
             ],
             "y':[U' m U,R2]"
+        ],
+        [
+            "U2 m U' R2 U m2 U' R2 U m U2",
+            [
+                "Mark Rivers"
+            ],
+            "U2 m:[U' R2 U,m2]"
+        ],
+        [
+            "M' D' m' U2 m U2 D M",
+            [
+                "Kai Yamamoto (山本快)"
+            ],
+            "M' D':[m',U2]"
         ]
     ],
     "AIQ": [
@@ -2060,6 +2060,13 @@
             "B:[m',U2]"
         ],
         [
+            "3Rw D U2 m U2 m' D' 3Rw'",
+            [
+                "Michael Tripodi"
+            ],
+            "3Rw D:[U2,m]"
+        ],
+        [
             "U2 m U' R' U m2 U' R U m U2",
             [
                 "Mark Rivers"
@@ -2072,13 +2079,6 @@
                 "Mark Rivers"
             ],
             "U R':[R' F' R,s]"
-        ],
-        [
-            "3Rw D U2 m U2 m' D' 3Rw'",
-            [
-                "Michael Tripodi"
-            ],
-            "3Rw D:[U2,m]"
         ]
     ],
     "AJC": [
@@ -2105,11 +2105,11 @@
             "D:[U',m D' m']"
         ],
         [
-            "L U L' U' m' U L U' L' m",
+            "x m U L U' m' U L' U' x'",
             [
-                "Hana Davila"
+                "Oliver Fritz"
             ],
-            "[L U L' U',m']"
+            "x:[m,U L U']"
         ],
         [
             "L' U L U' m' U L' U' m L",
@@ -2119,11 +2119,11 @@
             "L':[U L U',m']"
         ],
         [
-            "x m U L U' m' U L' U' x'",
+            "L U L' U' m' U L U' L' m",
             [
-                "Oliver Fritz"
+                "Hana Davila"
             ],
-            "x:[m,U L U']"
+            "[L U L' U',m']"
         ]
     ],
     "AJD": [
@@ -2139,6 +2139,13 @@
             "3Lw':[U' L U,m']"
         ],
         [
+            "x U' L U m' U' L' U m x'",
+            [
+                "Oliver Fritz"
+            ],
+            "x:[U' L U,m']"
+        ],
+        [
             "L m' U' L' U m' U' L U m2 L'",
             [
                 "Mark Rivers"
@@ -2151,13 +2158,6 @@
                 "Mark Rivers"
             ],
             "[m,D' L2 D]"
-        ],
-        [
-            "x U' L U m' U' L' U m x'",
-            [
-                "Oliver Fritz"
-            ],
-            "x:[U' L U,m']"
         ]
     ],
     "AJE": [
@@ -2266,18 +2266,18 @@
             "3Lw':[U' L' U,m']"
         ],
         [
-            "U s L F L' s' L F' L' U'",
-            [
-                "Mark Rivers"
-            ],
-            "U:[s,L F L']"
-        ],
-        [
             "x U' L' U m' U' L U m x'",
             [
                 "Oliver Fritz"
             ],
             "x:[U' L' U,m']"
+        ],
+        [
+            "U s L F L' s' L F' L' U'",
+            [
+                "Mark Rivers"
+            ],
+            "U:[s,L F L']"
         ]
     ],
     "AJM": [
@@ -2374,6 +2374,13 @@
             "3Rw:[U R U',m']"
         ],
         [
+            "x U R U' m' U R' U' m x'",
+            [
+                "Oliver Fritz"
+            ],
+            "x:[U R U',m']"
+        ],
+        [
             "U' m' U m D' m' U' m D U",
             [
                 "Mark Rivers"
@@ -2386,13 +2393,6 @@
                 "Mark Rivers"
             ],
             "U':[s',R' F' R]"
-        ],
-        [
-            "x U R U' m' U R' U' m x'",
-            [
-                "Oliver Fritz"
-            ],
-            "x:[U R U',m']"
         ]
     ],
     "AJQ": [
@@ -2472,20 +2472,20 @@
             "m':[U' L' U,m']"
         ],
         [
-            "m D' L D m' D' L' D",
-            [
-                "Kai Yamamoto (山本快)",
-                "Mark Rivers"
-            ],
-            "[m,D' L D]"
-        ],
-        [
             "3Rw U' L' U m' U' L U m 3Rw'",
             [
                 "Daniel Wallin",
                 "Oliver Fritz"
             ],
             "3Rw:[U' L' U,m']"
+        ],
+        [
+            "m D' L D m' D' L' D",
+            [
+                "Kai Yamamoto (山本快)",
+                "Mark Rivers"
+            ],
+            "[m,D' L D]"
         ]
     ],
     "AJW": [
@@ -2737,18 +2737,18 @@
             "U' L2 U:[m,U2]"
         ],
         [
-            "D m' U2 m D m' U2 m D2",
-            [
-                "Hana Davila"
-            ],
-            "D:[m' U2 m,D]"
-        ],
-        [
             "Lw' m2 U L' U' m2 U L U' Lw",
             [
                 "Kai Yamamoto (山本快)"
             ],
             "Lw':[m2,U L' U']"
+        ],
+        [
+            "D m' U2 m D m' U2 m D2",
+            [
+                "Hana Davila"
+            ],
+            "D:[m' U2 m,D]"
         ]
     ],
     "AKN": [
@@ -2800,11 +2800,11 @@
             "x' z':[m,U R U']"
         ],
         [
-            "3Rw D' U R U' m U R' U' m' D 3Rw'",
+            "s' U m D' m' U' m D m' s",
             [
-                "Hana Davila"
+                "Michael Tripodi"
             ],
-            "3Rw D':[U R U',m]"
+            "s':[U,m D' m']"
         ],
         [
             "S' U m D' m' U' m D m' S",
@@ -2814,11 +2814,11 @@
             "S':[U,m D' m']"
         ],
         [
-            "s' U m D' m' U' m D m' s",
+            "3Rw D' U R U' m U R' U' m' D 3Rw'",
             [
-                "Michael Tripodi"
+                "Hana Davila"
             ],
-            "s':[U,m D' m']"
+            "3Rw D':[U R U',m]"
         ]
     ],
     "AKQ": [
@@ -2857,18 +2857,18 @@
             "z U':[U' R U,m']"
         ],
         [
-            "y' R' U' m2 U R U' m2 U y",
-            [
-                "Hana Davila"
-            ],
-            "y':[R',U' m2 U]"
-        ],
-        [
             "L2 U L e' L' U' L e L",
             [
                 "Kai Yamamoto (山本快)"
             ],
             "L':[L' U L,e']"
+        ],
+        [
+            "y' R' U' m2 U R U' m2 U y",
+            [
+                "Hana Davila"
+            ],
+            "y':[R',U' m2 U]"
         ]
     ],
     "AKS": [
@@ -2906,18 +2906,18 @@
             "y:[L,U' m2 U]"
         ],
         [
-            "D' m' U' L' U m2 U' L U m' D",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "D' m':[U' L' U,m2]"
-        ],
-        [
             "Lw D m' U L U' m U L' U' D' Lw'",
             [
                 "Michael Tripodi"
             ],
             "Lw D:[m',U L U']"
+        ],
+        [
+            "D' m' U' L' U m2 U' L U m' D",
+            [
+                "Kai Yamamoto (山本快)"
+            ],
+            "D' m':[U' L' U,m2]"
         ]
     ],
     "AKW": [
@@ -2955,18 +2955,18 @@
             "L' D:[m',U L' U']"
         ],
         [
-            "D' m' U' L U m2 U' L' U m' D",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "D' m':[U' L U,m2]"
-        ],
-        [
             "z 4Rw U m U2 m' U 4Rw' z'",
             [
                 "Michael Tripodi"
             ],
             "z 4Rw U:[m,U2]"
+        ],
+        [
+            "D' m' U' L U m2 U' L' U m' D",
+            [
+                "Kai Yamamoto (山本快)"
+            ],
+            "D' m':[U' L U,m2]"
         ]
     ],
     "AKY": [
@@ -3011,18 +3011,18 @@
             "y R U:[m,U2]"
         ],
         [
-            "y' L U m' U2 m U L' y",
-            [
-                "Hana Davila"
-            ],
-            "y' L U:[m',U2]"
-        ],
-        [
             "L2 U L' e L U' L' e' L'",
             [
                 "Kai Yamamoto (山本快)"
             ],
             "L:[L U L',e]"
+        ],
+        [
+            "y' L U m' U2 m U L' y",
+            [
+                "Hana Davila"
+            ],
+            "y' L U:[m',U2]"
         ]
     ],
     "ALC": [
@@ -3070,18 +3070,18 @@
             "s' D:[m,D2]"
         ],
         [
-            "4Rw' L2 U m2 U' L2 U m2 U' 4Rw",
-            [
-                "Hana Davila"
-            ],
-            "4Rw':[L2,U m2 U']"
-        ],
-        [
             "D m D' 4Rw2 U m' U' 4Rw2",
             [
                 "Michael Tripodi"
             ],
             "D:[m,D' 4Rw2 U]"
+        ],
+        [
+            "4Rw' L2 U m2 U' L2 U m2 U' 4Rw",
+            [
+                "Hana Davila"
+            ],
+            "4Rw':[L2,U m2 U']"
         ]
     ],
     "ALE": [
@@ -3137,11 +3137,11 @@
             "m' D:[U2,m']"
         ],
         [
-            "M' D U2 m' U2 m D' M",
+            "y' R2 U m' U' R2 U m U' y",
             [
-                "Kai Yamamoto (山本快)"
+                "Oliver Fritz"
             ],
-            "M' D:[U2,m']"
+            "y':[R2,U m' U']"
         ],
         [
             "U2 m' U L2 U' m2 U L2 U' m' U2",
@@ -3151,11 +3151,11 @@
             "U2 m':[U L2 U',m2]"
         ],
         [
-            "y' R2 U m' U' R2 U m U' y",
+            "M' D U2 m' U2 m D' M",
             [
-                "Oliver Fritz"
+                "Kai Yamamoto (山本快)"
             ],
-            "y':[R2,U m' U']"
+            "M' D:[U2,m']"
         ]
     ],
     "ALJ": [
@@ -3186,18 +3186,18 @@
             "3Lw':[m',U' L' U]"
         ],
         [
-            "U L F L' s L F' L' s' U'",
-            [
-                "Mark Rivers"
-            ],
-            "U:[L F L',s]"
-        ],
-        [
             "x m' U' L' U m U' L U x'",
             [
                 "Oliver Fritz"
             ],
             "x:[m',U' L' U]"
+        ],
+        [
+            "U L F L' s L F' L' s' U'",
+            [
+                "Mark Rivers"
+            ],
+            "U:[L F L',s]"
         ]
     ],
     "ALM": [
@@ -3261,11 +3261,11 @@
             "x' z:[U' L' U,m]"
         ],
         [
-            "R D U' R U m' U' R' U m D' R'",
+            "s m D m' U' m D' m' U s'",
             [
-                "Hana Davila"
+                "Michael Tripodi"
             ],
-            "R D:[U' R U,m']"
+            "s:[m D m',U']"
         ],
         [
             "S m D m' U' m D' m' U S'",
@@ -3275,11 +3275,11 @@
             "S:[m D m',U']"
         ],
         [
-            "s m D m' U' m D' m' U s'",
+            "R D U' R U m' U' R' U m D' R'",
             [
-                "Michael Tripodi"
+                "Hana Davila"
             ],
-            "s:[m D m',U']"
+            "R D:[U' R U,m']"
         ]
     ],
     "ALP": [
@@ -3332,18 +3332,18 @@
             "y':[R',U m' U']"
         ],
         [
-            "S U L e' L' U' L e L' S'",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "S:[U,L e' L']"
-        ],
-        [
             "D m D R' D' m' D R D2",
             [
                 "Michael Tripodi"
             ],
             "D:[m,D R' D']"
+        ],
+        [
+            "S U L e' L' U' L e L' S'",
+            [
+                "Kai Yamamoto (山本快)"
+            ],
+            "S:[U,L e' L']"
         ]
     ],
     "ALS": [
@@ -3440,29 +3440,21 @@
             "4Rw D:[m',D2]"
         ],
         [
-            "x' L U m' U2 m U L' x",
-            [
-                "Hana Davila"
-            ],
-            "x' L U:[m',U2]"
-        ],
-        [
             "S U L' e L U' L' e' L S'",
             [
                 "Kai Yamamoto (山本快)"
             ],
             "S:[U,L' e L]"
+        ],
+        [
+            "x' L U m' U2 m U L' x",
+            [
+                "Hana Davila"
+            ],
+            "x' L U:[m',U2]"
         ]
     ],
     "AMC": [
-        [
-            "L U L' U' m2 U L U' L' m2",
-            [
-                "Hana Davila",
-                "Leonardo Ezequiel Cruz"
-            ],
-            "[L U L' U',m2]"
-        ],
         [
             "Lw' U L U' m2 U L' U' m2 Lw",
             [
@@ -3470,6 +3462,14 @@
                 "Michael Tripodi"
             ],
             "Lw':[U L U',m2]"
+        ],
+        [
+            "L U L' U' m2 U L U' L' m2",
+            [
+                "Hana Davila",
+                "Leonardo Ezequiel Cruz"
+            ],
+            "[L U L' U',m2]"
         ],
         [
             "U' Rw m2 U' R' U m2 U' R U Rw' U",
@@ -3615,18 +3615,18 @@
             "U' L2 U':[m,U2]"
         ],
         [
-            "D2 m' U2 m D' m' U2 m D'",
-            [
-                "Hana Davila"
-            ],
-            "D:[D,m' U2 m]"
-        ],
-        [
             "Lw' U L' U' m2 U L U' m2 Lw",
             [
                 "Kai Yamamoto (山本快)"
             ],
             "Lw':[U L' U',m2]"
+        ],
+        [
+            "D2 m' U2 m D' m' U2 m D'",
+            [
+                "Hana Davila"
+            ],
+            "D:[D,m' U2 m]"
         ]
     ],
     "AML": [
@@ -3674,18 +3674,18 @@
             "U R2 U:[m,U2]"
         ],
         [
-            "D2 m' U2 m D m' U2 m D",
-            [
-                "Hana Davila"
-            ],
-            "D':[D',m' U2 m]"
-        ],
-        [
             "Rw U' R U m2 U' R' U m2 Rw'",
             [
                 "Kai Yamamoto (山本快)"
             ],
             "Rw:[U' R U,m2]"
+        ],
+        [
+            "D2 m' U2 m D m' U2 m D",
+            [
+                "Hana Davila"
+            ],
+            "D':[D',m' U2 m]"
         ]
     ],
     "AMP": [
@@ -3851,20 +3851,20 @@
     ],
     "AND": [
         [
-            "U' 3Rw m2 U R' U' m2 U R U' 3Rw' U",
-            [
-                "Daniel Wallin",
-                "Kai Yamamoto (山本快)"
-            ],
-            "U' 3Rw:[m2,U R' U']"
-        ],
-        [
             "3Lw' U' L U' m' U L' U' m U2 3Lw",
             [
                 "Graham Siggins",
                 "Michael Tripodi"
             ],
             "3Lw' U':[L,U' m' U]"
+        ],
+        [
+            "U' 3Rw m2 U R' U' m2 U R U' 3Rw' U",
+            [
+                "Daniel Wallin",
+                "Kai Yamamoto (山本快)"
+            ],
+            "U' 3Rw:[m2,U R' U']"
         ],
         [
             "x U' L U' m' U L' U' m U2 x'",
@@ -4028,20 +4028,20 @@
     ],
     "ANP": [
         [
-            "U m U m' D m U' m' D' U'",
-            [
-                "Hana Davila",
-                "Kai Yamamoto (山本快)"
-            ],
-            "U:[m U m',D]"
-        ],
-        [
             "U' m U' m' D m U m' D' U",
             [
                 "Daniel Wallin",
                 "Michael Tripodi"
             ],
             "U':[m U' m',D]"
+        ],
+        [
+            "U m U m' D m U' m' D' U'",
+            [
+                "Hana Davila",
+                "Kai Yamamoto (山本快)"
+            ],
+            "U:[m U m',D]"
         ],
         [
             "3Rw U R U m' U' R' U m U2 3Rw'",
@@ -4080,11 +4080,11 @@
             "3Rw' U':[D',m' U' m]"
         ],
         [
-            "m' U R U m' U' R' U m U2 m",
+            "3Lw' U R U m' U' R' U m U2 3Lw",
             [
-                "Hana Davila"
+                "Michael Tripodi"
             ],
-            "m' U:[R,U m' U']"
+            "3Lw' U:[R,U m' U']"
         ],
         [
             "U 4Lw e' L' U' L e L' U L 4Lw' U'",
@@ -4094,11 +4094,11 @@
             "U 4Lw:[e',L' U' L]"
         ],
         [
-            "3Lw' U R U m' U' R' U m U2 3Lw",
+            "m' U R U m' U' R' U m U2 m",
             [
-                "Michael Tripodi"
+                "Hana Davila"
             ],
-            "3Lw' U:[R,U m' U']"
+            "m' U:[R,U m' U']"
         ]
     ],
     "ANS": [
@@ -4131,18 +4131,18 @@
             "3Lw U:[D,m' U m]"
         ],
         [
-            "m' U' L' U' m' U L U' m U2 m",
-            [
-                "Hana Davila"
-            ],
-            "m' U':[L',U' m' U]"
-        ],
-        [
             "U' 4Rw' e R U R' e' R U' R' 4Rw U",
             [
                 "Kai Yamamoto (山本快)"
             ],
             "U' 4Rw':[e,R U R']"
+        ],
+        [
+            "m' U' L' U' m' U L U' m U2 m",
+            [
+                "Hana Davila"
+            ],
+            "m' U':[L',U' m' U]"
         ]
     ],
     "ANW": [
@@ -4175,18 +4175,18 @@
             "3Lw' U':[L2,U' m' U]"
         ],
         [
-            "m' U' L U' m' U L' U' m U2 m",
-            [
-                "Hana Davila"
-            ],
-            "m' U':[L,U' m' U]"
-        ],
-        [
             "D2 m D' L' D m' D' L D'",
             [
                 "Kai Yamamoto (山本快)"
             ],
             "D:[D m D',L']"
+        ],
+        [
+            "m' U' L U' m' U L' U' m U2 m",
+            [
+                "Hana Davila"
+            ],
+            "m' U':[L,U' m' U]"
         ]
     ],
     "ANY": [
@@ -4218,11 +4218,11 @@
             "3Rw U:[R2,U m' U']"
         ],
         [
-            "x U R2 U m' U' R2 U m U2 x'",
+            "3Lw' U R' U m' U' R U m U2 3Lw",
             [
-                "Hana Davila"
+                "Michael Tripodi"
             ],
-            "x U:[R2,U m' U']"
+            "3Lw' U:[R',U m' U']"
         ],
         [
             "D2 m D R D' m' D R' D",
@@ -4232,22 +4232,14 @@
             "D':[D' m D,R]"
         ],
         [
-            "3Lw' U R' U m' U' R U m U2 3Lw",
+            "x U R2 U m' U' R2 U m U2 x'",
             [
-                "Michael Tripodi"
+                "Hana Davila"
             ],
-            "3Lw' U:[R',U m' U']"
+            "x U:[R2,U m' U']"
         ]
     ],
     "AOC": [
-        [
-            "D' U' m D2 m' U m D2 m' D",
-            [
-                "Hana Davila",
-                "Kai Yamamoto (山本快)"
-            ],
-            "D':[U',m D2 m']"
-        ],
         [
             "4Rw2 U m U2 m' U 4Rw2",
             [
@@ -4255,6 +4247,14 @@
                 "Michael Tripodi"
             ],
             "4Rw2 U:[m,U2]"
+        ],
+        [
+            "D' U' m D2 m' U m D2 m' D",
+            [
+                "Hana Davila",
+                "Kai Yamamoto (山本快)"
+            ],
+            "D':[U',m D2 m']"
         ],
         [
             "L2 D m D2 m' D L2",
@@ -4398,11 +4398,11 @@
             "x' z:[m,U' L' U]"
         ],
         [
-            "R D m' U' R U m U' R' U D' R'",
+            "s U' m D m' U m D' m' s'",
             [
-                "Hana Davila"
+                "Michael Tripodi"
             ],
-            "R D:[m',U' R U]"
+            "s:[U',m D m']"
         ],
         [
             "S U' m D m' U m D' m' S'",
@@ -4412,11 +4412,11 @@
             "S:[U',m D m']"
         ],
         [
-            "s U' m D m' U m D' m' s'",
+            "R D m' U' R U m U' R' U D' R'",
             [
-                "Michael Tripodi"
+                "Hana Davila"
             ],
-            "s:[U',m D m']"
+            "R D:[m',U' R U]"
         ]
     ],
     "AOM": [
@@ -4438,18 +4438,18 @@
             "U R2 U':[m,U2]"
         ],
         [
-            "D' m' U2 m D' m' U2 m D2",
-            [
-                "Hana Davila"
-            ],
-            "D':[m' U2 m,D']"
-        ],
-        [
             "Rw m2 U' R U m2 U' R' U Rw'",
             [
                 "Kai Yamamoto (山本快)"
             ],
             "Rw:[m2,U' R U]"
+        ],
+        [
+            "D' m' U2 m D' m' U2 m D2",
+            [
+                "Hana Davila"
+            ],
+            "D':[m' U2 m,D']"
         ]
     ],
     "AON": [
@@ -4507,29 +4507,21 @@
             "y':[R',U m2 U']"
         ],
         [
-            "D m' U R U' m2 U R' U' m' D'",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "D m':[U R U',m2]"
-        ],
-        [
             "Rw' D' m' U' R' U m U' R U D Rw",
             [
                 "Michael Tripodi"
             ],
             "Rw' D':[m',U' R' U]"
+        ],
+        [
+            "D m' U R U' m2 U R' U' m' D'",
+            [
+                "Kai Yamamoto (山本快)"
+            ],
+            "D m':[U R U',m2]"
         ]
     ],
     "AOS": [
-        [
-            "D U L' U' m2 U L U' m2 D'",
-            [
-                "Hana Davila",
-                "Kai Yamamoto (山本快)"
-            ],
-            "D:[U L' U',m2]"
-        ],
         [
             "L D m D2 m' D L'",
             [
@@ -4537,6 +4529,14 @@
                 "Michael Tripodi"
             ],
             "L D:[m,D2]"
+        ],
+        [
+            "D U L' U' m2 U L U' m2 D'",
+            [
+                "Hana Davila",
+                "Kai Yamamoto (山本快)"
+            ],
+            "D:[U L' U',m2]"
         ],
         [
             "z' L' U m' U2 m U L z",
@@ -4562,11 +4562,11 @@
             "z' U:[U L' U',m']"
         ],
         [
-            "y' R U m2 U' R' U m2 U' y",
+            "D m' U' L' U m2 U' L U m' D'",
             [
-                "Hana Davila"
+                "Michael Tripodi"
             ],
-            "y':[R,U m2 U']"
+            "D m':[U' L' U,m2]"
         ],
         [
             "R2 U' R' e R U R' e' R'",
@@ -4576,22 +4576,14 @@
             "R:[R U' R',e]"
         ],
         [
-            "D m' U' L' U m2 U' L U m' D'",
+            "y' R U m2 U' R' U m2 U' y",
             [
-                "Michael Tripodi"
+                "Hana Davila"
             ],
-            "D m':[U' L' U,m2]"
+            "y':[R,U m2 U']"
         ]
     ],
     "AOW": [
-        [
-            "D U L U' m2 U L' U' m2 D'",
-            [
-                "Hana Davila",
-                "Kai Yamamoto (山本快)"
-            ],
-            "D:[U L U',m2]"
-        ],
         [
             "L' D m D2 m' D L",
             [
@@ -4599,17 +4591,17 @@
                 "Michael Tripodi"
             ],
             "L' D:[m,D2]"
+        ],
+        [
+            "D U L U' m2 U L' U' m2 D'",
+            [
+                "Hana Davila",
+                "Kai Yamamoto (山本快)"
+            ],
+            "D:[U L U',m2]"
         ]
     ],
     "AOX": [
-        [
-            "y R' U' m' U2 m U' R y'",
-            [
-                "Daniel Wallin",
-                "Hana Davila"
-            ],
-            "y R' U':[m',U2]"
-        ],
         [
             "z' 4Lw' U m' U2 m U 4Lw z",
             [
@@ -4617,6 +4609,14 @@
                 "Michael Tripodi"
             ],
             "z' 4Lw' U:[m',U2]"
+        ],
+        [
+            "y R' U' m' U2 m U' R y'",
+            [
+                "Daniel Wallin",
+                "Hana Davila"
+            ],
+            "y R' U':[m',U2]"
         ],
         [
             "R2 U' R e' R' U R e R",
@@ -4662,18 +4662,18 @@
             "R D':[m',U' R U]"
         ],
         [
-            "D m' U R' U' m2 U R U' m' D'",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "D m':[U R' U',m2]"
-        ],
-        [
             "z' 4Lw' U' m U2 m' U' 4Lw z",
             [
                 "Michael Tripodi"
             ],
             "z' 4Lw' U':[m,U2]"
+        ],
+        [
+            "D m' U R' U' m2 U R U' m' D'",
+            [
+                "Kai Yamamoto (山本快)"
+            ],
+            "D m':[U R' U',m2]"
         ]
     ],
     "APC": [
@@ -4766,20 +4766,6 @@
             "m' D':[U2,m']"
         ],
         [
-            "M' D' U2 m' U2 m D M",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "M' D':[U2,m']"
-        ],
-        [
-            "U2 m' U' R2 U m2 U' R2 U m' U2",
-            [
-                "Mark Rivers"
-            ],
-            "U2 m':[U' R2 U,m2]"
-        ],
-        [
             "3Lw' D m U2 m' U2 D' 3Lw",
             [
                 "Michael Tripodi"
@@ -4792,6 +4778,20 @@
                 "Oliver Fritz"
             ],
             "y':[R2,U' m U]"
+        ],
+        [
+            "U2 m' U' R2 U m2 U' R2 U m' U2",
+            [
+                "Mark Rivers"
+            ],
+            "U2 m':[U' R2 U,m2]"
+        ],
+        [
+            "M' D' U2 m' U2 m D M",
+            [
+                "Kai Yamamoto (山本快)"
+            ],
+            "M' D':[U2,m']"
         ]
     ],
     "APJ": [
@@ -4815,6 +4815,13 @@
             "3Rw:[m',U R U']"
         ],
         [
+            "x m' U R U' m U R' U' x'",
+            [
+                "Oliver Fritz"
+            ],
+            "x:[m',U R U']"
+        ],
+        [
             "U' D' m' U m D m' U' m U",
             [
                 "Mark Rivers"
@@ -4827,13 +4834,6 @@
                 "Mark Rivers"
             ],
             "U':[R' F' R,s']"
-        ],
-        [
-            "x m' U R U' m U R' U' x'",
-            [
-                "Oliver Fritz"
-            ],
-            "x:[m',U R U']"
         ]
     ],
     "APK": [
@@ -4852,11 +4852,11 @@
             "x' z':[U R U',m]"
         ],
         [
-            "3Rw D' m U R U' m' U R' U' D 3Rw'",
+            "s' m D' m' U m D m' U' s",
             [
-                "Hana Davila"
+                "Michael Tripodi"
             ],
-            "3Rw D':[m,U R U']"
+            "s':[m D' m',U]"
         ],
         [
             "S' m D' m' U m D m' U' S",
@@ -4866,11 +4866,11 @@
             "S':[m D' m',U]"
         ],
         [
-            "s' m D' m' U m D m' U' s",
+            "3Rw D' m U R U' m' U R' U' D 3Rw'",
             [
-                "Michael Tripodi"
+                "Hana Davila"
             ],
-            "s':[m D' m',U]"
+            "3Rw D':[m,U R U']"
         ]
     ],
     "APL": [
@@ -4927,20 +4927,20 @@
     ],
     "APN": [
         [
-            "U D m U m' D' m U' m' U'",
-            [
-                "Hana Davila",
-                "Kai Yamamoto (山本快)"
-            ],
-            "U:[D,m U m']"
-        ],
-        [
             "U' D m U' m' D' m U m' U",
             [
                 "Daniel Wallin",
                 "Michael Tripodi"
             ],
             "U':[D,m U' m']"
+        ],
+        [
+            "U D m U m' D' m U' m' U'",
+            [
+                "Hana Davila",
+                "Kai Yamamoto (山本快)"
+            ],
+            "U:[D,m U m']"
         ],
         [
             "3Rw U2 m' U' R U m U' R' U' 3Rw'",
@@ -5012,18 +5012,18 @@
             "y':[R,U' m U]"
         ],
         [
-            "S' U' R' e R U R' e' R S",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "S':[U',R' e R]"
-        ],
-        [
             "D' m' U' L' U m' U' L U m2 D",
             [
                 "Michael Tripodi"
             ],
             "D' m':[U' L' U,m']"
+        ],
+        [
+            "S' U' R' e R U R' e' R S",
+            [
+                "Kai Yamamoto (山本快)"
+            ],
+            "S':[U',R' e R]"
         ]
     ],
     "APW": [
@@ -5056,18 +5056,18 @@
             "4Lw' D':[m',D2]"
         ],
         [
-            "x' R' U' m' U2 m U' R x",
-            [
-                "Hana Davila"
-            ],
-            "x' R' U':[m',U2]"
-        ],
-        [
             "S' U' R e' R' U R e R' S",
             [
                 "Kai Yamamoto (山本快)"
             ],
             "S':[U',R e' R']"
+        ],
+        [
+            "x' R' U' m' U2 m U' R x",
+            [
+                "Hana Davila"
+            ],
+            "x' R' U':[m',U2]"
         ]
     ],
     "APY": [
@@ -5129,20 +5129,20 @@
     ],
     "AQD": [
         [
-            "L R U' R' e R U R' e' L'",
-            [
-                "Hana Davila",
-                "Kai Yamamoto (山本快)"
-            ],
-            "L:[R U' R',e]"
-        ],
-        [
             "z' D U L' U' m' U L U' m D' z",
             [
                 "Graham Siggins",
                 "Michael Tripodi"
             ],
             "z' D:[U L' U',m']"
+        ],
+        [
+            "L R U' R' e R U R' e' L'",
+            [
+                "Hana Davila",
+                "Kai Yamamoto (山本快)"
+            ],
+            "L:[R U' R',e]"
         ],
         [
             "Rw U' Rw U R' U' m' U R U' m Rw' U Rw'",
@@ -5489,18 +5489,18 @@
             "R m U':[m',U2]"
         ],
         [
-            "m U2 R U' m2 U R' U' m2 U' m'",
-            [
-                "Hana Davila"
-            ],
-            "m U:[U R U',m2]"
-        ],
-        [
             "U M U L e' L' U' L e L' M' U'",
             [
                 "Kai Yamamoto (山本快)"
             ],
             "U M:[U,L e' L']"
+        ],
+        [
+            "m U2 R U' m2 U R' U' m2 U' m'",
+            [
+                "Hana Davila"
+            ],
+            "m U:[U R U',m2]"
         ]
     ],
     "ARE": [
@@ -5626,18 +5626,18 @@
             "z U':[m',U' R U]"
         ],
         [
-            "y' U' m2 U R' U' m2 U R y",
-            [
-                "Hana Davila"
-            ],
-            "y':[U' m2 U,R']"
-        ],
-        [
             "L' e' L' U L e L' U' L2",
             [
                 "Kai Yamamoto (山本快)"
             ],
             "L':[e',L' U L]"
+        ],
+        [
+            "y' U' m2 U R' U' m2 U R y",
+            [
+                "Hana Davila"
+            ],
+            "y':[U' m2 U,R']"
         ]
     ],
     "ARL": [
@@ -5651,18 +5651,18 @@
             "y':[U m' U',R']"
         ],
         [
-            "S L e' L' U L e L' U' S'",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "S:[L e' L',U]"
-        ],
-        [
             "D2 R' D' m D R D' m' D'",
             [
                 "Michael Tripodi"
             ],
             "D:[D R' D',m]"
+        ],
+        [
+            "S L e' L' U L e L' U' S'",
+            [
+                "Kai Yamamoto (山本快)"
+            ],
+            "S:[L e' L',U]"
         ]
     ],
     "ARM": [
@@ -5695,11 +5695,11 @@
             "3Rw' U':[m' U' m,D']"
         ],
         [
-            "m' U2 m' U' R U m U' R' U' m",
+            "3Lw' U2 m' U' R U m U' R' U' 3Lw",
             [
-                "Hana Davila"
+                "Michael Tripodi"
             ],
-            "m' U:[U m' U',R]"
+            "3Lw' U:[U m' U',R]"
         ],
         [
             "U M U' L e' L' U L e L' M' U'",
@@ -5709,11 +5709,11 @@
             "U M:[U',L e' L']"
         ],
         [
-            "3Lw' U2 m' U' R U m U' R' U' 3Lw",
+            "m' U2 m' U' R U m U' R' U' m",
             [
-                "Michael Tripodi"
+                "Hana Davila"
             ],
-            "3Lw' U:[U m' U',R]"
+            "m' U:[U m' U',R]"
         ]
     ],
     "ARO": [
@@ -5733,18 +5733,18 @@
             "y':[U m2 U',R']"
         ],
         [
-            "D m U R U' m2 U R' U' m D'",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "D m:[U R U',m2]"
-        ],
-        [
             "Rw' D' U' R' U m' U' R U m D Rw",
             [
                 "Michael Tripodi"
             ],
             "Rw' D':[U' R' U,m']"
+        ],
+        [
+            "D m U R U' m2 U R' U' m D'",
+            [
+                "Kai Yamamoto (山本快)"
+            ],
+            "D m:[U R U',m2]"
         ]
     ],
     "ARP": [
@@ -5774,15 +5774,6 @@
     ],
     "ARS": [
         [
-            "z m' U' R U m U' R' U z'",
-            [
-                "Graham Siggins",
-                "Hana Davila",
-                "Michael Tripodi"
-            ],
-            "z:[m',U' R U]"
-        ],
-        [
             "e' L' U L e L' U' L",
             [
                 "Daniel Wallin",
@@ -5790,6 +5781,15 @@
                 "Roman Strakhov"
             ],
             "[e',L' U L]"
+        ],
+        [
+            "z m' U' R U m U' R' U z'",
+            [
+                "Graham Siggins",
+                "Hana Davila",
+                "Michael Tripodi"
+            ],
+            "z:[m',U' R U]"
         ]
     ],
     "ART": [
@@ -5808,11 +5808,11 @@
             "z 3Uw':[U' m2 U,R']"
         ],
         [
-            "U2 F' m' U2 m U2 F U2",
+            "Rw' D' m' U' L' U m' U' L U m2 D Rw",
             [
-                "Hana Davila"
+                "Michael Tripodi"
             ],
-            "U2 F':[m',U2]"
+            "Rw' D' m':[U' L' U,m']"
         ],
         [
             "U2 x U m U2 m' U x' U2",
@@ -5822,22 +5822,14 @@
             "U2 x U:[m,U2]"
         ],
         [
-            "Rw' D' m' U' L' U m' U' L U m2 D Rw",
+            "U2 F' m' U2 m U2 F U2",
             [
-                "Michael Tripodi"
+                "Hana Davila"
             ],
-            "Rw' D' m':[U' L' U,m']"
+            "U2 F':[m',U2]"
         ]
     ],
     "ARW": [
-        [
-            "x' m' U' m D' m' U m D x",
-            [
-                "Daniel Wallin",
-                "Hana Davila"
-            ],
-            "x':[m' U' m,D']"
-        ],
         [
             "z U2 m' U' R U m U' R' U' z'",
             [
@@ -5845,6 +5837,14 @@
                 "Michael Tripodi"
             ],
             "z U:[U m' U',R]"
+        ],
+        [
+            "x' m' U' m D' m' U m D x",
+            [
+                "Daniel Wallin",
+                "Hana Davila"
+            ],
+            "x':[m' U' m,D']"
         ],
         [
             "L2 e' L' U L e L' U' L'",
@@ -5870,29 +5870,21 @@
             "z' m':[U' L' U,m2]"
         ],
         [
-            "e R' U' R e2 R' U R e",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "e:[R' U' R,e2]"
-        ],
-        [
             "3Lw U2 R U' m2 U R' U' m2 U' 3Lw'",
             [
                 "Michael Tripodi"
             ],
             "3Lw U:[U R U',m2]"
+        ],
+        [
+            "e R' U' R e2 R' U R e",
+            [
+                "Kai Yamamoto (山本快)"
+            ],
+            "e:[R' U' R,e2]"
         ]
     ],
     "ARY": [
-        [
-            "e R' U' R e' R' U R",
-            [
-                "Hana Davila",
-                "Kai Yamamoto (山本快)"
-            ],
-            "[e,R' U' R]"
-        ],
         [
             "Rw' U m D' m' U' m D m' Rw",
             [
@@ -5900,6 +5892,14 @@
                 "Michael Tripodi"
             ],
             "Rw':[U,m D' m']"
+        ],
+        [
+            "e R' U' R e' R' U R",
+            [
+                "Hana Davila",
+                "Kai Yamamoto (山本快)"
+            ],
+            "[e,R' U' R]"
         ],
         [
             "z' m' U' L' U m U' L U z",
@@ -5951,18 +5951,18 @@
             "4Rw':[L',U' m' U]"
         ],
         [
-            "M L' U' m' U L U' m U M'",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "M:[L',U' m' U]"
-        ],
-        [
             "m L' U' m' U L U' m U m'",
             [
                 "Michael Tripodi"
             ],
             "m:[L',U' m' U]"
+        ],
+        [
+            "M L' U' m' U L U' m U M'",
+            [
+                "Kai Yamamoto (山本快)"
+            ],
+            "M:[L',U' m' U]"
         ]
     ],
     "ASD": [
@@ -6103,20 +6103,20 @@
     ],
     "ASO": [
         [
-            "D m2 U L' U' m2 U L U' D'",
-            [
-                "Hana Davila",
-                "Kai Yamamoto (山本快)"
-            ],
-            "D:[m2,U L' U']"
-        ],
-        [
             "L D' m D2 m' D' L'",
             [
                 "Daniel Wallin",
                 "Michael Tripodi"
             ],
             "L D':[m,D2]"
+        ],
+        [
+            "D m2 U L' U' m2 U L U' D'",
+            [
+                "Hana Davila",
+                "Kai Yamamoto (山本快)"
+            ],
+            "D:[m2,U L' U']"
         ],
         [
             "z' L' U' m' U2 m U' L z",
@@ -6172,15 +6172,6 @@
     ],
     "ASR": [
         [
-            "z U' R U m' U' R' U m z'",
-            [
-                "Graham Siggins",
-                "Hana Davila",
-                "Michael Tripodi"
-            ],
-            "z:[U' R U,m']"
-        ],
-        [
             "L' U L e' L' U' L e",
             [
                 "Daniel Wallin",
@@ -6188,6 +6179,15 @@
                 "Roman Strakhov"
             ],
             "[L' U L,e']"
+        ],
+        [
+            "z U' R U m' U' R' U m z'",
+            [
+                "Graham Siggins",
+                "Hana Davila",
+                "Michael Tripodi"
+            ],
+            "z:[U' R U,m']"
         ]
     ],
     "ASW": [
@@ -6295,18 +6295,18 @@
             "z' L':[L',U' m' U]"
         ],
         [
-            "U2 R' e R U R' e' R U",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "U':[U',R' e R]"
-        ],
-        [
             "Lw D U L' U' m' U L U' m D' Lw'",
             [
                 "Michael Tripodi"
             ],
             "Lw D:[U L' U',m']"
+        ],
+        [
+            "U2 R' e R U R' e' R U",
+            [
+                "Kai Yamamoto (山本快)"
+            ],
+            "U':[U',R' e R]"
         ]
     ],
     "ATD": [
@@ -6413,20 +6413,20 @@
             "m':[m',U' L' U]"
         ],
         [
-            "D' L D m D' L' D m'",
-            [
-                "Kai Yamamoto (山本快)",
-                "Mark Rivers"
-            ],
-            "[D' L D,m]"
-        ],
-        [
             "3Rw m' U' L' U m U' L U 3Rw'",
             [
                 "Daniel Wallin",
                 "Oliver Fritz"
             ],
             "3Rw:[m',U' L' U]"
+        ],
+        [
+            "D' L D m D' L' D m'",
+            [
+                "Kai Yamamoto (山本快)",
+                "Mark Rivers"
+            ],
+            "[D' L D,m]"
         ]
     ],
     "ATK": [
@@ -6446,18 +6446,18 @@
             "y:[U' m2 U,L]"
         ],
         [
-            "D' m U' L' U m2 U' L U m D",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "D' m:[U' L' U,m2]"
-        ],
-        [
             "Lw D U L U' m' U L' U' m D' Lw'",
             [
                 "Michael Tripodi"
             ],
             "Lw D:[U L U',m']"
+        ],
+        [
+            "D' m U' L' U m2 U' L U m D",
+            [
+                "Kai Yamamoto (山本快)"
+            ],
+            "D' m:[U' L' U,m2]"
         ]
     ],
     "ATL": [
@@ -6510,18 +6510,18 @@
             "3Lw U:[m' U m,D]"
         ],
         [
-            "m' U2 m' U L' U' m U L U m",
-            [
-                "Hana Davila"
-            ],
-            "m' U':[U' m' U,L']"
-        ],
-        [
             "U' M U R' e R U' R' e' R M' U",
             [
                 "Kai Yamamoto (山本快)"
             ],
             "U' M:[U,R' e R]"
+        ],
+        [
+            "m' U2 m' U L' U' m U L U m",
+            [
+                "Hana Davila"
+            ],
+            "m' U':[U' m' U,L']"
         ]
     ],
     "ATO": [
@@ -6540,11 +6540,11 @@
             "z' U:[m',U L' U']"
         ],
         [
-            "y' U m2 U' R U m2 U' R' y",
+            "D m U' L' U m2 U' L U m D'",
             [
-                "Hana Davila"
+                "Michael Tripodi"
             ],
-            "y':[U m2 U',R]"
+            "D m:[U' L' U,m2]"
         ],
         [
             "R e R U' R' e' R U R2",
@@ -6554,11 +6554,11 @@
             "R:[e,R U' R']"
         ],
         [
-            "D m U' L' U m2 U' L U m D'",
+            "y' U m2 U' R U m2 U' R' y",
             [
-                "Michael Tripodi"
+                "Hana Davila"
             ],
-            "D m:[U' L' U,m2]"
+            "y':[U m2 U',R]"
         ]
     ],
     "ATP": [
@@ -6572,18 +6572,18 @@
             "y':[U' m U,R]"
         ],
         [
-            "S' R' e R U' R' e' R U S",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "S':[R' e R,U']"
-        ],
-        [
             "D' m2 U' L' U m U' L U m D",
             [
                 "Michael Tripodi"
             ],
             "D' m':[m',U' L' U]"
+        ],
+        [
+            "S' R' e R U' R' e' R U S",
+            [
+                "Kai Yamamoto (山本快)"
+            ],
+            "S':[R' e R,U']"
         ]
     ],
     "ATQ": [
@@ -6617,11 +6617,11 @@
             "z 3Uw':[R',U' m2 U]"
         ],
         [
-            "U2 F m' U2 m U2 F' U2",
+            "Rw' D' m2 U' L' U m U' L U m D Rw",
             [
-                "Hana Davila"
+                "Michael Tripodi"
             ],
-            "U2 F:[m',U2]"
+            "Rw' D' m':[m',U' L' U]"
         ],
         [
             "U2 x U' m U2 m' U' x' U2",
@@ -6631,22 +6631,14 @@
             "U2 x U':[m,U2]"
         ],
         [
-            "Rw' D' m2 U' L' U m U' L U m D Rw",
+            "U2 F m' U2 m U2 F' U2",
             [
-                "Michael Tripodi"
+                "Hana Davila"
             ],
-            "Rw' D' m':[m',U' L' U]"
+            "U2 F:[m',U2]"
         ]
     ],
     "ATW": [
-        [
-            "z m' U R U' m U R' U' z'",
-            [
-                "Graham Siggins",
-                "Hana Davila"
-            ],
-            "z:[m',U R U']"
-        ],
         [
             "Lw U' m D m' U m D' m' Lw'",
             [
@@ -6654,6 +6646,14 @@
                 "Michael Tripodi"
             ],
             "Lw:[U',m D m']"
+        ],
+        [
+            "z m' U R U' m U R' U' z'",
+            [
+                "Graham Siggins",
+                "Hana Davila"
+            ],
+            "z:[m',U R U']"
         ],
         [
             "e' L U L' e L U' L'",
@@ -6689,20 +6689,20 @@
     ],
     "ATY": [
         [
-            "x' m' U m D m' U' m D' x",
-            [
-                "Daniel Wallin",
-                "Hana Davila"
-            ],
-            "x':[m' U m,D]"
-        ],
-        [
             "z' U2 m' U L' U' m U L U z",
             [
                 "Graham Siggins",
                 "Michael Tripodi"
             ],
             "z' U':[U' m' U,L']"
+        ],
+        [
+            "x' m' U m D m' U' m D' x",
+            [
+                "Daniel Wallin",
+                "Hana Davila"
+            ],
+            "x':[m' U m,D]"
         ],
         [
             "R2 e R U' R' e' R U R",
@@ -6754,18 +6754,18 @@
             "4Rw':[L,U' m' U]"
         ],
         [
-            "4Lw U' m' U L' U' m U L 4Lw'",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "4Lw:[U' m' U,L']"
-        ],
-        [
             "m L U' m' U L' U' m U m'",
             [
                 "Michael Tripodi"
             ],
             "m:[L,U' m' U]"
+        ],
+        [
+            "4Lw U' m' U L' U' m U L 4Lw'",
+            [
+                "Kai Yamamoto (山本快)"
+            ],
+            "4Lw:[U' m' U,L']"
         ]
     ],
     "AWD": [
@@ -6914,20 +6914,20 @@
     ],
     "AWO": [
         [
-            "D m2 U L U' m2 U L' U' D'",
-            [
-                "Hana Davila",
-                "Kai Yamamoto (山本快)"
-            ],
-            "D:[m2,U L U']"
-        ],
-        [
             "L' D' m D2 m' D' L",
             [
                 "Graham Siggins",
                 "Michael Tripodi"
             ],
             "L' D':[m,D2]"
+        ],
+        [
+            "D m2 U L U' m2 U L' U' D'",
+            [
+                "Hana Davila",
+                "Kai Yamamoto (山本快)"
+            ],
+            "D:[m2,U L U']"
         ]
     ],
     "AWP": [
@@ -6977,20 +6977,20 @@
     ],
     "AWR": [
         [
-            "x' D' m' U' m D m' U m x",
-            [
-                "Daniel Wallin",
-                "Hana Davila"
-            ],
-            "x':[D',m' U' m]"
-        ],
-        [
             "z U R U m' U' R' U m U2 z'",
             [
                 "Graham Siggins",
                 "Michael Tripodi"
             ],
             "z U:[R,U m' U']"
+        ],
+        [
+            "x' D' m' U' m D m' U m x",
+            [
+                "Daniel Wallin",
+                "Hana Davila"
+            ],
+            "x':[D',m' U' m]"
         ],
         [
             "L U L e' L' U' L e L2",
@@ -7100,18 +7100,18 @@
             "L' D:[U L U',m']"
         ],
         [
-            "z' L2 U m U' L U m' U' L z",
-            [
-                "Hana Davila"
-            ],
-            "z' L':[L',U m U']"
-        ],
-        [
             "U2 R e' R' U R e R' U",
             [
                 "Kai Yamamoto (山本快)"
             ],
             "U':[U',R e' R']"
+        ],
+        [
+            "z' L2 U m U' L U m' U' L z",
+            [
+                "Hana Davila"
+            ],
+            "z' L':[L',U m U']"
         ]
     ],
     "AXD": [
@@ -7131,18 +7131,18 @@
             "3Lw:[U m2 U',L']"
         ],
         [
-            "S R e' R' U' R e R' U S'",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "S:[R e' R',U']"
-        ],
-        [
             "m L U m2 U' L' U m2 U' m'",
             [
                 "Michael Tripodi"
             ],
             "m:[L,U m2 U']"
+        ],
+        [
+            "S R e' R' U' R e R' U S'",
+            [
+                "Kai Yamamoto (山本快)"
+            ],
+            "S:[R e' R',U']"
         ]
     ],
     "AXE": [
@@ -7262,18 +7262,18 @@
             "L' D:[U L' U',m']"
         ],
         [
-            "D' m U' L U m2 U' L' U m D",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "D' m:[U' L U,m2]"
-        ],
-        [
             "z 4Rw U' m U2 m' U' 4Rw' z'",
             [
                 "Michael Tripodi"
             ],
             "z 4Rw U':[m,U2]"
+        ],
+        [
+            "D' m U' L U m2 U' L' U m D",
+            [
+                "Kai Yamamoto (山本快)"
+            ],
+            "D' m:[U' L U,m2]"
         ]
     ],
     "AXL": [
@@ -7326,29 +7326,21 @@
             "3Lw' U':[U' m' U,L2]"
         ],
         [
-            "m' U2 m' U L U' m U L' U m",
-            [
-                "Hana Davila"
-            ],
-            "m' U':[U' m' U,L]"
-        ],
-        [
             "D L' D m D' L D m' D2",
             [
                 "Kai Yamamoto (山本快)"
             ],
             "D:[L',D m D']"
+        ],
+        [
+            "m' U2 m' U L U' m U L' U m",
+            [
+                "Hana Davila"
+            ],
+            "m' U':[U' m' U,L]"
         ]
     ],
     "AXO": [
-        [
-            "y R' U m' U2 m U R y'",
-            [
-                "Daniel Wallin",
-                "Hana Davila"
-            ],
-            "y R' U:[m',U2]"
-        ],
         [
             "z' 4Lw' U' m' U2 m U' 4Lw z",
             [
@@ -7356,6 +7348,14 @@
                 "Michael Tripodi"
             ],
             "z' 4Lw' U':[m',U2]"
+        ],
+        [
+            "y R' U m' U2 m U R y'",
+            [
+                "Daniel Wallin",
+                "Hana Davila"
+            ],
+            "y R' U:[m',U2]"
         ],
         [
             "R' e' R' U' R e R' U R2",
@@ -7376,18 +7376,18 @@
             "4Lw' D:[m',D2]"
         ],
         [
-            "x' R' U m' U2 m U R x",
-            [
-                "Hana Davila"
-            ],
-            "x' R' U:[m',U2]"
-        ],
-        [
             "S' R e' R' U' R e R' U S",
             [
                 "Kai Yamamoto (山本快)"
             ],
             "S':[R e' R',U']"
+        ],
+        [
+            "x' R' U m' U2 m U R x",
+            [
+                "Hana Davila"
+            ],
+            "x' R' U:[m',U2]"
         ]
     ],
     "AXQ": [
@@ -7425,18 +7425,18 @@
             "z' m:[U' L' U,m2]"
         ],
         [
-            "e' R' U' R e2 R' U R e'",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "e':[R' U' R,e2]"
-        ],
-        [
             "3Lw U m2 U R U' m2 U R' U2 3Lw'",
             [
                 "Michael Tripodi"
             ],
             "3Lw U:[m2,U R U']"
+        ],
+        [
+            "e' R' U' R e2 R' U R e'",
+            [
+                "Kai Yamamoto (山本快)"
+            ],
+            "e':[R' U' R,e2]"
         ]
     ],
     "AXS": [
@@ -7554,11 +7554,11 @@
             "z' D':[U' L' U,m]"
         ],
         [
-            "x D U' L U m U' L' U m' D' x'",
+            "3Rw U m' D m U' m' D' m 3Rw'",
             [
-                "Hana Davila"
+                "Michael Tripodi"
             ],
-            "x D:[U' L U,m]"
+            "3Rw:[U,m' D m]"
         ],
         [
             "L' R' U' R e' R' U R e L",
@@ -7568,11 +7568,11 @@
             "L':[R' U' R,e']"
         ],
         [
-            "3Rw U m' D m U' m' D' m 3Rw'",
+            "x D U' L U m U' L' U m' D' x'",
             [
-                "Michael Tripodi"
+                "Hana Davila"
             ],
-            "3Rw:[U,m' D m]"
+            "x D:[U' L U,m]"
         ]
     ],
     "AYE": [
@@ -7771,12 +7771,12 @@
     ],
     "AYR": [
         [
-            "R' U' R e R' U R e'",
+            "Rw' m D' m' U m D m' U' Rw",
             [
-                "Hana Davila",
-                "Kai Yamamoto (山本快)"
+                "Daniel Wallin",
+                "Michael Tripodi"
             ],
-            "[R' U' R,e]"
+            "Rw':[m D' m',U]"
         ],
         [
             "z' U' L' U m' U' L U m z",
@@ -7787,12 +7787,12 @@
             "z':[U' L' U,m']"
         ],
         [
-            "Rw' m D' m' U m D m' U' Rw",
+            "R' U' R e R' U R e'",
             [
-                "Daniel Wallin",
-                "Michael Tripodi"
+                "Hana Davila",
+                "Kai Yamamoto (山本快)"
             ],
-            "Rw':[m D' m',U]"
+            "[R' U' R,e]"
         ]
     ],
     "AYS": [
@@ -7828,20 +7828,20 @@
     ],
     "AYT": [
         [
-            "x' D m' U m D' m' U' m x",
-            [
-                "Daniel Wallin",
-                "Hana Davila"
-            ],
-            "x':[D,m' U m]"
-        ],
-        [
             "z' U' L' U' m' U L U' m U2 z",
             [
                 "Graham Siggins",
                 "Michael Tripodi"
             ],
             "z' U':[L',U' m' U]"
+        ],
+        [
+            "x' D m' U m D' m' U' m x",
+            [
+                "Daniel Wallin",
+                "Hana Davila"
+            ],
+            "x':[D,m' U m]"
         ],
         [
             "R' U' R' e R U R' e' R2",
@@ -7973,6 +7973,13 @@
             "B:[U2,m']"
         ],
         [
+            "3Rw D m U2 m' U2 D' 3Rw'",
+            [
+                "Michael Tripodi"
+            ],
+            "3Rw D:[m,U2]"
+        ],
+        [
             "U2 m' U' R' U m2 U' R U m' U2",
             [
                 "Mark Rivers"
@@ -7985,13 +7992,6 @@
                 "Mark Rivers"
             ],
             "U R':[s,R' F' R]"
-        ],
-        [
-            "3Rw D m U2 m' U2 D' 3Rw'",
-            [
-                "Michael Tripodi"
-            ],
-            "3Rw D:[m,U2]"
         ]
     ],
     "AZJ": [
@@ -8045,18 +8045,18 @@
             "y R U':[m,U2]"
         ],
         [
-            "y' L U' m' U2 m U' L' y",
-            [
-                "Hana Davila"
-            ],
-            "y' L U':[m',U2]"
-        ],
-        [
             "L e L U L' e' L U' L2",
             [
                 "Kai Yamamoto (山本快)"
             ],
             "L:[e,L U L']"
+        ],
+        [
+            "y' L U' m' U2 m U' L' y",
+            [
+                "Hana Davila"
+            ],
+            "y' L U':[m',U2]"
         ]
     ],
     "AZL": [
@@ -8070,18 +8070,18 @@
             "4Rw D':[m',D2]"
         ],
         [
-            "x' L U' m' U2 m U' L' x",
-            [
-                "Hana Davila"
-            ],
-            "x' L U':[m',U2]"
-        ],
-        [
             "S L' e L U L' e' L U' S'",
             [
                 "Kai Yamamoto (山本快)"
             ],
             "S:[L' e L,U]"
+        ],
+        [
+            "x' L U' m' U2 m U' L' x",
+            [
+                "Hana Davila"
+            ],
+            "x' L U':[m',U2]"
         ]
     ],
     "AZM": [
@@ -8114,11 +8114,11 @@
             "3Rw U:[U m' U',R2]"
         ],
         [
-            "x U2 m' U' R2 U m U' R2 U' x'",
+            "3Lw' U2 m' U' R' U m U' R U' 3Lw",
             [
-                "Hana Davila"
+                "Michael Tripodi"
             ],
-            "x U:[U m' U',R2]"
+            "3Lw' U:[U m' U',R']"
         ],
         [
             "D' R D' m D R' D' m' D2",
@@ -8128,11 +8128,11 @@
             "D':[R,D' m D]"
         ],
         [
-            "3Lw' U2 m' U' R' U m U' R U' 3Lw",
+            "x U2 m' U' R2 U m U' R2 U' x'",
             [
-                "Michael Tripodi"
+                "Hana Davila"
             ],
-            "3Lw' U:[U m' U',R']"
+            "x U:[U m' U',R2]"
         ]
     ],
     "AZO": [
@@ -8152,18 +8152,18 @@
             "R D':[U' R U,m']"
         ],
         [
-            "D m U R' U' m2 U R U' m D'",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "D m:[U R' U',m2]"
-        ],
-        [
             "z' 4Lw' U m U2 m' U 4Lw z",
             [
                 "Michael Tripodi"
             ],
             "z' 4Lw' U:[m,U2]"
+        ],
+        [
+            "D m U R' U' m2 U R U' m D'",
+            [
+                "Kai Yamamoto (山本快)"
+            ],
+            "D m:[U R' U',m2]"
         ]
     ],
     "AZP": [
@@ -8335,37 +8335,44 @@
     ],
     "CEJ": [
         [
-            "U' L' m' U L U' m U L' U' L U",
-            [
-                "Mark Rivers"
-            ],
-            "U' L':[m',U L U']"
-        ],
-        [
             "y' m D' m' U' m D m' U y",
             [
                 "Oliver Fritz"
             ],
             "y':[m D' m',U']"
-        ]
-    ],
-    "CFI": [
+        ],
         [
-            "U R m' U' R' U m2 U' R U m' R' U'",
+            "U' L' m' U L U' m U L' U' L U",
             [
                 "Mark Rivers"
             ],
-            "U R m':[U' R' U,m2]"
-        ],
+            "U' L':[m',U L U']"
+        ]
+    ],
+    "CFI": [
         [
             "U x' m2 U' R U m2 U' R' U x U'",
             [
                 "Oliver Fritz"
             ],
             "U x':[m2,U' R U]"
+        ],
+        [
+            "U R m' U' R' U m2 U' R U m' R' U'",
+            [
+                "Mark Rivers"
+            ],
+            "U R m':[U' R' U,m2]"
         ]
     ],
     "CFJ": [
+        [
+            "x' U L' U' m2 U L U' m2 x",
+            [
+                "Oliver Fritz"
+            ],
+            "x':[U L' U',m2]"
+        ],
         [
             "L' m U L U' m2 U L' U' m L",
             [
@@ -8379,13 +8386,6 @@
                 "Mark Rivers"
             ],
             "L U:[F,L' s' L]"
-        ],
-        [
-            "x' U L' U' m2 U L U' m2 x",
-            [
-                "Oliver Fritz"
-            ],
-            "x':[U L' U',m2]"
         ]
     ],
     "CIE": [
@@ -8399,69 +8399,76 @@
     ],
     "CIF": [
         [
-            "U R m U' R' U m2 U' R U m R' U'",
-            [
-                "Mark Rivers"
-            ],
-            "U R m:[U' R' U,m2]"
-        ],
-        [
             "U x' U' R U m2 U' R' U m2 x U'",
             [
                 "Oliver Fritz"
             ],
             "U x':[U' R U,m2]"
-        ]
-    ],
-    "CIK": [
+        ],
         [
-            "U L U' L U m2 U' L' U m2 L' U'",
+            "U R m U' R' U m2 U' R U m R' U'",
             [
                 "Mark Rivers"
             ],
-            "U L:[U' L U,m2]"
-        ],
+            "U R m:[U' R' U,m2]"
+        ]
+    ],
+    "CIK": [
         [
             "L2 U m2 U' L2 U m2 U'",
             [
                 "Oliver Fritz"
             ],
             "[L2,U m2 U']"
-        ]
-    ],
-    "CIL": [
+        ],
         [
-            "U m U L2 U' m2 U L2 U' m U'",
+            "U L U' L U m2 U' L' U m2 L' U'",
             [
                 "Mark Rivers"
             ],
-            "U m:[U L2 U',m2]"
-        ],
+            "U L:[U' L U,m2]"
+        ]
+    ],
+    "CIL": [
         [
             "y' m' U' R2 U m U' R2 U y",
             [
                 "Oliver Fritz"
             ],
             "y':[m',U' R2 U]"
-        ]
-    ],
-    "CIM": [
+        ],
         [
-            "U' D2 m D2 m' U",
+            "U m U L2 U' m2 U L2 U' m U'",
             [
                 "Mark Rivers"
             ],
-            "U':[D2,m]"
-        ],
+            "U m:[U L2 U',m2]"
+        ]
+    ],
+    "CIM": [
         [
             "U m' D2 m D2 U'",
             [
                 "Oliver Fritz"
             ],
             "U:[m',D2]"
+        ],
+        [
+            "U' D2 m D2 m' U",
+            [
+                "Mark Rivers"
+            ],
+            "U':[D2,m]"
         ]
     ],
     "CIN": [
+        [
+            "x' m U' L' U m' U' L U x",
+            [
+                "Oliver Fritz"
+            ],
+            "x':[m,U' L' U]"
+        ],
         [
             "L m2 U' L' U m' U' L U m' L'",
             [
@@ -8475,13 +8482,6 @@
                 "Mark Rivers"
             ],
             "[D' L2 D,m']"
-        ],
-        [
-            "x' m U' L' U m' U' L U x",
-            [
-                "Oliver Fritz"
-            ],
-            "x':[m,U' L' U]"
         ]
     ],
     "CIO": [
@@ -8495,6 +8495,13 @@
     ],
     "CIP": [
         [
+            "y' U2 m U R2 U' m' U R2 U y",
+            [
+                "Oliver Fritz"
+            ],
+            "y' U':[U' m U,R2]"
+        ],
+        [
             "U m U' R2 U m2 U' R2 U m U'",
             [
                 "Mark Rivers"
@@ -8507,13 +8514,6 @@
                 "Mark Rivers"
             ],
             "R:[F',R s R']"
-        ],
-        [
-            "y' U2 m U R2 U' m' U R2 U y",
-            [
-                "Oliver Fritz"
-            ],
-            "y' U':[U' m U,R2]"
         ]
     ],
     "CIQ": [
@@ -8527,6 +8527,13 @@
     ],
     "CIR": [
         [
+            "z U m' U L' U' m U L U2 z'",
+            [
+                "Oliver Fritz"
+            ],
+            "z U:[m',U L' U']"
+        ],
+        [
             "U m U' R U m2 U' R' U m U'",
             [
                 "Mark Rivers"
@@ -8539,13 +8546,6 @@
                 "Mark Rivers"
             ],
             "[F',R s R']"
-        ],
-        [
-            "z U m' U L' U' m U L U2 z'",
-            [
-                "Oliver Fritz"
-            ],
-            "z U:[m',U L' U']"
         ]
     ],
     "CIS": [
@@ -8587,18 +8587,18 @@
     ],
     "CIX": [
         [
-            "U m U L U' m2 U L' U' m U'",
-            [
-                "Mark Rivers"
-            ],
-            "U m:[U L U',m2]"
-        ],
-        [
             "3Uw U R' U' m2 U R U' m2 3Uw'",
             [
                 "Oliver Fritz"
             ],
             "3Uw:[U R' U',m2]"
+        ],
+        [
+            "U m U L U' m2 U L' U' m U'",
+            [
+                "Mark Rivers"
+            ],
+            "U m:[U L U',m2]"
         ]
     ],
     "CIY": [
@@ -8612,6 +8612,13 @@
     ],
     "CIZ": [
         [
+            "z U' m U' L' U m' U' L U2 z'",
+            [
+                "Oliver Fritz"
+            ],
+            "z U':[m,U' L' U]"
+        ],
+        [
             "U m U' R' U m2 U' R U m U'",
             [
                 "Mark Rivers"
@@ -8624,32 +8631,32 @@
                 "Mark Rivers"
             ],
             "R':[R' F' R,s]"
-        ],
-        [
-            "z U' m U' L' U m' U' L U2 z'",
-            [
-                "Oliver Fritz"
-            ],
-            "z U':[m,U' L' U]"
         ]
     ],
     "CJE": [
-        [
-            "U' L' U L U' m' U L' U' m L U",
-            [
-                "Mark Rivers"
-            ],
-            "U' L':[U L U',m']"
-        ],
         [
             "y' U' m D' m' U m D m' y",
             [
                 "Oliver Fritz"
             ],
             "y':[U',m D' m']"
+        ],
+        [
+            "U' L' U L U' m' U L' U' m L U",
+            [
+                "Mark Rivers"
+            ],
+            "U' L':[U L U',m']"
         ]
     ],
     "CJF": [
+        [
+            "x' m2 U L' U' m2 U L U' x",
+            [
+                "Oliver Fritz"
+            ],
+            "x':[m2,U L' U']"
+        ],
         [
             "L' m' U L U' m2 U L' U' m' L",
             [
@@ -8663,13 +8670,6 @@
                 "Mark Rivers"
             ],
             "L U:[L' s' L,F]"
-        ],
-        [
-            "x' m2 U L' U' m2 U L U' x",
-            [
-                "Oliver Fritz"
-            ],
-            "x':[m2,U L' U']"
         ]
     ],
     "CJK": [
@@ -8757,6 +8757,13 @@
     ],
     "CJR": [
         [
+            "z' D U' R U m' U' R' U m D' z",
+            [
+                "Oliver Fritz"
+            ],
+            "z' D:[U' R U,m']"
+        ],
+        [
             "U' m' U R U' m' U R' U' m2 U",
             [
                 "Mark Rivers"
@@ -8769,13 +8776,6 @@
                 "Mark Rivers"
             ],
             "R:[s',L F L']"
-        ],
-        [
-            "z' D U' R U m' U' R' U m D' z",
-            [
-                "Oliver Fritz"
-            ],
-            "z' D:[U' R U,m']"
         ]
     ],
     "CJS": [
@@ -8816,6 +8816,13 @@
     ],
     "CJX": [
         [
+            "4Uw' U L' U' m' U L U' m 4Uw",
+            [
+                "Oliver Fritz"
+            ],
+            "4Uw':[U L' U',m']"
+        ],
+        [
             "U' m' U' L U m' U' L' U m2 U",
             [
                 "Mark Rivers"
@@ -8828,13 +8835,6 @@
                 "Mark Rivers"
             ],
             "U':[m,D' L' D]"
-        ],
-        [
-            "4Uw' U L' U' m' U L U' m 4Uw",
-            [
-                "Oliver Fritz"
-            ],
-            "4Uw':[U L' U',m']"
         ]
     ],
     "CJY": [
@@ -8849,6 +8849,13 @@
     ],
     "CJZ": [
         [
+            "R m' U' m D' m' U m D R'",
+            [
+                "Oliver Fritz"
+            ],
+            "R:[m' U' m,D']"
+        ],
+        [
             "U' m' U R' U' m' U R U' m2 U",
             [
                 "Mark Rivers"
@@ -8861,13 +8868,6 @@
                 "Mark Rivers"
             ],
             "R':[s',L F L']"
-        ],
-        [
-            "R m' U' m D' m' U m D R'",
-            [
-                "Oliver Fritz"
-            ],
-            "R:[m' U' m,D']"
         ]
     ],
     "CKI": [
@@ -8901,18 +8901,18 @@
     ],
     "CLI": [
         [
-            "U m' U L2 U' m2 U L2 U' m' U'",
-            [
-                "Mark Rivers"
-            ],
-            "U m':[U L2 U',m2]"
-        ],
-        [
             "y' U' R2 U m' U' R2 U m y",
             [
                 "Oliver Fritz"
             ],
             "y':[U' R2 U,m']"
+        ],
+        [
+            "U m' U L2 U' m2 U L2 U' m' U'",
+            [
+                "Mark Rivers"
+            ],
+            "U m':[U L2 U',m2]"
         ]
     ],
     "CLJ": [
@@ -8934,18 +8934,18 @@
     ],
     "CMI": [
         [
-            "U' m D2 m' D2 U",
-            [
-                "Mark Rivers"
-            ],
-            "U':[m,D2]"
-        ],
-        [
             "U D2 m' D2 m U'",
             [
                 "Oliver Fritz"
             ],
             "U:[D2,m']"
+        ],
+        [
+            "U' m D2 m' D2 U",
+            [
+                "Mark Rivers"
+            ],
+            "U':[m,D2]"
         ]
     ],
     "CMJ": [
@@ -8959,6 +8959,13 @@
     ],
     "CNI": [
         [
+            "x' U' L' U m U' L U m' x",
+            [
+                "Oliver Fritz"
+            ],
+            "x':[U' L' U,m]"
+        ],
+        [
             "L m U' L' U m U' L U m2 L'",
             [
                 "Mark Rivers"
@@ -8971,13 +8978,6 @@
                 "Mark Rivers"
             ],
             "[m',D' L2 D]"
-        ],
-        [
-            "x' U' L' U m U' L U m' x",
-            [
-                "Oliver Fritz"
-            ],
-            "x':[U' L' U,m]"
         ]
     ],
     "CNJ": [
@@ -9011,6 +9011,13 @@
     ],
     "CPI": [
         [
+            "y' U' R2 U' m U R2 U' m' U2 y",
+            [
+                "Oliver Fritz"
+            ],
+            "y' U':[R2,U' m U]"
+        ],
+        [
             "U m' U' R2 U m2 U' R2 U m' U'",
             [
                 "Mark Rivers"
@@ -9023,13 +9030,6 @@
                 "Mark Rivers"
             ],
             "R:[R s R',F']"
-        ],
-        [
-            "y' U' R2 U' m U R2 U' m' U2 y",
-            [
-                "Oliver Fritz"
-            ],
-            "y' U':[R2,U' m U]"
         ]
     ],
     "CPJ": [
@@ -9079,6 +9079,13 @@
     ],
     "CRI": [
         [
+            "z U2 L' U' m' U L U' m U' z'",
+            [
+                "Oliver Fritz"
+            ],
+            "z U:[U L' U',m']"
+        ],
+        [
             "U m' U' R U m2 U' R' U m' U'",
             [
                 "Mark Rivers"
@@ -9091,16 +9098,16 @@
                 "Mark Rivers"
             ],
             "[R s R',F']"
-        ],
-        [
-            "z U2 L' U' m' U L U' m U' z'",
-            [
-                "Oliver Fritz"
-            ],
-            "z U:[U L' U',m']"
         ]
     ],
     "CRJ": [
+        [
+            "z' D m' U' R U m U' R' U D' z",
+            [
+                "Oliver Fritz"
+            ],
+            "z' D:[m',U' R U]"
+        ],
         [
             "U' m2 U R U' m U R' U' m U",
             [
@@ -9114,13 +9121,6 @@
                 "Mark Rivers"
             ],
             "R:[L F L',s']"
-        ],
-        [
-            "z' D m' U' R U m U' R' U D' z",
-            [
-                "Oliver Fritz"
-            ],
-            "z' D:[m',U' R U]"
         ]
     ],
     "CSI": [
@@ -9198,21 +9198,28 @@
     ],
     "CXI": [
         [
-            "U m' U L U' m2 U L' U' m' U'",
-            [
-                "Mark Rivers"
-            ],
-            "U m':[U L U',m2]"
-        ],
-        [
             "3Uw m2 U R' U' m2 U R U' 3Uw'",
             [
                 "Oliver Fritz"
             ],
             "3Uw:[m2,U R' U']"
+        ],
+        [
+            "U m' U L U' m2 U L' U' m' U'",
+            [
+                "Mark Rivers"
+            ],
+            "U m':[U L U',m2]"
         ]
     ],
     "CXJ": [
+        [
+            "4Uw' m' U L' U' m U L U' 4Uw",
+            [
+                "Oliver Fritz"
+            ],
+            "4Uw':[m',U L' U']"
+        ],
         [
             "U' m2 U' L U m U' L' U m U",
             [
@@ -9226,13 +9233,6 @@
                 "Mark Rivers"
             ],
             "U':[D' L' D,m]"
-        ],
-        [
-            "4Uw' m' U L' U' m U L U' 4Uw",
-            [
-                "Oliver Fritz"
-            ],
-            "4Uw':[m',U L' U']"
         ]
     ],
     "CYI": [
@@ -9256,6 +9256,13 @@
     ],
     "CZI": [
         [
+            "z U2 L' U m U' L U m' U z'",
+            [
+                "Oliver Fritz"
+            ],
+            "z U':[U' L' U,m]"
+        ],
+        [
             "U m' U' R' U m2 U' R U m' U'",
             [
                 "Mark Rivers"
@@ -9268,16 +9275,16 @@
                 "Mark Rivers"
             ],
             "R':[s,R' F' R]"
-        ],
-        [
-            "z U2 L' U m U' L U m' U z'",
-            [
-                "Oliver Fritz"
-            ],
-            "z U':[U' L' U,m]"
         ]
     ],
     "CZJ": [
+        [
+            "R D' m' U' m D m' U m R'",
+            [
+                "Oliver Fritz"
+            ],
+            "R:[D',m' U' m]"
+        ],
         [
             "U' m2 U R' U' m U R U' m U",
             [
@@ -9291,13 +9298,6 @@
                 "Mark Rivers"
             ],
             "R':[L F L',s']"
-        ],
-        [
-            "R D' m' U' m D m' U m R'",
-            [
-                "Oliver Fritz"
-            ],
-            "R:[D',m' U' m]"
         ]
     ],
     "EIK": [
@@ -9319,18 +9319,18 @@
     ],
     "EIL": [
         [
-            "m U L2 U' m2 U L2 U' m",
-            [
-                "Mark Rivers"
-            ],
-            "m:[U L2 U',m2]"
-        ],
-        [
             "x' U L U' m2 U L' U' m2 x",
             [
                 "Oliver Fritz"
             ],
             "x':[U L U',m2]"
+        ],
+        [
+            "m U L2 U' m2 U L2 U' m",
+            [
+                "Mark Rivers"
+            ],
+            "m:[U L2 U',m2]"
         ]
     ],
     "EIM": [
@@ -9345,18 +9345,18 @@
     ],
     "EIN": [
         [
-            "U D R2 D' m' D R2 D' m U'",
-            [
-                "Mark Rivers"
-            ],
-            "U:[D R2 D',m']"
-        ],
-        [
             "U x' m U R U' m' U R' U' x U'",
             [
                 "Oliver Fritz"
             ],
             "U x':[m,U R U']"
+        ],
+        [
+            "U D R2 D' m' D R2 D' m U'",
+            [
+                "Mark Rivers"
+            ],
+            "U:[D R2 D',m']"
         ]
     ],
     "EIO": [
@@ -9522,18 +9522,18 @@
     ],
     "EJN": [
         [
-            "U m' U m D2 m' U' m D2 U'",
-            [
-                "Mark Rivers"
-            ],
-            "U:[m' U m,D2]"
-        ],
-        [
             "U' m' U' m D2 m' U m U D2",
             [
                 "Oliver Fritz"
             ],
             "[U' m' U' m,D2]"
+        ],
+        [
+            "U m' U m D2 m' U' m D2 U'",
+            [
+                "Mark Rivers"
+            ],
+            "U:[m' U m,D2]"
         ]
     ],
     "EJO": [
@@ -9548,6 +9548,13 @@
     ],
     "EJP": [
         [
+            "U' m' U' m D' m' U m U D",
+            [
+                "Oliver Fritz"
+            ],
+            "[U' m' U' m,D']"
+        ],
+        [
             "U m' U m D' m' U' m D U'",
             [
                 "Mark Rivers"
@@ -9560,13 +9567,6 @@
                 "Mark Rivers"
             ],
             "U:[s',R' F' R]"
-        ],
-        [
-            "U' m' U' m D' m' U m U D",
-            [
-                "Oliver Fritz"
-            ],
-            "[U' m' U' m,D']"
         ]
     ],
     "EJQ": [
@@ -9581,6 +9581,13 @@
     ],
     "EJR": [
         [
+            "x2 U2 m' U' R' U m U' R U' x2",
+            [
+                "Oliver Fritz"
+            ],
+            "x2 U:[U m' U',R']"
+        ],
+        [
             "R' U m' U m D' m' U' m D U' R",
             [
                 "Mark Rivers"
@@ -9593,13 +9600,6 @@
                 "Mark Rivers"
             ],
             "R' U:[s',R' F' R]"
-        ],
-        [
-            "x2 U2 m' U' R' U m U' R U' x2",
-            [
-                "Oliver Fritz"
-            ],
-            "x2 U:[U m' U',R']"
         ]
     ],
     "EJS": [
@@ -9614,6 +9614,13 @@
     ],
     "EJT": [
         [
+            "x' U L2 U m U' L2 U m' U2 x",
+            [
+                "Oliver Fritz"
+            ],
+            "x' U:[L2,U m U']"
+        ],
+        [
             "L U' m' U' m D m' U m D' U L'",
             [
                 "Mark Rivers"
@@ -9626,13 +9633,6 @@
                 "Mark Rivers"
             ],
             "L U':[s,L F L']"
-        ],
-        [
-            "x' U L2 U m U' L2 U m' U2 x",
-            [
-                "Oliver Fritz"
-            ],
-            "x' U:[L2,U m U']"
         ]
     ],
     "EJW": [
@@ -9647,6 +9647,13 @@
     ],
     "EJX": [
         [
+            "y' z' m' U m D m' U' m D' z y",
+            [
+                "Oliver Fritz"
+            ],
+            "y' z':[m' U m,D]"
+        ],
+        [
             "L' U' m' U' m D m' U m D' U L",
             [
                 "Mark Rivers"
@@ -9659,13 +9666,6 @@
                 "Mark Rivers"
             ],
             "L' U':[s,L F L']"
-        ],
-        [
-            "y' z' m' U m D m' U' m D' z y",
-            [
-                "Oliver Fritz"
-            ],
-            "y' z':[m' U m,D]"
         ]
     ],
     "EJY": [
@@ -9680,6 +9680,13 @@
     ],
     "EJZ": [
         [
+            "y z m' U' m D' m' U m D z' y'",
+            [
+                "Oliver Fritz"
+            ],
+            "y z:[m' U' m,D']"
+        ],
+        [
             "R U m' U m D' m' U' m D U' R'",
             [
                 "Mark Rivers"
@@ -9692,13 +9699,6 @@
                 "Mark Rivers"
             ],
             "R U:[s',R' F' R]"
-        ],
-        [
-            "y z m' U' m D' m' U m D z' y'",
-            [
-                "Oliver Fritz"
-            ],
-            "y z:[m' U' m,D']"
         ]
     ],
     "EKI": [
@@ -9740,18 +9740,18 @@
     ],
     "ELI": [
         [
-            "m' U L2 U' m2 U L2 U' m'",
-            [
-                "Mark Rivers"
-            ],
-            "m':[U L2 U',m2]"
-        ],
-        [
             "x' m2 U L U' m2 U L' U' x",
             [
                 "Oliver Fritz"
             ],
             "x':[m2,U L U']"
+        ],
+        [
+            "m' U L2 U' m2 U L2 U' m'",
+            [
+                "Mark Rivers"
+            ],
+            "m':[U L2 U',m2]"
         ]
     ],
     "ELJ": [
@@ -9819,34 +9819,34 @@
     ],
     "ENI": [
         [
-            "U m' D R2 D' m D R2 D' U'",
-            [
-                "Mark Rivers"
-            ],
-            "U:[m',D R2 D']"
-        ],
-        [
             "U x' U R U' m U R' U' m' x U'",
             [
                 "Oliver Fritz"
             ],
             "U x':[U R U',m]"
-        ]
-    ],
-    "ENJ": [
+        ],
         [
-            "U D2 m' U m D2 m' U' m U'",
+            "U m' D R2 D' m D R2 D' U'",
             [
                 "Mark Rivers"
             ],
-            "U:[D2,m' U m]"
-        ],
+            "U:[m',D R2 D']"
+        ]
+    ],
+    "ENJ": [
         [
             "D2 U' m' U' m D2 m' U m U",
             [
                 "Oliver Fritz"
             ],
             "[D2,U' m' U' m]"
+        ],
+        [
+            "U D2 m' U m D2 m' U' m U'",
+            [
+                "Mark Rivers"
+            ],
+            "U:[D2,m' U m]"
         ]
     ],
     "ENW": [
@@ -9889,6 +9889,13 @@
     ],
     "EPJ": [
         [
+            "D' U' m' U' m D m' U m U",
+            [
+                "Oliver Fritz"
+            ],
+            "[D',U' m' U' m]"
+        ],
+        [
             "U D' m' U m D m' U' m U'",
             [
                 "Mark Rivers"
@@ -9901,13 +9908,6 @@
                 "Mark Rivers"
             ],
             "U:[R' F' R,s']"
-        ],
-        [
-            "D' U' m' U' m D m' U m U",
-            [
-                "Oliver Fritz"
-            ],
-            "[D',U' m' U' m]"
         ]
     ],
     "EPM": [
@@ -9957,6 +9957,13 @@
     ],
     "ERJ": [
         [
+            "x2 U R' U m' U' R U m U2 x2",
+            [
+                "Oliver Fritz"
+            ],
+            "x2 U:[R',U m' U']"
+        ],
+        [
             "R' U D' m' U m D m' U' m U' R",
             [
                 "Mark Rivers"
@@ -9969,13 +9976,6 @@
                 "Mark Rivers"
             ],
             "R' U:[R' F' R,s']"
-        ],
-        [
-            "x2 U R' U m' U' R U m U2 x2",
-            [
-                "Oliver Fritz"
-            ],
-            "x2 U:[R',U m' U']"
         ]
     ],
     "ERW": [
@@ -10035,6 +10035,13 @@
     ],
     "ETJ": [
         [
+            "x' U2 m U' L2 U m' U' L2 U' x",
+            [
+                "Oliver Fritz"
+            ],
+            "x' U:[U m U',L2]"
+        ],
+        [
             "L U' D m' U' m D' m' U m U L'",
             [
                 "Mark Rivers"
@@ -10047,13 +10054,6 @@
                 "Mark Rivers"
             ],
             "L U':[L F L',s]"
-        ],
-        [
-            "x' U2 m U' L2 U m' U' L2 U' x",
-            [
-                "Oliver Fritz"
-            ],
-            "x' U:[U m U',L2]"
         ]
     ],
     "ETM": [
@@ -10122,6 +10122,13 @@
     ],
     "EXJ": [
         [
+            "y' z' D m' U m D' m' U' m z y",
+            [
+                "Oliver Fritz"
+            ],
+            "y' z':[D,m' U m]"
+        ],
+        [
             "L' U' D m' U' m D' m' U m U L",
             [
                 "Mark Rivers"
@@ -10134,13 +10141,6 @@
                 "Mark Rivers"
             ],
             "L' U':[L F L',s]"
-        ],
-        [
-            "y' z' D m' U m D' m' U' m z y",
-            [
-                "Oliver Fritz"
-            ],
-            "y' z':[D,m' U m]"
         ]
     ],
     "EYI": [
@@ -10155,18 +10155,18 @@
     ],
     "EYJ": [
         [
-            "B U' L U m2 U' L' U m2 B'",
-            [
-                "Mark Rivers"
-            ],
-            "B:[U' L U,m2]"
-        ],
-        [
             "U2 m' U' R' U m U' R U'",
             [
                 "Oliver Fritz"
             ],
             "U:[U m' U',R']"
+        ],
+        [
+            "B U' L U m2 U' L' U m2 B'",
+            [
+                "Mark Rivers"
+            ],
+            "B:[U' L U,m2]"
         ]
     ],
     "EZI": [
@@ -10188,6 +10188,13 @@
     ],
     "EZJ": [
         [
+            "y z D' m' U' m D m' U m z' y'",
+            [
+                "Oliver Fritz"
+            ],
+            "y z:[D',m' U' m]"
+        ],
+        [
             "R U D' m' U m D m' U' m U' R'",
             [
                 "Mark Rivers"
@@ -10200,13 +10207,6 @@
                 "Mark Rivers"
             ],
             "R U:[R' F' R,s']"
-        ],
-        [
-            "y z D' m' U' m D m' U m z' y'",
-            [
-                "Oliver Fritz"
-            ],
-            "y z:[D',m' U' m]"
         ]
     ],
     "EZL": [
@@ -10330,29 +10330,21 @@
             "Rw:[U' R' U,m']"
         ],
         [
-            "R' U' R U m' U' R' U R m",
-            [
-                "Hana Davila"
-            ],
-            "[R' U' R U,m']"
-        ],
-        [
             "R U' R' U m' U' R U m R'",
             [
                 "Mark Rivers"
             ],
             "R:[U' R' U,m']"
+        ],
+        [
+            "R' U' R U m' U' R' U R m",
+            [
+                "Hana Davila"
+            ],
+            "[R' U' R U,m']"
         ]
     ],
     "GAK": [
-        [
-            "D U m D2 m' U' m D2 m' D'",
-            [
-                "Hana Davila",
-                "Kai Yamamoto (山本快)"
-            ],
-            "D:[U,m D2 m']"
-        ],
         [
             "4Lw2 U' m U2 m' U' 4Lw2",
             [
@@ -10360,6 +10352,14 @@
                 "Michael Tripodi"
             ],
             "4Lw2 U':[m,U2]"
+        ],
+        [
+            "D U m D2 m' U' m D2 m' D'",
+            [
+                "Hana Davila",
+                "Kai Yamamoto (山本快)"
+            ],
+            "D:[U,m D2 m']"
         ],
         [
             "R2 D' m D2 m' D' R2",
@@ -10509,18 +10509,18 @@
             "z R:[R,U m' U']"
         ],
         [
-            "U2 L e' L' U' L e L' U'",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "U:[U,L e' L']"
-        ],
-        [
             "Rw' D' U' R U m' U' R' U m D Rw",
             [
                 "Michael Tripodi"
             ],
             "Rw' D':[U' R U,m']"
+        ],
+        [
+            "U2 L e' L' U' L e L' U'",
+            [
+                "Kai Yamamoto (山本快)"
+            ],
+            "U:[U,L e' L']"
         ]
     ],
     "GAS": [
@@ -10577,18 +10577,18 @@
             "U 4Rw':[U' m' U,L]"
         ],
         [
-            "x' U' m' U' R U m U' R' U2 x",
-            [
-                "Hana Davila"
-            ],
-            "x' U':[m',U' R U]"
-        ],
-        [
             "R' e2 R U' R' e2 R U",
             [
                 "Kai Yamamoto (山本快)"
             ],
             "[R' e2 R,U']"
+        ],
+        [
+            "x' U' m' U' R U m U' R' U2 x",
+            [
+                "Hana Davila"
+            ],
+            "x' U':[m',U' R U]"
         ]
     ],
     "GAX": [
@@ -10602,18 +10602,18 @@
             "z':[U m U',L']"
         ],
         [
-            "Lw' U m D m' U' m D' m' Lw",
-            [
-                "Hana Davila"
-            ],
-            "Lw':[U,m D m']"
-        ],
-        [
             "R e' R' U' R e R' U",
             [
                 "Kai Yamamoto (山本快)"
             ],
             "[R e' R',U']"
+        ],
+        [
+            "Lw' U m D m' U' m D' m' Lw",
+            [
+                "Hana Davila"
+            ],
+            "Lw':[U,m D m']"
         ]
     ],
     "GAY": [
@@ -10626,18 +10626,18 @@
             "4Lw:[R',U m' U']"
         ],
         [
-            "4Rw' U m' U' R U m U' R' 4Rw",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "4Rw':[U m' U',R]"
-        ],
-        [
             "m r' R' U m' U' R U m U' r m'",
             [
                 "Michael Tripodi"
             ],
             "m r':[R',U m' U']"
+        ],
+        [
+            "4Rw' U m' U' R U m U' R' 4Rw",
+            [
+                "Kai Yamamoto (山本快)"
+            ],
+            "4Rw':[U m' U',R]"
         ]
     ],
     "GAZ": [
@@ -10657,18 +10657,18 @@
             "R D':[U' R' U,m']"
         ],
         [
-            "z R2 U' m U R' U' m' U R' z'",
-            [
-                "Hana Davila"
-            ],
-            "z R:[R,U' m U]"
-        ],
-        [
             "U2 L' e L U' L' e' L U'",
             [
                 "Kai Yamamoto (山本快)"
             ],
             "U:[U,L' e L]"
+        ],
+        [
+            "z R2 U' m U R' U' m' U R' z'",
+            [
+                "Hana Davila"
+            ],
+            "z R:[R,U' m U]"
         ]
     ],
     "GBC": [
@@ -10748,11 +10748,11 @@
             "3Rw:[U R' U',m']"
         ],
         [
-            "m' R U R' U' m' U R U' R' m2",
+            "x U R' U' m' U R U' m x'",
             [
-                "Hana Davila"
+                "Oliver Fritz"
             ],
-            "m':[R U R' U',m']"
+            "x:[U R' U',m']"
         ],
         [
             "m D R2 D' m' D R2 D'",
@@ -10762,11 +10762,11 @@
             "[m,D R2 D']"
         ],
         [
-            "x U R' U' m' U R U' m x'",
+            "m' R U R' U' m' U R U' R' m2",
             [
-                "Oliver Fritz"
+                "Hana Davila"
             ],
-            "x:[U R' U',m']"
+            "m':[R U R' U',m']"
         ]
     ],
     "GBJ": [
@@ -10787,11 +10787,11 @@
             "R B:[m',U2]"
         ],
         [
-            "M U D2 m D2 m' U' M'",
+            "3Lw U' m' D2 m D2 U 3Lw'",
             [
-                "Kai Yamamoto (山本快)"
+                "Michael Tripodi"
             ],
-            "M U:[D2,m]"
+            "3Lw U':[m',D2]"
         ],
         [
             "U L m2 U' L' U m U' L U m L' U'",
@@ -10808,11 +10808,11 @@
             "R' U:[F',R s R']"
         ],
         [
-            "3Lw U' m' D2 m D2 U 3Lw'",
+            "M U D2 m D2 m' U' M'",
             [
-                "Michael Tripodi"
+                "Kai Yamamoto (山本快)"
             ],
-            "3Lw U':[m',D2]"
+            "M U:[D2,m]"
         ]
     ],
     "GBK": [
@@ -10861,20 +10861,20 @@
     ],
     "GBM": [
         [
-            "U 3Lw' m2 U' L U m2 U' L' U 3Lw U'",
-            [
-                "Daniel Wallin",
-                "Kai Yamamoto (山本快)"
-            ],
-            "U 3Lw':[m2,U' L U]"
-        ],
-        [
             "3Rw U R' U m' U' R U m U2 3Rw'",
             [
                 "Graham Siggins",
                 "Michael Tripodi"
             ],
             "3Rw U:[R',U m' U']"
+        ],
+        [
+            "U 3Lw' m2 U' L U m2 U' L' U 3Lw U'",
+            [
+                "Daniel Wallin",
+                "Kai Yamamoto (山本快)"
+            ],
+            "U 3Lw':[m2,U' L U]"
         ],
         [
             "x U R' U m' U' R U m U2 x'",
@@ -10991,18 +10991,18 @@
             "L' m U:[m',U2]"
         ],
         [
-            "m U2 L' U m2 U' L U m2 U m'",
-            [
-                "Hana Davila"
-            ],
-            "m U':[U' L' U,m2]"
-        ],
-        [
             "U' M U' R' e R U R' e' R M' U",
             [
                 "Kai Yamamoto (山本快)"
             ],
             "U' M:[U',R' e R]"
+        ],
+        [
+            "m U2 L' U m2 U' L U m2 U m'",
+            [
+                "Hana Davila"
+            ],
+            "m U':[U' L' U,m2]"
         ]
     ],
     "GBT": [
@@ -11048,18 +11048,18 @@
             "z D:[U R U',m]"
         ],
         [
-            "x D' U R' U' m U R U' m' D x'",
-            [
-                "Hana Davila"
-            ],
-            "x D':[U R' U',m]"
-        ],
-        [
             "R L U L' e L U' L' e' R'",
             [
                 "Kai Yamamoto (山本快)"
             ],
             "R:[L U L',e]"
+        ],
+        [
+            "x D' U R' U' m U R U' m' D x'",
+            [
+                "Hana Davila"
+            ],
+            "x D':[U R' U',m]"
         ]
     ],
     "GBY": [
@@ -11079,18 +11079,18 @@
             "3Rw':[U' m2 U,R]"
         ],
         [
-            "S' L' e L U L' e' L U' S",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "S':[L' e L,U]"
-        ],
-        [
             "m R' U' m2 U R U' m2 U m'",
             [
                 "Michael Tripodi"
             ],
             "m:[R',U' m2 U]"
+        ],
+        [
+            "S' L' e L U L' e' L U' S",
+            [
+                "Kai Yamamoto (山本快)"
+            ],
+            "S':[L' e L,U]"
         ]
     ],
     "GBZ": [
@@ -11162,11 +11162,11 @@
             "U' Rw:[U R' U',m']"
         ],
         [
-            "U' R U R' U' m' U R U' R' m U",
+            "U Lw U L' U' m U L U' m' Lw' U'",
             [
-                "Hana Davila"
+                "Michael Tripodi"
             ],
-            "U':[R U R' U',m']"
+            "U Lw:[U L' U',m]"
         ],
         [
             "S U m D' m' U' m D m' S'",
@@ -11176,11 +11176,11 @@
             "S:[U,m D' m']"
         ],
         [
-            "U Lw U L' U' m U L U' m' Lw' U'",
+            "U' R U R' U' m' U R U' R' m U",
             [
-                "Michael Tripodi"
+                "Hana Davila"
             ],
-            "U Lw:[U L' U',m]"
+            "U':[R U R' U',m']"
         ]
     ],
     "GDB": [
@@ -11204,6 +11204,13 @@
     ],
     "GDI": [
         [
+            "y' U R2 U' m' U R2 U' m y",
+            [
+                "Oliver Fritz"
+            ],
+            "y':[U R2 U',m']"
+        ],
+        [
             "D R2 U' m' U R2 U' m U D'",
             [
                 "Mark Rivers"
@@ -11216,16 +11223,16 @@
                 "Mark Rivers"
             ],
             "[s',L F L']"
-        ],
-        [
-            "y' U R2 U' m' U R2 U' m y",
-            [
-                "Oliver Fritz"
-            ],
-            "y':[U R2 U',m']"
         ]
     ],
     "GDJ": [
+        [
+            "y' m U' R2 U m' U' R2 U y",
+            [
+                "Oliver Fritz"
+            ],
+            "y':[m,U' R2 U]"
+        ],
         [
             "D' U m' U' L2 U m U' L2 D",
             [
@@ -11239,13 +11246,6 @@
                 "Mark Rivers"
             ],
             "[R' F' R,s]"
-        ],
-        [
-            "y' m U' R2 U m' U' R2 U y",
-            [
-                "Oliver Fritz"
-            ],
-            "y':[m,U' R2 U]"
         ]
     ],
     "GDP": [
@@ -11308,18 +11308,18 @@
     ],
     "GEI": [
         [
-            "R' U R U' m2 U R' U' m2 R",
-            [
-                "Mark Rivers"
-            ],
-            "R':[U R U',m2]"
-        ],
-        [
             "R U R' U' m2 U R U' R' m2",
             [
                 "Oliver Fritz"
             ],
             "[R U R' U',m2]"
+        ],
+        [
+            "R' U R U' m2 U R' U' m2 R",
+            [
+                "Mark Rivers"
+            ],
+            "R':[U R U',m2]"
         ]
     ],
     "GEJ": [
@@ -11366,21 +11366,28 @@
     ],
     "GFI": [
         [
-            "U' L' m' U L U' m2 U L' U' m' L U",
-            [
-                "Mark Rivers"
-            ],
-            "U' L' m':[U L U',m2]"
-        ],
-        [
             "x2 U2 m' U' R2 U m U' R2 U' x2",
             [
                 "Oliver Fritz"
             ],
             "x2 U:[U m' U',R2]"
+        ],
+        [
+            "U' L' m' U L U' m2 U L' U' m' L U",
+            [
+                "Mark Rivers"
+            ],
+            "U' L' m':[U L U',m2]"
         ]
     ],
     "GFJ": [
+        [
+            "x' U' R U m2 U' R' U m2 x",
+            [
+                "Oliver Fritz"
+            ],
+            "x':[U' R U,m2]"
+        ],
         [
             "R m U' R' U m2 U' R U m R'",
             [
@@ -11394,13 +11401,6 @@
                 "Mark Rivers"
             ],
             "R' U':[F',R s R']"
-        ],
-        [
-            "x' U' R U m2 U' R' U m2 x",
-            [
-                "Oliver Fritz"
-            ],
-            "x':[U' R U,m2]"
         ]
     ],
     "GFX": [
@@ -11452,11 +11452,11 @@
             "3Rw:[m',U R' U']"
         ],
         [
-            "m2 R U R' U' m U R U' R' m",
+            "x m' U R' U' m U R U' x'",
             [
-                "Hana Davila"
+                "Oliver Fritz"
             ],
-            "m':[m',R U R' U']"
+            "x:[m',U R' U']"
         ],
         [
             "D R2 D' m D R2 D' m'",
@@ -11466,11 +11466,11 @@
             "[D R2 D',m]"
         ],
         [
-            "x m' U R' U' m U R U' x'",
+            "m2 R U R' U' m U R U' R' m",
             [
-                "Oliver Fritz"
+                "Hana Davila"
             ],
-            "x:[m',U R' U']"
+            "m':[m',R U R' U']"
         ]
     ],
     "GIC": [
@@ -11484,6 +11484,13 @@
     ],
     "GID": [
         [
+            "y' m' U R2 U' m U R2 U' y",
+            [
+                "Oliver Fritz"
+            ],
+            "y':[m',U R2 U']"
+        ],
+        [
             "D U' m' U R2 U' m U R2 D'",
             [
                 "Mark Rivers"
@@ -11496,45 +11503,38 @@
                 "Mark Rivers"
             ],
             "[L F L',s']"
-        ],
-        [
-            "y' m' U R2 U' m U R2 U' y",
-            [
-                "Oliver Fritz"
-            ],
-            "y':[m',U R2 U']"
         ]
     ],
     "GIE": [
-        [
-            "R' m2 U R U' m2 U R' U' R",
-            [
-                "Mark Rivers"
-            ],
-            "R':[m2,U R U']"
-        ],
         [
             "m2 R U R' U' m2 U R U' R'",
             [
                 "Oliver Fritz"
             ],
             "[m2,R U R' U']"
-        ]
-    ],
-    "GIF": [
+        ],
         [
-            "U' L' m U L U' m2 U L' U' m L U",
+            "R' m2 U R U' m2 U R' U' R",
             [
                 "Mark Rivers"
             ],
-            "U' L' m:[U L U',m2]"
-        ],
+            "R':[m2,U R U']"
+        ]
+    ],
+    "GIF": [
         [
             "x2 U R2 U m' U' R2 U m U2 x2",
             [
                 "Oliver Fritz"
             ],
             "x2 U:[R2,U m' U']"
+        ],
+        [
+            "U' L' m U L U' m2 U L' U' m L U",
+            [
+                "Mark Rivers"
+            ],
+            "U' L' m:[U L U',m2]"
         ]
     ],
     "GIK": [
@@ -11548,6 +11548,13 @@
     ],
     "GIL": [
         [
+            "y' U2 m' U' R2 U m U' R2 U' y",
+            [
+                "Oliver Fritz"
+            ],
+            "y' U:[U m' U',R2]"
+        ],
+        [
             "U' m U L2 U' m2 U L2 U' m U",
             [
                 "Mark Rivers"
@@ -11560,13 +11567,6 @@
                 "Mark Rivers"
             ],
             "L':[F,L' s' L]"
-        ],
-        [
-            "y' U2 m' U' R2 U m U' R2 U' y",
-            [
-                "Oliver Fritz"
-            ],
-            "y' U:[U m' U',R2]"
         ]
     ],
     "GIM": [
@@ -11580,18 +11580,18 @@
     ],
     "GIN": [
         [
-            "D R2 D' m' D R2 D' m",
-            [
-                "Mark Rivers"
-            ],
-            "[D R2 D',m']"
-        ],
-        [
             "x' m U R U' m' U R' U' x",
             [
                 "Oliver Fritz"
             ],
             "x':[m,U R U']"
+        ],
+        [
+            "D R2 D' m' D R2 D' m",
+            [
+                "Mark Rivers"
+            ],
+            "[D R2 D',m']"
         ]
     ],
     "GIO": [
@@ -11613,18 +11613,18 @@
     ],
     "GIP": [
         [
-            "U' m U' R2 U m2 U' R2 U m U",
-            [
-                "Mark Rivers"
-            ],
-            "U' m:[U' R2 U,m2]"
-        ],
-        [
             "y' m U R2 U' m' U R2 U' y",
             [
                 "Oliver Fritz"
             ],
             "y':[m,U R2 U']"
+        ],
+        [
+            "U' m U' R2 U m2 U' R2 U m U",
+            [
+                "Mark Rivers"
+            ],
+            "U' m:[U' R2 U,m2]"
         ]
     ],
     "GIQ": [
@@ -11666,6 +11666,13 @@
     ],
     "GIT": [
         [
+            "z' U' m' U' R U m U' R' U2 z",
+            [
+                "Oliver Fritz"
+            ],
+            "z' U':[m',U' R U]"
+        ],
+        [
             "U' m U L' U' m2 U L U' m U",
             [
                 "Mark Rivers"
@@ -11678,13 +11685,6 @@
                 "Mark Rivers"
             ],
             "[F,L' s' L]"
-        ],
-        [
-            "z' U' m' U' R U m U' R' U2 z",
-            [
-                "Oliver Fritz"
-            ],
-            "z' U':[m',U' R U]"
         ]
     ],
     "GIW": [
@@ -11745,18 +11745,18 @@
             "Rw:[m',U' R' U]"
         ],
         [
-            "m' R' U' R U m U' R' U R",
-            [
-                "Hana Davila"
-            ],
-            "[m',R' U' R U]"
-        ],
-        [
             "R m' U' R' U m U' R U R'",
             [
                 "Mark Rivers"
             ],
             "R:[m',U' R' U]"
+        ],
+        [
+            "m' R' U' R U m U' R' U R",
+            [
+                "Hana Davila"
+            ],
+            "[m',R' U' R U]"
         ]
     ],
     "GJB": [
@@ -11777,11 +11777,11 @@
             "R B:[U2,m']"
         ],
         [
-            "M U m D2 m' D2 U' M'",
+            "3Lw U' D2 m' D2 m U 3Lw'",
             [
-                "Kai Yamamoto (山本快)"
+                "Michael Tripodi"
             ],
-            "M U:[m,D2]"
+            "3Lw U':[D2,m']"
         ],
         [
             "U L m' U' L' U m' U' L U m2 L' U'",
@@ -11798,11 +11798,11 @@
             "R' U:[R s R',F']"
         ],
         [
-            "3Lw U' D2 m' D2 m U 3Lw'",
+            "M U m D2 m' D2 U' M'",
             [
-                "Michael Tripodi"
+                "Kai Yamamoto (山本快)"
             ],
-            "3Lw U':[D2,m']"
+            "M U:[m,D2]"
         ]
     ],
     "GJC": [
@@ -11816,6 +11816,13 @@
     ],
     "GJD": [
         [
+            "y' U' R2 U m U' R2 U m' y",
+            [
+                "Oliver Fritz"
+            ],
+            "y':[U' R2 U,m]"
+        ],
+        [
             "D' L2 U m' U' L2 U m U' D",
             [
                 "Mark Rivers"
@@ -11828,13 +11835,6 @@
                 "Mark Rivers"
             ],
             "[s,R' F' R]"
-        ],
-        [
-            "y' U' R2 U m U' R2 U m' y",
-            [
-                "Oliver Fritz"
-            ],
-            "y':[U' R2 U,m]"
         ]
     ],
     "GJE": [
@@ -11848,6 +11848,13 @@
     ],
     "GJF": [
         [
+            "x U' R' U m2 U' R U m2 x'",
+            [
+                "Oliver Fritz"
+            ],
+            "x:[U' R' U,m2]"
+        ],
+        [
             "R m' U' R' U m2 U' R U m' R'",
             [
                 "Mark Rivers"
@@ -11860,13 +11867,6 @@
                 "Mark Rivers"
             ],
             "R' U':[R s R',F']"
-        ],
-        [
-            "x U' R' U m2 U' R U m2 x'",
-            [
-                "Oliver Fritz"
-            ],
-            "x:[U' R' U,m2]"
         ]
     ],
     "GJK": [
@@ -11898,18 +11898,18 @@
     ],
     "GJM": [
         [
-            "R' m' U' R U m' U' R' U m2 R",
-            [
-                "Mark Rivers"
-            ],
-            "R' m':[U' R U,m']"
-        ],
-        [
             "x U' R' U m' U' R U m x'",
             [
                 "Oliver Fritz"
             ],
             "x:[U' R' U,m']"
+        ],
+        [
+            "R' m' U' R U m' U' R' U m2 R",
+            [
+                "Mark Rivers"
+            ],
+            "R' m':[U' R U,m']"
         ]
     ],
     "GJN": [
@@ -11941,18 +11941,18 @@
             "[m' U m,D']"
         ],
         [
-            "s' R' F' R s R' F R",
-            [
-                "Mark Rivers"
-            ],
-            "[s',R' F' R]"
-        ],
-        [
             "z' R U' m' U R' U' m U z",
             [
                 "Oliver Fritz"
             ],
             "z':[R,U' m' U]"
+        ],
+        [
+            "s' R' F' R s R' F R",
+            [
+                "Mark Rivers"
+            ],
+            "[s',R' F' R]"
         ]
     ],
     "GJQ": [
@@ -11967,6 +11967,13 @@
     ],
     "GJR": [
         [
+            "4Uw U L' U' m' U L U' m 4Uw'",
+            [
+                "Oliver Fritz"
+            ],
+            "4Uw:[U L' U',m']"
+        ],
+        [
             "U m' U R U' m' U R' U' m2 U'",
             [
                 "Mark Rivers"
@@ -11979,13 +11986,6 @@
                 "Mark Rivers"
             ],
             "U:[m,D R' D']"
-        ],
-        [
-            "4Uw U L' U' m' U L U' m 4Uw'",
-            [
-                "Oliver Fritz"
-            ],
-            "4Uw:[U L' U',m']"
         ]
     ],
     "GJS": [
@@ -12000,6 +12000,13 @@
     ],
     "GJT": [
         [
+            "3Uw U L U' m' U L' U' m 3Uw'",
+            [
+                "Oliver Fritz"
+            ],
+            "3Uw:[U L U',m']"
+        ],
+        [
             "U m' U' L' U m' U' L U m2 U'",
             [
                 "Mark Rivers"
@@ -12012,13 +12019,6 @@
                 "Mark Rivers"
             ],
             "L':[s,R' F' R]"
-        ],
-        [
-            "3Uw U L U' m' U L' U' m 3Uw'",
-            [
-                "Oliver Fritz"
-            ],
-            "3Uw:[U L U',m']"
         ]
     ],
     "GJW": [
@@ -12033,6 +12033,13 @@
     ],
     "GJX": [
         [
+            "L' m' U m D m' U' m D' L",
+            [
+                "Oliver Fritz"
+            ],
+            "L':[m' U m,D]"
+        ],
+        [
             "U m' U' L U m' U' L' U m2 U'",
             [
                 "Mark Rivers"
@@ -12045,13 +12052,6 @@
                 "Mark Rivers"
             ],
             "L:[s,R' F' R]"
-        ],
-        [
-            "L' m' U m D m' U' m D' L",
-            [
-                "Oliver Fritz"
-            ],
-            "L':[m' U m,D]"
         ]
     ],
     "GJY": [
@@ -12066,6 +12066,13 @@
     ],
     "GJZ": [
         [
+            "3Uw U' R U m' U' R' U m 3Uw'",
+            [
+                "Oliver Fritz"
+            ],
+            "3Uw:[U' R U,m']"
+        ],
+        [
             "U m' U R' U' m' U R U' m2 U'",
             [
                 "Mark Rivers"
@@ -12078,24 +12085,9 @@
                 "Mark Rivers"
             ],
             "U:[m,D R D']"
-        ],
-        [
-            "3Uw U' R U m' U' R' U m 3Uw'",
-            [
-                "Oliver Fritz"
-            ],
-            "3Uw:[U' R U,m']"
         ]
     ],
     "GKA": [
-        [
-            "D m D2 m' U m D2 m' U' D'",
-            [
-                "Hana Davila",
-                "Kai Yamamoto (山本快)"
-            ],
-            "D:[m D2 m',U]"
-        ],
         [
             "4Lw2 U m U2 m' U 4Lw2",
             [
@@ -12103,6 +12095,14 @@
                 "Michael Tripodi"
             ],
             "4Lw2 U:[m,U2]"
+        ],
+        [
+            "D m D2 m' U m D2 m' U' D'",
+            [
+                "Hana Davila",
+                "Kai Yamamoto (山本快)"
+            ],
+            "D:[m D2 m',U]"
         ],
         [
             "R2 D m D2 m' D R2",
@@ -12191,6 +12191,13 @@
     ],
     "GLI": [
         [
+            "y' U R2 U m' U' R2 U m U2 y",
+            [
+                "Oliver Fritz"
+            ],
+            "y' U:[R2,U m' U']"
+        ],
+        [
             "U' m' U L2 U' m2 U L2 U' m' U",
             [
                 "Mark Rivers"
@@ -12203,13 +12210,6 @@
                 "Mark Rivers"
             ],
             "L':[L' s' L,F]"
-        ],
-        [
-            "y' U R2 U m' U' R2 U m U2 y",
-            [
-                "Oliver Fritz"
-            ],
-            "y' U:[R2,U m' U']"
         ]
     ],
     "GLJ": [
@@ -12263,20 +12263,20 @@
     ],
     "GMB": [
         [
-            "U 3Lw' U' L U m2 U' L' U m2 3Lw U'",
-            [
-                "Daniel Wallin",
-                "Kai Yamamoto (山本快)"
-            ],
-            "U 3Lw':[U' L U,m2]"
-        ],
-        [
             "3Rw U2 m' U' R' U m U' R U' 3Rw'",
             [
                 "Graham Siggins",
                 "Michael Tripodi"
             ],
             "3Rw U:[U m' U',R']"
+        ],
+        [
+            "U 3Lw' U' L U m2 U' L' U m2 3Lw U'",
+            [
+                "Daniel Wallin",
+                "Kai Yamamoto (山本快)"
+            ],
+            "U 3Lw':[U' L U,m2]"
         ],
         [
             "x U2 m' U' R' U m U' R U' x'",
@@ -12297,18 +12297,18 @@
     ],
     "GMJ": [
         [
-            "R' m2 U' R U m U' R' U m R",
-            [
-                "Mark Rivers"
-            ],
-            "R' m':[m',U' R U]"
-        ],
-        [
             "x m' U' R' U m U' R U x'",
             [
                 "Oliver Fritz"
             ],
             "x:[m',U' R' U]"
+        ],
+        [
+            "R' m2 U' R U m U' R' U m R",
+            [
+                "Mark Rivers"
+            ],
+            "R' m':[m',U' R U]"
         ]
     ],
     "GNA": [
@@ -12348,34 +12348,34 @@
             "3Rw:[m2,U R' U']"
         ],
         [
-            "m R U R' U' m2 U R U' R' m",
-            [
-                "Hana Davila"
-            ],
-            "m:[R U R' U',m2]"
-        ],
-        [
             "Rw' m U R U' m2 U R' U' m Rw",
             [
                 "Michael Tripodi"
             ],
             "Rw' m:[U R U',m2]"
+        ],
+        [
+            "m R U R' U' m2 U R U' R' m",
+            [
+                "Hana Davila"
+            ],
+            "m:[R U R' U',m2]"
         ]
     ],
     "GNI": [
-        [
-            "m' D R2 D' m D R2 D'",
-            [
-                "Mark Rivers"
-            ],
-            "[m',D R2 D']"
-        ],
         [
             "x' U R U' m U R' U' m' x",
             [
                 "Oliver Fritz"
             ],
             "x':[U R U',m]"
+        ],
+        [
+            "m' D R2 D' m D R2 D'",
+            [
+                "Mark Rivers"
+            ],
+            "[m',D R2 D']"
         ]
     ],
     "GNJ": [
@@ -12502,18 +12502,18 @@
     ],
     "GPI": [
         [
-            "U' m' U' R2 U m2 U' R2 U m' U",
-            [
-                "Mark Rivers"
-            ],
-            "U' m':[U' R2 U,m2]"
-        ],
-        [
             "y' U R2 U' m U R2 U' m' y",
             [
                 "Oliver Fritz"
             ],
             "y':[U R2 U',m]"
+        ],
+        [
+            "U' m' U' R2 U m2 U' R2 U m' U",
+            [
+                "Mark Rivers"
+            ],
+            "U' m':[U' R2 U,m2]"
         ]
     ],
     "GPJ": [
@@ -12526,18 +12526,18 @@
             "[D',m' U m]"
         ],
         [
-            "R' F' R s' R' F R s",
-            [
-                "Mark Rivers"
-            ],
-            "[R' F' R,s']"
-        ],
-        [
             "z' U' m' U R U' m U R' z",
             [
                 "Oliver Fritz"
             ],
             "z':[U' m' U,R]"
+        ],
+        [
+            "R' F' R s' R' F R s",
+            [
+                "Mark Rivers"
+            ],
+            "[R' F' R,s']"
         ]
     ],
     "GQA": [
@@ -12615,18 +12615,18 @@
             "z R:[U m' U',R]"
         ],
         [
-            "U L e' L' U L e L' U2",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "U:[L e' L',U]"
-        ],
-        [
             "Rw' D' m' U' R U m U' R' U D Rw",
             [
                 "Michael Tripodi"
             ],
             "Rw' D':[m',U' R U]"
+        ],
+        [
+            "U L e' L' U L e L' U2",
+            [
+                "Kai Yamamoto (山本快)"
+            ],
+            "U:[L e' L',U]"
         ]
     ],
     "GRB": [
@@ -12661,6 +12661,13 @@
     ],
     "GRJ": [
         [
+            "4Uw m' U L' U' m U L U' 4Uw'",
+            [
+                "Oliver Fritz"
+            ],
+            "4Uw:[m',U L' U']"
+        ],
+        [
             "U m2 U R U' m U R' U' m U'",
             [
                 "Mark Rivers"
@@ -12673,13 +12680,6 @@
                 "Mark Rivers"
             ],
             "U:[D R' D',m]"
-        ],
-        [
-            "4Uw m' U L' U' m U L U' 4Uw'",
-            [
-                "Oliver Fritz"
-            ],
-            "4Uw:[m',U L' U']"
         ]
     ],
     "GSA": [
@@ -12711,18 +12711,18 @@
             "L' m U':[m',U2]"
         ],
         [
-            "m U' m2 U' L' U m2 U' L U2 m'",
-            [
-                "Hana Davila"
-            ],
-            "m U':[m2,U' L' U]"
-        ],
-        [
             "U' 4Rw' e R U' R' e' R U R' 4Rw U",
             [
                 "Kai Yamamoto (山本快)"
             ],
             "U' 4Rw':[e,R U' R']"
+        ],
+        [
+            "m U' m2 U' L' U m2 U' L U2 m'",
+            [
+                "Hana Davila"
+            ],
+            "m U':[m2,U' L' U]"
         ]
     ],
     "GSI": [
@@ -12794,6 +12794,13 @@
     ],
     "GTI": [
         [
+            "z' U2 R U m' U' R' U m U z",
+            [
+                "Oliver Fritz"
+            ],
+            "z' U':[U' R U,m']"
+        ],
+        [
             "U' m' U L' U' m2 U L U' m' U",
             [
                 "Mark Rivers"
@@ -12806,16 +12813,16 @@
                 "Mark Rivers"
             ],
             "[L' s' L,F]"
-        ],
-        [
-            "z' U2 R U m' U' R' U m U z",
-            [
-                "Oliver Fritz"
-            ],
-            "z' U':[U' R U,m']"
         ]
     ],
     "GTJ": [
+        [
+            "3Uw m' U L U' m U L' U' 3Uw'",
+            [
+                "Oliver Fritz"
+            ],
+            "3Uw:[m',U L U']"
+        ],
         [
             "U m2 U' L' U m U' L U m U'",
             [
@@ -12829,13 +12836,6 @@
                 "Mark Rivers"
             ],
             "L':[R' F' R,s]"
-        ],
-        [
-            "3Uw m' U L U' m U L' U' 3Uw'",
-            [
-                "Oliver Fritz"
-            ],
-            "3Uw:[m',U L U']"
         ]
     ],
     "GWA": [
@@ -12855,18 +12855,18 @@
             "U 4Rw':[L,U' m' U]"
         ],
         [
-            "x' U2 R U m' U' R' U m U x",
-            [
-                "Hana Davila"
-            ],
-            "x' U':[U' R U,m']"
-        ],
-        [
             "U' R' e2 R U R' e2 R",
             [
                 "Kai Yamamoto (山本快)"
             ],
             "[U',R' e2 R]"
+        ],
+        [
+            "x' U2 R U m' U' R' U m U x",
+            [
+                "Hana Davila"
+            ],
+            "x' U':[U' R U,m']"
         ]
     ],
     "GWB": [
@@ -12912,18 +12912,18 @@
             "z':[L',U m U']"
         ],
         [
-            "Lw' m D m' U m D' m' U' Lw",
-            [
-                "Hana Davila"
-            ],
-            "Lw':[m D m',U]"
-        ],
-        [
             "U' R e' R' U R e R'",
             [
                 "Kai Yamamoto (山本快)"
             ],
             "[U',R e' R']"
+        ],
+        [
+            "Lw' m D m' U m D' m' U' Lw",
+            [
+                "Hana Davila"
+            ],
+            "Lw':[m D m',U]"
         ]
     ],
     "GXB": [
@@ -12937,18 +12937,18 @@
             "z D:[m,U R U']"
         ],
         [
-            "x D' m U R' U' m' U R U' D x'",
-            [
-                "Hana Davila"
-            ],
-            "x D':[m,U R' U']"
-        ],
-        [
             "R e L U L' e' L U' L' R'",
             [
                 "Kai Yamamoto (山本快)"
             ],
             "R:[e,L U L']"
+        ],
+        [
+            "x D' m U R' U' m' U R U' D x'",
+            [
+                "Hana Davila"
+            ],
+            "x D':[m,U R' U']"
         ]
     ],
     "GXF": [
@@ -12979,6 +12979,13 @@
     ],
     "GXJ": [
         [
+            "L' D m' U m D' m' U' m L",
+            [
+                "Oliver Fritz"
+            ],
+            "L':[D,m' U m]"
+        ],
+        [
             "U m2 U' L U m U' L' U m U'",
             [
                 "Mark Rivers"
@@ -12991,13 +12998,6 @@
                 "Mark Rivers"
             ],
             "L:[R' F' R,s]"
-        ],
-        [
-            "L' D m' U m D' m' U' m L",
-            [
-                "Oliver Fritz"
-            ],
-            "L':[D,m' U m]"
         ]
     ],
     "GYA": [
@@ -13010,18 +13010,18 @@
             "4Lw:[U m' U',R']"
         ],
         [
-            "M U m' U' R' U m U' R M'",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "M:[U m' U',R']"
-        ],
-        [
             "m r' U m' U' R' U m U' R r m'",
             [
                 "Michael Tripodi"
             ],
             "m r':[U m' U',R']"
+        ],
+        [
+            "M U m' U' R' U m U' R M'",
+            [
+                "Kai Yamamoto (山本快)"
+            ],
+            "M:[U m' U',R']"
         ]
     ],
     "GYB": [
@@ -13041,18 +13041,18 @@
             "3Rw':[R,U' m2 U]"
         ],
         [
-            "S' U L' e L U' L' e' L S",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "S':[U,L' e L]"
-        ],
-        [
             "m U' m2 U R' U' m2 U R m'",
             [
                 "Michael Tripodi"
             ],
             "m:[U' m2 U,R']"
+        ],
+        [
+            "S' U L' e L U' L' e' L S",
+            [
+                "Kai Yamamoto (山本快)"
+            ],
+            "S':[U,L' e L]"
         ]
     ],
     "GYI": [
@@ -13092,18 +13092,18 @@
             "R D':[m',U' R' U]"
         ],
         [
-            "z R U' m U R U' m' U R2 z'",
-            [
-                "Hana Davila"
-            ],
-            "z R:[U' m U,R]"
-        ],
-        [
             "U L' e L U L' e' L U2",
             [
                 "Kai Yamamoto (山本快)"
             ],
             "U:[L' e L,U]"
+        ],
+        [
+            "z R U' m U R U' m' U R2 z'",
+            [
+                "Hana Davila"
+            ],
+            "z R:[U' m U,R]"
         ]
     ],
     "GZB": [
@@ -13131,6 +13131,13 @@
     ],
     "GZJ": [
         [
+            "3Uw m' U' R U m U' R' U 3Uw'",
+            [
+                "Oliver Fritz"
+            ],
+            "3Uw:[m',U' R U]"
+        ],
+        [
             "U m2 U R' U' m U R U' m U'",
             [
                 "Mark Rivers"
@@ -13143,29 +13150,22 @@
                 "Mark Rivers"
             ],
             "U:[D R D',m]"
-        ],
-        [
-            "3Uw m' U' R U m U' R' U 3Uw'",
-            [
-                "Oliver Fritz"
-            ],
-            "3Uw:[m',U' R U]"
         ]
     ],
     "IMW": [
-        [
-            "L U' D2 m D2 m' U L'",
-            [
-                "Mark Rivers"
-            ],
-            "L U':[D2,m]"
-        ],
         [
             "x y' U m' U' R2 U m U' R2 y x'",
             [
                 "Oliver Fritz"
             ],
             "x y':[U m' U',R2]"
+        ],
+        [
+            "L U' D2 m D2 m' U L'",
+            [
+                "Mark Rivers"
+            ],
+            "L U':[D2,m]"
         ]
     ],
     "IMX": [
@@ -13187,6 +13187,13 @@
     ],
     "INW": [
         [
+            "x y' D' m' U m D m' U' m y x'",
+            [
+                "Oliver Fritz"
+            ],
+            "x y':[D',m' U m]"
+        ],
+        [
             "m2 U' L U m' U' L' U m'",
             [
                 "Mark Rivers"
@@ -13199,13 +13206,6 @@
                 "Mark Rivers"
             ],
             "[D' L' D,m']"
-        ],
-        [
-            "x y' D' m' U m D m' U' m y x'",
-            [
-                "Oliver Fritz"
-            ],
-            "x y':[D',m' U m]"
         ]
     ],
     "INX": [
@@ -13219,21 +13219,28 @@
     ],
     "IWM": [
         [
-            "L U' m D2 m' D2 U L'",
-            [
-                "Mark Rivers"
-            ],
-            "L U':[m,D2]"
-        ],
-        [
             "x y' R2 U m' U' R2 U m U' y x'",
             [
                 "Oliver Fritz"
             ],
             "x y':[R2,U m' U']"
+        ],
+        [
+            "L U' m D2 m' D2 U L'",
+            [
+                "Mark Rivers"
+            ],
+            "L U':[m,D2]"
         ]
     ],
     "IWN": [
+        [
+            "x y' m' U m D' m' U' m D y x'",
+            [
+                "Oliver Fritz"
+            ],
+            "x y':[m' U m,D']"
+        ],
         [
             "m U' L U m U' L' U m2",
             [
@@ -13247,13 +13254,6 @@
                 "Mark Rivers"
             ],
             "[m',D' L' D]"
-        ],
-        [
-            "x y' m' U m D' m' U' m D y x'",
-            [
-                "Oliver Fritz"
-            ],
-            "x y':[m' U m,D']"
         ]
     ],
     "IXM": [
@@ -13284,34 +13284,34 @@
     ],
     "KIM": [
         [
-            "L2 U' D2 m D2 m' U L2",
-            [
-                "Mark Rivers"
-            ],
-            "L2 U':[D2,m]"
-        ],
-        [
             "x y' F U m' U' R2 U m U' R2 F' y x'",
             [
                 "Oliver Fritz"
             ],
             "x y' F:[U m' U',R2]"
-        ]
-    ],
-    "KIN": [
+        ],
         [
-            "m2 U' L2 U m' U' L2 U m'",
+            "L2 U' D2 m D2 m' U L2",
             [
                 "Mark Rivers"
             ],
-            "m:[m,U' L2 U]"
-        ],
+            "L2 U':[D2,m]"
+        ]
+    ],
+    "KIN": [
         [
             "x' m U' L U m' U' L' U x",
             [
                 "Oliver Fritz"
             ],
             "x':[m,U' L U]"
+        ],
+        [
+            "m2 U' L2 U m' U' L2 U m'",
+            [
+                "Mark Rivers"
+            ],
+            "m:[m,U' L2 U]"
         ]
     ],
     "KIQ": [
@@ -13333,18 +13333,18 @@
     ],
     "KIR": [
         [
-            "R D m' U m D' m' U' m R'",
-            [
-                "Mark Rivers"
-            ],
-            "R:[D,m' U m]"
-        ],
-        [
             "z U' m' U L' U' m U L z'",
             [
                 "Oliver Fritz"
             ],
             "z:[U' m' U,L']"
+        ],
+        [
+            "R D m' U m D' m' U' m R'",
+            [
+                "Mark Rivers"
+            ],
+            "R:[D,m' U m]"
         ]
     ],
     "KIS": [
@@ -13358,82 +13358,82 @@
     ],
     "KIT": [
         [
-            "L' U' m2 U' L' U m U' L U m U L",
-            [
-                "Mark Rivers"
-            ],
-            "L' U' m':[m',U' L' U]"
-        ],
-        [
             "z' R2 U m' U' R' U m U' R' z",
             [
                 "Oliver Fritz"
             ],
             "z' R:[R,U m' U']"
-        ]
-    ],
-    "KIW": [
+        ],
         [
-            "L U m2 U' L U m2 U' L2",
+            "L' U' m2 U' L' U m U' L U m U L",
             [
                 "Mark Rivers"
             ],
-            "L:[U m2 U',L]"
-        ],
+            "L' U' m':[m',U' L' U]"
+        ]
+    ],
+    "KIW": [
         [
             "x' U m U' L U m' U' L' x",
             [
                 "Oliver Fritz"
             ],
             "x':[U m U',L]"
-        ]
-    ],
-    "KIX": [
+        ],
         [
-            "B' m2 U' L2 U m2 U' L2 U B",
+            "L U m2 U' L U m2 U' L2",
             [
                 "Mark Rivers"
             ],
-            "B':[m2,U' L2 U]"
-        ],
+            "L:[U m2 U',L]"
+        ]
+    ],
+    "KIX": [
         [
             "z' R2 U' m U R' U' m' U R' z",
             [
                 "Oliver Fritz"
             ],
             "z' R:[R,U' m U]"
-        ]
-    ],
-    "KIY": [
+        ],
         [
-            "L2 R' U' m' U2 m U' R L2",
+            "B' m2 U' L2 U m2 U' L2 U B",
             [
                 "Mark Rivers"
             ],
-            "L2 R' U':[m',U2]"
-        ],
+            "B':[m2,U' L2 U]"
+        ]
+    ],
+    "KIY": [
         [
             "z U' m2 U L' U' m2 U L z'",
             [
                 "Oliver Fritz"
             ],
             "z:[U' m2 U,L']"
-        ]
-    ],
-    "KIZ": [
+        ],
         [
-            "R' D m' U m D' m' U' m R",
+            "L2 R' U' m' U2 m U' R L2",
             [
                 "Mark Rivers"
             ],
-            "R':[D,m' U m]"
-        ],
+            "L2 R' U':[m',U2]"
+        ]
+    ],
+    "KIZ": [
         [
             "z U m U' L' U m' U' L z'",
             [
                 "Oliver Fritz"
             ],
             "z:[U m U',L']"
+        ],
+        [
+            "R' D m' U m D' m' U' m R",
+            [
+                "Mark Rivers"
+            ],
+            "R':[D,m' U m]"
         ]
     ],
     "KJM": [
@@ -13464,34 +13464,34 @@
     ],
     "KJQ": [
         [
-            "L2 U2 R U m' U' R' U m U L2",
-            [
-                "Mark Rivers"
-            ],
-            "L2 U':[U' R U,m']"
-        ],
-        [
             "R U m' U L2 U' m U L2 U2 R'",
             [
                 "Oliver Fritz"
             ],
             "R U:[m',U L2 U']"
-        ]
-    ],
-    "KJR": [
+        ],
         [
-            "D R2 U m' U' R' U m U' R' D'",
+            "L2 U2 R U m' U' R' U m U L2",
             [
                 "Mark Rivers"
             ],
-            "D R:[R,U m' U']"
-        ],
+            "L2 U':[U' R U,m']"
+        ]
+    ],
+    "KJR": [
         [
             "z' D' U' R U m' U' R' U m D z",
             [
                 "Oliver Fritz"
             ],
             "z' D':[U' R U,m']"
+        ],
+        [
+            "D R2 U m' U' R' U m U' R' D'",
+            [
+                "Mark Rivers"
+            ],
+            "D R:[R,U m' U']"
         ]
     ],
     "KJS": [
@@ -13525,21 +13525,28 @@
     ],
     "KJX": [
         [
-            "D' L2 U m U' L' U m' U' L' D",
-            [
-                "Mark Rivers"
-            ],
-            "D' L:[L,U m U']"
-        ],
-        [
             "4Uw' L' U' m' U L' U' m U L2 4Uw",
             [
                 "Oliver Fritz"
             ],
             "4Uw' L':[U' m' U,L']"
+        ],
+        [
+            "D' L2 U m U' L' U m' U' L' D",
+            [
+                "Mark Rivers"
+            ],
+            "D' L:[L,U m U']"
         ]
     ],
     "KJY": [
+        [
+            "x' U m2 U L U' m2 U L' U2 x",
+            [
+                "Oliver Fritz"
+            ],
+            "x' U:[m2,U L U']"
+        ],
         [
             "L2 U2 R' U m' U' R U m U L2",
             [
@@ -13553,45 +13560,38 @@
                 "Mark Rivers"
             ],
             "R m' D:[m,D2]"
-        ],
-        [
-            "x' U m2 U L U' m2 U L' U2 x",
-            [
-                "Oliver Fritz"
-            ],
-            "x' U:[m2,U L U']"
         ]
     ],
     "KJZ": [
-        [
-            "D R2 U m' U' R U m U' R D'",
-            [
-                "Mark Rivers"
-            ],
-            "D R':[R',U m' U']"
-        ],
         [
             "z' D U R U' m U R' U' m' D' z",
             [
                 "Oliver Fritz"
             ],
             "z' D:[U R U',m]"
-        ]
-    ],
-    "KMI": [
+        ],
         [
-            "L2 U' m D2 m' D2 U L2",
+            "D R2 U m' U' R U m U' R D'",
             [
                 "Mark Rivers"
             ],
-            "L2 U':[m,D2]"
-        ],
+            "D R':[R',U m' U']"
+        ]
+    ],
+    "KMI": [
         [
             "x y' F R2 U m' U' R2 U m U' F' y x'",
             [
                 "Oliver Fritz"
             ],
             "x y' F:[R2,U m' U']"
+        ],
+        [
+            "L2 U' m D2 m' D2 U L2",
+            [
+                "Mark Rivers"
+            ],
+            "L2 U':[m,D2]"
         ]
     ],
     "KMJ": [
@@ -13605,18 +13605,18 @@
     ],
     "KNI": [
         [
-            "m U' L2 U m U' L2 U m2",
-            [
-                "Mark Rivers"
-            ],
-            "m:[U' L2 U,m]"
-        ],
-        [
             "x' U' L U m U' L' U m' x",
             [
                 "Oliver Fritz"
             ],
             "x':[U' L U,m]"
+        ],
+        [
+            "m U' L2 U m U' L2 U m2",
+            [
+                "Mark Rivers"
+            ],
+            "m:[U' L2 U,m]"
         ]
     ],
     "KNJ": [
@@ -13655,50 +13655,50 @@
     ],
     "KQJ": [
         [
-            "L2 U' m' U' R U m U' R' U2 L2",
-            [
-                "Mark Rivers"
-            ],
-            "L2 U':[m',U' R U]"
-        ],
-        [
             "R U2 L2 U' m' U L2 U' m U' R'",
             [
                 "Oliver Fritz"
             ],
             "R U:[U L2 U',m']"
-        ]
-    ],
-    "KRI": [
+        ],
         [
-            "R m' U m D m' U' m D' R'",
+            "L2 U' m' U' R U m U' R' U2 L2",
             [
                 "Mark Rivers"
             ],
-            "R:[m' U m,D]"
-        ],
+            "L2 U':[m',U' R U]"
+        ]
+    ],
+    "KRI": [
         [
             "z L' U' m' U L U' m U z'",
             [
                 "Oliver Fritz"
             ],
             "z:[L',U' m' U]"
-        ]
-    ],
-    "KRJ": [
+        ],
         [
-            "D R U m' U' R U m U' R2 D'",
+            "R m' U m D m' U' m D' R'",
             [
                 "Mark Rivers"
             ],
-            "D R:[U m' U',R]"
-        ],
+            "R:[m' U m,D]"
+        ]
+    ],
+    "KRJ": [
         [
             "z' D' m' U' R U m U' R' U D z",
             [
                 "Oliver Fritz"
             ],
             "z' D':[m',U' R U]"
+        ],
+        [
+            "D R U m' U' R U m U' R2 D'",
+            [
+                "Mark Rivers"
+            ],
+            "D R:[U m' U',R]"
         ]
     ],
     "KSI": [
@@ -13722,18 +13722,18 @@
     ],
     "KTI": [
         [
-            "L' U' m' U' L' U m' U' L U m2 U L",
-            [
-                "Mark Rivers"
-            ],
-            "L' U' m':[U' L' U,m']"
-        ],
-        [
             "z' R U m' U' R U m U' R2 z",
             [
                 "Oliver Fritz"
             ],
             "z' R:[U m' U',R]"
+        ],
+        [
+            "L' U' m' U' L' U m' U' L U m2 U L",
+            [
+                "Mark Rivers"
+            ],
+            "L' U' m':[U' L' U,m']"
         ]
     ],
     "KTJ": [
@@ -13747,18 +13747,18 @@
     ],
     "KWI": [
         [
-            "L2 U m2 U' L' U m2 U' L'",
-            [
-                "Mark Rivers"
-            ],
-            "L:[L,U m2 U']"
-        ],
-        [
             "x' L U m U' L' U m' U' x",
             [
                 "Oliver Fritz"
             ],
             "x':[L,U m U']"
+        ],
+        [
+            "L2 U m2 U' L' U m2 U' L'",
+            [
+                "Mark Rivers"
+            ],
+            "L:[L,U m2 U']"
         ]
     ],
     "KWJ": [
@@ -13773,53 +13773,60 @@
     ],
     "KXI": [
         [
-            "B' U' L2 U m2 U' L2 U m2 B",
-            [
-                "Mark Rivers"
-            ],
-            "B':[U' L2 U,m2]"
-        ],
-        [
             "z' R U' m U R U' m' U R2 z",
             [
                 "Oliver Fritz"
             ],
             "z' R:[U' m U,R]"
-        ]
-    ],
-    "KXJ": [
+        ],
         [
-            "D' L U m U' L U m' U' L2 D",
+            "B' U' L2 U m2 U' L2 U m2 B",
             [
                 "Mark Rivers"
             ],
-            "D' L:[U m U',L]"
-        ],
+            "B':[U' L2 U,m2]"
+        ]
+    ],
+    "KXJ": [
         [
             "4Uw' L2 U' m' U L U' m U L 4Uw",
             [
                 "Oliver Fritz"
             ],
             "4Uw' L':[L',U' m' U]"
-        ]
-    ],
-    "KYI": [
+        ],
         [
-            "L2 R' U m' U2 m U R L2",
+            "D' L U m U' L U m' U' L2 D",
             [
                 "Mark Rivers"
             ],
-            "L2 R' U:[m',U2]"
-        ],
+            "D' L:[U m U',L]"
+        ]
+    ],
+    "KYI": [
         [
             "z L' U' m2 U L U' m2 U z'",
             [
                 "Oliver Fritz"
             ],
             "z:[L',U' m2 U]"
+        ],
+        [
+            "L2 R' U m' U2 m U R L2",
+            [
+                "Mark Rivers"
+            ],
+            "L2 R' U:[m',U2]"
         ]
     ],
     "KYJ": [
+        [
+            "x' U2 L U' m2 U L' U' m2 U' x",
+            [
+                "Oliver Fritz"
+            ],
+            "x' U:[U L U',m2]"
+        ],
         [
             "L2 U' m' U' R' U m U' R U2 L2",
             [
@@ -13833,45 +13840,38 @@
                 "Mark Rivers"
             ],
             "R m' D':[m,D2]"
-        ],
-        [
-            "x' U2 L U' m2 U L' U' m2 U' x",
-            [
-                "Oliver Fritz"
-            ],
-            "x' U:[U L U',m2]"
         ]
     ],
     "KZI": [
-        [
-            "R' m' U m D m' U' m D' R",
-            [
-                "Mark Rivers"
-            ],
-            "R':[m' U m,D]"
-        ],
         [
             "z L' U m U' L U m' U' z'",
             [
                 "Oliver Fritz"
             ],
             "z:[L',U m U']"
-        ]
-    ],
-    "KZJ": [
+        ],
         [
-            "D R' U m' U' R' U m U' R2 D'",
+            "R' m' U m D m' U' m D' R",
             [
                 "Mark Rivers"
             ],
-            "D R':[U m' U',R']"
-        ],
+            "R':[m' U m,D]"
+        ]
+    ],
+    "KZJ": [
         [
             "z' D m U R U' m' U R' U' D' z",
             [
                 "Oliver Fritz"
             ],
             "z' D:[m,U R U']"
+        ],
+        [
+            "D R' U m' U' R' U m U' R2 D'",
+            [
+                "Mark Rivers"
+            ],
+            "D R':[U m' U',R']"
         ]
     ],
     "OIK": [
@@ -13885,50 +13885,50 @@
     ],
     "OIL": [
         [
-            "L2 D' m' U' m D m' U m L2",
-            [
-                "Mark Rivers"
-            ],
-            "L2:[D',m' U' m]"
-        ],
-        [
             "x z U' R U m' U' R' U m z' x'",
             [
                 "Oliver Fritz"
             ],
             "x z:[U' R U,m']"
-        ]
-    ],
-    "OIM": [
+        ],
         [
-            "R2 U D2 m D2 m' U' R2",
+            "L2 D' m' U' m D m' U m L2",
             [
                 "Mark Rivers"
             ],
-            "R2 U:[D2,m]"
-        ],
+            "L2:[D',m' U' m]"
+        ]
+    ],
+    "OIM": [
         [
             "R2 U x m' U2 m U2 x' U' R2",
             [
                 "Oliver Fritz"
             ],
             "R2 U x:[m',U2]"
-        ]
-    ],
-    "OIN": [
+        ],
         [
-            "m2 U R2 U' m' U R2 U' m'",
+            "R2 U D2 m D2 m' U' R2",
             [
                 "Mark Rivers"
             ],
-            "m:[m,U R2 U']"
-        ],
+            "R2 U:[D2,m]"
+        ]
+    ],
+    "OIN": [
         [
             "x' m U R' U' m' U R U' x",
             [
                 "Oliver Fritz"
             ],
             "x':[m,U R' U']"
+        ],
+        [
+            "m2 U R2 U' m' U R2 U' m'",
+            [
+                "Mark Rivers"
+            ],
+            "m:[m,U R2 U']"
         ]
     ],
     "OIQ": [
@@ -13943,66 +13943,66 @@
     ],
     "OIR": [
         [
-            "R U m2 U R U' m U R' U' m U' R'",
-            [
-                "Mark Rivers"
-            ],
-            "R U m':[m',U R U']"
-        ],
-        [
             "z L2 U' m' U L U' m U L z'",
             [
                 "Oliver Fritz"
             ],
             "z L':[L',U' m' U]"
-        ]
-    ],
-    "OIS": [
+        ],
         [
-            "L' R2 U m' U2 m U R2 L",
+            "R U m2 U R U' m U R' U' m U' R'",
             [
                 "Mark Rivers"
             ],
-            "L' R2 U:[m',U2]"
-        ],
+            "R U m':[m',U R U']"
+        ]
+    ],
+    "OIS": [
         [
             "z' U' m2 U R U' m2 U R' z",
             [
                 "Oliver Fritz"
             ],
             "z':[U' m2 U,R]"
-        ]
-    ],
-    "OIT": [
+        ],
         [
-            "L' D' m' U' m D m' U m L",
+            "L' R2 U m' U2 m U R2 L",
             [
                 "Mark Rivers"
             ],
-            "L':[D',m' U' m]"
-        ],
+            "L' R2 U:[m',U2]"
+        ]
+    ],
+    "OIT": [
         [
             "z' U m' U' R U m U' R' z",
             [
                 "Oliver Fritz"
             ],
             "z':[U m' U',R]"
-        ]
-    ],
-    "OIW": [
+        ],
         [
-            "L R2 U m' U2 m U R2 L'",
+            "L' D' m' U' m D m' U m L",
             [
                 "Mark Rivers"
             ],
-            "L R2 U:[m',U2]"
-        ],
+            "L':[D',m' U' m]"
+        ]
+    ],
+    "OIW": [
         [
             "z' U m2 U' R U m2 U' R' z",
             [
                 "Oliver Fritz"
             ],
             "z':[U m2 U',R]"
+        ],
+        [
+            "L R2 U m' U2 m U R2 L'",
+            [
+                "Mark Rivers"
+            ],
+            "L R2 U:[m',U2]"
         ]
     ],
     "OIX": [
@@ -14016,34 +14016,34 @@
     ],
     "OIY": [
         [
-            "R' U' m2 U R' U' m2 U R2",
-            [
-                "Mark Rivers"
-            ],
-            "R':[U' m2 U,R']"
-        ],
-        [
             "x' U' m U R' U' m' U R x",
             [
                 "Oliver Fritz"
             ],
             "x':[U' m U,R']"
-        ]
-    ],
-    "OIZ": [
+        ],
         [
-            "B m2 U R2 U' m2 U R2 U' B'",
+            "R' U' m2 U R' U' m2 U R2",
             [
                 "Mark Rivers"
             ],
-            "B:[m2,U R2 U']"
-        ],
+            "R':[U' m2 U,R']"
+        ]
+    ],
+    "OIZ": [
         [
             "x' 3Uw m2 U' R U m2 U' R' U 3Uw' x",
             [
                 "Oliver Fritz"
             ],
             "x' 3Uw:[m2,U' R U]"
+        ],
+        [
+            "B m2 U R2 U' m2 U R2 U' B'",
+            [
+                "Mark Rivers"
+            ],
+            "B:[m2,U R2 U']"
         ]
     ],
     "OJK": [
@@ -14057,34 +14057,34 @@
     ],
     "OJL": [
         [
-            "R2 m' U m D m' U' m D' R2",
-            [
-                "Mark Rivers"
-            ],
-            "R2:[m' U m,D]"
-        ],
-        [
             "x z' m' U L' U' m U L U' z x'",
             [
                 "Oliver Fritz"
             ],
             "x z':[m',U L' U']"
-        ]
-    ],
-    "OJM": [
+        ],
         [
-            "m' U' R2 U m' U' R2 U m2",
+            "R2 m' U m D m' U' m D' R2",
             [
                 "Mark Rivers"
             ],
-            "m':[U' R2 U,m']"
-        ],
+            "R2:[m' U m,D]"
+        ]
+    ],
+    "OJM": [
         [
             "x U' R U m' U' R' U m x'",
             [
                 "Oliver Fritz"
             ],
             "x:[U' R U,m']"
+        ],
+        [
+            "m' U' R2 U m' U' R2 U m2",
+            [
+                "Mark Rivers"
+            ],
+            "m':[U' R2 U,m']"
         ]
     ],
     "OJN": [
@@ -14116,53 +14116,60 @@
     ],
     "OJR": [
         [
-            "D R2 U' m U R' U' m' U R' D'",
-            [
-                "Mark Rivers"
-            ],
-            "D R:[R,U' m U]"
-        ],
-        [
             "3Uw' R' U m' U' R' U m U' R2 3Uw",
             [
                 "Oliver Fritz"
             ],
             "3Uw' R':[U m' U',R']"
-        ]
-    ],
-    "OJS": [
+        ],
         [
-            "L' U' m' U' R2 U m U' R2 U2 L",
+            "D R2 U' m U R' U' m' U R' D'",
             [
                 "Mark Rivers"
             ],
-            "L' U':[m',U' R2 U]"
-        ],
+            "D R:[R,U' m U]"
+        ]
+    ],
+    "OJS": [
         [
             "y' R2 U' m U R' U' m' U R' y",
             [
                 "Oliver Fritz"
             ],
             "y' R:[R,U' m U]"
-        ]
-    ],
-    "OJT": [
+        ],
         [
-            "D' L2 U' m' U L U' m U L D",
+            "L' U' m' U' R2 U m U' R2 U2 L",
             [
                 "Mark Rivers"
             ],
-            "D' L':[L',U' m' U]"
-        ],
+            "L' U':[m',U' R2 U]"
+        ]
+    ],
+    "OJT": [
         [
             "z D U L' U' m' U L U' m D' z'",
             [
                 "Oliver Fritz"
             ],
             "z D:[U L' U',m']"
+        ],
+        [
+            "D' L2 U' m' U L U' m U L D",
+            [
+                "Mark Rivers"
+            ],
+            "D' L':[L',U' m' U]"
         ]
     ],
     "OJW": [
+        [
+            "x' U' m2 U' R' U m2 U' R U2 x",
+            [
+                "Oliver Fritz"
+            ],
+            "x' U':[m2,U' R' U]"
+        ],
         [
             "L U' m' U' R2 U m U' R2 U2 L'",
             [
@@ -14176,29 +14183,22 @@
                 "Mark Rivers"
             ],
             "L' m' D':[m,D2]"
-        ],
-        [
-            "x' U' m2 U' R' U m2 U' R U2 x",
-            [
-                "Oliver Fritz"
-            ],
-            "x' U':[m2,U' R' U]"
         ]
     ],
     "OJX": [
-        [
-            "D' L2 U' m' U L' U' m U L' D",
-            [
-                "Mark Rivers"
-            ],
-            "D' L:[L,U' m' U]"
-        ],
         [
             "R' z U' L' U m U' L U m' z' R",
             [
                 "Oliver Fritz"
             ],
             "R' z:[U' L' U,m]"
+        ],
+        [
+            "D' L2 U' m' U L' U' m U L' D",
+            [
+                "Mark Rivers"
+            ],
+            "D' L:[L,U' m' U]"
         ]
     ],
     "OJY": [
@@ -14213,18 +14213,18 @@
     ],
     "OJZ": [
         [
-            "D R2 U' m U R U' m' U R D'",
-            [
-                "Mark Rivers"
-            ],
-            "D R':[R',U' m U]"
-        ],
-        [
             "3Uw R U m' U' R U m U' R2 3Uw'",
             [
                 "Oliver Fritz"
             ],
             "3Uw R:[U m' U',R]"
+        ],
+        [
+            "D R2 U' m U R U' m' U R D'",
+            [
+                "Mark Rivers"
+            ],
+            "D R':[R',U' m U]"
         ]
     ],
     "OKI": [
@@ -14247,82 +14247,82 @@
     ],
     "OLI": [
         [
-            "L2 m' U' m D' m' U m D L2",
-            [
-                "Mark Rivers"
-            ],
-            "L2:[m' U' m,D']"
-        ],
-        [
             "x z m' U' R U m U' R' U z' x'",
             [
                 "Oliver Fritz"
             ],
             "x z:[m',U' R U]"
-        ]
-    ],
-    "OLJ": [
+        ],
         [
-            "R2 D m' U m D' m' U' m R2",
+            "L2 m' U' m D' m' U m D L2",
             [
                 "Mark Rivers"
             ],
-            "R2:[D,m' U m]"
-        ],
+            "L2:[m' U' m,D']"
+        ]
+    ],
+    "OLJ": [
         [
             "x z' U L' U' m' U L U' m z x'",
             [
                 "Oliver Fritz"
             ],
             "x z':[U L' U',m']"
-        ]
-    ],
-    "OMI": [
+        ],
         [
-            "R2 U m D2 m' D2 U' R2",
+            "R2 D m' U m D' m' U' m R2",
             [
                 "Mark Rivers"
             ],
-            "R2 U:[m,D2]"
-        ],
+            "R2:[D,m' U m]"
+        ]
+    ],
+    "OMI": [
         [
             "R2 U x U2 m' U2 m x' U' R2",
             [
                 "Oliver Fritz"
             ],
             "R2 U x:[U2,m']"
-        ]
-    ],
-    "OMJ": [
+        ],
         [
-            "m2 U' R2 U m U' R2 U m",
+            "R2 U m D2 m' D2 U' R2",
             [
                 "Mark Rivers"
             ],
-            "m':[m',U' R2 U]"
-        ],
+            "R2 U:[m,D2]"
+        ]
+    ],
+    "OMJ": [
         [
             "x m' U' R U m U' R' U x'",
             [
                 "Oliver Fritz"
             ],
             "x:[m',U' R U]"
-        ]
-    ],
-    "ONI": [
+        ],
         [
-            "m U R2 U' m U R2 U' m2",
+            "m2 U' R2 U m U' R2 U m",
             [
                 "Mark Rivers"
             ],
-            "m:[U R2 U',m]"
-        ],
+            "m':[m',U' R2 U]"
+        ]
+    ],
+    "ONI": [
         [
             "x' U R' U' m U R U' m' x",
             [
                 "Oliver Fritz"
             ],
             "x':[U R' U',m]"
+        ],
+        [
+            "m U R2 U' m U R2 U' m2",
+            [
+                "Mark Rivers"
+            ],
+            "m:[U R2 U',m]"
         ]
     ],
     "ONJ": [
@@ -14364,117 +14364,124 @@
     ],
     "ORI": [
         [
-            "R U m' U R U' m' U R' U' m2 U' R'",
-            [
-                "Mark Rivers"
-            ],
-            "R U m':[U R U',m']"
-        ],
-        [
             "z L' U' m' U L' U' m U L2 z'",
             [
                 "Oliver Fritz"
             ],
             "z L':[U' m' U,L']"
-        ]
-    ],
-    "ORJ": [
+        ],
         [
-            "D R U' m U R U' m' U R2 D'",
+            "R U m' U R U' m' U R' U' m2 U' R'",
             [
                 "Mark Rivers"
             ],
-            "D R:[U' m U,R]"
-        ],
+            "R U m':[U R U',m']"
+        ]
+    ],
+    "ORJ": [
         [
             "3Uw' R2 U m' U' R U m U' R 3Uw",
             [
                 "Oliver Fritz"
             ],
             "3Uw' R':[R',U m' U']"
-        ]
-    ],
-    "OSI": [
+        ],
         [
-            "L' R2 U' m' U2 m U' R2 L",
+            "D R U' m U R U' m' U R2 D'",
             [
                 "Mark Rivers"
             ],
-            "L' R2 U':[m',U2]"
-        ],
+            "D R:[U' m U,R]"
+        ]
+    ],
+    "OSI": [
         [
             "z' R U' m2 U R' U' m2 U z",
             [
                 "Oliver Fritz"
             ],
             "z':[R,U' m2 U]"
-        ]
-    ],
-    "OSJ": [
+        ],
         [
-            "L' U2 R2 U m' U' R2 U m U L",
+            "L' R2 U' m' U2 m U' R2 L",
             [
                 "Mark Rivers"
             ],
-            "L' U':[U' R2 U,m']"
-        ],
+            "L' R2 U':[m',U2]"
+        ]
+    ],
+    "OSJ": [
         [
             "y' R U' m U R U' m' U R2 y",
             [
                 "Oliver Fritz"
             ],
             "y' R:[U' m U,R]"
-        ]
-    ],
-    "OTI": [
+        ],
         [
-            "L' m' U' m D' m' U m D L",
+            "L' U2 R2 U m' U' R2 U m U L",
             [
                 "Mark Rivers"
             ],
-            "L':[m' U' m,D']"
-        ],
+            "L' U':[U' R2 U,m']"
+        ]
+    ],
+    "OTI": [
         [
             "z' R U m' U' R' U m U' z",
             [
                 "Oliver Fritz"
             ],
             "z':[R,U m' U']"
-        ]
-    ],
-    "OTJ": [
+        ],
         [
-            "D' L' U' m' U L' U' m U L2 D",
+            "L' m' U' m D' m' U m D L",
             [
                 "Mark Rivers"
             ],
-            "D' L':[U' m' U,L']"
-        ],
+            "L':[m' U' m,D']"
+        ]
+    ],
+    "OTJ": [
         [
             "z D m' U L' U' m U L U' D' z'",
             [
                 "Oliver Fritz"
             ],
             "z D:[m',U L' U']"
-        ]
-    ],
-    "OWI": [
+        ],
         [
-            "L R2 U' m' U2 m U' R2 L'",
+            "D' L' U' m' U L' U' m U L2 D",
             [
                 "Mark Rivers"
             ],
-            "L R2 U':[m',U2]"
-        ],
+            "D' L':[U' m' U,L']"
+        ]
+    ],
+    "OWI": [
         [
             "z' R U m2 U' R' U m2 U' z",
             [
                 "Oliver Fritz"
             ],
             "z':[R,U m2 U']"
+        ],
+        [
+            "L R2 U' m' U2 m U' R2 L'",
+            [
+                "Mark Rivers"
+            ],
+            "L R2 U':[m',U2]"
         ]
     ],
     "OWJ": [
+        [
+            "x' U2 R' U m2 U' R U m2 U x",
+            [
+                "Oliver Fritz"
+            ],
+            "x' U':[U' R' U,m2]"
+        ],
         [
             "L U2 R2 U m' U' R2 U m U L'",
             [
@@ -14488,13 +14495,6 @@
                 "Mark Rivers"
             ],
             "L' m' D:[m,D2]"
-        ],
-        [
-            "x' U2 R' U m2 U' R U m2 U x",
-            [
-                "Oliver Fritz"
-            ],
-            "x' U':[U' R' U,m2]"
         ]
     ],
     "OXI": [
@@ -14508,34 +14508,34 @@
     ],
     "OXJ": [
         [
-            "D' L U' m' U L U' m U L2 D",
-            [
-                "Mark Rivers"
-            ],
-            "D' L:[U' m' U,L]"
-        ],
-        [
             "R' z m U' L' U m' U' L U z' R",
             [
                 "Oliver Fritz"
             ],
             "R' z:[m,U' L' U]"
-        ]
-    ],
-    "OYI": [
+        ],
         [
-            "R2 U' m2 U R U' m2 U R",
+            "D' L U' m' U L U' m U L2 D",
             [
                 "Mark Rivers"
             ],
-            "R':[R',U' m2 U]"
-        ],
+            "D' L:[U' m' U,L]"
+        ]
+    ],
+    "OYI": [
         [
             "x' R' U' m U R U' m' U x",
             [
                 "Oliver Fritz"
             ],
             "x':[R',U' m U]"
+        ],
+        [
+            "R2 U' m2 U R U' m2 U R",
+            [
+                "Mark Rivers"
+            ],
+            "R':[R',U' m2 U]"
         ]
     ],
     "OYJ": [
@@ -14550,53 +14550,60 @@
     ],
     "OZI": [
         [
-            "B U R2 U' m2 U R2 U' m2 B'",
-            [
-                "Mark Rivers"
-            ],
-            "B:[U R2 U',m2]"
-        ],
-        [
             "x' 3Uw U' R U m2 U' R' U m2 3Uw' x",
             [
                 "Oliver Fritz"
             ],
             "x' 3Uw:[U' R U,m2]"
-        ]
-    ],
-    "OZJ": [
+        ],
         [
-            "D R' U' m U R' U' m' U R2 D'",
+            "B U R2 U' m2 U R2 U' m2 B'",
             [
                 "Mark Rivers"
             ],
-            "D R':[U' m U,R']"
-        ],
+            "B:[U R2 U',m2]"
+        ]
+    ],
+    "OZJ": [
         [
             "3Uw R2 U m' U' R' U m U' R' 3Uw'",
             [
                 "Oliver Fritz"
             ],
             "3Uw R:[R,U m' U']"
-        ]
-    ],
-    "QIM": [
+        ],
         [
-            "R U' m' D2 m D2 U R'",
+            "D R' U' m U R' U' m' U R2 D'",
             [
                 "Mark Rivers"
             ],
-            "R U':[m',D2]"
-        ],
+            "D R':[U' m U,R']"
+        ]
+    ],
+    "QIM": [
         [
             "R U x m' U2 m U2 x' U' R'",
             [
                 "Oliver Fritz"
             ],
             "R U x:[m',U2]"
+        ],
+        [
+            "R U' m' D2 m D2 U R'",
+            [
+                "Mark Rivers"
+            ],
+            "R U':[m',D2]"
         ]
     ],
     "QIN": [
+        [
+            "x' m U R2 U' m' U R2 U' x",
+            [
+                "Oliver Fritz"
+            ],
+            "x':[m,U R2 U']"
+        ],
         [
             "m2 U R U' m' U R' U' m'",
             [
@@ -14610,13 +14617,6 @@
                 "Mark Rivers"
             ],
             "[D R' D',m']"
-        ],
-        [
-            "x' m U R2 U' m' U R2 U' x",
-            [
-                "Oliver Fritz"
-            ],
-            "x':[m,U R2 U']"
         ]
     ],
     "QIS": [
@@ -14647,6 +14647,13 @@
     ],
     "QIW": [
         [
+            "z' m2 U' R U m2 U' R' U z",
+            [
+                "Oliver Fritz"
+            ],
+            "z':[m2,U' R U]"
+        ],
+        [
             "L R U m' U2 m U R' L'",
             [
                 "Mark Rivers"
@@ -14659,13 +14666,6 @@
                 "Mark Rivers"
             ],
             "[e2,R' D R]"
-        ],
-        [
-            "z' m2 U' R U m2 U' R' U z",
-            [
-                "Oliver Fritz"
-            ],
-            "z':[m2,U' R U]"
         ]
     ],
     "QIX": [
@@ -14687,21 +14687,28 @@
     ],
     "QIY": [
         [
-            "R' U' m2 U R2 U' m2 U R'",
-            [
-                "Mark Rivers"
-            ],
-            "R':[U' m2 U,R2]"
-        ],
-        [
             "x' U' m U R2 U' m' U R2 x",
             [
                 "Oliver Fritz"
             ],
             "x':[U' m U,R2]"
+        ],
+        [
+            "R' U' m2 U R2 U' m2 U R'",
+            [
+                "Mark Rivers"
+            ],
+            "R':[U' m2 U,R2]"
         ]
     ],
     "QIZ": [
+        [
+            "z' m U' R U m' U' R' U z",
+            [
+                "Oliver Fritz"
+            ],
+            "z':[m,U' R U]"
+        ],
         [
             "R' D' m' U m D m' U' m R",
             [
@@ -14715,13 +14722,6 @@
                 "Mark Rivers"
             ],
             "R':[R' F' R,s']"
-        ],
-        [
-            "z' m U' R U m' U' R' U z",
-            [
-                "Oliver Fritz"
-            ],
-            "z':[m,U' R U]"
         ]
     ],
     "QJM": [
@@ -14753,66 +14753,66 @@
     ],
     "QJS": [
         [
-            "L' U' m' U' R U m U' R' U2 L",
-            [
-                "Mark Rivers"
-            ],
-            "L' U':[m',U' R U]"
-        ],
-        [
             "R U2 L' U' m' U L U' m U' R'",
             [
                 "Oliver Fritz"
             ],
             "R U:[U L' U',m']"
-        ]
-    ],
-    "QJT": [
+        ],
         [
-            "R U m' U' L' U m' U' L U m2 U' R'",
+            "L' U' m' U' R U m U' R' U2 L",
             [
                 "Mark Rivers"
             ],
-            "R U m':[U' L' U,m']"
-        ],
+            "L' U':[m',U' R U]"
+        ]
+    ],
+    "QJT": [
         [
             "z U L' U' m' U L U' m z'",
             [
                 "Oliver Fritz"
             ],
             "z:[U L' U',m']"
-        ]
-    ],
-    "QJW": [
+        ],
         [
-            "L U' m' U' R U m U' R' U2 L'",
+            "R U m' U' L' U m' U' L U m2 U' R'",
             [
                 "Mark Rivers"
             ],
-            "L U':[m',U' R U]"
-        ],
+            "R U m':[U' L' U,m']"
+        ]
+    ],
+    "QJW": [
         [
             "R U2 L U' m' U L' U' m U' R'",
             [
                 "Oliver Fritz"
             ],
             "R U:[U L U',m']"
-        ]
-    ],
-    "QJX": [
+        ],
         [
-            "R U m' U' L U m' U' L' U m2 U' R'",
+            "L U' m' U' R U m U' R' U2 L'",
             [
                 "Mark Rivers"
             ],
-            "R U m':[U' L U,m']"
-        ],
+            "L U':[m',U' R U]"
+        ]
+    ],
+    "QJX": [
         [
             "x' D m U m' D' m U' m' x",
             [
                 "Oliver Fritz"
             ],
             "x':[D,m U m']"
+        ],
+        [
+            "R U m' U' L U m' U' L' U m2 U' R'",
+            [
+                "Mark Rivers"
+            ],
+            "R U m':[U' L U,m']"
         ]
     ],
     "QJY": [
@@ -14834,6 +14834,13 @@
     ],
     "QJZ": [
         [
+            "z' U R U' m' U R' U' m z",
+            [
+                "Oliver Fritz"
+            ],
+            "z':[U R U',m']"
+        ],
+        [
             "R m' U m D' m' U' m D R'",
             [
                 "Mark Rivers"
@@ -14846,29 +14853,22 @@
                 "Mark Rivers"
             ],
             "[R s' R',F']"
-        ],
-        [
-            "z' U R U' m' U R' U' m z",
-            [
-                "Oliver Fritz"
-            ],
-            "z':[U R U',m']"
         ]
     ],
     "QMI": [
-        [
-            "R U' D2 m' D2 m U R'",
-            [
-                "Mark Rivers"
-            ],
-            "R U':[D2,m']"
-        ],
         [
             "R U x U2 m' U2 m x' U' R'",
             [
                 "Oliver Fritz"
             ],
             "R U x:[U2,m']"
+        ],
+        [
+            "R U' D2 m' D2 m U R'",
+            [
+                "Mark Rivers"
+            ],
+            "R U':[D2,m']"
         ]
     ],
     "QMJ": [
@@ -14892,6 +14892,13 @@
     ],
     "QNI": [
         [
+            "x' U R2 U' m U R2 U' m' x",
+            [
+                "Oliver Fritz"
+            ],
+            "x':[U R2 U',m]"
+        ],
+        [
             "m U R U' m U R' U' m2",
             [
                 "Mark Rivers"
@@ -14904,13 +14911,6 @@
                 "Mark Rivers"
             ],
             "[m',D R' D']"
-        ],
-        [
-            "x' U R2 U' m U R2 U' m' x",
-            [
-                "Oliver Fritz"
-            ],
-            "x':[U R2 U',m]"
         ]
     ],
     "QNJ": [
@@ -14941,18 +14941,18 @@
     ],
     "QSJ": [
         [
-            "L' U2 R U m' U' R' U m U L",
-            [
-                "Mark Rivers"
-            ],
-            "L' U':[U' R U,m']"
-        ],
-        [
             "R U m' U L' U' m U L U2 R'",
             [
                 "Oliver Fritz"
             ],
             "R U:[m',U L' U']"
+        ],
+        [
+            "L' U2 R U m' U' R' U m U L",
+            [
+                "Mark Rivers"
+            ],
+            "L' U':[U' R U,m']"
         ]
     ],
     "QSM": [
@@ -14983,21 +14983,28 @@
     ],
     "QTJ": [
         [
-            "R U m2 U' L' U m U' L U m U' R'",
-            [
-                "Mark Rivers"
-            ],
-            "R U m':[m',U' L' U]"
-        ],
-        [
             "z m' U L' U' m U L U' z'",
             [
                 "Oliver Fritz"
             ],
             "z:[m',U L' U']"
+        ],
+        [
+            "R U m2 U' L' U m U' L U m U' R'",
+            [
+                "Mark Rivers"
+            ],
+            "R U m':[m',U' L' U]"
         ]
     ],
     "QWI": [
+        [
+            "z' U' R U m2 U' R' U m2 z",
+            [
+                "Oliver Fritz"
+            ],
+            "z':[U' R U,m2]"
+        ],
         [
             "L R U' m' U2 m U' R' L'",
             [
@@ -15011,29 +15018,22 @@
                 "Mark Rivers"
             ],
             "[R' D R,e2]"
-        ],
-        [
-            "z' U' R U m2 U' R' U m2 z",
-            [
-                "Oliver Fritz"
-            ],
-            "z':[U' R U,m2]"
         ]
     ],
     "QWJ": [
-        [
-            "L U2 R U m' U' R' U m U L'",
-            [
-                "Mark Rivers"
-            ],
-            "L U':[U' R U,m']"
-        ],
         [
             "R U m' U L U' m U L' U2 R'",
             [
                 "Oliver Fritz"
             ],
             "R U:[m',U L U']"
+        ],
+        [
+            "L U2 R U m' U' R' U m U L'",
+            [
+                "Mark Rivers"
+            ],
+            "L U':[U' R U,m']"
         ]
     ],
     "QXI": [
@@ -15055,34 +15055,34 @@
     ],
     "QXJ": [
         [
-            "R U m2 U' L U m U' L' U m U' R'",
-            [
-                "Mark Rivers"
-            ],
-            "R U m':[m',U' L U]"
-        ],
-        [
             "x' m U m' D m U' m' D' x",
             [
                 "Oliver Fritz"
             ],
             "x':[m U m',D]"
-        ]
-    ],
-    "QYI": [
+        ],
         [
-            "R U' m2 U R2 U' m2 U R",
+            "R U m2 U' L U m U' L' U m U' R'",
             [
                 "Mark Rivers"
             ],
-            "R:[U' m2 U,R2]"
-        ],
+            "R U m':[m',U' L U]"
+        ]
+    ],
+    "QYI": [
         [
             "x' R2 U' m U R2 U' m' U x",
             [
                 "Oliver Fritz"
             ],
             "x':[R2,U' m U]"
+        ],
+        [
+            "R U' m2 U R2 U' m2 U R",
+            [
+                "Mark Rivers"
+            ],
+            "R:[U' m2 U,R2]"
         ]
     ],
     "QYJ": [
@@ -15104,6 +15104,13 @@
     ],
     "QZI": [
         [
+            "z' U' R U m U' R' U m' z",
+            [
+                "Oliver Fritz"
+            ],
+            "z':[U' R U,m]"
+        ],
+        [
             "R' m' U m D' m' U' m D R",
             [
                 "Mark Rivers"
@@ -15116,16 +15123,16 @@
                 "Mark Rivers"
             ],
             "R':[s',R' F' R]"
-        ],
-        [
-            "z' U' R U m U' R' U m' z",
-            [
-                "Oliver Fritz"
-            ],
-            "z':[U' R U,m]"
         ]
     ],
     "QZJ": [
+        [
+            "z' m' U R U' m U R' U' z",
+            [
+                "Oliver Fritz"
+            ],
+            "z':[m',U R U']"
+        ],
         [
             "R D' m' U m D m' U' m R'",
             [
@@ -15139,32 +15146,32 @@
                 "Mark Rivers"
             ],
             "[F',R s' R']"
-        ],
-        [
-            "z' m' U R U' m U R' U' z",
-            [
-                "Oliver Fritz"
-            ],
-            "z':[m',U R U']"
         ]
     ],
     "SIM": [
-        [
-            "L' U m' D2 m D2 U' L",
-            [
-                "Mark Rivers"
-            ],
-            "L' U:[m',D2]"
-        ],
         [
             "L' U' x m' U2 m U2 x' U L",
             [
                 "Oliver Fritz"
             ],
             "L' U' x:[m',U2]"
+        ],
+        [
+            "L' U m' D2 m D2 U' L",
+            [
+                "Mark Rivers"
+            ],
+            "L' U:[m',D2]"
         ]
     ],
     "SIN": [
+        [
+            "x' m U' L2 U m' U' L2 U x",
+            [
+                "Oliver Fritz"
+            ],
+            "x':[m,U' L2 U]"
+        ],
         [
             "m2 U' L' U m' U' L U m'",
             [
@@ -15178,13 +15185,6 @@
                 "Mark Rivers"
             ],
             "[D' L D,m']"
-        ],
-        [
-            "x' m U' L2 U m' U' L2 U x",
-            [
-                "Oliver Fritz"
-            ],
-            "x':[m,U' L2 U]"
         ]
     ],
     "SIW": [
@@ -15215,34 +15215,34 @@
     ],
     "SIY": [
         [
-            "L' R' U' m' U2 m U' R L",
-            [
-                "Mark Rivers"
-            ],
-            "L' R' U':[m',U2]"
-        ],
-        [
             "z m2 U L' U' m2 U L U' z'",
             [
                 "Oliver Fritz"
             ],
             "z:[m2,U L' U']"
-        ]
-    ],
-    "SIZ": [
+        ],
         [
-            "L' R2 F' R s R' F R s' R L",
+            "L' R' U' m' U2 m U' R L",
             [
                 "Mark Rivers"
             ],
-            "L' R':[R' F' R,s]"
-        ],
+            "L' R' U':[m',U2]"
+        ]
+    ],
+    "SIZ": [
         [
             "z U2 m U' L' U m' U' L U' z'",
             [
                 "Oliver Fritz"
             ],
             "z U:[U m U',L']"
+        ],
+        [
+            "L' R2 F' R s R' F R s' R L",
+            [
+                "Mark Rivers"
+            ],
+            "L' R':[R' F' R,s]"
         ]
     ],
     "SJM": [
@@ -15284,27 +15284,27 @@
     ],
     "SJX": [
         [
-            "L' m' U' m D m' U m D' L",
-            [
-                "Mark Rivers"
-            ],
-            "L':[m' U' m,D]"
-        ],
-        [
             "x U' m D m' U m D' m' x'",
             [
                 "Oliver Fritz"
             ],
             "x:[U',m D m']"
+        ],
+        [
+            "L' m' U' m D m' U m D' L",
+            [
+                "Mark Rivers"
+            ],
+            "L':[m' U' m,D]"
         ]
     ],
     "SJY": [
         [
-            "x' U m2 U L2 U' m2 U L2 U2 x",
+            "R' U m' U L' U' m U L U2 R",
             [
-                "Hana Davila"
+                "Oliver Fritz"
             ],
-            "x' U:[m2,U L2 U']"
+            "R' U:[m',U L' U']"
         ],
         [
             "L' U2 R' U m' U' R U m U L",
@@ -15314,14 +15314,21 @@
             "L' U':[U' R' U,m']"
         ],
         [
-            "R' U m' U L' U' m U L U2 R",
+            "x' U m2 U L2 U' m2 U L2 U2 x",
             [
-                "Oliver Fritz"
+                "Hana Davila"
             ],
-            "R' U:[m',U L' U']"
+            "x' U:[m2,U L2 U']"
         ]
     ],
     "SJZ": [
+        [
+            "z' U R U m' U' R' U m U2 z",
+            [
+                "Oliver Fritz"
+            ],
+            "z' U:[R,U m' U']"
+        ],
         [
             "L' U' m' U R' U' m' U R U' m2 U L",
             [
@@ -15335,29 +15342,22 @@
                 "Mark Rivers"
             ],
             "F':[F',R s' R']"
-        ],
-        [
-            "z' U R U m' U' R' U m U2 z",
-            [
-                "Oliver Fritz"
-            ],
-            "z' U:[R,U m' U']"
         ]
     ],
     "SMI": [
-        [
-            "L' U D2 m' D2 m U' L",
-            [
-                "Mark Rivers"
-            ],
-            "L' U:[D2,m']"
-        ],
         [
             "L' U' x U2 m' U2 m x' U L",
             [
                 "Oliver Fritz"
             ],
             "L' U' x:[U2,m']"
+        ],
+        [
+            "L' U D2 m' D2 m U' L",
+            [
+                "Mark Rivers"
+            ],
+            "L' U:[D2,m']"
         ]
     ],
     "SMJ": [
@@ -15372,6 +15372,13 @@
     ],
     "SNI": [
         [
+            "x' U' L2 U m U' L2 U m' x",
+            [
+                "Oliver Fritz"
+            ],
+            "x':[U' L2 U,m]"
+        ],
+        [
             "m U' L' U m U' L U m2",
             [
                 "Mark Rivers"
@@ -15384,13 +15391,6 @@
                 "Mark Rivers"
             ],
             "[m',D' L D]"
-        ],
-        [
-            "x' U' L2 U m U' L2 U m' x",
-            [
-                "Oliver Fritz"
-            ],
-            "x':[U' L2 U,m]"
         ]
     ],
     "SNJ": [
@@ -15466,43 +15466,43 @@
     ],
     "SXJ": [
         [
-            "L' D m' U' m D' m' U m L",
-            [
-                "Mark Rivers"
-            ],
-            "L':[D,m' U' m]"
-        ],
-        [
             "x m D m' U' m D' m' U x'",
             [
                 "Oliver Fritz"
             ],
             "x:[m D m',U']"
-        ]
-    ],
-    "SYI": [
+        ],
         [
-            "L' R' U m' U2 m U R L",
+            "L' D m' U' m D' m' U m L",
             [
                 "Mark Rivers"
             ],
-            "L' R' U:[m',U2]"
-        ],
+            "L':[D,m' U' m]"
+        ]
+    ],
+    "SYI": [
         [
             "z U L' U' m2 U L U' m2 z'",
             [
                 "Oliver Fritz"
             ],
             "z:[U L' U',m2]"
+        ],
+        [
+            "L' R' U m' U2 m U R L",
+            [
+                "Mark Rivers"
+            ],
+            "L' R' U:[m',U2]"
         ]
     ],
     "SYJ": [
         [
-            "x' U2 L2 U' m2 U L2 U' m2 U' x",
+            "R' U2 L' U' m' U L U' m U' R",
             [
-                "Hana Davila"
+                "Oliver Fritz"
             ],
-            "x' U:[U L2 U',m2]"
+            "R' U:[U L' U',m']"
         ],
         [
             "L' U' m' U' R' U m U' R U2 L",
@@ -15512,30 +15512,37 @@
             "L' U':[m',U' R' U]"
         ],
         [
-            "R' U2 L' U' m' U L U' m U' R",
+            "x' U2 L2 U' m2 U L2 U' m2 U' x",
             [
-                "Oliver Fritz"
+                "Hana Davila"
             ],
-            "R' U:[U L' U',m']"
+            "x' U:[U L2 U',m2]"
         ]
     ],
     "SZI": [
-        [
-            "L' R' s R' F' R s' R' F R2 L",
-            [
-                "Mark Rivers"
-            ],
-            "L' R':[s,R' F' R]"
-        ],
         [
             "z U L' U m U' L U m' U2 z'",
             [
                 "Oliver Fritz"
             ],
             "z U:[L',U m U']"
+        ],
+        [
+            "L' R' s R' F' R s' R' F R2 L",
+            [
+                "Mark Rivers"
+            ],
+            "L' R':[s,R' F' R]"
         ]
     ],
     "SZJ": [
+        [
+            "z' U2 m' U' R U m U' R' U' z",
+            [
+                "Oliver Fritz"
+            ],
+            "z' U:[U m' U',R]"
+        ],
         [
             "L' U' m2 U R' U' m U R U' m U L",
             [
@@ -15549,32 +15556,32 @@
                 "Mark Rivers"
             ],
             "F':[R s' R',F']"
-        ],
-        [
-            "z' U2 m' U' R U m U' R' U' z",
-            [
-                "Oliver Fritz"
-            ],
-            "z' U:[U m' U',R]"
         ]
     ],
     "YIM": [
-        [
-            "R' U D2 m D2 m' U' R",
-            [
-                "Mark Rivers"
-            ],
-            "R' U:[D2,m]"
-        ],
         [
             "x y' U' m U R2 U' m' U R2 y x'",
             [
                 "Oliver Fritz"
             ],
             "x y':[U' m U,R2]"
+        ],
+        [
+            "R' U D2 m D2 m' U' R",
+            [
+                "Mark Rivers"
+            ],
+            "R' U:[D2,m]"
         ]
     ],
     "YIN": [
+        [
+            "y z D m' U' m D' m' U m z' y'",
+            [
+                "Oliver Fritz"
+            ],
+            "y z:[D,m' U' m]"
+        ],
         [
             "m2 U R' U' m' U R U' m'",
             [
@@ -15588,13 +15595,6 @@
                 "Mark Rivers"
             ],
             "[D R D',m']"
-        ],
-        [
-            "y z D m' U' m D' m' U m z' y'",
-            [
-                "Oliver Fritz"
-            ],
-            "y z:[D,m' U' m]"
         ]
     ],
     "YIW": [
@@ -15608,6 +15608,13 @@
     ],
     "YIX": [
         [
+            "z' m U R U' m' U R' U' z",
+            [
+                "Oliver Fritz"
+            ],
+            "z':[m,U R U']"
+        ],
+        [
             "L U' m2 U R' U' m U R U' m U L'",
             [
                 "Mark Rivers"
@@ -15620,29 +15627,22 @@
                 "Mark Rivers"
             ],
             "[e',R D R']"
-        ],
-        [
-            "z' m U R U' m' U R' U' z",
-            [
-                "Oliver Fritz"
-            ],
-            "z':[m,U R U']"
         ]
     ],
     "YJM": [
-        [
-            "m' U' R' U m' U' R U m2",
-            [
-                "Mark Rivers"
-            ],
-            "m':[U' R' U,m']"
-        ],
         [
             "x U' R2 U m' U' R2 U m x'",
             [
                 "Oliver Fritz"
             ],
             "x:[U' R2 U,m']"
+        ],
+        [
+            "m' U' R' U m' U' R U m2",
+            [
+                "Mark Rivers"
+            ],
+            "m':[U' R' U,m']"
         ]
     ],
     "YJN": [
@@ -15673,6 +15673,13 @@
     ],
     "YJX": [
         [
+            "z U' L' U m U' L U m' z'",
+            [
+                "Oliver Fritz"
+            ],
+            "z:[U' L' U,m]"
+        ],
+        [
             "R' U m' U' L U m' U' L' U m2 U' R",
             [
                 "Mark Rivers"
@@ -15685,48 +15692,48 @@
                 "Mark Rivers"
             ],
             "[L' D' L,e]"
-        ],
-        [
-            "z U' L' U m U' L U m' z'",
-            [
-                "Oliver Fritz"
-            ],
-            "z:[U' L' U,m]"
         ]
     ],
     "YMI": [
-        [
-            "R' U m D2 m' D2 U' R",
-            [
-                "Mark Rivers"
-            ],
-            "R' U:[m,D2]"
-        ],
         [
             "x y' R2 U' m U R2 U' m' U y x'",
             [
                 "Oliver Fritz"
             ],
             "x y':[R2,U' m U]"
-        ]
-    ],
-    "YMJ": [
+        ],
         [
-            "m2 U' R' U m U' R U m",
+            "R' U m D2 m' D2 U' R",
             [
                 "Mark Rivers"
             ],
-            "m':[m',U' R' U]"
-        ],
+            "R' U:[m,D2]"
+        ]
+    ],
+    "YMJ": [
         [
             "x m' U' R2 U m U' R2 U x'",
             [
                 "Oliver Fritz"
             ],
             "x:[m',U' R2 U]"
+        ],
+        [
+            "m2 U' R' U m U' R U m",
+            [
+                "Mark Rivers"
+            ],
+            "m':[m',U' R' U]"
         ]
     ],
     "YNI": [
+        [
+            "y z m' U' m D m' U m D' z' y'",
+            [
+                "Oliver Fritz"
+            ],
+            "y z:[m' U' m,D]"
+        ],
         [
             "m U R' U' m U R U' m2",
             [
@@ -15740,13 +15747,6 @@
                 "Mark Rivers"
             ],
             "[m',D R D']"
-        ],
-        [
-            "y z m' U' m D m' U m D' z' y'",
-            [
-                "Oliver Fritz"
-            ],
-            "y z:[m' U' m,D]"
         ]
     ],
     "YNJ": [
@@ -15786,6 +15786,13 @@
     ],
     "YXI": [
         [
+            "z' U R U' m U R' U' m' z",
+            [
+                "Oliver Fritz"
+            ],
+            "z':[U R U',m]"
+        ],
+        [
             "L U' m' U R' U' m' U R U' m2 U L'",
             [
                 "Mark Rivers"
@@ -15798,16 +15805,16 @@
                 "Mark Rivers"
             ],
             "[R D R',e']"
-        ],
-        [
-            "z' U R U' m U R' U' m' z",
-            [
-                "Oliver Fritz"
-            ],
-            "z':[U R U',m]"
         ]
     ],
     "YXJ": [
+        [
+            "z m U' L' U m' U' L U z'",
+            [
+                "Oliver Fritz"
+            ],
+            "z:[m,U' L' U]"
+        ],
         [
             "R' U m2 U' L U m U' L' U m U' R",
             [
@@ -15821,13 +15828,6 @@
                 "Mark Rivers"
             ],
             "[e,L' D' L]"
-        ],
-        [
-            "z m U' L' U m' U' L U z'",
-            [
-                "Oliver Fritz"
-            ],
-            "z:[m,U' L' U]"
         ]
     ]
 }
