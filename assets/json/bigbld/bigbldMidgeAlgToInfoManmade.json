@@ -21,7 +21,7 @@
     ],
     "ACF": [
         [
-            "Lw m U L' U' m' U L U' Lw'",
+            "3Lw U L' U' m' U L U' Lw'",
             [
                 "Daniel Wallin",
                 "Graham Siggins",
@@ -68,7 +68,7 @@
     ],
     "ACJ": [
         [
-            "3Lw' U L U' m U L' U' m' 3Lw",
+            "3Lw' U L U' m U L' U' Lw",
             [
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi"
@@ -76,7 +76,7 @@
             "3Lw':[U L U',m]"
         ],
         [
-            "U' Rw U' R' U m' U' R U m Rw' U",
+            "U' Rw U' R' U m' U' R U 3Rw' U",
             [
                 "Daniel Wallin"
             ],
@@ -178,7 +178,7 @@
     ],
     "ACN": [
         [
-            "U Lw U' L' U m U' L U m' Lw' U'",
+            "U Lw U' L' U m U' L U 3Lw' U'",
             [
                 "Daniel Wallin",
                 "Kai Yamamoto (山本快)",
@@ -255,7 +255,7 @@
     ],
     "ACR": [
         [
-            "Rw' m D' m' U' m D m' U Rw",
+            "3Rw' D' m' U' m D m' U Rw",
             [
                 "Daniel Wallin",
                 "Graham Siggins",
@@ -299,7 +299,7 @@
     ],
     "ACT": [
         [
-            "U' Lw U m D m' U' m D' m' Lw' U",
+            "U' Lw U m D m' U' m D' 3Lw' U",
             [
                 "Daniel Wallin",
                 "Hana Davila"
@@ -330,7 +330,7 @@
     ],
     "ACW": [
         [
-            "4Rw' U' m' U L U' m U L' 4Rw",
+            "4Rw' U' m' U L U' m U x",
             [
                 "Daniel Wallin",
                 "Graham Siggins",
@@ -394,7 +394,7 @@
             "z:[R,U m2 U']"
         ],
         [
-            "U' 4Lw R' U m' U' R U m U' 4Lw' U",
+            "U' x' U m' U' R U m U' 4Lw' U",
             [
                 "Daniel Wallin"
             ],
@@ -449,7 +449,7 @@
     ],
     "ADF": [
         [
-            "Lw' U' L U m' U' L' U m Lw",
+            "Lw' U' L U m' U' L' U 3Lw",
             [
                 "Daniel Wallin",
                 "Graham Siggins",
@@ -616,11 +616,11 @@
             "3Lw':[m2,U' L U]"
         ],
         [
-            "Lw m U' L' U m2 U' L U m Lw'",
+            "3Lw U' L' U m2 U' L U m Lw'",
             [
                 "Michael Tripodi"
             ],
-            "Lw m:[U' L' U,m2]"
+            "3Lw:[U' L' U,m2]"
         ],
         [
             "m L' U' L U m2 U' L' U L m",
@@ -716,7 +716,7 @@
             "L:[e,R U' R']"
         ],
         [
-            "Rw U' Rw m' U R' U' m U R U' Rw' U Rw'",
+            "Rw U' 3Rw U R' U' m U R U' Rw' U Rw'",
             [
                 "Daniel Wallin"
             ],
@@ -795,7 +795,7 @@
     ],
     "ADX": [
         [
-            "4Rw' U m2 U' L U m2 U' L' 4Rw",
+            "4Rw' U m2 U' L U m2 U' x",
             [
                 "Daniel Wallin",
                 "Hana Davila"
@@ -826,7 +826,7 @@
     ],
     "ADY": [
         [
-            "Rw' U' Rw m' U R' U' m U R U' Rw' U Rw",
+            "Rw' U' 3Rw U R' U' m U R U' Rw' U Rw",
             [
                 "Daniel Wallin"
             ],
@@ -1077,7 +1077,7 @@
     ],
     "AER": [
         [
-            "Rw' m D' m' U2 m D m' U2 Rw",
+            "3Rw' D' m' U2 m D m' U2 Rw",
             [
                 "Daniel Wallin",
                 "Graham Siggins",
@@ -1110,7 +1110,7 @@
     ],
     "AET": [
         [
-            "Lw m D m' U2 m D' m' U2 Lw'",
+            "3Lw D m' U2 m D' m' U2 Lw'",
             [
                 "Daniel Wallin",
                 "Graham Siggins",
@@ -1150,7 +1150,7 @@
     ],
     "AEX": [
         [
-            "Lw' U2 m' D' m U2 m' D m Lw",
+            "Lw' U2 m' D' m U2 m' D 3Lw",
             [
                 "Daniel Wallin",
                 "Graham Siggins",
@@ -1189,7 +1189,7 @@
     ],
     "AEZ": [
         [
-            "Rw U2 m' D m U2 m' D' m Rw'",
+            "Rw U2 m' D m U2 m' D' 3Rw'",
             [
                 "Daniel Wallin",
                 "Graham Siggins",
@@ -1208,7 +1208,7 @@
     ],
     "AFC": [
         [
-            "Lw U L' U' m U L U' m' Lw'",
+            "Lw U L' U' m U L U' 3Lw'",
             [
                 "Daniel Wallin",
                 "Graham Siggins",
@@ -1227,7 +1227,7 @@
     ],
     "AFD": [
         [
-            "Lw' m' U' L U m U' L' U Lw",
+            "3Lw' U' L U m U' L' U Lw",
             [
                 "Daniel Wallin",
                 "Graham Siggins",
@@ -1257,7 +1257,7 @@
             "D:[U' R2 U,m]"
         ],
         [
-            "D Rw' U' R' U m U' R U m' Rw D'",
+            "D Rw' U' R' U m U' R U 3Rw D'",
             [
                 "Daniel Wallin",
                 "Kai Yamamoto (山本快)"
@@ -1274,7 +1274,7 @@
     ],
     "AFJ": [
         [
-            "D Rw m' U R U' m U R' U' Rw' D'",
+            "D 3Rw U R U' m U R' U' Rw' D'",
             [
                 "Daniel Wallin",
                 "Graham Siggins",
@@ -1301,7 +1301,7 @@
     ],
     "AFK": [
         [
-            "Lw U L U' m U L' U' m' Lw'",
+            "Lw U L U' m U L' U' 3Lw'",
             [
                 "Daniel Wallin",
                 "Graham Siggins",
@@ -1320,7 +1320,7 @@
     ],
     "AFL": [
         [
-            "Lw' m' U' L' U m U' L U Lw",
+            "3Lw' U' L' U m U' L U Lw",
             [
                 "Daniel Wallin",
                 "Graham Siggins",
@@ -1350,7 +1350,7 @@
             "D':[U' R2 U,m]"
         ],
         [
-            "D' Rw' U' R' U m U' R U m' Rw D",
+            "D' Rw' U' R' U m U' R U 3Rw D",
             [
                 "Daniel Wallin",
                 "Kai Yamamoto (山本快)"
@@ -1360,7 +1360,7 @@
     ],
     "AFN": [
         [
-            "D' Rw m' U R U' m U R' U' Rw' D",
+            "D' 3Rw U R U' m U R' U' Rw' D",
             [
                 "Daniel Wallin",
                 "Graham Siggins",
@@ -1379,7 +1379,7 @@
     ],
     "AFO": [
         [
-            "Rw' U' R' U m U' R U m' Rw",
+            "Rw' U' R' U m U' R U 3Rw",
             [
                 "Daniel Wallin",
                 "Graham Siggins",
@@ -1398,7 +1398,7 @@
     ],
     "AFP": [
         [
-            "Rw m' U R U' m U R' U' Rw'",
+            "3Rw U R U' m U R' U' Rw'",
             [
                 "Daniel Wallin",
                 "Graham Siggins",
@@ -1623,7 +1623,7 @@
             "D:[m,U' R2 U]"
         ],
         [
-            "D Rw' m U' R' U m' U' R U Rw D'",
+            "D 3Rw' U' R' U m' U' R U Rw D'",
             [
                 "Daniel Wallin",
                 "Kai Yamamoto (山本快)"
@@ -1686,7 +1686,7 @@
             "m' D:[m',U2]"
         ],
         [
-            "y' U m' U' R2 U m U' R2 y",
+            "4Dw m' U' R2 U m U' R2 y",
             [
                 "Oliver Fritz"
             ],
@@ -2083,7 +2083,7 @@
     ],
     "AJC": [
         [
-            "Lw' U L U' m' U L' U' m Lw",
+            "Lw' U L U' m' U L' U' 3Lw",
             [
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi"
@@ -2091,7 +2091,7 @@
             "Lw':[U L U',m']"
         ],
         [
-            "U' Rw m' U' R' U m U' R U Rw' U",
+            "U' 3Rw U' R' U m U' R U Rw' U",
             [
                 "Daniel Wallin"
             ],
@@ -2200,7 +2200,7 @@
             "D:[U R2 U',m']"
         ],
         [
-            "D Rw U R U' m' U R' U' m Rw' D'",
+            "D Rw U R U' m' U R' U' 3Rw' D'",
             [
                 "Daniel Wallin",
                 "Graham Siggins",
@@ -2229,7 +2229,7 @@
             "[U L2 U',m']"
         ],
         [
-            "Lw' U L' U' m' U L U' m Lw",
+            "Lw' U L' U' m' U L U' 3Lw",
             [
                 "Daniel Wallin",
                 "Kai Yamamoto (山本快)",
@@ -2343,7 +2343,7 @@
             "[U' R2 U,m']"
         ],
         [
-            "Rw U' R U m' U' R' U m Rw'",
+            "Rw U' R U m' U' R' U 3Rw'",
             [
                 "Daniel Wallin",
                 "Kai Yamamoto (山本快)",
@@ -2649,7 +2649,7 @@
     ],
     "AKF": [
         [
-            "Lw m U L U' m' U L' U' Lw'",
+            "3Lw U L U' m' U L' U' Lw'",
             [
                 "Daniel Wallin",
                 "Graham Siggins",
@@ -2709,7 +2709,7 @@
             "[m',U L2 U']"
         ],
         [
-            "Lw' m' U L' U' m U L U' Lw",
+            "3Lw' U L' U' m U L U' Lw",
             [
                 "Daniel Wallin",
                 "Kai Yamamoto (山本快)",
@@ -2899,7 +2899,7 @@
             "y':[R,U' m2 U]"
         ],
         [
-            "y L U' m2 U L' U' m2 U y'",
+            "y L U' m2 U L' U' m2 4Dw",
             [
                 "Daniel Wallin"
             ],
@@ -3101,7 +3101,7 @@
     ],
     "ALF": [
         [
-            "Lw' U' L' U m' U' L U m Lw",
+            "Lw' U' L' U m' U' L U 3Lw",
             [
                 "Daniel Wallin",
                 "Graham Siggins",
@@ -3137,7 +3137,7 @@
             "m' D:[U2,m']"
         ],
         [
-            "y' R2 U m' U' R2 U m U' y",
+            "y' R2 U m' U' R2 U m 4Dw'",
             [
                 "Oliver Fritz"
             ],
@@ -3219,7 +3219,7 @@
             "3Lw:[U' L U,m2]"
         ],
         [
-            "Lw' m U' L' U m2 U' L U m Lw",
+            "Lw' m U' L' U m2 U' L U 3Lw",
             [
                 "Kai Yamamoto (山本快)"
             ],
@@ -3323,7 +3323,7 @@
     ],
     "ALR": [
         [
-            "y' R' U m' U' R U m U' y",
+            "y' R' U m' U' R U m 4Dw'",
             [
                 "Daniel Wallin",
                 "Graham Siggins",
@@ -3371,7 +3371,7 @@
             "[D m D',L]"
         ],
         [
-            "y' R U m' U' R' U m U' y",
+            "y' R U m' U' R' U m 4Dw'",
             [
                 "Hana Davila"
             ],
@@ -3422,7 +3422,7 @@
             "D:[U' R' U,m']"
         ],
         [
-            "Rw' U m D m' U' m D' m' Rw",
+            "Rw' U m D m' U' m D' 3Rw",
             [
                 "Michael Tripodi"
             ],
@@ -3532,7 +3532,7 @@
             "D':[m,U' R2 U]"
         ],
         [
-            "D' Rw' m U' R' U m' U' R U Rw D",
+            "D' 3Rw' U' R' U m' U' R U Rw D",
             [
                 "Daniel Wallin",
                 "Kai Yamamoto (山本快)"
@@ -3832,7 +3832,7 @@
     ],
     "ANC": [
         [
-            "U Lw m U' L' U m' U' L U Lw' U'",
+            "U 3Lw U' L' U m' U' L U Lw' U'",
             [
                 "Daniel Wallin",
                 "Kai Yamamoto (山本快)",
@@ -3902,7 +3902,7 @@
     ],
     "ANF": [
         [
-            "D' Rw U R U' m' U R' U' m Rw' D",
+            "D' Rw U R U' m' U R' U' 3Rw' D",
             [
                 "Daniel Wallin",
                 "Graham Siggins",
@@ -4299,7 +4299,7 @@
     ],
     "AOF": [
         [
-            "Rw' m U' R' U m' U' R U Rw",
+            "3Rw' U' R' U m' U' R U Rw",
             [
                 "Daniel Wallin",
                 "Graham Siggins",
@@ -4359,7 +4359,7 @@
             "[m',U' R2 U]"
         ],
         [
-            "Rw m' U' R U m U' R' U Rw'",
+            "3Rw U' R U m U' R' U Rw'",
             [
                 "Daniel Wallin",
                 "Kai Yamamoto (山本快)",
@@ -4500,7 +4500,7 @@
             "y:[L',U m2 U']"
         ],
         [
-            "y' R' U m2 U' R U m2 U' y",
+            "y' R' U m2 U' R U m2 4Dw'",
             [
                 "Graham Siggins"
             ],
@@ -4576,7 +4576,7 @@
             "R:[R U' R',e]"
         ],
         [
-            "y' R U m2 U' R' U m2 U' y",
+            "y' R U m2 U' R' U m2 4Dw'",
             [
                 "Hana Davila"
             ],
@@ -4731,7 +4731,7 @@
     ],
     "APF": [
         [
-            "Rw U R U' m' U R' U' m Rw'",
+            "Rw U R U' m' U R' U' 3Rw'",
             [
                 "Daniel Wallin",
                 "Graham Siggins",
@@ -4918,7 +4918,7 @@
             "3Rw':[U R' U',m2]"
         ],
         [
-            "Rw m U R U' m2 U R' U' m Rw'",
+            "Rw m U R U' m2 U R' U' 3Rw'",
             [
                 "Kai Yamamoto (山本快)"
             ],
@@ -4981,7 +4981,7 @@
             "U R:[R,U' m' U]"
         ],
         [
-            "y L' U' m' U L U' m U y'",
+            "y L' U' m' U L U' m 4Dw",
             [
                 "Hana Davila"
             ],
@@ -5038,7 +5038,7 @@
             "D':[U L U',m']"
         ],
         [
-            "Lw U' m D' m' U m D m' Lw'",
+            "Lw U' m D' m' U m D 3Lw'",
             [
                 "Michael Tripodi"
             ],
@@ -5145,7 +5145,7 @@
             "L:[R U' R',e]"
         ],
         [
-            "Rw U' Rw U R' U' m' U R U' m Rw' U Rw'",
+            "Rw U' Rw U R' U' m' U R U' 3Rw' U Rw'",
             [
                 "Daniel Wallin"
             ],
@@ -5422,7 +5422,7 @@
     ],
     "AQY": [
         [
-            "4Lw R U m' U' R2 U m U' R 4Lw'",
+            "4Lw R U m' U' R2 U m U' x",
             [
                 "Daniel Wallin",
                 "Graham Siggins",
@@ -5461,7 +5461,7 @@
     ],
     "ARC": [
         [
-            "Rw' U' m D' m' U m D m' Rw",
+            "Rw' U' m D' m' U m D 3Rw",
             [
                 "Daniel Wallin",
                 "Graham Siggins",
@@ -5505,7 +5505,7 @@
     ],
     "ARE": [
         [
-            "Rw' U2 m D' m' U2 m D m' Rw",
+            "Rw' U2 m D' m' U2 m D 3Rw",
             [
                 "Daniel Wallin",
                 "Graham Siggins",
@@ -5642,7 +5642,7 @@
     ],
     "ARL": [
         [
-            "y' U m' U' R' U m U' R y",
+            "4Dw m' U' R' U m U' R y",
             [
                 "Daniel Wallin",
                 "Graham Siggins",
@@ -5726,7 +5726,7 @@
             "y:[U m2 U',L']"
         ],
         [
-            "y' U m2 U' R' U m2 U' R y",
+            "4Dw m2 U' R' U m2 U' R y",
             [
                 "Graham Siggins"
             ],
@@ -5765,7 +5765,7 @@
             "U R:[U' m' U,R]"
         ],
         [
-            "y U' m' U L' U' m U L y'",
+            "4Dw' m' U L' U' m U L y'",
             [
                 "Hana Davila"
             ],
@@ -5886,7 +5886,7 @@
     ],
     "ARY": [
         [
-            "Rw' U m D' m' U' m D m' Rw",
+            "Rw' U m D' m' U' m D 3Rw",
             [
                 "Daniel Wallin",
                 "Michael Tripodi"
@@ -6192,7 +6192,7 @@
     ],
     "ASW": [
         [
-            "4Rw' L' U' m' U L2 U' m U L' 4Rw",
+            "4Rw' L' U' m' U L2 U' m U x",
             [
                 "Daniel Wallin",
                 "Graham Siggins",
@@ -6280,7 +6280,7 @@
     ],
     "ATC": [
         [
-            "U' Lw m D m' U m D' m' U' Lw' U",
+            "U' 3Lw D m' U m D' m' U' Lw' U",
             [
                 "Daniel Wallin",
                 "Hana Davila"
@@ -6330,7 +6330,7 @@
     ],
     "ATE": [
         [
-            "Lw U2 m D m' U2 m D' m' Lw'",
+            "Lw U2 m D m' U2 m D' 3Lw'",
             [
                 "Daniel Wallin",
                 "Graham Siggins",
@@ -6439,7 +6439,7 @@
             "y':[U' m2 U,R]"
         ],
         [
-            "y U' m2 U L U' m2 U L' y'",
+            "4Dw' m2 U L U' m2 U L' y'",
             [
                 "Daniel Wallin"
             ],
@@ -6472,7 +6472,7 @@
             "[L,D m D']"
         ],
         [
-            "y' U m' U' R U m U' R' y",
+            "4Dw m' U' R U m U' R' y",
             [
                 "Hana Davila"
             ],
@@ -6554,7 +6554,7 @@
             "R:[e,R U' R']"
         ],
         [
-            "y' U m2 U' R U m2 U' R' y",
+            "4Dw m2 U' R U m2 U' R' y",
             [
                 "Hana Davila"
             ],
@@ -6640,7 +6640,7 @@
     ],
     "ATW": [
         [
-            "Lw U' m D m' U m D' m' Lw'",
+            "Lw U' m D m' U m D' 3Lw'",
             [
                 "Daniel Wallin",
                 "Michael Tripodi"
@@ -6745,7 +6745,7 @@
     ],
     "AWC": [
         [
-            "4Rw' L U' m' U L' U' m U 4Rw",
+            "x' U' m' U L' U' m U 4Rw",
             [
                 "Daniel Wallin",
                 "Graham Siggins",
@@ -6942,7 +6942,7 @@
             "D':[m',U L U']"
         ],
         [
-            "Lw m D' m' U' m D m' U Lw'",
+            "3Lw D' m' U' m D m' U Lw'",
             [
                 "Michael Tripodi"
             ],
@@ -7002,14 +7002,14 @@
     ],
     "AWS": [
         [
-            "4Rw' L U' m' U L2 U' m U L 4Rw",
+            "x' U' m' U L2 U' m U L 4Rw",
             [
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi"
             ],
-            "4Rw' L:[U' m' U,L2]"
+            "x':[U' m' U,L2]"
         ],
         [
             "4Lw U' m' U L2 U' m U L2 4Lw'",
@@ -7030,7 +7030,7 @@
             "z:[U R U',m']"
         ],
         [
-            "Lw m D m' U' m D' m' U Lw'",
+            "3Lw D m' U' m D' m' U Lw'",
             [
                 "Daniel Wallin",
                 "Michael Tripodi"
@@ -7116,7 +7116,7 @@
     ],
     "AXD": [
         [
-            "4Rw' L U m2 U' L' U m2 U' 4Rw",
+            "x' U m2 U' L' U m2 U' 4Rw",
             [
                 "Daniel Wallin",
                 "Hana Davila"
@@ -7147,7 +7147,7 @@
     ],
     "AXE": [
         [
-            "Lw' m' D' m U2 m' D m U2 Lw",
+            "3Lw' D' m U2 m' D m U2 Lw",
             [
                 "Daniel Wallin",
                 "Graham Siggins",
@@ -7524,7 +7524,7 @@
             "z:[U m2 U',R]"
         ],
         [
-            "U' 4Lw U m' U' R' U m U' R 4Lw' U",
+            "U' 4Lw U m' U' R' U m U' x U",
             [
                 "Daniel Wallin"
             ],
@@ -7540,7 +7540,7 @@
     ],
     "AYD": [
         [
-            "Rw' U' Rw U R' U' m' U R U' m Rw' U Rw",
+            "Rw' U' Rw U R' U' m' U R U' 3Rw' U Rw",
             [
                 "Daniel Wallin"
             ],
@@ -7683,7 +7683,7 @@
             "D:[m',U' R' U]"
         ],
         [
-            "Rw' m D m' U m D' m' U' Rw",
+            "3Rw' D m' U m D' m' U' Rw",
             [
                 "Michael Tripodi"
             ],
@@ -7752,14 +7752,14 @@
     ],
     "AYQ": [
         [
-            "4Lw R' U m' U' R2 U m U' R' 4Lw'",
+            "x' U m' U' R2 U m U' R' 4Lw'",
             [
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi"
             ],
-            "4Lw R':[U m' U',R2]"
+            "x':[U m' U',R2]"
         ],
         [
             "4Rw' U m' U' R2 U m U' R2 4Rw",
@@ -7771,7 +7771,7 @@
     ],
     "AYR": [
         [
-            "Rw' m D' m' U m D m' U' Rw",
+            "3Rw' D' m' U m D m' U' Rw",
             [
                 "Daniel Wallin",
                 "Michael Tripodi"
@@ -7923,7 +7923,7 @@
     ],
     "AZE": [
         [
-            "Rw m' D m U2 m' D' m U2 Rw'",
+            "3Rw D m U2 m' D' m U2 Rw'",
             [
                 "Daniel Wallin",
                 "Graham Siggins",
@@ -10234,7 +10234,7 @@
     ],
     "GAD": [
         [
-            "U' Rw m' U R' U' m U R U' Rw' U",
+            "U' 3Rw U R' U' m U R U' Rw' U",
             [
                 "Daniel Wallin",
                 "Graham Siggins",
@@ -10273,7 +10273,7 @@
     ],
     "GAF": [
         [
-            "Rw' U' R U m U' R' U m' Rw",
+            "Rw' U' R U m U' R' U 3Rw",
             [
                 "Daniel Wallin",
                 "Graham Siggins",
@@ -10320,7 +10320,7 @@
     ],
     "GAJ": [
         [
-            "Rw U' R' U m' U' R U m Rw'",
+            "Rw U' R' U m' U' R U 3Rw'",
             [
                 "Daniel Wallin",
                 "Graham Siggins",
@@ -10417,7 +10417,7 @@
     ],
     "GAN": [
         [
-            "U' Rw' m U R U' m' U R' U' Rw U",
+            "U' 3Rw' U R U' m' U R' U' Rw U",
             [
                 "Daniel Wallin",
                 "Kai Yamamoto (山本快)",
@@ -10494,7 +10494,7 @@
     ],
     "GAR": [
         [
-            "U Rw' m D' m' U' m D m' U Rw U'",
+            "U 3Rw' D' m' U' m D m' U Rw U'",
             [
                 "Daniel Wallin",
                 "Hana Davila"
@@ -10543,7 +10543,7 @@
     ],
     "GAT": [
         [
-            "Lw U m D m' U' m D' m' Lw'",
+            "Lw U m D m' U' m D' 3Lw'",
             [
                 "Daniel Wallin",
                 "Graham Siggins",
@@ -10570,7 +10570,7 @@
             "z':[U' m2 U,L']"
         ],
         [
-            "U 4Rw' U' m' U L U' m U L' 4Rw U'",
+            "U 4Rw' U' m' U L U' m U x U'",
             [
                 "Daniel Wallin"
             ],
@@ -10618,7 +10618,7 @@
     ],
     "GAY": [
         [
-            "4Lw R' U m' U' R U m U' 4Lw'",
+            "x' U m' U' R U m U' 4Lw'",
             [
                 "Daniel Wallin",
                 "Graham Siggins"
@@ -10626,7 +10626,7 @@
             "4Lw:[R',U m' U']"
         ],
         [
-            "m r' R' U m' U' R U m U' r m'",
+            "m Rw' U m' U' R U m U' r m'",
             [
                 "Michael Tripodi"
             ],
@@ -10685,7 +10685,7 @@
     ],
     "GBD": [
         [
-            "U' Rw' U' R U m U' R' U m' Rw U",
+            "U' Rw' U' R U m U' R' U 3Rw U",
             [
                 "Daniel Wallin",
                 "Graham Siggins",
@@ -10704,7 +10704,7 @@
     ],
     "GBE": [
         [
-            "Rw m' U R' U' m U R U' Rw'",
+            "3Rw U R' U' m U R U' Rw'",
             [
                 "Daniel Wallin",
                 "Graham Siggins",
@@ -11064,7 +11064,7 @@
     ],
     "GBY": [
         [
-            "4Lw R' U' m2 U R U' m2 U 4Lw'",
+            "x' U' m2 U R U' m2 U 4Lw'",
             [
                 "Daniel Wallin",
                 "Hana Davila"
@@ -11152,7 +11152,7 @@
     ],
     "GDA": [
         [
-            "U' Rw U R' U' m' U R U' m Rw' U",
+            "U' Rw U R' U' m' U R U' 3Rw' U",
             [
                 "Daniel Wallin",
                 "Graham Siggins",
@@ -11162,7 +11162,7 @@
             "U' Rw:[U R' U',m']"
         ],
         [
-            "U Lw U L' U' m U L U' m' Lw' U'",
+            "U Lw U L' U' m U L U' 3Lw' U'",
             [
                 "Michael Tripodi"
             ],
@@ -11185,7 +11185,7 @@
     ],
     "GDB": [
         [
-            "U' Rw' m U' R U m' U' R' U Rw U",
+            "U' 3Rw' U' R U m' U' R' U Rw U",
             [
                 "Daniel Wallin",
                 "Graham Siggins",
@@ -11204,7 +11204,7 @@
     ],
     "GDI": [
         [
-            "y' U R2 U' m' U R2 U' m y",
+            "4Dw R2 U' m' U R2 U' m y",
             [
                 "Oliver Fritz"
             ],
@@ -11288,7 +11288,7 @@
     ],
     "GEB": [
         [
-            "Rw U R' U' m' U R U' m Rw'",
+            "Rw U R' U' m' U R U' 3Rw'",
             [
                 "Daniel Wallin",
                 "Graham Siggins",
@@ -11333,7 +11333,7 @@
     ],
     "GFA": [
         [
-            "Rw' m U' R U m' U' R' U Rw",
+            "3Rw' U' R U m' U' R' U Rw",
             [
                 "Daniel Wallin",
                 "Graham Siggins",
@@ -11484,7 +11484,7 @@
     ],
     "GID": [
         [
-            "y' m' U R2 U' m U R2 U' y",
+            "y' m' U R2 U' m U R2 4Dw'",
             [
                 "Oliver Fritz"
             ],
@@ -11548,11 +11548,11 @@
     ],
     "GIL": [
         [
-            "y' U2 m' U' R2 U m U' R2 U' y",
+            "y' U2 m' U' R2 U m U' R2 4Dw'",
             [
                 "Oliver Fritz"
             ],
-            "y' U:[U m' U',R2]"
+            "4Dw:[U m' U',R2]"
         ],
         [
             "U' m U L2 U' m2 U L2 U' m U",
@@ -11613,7 +11613,7 @@
     ],
     "GIP": [
         [
-            "y' m U R2 U' m' U R2 U' y",
+            "y' m U R2 U' m' U R2 4Dw'",
             [
                 "Oliver Fritz"
             ],
@@ -11735,7 +11735,7 @@
     ],
     "GJA": [
         [
-            "Rw m' U' R' U m U' R U Rw'",
+            "3Rw U' R' U m U' R U Rw'",
             [
                 "Daniel Wallin",
                 "Graham Siggins",
@@ -12191,11 +12191,11 @@
     ],
     "GLI": [
         [
-            "y' U R2 U m' U' R2 U m U2 y",
+            "4Dw R2 U m' U' R2 U m U2 y",
             [
                 "Oliver Fritz"
             ],
-            "y' U:[R2,U m' U']"
+            "4Dw:[R2,U m' U']"
         ],
         [
             "U' m' U L2 U' m2 U L2 U' m' U",
@@ -12313,7 +12313,7 @@
     ],
     "GNA": [
         [
-            "U' Rw' U R U' m U R' U' m' Rw U",
+            "U' Rw' U R U' m U R' U' 3Rw U",
             [
                 "Daniel Wallin",
                 "Kai Yamamoto (山本快)",
@@ -12348,11 +12348,11 @@
             "3Rw:[m2,U R' U']"
         ],
         [
-            "Rw' m U R U' m2 U R' U' m Rw",
+            "3Rw' U R U' m2 U R' U' m Rw",
             [
                 "Michael Tripodi"
             ],
-            "Rw' m:[U R U',m2]"
+            "3Rw':[U R U',m2]"
         ],
         [
             "m R U R' U' m2 U R U' R' m",
@@ -12502,7 +12502,7 @@
     ],
     "GPI": [
         [
-            "y' U R2 U' m U R2 U' m' y",
+            "4Dw R2 U' m U R2 U' m' y",
             [
                 "Oliver Fritz"
             ],
@@ -12600,7 +12600,7 @@
     ],
     "GRA": [
         [
-            "U Rw' U' m D' m' U m D m' Rw U'",
+            "U Rw' U' m D' m' U m D 3Rw U'",
             [
                 "Daniel Wallin",
                 "Hana Davila"
@@ -12747,7 +12747,7 @@
     ],
     "GTA": [
         [
-            "Lw m D m' U m D' m' U' Lw'",
+            "3Lw D m' U m D' m' U' Lw'",
             [
                 "Daniel Wallin",
                 "Graham Siggins",
@@ -12848,7 +12848,7 @@
             "z':[L',U' m2 U]"
         ],
         [
-            "U 4Rw' L U' m' U L' U' m U 4Rw U'",
+            "U x' U' m' U L' U' m U 4Rw U'",
             [
                 "Daniel Wallin"
             ],
@@ -13002,7 +13002,7 @@
     ],
     "GYA": [
         [
-            "4Lw U m' U' R' U m U' R 4Lw'",
+            "4Lw U m' U' R' U m U' x",
             [
                 "Daniel Wallin",
                 "Graham Siggins"
@@ -13010,7 +13010,7 @@
             "4Lw:[U m' U',R']"
         ],
         [
-            "m r' U m' U' R' U m U' R r m'",
+            "m r' U m' U' R' U m U' 3Rw",
             [
                 "Michael Tripodi"
             ],
@@ -13026,7 +13026,7 @@
     ],
     "GYB": [
         [
-            "4Lw U' m2 U R' U' m2 U R 4Lw'",
+            "4Lw U' m2 U R' U' m2 U x",
             [
                 "Daniel Wallin",
                 "Hana Davila"
@@ -13154,7 +13154,7 @@
     ],
     "IMW": [
         [
-            "x y' U m' U' R2 U m U' R2 y x'",
+            "x 4Dw m' U' R2 U m U' R2 y x'",
             [
                 "Oliver Fritz"
             ],
@@ -13187,7 +13187,7 @@
     ],
     "INW": [
         [
-            "x y' D' m' U m D m' U' m y x'",
+            "x 4Uw' m' U m D m' U' m y x'",
             [
                 "Oliver Fritz"
             ],
@@ -13219,7 +13219,7 @@
     ],
     "IWM": [
         [
-            "x y' R2 U m' U' R2 U m U' y x'",
+            "x y' R2 U m' U' R2 U m 4Dw' x'",
             [
                 "Oliver Fritz"
             ],
@@ -13235,7 +13235,7 @@
     ],
     "IWN": [
         [
-            "x y' m' U m D' m' U' m D y x'",
+            "x y' m' U m D' m' U' m 4Uw x'",
             [
                 "Oliver Fritz"
             ],

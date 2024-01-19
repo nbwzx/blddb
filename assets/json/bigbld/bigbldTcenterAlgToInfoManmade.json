@@ -1,7 +1,7 @@
 {
     "ABC": [
         [
-            "Uw' m' u' m U m' u m U' Uw",
+            "Uw' m' u' m U m' u m u",
             [
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi"
@@ -9,7 +9,7 @@
             "Uw':[m' u' m,U]"
         ],
         [
-            "U Lw' m' U' l U m U' l' U Lw U'",
+            "U 3Lw' U' l U m U' l' U Lw U'",
             [
                 "Daniel Wallin"
             ],
@@ -53,7 +53,7 @@
     ],
     "ABD": [
         [
-            "Uw' u m' U' m u' m' U m Uw",
+            "U' m' U' m u' m' U m Uw",
             [
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -194,7 +194,7 @@
             "U m':[U,m' d' m]"
         ],
         [
-            "Lw2 U' m' U' m u' m' U m u U Lw2",
+            "Lw2 U' m' U' m u' m' U m Uw Lw2",
             [
                 "Daniel Wallin"
             ],
@@ -343,7 +343,7 @@
             "U m':[U,m' d m]"
         ],
         [
-            "Rw2 U m' U m u m' U' m u' U' Rw2",
+            "Rw2 U m' U m u m' U' m Uw' Rw2",
             [
                 "Daniel Wallin"
             ],
@@ -405,7 +405,7 @@
     ],
     "ABR": [
         [
-            "Rw U m' U m u m' U' m u' U' Rw'",
+            "Rw U m' U m u m' U' m Uw' Rw'",
             [
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -422,7 +422,7 @@
             "F':[l' U l,e']"
         ],
         [
-            "R U m' U m u m' U' m u' U' R'",
+            "R U m' U m u m' U' m Uw' R'",
             [
                 "Kevin Matthews"
             ],
@@ -447,7 +447,7 @@
     ],
     "ABT": [
         [
-            "Lw' U' m' U' m u' m' U m u U Lw",
+            "Lw' U' m' U' m u' m' U m Uw Lw",
             [
                 "Daniel Wallin",
                 "Ryan Eckersley"
@@ -463,7 +463,7 @@
             "F:[r U' r',e]"
         ],
         [
-            "L' U' m' U' m u' m' U m u U L",
+            "L' U' m' U' m u' m' U m Uw L",
             [
                 "Kevin Matthews"
             ],
@@ -502,7 +502,7 @@
     ],
     "ABX": [
         [
-            "Lw U' m' U' m u' m' U m u U Lw'",
+            "Lw U' m' U' m u' m' U m Uw Lw'",
             [
                 "Daniel Wallin",
                 "Michael Tripodi",
@@ -518,7 +518,7 @@
             "U2:[4Uw r' 4Uw',m']"
         ],
         [
-            "L U' m' U' m u' m' U m u U L'",
+            "L U' m' U' m u' m' U m Uw L'",
             [
                 "Kevin Matthews"
             ],
@@ -556,7 +556,7 @@
     ],
     "ABZ": [
         [
-            "Rw' U m' U m u m' U' m u' U' Rw",
+            "Rw' U m' U m u m' U' m Uw' Rw",
             [
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -573,7 +573,7 @@
             "U2:[4Uw r 4Uw',m']"
         ],
         [
-            "R' U m' U m u m' U' m u' U' R",
+            "R' U m' U m u m' U' m Uw' R",
             [
                 "Kevin Matthews"
             ],
@@ -589,7 +589,7 @@
     ],
     "ACB": [
         [
-            "u' m' u' m U' m' u m U u",
+            "u' m' u' m U' m' u m Uw",
             [
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi"
@@ -597,7 +597,7 @@
             "u':[m' u' m,U']"
         ],
         [
-            "U Lw' U' l U m' U' l' U m Lw U'",
+            "U Lw' U' l U m' U' l' U 3Lw U'",
             [
                 "Daniel Wallin"
             ],
@@ -687,7 +687,7 @@
     ],
     "ACF": [
         [
-            "Lw m U l' U' m' U l U' Lw'",
+            "3Lw U l' U' m' U l U' Lw'",
             [
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -718,7 +718,7 @@
             "Uw:[U,m u m']"
         ],
         [
-            "u' m' u m U' m' u' m U u",
+            "u' m' u m U' m' u' m Uw",
             [
                 "Kevin Matthews"
             ],
@@ -752,7 +752,7 @@
     ],
     "ACJ": [
         [
-            "Lw' m' U l U' m U l' U' Lw",
+            "3Lw' U l U' m U l' U' Lw",
             [
                 "Daniel Wallin",
                 "Kai Yamamoto (山本快)",
@@ -890,7 +890,7 @@
     ],
     "ACN": [
         [
-            "U Lw U' l' U m U' l U m' Lw' U'",
+            "U Lw U' l' U m U' l U 3Lw' U'",
             [
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -914,14 +914,14 @@
             "x' U':[l',U' m' U]"
         ],
         [
-            "U2 Rw' m U r U' m' U r' U' Rw U2",
+            "U2 3Rw' U r U' m' U r' U' Rw U2",
             [
                 "Leonardo Ezequiel Cruz"
             ],
             "U2 Rw':[m,U r U']"
         ],
         [
-            "y' U m d m' U' m d' m' y",
+            "4Dw m d m' U' m d' m' y",
             [
                 "Kevin Matthews"
             ],
@@ -984,7 +984,7 @@
             "[U,l' e2 l]"
         ],
         [
-            "U' 3Lw' r U m U' r' U m' U' 3Lw U",
+            "U' 4Lw' U m U' r' U m' U' 3Lw U",
             [
                 "Daniel Wallin"
             ],
@@ -1026,7 +1026,7 @@
             "[U,l e' l']"
         ],
         [
-            "Rw m' u' m U' m' u m U Rw'",
+            "3Rw u' m U' m' u m U Rw'",
             [
                 "Daniel Wallin",
                 "Kevin Matthews"
@@ -1043,7 +1043,7 @@
     ],
     "ACS": [
         [
-            "3Rw U' m U l' U' m' U l 3Rw'",
+            "3Rw U' m U l' U' m' U 4Rw'",
             [
                 "Daniel Wallin",
                 "Kai Yamamoto (山本快)"
@@ -1101,7 +1101,7 @@
             "U':[r' e r,U']"
         ],
         [
-            "Lw' Uw U' m U l U' m' U l' Uw' Lw",
+            "Lw' u m U l U' m' U l' Uw' Lw",
             [
                 "Daniel Wallin"
             ],
@@ -1110,7 +1110,7 @@
     ],
     "ACW": [
         [
-            "3Rw' U' m' U l U' m U l' 3Rw",
+            "3Rw' U' m' U l U' m U 4Rw",
             [
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -1156,7 +1156,7 @@
             "U':[r e' r',U']"
         ],
         [
-            "Lw Uw U' m U l' U' m' U l Uw' Lw'",
+            "Lw u m U l' U' m' U l Uw' Lw'",
             [
                 "Daniel Wallin"
             ],
@@ -1176,7 +1176,7 @@
             "[U,l e2 l']"
         ],
         [
-            "U' 3Lw r' U m' U' r U m U' 3Lw' U",
+            "U' 4Lw U m' U' r U m U' 3Lw' U",
             [
                 "Daniel Wallin"
             ],
@@ -1234,7 +1234,7 @@
     ],
     "ADB": [
         [
-            "Uw' m' U' m u m' U m u' Uw",
+            "Uw' m' U' m u m' U m U",
             [
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -1290,7 +1290,7 @@
     ],
     "ADF": [
         [
-            "Uw m U' m' u' m U m' u Uw'",
+            "Uw m U' m' u' m U m' U'",
             [
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -1356,7 +1356,7 @@
             "[d' L2 d,m]"
         ],
         [
-            "3Rw U m U' m' u m U m' u' U' 3Rw'",
+            "3Rw U m U' m' u m U m' Uw' 3Rw'",
             [
                 "Kevin Matthews"
             ],
@@ -1365,7 +1365,7 @@
     ],
     "ADK": [
         [
-            "Uw l2 U' m U l2 U' m' U Uw'",
+            "Uw l2 U' m U l2 U' m' u'",
             [
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -1500,7 +1500,7 @@
             "Uw':[r2,U' m' U]"
         ],
         [
-            "U' r2 Uw m Uw' r2 Uw m' Uw' U",
+            "U' r2 Uw m Uw' r2 Uw m' u'",
             [
                 "Kevin Matthews",
                 "Michael Tripodi"
@@ -1570,7 +1570,7 @@
     ],
     "ADQ": [
         [
-            "Rw U m' u m U' m' u' m Rw'",
+            "Rw U m' u m U' m' u' 3Rw'",
             [
                 "Daniel Wallin",
                 "Kevin Matthews"
@@ -1594,7 +1594,7 @@
             "U':[r,Uw' m' Uw]"
         ],
         [
-            "U' r Uw m Uw' r' Uw m' Uw' U",
+            "U' r Uw m Uw' r' Uw m' u'",
             [
                 "Michael Tripodi"
             ],
@@ -1634,7 +1634,7 @@
             "E':[U l' U',m]"
         ],
         [
-            "y l' U' m U l U' m' U y'",
+            "y l' U' m U l U' m' 4Dw",
             [
                 "Leonardo Ezequiel Cruz"
             ],
@@ -1657,7 +1657,7 @@
     ],
     "ADS": [
         [
-            "Uw l' U' m U l U' m' U Uw'",
+            "Uw l' U' m U l U' m' u'",
             [
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -1676,7 +1676,7 @@
             "l':[U',m' u m]"
         ],
         [
-            "L' e l' U l e' l' U' l L",
+            "L' e l' U l e' l' U' Lw",
             [
                 "Daniel Lin"
             ],
@@ -1701,7 +1701,7 @@
     ],
     "ADW": [
         [
-            "Uw l U' m U l' U' m' U Uw'",
+            "Uw l U' m U l' U' m' u'",
             [
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -1713,7 +1713,7 @@
             "Uw:[l,U' m U]"
         ],
         [
-            "L e' l U l' e l U' l' L'",
+            "L e' l U l' e l U' Lw'",
             [
                 "Daniel Lin",
                 "Leonardo Ezequiel Cruz"
@@ -1741,7 +1741,7 @@
             "Uw':[r',U' m' U]"
         ],
         [
-            "u Uw' r' Uw m Uw' r Uw m' u'",
+            "U' r' Uw m Uw' r Uw m' u'",
             [
                 "Kevin Matthews",
                 "Michael Tripodi"
@@ -1832,7 +1832,7 @@
             "Uw L:[U2,r' e r]"
         ],
         [
-            "y' U' m u m' U2 m u' m' U' y",
+            "y' U' m u m' U2 m u' m' 4Dw'",
             [
                 "Marcell Endrey"
             ],
@@ -1935,7 +1935,7 @@
             "Uw' L:[r' e r,U2]"
         ],
         [
-            "y' U' m u' m' U2 m u m' U' y",
+            "y' U' m u' m' U2 m u m' 4Dw'",
             [
                 "Marcell Endrey"
             ],
@@ -2256,7 +2256,7 @@
             "U':[r e r',U2]"
         ],
         [
-            "Rw m' u' m U2 m' u m U2 Rw'",
+            "3Rw u' m U2 m' u m U2 Rw'",
             [
                 "Daniel Wallin",
                 "Kevin Matthews"
@@ -2271,7 +2271,7 @@
             "U:[l e' l',U2]"
         ],
         [
-            "Rw' m d' m' U2 m d m' U2 Rw",
+            "3Rw' d' m' U2 m d m' U2 Rw",
             [
                 "Marcell Endrey"
             ],
@@ -2352,7 +2352,7 @@
             "U':[r' e r,U2]"
         ],
         [
-            "Lw' m' u m U2 m' u' m U2 Lw",
+            "3Lw' u m U2 m' u' m U2 Lw",
             [
                 "Daniel Wallin",
                 "Kevin Matthews"
@@ -2422,7 +2422,7 @@
             "U':[r e' r',U2]"
         ],
         [
-            "Lw U2 m u' m' U2 m u m' Lw'",
+            "Lw U2 m u' m' U2 m u 3Lw'",
             [
                 "Daniel Wallin",
                 "Kevin Matthews"
@@ -2491,7 +2491,7 @@
             "U':[r' e' r,U2]"
         ],
         [
-            "Rw' U2 m u m' U2 m u' m' Rw",
+            "Rw' U2 m u m' U2 m u' 3Rw",
             [
                 "Daniel Wallin",
                 "Kevin Matthews",
@@ -2529,7 +2529,7 @@
     ],
     "AFC": [
         [
-            "Lw U l' U' m U l U' m' Lw'",
+            "Lw U l' U' m U l U' 3Lw'",
             [
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -2560,7 +2560,7 @@
             "Uw:[m u m',U]"
         ],
         [
-            "Uw' m' u m U m' u' m U' Uw",
+            "Uw' m' u m U m' u' m u",
             [
                 "Kevin Matthews"
             ],
@@ -2569,7 +2569,7 @@
     ],
     "AFD": [
         [
-            "Uw u' m U' m' u m U m' Uw'",
+            "U m U' m' u m U m' Uw'",
             [
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -2622,11 +2622,11 @@
             "Uw' L:[U2,r' e r]"
         ],
         [
-            "y' U m u' m' U2 m u m' U y",
+            "4Dw m u' m' U2 m u m' U y",
             [
                 "Marcell Endrey"
             ],
-            "y' U:[m u' m',U2]"
+            "4Dw:[m u' m',U2]"
         ],
         [
             "U Rw U2 r' U m U' r U m' U Rw' U'",
@@ -2703,7 +2703,7 @@
             "[U l2 U',m]"
         ],
         [
-            "Lw U l U' m U l' U' m' Lw'",
+            "Lw U l U' m U l' U' 3Lw'",
             [
                 "Daniel Wallin",
                 "Kevin Matthews"
@@ -2729,7 +2729,7 @@
             "z:[e,r' U2 r]"
         ],
         [
-            "Lw2 U m U' m' u m U m' u' U' Lw2",
+            "Lw2 U m U' m' u m U m' Uw' Lw2",
             [
                 "Daniel Wallin"
             ],
@@ -2761,7 +2761,7 @@
             "D':[U' r2 U,m]"
         ],
         [
-            "D' Rw' U' r' U m U' r U m' Rw D",
+            "D' Rw' U' r' U m U' r U 3Rw D",
             [
                 "Kevin Matthews"
             ],
@@ -2797,7 +2797,7 @@
             "[U' r2 U,m]"
         ],
         [
-            "Rw' U' r' U m U' r U m' Rw",
+            "Rw' U' r' U m U' r U 3Rw",
             [
                 "Daniel Wallin",
                 "Kevin Matthews"
@@ -2822,7 +2822,7 @@
             "z':[e',l U2 l']"
         ],
         [
-            "Rw2 U' m U m' u' m U' m' u U Rw2",
+            "Rw2 U' m U m' u' m U' m' Uw Rw2",
             [
                 "Daniel Wallin"
             ],
@@ -3000,7 +3000,7 @@
             "e':[U' r' U,m]"
         ],
         [
-            "Lw U m U' m' u m U m' u' U' Lw'",
+            "Lw U m U' m' u m U m' Uw' Lw'",
             [
                 "Daniel Wallin"
             ],
@@ -3014,7 +3014,7 @@
             "e:[U l' U',m]"
         ],
         [
-            "L U m U' m' u m U m' u' U' L'",
+            "L U m U' m' u m U m' Uw' L'",
             [
                 "Kevin Matthews"
             ],
@@ -3059,14 +3059,14 @@
             "z':[e',l U' l']"
         ],
         [
-            "Rw' U' m U m' u' m U' m' u U Rw",
+            "Rw' U' m U m' u' m U' m' Uw Rw",
             [
                 "Daniel Wallin"
             ],
             "Rw' U':[m U m',u']"
         ],
         [
-            "R' U' m U m' u' m U' m' u U R",
+            "R' U' m U m' u' m U' m' Uw R",
             [
                 "Kevin Matthews"
             ],
@@ -3225,7 +3225,7 @@
             "x:[u2,U m' U m]"
         ],
         [
-            "D 3Rw U' r U m U' r' U m' 3Rw' D'",
+            "D 3Rw U' r U m U' r' U Rw' D'",
             [
                 "Kevin Matthews"
             ],
@@ -3253,7 +3253,7 @@
             "Dw:[m',U' r2 U]"
         ],
         [
-            "y' U m' U' r2 U m U' r2 y",
+            "4Dw m' U' r2 U m U' r2 y",
             [
                 "Daniel Lin",
                 "Kevin Matthews",
@@ -3333,7 +3333,7 @@
             "Dw':[m',U l2 U']"
         ],
         [
-            "y U' m' U l2 U' m U l2 y'",
+            "4Dw' m' U l2 U' m U l2 y'",
             [
                 "Daniel Lin",
                 "Marcell Endrey"
@@ -3415,11 +3415,11 @@
             "D r':[r' U' r,e]"
         ],
         [
-            "y D l' U m2 U' l U m2 U' D' y'",
+            "4Uw l' U m2 U' l U m2 U' 4Uw'",
             [
                 "Daniel Lin"
             ],
-            "y D:[l',U m2 U']"
+            "4Uw:[l',U m2 U']"
         ]
     ],
     "AIS": [
@@ -3508,7 +3508,7 @@
     ],
     "AIX": [
         [
-            "L' y' U m' U' r2 U m U' r2 y L",
+            "L' 4Dw m' U' r2 U m U' r2 y L",
             [
                 "Daniel Lin",
                 "Kevin Matthews"
@@ -3619,7 +3619,7 @@
             "D r:[r U' r',e']"
         ],
         [
-            "R y U' m' U l2 U' m U l2 y' R'",
+            "R 4Dw' m' U l2 U' m U l2 y' R'",
             [
                 "Daniel Lin"
             ],
@@ -3628,7 +3628,7 @@
     ],
     "AJC": [
         [
-            "Lw' U l U' m' U l' U' m Lw",
+            "Lw' U l U' m' U l' U' 3Lw",
             [
                 "Daniel Wallin",
                 "Kai Yamamoto (山本快)",
@@ -3686,7 +3686,7 @@
             "[m,d' L2 d]"
         ],
         [
-            "3Rw Uw m U' m' u' m U m' u Uw' 3Rw'",
+            "3Rw Uw m U' m' u' m U m' U' 3Rw'",
             [
                 "Kevin Matthews"
             ],
@@ -3776,7 +3776,7 @@
             "x:[U m' U m,u2]"
         ],
         [
-            "D Rw U' r U m' U' r' U m Rw' D'",
+            "D Rw U' r U m' U' r' U 3Rw' D'",
             [
                 "Kevin Matthews"
             ],
@@ -3798,7 +3798,7 @@
             "[U l2 U',m']"
         ],
         [
-            "Lw' U l' U' m' U l U' m Lw",
+            "Lw' U l' U' m' U l U' 3Lw",
             [
                 "Daniel Wallin",
                 "Kevin Matthews"
@@ -3820,14 +3820,14 @@
             "U:[m' U' m,d]"
         ],
         [
-            "Lw' 3Uw l 3Uw' m' 3Uw l' 3Uw' m Lw",
+            "Lw' 3Uw l 3Uw' m' 3Uw l' 3Uw' 3Lw",
             [
                 "Daniel Wallin"
             ],
             "Lw':[3Uw l 3Uw',m']"
         ],
         [
-            "Lw' 3Uw' r 3Uw m' 3Uw' r' 3Uw m Lw",
+            "Lw' 3Uw' r 3Uw m' 3Uw' r' 3Uw 3Lw",
             [
                 "Kai Yamamoto (山本快)"
             ],
@@ -3907,7 +3907,7 @@
             "[U' r2 U,m']"
         ],
         [
-            "Rw U' r U m' U' r' U m Rw'",
+            "Rw U' r U m' U' r' U 3Rw'",
             [
                 "Daniel Wallin",
                 "Kevin Matthews"
@@ -3929,7 +3929,7 @@
             "U:[m' U' m,d']"
         ],
         [
-            "Rw 3Uw' r' 3Uw m' 3Uw' r 3Uw m Rw'",
+            "Rw 3Uw' r' 3Uw m' 3Uw' r 3Uw 3Rw'",
             [
                 "Daniel Wallin",
                 "Kai Yamamoto (山本快)"
@@ -3937,7 +3937,7 @@
             "Rw:[3Uw' r' 3Uw,m']"
         ],
         [
-            "z' 3Uw' r U r' e' r U' r' e 3Uw z",
+            "z' 3Uw' r U r' e' r U' r' Uw z",
             [
                 "Kevin Matthews"
             ],
@@ -4227,7 +4227,7 @@
     ],
     "AKD": [
         [
-            "Uw U' m U l2 U' m' U l2 Uw'",
+            "u m U l2 U' m' U l2 Uw'",
             [
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -4312,7 +4312,7 @@
             "[m,U l2 U']"
         ],
         [
-            "Lw m U l U' m' U l' U' Lw'",
+            "3Lw U l U' m' U l' U' Lw'",
             [
                 "Daniel Wallin",
                 "Kevin Matthews"
@@ -4344,7 +4344,7 @@
             "[m',U l2 U']"
         ],
         [
-            "Lw' m' U l' U' m U l U' Lw",
+            "3Lw' U l' U' m U l U' Lw",
             [
                 "Daniel Wallin",
                 "Kevin Matthews"
@@ -4365,7 +4365,7 @@
             "d:[m',U l2 U']"
         ],
         [
-            "D y' U m' U' r2 U m U' r2 y D'",
+            "D 4Dw m' U' r2 U m U' r2 y D'",
             [
                 "Leonardo Ezequiel Cruz"
             ],
@@ -4567,7 +4567,7 @@
             "y':[r,U' m2 U]"
         ],
         [
-            "Lw' Uw U' m U l' U' m' U l Uw' Lw",
+            "Lw' u m U l' U' m' U l Uw' Lw",
             [
                 "Daniel Wallin"
             ],
@@ -4615,18 +4615,18 @@
             "l':[l' U l,e]"
         ],
         [
-            "Lw Uw U' m U l U' m' U l' Uw' Lw'",
+            "Lw u m U l U' m' U l' Uw' Lw'",
             [
                 "Daniel Wallin"
             ],
             "Lw Uw:[U' m U,l]"
         ],
         [
-            "y U2 r' U m2 U' r U m2 U y'",
+            "y U2 r' U m2 U' r U m2 4Dw",
             [
                 "Kevin Matthews"
             ],
-            "y U':[U' r' U,m2]"
+            "4Dw':[U' r' U,m2]"
         ]
     ],
     "AKY": [
@@ -4669,12 +4669,12 @@
             "l:[l U l',e]"
         ],
         [
-            "y U2 r U m2 U' r' U m2 U y'",
+            "y U2 r U m2 U' r' U m2 4Dw",
             [
                 "Kevin Matthews",
                 "Marcell Endrey"
             ],
-            "y U':[U' r U,m2]"
+            "4Dw':[U' r U,m2]"
         ],
         [
             "x z' U m' U l U' m U l' U2 z x'",
@@ -4694,7 +4694,7 @@
             "U m':[m' d' m,U]"
         ],
         [
-            "Lw2 U' u' m' U' m u m' U m U Lw2",
+            "Lw2 Uw' m' U' m u m' U m U Lw2",
             [
                 "Daniel Wallin"
             ],
@@ -4797,7 +4797,7 @@
             "z:[r' U2 r,e]"
         ],
         [
-            "Lw2 U u m U' m' u' m U m' U' Lw2",
+            "Lw2 Uw m U' m' u' m U m' U' Lw2",
             [
                 "Daniel Wallin"
             ],
@@ -4830,7 +4830,7 @@
             "Dw:[U' r2 U,m']"
         ],
         [
-            "y' r2 U m' U' r2 U m U' y",
+            "y' r2 U m' U' r2 U m 4Dw'",
             [
                 "Daniel Lin",
                 "Kevin Matthews",
@@ -4853,14 +4853,14 @@
             "U:[d,m' U' m]"
         ],
         [
-            "Lw' m' 3Uw l 3Uw' m 3Uw l' 3Uw' Lw",
+            "3Lw' 3Uw l 3Uw' m 3Uw l' 3Uw' Lw",
             [
                 "Daniel Wallin"
             ],
             "Lw':[m',3Uw l 3Uw']"
         ],
         [
-            "3Lw' 3Uw' r 3Uw m 3Uw' r' 3Uw m' 3Lw",
+            "3Lw' 3Uw' r 3Uw m 3Uw' r' 3Uw Lw",
             [
                 "Kai Yamamoto (山本快)"
             ],
@@ -4880,7 +4880,7 @@
             "d:[U l2 U',m']"
         ],
         [
-            "D y' r2 U m' U' r2 U m U' y D'",
+            "D y' r2 U m' U' r2 U m 4Dw' D'",
             [
                 "Leonardo Ezequiel Cruz"
             ],
@@ -4990,12 +4990,12 @@
             "x z:[U' r' U,m']"
         ],
         [
-            "y' D' r2 U m' U' r2 U m U' D y",
+            "4Uw' r2 U m' U' r2 U m U' 4Uw",
             [
                 "Daniel Lin",
                 "Leonardo Ezequiel Cruz"
             ],
-            "y' D':[r2,U m' U']"
+            "4Uw':[r2,U m' U']"
         ],
         [
             "z y' U' r' U m' U' r U m y z'",
@@ -5032,7 +5032,7 @@
             "R y:[l',U m U']"
         ],
         [
-            "R y' r' U m' U' r U m U' y R'",
+            "R y' r' U m' U' r U m 4Dw' R'",
             [
                 "Michael Tripodi"
             ],
@@ -5070,7 +5070,7 @@
     ],
     "ALR": [
         [
-            "y' r' U m' U' r U m U' y",
+            "y' r' U m' U' r U m 4Dw'",
             [
                 "Kevin Matthews",
                 "Marcell Endrey",
@@ -5126,7 +5126,7 @@
     ],
     "ALT": [
         [
-            "y' r U m' U' r' U m U' y",
+            "y' r U m' U' r' U m 4Dw'",
             [
                 "Daniel Lin"
             ],
@@ -5171,7 +5171,7 @@
             "Dw:[U' r' U,m']"
         ],
         [
-            "Rw' U m d m' U' m d' m' Rw",
+            "Rw' U m d m' U' m d' 3Rw",
             [
                 "Kevin Matthews"
             ],
@@ -5204,12 +5204,12 @@
             "E:[U l U',m']"
         ],
         [
-            "y' U2 l U' m' U l' U' m U' y",
+            "y' U2 l U' m' U l' U' m 4Dw'",
             [
                 "Daniel Lin",
                 "Michael Tripodi"
             ],
-            "y' U:[U l U',m']"
+            "4Dw:[U l U',m']"
         ],
         [
             "3Dw U l U' m' U l' U' m 3Dw'",
@@ -5381,7 +5381,7 @@
             "D':[m,U' r2 U]"
         ],
         [
-            "D' 3Rw' U' r' U m' U' r U m 3Rw D",
+            "D' 3Rw' U' r' U m' U' r U Rw D",
             [
                 "Kevin Matthews"
             ],
@@ -5530,11 +5530,11 @@
             "U m':[m' U' m,d']"
         ],
         [
-            "y U' m' U' r2 U m U' r2 U2 y'",
+            "4Dw' m' U' r2 U m U' r2 U2 y'",
             [
                 "Kevin Matthews"
             ],
-            "y U':[m',U' r2 U]"
+            "4Dw':[m',U' r2 U]"
         ]
     ],
     "AMQ": [
@@ -5827,7 +5827,7 @@
     ],
     "ANC": [
         [
-            "U Lw m U' l' U m' U' l U Lw' U'",
+            "U 3Lw U' l' U m' U' l U Lw' U'",
             [
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -5851,14 +5851,14 @@
             "x' U':[U' m' U,l']"
         ],
         [
-            "U2 Rw' U r U' m U r' U' m' Rw U2",
+            "U2 Rw' U r U' m U r' U' 3Rw U2",
             [
                 "Leonardo Ezequiel Cruz"
             ],
             "U2 Rw':[U r U',m]"
         ],
         [
-            "y' m d m' U m d' m' U' y",
+            "y' m d m' U m d' m' 4Dw'",
             [
                 "Kevin Matthews"
             ],
@@ -6389,7 +6389,7 @@
             "Uw':[U' m' U,r2]"
         ],
         [
-            "u m Uw' r2 Uw m' Uw' r2 Uw u'",
+            "u m Uw' r2 Uw m' Uw' r2 U",
             [
                 "Kevin Matthews",
                 "Michael Tripodi"
@@ -6468,7 +6468,7 @@
             "[m,U' r2 U]"
         ],
         [
-            "Rw' m U' r' U m' U' r U Rw",
+            "3Rw' U' r' U m' U' r U Rw",
             [
                 "Daniel Wallin",
                 "Kevin Matthews"
@@ -6508,7 +6508,7 @@
             "[m',U' r2 U]"
         ],
         [
-            "Rw m' U' r U m U' r' U Rw'",
+            "3Rw U' r U m U' r' U Rw'",
             [
                 "Daniel Wallin",
                 "Kevin Matthews"
@@ -6544,12 +6544,12 @@
             "x z:[m',U' r' U]"
         ],
         [
-            "y' D' U m' U' r2 U m U' r2 D y",
+            "4Uw' U m' U' r2 U m U' r2 4Uw",
             [
                 "Daniel Lin",
                 "Leonardo Ezequiel Cruz"
             ],
-            "y' D':[U m' U',r2]"
+            "4Uw':[U m' U',r2]"
         ],
         [
             "z y' m' U' r' U m U' r U y z'",
@@ -6613,7 +6613,7 @@
             "4Uw':[U' m U,r2]"
         ],
         [
-            "D' y U' m' U l2 U' m U l2 y' D",
+            "D' 4Dw' m' U l2 U' m U l2 y' D",
             [
                 "Leonardo Ezequiel Cruz"
             ],
@@ -6683,14 +6683,14 @@
             "x z':[U m' U',l]"
         ],
         [
-            "Rw Uw' U m U' r U m' U' r' Uw Rw'",
+            "Rw u' m U' r U m' U' r' Uw Rw'",
             [
                 "Daniel Wallin"
             ],
             "Rw Uw':[U m U',r]"
         ],
         [
-            "y' r' U m2 U' r U m2 U' y",
+            "y' r' U m2 U' r U m2 4Dw'",
             [
                 "Kevin Matthews"
             ],
@@ -6746,7 +6746,7 @@
             "x z:[U m' U',r']"
         ],
         [
-            "y' r U m2 U' r' U m2 U' y",
+            "y' r U m2 U' r' U m2 4Dw'",
             [
                 "Daniel Lin"
             ],
@@ -6850,7 +6850,7 @@
             "y U:[U r U',m2]"
         ],
         [
-            "Rw' Uw' U m U' r' U m' U' r Uw Rw",
+            "Rw' u' m U' r' U m' U' r Uw Rw",
             [
                 "Daniel Wallin"
             ],
@@ -6868,7 +6868,7 @@
             "U m':[m' d m,U]"
         ],
         [
-            "Rw2 U u m' U m u' m' U' m U' Rw2",
+            "Rw2 Uw m' U m u' m' U' m U' Rw2",
             [
                 "Daniel Wallin"
             ],
@@ -7002,7 +7002,7 @@
             "z':[l U2 l',e']"
         ],
         [
-            "Rw2 U' u' m U m' u m U' m' U Rw2",
+            "Rw2 Uw' m U m' u m U' m' U Rw2",
             [
                 "Daniel Wallin"
             ],
@@ -7042,7 +7042,7 @@
             "Dw':[U l2 U',m']"
         ],
         [
-            "y l2 U' m' U l2 U' m U y'",
+            "y l2 U' m' U l2 U' m 4Dw",
             [
                 "Daniel Lin",
                 "Marcell Endrey"
@@ -7077,7 +7077,7 @@
             "U:[d',m' U' m]"
         ],
         [
-            "Rw m' 3Uw' r' 3Uw m 3Uw' r 3Uw Rw'",
+            "3Rw 3Uw' r' 3Uw m 3Uw' r 3Uw Rw'",
             [
                 "Daniel Wallin",
                 "Kai Yamamoto (山本快)"
@@ -7092,7 +7092,7 @@
             "U':[d',m' U m]"
         ],
         [
-            "z' Uw' r U r' e r U' r' e' Uw z",
+            "z' Uw' r U r' e r U' r' 3Uw z",
             [
                 "Kevin Matthews"
             ],
@@ -7160,7 +7160,7 @@
             "R y:[U m U',l']"
         ],
         [
-            "R y' U m' U' r' U m U' r y R'",
+            "R 4Dw m' U' r' U m U' r y R'",
             [
                 "Michael Tripodi"
             ],
@@ -7194,11 +7194,11 @@
             "U m':[d',m' U' m]"
         ],
         [
-            "y U2 r2 U m' U' r2 U m U y'",
+            "y U2 r2 U m' U' r2 U m 4Dw",
             [
                 "Kevin Matthews"
             ],
-            "y U':[U' r2 U,m']"
+            "4Dw':[U' r2 U,m']"
         ]
     ],
     "APN": [
@@ -7249,7 +7249,7 @@
             "4Uw':[r2,U' m U]"
         ],
         [
-            "D' y l2 U' m' U l2 U' m U y' D",
+            "D' y l2 U' m' U l2 U' m 4Dw D",
             [
                 "Leonardo Ezequiel Cruz"
             ],
@@ -7311,7 +7311,7 @@
     ],
     "APT": [
         [
-            "y l U' m' U l' U' m U y'",
+            "y l U' m' U l' U' m 4Dw",
             [
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -7364,7 +7364,7 @@
             "Dw':[U l U',m']"
         ],
         [
-            "Lw U' m d' m' U m d m' Lw'",
+            "Lw U' m d' m' U m d 3Lw'",
             [
                 "Daniel Lin",
                 "Kevin Matthews"
@@ -7374,14 +7374,14 @@
     ],
     "APX": [
         [
-            "y U2 r' U m' U' r U m U y'",
+            "y U2 r' U m' U' r U m 4Dw",
             [
                 "Daniel Lin",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi"
             ],
-            "y U':[U' r' U,m']"
+            "4Dw':[U' r' U,m']"
         ],
         [
             "3Dw' U' r' U m' U' r U m 3Dw",
@@ -7459,7 +7459,7 @@
             "[l' e2 l,U]"
         ],
         [
-            "U' 3Lw' U m U' r U m' U' r' 3Lw U",
+            "U' 3Lw' U m U' r U m' U' 4Lw U",
             [
                 "Daniel Wallin"
             ],
@@ -7489,7 +7489,7 @@
     ],
     "AQD": [
         [
-            "Rw m' u m U m' u' m U' Rw'",
+            "3Rw u m U m' u' m U' Rw'",
             [
                 "Daniel Wallin",
                 "Kevin Matthews"
@@ -7513,7 +7513,7 @@
             "U':[Uw' m' Uw,r]"
         ],
         [
-            "U' Uw m Uw' r Uw m' Uw' r' U",
+            "u m Uw' r Uw m' Uw' r' U",
             [
                 "Michael Tripodi"
             ],
@@ -7755,7 +7755,7 @@
             "r:[U',r e r']"
         ],
         [
-            "Rw m' u' m U m' u m U' Rw'",
+            "3Rw u' m U m' u m U' Rw'",
             [
                 "Daniel Wallin",
                 "Kevin Matthews",
@@ -7907,7 +7907,7 @@
     ],
     "ARB": [
         [
-            "Rw U u m' U m u' m' U' m U' Rw'",
+            "Rw Uw m' U m u' m' U' m U' Rw'",
             [
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -7924,7 +7924,7 @@
             "F':[e',l' U l]"
         ],
         [
-            "R Uw m' U m u' m' U' m u Uw' R'",
+            "R Uw m' U m u' m' U' m U' R'",
             [
                 "Kevin Matthews"
             ],
@@ -7952,7 +7952,7 @@
             "[l e' l',U]"
         ],
         [
-            "Rw U' m' u' m U m' u m Rw'",
+            "Rw U' m' u' m U m' u 3Rw'",
             [
                 "Daniel Wallin",
                 "Kevin Matthews"
@@ -7993,7 +7993,7 @@
             "y':[U' m' U,r']"
         ],
         [
-            "y U' m U l' U' m' U l y'",
+            "4Dw' m U l' U' m' U l y'",
             [
                 "Leonardo Ezequiel Cruz"
             ],
@@ -8027,7 +8027,7 @@
             "U:[r e r',U2]"
         ],
         [
-            "Rw U2 m' u' m U2 m' u m Rw'",
+            "Rw U2 m' u' m U2 m' u 3Rw'",
             [
                 "Daniel Wallin",
                 "Kevin Matthews"
@@ -8042,7 +8042,7 @@
             "U':[l e' l',U2]"
         ],
         [
-            "Rw' U2 m d' m' U2 m d m' Rw",
+            "Rw' U2 m d' m' U2 m d 3Rw",
             [
                 "Marcell Endrey"
             ],
@@ -8145,11 +8145,11 @@
             "D r':[e,r' U' r]"
         ],
         [
-            "y D U m2 U' l' U m2 U' l D' y'",
+            "4Uw U m2 U' l' U m2 U' l 4Uw'",
             [
                 "Daniel Lin"
             ],
-            "y D:[U m2 U',l']"
+            "4Uw:[U m2 U',l']"
         ]
     ],
     "ARJ": [
@@ -8233,7 +8233,7 @@
     ],
     "ARL": [
         [
-            "y' U m' U' r' U m U' r y",
+            "4Dw m' U' r' U m U' r y",
             [
                 "Kevin Matthews",
                 "Marcell Endrey",
@@ -8376,14 +8376,14 @@
             "x z':[l,U m' U']"
         ],
         [
-            "Rw Uw' r U m U' r' U m' U' Uw Rw'",
+            "Rw Uw' r U m U' r' U m' u Rw'",
             [
                 "Daniel Wallin"
             ],
             "Rw Uw':[r,U m U']"
         ],
         [
-            "y' U m2 U' r' U m2 U' r y",
+            "4Dw m2 U' r' U m2 U' r y",
             [
                 "Kevin Matthews"
             ],
@@ -8411,7 +8411,7 @@
             "r:[r e r',U']"
         ],
         [
-            "Rw U m' u' m U' m' u m Rw'",
+            "Rw U m' u' m U' m' u 3Rw'",
             [
                 "Daniel Wallin",
                 "Kevin Matthews",
@@ -8446,7 +8446,7 @@
     ],
     "ART": [
         [
-            "R' y l U' m' U l' U' m U y' R",
+            "R' y l U' m' U l' U' m 4Dw R",
             [
                 "Daniel Wallin",
                 "Leonardo Ezequiel Cruz"
@@ -8542,7 +8542,7 @@
             "e':[l' U l,e2]"
         ],
         [
-            "L' y' U m' U' r' U m U' r y L",
+            "L' 4Dw m' U' r' U m U' r y L",
             [
                 "Daniel Wallin"
             ],
@@ -8585,7 +8585,7 @@
             "[e,r' U' r]"
         ],
         [
-            "Rw' U m d' m' U' m d m' Rw",
+            "Rw' U m d' m' U' m d 3Rw",
             [
                 "Kevin Matthews"
             ],
@@ -8612,7 +8612,7 @@
     ],
     "ASC": [
         [
-            "3Rw l' U' m U l U' m' U 3Rw'",
+            "4Rw U' m U l U' m' U 3Rw'",
             [
                 "Daniel Wallin",
                 "Kai Yamamoto (山本快)"
@@ -8651,7 +8651,7 @@
     ],
     "ASD": [
         [
-            "Uw U' m U l' U' m' U l Uw'",
+            "u m U l' U' m' U l Uw'",
             [
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -8670,7 +8670,7 @@
             "l':[m' u m,U']"
         ],
         [
-            "L' l' U l e l' U' l e' L",
+            "Lw' U l e l' U' l e' L",
             [
                 "Daniel Lin"
             ],
@@ -8944,7 +8944,7 @@
     ],
     "AST": [
         [
-            "Lw' m' u m U' m' u' m U Lw",
+            "3Lw' u m U' m' u' m U Lw",
             [
                 "Daniel Wallin",
                 "Kevin Matthews",
@@ -9103,7 +9103,7 @@
     ],
     "ATB": [
         [
-            "Lw' U' u' m' U' m u m' U m U Lw",
+            "Lw' Uw' m' U' m u m' U m U Lw",
             [
                 "Daniel Wallin",
                 "Ryan Eckersley"
@@ -9119,7 +9119,7 @@
             "F:[e,r U' r']"
         ],
         [
-            "L' Uw' m' U' m u m' U m u' Uw L",
+            "L' Uw' m' U' m u m' U m U L",
             [
                 "Kevin Matthews"
             ],
@@ -9161,7 +9161,7 @@
             "U':[U',r' e r]"
         ],
         [
-            "Lw' Uw l U' m U l' U' m' U Uw' Lw",
+            "Lw' Uw l U' m U l' U' m' u' Lw",
             [
                 "Daniel Wallin"
             ],
@@ -9197,7 +9197,7 @@
             "U:[r' e r,U2]"
         ],
         [
-            "Lw' U2 m' u m U2 m' u' m Lw",
+            "Lw' U2 m' u m U2 m' u' 3Lw",
             [
                 "Daniel Wallin",
                 "Kevin Matthews"
@@ -9355,7 +9355,7 @@
             "y':[U' m2 U,r]"
         ],
         [
-            "Lw' Uw l' U' m U l U' m' U Uw' Lw",
+            "Lw' Uw l' U' m U l U' m' u' Lw",
             [
                 "Daniel Wallin"
             ],
@@ -9467,7 +9467,7 @@
             "x z:[r',U m' U']"
         ],
         [
-            "y' U m2 U' r U m2 U' r' y",
+            "4Dw m2 U' r U m2 U' r' y",
             [
                 "Daniel Lin"
             ],
@@ -9476,7 +9476,7 @@
     ],
     "ATP": [
         [
-            "y U' m' U l U' m U l' y'",
+            "4Dw' m' U l U' m U l' y'",
             [
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -9527,7 +9527,7 @@
     ],
     "ATR": [
         [
-            "R' y U' m' U l U' m U l' y' R",
+            "R' 4Dw' m' U l U' m U l' y' R",
             [
                 "Daniel Wallin",
                 "Leonardo Ezequiel Cruz"
@@ -9566,7 +9566,7 @@
     ],
     "ATS": [
         [
-            "Lw' U' m' u m U m' u' m Lw",
+            "Lw' U' m' u m U m' u' 3Lw",
             [
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -9612,7 +9612,7 @@
             "[e',l U l']"
         ],
         [
-            "Lw U' m d m' U m d' m' Lw'",
+            "Lw U' m d m' U m d' 3Lw'",
             [
                 "Kevin Matthews"
             ],
@@ -9674,7 +9674,7 @@
             "e:[r U' r',e2]"
         ],
         [
-            "R y U' m' U l U' m U l' y' R'",
+            "R 4Dw' m' U l U' m U l' y' R'",
             [
                 "Daniel Wallin"
             ],
@@ -9713,7 +9713,7 @@
     ],
     "AWC": [
         [
-            "3Rw' l U' m' U l' U' m U 3Rw",
+            "4Rw' U' m' U l' U' m U 3Rw",
             [
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -9739,7 +9739,7 @@
     ],
     "AWD": [
         [
-            "Uw U' m U l U' m' U l' Uw'",
+            "u m U l U' m' U l' Uw'",
             [
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -9751,7 +9751,7 @@
             "Uw:[U' m U,l]"
         ],
         [
-            "L l U l' e' l U' l' e L'",
+            "Lw U l' e' l U' l' e L'",
             [
                 "Daniel Lin",
                 "Leonardo Ezequiel Cruz"
@@ -9969,7 +9969,7 @@
             "Dw':[m',U l U']"
         ],
         [
-            "Lw m d' m' U' m d m' U Lw'",
+            "3Lw d' m' U' m d m' U Lw'",
             [
                 "Daniel Lin",
                 "Kevin Matthews"
@@ -10093,7 +10093,7 @@
             "[l U l',e']"
         ],
         [
-            "3Lw d m' U' m d' m' U m 3Lw'",
+            "3Lw d m' U' m d' m' U Lw'",
             [
                 "Kevin Matthews"
             ],
@@ -10156,7 +10156,7 @@
     ],
     "AXB": [
         [
-            "Lw U' u' m' U' m u m' U m U Lw'",
+            "Lw Uw' m' U' m u m' U m U Lw'",
             [
                 "Daniel Wallin",
                 "Michael Tripodi",
@@ -10172,7 +10172,7 @@
             "U2:[m',4Uw r' 4Uw']"
         ],
         [
-            "L Uw' m' U' m u m' U m u' Uw L'",
+            "L Uw' m' U' m u m' U m U L'",
             [
                 "Kevin Matthews"
             ],
@@ -10215,7 +10215,7 @@
             "U':[U',r e' r']"
         ],
         [
-            "Lw Uw l' U' m U l U' m' U Uw' Lw'",
+            "Lw Uw l' U' m U l U' m' u' Lw'",
             [
                 "Daniel Wallin"
             ],
@@ -10245,7 +10245,7 @@
             "U:[r e' r',U2]"
         ],
         [
-            "Lw m u' m' U2 m u m' U2 Lw'",
+            "3Lw u' m' U2 m u m' U2 Lw'",
             [
                 "Daniel Wallin",
                 "Kevin Matthews"
@@ -10270,7 +10270,7 @@
             "e':[m,U' r' U]"
         ],
         [
-            "Lw U u m U' m' u' m U m' U' Lw'",
+            "Lw Uw m U' m' u' m U m' U' Lw'",
             [
                 "Daniel Wallin"
             ],
@@ -10284,7 +10284,7 @@
             "e:[m,U l' U']"
         ],
         [
-            "L Uw m U' m' u' m U m' u Uw' L'",
+            "L Uw m U' m' u' m U m' U' L'",
             [
                 "Kevin Matthews"
             ],
@@ -10300,7 +10300,7 @@
     ],
     "AXI": [
         [
-            "L' y' r2 U m' U' r2 U m U' y L",
+            "L' y' r2 U m' U' r2 U m 4Dw' L",
             [
                 "Daniel Lin",
                 "Kevin Matthews"
@@ -10396,18 +10396,18 @@
             "l':[e,l' U l]"
         ],
         [
-            "Lw Uw l U' m U l' U' m' U Uw' Lw'",
+            "Lw Uw l U' m U l' U' m' u' Lw'",
             [
                 "Daniel Wallin"
             ],
             "Lw Uw:[l,U' m U]"
         ],
         [
-            "y U' m2 U' r' U m2 U' r U2 y'",
+            "4Dw' m2 U' r' U m2 U' r U2 y'",
             [
                 "Kevin Matthews"
             ],
-            "y U':[m2,U' r' U]"
+            "4Dw':[m2,U' r' U]"
         ]
     ],
     "AXL": [
@@ -10531,14 +10531,14 @@
     ],
     "AXP": [
         [
-            "y U' m' U' r' U m U' r U2 y'",
+            "4Dw' m' U' r' U m U' r U2 y'",
             [
                 "Daniel Lin",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi"
             ],
-            "y U':[m',U' r' U]"
+            "4Dw':[m',U' r' U]"
         ],
         [
             "3Dw' m' U' r' U m U' r U 3Dw",
@@ -10582,7 +10582,7 @@
             "Lw Uw':[r,U' m' U]"
         ],
         [
-            "Rw2 R' e' r' U' r e r' U r R Rw2",
+            "Rw2 R' e' r' U' r e r' U Rw'",
             [
                 "Kevin Matthews"
             ],
@@ -10607,7 +10607,7 @@
             "e:[l' U l,e2]"
         ],
         [
-            "L' y' r' U m' U' r U m U' y L",
+            "L' y' r' U m' U' r U m 4Dw' L",
             [
                 "Daniel Wallin"
             ],
@@ -10707,14 +10707,14 @@
     ],
     "AXZ": [
         [
-            "R y U' m' U' r' U m U' r U2 y' R'",
+            "R 4Dw' m' U' r' U m U' r U2 y' R'",
             [
                 "Daniel Lin",
                 "Daniel Wallin",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz"
             ],
-            "R y U':[m',U' r' U]"
+            "R 4Dw':[m',U' r' U]"
         ],
         [
             "R E' m' U' r' U m U' r U E R'",
@@ -10773,7 +10773,7 @@
             "[l e2 l',U]"
         ],
         [
-            "U' 3Lw U m' U' r' U m U' r 3Lw' U",
+            "U' 3Lw U m' U' r' U m U' 4Lw' U",
             [
                 "Daniel Wallin"
             ],
@@ -10812,7 +10812,7 @@
             "Uw':[U' m' U,r']"
         ],
         [
-            "u m Uw' r' Uw m' Uw' r Uw u'",
+            "u m Uw' r' Uw m' Uw' r U",
             [
                 "Kevin Matthews",
                 "Michael Tripodi"
@@ -10966,7 +10966,7 @@
             "Dw:[m',U' r' U]"
         ],
         [
-            "3Rw' d m' U m d' m' U' m 3Rw",
+            "3Rw' d m' U m d' m' U' Rw",
             [
                 "Kevin Matthews"
             ],
@@ -11119,7 +11119,7 @@
             "[r' U' r,e]"
         ],
         [
-            "3Rw' d' m' U m d m' U' m 3Rw",
+            "3Rw' d' m' U m d m' U' Rw",
             [
                 "Kevin Matthews"
             ],
@@ -11250,7 +11250,7 @@
     ],
     "AZB": [
         [
-            "Rw' U u m' U m u' m' U' m U' Rw",
+            "Rw' Uw m' U m u' m' U' m U' Rw",
             [
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -11267,7 +11267,7 @@
             "U2:[m',4Uw r 4Uw']"
         ],
         [
-            "R' Uw m' U m u' m' U' m u Uw' R",
+            "R' Uw m' U m u' m' U' m U' R",
             [
                 "Kevin Matthews"
             ],
@@ -11357,7 +11357,7 @@
             "U:[r' e' r,U2]"
         ],
         [
-            "Rw' m u m' U2 m u' m' U2 Rw",
+            "3Rw' u m' U2 m u' m' U2 Rw",
             [
                 "Daniel Wallin",
                 "Kevin Matthews",
@@ -11385,14 +11385,14 @@
             "z':[l U' l',e']"
         ],
         [
-            "Rw' U' u' m U m' u m U' m' U Rw",
+            "Rw' Uw' m U m' u m U' m' U Rw",
             [
                 "Daniel Wallin"
             ],
             "Rw' U':[u',m U m']"
         ],
         [
-            "R' Uw' m U m' u m U' m' u' Uw R",
+            "R' Uw' m U m' u m U' m' U R",
             [
                 "Kevin Matthews"
             ],
@@ -11445,7 +11445,7 @@
             "D r:[e',r U' r']"
         ],
         [
-            "R y l2 U' m' U l2 U' m U y' R'",
+            "R y l2 U' m' U l2 U' m 4Dw R'",
             [
                 "Daniel Lin"
             ],
@@ -11499,12 +11499,12 @@
             "l:[e,l U l']"
         ],
         [
-            "y U' m2 U' r U m2 U' r' U2 y'",
+            "4Dw' m2 U' r U m2 U' r' U2 y'",
             [
                 "Kevin Matthews",
                 "Marcell Endrey"
             ],
-            "y U':[m2,U' r U]"
+            "4Dw':[m2,U' r U]"
         ],
         [
             "x z' U2 l U' m' U l' U' m U' z x'",
@@ -11533,12 +11533,12 @@
             "E:[m',U l U']"
         ],
         [
-            "y' U m' U l U' m U l' U2 y",
+            "4Dw m' U l U' m U l' U2 y",
             [
                 "Daniel Lin",
                 "Michael Tripodi"
             ],
-            "y' U:[m',U l U']"
+            "4Dw:[m',U l U']"
         ],
         [
             "3Dw m' U l U' m U l' U' 3Dw'",
@@ -11650,7 +11650,7 @@
             "y U:[m2,U r U']"
         ],
         [
-            "Rw' Uw' r' U m U' r U m' U' Uw Rw",
+            "Rw' Uw' r' U m U' r U m' u Rw",
             [
                 "Daniel Wallin"
             ],
@@ -11731,7 +11731,7 @@
             "e':[r U' r',e2]"
         ],
         [
-            "R y l U' m' U l' U' m U y' R'",
+            "R y l U' m' U l' U' m 4Dw R'",
             [
                 "Daniel Wallin"
             ],
@@ -11771,14 +11771,14 @@
     ],
     "AZX": [
         [
-            "R y U2 r' U m' U' r U m U y' R'",
+            "R y U2 r' U m' U' r U m 4Dw R'",
             [
                 "Daniel Lin",
                 "Daniel Wallin",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz"
             ],
-            "R y U':[U' r' U,m']"
+            "R 4Dw':[U' r' U,m']"
         ],
         [
             "R E' U' r' U m' U' r U m E R'",
@@ -11846,7 +11846,7 @@
             "l':[U' l U,m']"
         ],
         [
-            "Lw' U' l U m' U' l' U m Lw",
+            "Lw' U' l U m' U' l' U 3Lw",
             [
                 "Hana Davila"
             ],
@@ -11855,7 +11855,7 @@
     ],
     "BDE": [
         [
-            "U' m' U m u' m' U' m u U",
+            "U' m' U m u' m' U' m Uw",
             [
                 "Hana Davila",
                 "Ryan Eckersley"
@@ -11872,7 +11872,7 @@
             "l':[m',U' l U]"
         ],
         [
-            "Lw' m' U' l U m U' l' U Lw",
+            "3Lw' U' l U m U' l' U Lw",
             [
                 "Hana Davila"
             ],
@@ -11881,7 +11881,7 @@
     ],
     "BED": [
         [
-            "Uw' m' U m u m' U' m u' Uw",
+            "Uw' m' U m u m' U' m U",
             [
                 "Hana Davila",
                 "Ryan Eckersley"
@@ -11930,7 +11930,7 @@
             "[m',U' l2 U]"
         ],
         [
-            "Lw' m' U' l' U m U' l U Lw",
+            "3Lw' U' l' U m U' l U Lw",
             [
                 "Hana Davila"
             ],
@@ -11964,7 +11964,7 @@
             "D':[m',U r2 U']"
         ],
         [
-            "D' Rw m' U r U' m U r' U' Rw' D",
+            "D' 3Rw U r U' m U r' U' Rw' D",
             [
                 "Hana Davila"
             ],
@@ -11997,7 +11997,7 @@
             "[m',U r2 U']"
         ],
         [
-            "Rw m' U r U' m U r' U' Rw'",
+            "3Rw U r U' m U r' U' Rw'",
             [
                 "Hana Davila"
             ],
@@ -12130,7 +12130,7 @@
             "[U' l2 U,m']"
         ],
         [
-            "Lw' U' l' U m' U' l U m Lw",
+            "Lw' U' l' U m' U' l U 3Lw",
             [
                 "Hana Davila"
             ],
@@ -12164,7 +12164,7 @@
             "D':[U r2 U',m']"
         ],
         [
-            "D' Rw U r U' m' U r' U' m Rw' D",
+            "D' Rw U r U' m' U r' U' 3Rw' D",
             [
                 "Hana Davila"
             ],
@@ -12197,7 +12197,7 @@
             "[U r2 U',m']"
         ],
         [
-            "Rw U r U' m' U r' U' m Rw'",
+            "Rw U r U' m' U r' U' 3Rw'",
             [
                 "Hana Davila"
             ],
@@ -12311,7 +12311,7 @@
     ],
     "CEF": [
         [
-            "u U m u m' U' m u' m' u'",
+            "Uw m u m' U' m u' m' u'",
             [
                 "Hana Davila"
             ],
@@ -12336,7 +12336,7 @@
     ],
     "CEJ": [
         [
-            "U' Lw' m' U l U' m U l' U' Lw U",
+            "U' 3Lw' U l U' m U l' U' Lw U",
             [
                 "Hana Davila"
             ],
@@ -12388,14 +12388,14 @@
             "l:[U' l' U,m]"
         ],
         [
-            "U Rw' m U r U' m' U r' U' Rw U'",
+            "U 3Rw' U r U' m' U r' U' Rw U'",
             [
                 "Leonardo Ezequiel Cruz"
             ],
             "U Rw':[m,U r U']"
         ],
         [
-            "Lw U' l' U m U' l U m' Lw'",
+            "Lw U' l' U m U' l U 3Lw'",
             [
                 "Hana Davila"
             ],
@@ -12525,7 +12525,7 @@
     ],
     "CFE": [
         [
-            "u m u m' U m u' m' U' u'",
+            "u m u m' U m u' m' Uw'",
             [
                 "Hana Davila"
             ],
@@ -12559,7 +12559,7 @@
     ],
     "CJE": [
         [
-            "U' Lw' U l U' m' U l' U' m Lw U",
+            "U' Lw' U l U' m' U l' U' 3Lw U",
             [
                 "Hana Davila"
             ],
@@ -12577,11 +12577,11 @@
     ],
     "CJY": [
         [
-            "y U' y' U' r' U m' U' r U m y U y'",
+            "U2 r' U m' U' r U m y 4Dw",
             [
                 "Leonardo Ezequiel Cruz"
             ],
-            "y U' y':[U' r' U,m']"
+            "U':[U' r' U,m']"
         ]
     ],
     "CKE": [
@@ -12638,14 +12638,14 @@
             "l:[m,U' l' U]"
         ],
         [
-            "U Rw' U r U' m U r' U' m' Rw U'",
+            "U Rw' U r U' m U r' U' 3Rw U'",
             [
                 "Leonardo Ezequiel Cruz"
             ],
             "U Rw':[U r U',m]"
         ],
         [
-            "Lw m U' l' U m' U' l U Lw'",
+            "3Lw U' l' U m' U' l U Lw'",
             [
                 "Hana Davila"
             ],
@@ -12780,11 +12780,11 @@
     ],
     "CYJ": [
         [
-            "y U' y' m' U' r' U m U' r U y U y'",
+            "U' m' U' r' U m U' r U y 4Dw",
             [
                 "Leonardo Ezequiel Cruz"
             ],
-            "y U' y':[m',U' r' U]"
+            "U':[m',U' r' U]"
         ]
     ],
     "CZE": [
@@ -12805,7 +12805,7 @@
     ],
     "DEF": [
         [
-            "U m U m' u m U' m' u' U'",
+            "U m U m' u m U' m' Uw'",
             [
                 "Hana Davila"
             ],
@@ -12902,14 +12902,14 @@
     ],
     "DES": [
         [
-            "Uw' U m' U' l' U m U' l Uw",
+            "u' m' U' l' U m U' l Uw",
             [
                 "Ryan Eckersley"
             ],
             "Uw':[U m' U',l']"
         ],
         [
-            "L' l' U' l e l' U l e' L",
+            "Lw' U' l e l' U l e' L",
             [
                 "Hana Davila"
             ],
@@ -12918,7 +12918,7 @@
     ],
     "DEW": [
         [
-            "L l U' l' e' l U l' e L'",
+            "Lw U' l' e' l U l' e L'",
             [
                 "Hana Davila"
             ],
@@ -12927,7 +12927,7 @@
     ],
     "DEY": [
         [
-            "Rw' m u' m' U' m u m' U Rw",
+            "3Rw' u' m' U' m u m' U Rw",
             [
                 "Hana Davila"
             ],
@@ -12945,7 +12945,7 @@
     ],
     "DFE": [
         [
-            "U u m U m' u' m U' m' U'",
+            "Uw m U m' u' m U' m' U'",
             [
                 "Hana Davila"
             ],
@@ -13042,14 +13042,14 @@
     ],
     "DSE": [
         [
-            "Uw' l' U m' U' l U m U' Uw",
+            "Uw' l' U m' U' l U m u",
             [
                 "Ryan Eckersley"
             ],
             "Uw':[l',U m' U']"
         ],
         [
-            "L' e l' U' l e' l' U l L",
+            "L' e l' U' l e' l' U Lw",
             [
                 "Hana Davila"
             ],
@@ -13058,7 +13058,7 @@
     ],
     "DWE": [
         [
-            "L e' l U' l' e l U l' L'",
+            "L e' l U' l' e l U Lw'",
             [
                 "Hana Davila"
             ],
@@ -13067,7 +13067,7 @@
     ],
     "DYE": [
         [
-            "Rw' U' m u' m' U m u m' Rw",
+            "Rw' U' m u' m' U m u 3Rw",
             [
                 "Hana Davila"
             ],
@@ -13256,7 +13256,7 @@
     ],
     "EIR": [
         [
-            "Rw2 4Uw r 4Uw' m2 4Uw r' 4Uw' m2 Rw2",
+            "Rw2 4Uw r 4Uw' m2 4Uw r' 4Uw' 3Rw2",
             [
                 "Hana Davila"
             ],
@@ -14563,7 +14563,7 @@
     ],
     "ERI": [
         [
-            "Rw2 m2 4Uw r 4Uw' m2 4Uw r' 4Uw' Rw2",
+            "3Rw2 4Uw r 4Uw' m2 4Uw r' 4Uw' Rw2",
             [
                 "Hana Davila"
             ],
@@ -15141,7 +15141,7 @@
     ],
     "EWX": [
         [
-            "Lw m u' m' U m u m' U' Lw'",
+            "3Lw u' m' U m u m' U' Lw'",
             [
                 "Hana Davila"
             ],
@@ -15297,7 +15297,7 @@
     ],
     "EXW": [
         [
-            "Lw U m u' m' U' m u m' Lw'",
+            "Lw U m u' m' U' m u 3Lw'",
             [
                 "Hana Davila"
             ],
@@ -15471,7 +15471,7 @@
             "r':[U,r' e' r]"
         ],
         [
-            "Rw' m u m' U' m u' m' U Rw",
+            "3Rw' u m' U' m u' m' U Rw",
             [
                 "Hana Davila"
             ],
@@ -15631,7 +15631,7 @@
             "r':[r' e' r,U]"
         ],
         [
-            "Rw' U' m u m' U m u' m' Rw",
+            "Rw' U' m u m' U m u' 3Rw",
             [
                 "Hana Davila"
             ],
@@ -15667,7 +15667,7 @@
             "Rw' U':[r,U' m' U]"
         ],
         [
-            "Uw m' u m U' m' u' m U Uw'",
+            "Uw m' u m U' m' u' m u'",
             [
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi"
@@ -15675,7 +15675,7 @@
             "Uw:[m' u m,U']"
         ],
         [
-            "U' Rw m' U r' U' m U r U' Rw' U",
+            "U' 3Rw U r' U' m U r U' Rw' U",
             [
                 "Daniel Wallin"
             ],
@@ -15736,7 +15736,7 @@
     ],
     "GAF": [
         [
-            "Rw' U' r U m U' r' U m' Rw",
+            "Rw' U' r U m U' r' U 3Rw",
             [
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -15754,7 +15754,7 @@
             "r':[U' r U,m]"
         ],
         [
-            "Uw m' u' m U' m' u m U Uw'",
+            "Uw m' u' m U' m' u m u'",
             [
                 "Kevin Matthews"
             ],
@@ -15801,7 +15801,7 @@
     ],
     "GAJ": [
         [
-            "Rw U' r' U m' U' r U m Rw'",
+            "Rw U' r' U m' U' r U 3Rw'",
             [
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -15904,7 +15904,7 @@
     ],
     "GAN": [
         [
-            "U' Rw' m U r U' m' U r' U' Rw U",
+            "U' 3Rw' U r U' m' U r' U' Rw U",
             [
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -15988,7 +15988,7 @@
             "x:[U m U',r']"
         ],
         [
-            "3Lw' r U m U' r' U m' U' 3Lw",
+            "4Lw' U m U' r' U m' U' 3Lw",
             [
                 "Daniel Wallin",
                 "Kai Yamamoto (山本快)"
@@ -16018,7 +16018,7 @@
             "[r e r',U']"
         ],
         [
-            "Rw Uw' r' U m U' r U m' U' Uw Rw'",
+            "Rw Uw' r' U m U' r U m' u Rw'",
             [
                 "Daniel Wallin"
             ],
@@ -16037,7 +16037,7 @@
             "[r e2 r',U']"
         ],
         [
-            "U 3Rw U' m U l' U' m' U l 3Rw' U'",
+            "U 3Rw U' m U l' U' m' U 4Rw' U'",
             [
                 "Daniel Wallin"
             ],
@@ -16072,7 +16072,7 @@
             "[r' e r,U']"
         ],
         [
-            "Lw' U m' u m U' m' u' m Lw",
+            "Lw' U m' u m U' m' u' 3Lw",
             [
                 "Daniel Wallin",
                 "Kevin Matthews"
@@ -16092,7 +16092,7 @@
             "[r' e2 r,U']"
         ],
         [
-            "U 3Rw' U' m' U l U' m U l' 3Rw U'",
+            "U 3Rw' U' m' U l U' m U 4Rw U'",
             [
                 "Daniel Wallin"
             ],
@@ -16144,7 +16144,7 @@
     ],
     "GAY": [
         [
-            "3Lw r' U m' U' r U m U' 3Lw'",
+            "4Lw U m' U' r U m U' 3Lw'",
             [
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -16183,7 +16183,7 @@
             "[r' e' r,U']"
         ],
         [
-            "Rw' Uw' r U m U' r' U m' U' Uw Rw",
+            "Rw' Uw' r U m U' r' U m' u Rw",
             [
                 "Daniel Wallin"
             ],
@@ -16201,7 +16201,7 @@
             "Rw' U':[U' m' U,r]"
         ],
         [
-            "u m' u m U m' u' m U' u'",
+            "u m' u m U m' u' m Uw'",
             [
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi"
@@ -16209,7 +16209,7 @@
             "u:[m' u m,U]"
         ],
         [
-            "U' Rw U r' U' m' U r U' m Rw' U",
+            "U' Rw U r' U' m' U r U' 3Rw' U",
             [
                 "Daniel Wallin"
             ],
@@ -16315,7 +16315,7 @@
             "r' U:[r,U m U']"
         ],
         [
-            "u' U' m u' m' U m u m' u",
+            "Uw' m u' m' U m u m' u",
             [
                 "Hana Davila"
             ],
@@ -16415,7 +16415,7 @@
             "r':[U r U',m]"
         ],
         [
-            "Rw' U r U' m U r' U' m' Rw",
+            "Rw' U r U' m U r' U' 3Rw",
             [
                 "Hana Davila"
             ],
@@ -16447,7 +16447,7 @@
             "[U',m' d m]"
         ],
         [
-            "Rw' e' r U r' e r U' r' Rw",
+            "Rw' e' r U r' e r U' R",
             [
                 "Hana Davila"
             ],
@@ -16527,7 +16527,7 @@
     ],
     "GEY": [
         [
-            "4Lw U' m' U r U' m U r' 4Lw'",
+            "4Lw U' m' U r U' m U 3Lw'",
             [
                 "Hana Davila"
             ],
@@ -16546,7 +16546,7 @@
     ],
     "GFA": [
         [
-            "Rw' m U' r U m' U' r' U Rw",
+            "3Rw' U' r U m' U' r' U Rw",
             [
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -16564,7 +16564,7 @@
             "r':[m,U' r U]"
         ],
         [
-            "u m' u' m U m' u m U' u'",
+            "u m' u' m U m' u m Uw'",
             [
                 "Kevin Matthews"
             ],
@@ -16580,7 +16580,7 @@
             "r' U:[U m U',r]"
         ],
         [
-            "u' m u' m' U' m u m' U u",
+            "u' m u' m' U' m u m' Uw",
             [
                 "Hana Davila"
             ],
@@ -16662,7 +16662,7 @@
     ],
     "GJA": [
         [
-            "Rw m' U' r' U m U' r U Rw'",
+            "3Rw U' r' U m U' r U Rw'",
             [
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -16853,7 +16853,7 @@
     ],
     "GNA": [
         [
-            "U' Rw' U r U' m U r' U' m' Rw U",
+            "U' Rw' U r U' m U r' U' 3Rw U",
             [
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -16887,7 +16887,7 @@
             "r':[m,U r U']"
         ],
         [
-            "Rw' m U r U' m' U r' U' Rw",
+            "3Rw' U r U' m' U r' U' Rw",
             [
                 "Hana Davila"
             ],
@@ -16971,7 +16971,7 @@
             "[m' d m,U']"
         ],
         [
-            "Rw' r U r' e' r U' r' e Rw",
+            "R' U r' e' r U' r' e Rw",
             [
                 "Hana Davila"
             ],
@@ -16998,7 +16998,7 @@
             "x:[r',U m U']"
         ],
         [
-            "3Lw' U m U' r U m' U' r' 3Lw",
+            "3Lw' U m U' r U m' U' 4Lw",
             [
                 "Daniel Wallin",
                 "Kai Yamamoto (山本快)"
@@ -17037,7 +17037,7 @@
             "[U',r e r']"
         ],
         [
-            "Rw Uw' U m U' r' U m' U' r Uw Rw'",
+            "Rw u' m U' r' U m' U' r Uw Rw'",
             [
                 "Daniel Wallin"
             ],
@@ -17066,7 +17066,7 @@
             "[U',r e2 r']"
         ],
         [
-            "U 3Rw l' U' m U l U' m' U 3Rw' U'",
+            "U 4Rw U' m U l U' m' U 3Rw' U'",
             [
                 "Daniel Wallin"
             ],
@@ -17126,7 +17126,7 @@
             "[U',r' e r]"
         ],
         [
-            "Lw' m' u m U m' u' m U' Lw",
+            "3Lw' u m U m' u' m U' Lw",
             [
                 "Daniel Wallin",
                 "Kevin Matthews"
@@ -17156,7 +17156,7 @@
             "[U',r' e2 r]"
         ],
         [
-            "U 3Rw' l U' m' U l' U' m U 3Rw U'",
+            "U 4Rw' U' m' U l' U' m U 3Rw U'",
             [
                 "Daniel Wallin"
             ],
@@ -17234,7 +17234,7 @@
     ],
     "GYA": [
         [
-            "3Lw U m' U' r' U m U' r 3Lw'",
+            "3Lw U m' U' r' U m U' 4Lw'",
             [
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -17260,7 +17260,7 @@
     ],
     "GYE": [
         [
-            "4Lw r U' m' U r' U' m U 4Lw'",
+            "3Lw U' m' U r' U' m U 4Lw'",
             [
                 "Hana Davila"
             ],
@@ -17282,7 +17282,7 @@
             "[U',r' e' r]"
         ],
         [
-            "Rw' Uw' U m U' r U m' U' r' Uw Rw",
+            "Rw' u' m U' r U m' U' r' Uw Rw",
             [
                 "Daniel Wallin"
             ],
@@ -17301,7 +17301,7 @@
     ],
     "HAB": [
         [
-            "U m' U m u m' U' m u' U'",
+            "U m' U m u m' U' m Uw'",
             [
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -17407,7 +17407,7 @@
     ],
     "HAF": [
         [
-            "Uw' u m U m' u' m U' m' Uw",
+            "U' m U m' u' m U' m' Uw",
             [
                 "Daniel Lin",
                 "Kai Yamamoto (山本快)",
@@ -17458,7 +17458,7 @@
             "y:[U m' U',l2]"
         ],
         [
-            "y' U m U' r2 U m' U' r2 y",
+            "4Dw m U' r2 U m' U' r2 y",
             [
                 "Daniel Lin",
                 "Kevin Matthews"
@@ -17519,7 +17519,7 @@
             "Uw:[U m' U',l2]"
         ],
         [
-            "u' m Uw l2 Uw' m' Uw l2 Uw' u",
+            "u' m Uw l2 Uw' m' Uw l2 U'",
             [
                 "Kevin Matthews",
                 "Michael Tripodi"
@@ -17586,7 +17586,7 @@
             "z' r:[e,r U2 r']"
         ],
         [
-            "R' y' r' U m' U' r U m U' y R",
+            "R' y' r' U m' U' r U m 4Dw' R",
             [
                 "Daniel Lin"
             ],
@@ -17685,7 +17685,7 @@
     ],
     "HAO": [
         [
-            "Uw' U m U' r2 U m' U' r2 Uw",
+            "u' m U' r2 U m' U' r2 Uw",
             [
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -17724,7 +17724,7 @@
     ],
     "HAQ": [
         [
-            "Uw' U m U' r U m' U' r' Uw",
+            "u' m U' r U m' U' r' Uw",
             [
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -17736,7 +17736,7 @@
             "Uw':[U m U',r]"
         ],
         [
-            "R r U' r' e' r U r' e R'",
+            "Rw U' r' e' r U r' e R'",
             [
                 "Daniel Lin",
                 "Leonardo Ezequiel Cruz"
@@ -17763,7 +17763,7 @@
     ],
     "HAS": [
         [
-            "Lw' m' u' m U' m' u m U Lw",
+            "3Lw' u' m U' m' u m U Lw",
             [
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -17816,7 +17816,7 @@
             "E:[m,U' r U]"
         ],
         [
-            "y' U m U' r U m' U' r' y",
+            "4Dw m U' r U m' U' r' y",
             [
                 "Kevin Matthews"
             ],
@@ -17835,7 +17835,7 @@
             "Uw:[U m' U',l]"
         ],
         [
-            "U Uw' m Uw l Uw' m' Uw l' U'",
+            "u' m Uw l Uw' m' Uw l' U'",
             [
                 "Kevin Matthews",
                 "Marcell Endrey",
@@ -17894,7 +17894,7 @@
     ],
     "HAY": [
         [
-            "Uw' U m U' r' U m' U' r Uw",
+            "u' m U' r' U m' U' r Uw",
             [
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -17906,7 +17906,7 @@
             "Uw':[U m U',r']"
         ],
         [
-            "R' r' U' r e r' U r e' R",
+            "Rw' U' r e r' U r e' R",
             [
                 "Leonardo Ezequiel Cruz"
             ],
@@ -17924,7 +17924,7 @@
     ],
     "HBA": [
         [
-            "U u m' U m u' m' U' m U'",
+            "Uw m' U m u' m' U' m U'",
             [
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -17946,7 +17946,7 @@
     ],
     "HBE": [
         [
-            "Uw m' U' m u' m' U m u Uw'",
+            "Uw m' U' m u' m' U m U'",
             [
                 "Hana Davila",
                 "Ryan Eckersley"
@@ -18007,14 +18007,14 @@
             "Uw':[u2,m' U' m]"
         ],
         [
-            "U' u' m U m' u2 m U' m' u' U",
+            "Uw' m U m' u2 m U' m' u' U",
             [
                 "Michael Tripodi"
             ],
-            "U' u':[m U m',u2]"
+            "Uw':[m U m',u2]"
         ],
         [
-            "U u' m U' m' u2 m U m' u' U'",
+            "U u' m U' m' u2 m U m' Uw'",
             [
                 "Kevin Matthews"
             ],
@@ -18065,7 +18065,7 @@
     ],
     "HEB": [
         [
-            "U m' U' m u m' U m u' U'",
+            "U m' U' m u m' U m Uw'",
             [
                 "Hana Davila",
                 "Ryan Eckersley"
@@ -18094,7 +18094,7 @@
     ],
     "HEF": [
         [
-            "U' m U' m' u' m U m' u U",
+            "U' m U' m' u' m U m' Uw",
             [
                 "Hana Davila"
             ],
@@ -18185,7 +18185,7 @@
     ],
     "HEO": [
         [
-            "u m' U r2 U' m U r2 U' u'",
+            "u m' U r2 U' m U r2 Uw'",
             [
                 "Ryan Eckersley"
             ],
@@ -18194,14 +18194,14 @@
     ],
     "HEQ": [
         [
-            "Uw U' m' U r U' m U r' Uw'",
+            "u m' U r U' m U r' Uw'",
             [
                 "Ryan Eckersley"
             ],
             "Uw:[U' m' U,r]"
         ],
         [
-            "R r U r' e' r U' r' e R'",
+            "Rw U r' e' r U' r' e R'",
             [
                 "Hana Davila"
             ],
@@ -18242,7 +18242,7 @@
             "Uw':[U' m U,l]"
         ],
         [
-            "Lw m u m' U m u' m' U' Lw'",
+            "3Lw u m' U m u' m' U' Lw'",
             [
                 "Hana Davila"
             ],
@@ -18267,14 +18267,14 @@
     ],
     "HEY": [
         [
-            "Uw U' m' U r' U' m U r Uw'",
+            "u m' U r' U' m U r Uw'",
             [
                 "Ryan Eckersley"
             ],
             "Uw:[U' m' U,r']"
         ],
         [
-            "R' r' U r e r' U' r e' R",
+            "Rw' U r e r' U' r e' R",
             [
                 "Hana Davila"
             ],
@@ -18283,7 +18283,7 @@
     ],
     "HFA": [
         [
-            "Uw' m U m' u m U' m' u' Uw",
+            "Uw' m U m' u m U' m' U",
             [
                 "Daniel Lin",
                 "Kai Yamamoto (山本快)",
@@ -18343,7 +18343,7 @@
             "y:[l2,U m' U']"
         ],
         [
-            "y' r2 U m U' r2 U m' U' y",
+            "y' r2 U m U' r2 U m' 4Dw'",
             [
                 "Daniel Lin",
                 "Kevin Matthews"
@@ -18429,7 +18429,7 @@
             "Uw:[l2,U m' U']"
         ],
         [
-            "U l2 Uw' m Uw l2 Uw' m' Uw U'",
+            "U l2 Uw' m Uw l2 Uw' m' u",
             [
                 "Kevin Matthews",
                 "Michael Tripodi"
@@ -18653,7 +18653,7 @@
     ],
     "HOA": [
         [
-            "Uw' r2 U m U' r2 U m' U' Uw",
+            "Uw' r2 U m U' r2 U m' u",
             [
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -18683,7 +18683,7 @@
     ],
     "HOE": [
         [
-            "u U r2 U' m' U r2 U' m u'",
+            "Uw r2 U' m' U r2 U' m u'",
             [
                 "Ryan Eckersley"
             ],
@@ -18701,7 +18701,7 @@
     ],
     "HQA": [
         [
-            "Uw' r U m U' r' U m' U' Uw",
+            "Uw' r U m U' r' U m' u",
             [
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -18713,7 +18713,7 @@
             "Uw':[r,U m U']"
         ],
         [
-            "R e' r U' r' e r U r' R'",
+            "R e' r U' r' e r U Rw'",
             [
                 "Daniel Lin",
                 "Leonardo Ezequiel Cruz"
@@ -18723,14 +18723,14 @@
     ],
     "HQE": [
         [
-            "Uw r U' m' U r' U' m U Uw'",
+            "Uw r U' m' U r' U' m u'",
             [
                 "Ryan Eckersley"
             ],
             "Uw:[r,U' m' U]"
         ],
         [
-            "R e' r U r' e r U' r' R'",
+            "R e' r U r' e r U' Rw'",
             [
                 "Hana Davila"
             ],
@@ -18756,7 +18756,7 @@
     ],
     "HSA": [
         [
-            "Lw' U' m' u' m U m' u m Lw",
+            "Lw' U' m' u' m U m' u 3Lw",
             [
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -18774,7 +18774,7 @@
             "Uw:[l',U m' U']"
         ],
         [
-            "U l' Uw' m Uw l Uw' m' Uw U'",
+            "U l' Uw' m Uw l Uw' m' u",
             [
                 "Michael Tripodi"
             ],
@@ -18830,7 +18830,7 @@
             "E:[U' r U,m]"
         ],
         [
-            "y' r U m U' r' U m' U' y",
+            "y' r U m U' r' U m' 4Dw'",
             [
                 "Kevin Matthews"
             ],
@@ -18865,7 +18865,7 @@
             "Uw:[l,U m' U']"
         ],
         [
-            "U l Uw' m Uw l' Uw' m' Uw U'",
+            "U l Uw' m Uw l' Uw' m' u",
             [
                 "Kevin Matthews",
                 "Marcell Endrey",
@@ -18890,7 +18890,7 @@
             "Uw':[l,U' m U]"
         ],
         [
-            "Lw U m u m' U' m u' m' Lw'",
+            "Lw U m u m' U' m u' 3Lw'",
             [
                 "Hana Davila"
             ],
@@ -18956,7 +18956,7 @@
     ],
     "HYA": [
         [
-            "Uw' r' U m U' r U m' U' Uw",
+            "Uw' r' U m U' r U m' u",
             [
                 "Daniel Wallin",
                 "Kai Yamamoto (山本快)",
@@ -18967,7 +18967,7 @@
             "Uw':[r',U m U']"
         ],
         [
-            "R' e r' U' r e' r' U r R",
+            "R' e r' U' r e' r' U Rw",
             [
                 "Daniel Lin",
                 "Leonardo Ezequiel Cruz"
@@ -18977,14 +18977,14 @@
     ],
     "HYE": [
         [
-            "Uw r' U' m' U r U' m U Uw'",
+            "Uw r' U' m' U r U' m u'",
             [
                 "Ryan Eckersley"
             ],
             "Uw:[r',U' m' U]"
         ],
         [
-            "R' e r' U r e' r' U' r R",
+            "R' e r' U r e' r' U' Rw",
             [
                 "Hana Davila"
             ],

@@ -159,11 +159,11 @@
             "Rw' D U':[R2,U' r U]"
         ],
         [
-            "x y' U r2 D r U2 r' D' r U2 r U' y x'",
+            "x 4Dw r2 D r U2 r' D' r U2 r 4Dw' x'",
             [
                 "Oliver Fritz"
             ],
-            "x y' U r':[r' D r,U2]"
+            "x 4Dw r':[r' D r,U2]"
         ],
         [
             "3Lw' D' r' D' r U2 r' D r U2 D 3Lw",
@@ -257,7 +257,7 @@
             "Lw D:[r',U' R2 U]"
         ],
         [
-            "3Lw D Rw' U' R' U r U' R U r' Rw D' 3Lw'",
+            "3Lw D Rw' U' R' U r U' R U R D' 3Lw'",
             [
                 "Kevin Matthews"
             ],
@@ -887,7 +887,7 @@
             "Lw2 U':[R,U' l U]"
         ],
         [
-            "Lw' u U' R' u' R U2 R' u R U' u' Lw",
+            "Lw' u U' R' u' R U2 R' u R Uw' Lw",
             [
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Wallin"
@@ -1163,7 +1163,7 @@
             "Lw':[U2,l' D' l]"
         ],
         [
-            "3Lw2 4Lw D r U2 r' D' r U2 r' 4Lw' 3Lw2",
+            "3Lw2 4Lw D r U2 r' D' r U2 3Lw",
             [
                 "Kevin Matthews"
             ],
@@ -1447,7 +1447,7 @@
             "L' Uw':[U2,R' u' R]"
         ],
         [
-            "Rw' U2 R U' R' U r U' R U r' R' U2 Rw",
+            "Rw' U2 R U' R' U r U' R U Rw' U2 Rw",
             [
                 "Chenhao Sun (孙晨皓)"
             ],
@@ -1483,7 +1483,7 @@
             "[r',L U L' U']"
         ],
         [
-            "4Lw U L' U' r U L U' r' 4Lw'",
+            "4Lw U L' U' r U L U' 3Lw'",
             [
                 "Antonio Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
@@ -1552,7 +1552,7 @@
             "U' R':[U' R U,r']"
         ],
         [
-            "x u R' U R u' R' U' R x'",
+            "x u R' U R u' R' U' 4Lw",
             [
                 "Xi Lu (鲁曦)"
             ],
@@ -1612,7 +1612,7 @@
     ],
     "ACJ": [
         [
-            "U' R U' R' U r U' R U r' R' U",
+            "U' R U' R' U r U' R U Rw' U",
             [
                 "Antonio Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
@@ -1670,7 +1670,7 @@
             "[r,L' U L U']"
         ],
         [
-            "y' U r' D' r U' r' D r y",
+            "4Dw r' D' r U' r' D r y",
             [
                 "Cale Schoon",
                 "Dong Zhu (朱栋)"
@@ -1706,13 +1706,13 @@
             "D' U':[R U' R' U,r2]"
         ],
         [
-            "x' L' U' r U L2 U' r' U L' x",
+            "4Rw' U' r U L2 U' r' U L' x",
             [
                 "Adrian Dębski",
                 "Dong Zhu (朱栋)",
                 "Oliver Fritz"
             ],
-            "x' L':[U' r U,L2]"
+            "4Rw':[U' r U,L2]"
         ],
         [
             "Rw' U' r U L2 U' r' U L2 Rw",
@@ -1870,7 +1870,7 @@
             "[D 4Rw2 U',r2]"
         ],
         [
-            "3Lw' 4Lw2 U L' U' r2 U L U' r2 4Lw2 3Lw",
+            "3Lw' 4Lw2 U L' U' r2 U L U' 3Lw'",
             [
                 "Kevin Matthews"
             ],
@@ -1909,7 +1909,7 @@
             "D:[U,L' u L]"
         ],
         [
-            "U L U' L' U l U' L U L' l' U'",
+            "U L U' L' U l U' L U Lw' U'",
             [
                 "Adrian Dębski",
                 "Daniel Wallin"
@@ -2060,7 +2060,7 @@
             "[U,L d' L']"
         ],
         [
-            "R' r' D' r U' r' D r U R",
+            "Rw' D' r U' r' D r U R",
             [
                 "Adrian Dębski",
                 "Dong Zhu (朱栋)",
@@ -2203,7 +2203,7 @@
             "4Rw':[U' r U,L]"
         ],
         [
-            "Uw L' u' L U' L' u L U Uw'",
+            "Uw L' u' L U' L' u L u'",
             [
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -2310,7 +2310,7 @@
             "[U,L d2 L']"
         ],
         [
-            "U' Rw' U r U' R U r' U' R' Rw U",
+            "U' Rw' U r U' R U r' U' r U",
             [
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Wallin",
@@ -2592,7 +2592,7 @@
             "[L' U' L U,r]"
         ],
         [
-            "3Lw' U' L U r U' L' U r' 3Lw",
+            "3Lw' U' L U r U' L' U 4Lw",
             [
                 "Graham Siggins",
                 "Kevin Matthews"
@@ -2668,7 +2668,7 @@
             "Rw:[r D2 r',U]"
         ],
         [
-            "Rw U' L' U L U' l' U L' U' L l U Rw'",
+            "Rw U' L' U L U' l' U L' U' Lw U Rw'",
             [
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -2808,7 +2808,7 @@
             "4Rw:[U',L u' L']"
         ],
         [
-            "z y' U R' U' l' U R U' l y z'",
+            "z 4Dw R' U' l' U R U' l y z'",
             [
                 "Graham Siggins"
             ],
@@ -2867,11 +2867,11 @@
             "4Rw2 U:[r',U' 4Rw2 D]"
         ],
         [
-            "x' L' U r2 U' L2 U r2 U' L' x",
+            "4Rw' U r2 U' L2 U r2 U' L' x",
             [
                 "Adrian Dębski"
             ],
-            "x' L':[U r2 U',L2]"
+            "4Rw':[U r2 U',L2]"
         ],
         [
             "z' D2 R u' R' D2 R u R' z",
@@ -3163,7 +3163,7 @@
             "M':[U',L u L']"
         ],
         [
-            "Rw U R U R' U' r U R U' r' R' U' Rw'",
+            "Rw U R U R' U' r U R U' Rw' U' Rw'",
             [
                 "Daniel Wallin",
                 "Kevin Matthews"
@@ -3622,11 +3622,11 @@
             "Rw' D U':[U' r U,R2]"
         ],
         [
-            "x y' U r' U2 r' D r U2 r' D' r2 U' y x'",
+            "x 4Dw r' U2 r' D r U2 r' D' r2 4Dw' x'",
             [
                 "Oliver Fritz"
             ],
-            "x y' U r':[U2,r' D r]"
+            "x 4Dw r':[U2,r' D r]"
         ],
         [
             "3Lw' D U2 r' D r U2 r' D' r D' 3Lw",
@@ -3693,7 +3693,7 @@
             "L' Uw':[R' u' R,U2]"
         ],
         [
-            "Rw' U2 R r U' R' U r' U' R U R' U2 Rw",
+            "Rw' U2 Rw U' R' U r' U' R U R' U2 Rw",
             [
                 "Chenhao Sun (孙晨皓)"
             ],
@@ -3795,7 +3795,7 @@
             "Lw:[r',U2 Lw U2 Lw' U2]"
         ],
         [
-            "Lw' D' R U R U' r U R' U' r' R' D Lw",
+            "Lw' D' R U R U' r U R' U' Rw' D Lw",
             [
                 "Graham Siggins"
             ],
@@ -3816,7 +3816,7 @@
             "Rw':[l' D2 l,U2]"
         ],
         [
-            "3Lw' D' R U R U' r U R' U' r' R' D 3Lw",
+            "3Lw' D' R U R U' r U R' U' Rw' D 3Lw",
             [
                 "Kevin Matthews"
             ],
@@ -4132,7 +4132,7 @@
             "U Rw U':[r,U' R' U]"
         ],
         [
-            "x' Lw' U2 r U2 Lw U2 Lw' U2 r' U2 Lw U2 x",
+            "3Rw' U2 r U2 Lw U2 Lw' U2 r' U2 Lw U2 x",
             [
                 "Ethan Pan"
             ],
@@ -4225,7 +4225,7 @@
             "S U:[L' u L,U2]"
         ],
         [
-            "R u U' R' u' R U2 R' u R U' u' R'",
+            "R u U' R' u' R U2 R' u R Uw' R'",
             [
                 "Ryan Eckersley"
             ],
@@ -4380,7 +4380,7 @@
             "Rw' U':[U' r U,L']"
         ],
         [
-            "Lw' U L l U' L' U l' U' L U L' U' Lw",
+            "Lw' U Lw U' L' U l' U' L U L' U' Lw",
             [
                 "Daniel Wallin",
                 "Ryan Eckersley"
@@ -4563,7 +4563,7 @@
             "Lw' U':[R',U' l U]"
         ],
         [
-            "Rw' U R U' R' U r U' R U r' R' U' Rw",
+            "Rw' U R U' R' U r U' R U Rw' U' Rw",
             [
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Wallin",
@@ -4704,7 +4704,7 @@
             "Lw D:[U' R2 U,r']"
         ],
         [
-            "3Lw D R' U' R' U r' U' R U r R D' 3Lw'",
+            "3Lw D R' U' R' U r' U' R U Rw D' 3Lw'",
             [
                 "Kevin Matthews"
             ],
@@ -4764,7 +4764,7 @@
             "x':[r,U L' U']"
         ],
         [
-            "4Lw r U L' U' r' U L U' 4Lw'",
+            "3Lw U L' U' r' U L U' 4Lw'",
             [
                 "Antonio Kam (甘浩東)",
                 "Kevin Matthews"
@@ -4819,7 +4819,7 @@
             "[r,L' U' L U]"
         ],
         [
-            "4Lw' U' L U r' U' L' U r 4Lw",
+            "4Lw' U' L U r' U' L' U 3Lw",
             [
                 "Chenhao Sun (孙晨皓)",
                 "Graham Siggins",
@@ -4878,7 +4878,7 @@
             "Lw:[U2 Lw U2 Lw' U2,r']"
         ],
         [
-            "Lw' D' R r U R U' r' U R' U' R' D Lw",
+            "Lw' D' Rw U R U' r' U R' U' R' D Lw",
             [
                 "Graham Siggins"
             ],
@@ -4899,7 +4899,7 @@
             "Rw':[U2,l' D2 l]"
         ],
         [
-            "3Lw' D' Rw U R U' r' U R' U' r Rw' D 3Lw",
+            "3Lw' D' Rw U R U' r' U R' U' R' D 3Lw",
             [
                 "Kevin Matthews"
             ],
@@ -5105,7 +5105,7 @@
             "U D:[f,R' F' R]"
         ],
         [
-            "Lw2 4Lw r U L' U' r' U L U' 4Lw' Lw2",
+            "Lw2 3Lw U L' U' r' U L U' 4Lw' Lw2",
             [
                 "Daniel Lin"
             ],
@@ -5155,7 +5155,7 @@
             "r' U:[D,r U' r']"
         ],
         [
-            "4Lw' U' L' U r' U' L U r 4Lw",
+            "4Lw' U' L' U r' U' L U 3Lw",
             [
                 "Kai Yamamoto (山本快)"
             ],
@@ -5180,7 +5180,7 @@
             "D':[U' R2 U,r']"
         ],
         [
-            "D' R' U' R' U r' U' R U r R D",
+            "D' R' U' R' U r' U' R U Rw D",
             [
                 "Bertie Longden",
                 "Chenhao Sun (孙晨皓)",
@@ -5208,7 +5208,7 @@
             "F:[U R U',r']"
         ],
         [
-            "U' x' u L' U' L u' L' U L x U",
+            "U' x' u L' U' L u' L' U 4Rw U",
             [
                 "Ethan Pan"
             ],
@@ -5261,7 +5261,7 @@
             "x':[U2,l' D2 l]"
         ],
         [
-            "U' x' R U R' u' R U' R' u x U",
+            "U' 4Lw U R' u' R U' R' u x U",
             [
                 "Daniel Lin",
                 "Ethan Pan"
@@ -5289,7 +5289,7 @@
             "[U' R2 U,r']"
         ],
         [
-            "R' U' R' U r' U' R U r R",
+            "R' U' R' U r' U' R U Rw",
             [
                 "Bertie Longden",
                 "Daniel Wallin",
@@ -5716,7 +5716,7 @@
             "D:[R' F R,f]"
         ],
         [
-            "x R' U R u R' U' R u' x'",
+            "4Lw' U R u R' U' R u' x'",
             [
                 "Xi Lu (鲁曦)"
             ],
@@ -6236,7 +6236,7 @@
             "r:[r D r',U']"
         ],
         [
-            "x R' U R u' R' U' R u x'",
+            "4Lw' U R u' R' U' R u x'",
             [
                 "Xi Lu (鲁曦)"
             ],
@@ -6289,18 +6289,18 @@
             "Rw2:[R2,U' r' U]"
         ],
         [
-            "U' r' R' u R U' R' u' R U r U",
+            "U' Rw' u R U' R' u' R U r U",
             [
                 "Ryan Eckersley"
             ],
             "U' r':[R' u R,U']"
         ],
         [
-            "x' R U' r2 U R2 U' r2 U R x",
+            "4Lw U' r2 U R2 U' r2 U R x",
             [
                 "Adrian Dębski"
             ],
-            "x' R:[U' r2 U,R2]"
+            "4Lw:[U' r2 U,R2]"
         ],
         [
             "D' R' F' R U' R' u' R U R' u F R D",
@@ -6332,7 +6332,7 @@
             "F:[R,U' r2 U]"
         ],
         [
-            "U' r R U r2 U' R' U r2 U' r' U",
+            "U' Rw U r2 U' R' U r2 U' r' U",
             [
                 "Daniel Lin",
                 "Ethan Pan"
@@ -6457,7 +6457,7 @@
             "L' U' R':[r',U' R U]"
         ],
         [
-            "L' U l' L' U' L U l U' L' U L U' L",
+            "L' U Lw' U' L U l U' L' U L U' L",
             [
                 "Adrian Dębski"
             ],
@@ -6485,7 +6485,7 @@
             "Lw':[R' F R,f]"
         ],
         [
-            "3Lw' U' Rw' U' R U r U' R' U r' Rw U 3Lw",
+            "3Lw' U' Rw' U' R U r U' R' U R U 3Lw",
             [
                 "Kevin Matthews"
             ],
@@ -6507,7 +6507,7 @@
             "r' U':[r2,U' L' U]"
         ],
         [
-            "U' r' R' u' R U' R' u R U r U",
+            "U' Rw' u' R U' R' u R U r U",
             [
                 "Adrian Dębski",
                 "Chenhao Sun (孙晨皓)",
@@ -6519,7 +6519,7 @@
             "U' r':[R' u' R,U']"
         ],
         [
-            "Rw R' U R u2 R' U' R u2 Rw'",
+            "r U R u2 R' U' R u2 Rw'",
             [
                 "Daniel Lin",
                 "Ethan Pan",
@@ -6586,7 +6586,7 @@
             "z D:[r',U R U']"
         ],
         [
-            "L U l' L' U' L U l U' L' U L U' L'",
+            "L U Lw' U' L U l U' L' U L U' L'",
             [
                 "Adrian Dębski"
             ],
@@ -6607,7 +6607,7 @@
             "Lw U' R':[r',U' R U]"
         ],
         [
-            "L U' R' r' U' R U r U' R' U R U L'",
+            "L U' Rw' U' R U r U' R' U R U L'",
             [
                 "Christopher Morris"
             ],
@@ -6954,7 +6954,7 @@
             "D':[b',L F' L']"
         ],
         [
-            "Rw U' l' L' U L U' l U L' U' L U Rw'",
+            "Rw U' Lw' U L U' l U L' U' L U Rw'",
             [
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -7179,7 +7179,7 @@
             "Lw':[r,U2 Lw U2 Lw' U2]"
         ],
         [
-            "Rw D R' U' R' U r' U' R U r R D' Rw'",
+            "Rw D R' U' R' U r' U' R U Rw D' Rw'",
             [
                 "Daniel Wallin"
             ],
@@ -7260,7 +7260,7 @@
             "U:[L2,U l2 U']"
         ],
         [
-            "4Rw U2 l D l' U2 l D' l' 4Rw'",
+            "4Rw U2 l D l' U2 l D' 3Rw'",
             [
                 "Chenhao Sun (孙晨皓)",
                 "Kai Yamamoto (山本快)"
@@ -7306,7 +7306,7 @@
             "D:[r,U' R2 U]"
         ],
         [
-            "D R r U' R U r' U' R' U R' D'",
+            "D Rw U' R U r' U' R' U R' D'",
             [
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Wallin",
@@ -7333,14 +7333,14 @@
             "l:[l U2 l',D']"
         ],
         [
-            "R' D R r U' R U r' U' R' U R' D' R",
+            "R' D Rw U' R U r' U' R' U R' D' R",
             [
                 "Ryan Eckersley"
             ],
             "R' D R:[r,U' R U]"
         ],
         [
-            "y' U r U' R2 U r' U' R2 y",
+            "4Dw r U' R2 U r' U' R2 y",
             [
                 "Oliver Fritz"
             ],
@@ -7402,7 +7402,7 @@
             "x:[U2,Lw' U2 r U2 Lw]"
         ],
         [
-            "3Lw2 r2 U R' U' 3Lw U' R U r2 U' R' U 3Lw' U R U' 3Lw2",
+            "4Lw2 U R' U' 3Lw U' R U r2 U' R' U 3Lw' U R U' 3Lw2",
             [
                 "Marcell Endrey"
             ],
@@ -7476,7 +7476,7 @@
             "D':[b,R F R']"
         ],
         [
-            "3Lw U2 r' D2 r U2 r' D2 r 3Lw'",
+            "3Lw U2 r' D2 r U2 r' D2 4Lw'",
             [
                 "Kevin Matthews"
             ],
@@ -7605,7 +7605,7 @@
             "y':[U' l U,R2]"
         ],
         [
-            "y U' r U L2 U' r' U L2 y'",
+            "4Dw' r U L2 U' r' U L2 y'",
             [
                 "Ethan Pan"
             ],
@@ -7843,7 +7843,7 @@
             "x':[r U' r',D2]"
         ],
         [
-            "3Lw U' r' D2 r U r' D2 r 3Lw'",
+            "3Lw U' r' D2 r U r' D2 4Lw'",
             [
                 "Kevin Matthews"
             ],
@@ -8133,7 +8133,7 @@
     ],
     "AJC": [
         [
-            "U' R r U' R' U r' U' R U R' U",
+            "U' Rw U' R' U r' U' R U R' U",
             [
                 "Antonio Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
@@ -8192,7 +8192,7 @@
             "[L' U L U',r]"
         ],
         [
-            "y' r' D' r U r' D r U' y",
+            "y' r' D' r U r' D r 4Dw'",
             [
                 "Cale Schoon"
             ],
@@ -8521,7 +8521,7 @@
             "Lw':[U2 Lw U2 Lw' U2,r]"
         ],
         [
-            "Rw D R' r' U' R' U r U' R U R D' Rw'",
+            "Rw D Rw' U' R' U r U' R U R D' Rw'",
             [
                 "Daniel Wallin"
             ],
@@ -8609,7 +8609,7 @@
             "Lw':[U L' U',r]"
         ],
         [
-            "3Lw' U L' U' r U L U' r' 3Lw",
+            "3Lw' U L' U' r U L U' 4Lw",
             [
                 "Kevin Matthews"
             ],
@@ -8673,7 +8673,7 @@
             "U:[f,L F L']"
         ],
         [
-            "y' D' r U r' D r U' r' y",
+            "4Uw' r U r' D r U' r' y",
             [
                 "Cale Schoon"
             ],
@@ -8720,11 +8720,11 @@
             "U':[r',D' R2 D]"
         ],
         [
-            "x y' U2 R2 U' r U R2 U' r' U' y x'",
+            "x y' U2 R2 U' r U R2 U' r' 4Dw' x'",
             [
                 "Oliver Fritz"
             ],
-            "x y' U:[U R2 U',r]"
+            "x 4Dw:[U R2 U',r]"
         ],
         [
             "x D U R2 U' r U R2 U' r' D' x'",
@@ -8797,7 +8797,7 @@
             "4Lw' U:[R' F' R,f]"
         ],
         [
-            "Rw D' R U R U' r U R' U' r' R' D Rw'",
+            "Rw D' R U R U' r U R' U' Rw' D Rw'",
             [
                 "Daniel Wallin"
             ],
@@ -8818,7 +8818,7 @@
             "4Bw':[U L U',r]"
         ],
         [
-            "r U' x' u' R U R' u R U' R' x U r'",
+            "r U' x' u' R U R' u R U' 4Lw' U r'",
             [
                 "Ethan Pan"
             ],
@@ -8881,7 +8881,7 @@
             "Rw:[U R U',r]"
         ],
         [
-            "Rw' D R D' r D R' D' r' Rw",
+            "Rw' D R D' r D R' D' R",
             [
                 "Ethan Pan",
                 "Michael Tripodi",
@@ -8918,7 +8918,7 @@
             "U:[r U' r',D']"
         ],
         [
-            "y D r U' r' D' r U r' y'",
+            "4Uw r U' r' D' r U r' y'",
             [
                 "Cale Schoon",
                 "Oliver Fritz"
@@ -8980,7 +8980,7 @@
             "[U' R U,r]"
         ],
         [
-            "Rw D R' r' U' R U r U' R' U R D' Rw'",
+            "Rw D Rw' U' R U r U' R' U R D' Rw'",
             [
                 "Ryan Eckersley"
             ],
@@ -9022,7 +9022,7 @@
             "[r',D R' D']"
         ],
         [
-            "x R U R' U' r U R U' R' r' x'",
+            "x R U R' U' r U R U' Rw' x'",
             [
                 "Cale Schoon",
                 "Oliver Fritz"
@@ -9133,7 +9133,7 @@
             "F':[u',R' D R]"
         ],
         [
-            "x L U' L' U r U' L U L' r' x'",
+            "4Rw U' L' U r U' L U L' r' x'",
             [
                 "Marcell Endrey"
             ],
@@ -9397,7 +9397,7 @@
             "D' U':[r2,R U' R' U]"
         ],
         [
-            "x' L U' r U L2 U' r' U L x",
+            "x' L U' r U L2 U' r' U 4Rw",
             [
                 "Adrian Dębski",
                 "Dong Zhu (朱栋)",
@@ -9518,7 +9518,7 @@
             "4Rw:[L u' L',U']"
         ],
         [
-            "z y' l' U R' U' l U R U' y z'",
+            "z y' l' U R' U' l U R 4Dw' z'",
             [
                 "Graham Siggins"
             ],
@@ -9605,14 +9605,14 @@
             "U D:[R' F' R,f]"
         ],
         [
-            "4Lw U L U' r U L' U' r' 4Lw'",
+            "4Lw U L U' r U L' U' 3Lw'",
             [
                 "Kai Yamamoto (山本快)"
             ],
             "4Lw:[U L U',r]"
         ],
         [
-            "Lw2 4Lw U L' U' r U L U' r' 4Lw' Lw2",
+            "Lw2 4Lw U L' U' r U L U' 3Lw' Lw2",
             [
                 "Daniel Lin"
             ],
@@ -9750,7 +9750,7 @@
             "Lw':[r,U L' U']"
         ],
         [
-            "4Lw' U L' U' r' U L U' r 4Lw",
+            "4Lw' U L' U' r' U L U' 3Lw",
             [
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews"
@@ -9812,7 +9812,7 @@
             "Fw R:[L2,U' r' U]"
         ],
         [
-            "D Rw D R' U' R' U r' U' R U r R D' Rw' D'",
+            "D Rw D R' U' R' U r' U' R U Rw D' Rw' D'",
             [
                 "Daniel Wallin"
             ],
@@ -10233,7 +10233,7 @@
             "L D:[r,U L U']"
         ],
         [
-            "y L U' r2 U L' U' r2 U y'",
+            "y L U' r2 U L' U' r2 4Dw",
             [
                 "Chenhao Sun (孙晨皓)"
             ],
@@ -10564,7 +10564,7 @@
             "3Rw':[L2,U r2 U']"
         ],
         [
-            "x' L U r2 U' L2 U r2 U' L x",
+            "x' L U r2 U' L2 U r2 U' 4Rw",
             [
                 "Adrian Dębski"
             ],
@@ -10767,7 +10767,7 @@
             "D:[U' R2 U,r]"
         ],
         [
-            "D R U' R U r U' R' U r' R' D'",
+            "D R U' R U r U' R' U Rw' D'",
             [
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Wallin",
@@ -10795,14 +10795,14 @@
             "l:[D',l U2 l']"
         ],
         [
-            "R' D R U' R U r U' R' U r' R' D' R",
+            "R' D R U' R U r U' R' U Rw' D' R",
             [
                 "Ryan Eckersley"
             ],
             "R' D R:[U' R U,r]"
         ],
         [
-            "y' R2 U r U' R2 U r' U' y",
+            "y' R2 U r U' R2 U r' 4Dw'",
             [
                 "Oliver Fritz"
             ],
@@ -10867,7 +10867,7 @@
             "U:[L F L',f]"
         ],
         [
-            "y' r U r' D' r U' r' D y",
+            "y' r U r' D' r U' r' 4Uw",
             [
                 "Cale Schoon"
             ],
@@ -10928,7 +10928,7 @@
             "Fw R:[U' r' U,L2]"
         ],
         [
-            "D Rw D R' r' U' R' U r U' R U R D' Rw' D'",
+            "D Rw D Rw' U' R' U r U' R U R D' Rw' D'",
             [
                 "Daniel Wallin"
             ],
@@ -11255,7 +11255,7 @@
     ],
     "ALR": [
         [
-            "y' R' U r U' R U r' U' y",
+            "y' R' U r U' R U r' 4Dw'",
             [
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
@@ -11393,7 +11393,7 @@
             "z':[R u' R',D]"
         ],
         [
-            "y' R U r U' R' U r' U' y",
+            "y' R U r U' R' U r' 4Dw'",
             [
                 "Kevin Matthews"
             ],
@@ -11566,11 +11566,11 @@
             "R U' D:[r U r',D2]"
         ],
         [
-            "y' U2 L U' r U L' U' r' U' y",
+            "y' U2 L U' r U L' U' r' 4Dw'",
             [
                 "Xi Lu (鲁曦)"
             ],
-            "y' U:[U L U',r]"
+            "4Dw:[U L U',r]"
         ],
         [
             "Rw' U2 L2 U r2 U' L2 U r2 U Rw",
@@ -11856,7 +11856,7 @@
             "U Rw U':[U' R' U,r]"
         ],
         [
-            "x' U2 Lw' U2 r U2 Lw U2 Lw' U2 r' U2 Lw x",
+            "x' U2 Lw' U2 r U2 Lw U2 Lw' U2 r' U2 3Rw",
             [
                 "Ethan Pan"
             ],
@@ -11881,7 +11881,7 @@
             "D':[r',U' R2 U]"
         ],
         [
-            "D' R' r' U' R' U r U' R U R D",
+            "D' Rw' U' R' U r U' R U R D",
             [
                 "Bertie Longden",
                 "Chenhao Sun (孙晨皓)",
@@ -11902,7 +11902,7 @@
             "U':[L' B' L,b]"
         ],
         [
-            "U' x' L' U' L u L' U L u' x U",
+            "U' 4Rw' U' L u L' U L u' x U",
             [
                 "Ethan Pan"
             ],
@@ -11929,7 +11929,7 @@
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)"
             ],
-            "R r:[U R' U',r2]"
+            "Rw:[U R' U',r2]"
         ],
         [
             "Rw' r2 U R U' r2 U R' U' Rw",
@@ -12003,7 +12003,7 @@
             "x:[Lw' U2 r U2 Lw,U2]"
         ],
         [
-            "3Lw2 U R' U' 3Lw U' R U r2 U' R' U 3Lw' U R U' r2 3Lw2",
+            "3Lw2 U R' U' 3Lw U' R U r2 U' R' U 3Lw' U R U' 4Lw2",
             [
                 "Marcell Endrey"
             ],
@@ -12057,11 +12057,11 @@
             "U':[D' R2 D,r']"
         ],
         [
-            "x y' U r U R2 U' r' U R2 U2 y x'",
+            "x 4Dw r U R2 U' r' U R2 U2 y x'",
             [
                 "Oliver Fritz"
             ],
-            "x y' U:[r,U R2 U']"
+            "x 4Dw:[r,U R2 U']"
         ],
         [
             "x D r U R2 U' r' U R2 U' D' x'",
@@ -12199,7 +12199,7 @@
             "x:[U' L' U,r2]"
         ],
         [
-            "U Rw2 R' U' r' D r U r' D' r R Rw2 U'",
+            "U Rw2 R' U' r' D r U r' D' Rw' U'",
             [
                 "Kevin Matthews"
             ],
@@ -12317,7 +12317,7 @@
             "Rw:[U R U',r2]"
         ],
         [
-            "R' r U R' U' r2 U R U' r R",
+            "R' r U R' U' r2 U R U' Rw",
             [
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Wallin",
@@ -12382,7 +12382,7 @@
             "[U' R U,r2]"
         ],
         [
-            "Rw2 r2 U' R' U r2 U' R U Rw2",
+            "R2 U' R' U r2 U' R U Rw2",
             [
                 "Oliver Fritz"
             ],
@@ -12473,7 +12473,7 @@
             "r:[U' L' U,r2]"
         ],
         [
-            "u' U' R U r2 U' R' U r2 u",
+            "Uw' R U r2 U' R' U r2 u",
             [
                 "Ryan Eckersley"
             ],
@@ -12592,7 +12592,7 @@
             "[U' R' U,r2]"
         ],
         [
-            "Rw2 r2 U' R U r2 U' R' U Rw2",
+            "R2 U' R U r2 U' R' U Rw2",
             [
                 "Oliver Fritz"
             ],
@@ -12748,7 +12748,7 @@
             "D:[L' u L,U]"
         ],
         [
-            "U l L U' L' U l' U' L U L' U'",
+            "U Lw U' L' U l' U' L U L' U'",
             [
                 "Adrian Dębski",
                 "Daniel Wallin"
@@ -12939,7 +12939,7 @@
             "x':[l' D2 l,U2]"
         ],
         [
-            "U' x' u' R U R' u R U' R' x U",
+            "U' x' u' R U R' u R U' 4Lw' U",
             [
                 "Daniel Lin",
                 "Ethan Pan"
@@ -12970,12 +12970,12 @@
             "x U:[R',U l' U']"
         ],
         [
-            "U L l U' L' U l2 U' L U l L' U'",
+            "U Lw U' L' U l2 U' L U l L' U'",
             [
                 "Michael Tripodi",
                 "Oliver Fritz"
             ],
-            "U L l:[U' L' U,l2]"
+            "U Lw:[U' L' U,l2]"
         ],
         [
             "D2 R' F' u' R U' R' u R U R' F R D2",
@@ -13075,7 +13075,7 @@
             "D':[R F R',b]"
         ],
         [
-            "4Lw D2 r U2 r' D2 r U2 r' 4Lw'",
+            "4Lw D2 r U2 r' D2 r U2 3Lw'",
             [
                 "Kevin Matthews"
             ],
@@ -13138,7 +13138,7 @@
             "4Lw' U:[f,R' F' R]"
         ],
         [
-            "Rw D' R r U R U' r' U R' U' R' D Rw'",
+            "Rw D' Rw U R U' r' U R' U' R' D Rw'",
             [
                 "Daniel Wallin"
             ],
@@ -13159,7 +13159,7 @@
             "4Bw':[r,U L U']"
         ],
         [
-            "r U' x' R U R' u' R U' R' u x U r'",
+            "r U' 4Lw U R' u' R U' R' u x U r'",
             [
                 "Ethan Pan"
             ],
@@ -13438,7 +13438,7 @@
             "Lw:[r' D' r,U2]"
         ],
         [
-            "U' x' u R U R' u' R U' R' x U",
+            "U' x' u R U R' u' R U' 4Lw' U",
             [
                 "Daniel Lin",
                 "Ethan Pan"
@@ -13474,7 +13474,7 @@
             "U D':[D',r U' r']"
         ],
         [
-            "4Lw D' r U2 r' D r U2 r' 4Lw'",
+            "4Lw D' r U2 r' D r U2 3Lw'",
             [
                 "Kevin Matthews"
             ],
@@ -13581,7 +13581,7 @@
             "M' U:[R,U l' U']"
         ],
         [
-            "U Lw d' L' U' L d L' U L Lw' U'",
+            "U Lw d' L' U' L d L' U l' U'",
             [
                 "Kai Yamamoto (山本快)"
             ],
@@ -13689,7 +13689,7 @@
             "Lw:[r' D r,U2]"
         ],
         [
-            "4Lw D r U2 r' D' r U2 r' 4Lw'",
+            "4Lw D r U2 r' D' r U2 3Lw'",
             [
                 "Kevin Matthews"
             ],
@@ -14041,11 +14041,11 @@
             "S U':[L' u L,U2]"
         ],
         [
-            "R u U R' u' R U2 R' u R U u' R'",
+            "R Uw R' u' R U2 R' u R U u' R'",
             [
                 "Ryan Eckersley"
             ],
-            "R u U:[R' u' R,U2]"
+            "R Uw:[R' u' R,U2]"
         ],
         [
             "D' U' R' U l2 U R U' l2 U R' U2 R U D",
@@ -14097,7 +14097,7 @@
             "U D':[R' F' R,f]"
         ],
         [
-            "S' R U R' U' r U R U' r' R' S",
+            "S' R U R' U' r U R U' Rw' S",
             [
                 "Ethan Pan"
             ],
@@ -14159,7 +14159,7 @@
             "R:[R U' R',u]"
         ],
         [
-            "x u' R' U R u R' U' R x'",
+            "x u' R' U R u R' U' 4Lw",
             [
                 "Xi Lu (鲁曦)"
             ],
@@ -14516,7 +14516,7 @@
             "z' f':[U2,R' u' R]"
         ],
         [
-            "D' Rw D R' U' R' U r' U' R U r R D' Rw' D",
+            "D' Rw D R' U' R' U r' U' R U Rw D' Rw' D",
             [
                 "Daniel Wallin"
             ],
@@ -14584,7 +14584,7 @@
             "R' D':[r,U' R' U]"
         ],
         [
-            "y' R' U r2 U' R U r2 U' y",
+            "y' R' U r2 U' R U r2 4Dw'",
             [
                 "Graham Siggins",
                 "Hana Davila",
@@ -14618,7 +14618,7 @@
             "D2 L':[L' U L,d']"
         ],
         [
-            "x2 Uw r2 U' R U r2 U' R' U Uw' x2",
+            "x2 Uw r2 U' R U r2 U' R' u' x2",
             [
                 "Oliver Fritz"
             ],
@@ -14713,7 +14713,7 @@
             "z' U:[U L' U',l']"
         ],
         [
-            "y' R U r2 U' R' U r2 U' y",
+            "y' R U r2 U' R' U r2 4Dw'",
             [
                 "Kevin Matthews"
             ],
@@ -15158,14 +15158,14 @@
             "D' Rw:[U R' U',r]"
         ],
         [
-            "U' r' U' R' u R U R' u' R r U",
+            "U' r' U' R' u R U R' u' Rw U",
             [
                 "Ryan Eckersley"
             ],
             "U' r':[U',R' u R]"
         ],
         [
-            "x' R' U' r2 U R2 U' r2 U R' x",
+            "x' R' U' r2 U R2 U' r2 U 4Lw'",
             [
                 "Adrian Dębski"
             ],
@@ -15234,7 +15234,7 @@
             "D' Lw':[U L' U',r]"
         ],
         [
-            "y L2 U' r U L2 U' r' U y'",
+            "y L2 U' r U L2 U' r' 4Dw",
             [
                 "Ethan Pan"
             ],
@@ -15264,7 +15264,7 @@
             "Rw:[r,U R U']"
         ],
         [
-            "R' D R D' r' D R' D' r R",
+            "R' D R D' r' D R' D' Rw",
             [
                 "Ethan Pan",
                 "Michael Tripodi",
@@ -15292,7 +15292,7 @@
             "U:[D',r U' r']"
         ],
         [
-            "y r U' r' D r U r' D' y'",
+            "y r U' r' D r U r' 4Uw'",
             [
                 "Cale Schoon",
                 "Oliver Fritz"
@@ -15473,7 +15473,7 @@
             "Rw:[r2,U R U']"
         ],
         [
-            "R' r' U R' U' r2 U R U' r' R",
+            "Rw' U R' U' r2 U R U' r' R",
             [
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Wallin",
@@ -15482,7 +15482,7 @@
                 "Michael Tripodi",
                 "Xi Lu (鲁曦)"
             ],
-            "R' r':[U R' U',r2]"
+            "Rw':[U R' U',r2]"
         ],
         [
             "Rw D R' D' r2 D R D' r2 Rw'",
@@ -15546,7 +15546,7 @@
             "Lw:[U2,r' D' r]"
         ],
         [
-            "U' x' R U R' u R U' R' u' x U",
+            "U' 4Lw U R' u R U' R' u' x U",
             [
                 "Daniel Lin",
                 "Ethan Pan"
@@ -15582,7 +15582,7 @@
             "U D':[r U' r',D']"
         ],
         [
-            "3Lw U2 r' D' r U2 r' D r 3Lw'",
+            "3Lw U2 r' D' r U2 r' D 4Lw'",
             [
                 "Kevin Matthews"
             ],
@@ -15644,7 +15644,7 @@
             "z' f':[R' u' R,U2]"
         ],
         [
-            "D' Rw D R' r' U' R' U r U' R U R D' Rw' D",
+            "D' Rw D Rw' U' R' U r U' R U R D' Rw' D",
             [
                 "Daniel Wallin"
             ],
@@ -15728,7 +15728,7 @@
             "D' r:[U R U',r]"
         ],
         [
-            "4Dw' U L' U' r U L U' r' 4Dw",
+            "y L' U' r U L U' r' 4Dw",
             [
                 "Adrian Dębski"
             ],
@@ -15823,7 +15823,7 @@
             "b:[U',R' u' R]"
         ],
         [
-            "y L U' r U L' U' r' U y'",
+            "y L U' r U L' U' r' 4Dw",
             [
                 "Kevin Matthews"
             ],
@@ -15875,7 +15875,7 @@
             "Lw U':[U',R' u R]"
         ],
         [
-            "3Lw U' r' D' r U r' D r 3Lw'",
+            "3Lw U' r' D' r U r' D 4Lw'",
             [
                 "Kevin Matthews"
             ],
@@ -15914,12 +15914,12 @@
             "S':[U',R d' R']"
         ],
         [
-            "y U2 R' U r U' R U r' U y'",
+            "y U2 R' U r U' R U r' 4Dw",
             [
                 "Ethan Pan",
                 "Xi Lu (鲁曦)"
             ],
-            "y U':[U' R' U,r]"
+            "4Dw':[U' R' U,r]"
         ],
         [
             "Rw2 U' r' U' L U r U' L' U2 Rw2",
@@ -16035,11 +16035,11 @@
             "Rw':[R',U' r2 U]"
         ],
         [
-            "y U2 R U r U' R' U r' U y'",
+            "y U2 R U r U' R' U r' 4Dw",
             [
                 "Kevin Matthews"
             ],
-            "y U':[U' R U,r]"
+            "4Dw':[U' R U,r]"
         ]
     ],
     "AQB": [
@@ -16077,12 +16077,12 @@
             "Lw2 U':[U' l U,R]"
         ],
         [
-            "Lw' u U R' u' R U2 R' u R U u' Lw",
+            "Lw' Uw R' u' R U2 R' u R U u' Lw",
             [
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Wallin"
             ],
-            "Lw' u U:[R' u' R,U2]"
+            "Lw' Uw:[R' u' R,U2]"
         ],
         [
             "U' R Uw' R2 u2 R U R' u2 R U' R Uw R' U",
@@ -16168,7 +16168,7 @@
             "M':[L u L',U']"
         ],
         [
-            "Rw U R r U R' U' r' U R U' R' U' Rw'",
+            "Rw U Rw U R' U' r' U R U' R' U' Rw'",
             [
                 "Daniel Wallin",
                 "Kevin Matthews"
@@ -16296,7 +16296,7 @@
             "F:[U' r2 U,R]"
         ],
         [
-            "U' r U r2 U' R U r2 U' R' r' U",
+            "U' r U r2 U' R U r2 U' Rw' U",
             [
                 "Daniel Lin",
                 "Ethan Pan"
@@ -17328,7 +17328,7 @@
             "[D R' D',r']"
         ],
         [
-            "x r R U R' U' r' U R U' R' x'",
+            "x Rw U R' U' r' U R U' R' x'",
             [
                 "Cale Schoon",
                 "Oliver Fritz"
@@ -17398,7 +17398,7 @@
     ],
     "ARL": [
         [
-            "y' U r U' R' U r' U' R y",
+            "4Dw r U' R' U r' U' R y",
             [
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
@@ -17551,7 +17551,7 @@
             "M' U:[U l' U',R]"
         ],
         [
-            "U l U' L d' L' U L d L' l' U'",
+            "U l U' L d' L' U L d Lw' U'",
             [
                 "Kai Yamamoto (山本快)"
             ],
@@ -17572,7 +17572,7 @@
             "R' D':[U' R' U,r]"
         ],
         [
-            "y' U r2 U' R' U r2 U' R y",
+            "4Dw r2 U' R' U r2 U' R y",
             [
                 "Graham Siggins",
                 "Hana Davila",
@@ -17613,7 +17613,7 @@
             "D2 L':[d',L' U L]"
         ],
         [
-            "x2 Uw U' R U r2 U' R' U r2 Uw' x2",
+            "x2 u R U r2 U' R' U r2 Uw' x2",
             [
                 "Oliver Fritz"
             ],
@@ -17678,7 +17678,7 @@
             "D' r:[r,U R U']"
         ],
         [
-            "4Dw' r U L' U' r' U L U' 4Dw",
+            "4Dw' r U L' U' r' U L y'",
             [
                 "Adrian Dębski"
             ],
@@ -17864,14 +17864,14 @@
             "R' S':[U',R' u' R]"
         ],
         [
-            "L y' U r U' R' U r' U' R y L'",
+            "L 4Dw r U' R' U r' U' R y L'",
             [
                 "Kevin Matthews"
             ],
             "L y':[U r U',R']"
         ],
         [
-            "R' y L U' r U L' U' r' U y' R",
+            "R' y L U' r U L' U' r' 4Dw R",
             [
                 "Dong Zhu (朱栋)"
             ],
@@ -17970,7 +17970,7 @@
             "L' D r:[r,U R U']"
         ],
         [
-            "L' y' U r U' R' U r' U' R y L",
+            "L' 4Dw r U' R' U r' U' R y L",
             [
                 "Xi Lu (鲁曦)"
             ],
@@ -18028,7 +18028,7 @@
             "Rw:[U,R u' R']"
         ],
         [
-            "R' U r' D' r U' r' D r R",
+            "R' U r' D' r U' r' D Rw",
             [
                 "Kevin Matthews"
             ],
@@ -18276,7 +18276,7 @@
             "Rw' U':[L',U' r U]"
         ],
         [
-            "Lw' U L U' L' U l U' L U l' L' U' Lw",
+            "Lw' U L U' L' U l U' L U Lw' U' Lw",
             [
                 "Daniel Wallin",
                 "Ryan Eckersley"
@@ -18396,7 +18396,7 @@
             "L' U' R':[U' R U,r']"
         ],
         [
-            "L' U L' U' L U l' U' L' U L l U' L",
+            "L' U L' U' L U l' U' L' U Lw U' L",
             [
                 "Adrian Dębski"
             ],
@@ -18431,7 +18431,7 @@
             "Lw':[f,R' F R]"
         ],
         [
-            "3Lw' U' R' U' R U r' U' R' U r R U 3Lw",
+            "3Lw' U' R' U' R U r' U' R' U Rw U 3Lw",
             [
                 "Kevin Matthews"
             ],
@@ -19273,7 +19273,7 @@
             "r' U':[U' L' U,r2]"
         ],
         [
-            "U' r' U' R' u' R U R' u R r U",
+            "U' r' U' R' u' R U R' u Rw U",
             [
                 "Adrian Dębski",
                 "Chenhao Sun (孙晨皓)",
@@ -19285,7 +19285,7 @@
             "U' r':[U',R' u' R]"
         ],
         [
-            "Rw u2 R' U R u2 R' U' R Rw'",
+            "Rw u2 R' U R u2 R' U' r'",
             [
                 "Daniel Lin",
                 "Ethan Pan",
@@ -19392,7 +19392,7 @@
             "r:[r,U' L' U]"
         ],
         [
-            "u' r U' R U r' U' R' U u",
+            "u' r U' R U r' U' R' Uw",
             [
                 "Cale Schoon",
                 "Ethan Pan",
@@ -19435,7 +19435,7 @@
             "F':[R' D R,u']"
         ],
         [
-            "x r L U' L' U r' U' L U L' x'",
+            "x r L U' L' U r' U' L U 4Rw'",
             [
                 "Marcell Endrey"
             ],
@@ -19503,7 +19503,7 @@
             "L D:[U L U',r]"
         ],
         [
-            "y U' r2 U L U' r2 U L' y'",
+            "4Dw' r2 U L U' r2 U L' y'",
             [
                 "Chenhao Sun (孙晨皓)"
             ],
@@ -19555,7 +19555,7 @@
             "z':[D,R u' R']"
         ],
         [
-            "y' U r U' R U r' U' R' y",
+            "4Dw r U' R U r' U' R' y",
             [
                 "Kevin Matthews"
             ],
@@ -19585,7 +19585,7 @@
             "r':[U' L' U,r2]"
         ],
         [
-            "u' r2 U' R U r2 U' R' U u",
+            "u' r2 U' R U r2 U' R' Uw",
             [
                 "Ryan Eckersley"
             ],
@@ -19674,7 +19674,7 @@
             "L:[D',l U2 l']"
         ],
         [
-            "3Lw U2 r' D r U2 r' D' r 3Lw'",
+            "3Lw U2 r' D r U2 r' D' 4Lw'",
             [
                 "Kevin Matthews"
             ],
@@ -19710,7 +19710,7 @@
             "R' F:[R f' R',F]"
         ],
         [
-            "y' U r2 U' R U r2 U' R' y",
+            "4Dw r2 U' R U r2 U' R' y",
             [
                 "Kevin Matthews"
             ],
@@ -19888,14 +19888,14 @@
             "R' S':[R' u' R,U']"
         ],
         [
-            "L y' R' U r U' R U r' U' y L'",
+            "L y' R' U r U' R U r' 4Dw' L'",
             [
                 "Kevin Matthews"
             ],
             "L y':[R',U r U']"
         ],
         [
-            "R' y U' r U L U' r' U L' y' R",
+            "R' 4Dw' r U L U' r' U L' y' R",
             [
                 "Dong Zhu (朱栋)"
             ],
@@ -20237,7 +20237,7 @@
             "4Rw':[L,U' r U]"
         ],
         [
-            "Uw U' L' u' L U L' u L Uw'",
+            "u L' u' L U L' u L Uw'",
             [
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -20461,7 +20461,7 @@
             "z D:[U R U',r']"
         ],
         [
-            "L U L' U' L U l' U' L' U L l U' L'",
+            "L U L' U' L U l' U' L' U Lw U' L'",
             [
                 "Adrian Dębski"
             ],
@@ -20506,7 +20506,7 @@
             "x':[D2,r U' r']"
         ],
         [
-            "4Lw D2 r U' r' D2 r U r' 4Lw'",
+            "4Lw D2 r U' r' D2 r U 3Lw'",
             [
                 "Kevin Matthews"
             ],
@@ -20753,7 +20753,7 @@
             "Lw U':[R' u R,U']"
         ],
         [
-            "4Lw D' r U' r' D r U r' 4Lw'",
+            "4Lw D' r U' r' D r U 3Lw'",
             [
                 "Kevin Matthews"
             ],
@@ -21802,12 +21802,12 @@
             "S':[R d' R',U']"
         ],
         [
-            "y U' r U' R' U r' U' R U2 y'",
+            "4Dw' r U' R' U r' U' R U2 y'",
             [
                 "Ethan Pan",
                 "Xi Lu (鲁曦)"
             ],
-            "y U':[r,U' R' U]"
+            "4Dw':[r,U' R' U]"
         ],
         [
             "Rw2 U2 L U r' U' L' U r U Rw2",
@@ -21919,7 +21919,7 @@
             "y' z:[U' R2 U,l2]"
         ],
         [
-            "L' y' R' U r U' R U r' U' y L",
+            "L' y' R' U r U' R U r' 4Dw' L",
             [
                 "Xi Lu (鲁曦)"
             ],
@@ -22267,7 +22267,7 @@
             "[L d2 L',U]"
         ],
         [
-            "U' Rw' R U r U' R' U r' U' Rw U",
+            "U' r' U r U' R' U r' U' Rw U",
             [
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Wallin",
@@ -22373,7 +22373,7 @@
             "Lw' U':[U' l U,R']"
         ],
         [
-            "Rw' U R r U' R' U r' U' R U R' U' Rw",
+            "Rw' U Rw U' R' U r' U' R U R' U' Rw",
             [
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Wallin",
@@ -22637,7 +22637,7 @@
             "D:[r,U' R' U]"
         ],
         [
-            "Rw' D r U r' D' r U' r' Rw",
+            "Rw' D r U r' D' r U' R",
             [
                 "Hana Davila",
                 "Kevin Matthews"
@@ -22894,7 +22894,7 @@
             "Rw:[R u' R',U]"
         ],
         [
-            "Rw' D' r U r' D r U' r' Rw",
+            "Rw' D' r U r' D r U' R",
             [
                 "Kevin Matthews"
             ],
@@ -23361,7 +23361,7 @@
             "S':[L' u' L,U]"
         ],
         [
-            "x' U' r2 U R U' r2 U R' x",
+            "x' U' r2 U R U' r2 U 4Lw'",
             [
                 "Adrian Dębski",
                 "Daniel Wallin"
@@ -23617,11 +23617,11 @@
             "R U' D':[r U r',D2]"
         ],
         [
-            "y' U r U L U' r' U L' U2 y",
+            "4Dw r U L U' r' U L' U2 y",
             [
                 "Xi Lu (鲁曦)"
             ],
-            "y' U:[r,U L U']"
+            "4Dw:[r,U L U']"
         ],
         [
             "Rw' U' r2 U' L2 U r2 U' L2 U2 Rw",
@@ -23865,11 +23865,11 @@
             "Rw':[U' r2 U,R']"
         ],
         [
-            "y U' r U' R U r' U' R' U2 y'",
+            "4Dw' r U' R U r' U' R' U2 y'",
             [
                 "Kevin Matthews"
             ],
-            "y U':[r,U' R U]"
+            "4Dw':[r,U' R U]"
         ]
     ],
     "AZQ": [
@@ -24194,14 +24194,14 @@
     ],
     "CBE": [
         [
-            "U 4Rw' U L u L' U' L u' L' 4Rw U'",
+            "U 4Rw' U L u L' U' L u' x U'",
             [
                 "Ryan Eckersley"
             ],
             "U 4Rw':[U,L u L']"
         ],
         [
-            "l' L' U' L U l U' L' U L",
+            "Lw' U' L U l U' L' U L",
             [
                 "Oleg Gritsenko"
             ],
@@ -24284,14 +24284,14 @@
     ],
     "CEB": [
         [
-            "U 4Rw' L u L' U L u' L' U' 4Rw U'",
+            "U x' u L' U L u' L' U' 4Rw U'",
             [
                 "Ryan Eckersley"
             ],
             "U 4Rw':[L u L',U]"
         ],
         [
-            "L' U' L U l' U' L' U L l",
+            "L' U' L U l' U' L' U Lw",
             [
                 "Oleg Gritsenko"
             ],
@@ -24329,7 +24329,7 @@
     ],
     "CEQ": [
         [
-            "Uw' U L' u' L U' L' u L Uw",
+            "u' L' u' L U' L' u L Uw",
             [
                 "Ryan Eckersley"
             ],
@@ -24420,7 +24420,7 @@
             "D:[U' r U,R2]"
         ],
         [
-            "y' r U R2 U' r' U R2 U' y",
+            "y' r U R2 U' r' U R2 4Dw'",
             [
                 "Cale Schoon",
                 "Oliver Fritz"
@@ -24619,7 +24619,7 @@
             "D:[R2,U' r U]"
         ],
         [
-            "y' U R2 U' r U R2 U' r' y",
+            "4Dw R2 U' r U R2 U' r' y",
             [
                 "Cale Schoon",
                 "Oliver Fritz"
@@ -24739,7 +24739,7 @@
             "[r U' r',D2]"
         ],
         [
-            "l2 y' x2 U' r' U R2 U' r U R2 x2 y l2",
+            "l2 y' x2 U' r' U R2 U' r U 4Lw2 y l2",
             [
                 "Oliver Fritz"
             ],
@@ -24839,7 +24839,7 @@
             "[L',U' r U]"
         ],
         [
-            "Uw' U L' U' r U L U' r' Uw",
+            "u' L' U' r U L U' r' Uw",
             [
                 "Oliver Fritz"
             ],
@@ -24933,7 +24933,7 @@
     ],
     "CJZ": [
         [
-            "R r U' r' D' r U r' D R'",
+            "Rw U' r' D' r U r' D R'",
             [
                 "Cale Schoon",
                 "Oliver Fritz"
@@ -24949,7 +24949,7 @@
             "U' r:[U R' U',r]"
         ],
         [
-            "Uw' U L U' r U L' U' r' Uw",
+            "u' L U' r U L' U' r' Uw",
             [
                 "James Molloy",
                 "Oliver Fritz"
@@ -25090,7 +25090,7 @@
             "[D2,r U' r']"
         ],
         [
-            "l2 y' x2 R2 U' r' U R2 U' r U x2 y l2",
+            "l2 y' 4Lw2 U' r' U R2 U' r U x2 y l2",
             [
                 "Oliver Fritz"
             ],
@@ -25142,7 +25142,7 @@
     ],
     "CQE": [
         [
-            "Uw' L' u' L U L' u L U' Uw",
+            "Uw' L' u' L U L' u L u",
             [
                 "Ryan Eckersley"
             ],
@@ -25215,7 +25215,7 @@
             "[U' r U,L']"
         ],
         [
-            "Uw' r U L' U' r' U L U' Uw",
+            "Uw' r U L' U' r' U L u",
             [
                 "Oliver Fritz"
             ],
@@ -25318,7 +25318,7 @@
     ],
     "CZJ": [
         [
-            "R D' r U' r' D r U r' R'",
+            "R D' r U' r' D r U Rw'",
             [
                 "Cale Schoon",
                 "Oliver Fritz"
@@ -25334,7 +25334,7 @@
             "U' r:[r,U R' U']"
         ],
         [
-            "Uw' r U L U' r' U L' U' Uw",
+            "Uw' r U L U' r' U L' u",
             [
                 "James Molloy",
                 "Oliver Fritz"
@@ -25351,7 +25351,7 @@
     ],
     "EBD": [
         [
-            "l L U L' U' l' U L U' L'",
+            "Lw U L' U' l' U L U' L'",
             [
                 "Oleg Gritsenko",
                 "Roman Strakhov"
@@ -25426,7 +25426,7 @@
             "[l,U L2 U']"
         ],
         [
-            "z U u R U R' u' R U' R' U' z'",
+            "z Uw R U R' u' R U' R' U' z'",
             [
                 "Adrian Dębski"
             ],
@@ -25553,7 +25553,7 @@
     ],
     "EDB": [
         [
-            "L U L' U' l U L U' L' l'",
+            "L U L' U' l U L U' Lw'",
             [
                 "Oleg Gritsenko",
                 "Roman Strakhov"
@@ -25591,7 +25591,7 @@
             "Uw x':[U' R U,r2]"
         ],
         [
-            "U R r' U' R' U r2 U' R U r' R' U'",
+            "U R r' U' R' U r2 U' R U Rw' U'",
             [
                 "Mark Rivers"
             ],
@@ -25625,11 +25625,11 @@
             "D r':[U2,r' D' r]"
         ],
         [
-            "U' y r' U2 r' D r U2 r' D' r2 y' U",
+            "4Dw' r' U2 r' D r U2 r' D' r2 4Dw",
             [
                 "Oliver Fritz"
             ],
-            "U' y r':[U2,r' D r]"
+            "4Dw' r':[U2,r' D r]"
         ],
         [
             "U2 r U2 3Lw U2 3Lw' U2 r' U2 3Lw U2 3Lw'",
@@ -25807,11 +25807,11 @@
             "D r':[r' D' r,U2]"
         ],
         [
-            "U' y r2 D r U2 r' D' r U2 r y' U",
+            "4Dw' r2 D r U2 r' D' r U2 r 4Dw",
             [
                 "Oliver Fritz"
             ],
-            "U' y r':[r' D r,U2]"
+            "4Dw' r':[r' D r,U2]"
         ],
         [
             "3Lw U2 3Lw' U2 r U2 3Lw U2 3Lw' U2 r' U2",
@@ -25965,11 +25965,11 @@
             "x:[D2,l U2 l']"
         ],
         [
-            "U R r U' R' U r U' R U r2 R' U'",
+            "U Rw U' R' U r U' R U r2 R' U'",
             [
                 "Mark Rivers"
             ],
-            "U R r:[U' R' U,r]"
+            "U Rw:[U' R' U,r]"
         ]
     ],
     "EJN": [
@@ -26225,7 +26225,7 @@
     ],
     "EJZ": [
         [
-            "R r U2 r' D' r U2 r' D R'",
+            "Rw U2 r' D' r U2 r' D R'",
             [
                 "Cale Schoon",
                 "Oliver Fritz"
@@ -26282,7 +26282,7 @@
             "[U L2 U',l]"
         ],
         [
-            "z U R U R' u R U' R' u' U' z'",
+            "z U R U R' u R U' R' Uw' z'",
             [
                 "Adrian Dębski"
             ],
@@ -26358,11 +26358,11 @@
             "x:[l U2 l',D2]"
         ],
         [
-            "U R r2 U' R' U r' U' R U r' R' U'",
+            "U R r2 U' R' U r' U' R U Rw' U'",
             [
                 "Mark Rivers"
             ],
-            "U R r:[r,U' R' U]"
+            "U Rw:[r,U' R' U]"
         ]
     ],
     "EMO": [
@@ -26835,7 +26835,7 @@
     ],
     "EZJ": [
         [
-            "R D' r U2 r' D r U2 r' R'",
+            "R D' r U2 r' D r U2 Rw'",
             [
                 "Cale Schoon",
                 "Oliver Fritz"
@@ -27022,7 +27022,7 @@
             "S:[U',R' u R]"
         ],
         [
-            "x L U' L' d L U L' d' x'",
+            "4Rw U' L' d L U L' d' x'",
             [
                 "Xi Lu (鲁曦)"
             ],
@@ -27202,7 +27202,7 @@
     ],
     "GAI": [
         [
-            "4Lw r U r' D2 r U' r' D2 4Lw'",
+            "3Lw U r' D2 r U' r' D2 4Lw'",
             [
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
@@ -27235,7 +27235,7 @@
             "4Rw U':[L' d L,U2]"
         ],
         [
-            "U' 4Rw l' U R' U' l2 U R U' l' 4Rw' U",
+            "U' 4Rw l' U R' U' l2 U R U' 3Rw' U",
             [
                 "Michael Tripodi"
             ],
@@ -27306,7 +27306,7 @@
             "R':[U' R U,r]"
         ],
         [
-            "y r' D r U' r' D' r U y'",
+            "y r' D r U' r' D' r 4Dw",
             [
                 "Oliver Fritz"
             ],
@@ -27779,7 +27779,7 @@
             "[R' u2 R,U']"
         ],
         [
-            "u' R' u' R U' R' u R U u",
+            "u' R' u' R U' R' u R Uw",
             [
                 "Adrian Dębski",
                 "Chenhao Sun (孙晨皓)",
@@ -27841,7 +27841,7 @@
             "z':[U r' U',L']"
         ],
         [
-            "L' D R U' R' U r U' R U R' r' D' L",
+            "L' D R U' R' U r U' R U Rw' D' L",
             [
                 "Dong Zhu (朱栋)"
             ],
@@ -27869,7 +27869,7 @@
             "Rw':[U r U',R]"
         ],
         [
-            "x' U r U' R U r' U' R' x",
+            "x' U r U' R U r' U' 4Lw'",
             [
                 "Adrian Dębski",
                 "Dong Zhu (朱栋)",
@@ -28013,7 +28013,7 @@
             "Lw2:[D2,r U r']"
         ],
         [
-            "y x2 L2 U r' U' L2 U r U' x2 y'",
+            "y 4Rw2 U r' U' L2 U r U' x2 y'",
             [
                 "Oliver Fritz"
             ],
@@ -28142,7 +28142,7 @@
             "S:[R' u R,U']"
         ],
         [
-            "x d L U' L' d' L U L' x'",
+            "x d L U' L' d' L U 4Rw'",
             [
                 "Xi Lu (鲁曦)"
             ],
@@ -28172,7 +28172,7 @@
     ],
     "GDJ": [
         [
-            "y r U' L2 U r' U' L2 U y'",
+            "y r U' L2 U r' U' L2 4Dw",
             [
                 "Cale Schoon",
                 "Oliver Fritz"
@@ -28255,7 +28255,7 @@
             "[U',l' D2 l]"
         ],
         [
-            "U r R U' R' U r' U' R U R' U'",
+            "U Rw U' R' U r' U' R U R' U'",
             [
                 "Graham Siggins"
             ],
@@ -28462,7 +28462,7 @@
     ],
     "GIA": [
         [
-            "4Lw D2 r U r' D2 r U' r' 4Lw'",
+            "4Lw D2 r U r' D2 r U' 3Lw'",
             [
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
@@ -28600,7 +28600,7 @@
             "R':[r,U' R U]"
         ],
         [
-            "y U' r' D r U r' D' r y'",
+            "4Dw' r' D r U r' D' r y'",
             [
                 "Oliver Fritz"
             ],
@@ -28625,7 +28625,7 @@
             "Lw2:[r U r',D2]"
         ],
         [
-            "y x2 U r' U' L2 U r U' L2 x2 y'",
+            "y x2 U r' U' L2 U r U' 4Rw2 y'",
             [
                 "Oliver Fritz"
             ],
@@ -28660,7 +28660,7 @@
     ],
     "GJD": [
         [
-            "y U' L2 U r U' L2 U r' y'",
+            "4Dw' L2 U r U' L2 U r' y'",
             [
                 "Cale Schoon",
                 "Oliver Fritz"
@@ -28703,7 +28703,7 @@
             "[l' D2 l,U']"
         ],
         [
-            "U R U' R' U r U' R U R' r' U'",
+            "U R U' R' U r U' R U Rw' U'",
             [
                 "Graham Siggins"
             ],
@@ -28990,7 +28990,7 @@
             "U r:[U R U',r]"
         ],
         [
-            "U x R U R' U' r U R U' R' r' x' U'",
+            "U x R U R' U' r U R U' Rw' x' U'",
             [
                 "Cale Schoon"
             ],
@@ -29126,7 +29126,7 @@
     ],
     "GJZ": [
         [
-            "Uw U' R U r U' R' U r' Uw'",
+            "u R U r U' R' U r' Uw'",
             [
                 "Cale Schoon",
                 "James Molloy",
@@ -29742,7 +29742,7 @@
             "U r:[r,U R U']"
         ],
         [
-            "U x r R U R' U' r' U R U' R' x' U'",
+            "U x Rw U R' U' r' U R U' R' x' U'",
             [
                 "Cale Schoon"
             ],
@@ -29925,7 +29925,7 @@
             "[U',R' u2 R]"
         ],
         [
-            "u' U' R' u' R U R' u R u",
+            "Uw' R' u' R U R' u R u",
             [
                 "Adrian Dębski",
                 "Chenhao Sun (孙晨皓)",
@@ -30006,7 +30006,7 @@
             "z':[L',U r' U']"
         ],
         [
-            "L' D r R U' R' U r' U' R U R' D' L",
+            "L' D Rw U' R' U r' U' R U R' D' L",
             [
                 "Dong Zhu (朱栋)"
             ],
@@ -30066,7 +30066,7 @@
             "Rw':[R,U r U']"
         ],
         [
-            "x' R U r U' R' U r' U' x",
+            "4Lw U r U' R' U r' U' x",
             [
                 "Adrian Dębski",
                 "Dong Zhu (朱栋)",
@@ -30147,7 +30147,7 @@
     ],
     "GZJ": [
         [
-            "Uw r U' R U r' U' R' U Uw'",
+            "Uw r U' R U r' U' R' u'",
             [
                 "Cale Schoon",
                 "James Molloy",
@@ -30378,11 +30378,11 @@
             "Lw2 D r':[U2,r' D' r]"
         ],
         [
-            "l2 U' y r' U2 r' D r U2 r' D' r2 y' U l2",
+            "l2 4Dw' r' U2 r' D r U2 r' D' r2 4Dw l2",
             [
                 "Oliver Fritz"
             ],
-            "l2 U' y r':[U2,r' D r]"
+            "l2 4Dw' r':[U2,r' D r]"
         ],
         [
             "U2 Lw2 D2 r U2 r' D2 r U2 r' Lw2 U2",
@@ -30443,7 +30443,7 @@
             "l2 U':[B L' B',r2]"
         ],
         [
-            "l' y' x2 U' r2 U R2 U' r2 U R2 x2 y l",
+            "l' y' x2 U' r2 U R2 U' r2 U 4Lw2 y l",
             [
                 "Oliver Fritz"
             ],
@@ -30564,11 +30564,11 @@
             "Lw2 D r':[r' D' r,U2]"
         ],
         [
-            "l2 U' y r2 D r U2 r' D' r U2 r y' U l2",
+            "l2 4Dw' r2 D r U2 r' D' r U2 r 4Dw l2",
             [
                 "Oliver Fritz"
             ],
-            "l2 U' y r':[r' D r,U2]"
+            "l2 4Dw' r':[r' D r,U2]"
         ],
         [
             "U2 Lw2 r U2 r' D2 r U2 r' D2 Lw2 U2",
@@ -30602,7 +30602,7 @@
             "l2 U':[r2,B L' B']"
         ],
         [
-            "l' y' x2 R2 U' r2 U R2 U' r2 U x2 y l",
+            "l' y' 4Lw2 U' r2 U R2 U' r2 U x2 y l",
             [
                 "Oliver Fritz"
             ],
@@ -30665,7 +30665,7 @@
             "Lw2 U x:[U' R' U,r]"
         ],
         [
-            "l' y' x2 R2 U' r U R2 U' r' U x2 y l",
+            "l' y' 4Lw2 U' r U R2 U' r' U x2 y l",
             [
                 "Oliver Fritz"
             ],
@@ -30980,7 +30980,7 @@
             "Lw2 U x:[r,U' R' U]"
         ],
         [
-            "l' y' x2 U' r U R2 U' r' U R2 x2 y l",
+            "l' y' x2 U' r U R2 U' r' U 4Lw2 y l",
             [
                 "Oliver Fritz"
             ],
@@ -31462,7 +31462,7 @@
             "y:[U r' U',L2]"
         ],
         [
-            "y' U l' U' R2 U l U' R2 y",
+            "4Dw l' U' R2 U l U' R2 y",
             [
                 "Oliver Fritz"
             ],
@@ -31544,7 +31544,7 @@
             "z U:[r',U L' U']"
         ],
         [
-            "y r' U' L2 U r U' L2 U y'",
+            "y r' U' L2 U r U' L2 4Dw",
             [
                 "Oliver Fritz"
             ],
@@ -31669,11 +31669,11 @@
             "y U:[U r' U',L2]"
         ],
         [
-            "y' U2 l' U' R2 U l U' R2 U' y",
+            "y' U2 l' U' R2 U l U' R2 4Dw'",
             [
                 "Oliver Fritz"
             ],
-            "y' U:[U l' U',R2]"
+            "4Dw:[U l' U',R2]"
         ]
     ],
     "KIB": [
@@ -31704,7 +31704,7 @@
             "Lw2:[U,l' D2 l]"
         ],
         [
-            "Lw2 U2 R U' R' U r U' R U R' r' U2 Lw2",
+            "Lw2 U2 R U' R' U r U' R U Rw' U2 Lw2",
             [
                 "Graham Siggins"
             ],
@@ -31793,7 +31793,7 @@
             "y:[L2,U r' U']"
         ],
         [
-            "y' R2 U l' U' R2 U l U' y",
+            "y' R2 U l' U' R2 U l 4Dw'",
             [
                 "Oliver Fritz"
             ],
@@ -31823,7 +31823,7 @@
             "U:[r2,B L B']"
         ],
         [
-            "y U' L2 U r' U' L2 U r y'",
+            "4Dw' L2 U r' U' L2 U r y'",
             [
                 "Oliver Fritz"
             ],
@@ -31902,11 +31902,11 @@
             "y U:[L2,U r' U']"
         ],
         [
-            "y' U R2 U l' U' R2 U l U2 y",
+            "4Dw R2 U l' U' R2 U l U2 y",
             [
                 "Oliver Fritz"
             ],
-            "y' U:[R2,U l' U']"
+            "4Dw:[R2,U l' U']"
         ]
     ],
     "KJI": [
@@ -31919,7 +31919,7 @@
             "Lw2:[l' D2 l,U]"
         ],
         [
-            "Lw2 U2 r R U' R' U r' U' R U R' U2 Lw2",
+            "Lw2 U2 Rw U' R' U r' U' R U R' U2 Lw2",
             [
                 "Graham Siggins"
             ],
@@ -32388,7 +32388,7 @@
     ],
     "KMZ": [
         [
-            "Rw' r D' r' U' r D r' U Rw",
+            "R' D' r' U' r D r' U Rw",
             [
                 "Hana Davila"
             ],
@@ -32765,7 +32765,7 @@
     ],
     "KZM": [
         [
-            "Rw' U' r D' r' U r D r' Rw",
+            "Rw' U' r D' r' U r D R",
             [
                 "Hana Davila"
             ],
@@ -32829,7 +32829,7 @@
             "U' Rw':[r',U R U']"
         ],
         [
-            "y' x2 R2 U' r U R2 U' r' U x2 y",
+            "y' 4Lw2 U' r U R2 U' r' U x2 y",
             [
                 "Oliver Fritz"
             ],
@@ -32945,11 +32945,11 @@
             "U Rw':[r',U R U']"
         ],
         [
-            "x2 y' U2 R2 U' r U R2 U' r' U' y x2",
+            "x2 y' U2 R2 U' r U R2 U' r' 4Dw' x2",
             [
                 "Oliver Fritz"
             ],
-            "x2 y' U:[U R2 U',r]"
+            "x2 4Dw:[U R2 U',r]"
         ],
         [
             "U x' r' U R U' r U R' U' x U'",
@@ -32968,7 +32968,7 @@
     ],
     "MFP": [
         [
-            "Rw' U R' U' r U R U' r' Rw",
+            "Rw' U R' U' r U R U' R",
             [
                 "Hana Davila"
             ],
@@ -32997,7 +32997,7 @@
             "[D R2 D',r]"
         ],
         [
-            "r2 R' U R U' r U R' U' R r",
+            "r2 R' U R U' r U R' U' Rw",
             [
                 "Graham Siggins"
             ],
@@ -33045,7 +33045,7 @@
             "U' Rw':[U R U',r']"
         ],
         [
-            "y' x2 U' r U R2 U' r' U R2 x2 y",
+            "y' x2 U' r U R2 U' r' U 4Lw2 y",
             [
                 "Oliver Fritz"
             ],
@@ -33132,11 +33132,11 @@
             "U Rw':[U R U',r']"
         ],
         [
-            "x2 y' U r U R2 U' r' U R2 U2 y x2",
+            "x2 4Dw r U R2 U' r' U R2 U2 y x2",
             [
                 "Oliver Fritz"
             ],
-            "x2 y' U:[r,U R2 U']"
+            "x2 4Dw:[r,U R2 U']"
         ],
         [
             "U x' U R U' r' U R' U' r x U'",
@@ -33165,7 +33165,7 @@
             "[r,D R2 D']"
         ],
         [
-            "r' R' U R U' r' U R' U' R r2",
+            "Rw' U R U' r' U R' U' R r2",
             [
                 "Graham Siggins"
             ],
@@ -33236,7 +33236,7 @@
             "Lw U:[D' R2 D,r']"
         ],
         [
-            "l2 y' x2 U' r U R2 U' r' U R2 x2 y l2",
+            "l2 y' x2 U' r U R2 U' r' U 4Lw2 y l2",
             [
                 "Oliver Fritz"
             ],
@@ -33384,7 +33384,7 @@
             "x2:[r,U' L' U]"
         ],
         [
-            "x y' r U r' D' r U' r' D y x'",
+            "x y' r U r' D' r U' r' 4Uw x'",
             [
                 "Oliver Fritz"
             ],
@@ -33424,7 +33424,7 @@
             "x2:[r,U R U']"
         ],
         [
-            "x' R' U R U' r' U R' U' r R x",
+            "x' R' U R U' r' U R' U' Rw x",
             [
                 "Marcell Endrey"
             ],
@@ -33488,7 +33488,7 @@
             "Lw U:[r',D' R2 D]"
         ],
         [
-            "l2 y' x2 R2 U' r U R2 U' r' U x2 y l2",
+            "l2 y' 4Lw2 U' r U R2 U' r' U x2 y l2",
             [
                 "Oliver Fritz"
             ],
@@ -33511,7 +33511,7 @@
     ],
     "MPF": [
         [
-            "Rw' r U R' U' r' U R U' Rw",
+            "R' U R' U' r' U R U' Rw",
             [
                 "Hana Davila"
             ],
@@ -33663,7 +33663,7 @@
             "x2:[U' L' U,r]"
         ],
         [
-            "x y' D' r U r' D r U' r' y x'",
+            "x 4Uw' r U r' D r U' r' y x'",
             [
                 "Oliver Fritz"
             ],
@@ -33721,7 +33721,7 @@
             "x2:[U R U',r]"
         ],
         [
-            "x' R' r' U R U' r U R' U' R x",
+            "x' Rw' U R U' r U R' U' R x",
             [
                 "Marcell Endrey"
             ],
@@ -33992,7 +33992,7 @@
             "x:[R U' R',u]"
         ],
         [
-            "y' r' U R2 U' r U R2 U' y",
+            "y' r' U R2 U' r U R2 4Dw'",
             [
                 "Oliver Fritz"
             ],
@@ -34177,7 +34177,7 @@
             "x:[u,R U' R']"
         ],
         [
-            "y' U R2 U' r' U R2 U' r y",
+            "4Dw R2 U' r' U R2 U' r y",
             [
                 "Oliver Fritz"
             ],
@@ -34398,7 +34398,7 @@
     ],
     "OJR": [
         [
-            "R Uw' r2 U R' U' r2 U R U' Uw R'",
+            "R Uw' r2 U R' U' r2 U R u R'",
             [
                 "Graham Siggins",
                 "James Molloy"
@@ -34406,7 +34406,7 @@
             "R Uw':[r2,U R' U']"
         ],
         [
-            "R2 Uw U' R U r U' R' U r' Uw' R2",
+            "R2 u R U r U' R' U r' Uw' R2",
             [
                 "Cale Schoon"
             ],
@@ -34808,7 +34808,7 @@
     ],
     "ORJ": [
         [
-            "R Uw' U R' U' r2 U R U' r2 Uw R'",
+            "R u' R' U' r2 U R U' r2 Uw R'",
             [
                 "Graham Siggins",
                 "James Molloy"
@@ -34816,7 +34816,7 @@
             "R Uw':[U R' U',r2]"
         ],
         [
-            "R2 Uw r U' R U r' U' R' U Uw' R2",
+            "R2 Uw r U' R U r' U' R' u' R2",
             [
                 "Cale Schoon"
             ],
@@ -35143,7 +35143,7 @@
     ],
     "QDJ": [
         [
-            "Uw U' L' U r2 U' L U r2 Uw'",
+            "u L' U r2 U' L U r2 Uw'",
             [
                 "Graham Siggins",
                 "James Molloy"
@@ -35233,7 +35233,7 @@
     ],
     "QHJ": [
         [
-            "Uw' U R' U' r2 U R U' r2 Uw",
+            "u' R' U' r2 U R U' r2 Uw",
             [
                 "Carter Kucala",
                 "Graham Siggins",
@@ -35249,7 +35249,7 @@
             "U':[B' R2 B,r2]"
         ],
         [
-            "x2 y U' r2 U R U' r2 U R' y' x2",
+            "x2 4Dw' r2 U R U' r2 U R' y' x2",
             [
                 "Oliver Fritz"
             ],
@@ -35324,7 +35324,7 @@
     ],
     "QJD": [
         [
-            "Uw r2 U' L' U r2 U' L U Uw'",
+            "Uw r2 U' L' U r2 U' L u'",
             [
                 "Graham Siggins",
                 "James Molloy"
@@ -35389,7 +35389,7 @@
     ],
     "QJH": [
         [
-            "Uw' r2 U R' U' r2 U R U' Uw",
+            "Uw' r2 U R' U' r2 U R u",
             [
                 "Carter Kucala",
                 "Graham Siggins",
@@ -35611,7 +35611,7 @@
             "z:[U L' U',r]"
         ],
         [
-            "Rw R' u' R U' R' u R U Rw'",
+            "r u' R U' R' u R U Rw'",
             [
                 "Cale Schoon"
             ],
@@ -35749,7 +35749,7 @@
             "x:[U,r' D' r]"
         ],
         [
-            "R r U r' D' r U' r' D R'",
+            "Rw U r' D' r U' r' D R'",
             [
                 "Graham Siggins",
                 "Mark Rivers"
@@ -35988,7 +35988,7 @@
             "z:[r,U L' U']"
         ],
         [
-            "Rw U' R' u' R U R' u R Rw'",
+            "Rw U' R' u' R U R' u r'",
             [
                 "Cale Schoon"
             ],
@@ -36135,7 +36135,7 @@
             "x:[r' D' r,U]"
         ],
         [
-            "R D' r U r' D r U' r' R'",
+            "R D' r U r' D r U' Rw'",
             [
                 "Graham Siggins",
                 "Mark Rivers"
@@ -36357,7 +36357,7 @@
     ],
     "SHR": [
         [
-            "U D r R U' R' d R U R' d' r' D' U'",
+            "U D Rw U' R' d R U R' d' r' D' U'",
             [
                 "Daniel Lin",
                 "Dong Zhu (朱栋)"
@@ -36974,7 +36974,7 @@
     ],
     "SRH": [
         [
-            "U D r d R U' R' d' R U R' r' D' U'",
+            "U D r d R U' R' d' R U Rw' D' U'",
             [
                 "Daniel Lin",
                 "Dong Zhu (朱栋)"
@@ -37323,14 +37323,14 @@
             "[r2,F L2 F']"
         ],
         [
-            "y' x' u2 R D2 R' u2 R D2 R' x y",
+            "y' x' u2 R D2 R' u2 R D2 4Lw' y",
             [
                 "Oliver Fritz"
             ],
             "y' x':[u2,R D2 R']"
         ],
         [
-            "Uw R' U' r2 U R U' r2 U Uw'",
+            "Uw R' U' r2 U R U' r2 u'",
             [
                 "James Molloy"
             ],
@@ -37467,14 +37467,14 @@
             "[F L2 F',r2]"
         ],
         [
-            "y' x' R D2 R' u2 R D2 R' u2 x y",
+            "y' 4Lw D2 R' u2 R D2 R' u2 x y",
             [
                 "Oliver Fritz"
             ],
             "y' x':[R D2 R',u2]"
         ],
         [
-            "Uw U' r2 U R' U' r2 U R Uw'",
+            "u r2 U R' U' r2 U R Uw'",
             [
                 "James Molloy"
             ],
@@ -38488,7 +38488,7 @@
     ],
     "YJP": [
         [
-            "R' Uw U' R U r U' R' U r' Uw' R",
+            "R' u R U r U' R' U r' Uw' R",
             [
                 "Graham Siggins",
                 "James Molloy"
@@ -38740,7 +38740,7 @@
     ],
     "YPJ": [
         [
-            "R' Uw r U' R U r' U' R' U Uw' R",
+            "R' Uw r U' R U r' U' R' u' R",
             [
                 "Graham Siggins",
                 "James Molloy"
@@ -38845,14 +38845,14 @@
     ],
     "YTW": [
         [
-            "z y U' r U R2 U' r' U R2 y' z'",
+            "z 4Dw' r U R2 U' r' U R2 y' z'",
             [
                 "Oliver Fritz"
             ],
             "z y:[U' r U,R2]"
         ],
         [
-            "l2 z y U' r U R2 U' r' U R2 y' z' l2",
+            "l2 z 4Dw' r U R2 U' r' U R2 y' z' l2",
             [
                 "Oliver Fritz"
             ],
@@ -38889,7 +38889,7 @@
     ],
     "YWT": [
         [
-            "l2 z y R2 U' r U R2 U' r' U y' z' l2",
+            "l2 z y R2 U' r U R2 U' r' 4Dw z' l2",
             [
                 "Oliver Fritz"
             ],
