@@ -133,7 +133,7 @@ function algSearchMain(idValue, cornerstylecookie) {
                     let sourceElement = "";
                     for (const source of sourceInfo) {
                         if (source in sourceToUrl) {
-                            sourceElement = `${sourceElement}<a href="${sourceToUrl[source][0]}" target="_blank">${source}</a>`;
+                            sourceElement = `${sourceElement}<a href="${sourceToUrl[source][[sourceToUrl[source].length - 1]]}" target="_blank">${source}</a>`;
                         } else {
                             sourceElement = `${sourceElement}${source}`;
                         }
