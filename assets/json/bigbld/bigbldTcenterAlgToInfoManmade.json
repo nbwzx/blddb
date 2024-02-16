@@ -177,7 +177,7 @@
     ],
     "ABI": [
         [
-            "U' D r2 U' m' U r2 U' m U D' U",
+            "U' D r2 U' m' U r2 U' m U2 D'",
             [
                 "Andrew Tan Jing Bang",
                 "James Molloy",
@@ -297,7 +297,7 @@
     ],
     "ABM": [
         [
-            "U' D' r2 U' m' U r2 U' m U D U",
+            "U' D' r2 U' m' U r2 U' m U2 D",
             [
                 "Andrew Tan Jing Bang",
                 "Daniel Lin",
@@ -521,7 +521,7 @@
             "R U:[m' U m,u]"
         ],
         [
-            "U' e r' U' m' U r U' m U e' U",
+            "U' e r' U' m' U r U' m U2 e'",
             [
                 "Kai Yamamoto (山本快)"
             ],
@@ -573,7 +573,7 @@
             "z r:[r e r',U']"
         ],
         [
-            "U' e r U' m' U r' U' m U e' U",
+            "U' e r U' m' U r' U' m U2 e'",
             [
                 "Kai Yamamoto (山本快)"
             ],
@@ -2012,16 +2012,10 @@
             "y:[l',U' m U]"
         ],
         [
-            "E' U l' U' m U l U' m' E",
+            "4Uw l' U' m U l U' m' E",
             [
+                "Kai Yamamoto (山本快)",
                 "Ryan Eckersley"
-            ],
-            "E':[U l' U',m]"
-        ],
-        [
-            "4Uw l' U' m U l U' m' U 4Uw'",
-            [
-                "Kai Yamamoto (山本快)"
             ],
             "4Uw:[l',U' m U]"
         ],
@@ -2712,7 +2706,7 @@
             "4Uw':[r' e' r,U2]"
         ],
         [
-            "u e' U' r' e r U2 r' e' r U' e u'",
+            "u e' U' r' e r U2 r' e' r 3Uw'",
             [
                 "Michael Tripodi"
             ],
@@ -2809,7 +2803,7 @@
             "4Uw':[r e r',U2]"
         ],
         [
-            "u e' U' r e' r' U2 r e r' U' e u'",
+            "u e' U' r e' r' U2 r e r' 3Uw'",
             [
                 "Michael Tripodi"
             ],
@@ -3726,7 +3720,7 @@
     ],
     "AIB": [
         [
-            "U' D U' m' U r2 U' m U r2 D' U",
+            "U2 D m' U r2 U' m U r2 D' U",
             [
                 "Andrew Tan Jing Bang",
                 "James Molloy",
@@ -3966,7 +3960,7 @@
     ],
     "AIN": [
         [
-            "U' D U' m U r2 U' m' U r2 D' U",
+            "U2 D m U r2 U' m' U r2 D' U",
             [
                 "Andrew Tan Jing Bang",
                 "James Molloy",
@@ -4300,14 +4294,14 @@
             "U2:[4Uw r' 4Uw',m2]"
         ],
         [
-            "y U2 D' r' U m2 U' r U m2 U' D U2 y'",
+            "y U2 D' r' U m2 U' r U m2 U D y'",
             [
                 "Ethan Pan"
             ],
             "y U2 D':[r',U m2 U']"
         ],
         [
-            "y U2 D r' U' m2 U r U' m2 U D' U2 y'",
+            "y U2 D r' U' m2 U r U' m2 U' 4Uw'",
             [
                 "Ethan Pan"
             ],
@@ -5458,7 +5452,7 @@
             "x z':[m',U l U']"
         ],
         [
-            "4Uw U' m' U l2 U' m U l2 4Uw'",
+            "E' m' U l2 U' m U l2 4Uw'",
             [
                 "Leonardo Ezequiel Cruz",
                 "Marcell Endrey"
@@ -6129,7 +6123,7 @@
             "d:[U' r2 U,m']"
         ],
         [
-            "4Uw' r2 U m' U' r2 U m U' 4Uw",
+            "4Uw' r2 U m' U' r2 U m E'",
             [
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
@@ -6284,16 +6278,10 @@
             "4Uw:[l',U m U']"
         ],
         [
-            "E U' r' U m' U' r U m E'",
+            "4Uw' r' U m' U' r U m E'",
             [
+                "Kai Yamamoto (山本快)",
                 "Ryan Eckersley"
-            ],
-            "E:[U' r' U,m']"
-        ],
-        [
-            "4Uw' r' U m' U' r U m U' 4Uw",
-            [
-                "Kai Yamamoto (山本快)"
             ],
             "4Uw':[r',U m' U']"
         ]
@@ -6452,7 +6440,7 @@
     ],
     "AMB": [
         [
-            "U' D' U' m' U r2 U' m U r2 D U",
+            "U2 D' m' U r2 U' m U r2 D U",
             [
                 "Andrew Tan Jing Bang",
                 "Daniel Lin",
@@ -6765,7 +6753,7 @@
     ],
     "AMN": [
         [
-            "U' D' U' m U r2 U' m' U r2 D U",
+            "U2 D' m U r2 U' m' U r2 D U",
             [
                 "Andrew Tan Jing Bang",
                 "Daniel Lin",
@@ -6903,7 +6891,7 @@
             "e':[U l' U',m2]"
         ],
         [
-            "4Uw l' U' m2 U l U' m2 U 4Uw'",
+            "4Uw l' U' m2 U l U' m2 E",
             [
                 "Ethan Pan"
             ],
@@ -6976,7 +6964,7 @@
             "e:[U' r U,m2]"
         ],
         [
-            "4Uw l U' m2 U l' U' m2 U 4Uw'",
+            "4Uw l U' m2 U l' U' m2 E",
             [
                 "Ethan Pan"
             ],
@@ -7335,7 +7323,7 @@
     ],
     "ANI": [
         [
-            "U' D r2 U' m U r2 U' m' U D' U",
+            "U' D r2 U' m U r2 U' m' U2 D'",
             [
                 "Andrew Tan Jing Bang",
                 "James Molloy",
@@ -7490,7 +7478,7 @@
     ],
     "ANM": [
         [
-            "U' D' r2 U' m U r2 U' m' U D U",
+            "U' D' r2 U' m U r2 U' m' U2 D",
             [
                 "Andrew Tan Jing Bang",
                 "Daniel Lin",
@@ -8100,7 +8088,7 @@
             "d:[m',U' r2 U]"
         ],
         [
-            "4Uw' U m' U' r2 U m U' r2 4Uw",
+            "E m' U' r2 U m U' r2 4Uw",
             [
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
@@ -8830,7 +8818,7 @@
             "x z':[U l U',m']"
         ],
         [
-            "4Uw l2 U' m' U l2 U' m U 4Uw'",
+            "4Uw l2 U' m' U l2 U' m E",
             [
                 "Leonardo Ezequiel Cruz",
                 "Marcell Endrey"
@@ -9120,11 +9108,12 @@
             "4Uw':[r,U' m U]"
         ],
         [
-            "E' U l U' m' U l' U' m E",
+            "4Uw l U' m' U l' U' m E",
             [
+                "Kai Yamamoto (山本快)",
                 "Ryan Eckersley"
             ],
-            "E':[U l U',m']"
+            "4Uw:[l,U' m' U]"
         ],
         [
             "y' r U' m U r' U' m' U y",
@@ -9132,13 +9121,6 @@
                 "Kevin Matthews"
             ],
             "y':[r,U' m U]"
-        ],
-        [
-            "4Uw l U' m' U l' U' m U 4Uw'",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "4Uw:[l,U' m' U]"
         ],
         [
             "R' e' r U' r' e2 r U r' e' R",
@@ -9396,11 +9378,11 @@
             "4Uw':[U2,r' e' r]"
         ],
         [
-            "u e' U r' e r U2 r' e' r U e u'",
+            "3Uw r' e r U2 r' e' r U e u'",
             [
                 "Michael Tripodi"
             ],
-            "u e' U:[r' e r,U2]"
+            "3Uw:[r' e r,U2]"
         ]
     ],
     "AQF": [
@@ -9848,7 +9830,7 @@
             "R Uw:[m' U m,u']"
         ],
         [
-            "U2 e m' U r' U' m U r U' e' U2",
+            "U2 e m' U r' U' m U r U e'",
             [
                 "Kai Yamamoto (山本快)"
             ],
@@ -9919,7 +9901,7 @@
             "y:[U' m U,l']"
         ],
         [
-            "E' m U l' U' m' U l U' E",
+            "E' m U l' U' m' U l 4Uw'",
             [
                 "Kai Yamamoto (山本快)",
                 "Ryan Eckersley"
@@ -10253,7 +10235,7 @@
             "4Uw:[U m U',l']"
         ],
         [
-            "E m' U' r' U m U' r U E'",
+            "E m' U' r' U m U' r 4Uw",
             [
                 "Kai Yamamoto (山本快)",
                 "Ryan Eckersley"
@@ -10307,7 +10289,7 @@
             "e':[m2,U l' U']"
         ],
         [
-            "4Uw U' m2 U l' U' m2 U l 4Uw'",
+            "E' m2 U l' U' m2 U l 4Uw'",
             [
                 "Ethan Pan"
             ],
@@ -10503,14 +10485,15 @@
             "R y:[l,U m' U']"
         ],
         [
-            "R E U' r U m U' r' U m' E' R'",
+            "R 4Uw' r U m U' r' U m' E' R'",
             [
+                "Kai Yamamoto (山本快)",
                 "Ryan Eckersley"
             ],
-            "R E:[U' r U,m]"
+            "R 4Uw':[r,U m U']"
         ],
         [
-            "R u' e U' r U m U' r' U m' e' u R'",
+            "R 3Uw' r U m U' r' U m' e' u R'",
             [
                 "Michael Tripodi"
             ],
@@ -10522,13 +10505,6 @@
                 "Kevin Matthews"
             ],
             "R' y':[r,U' m U]"
-        ],
-        [
-            "R 4Uw' r U m U' r' U m' U' 4Uw R'",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "R 4Uw':[r,U m U']"
         ]
     ],
     "ARW": [
@@ -10803,11 +10779,11 @@
             "4Uw':[U2,r e r']"
         ],
         [
-            "u e' U r e' r' U2 r e r' U e u'",
+            "3Uw r e' r' U2 r e r' U e u'",
             [
                 "Michael Tripodi"
             ],
-            "u e' U:[r e' r',U2]"
+            "3Uw:[r e' r',U2]"
         ],
         [
             "u e U r e r' U2 r e' r' U e' u'",
@@ -11305,7 +11281,7 @@
             "z r:[U',r e r']"
         ],
         [
-            "U2 e m' U r U' m U r' U' e' U2",
+            "U2 e m' U r U' m U r' U e'",
             [
                 "Kai Yamamoto (山本快)"
             ],
@@ -11656,7 +11632,7 @@
             "e:[m2,U' r U]"
         ],
         [
-            "4Uw U' m2 U l U' m2 U l' 4Uw'",
+            "E' m2 U l U' m2 U l' 4Uw'",
             [
                 "Ethan Pan"
             ],
@@ -11787,7 +11763,7 @@
             "4Uw':[U' m U,r]"
         ],
         [
-            "E' m' U l U' m U l' U' E",
+            "E' m' U l U' m U l' 4Uw'",
             [
                 "Kai Yamamoto (山本快)",
                 "Ryan Eckersley"
@@ -11849,7 +11825,7 @@
             "R y:[U m' U',l]"
         ],
         [
-            "R E m U' r U m' U' r' U E' R'",
+            "R E m U' r U m' U' r' 4Uw R'",
             [
                 "Kai Yamamoto (山本快)",
                 "Ryan Eckersley"
@@ -11857,7 +11833,7 @@
             "R E:[m,U' r U]"
         ],
         [
-            "R u' e m U' r U m' U' r' U e' u R'",
+            "R u' e m U' r U m' U' r' 3Uw R'",
             [
                 "Michael Tripodi"
             ],
@@ -12802,7 +12778,7 @@
             "U2:[m2,4Uw r' 4Uw']"
         ],
         [
-            "4Dw' D' m2 U' r' U m2 U' r U D 4Dw",
+            "4Dw' D' m2 U' r' U m2 U' r U2 D y'",
             [
                 "Ethan Pan"
             ],
@@ -15482,7 +15458,7 @@
     ],
     "CDQ": [
         [
-            "u' U Uw r Uw' m' Uw r' Uw' m U' u",
+            "U2 r Uw' m' Uw r' Uw' m U' u",
             [
                 "Graham Siggins"
             ],
@@ -15848,7 +15824,7 @@
     ],
     "CFI": [
         [
-            "U' D U' r2 U m U' r2 U m' D' U",
+            "U2 D r2 U m U' r2 U m' D' U",
             [
                 "Graham Siggins"
             ],
@@ -15992,7 +15968,7 @@
     ],
     "CIF": [
         [
-            "U' D m U' r2 U m' U' r2 U D' U",
+            "U' D m U' r2 U m' U' r2 U2 D'",
             [
                 "Graham Siggins"
             ],
@@ -16359,7 +16335,7 @@
     ],
     "CKQ": [
         [
-            "U D U r U' m2 U r' U' m2 D' U'",
+            "U2 D r U' m2 U r' U' m2 D' U'",
             [
                 "Graham Siggins"
             ],
@@ -16413,7 +16389,7 @@
     ],
     "CKY": [
         [
-            "U D U r' U' m2 U r U' m2 D' U'",
+            "U2 D r' U' m2 U r U' m2 D' U'",
             [
                 "Graham Siggins"
             ],
@@ -16615,7 +16591,7 @@
     ],
     "CMN": [
         [
-            "U D' m U r2 U' m' U r2 U' D U'",
+            "U D' m U r2 U' m' U r2 U2 D",
             [
                 "Graham Siggins"
             ],
@@ -16782,7 +16758,7 @@
     ],
     "CNM": [
         [
-            "U D' U r2 U' m U r2 U' m' D U'",
+            "U2 D' r2 U' m U r2 U' m' D U'",
             [
                 "Graham Siggins"
             ],
@@ -16836,7 +16812,7 @@
     ],
     "CNT": [
         [
-            "u e' l U m U' l' U m' U' e u'",
+            "u e' l U m U' l' U m' 3Uw'",
             [
                 "Graham Siggins"
             ],
@@ -16988,7 +16964,7 @@
     ],
     "COY": [
         [
-            "U' D U' r' U m2 U' r U m2 D' U",
+            "U2 D r' U m2 U' r U m2 D' U",
             [
                 "Graham Siggins"
             ],
@@ -17186,7 +17162,7 @@
     ],
     "CQK": [
         [
-            "U D m2 U r U' m2 U r' U' D' U'",
+            "U D m2 U r U' m2 U r' U2 D'",
             [
                 "Graham Siggins"
             ],
@@ -17650,7 +17626,7 @@
     ],
     "CTN": [
         [
-            "u e' U m U' l U m' U' l' e u'",
+            "3Uw m U' l U m' U' l' e u'",
             [
                 "Graham Siggins"
             ],
@@ -18054,7 +18030,7 @@
     ],
     "CYK": [
         [
-            "U D m2 U r' U' m2 U r U' D' U'",
+            "U D m2 U r' U' m2 U r U2 D'",
             [
                 "Graham Siggins"
             ],
@@ -18081,7 +18057,7 @@
     ],
     "CYO": [
         [
-            "U' D m2 U' r' U m2 U' r U D' U",
+            "U' D m2 U' r' U m2 U' r U2 D'",
             [
                 "Graham Siggins"
             ],
@@ -18657,7 +18633,7 @@
     ],
     "EFI": [
         [
-            "U D r2 U m U' r2 U m' U' D' U'",
+            "U D r2 U m U' r2 U m' U2 D'",
             [
                 "Hana Davila"
             ],
@@ -18766,7 +18742,7 @@
     ],
     "EIF": [
         [
-            "U D U m U' r2 U m' U' r2 D' U'",
+            "U2 D m U' r2 U m' U' r2 D' U'",
             [
                 "Hana Davila"
             ],
@@ -18775,7 +18751,7 @@
     ],
     "EIJ": [
         [
-            "U D U m' U' r2 U m U' r2 D' U'",
+            "U2 D m' U' r2 U m U' r2 D' U'",
             [
                 "Ryan Eckersley"
             ],
@@ -18904,18 +18880,18 @@
     ],
     "EIX": [
         [
-            "4Uw' l' U m2 U' l U m2 U' 4Uw",
+            "4Uw' l' U m2 U' l U m2 E'",
             [
                 "Ryan Eckersley"
             ],
             "4Uw':[l',U m2 U']"
         ],
         [
-            "4Dw' D U r' U' m2 U r U' m2 D' 4Dw",
+            "4Uw r' U' m2 U r U' m2 E",
             [
                 "Ethan Pan"
             ],
-            "4Dw' D:[U r' U',m2]"
+            "E':[U r' U',m2]"
         ],
         [
             "4Uw' l' 4Uw m2 4Uw' l 4Uw m2",
@@ -18962,7 +18938,7 @@
     ],
     "EJI": [
         [
-            "U D r2 U m' U' r2 U m U' D' U'",
+            "U D r2 U m' U' r2 U m U2 D'",
             [
                 "Ryan Eckersley"
             ],
@@ -19013,7 +18989,7 @@
     ],
     "EJM": [
         [
-            "U D' r2 U m' U' r2 U m U' D U'",
+            "U D' r2 U m' U' r2 U m U2 D",
             [
                 "Ryan Eckersley"
             ],
@@ -19058,7 +19034,7 @@
     ],
     "EJR": [
         [
-            "U u' e r' U m' U' r U m U' e' u U'",
+            "U u' e r' U m' U' r U m U2 e' u",
             [
                 "Ryan Eckersley"
             ],
@@ -19427,7 +19403,7 @@
     ],
     "ELZ": [
         [
-            "E' U r U' m U r' U' m' E",
+            "4Uw r U' m U r' U' m' E",
             [
                 "Ryan Eckersley"
             ],
@@ -19452,7 +19428,7 @@
     ],
     "EMJ": [
         [
-            "U D' U m' U' r2 U m U' r2 D U'",
+            "U2 D' m' U' r2 U m U' r2 D U'",
             [
                 "Ryan Eckersley"
             ],
@@ -20227,7 +20203,7 @@
     ],
     "ERJ": [
         [
-            "U u' e U m' U' r' U m U' r e' u U'",
+            "U2 u' e m' U' r' U m U' r e' u U'",
             [
                 "Ryan Eckersley"
             ],
@@ -20484,7 +20460,7 @@
             "F:[U' l U,m']"
         ],
         [
-            "l' m' U m U' l2 U m' U' l2 m l",
+            "l' m' U m U' l2 U m' U' l' m",
             [
                 "Ryan Eckersley"
             ],
@@ -20782,7 +20758,7 @@
             "F:[m',U' l U]"
         ],
         [
-            "l' m' l2 U m U' l2 U m' U' m l",
+            "l m' U m U' l2 U m' U' m l",
             [
                 "Ryan Eckersley"
             ],
@@ -20827,18 +20803,18 @@
     ],
     "EXI": [
         [
-            "4Uw' U m2 U' l' U m2 U' l 4Uw",
+            "E m2 U' l' U m2 U' l 4Uw",
             [
                 "Ryan Eckersley"
             ],
             "4Uw':[U m2 U',l']"
         ],
         [
-            "4Dw' D m2 U r' U' m2 U r U' D' 4Dw",
+            "E' m2 U r' U' m2 U r 4Uw'",
             [
                 "Ethan Pan"
             ],
-            "4Dw' D:[m2,U r' U']"
+            "E':[m2,U r' U']"
         ],
         [
             "m2 4Uw' l' 4Uw m2 4Uw' l 4Uw",
@@ -21190,7 +21166,7 @@
     ],
     "EZL": [
         [
-            "E' m U r U' m' U r' U' E",
+            "E' m U r U' m' U r' 4Uw'",
             [
                 "Ryan Eckersley"
             ],
@@ -22396,7 +22372,7 @@
     ],
     "GCK": [
         [
-            "U D m' u2 m U2 m' u2 m U2 D' U'",
+            "U D m' u2 m U2 m' u2 m U D'",
             [
                 "Graham Siggins"
             ],
@@ -22454,7 +22430,7 @@
     ],
     "GCO": [
         [
-            "U D' m' u2 m U2 m' u2 m U2 D U'",
+            "U D' m' u2 m U2 m' u2 m U D",
             [
                 "Graham Siggins"
             ],
@@ -22489,7 +22465,7 @@
             "[U2,l' e2 l]"
         ],
         [
-            "Rw' U D' U r U' m2 U r' U' m2 D U' Rw",
+            "Rw' U2 D' r U' m2 U r' U' m2 D U' Rw",
             [
                 "Graham Siggins"
             ],
@@ -22570,7 +22546,7 @@
     ],
     "GCY": [
         [
-            "Rw U D' U r' U' m2 U r U' m2 D U' Rw'",
+            "Rw U2 D' r' U' m2 U r U' m2 D U' Rw'",
             [
                 "Graham Siggins"
             ],
@@ -24019,7 +23995,7 @@
     ],
     "GKC": [
         [
-            "U' D m' u2 m U2 m' u2 m U2 D' U",
+            "U' D m' u2 m U2 m' u2 m U' D'",
             [
                 "Graham Siggins"
             ],
@@ -24827,7 +24803,7 @@
     ],
     "GOC": [
         [
-            "U' D' m' u2 m U2 m' u2 m U2 D U",
+            "U' D' m' u2 m U2 m' u2 m U' D",
             [
                 "Graham Siggins"
             ],
@@ -25210,7 +25186,7 @@
             "[l' e2 l,U2]"
         ],
         [
-            "Rw' U D' m2 U r U' m2 U r' U' D U' Rw",
+            "Rw' U D' m2 U r U' m2 U r' U2 D Rw",
             [
                 "Graham Siggins"
             ],
@@ -26386,7 +26362,7 @@
     ],
     "GYC": [
         [
-            "Rw U D' m2 U r' U' m2 U r U' D U' Rw'",
+            "Rw U D' m2 U r' U' m2 U r U2 D Rw'",
             [
                 "Graham Siggins"
             ],
@@ -27337,7 +27313,7 @@
             "3Uw':[U m U',r]"
         ],
         [
-            "E m U' r U m' U' r' U E'",
+            "E m U' r U m' U' r' 4Uw",
             [
                 "Kai Yamamoto (山本快)",
                 "Ryan Eckersley"
@@ -28015,7 +27991,7 @@
     ],
     "HEX": [
         [
-            "E' m' U r' U' m U r U' E",
+            "E' m' U r' U' m U r 4Uw'",
             [
                 "Ryan Eckersley"
             ],
@@ -28776,26 +28752,20 @@
             "3Uw':[r,U m U']"
         ],
         [
+            "4Uw' r U m U' r' U m' E'",
+            [
+                "Kai Yamamoto (山本快)",
+                "Ryan Eckersley"
+            ],
+            "4Uw':[r,U m U']"
+        ],
+        [
             "y' r U m U' r' U m' 4Dw'",
             [
                 "Andrew Tan Jing Bang",
                 "Kevin Matthews"
             ],
             "y':[r,U m U']"
-        ],
-        [
-            "E U' r U m U' r' U m' E'",
-            [
-                "Ryan Eckersley"
-            ],
-            "E:[U' r U,m]"
-        ],
-        [
-            "4Uw' r U m U' r' U m' U' 4Uw",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "4Uw':[r,U m U']"
         ],
         [
             "R e' r U' r' e2 r U r' e' R'",
@@ -28968,7 +28938,7 @@
     ],
     "HXE": [
         [
-            "E' U r' U' m' U r U' m E",
+            "4Uw r' U' m' U r U' m E",
             [
                 "Ryan Eckersley"
             ],

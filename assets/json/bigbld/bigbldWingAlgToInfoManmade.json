@@ -2203,6 +2203,14 @@
             "Uw:[L' u' L,U']"
         ],
         [
+            "M U' r U L U' r' U 4Lw'",
+            [
+                "Kevin Matthews",
+                "Oliver Fritz"
+            ],
+            "4Lw:[L',U' r U]"
+        ],
+        [
             "Uw' R' u' R U' R' u R U Uw",
             [
                 "Chenhao Sun (孙晨皓)",
@@ -2217,20 +2225,6 @@
                 "Hana Davila"
             ],
             "U':[R' u2 R,U']"
-        ],
-        [
-            "M U' r U L U' r' U L' M'",
-            [
-                "Oliver Fritz"
-            ],
-            "M:[U' r U,L]"
-        ],
-        [
-            "4Lw L' U' r U L U' r' U 4Lw'",
-            [
-                "Kevin Matthews"
-            ],
-            "4Lw:[L',U' r U]"
         ]
     ],
     "ACX": [
@@ -3243,7 +3237,7 @@
             "M U:[r2,U R U']"
         ],
         [
-            "U 4Lw d' L' U L d L' U' L 4Lw' U'",
+            "U 4Lw d' L' U L d L' U' M' U'",
             [
                 "Kai Yamamoto (山本快)"
             ],
@@ -3486,7 +3480,7 @@
             "b':[U',R d' R']"
         ],
         [
-            "M U r2 U' L U r2 U' L' M'",
+            "M U r2 U' L U r2 U' 4Lw'",
             [
                 "Kevin Matthews"
             ],
@@ -3531,7 +3525,7 @@
             "R' U' Rw:[l',U R' U']"
         ],
         [
-            "M' U' L' d L U L' d' L M",
+            "M' U' L' d L U L' d' 4Lw",
             [
                 "Antonio Kam (甘浩東)",
                 "Kai Yamamoto (山本快)"
@@ -3929,7 +3923,7 @@
             "U R' U':[r,U' R U]"
         ],
         [
-            "U D U2 R' u R U2 R' u' R D' U'",
+            "U' D R' u R U2 R' u' R D' U'",
             [
                 "Daniel Lin",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -4347,7 +4341,7 @@
             "Lw' U L:[l,U' L' U]"
         ],
         [
-            "U' d' R d' R' U2 R d R' U2 d U",
+            "U' d' R d' R' U2 R d R' U' d",
             [
                 "Daniel Lin",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -4547,7 +4541,7 @@
             "Rw' D:[U,R' u R]"
         ],
         [
-            "U' d R d' R' U2 R d R' U2 d' U",
+            "U' d R d' R' U2 R d R' U' d'",
             [
                 "Daniel Lin",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -6755,7 +6749,7 @@
             "U R':[R' F' R,f]"
         ],
         [
-            "U' u R U' l2 U R' U' l2 U u' U",
+            "U' u R U' l2 U R' U' l2 U2 u'",
             [
                 "Graham Siggins",
                 "Hana Davila",
@@ -7105,7 +7099,7 @@
             "U R' U':[U' R U,r]"
         ],
         [
-            "U D R' u R U2 R' u' R U2 D' U'",
+            "U D R' u R U2 R' u' R U D'",
             [
                 "Daniel Lin",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -12240,12 +12234,14 @@
     ],
     "ANT": [
         [
-            "U' M R' u' R U R' u R U' M' U",
+            "U' 4Rw' u' R U R' u R U' M' U",
             [
                 "Andrew Tan Jing Bang",
                 "Antonio Kam (甘浩東)",
                 "Daniel Lin",
+                "Ethan Pan",
                 "Graham Siggins",
+                "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -12293,14 +12289,6 @@
                 "Xin Shi (石欣)"
             ],
             "L:[l U2 l',D']"
-        ],
-        [
-            "U' 4Rw' u' R U R' u R U' R' 4Rw U",
-            [
-                "Ethan Pan",
-                "Kai Yamamoto (山本快)"
-            ],
-            "U' 4Rw':[u',R U R']"
         ],
         [
             "4Lw D r U2 r' D' r U2 3Lw'",
@@ -12482,7 +12470,7 @@
             "D' U R':[R',U' r U]"
         ],
         [
-            "U' u R U' l U R' U' l' U u' U",
+            "U' u R U' l U R' U' l' U2 u'",
             [
                 "Graham Siggins"
             ],
@@ -15692,7 +15680,7 @@
             "M U:[U R U',r2]"
         ],
         [
-            "U M U L d' L' U' L d L' M' U'",
+            "U M U L d' L' U' L d 4Lw' U'",
             [
                 "Kai Yamamoto (山本快)"
             ],
@@ -16873,7 +16861,7 @@
             "Lw' U L:[U' L' U,l]"
         ],
         [
-            "U' d' U2 R d' R' U2 R d R' d U",
+            "U d' R d' R' U2 R d R' d U",
             [
                 "Daniel Lin",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -18118,7 +18106,7 @@
     ],
     "ATN": [
         [
-            "U' M U R' u' R U' R' u R M' U",
+            "U' M U R' u' R U' R' u 4Rw U",
             [
                 "Andrew Tan Jing Bang",
                 "Antonio Kam (甘浩東)",
@@ -18788,6 +18776,14 @@
             "Uw:[U',L' u' L]"
         ],
         [
+            "4Lw U' r U L' U' r' U M'",
+            [
+                "Kevin Matthews",
+                "Oliver Fritz"
+            ],
+            "4Lw:[U' r U,L']"
+        ],
+        [
             "U2 R' u2 R U R' u2 R U",
             [
                 "Antonio Kam (甘浩東)",
@@ -18796,25 +18792,11 @@
             "U':[U',R' u2 R]"
         ],
         [
-            "M L U' r U L' U' r' U M'",
-            [
-                "Oliver Fritz"
-            ],
-            "M:[L,U' r U]"
-        ],
-        [
             "Uw' U' R' u' R U R' u R Uw",
             [
                 "Chenhao Sun (孙晨皓)"
             ],
             "Uw':[U',R' u' R]"
-        ],
-        [
-            "4Lw U' r U L' U' r' U L 4Lw'",
-            [
-                "Kevin Matthews"
-            ],
-            "4Lw:[U' r U,L']"
         ]
     ],
     "AWD": [
@@ -19778,7 +19760,7 @@
             "b':[R d' R',U']"
         ],
         [
-            "4Lw U r2 U' L' U r2 U' L 4Lw'",
+            "4Lw U r2 U' L' U r2 U' M'",
             [
                 "Kevin Matthews"
             ],
@@ -20824,25 +20806,19 @@
             "Rw U:[U,R u' R']"
         ],
         [
+            "4Lw' d L U' L' d' L U M",
+            [
+                "Antonio Kam (甘浩東)",
+                "Kai Yamamoto (山本快)"
+            ],
+            "M':[L' d L,U']"
+        ],
+        [
             "R' U' Rw U R' U' l' U R U' l Rw' U R",
             [
                 "Oliver Fritz"
             ],
             "R' U' Rw:[U R' U',l']"
-        ],
-        [
-            "M' L' d L U' L' d' L U M",
-            [
-                "Antonio Kam (甘浩東)"
-            ],
-            "M':[L' d L,U']"
-        ],
-        [
-            "4Lw' d L U' L' d' L U L' 4Lw",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "4Lw':[d,L U' L']"
         ]
     ],
     "AYE": [
@@ -20889,7 +20865,7 @@
             "Rw' D:[R' u R,U]"
         ],
         [
-            "U' d U2 R d' R' U2 R d R' d' U",
+            "U d R d' R' U2 R d R' d' U",
             [
                 "Daniel Lin",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -21842,7 +21818,7 @@
             "U R':[f,R' F' R]"
         ],
         [
-            "U' u U' l2 U R U' l2 U R' u' U",
+            "U2 u l2 U R U' l2 U R' u' U",
             [
                 "Graham Siggins",
                 "Hana Davila",
@@ -22148,7 +22124,7 @@
             "D' U R':[U' r U,R']"
         ],
         [
-            "U' u U' l U R U' l' U R' u' U",
+            "U2 u l U R U' l' U R' u' U",
             [
                 "Graham Siggins"
             ],
@@ -22838,7 +22814,7 @@
             "y:[L2,U r U']"
         ],
         [
-            "U' D R2 U' r U R2 U' r' U D' U",
+            "U' D R2 U' r U R2 U' r' U2 D'",
             [
                 "Graham Siggins"
             ],
@@ -23081,7 +23057,7 @@
     ],
     "BIJ": [
         [
-            "Lw' U' D U' r U R2 U' r' U R2 D' U Lw",
+            "Lw' U2 D r U R2 U' r' U R2 D' U Lw",
             [
                 "Graham Siggins"
             ],
@@ -23266,7 +23242,7 @@
             "y:[U r U',L2]"
         ],
         [
-            "U' D U' r U R2 U' r' U R2 D' U",
+            "U2 D r U R2 U' r' U R2 D' U",
             [
                 "Graham Siggins"
             ],
@@ -23315,7 +23291,7 @@
     ],
     "BJI": [
         [
-            "Lw' U' D R2 U' r U R2 U' r' U D' U Lw",
+            "Lw' U' D R2 U' r U R2 U' r' U2 D' Lw",
             [
                 "Graham Siggins"
             ],
@@ -23523,7 +23499,7 @@
             "U2 r':[U L' U',r2]"
         ],
         [
-            "U2 d U R U' r2 U R' U' r2 d' U2",
+            "U' d R U' r2 U R' U' r2 d' U2",
             [
                 "Cale Schoon"
             ],
@@ -24277,7 +24253,7 @@
             "U2 r:[U L' U',r2]"
         ],
         [
-            "U2 d r2 U R U' r2 U R' U' d' U2",
+            "U2 d r2 U R U' r2 U R' U d'",
             [
                 "Cale Schoon"
             ],
@@ -25660,7 +25636,7 @@
             "U r':[U L' U',r2]"
         ],
         [
-            "U d U R U' r2 U R' U' r2 d' U'",
+            "U2 d R U' r2 U R' U' r2 d' U'",
             [
                 "Cale Schoon"
             ],
@@ -25711,7 +25687,7 @@
     ],
     "DJY": [
         [
-            "R' U D r U R2 U' r' U R2 U' D' U' R",
+            "R' U D r U R2 U' r' U R2 U2 D' R",
             [
                 "Graham Siggins"
             ],
@@ -25812,7 +25788,7 @@
     ],
     "DMQ": [
         [
-            "M L u L' U' L u' L' U M'",
+            "4Lw u L' U' L u' L' U M'",
             [
                 "Oliver Fritz"
             ],
@@ -25920,7 +25896,7 @@
     ],
     "DQM": [
         [
-            "M U' L u L' U L u' L' M'",
+            "M U' L u L' U L u' 4Lw'",
             [
                 "Oliver Fritz"
             ],
@@ -25948,7 +25924,7 @@
             "U r:[U L' U',r2]"
         ],
         [
-            "U d r2 U R U' r2 U R' U' d' U'",
+            "U d r2 U R U' r2 U R' U2 d'",
             [
                 "Cale Schoon"
             ],
@@ -26015,7 +25991,7 @@
     ],
     "DYJ": [
         [
-            "R' U D U R2 U' r U R2 U' r' D' U' R",
+            "R' U2 D R2 U' r U R2 U' r' D' U' R",
             [
                 "Graham Siggins"
             ],
@@ -27702,7 +27678,7 @@
             "L':[R' u2 R,U']"
         ],
         [
-            "R' U' u R' u' R U' R' u R U u' U R",
+            "R' U' u R' u' R U' R' u R U2 u' R",
             [
                 "Ethan Pan"
             ],
@@ -28653,7 +28629,7 @@
             "U:[U,L d2 L']"
         ],
         [
-            "M R' U r U' R U r' U' M'",
+            "4Rw' U r U' R U r' U' M'",
             [
                 "Kevin Matthews"
             ],
@@ -28927,7 +28903,7 @@
     ],
     "GDJ": [
         [
-            "U D r U R2 U' r' U R2 U' D' U'",
+            "U D r U R2 U' r' U R2 U2 D'",
             [
                 "Graham Siggins"
             ],
@@ -29377,7 +29353,7 @@
     ],
     "GJD": [
         [
-            "U D U R2 U' r U R2 U' r' D' U'",
+            "U2 D R2 U' r U R2 U' r' D' U'",
             [
                 "Graham Siggins"
             ],
@@ -30637,7 +30613,7 @@
             "U:[L d2 L',U]"
         ],
         [
-            "M U r U' R' U r' U' R M'",
+            "M U r U' R' U r' U' 4Rw",
             [
                 "Kevin Matthews"
             ],
@@ -31659,7 +31635,7 @@
             "L U:[L' U' L U,l']"
         ],
         [
-            "M' R u R' U R u' R' U' M",
+            "4Rw u R' U R u' R' U' M",
             [
                 "Antonio Kam (甘浩東)"
             ],
@@ -31840,7 +31816,7 @@
             "z' U:[R' u' R,U]"
         ],
         [
-            "4Rw' U' r2 U R U' r2 U R' 4Rw",
+            "4Rw' U' r2 U R U' r2 U M'",
             [
                 "Kevin Matthews"
             ],
@@ -32730,7 +32706,7 @@
     ],
     "HJS": [
         [
-            "U' d U R U' r2 U R' U' r2 d' U",
+            "d R U' r2 U R' U' r2 d' U",
             [
                 "Cale Schoon"
             ],
@@ -33666,7 +33642,7 @@
     ],
     "HSJ": [
         [
-            "U' d r2 U R U' r2 U R' U' d' U",
+            "U' d r2 U R U' r2 U R' d'",
             [
                 "Cale Schoon"
             ],
@@ -33808,7 +33784,7 @@
             "L U:[l',L' U' L U]"
         ],
         [
-            "M' U R u R' U' R u' R' M",
+            "M' U R u R' U' R u' 4Rw'",
             [
                 "Antonio Kam (甘浩東)"
             ],
@@ -34128,7 +34104,7 @@
             "z' U:[U,R' u' R]"
         ],
         [
-            "M U' r2 U R' U' r2 U R M'",
+            "M U' r2 U R' U' r2 U 4Rw",
             [
                 "Kevin Matthews"
             ],
