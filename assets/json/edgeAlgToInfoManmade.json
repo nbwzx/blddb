@@ -12632,7 +12632,7 @@
         ],
         [
             [
-                "U E l' U u2 l2 E' l2 U E l U' E'"
+                "U E l' u' E l2 E' l2 U E l U' E'"
             ],
             [
                 "Ishaan Agrawal"
@@ -12764,7 +12764,7 @@
         ],
         [
             [
-                "U' u2 L E L2 E' L U u2"
+                "u E' L E L2 E' L u' E"
             ],
             [
                 "Benjamin Paul",
@@ -12991,7 +12991,7 @@
         ],
         [
             [
-                "U' u2 L' E' L2 E L' U u2"
+                "u E' L' E' L2 E L' u' E"
             ],
             [
                 "Benjamin Paul",
@@ -20487,7 +20487,7 @@
         ],
         [
             [
-                "U u2 R' E' R2 E R' U' u2"
+                "u' E R' E' R2 E R' u E'"
             ],
             [
                 "Benjamin Paul",
@@ -21080,7 +21080,7 @@
         ],
         [
             [
-                "U u2 R E R2 E' R U' u2"
+                "u' E R E R2 E' R u E'"
             ],
             [
                 "Benjamin Paul",
@@ -24335,7 +24335,7 @@
         ],
         [
             [
-                "U u2 R E' R2 E R U' u2"
+                "u' E R E' R2 E R u E'"
             ],
             [
                 "Benjamin Paul",
@@ -27704,7 +27704,7 @@
         ],
         [
             [
-                "U' u2 L' E L2 E' L' U u2"
+                "u E' L' E L2 E' L' u' E"
             ],
             [
                 "Benjamin Paul",
@@ -31432,7 +31432,7 @@
         ],
         [
             [
-                "U' u2 L E' L2 E L U u2"
+                "u E' L E' L2 E L u' E"
             ],
             [
                 "Benjamin Paul",
@@ -35441,7 +35441,7 @@
         ],
         [
             [
-                "U u2 R' E R2 E' R' U' u2"
+                "u' E R' E R2 E' R' u E'"
             ],
             [
                 "Benjamin Paul",
@@ -45177,7 +45177,7 @@
         ],
         [
             [
-                "L u L U' L' E' L U L' U u2 L'"
+                "L u L U' L' E' L U L' u' E L'"
             ],
             [
                 "Antonio Kam (甘浩東)"
@@ -47107,7 +47107,7 @@
         ],
         [
             [
-                "L U' u2 L U' L' E L U L' u' L'"
+                "L u E' L U' L' E L U L' u' L'"
             ],
             [
                 "Antonio Kam (甘浩東)"
@@ -51920,19 +51920,6 @@
     "EMX": [
         [
             [
-                "r2 F' L2 E' L2 E F r2",
-                "r2 F' r2 E r2 E F r2"
-            ],
-            [
-                "Graham Siggins",
-                "Heejun Kim (김희준)",
-                "Keiichiro Taira (平佳一郎)",
-                "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
-            ]
-        ],
-        [
-            [
                 "U' l U R' E R U R' E' R U2 l' U",
                 "U' R B R' S R B R' S' R B2 R' U"
             ],
@@ -51942,6 +51929,18 @@
                 "Tommy Cherry",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
+            ]
+        ],
+        [
+            [
+                "r2 F' L2 E' L2 E F r2",
+                "r2 F' r2 E r2 E F r2"
+            ],
+            [
+                "Graham Siggins",
+                "Heejun Kim (김희준)",
+                "Masato Fujiwara (藤原正人)",
+                "Max Hilliard"
             ]
         ],
         [
@@ -56883,7 +56882,6 @@
                 "Antonio Kam (甘浩東)",
                 "Graham Siggins",
                 "Heejun Kim (김희준)",
-                "Keiichiro Taira (平佳一郎)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
                 "Michael Tripodi"
@@ -64172,7 +64170,7 @@
         [
             [
                 "R' F2 R S R' F2 R S'",
-                "l' U2 R E' R' U2 R E R' l"
+                "l' U2 R E' R' U2 R E x'"
             ],
             [
                 "Antonio Kam (甘浩東)",
@@ -76303,7 +76301,7 @@
         [
             [
                 "S R' F2 R S' R' F2 R",
-                "R l' E' R' U2 R E R' U2 l"
+                "x E' R' U2 R E R' U2 l"
             ],
             [
                 "Antonio Kam (甘浩東)",

@@ -49,7 +49,7 @@
                 "Hana Davila",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "[m,L U L' U']"
+            "L:[m,U L' U']"
         ],
         [
             "Lw' m U L U' m' U L' U' Lw",
@@ -87,7 +87,7 @@
                 "Kevin Matthews",
                 "Michael Tripodi"
             ],
-            "3Lw':[U L U',m]"
+            "Lw':[m',U L U']"
         ],
         [
             "U' Rw U' R' U m' U' R U 3Rw' U",
@@ -115,7 +115,7 @@
             [
                 "Hana Davila"
             ],
-            "[m',L U L' U']"
+            "L:[m',U L' U']"
         ]
     ],
     "ACK": [
@@ -188,7 +188,7 @@
                 "Leonardo Ezequiel Cruz",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "[m2,L U L' U']"
+            "L:[m2,U L' U']"
         ],
         [
             "Lw m2 U L' U' m2 U L U' Lw'",
@@ -210,7 +210,7 @@
             [
                 "Graham Siggins"
             ],
-            "U':[R U' R' U,m2]"
+            "U' R:[U' R' U,m2]"
         ]
     ],
     "ACN": [
@@ -595,7 +595,7 @@
                 "Hana Davila",
                 "Roman Strakhov"
             ],
-            "[L' U' L U,m']"
+            "L':[U' L U,m']"
         ],
         [
             "L U' L' U m' U' L U m L'",
@@ -757,7 +757,7 @@
             [
                 "Hana Davila"
             ],
-            "m:[L' U' L U,m2]"
+            "m L':[U' L U,m2]"
         ]
     ],
     "ADN": [
@@ -1587,7 +1587,7 @@
                 "Hana Davila",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "[L U L' U',m]"
+            "L:[U L' U',m]"
         ]
     ],
     "AFD": [
@@ -1611,7 +1611,7 @@
                 "Hana Davila",
                 "Roman Strakhov"
             ],
-            "[m',L' U' L U]"
+            "L':[m',U' L U]"
         ],
         [
             "L m' U' L' U m U' L U L'",
@@ -2469,7 +2469,7 @@
             [
                 "Hana Davila"
             ],
-            "[L U L' U',m']"
+            "L:[U L' U',m']"
         ]
     ],
     "AJD": [
@@ -3966,7 +3966,7 @@
                 "Leonardo Ezequiel Cruz",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "[L U L' U',m2]"
+            "L:[U L' U',m2]"
         ],
         [
             "Lw U L' U' m2 U L U' m2 Lw'",
@@ -3988,7 +3988,7 @@
             [
                 "Graham Siggins"
             ],
-            "U':[m2,R U' R' U]"
+            "U' R:[m2,U' R' U]"
         ]
     ],
     "AMD": [
@@ -4017,7 +4017,7 @@
             [
                 "Hana Davila"
             ],
-            "m':[L' U' L U,m2]"
+            "m' L':[U' L U,m2]"
         ]
     ],
     "AME": [
@@ -10349,7 +10349,7 @@
             [
                 "Hana Davila"
             ],
-            "U':[m',R U R' U']"
+            "U' R:[m',U R' U']"
         ]
     ],
     "GAE": [
@@ -10402,7 +10402,7 @@
                 "Hana Davila",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "[R' U' R U,m]"
+            "R':[U' R U,m]"
         ]
     ],
     "GAI": [
@@ -10449,7 +10449,7 @@
                 "Hana Davila",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "[R' U' R U,m']"
+            "R':[U' R U,m']"
         ]
     ],
     "GAK": [
@@ -10529,7 +10529,7 @@
                 "Leonardo Ezequiel Cruz",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "[R' U' R U,m2]"
+            "R':[U' R U,m2]"
         ],
         [
             "R' U R U m U2 m' U R' U' R",
@@ -10591,7 +10591,7 @@
             [
                 "Hana Davila"
             ],
-            "U':[m,R' U R U']"
+            "U' R':[m,U R U']"
         ]
     ],
     "GAO": [
@@ -10937,7 +10937,7 @@
                 "Hana Davila",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "U':[R' U' R U,m]"
+            "U' R':[U' R U,m]"
         ]
     ],
     "GBE": [
@@ -10960,7 +10960,7 @@
                 "Hana Davila",
                 "Roman Strakhov"
             ],
-            "[m',R U R' U']"
+            "R:[m',U R' U']"
         ],
         [
             "D 3Rw U R' U' m U R U' Rw' D'",
@@ -11033,7 +11033,7 @@
             [
                 "Hana Davila"
             ],
-            "m':[R U R' U',m']"
+            "m' R:[U R' U',m']"
         ]
     ],
     "GBJ": [
@@ -11186,7 +11186,7 @@
             [
                 "Hana Davila"
             ],
-            "m':[R U R' U',m2]"
+            "m' R:[U R' U',m2]"
         ]
     ],
     "GBO": [
@@ -11531,7 +11531,7 @@
             [
                 "Hana Davila"
             ],
-            "U':[R U R' U',m']"
+            "U' R:[U R' U',m']"
         ]
     ],
     "GDB": [
@@ -11546,7 +11546,7 @@
                 "Kevin Matthews",
                 "Michael Tripodi"
             ],
-            "U' 3Rw':[U' R U,m']"
+            "U' Rw':[m,U' R U]"
         ],
         [
             "U' m R' U' R U m' U' R' U R U",
@@ -11554,7 +11554,7 @@
                 "Hana Davila",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "U':[m,R' U' R U]"
+            "U' R':[m,U' R U]"
         ]
     ],
     "GDP": [
@@ -11625,7 +11625,7 @@
                 "Hana Davila",
                 "Roman Strakhov"
             ],
-            "[R U R' U',m']"
+            "R:[U R' U',m']"
         ],
         [
             "R' U R U' m' U R' U' m R",
@@ -11655,7 +11655,7 @@
                 "Hana Davila",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "[m,R' U' R U]"
+            "R':[m,U' R U]"
         ]
     ],
     "GFB": [
@@ -11747,7 +11747,7 @@
             [
                 "Hana Davila"
             ],
-            "m':[m',R U R' U']"
+            "m2 R:[U R' U',m]"
         ]
     ],
     "GIS": [
@@ -11779,7 +11779,7 @@
                 "Hana Davila",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "[m',R' U' R U]"
+            "R':[m',U' R U]"
         ]
     ],
     "GJB": [
@@ -11950,7 +11950,7 @@
                 "Leonardo Ezequiel Cruz",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "[m2,R' U' R U]"
+            "R':[m2,U' R U]"
         ],
         [
             "R' U R U' m U2 m' U' R' U' R",
@@ -12046,7 +12046,7 @@
             [
                 "Hana Davila"
             ],
-            "U':[R' U R U',m]"
+            "U' R':[U R U',m]"
         ]
     ],
     "GNB": [
@@ -12081,7 +12081,7 @@
             [
                 "Hana Davila"
             ],
-            "m:[R U R' U',m2]"
+            "m R:[U R' U',m2]"
         ]
     ],
     "GOA": [

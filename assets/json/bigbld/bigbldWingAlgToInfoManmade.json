@@ -1096,7 +1096,7 @@
             [
                 "Xin Shi (石欣)"
             ],
-            "Lw U:[l2,L' U' L U]"
+            "Lw U L':[l2,U' L U]"
         ]
     ],
     "ABX": [
@@ -1252,14 +1252,14 @@
             [
                 "Xin Shi (石欣)"
             ],
-            "Rw' U':[R U R' U',r2]"
+            "Rw' U' R:[U R' U',r2]"
         ],
         [
             "Rw' U' R' U R U' r2 U R' U' R r2 U Rw",
             [
                 "Hana Davila"
             ],
-            "Rw' U':[R' U R U',r2]"
+            "Rw' U' R':[U R U',r2]"
         ]
     ],
     "ACB": [
@@ -1369,7 +1369,7 @@
             [
                 "Xin Shi (石欣)"
             ],
-            "U' Lw U':[l2,R U R' U']"
+            "U' Lw U' R:[l2,U R' U']"
         ],
         [
             "Fw2 L2 f L' F L f' L' F' L' Fw2",
@@ -1496,7 +1496,7 @@
                 "Tom Nelson",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "[r',L U L' U']"
+            "L:[r',U L' U']"
         ],
         [
             "x' U L' U' r U L U' r' x",
@@ -1574,7 +1574,7 @@
             [
                 "Xin Shi (石欣)"
             ],
-            "U:[L' U' L U,l2]"
+            "U L':[U' L U,l2]"
         ]
     ],
     "ACJ": [
@@ -1634,7 +1634,7 @@
                 "Marcell Endrey",
                 "Mark Rivers"
             ],
-            "[r,L' U L U']"
+            "L':[r,U L U']"
         ],
         [
             "4Dw r' D' r U' r' D r y",
@@ -1650,7 +1650,7 @@
                 "Hana Davila",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "[r,L U L' U']"
+            "L:[r,U L' U']"
         ]
     ],
     "ACK": [
@@ -1664,7 +1664,7 @@
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi"
             ],
-            "D' U':[R U' R' U,r2]"
+            "D' U' R:[U' R' U,r2]"
         ],
         [
             "4Rw' U' r U L2 U' r' U L' x",
@@ -1700,7 +1700,7 @@
                 "Hana Davila",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "D':[r2,L U L' U']"
+            "D' L:[r2,U L' U']"
         ],
         [
             "U' D' R' U' R U r2 U' R' U r2 R D U",
@@ -1721,7 +1721,7 @@
             [
                 "Xin Shi (石欣)"
             ],
-            "[r' U' r U,L2]"
+            "r':[U' r U,L2]"
         ],
         [
             "D' 3Lw' 4Lw2 U L' U' r2 U L U' 3Lw' D",
@@ -1802,7 +1802,7 @@
                 "James Molloy",
                 "Leonardo Ezequiel Cruz"
             ],
-            "U':[R U' R' U,r2]"
+            "U' R:[U' R' U,r2]"
         ],
         [
             "r2 L' U L U' r2 U L' U' L",
@@ -1811,7 +1811,7 @@
                 "Dong Zhu (朱栋)",
                 "Oliver Fritz"
             ],
-            "[r2,L' U L U']"
+            "L':[r2,U L U']"
         ],
         [
             "r2 L U L' U' r2 U L U' L'",
@@ -1820,7 +1820,7 @@
                 "Xin Shi (石欣)",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "[r2,L U L' U']"
+            "L:[r2,U L' U']"
         ],
         [
             "U' R' U' R U r2 U' R' U r2 R U",
@@ -1883,7 +1883,7 @@
                 "Adrian Dębski",
                 "Daniel Wallin"
             ],
-            "U:[L U' L' U,l]"
+            "U L:[U' L' U,l]"
         ],
         [
             "D r' D r U' r' D' r U D'",
@@ -2126,7 +2126,7 @@
             [
                 "Xin Shi (石欣)"
             ],
-            "[r' U' r U,L']"
+            "r':[U' r U,L']"
         ],
         [
             "L' U2 R' u2 R U R' u2 R U L",
@@ -2187,7 +2187,7 @@
                 "Xin Shi (石欣)",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "4Rw':[U' r U,L]"
+            "x':[L',U' r U]"
         ],
         [
             "Uw L' u' L U' L' u L u'",
@@ -2472,7 +2472,7 @@
             [
                 "Xin Shi (石欣)"
             ],
-            "U' Lw U':[R U R' U',l2]"
+            "U' Lw U' R:[U R' U',l2]"
         ],
         [
             "Fw2 L F L f L' F' L f' L2 Fw2",
@@ -2581,7 +2581,7 @@
                 "Xi Lu (鲁曦)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
-            "[Lw' U' L U,r]"
+            "Lw':[U' L U,r]"
         ],
         [
             "L' U' L U r U' L' U L r'",
@@ -2591,7 +2591,7 @@
                 "Xin Shi (石欣)",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "[L' U' L U,r]"
+            "L':[U' L U,r]"
         ],
         [
             "3Lw' U' L U r U' L' U 4Lw",
@@ -2606,7 +2606,7 @@
             [
                 "Hana Davila"
             ],
-            "[L U' L' U,r]"
+            "L:[U' L' U,r]"
         ]
     ],
     "ADI": [
@@ -2642,7 +2642,7 @@
                 "Ethan Pan",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
-            "Rw U':[L' U L U',l']"
+            "Rw U' L':[U L U',l']"
         ],
         [
             "D' L F' L' b' L F L' b D",
@@ -2956,7 +2956,7 @@
             [
                 "Hana Davila"
             ],
-            "r':[L U' L' U,r2]"
+            "r' L:[U' L' U,r2]"
         ]
     ],
     "ADN": [
@@ -3169,7 +3169,7 @@
             [
                 "Adrian Dębski"
             ],
-            "R U':[l',Rw U R' U']"
+            "R U' Rw:[l',U R' U']"
         ],
         [
             "z' D l' U L' U' l U L U' D' z",
@@ -3446,7 +3446,7 @@
                 "Graham Siggins",
                 "James Molloy"
             ],
-            "4Rw':[U r2 U',L]"
+            "x':[L',U r2 U']"
         ],
         [
             "Rw' U r2 U' L U r2 U' L' Rw",
@@ -3923,19 +3923,19 @@
             "U R' U':[r,U' R U]"
         ],
         [
-            "U' D R' u R U2 R' u' R D' U'",
+            "D U' R' u R U2 R' u' R D' U'",
             [
                 "Daniel Lin",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
-            "U D:[U2,R' u R]"
+            "D U':[R' u R,U2]"
         ],
         [
             "D r' D' r U2 r' D r D' U2",
             [
                 "Tom Nelson"
             ],
-            "[D r' D' r,U2]"
+            "D:[r' D' r,U2]"
         ],
         [
             "F' R U R' u' R U' R' u F",
@@ -4105,7 +4105,7 @@
             "[r' D2 r,U2]"
         ],
         [
-            "D' U' R' u R U2 R' u' R U' D",
+            "U' D' R' u R U2 R' u' R U' D",
             [
                 "Andrew Tan Jing Bang",
                 "Antonio Kam (甘浩東)",
@@ -4115,7 +4115,7 @@
                 "Ryan Eckersley",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
-            "D' U':[R' u R,U2]"
+            "U' D':[R' u R,U2]"
         ],
         [
             "D' r' D' r U2 r' D r U2 D",
@@ -4719,7 +4719,7 @@
                 "Tom Nelson",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "[L U L' U',r']"
+            "L:[U L' U',r']"
         ],
         [
             "x' r U L' U' r' U L U' x",
@@ -4774,7 +4774,7 @@
                 "Xi Lu (鲁曦)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
-            "[r,Lw' U' L U]"
+            "Lw':[r,U' L U]"
         ],
         [
             "4Lw' U' L U r' U' L' U 3Lw",
@@ -4794,14 +4794,14 @@
                 "Xin Shi (石欣)",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "[r,L' U' L U]"
+            "L':[r,U' L U]"
         ],
         [
             "r L U' L' U r' U' L U L'",
             [
                 "Hana Davila"
             ],
-            "[r,L U' L' U]"
+            "L:[r,U' L' U]"
         ]
     ],
     "AFE": [
@@ -5710,7 +5710,7 @@
             [
                 "Xin Shi (石欣)"
             ],
-            "U:[l2,L' U' L U]"
+            "U L':[l2,U' L U]"
         ]
     ],
     "AID": [
@@ -5746,7 +5746,7 @@
                 "Ethan Pan",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
-            "Rw U':[l',L' U L U']"
+            "Rw U' L':[l',U L U']"
         ],
         [
             "D' b' L F' L' b L F L' D",
@@ -6966,7 +6966,7 @@
                 "Marcell Endrey",
                 "Mark Rivers"
             ],
-            "[L' U L U',r]"
+            "L':[U L U',r]"
         ],
         [
             "L U L' U' r U L U' L' r'",
@@ -6974,7 +6974,7 @@
                 "Hana Davila",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "[L U L' U',r]"
+            "L:[U L' U',r]"
         ],
         [
             "y' r' D' r U r' D r 4Dw'",
@@ -7111,7 +7111,7 @@
             [
                 "Tom Nelson"
             ],
-            "[U2,D r' D' r]"
+            "D:[U2,r' D' r]"
         ],
         [
             "F' u' R U R' u R U' R' F",
@@ -7733,7 +7733,7 @@
             [
                 "Cale Schoon"
             ],
-            "x:[R U R' U',r]"
+            "x R:[U R' U',r]"
         ]
     ],
     "AJS": [
@@ -7825,7 +7825,7 @@
             [
                 "Marcell Endrey"
             ],
-            "x:[L U' L' U,r]"
+            "4Rw:[U' L' U,r]"
         ]
     ],
     "AJW": [
@@ -8072,7 +8072,7 @@
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi"
             ],
-            "D' U':[r2,R U' R' U]"
+            "D' U' R:[r2,U' R' U]"
         ],
         [
             "x' L U' r U L2 U' r' U 4Rw",
@@ -8108,7 +8108,7 @@
                 "Hana Davila",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "D':[L U L' U',r2]"
+            "D' L:[U L' U',r2]"
         ],
         [
             "U' D' R' r2 U' R U r2 U' R' U R D U",
@@ -8129,7 +8129,7 @@
             [
                 "Xin Shi (石欣)"
             ],
-            "[L2,r' U' r U]"
+            "r':[L2,U' r U]"
         ],
         [
             "D' 3Lw U L' U' r2 U L U' r2 3Lw' D",
@@ -10366,7 +10366,7 @@
                 "James Molloy",
                 "Leonardo Ezequiel Cruz"
             ],
-            "U':[r2,R U' R' U]"
+            "U' R:[r2,U' R' U]"
         ],
         [
             "L' U L U' r2 U L' U' L r2",
@@ -10375,7 +10375,7 @@
                 "Dong Zhu (朱栋)",
                 "Oliver Fritz"
             ],
-            "[L' U L U',r2]"
+            "L':[U L U',r2]"
         ],
         [
             "L U L' U' r2 U L U' L' r2",
@@ -10384,7 +10384,7 @@
                 "Xin Shi (石欣)",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "[L U L' U',r2]"
+            "L:[U L' U',r2]"
         ],
         [
             "U' R' r2 U' R U r2 U' R' U R U",
@@ -10475,7 +10475,7 @@
             [
                 "Hana Davila"
             ],
-            "r:[L U' L' U,r2]"
+            "r L:[U' L' U,r2]"
         ]
     ],
     "AME": [
@@ -11398,7 +11398,7 @@
                 "Adrian Dębski",
                 "Daniel Wallin"
             ],
-            "U:[l,L U' L' U]"
+            "U L:[l,U' L' U]"
         ],
         [
             "D U' r' D r U r' D' r D'",
@@ -11503,7 +11503,7 @@
             "[U2,r' D2 r]"
         ],
         [
-            "D' U R' u R U2 R' u' R U D",
+            "U D' R' u R U2 R' u' R U D",
             [
                 "Andrew Tan Jing Bang",
                 "Antonio Kam (甘浩東)",
@@ -11513,7 +11513,7 @@
                 "Ryan Eckersley",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
-            "D' U:[R' u R,U2]"
+            "U D':[R' u R,U2]"
         ],
         [
             "D' U2 r' D' r U2 r' D r D",
@@ -14768,7 +14768,7 @@
             [
                 "Adrian Dębski"
             ],
-            "R U':[Rw U R' U',l']"
+            "R U' Rw:[U R' U',l']"
         ]
     ],
     "AQE": [
@@ -15874,7 +15874,7 @@
             [
                 "Cale Schoon"
             ],
-            "x:[r,R U R' U']"
+            "x R:[r,U R' U']"
         ]
     ],
     "ARK": [
@@ -16761,7 +16761,7 @@
             [
                 "Xin Shi (石欣)"
             ],
-            "[L',r' U' r U]"
+            "r':[L',U' r U]"
         ],
         [
             "L' U' R' u2 R U' R' u2 R U2 L",
@@ -16849,12 +16849,12 @@
             "Lw' U L:[U' L' U,l]"
         ],
         [
-            "U d' R d' R' U2 R d R' d U",
+            "d' U R d' R' U2 R d R' d U",
             [
                 "Daniel Lin",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
-            "U' d':[U2,R d' R']"
+            "d' U:[R d' R',U2]"
         ],
         [
             "r' U' L' U' r U L U' r' U2 r",
@@ -17384,7 +17384,7 @@
                 "Xin Shi (石欣)",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "4Rw' L':[U' r U,L2]"
+            "x':[L2,U' r U]"
         ],
         [
             "F R2 u R' U' R u' R' U R' F'",
@@ -17917,7 +17917,7 @@
             [
                 "Marcell Endrey"
             ],
-            "x:[r,L U' L' U]"
+            "4Rw:[r,U' L' U]"
         ]
     ],
     "ATK": [
@@ -18532,7 +18532,7 @@
                 "Kevin Matthews",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "4Rw' L':[U r2 U',L2]"
+            "x':[L2,U r2 U']"
         ],
         [
             "U' L' U' l U L2 U' l' U L' U",
@@ -18725,7 +18725,7 @@
             [
                 "Xin Shi (石欣)"
             ],
-            "Lw U:[L' U' L U,l2]"
+            "Lw U L':[U' L U,l2]"
         ]
     ],
     "AWC": [
@@ -19708,7 +19708,7 @@
                 "Graham Siggins",
                 "James Molloy"
             ],
-            "4Rw':[L,U r2 U']"
+            "x':[U r2 U',L']"
         ],
         [
             "Rw' L U r2 U' L' U r2 U' Rw",
@@ -20847,12 +20847,12 @@
             "Rw' D:[R' u R,U]"
         ],
         [
-            "U d R d' R' U2 R d R' d' U",
+            "d U R d' R' U2 R d R' d' U",
             [
                 "Daniel Lin",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
-            "U' d:[U2,R d' R']"
+            "d U:[R d' R',U2]"
         ],
         [
             "F d R' U R d' R' U' R F'",
@@ -21619,14 +21619,14 @@
             [
                 "Xin Shi (石欣)"
             ],
-            "Rw' U':[r2,R U R' U']"
+            "Rw' U' R:[r2,U R' U']"
         ],
         [
             "Rw' U' r2 R' U R U' r2 U R' U' R U Rw",
             [
                 "Hana Davila"
             ],
-            "Rw' U':[r2,R' U R U']"
+            "Rw' U' R':[r2,U R U']"
         ]
     ],
     "AZC": [
@@ -21806,7 +21806,7 @@
                 "Hana Davila",
                 "Kevin Matthews"
             ],
-            "U' u:[U' l2 U,R]"
+            "U2 u:[l2,U R U']"
         ],
         [
             "Rw U2 l' U' R2 U l U' R2 U' Rw'",
@@ -22110,7 +22110,7 @@
             [
                 "Graham Siggins"
             ],
-            "U' u:[U' l U,R]"
+            "U2 u:[l,U R U']"
         ],
         [
             "4Lw' U2 l' U' R' U l U' R U' 4Lw",
@@ -22592,7 +22592,7 @@
             [
                 "Oleg Gritsenko"
             ],
-            "[L' U' L U,l']"
+            "L':[U' L U,l']"
         ]
     ],
     "BCJ": [
@@ -22641,7 +22641,7 @@
                 "Oleg Gritsenko",
                 "Roman Strakhov"
             ],
-            "[l,L U L' U']"
+            "L:[l,U L' U']"
         ]
     ],
     "BDJ": [
@@ -22650,7 +22650,7 @@
             [
                 "Graham Siggins"
             ],
-            "U2:[r2,R' U R U']"
+            "U2 R':[r2,U R U']"
         ],
         [
             "4Lw' U' R d' R' U2 R d R' U' 4Lw",
@@ -22664,14 +22664,14 @@
             [
                 "Cale Schoon"
             ],
-            "U:[L U' L' U,r2]"
+            "U L:[U' L' U,r2]"
         ],
         [
             "U L' U' L U r2 U' L' U L r2 U'",
             [
                 "Carter Kucala"
             ],
-            "U:[L' U' L U,r2]"
+            "U L':[U' L U,r2]"
         ]
     ],
     "BDK": [
@@ -22714,7 +22714,7 @@
             [
                 "Oleg Gritsenko"
             ],
-            "[l2,L U L' U']"
+            "L:[l2,U L' U']"
         ]
     ],
     "BDO": [
@@ -22767,7 +22767,7 @@
             [
                 "Oleg Gritsenko"
             ],
-            "[l',L' U' L U]"
+            "L':[l',U' L U]"
         ]
     ],
     "BED": [
@@ -22777,7 +22777,7 @@
                 "Oleg Gritsenko",
                 "Roman Strakhov"
             ],
-            "[L U L' U',l]"
+            "L:[U L' U',l]"
         ]
     ],
     "BEJ": [
@@ -23037,7 +23037,7 @@
             [
                 "Graham Siggins"
             ],
-            "Lw' U' D:[U' r U,R2]"
+            "Lw' U2 D:[r,U R2 U']"
         ],
         [
             "l2 r U2 r' D2 r U2 r' D2 l2",
@@ -23067,7 +23067,7 @@
             [
                 "Roman Strakhov"
             ],
-            "[U l' U' l,D]"
+            "U:[l' U' l,D]"
         ]
     ],
     "BIL": [
@@ -23095,7 +23095,7 @@
             [
                 "Roman Strakhov"
             ],
-            "[U l' U' l,D']"
+            "U:[l' U' l,D']"
         ]
     ],
     "BIP": [
@@ -23184,7 +23184,7 @@
             [
                 "Graham Siggins"
             ],
-            "U2:[R' U R U',r2]"
+            "U2 R':[U R U',r2]"
         ],
         [
             "4Lw' U R d' R' U2 R d R' U 4Lw",
@@ -23198,14 +23198,14 @@
             [
                 "Cale Schoon"
             ],
-            "U:[r2,L U' L' U]"
+            "U L:[r2,U' L' U]"
         ],
         [
             "U r2 L' U' L U r2 U' L' U L U'",
             [
                 "Carter Kucala"
             ],
-            "U:[r2,L' U' L U]"
+            "U L':[r2,U' L U]"
         ]
     ],
     "BJE": [
@@ -23222,7 +23222,7 @@
             [
                 "Graham Siggins"
             ],
-            "U' D:[U' r U,R2]"
+            "U2 D:[r,U R2 U']"
         ],
         [
             "x U2 r' D2 r U2 r' D2 r x'",
@@ -23364,7 +23364,7 @@
             [
                 "Marcell Endrey"
             ],
-            "x:[U2,D r' D' r]"
+            "x D:[U2,r' D' r]"
         ],
         [
             "U' D R2 D' r D R2 D' r' U",
@@ -23475,11 +23475,11 @@
             "U2 r':[U L' U',r2]"
         ],
         [
-            "U' d R U' r2 U R' U' r2 d' U2",
+            "d U' R U' r2 U R' U' r2 d' U2",
             [
                 "Cale Schoon"
             ],
-            "U2 d:[U R U',r2]"
+            "d U':[R,U' r2 U]"
         ],
         [
             "Lw' U' L' r U L U' r' U L' U' L U Lw",
@@ -23636,7 +23636,7 @@
             [
                 "Roman Strakhov"
             ],
-            "[D,U l' U' l]"
+            "U:[D,l' U' l]"
         ]
     ],
     "BKJ": [
@@ -23807,7 +23807,7 @@
             [
                 "Marcell Endrey"
             ],
-            "x:[D r' D' r,U2]"
+            "x D:[r' D' r,U2]"
         ],
         [
             "U' r D R2 D' r' D R2 D' U",
@@ -23850,7 +23850,7 @@
             [
                 "Oleg Gritsenko"
             ],
-            "[L U L' U',l2]"
+            "L:[U L' U',l2]"
         ]
     ],
     "BNJ": [
@@ -23986,7 +23986,7 @@
             [
                 "Roman Strakhov"
             ],
-            "[D',U l' U' l]"
+            "U:[D',l' U' l]"
         ]
     ],
     "BOJ": [
@@ -24627,7 +24627,7 @@
                 "Carter Kucala",
                 "Mark Rivers"
             ],
-            "r':[L' U L U',r2]"
+            "r' L':[U L U',r2]"
         ],
         [
             "x' U L' U' r2 U L U' r2 x",
@@ -24728,7 +24728,7 @@
                 "Carter Kucala",
                 "Mark Rivers"
             ],
-            "r:[L' U L U',r2]"
+            "r L':[U L U',r2]"
         ],
         [
             "x' r2 U L' U' r2 U L U' x",
@@ -25291,7 +25291,7 @@
                 "Cale Schoon",
                 "Marcell Endrey"
             ],
-            "[L U' L' U,r2]"
+            "L:[U' L' U,r2]"
         ],
         [
             "L' U' L U r2 U' L' U L r2",
@@ -25299,7 +25299,7 @@
                 "Carter Kucala",
                 "Linus Frész"
             ],
-            "[L' U' L U,r2]"
+            "L':[U' L U,r2]"
         ],
         [
             "3Lw' U' L U r2 U' L' U r2 3Lw",
@@ -25313,7 +25313,7 @@
             [
                 "Graham Siggins"
             ],
-            "U:[r2,R' U R U']"
+            "U R':[r2,U R U']"
         ]
     ],
     "DFW": [
@@ -25395,7 +25395,7 @@
                 "Cale Schoon",
                 "Marcell Endrey"
             ],
-            "[r2,L U' L' U]"
+            "L:[r2,U' L' U]"
         ],
         [
             "r2 L' U' L U r2 U' L' U L",
@@ -25403,14 +25403,14 @@
                 "Carter Kucala",
                 "Linus Frész"
             ],
-            "[r2,L' U' L U]"
+            "L':[r2,U' L U]"
         ],
         [
             "U R' U R U' r2 U R' U' R r2 U'",
             [
                 "Graham Siggins"
             ],
-            "U:[R' U R U',r2]"
+            "U R':[U R U',r2]"
         ],
         [
             "4Lw r' U' L' U r2 U' L U 3Lw'",
@@ -25493,7 +25493,7 @@
                 "Graham Siggins",
                 "Mark Rivers"
             ],
-            "r':[r',L U' L' U]"
+            "r2 L:[U' L' U,r]"
         ],
         [
             "D' L2 D r D' L2 D r'",
@@ -25612,11 +25612,11 @@
             "U r':[U L' U',r2]"
         ],
         [
-            "U2 d R U' r2 U R' U' r2 d' U'",
+            "d U2 R U' r2 U R' U' r2 d' U'",
             [
                 "Cale Schoon"
             ],
-            "U d:[U R U',r2]"
+            "d U:[U R U',r2]"
         ]
     ],
     "DJT": [
@@ -25745,7 +25745,7 @@
                 "Graham Siggins",
                 "Mark Rivers"
             ],
-            "r':[L U' L' U,r']"
+            "r' L:[U' L' U,r']"
         ],
         [
             "r D' L2 D r' D' L2 D",
@@ -25971,7 +25971,7 @@
             [
                 "Graham Siggins"
             ],
-            "R' U D:[U R2 U',r]"
+            "R' U2 D:[R2,U' r U]"
         ],
         [
             "U F' R2 F r2 F' R2 F r2 U'",
@@ -27000,7 +27000,7 @@
             [
                 "Marcell Endrey"
             ],
-            "[4Lw U' R U,r2]"
+            "4Lw:[U' R U,r2]"
         ]
     ],
     "FJR": [
@@ -27101,7 +27101,7 @@
             [
                 "Marcell Endrey"
             ],
-            "[4Lw U' R' U,r2]"
+            "4Lw:[U' R' U,r2]"
         ],
         [
             "x r2 U' R2 U r2 U' R2 U x'",
@@ -27363,7 +27363,7 @@
             [
                 "Marcell Endrey"
             ],
-            "[r2,4Lw U' R U]"
+            "4Lw:[r2,U' R U]"
         ]
     ],
     "FQM": [
@@ -27509,7 +27509,7 @@
             [
                 "Marcell Endrey"
             ],
-            "[r2,4Lw U' R' U]"
+            "4Lw:[r2,U' R' U]"
         ],
         [
             "x U' R2 U r2 U' R2 U r2 x'",
@@ -27596,7 +27596,7 @@
             [
                 "Xin Shi (石欣)"
             ],
-            "Lw U2:[L' U' L U,l2]"
+            "Lw U2 L':[U' L U,l2]"
         ],
         [
             "R' r U' L u L' U2 L u' L' U' r' R",
@@ -27679,7 +27679,7 @@
                 "Xi Lu (鲁曦)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
-            "U':[l',Rw U R' U']"
+            "U' Rw:[l',U R' U']"
         ],
         [
             "L F' L' b L F L' b'",
@@ -27707,7 +27707,7 @@
                 "Hana Davila",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "U':[l',R' U R U']"
+            "U' R':[l',U R U']"
         ],
         [
             "S U' R' u R U R' u' R S'",
@@ -27932,14 +27932,14 @@
             [
                 "Xin Shi (石欣)"
             ],
-            "U':[l2,R U R' U']"
+            "U' R:[l2,U R' U']"
         ],
         [
             "D2 R' U' R U r2 U' R' U R r2 D2",
             [
                 "Antonio Kam (甘浩東)"
             ],
-            "D2:[R' U' R U,r2]"
+            "D2 R':[U' R U,r2]"
         ],
         [
             "R' U' R U' l2 U R' U' l2 U2 R",
@@ -28009,7 +28009,7 @@
                 "Michael Tripodi",
                 "Xin Shi (石欣)"
             ],
-            "D':[R U' R' U,r2]"
+            "D' R:[U' R' U,r2]"
         ],
         [
             "D' R' U' R U r2 U' R' U R r2 D",
@@ -28020,7 +28020,7 @@
                 "Ryan Eckersley",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "D':[R' U' R U,r2]"
+            "D' R':[U' R U,r2]"
         ],
         [
             "R D' U' R' U r2 U' R U r2 D R'",
@@ -28117,7 +28117,7 @@
                 "Ryan Eckersley",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "[R' U' R U,r2]"
+            "R':[U' R U,r2]"
         ]
     ],
     "GAN": [
@@ -28189,7 +28189,7 @@
                 "Xin Shi (石欣)",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "4Lw:[R2,U r U']"
+            "x' R':[U r U',R2]"
         ],
         [
             "D R U' R' U r2 U' R U r2 R' D'",
@@ -28217,7 +28217,7 @@
                 "Antonio Kam (甘浩東)",
                 "Ryan Eckersley"
             ],
-            "D:[R' U' R U,r2]"
+            "D R':[U' R U,r2]"
         ],
         [
             "D r2 D' R2 D r2 D' R2",
@@ -28555,7 +28555,7 @@
             [
                 "Dong Zhu (朱栋)"
             ],
-            "L' D:[R U' R' U,r]"
+            "L' D R:[U' R' U,r]"
         ]
     ],
     "GAY": [
@@ -28579,7 +28579,7 @@
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "Rw':[U r U',R]"
+            "r':[R',U r U']"
         ],
         [
             "x' U r U' R U r' U' 4Lw'",
@@ -28595,7 +28595,7 @@
             [
                 "Xin Shi (石欣)"
             ],
-            "R':[U',u R' u' R]"
+            "R' u:[U',R' u' R]"
         ],
         [
             "U2 L d2 L' U' L d2 L' U'",
@@ -28703,7 +28703,7 @@
             [
                 "Xin Shi (石欣)"
             ],
-            "Lw U2:[l2,L' U' L U]"
+            "Lw U2 L':[l2,U' L U]"
         ],
         [
             "R' r U L u L' U2 L u' L' U r' R",
@@ -28727,7 +28727,7 @@
                 "Graham Siggins",
                 "Mark Rivers"
             ],
-            "Lw' U:[r,R U' R' U]"
+            "Lw' U R:[r,U' R' U]"
         ],
         [
             "Lw2 D2 r U r' D2 r U' r' Lw2",
@@ -28833,7 +28833,7 @@
                 "Xi Lu (鲁曦)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
-            "U':[Rw U R' U',l']"
+            "U' Rw:[U R' U',l']"
         ],
         [
             "b L F' L' b' L F L'",
@@ -28853,7 +28853,7 @@
                 "Hana Davila",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "U':[R' U R U',l']"
+            "U' R':[U R U',l']"
         ],
         [
             "S R' u R U' R' u' R U S'",
@@ -28964,7 +28964,7 @@
             [
                 "Graham Siggins"
             ],
-            "U:[r,R U' R' U]"
+            "U R:[r,U' R' U]"
         ],
         [
             "U R' r U' R U r' U' R' U R U'",
@@ -29202,14 +29202,14 @@
             [
                 "Xin Shi (石欣)"
             ],
-            "U':[R U R' U',l2]"
+            "U' R:[U R' U',l2]"
         ],
         [
             "D2 r2 R' U' R U r2 U' R' U R D2",
             [
                 "Antonio Kam (甘浩東)"
             ],
-            "D2:[r2,R' U' R U]"
+            "D2 R':[r2,U' R U]"
         ],
         [
             "R' U2 l2 U R U' l2 U R' U R",
@@ -29299,7 +29299,7 @@
                 "Graham Siggins",
                 "Mark Rivers"
             ],
-            "Lw' U:[R U' R' U,r]"
+            "Lw' U R:[U' R' U,r]"
         ],
         [
             "Lw2 r U r' D2 r U' r' D2 Lw2",
@@ -29333,7 +29333,7 @@
             [
                 "Graham Siggins"
             ],
-            "U D:[U R2 U',r]"
+            "U2 D:[R2,U' r U]"
         ],
         [
             "4Dw' L2 U r U' L2 U r' y'",
@@ -29372,7 +29372,7 @@
             [
                 "Graham Siggins"
             ],
-            "U:[R U' R' U,r]"
+            "U R:[U' R' U,r]"
         ],
         [
             "U R' U' R U r U' R' U r' R U'",
@@ -29495,7 +29495,7 @@
                 "Hana Davila",
                 "Mark Rivers"
             ],
-            "r:[R' U' R U,r]"
+            "r R':[U' R U,r]"
         ],
         [
             "r' D' R2 D r D' R2 D",
@@ -29598,7 +29598,7 @@
             [
                 "Cale Schoon"
             ],
-            "U x:[R U R' U',r]"
+            "U x R:[U R' U',r]"
         ]
     ],
     "GJS": [
@@ -29720,7 +29720,7 @@
                 "Ryan Eckersley",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "D':[r2,R' U' R U]"
+            "D' R':[r2,U' R U]"
         ],
         [
             "R D' r2 U' R' U r2 U' R U D R'",
@@ -29856,7 +29856,7 @@
                 "Ryan Eckersley",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "[r2,R' U' R U]"
+            "R':[r2,U' R U]"
         ]
     ],
     "GMJ": [
@@ -29874,7 +29874,7 @@
                 "Hana Davila",
                 "Mark Rivers"
             ],
-            "r:[r,R' U' R U]"
+            "r2 R':[U' R U,r']"
         ],
         [
             "D' R2 D r' D' R2 D r",
@@ -30023,7 +30023,7 @@
                 "Antonio Kam (甘浩東)",
                 "Ryan Eckersley"
             ],
-            "D:[r2,R' U' R U]"
+            "D R':[r2,U' R U]"
         ],
         [
             "R2 D r2 D' R2 D r2 D'",
@@ -30283,7 +30283,7 @@
             [
                 "Cale Schoon"
             ],
-            "U x:[r,R U R' U']"
+            "U x R:[r,U R' U']"
         ]
     ],
     "GSA": [
@@ -30522,7 +30522,7 @@
             [
                 "Dong Zhu (朱栋)"
             ],
-            "L' D:[r,R U' R' U]"
+            "L' D R:[r,U' R' U]"
         ]
     ],
     "GXJ": [
@@ -30563,7 +30563,7 @@
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "Rw':[R,U r U']"
+            "r':[U r U',R']"
         ],
         [
             "4Lw U r U' R' U r' U' x",
@@ -30579,7 +30579,7 @@
             [
                 "Xin Shi (石欣)"
             ],
-            "R':[u R' u' R,U']"
+            "R' u:[R' u' R,U']"
         ],
         [
             "U L d2 L' U L d2 L' U2",
@@ -30860,7 +30860,7 @@
                 "Hana Davila",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "[r,R' U R U']"
+            "R':[r,U R U']"
         ]
     ],
     "HAI": [
@@ -31066,7 +31066,7 @@
                 "Christopher Morris",
                 "James Molloy"
             ],
-            "U' D Rw':[r2,U' R U]"
+            "U' D R' r:[U' R U,r2]"
         ],
         [
             "D R' F' u' R U' R' u R U R' F R D'",
@@ -31488,7 +31488,7 @@
             [
                 "Adrian Dębski"
             ],
-            "L' U:[L' U' L U,l']"
+            "L' U L':[U' L U,l']"
         ],
         [
             "M' R' d R U R' d' R U' M",
@@ -31592,7 +31592,7 @@
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
-            "Rw:[u,R' U R]"
+            "r:[R u R',U]"
         ],
         [
             "4Lw D U' r U R2 U' r' U R2 D' 4Lw'",
@@ -31614,7 +31614,7 @@
             [
                 "Adrian Dębski"
             ],
-            "L U:[L' U' L U,l']"
+            "L U L':[U' L U,l']"
         ],
         [
             "4Rw u R' U R u' R' U' M",
@@ -31743,7 +31743,7 @@
             [
                 "Christopher Morris"
             ],
-            "F:[U R U' R',d']"
+            "F U:[R U' R',d']"
         ]
     ],
     "HAZ": [
@@ -31854,7 +31854,7 @@
                 "Graham Siggins",
                 "Mark Rivers"
             ],
-            "U':[r2,R' U R U']"
+            "U' R':[r2,U R U']"
         ],
         [
             "U' r2 R U R' U' r2 U R U' R' U",
@@ -31862,7 +31862,7 @@
                 "Cale Schoon",
                 "Carter Kucala"
             ],
-            "U':[r2,R U R' U']"
+            "U' R:[r2,U R' U']"
         ]
     ],
     "HBK": [
@@ -31890,7 +31890,7 @@
             [
                 "Oleg Gritsenko"
             ],
-            "[R' U' R U,l2]"
+            "R':[U' R U,l2]"
         ]
     ],
     "HBO": [
@@ -31978,7 +31978,7 @@
                 "Oliver Fritz",
                 "Xi Lu (鲁曦)"
             ],
-            "U':[r',R' U' R U]"
+            "U' R':[r',U' R U]"
         ],
         [
             "D R' F R f R' F' R f' D'",
@@ -32126,7 +32126,7 @@
             [
                 "Graham Siggins"
             ],
-            "Lw U':[r2,R' U R U']"
+            "Lw U' R':[r2,U R U']"
         ],
         [
             "U' r2 B L' B' r2 B L B' U",
@@ -32192,7 +32192,7 @@
                 "Hana Davila",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "[R' U R U',r]"
+            "R':[U R U',r]"
         ]
     ],
     "HFJ": [
@@ -32203,7 +32203,7 @@
                 "Carter Kucala",
                 "Linus Frész"
             ],
-            "[R U R' U',r2]"
+            "R:[U R' U',r2]"
         ],
         [
             "R' U R U' r2 U R' U' R r2",
@@ -32211,7 +32211,7 @@
                 "Graham Siggins",
                 "Mark Rivers"
             ],
-            "[R' U R U',r2]"
+            "R':[U R U',r2]"
         ]
     ],
     "HFO": [
@@ -32299,7 +32299,7 @@
                 "Graham Siggins",
                 "Mark Rivers"
             ],
-            "Lw' U':[r2,R' U R U']"
+            "Lw' U' R':[r2,U R U']"
         ],
         [
             "l2 U' r2 B L' B' r2 B L B' U l2",
@@ -32396,7 +32396,7 @@
                 "Graham Siggins",
                 "Mark Rivers"
             ],
-            "U':[R' U R U',r2]"
+            "U' R':[U R U',r2]"
         ],
         [
             "U' R U R' U' r2 U R U' R' r2 U",
@@ -32404,7 +32404,7 @@
                 "Cale Schoon",
                 "Carter Kucala"
             ],
-            "U':[R U R' U',r2]"
+            "U' R:[U R' U',r2]"
         ]
     ],
     "HJC": [
@@ -32454,7 +32454,7 @@
             [
                 "Graham Siggins"
             ],
-            "Lw U':[R' U R U',r2]"
+            "Lw U' R':[U R U',r2]"
         ],
         [
             "U' B L' B' r2 B L B' r2 U",
@@ -32493,7 +32493,7 @@
                 "Carter Kucala",
                 "Linus Frész"
             ],
-            "[r2,R U R' U']"
+            "R:[r2,U R' U']"
         ],
         [
             "r2 R' U R U' r2 U R' U' R",
@@ -32501,7 +32501,7 @@
                 "Graham Siggins",
                 "Mark Rivers"
             ],
-            "[r2,R' U R U']"
+            "R':[r2,U R U']"
         ]
     ],
     "HJI": [
@@ -32511,7 +32511,7 @@
                 "Graham Siggins",
                 "Mark Rivers"
             ],
-            "Lw' U':[R' U R U',r2]"
+            "Lw' U' R':[U R U',r2]"
         ],
         [
             "l2 U' B L' B' r2 B L B' r2 U l2",
@@ -32579,7 +32579,7 @@
             [
                 "Graham Siggins"
             ],
-            "r':[r',R' U R U']"
+            "r2 R':[U R U',r]"
         ]
     ],
     "HJN": [
@@ -32589,14 +32589,14 @@
                 "Graham Siggins",
                 "Mark Rivers"
             ],
-            "Lw2 U':[R' U R U',r2]"
+            "Lw2 U' R':[U R U',r2]"
         ],
         [
             "B2 r2 R U R' U' r2 U R U' R' B2",
             [
                 "Cale Schoon"
             ],
-            "B2:[r2,R U R' U']"
+            "B2 R:[r2,U R' U']"
         ],
         [
             "f' r U' r' D2 r U r' D2 f",
@@ -32692,7 +32692,7 @@
             [
                 "Cale Schoon"
             ],
-            "U' d:[U R U',r2]"
+            "d:[R,U' r2 U]"
         ],
         [
             "F 4Rw' d' 4Rw F' 4Rw' d 4Rw",
@@ -32733,7 +32733,7 @@
             [
                 "Cale Schoon"
             ],
-            "B':[r2,R U R' U']"
+            "B' R:[r2,U R' U']"
         ],
         [
             "4Rw L U L' u' L U' L' u 4Rw'",
@@ -32776,7 +32776,7 @@
             [
                 "Cale Schoon"
             ],
-            "B:[r2,R U R' U']"
+            "B R:[r2,U R' U']"
         ],
         [
             "U' r' U' R' U r2 U' R U r' U",
@@ -33008,7 +33008,7 @@
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
-            "R r':[U R' U',r2]"
+            "r' R:[U R' U',r2]"
         ],
         [
             "Rw' U R U' r2 U R' U' r2 Rw",
@@ -33048,7 +33048,7 @@
             [
                 "Graham Siggins"
             ],
-            "r':[R' U R U',r']"
+            "Rw':[U R U',r']"
         ]
     ],
     "HMX": [
@@ -33142,7 +33142,7 @@
             [
                 "Oleg Gritsenko"
             ],
-            "[l2,R' U' R U]"
+            "R':[l2,U' R U]"
         ]
     ],
     "HNJ": [
@@ -33152,14 +33152,14 @@
                 "Graham Siggins",
                 "Mark Rivers"
             ],
-            "Lw2 U':[r2,R' U R U']"
+            "Lw2 U' R':[r2,U R U']"
         ],
         [
             "B2 R U R' U' r2 U R U' R' r2 B2",
             [
                 "Cale Schoon"
             ],
-            "B2:[R U R' U',r2]"
+            "B2 R:[U R' U',r2]"
         ],
         [
             "f' D2 r U' r' D2 r U r' f",
@@ -33581,7 +33581,7 @@
             [
                 "Adrian Dębski"
             ],
-            "L' U:[l',L' U' L U]"
+            "L' U L':[l',U' L U]"
         ],
         [
             "M' U R' d R U' R' d' R M",
@@ -33634,7 +33634,7 @@
             [
                 "Cale Schoon"
             ],
-            "U' d:[r2,U R U']"
+            "d:[U' r2 U,R]"
         ],
         [
             "4Rw' d' 4Rw F 4Rw' d 4Rw F'",
@@ -33769,7 +33769,7 @@
             [
                 "Adrian Dębski"
             ],
-            "L U:[l',L' U' L U]"
+            "L U L':[l',U' L U]"
         ],
         [
             "M' U R u R' U' R u' 4Rw'",
@@ -33829,7 +33829,7 @@
             [
                 "Cale Schoon"
             ],
-            "B':[R U R' U',r2]"
+            "B' R:[U R' U',r2]"
         ],
         [
             "4Rw u' L U L' u L U' L' 4Rw'",
@@ -34013,7 +34013,7 @@
             [
                 "Christopher Morris"
             ],
-            "F:[d',U R U' R']"
+            "F U:[d',R U' R']"
         ]
     ],
     "HYJ": [
@@ -34030,7 +34030,7 @@
             [
                 "Cale Schoon"
             ],
-            "B:[R U R' U',r2]"
+            "B R:[U R' U',r2]"
         ],
         [
             "U' r U' R' U r2 U' R U r U",
@@ -34073,7 +34073,7 @@
                 "Daniel Wallin",
                 "Xin Shi (石欣)"
             ],
-            "4Lw:[U' r2 U,R']"
+            "x':[R,U' r2 U]"
         ],
         [
             "R2 D' r' D R' D' r D R'",
@@ -34570,7 +34570,7 @@
             [
                 "Graham Siggins"
             ],
-            "Lw2 U2:[R U' R' U,r]"
+            "Lw2 U2 R:[U' R' U,r]"
         ],
         [
             "l2 U' L2 U' r U L2 U' r' U2 l2",
@@ -34611,7 +34611,7 @@
             [
                 "Graham Siggins"
             ],
-            "Lw2 U2:[r,R U' R' U]"
+            "Lw2 U2 R:[r,U' R' U]"
         ],
         [
             "l2 U2 r U L2 U' r' U L2 U l2",
@@ -34664,7 +34664,7 @@
             [
                 "Graham Siggins"
             ],
-            "[r',L' D L D']"
+            "L':[r',D L D']"
         ],
         [
             "4Lw' U L' U' r U L U' r' 4Lw",
@@ -34884,7 +34884,7 @@
             [
                 "Graham Siggins"
             ],
-            "[L' D L D',r']"
+            "L':[D L D',r']"
         ],
         [
             "4Lw' r U L' U' r' U L U' 4Lw",
@@ -35635,7 +35635,7 @@
             [
                 "Graham Siggins"
             ],
-            "[r',R D' R' D]"
+            "R:[r',D' R' D]"
         ],
         [
             "x U' R U r U' R' U r' x'",
@@ -35902,7 +35902,7 @@
             [
                 "Graham Siggins"
             ],
-            "[R D' R' D,r']"
+            "R:[D' R' D,r']"
         ],
         [
             "x r U' R U r' U' R' U x'",

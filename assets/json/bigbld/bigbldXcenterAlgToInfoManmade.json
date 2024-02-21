@@ -117,12 +117,12 @@
     ],
     "ABQ": [
         [
-            "U Dw' U r' U' l' U r U' l Dw U'",
+            "U2 Dw' r' U' l' U r U' l U' Dw",
             [
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "U Dw':[U r' U',l']"
+            "U2 Dw':[r',U' l' U]"
         ],
         [
             "z R u r U r' u' r U' Rw' z'",
@@ -200,7 +200,7 @@
     ],
     "ABZ": [
         [
-            "U2 Dw r' U' l' U r U' l U Dw' U2",
+            "U2 Dw r' U' l' U r U' l U' Dw'",
             [
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
@@ -1727,7 +1727,7 @@
     ],
     "ANO": [
         [
-            "D' U' r2 U l' U' r2 U l D",
+            "U' D' r2 U l' U' r2 U l D",
             [
                 "Krzysztof Bober",
                 "Stanley Chapel",
@@ -1963,7 +1963,7 @@
     ],
     "AON": [
         [
-            "D' l' U' r2 U l U' r2 U D",
+            "D' l' U' r2 U l U' r2 D U",
             [
                 "Krzysztof Bober",
                 "Stanley Chapel",
@@ -2011,12 +2011,12 @@
     ],
     "AOT": [
         [
-            "U2 D r' U' l2 U r U' l2 D' U'",
+            "U2 D r' U' l2 U r U' l2 U' D'",
             [
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "U D:[U r' U',l2]"
+            "U2 D:[r',U' l2 U]"
         ]
     ],
     "AOY": [
@@ -2070,7 +2070,7 @@
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "U u':[U r U',l]"
+            "U2 u':[r,U' l U]"
         ],
         [
             "U' x' d r U2 r' d' r U2 r' x U",
@@ -2270,7 +2270,7 @@
     ],
     "AQB": [
         [
-            "U Dw' l' U r' U' l U r U' Dw U'",
+            "U Dw' l' U r' U' l U r U2 Dw",
             [
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
@@ -3249,12 +3249,12 @@
     ],
     "AWQ": [
         [
-            "U2 d' r' U' l2 U r U' l2 d U'",
+            "U2 d' r' U' l2 U r U' l2 U' d",
             [
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "U d':[U r' U',l2]"
+            "U2 d':[r',U' l2 U]"
         ],
         [
             "4Uw U r' U' l2 U r U' l2 4Uw'",
@@ -3304,12 +3304,12 @@
     ],
     "AWZ": [
         [
-            "U2 d r' U' l2 U r U' l2 d' U'",
+            "U2 d r' U' l2 U r U' l2 U' d'",
             [
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "U d:[U r' U',l2]"
+            "U2 d:[r',U' l2 U]"
         ]
     ],
     "AXB": [
@@ -3495,12 +3495,12 @@
     ],
     "AXT": [
         [
-            "U2 D' r' U' l2 U r U' l2 D U'",
+            "U2 D' r' U' l2 U r U' l2 U' D",
             [
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "U D':[U r' U',l2]"
+            "U2 D':[r',U' l2 U]"
         ],
         [
             "x' l' U2 l d2 l' U2 l d2 x",
@@ -3755,7 +3755,7 @@
     ],
     "AZB": [
         [
-            "U Dw l' U r' U' l U r U' Dw' U'",
+            "U Dw l' U r' U' l U r U2 Dw'",
             [
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
@@ -4422,7 +4422,7 @@
             [
                 "Leonardo Ezequiel Cruz"
             ],
-            "[D l2 U l2 D' l' U' l,d2]"
+            "D:[l2 U l2 D' l' U' l,d2]"
         ]
     ],
     "BNW": [
@@ -4609,7 +4609,7 @@
             [
                 "Leonardo Ezequiel Cruz"
             ],
-            "[d2,D l2 U l2 D' l' U' l]"
+            "D:[d2,l2 U l2 D' l' U' l]"
         ]
     ],
     "BWD": [
@@ -4804,7 +4804,7 @@
             [
                 "Adrian Dębski"
             ],
-            "L' U' u:[U' r' U,l']"
+            "L' U2 u:[r',U l' U']"
         ],
         [
             "R' F2 Rw U r' u' r U' r' u R' F2 R",
@@ -5157,7 +5157,7 @@
             "U l':[l' u l,U2]"
         ],
         [
-            "L' U' u l' U' r' U l U' r U2 u' L",
+            "L' U' u l' U' r' U l U' r u' U2 L",
             [
                 "Adrian Dębski"
             ],
@@ -5508,7 +5508,7 @@
     ],
     "DEN": [
         [
-            "U' u l' U' r' U l U' r U2 u'",
+            "U' u l' U' r' U l U' r u' U2",
             [
                 "Adrian Dębski",
                 "Michael Tripodi",
@@ -5535,7 +5535,7 @@
     ],
     "DEO": [
         [
-            "U' u l2 U' r' U l2 U' r U2 u'",
+            "U' u l2 U' r' U l2 U' r u' U2",
             [
                 "Adrian Dębski",
                 "Michael Tripodi",
@@ -6467,7 +6467,7 @@
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "U' u:[U' r' U,l']"
+            "U2 u:[r',U l' U']"
         ],
         [
             "z U' l' Uw r Uw' l Uw r' u' z'",
@@ -6811,7 +6811,7 @@
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "U' u:[U' r' U,l2]"
+            "U2 u:[r',U l2 U']"
         ],
         [
             "D' r2 U2 r u r' U2 r u' r D",
@@ -6864,12 +6864,12 @@
             "4Uw':[U' r U,l2]"
         ],
         [
-            "U2 d r U l2 U' r' U l2 d' U",
+            "U2 d r U l2 U' r' U l2 U d'",
             [
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "U' d:[U' r U,l2]"
+            "U2 d:[r,U l2 U']"
         ],
         [
             "U D l2 U' l' d' l U l' d l' D' U'",
@@ -6952,7 +6952,7 @@
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "U' d':[U' r U,l2]"
+            "U2 d':[r,U l2 U']"
         ],
         [
             "D' r2 U2 r' d' r U2 r' d r' D",
@@ -9695,7 +9695,7 @@
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "U' d':[U' r2 U,l']"
+            "U2 d':[r2,U l' U']"
         ],
         [
             "4Uw U r2 U l' U' r2 U l U2 4Uw'",
@@ -10022,7 +10022,7 @@
             [
                 "Oliver Fritz"
             ],
-            "Rw' U D:[U r U',l2]"
+            "Rw' U2 D:[r,U' l2 U]"
         ],
         [
             "Rw' F U' r U l2 U' r' U l2 F' Rw",
@@ -11844,7 +11844,7 @@
     ],
     "GFS": [
         [
-            "U Dw' r U l U' r' U l' U' Dw U'",
+            "U Dw' r U l U' r' U l' U2 Dw",
             [
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
@@ -12145,12 +12145,12 @@
     ],
     "GHQ": [
         [
-            "U Dw U l' U' r' U l U' r Dw' U'",
+            "U2 Dw l' U' r' U l U' r U' Dw'",
             [
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "U Dw:[U l' U',r']"
+            "U2 Dw:[l',U' r' U]"
         ],
         [
             "L u2 l' U' l u l' U l u L'",
@@ -12261,12 +12261,12 @@
     ],
     "GHZ": [
         [
-            "U Dw' U l' U' r' U l U' r Dw U'",
+            "U2 Dw' l' U' r' U l U' r U' Dw",
             [
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "U Dw':[U l' U',r']"
+            "U2 Dw':[l',U' r' U]"
         ],
         [
             "y F u l' U2 l u' l' U2 l F' y'",
@@ -13274,7 +13274,7 @@
             "r U D:[l2,U r' U']"
         ],
         [
-            "Rw' U D l2 U r U' l2 U r' U2 D' Rw",
+            "Rw' U D l2 U r U' l2 U r' D' U2 Rw",
             [
                 "Oliver Fritz"
             ],
@@ -13383,12 +13383,12 @@
     ],
     "GOF": [
         [
-            "U2 D' l U' r2 U l' U' r2 D U'",
+            "U2 D' l U' r2 U l' U' r2 U' D",
             [
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "U D':[U l U',r2]"
+            "U2 D':[l,U' r2 U]"
         ],
         [
             "U x' l U' r U l' U' r' U x U'",
@@ -13419,11 +13419,11 @@
             "l:[l U2 l',u']"
         ],
         [
-            "l2 R2 U2 l d' l' U2 l d R2 l",
+            "R2 l2 U2 l d' l' U2 l d R2 l",
             [
                 "Cale Schoon"
             ],
-            "l' R2:[l' U2 l,d']"
+            "R2 l':[l' U2 l,d']"
         ],
         [
             "y F2 U l' U' r2 U l U' r2 F2 y'",
@@ -13435,12 +13435,12 @@
     ],
     "GOM": [
         [
-            "U d r U l2 U' r' U l2 d' U2",
+            "d U r U l2 U' r' U l2 d' U2",
             [
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "U2 d:[U' r U,l2]"
+            "d U:[r,U l2 U']"
         ],
         [
             "y' F' U r U' l2 U r' U' l2 F y",
@@ -13453,12 +13453,12 @@
     ],
     "GON": [
         [
-            "U2 D' l' U' r2 U l U' r2 D U'",
+            "U2 D' l' U' r2 U l U' r2 U' D",
             [
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "U D':[U l' U',r2]"
+            "U2 D':[l',U' r2 U]"
         ],
         [
             "d l2 U2 l d' l' U2 l d l d'",
@@ -13990,7 +13990,7 @@
     ],
     "GQH": [
         [
-            "U Dw r' U l' U' r U l U' Dw' U'",
+            "U Dw r' U l' U' r U l U2 Dw'",
             [
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
@@ -14322,7 +14322,7 @@
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "U u':[U l U',r2]"
+            "U2 u':[l,U' r2 U]"
         ],
         [
             "U' D' r2 U r' u r U' r' u' r' D U",
@@ -14403,12 +14403,12 @@
     ],
     "GRQ": [
         [
-            "U2 d l' U' r2 U l U' r2 d' U'",
+            "U2 d l' U' r2 U l U' r2 U' d'",
             [
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "U d:[U l' U',r2]"
+            "U2 d:[l',U' r2 U]"
         ],
         [
             "y' U2 x l' U' r' U l U' r U x' U2 y",
@@ -14465,12 +14465,12 @@
     ],
     "GRZ": [
         [
-            "U2 d' l' U' r2 U l U' r2 d U'",
+            "U2 d' l' U' r2 U l U' r2 U' d",
             [
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "U d':[U l' U',r2]"
+            "U2 d':[l',U' r2 U]"
         ],
         [
             "D l2 U2 l d' l' U2 l d l D'",
@@ -14598,7 +14598,7 @@
     ],
     "GSF": [
         [
-            "U2 Dw' l U' r U l' U' r' U Dw U2",
+            "U2 Dw' l U' r U l' U' r' U' Dw",
             [
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
@@ -15101,7 +15101,7 @@
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "[U' r' U r,d]"
+            "U':[r' U r,d]"
         ],
         [
             "y d' l' U l d l' U' l y'",
@@ -15275,11 +15275,11 @@
             "u:[r,Uw' l2 Uw]"
         ],
         [
-            "l2 R' U' l u l' U l u' R l",
+            "R' l2 U' l u l' U l u' R l",
             [
                 "Cale Schoon"
             ],
-            "l' R':[l' U' l,u]"
+            "R' l':[l' U' l,u]"
         ],
         [
             "y x U2 l' U' r' U l U' r U' x' y'",
@@ -15381,11 +15381,11 @@
             "l:[l U' l',d]"
         ],
         [
-            "l2 R2 U' l u l' U l u' R2 l",
+            "R2 l2 U' l u l' U l u' R2 l",
             [
                 "Cale Schoon"
             ],
-            "l' R2:[l' U' l,u]"
+            "R2 l':[l' U' l,u]"
         ],
         [
             "y x U l' U' r' U l U' r x' y'",
@@ -15483,11 +15483,11 @@
             "l' U2 D:[l,U' r2 U]"
         ],
         [
-            "Lw U2 D l' U' r2 U l U' r2 D' U' Lw'",
+            "Lw D U2 l' U' r2 U l U' r2 D' U' Lw'",
             [
                 "Oliver Fritz"
             ],
-            "Lw U D:[U l' U',r2]"
+            "Lw D U:[U l' U',r2]"
         ],
         [
             "Lw F U' l' U r2 U' l U r2 F' Lw'",
@@ -15593,12 +15593,12 @@
     ],
     "GXF": [
         [
-            "U2 D l U' r2 U l' U' r2 D' U'",
+            "U2 D l U' r2 U l' U' r2 U' D'",
             [
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "U D:[U l U',r2]"
+            "U2 D:[l,U' r2 U]"
         ],
         [
             "U' r2 U r' u2 r U' r' u2 r' U",
@@ -15676,12 +15676,12 @@
     ],
     "GXN": [
         [
-            "U2 D l' U' r2 U l U' r2 D' U'",
+            "U2 D l' U' r2 U l U' r2 U' D'",
             [
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "U D:[U l' U',r2]"
+            "U2 D:[l',U' r2 U]"
         ],
         [
             "F U' l' U r2 U' l U r2 F'",
@@ -15954,7 +15954,7 @@
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "U u':[U l U',r]"
+            "U2 u':[l,U' r U]"
         ],
         [
             "F' U' r U r' u r U' r' u' U F",
@@ -16271,7 +16271,7 @@
     ],
     "GZH": [
         [
-            "U Dw' r' U l' U' r U l U' Dw U'",
+            "U Dw' r' U l' U' r U l U2 Dw",
             [
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
@@ -16414,7 +16414,7 @@
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "[d,U' r' U r]"
+            "U':[d,r' U r]"
         ],
         [
             "y l' U l d' l' U' l d y'",
@@ -17004,13 +17004,13 @@
             "L:[u,r' U2 r]"
         ],
         [
-            "U' Dw U' r' U l' U' r U l Dw' U",
+            "U2 Dw r' U l' U' r U l Dw' U",
             [
                 "Michael Tripodi",
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "U' Dw:[U' r' U,l']"
+            "U2 Dw:[r',U l' U']"
         ]
     ],
     "HDR": [
@@ -17062,7 +17062,7 @@
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "U' D':[U' r' U,l2]"
+            "U2 D':[r',U l2 U']"
         ]
     ],
     "HDX": [
@@ -17380,7 +17380,7 @@
             "L:[r' U2 r,u]"
         ],
         [
-            "U' Dw l' U' r' U l U' r U Dw' U",
+            "U' Dw l' U' r' U l U' r U2 Dw'",
             [
                 "Michael Tripodi",
                 "Stanley Chapel",
@@ -20295,7 +20295,7 @@
             "Lw':[r' d r,U2]"
         ],
         [
-            "U' Dw' r' U' l' U r U' l U Dw U",
+            "U' Dw' r' U' l' U r U' l U2 Dw",
             [
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
@@ -20519,7 +20519,7 @@
     ],
     "JBZ": [
         [
-            "U' Dw r' U' l' U r U' l U Dw' U",
+            "U' Dw r' U' l' U r U' l U2 Dw'",
             [
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
@@ -22165,7 +22165,7 @@
                 "Michael Tripodi",
                 "Ryan Eckersley"
             ],
-            "r' U' D':[U' r U,l2]"
+            "r' U2 D':[r,U l2 U']"
         ],
         [
             "U' Rw' U2 r U' l2 U r' U' l2 U' Rw U",
@@ -22181,7 +22181,7 @@
                 "Daniel Lin",
                 "Dong Zhu (朱栋)"
             ],
-            "Rw U' D':[U' r' U,l2]"
+            "Rw U2 D':[r',U l2 U']"
         ],
         [
             "D' Rw' U2 r U l2 U' r' U l2 U Rw D",
@@ -23375,12 +23375,12 @@
             "Rw' U':[l,U' r U]"
         ],
         [
-            "Uw' U2 r' u' r U2 r' u r Uw",
+            "U u' r' u' r U2 r' u r Uw",
             [
                 "Ethan Pan",
                 "Ryan Eckersley"
             ],
-            "Uw':[U2,r' u' r]"
+            "U u':[r' u' r,U2]"
         ],
         [
             "y r' u r U2 r' u' r U2 y'",
@@ -24282,7 +24282,7 @@
             [
                 "Kevin Matthews"
             ],
-            "U' u:[r' u' r,U]"
+            "u:[U',r' u' r]"
         ],
         [
             "U' r U' l U r' U' l' U l U r U' l' U r'",
@@ -25149,7 +25149,7 @@
             [
                 "Kevin Matthews"
             ],
-            "U u':[r u r',U']"
+            "u':[U,r u r']"
         ]
     ],
     "JHI": [
@@ -27509,7 +27509,7 @@
             [
                 "Kevin Matthews"
             ],
-            "U' u:[U,r' u' r]"
+            "u:[r' u' r,U']"
         ]
     ],
     "JLH": [
@@ -27629,7 +27629,7 @@
     ],
     "JLM": [
         [
-            "U' Dw' U' l U r U' l' U r' Dw U",
+            "U2 Dw' l U r U' l' U r' Dw U",
             [
                 "Andrew Tan Jing Bang",
                 "Daniel Lin",
@@ -27642,7 +27642,7 @@
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "U' Dw':[U' l U,r]"
+            "U2 Dw':[l,U r U']"
         ],
         [
             "L' u2 l U l' u' l U' l' u' L",
@@ -27722,7 +27722,7 @@
                 "Dong Zhu (朱栋)",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "U' D:[U' l2 U,r]"
+            "U2 D:[l2,U r U']"
         ],
         [
             "4Rw U r' U l' U' r U l U2 4Rw'",
@@ -27877,7 +27877,7 @@
     ],
     "JLS": [
         [
-            "U' Dw U' l U r U' l' U r' Dw' U",
+            "U2 Dw l U r U' l' U r' Dw' U",
             [
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
@@ -27887,7 +27887,7 @@
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "U' Dw:[U' l U,r]"
+            "U2 Dw:[l,U r U']"
         ],
         [
             "R' U r U2 r' u r U2 r' Uw' R",
@@ -28011,7 +28011,7 @@
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "U' D':[U' l2 U,r]"
+            "U2 D':[l2,U r U']"
         ],
         [
             "U2 x U' l U r U' l' U r' x' U2",
@@ -28460,7 +28460,7 @@
     ],
     "JML": [
         [
-            "U' Dw' r U' l U r' U' l' U Dw U",
+            "U' Dw' r U' l U r' U' l' U2 Dw",
             [
                 "Andrew Tan Jing Bang",
                 "Daniel Lin",
@@ -31436,13 +31436,13 @@
             "L:[u',l' U2 l]"
         ],
         [
-            "U' Dw' U' l' U r' U' l U r Dw U",
+            "U2 Dw' l' U r' U' l U r Dw U",
             [
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Ryan Eckersley"
             ],
-            "U' Dw':[U' l' U,r']"
+            "U2 Dw':[l',U r' U']"
         ],
         [
             "3Lw' U2 r' d r U2 r' d' r 3Lw",
@@ -31683,7 +31683,7 @@
             [
                 "Dong Zhu (朱栋)"
             ],
-            "x' z U D:[U l' U',r2]"
+            "x' z U2 D:[l',U' r2 U]"
         ]
     ],
     "JQK": [
@@ -32023,7 +32023,7 @@
                 "Stanley Chapel",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
-            "U' d':[U' l2 U,r']"
+            "U2 d':[l2,U r' U']"
         ],
         [
             "L l' u' l' U2 l u l' U2 l2 L'",
@@ -32221,7 +32221,7 @@
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "U' D':[U' l' U,r2]"
+            "U2 D':[l',U r2 U']"
         ],
         [
             "F' U l' U' r2 U l U' r2 F",
@@ -32263,24 +32263,24 @@
     ],
     "JRD": [
         [
-            "l' U2 D' l U r2 U' l' U r2 D U l",
+            "l' U2 D' l U r2 U' l' U r2 U D l",
             [
                 "Kai Yamamoto (山本快)",
                 "Stanley Chapel",
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "l' U' D':[U' l U,r2]"
+            "l' U2 D':[l,U r2 U']"
         ],
         [
-            "Lw' U2 D' l U r2 U' l' U r2 D U Lw",
+            "Lw' D' U2 l U r2 U' l' U r2 D U Lw",
             [
                 "Antonio Kam (甘浩東)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan"
             ],
-            "Lw' U' D':[U' l U,r2]"
+            "Lw' D' U':[U' l U,r2]"
         ],
         [
             "Lw F' U l' U' r2 U l U' r2 F Lw'",
@@ -32300,12 +32300,12 @@
             "D Rw' U':[l2,U' r U]"
         ],
         [
-            "Lw U2 D' l' U r2 U' l U r2 D U Lw'",
+            "Lw D' U2 l' U r2 U' l U r2 D U Lw'",
             [
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)"
             ],
-            "Lw U' D':[U' l' U,r2]"
+            "Lw D' U':[U' l' U,r2]"
         ],
         [
             "U' Lw U2 l' U' r2 U l U' r2 U' Lw' U",
@@ -32327,7 +32327,7 @@
             [
                 "Michael Tripodi"
             ],
-            "l U' D':[U' l' U,r2]"
+            "l U2 D':[l',U r2 U']"
         ],
         [
             "U' 3Lw U2 l' U' r2 U l U' r2 U' 3Lw' U",
@@ -32706,7 +32706,7 @@
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "U' D':[U' l U,r2]"
+            "U2 D':[l,U r2 U']"
         ],
         [
             "U r2 U' r' d2 r U r' d2 r' U'",
@@ -32827,11 +32827,11 @@
     ],
     "JRW": [
         [
-            "Lw' U2 D' l' U r2 U' l U r2 D U Lw",
+            "Lw' D' U2 l' U r2 U' l U r2 D U Lw",
             [
                 "Daniel Lin"
             ],
-            "Lw' U' D':[U' l' U,r2]"
+            "Lw' D' U':[U' l' U,r2]"
         ]
     ],
     "JRX": [
@@ -33204,7 +33204,7 @@
     ],
     "JSL": [
         [
-            "U' Dw r U' l U r' U' l' U Dw' U",
+            "U' Dw r U' l U r' U' l' U2 Dw'",
             [
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
@@ -34044,7 +34044,7 @@
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "U' u:[U' l' U,r']"
+            "U2 u:[l',U r' U']"
         ],
         [
             "U Rw' U2 r d r' U2 r d' R U'",
@@ -34254,7 +34254,7 @@
                 "Andrew Tan Jing Bang",
                 "Dong Zhu (朱栋)"
             ],
-            "U' D:[U' l2 U,r']"
+            "U2 D:[l2,U r' U']"
         ],
         [
             "4Rw' U r U l U' r' U l' U2 4Rw",
@@ -34487,7 +34487,7 @@
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "U' D':[U' l2 U,r']"
+            "U2 D':[l2,U r' U']"
         ],
         [
             "U2 x' U' l' U r' U' l U r x U2",
@@ -34636,7 +34636,7 @@
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "U' D:[U' l' U,r2]"
+            "U2 D:[l',U r2 U']"
         ],
         [
             "U' x l' U r' U' l U r U' x' U",
@@ -34738,7 +34738,7 @@
             "U' Rw' U:[l2,U r U']"
         ],
         [
-            "Rw U' D' l2 U' r' U l2 U' r U2 D Rw'",
+            "Rw U' D' l2 U' r' U l2 U' r D U2 Rw'",
             [
                 "Daniel Lin",
                 "Dong Zhu (朱栋)"
@@ -35189,7 +35189,7 @@
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "U' D:[U' l U,r2]"
+            "U2 D:[l,U r2 U']"
         ],
         [
             "U' x' l U r U' l' U r' U' x U",
@@ -35802,7 +35802,7 @@
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "U' u:[U' l' U,r2]"
+            "U2 u:[l',U r2 U']"
         ],
         [
             "U Rw r U2 r' u r U2 r' u' Rw' U'",
@@ -35881,7 +35881,7 @@
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "U' d':[U' l U,r2]"
+            "U2 d':[l,U r2 U']"
         ],
         [
             "D U r2 U' r' d r U r' d' r' U' D'",
@@ -36015,7 +36015,7 @@
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "U' d:[U' l U,r2]"
+            "U2 d:[l,U r2 U']"
         ],
         [
             "U D r2 U' r' d' r U r' d r' D' U'",
@@ -37051,7 +37051,7 @@
     ],
     "JZB": [
         [
-            "U' Dw U' l' U r' U' l U r Dw' U",
+            "U2 Dw l' U r' U' l U r Dw' U",
             [
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
@@ -37061,7 +37061,7 @@
                 "Stanley Chapel",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
-            "U' Dw:[U' l' U,r']"
+            "U2 Dw:[l',U r' U']"
         ],
         [
             "R u l' U2 l u' l' U2 l R'",
@@ -37660,7 +37660,7 @@
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "U' d:[U' l2 U,r']"
+            "U2 d:[l2,U r' U']"
         ],
         [
             "D' l' d' l' U l d l' U' l2 D",
@@ -38603,7 +38603,7 @@
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "Uw:[U' l' U,r']"
+            "u:[l',U r' U']"
         ],
         [
             "Rw' U r d r' U' r d' R",
@@ -39748,7 +39748,7 @@
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "Uw:[r',U' l' U]"
+            "u:[U r' U',l']"
         ],
         [
             "R' d r' U r d' r' U' Rw",
@@ -40125,7 +40125,7 @@
     ],
     "LAM": [
         [
-            "U2 Dw' r U' l U r' U' l' U Dw U2",
+            "U2 Dw' r U' l U r' U' l' U' Dw",
             [
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
@@ -40135,12 +40135,12 @@
     ],
     "LAO": [
         [
-            "U2 D r U' l2 U r' U' l2 D' U'",
+            "U2 D r U' l2 U r' U' l2 U' D'",
             [
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "U D:[U r U',l2]"
+            "U2 D:[r,U' l2 U]"
         ]
     ],
     "LAP": [
@@ -40226,12 +40226,12 @@
     ],
     "LAX": [
         [
-            "U2 D' r U' l2 U r' U' l2 D U'",
+            "U2 D' r U' l2 U r' U' l2 U' D",
             [
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "U D':[U r U',l2]"
+            "U2 D':[r,U' l2 U]"
         ],
         [
             "x l U2 l' u2 l U2 l' u2 x'",
@@ -40703,7 +40703,7 @@
             [
                 "Stanley Chapel"
             ],
-            "U d:[r,U' l2 U]"
+            "d:[U r U',l2]"
         ]
     ],
     "LDX": [
@@ -41338,7 +41338,7 @@
     ],
     "LMA": [
         [
-            "U Dw' l U r U' l' U r' U' Dw U'",
+            "U Dw' l U r U' l' U r' U2 Dw",
             [
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"

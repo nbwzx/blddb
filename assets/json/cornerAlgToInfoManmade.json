@@ -20301,7 +20301,6 @@
             [
                 "R' F R B' R' F' R B",
                 "x' R' D R U' R' D' R U x",
-                "l' U R D' R' U' R D R' l",
                 "l' U R D' R' U' R D x'",
                 "x R' U R D' R' U' R D x'",
                 "l' U l B' l' U' l B"
@@ -31136,7 +31135,7 @@
         [
             [
                 "R' B D' R U' R' D R U R' B' R",
-                "l' D R' l D' R U' R' D R U l' D' l"
+                "l' D x' D' R U' R' D R U l' D' l"
             ],
             [
                 "Hana Davila",
@@ -38332,7 +38331,7 @@
         ],
         [
             [
-                "U' R l' D R' U R D' R' U' l U",
+                "U' x D R' U R D' R' U' l U",
                 "U' B R' F R B' R' F' R U"
             ],
             [
@@ -48829,7 +48828,7 @@
         [
             [
                 "R' B R U' R' D' R U R' D B' R",
-                "l' D l U' R' D' R U R' D R l' D' l"
+                "l' D l U' R' D' R U R' D x D' l"
             ],
             [
                 "Hana Davila",
@@ -50409,7 +50408,7 @@
         [
             [
                 "x R' D R U R' D' R U' x'",
-                "l' D R U R' D' R U' R' l"
+                "l' D R U R' D' R U' x'"
             ],
             [
                 "Hana Davila",
@@ -55487,7 +55486,7 @@
         ],
         [
             [
-                "U' l' U R D R' U' R D' R' l U",
+                "U' l' U R D R' U' R D' x' U",
                 "U' R' F R B R' F' R B' U"
             ],
             [
@@ -63475,7 +63474,7 @@
                 "F R' B2 R F' R' B2 R",
                 "x' D R' U2 R D' R' U2 R x",
                 "x U R' D2 R U' R' D2 R x'",
-                "R l' U R' D2 R U' R' D2 l",
+                "x U R' D2 R U' R' D2 l",
                 "F l' D2 l F' l' D2 l",
                 "F l' D2 R U' R' D2 l"
             ],
@@ -64113,7 +64112,7 @@
         ],
         [
             [
-                "R l' U R' D R U' R' D' l",
+                "x U R' D R U' R' D' l",
                 "x U R' D R U' R' D' R x'"
             ],
             [
@@ -64903,7 +64902,7 @@
         [
             [
                 "R B R' D2 R B' R' B D2 B'",
-                "l U l' D2 R B' R' B D2 B' R B R' l U' l'"
+                "l U l' D2 R B' R' B D2 B' R B x' U' l'"
             ],
             [
                 "Elliott Kobelansky",
