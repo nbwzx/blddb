@@ -4,14 +4,13 @@ import re
 import sys
 import time
 
+import commutator
 import gspread as gs
 from google.auth.exceptions import TransportError
 from gspread.exceptions import APIError, SpreadsheetNotFound
 from loguru import logger
 from requests.exceptions import ConnectionError, ProxyError, ReadTimeout
 
-import commutator.commutator_555 as commutator_555
-import commutator.commutator_555_final as commutator_555_final
 from tracer_555 import *
 
 MAX_STM = 20
@@ -115,11 +114,11 @@ def main():
                     for old, new in replacements:
                         if old in alg_original and "4" not in alg_original:
                             alg_original = alg_original.replace(old, new)
-                alg = commutator_555.expand(alg_original)
                 if isInverse:
-                    alg = invert(alg)
-                    alg = commutator_555.expand(alg)
-                    alg_original = alg
+                    alg_original = commutator.expand_555(alg_original, isInverse=isInverse)
+                    alg = alg_original
+                else:
+                    alg = commutator.expand_555(alg_original)
                 output_type, code = get_code_auto(alg)
                 if output_type in output_types and len(code) > 0 and stm(alg) <= MAX_STM:
                     if code not in algs_json[output_type]:
@@ -133,7 +132,7 @@ def main():
                     alg_used[output_type].add(alg)
                     is_new = True
                     for all_algs in algs_json[output_type][code]:
-                        if commutator_555_final.expand(alg) == commutator_555_final.expand(all_algs[0]):
+                        if commutator.expand_555_final(alg) == commutator.expand_555_final(all_algs[0]):
                             is_new = False
                             if alg != all_algs[0]:
                                 if qtm(alg) < qtm(all_algs[0]):
@@ -297,18 +296,18 @@ def main():
             output_type.capitalize() + "AlgToInfoManmade.json"
         for algs in algs_json[output_type]:
             for alg in algs_json[output_type][algs]:
-                commutator_alg = commutator_555.search(alg[0])[0]
+                commutator_alg = commutator.search_555(alg[0])[0]
                 if commutator_alg == "Not found.":
-                    alg[2] = commutator_555.search(
-                        commutator_555.expand(alg[2]))[0]
+                    alg[2] = commutator.search_555(
+                        commutator.expand_555(alg[2]))[0]
                     if alg[2] == "Not found.":
-                        alg[2] = commutator_555_final.search(
-                            commutator_555_final.expand(alg[0]))[0]
+                        alg[2] = commutator.search_555_final(
+                            commutator.expand_555_final(alg[0]))[0]
                 else:
                     alg[2] = commutator_alg
-                alg[2] = commutator_555_final.finalReplaceCommutator(alg[2])
+                alg[2] = commutator.finalReplaceCommutator(alg[2])
             for i in range(len(algs_json[output_type][algs])):
-                algs_json[output_type][algs][i][0] = commutator_555_final.finalReplaceAlg(
+                algs_json[output_type][algs][i][0] = commutator.finalReplaceAlg(
                     algs_json[output_type][algs][i][0])
             algs_json[output_type][algs] = sorted(
                 algs_json[output_type][algs], key=lambda x: (-len(x[1]), -sum_of_kinch(x[1], result_json)))

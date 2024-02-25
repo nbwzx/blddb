@@ -208,16 +208,3 @@ def get_code_auto(x: str) -> str:
     if code_json["wing"] == "" and code_json["xcenter"] == "" and code_json["midge"] == "" and code_json["corner"] == "" and len(code_json["tcenter"]) == 4:
         return ("tcenter", code_json["tcenter"][0] + code_json["tcenter"][2] + code_json["tcenter"][1])
     return ("", "")
-
-
-def invert(alg: str) -> str:
-    arr = alg.split(" ")
-    s1 = ""
-    for i in range(len(arr) - 1, -1, -1):
-        if arr[i][-1] == "'":
-            s1 += arr[i].replace("'", "") + " "
-        elif arr[i][-1] == "2":
-            s1 += arr[i] + " "
-        else:
-            s1 += arr[i] + "' "
-    return s1[:-1]

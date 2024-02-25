@@ -1,4 +1,4 @@
-import commutator.commutator as commutator
+import commutator
 
 MOVE = [
     "U", "U2", "U'",

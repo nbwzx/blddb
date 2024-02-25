@@ -4,13 +4,13 @@ import re
 import sys
 import time
 
+import commutator
 import gspread as gs
 from google.auth.exceptions import TransportError
 from gspread.exceptions import APIError, SpreadsheetNotFound
 from loguru import logger
 from requests.exceptions import ConnectionError, ProxyError, ReadTimeout
 
-import commutator.commutator as commutator
 from rewrite import single
 from tracer import *
 
@@ -53,10 +53,7 @@ def main():
                     "\t")[0].split("if")[0].split("or")[0])
                 if len(cell) > MAX_CELL_LEN:
                     continue
-                alg = commutator.expand(cell)
-                if isInverse:
-                    alg = commutator.arrayToStr(
-                        commutator.invert(commutator.algToArray(alg)))
+                alg = commutator.expand(cell, isInverse=isInverse)
                 output_type, code = get_code_auto(alg)
                 if output_type in output_types and len(code) > 0 and stm(alg) <= MAX_STM:
                     if code not in algs_json[output_type]:
