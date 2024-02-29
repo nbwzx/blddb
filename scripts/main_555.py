@@ -46,13 +46,11 @@ def sum_of_kinch(source: list, result_json: dict) -> float:
 
 def main():
     def crawl_spreadsheet(spreadsheet: gs.Spreadsheet, isInverse: bool) -> None:
-        def crawl_array(array: list) -> None:
-            for cell in array:
-                cell = re.sub(r"\s", " ", cell.strip().split(
-                    "\t")[0].split("if")[0].split("or")[0])
-                if len(cell) > MAX_CELL_LEN:
+        def crawl_cell(cell: str) -> None:
+            for line in re.split(r'[\n\r]+| if | or | and ', cell.strip("\n\r")):
+                if len(line) > MAX_CELL_LEN:
                     continue
-                alg_original = re.sub(r"\s", " ", cell)
+                alg_original = line
 
                 patterns_midge = {
                     "ignore_case":
@@ -210,11 +208,11 @@ def main():
                         continue
                     if any(x in cell for x in ["4Rw", "4Lw", "4Uw", "4Dw", "4Fw", "4Bw"]):
                         is5bld = True
-            for array in values:
-                crawl_array(array)
-            for rows in notes:
-                array = rows.split("\n")
-                crawl_array(array)
+            for rows in values:
+                for cell in rows:
+                    crawl_cell(cell)
+            for cell in notes:
+                crawl_cell(cell)
             code_used_delta = {output_type: len(code_used[output_type]) - code_used_old[output_type]
                                for output_type in output_types}
             alg_used_delta = {output_type: len(alg_used[output_type]) - alg_used_old[output_type]
@@ -245,7 +243,7 @@ def main():
         gc = gs.service_account_from_dict(
             json.loads(os.environ["SERVICE_ACCOUNT"]))
     except KeyError:
-        gc = gs.service_account(filename="service_account.json")
+        gc = gs.service_account(filename="scripts/service_account.json")
     gc.set_timeout(60)
 
     for name in url_json:
