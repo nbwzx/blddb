@@ -3952,8 +3952,7 @@
         [
             "m' u2 m D2 m' u2 m D2",
             [
-                "Daniel Lin",
-                "Linus Frész"
+                "Daniel Lin"
             ],
             "[m' u2 m,D2]"
         ]
@@ -6656,8 +6655,7 @@
         [
             "D2 m' u2 m D2 m' u2 m",
             [
-                "Daniel Lin",
-                "Linus Frész"
+                "Daniel Lin"
             ],
             "[D2,m' u2 m]"
         ]
@@ -15000,60 +14998,6 @@
             "F:[m2,U r U']"
         ]
     ],
-    "BIL": [
-        [
-            "u L2 u' m' u L2 u' m",
-            [
-                "Linus Frész"
-            ],
-            "[u L2 u',m']"
-        ]
-    ],
-    "BIP": [
-        [
-            "u' R2 u m' u' R2 u m",
-            [
-                "Linus Frész"
-            ],
-            "[u' R2 u,m']"
-        ]
-    ],
-    "BIR": [
-        [
-            "u' R u m' u' R' u m",
-            [
-                "Linus Frész"
-            ],
-            "[u' R u,m']"
-        ]
-    ],
-    "BIT": [
-        [
-            "u L' u' m' u L u' m",
-            [
-                "Linus Frész"
-            ],
-            "[u L' u',m']"
-        ]
-    ],
-    "BIX": [
-        [
-            "u L u' m' u L' u' m",
-            [
-                "Linus Frész"
-            ],
-            "[u L u',m']"
-        ]
-    ],
-    "BIZ": [
-        [
-            "u' R' u m' u' R u m",
-            [
-                "Linus Frész"
-            ],
-            "[u' R' u,m']"
-        ]
-    ],
     "BKC": [
         [
             "l2 U m' U' l2 U m U'",
@@ -15104,15 +15048,6 @@
                 "Daniel Lin"
             ],
             "U' m':[U,m' d' m]"
-        ]
-    ],
-    "BLI": [
-        [
-            "m' u L2 u' m u L2 u'",
-            [
-                "Linus Frész"
-            ],
-            "[m',u L2 u']"
         ]
     ],
     "BMC": [
@@ -15216,15 +15151,6 @@
             "Rw':[4Uw r 4Uw',m']"
         ]
     ],
-    "BPI": [
-        [
-            "m' u' R2 u m u' R2 u",
-            [
-                "Linus Frész"
-            ],
-            "[m',u' R2 u]"
-        ]
-    ],
     "BRC": [
         [
             "3Rw U m u m' U' m u' Rw'",
@@ -15250,15 +15176,6 @@
             "F':[l' U' l,e']"
         ]
     ],
-    "BRI": [
-        [
-            "m' u' R u m u' R' u",
-            [
-                "Linus Frész"
-            ],
-            "[m',u' R u]"
-        ]
-    ],
     "BTC": [
         [
             "3Dw' l U m' U' l' U m U' 3Dw",
@@ -15282,15 +15199,6 @@
                 "Hana Davila"
             ],
             "F:[r U r',e]"
-        ]
-    ],
-    "BTI": [
-        [
-            "m' u L' u' m u L u'",
-            [
-                "Linus Frész"
-            ],
-            "[m',u L' u']"
         ]
     ],
     "BWC": [
@@ -15338,15 +15246,6 @@
             "F':[l' U' l,e]"
         ]
     ],
-    "BXI": [
-        [
-            "m' u L u' m u L' u'",
-            [
-                "Linus Frész"
-            ],
-            "[m',u L u']"
-        ]
-    ],
     "BYC": [
         [
             "U2 r' U' m' U r U' m U'",
@@ -15373,15 +15272,6 @@
                 "Ryan Eckersley"
             ],
             "[4Uw r 4Uw',m']"
-        ]
-    ],
-    "BZI": [
-        [
-            "m' u' R' u m u' R u",
-            [
-                "Linus Frész"
-            ],
-            "[m',u' R' u]"
         ]
     ],
     "CDE": [
@@ -15991,15 +15881,6 @@
             "D':[U' m' U,l2]"
         ]
     ],
-    "CIK": [
-        [
-            "l2 U m2 U' l2 U m2 U'",
-            [
-                "Linus Frész"
-            ],
-            "[l2,U m2 U']"
-        ]
-    ],
     "CIL": [
         [
             "3Rw' m U m' d' m U' m' d 3Rw",
@@ -16049,8 +15930,7 @@
         [
             "l' U m2 U' l U m2 U'",
             [
-                "Graham Siggins",
-                "Linus Frész"
+                "Graham Siggins"
             ],
             "[l',U m2 U']"
         ],
@@ -16075,8 +15955,7 @@
         [
             "l U m2 U' l' U m2 U'",
             [
-                "Graham Siggins",
-                "Linus Frész"
+                "Graham Siggins"
             ],
             "[l,U m2 U']"
         ]
@@ -16286,15 +16165,6 @@
                 "Graham Siggins"
             ],
             "[U' m U,l2]"
-        ]
-    ],
-    "CKI": [
-        [
-            "U m2 U' l2 U m2 U' l2",
-            [
-                "Linus Frész"
-            ],
-            "[U m2 U',l2]"
         ]
     ],
     "CKJ": [
@@ -17448,19 +17318,18 @@
     ],
     "CSI": [
         [
-            "U m2 U' l' U m2 U' l",
-            [
-                "Graham Siggins",
-                "Linus Frész"
-            ],
-            "[U m2 U',l']"
-        ],
-        [
             "3Lw' l U m' U' l' U m U' 3Lw",
             [
                 "Graham Siggins"
             ],
             "3Lw':[l,U m' U']"
+        ],
+        [
+            "U m2 U' l' U m2 U' l",
+            [
+                "Graham Siggins"
+            ],
+            "[U m2 U',l']"
         ]
     ],
     "CSK": [
@@ -17727,8 +17596,7 @@
         [
             "U m2 U' l U m2 U' l'",
             [
-                "Graham Siggins",
-                "Linus Frész"
+                "Graham Siggins"
             ],
             "[U m2 U',l]"
         ]
@@ -18437,33 +18305,6 @@
             "U m':[u',m' U' m]"
         ]
     ],
-    "DIK": [
-        [
-            "m' u' m D m' u m D'",
-            [
-                "Linus Frész"
-            ],
-            "[m' u' m,D]"
-        ]
-    ],
-    "DIM": [
-        [
-            "m' u' m D2 m' u m D2",
-            [
-                "Linus Frész"
-            ],
-            "[m' u' m,D2]"
-        ]
-    ],
-    "DIO": [
-        [
-            "m' u' m D' m' u m D",
-            [
-                "Linus Frész"
-            ],
-            "[m' u' m,D']"
-        ]
-    ],
     "DJE": [
         [
             "U m2 u m U m' u' m U' m U'",
@@ -18491,15 +18332,6 @@
             "Lw':[e,l' U' l]"
         ]
     ],
-    "DKI": [
-        [
-            "D m' u' m D' m' u m",
-            [
-                "Linus Frész"
-            ],
-            "[D,m' u' m]"
-        ]
-    ],
     "DME": [
         [
             "U' m u m U' m' u' m U m2 U",
@@ -18507,15 +18339,6 @@
                 "Hana Davila"
             ],
             "U' m:[u,m U' m']"
-        ]
-    ],
-    "DMI": [
-        [
-            "D2 m' u' m D2 m' u m",
-            [
-                "Linus Frész"
-            ],
-            "[D2,m' u' m]"
         ]
     ],
     "DNE": [
@@ -18534,15 +18357,6 @@
                 "Hana Davila"
             ],
             "Rw2:[U',m u' m']"
-        ]
-    ],
-    "DOI": [
-        [
-            "D' m' u' m D m' u m",
-            [
-                "Linus Frész"
-            ],
-            "[D',m' u' m]"
         ]
     ],
     "DPE": [
@@ -18765,15 +18579,6 @@
             "F':[U r U',m2]"
         ]
     ],
-    "EIK": [
-        [
-            "U' l2 U m2 U' l2 U m2",
-            [
-                "Linus Frész"
-            ],
-            "[U' l2 U,m2]"
-        ]
-    ],
     "EIL": [
         [
             "U m2 U' m' d' m U m' d m' U'",
@@ -18784,15 +18589,6 @@
             "U m:[m U' m',d']"
         ]
     ],
-    "EIM": [
-        [
-            "D2 m u2 m' D2 m u2 m'",
-            [
-                "Linus Frész"
-            ],
-            "[D2,m u2 m']"
-        ]
-    ],
     "EIN": [
         [
             "D m U r2 U' m' U r2 U' D'",
@@ -18800,15 +18596,6 @@
                 "Hana Davila"
             ],
             "D:[m,U r2 U']"
-        ]
-    ],
-    "EIO": [
-        [
-            "U r2 U' m2 U r2 U' m2",
-            [
-                "Linus Frész"
-            ],
-            "[U r2 U',m2]"
         ]
     ],
     "EIP": [
@@ -18825,7 +18612,6 @@
             "U r U' m2 U r' U' m2",
             [
                 "Hana Davila",
-                "Linus Frész",
                 "Ryan Eckersley"
             ],
             "[U r U',m2]"
@@ -18852,7 +18638,6 @@
             "U' l' U m2 U' l U m2",
             [
                 "Hana Davila",
-                "Linus Frész",
                 "Marcell Endrey",
                 "Ryan Eckersley"
             ],
@@ -18872,8 +18657,7 @@
         [
             "U' l U m2 U' l' U m2",
             [
-                "Hana Davila",
-                "Linus Frész"
+                "Hana Davila"
             ],
             "[U' l U,m2]"
         ]
@@ -19106,15 +18890,6 @@
                 "Hana Davila"
             ],
             "F':[r U r',e']"
-        ]
-    ],
-    "EKI": [
-        [
-            "m2 U' l2 U m2 U' l2 U",
-            [
-                "Linus Frész"
-            ],
-            "[m2,U' l2 U]"
         ]
     ],
     "EKJ": [
@@ -19417,15 +19192,6 @@
             "Lw' e:[r U r',e2]"
         ]
     ],
-    "EMI": [
-        [
-            "m u2 m' D2 m u2 m' D2",
-            [
-                "Linus Frész"
-            ],
-            "[m u2 m',D2]"
-        ]
-    ],
     "EMJ": [
         [
             "D' U2 m' U' r2 U m U' r2 D U'",
@@ -19706,15 +19472,6 @@
                 "Hana Davila"
             ],
             "U:[U m U',r2]"
-        ]
-    ],
-    "EOI": [
-        [
-            "m2 U r2 U' m2 U r2 U'",
-            [
-                "Linus Frész"
-            ],
-            "[m2,U r2 U']"
         ]
     ],
     "EOJ": [
@@ -20015,7 +19772,6 @@
             "m2 U r U' m2 U r' U'",
             [
                 "Hana Davila",
-                "Linus Frész",
                 "Ryan Eckersley"
             ],
             "[m2,U r U']"
@@ -20339,7 +20095,6 @@
             "m2 U' l' U m2 U' l U",
             [
                 "Hana Davila",
-                "Linus Frész",
                 "Marcell Endrey",
                 "Ryan Eckersley"
             ],
@@ -20656,8 +20411,7 @@
         [
             "m2 U' l U m2 U' l' U",
             [
-                "Hana Davila",
-                "Linus Frész"
+                "Hana Davila"
             ],
             "[m2,U' l U]"
         ]
@@ -23629,15 +23383,6 @@
             "D:[U' m U,r2]"
         ]
     ],
-    "GIO": [
-        [
-            "r2 U' m2 U r2 U' m2 U",
-            [
-                "Linus Frész"
-            ],
-            "[r2,U' m2 U]"
-        ]
-    ],
     "GIP": [
         [
             "R2 m2 U' m u m' U m u' m R2",
@@ -23652,7 +23397,6 @@
             "r U' m2 U r' U' m2 U",
             [
                 "Cale Schoon",
-                "Linus Frész",
                 "Tim Wong"
             ],
             "[r,U' m2 U]"
@@ -23690,7 +23434,6 @@
             "r' U' m2 U r U' m2 U",
             [
                 "Cale Schoon",
-                "Linus Frész",
                 "Tim Wong"
             ],
             "[r',U' m2 U]"
@@ -24853,15 +24596,6 @@
             "[U m U',r2]"
         ]
     ],
-    "GOI": [
-        [
-            "U' m2 U r2 U' m2 U r2",
-            [
-                "Linus Frész"
-            ],
-            "[U' m2 U,r2]"
-        ]
-    ],
     "GOJ": [
         [
             "Lw U m' U' r2 U m U' r2 Lw'",
@@ -25241,7 +24975,6 @@
             "U' m2 U r U' m2 U r'",
             [
                 "Cale Schoon",
-                "Linus Frész",
                 "Tim Wong"
             ],
             "[U' m2 U,r]"
@@ -26415,7 +26148,6 @@
             "U' m2 U r' U' m2 U r",
             [
                 "Cale Schoon",
-                "Linus Frész",
                 "Tim Wong"
             ],
             "[U' m2 U,r']"
@@ -28133,15 +27865,6 @@
             "U m':[u,m' U' m]"
         ]
     ],
-    "HIM": [
-        [
-            "m' u m D2 m' u' m D2",
-            [
-                "Linus Frész"
-            ],
-            "[m' u m,D2]"
-        ]
-    ],
     "HJA": [
         [
             "z' r U2 r' e r U2 r' e' z",
@@ -28432,15 +28155,6 @@
                 "Ryan Eckersley"
             ],
             "U m:[u',m U m']"
-        ]
-    ],
-    "HMI": [
-        [
-            "D2 m' u m D2 m' u' m",
-            [
-                "Linus Frész"
-            ],
-            "[D2,m' u m]"
         ]
     ],
     "HNA": [
@@ -29011,240 +28725,6 @@
             "z':[l' e' l,U']"
         ]
     ],
-    "KIL": [
-        [
-            "D m d' m' D' m d m'",
-            [
-                "Linus Frész"
-            ],
-            "[D,m d' m']"
-        ]
-    ],
-    "KIR": [
-        [
-            "l' e' l D' l' e l D",
-            [
-                "Linus Frész"
-            ],
-            "[l' e' l,D']"
-        ]
-    ],
-    "KIT": [
-        [
-            "l e' l' D' l e l' D",
-            [
-                "Linus Frész"
-            ],
-            "[l e' l',D']"
-        ]
-    ],
-    "KIX": [
-        [
-            "l' e l D' l' e' l D",
-            [
-                "Linus Frész"
-            ],
-            "[l' e l,D']"
-        ]
-    ],
-    "KIZ": [
-        [
-            "l e l' D' l e' l' D",
-            [
-                "Linus Frész"
-            ],
-            "[l e l',D']"
-        ]
-    ],
-    "KLI": [
-        [
-            "m d' m' D m d m' D'",
-            [
-                "Linus Frész"
-            ],
-            "[m d' m',D]"
-        ]
-    ],
-    "KRI": [
-        [
-            "D' l' e' l D l' e l",
-            [
-                "Linus Frész"
-            ],
-            "[D',l' e' l]"
-        ]
-    ],
-    "KTI": [
-        [
-            "D' l e' l' D l e l'",
-            [
-                "Linus Frész"
-            ],
-            "[D',l e' l']"
-        ]
-    ],
-    "KXI": [
-        [
-            "D' l' e l D l' e' l",
-            [
-                "Linus Frész"
-            ],
-            "[D',l' e l]"
-        ]
-    ],
-    "KZI": [
-        [
-            "D' l e l' D l e' l'",
-            [
-                "Linus Frész"
-            ],
-            "[D',l e l']"
-        ]
-    ],
-    "LIM": [
-        [
-            "D2 m' d m D2 m' d' m",
-            [
-                "Linus Frész"
-            ],
-            "[D2,m' d m]"
-        ]
-    ],
-    "LMI": [
-        [
-            "m' d m D2 m' d' m D2",
-            [
-                "Linus Frész"
-            ],
-            "[m' d m,D2]"
-        ]
-    ],
-    "OIP": [
-        [
-            "D' m d m' D m d' m'",
-            [
-                "Linus Frész"
-            ],
-            "[D',m d m']"
-        ]
-    ],
-    "OIR": [
-        [
-            "r' e r D r' e' r D'",
-            [
-                "Linus Frész"
-            ],
-            "[r' e r,D]"
-        ]
-    ],
-    "OIX": [
-        [
-            "r' e' r D r' e r D'",
-            [
-                "Linus Frész"
-            ],
-            "[r' e' r,D]"
-        ]
-    ],
-    "OIZ": [
-        [
-            "r e' r' D r e r' D'",
-            [
-                "Linus Frész"
-            ],
-            "[r e' r',D]"
-        ]
-    ],
-    "OPI": [
-        [
-            "m d m' D' m d' m' D",
-            [
-                "Linus Frész"
-            ],
-            "[m d m',D']"
-        ]
-    ],
-    "ORI": [
-        [
-            "D r' e r D' r' e' r",
-            [
-                "Linus Frész"
-            ],
-            "[D,r' e r]"
-        ]
-    ],
-    "OXI": [
-        [
-            "D r' e' r D' r' e r",
-            [
-                "Linus Frész"
-            ],
-            "[D,r' e' r]"
-        ]
-    ],
-    "OZI": [
-        [
-            "D r e' r' D' r e r'",
-            [
-                "Linus Frész"
-            ],
-            "[D,r e' r']"
-        ]
-    ],
-    "PIK": [
-        [
-            "m d m' D m d' m' D'",
-            [
-                "Linus Frész"
-            ],
-            "[m d m',D]"
-        ]
-    ],
-    "PIM": [
-        [
-            "D2 m' d' m D2 m' d m",
-            [
-                "Linus Frész"
-            ],
-            "[D2,m' d' m]"
-        ]
-    ],
-    "PKI": [
-        [
-            "D m d m' D' m d' m'",
-            [
-                "Linus Frész"
-            ],
-            "[D,m d m']"
-        ]
-    ],
-    "PKM": [
-        [
-            "D' m' d' m D m' d m",
-            [
-                "Linus Frész"
-            ],
-            "[D',m' d' m]"
-        ]
-    ],
-    "PMI": [
-        [
-            "m' d' m D2 m' d m D2",
-            [
-                "Linus Frész"
-            ],
-            "[m' d' m,D2]"
-        ]
-    ],
-    "PMK": [
-        [
-            "m' d' m D' m' d m D",
-            [
-                "Linus Frész"
-            ],
-            "[m' d' m,D']"
-        ]
-    ],
     "PMR": [
         [
             "z' U' r' e' r U r' e r z",
@@ -29265,13 +28745,6 @@
     ],
     "QIT": [
         [
-            "e r' D r e' r' D' r",
-            [
-                "Linus Frész"
-            ],
-            "[e,r' D r]"
-        ],
-        [
             "U' 4Lw' m' U' m u' m' U m u 4Lw U",
             [
                 "Leonardo Ezequiel Cruz"
@@ -29279,41 +28752,7 @@
             "U' 4Lw':[m' U' m,u']"
         ]
     ],
-    "QIW": [
-        [
-            "e2 r' D r e2 r' D' r",
-            [
-                "Linus Frész"
-            ],
-            "[e2,r' D r]"
-        ]
-    ],
-    "QIY": [
-        [
-            "r2 F' m' F r2 F' m F",
-            [
-                "Linus Frész"
-            ],
-            "[r2,F' m' F]"
-        ]
-    ],
-    "QIZ": [
-        [
-            "e' r' D r e r' D' r",
-            [
-                "Linus Frész"
-            ],
-            "[e',r' D r]"
-        ]
-    ],
     "QTI": [
-        [
-            "r' D r e r' D' r e'",
-            [
-                "Linus Frész"
-            ],
-            "[r' D r,e]"
-        ],
         [
             "U' 4Lw' u' m' U' m u m' U m 4Lw U",
             [
@@ -29322,41 +28761,7 @@
             "U' 4Lw':[u',m' U' m]"
         ]
     ],
-    "QWI": [
-        [
-            "r' D r e2 r' D' r e2",
-            [
-                "Linus Frész"
-            ],
-            "[r' D r,e2]"
-        ]
-    ],
-    "QYI": [
-        [
-            "F' m' F r2 F' m F r2",
-            [
-                "Linus Frész"
-            ],
-            "[F' m' F,r2]"
-        ]
-    ],
-    "QZI": [
-        [
-            "r' D r e' r' D' r e",
-            [
-                "Linus Frész"
-            ],
-            "[r' D r,e']"
-        ]
-    ],
     "RIS": [
-        [
-            "l D' l' e' l D l' e",
-            [
-                "Linus Frész"
-            ],
-            "[l D' l',e']"
-        ],
         [
             "U 4Rw u m' U m u' m' U' m 4Rw' U'",
             [
@@ -29365,110 +28770,13 @@
             "U 4Rw:[u,m' U m]"
         ]
     ],
-    "RIY": [
-        [
-            "r D r' e r D' r' e'",
-            [
-                "Linus Frész"
-            ],
-            "[r D r',e]"
-        ]
-    ],
     "RSI": [
-        [
-            "e' l D' l' e l D l'",
-            [
-                "Linus Frész"
-            ],
-            "[e',l D' l']"
-        ],
         [
             "U 4Rw m' U m u m' U' m u' 4Rw' U'",
             [
                 "Leonardo Ezequiel Cruz"
             ],
             "U 4Rw:[m' U m,u]"
-        ]
-    ],
-    "RYI": [
-        [
-            "e r D r' e' r D' r'",
-            [
-                "Linus Frész"
-            ],
-            "[e,r D r']"
-        ]
-    ],
-    "SIW": [
-        [
-            "l2 F m' F' l2 F m F'",
-            [
-                "Linus Frész"
-            ],
-            "[l2,F m' F']"
-        ]
-    ],
-    "SIX": [
-        [
-            "e l D' l' e' l D l'",
-            [
-                "Linus Frész"
-            ],
-            "[e,l D' l']"
-        ]
-    ],
-    "SIY": [
-        [
-            "e2 l D' l' e2 l D l'",
-            [
-                "Linus Frész"
-            ],
-            "[e2,l D' l']"
-        ]
-    ],
-    "SWI": [
-        [
-            "F m' F' l2 F m F' l2",
-            [
-                "Linus Frész"
-            ],
-            "[F m' F',l2]"
-        ]
-    ],
-    "SXI": [
-        [
-            "l D' l' e l D l' e'",
-            [
-                "Linus Frész"
-            ],
-            "[l D' l',e]"
-        ]
-    ],
-    "SYI": [
-        [
-            "l D' l' e2 l D l' e2",
-            [
-                "Linus Frész"
-            ],
-            "[l D' l',e2]"
-        ]
-    ],
-    "TIW": [
-        [
-            "l' D' l e' l' D l e",
-            [
-                "Linus Frész"
-            ],
-            "[l' D' l,e']"
-        ]
-    ],
-    "TWI": [
-        [
-            "e' l' D' l e l' D l",
-            [
-                "Linus Frész"
-            ],
-            "[e',l' D' l]"
         ]
     ],
     "WNX": [
@@ -29491,15 +28799,6 @@
             "U 4Rw':[U',l e l']"
         ]
     ],
-    "YIX": [
-        [
-            "e' r D r' e r D' r'",
-            [
-                "Linus Frész"
-            ],
-            "[e',r D r']"
-        ]
-    ],
     "YNZ": [
         [
             "U' 4Lw r' e' r U r' e r U' 4Lw' U",
@@ -29510,15 +28809,6 @@
             "U' 4Lw:[r' e' r,U]"
         ]
     ],
-    "YXI": [
-        [
-            "r D r' e' r D' r' e",
-            [
-                "Linus Frész"
-            ],
-            "[r D r',e']"
-        ]
-    ],
     "YZN": [
         [
             "U' 4Lw U r' e' r U' r' e r 4Lw' U",
@@ -29527,24 +28817,6 @@
                 "Michael Tripodi"
             ],
             "U' 4Lw:[U,r' e' r]"
-        ]
-    ],
-    "ZIW": [
-        [
-            "l' D' l e l' D l e'",
-            [
-                "Linus Frész"
-            ],
-            "[l' D' l,e]"
-        ]
-    ],
-    "ZWI": [
-        [
-            "e l' D' l e' l' D l",
-            [
-                "Linus Frész"
-            ],
-            "[e,l' D' l]"
         ]
     ]
 }
