@@ -161,13 +161,15 @@ def main():
     # Query Limit: no set limit but if it’s too complex your sheet will be very slow.
 
     logger.remove(0)
-    # logger.add("file_main.log", format="{time:HH:mm:ss} | {level} | {message}")
+    # logger.add("scripts/file_main.log", format="{time:HH:mm:ss} | {level} | {message}")
     logger.add(sys.stderr, format="{time:HH:mm:ss} | {level} | {message}")
     output_types = ["edge", "corner"]
     algs_json = {output_type: {} for output_type in output_types}
 
-    with open("assets/json/sourceToUrl.json", "r", encoding="utf8") as file:
+    url_file = "assets/json/sourceToUrl.json"
+    with open(url_file, "r", encoding="utf8") as file:
         url_json = json.load(file)
+    url_json_new = {}
 
     try:
         gc = gs.service_account_from_dict(
@@ -199,6 +201,7 @@ def main():
             if not issuccess:
                 logger.error("Failed to open the spreadsheet.")
                 continue
+            url_json_new[name] = url_json[name]
             logger.info("\tOriginal:")
             crawl_spreadsheet(spreadsheet, False)
             logger.info("\tInverse:")
@@ -208,6 +211,11 @@ def main():
                                     for output_type in output_types}))
         logger.info("Alg: " + str({output_type: len(alg_used[output_type])
                                    for output_type in output_types}))
+
+    url_json_new = dict(sorted(url_json_new.items()))
+    url_json_dumps = json.dumps(url_json_new, indent=4, ensure_ascii=False)
+    with open(url_file, "w", encoding="utf8") as file:
+        file.write(url_json_dumps)
 
     algs_json = dict(sorted(algs_json.items()))
 
