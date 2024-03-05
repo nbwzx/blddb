@@ -3547,6 +3547,7 @@
                 "Ryan Eckersley",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
+                "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
             "r' U:[r2,U R' U']"
@@ -3556,8 +3557,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Daniel Lin",
-                "Daniel Wallin",
-                "Yuki Tsuneyoshi (恒吉優紀)"
+                "Daniel Wallin"
             ],
             "Rw2 U:[r',U R U']"
         ],
@@ -13039,18 +13039,10 @@
                 "Christopher Morris",
                 "James Molloy",
                 "Kevin Matthews",
-                "Michael Tripodi"
-            ],
-            "U D Rw:[r U' r',D2]"
-        ],
-        [
-            "z' f' U2 R' u' R U2 R' u R f z",
-            [
-                "Daniel Lin",
-                "Ethan Pan",
+                "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
-            "z' f':[U2,R' u' R]"
+            "U D Rw:[r U' r',D2]"
         ],
         [
             "U D r2 U' r' D2 r U r' D2 r' D' U'",
@@ -13067,6 +13059,14 @@
                 "Chenhao Sun (孙晨皓)"
             ],
             "D' Rw U:[f,R' F' R]"
+        ],
+        [
+            "z' f' U2 R' u' R U2 R' u R f z",
+            [
+                "Daniel Lin",
+                "Ethan Pan"
+            ],
+            "z' f':[U2,R' u' R]"
         ],
         [
             "D' Rw D R' U' R' U r' U' R U Rw D' Rw' D",
@@ -13353,8 +13353,7 @@
                 "Antonio Kam (甘浩東)",
                 "Daniel Lin",
                 "Ethan Pan",
-                "Michael Tripodi",
-                "Yuki Tsuneyoshi (恒吉優紀)"
+                "Michael Tripodi"
             ],
             "L':[f,L' F' L]"
         ],
@@ -13372,7 +13371,8 @@
             "S D r' D' L' D r D' L S'",
             [
                 "Andrew Tan Jing Bang",
-                "Michael Tripodi"
+                "Michael Tripodi",
+                "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "S:[D r' D',L']"
         ],
@@ -13404,7 +13404,8 @@
                 "Kevin Matthews",
                 "Michael Tripodi",
                 "Ryan Eckersley",
-                "Xi Lu (鲁曦)"
+                "Xi Lu (鲁曦)",
+                "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "[D r2 D',R]"
         ],
@@ -13421,16 +13422,6 @@
             "D:[U' R' U,r2]"
         ],
         [
-            "Rw' R' U r U' R U r' U' Rw",
-            [
-                "Christopher Morris",
-                "Daniel Lin",
-                "James Molloy",
-                "Yuki Tsuneyoshi (恒吉優紀)"
-            ],
-            "Rw':[R',U r U']"
-        ],
-        [
             "x' R' U r U' R U r' U' x",
             [
                 "Ethan Pan",
@@ -13438,6 +13429,15 @@
                 "Xin Shi (石欣)"
             ],
             "x':[R',U r U']"
+        ],
+        [
+            "Rw' R' U r U' R U r' U' Rw",
+            [
+                "Christopher Morris",
+                "Daniel Lin",
+                "James Molloy"
+            ],
+            "Rw':[R',U r U']"
         ]
     ],
     "AOZ": [
@@ -14146,18 +14146,10 @@
                 "Christopher Morris",
                 "James Molloy",
                 "Kevin Matthews",
-                "Michael Tripodi"
-            ],
-            "U D Rw:[D2,r U' r']"
-        ],
-        [
-            "z' f' R' u' R U2 R' u R U2 f z",
-            [
-                "Daniel Lin",
-                "Ethan Pan",
+                "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
-            "z' f':[R' u' R,U2]"
+            "U D Rw:[D2,r U' r']"
         ],
         [
             "U D r D2 r U' r' D2 r U r2 D' U'",
@@ -14174,6 +14166,14 @@
                 "Chenhao Sun (孙晨皓)"
             ],
             "D' Rw U:[R' F' R,f]"
+        ],
+        [
+            "z' f' R' u' R U2 R' u R U2 f z",
+            [
+                "Daniel Lin",
+                "Ethan Pan"
+            ],
+            "z' f':[R' u' R,U2]"
         ],
         [
             "D' Rw D Rw' U' R' U r U' R U R D' Rw' D",
@@ -20159,8 +20159,7 @@
                 "Antonio Kam (甘浩東)",
                 "Daniel Lin",
                 "Ethan Pan",
-                "Michael Tripodi",
-                "Yuki Tsuneyoshi (恒吉優紀)"
+                "Michael Tripodi"
             ],
             "L':[L' F' L,f]"
         ],
@@ -20178,7 +20177,8 @@
             "S L' D r' D' L D r D' S'",
             [
                 "Andrew Tan Jing Bang",
-                "Michael Tripodi"
+                "Michael Tripodi",
+                "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "S:[L',D r' D']"
         ],
@@ -21111,7 +21111,8 @@
                 "Kevin Matthews",
                 "Michael Tripodi",
                 "Ryan Eckersley",
-                "Xi Lu (鲁曦)"
+                "Xi Lu (鲁曦)",
+                "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "[R,D r2 D']"
         ],
@@ -21141,8 +21142,7 @@
             "Rw' U r U' R' U r' U' R Rw",
             [
                 "Daniel Lin",
-                "James Molloy",
-                "Yuki Tsuneyoshi (恒吉優紀)"
+                "James Molloy"
             ],
             "Rw':[U r U',R']"
         ],
@@ -21657,6 +21657,7 @@
                 "Ryan Eckersley",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
+                "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
             "r' U:[U R' U',r2]"
@@ -21666,8 +21667,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Daniel Lin",
-                "Daniel Wallin",
-                "Yuki Tsuneyoshi (恒吉優紀)"
+                "Daniel Wallin"
             ],
             "Rw2 U:[U R U',r']"
         ],
@@ -28148,21 +28148,6 @@
     ],
     "GAQ": [
         [
-            "u R' u' R U' R' u R U u'",
-            [
-                "Chenhao Sun (孙晨皓)",
-                "Daniel Lin",
-                "Daniel Wallin",
-                "Ethan Pan",
-                "Kai Yamamoto (山本快)",
-                "Michael Tripodi",
-                "Ryan Eckersley",
-                "Xin Shi (石欣)",
-                "Yuki Tsuneyoshi (恒吉優紀)"
-            ],
-            "u:[R' u' R,U']"
-        ],
-        [
             "4Lw R U r U' R' U r' U' 4Lw'",
             [
                 "Adrian Dębski",
@@ -28178,11 +28163,26 @@
             "4Lw:[R,U r U']"
         ],
         [
+            "u R' u' R U' R' u R U u'",
+            [
+                "Chenhao Sun (孙晨皓)",
+                "Daniel Lin",
+                "Daniel Wallin",
+                "Ethan Pan",
+                "Kai Yamamoto (山本快)",
+                "Michael Tripodi",
+                "Ryan Eckersley",
+                "Xin Shi (石欣)"
+            ],
+            "u:[R' u' R,U']"
+        ],
+        [
             "r' R U r U' R' U r' U' r",
             [
                 "Andrew Tan Jing Bang",
                 "Hana Davila",
-                "Oliver Fritz"
+                "Oliver Fritz",
+                "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "r':[R,U r U']"
         ],
@@ -30017,8 +30017,7 @@
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
-                "Xin Shi (石欣)",
-                "Yuki Tsuneyoshi (恒吉優紀)"
+                "Xin Shi (石欣)"
             ],
             "u:[U',R' u' R]"
         ],
@@ -30042,7 +30041,8 @@
                 "Andrew Tan Jing Bang",
                 "Hana Davila",
                 "James Molloy",
-                "Oliver Fritz"
+                "Oliver Fritz",
+                "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "r':[U r U',R]"
         ],
@@ -30633,10 +30633,21 @@
                 "Kevin Matthews",
                 "Oliver Fritz",
                 "Ryan Eckersley",
-                "Xi Lu (鲁曦)",
-                "Yuki Tsuneyoshi (恒吉優紀)"
+                "Xi Lu (鲁曦)"
             ],
             "4Rw' U':[U' r2 U,R]"
+        ],
+        [
+            "R U L' u' L U2 L' u L U R'",
+            [
+                "Andrew Tan Jing Bang",
+                "Chenhao Sun (孙晨皓)",
+                "Ethan Pan",
+                "Michael Tripodi",
+                "Xin Shi (石欣)",
+                "Yuki Tsuneyoshi (恒吉優紀)"
+            ],
+            "R U:[L' u' L,U2]"
         ],
         [
             "x' U2 r2 U R U' r2 U R' U x",
@@ -30648,17 +30659,6 @@
                 "Leonardo Ezequiel Cruz"
             ],
             "x' U':[U' r2 U,R]"
-        ],
-        [
-            "R U L' u' L U2 L' u L U R'",
-            [
-                "Andrew Tan Jing Bang",
-                "Chenhao Sun (孙晨皓)",
-                "Ethan Pan",
-                "Michael Tripodi",
-                "Xin Shi (石欣)"
-            ],
-            "R U:[L' u' L,U2]"
         ],
         [
             "Rw' U2 r2 U R U' r' U R' U' r' U2 Rw",
@@ -31915,8 +31915,7 @@
                 "Kevin Matthews",
                 "Oliver Fritz",
                 "Ryan Eckersley",
-                "Xi Lu (鲁曦)",
-                "Yuki Tsuneyoshi (恒吉優紀)"
+                "Xi Lu (鲁曦)"
             ],
             "4Rw' U':[R,U' r2 U]"
         ],
@@ -31927,7 +31926,8 @@
                 "Chenhao Sun (孙晨皓)",
                 "Ethan Pan",
                 "Michael Tripodi",
-                "Xin Shi (石欣)"
+                "Xin Shi (石欣)",
+                "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "R U':[L' u' L,U2]"
         ],
