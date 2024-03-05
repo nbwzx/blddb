@@ -105,7 +105,7 @@ def main():
                         alg_original = alg_original.replace(
                             "m", "M").replace("e", "E").replace("s", "S")
                 # xcenter is complex, m and M are both used.
-                if (not is_pattern(patterns_midge, title)) and is5bld == False:
+                if (not is_pattern(patterns_midge, title)) and (not is_pattern(patterns_tcenter, title)) and is5bld == False:
                     # make 4bld algs to 5bld
                     replacements = [("3Rw", "4Rw"), ("3Lw", "4Lw"), ("3Uw", "4Uw"),
                                     ("3Dw", "4Dw"), ("3Fw", "4Fw"), ("3Bw", "4Bw")]
@@ -113,7 +113,8 @@ def main():
                         if old in alg_original and "4" not in alg_original:
                             alg_original = alg_original.replace(old, new)
                 if isInverse:
-                    alg_original = commutator.expand_555(alg_original, isInverse=isInverse)
+                    alg_original = commutator.expand_555(
+                        alg_original, isInverse=isInverse)
                     alg = alg_original
                 else:
                     alg = commutator.expand_555(alg_original)
