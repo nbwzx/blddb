@@ -52,48 +52,6 @@ def main():
                     continue
                 alg_original = line
 
-                patterns_midge = {
-                    "ignore_case":
-                    ["midge", "中棱"],
-                    "non_alphanumeric":
-                    ["m", "M"]
-                }
-                patterns_wing = {
-                    "ignore_case":
-                    ["wing", "翼棱"],
-                    "non_alphabetic":
-                    ["UFl", "URf", "ULb", "UBr", "RUb", "RFu", "RDf", "RBd", "LUf", "LFd", "LDb", "LBu",
-                     "FUr", "FRd", "FLu", "FDl", "DRb", "DLf", "DFr", "DBl", "BUl", "BRu", "BLd", "BDr",
-                     "URb", "ULf", "UFr", "UBl", "RUf", "RFd", "RDb", "RBu", "LUb", "LFu", "LDf", "LBd",
-                     "FUl", "FRu", "FLd", "FDr", "DRf", "DLb", "DFl", "DBr", "BRr", "BRd", "BLu", "BDl"],
-                    "non_alphanumeric":
-                    ["w", "W"]
-                }
-                patterns_tcenter = {
-                    "ignore_case":
-                    ["+",
-                     "+C", "+-C",
-                     "TC", "T-C",
-                     "边心"],
-                    "non_alphabetic":
-                    ["Uf", "Ul", "Ub", "Ur", "Df", "Dl", "Db", "Dr", "Fr", "Fl", "Bl", "Br",
-                     "Fu", "Lu", "Bu", "Ru", "Fd", "Ld", "Bd", "Rd", "Rf", "Lf", "Lb", "Rb"],
-                    "non_alphanumeric":
-                    ["t", "T"]
-                }
-                patterns_xcenter = {
-                    "ignore_case":
-                    ["XC", "X-C",
-                     "角心"],
-                    "non_alphabetic":
-                    ["Urb", "Ulf", "Ufr", "Ubl", "Ruf", "Rfd", "Rdb", "Rbu", "Lub", "Lfu", "Ldf", "Lbd",
-                     "Ful", "Fru", "Fld", "Fdr", "Drf", "Dlb", "Dfl", "Dbr", "Bur", "Brd", "Blu", "Bdl",
-                     "Ufl", "Urf", "Ulb", "Ubr", "Rub", "Rfu", "Rdf", "Rbd", "Luf", "Lfd", "Ldb", "Lbu",
-                     "Fur", "Frd", "Flu", "Fdl", "Drb", "Dlf", "Dfr", "Dbl", "Bul", "Bru", "Bld", "Bdr"],
-                    "non_alphanumeric":
-                    ["x", "X"]
-                }
-
                 if not (("M" in alg_original or "E" in alg_original or "S" in alg_original) and ("m" in alg_original or "e" in alg_original or "s" in alg_original)):
                     if is_pattern(patterns_midge, title):
                         alg_original = alg_original.replace(
@@ -104,8 +62,8 @@ def main():
                     if is_pattern(patterns_wing, title):
                         alg_original = alg_original.replace(
                             "m", "M").replace("e", "E").replace("s", "S")
-                # xcenter is complex, m and M are both used.
-                if (not is_pattern(patterns_midge, title)) and (not is_pattern(patterns_tcenter, title)) and is5bld == False:
+                    # xcenter is complex, m and M are both used.
+                if is5bld == False:
                     # make 4bld algs to 5bld
                     replacements = [("3Rw", "4Rw"), ("3Lw", "4Lw"), ("3Uw", "4Uw"),
                                     ("3Dw", "4Dw"), ("3Fw", "4Fw"), ("3Bw", "4Bw")]
@@ -186,6 +144,48 @@ def main():
                  "OH"]
             }
 
+            patterns_midge = {
+                "ignore_case":
+                ["midge", "中棱"],
+                "non_alphanumeric":
+                ["m", "M"]
+            }
+            patterns_wing = {
+                "ignore_case":
+                ["wing", "翼棱"],
+                "non_alphabetic":
+                ["UFl", "URf", "ULb", "UBr", "RUb", "RFu", "RDf", "RBd", "LUf", "LFd", "LDb", "LBu",
+                    "FUr", "FRd", "FLu", "FDl", "DRb", "DLf", "DFr", "DBl", "BUl", "BRu", "BLd", "BDr",
+                    "URb", "ULf", "UFr", "UBl", "RUf", "RFd", "RDb", "RBu", "LUb", "LFu", "LDf", "LBd",
+                    "FUl", "FRu", "FLd", "FDr", "DRf", "DLb", "DFl", "DBr", "BRr", "BRd", "BLu", "BDl"],
+                "non_alphanumeric":
+                ["w", "W"]
+            }
+            patterns_tcenter = {
+                "ignore_case":
+                ["+",
+                    "+C", "+-C",
+                    "TC", "T-C",
+                    "边心"],
+                "non_alphabetic":
+                ["Uf", "Ul", "Ub", "Ur", "Df", "Dl", "Db", "Dr", "Fr", "Fl", "Bl", "Br",
+                    "Fu", "Lu", "Bu", "Ru", "Fd", "Ld", "Bd", "Rd", "Rf", "Lf", "Lb", "Rb"],
+                "non_alphanumeric":
+                ["t", "T"]
+            }
+            patterns_xcenter = {
+                "ignore_case":
+                ["XC", "X-C",
+                    "角心"],
+                "non_alphabetic":
+                ["Urb", "Ulf", "Ufr", "Ubl", "Ruf", "Rfd", "Rdb", "Rbu", "Lub", "Lfu", "Ldf", "Lbd",
+                    "Ful", "Fru", "Fld", "Fdr", "Drf", "Dlb", "Dfl", "Dbr", "Bur", "Brd", "Blu", "Bdl",
+                    "Ufl", "Urf", "Ulb", "Ubr", "Rub", "Rfu", "Rdf", "Rbd", "Luf", "Lfd", "Ldb", "Lbu",
+                    "Fur", "Frd", "Flu", "Fdl", "Drb", "Dlf", "Dfr", "Dbl", "Bul", "Bru", "Bld", "Bdr"],
+                "non_alphanumeric":
+                ["x", "X"]
+            }
+
             if is_pattern(patterns, title):
                 logger.info("\t\t" + worksheet.title + ": " + str(round(time.time() -
                             start_time, 2)) + " seconds." + " Ignored because it contains disallowed word.")
@@ -201,14 +201,13 @@ def main():
                         e.__class__.__name__ + " when trying to get values from the spreadsheet.")
                     time.sleep(10)
             is5bld = False
-            for array in values:
-                for cell in array:
-                    cell = re.sub(r"\s", " ", cell.strip().split(
-                        "\t")[0].split("if")[0].split("or")[0])
-                    if len(cell) > MAX_CELL_LEN:
-                        continue
-                    if any(x in cell for x in ["4Rw", "4Lw", "4Uw", "4Dw", "4Fw", "4Bw"]):
-                        is5bld = True
+            if (is_pattern(patterns_midge, title)) or (is_pattern(patterns_tcenter, title)):
+                is5bld = True
+            else:
+                for rows in values:
+                    for cell in rows:
+                        if any(x in cell for x in ["4Rw", "4Lw", "4Uw", "4Dw", "4Fw", "4Bw"]):
+                            is5bld = True
             for rows in values:
                 for cell in rows:
                     crawl_cell(cell)

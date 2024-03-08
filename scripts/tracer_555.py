@@ -157,38 +157,6 @@ def midgesolved(sequence: str, edge_ch=edge_ch_default) -> bool:
     return True
 
 
-def get_code(code_type: str, x: str) -> str:
-    if code_type == "wing":
-        if get_raw_code("xcenter", x) != "" or get_raw_code("tcenter", x) != "" or get_raw_code("midge", x) != "" or get_raw_code("corner", x) != "" or centersolved(x) == False:
-            return ""
-        cf = get_raw_code("wing", x)
-        if len(cf) == 4:
-            return cf[0] + cf[2] + cf[1]
-        return ""
-    if code_type == "midge":
-        if get_raw_code("xcenter", x) != "" or get_raw_code("wing", x) != "" or get_raw_code("corner", x) != "" or centersolved(x) == False or midgesolved(x) == False:
-            return ""
-        cf = get_raw_code("midge", x)
-        if len(cf) == 4:
-            return cf[0] + cf[2] + cf[1]
-        return ""
-    if code_type == "xcenter":
-        if get_raw_code("wing", x) != "" or get_raw_code("tcenter", x) != "" or get_raw_code("midge", x) != "" or get_raw_code("corner", x) != "" or centersolved(x) == False:
-            return ""
-        cf = get_raw_code("xcenter", x)
-        if len(cf) == 4:
-            return cf[0] + cf[2] + cf[1]
-        return ""
-    if code_type == "tcenter":
-        if get_raw_code("wing", x) != "" or get_raw_code("xcenter", x) != "" or get_raw_code("midge", x) != "" or get_raw_code("corner", x) != "" or centersolved(x) == False:
-            return ""
-        cf = get_raw_code("tcenter", x)
-        if len(cf) == 4:
-            return cf[0] + cf[2] + cf[1]
-        return ""
-    return ""
-
-
 def get_code_auto(x: str) -> str:
     if centersolved(x) == False:
         return ("", "")
