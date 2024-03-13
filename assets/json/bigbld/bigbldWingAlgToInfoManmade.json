@@ -283,6 +283,7 @@
         [
             "r2 D2 r' U2 r D2 r' U2 r'",
             [
+                "Hill Pong Yong Feng",
                 "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Oliver Fritz"
@@ -1479,6 +1480,17 @@
             "Lw:[r',U L' U']"
         ],
         [
+            "r' L U L' U' r U L U' L'",
+            [
+                "Dong Zhu (朱栋)",
+                "Hana Davila",
+                "Hill Pong Yong Feng",
+                "Tom Nelson",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "L:[r',U L' U']"
+        ],
+        [
             "4Lw U L' U' r U L U' 3Lw'",
             [
                 "Antonio Kam (甘浩東)",
@@ -1487,16 +1499,6 @@
                 "Kevin Matthews"
             ],
             "4Lw:[U L' U',r]"
-        ],
-        [
-            "r' L U L' U' r U L U' L'",
-            [
-                "Dong Zhu (朱栋)",
-                "Hana Davila",
-                "Tom Nelson",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "L:[r',U L' U']"
         ],
         [
             "x' U L' U' r U L U' r' x",
@@ -3541,6 +3543,7 @@
                 "Christopher Morris",
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
+                "Hill Pong Yong Feng",
                 "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
@@ -4209,6 +4212,7 @@
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Wallin",
                 "Ethan Pan",
+                "Hill Pong Yong Feng",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
@@ -4713,6 +4717,7 @@
             [
                 "Dong Zhu (朱栋)",
                 "Hana Davila",
+                "Hill Pong Yong Feng",
                 "Tom Nelson",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -5581,20 +5586,21 @@
             "[l',U2 Rw' U2 Rw U2]"
         ],
         [
+            "r U2 r D2 r' U2 r D2 r2",
+            [
+                "Hill Pong Yong Feng",
+                "Kai Yamamoto (山本快)",
+                "Oliver Fritz"
+            ],
+            "r:[U2,r D2 r']"
+        ],
+        [
             "Rw D U' R u' R' U2 R u R' U' D' Rw'",
             [
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Wallin"
             ],
             "Rw D U':[R u' R',U2]"
-        ],
-        [
-            "r U2 r D2 r' U2 r D2 r2",
-            [
-                "Kai Yamamoto (山本快)",
-                "Oliver Fritz"
-            ],
-            "r:[U2,r D2 r']"
         ],
         [
             "Lw D L' F' L f L' F L f' D' Lw'",
@@ -7767,6 +7773,7 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
+                "Hill Pong Yong Feng",
                 "James Molloy",
                 "Leonardo Ezequiel Cruz",
                 "Mark Rivers",
@@ -8729,6 +8736,7 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
+                "Hill Pong Yong Feng",
                 "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -10911,6 +10919,7 @@
                 "Daniel Lin",
                 "Daniel Wallin",
                 "Ethan Pan",
+                "Hill Pong Yong Feng",
                 "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
@@ -12110,6 +12119,16 @@
             "x':[D',r U2 r']"
         ],
         [
+            "z' R2 u' R U' R' u R U R z",
+            [
+                "Daniel Lin",
+                "Hill Pong Yong Feng",
+                "Xin Shi (石欣)",
+                "Yuki Tsuneyoshi (恒吉優紀)"
+            ],
+            "z' R':[R' u' R,U']"
+        ],
+        [
             "D2 r' D R' D' r D R D",
             [
                 "Antonio Kam (甘浩東)",
@@ -12117,15 +12136,6 @@
                 "Ryan Eckersley"
             ],
             "D':[D' r' D,R']"
-        ],
-        [
-            "z' R2 u' R U' R' u R U R z",
-            [
-                "Daniel Lin",
-                "Xin Shi (石欣)",
-                "Yuki Tsuneyoshi (恒吉優紀)"
-            ],
-            "z' R':[R' u' R,U']"
         ],
         [
             "U D' R2 U' r U R' U' r' U R' D U'",
@@ -12932,6 +12942,24 @@
     ],
     "AOM": [
         [
+            "R r2 U' R U r2 U' R' U R'",
+            [
+                "Andrew Tan Jing Bang",
+                "Chenhao Sun (孙晨皓)",
+                "Christopher Morris",
+                "Daniel Lin",
+                "Daniel Wallin",
+                "Ethan Pan",
+                "Hill Pong Yong Feng",
+                "James Molloy",
+                "Kai Yamamoto (山本快)",
+                "Kevin Matthews",
+                "Michael Tripodi",
+                "Yuki Tsuneyoshi (恒吉優紀)"
+            ],
+            "R:[r2,U' R U]"
+        ],
+        [
             "r2 U' R2 U r2 U' R2 U",
             [
                 "Adrian Dębski",
@@ -12947,23 +12975,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "[r2,U' R2 U]"
-        ],
-        [
-            "R r2 U' R U r2 U' R' U R'",
-            [
-                "Andrew Tan Jing Bang",
-                "Chenhao Sun (孙晨皓)",
-                "Christopher Morris",
-                "Daniel Lin",
-                "Daniel Wallin",
-                "Ethan Pan",
-                "James Molloy",
-                "Kai Yamamoto (山本快)",
-                "Kevin Matthews",
-                "Michael Tripodi",
-                "Yuki Tsuneyoshi (恒吉優紀)"
-            ],
-            "R:[r2,U' R U]"
         ]
     ],
     "AON": [
@@ -13658,6 +13669,7 @@
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Wallin",
                 "Ethan Pan",
+                "Hill Pong Yong Feng",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
@@ -14930,6 +14942,7 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
+                "Hill Pong Yong Feng",
                 "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -15140,7 +15153,8 @@
             [
                 "Dong Zhu (朱栋)",
                 "Hana Davila",
-                "Xi Lu (鲁曦)"
+                "Xi Lu (鲁曦)",
+                "Ziyi Xu (徐梓翼)"
             ],
             "Dw x':[R2,U r U']"
         ],
@@ -15152,6 +15166,14 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "z' l' U:[R' u' R,U2]"
+        ],
+        [
+            "R b Rw' U r2 U R U' r2 U R' U2 Rw b' R'",
+            [
+                "Hill Pong Yong Feng",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "R b Rw' U:[r2,U R U']"
         ],
         [
             "Uw R U2 L' U r U' L U r' U R' Uw'",
@@ -15195,13 +15217,6 @@
                 "Kai Yamamoto (山本快)"
             ],
             "Uw2 L:[U',L d' L']"
-        ],
-        [
-            "R b Rw' U r2 U R U' r2 U R' U2 Rw b' R'",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "R b Rw' U:[r2,U R U']"
         ]
     ],
     "AQS": [
@@ -16028,6 +16043,16 @@
             "x':[r U2 r',D']"
         ],
         [
+            "z' R' U' R' u' R U R' u R2 z",
+            [
+                "Daniel Lin",
+                "Hill Pong Yong Feng",
+                "Xin Shi (石欣)",
+                "Yuki Tsuneyoshi (恒吉優紀)"
+            ],
+            "z' R':[U',R' u' R]"
+        ],
+        [
             "D' R' D' r' D R D' r D2",
             [
                 "Antonio Kam (甘浩東)",
@@ -16035,15 +16060,6 @@
                 "Ryan Eckersley"
             ],
             "D':[R',D' r' D]"
-        ],
-        [
-            "z' R' U' R' u' R U R' u R2 z",
-            [
-                "Daniel Lin",
-                "Xin Shi (石欣)",
-                "Yuki Tsuneyoshi (恒吉優紀)"
-            ],
-            "z' R':[U',R' u' R]"
         ],
         [
             "U D' R U' r U R U' r' U R2 D U'",
@@ -16235,7 +16251,8 @@
             [
                 "Dong Zhu (朱栋)",
                 "Hana Davila",
-                "Xi Lu (鲁曦)"
+                "Xi Lu (鲁曦)",
+                "Ziyi Xu (徐梓翼)"
             ],
             "Dw x':[U r U',R2]"
         ],
@@ -16247,6 +16264,14 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "z' l' U':[R' u' R,U2]"
+        ],
+        [
+            "R b Rw' U2 R U' r2 U R' U' r2 U' Rw b' R'",
+            [
+                "Hill Pong Yong Feng",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "R b Rw' U:[U R U',r2]"
         ],
         [
             "Uw R U' r U' L' U r' U' L U2 R' Uw'",
@@ -16290,13 +16315,6 @@
                 "Kai Yamamoto (山本快)"
             ],
             "Uw2 L:[L d' L',U']"
-        ],
-        [
-            "R b Rw' U2 R U' r2 U R' U' r2 U' Rw b' R'",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "R b Rw' U:[U R U',r2]"
         ]
     ],
     "ARS": [
@@ -17414,6 +17432,7 @@
             [
                 "Adrian Dębski",
                 "Andrew Tan Jing Bang",
+                "Hill Pong Yong Feng",
                 "Israel Fraga da Silva",
                 "Kai Yamamoto (山本快)",
                 "Oliver Fritz",
@@ -17862,6 +17881,7 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
+                "Hill Pong Yong Feng",
                 "James Molloy",
                 "Leonardo Ezequiel Cruz",
                 "Mark Rivers",
@@ -20373,6 +20393,7 @@
                 "Adrian Dębski",
                 "Andrew Tan Jing Bang",
                 "Antonio Kam (甘浩東)",
+                "Hill Pong Yong Feng",
                 "Israel Fraga da Silva",
                 "Kai Yamamoto (山本快)",
                 "Oliver Fritz",
@@ -21663,6 +21684,7 @@
                 "Christopher Morris",
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
+                "Hill Pong Yong Feng",
                 "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
@@ -28352,6 +28374,7 @@
                 "Antonio Kam (甘浩東)",
                 "Ethan Pan",
                 "Hana Davila",
+                "Hill Pong Yong Feng",
                 "Israel Fraga da Silva",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -30288,6 +30311,7 @@
                 "Antonio Kam (甘浩東)",
                 "Ethan Pan",
                 "Hana Davila",
+                "Hill Pong Yong Feng",
                 "Israel Fraga da Silva",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -31545,6 +31569,7 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
+                "Hill Pong Yong Feng",
                 "Israel Fraga da Silva",
                 "James Molloy",
                 "Kai Yamamoto (山本快)",
@@ -33789,6 +33814,7 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
+                "Hill Pong Yong Feng",
                 "Israel Fraga da Silva",
                 "James Molloy",
                 "Kai Yamamoto (山本快)",
