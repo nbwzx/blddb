@@ -54,4 +54,32 @@
     margin-top: 5px;
     z-index: 1;
   }
+
+  table {
+    border-spacing: 0;
+    white-space: nowrap;
+    font-family: Tahoma, arial, verdana, "\9ed1\4f53", sans-serif;
+    text-align: center;
+  }
+
+  td {
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    vertical-align: middle;
+    @apply border px-4 py-2;
+  }
+
+  td:nth-child(1) {
+    border-left: 1px solid gray;
+  }
+
+  th {
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+    position: sticky;
+    @apply bg-sky-200 dark:bg-sky-800;
+    @apply border px-4 py-2;
+  }
 }
