@@ -5,8 +5,12 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
+import LanguageToggler from "./LanguageToggler";
+import { useTranslation } from "react-i18next";
 
 const Header = () => {
+  const { t } = useTranslation();
+
   // Navbar toggle
   const [navbarOpen, setNavbarOpen] = useState(false);
   const navbarToggleHandler = () => {
@@ -49,7 +53,7 @@ const Header = () => {
       >
         <div className="container">
           <div className="relative -mx-4 flex items-center justify-between">
-            <div className="w-60 max-w-full px-4 xl:mr-12">
+            <div className="max-w-full px-4 xl:mr-12">
               <Link
                 href="/"
                 className={`header-logo block w-full ${
@@ -116,7 +120,7 @@ const Header = () => {
                                 : "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
                             }`}
                           >
-                            {menuItem.title}
+                            {t(menuItem.title)}
                           </Link>
                         ) : (
                           <>
@@ -124,7 +128,7 @@ const Header = () => {
                               onClick={() => handleSubmenu(index)}
                               className="flex cursor-pointer items-center justify-between py-2 text-base text-dark group-hover:text-primary dark:text-white/70 dark:group-hover:text-white lg:mr-0 lg:inline-flex lg:px-0 lg:py-6"
                             >
-                              {menuItem.title}
+                              {t(menuItem.title)}
                               <span className="pl-3">
                                 <svg width="25" height="24" viewBox="0 0 25 24">
                                   <path
@@ -148,7 +152,7 @@ const Header = () => {
                                     key={index}
                                     className="block rounded py-2.5 text-sm text-dark hover:text-primary dark:text-white/70 dark:hover:text-white lg:px-3"
                                   >
-                                    {submenuItem.title}
+                                    {t(submenuItem.title)}
                                   </Link>
                                 ))}
                             </div>
@@ -172,6 +176,9 @@ const Header = () => {
                 >
                   Sign Up
                 </Link>
+                <div>
+                  <LanguageToggler />
+                </div>
                 <div>
                   <ThemeToggler />
                 </div>

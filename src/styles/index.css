@@ -30,4 +30,28 @@
   input#checkboxLabel:checked ~ .box span {
     @apply opacity-100;
   }
+
+  .language {
+    @apply px-3 py-3 text-base font-medium text-dark hover:opacity-90 dark:text-white md:block;
+    width: 110px;
+    cursor: pointer;
+  }
+
+  .status_circle {
+    @apply hidden text-base font-medium text-dark hover:opacity-90 dark:text-white md:block;
+    display: block;
+    padding-left: 30px;
+    background-size: 24px 16px;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    margin-top: 5px;
+    z-index: 1;
+  }
 }
