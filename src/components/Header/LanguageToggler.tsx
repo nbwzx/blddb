@@ -1,7 +1,10 @@
 import React, { useState } from "react";
 import i18n from "next-i18next.config";
+import { useTranslation } from "react-i18next";
+import { updateMetadata } from "./updateMetadata";
 
 const LanguageToggler: React.FC = () => {
+  const { t } = useTranslation();
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const langNames = {
     en: "English",
@@ -23,6 +26,7 @@ const LanguageToggler: React.FC = () => {
     setLang(newLang);
     toggleDropdown();
     handleLanguageChange(newLang);
+    updateMetadata(document, t);
   };
 
   return (

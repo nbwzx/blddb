@@ -7,6 +7,7 @@ import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
 import LanguageToggler from "./LanguageToggler";
 import { useTranslation } from "react-i18next";
+import { updateMetadata } from "./updateMetadata";
 
 const Header = () => {
   const { t } = useTranslation();
@@ -28,6 +29,7 @@ const Header = () => {
   };
   useEffect(() => {
     window.addEventListener("scroll", handleStickyNavbar);
+    updateMetadata(document, t);
   });
 
   // submenu handler
