@@ -4,8 +4,57 @@ import { useState } from "react";
 import React from "react";
 import commutator from "@/utils/commutator";
 import { useTranslation } from "react-i18next";
+import { useEffect, useRef } from "react";
 
 const Corner = () => {
+  const tableRef = useRef<HTMLTableElement>(null);
+  const divRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const handleTableMutation = (mutation: MutationRecord) => {
+      if (
+        mutation.addedNodes.length > 0 &&
+        mutation.addedNodes[0] === tableRef.current
+      ) {
+        adjustTableFontSize();
+      }
+    };
+
+    const observer = new MutationObserver((mutationsList) => {
+      for (const mutation of mutationsList) {
+        handleTableMutation(mutation);
+      }
+    });
+
+    observer.observe(document.body, { childList: true, subtree: true });
+
+    const handleResize = () => {
+      if (tableRef.current) {
+        tableRef.current.style.fontSize = "16px";
+        adjustTableFontSize();
+      }
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      observer.disconnect();
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
+  const adjustTableFontSize = () => {
+    if (tableRef.current && divRef.current) {
+      const tableWidth = tableRef.current.offsetWidth;
+      const divWidth = divRef.current.offsetWidth;
+      const ratio = tableWidth / divWidth;
+      if (ratio > 1) {
+        const newFontSize = 16 / ratio;
+        tableRef.current.style.fontSize = `${newFontSize}px`;
+      }
+    }
+  };
+
   const { t } = useTranslation();
   const [name, setInputText] = useState("");
 
@@ -41,13 +90,13 @@ const Corner = () => {
                     value={name}
                     onChange={handleInputChange}
                   />
-                  <div className="mt-4">
+                  <div ref={divRef} className="mt-4">
                     {Object.entries(corner_output).map(([key, value]) => {
                       if (key !== name) {
                         return null;
                       }
                       return (
-                        <table key={key}>
+                        <table ref={tableRef} key={key}>
                           <thead>
                             <tr>
                               <th>No.</th>
