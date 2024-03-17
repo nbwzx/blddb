@@ -64,7 +64,7 @@ const Corner = () => {
   };
   return (
     <>
-      <section className="pb-[120px] pt-[150px]">
+      <section className="pb-[120px] pt-[120px]">
         <div className="container">
           <div className="-mx-4 flex flex-wrap justify-center">
             <div className="w-full px-4 lg:w-8/12">
