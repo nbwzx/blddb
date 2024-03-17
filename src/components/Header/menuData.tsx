@@ -84,6 +84,12 @@ const menuData: Menu[] = [
         path: "/corner",
         newTab: false,
       },
+      {
+        id: 410,
+        title: "Lettering Scheme",
+        path: "/code",
+        newTab: false,
+      },
     ],
   },
 ];

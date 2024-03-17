@@ -69,4 +69,111 @@
   td {
     @apply border border-gray-500 p-0.5 px-[0.5vw] py-[0.4vw] align-middle;
   }
+
+  :root {
+    --cell: calc(max(min(6.4vw, 50px), 28px));
+  }
+
+  .cube {
+    position: relative;
+    height: calc(9 * var(--cell));
+    width: calc(12 * var(--cell));
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .face {
+    position: absolute;
+    display: grid;
+    grid-template-rows: repeat(3, calc(var(--cell)));
+    grid-template-columns: repeat(3, calc(var(--cell)));
+  }
+
+  .face > div {
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+  }
+
+  .face-u {
+    grid-row: 1;
+    grid-column: 2;
+    border-right: 2px solid black;
+  }
+
+  .face-l {
+    grid-row: 2;
+    grid-column: 1;
+    border-bottom: 2px solid black;
+  }
+
+  .face-f {
+    grid-row: 2;
+    grid-column: 2;
+  }
+
+  .face-r {
+    grid-row: 2;
+    grid-column: 3;
+    border-bottom: 2px solid black;
+  }
+
+  .face-b {
+    grid-row: 2;
+    grid-column: 4;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+  }
+
+  .face-d {
+    grid-row: 3;
+    grid-column: 2;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+  }
+
+  .face input[type="text"] {
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    font-size: calc(0.75 * var(--cell));
+    height: 100%;
+    outline: none;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    position: relative;
+    top: -2px;
+    left: -2px;
+    margin: 2px;
+  }
+
+  .face input[type="text"]:focus,
+  .face input[type="text"]:hover {
+    background: rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+  }
+
+  .white {
+    background: white;
+  }
+
+  .red {
+    background: red;
+  }
+
+  .green {
+    background: #33cc33;
+  }
+
+  .orange {
+    background: orange;
+  }
+
+  .blue {
+    background: #0070c0;
+  }
+
+  .yellow {
+    background: yellow;
+  }
 }
