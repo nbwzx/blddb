@@ -5,6 +5,7 @@ import React from "react";
 import commutator from "@/utils/commutator";
 import { useTranslation } from "react-i18next";
 import { useEffect, useRef } from "react";
+import codeConverter from "@/utils/codeConverter";
 
 const Corner = () => {
   const tableRef = useRef<HTMLTableElement>(null);
@@ -91,39 +92,49 @@ const Corner = () => {
                     onChange={handleInputChange}
                   />
                   <div ref={divRef} className="mt-4">
-                    {Object.entries(corner_output).map(([key, value]) => {
-                      if (key !== name) {
-                        return null;
-                      }
-                      return (
-                        <table ref={tableRef} key={key}>
-                          <thead>
-                            <tr>
-                              <th>No.</th>
-                              <th>Algorithm</th>
-                              <th>Commutator</th>
-                              <th>Thumb Position</th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            {value.map((item, index) => (
-                              <tr key={`${key}-${index}`}>
-                                <td>{index + 1}</td>
-                                <td>{item}</td>
-                                <td>
-                                  {
-                                    commutator.search({
-                                      algorithm: item,
-                                      maxDepth: 1,
-                                    })[0]
-                                  }
-                                </td>
-                              </tr>
-                            ))}
-                          </tbody>
-                        </table>
+                    {(() => {
+                      const code = codeConverter.customCodeToInitCode(
+                        name,
+                        "corner",
                       );
-                    })}
+                      const tableElements: JSX.Element[] = [];
+                      for (const [key, value] of Object.entries(
+                        corner_output,
+                      )) {
+                        if (key !== code) {
+                          continue;
+                        }
+                        const tableRows: JSX.Element[] = [];
+                        for (let i = 0; i < value.length; i++) {
+                          const item = value[i];
+                          const commutatorResult = commutator.search({
+                            algorithm: item,
+                            maxDepth: 1,
+                          })[0];
+                          tableRows.push(
+                            <tr key={`${key}-${i}`}>
+                              <td>{i + 1}</td>
+                              <td>{item}</td>
+                              <td>{commutatorResult}</td>
+                            </tr>,
+                          );
+                        }
+                        tableElements.push(
+                          <table ref={tableRef} key={key}>
+                            <thead>
+                              <tr>
+                                <th>No.</th>
+                                <th>Algorithm</th>
+                                <th>Commutator</th>
+                                <th>Thumb Position</th>
+                              </tr>
+                            </thead>
+                            <tbody>{tableRows}</tbody>
+                          </table>,
+                        );
+                      }
+                      return tableElements;
+                    })()}
                   </div>
                 </div>
               </div>
