@@ -1,5 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
+import codeConverter from "@/utils/codeConverter";
 
 const Code = () => {
   const faces = [
@@ -11,11 +12,10 @@ const Code = () => {
     "face-d yellow",
   ];
 
-  const initialInputValues =
-    "DEGCUGAAJEDCXLTQLMBBLSFQNJYKHIRRZZPSHFFYBWTNPWIXKDOOMR";
   const [inputValues, setInputValues] = useState("");
 
   useEffect(() => {
+    const initialInputValues = codeConverter.initialInputValues;
     const storedValues = localStorage.getItem("code");
     if (storedValues) {
       setInputValues(storedValues);
@@ -32,6 +32,7 @@ const Code = () => {
     setInputValues(updatedValues);
     localStorage.setItem("code", updatedValues);
   };
+
   return (
     <section className="pb-[120px] pt-[120px]">
       <div className="container">
