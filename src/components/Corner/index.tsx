@@ -57,12 +57,25 @@ const Corner = () => {
   };
 
   const { t } = useTranslation();
-  const [name, setInputText] = useState("");
+  const [inputText, setInputText] = useState("");
+  const [selectValues, setSelectValues] = useState(["", "", ""]);
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const newValue = e.target.value;
-    setInputText(newValue.toUpperCase());
+    const newValue = e.target.value.toUpperCase();
+    setInputText(newValue);
+    setSelectValues(codeConverter.customCodeToPosition(newValue, "corner"));
   };
+
+  const handleSelectChange = (
+    e: React.ChangeEvent<HTMLSelectElement>,
+    index: number,
+  ) => {
+    const newSelectValues = [...selectValues];
+    newSelectValues[index] = e.target.value;
+    setSelectValues(newSelectValues);
+    setInputText(codeConverter.positionToCustomCode(newSelectValues));
+  };
+
   return (
     <>
       <section className="pb-[120px] pt-[120px]">
@@ -74,27 +87,52 @@ const Corner = () => {
                   {t("corner.title")}
                 </h2>
                 <p>{t("corner.hint")}</p>
+                <div className="mb-3 mr-2 mt-4 inline-block font-bold text-dark dark:text-white">
+                  Positions:
+                </div>
+                {[0, 1, 2].map((index) => (
+                  <>
+                    <select
+                      key={index}
+                      value={selectValues[index]}
+                      onChange={(e) => handleSelectChange(e, index)}
+                      className="text-transform: w-[3.5rem] rounded-sm border-b-[3px] border-gray-500 bg-inherit py-1 text-base uppercase text-dark outline-none outline-none transition-all duration-300 focus:border-primary dark:border-gray-100 dark:bg-inherit dark:text-white dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
+                    >
+                      <option></option>
+                      {codeConverter.positionArray
+                        .filter(
+                          (position) =>
+                            codeConverter.positionToCodeType(position) ===
+                            "corner",
+                        )
+                        .map((position) => (
+                          <option key={position}>{position}</option>
+                        ))}
+                    </select>
+                    {index !== 2 && <span className="mx-1">--</span>}
+                  </>
+                ))}
                 <div className="mb-8">
                   <label
-                    htmlFor="name"
+                    htmlFor="inputText"
                     className="mb-3 mt-4 inline-block font-bold text-dark dark:text-white"
                   >
                     {t("pairs")}
                   </label>
                   <input
+                    id="inputText"
                     type="text"
-                    name="name"
                     placeholder=""
                     className="text-transform: ml-2 w-[4rem] rounded-sm border-b-[3px] border-gray-500 bg-inherit px-3 py-1 text-base uppercase text-dark outline-none outline-none transition-all duration-300 focus:border-primary dark:border-gray-100 dark:bg-inherit dark:text-white dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
                     autoComplete="off"
                     maxLength={3}
-                    value={name}
+                    value={inputText}
                     onChange={handleInputChange}
                   />
                   <div ref={divRef} className="mt-4">
                     {(() => {
                       const code = codeConverter.customCodeToInitCode(
-                        name,
+                        inputText,
                         "corner",
                       );
                       const tableElements: JSX.Element[] = [];

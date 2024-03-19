@@ -27,7 +27,7 @@ const codeConverter = (function () {
     if (typeof localStorage !== "undefined") {
       storedValues = localStorage.getItem("code") ?? initialInputValues;
     }
-    const result = Array(code.length).fill("");
+    const result: string[] = Array(code.length).fill(" ");
     for (let i in positionArray) {
       if (positionToCodeType(positionArray[i]) !== codeType) {
         continue;
@@ -41,9 +41,45 @@ const codeConverter = (function () {
     return result.join("");
   }
 
+  function customCodeToPosition(code: string, codeType: string) {
+    const initCode = customCodeToInitCode(code, codeType);
+    const result: string[] = Array(3).fill("");
+    const codeTypeValues = Array.from(initialInputValues)
+      .map((char, index) =>
+        positionToCodeType(positionArray[index]) !== codeType ? " " : char,
+      )
+      .join("");
+    for (let i = 0; i < initCode.length; i++) {
+      const index = codeTypeValues.indexOf(initCode[i]);
+      if (index !== -1) {
+        result[i] = positionArray[index];
+      }
+    }
+    return result;
+  }
+
+  function positionToCustomCode(position: string[]) {
+    let storedValues = "";
+    if (typeof localStorage !== "undefined") {
+      storedValues = localStorage.getItem("code") ?? initialInputValues;
+    }
+    let result = "";
+    for (let pos of position) {
+      const index = positionArray.indexOf(pos);
+      if (index !== -1) {
+        result += storedValues[index];
+      }
+    }
+    return result;
+  }
+
   return {
+    positionToCodeType,
     customCodeToInitCode,
+    customCodeToPosition,
+    positionToCustomCode,
     initialInputValues,
+    positionArray,
   };
 })();
 
