@@ -1,14 +1,13 @@
 "use client";
 import corner_output from "public/data/json/corner_output.json";
-import { useState } from "react";
-import React from "react";
-import commutator from "@/utils/commutator";
+import React, { useState, useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
-import { useEffect, useRef } from "react";
 import codeConverter from "@/utils/codeConverter";
-import finger from "@/utils/finger";
+import Table from "@/components/Table";
 
 const Corner = () => {
+  const codeType = "corner";
+  const { t } = useTranslation();
   const tableRef = useRef<HTMLTableElement>(null);
   const divRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
@@ -61,14 +60,13 @@ const Corner = () => {
     }
   };
 
-  const { t } = useTranslation();
   const [inputText, setInputText] = useState("");
   const [selectValues, setSelectValues] = useState(["", "", ""]);
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const newValue = e.target.value.toUpperCase();
     setInputText(newValue);
-    setSelectValues(codeConverter.customCodeToPosition(newValue, "corner"));
+    setSelectValues(codeConverter.customCodeToPosition(newValue, codeType));
   };
 
   const handleSelectChange = (
@@ -89,9 +87,9 @@ const Corner = () => {
             <div className="w-full px-4 lg:w-8/12">
               <div>
                 <h2 className="mb-8 text-center text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight">
-                  {t("corner.title")}
+                  {t(`${codeType}.title`)}
                 </h2>
-                <p>{t("corner.hint")}</p>
+                <p>{t(`${codeType}.hint`)}</p>
                 <div className="mb-3 mr-2 mt-4 inline-block font-bold text-dark dark:text-white">
                   {t("common.position")}
                 </div>
@@ -110,7 +108,7 @@ const Corner = () => {
                         .filter(
                           (position) =>
                             codeConverter.positionToCodeType(position) ===
-                            "corner",
+                            codeType,
                         )
                         .map((position) => (
                           <option key={position}>{position}</option>
@@ -137,60 +135,13 @@ const Corner = () => {
                     value={inputText}
                     onChange={handleInputChange}
                   />
-                  <div ref={divRef} className="mt-4">
-                    {(() => {
-                      const code = codeConverter.customCodeToInitCode(
-                        inputText,
-                        "corner",
-                      );
-                      const variantCode = codeConverter.initCodeToVariantCode(
-                        code,
-                        "corner",
-                      );
-                      const tableElements: JSX.Element[] = [];
-                      for (const [key, value] of Object.entries(
-                        corner_output,
-                      )) {
-                        if (!variantCode.includes(key)) {
-                          continue;
-                        }
-                        const tableRows: JSX.Element[] = [];
-                        for (let i = 0; i < value.length; i++) {
-                          const item = value[i];
-                          const commutatorResult = commutator.search({
-                            algorithm: item,
-                            maxDepth: 1,
-                          })[0];
-                          const fingerResult = finger
-                            .fingerbeginfrom(item)
-                            .map((finger) => t(finger))
-                            .join("/");
-                          tableRows.push(
-                            <tr key={`${key}-${i}`}>
-                              <td>{i + 1}</td>
-                              <td>{item}</td>
-                              <td>{commutatorResult}</td>
-                              <td>{fingerResult}</td>
-                            </tr>,
-                          );
-                        }
-                        tableElements.push(
-                          <table ref={tableRef} key={key}>
-                            <thead>
-                              <tr>
-                                <th>{t("table.no")}</th>
-                                <th>{t("table.algorithm")}</th>
-                                <th>{t("table.commutator")}</th>
-                                <th>{t("table.thumbPosition")}</th>
-                              </tr>
-                            </thead>
-                            <tbody>{tableRows}</tbody>
-                          </table>,
-                        );
-                      }
-                      return tableElements;
-                    })()}
-                  </div>
+                  <Table
+                    codeType={codeType}
+                    inputText={inputText}
+                    data={corner_output}
+                    divRef={divRef}
+                    tableRef={tableRef}
+                  />
                 </div>
               </div>
             </div>
