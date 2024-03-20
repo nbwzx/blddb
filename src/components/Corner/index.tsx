@@ -11,6 +11,8 @@ import finger from "@/utils/finger";
 const Corner = () => {
   const tableRef = useRef<HTMLTableElement>(null);
   const divRef = useRef<HTMLDivElement>(null);
+  const inputRef = useRef<HTMLInputElement>(null);
+  const selectRefs = useRef<HTMLSelectElement[]>([]);
 
   useEffect(() => {
     const handleTableMutation = (mutation: MutationRecord) => {
@@ -18,6 +20,8 @@ const Corner = () => {
         mutation.addedNodes.length > 0 &&
         mutation.addedNodes[0] === tableRef.current
       ) {
+        inputRef.current?.blur();
+        selectRefs.current.forEach((selectRef) => selectRef.blur());
         adjustTableFontSize();
       }
     };
@@ -96,6 +100,9 @@ const Corner = () => {
                     <select
                       value={selectValues[index]}
                       onChange={(e) => handleSelectChange(e, index)}
+                      ref={(ref) =>
+                        (selectRefs.current[index] = ref as HTMLSelectElement)
+                      }
                       className="text-transform: w-[3.5rem] rounded-sm border-b-[3px] border-gray-500 bg-inherit py-1 text-base font-medium uppercase text-dark outline-none transition-all duration-300 focus:border-primary dark:border-gray-100 dark:bg-black dark:text-white dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
                     >
                       <option></option>
@@ -122,6 +129,7 @@ const Corner = () => {
                   <input
                     id="inputText"
                     type="text"
+                    ref={inputRef}
                     placeholder=""
                     className="text-transform: ml-2 w-[4rem] rounded-sm border-b-[3px] border-gray-500 bg-inherit px-3 py-1 text-base font-medium uppercase text-dark outline-none outline-none transition-all duration-300 focus:border-primary dark:border-gray-100 dark:bg-inherit dark:text-white dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
                     autoComplete="off"
