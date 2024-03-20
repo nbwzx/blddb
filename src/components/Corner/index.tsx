@@ -91,9 +91,8 @@ const Corner = () => {
                   Positions:
                 </div>
                 {[0, 1, 2].map((index) => (
-                  <>
+                  <React.Fragment key={index}>
                     <select
-                      key={index}
                       value={selectValues[index]}
                       onChange={(e) => handleSelectChange(e, index)}
                       className="text-transform: w-[3.5rem] rounded-sm border-b-[3px] border-gray-500 bg-inherit py-1 text-base font-medium uppercase text-dark outline-none outline-none transition-all duration-300 focus:border-primary dark:border-gray-100 dark:bg-inherit dark:text-white dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
@@ -110,7 +109,7 @@ const Corner = () => {
                         ))}
                     </select>
                     {index !== 2 && <span className="mx-1">--</span>}
-                  </>
+                  </React.Fragment>
                 ))}
                 <div className="mb-8">
                   <label
