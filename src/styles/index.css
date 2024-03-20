@@ -9,7 +9,7 @@
     font-family: "Inter", sans-serif;
   }
   table {
-    font-family: Tahoma, verdana, arial, sans-serif;
+    font-family: Tahoma, arial, verdana, sans-serif;
   }
 }
 
@@ -59,7 +59,7 @@
   }
 
   table {
-    @apply whitespace-nowrap text-center;
+    @apply whitespace-nowrap text-center font-medium;
   }
 
   th {
