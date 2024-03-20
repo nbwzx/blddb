@@ -135,11 +135,15 @@ const Corner = () => {
                         inputText,
                         "corner",
                       );
+                      const variantCode = codeConverter.initCodeToVariantCode(
+                        code,
+                        "corner",
+                      );
                       const tableElements: JSX.Element[] = [];
                       for (const [key, value] of Object.entries(
                         corner_output,
                       )) {
-                        if (key !== code) {
+                        if (!variantCode.includes(key)) {
                           continue;
                         }
                         const tableRows: JSX.Element[] = [];
