@@ -80,13 +80,13 @@ const menuData: Menu[] = [
       },
       {
         id: 49,
-        title: "Corner Page",
+        title: "corner.title",
         path: "/corner",
         newTab: false,
       },
       {
         id: 410,
-        title: "Lettering Scheme",
+        title: "code.title",
         path: "/code",
         newTab: false,
       },

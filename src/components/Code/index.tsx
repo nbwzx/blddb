@@ -1,8 +1,10 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import codeConverter from "@/utils/codeConverter";
+import { useTranslation } from "react-i18next";
 
 const Code = () => {
+  const { t } = useTranslation();
   const faces = [
     "face-u white",
     "face-l orange",
@@ -39,7 +41,7 @@ const Code = () => {
         <div className="-mx-4 flex flex-wrap justify-center">
           <div className="w-full px-4 lg:w-8/12">
             <h2 className="mb-8 text-center text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight">
-              Lettering Scheme
+              {t("code.title")}
             </h2>
             <div className="cube">
               {faces.map((face, faceIndex) => (

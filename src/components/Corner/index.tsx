@@ -89,7 +89,7 @@ const Corner = () => {
                 </h2>
                 <p>{t("corner.hint")}</p>
                 <div className="mb-3 mr-2 mt-4 inline-block font-bold text-dark dark:text-white">
-                  Positions:
+                  {t("common.position")}
                 </div>
                 {[0, 1, 2].map((index) => (
                   <React.Fragment key={index}>
@@ -117,7 +117,7 @@ const Corner = () => {
                     htmlFor="inputText"
                     className="mb-3 mt-4 inline-block font-bold text-dark dark:text-white"
                   >
-                    {t("pairs")}
+                    {t("common.pairs")}
                   </label>
                   <input
                     id="inputText"
@@ -166,10 +166,10 @@ const Corner = () => {
                           <table ref={tableRef} key={key}>
                             <thead>
                               <tr>
-                                <th>No.</th>
-                                <th>Algorithm</th>
-                                <th>Commutator</th>
-                                <th>Thumb Position</th>
+                                <th>{t("table.no")}</th>
+                                <th>{t("table.algorithm")}</th>
+                                <th>{t("table.commutator")}</th>
+                                <th>{t("table.thumbPosition")}</th>
                               </tr>
                             </thead>
                             <tbody>{tableRows}</tbody>

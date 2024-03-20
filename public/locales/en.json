@@ -1,14 +1,27 @@
 {
   "Home": "Home",
   "title": "BLD Algorithms Database",
-  "pairs": "Letter Pairs:",
-  "corner": {
-    "title": "3-Style Corner",
-    "hint": "Please enter 3 letter pairs (buffer-position1-position2) you want to query (eg. JAD)"
+  "common": {
+    "pairs": "Letter Pairs:",
+    "position": "Position:"
   },
   "finger": {
     "thumbdown": "Thumb down",
     "thumbup": "Thumb up",
     "homegrip": "Home grip"
+  },
+  "table": {
+    "no": "No.",
+    "algorithm": "Algorithm",
+    "commutator": "Commutator",
+    "thumbPosition": "Thumb Position",
+    "source": "Source"
+  },
+  "corner": {
+    "title": "3-Style Corner",
+    "hint": "Please enter 3 letter pairs (buffer-position1-position2) you want to query (eg. JAD)"
+  },
+  "code": {
+    "title": "Lettering Scheme"
   }
 }

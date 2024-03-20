@@ -1,14 +1,27 @@
 {
   "Home": "ホーム",
   "title": "BLD手順データベース",
-  "pairs": "ナンバリング：",
-  "corner": {
-    "title": "3-Styleコーナー",
-    "hint": "検索したい3ナンバリング（バッファ-位置1-位置2）を入力してください（例：JAD）"
+  "common": {
+    "pairs": "ナンバリング：",
+    "position": "ステッカー："
   },
   "finger": {
     "thumbdown": "下",
     "thumbup": "上",
     "homegrip": "中"
+  },
+  "table": {
+    "no": "連番",
+    "source": "出典",
+    "algorithm": "手順",
+    "commutator": "コミュテーター",
+    "thumbPosition": "スタート"
+  },
+  "corner": {
+    "title": "3-Styleコーナー",
+    "hint": "検索したい3ナンバリング（バッファ-位置1-位置2）を入力してください（例：JAD）"
+  },
+  "code": {
+    "title": "ナンバリング設定"
   }
 }

@@ -1,14 +1,27 @@
 {
   "Home": "主页",
   "title": "盲拧公式库",
-  "pairs": "公式查询：",
-  "corner": {
-    "title": "角块公式库",
-    "hint": "请在下方输入你要查询的公式编码（例如: JAD）"
+  "common": {
+    "pairs": "公式查询：",
+    "position": "位置类："
   },
   "finger": {
     "thumbdown": "下",
     "thumbup": "上",
     "homegrip": "中"
+  },
+  "table": {
+    "no": "序号",
+    "source": "来源",
+    "algorithm": "公式",
+    "commutator": "交换子",
+    "thumbPosition": "起手"
+  },
+  "corner": {
+    "title": "角块公式库",
+    "hint": "请在下方输入你要查询的公式编码（例如: JAD）"
+  },
+  "code": {
+    "title": "编码"
   }
 }
