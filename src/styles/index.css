@@ -142,6 +142,7 @@
   }
 
   .face input[type="text"] {
+    @apply text-dark;
     background: rgba(0, 0, 0, 0);
     border: none;
     font-size: calc(0.75 * var(--cell));
