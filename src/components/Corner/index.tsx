@@ -6,6 +6,7 @@ import commutator from "@/utils/commutator";
 import { useTranslation } from "react-i18next";
 import { useEffect, useRef } from "react";
 import codeConverter from "@/utils/codeConverter";
+import finger from "@/utils/finger";
 
 const Corner = () => {
   const tableRef = useRef<HTMLTableElement>(null);
@@ -148,11 +149,16 @@ const Corner = () => {
                             algorithm: item,
                             maxDepth: 1,
                           })[0];
+                          const fingerResult = finger
+                            .fingerbeginfrom(item)
+                            .map((finger) => t(finger))
+                            .join("/");
                           tableRows.push(
                             <tr key={`${key}-${i}`}>
                               <td>{i + 1}</td>
                               <td>{item}</td>
                               <td>{commutatorResult}</td>
+                              <td>{fingerResult}</td>
                             </tr>,
                           );
                         }
