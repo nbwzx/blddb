@@ -38,3 +38,17 @@
 		border-color: transparent transparent transparent #ccc;
 		transform: translateX(0%);
 	}
+
+	@media (min-width: 1100px) {
+		.help .help-content {
+		  left: auto;
+		  right: 0;
+		  transform: translate(100%, -50%);
+		}
+	
+		.help:hover .help-content:before {
+		  left: auto;
+		  right: 100%;
+		  border-color: transparent #ccc transparent transparent;
+		}
+	  }
