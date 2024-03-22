@@ -186,4 +186,65 @@
   .yellow {
     background: yellow;
   }
+
+  .help {
+    position: relative;
+  }
+
+  .help .help-content {
+    display: inline-block;
+    position: absolute;
+    @apply text-dark dark:text-white;
+    @apply bg-gray-100 dark:bg-gray-700;
+    top: 50%;
+    left: 0;
+    padding: 5px 10px;
+    line-height: 1.5;
+    border: 2px solid #ccc;
+    box-shadow: 0 0 5px #ccc;
+    visibility: hidden;
+    transform: translate(-100%, -50%);
+    white-space: nowrap;
+    font-size: 14px;
+    z-index: 50;
+  }
+
+  .help:hover .help-content,
+  .help-content:hover {
+    visibility: visible;
+  }
+
+  .help:hover .help-content:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin-top: -8px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent transparent transparent #ccc;
+  }
+
+  .help a {
+    border-bottom: 1px dashed #999;
+    cursor: pointer;
+  }
+
+  .help a:hover {
+    color: #f2849e !important;
+  }
+
+  @media (min-width: 1100px) {
+    .help .help-content {
+      left: auto;
+      right: 0;
+      transform: translate(100%, -50%);
+    }
+
+    .help:hover .help-content:before {
+      left: auto;
+      right: 100%;
+      border-color: transparent #ccc transparent transparent;
+    }
+  }
 }

@@ -1,5 +1,7 @@
 "use client";
 import corner_output from "public/data/json/corner_output.json";
+import corner_manmade from "public/data/json/corner_manmade.json";
+import sourceToUrl from "public/data/json/sourceToUrl.json";
 import React, { useState, useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
 import codeConverter from "@/utils/codeConverter";
@@ -12,6 +14,11 @@ const Corner = () => {
   const divRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
   const selectRefs = useRef<HTMLSelectElement[]>([]);
+  const modeRefs = useRef<HTMLSelectElement>(null);
+  const modeToData = {
+    nightmare: corner_output,
+    manmade: corner_manmade,
+  };
 
   useEffect(() => {
     const handleTableMutation = (mutation: MutationRecord) => {
@@ -62,6 +69,8 @@ const Corner = () => {
 
   const [inputText, setInputText] = useState("");
   const [selectValues, setSelectValues] = useState(["", "", ""]);
+  const [modeValue, setModeValue] = useState("");
+  const [data, setdataValue] = useState(corner_output);
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const newValue = e.target.value.toUpperCase();
@@ -77,6 +86,12 @@ const Corner = () => {
     newSelectValues[index] = e.target.value;
     setSelectValues(newSelectValues);
     setInputText(codeConverter.positionToCustomCode(newSelectValues));
+  };
+
+  const handleModeChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    const newModeValue = e.target.value;
+    setModeValue(newModeValue);
+    setdataValue(modeToData[newModeValue]);
   };
 
   return (
@@ -135,12 +150,30 @@ const Corner = () => {
                     value={inputText}
                     onChange={handleInputChange}
                   />
+                  <span className="mx-3"></span>
+                  <label
+                    htmlFor="modeValue"
+                    className="mb-3 mt-4 inline-block font-bold text-dark dark:text-white"
+                  >
+                    Mode:
+                  </label>
+                  <select
+                    id="modeValue"
+                    onChange={(e) => handleModeChange(e)}
+                    ref={modeRefs}
+                    value={modeValue}
+                    className="text-transform: ml-2 w-[8rem] rounded-sm border-b-[3px] border-gray-500 bg-inherit py-1 text-base font-medium text-dark outline-none transition-all duration-300 focus:border-primary dark:border-gray-100 dark:bg-black dark:text-white dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
+                  >
+                    <option>nightmare</option>
+                    <option>manmade</option>
+                  </select>
                   <Table
                     codeType={codeType}
                     inputText={inputText}
-                    data={corner_output}
+                    data={data}
                     divRef={divRef}
                     tableRef={tableRef}
+                    sourceToUrl={sourceToUrl}
                   />
                 </div>
               </div>
