@@ -46,12 +46,12 @@ const Corner = () => {
 
   const adjustTableFontSize = () => {
     if (tableRef.current && divRef.current) {
-      tableRef.current.style.fontSize = "16px";
+      tableRef.current.style.fontSize = "18px";
       const tableWidth = tableRef.current.offsetWidth;
       const divWidth = divRef.current.offsetWidth;
       const ratio = tableWidth / divWidth;
       if (ratio > 1) {
-        const newFontSize = 16 / ratio;
+        const newFontSize = 18 / ratio;
         tableRef.current.style.fontSize = `${newFontSize}px`;
       }
     }
@@ -62,12 +62,20 @@ const Corner = () => {
   const [modeValue, setModeValue] = useState("");
   const [data, setdataValue] = useState(corner_output);
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const newValue = e.target.value.toUpperCase();
     setInputText(newValue);
     setSelectValues(
       codeConverter.customCodeToPosition(newValue.padEnd(3, " "), codeType),
     );
+    scrollToTop();
   };
 
   const handleSelectChange = (
@@ -78,20 +86,22 @@ const Corner = () => {
     newSelectValues[index] = e.target.value;
     setSelectValues(newSelectValues);
     setInputText(codeConverter.positionToCustomCode(newSelectValues));
+    scrollToTop();
   };
 
   const handleModeChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
     const newModeValue = e.target.value;
     setModeValue(newModeValue);
     setdataValue(modeToData[newModeValue]);
+    scrollToTop();
   };
 
   return (
     <>
-      <section className="pb-[120px] pt-[120px]">
+      <section className="pb-[120px] pt-[100px]">
         <div className="container">
           <div className="-mx-4 flex flex-wrap justify-center">
-            <div className="w-full px-4 lg:w-8/12">
+            <div className="w-full px-4 lg:w-10/12">
               <div>
                 <h2 className="mb-8 text-center text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight">
                   {t(`${codeType}.title`)}

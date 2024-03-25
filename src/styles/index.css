@@ -61,6 +61,7 @@
   }
 
   .dropdown-content {
+    @apply bg-gray-100 dark:bg-gray-700;
     display: none;
     position: absolute;
     min-width: 100px;
@@ -70,19 +71,25 @@
   }
 
   table {
-    @apply whitespace-nowrap text-center font-medium;
+    @apply whitespace-nowrap text-center text-lg font-medium leading-loose;
   }
 
   th {
-    @apply border border-gray-500 bg-sky-200 px-[0.5vw] py-[0.4vw] dark:bg-sky-800;
+    @apply border border-gray-500 bg-sky-200 px-[0.5vw] py-[0.2vw] leading-loose dark:bg-sky-800;
   }
 
   td {
-    @apply border border-gray-500 p-0.5 px-[0.5vw] py-[0.4vw] align-middle;
+    @apply border border-gray-500 px-[0.5vw] py-[0.2vw] align-middle leading-loose;
   }
 
   :root {
     --cell: calc(max(min(6.4vw, 50px), 28px));
+  }
+
+  .parent-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .cube {
