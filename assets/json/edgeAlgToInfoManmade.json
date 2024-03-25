@@ -4712,6 +4712,7 @@
                 "Ishaan Agrawal",
                 "Jack Cai",
                 "Joey Gouly",
+                "Keiichiro Taira (平佳一郎)",
                 "Kevin Matthews",
                 "Liren Sun (孙立仁)",
                 "Masato Fujiwara (藤原正人)",
@@ -4751,7 +4752,6 @@
                 "Daniel Wallin",
                 "Dylan Wang",
                 "James Molloy",
-                "Keiichiro Taira (平佳一郎)",
                 "Keita Hayakawa (早川慶太)",
                 "Max Hilliard",
                 "Morimichi Kikuchi (菊地守道)",
@@ -12103,6 +12103,7 @@
                 "Daniel Wallin",
                 "Elliott Kobelansky",
                 "Ethan Pan",
+                "Keiichiro Taira (平佳一郎)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -12110,21 +12111,6 @@
                 "Timothy Loh",
                 "Tommy Cherry",
                 "Yuki Tsuneyoshi (恒吉優紀)"
-            ]
-        ],
-        [
-            [
-                "U' R' B R' S' R2 S R' B' R U"
-            ],
-            [
-                "Dylan Wang",
-                "Keiichiro Taira (平佳一郎)",
-                "Krzysztof Bober",
-                "Masato Fujiwara (藤原正人)",
-                "Max Hilliard",
-                "Morimichi Kikuchi (菊地守道)",
-                "Yifan Wang (王逸帆)",
-                "Zixing Wang (王子兴)"
             ]
         ],
         [
@@ -12140,6 +12126,20 @@
                 "Oliver Fritz",
                 "Roman Strakhov",
                 "Xin Shi (石欣)"
+            ]
+        ],
+        [
+            [
+                "U' R' B R' S' R2 S R' B' R U"
+            ],
+            [
+                "Dylan Wang",
+                "Krzysztof Bober",
+                "Masato Fujiwara (藤原正人)",
+                "Max Hilliard",
+                "Morimichi Kikuchi (菊地守道)",
+                "Yifan Wang (王逸帆)",
+                "Zixing Wang (王子兴)"
             ]
         ],
         [
@@ -14365,6 +14365,7 @@
                 "Leonardo Ezequiel Cruz",
                 "Martin Vædele Egdal",
                 "Oliver Fritz",
+                "Shuto Ueno (上野柊斗)",
                 "Xi Lu (鲁曦)",
                 "Yiwei Liu (刘伊玮)",
                 "Zhi Qiao (乔智)"
@@ -14416,7 +14417,6 @@
                 "Ishaan Agrawal",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
-                "Shuto Ueno (上野柊斗)",
                 "Tommy Cherry",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
@@ -17297,6 +17297,32 @@
     "ANE": [
         [
             [
+                "U' M' U M' U2 M U M U"
+            ],
+            [
+                "Abhijeet Ghodgaonkar",
+                "Antonio Kam (甘浩東)",
+                "Arrik Leman",
+                "Benjamin Paul",
+                "Dong Zhu (朱栋)",
+                "Enoch Gray",
+                "Graham Siggins",
+                "Joey Gouly",
+                "Keiichiro Taira (平佳一郎)",
+                "Kevin Matthews",
+                "Krzysztof Bober",
+                "Leonardo Ezequiel Cruz",
+                "Liren Sun (孙立仁)",
+                "Martin Vædele Egdal",
+                "Masato Fujiwara (藤原正人)",
+                "Oliver Fritz",
+                "Roman Strakhov",
+                "Shuto Ueno (上野柊斗)",
+                "Zhi Qiao (乔智)"
+            ]
+        ],
+        [
+            [
                 "U M' U' M' U2 M U' M U'"
             ],
             [
@@ -17322,31 +17348,6 @@
         ],
         [
             [
-                "U' M' U M' U2 M U M U"
-            ],
-            [
-                "Abhijeet Ghodgaonkar",
-                "Antonio Kam (甘浩東)",
-                "Arrik Leman",
-                "Benjamin Paul",
-                "Dong Zhu (朱栋)",
-                "Enoch Gray",
-                "Graham Siggins",
-                "Joey Gouly",
-                "Kevin Matthews",
-                "Krzysztof Bober",
-                "Leonardo Ezequiel Cruz",
-                "Liren Sun (孙立仁)",
-                "Martin Vædele Egdal",
-                "Masato Fujiwara (藤原正人)",
-                "Oliver Fritz",
-                "Roman Strakhov",
-                "Shuto Ueno (上野柊斗)",
-                "Zhi Qiao (乔智)"
-            ]
-        ],
-        [
-            [
                 "U R' B R S R2 S' R B' R U'"
             ],
             [
@@ -17367,7 +17368,6 @@
             [
                 "Benjamin Paul",
                 "Daniel Wallin",
-                "Keiichiro Taira (平佳一郎)",
                 "Keita Hayakawa (早川慶太)",
                 "Neel Gore",
                 "Yifan Wang (王逸帆)"
@@ -17762,6 +17762,27 @@
     "ANK": [
         [
             [
+                "D L F E' L2 E L2 F' L' D'",
+                "D r U S' L2 S L2 U' r' D'"
+            ],
+            [
+                "Bertie Longden",
+                "Christopher Morris",
+                "Daniel Wallin",
+                "Elliott Kobelansky",
+                "Ethan Pan",
+                "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
+                "Kevin Matthews",
+                "Leonardo Ezequiel Cruz",
+                "Martin Vædele Egdal",
+                "Michael Tripodi",
+                "Shuto Ueno (上野柊斗)",
+                "Yuki Tsuneyoshi (恒吉優紀)"
+            ]
+        ],
+        [
+            [
                 "D L F' L2 E' L2 E F L' D'"
             ],
             [
@@ -17778,26 +17799,6 @@
                 "Joey Gouly",
                 "Keita Hayakawa (早川慶太)",
                 "Timothy Loh"
-            ]
-        ],
-        [
-            [
-                "D L F E' L2 E L2 F' L' D'",
-                "D r U S' L2 S L2 U' r' D'"
-            ],
-            [
-                "Bertie Longden",
-                "Christopher Morris",
-                "Daniel Wallin",
-                "Elliott Kobelansky",
-                "Ethan Pan",
-                "Kai Yamamoto (山本快)",
-                "Kevin Matthews",
-                "Leonardo Ezequiel Cruz",
-                "Martin Vædele Egdal",
-                "Michael Tripodi",
-                "Shuto Ueno (上野柊斗)",
-                "Yuki Tsuneyoshi (恒吉優紀)"
             ]
         ],
         [
@@ -17822,7 +17823,6 @@
             ],
             [
                 "Dylan Wang",
-                "Keiichiro Taira (平佳一郎)",
                 "Krzysztof Bober",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
@@ -23505,6 +23505,7 @@
                 "Krzysztof Bober",
                 "Martin Vædele Egdal",
                 "Max Hilliard",
+                "Shuto Ueno (上野柊斗)",
                 "Timothy Loh",
                 "Tommy Cherry",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -23546,7 +23547,6 @@
                 "Masato Fujiwara (藤原正人)",
                 "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
-                "Shuto Ueno (上野柊斗)",
                 "Zhi Qiao (乔智)"
             ]
         ],
@@ -23745,6 +23745,7 @@
                 "Max Hilliard",
                 "Morimichi Kikuchi (菊地守道)",
                 "Oliver Fritz",
+                "Shuto Ueno (上野柊斗)",
                 "Tommy Cherry",
                 "Xi Lu (鲁曦)",
                 "Yiwei Liu (刘伊玮)",
@@ -23782,7 +23783,6 @@
                 "Keita Hayakawa (早川慶太)",
                 "Krzysztof Bober",
                 "Michael Tripodi",
-                "Shuto Ueno (上野柊斗)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
         ],
@@ -37877,10 +37877,18 @@
             [
                 "Elliott Kobelansky",
                 "Kai Yamamoto (山本快)",
-                "Keiichiro Taira (平佳一郎)",
                 "Leonardo Ezequiel Cruz",
                 "Tommy Cherry",
                 "Yuki Tsuneyoshi (恒吉優紀)"
+            ]
+        ],
+        [
+            [
+                "L' E L2 E' L' U' L E L2 E' L U"
+            ],
+            [
+                "Antonio Kam (甘浩東)",
+                "Keiichiro Taira (平佳一郎)"
             ]
         ],
         [
@@ -37897,14 +37905,6 @@
             ],
             [
                 "Krzysztof Bober"
-            ]
-        ],
-        [
-            [
-                "L' E L2 E' L' U' L E L2 E' L U"
-            ],
-            [
-                "Antonio Kam (甘浩東)"
             ]
         ]
     ],
@@ -38451,6 +38451,7 @@
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Heejun Kim (김희준)",
+                "Keiichiro Taira (平佳一郎)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
         ],
@@ -38566,18 +38567,8 @@
                 "Benjamin Paul",
                 "Elliott Kobelansky",
                 "Heejun Kim (김희준)",
+                "Keiichiro Taira (平佳一郎)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
-            ]
-        ],
-        [
-            [
-                "l U' L' S' L2 S L' U l'"
-            ],
-            [
-                "Andrew Tan Jing Bang",
-                "Graham Siggins",
-                "Kai Yamamoto (山本快)",
-                "Keiichiro Taira (平佳一郎)"
             ]
         ],
         [
@@ -38588,6 +38579,16 @@
                 "Heejun Kim (김희준)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard"
+            ]
+        ],
+        [
+            [
+                "l U' L' S' L2 S L' U l'"
+            ],
+            [
+                "Andrew Tan Jing Bang",
+                "Graham Siggins",
+                "Kai Yamamoto (山本快)"
             ]
         ],
         [
@@ -38666,7 +38667,6 @@
                 "Graham Siggins",
                 "Heejun Kim (김희준)",
                 "Kai Yamamoto (山本快)",
-                "Keiichiro Taira (平佳一郎)",
                 "Leonardo Ezequiel Cruz",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard"
@@ -38680,6 +38680,7 @@
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Heejun Kim (김희준)",
+                "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
@@ -38849,7 +38850,6 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Heejun Kim (김희준)",
-                "Keiichiro Taira (平佳一郎)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
                 "Michael Tripodi",
@@ -38863,6 +38863,7 @@
             [
                 "Benjamin Paul",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Leonardo Ezequiel Cruz",
                 "Tommy Cherry"
             ]
@@ -39077,7 +39078,6 @@
                 "Benjamin Paul",
                 "Elliott Kobelansky",
                 "Heejun Kim (김희준)",
-                "Keiichiro Taira (平佳一郎)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
                 "Michael Tripodi",
@@ -39092,6 +39092,7 @@
             [
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Leonardo Ezequiel Cruz"
             ]
         ],
@@ -39192,6 +39193,19 @@
     "CIF": [
         [
             [
+                "U' D' S L F' L' S' L F L' U D"
+            ],
+            [
+                "Antonio Kam (甘浩東)",
+                "Elliott Kobelansky",
+                "Heejun Kim (김희준)",
+                "Keiichiro Taira (平佳一郎)",
+                "Michael Tripodi",
+                "Yuki Tsuneyoshi (恒吉優紀)"
+            ]
+        ],
+        [
+            [
                 "M U' M U' M' U' M U' M2"
             ],
             [
@@ -39201,18 +39215,6 @@
                 "Graham Siggins",
                 "Ishaan Agrawal",
                 "Keiichiro Taira (平佳一郎)"
-            ]
-        ],
-        [
-            [
-                "U' D' S L F' L' S' L F L' U D"
-            ],
-            [
-                "Antonio Kam (甘浩東)",
-                "Elliott Kobelansky",
-                "Heejun Kim (김희준)",
-                "Michael Tripodi",
-                "Yuki Tsuneyoshi (恒吉優紀)"
             ]
         ],
         [
@@ -40766,7 +40768,6 @@
                 "Graham Siggins",
                 "Heejun Kim (김희준)",
                 "Kai Yamamoto (山本快)",
-                "Keiichiro Taira (平佳一郎)",
                 "Leonardo Ezequiel Cruz",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
@@ -40785,6 +40786,15 @@
         ],
         [
             [
+                "U' L' E L2 E' L' U L E L2 E' L"
+            ],
+            [
+                "Antonio Kam (甘浩東)",
+                "Keiichiro Taira (平佳一郎)"
+            ]
+        ],
+        [
+            [
                 "U' R' S' R2 S' R' U R S R2 S R"
             ],
             [
@@ -40797,14 +40807,6 @@
             ],
             [
                 "Krzysztof Bober"
-            ]
-        ],
-        [
-            [
-                "U' L' E L2 E' L' U L E L2 E' L"
-            ],
-            [
-                "Antonio Kam (甘浩東)"
             ]
         ]
     ],
@@ -40819,7 +40821,6 @@
                 "Graham Siggins",
                 "Heejun Kim (김희준)",
                 "Kai Yamamoto (山本快)",
-                "Keiichiro Taira (平佳一郎)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -40831,7 +40832,8 @@
             ],
             [
                 "Benjamin Paul",
-                "Heejun Kim (김희준)"
+                "Heejun Kim (김희준)",
+                "Keiichiro Taira (平佳一郎)"
             ]
         ],
         [
@@ -41848,7 +41850,6 @@
                 "Graham Siggins",
                 "Heejun Kim (김희준)",
                 "Kai Yamamoto (山本快)",
-                "Keiichiro Taira (平佳一郎)",
                 "Leonardo Ezequiel Cruz",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard"
@@ -41862,6 +41863,7 @@
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Heejun Kim (김희준)",
+                "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
@@ -44514,7 +44516,6 @@
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Heejun Kim (김희준)",
-                "Keiichiro Taira (平佳一郎)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
                 "Michael Tripodi",
@@ -44529,6 +44530,7 @@
                 "Benjamin Paul",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Leonardo Ezequiel Cruz",
                 "Tommy Cherry"
             ]
@@ -47532,7 +47534,6 @@
                 "Benjamin Paul",
                 "Elliott Kobelansky",
                 "Heejun Kim (김희준)",
-                "Keiichiro Taira (平佳一郎)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
                 "Michael Tripodi",
@@ -47547,6 +47548,7 @@
             [
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Leonardo Ezequiel Cruz"
             ]
         ],
@@ -49387,6 +49389,7 @@
                 "Graham Siggins",
                 "Heejun Kim (김희준)",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
                 "Michael Tripodi",
@@ -49411,8 +49414,7 @@
             ],
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
-                "Keiichiro Taira (平佳一郎)"
+                "Antonio Kam (甘浩東)"
             ]
         ],
         [
@@ -49505,6 +49507,7 @@
                 "Heejun Kim (김희준)",
                 "Ishaan Agrawal",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
                 "Michael Tripodi",
@@ -49519,7 +49522,6 @@
                 "Andrew Tan Jing Bang",
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
-                "Keiichiro Taira (平佳一郎)",
                 "Leonardo Ezequiel Cruz",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
@@ -50806,7 +50808,6 @@
                 "Benjamin Paul",
                 "Graham Siggins",
                 "Heejun Kim (김희준)",
-                "Keiichiro Taira (平佳一郎)",
                 "Leonardo Ezequiel Cruz",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
@@ -50821,6 +50822,7 @@
                 "Andrew Tan Jing Bang",
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
+                "Keiichiro Taira (平佳一郎)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
         ],
@@ -51052,7 +51054,6 @@
                 "Graham Siggins",
                 "Heejun Kim (김희준)",
                 "Kai Yamamoto (山本快)",
-                "Keiichiro Taira (平佳一郎)",
                 "Leonardo Ezequiel Cruz",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
@@ -51068,6 +51069,7 @@
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Heejun Kim (김희준)",
+                "Keiichiro Taira (平佳一郎)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
         ],
@@ -51458,6 +51460,7 @@
                 "Graham Siggins",
                 "Heejun Kim (김희준)",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
@@ -51468,7 +51471,6 @@
             ],
             [
                 "Heejun Kim (김희준)",
-                "Keiichiro Taira (平佳一郎)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard"
             ]
@@ -51692,6 +51694,14 @@
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi"
             ]
+        ],
+        [
+            [
+                "M L' U S' L2 S L2 U' M' L"
+            ],
+            [
+                "Keiichiro Taira (平佳一郎)"
+            ]
         ]
     ],
     "EMY": [
@@ -51703,7 +51713,6 @@
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Heejun Kim (김희준)",
-                "Keiichiro Taira (平佳一郎)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -51717,6 +51726,7 @@
                 "Antonio Kam (甘浩東)",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi"
             ]
@@ -52200,7 +52210,6 @@
                 "Elliott Kobelansky",
                 "Heejun Kim (김희준)",
                 "Kai Yamamoto (山本快)",
-                "Keiichiro Taira (平佳一郎)",
                 "Leonardo Ezequiel Cruz",
                 "Lucas Rolando",
                 "Masato Fujiwara (藤原正人)",
@@ -52216,6 +52225,7 @@
                 "Andrew Tan Jing Bang",
                 "Graham Siggins",
                 "Heejun Kim (김희준)",
+                "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi"
             ]
         ],
@@ -52270,6 +52280,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Heejun Kim (김희준)",
+                "Keiichiro Taira (平佳一郎)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -52283,7 +52294,6 @@
                 "Benjamin Paul",
                 "Heejun Kim (김희준)",
                 "Kai Yamamoto (山本快)",
-                "Keiichiro Taira (平佳一郎)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
                 "Tommy Cherry"
@@ -52338,7 +52348,6 @@
                 "Graham Siggins",
                 "Heejun Kim (김희준)",
                 "Kai Yamamoto (山本快)",
-                "Keiichiro Taira (平佳一郎)",
                 "Leonardo Ezequiel Cruz",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
@@ -52361,6 +52370,14 @@
             ],
             [
                 "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
+                "U R E' r' U r E r' U' M' U'"
+            ],
+            [
+                "Keiichiro Taira (平佳一郎)"
             ]
         ]
     ],
@@ -52397,7 +52414,6 @@
                 "Graham Siggins",
                 "Heejun Kim (김희준)",
                 "Kai Yamamoto (山本快)",
-                "Keiichiro Taira (平佳一郎)",
                 "Leonardo Ezequiel Cruz",
                 "Lucas Rolando",
                 "Masato Fujiwara (藤原正人)",
@@ -52408,11 +52424,13 @@
         ],
         [
             [
-                "U' r' S' R U' R' S R U M' U"
+                "U' r' S' R U' R' S R U M' U",
+                "U' L' E l U' l' E' l U M' U"
             ],
             [
                 "Andrew Tan Jing Bang",
-                "Heejun Kim (김희준)"
+                "Heejun Kim (김희준)",
+                "Keiichiro Taira (平佳一郎)"
             ]
         ],
         [
@@ -52876,6 +52894,14 @@
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
+        ],
+        [
+            [
+                "R' E R2 E' R' U R E R' U' R' E' R"
+            ],
+            [
+                "Shuto Ueno (上野柊斗)"
+            ]
         ]
     ],
     "EOW": [
@@ -53321,7 +53347,6 @@
             [
                 "Elliott Kobelansky",
                 "Heejun Kim (김희준)",
-                "Keiichiro Taira (平佳一郎)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
                 "Tommy Cherry",
@@ -53337,6 +53362,7 @@
                 "Antonio Kam (甘浩東)",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi"
             ]
         ],
@@ -53440,7 +53466,6 @@
             [
                 "Graham Siggins",
                 "Heejun Kim (김희준)",
-                "Keiichiro Taira (平佳一郎)",
                 "Leonardo Ezequiel Cruz",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
@@ -53457,6 +53482,7 @@
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Heejun Kim (김희준)",
+                "Keiichiro Taira (平佳一郎)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
         ],
@@ -53518,7 +53544,6 @@
                 "Graham Siggins",
                 "Heejun Kim (김희준)",
                 "Kai Yamamoto (山本快)",
-                "Keiichiro Taira (平佳一郎)",
                 "Leonardo Ezequiel Cruz",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
@@ -53535,6 +53560,7 @@
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Heejun Kim (김희준)",
+                "Keiichiro Taira (平佳一郎)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
         ],
@@ -53565,7 +53591,6 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Heejun Kim (김희준)",
-                "Keiichiro Taira (平佳一郎)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
                 "Yifan Wang (王逸帆)",
@@ -53579,6 +53604,7 @@
             [
                 "Antonio Kam (甘浩東)",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi"
             ]
         ],
@@ -53821,6 +53847,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
@@ -53831,7 +53858,6 @@
             ],
             [
                 "Heejun Kim (김희준)",
-                "Keiichiro Taira (平佳一郎)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard"
             ]
@@ -53962,7 +53988,6 @@
             [
                 "Elliott Kobelansky",
                 "Heejun Kim (김희준)",
-                "Keiichiro Taira (平佳一郎)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
                 "Tommy Cherry",
@@ -53978,6 +54003,7 @@
                 "Antonio Kam (甘浩東)",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi"
             ]
         ],
@@ -54259,6 +54285,7 @@
                 "Heejun Kim (김희준)",
                 "Ishaan Agrawal",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
                 "Michael Tripodi",
@@ -54282,8 +54309,7 @@
             ],
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
-                "Keiichiro Taira (平佳一郎)"
+                "Antonio Kam (甘浩東)"
             ]
         ],
         [
@@ -54367,7 +54393,6 @@
                 "Benjamin Paul",
                 "Graham Siggins",
                 "Heejun Kim (김희준)",
-                "Keiichiro Taira (平佳一郎)",
                 "Leonardo Ezequiel Cruz",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
@@ -54383,6 +54408,7 @@
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Heejun Kim (김희준)",
+                "Keiichiro Taira (平佳一郎)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
         ],
@@ -54466,7 +54492,6 @@
                 "Elliott Kobelansky",
                 "Heejun Kim (김희준)",
                 "Kai Yamamoto (山本快)",
-                "Keiichiro Taira (平佳一郎)",
                 "Leonardo Ezequiel Cruz",
                 "Lucas Rolando",
                 "Masato Fujiwara (藤原正人)",
@@ -54481,6 +54506,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Graham Siggins",
+                "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi"
             ]
         ],
@@ -55358,6 +55384,7 @@
                 "Heejun Kim (김희준)",
                 "Ishaan Agrawal",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
                 "Michael Tripodi",
@@ -55372,7 +55399,6 @@
                 "Andrew Tan Jing Bang",
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
-                "Keiichiro Taira (平佳一郎)",
                 "Leonardo Ezequiel Cruz",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
@@ -55540,6 +55566,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Heejun Kim (김희준)",
+                "Keiichiro Taira (平佳一郎)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -55553,7 +55580,6 @@
                 "Benjamin Paul",
                 "Heejun Kim (김희준)",
                 "Kai Yamamoto (山本快)",
-                "Keiichiro Taira (平佳一郎)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
                 "Tommy Cherry"
@@ -55589,6 +55615,14 @@
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
+        ],
+        [
+            [
+                "R' E R U R E' R' U' R E R2 E' R"
+            ],
+            [
+                "Shuto Ueno (上野柊斗)"
+            ]
         ]
     ],
     "ETP": [
@@ -55599,7 +55633,6 @@
             [
                 "Graham Siggins",
                 "Heejun Kim (김희준)",
-                "Keiichiro Taira (平佳一郎)",
                 "Leonardo Ezequiel Cruz",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
@@ -55616,6 +55649,7 @@
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Heejun Kim (김희준)",
+                "Keiichiro Taira (平佳一郎)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
         ],
@@ -56635,6 +56669,14 @@
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz"
             ]
+        ],
+        [
+            [
+                "M L' U L2 S' L2 S U' M' L"
+            ],
+            [
+                "Keiichiro Taira (平佳一郎)"
+            ]
         ]
     ],
     "EXN": [
@@ -56646,7 +56688,6 @@
                 "Graham Siggins",
                 "Heejun Kim (김희준)",
                 "Kai Yamamoto (山本快)",
-                "Keiichiro Taira (平佳一郎)",
                 "Leonardo Ezequiel Cruz",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
@@ -56670,6 +56711,14 @@
             ],
             [
                 "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
+                "U M U r E' r' U' r E R' U'"
+            ],
+            [
+                "Keiichiro Taira (平佳一郎)"
             ]
         ]
     ],
@@ -56712,7 +56761,6 @@
                 "Graham Siggins",
                 "Heejun Kim (김희준)",
                 "Kai Yamamoto (山本快)",
-                "Keiichiro Taira (平佳一郎)",
                 "Leonardo Ezequiel Cruz",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
@@ -56729,6 +56777,7 @@
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Heejun Kim (김희준)",
+                "Keiichiro Taira (平佳一郎)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
         ],
@@ -57130,7 +57179,6 @@
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Heejun Kim (김희준)",
-                "Keiichiro Taira (平佳一郎)",
                 "Leonardo Ezequiel Cruz",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
@@ -57145,6 +57193,7 @@
                 "Antonio Kam (甘浩東)",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi"
             ]
         ],
@@ -57264,7 +57313,6 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Heejun Kim (김희준)",
-                "Keiichiro Taira (平佳一郎)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
                 "Yifan Wang (王逸帆)",
@@ -57278,6 +57326,7 @@
             [
                 "Antonio Kam (甘浩東)",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi"
             ]
         ],
@@ -57639,7 +57688,6 @@
                 "Graham Siggins",
                 "Heejun Kim (김희준)",
                 "Kai Yamamoto (山本快)",
-                "Keiichiro Taira (平佳一郎)",
                 "Leonardo Ezequiel Cruz",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
@@ -57655,6 +57703,7 @@
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Heejun Kim (김희준)",
+                "Keiichiro Taira (平佳一郎)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
         ],
@@ -57731,7 +57780,6 @@
                 "Graham Siggins",
                 "Heejun Kim (김희준)",
                 "Kai Yamamoto (山本快)",
-                "Keiichiro Taira (平佳一郎)",
                 "Leonardo Ezequiel Cruz",
                 "Lucas Rolando",
                 "Masato Fujiwara (藤原正人)",
@@ -57742,12 +57790,13 @@
         ],
         [
             [
-                "U' M U' R' S' R U R' S r U",
-                "U' M U' l' E l U l' E' L U"
+                "U' M U' l' E l U l' E' L U",
+                "U' M U' R' S' R U R' S r U"
             ],
             [
                 "Andrew Tan Jing Bang",
-                "Heejun Kim (김희준)"
+                "Heejun Kim (김희준)",
+                "Keiichiro Taira (平佳一郎)"
             ]
         ],
         [
@@ -62805,6 +62854,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Keita Hayakawa (早川慶太)",
                 "Max Hilliard",
                 "Michael Tripodi",
@@ -62832,6 +62882,18 @@
     "GCL": [
         [
             [
+                "U2 L' E' L U2 L' E L"
+            ],
+            [
+                "Antonio Kam (甘浩東)",
+                "Graham Siggins",
+                "Keiichiro Taira (平佳一郎)",
+                "Max Hilliard",
+                "Michael Tripodi"
+            ]
+        ],
+        [
+            [
                 "U2 L E L' U2 L E' L'"
             ],
             [
@@ -62840,17 +62902,6 @@
                 "Kai Yamamoto (山本快)",
                 "Sebastiano Tronto",
                 "Yuki Tsuneyoshi (恒吉優紀)"
-            ]
-        ],
-        [
-            [
-                "U2 L' E' L U2 L' E L"
-            ],
-            [
-                "Antonio Kam (甘浩東)",
-                "Graham Siggins",
-                "Max Hilliard",
-                "Michael Tripodi"
             ]
         ],
         [
@@ -62873,6 +62924,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Keita Hayakawa (早川慶太)",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -62898,6 +62950,7 @@
                 "Benjamin Paul",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -62924,6 +62977,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Keita Hayakawa (早川慶太)",
                 "Max Hilliard",
                 "Michael Tripodi",
@@ -62964,6 +63018,7 @@
             [
                 "Antonio Kam (甘浩東)",
                 "Graham Siggins",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard"
             ]
         ]
@@ -62978,6 +63033,7 @@
                 "Benjamin Paul",
                 "Elliott Kobelansky",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -63019,6 +63075,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -63045,6 +63102,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -63078,6 +63136,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -63104,6 +63163,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -63137,6 +63197,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -63163,6 +63224,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -63196,6 +63258,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -63591,6 +63654,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Tommy Cherry",
@@ -63624,6 +63688,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -63664,6 +63729,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -63705,6 +63771,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -63740,6 +63807,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -63781,6 +63849,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -63803,6 +63872,7 @@
             [
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -63854,6 +63924,7 @@
                 "Benjamin Paul",
                 "Elliott Kobelansky",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -63889,6 +63960,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -63905,6 +63977,7 @@
             [
                 "Benjamin Paul",
                 "Elliott Kobelansky",
+                "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
@@ -63948,6 +64021,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -63965,6 +64039,7 @@
             [
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -64006,6 +64081,7 @@
             [
                 "Benjamin Paul",
                 "Graham Siggins",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yifan Wang (王逸帆)"
@@ -64048,6 +64124,7 @@
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -64625,8 +64702,8 @@
     "GEK": [
         [
             [
-                "R U' L E L2 E' L U R'",
-                "l F' L S' L2 S L F l'"
+                "l F' L S' L2 S L F l'",
+                "R U' L E L2 E' L U R'"
             ],
             [
                 "Antonio Kam (甘浩東)",
@@ -65522,8 +65599,8 @@
     "GFD": [
         [
             [
-                "R U' R' S' R U R' S",
-                "l F' l' S' l F l' S"
+                "l F' l' S' l F l' S",
+                "R U' R' S' R U R' S"
             ],
             [
                 "Andrew Tan Jing Bang",
@@ -65891,7 +65968,6 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
-                "Keiichiro Taira (平佳一郎)",
                 "Sebastiano Tronto",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
@@ -65939,6 +66015,14 @@
             ],
             [
                 "Michael Tripodi"
+            ]
+        ],
+        [
+            [
+                "R E' R' U R' E R2 E' R' U' R E R'"
+            ],
+            [
+                "Keiichiro Taira (平佳一郎)"
             ]
         ],
         [
@@ -66111,7 +66195,6 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Heejun Kim (김희준)",
-                "Keiichiro Taira (平佳一郎)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
                 "Michael Tripodi",
@@ -66125,6 +66208,7 @@
             ],
             [
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Leonardo Ezequiel Cruz",
                 "Yifan Wang (王逸帆)"
             ]
@@ -66916,6 +67000,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Rob Holt",
                 "Sebastiano Tronto",
@@ -67252,6 +67337,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
@@ -67338,6 +67424,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
@@ -68268,6 +68355,7 @@
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Tommy Cherry",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -68469,6 +68557,7 @@
                 "Graham Siggins",
                 "Heejun Kim (김희준)",
                 "Ishaan Agrawal",
+                "Keiichiro Taira (平佳一郎)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
                 "Rob Holt",
@@ -68926,6 +69015,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Keita Hayakawa (早川慶太)",
                 "Max Hilliard",
                 "Michael Tripodi",
@@ -68961,6 +69051,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Tommy Cherry",
@@ -68987,8 +69078,8 @@
     "GKE": [
         [
             [
-                "R U' L' E L2 E' L' U R'",
-                "l F' L' S' L2 S L' F l'"
+                "l F' L' S' L2 S L' F l'",
+                "R U' L' E L2 E' L' U R'"
             ],
             [
                 "Antonio Kam (甘浩東)",
@@ -69192,6 +69283,7 @@
             [
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
@@ -69229,6 +69321,7 @@
             ],
             [
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Tommy Cherry",
@@ -69257,6 +69350,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Keita Hayakawa (早川慶太)",
                 "Max Hilliard",
                 "Michael Tripodi",
@@ -69277,6 +69371,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Keita Hayakawa (早川慶太)",
                 "Max Hilliard",
                 "Michael Tripodi",
@@ -69303,6 +69398,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -69328,6 +69424,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -69359,6 +69456,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
@@ -69406,6 +69504,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Tommy Cherry",
@@ -69438,6 +69537,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
@@ -69485,6 +69585,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -69525,6 +69626,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -69550,6 +69652,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -69795,6 +69898,18 @@
     "GLC": [
         [
             [
+                "L' E' L U2 L' E L U2"
+            ],
+            [
+                "Antonio Kam (甘浩東)",
+                "Graham Siggins",
+                "Keiichiro Taira (平佳一郎)",
+                "Max Hilliard",
+                "Michael Tripodi"
+            ]
+        ],
+        [
+            [
                 "L E L' U2 L E' L' U2"
             ],
             [
@@ -69803,17 +69918,6 @@
                 "Kai Yamamoto (山本快)",
                 "Sebastiano Tronto",
                 "Yuki Tsuneyoshi (恒吉優紀)"
-            ]
-        ],
-        [
-            [
-                "L' E' L U2 L' E L U2"
-            ],
-            [
-                "Antonio Kam (甘浩東)",
-                "Graham Siggins",
-                "Max Hilliard",
-                "Michael Tripodi"
             ]
         ],
         [
@@ -69835,6 +69939,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -70084,6 +70189,7 @@
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
@@ -70132,6 +70238,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -70157,6 +70264,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -70189,6 +70297,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yifan Wang (王逸帆)",
@@ -70214,6 +70323,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
         ],
@@ -70238,6 +70348,7 @@
             [
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
+                "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
@@ -70288,6 +70399,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Tommy Cherry",
@@ -70313,6 +70425,7 @@
                 "Antonio Kam (甘浩東)",
                 "Benjamin Paul",
                 "Elliott Kobelansky",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yifan Wang (王逸帆)",
@@ -70345,6 +70458,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
@@ -70382,10 +70496,11 @@
         ],
         [
             [
-                "l E' R E l' E' R' E",
-                "R S' R S R' E' R' E"
+                "R S' R S R' E' R' E",
+                "l E' R E l' E' R' E"
             ],
             [
+                "Keiichiro Taira (平佳一郎)",
                 "Tommy Cherry",
                 "Yifan Wang (王逸帆)"
             ]
@@ -70425,6 +70540,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
@@ -70480,18 +70596,19 @@
         ],
         [
             [
-                "S' R' S R2 S' R' S R' S' R2 S R'"
+                "U M' U' L E L2 E' L U M U'"
             ],
             [
-                "Yifan Wang (王逸帆)"
+                "Antonio Kam (甘浩東)",
+                "Keiichiro Taira (平佳一郎)"
             ]
         ],
         [
             [
-                "U M' U' L E L2 E' L U M U'"
+                "S' R' S R2 S' R' S R' S' R2 S R'"
             ],
             [
-                "Antonio Kam (甘浩東)"
+                "Yifan Wang (王逸帆)"
             ]
         ],
         [
@@ -70771,6 +70888,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Keita Hayakawa (早川慶太)",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -70796,6 +70914,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -70920,6 +71039,7 @@
                 "Diego Meneghetti",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Rob Holt",
                 "Sebastiano Tronto",
                 "Tim Wong",
@@ -71021,6 +71141,7 @@
             [
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
+                "Keiichiro Taira (平佳一郎)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
         ],
@@ -71067,6 +71188,7 @@
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
@@ -71107,6 +71229,17 @@
     "GMO": [
         [
             [
+                "R' D R' S' R2 S R' D' R"
+            ],
+            [
+                "Graham Siggins",
+                "Keiichiro Taira (平佳一郎)",
+                "Max Hilliard",
+                "Michael Tripodi"
+            ]
+        ],
+        [
+            [
                 "R D R S' R2 S R D' R'"
             ],
             [
@@ -71114,16 +71247,6 @@
                 "Kai Yamamoto (山本快)",
                 "Sebastiano Tronto",
                 "Yuki Tsuneyoshi (恒吉優紀)"
-            ]
-        ],
-        [
-            [
-                "R' D R' S' R2 S R' D' R"
-            ],
-            [
-                "Graham Siggins",
-                "Max Hilliard",
-                "Michael Tripodi"
             ]
         ],
         [
@@ -71154,6 +71277,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -71172,6 +71296,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Grzegorz Pacewicz",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -71211,6 +71336,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
@@ -71258,6 +71384,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
@@ -71282,6 +71409,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -71330,6 +71458,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
@@ -71354,6 +71483,7 @@
             [
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
@@ -71401,6 +71531,7 @@
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -71441,6 +71572,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -71677,6 +71809,7 @@
                 "Benjamin Paul",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -71703,6 +71836,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -71945,6 +72079,18 @@
     "GNK": [
         [
             [
+                "R' B R S' R2 S R B' R"
+            ],
+            [
+                "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
+                "Max Hilliard",
+                "Michael Tripodi",
+                "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
                 "r' U' L' E' L2 E L' U r"
             ],
             [
@@ -71952,17 +72098,6 @@
                 "Graham Siggins",
                 "Sebastiano Tronto",
                 "Yuki Tsuneyoshi (恒吉優紀)"
-            ]
-        ],
-        [
-            [
-                "R' B R S' R2 S R B' R"
-            ],
-            [
-                "Kai Yamamoto (山本快)",
-                "Max Hilliard",
-                "Michael Tripodi",
-                "Yifan Wang (王逸帆)"
             ]
         ],
         [
@@ -71985,6 +72120,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -72010,6 +72146,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -72043,6 +72180,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -72078,6 +72216,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -72096,6 +72235,7 @@
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
@@ -72142,6 +72282,7 @@
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -72169,6 +72310,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -72194,6 +72336,7 @@
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -72227,6 +72370,7 @@
                 "Antonio Kam (甘浩東)",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Tommy Cherry"
@@ -72277,6 +72421,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Tommy Cherry",
@@ -72295,6 +72440,7 @@
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Tommy Cherry",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -72628,6 +72774,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Keita Hayakawa (早川慶太)",
                 "Max Hilliard",
                 "Michael Tripodi",
@@ -72648,6 +72795,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -72744,7 +72892,6 @@
                 "Graham Siggins",
                 "Heejun Kim (김희준)",
                 "Kai Yamamoto (山本快)",
-                "Keiichiro Taira (平佳一郎)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
                 "Sebastiano Tronto",
@@ -72784,6 +72931,14 @@
             ],
             [
                 "Michael Tripodi"
+            ]
+        ],
+        [
+            [
+                "R E' R' U R E R2 E' R U' R E R'"
+            ],
+            [
+                "Keiichiro Taira (平佳一郎)"
             ]
         ],
         [
@@ -72902,6 +73057,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Keita Hayakawa (早川慶太)",
                 "Max Hilliard",
                 "Michael Tripodi",
@@ -72921,6 +73077,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -72962,6 +73119,7 @@
             ],
             [
                 "Graham Siggins",
+                "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi"
             ]
         ],
@@ -72992,6 +73150,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -73024,6 +73183,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -73048,6 +73208,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -73081,6 +73242,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -73099,6 +73261,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -73124,6 +73287,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -73150,6 +73314,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -73175,6 +73340,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -73207,6 +73373,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -73426,6 +73593,7 @@
             [
                 "Antonio Kam (甘浩東)",
                 "Graham Siggins",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard"
             ]
         ]
@@ -73441,6 +73609,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -73638,6 +73807,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Keita Hayakawa (早川慶太)",
                 "Max Hilliard",
                 "Michael Tripodi",
@@ -73657,6 +73827,18 @@
     "GPL": [
         [
             [
+                "U R' F R S' R2 S R F' R U'"
+            ],
+            [
+                "Graham Siggins",
+                "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
+                "Michael Tripodi",
+                "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
                 "U L F' L S L2 S' L F L' U'"
             ],
             [
@@ -73664,17 +73846,6 @@
                 "Elliott Kobelansky",
                 "Max Hilliard",
                 "Yuki Tsuneyoshi (恒吉優紀)"
-            ]
-        ],
-        [
-            [
-                "U R' F R S' R2 S R F' R U'"
-            ],
-            [
-                "Graham Siggins",
-                "Kai Yamamoto (山本快)",
-                "Michael Tripodi",
-                "Yifan Wang (王逸帆)"
             ]
         ],
         [
@@ -73697,6 +73868,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -73716,6 +73888,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -73750,6 +73923,7 @@
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Tommy Cherry",
@@ -73783,6 +73957,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
@@ -73815,6 +73990,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -73833,6 +74009,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -73865,6 +74042,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -73883,6 +74061,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -73923,6 +74102,7 @@
                 "R' U R U' R' E' R U R' u' R"
             ],
             [
+                "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Yifan Wang (王逸帆)"
             ]
@@ -73953,6 +74133,7 @@
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
@@ -74211,6 +74392,7 @@
                 "Benjamin Paul",
                 "Elliott Kobelansky",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -74261,6 +74443,7 @@
             ],
             [
                 "Antonio Kam (甘浩東)",
+                "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Sebastiano Tronto"
             ]
@@ -74472,6 +74655,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -74497,6 +74681,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
         ],
@@ -74523,6 +74708,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Grzegorz Pacewicz",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -74563,6 +74749,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -74581,6 +74768,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -74604,6 +74792,7 @@
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Tommy Cherry",
@@ -74638,6 +74827,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yifan Wang (王逸帆)",
@@ -74664,6 +74854,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yifan Wang (王逸帆)",
@@ -74688,6 +74879,7 @@
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -74721,6 +74913,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
         ],
@@ -74753,6 +74946,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -74771,6 +74965,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -75020,6 +75215,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -75045,6 +75241,7 @@
                 "Benjamin Paul",
                 "Elliott Kobelansky",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -75210,6 +75407,7 @@
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Tommy Cherry",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -75295,6 +75493,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -75325,6 +75524,7 @@
             [
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
+                "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
@@ -75372,6 +75572,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
@@ -75419,6 +75620,7 @@
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
@@ -75466,6 +75668,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -75498,6 +75701,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
@@ -75529,6 +75733,7 @@
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tommy Cherry",
@@ -75563,6 +75768,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -75595,6 +75801,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
@@ -75626,6 +75833,7 @@
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yifan Wang (王逸帆)",
@@ -75659,6 +75867,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -75678,6 +75887,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -75928,6 +76138,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -75962,6 +76173,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -76097,6 +76309,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
@@ -76156,6 +76369,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
@@ -76205,6 +76419,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Tommy Cherry",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -76230,6 +76445,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
@@ -76254,6 +76470,7 @@
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -76280,6 +76497,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -76298,6 +76516,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -76316,6 +76535,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yifan Wang (王逸帆)",
@@ -76340,6 +76560,7 @@
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tommy Cherry",
@@ -76375,6 +76596,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -76400,6 +76622,7 @@
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -76432,6 +76655,7 @@
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yifan Wang (王逸帆)",
@@ -76470,6 +76694,7 @@
             ],
             [
                 "Graham Siggins",
+                "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tommy Cherry"
@@ -76710,6 +76935,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -76733,6 +76959,7 @@
             [
                 "Benjamin Paul",
                 "Elliott Kobelansky",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -76809,7 +77036,6 @@
                 "Andrew Tan Jing Bang",
                 "Elliott Kobelansky",
                 "Heejun Kim (김희준)",
-                "Keiichiro Taira (平佳一郎)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
                 "Michael Tripodi",
@@ -76825,6 +77051,7 @@
                 "Antonio Kam (甘浩東)",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Leonardo Ezequiel Cruz",
                 "Yifan Wang (王逸帆)"
             ]
@@ -76979,6 +77206,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Tommy Cherry",
@@ -77012,6 +77240,7 @@
                 "Antonio Kam (甘浩東)",
                 "Benjamin Paul",
                 "Elliott Kobelansky",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yifan Wang (王逸帆)",
@@ -77044,6 +77273,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -77093,6 +77323,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -77119,6 +77350,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -77144,6 +77376,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -77177,6 +77410,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yifan Wang (王逸帆)",
@@ -77202,6 +77436,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -77233,6 +77468,7 @@
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tommy Cherry",
@@ -77260,7 +77496,8 @@
     "GTX": [
         [
             [
-                "S L' S L2 S' L' S'"
+                "S L' S L2 S' L' S'",
+                "S r' E r2 E r' S'"
             ],
             [
                 "Antonio Kam (甘浩東)",
@@ -77268,6 +77505,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -77299,6 +77537,7 @@
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Keiichiro Taira (平佳一郎)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
         ],
@@ -77337,6 +77576,7 @@
             [
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yifan Wang (王逸帆)",
@@ -77595,6 +77835,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -77628,6 +77869,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -77765,6 +78007,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
@@ -77791,6 +78034,7 @@
                 "Graham Siggins",
                 "Heejun Kim (김희준)",
                 "Ishaan Agrawal",
+                "Keiichiro Taira (平佳一郎)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
                 "Rob Holt",
@@ -77844,6 +78088,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
@@ -77890,6 +78135,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
@@ -77922,6 +78168,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
@@ -77946,6 +78193,7 @@
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -77979,6 +78227,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -78005,6 +78254,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -78022,6 +78272,7 @@
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -78055,6 +78306,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -78081,6 +78333,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -78106,6 +78359,7 @@
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tommy Cherry",
@@ -78140,6 +78394,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yifan Wang (王逸帆)",
@@ -78155,6 +78410,7 @@
             [
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -78375,6 +78631,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -78398,6 +78655,7 @@
             [
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -78639,6 +78897,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -78684,10 +78943,11 @@
         ],
         [
             [
-                "E' R E l E' R' E l'",
-                "E' R E R S' R' S R'"
+                "E' R E R S' R' S R'",
+                "E' R E l E' R' E l'"
             ],
             [
+                "Keiichiro Taira (平佳一郎)",
                 "Tommy Cherry",
                 "Yifan Wang (王逸帆)"
             ]
@@ -78726,6 +78986,7 @@
             [
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
@@ -78774,6 +79035,7 @@
                 "Antonio Kam (甘浩東)",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Tommy Cherry"
@@ -78824,6 +79086,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -78849,6 +79112,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -78881,6 +79145,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
         ],
@@ -78919,6 +79184,7 @@
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yifan Wang (王逸帆)",
@@ -78951,6 +79217,7 @@
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -78984,7 +79251,8 @@
     "GXT": [
         [
             [
-                "S L S L2 S' L S'"
+                "S L S L2 S' L S'",
+                "S r E' r2 E' r S'"
             ],
             [
                 "Antonio Kam (甘浩東)",
@@ -78992,6 +79260,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -79024,6 +79293,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yifan Wang (王逸帆)",
@@ -79049,6 +79319,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -79308,6 +79579,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -79339,6 +79611,7 @@
                 "Benjamin Paul",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yifan Wang (王逸帆)",
@@ -79559,6 +79832,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -79584,6 +79858,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -79617,6 +79892,7 @@
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -79657,6 +79933,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Tommy Cherry",
@@ -79675,6 +79952,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -79705,6 +79983,7 @@
             [
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yifan Wang (王逸帆)",
@@ -79746,6 +80025,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yifan Wang (王逸帆)",
@@ -79771,6 +80051,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -79789,6 +80070,7 @@
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yifan Wang (王逸帆)",
@@ -79829,6 +80111,7 @@
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Keiichiro Taira (平佳一郎)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
         ],
@@ -79869,6 +80152,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yifan Wang (王逸帆)",
@@ -79886,6 +80170,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yifan Wang (王逸帆)",
@@ -80123,6 +80408,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -80166,7 +80452,8 @@
             ],
             [
                 "Antonio Kam (甘浩東)",
-                "Kai Yamamoto (山本快)"
+                "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)"
             ]
         ]
     ],
@@ -80397,6 +80684,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -80443,18 +80731,19 @@
         ],
         [
             [
-                "R S' R2 S R S' R S R2 S' R S"
+                "U M' U' L' E L2 E' L' U M U'"
             ],
             [
-                "Yifan Wang (王逸帆)"
+                "Antonio Kam (甘浩東)",
+                "Keiichiro Taira (平佳一郎)"
             ]
         ],
         [
             [
-                "U M' U' L' E L2 E' L' U M U'"
+                "R S' R2 S R S' R S R2 S' R S"
             ],
             [
-                "Antonio Kam (甘浩東)"
+                "Yifan Wang (王逸帆)"
             ]
         ],
         [
@@ -80476,6 +80765,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -80516,6 +80806,7 @@
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Tommy Cherry",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -80564,6 +80855,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -80588,6 +80880,7 @@
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ]
@@ -80621,6 +80914,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -80640,6 +80934,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -80655,6 +80950,7 @@
             ],
             [
                 "Graham Siggins",
+                "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tommy Cherry"
@@ -80689,6 +80985,7 @@
             [
                 "Antonio Kam (甘浩東)",
                 "Elliott Kobelansky",
+                "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -80728,6 +81025,7 @@
             [
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -80761,6 +81059,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
