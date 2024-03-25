@@ -14,49 +14,35 @@ const Corner = () => {
   const divRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
   const selectRefs = useRef<HTMLSelectElement[]>([]);
-  const modeRefs = useRef<HTMLSelectElement>(null);
+  const modeRef = useRef<HTMLSelectElement>(null);
   const modeToData = {
     nightmare: corner_output,
     manmade: corner_manmade,
   };
 
   useEffect(() => {
-    const handleTableMutation = (mutation: MutationRecord) => {
-      if (
-        mutation.addedNodes.length > 0 &&
-        mutation.addedNodes[0] === tableRef.current
-      ) {
+    const observer = new MutationObserver((mutationsList) => {
+      if (mutationsList && tableRef.current) {
         inputRef.current?.blur();
         selectRefs.current.forEach((selectRef) => selectRef.blur());
+        modeRef.current?.blur();
         adjustTableFontSize();
-      }
-    };
-
-    const observer = new MutationObserver((mutationsList) => {
-      for (const mutation of mutationsList) {
-        handleTableMutation(mutation);
       }
     });
 
     observer.observe(document.body, { childList: true, subtree: true });
 
-    const handleResize = () => {
-      if (tableRef.current) {
-        tableRef.current.style.fontSize = "16px";
-        adjustTableFontSize();
-      }
-    };
-
-    window.addEventListener("resize", handleResize);
+    window.addEventListener("resize", adjustTableFontSize);
 
     return () => {
       observer.disconnect();
-      window.removeEventListener("resize", handleResize);
+      window.removeEventListener("resize", adjustTableFontSize);
     };
   }, []);
 
   const adjustTableFontSize = () => {
     if (tableRef.current && divRef.current) {
+      tableRef.current.style.fontSize = "16px";
       const tableWidth = tableRef.current.offsetWidth;
       const divWidth = divRef.current.offsetWidth;
       const ratio = tableWidth / divWidth;
@@ -160,7 +146,7 @@ const Corner = () => {
                   <select
                     id="modeValue"
                     onChange={(e) => handleModeChange(e)}
-                    ref={modeRefs}
+                    ref={modeRef}
                     value={modeValue}
                     className="text-transform: ml-2 w-[8rem] rounded-sm border-b-[3px] border-gray-500 bg-inherit py-1 text-base font-medium text-dark outline-none transition-all duration-300 focus:border-primary dark:border-gray-100 dark:bg-black dark:text-white dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
                   >
