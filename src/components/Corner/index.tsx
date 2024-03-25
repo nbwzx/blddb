@@ -61,7 +61,9 @@ const Corner = () => {
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const newValue = e.target.value.toUpperCase();
     setInputText(newValue);
-    setSelectValues(codeConverter.customCodeToPosition(newValue, codeType));
+    setSelectValues(
+      codeConverter.customCodeToPosition(newValue.padEnd(3, " "), codeType),
+    );
   };
 
   const handleSelectChange = (

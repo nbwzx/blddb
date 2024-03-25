@@ -81,6 +81,9 @@ const codeConverter = (function () {
       )
       .join("");
     for (let i = 0; i < initCode.length; i++) {
+      if (initCode[i] === " ") {
+        continue;
+      }
       const index = codeTypeValues.indexOf(initCode[i]);
       if (index !== -1) {
         result[i] = positionArray[index];
