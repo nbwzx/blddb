@@ -19,6 +19,10 @@ const Corner = () => {
     nightmare: corner_output,
     manmade: corner_manmade,
   };
+  const modeToEmoji = {
+    nightmare: "\u{1F480}",
+    manmade: "\u{2009}\u{F2BD}\u{2009}",
+  };
 
   useEffect(() => {
     const observer = new MutationObserver((mutationsList) => {
@@ -152,8 +156,11 @@ const Corner = () => {
                     value={modeValue}
                     className="text-transform: ml-2 w-[8rem] rounded-sm border-b-[3px] border-gray-500 bg-inherit py-1 text-base font-medium text-dark outline-none transition-all duration-300 focus:border-primary dark:border-gray-100 dark:bg-black dark:text-white dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
                   >
-                    <option>nightmare</option>
-                    <option>manmade</option>
+                    {Object.entries(modeToEmoji).map(([mode, emoji]) => (
+                      <option key={mode} value={mode}>
+                        {emoji + mode}
+                      </option>
+                    ))}
                   </select>
                   <Table
                     codeType={codeType}
