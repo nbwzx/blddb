@@ -40,6 +40,44 @@
     @apply opacity-100;
   }
 
+  .flex-wrapper {
+    display: flex;
+    min-height: calc(100vh);
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .copyright {
+    font-size: 0.8em;
+  }
+
+  .copyright li {
+    display: inline-block;
+    border-left: solid 1px;
+    line-height: 1;
+    padding-left: 1em;
+    margin-left: 1em;
+  }
+
+  .copyright li:first-child {
+    border-left: 0;
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  @media (max-width: 480px) {
+    .copyright li {
+      border-left: 0;
+      padding-left: 0;
+      margin: 0;
+      display: block;
+      line-height: 2;
+    }
+    .copyright li:first-child {
+      margin-top: 0;
+    }
+  }
+
   select {
     font-family: "FontAwesome", "Inter", sans-serif;
     appearance: none;
