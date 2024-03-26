@@ -6,7 +6,12 @@
 @tailwind utilities;
 
 @layer base {
+  :root {
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
   body {
+    width: 100vw;
     font-family: "Inter", sans-serif;
   }
   table {
