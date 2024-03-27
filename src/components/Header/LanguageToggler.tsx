@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import i18n from "next-i18next.config";
 import { useTranslation } from "react-i18next";
 import { updateMetadata } from "./updateMetadata";
@@ -29,8 +29,24 @@ const LanguageToggler: React.FC = () => {
     updateMetadata(document, t);
   };
 
+  const divRef = React.useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const handleClickOutside = (e: MouseEvent) => {
+      if (!divRef.current?.contains(e.target as Node)) {
+        setIsDropdownOpen(false);
+      }
+    };
+
+    document.addEventListener("click", handleClickOutside);
+
+    return () => {
+      document.removeEventListener("click", handleClickOutside);
+    };
+  }, []);
+
   return (
-    <div className="language">
+    <div ref={divRef} className="language">
       <div
         className="status_circle"
         style={{
