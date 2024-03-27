@@ -1,8 +1,11 @@
 "use strict";
 
 const codeConverter = (function () {
-  const initialInputValues =
-    "DEGCUGAAJEDCXLTQLMBBLSFQNJYKHIRRZZPSHFFYBWTNPWIXKDOOMR";
+  const letteringSchemes = {
+    Chichu: "DEGCUGAAJEDCXLTQLMBBLSFQNJYKHIRRZZPSHFFYBWTNPWIXKDOOMR",
+    Speffz: "AABDUBDCCEEFHLFHGGIIJLFJLKKMMNPRNPOOQQRTBRTSSUUVXDVXWW",
+  };
+  const initialInputValues = letteringSchemes["Chichu"];
   // prettier-ignore
   const positionArray = [
     "UBL", "UB", "UBR", "UL", "U", "UR", "UFL", "UF", "UFR",
@@ -156,6 +159,7 @@ const codeConverter = (function () {
     positionToCustomCode,
     initCodeToVariantCode,
     initialInputValues,
+    letteringSchemes,
     positionArray,
   };
 })();

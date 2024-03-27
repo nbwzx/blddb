@@ -13,7 +13,7 @@ const Code = () => {
     "face-b blue",
     "face-d yellow",
   ];
-
+  const letteringSchemes = codeConverter.letteringSchemes;
   const [inputValues, setInputValues] = useState("");
 
   useEffect(() => {
@@ -43,6 +43,21 @@ const Code = () => {
             <h2 className="mb-8 text-center text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight">
               {t("code.title")}
             </h2>
+            <div className="mb-5">
+              Lettering Scheme Setting:
+              {Object.entries(letteringSchemes).map(([scheme, value]) => (
+                <div
+                  key={scheme}
+                  className="mb-1 ml-4 mt-1 inline-block cursor-pointer rounded-sm border-2 border-black bg-white px-4 py-2 text-base font-semibold text-black duration-300 ease-in-out hover:text-primary dark:border-white dark:bg-dark dark:text-white dark:hover:text-primary"
+                  onClick={() => {
+                    setInputValues(value);
+                    localStorage.setItem("code", value);
+                  }}
+                >
+                  {scheme} Lettering Scheme
+                </div>
+              ))}
+            </div>
             <div className="parent-container">
               <div className="cube">
                 {faces.map((face, faceIndex) => (
