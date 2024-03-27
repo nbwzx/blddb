@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
 import LanguageToggler from "./LanguageToggler";
@@ -34,13 +34,29 @@ const Header = () => {
 
   // submenu handler
   const [openIndex, setOpenIndex] = useState(-1);
-  const handleSubmenu = (index) => {
+  const handleSubmenu = (index: number) => {
     if (openIndex === index) {
       setOpenIndex(-1);
     } else {
       setOpenIndex(index);
     }
   };
+
+  const divRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const handleClickOutside = (e: MouseEvent) => {
+      if (!divRef.current?.contains(e.target as Node)) {
+        setNavbarOpen(false);
+      }
+    };
+
+    document.addEventListener("click", handleClickOutside);
+
+    return () => {
+      document.removeEventListener("click", handleClickOutside);
+    };
+  }, []);
 
   const usePathName = usePathname();
 
@@ -79,7 +95,7 @@ const Header = () => {
               </Link>
             </div>
             <div className="flex w-full items-center justify-between px-0 lg:px-4">
-              <div>
+              <div ref={divRef}>
                 <button
                   onClick={navbarToggleHandler}
                   id="navbarToggler"
@@ -116,6 +132,7 @@ const Header = () => {
                         {menuItem.path ? (
                           <Link
                             href={menuItem.path}
+                            onClick={() => setNavbarOpen(false)}
                             className={`flex py-2 text-base lg:mr-0 lg:inline-flex lg:px-2 ${
                               usePathName === menuItem.path
                                 ? "text-primary dark:text-white"
@@ -128,6 +145,12 @@ const Header = () => {
                           <>
                             <p
                               onClick={() => handleSubmenu(index)}
+                              onMouseOver={() => {
+                                if (window.innerWidth >= 992) {
+                                  setOpenIndex(index);
+                                  setNavbarOpen(true);
+                                }
+                              }}
                               className="flex cursor-pointer items-center justify-between py-2 text-base text-dark group-hover:text-primary dark:text-white/70 dark:group-hover:text-white lg:mr-0 lg:inline-flex lg:px-2"
                             >
                               {t(menuItem.title)}
@@ -143,14 +166,19 @@ const Header = () => {
                               </span>
                             </p>
                             <div
-                              className={`submenu relative left-0 top-full rounded-sm bg-white transition-[top] duration-300 group-hover:opacity-100 dark:bg-dark lg:invisible lg:absolute lg:top-[110%] lg:block lg:w-[200px] lg:p-2 lg:opacity-0 lg:shadow-lg lg:group-hover:visible lg:group-hover:top-full ${
-                                openIndex === index ? "block" : "hidden"
+                              className={`submenu relative left-0 top-full rounded-sm bg-white transition-[top] duration-300 dark:bg-dark lg:invisible lg:absolute lg:top-[110%] lg:block lg:w-[200px] lg:p-2 lg:opacity-0 lg:shadow-lg  ${
+                                openIndex === index && navbarOpen
+                                  ? "block group-hover:opacity-100 lg:group-hover:visible lg:group-hover:top-full"
+                                  : "hidden"
                               }`}
                             >
                               {menuItem.submenu &&
                                 menuItem.submenu.map((submenuItem, index) => (
                                   <Link
                                     href={submenuItem.path as string}
+                                    onClick={() => {
+                                      setNavbarOpen(false);
+                                    }}
                                     key={index}
                                     className="block rounded py-1.5 text-sm text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
                                   >
