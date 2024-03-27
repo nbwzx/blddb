@@ -198,15 +198,14 @@
     background: rgba(0, 0, 0, 0);
     border: none;
     font-size: calc(0.75 * var(--cell));
-    height: 100%;
+    height: calc(100% + 2px);
     outline: none;
     text-align: center;
-    width: 100%;
+    width: calc(100% + 2px);
     padding: 0;
     position: relative;
-    top: -2px;
-    left: -2px;
-    margin: 2px;
+    left: -1px;
+    top: -1px;
   }
 
   .face input[type="text"]:focus,
