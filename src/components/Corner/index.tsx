@@ -1,6 +1,7 @@
 "use client";
-import corner_output from "public/data/json/corner_output.json";
-import corner_manmade from "public/data/json/corner_manmade.json";
+import cornerNightmare from "public/data/json/cornerNightmare.json";
+import cornerManmade from "public/data/json/cornerManmade.json";
+import cornerNightmareSelected from "public/data/json/cornerNightmareSelected.json";
 import sourceToUrl from "public/data/json/sourceToUrl.json";
 import React, { useState, useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
@@ -16,8 +17,11 @@ const Corner = () => {
   const selectRefs = useRef<HTMLSelectElement[]>([]);
   const modeRef = useRef<HTMLSelectElement>(null);
   const modeToData = {
-    nightmare: corner_output,
-    manmade: corner_manmade,
+    nightmare: cornerNightmare,
+    manmade: cornerManmade,
+  };
+  const modeToSelected = {
+    nightmare: cornerNightmareSelected,
   };
   const modeToEmoji = {
     nightmare: "\u{1F480}",
@@ -60,7 +64,8 @@ const Corner = () => {
   const [inputText, setInputText] = useState("");
   const [selectValues, setSelectValues] = useState(["", "", ""]);
   const [modeValue, setModeValue] = useState("");
-  const [data, setdataValue] = useState(corner_output);
+  const [data, setdataValue] = useState(cornerNightmare);
+  const [selected, setSelected] = useState(cornerNightmareSelected);
 
   const scrollToTop = () => {
     window.scrollTo({
@@ -93,6 +98,7 @@ const Corner = () => {
     const newModeValue = e.target.value;
     setModeValue(newModeValue);
     setdataValue(modeToData[newModeValue]);
+    setSelected(modeToSelected[newModeValue]);
     scrollToTop();
   };
 
@@ -180,6 +186,7 @@ const Corner = () => {
                     data={data}
                     divRef={divRef}
                     tableRef={tableRef}
+                    selected={selected}
                     sourceToUrl={sourceToUrl}
                   />
                 </div>

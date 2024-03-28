@@ -10,6 +10,7 @@ const Table = ({
   data,
   divRef,
   tableRef,
+  selected,
   sourceToUrl,
 }: {
   codeType: string;
@@ -19,6 +20,7 @@ const Table = ({
     | { [key: string]: [alg: string[], source: string[]][] };
   divRef: React.RefObject<HTMLDivElement>;
   tableRef: React.RefObject<HTMLTableElement>;
+  selected?: { [key: string]: string };
   sourceToUrl?: { [key: string]: string[] };
 }) => {
   const { t } = useTranslation();
@@ -82,7 +84,14 @@ const Table = ({
         }
 
         tableRows.push(
-          <tr key={`${key}-${i}-${j}`}>
+          <tr
+            key={`${key}-${i}-${j}`}
+            className={
+              item[j] === (selected?.[key] ?? "")
+                ? "bg-zinc-300 dark:bg-zinc-700"
+                : ""
+            }
+          >
             {j === 0 && <td rowSpan={item.length}>{i + 1}</td>}
             <td>{item[j]}</td>
             <td>{commutatorResult}</td>
