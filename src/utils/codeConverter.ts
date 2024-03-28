@@ -37,7 +37,7 @@ const codeConverter = (function () {
     "DL": "LD", "LD": "DL",
     "DR": "RD", "RD": "DR",
     "DB": "BD", "BD": "DB"
-  }
+  };
 
   function codeTypeToNumber(codeType: string) {
     const codeTypeToNumber = {
@@ -63,7 +63,7 @@ const codeConverter = (function () {
       storedValues = localStorage.getItem("code") ?? initialInputValues;
     }
     const result: string[] = Array(code.length).fill(" ");
-    for (let i in positionArray) {
+    for (const i in positionArray) {
       if (positionToCodeType(positionArray[i]) !== codeType) {
         continue;
       }
@@ -102,7 +102,7 @@ const codeConverter = (function () {
 
   function positionToInitCode(position: string[]) {
     let result = "";
-    for (let pos of position) {
+    for (const pos of position) {
       const index = positionArray.indexOf(pos);
       if (index !== -1) {
         result += initialInputValues[index];
@@ -117,7 +117,7 @@ const codeConverter = (function () {
       storedValues = localStorage.getItem("code") ?? initialInputValues;
     }
     let result = "";
-    for (let pos of position) {
+    for (const pos of position) {
       const index = positionArray.indexOf(pos);
       if (index !== -1) {
         result += storedValues[index];
@@ -128,7 +128,7 @@ const codeConverter = (function () {
 
   function generateCyclicPermutations(arr: string[]): string[] {
     const permutations: string[] = [];
-    for (let str of arr) {
+    for (const str of arr) {
       for (let j = 0; j < str.length; j++) {
         const rotatedStr = str.slice(j) + str.slice(0, j);
         permutations.push(rotatedStr);

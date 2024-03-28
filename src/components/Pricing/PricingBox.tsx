@@ -1,3 +1,5 @@
+import React from "react";
+
 const PricingBox = (props: {
   price: string;
   duration: string;
