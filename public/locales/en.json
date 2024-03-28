@@ -3,7 +3,10 @@
   "title": "BLD Algorithms Database",
   "common": {
     "pairs": "Letter Pairs:",
-    "position": "Position:"
+    "position": "Position:",
+    "mode": "Mode:",
+    "nightmare": "nightmare",
+    "manmade": "manmade"
   },
   "finger": {
     "thumbdown": "Thumb down",
@@ -22,6 +25,9 @@
     "hint": "Please enter 3 letter pairs (buffer-position1-position2) you want to query (eg. JAD)"
   },
   "code": {
-    "title": "Lettering Scheme"
+    "title": "Lettering Scheme",
+    "setting": "Lettering Scheme:",
+    "Chichu": "Chichu",
+    "Speffz": "Speffz"
   }
 }

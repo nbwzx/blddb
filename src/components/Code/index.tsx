@@ -44,7 +44,7 @@ const Code = () => {
               {t("code.title")}
             </h2>
             <div className="mb-5">
-              Lettering Scheme Setting:
+              {t("code.setting")}
               {Object.entries(letteringSchemes).map(([scheme, value]) => (
                 <div
                   key={scheme}
@@ -54,7 +54,7 @@ const Code = () => {
                     localStorage.setItem("code", value);
                   }}
                 >
-                  {scheme} Lettering Scheme
+                  {t("code." + scheme)}
                 </div>
               ))}
             </div>

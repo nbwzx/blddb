@@ -3,7 +3,10 @@
   "title": "盲拧公式库",
   "common": {
     "pairs": "公式查询：",
-    "position": "位置类："
+    "position": "位置类：",
+    "mode": "模式：",
+    "nightmare": "噩梦",
+    "manmade": "人造"
   },
   "finger": {
     "thumbdown": "下",
@@ -22,6 +25,9 @@
     "hint": "请在下方输入你要查询的公式编码（例如: JAD）"
   },
   "code": {
-    "title": "编码"
+    "title": "编码",
+    "setting": "编码设置：",
+    "Chichu": "彳亍编码",
+    "Speffz": "Speffz 编码"
   }
 }

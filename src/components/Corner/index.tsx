@@ -158,18 +158,18 @@ const Corner = () => {
                       htmlFor="modeValue"
                       className="mb-3 mt-4 inline-block font-bold text-dark dark:text-white"
                     >
-                      Mode:
+                      {t("common.mode")}
                     </label>
                     <select
                       id="modeValue"
                       onChange={(e) => handleModeChange(e)}
                       ref={modeRef}
                       value={modeValue}
-                      className="text-transform: ml-2 w-[8rem] rounded-sm border-b-[3px] border-gray-500 bg-inherit py-1 text-base font-medium text-dark outline-none transition-all duration-300 focus:border-primary dark:border-gray-100 dark:bg-black dark:text-white dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
+                      className="text-transform: ml-2 inline-block rounded-sm border-b-[3px] border-gray-500 bg-inherit py-1 pr-5 text-base font-medium text-dark outline-none transition-all duration-300 focus:border-primary dark:border-gray-100 dark:bg-black dark:text-white dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
                     >
                       {Object.entries(modeToEmoji).map(([mode, emoji]) => (
                         <option key={mode} value={mode}>
-                          {emoji + mode}
+                          {emoji + t("common." + mode)}
                         </option>
                       ))}
                     </select>

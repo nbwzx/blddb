@@ -3,7 +3,10 @@
   "title": "BLD手順データベース",
   "common": {
     "pairs": "ナンバリング：",
-    "position": "ステッカー："
+    "position": "ステッカー：",
+    "mode": "モード：",
+    "nightmare": "悪夢",
+    "manmade": "人工"
   },
   "finger": {
     "thumbdown": "下",
@@ -22,6 +25,9 @@
     "hint": "検索したい3ナンバリング（バッファ-位置1-位置2）を入力してください（例：JAD）"
   },
   "code": {
-    "title": "ナンバリング設定"
+    "title": "ナンバリング設定",
+    "setting": "ナンバリング設定：",
+    "Chichu": "Chichu",
+    "Speffz": "Speffz"
   }
 }
