@@ -7,11 +7,6 @@ const nextConfig = {
         hostname: "localhost",
         port: "3000",
       },
-      {
-        protocol: "https",
-        hostname: "cdn.sanity.io",
-        port: "",
-      },
     ],
   },
 };
