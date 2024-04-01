@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import codeConverter from "@/utils/codeConverter";
-import { useTranslation } from "react-i18next";
+import { useTranslation } from "../../i18n/client";
 
 const Code = () => {
   const { t } = useTranslation();

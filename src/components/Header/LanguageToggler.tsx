@@ -1,10 +1,11 @@
+"use client";
 import React, { useState, useEffect } from "react";
-import i18n from "next-i18next.config";
-import { useTranslation } from "react-i18next";
 import { updateMetadata } from "./updateMetadata";
+import { switchLocaleAction } from "./switchLocale";
+import { useTranslation } from "../../i18n/client";
 
 const LanguageToggler: React.FC = () => {
-  const { t } = useTranslation();
+  const { i18n, t } = useTranslation();
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const langNames = {
     en: "English",
@@ -12,20 +13,13 @@ const LanguageToggler: React.FC = () => {
     ja: "日本語",
   };
 
-  const handleLanguageChange = (language: string) => {
-    i18n.changeLanguage(language);
-  };
-
   const toggleDropdown = () => {
     setIsDropdownOpen(!isDropdownOpen);
   };
 
-  const [lang, setLang] = useState("en"); // Replace with the desired default language
-
   const updateLanguage = (newLang: string) => {
-    setLang(newLang);
     toggleDropdown();
-    handleLanguageChange(newLang);
+    switchLocaleAction(newLang);
     updateMetadata(document, t);
   };
 
@@ -50,21 +44,21 @@ const LanguageToggler: React.FC = () => {
       <div
         className="status_circle"
         style={{
-          backgroundImage: `url(/images/language/${lang.slice(0, 2)}.png)`,
+          backgroundImage: `url(/images/language/${(i18n.resolvedLanguage ?? "en").slice(0, 2)}.png)`,
           backgroundRepeat: "no-repeat",
           backgroundPosition: "left bottom 4px",
           marginLeft: "4px",
         }}
         onClick={toggleDropdown}
       >
-        {langNames[lang]}
+        {langNames[i18n.resolvedLanguage ?? "en"]}
       </div>
       <div
         className={"dropdown-content"}
         style={{ display: isDropdownOpen ? "block" : "none" }}
       >
         {Object.keys(langNames).map((langOther) => {
-          if (langOther !== lang) {
+          if (langOther !== (i18n.resolvedLanguage ?? "en")) {
             return (
               <div
                 className="status_circle"
@@ -74,7 +68,6 @@ const LanguageToggler: React.FC = () => {
                   backgroundPosition: "left bottom 4px",
                   marginLeft: "4px",
                 }}
-                data-lang={langOther}
                 key={langOther}
                 onClick={() => updateLanguage(langOther)}
               >
