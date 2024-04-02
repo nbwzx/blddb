@@ -5,6 +5,8 @@ import { useTranslation } from "../../i18n/client";
 
 const Code = () => {
   const { t } = useTranslation();
+  const cubeSize = 3;
+  const faceSize = cubeSize * cubeSize;
   const faces = [
     "face-u white",
     "face-l orange",
@@ -62,27 +64,31 @@ const Code = () => {
               <div className="cube">
                 {faces.map((face, faceIndex) => (
                   <div className={`face ${face}`} key={faceIndex}>
-                    {Array.from({ length: 9 }).map((_, cellIndex) => (
-                      <div className="part" key={faceIndex * 9 + cellIndex}>
-                        {!(cellIndex === 4) && (
-                          <input
-                            type="text"
-                            className="uppercase"
-                            onFocus={(e) => e.target.select()}
-                            maxLength={1}
-                            value={(
-                              inputValues[faceIndex * 9 + cellIndex] ?? ""
-                            ).trim()}
-                            onChange={(e) =>
-                              handleChange(
-                                faceIndex * 9 + cellIndex,
-                                e.target.value ?? "",
-                              )
-                            }
-                          />
-                        )}
-                      </div>
-                    ))}
+                    {Array.from({ length: faceSize }).map((_, cellIndex) =>
+                      !(cellIndex === (faceSize - 1) / 2) ? (
+                        <input
+                          key={faceIndex * faceSize + cellIndex}
+                          type="text"
+                          className="part uppercase"
+                          onFocus={(e) => e.target.select()}
+                          maxLength={1}
+                          value={(
+                            inputValues[faceIndex * faceSize + cellIndex] ?? ""
+                          ).trim()}
+                          onChange={(e) =>
+                            handleChange(
+                              faceIndex * faceSize + cellIndex,
+                              e.target.value ?? "",
+                            )
+                          }
+                        />
+                      ) : (
+                        <div
+                          className="part"
+                          key={faceIndex * faceSize + cellIndex}
+                        ></div>
+                      ),
+                    )}
                   </div>
                 ))}
               </div>
