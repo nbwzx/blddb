@@ -152,6 +152,7 @@
   }
 
   .face > div {
+    border-radius: 0;
     border-left: 2px solid black;
     border-top: 2px solid black;
   }
@@ -197,15 +198,14 @@
     @apply text-dark;
     background: rgba(0, 0, 0, 0);
     border: none;
+    border-radius: 0;
     font-size: calc(0.75 * var(--cell));
-    height: calc(100% + 2px);
+    height: calc(100%);
     outline: none;
     text-align: center;
-    width: calc(100% + 2px);
+    width: calc(100%);
     padding: 0;
     position: relative;
-    left: -1px;
-    top: -1px;
   }
 
   .face input[type="text"]:focus,
