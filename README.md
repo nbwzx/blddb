@@ -1,6 +1,6 @@
 # BLDDB-V2
 
-BLDDB (blddb.net) is a comprehensive BLD algorithm database for solving the Rubik's Cube blindfolded.
+BLDDB ([blddb.net](https://blddb.net)) is a comprehensive Rubik’s Cube Blindfolded database including 3‑style corner (all buffers), 3‑style edge (all buffers), corner twist, edge flip, etc. It supports simplified Chinese, English, Japanese, and is compatible with mobile phones, PCs and tablets. The website provides many options for each case, so the users can select algorithm based on their own preference.
 
 
 ## License GPL-3.0
