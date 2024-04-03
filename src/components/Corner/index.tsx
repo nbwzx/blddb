@@ -4,7 +4,7 @@ import cornerManmade from "public/data/json/cornerManmade.json";
 import cornerNightmareSelected from "public/data/json/cornerNightmareSelected.json";
 import sourceToUrl from "public/data/json/sourceToUrl.json";
 import React, { useState, useEffect, useRef } from "react";
-import { useTranslation } from "../../i18n/client";
+import { useTranslation } from "@/i18n/client";
 import codeConverter from "@/utils/codeConverter";
 import Table from "@/components/Table";
 

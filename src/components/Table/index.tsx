@@ -2,7 +2,7 @@ import React, { JSX } from "react";
 import commutator from "@/utils/commutator";
 import finger from "@/utils/finger";
 import codeConverter from "@/utils/codeConverter";
-import { useTranslation } from "../../i18n/client";
+import { useTranslation } from "@/i18n/client";
 
 const Table = ({
   codeType,

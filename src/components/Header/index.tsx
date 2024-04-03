@@ -6,7 +6,7 @@ import React, { useEffect, useState, useRef } from "react";
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
 import LanguageToggler from "./LanguageToggler";
-import { useTranslation } from "../../i18n/client";
+import { useTranslation } from "@/i18n/client";
 import { updateMetadata } from "./updateMetadata";
 
 const Header = () => {

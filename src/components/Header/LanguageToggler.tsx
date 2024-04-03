@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import { updateMetadata } from "./updateMetadata";
 import { switchLocaleAction } from "./switchLocale";
-import { useTranslation } from "../../i18n/client";
+import { useTranslation } from "@/i18n/client";
 
 const LanguageToggler: React.FC = () => {
   const { i18n, t } = useTranslation();
