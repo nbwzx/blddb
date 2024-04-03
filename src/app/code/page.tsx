@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 };
 
 const CodePage = () => {
-  return <Code />;
+  return <Code cubeSize={3} />;
 };
 
 export default CodePage;

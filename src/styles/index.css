@@ -125,39 +125,6 @@
     @apply border border-gray-500 px-[0.5vw] py-[0.2vw] align-middle leading-loose;
   }
 
-  :root {
-    --cubeSize: 3;
-    --cell: calc(min(calc(19.2vw / var(--cubeSize)), 50px));
-  }
-
-  .parent-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .cube {
-    position: relative;
-    height: calc(3 * var(--cubeSize) * var(--cell));
-    width: calc(4 * var(--cubeSize) * var(--cell));
-    display: grid;
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-columns: repeat(4, 1fr);
-  }
-
-  .face {
-    position: absolute;
-    display: grid;
-    grid-template-rows: repeat(var(--cubeSize), var(--cell));
-    grid-template-columns: repeat(var(--cubeSize), var(--cell));
-  }
-
-  .face > div {
-    border-radius: 0;
-    border-left: 2px solid black;
-    border-top: 2px solid black;
-  }
-
   .face-u {
     grid-row: 1;
     grid-column: 2;
@@ -195,51 +162,28 @@
     border-right: 2px solid black;
   }
 
-  .face input[type="text"] {
-    @apply text-dark;
-    background: rgba(0, 0, 0, 0);
-    border: none;
-    border-radius: 0;
-    border-left: 2px solid black;
-    border-top: 2px solid black;
-    font-size: calc(0.75 * var(--cell));
-    height: 100%;
-    line-height: normal;
-    outline: none;
-    text-align: center;
-    width: 100%;
-    padding: 0;
-    position: relative;
-  }
-
-  .face input[type="text"]:focus,
-  .face input[type="text"]:hover {
-    background: rgba(0, 0, 0, 0.4);
-    cursor: pointer;
-  }
-
   .white {
-    background: white;
+    background-color: white;
   }
 
   .red {
-    background: red;
+    background-color: red;
   }
 
   .green {
-    background: #33cc33;
+    background-color: #33cc33;
   }
 
   .orange {
-    background: orange;
+    background-color: orange;
   }
 
   .blue {
-    background: #0070c0;
+    background-color: #0070c0;
   }
 
   .yellow {
-    background: yellow;
+    background-color: yellow;
   }
 
   .help {

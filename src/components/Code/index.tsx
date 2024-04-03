@@ -1,12 +1,31 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import codeConverter from "@/utils/codeConverter";
 import { useTranslation } from "../../i18n/client";
 
-const Code = () => {
+const Code = ({ cubeSize }: { cubeSize: number }) => {
   const { t } = useTranslation();
-  const cubeSize = 3;
   const faceSize = cubeSize * cubeSize;
+  const elementRef = useRef<HTMLDivElement>(null);
+  const [cellWidth, setWidth] = useState(0);
+  useEffect(() => {
+    const handleResize = () => {
+      if (elementRef.current) {
+        setWidth(
+          Math.min(
+            Math.trunc(elementRef.current.offsetWidth / cubeSize / 4),
+            50,
+          ),
+        );
+      }
+    };
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, [cubeSize]);
+
   const faces = [
     "face-u white",
     "face-l orange",
@@ -60,38 +79,55 @@ const Code = () => {
                 </div>
               ))}
             </div>
-            <div className="parent-container">
-              <div className="cube">
-                {faces.map((face, faceIndex) => (
-                  <div className={`face ${face}`} key={faceIndex}>
-                    {Array.from({ length: faceSize }).map((_, cellIndex) =>
-                      !(cellIndex === (faceSize - 1) / 2) ? (
-                        <input
-                          key={faceIndex * faceSize + cellIndex}
-                          type="text"
-                          className="part uppercase"
-                          onFocus={(e) => e.target.select()}
-                          maxLength={1}
-                          value={(
-                            inputValues[faceIndex * faceSize + cellIndex] ?? ""
-                          ).trim()}
-                          onChange={(e) =>
-                            handleChange(
-                              faceIndex * faceSize + cellIndex,
-                              e.target.value ?? "",
-                            )
-                          }
-                        />
-                      ) : (
-                        <div
-                          className="part"
-                          key={faceIndex * faceSize + cellIndex}
-                        ></div>
-                      ),
-                    )}
-                  </div>
-                ))}
-              </div>
+            <div ref={elementRef} className="flex items-center justify-center">
+              {cellWidth !== 0 && (
+                <div
+                  className="relative grid grid-cols-4 grid-rows-3"
+                  style={{
+                    height: `${3 * cubeSize * cellWidth}px`,
+                    width: `${4 * cubeSize * cellWidth}px`,
+                  }}
+                >
+                  {faces.map((face, faceIndex) => (
+                    <div
+                      className={`${face} absolute grid`}
+                      style={{
+                        gridTemplateRows: `repeat(${cubeSize}, ${cellWidth}px)`,
+                        gridTemplateColumns: `repeat(${cubeSize}, ${cellWidth}px)`,
+                      }}
+                      key={faceIndex}
+                    >
+                      {Array.from({ length: faceSize }).map((_, cellIndex) =>
+                        !(cellIndex === (faceSize - 1) / 2) ? (
+                          <input
+                            key={faceIndex * faceSize + cellIndex}
+                            type="text"
+                            className={`relative h-full w-full rounded-none border-l-2  border-t-2 border-black bg-transparent p-0 text-center uppercase leading-normal text-dark outline-none hover:cursor-pointer hover:bg-black/40`}
+                            style={{ fontSize: `${0.75 * cellWidth}px` }}
+                            onFocus={(e) => e.target.select()}
+                            maxLength={1}
+                            value={(
+                              inputValues[faceIndex * faceSize + cellIndex] ??
+                              ""
+                            ).trim()}
+                            onChange={(e) =>
+                              handleChange(
+                                faceIndex * faceSize + cellIndex,
+                                e.target.value ?? "",
+                              )
+                            }
+                          />
+                        ) : (
+                          <div
+                            className="rounded-none border-l-2 border-t-2 border-black"
+                            key={faceIndex * faceSize + cellIndex}
+                          ></div>
+                        ),
+                      )}
+                    </div>
+                  ))}
+                </div>
+              )}
             </div>
           </div>
         </div>
