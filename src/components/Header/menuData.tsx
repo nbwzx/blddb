@@ -10,6 +10,11 @@ const menuData: Menu[] = [
         path: "/corner",
         newTab: false,
       },
+      {
+        title: "code.title",
+        path: "/code",
+        newTab: false,
+      },
     ],
   },
   {
@@ -17,8 +22,8 @@ const menuData: Menu[] = [
     newTab: false,
     submenu: [
       {
-        title: "corner.title",
-        path: "/corner",
+        title: "code.title",
+        path: "/bigbld/code",
         newTab: false,
       },
     ],
