@@ -1,4 +1,4 @@
-import { useTranslation } from "../../i18n/client";
+import { useTranslation } from "@/i18n/client";
 
 export function updateMetadata(
   document: Document,

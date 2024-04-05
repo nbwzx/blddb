@@ -17,9 +17,8 @@ const convertDetectedLanguage = (lng: string) => {
     return "zh-CN";
   } else if (lng.startsWith("ja")) {
     return "ja";
-  } else {
-    return "en";
   }
+  return "en";
 };
 
 // Initialize i18next for the client side
@@ -34,9 +33,8 @@ i18next
   )
   .init({
     ...getOptions(),
-    lng: undefined, // detect the language on the client
     detection: {
-      convertDetectedLanguage: convertDetectedLanguage,
+      convertDetectedLanguage,
       // This will automatically update the cookie
       caches: ["cookie"],
     },
@@ -47,23 +45,25 @@ export function useTranslation() {
   const lng = useLocale();
 
   const translator = useTransAlias();
-  const { i18n } = translator;
+  const { i18n: i18nTranslator } = translator;
 
   // Run content is being rendered on server side
-  if (runsOnServerSide && lng && i18n.resolvedLanguage !== lng) {
-    i18n.changeLanguage(lng);
+  if (runsOnServerSide && lng && i18nTranslator.resolvedLanguage !== lng) {
+    i18nTranslator.changeLanguage(lng);
   } else {
     // Use our custom implementation when running on client side
     // eslint-disable-next-line react-hooks/rules-of-hooks
-    useCustomTranslationImplem(i18n, lng);
+    useCustomTranslationImplem(i18nTranslator, lng);
   }
   return translator;
 }
 
-function useCustomTranslationImplem(i18n: i18n, lng: Locales) {
+function useCustomTranslationImplem(i18nInput: i18n, lng: Locales) {
   // This effect changes the language of the application when the lng prop changes.
   useEffect(() => {
-    if (!lng || i18n.resolvedLanguage === lng) return;
-    i18n.changeLanguage(lng);
-  }, [lng, i18n]);
+    if (!lng || i18nInput.resolvedLanguage === lng) {
+      return;
+    }
+    i18nInput.changeLanguage(lng);
+  }, [lng, i18nInput]);
 }

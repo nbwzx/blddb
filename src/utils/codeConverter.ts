@@ -1,5 +1,3 @@
-"use strict";
-
 const codeConverter = (function () {
   const letteringSchemes = {
     Chichu: "DEGC GAAJEDCX TQLMBBLS QNJYKHIR ZZPSHFFY WTNPWIXK OOMR",
@@ -40,12 +38,12 @@ const codeConverter = (function () {
   };
 
   function codeTypeToNumber(codeType: string) {
-    const codeTypeToNumber = {
+    const codeTypeToNumberMap = {
       center: 1,
       edge: 2,
       corner: 3,
     };
-    return codeTypeToNumber[codeType] || 0;
+    return codeTypeToNumberMap[codeType] || 0;
   }
 
   function positionToCodeType(position: string) {
@@ -80,7 +78,7 @@ const codeConverter = (function () {
     const result: string[] = Array(initCode.length).fill("");
     const codeTypeValues = Array.from(initialInputValues)
       .map((char, index) =>
-        positionToCodeType(positionArray[index]) !== codeType ? " " : char,
+        positionToCodeType(positionArray[index]) === codeType ? char : " ",
       )
       .join("");
     for (let i = 0; i < initCode.length; i++) {

@@ -1,4 +1,5 @@
 "use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -129,8 +130,8 @@ const Header = () => {
                   }`}
                 >
                   <ul className="block lg:flex lg:space-x-2">
-                    {menuData.map((menuItem, index) => (
-                      <li key={index} className="group relative">
+                    {menuData.map((menuItem, menuIndex) => (
+                      <li key={menuIndex} className="group relative">
                         {menuItem.path ? (
                           <Link
                             href={menuItem.path}
@@ -146,10 +147,10 @@ const Header = () => {
                         ) : (
                           <>
                             <p
-                              onClick={() => handleSubmenu(index)}
+                              onClick={() => handleSubmenu(menuIndex)}
                               onMouseOver={() => {
                                 if (window.innerWidth >= 992) {
-                                  setOpenIndex(index);
+                                  setOpenIndex(menuIndex);
                                   setNavbarOpen(true);
                                 }
                               }}
@@ -169,24 +170,26 @@ const Header = () => {
                             </p>
                             <div
                               className={`submenu relative left-0 top-full rounded-sm bg-white transition-[top] duration-300 dark:bg-dark lg:invisible lg:absolute lg:top-[110%] lg:block lg:w-[200px] lg:p-2 lg:opacity-0 lg:shadow-lg  ${
-                                openIndex === index && navbarOpen
+                                openIndex === menuIndex && navbarOpen
                                   ? "block group-hover:opacity-100 lg:group-hover:visible lg:group-hover:top-full"
                                   : "hidden"
                               }`}
                             >
                               {menuItem.submenu &&
-                                menuItem.submenu.map((submenuItem, index) => (
-                                  <Link
-                                    href={submenuItem.path as string}
-                                    onClick={() => {
-                                      setNavbarOpen(false);
-                                    }}
-                                    key={index}
-                                    className="block rounded py-1.5 text-sm text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
-                                  >
-                                    {t(submenuItem.title)}
-                                  </Link>
-                                ))}
+                                menuItem.submenu.map(
+                                  (submenuItem, submenuIndex) => (
+                                    <Link
+                                      href={submenuItem.path as string}
+                                      onClick={() => {
+                                        setNavbarOpen(false);
+                                      }}
+                                      key={submenuIndex}
+                                      className="block rounded py-1.5 text-sm text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
+                                    >
+                                      {t(submenuItem.title)}
+                                    </Link>
+                                  ),
+                                )}
                             </div>
                           </>
                         )}

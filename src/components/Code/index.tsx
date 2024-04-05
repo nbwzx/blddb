@@ -1,4 +1,5 @@
 "use client";
+
 import React, { useEffect, useState, useRef } from "react";
 import codeConverter from "@/utils/codeConverter";
 import bigbldCodeConverter from "@/utils/bigbldCodeConverter";
@@ -49,7 +50,7 @@ const Code = ({ cubeSize }: { cubeSize: 3 | 5 }) => {
 
   useEffect(() => {
     if (cubeSize === 5) {
-      let storedValues = localStorage.getItem(localStorageKey);
+      const storedValues = localStorage.getItem(localStorageKey);
       // The index 1 is notEditableCells[0][0]
       if (storedValues && storedValues[1] === " ") {
         setIsStandard(false);
@@ -62,17 +63,17 @@ const Code = ({ cubeSize }: { cubeSize: 3 | 5 }) => {
     return array;
   };
 
-  const handleWingCoding = (isStandard: boolean) => {
+  const handleWingCoding = (isStandardBool: boolean) => {
     const initialInputValues = {
       3: codeConverter.initialInputValues,
       5: bigbldCodeConverter.initialInputValues,
     };
-    setIsStandard(isStandard);
-    let storedValues =
+    setIsStandard(isStandardBool);
+    const storedValues =
       localStorage.getItem(localStorageKey) ?? initialInputValues[cubeSize];
     if (
-      (storedValues[notEditableCells[0][0]] === " " && isStandard) ||
-      (storedValues[notEditableCells[1][0]] === " " && !isStandard)
+      (storedValues[notEditableCells[0][0]] === " " && isStandardBool) ||
+      (storedValues[notEditableCells[1][0]] === " " && !isStandardBool)
     ) {
       let storedValuesArray = storedValues.split("");
       for (let i = 0; i < 6; i++) {
@@ -132,7 +133,7 @@ const Code = ({ cubeSize }: { cubeSize: 3 | 5 }) => {
                       localStorage.setItem(localStorageKey, value);
                     }}
                   >
-                    {t("code." + scheme)}
+                    {t(`code.${scheme}`)}
                   </div>
                 ),
               )}
@@ -196,15 +197,22 @@ const Code = ({ cubeSize }: { cubeSize: 3 | 5 }) => {
                       key={faceIndex}
                     >
                       {Array.from({ length: faceSize }).map((_, cellIndex) =>
-                        !(
-                          cellIndex === (faceSize - 1) / 2 ||
-                          (cubeSize === 5 &&
-                            notEditableCells[+isStandard].includes(cellIndex))
-                        ) ? (
+                        cellIndex === (faceSize - 1) / 2 ||
+                        (cubeSize === 5 &&
+                          notEditableCells[Number(isStandard)].includes(
+                            cellIndex,
+                          )) ? (
+                          <div
+                            className="rounded-none border-l-2 border-t-2 border-black"
+                            key={faceIndex * faceSize + cellIndex}
+                          ></div>
+                        ) : (
                           <input
                             key={faceIndex * faceSize + cellIndex}
                             type="text"
-                            className={`relative h-full w-full rounded-none border-l-2  border-t-2 border-black bg-transparent p-0 text-center uppercase leading-normal text-dark outline-none hover:cursor-pointer hover:bg-black/40`}
+                            className={
+                              "relative h-full w-full rounded-none border-l-2  border-t-2 border-black bg-transparent p-0 text-center uppercase leading-normal text-dark outline-none hover:cursor-pointer hover:bg-black/40"
+                            }
                             style={{ fontSize: `${0.75 * cellWidth}px` }}
                             onFocus={(e) => e.target.select()}
                             maxLength={1}
@@ -219,11 +227,6 @@ const Code = ({ cubeSize }: { cubeSize: 3 | 5 }) => {
                               )
                             }
                           />
-                        ) : (
-                          <div
-                            className="rounded-none border-l-2 border-t-2 border-black"
-                            key={faceIndex * faceSize + cellIndex}
-                          ></div>
                         ),
                       )}
                     </div>

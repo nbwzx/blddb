@@ -1,4 +1,5 @@
 "use client";
+
 import React, { useState, useEffect } from "react";
 import { updateMetadata } from "./updateMetadata";
 import { switchLocaleAction } from "./switchLocale";

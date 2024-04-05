@@ -1,4 +1,5 @@
 "use client";
+
 import { useState } from "react";
 import SectionTitle from "../Common/SectionTitle";
 import OfferList from "./OfferList";

@@ -1,4 +1,3 @@
-"use strict";
 import commutator from "./commutator";
 
 const rewrite = (function () {
@@ -111,7 +110,7 @@ const rewrite = (function () {
     "S'": "F B' z'",
   };
 
-  function rewrite(alg: string, ALG_ALLOWED: string[]) {
+  function main(alg: string, ALG_ALLOWED: string[]) {
     function processMove(res: string[], rotationIndex: number) {
       let rotationIndexOut = rotationIndex;
       for (let i = 0; i < res.length; i++) {
@@ -164,37 +163,13 @@ const rewrite = (function () {
   }
 
   function single(alg: string) {
-    return rewrite(alg, [
-      "U",
-      "R",
-      "F",
-      "D",
-      "L",
-      "B",
-      "E",
-      "M",
-      "S",
-      "y",
-      "z",
-    ]);
+    // prettier-ignore
+    return main(alg, ["U", "R", "F", "D", "L", "B", "E", "M", "S", "y", "z"]);
   }
 
   function righty(alg: string) {
-    return rewrite(alg, [
-      "R",
-      "r",
-      "U",
-      "d",
-      "D",
-      "u",
-      "F",
-      "b",
-      "B",
-      "f",
-      "E",
-      "M",
-      "S",
-    ]);
+    // prettier-ignore
+    return main(alg, ["R", "r", "U", "d", "D", "u", "F", "b", "B", "f", "E", "M", "S"]);
   }
 
   return {

@@ -1,4 +1,5 @@
 "use client";
+
 import cornerNightmare from "public/data/json/cornerNightmare.json";
 import cornerManmade from "public/data/json/cornerManmade.json";
 import cornerNightmareSelected from "public/data/json/cornerNightmareSelected.json";
@@ -175,7 +176,7 @@ const Corner = () => {
                     >
                       {Object.entries(modeToEmoji).map(([mode, emoji]) => (
                         <option key={mode} value={mode}>
-                          {emoji + t("common." + mode)}
+                          {emoji + t(`common.${mode}`)}
                         </option>
                       ))}
                     </select>

@@ -1,64 +1,64 @@
-"use strict";
 import rewrite from "./rewrite";
+
 const finger = (function () {
-  function finger(alg: string, position: number) {
+  function fingerAvailable(alg: string, position: number) {
     // R' F R' S' R F R' S R F2 R
     // if (fingerback(alg, position) > 5) {
-    //     return 0;
+    //     return false;
     // }
     let fingerposition = position;
     const arr = alg.split(" ");
     for (let i = 0; i <= arr.length - 1; i++) {
       if (i > 0 && arr[i][0] === "E") {
         if (arr[i - 1] === "U2") {
-          return 0;
+          return false;
         }
         if (arr[i - 1][0] === "U" && arr[i] === "E2") {
-          return 0;
+          return false;
         }
       }
       if (i < arr.length - 1 && arr[i][0] === "E") {
         if (arr[i + 1][0] === "D") {
-          return 0;
+          return false;
         }
       }
       if (i > 0 && arr[i][0] === "S") {
         if (arr[i - 1] === "F2") {
-          return 0;
+          return false;
         }
       }
       if (i < arr.length - 1 && arr[i][0] === "S") {
         if (arr[i + 1][0] === "B") {
-          return 0;
+          return false;
         }
       }
       if (i > 0 && arr[i] === "S2") {
         if (arr[i - 1][0] === "F") {
-          return 0;
+          return false;
         }
       }
       if (i < arr.length - 1 && arr[i] === "S2") {
         if (arr[i + 1][0] === "B") {
-          return 0;
+          return false;
         }
       }
       if (i > 0 && arr[i][0] === "B") {
         if (arr[i - 1][0] === "F") {
           if (arr[i - 1] === "F2" || arr[i] === "B2") {
-            return 0;
+            return false;
           }
         }
       }
       if (i > 0 && arr[i][0] === "D") {
         if (arr[i - 1][0] === "u") {
-          return 0;
+          return false;
         }
       }
       // U E R S' R' U' R S R' E'
       if (i > 0 && arr[i][0] === "E") {
         if (arr[i - 1][0] === "U") {
           if (fingerposition !== 2) {
-            return 0;
+            return false;
           }
         }
       }
@@ -74,7 +74,7 @@ const finger = (function () {
               arr[i + 1][0] === "M" ||
               arr[i + 1][0] === "S"
             ) {
-              return 0;
+              return false;
             }
           }
         }
@@ -87,7 +87,7 @@ const finger = (function () {
           arr[i] === "S2" ||
           arr[i] === "M2")
       ) {
-        return 0;
+        return false;
       }
       if (
         fingerposition === 2 &&
@@ -96,11 +96,11 @@ const finger = (function () {
           arr[i] === "S2" ||
           arr[i] === "E2")
       ) {
-        return 0;
+        return false;
       }
       // R U2 R2 F' R S R' F R S' R U2 R'
       if (fingerposition === 1 && arr[i] === "B2") {
-        return 0;
+        return false;
       }
       if (
         fingerposition === 0 &&
@@ -110,7 +110,7 @@ const finger = (function () {
           arr[i] === "S2" ||
           arr[i] === "M2")
       ) {
-        return 0;
+        return false;
       }
       if (arr[i] === "R" || arr[i] === "r") {
         fingerposition = fingerposition + 1;
@@ -141,13 +141,13 @@ const finger = (function () {
         }
       }
       if (fingerposition === 5 || fingerposition === -1) {
-        return 0;
+        return false;
       }
     }
     if (fingerposition === 4 || fingerposition === 0) {
-      return 0;
+      return false;
     }
-    return 1;
+    return true;
   }
 
   function fingerpain(alg: string, position: number) {
@@ -285,17 +285,17 @@ const finger = (function () {
       count = 0;
     for (let i = 0; i <= 10; i++) {
       if (
-        finger(algRighty, 2) === 1 &&
+        fingerAvailable(algRighty, 2) &&
         (fingerpain(algRighty, 2) === i || fingerpain(algRighty, 2) === i + 1)
       ) {
         count = count + 1;
         fingerbegin.push("finger.homegrip");
       }
-      if (finger(algRighty, 1) === 1 && fingerpain(algRighty, 1) === i) {
+      if (fingerAvailable(algRighty, 1) && fingerpain(algRighty, 1) === i) {
         count = count + 1;
         fingerbegin.push("finger.thumbdown");
       }
-      if (finger(algRighty, 3) === 1 && fingerpain(algRighty, 3) === i) {
+      if (fingerAvailable(algRighty, 3) && fingerpain(algRighty, 3) === i) {
         count = count + 1;
         fingerbegin.push("finger.thumbup");
       }

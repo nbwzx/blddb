@@ -1,5 +1,3 @@
-"use strict";
-
 const bigbldCodeConverter = (function () {
   const letteringSchemes = {
     Chichu:

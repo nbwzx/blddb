@@ -46,7 +46,7 @@ const Table = ({
       }
       const fingerResult = finger
         .fingerbeginfrom(item[0])
-        .map((finger) => t(finger))
+        .map((word) => t(word))
         .join("/");
       for (let j = 0; j < item.length; j++) {
         const commutatorResult = commutator.search({
@@ -56,23 +56,21 @@ const Table = ({
 
         let sourceResult: JSX.Element[] = [];
         if (isManmade) {
-          sourceResult = source.map((item: string, index: number) => {
-            let sourceElement: JSX.Element;
-            if (sourceToUrl && item in sourceToUrl) {
+          sourceResult = source.map((name: string, index: number) => {
+            let sourceElement: JSX.Element = <>{name}</>;
+            if (sourceToUrl && name in sourceToUrl) {
               sourceElement = (
                 <a
                   href={
-                    sourceToUrl[item][
-                      codeType === "corner" ? sourceToUrl[item].length - 1 : 0
+                    sourceToUrl[name][
+                      codeType === "corner" ? sourceToUrl[name].length - 1 : 0
                     ]
                   }
                   target="_blank"
                 >
-                  {item}
+                  {name}
                 </a>
               );
-            } else {
-              sourceElement = <>{item}</>;
             }
             return (
               <React.Fragment key={`${key}-source-${index}`}>

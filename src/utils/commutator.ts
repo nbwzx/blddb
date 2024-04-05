@@ -3,7 +3,6 @@
  * Copyright (c) 2022-2023 Zixing Wang
  * Licensed under MIT (https://github.com/nbwzx/commutator/blob/main/LICENSE)
  */
-"use strict";
 
 const commutator = (function () {
   const MAX_INT = 4294967295;

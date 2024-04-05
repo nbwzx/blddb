@@ -11,7 +11,7 @@ async function initI18next(lang: Locales) {
     .use(
       resourcesToBackend(
         // Get the JSON file that matches the locale and namespace
-        (lang: string) => import(`public/locales/${lang}.json`),
+        (langName: string) => import(`public/locales/${langName}.json`),
       ),
     )
     // Initialize i18next with the options we created earlier
