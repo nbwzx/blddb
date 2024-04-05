@@ -13,8 +13,9 @@ import Footer from "@/components/Footer";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Free Next.js Template for Startup and SaaS",
-  description: "This is Home for Startup Nextjs Template",
+  other: {
+    title_locales: "title",
+  },
   // other metadata
 };
 
