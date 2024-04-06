@@ -11,6 +11,11 @@ const menuData: Menu[] = [
         newTab: false,
       },
       {
+        title: "edge.title",
+        path: "/edge",
+        newTab: false,
+      },
+      {
         title: "code.title",
         path: "/code",
         newTab: false,

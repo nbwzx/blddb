@@ -16,6 +16,7 @@ const Table = ({
   codeType: string;
   inputText: string;
   data:
+    | {}
     | { [key: string]: string[] }
     | { [key: string]: [alg: string[], source: string[]][] };
   divRef: React.RefObject<HTMLDivElement>;
