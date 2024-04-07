@@ -26,7 +26,7 @@ export default function RootLayout({
 
       <body
         suppressHydrationWarning
-        className={`bg-[#FCFCFC] dark:bg-black ${inter.className}`}
+        className={`bg-[#FCFCFC] dark:bg-gray-dark ${inter.className}`}
       >
         <div className="flex-wrapper ">
           <Providers>
