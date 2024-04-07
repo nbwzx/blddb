@@ -45,7 +45,7 @@
     width: 100%;
     height: 100%;
     z-index: 999999999 !important;
-    background-color: #fff;
+    @apply bg-white dark:bg-black;
     top: 0;
     left: 0;
     right: 0;
@@ -67,7 +67,7 @@
     width: 13px;
     height: 13px;
     border-radius: 50%;
-    background: #000;
+    @apply bg-black dark:bg-white;
     animation-timing-function: cubic-bezier(0, 1, 1, 0);
   }
   .preloader .lds-ellipsis div:nth-child(1) {
