@@ -65,8 +65,12 @@ const menuData: Menu[] = [
     title: "common.code",
     submenu: [
       {
-        title: "code.title",
+        title: "code.3BLD",
         path: "/code",
+      },
+      {
+        title: "code.BigBLD",
+        path: "/bigbld/code",
       },
     ],
   },

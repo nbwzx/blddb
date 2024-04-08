@@ -116,7 +116,7 @@ const Code = ({ cubeSize }: { cubeSize: 3 | 5 }) => {
         <div className="-mx-4 flex flex-wrap justify-center">
           <div className="w-full px-4 lg:w-10/12">
             <h2 className="mb-8 text-center text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight">
-              {t("code.title")}
+              {cubeSize === 3 ? t("code.3BLD") : t("code.BigBLD")}
             </h2>
             <div className="mb-5">
               {t("code.setting")}

@@ -3,7 +3,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   other: {
-    title_locales: "code.title",
+    title_locales: "code.3BLD",
   },
   // other metadata
 };
