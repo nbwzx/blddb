@@ -123,7 +123,7 @@ const Header = () => {
                 </button>
                 <nav
                   id="navbarCollapse"
-                  className={`navbar absolute right-0 z-30 w-[200px] rounded border-[.5px] border-body-color/50 bg-white px-6 py-4 duration-300 dark:border-body-color/20 dark:bg-dark lg:visible lg:static lg:w-auto lg:border-none lg:!bg-transparent lg:p-0 lg:opacity-100 ${
+                  className={`navbar absolute right-0 z-30 w-[210px] rounded border-[.5px] border-body-color/50 bg-white px-6 py-4 duration-300 dark:border-body-color/20 dark:bg-dark lg:visible lg:static lg:w-auto lg:border-none lg:!bg-transparent lg:p-0 lg:opacity-100 ${
                     navbarOpen
                       ? "visibility top-full opacity-100"
                       : "invisible top-[120%] opacity-0"
@@ -136,7 +136,7 @@ const Header = () => {
                           <Link
                             href={menuItem.path}
                             onClick={() => setNavbarOpen(false)}
-                            className={`flex py-2 text-base lg:mr-0 lg:inline-flex lg:px-2 ${
+                            className={`flex whitespace-nowrap py-2 text-base font-medium lg:mr-0 lg:inline-flex lg:px-1 ${
                               usePathName === menuItem.path
                                 ? "text-primary dark:text-white"
                                 : "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
@@ -154,7 +154,7 @@ const Header = () => {
                                   setNavbarOpen(true);
                                 }
                               }}
-                              className="flex cursor-pointer items-center justify-between py-2 text-base text-dark group-hover:text-primary dark:text-white/70 dark:group-hover:text-white lg:mr-0 lg:inline-flex lg:px-2"
+                              className="flex cursor-pointer items-center justify-between whitespace-nowrap py-2 text-base font-medium text-dark group-hover:text-primary dark:text-white/70 dark:group-hover:text-white lg:mr-0 lg:inline-flex lg:px-1"
                             >
                               {t(menuItem.title)}
                               <span>
@@ -184,7 +184,7 @@ const Header = () => {
                                         setNavbarOpen(false);
                                       }}
                                       key={submenuIndex}
-                                      className="block rounded py-1.5 text-sm text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
+                                      className="block whitespace-nowrap rounded py-1.5 text-sm text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
                                     >
                                       {t(submenuItem.title)}
                                     </Link>

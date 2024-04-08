@@ -2,7 +2,7 @@ import { Menu } from "@/types/menu";
 
 const menuData: Menu[] = [
   {
-    title: "3BLD",
+    title: "common.3BLD",
     newTab: false,
     submenu: [
       {
@@ -23,7 +23,7 @@ const menuData: Menu[] = [
     ],
   },
   {
-    title: "BigBLD",
+    title: "common.BigBLD",
     newTab: false,
     submenu: [
       {
@@ -54,7 +54,7 @@ const menuData: Menu[] = [
     ],
   },
   {
-    title: "Nightmare",
+    title: "common.Nightmare",
     newTab: false,
     submenu: [
       {
@@ -65,7 +65,7 @@ const menuData: Menu[] = [
     ],
   },
   {
-    title: "Tools",
+    title: "common.Tools",
     newTab: false,
     submenu: [
       {
@@ -76,7 +76,7 @@ const menuData: Menu[] = [
     ],
   },
   {
-    title: "Settings",
+    title: "common.code",
     newTab: false,
     submenu: [
       {
@@ -87,8 +87,8 @@ const menuData: Menu[] = [
     ],
   },
   {
-    title: "Readme",
-    path: "/code",
+    title: "common.Readme",
+    path: "https://docs.blddb.net",
     newTab: false,
   },
 ];
