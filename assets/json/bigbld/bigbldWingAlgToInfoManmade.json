@@ -1559,7 +1559,8 @@
             [
                 "Andrew Tan Jing Bang",
                 "Antonio Kam (甘浩東)",
-                "Michael Tripodi"
+                "Michael Tripodi",
+                "Ryan Eckersley"
             ],
             "R' F':[R f R',F2]"
         ],
@@ -5688,7 +5689,8 @@
             [
                 "Andrew Tan Jing Bang",
                 "Antonio Kam (甘浩東)",
-                "Michael Tripodi"
+                "Michael Tripodi",
+                "Ryan Eckersley"
             ],
             "R' F:[R f R',F2]"
         ],
@@ -24562,13 +24564,6 @@
     ],
     "CEQ": [
         [
-            "u' L' u' L U' L' u L Uw",
-            [
-                "Ryan Eckersley"
-            ],
-            "Uw':[U,L' u' L]"
-        ],
-        [
             "L' u2 L U' L' u2 L U",
             [
                 "Dong Zhu (朱栋)"
@@ -25068,13 +25063,6 @@
         ]
     ],
     "CQE": [
-        [
-            "Uw' L' u' L U L' u L u",
-            [
-                "Ryan Eckersley"
-            ],
-            "Uw':[L' u' L,U]"
-        ],
         [
             "U' L' u2 L U L' u2 L",
             [
@@ -28409,6 +28397,13 @@
             "z':[U' l2 U,L']"
         ],
         [
+            "Uw U L' u' L U' L' u L Uw'",
+            [
+                "Ryan Eckersley"
+            ],
+            "Uw:[U,L' u' L]"
+        ],
+        [
             "r' U2 L U' r U L' U' r' U' r",
             [
                 "Xi Lu (鲁曦)"
@@ -30345,6 +30340,13 @@
             "z':[L',U' l2 U]"
         ],
         [
+            "Uw L' u' L U L' u L U' Uw'",
+            [
+                "Ryan Eckersley"
+            ],
+            "Uw:[L' u' L,U]"
+        ],
+        [
             "r' U r U L U' r' U L' U2 r",
             [
                 "Xi Lu (鲁曦)"
@@ -31869,15 +31871,6 @@
             "D:[R' F R,f]"
         ]
     ],
-    "HCI": [
-        [
-            "R' F' R f R' F R f'",
-            [
-                "Ryan Eckersley"
-            ],
-            "[R' F' R,f]"
-        ]
-    ],
     "HCJ": [
         [
             "D R2 U' r U R2 U' r' U D'",
@@ -32154,15 +32147,6 @@
                 "Dong Zhu (朱栋)"
             ],
             "r2:[l' U l,D2]"
-        ]
-    ],
-    "HIC": [
-        [
-            "f R' F' R f' R' F R",
-            [
-                "Ryan Eckersley"
-            ],
-            "[f,R' F' R]"
         ]
     ],
     "HIJ": [
