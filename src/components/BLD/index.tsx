@@ -3,24 +3,54 @@
 import sourceToUrl from "public/data/json/sourceToUrl.json";
 import React, { useState, useEffect, useRef } from "react";
 import { useTranslation } from "@/i18n/client";
+import codeConverter from "@/utils/codeConverter";
 import bigbldCodeConverter from "@/utils/bigbldCodeConverter";
 import Table from "@/components/Table";
 
-const Bigbld = ({ codeType }: { codeType: string }) => {
+const BLD = ({ codeType }: { codeType: string }) => {
   const { t } = useTranslation();
   const tableRef = useRef<HTMLTableElement>(null);
   const divRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
   const selectRefs = useRef<HTMLSelectElement[]>([]);
   const modeRef = useRef<HTMLSelectElement>(null);
-  const manmade = require(`public/data/json/bigbld/${codeType}Manmade.json`);
-  const modeToData = {
-    manmade,
-  };
-  const modeToSelected = {};
-  const modeToEmoji = {
-    manmade: "\u{2009}\u{F2BD}\u{2009}",
-  };
+  let is3bld = true;
+  let converter = codeConverter;
+  const bigbldCodeTypes = ["wing", "xcenter", "tcenter", "midge"];
+  if (bigbldCodeTypes.indexOf(codeType) !== -1) {
+    converter = bigbldCodeConverter;
+    is3bld = false;
+  }
+  const manmade = is3bld
+    ? require(`public/data/json/${codeType}Manmade.json`)
+    : require(`public/data/json/bigbld/${codeType}Manmade.json`);
+  const nightmare = is3bld
+    ? require(`public/data/json/${codeType}Nightmare.json`)
+    : {};
+  const nightmareSelected = is3bld
+    ? require(`public/data/json/${codeType}NightmareSelected.json`)
+    : {};
+  const modeToData = is3bld
+    ? {
+        nightmare,
+        manmade,
+      }
+    : {
+        manmade,
+      };
+  const modeToSelected = is3bld
+    ? {
+        nightmare: nightmareSelected,
+      }
+    : {};
+  const modeToEmoji = is3bld
+    ? {
+        nightmare: "\u{1F480}",
+        manmade: "\u{2009}\u{F2BD}\u{2009}",
+      }
+    : {
+        manmade: "\u{2009}\u{F2BD}\u{2009}",
+      };
 
   useEffect(() => {
     const observer = new MutationObserver((mutationsList) => {
@@ -58,8 +88,8 @@ const Bigbld = ({ codeType }: { codeType: string }) => {
   const [inputText, setInputText] = useState("");
   const [selectValues, setSelectValues] = useState(["", "", ""]);
   const [modeValue, setModeValue] = useState("");
-  const [data, setdataValue] = useState(manmade);
-  const [selected, setSelected] = useState({});
+  const [data, setdataValue] = useState(is3bld ? nightmare : manmade);
+  const [selected, setSelected] = useState(is3bld ? nightmareSelected : {});
 
   const scrollToTop = () => {
     window.scrollTo({
@@ -72,10 +102,7 @@ const Bigbld = ({ codeType }: { codeType: string }) => {
     const newValue = e.target.value.toUpperCase();
     setInputText(newValue);
     setSelectValues(
-      bigbldCodeConverter.customCodeToPosition(
-        newValue.padEnd(3, " "),
-        codeType,
-      ),
+      converter.customCodeToPosition(newValue.padEnd(3, " "), codeType),
     );
     scrollToTop();
   };
@@ -87,7 +114,7 @@ const Bigbld = ({ codeType }: { codeType: string }) => {
     const newSelectValues = [...selectValues];
     newSelectValues[index] = e.target.value;
     setSelectValues(newSelectValues);
-    setInputText(bigbldCodeConverter.positionToCustomCode(newSelectValues));
+    setInputText(converter.positionToCustomCode(newSelectValues));
     scrollToTop();
   };
 
@@ -101,9 +128,8 @@ const Bigbld = ({ codeType }: { codeType: string }) => {
 
   const [filteredPositions, setFilteredPositions] = useState([] as string[]);
   useEffect(() => {
-    const filtered = bigbldCodeConverter.positionArray.filter(
-      (position) =>
-        bigbldCodeConverter.positionToCodeType(position) === codeType,
+    const filtered = converter.positionArray.filter(
+      (position) => converter.positionToCodeType(position) === codeType,
     );
     setFilteredPositions(filtered);
   }, [codeType]);
@@ -199,4 +225,4 @@ const Bigbld = ({ codeType }: { codeType: string }) => {
   );
 };
 
-export default Bigbld;
+export default BLD;

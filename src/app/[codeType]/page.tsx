@@ -1,4 +1,4 @@
-import Threebld from "@/components/Threebld";
+import BLD from "@/components/BLD";
 
 export const dynamicParams = false;
 
@@ -23,5 +23,5 @@ export async function generateMetadata({
 
 export default function Page({ params }: { params: { codeType: string } }) {
   const { codeType } = params;
-  return <Threebld codeType={codeType} />;
+  return <BLD codeType={codeType} />;
 }
