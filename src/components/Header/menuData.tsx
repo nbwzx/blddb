@@ -27,6 +27,26 @@ const menuData: Menu[] = [
     newTab: false,
     submenu: [
       {
+        title: "wing.title",
+        path: "/bigbld/wing",
+        newTab: false,
+      },
+      {
+        title: "xcenter.title",
+        path: "/bigbld/xcenter",
+        newTab: false,
+      },
+      {
+        title: "tcenter.title",
+        path: "/bigbld/tcenter",
+        newTab: false,
+      },
+      {
+        title: "midge.title",
+        path: "/bigbld/midge",
+        newTab: false,
+      },
+      {
         title: "code.title",
         path: "/bigbld/code",
         newTab: false,

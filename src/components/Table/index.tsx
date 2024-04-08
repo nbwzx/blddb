@@ -2,6 +2,7 @@ import React, { JSX } from "react";
 import commutator from "@/utils/commutator";
 import finger from "@/utils/finger";
 import codeConverter from "@/utils/codeConverter";
+import bigbldCodeConverter from "@/utils/bigbldCodeConverter";
 import { useTranslation } from "@/i18n/client";
 
 const Table = ({
@@ -17,16 +18,23 @@ const Table = ({
   inputText: string;
   data:
     | {}
-    | { [key: string]: string[] }
-    | { [key: string]: [alg: string[], source: string[]][] };
+    | { [key: string]: string[] } // nightmare
+    | { [key: string]: [alg: string[], source: string[]][] } // manmade (3bld)
+    | { [key: string]: [alg: string, source: string[], comm: string][] }; // manmade (bigbld)
   divRef: React.RefObject<HTMLDivElement>;
   tableRef: React.RefObject<HTMLTableElement>;
   selected?: { [key: string]: string };
   sourceToUrl?: { [key: string]: string[] };
 }) => {
   const { t } = useTranslation();
-  const code = codeConverter.customCodeToInitCode(inputText, codeType);
-  const variantCode = codeConverter.initCodeToVariantCode(code, codeType);
+  let is3bld = true;
+  let converter = codeConverter;
+  const bigbldCodeTypes = ["wing", "xcenter", "tcenter", "midge"];
+  if (bigbldCodeTypes.indexOf(codeType) !== -1) {
+    converter = bigbldCodeConverter;
+    is3bld = false;
+  }
+  const variantCode = converter.customCodeToVariantCode(inputText, codeType);
   const tableElements: JSX.Element[] = [];
   const isManmade = Object.values(data)[0][0] instanceof Array;
 
@@ -39,9 +47,11 @@ const Table = ({
     for (let i = 0; i < value.length; i++) {
       let item: string[] = [];
       let source: string[] = [];
+      let comm: string = "";
       if (isManmade) {
-        item = value[i][0];
+        item = is3bld ? value[i][0] : [value[i][0]];
         source = value[i][1];
+        comm = is3bld ? "" : value[i][2];
       } else {
         item = [value[i]];
       }
@@ -50,10 +60,12 @@ const Table = ({
         .map((word) => t(word))
         .join("/");
       for (let j = 0; j < item.length; j++) {
-        const commutatorResult = commutator.search({
-          algorithm: item[j],
-          maxDepth: 1,
-        })[0];
+        const commutatorResult = is3bld
+          ? commutator.search({
+              algorithm: item[j],
+              maxDepth: 1,
+            })[0]
+          : comm;
 
         let sourceResult: JSX.Element[] = [];
         if (isManmade) {
@@ -94,7 +106,7 @@ const Table = ({
             {j === 0 && <td rowSpan={item.length}>{i + 1}</td>}
             <td>{item[j]}</td>
             <td>{commutatorResult}</td>
-            {j === 0 && <td rowSpan={item.length}>{fingerResult}</td>}
+            {j === 0 && is3bld && <td rowSpan={item.length}>{fingerResult}</td>}
             {isManmade && j === 0 && (
               <td className="help" rowSpan={item.length}>
                 {source.length}
@@ -113,7 +125,7 @@ const Table = ({
             <th>{t("table.no")}</th>
             <th>{t("table.algorithm")}</th>
             <th>{t("table.commutator")}</th>
-            <th>{t("table.thumbPosition")}</th>
+            {is3bld && <th>{t("table.thumbPosition")}</th>}
             {isManmade && <th>{t("table.source")}</th>}
           </tr>
         </thead>

@@ -1,4 +1,5 @@
 const codeConverter = (function () {
+  const localStorageKey = "code";
   const letteringSchemes = {
     Chichu: "DEGC GAAJEDCX TQLMBBLS QNJYKHIR ZZPSHFFY WTNPWIXK OOMR",
     Speffz: "AABD BDCCEEFH FHGGIIJL JLKKMMNP NPOOQQRT RTSSUUVX VXWW",
@@ -11,7 +12,7 @@ const codeConverter = (function () {
     "FUL", "FU", "FUR", "FL", "F", "FR", "FDL", "FD", "FDR",
     "RUF", "RU", "RUB", "RF", "R", "RB", "RDF", "RD", "RDB",
     "BUR", "BU", "BUL", "BR", "B", "BL", "BDR", "BD", "BDL",
-    "DFL", "DF", "DFR", "DL", "D", "DR", "DBL", "DB", "DBR"
+    "DFL", "DF", "DFR", "DL", "D", "DR", "DBL", "DB", "DBR",
   ];
   // prettier-ignore
   const nextPositionsMap = {
@@ -34,16 +35,15 @@ const codeConverter = (function () {
     "DF": "FD", "FD": "DF",
     "DL": "LD", "LD": "DL",
     "DR": "RD", "RD": "DR",
-    "DB": "BD", "BD": "DB"
+    "DB": "BD", "BD": "DB",
   };
 
   function codeTypeToNumber(codeType: string) {
     const codeTypeToNumberMap = {
-      center: 1,
       edge: 2,
       corner: 3,
     };
-    return codeTypeToNumberMap[codeType] || 0;
+    return codeTypeToNumberMap[codeType] || 1;
   }
 
   function positionToCodeType(position: string) {
@@ -58,7 +58,8 @@ const codeConverter = (function () {
   function customCodeToInitCode(code: string, codeType: string) {
     let storedValues = "";
     if (typeof localStorage !== "undefined") {
-      storedValues = localStorage.getItem("code") ?? initialInputValues;
+      storedValues =
+        localStorage.getItem(localStorageKey) ?? initialInputValues;
     }
     const result: string[] = Array(code.length).fill(" ");
     for (const i in positionArray) {
@@ -74,28 +75,24 @@ const codeConverter = (function () {
     return result.join("");
   }
 
-  function initCodeToPosition(initCode: string, codeType: string) {
-    const result: string[] = Array(initCode.length).fill("");
-    const codeTypeValues = Array.from(initialInputValues)
-      .map((char, index) =>
-        positionToCodeType(positionArray[index]) === codeType ? char : " ",
-      )
-      .join("");
-    for (let i = 0; i < initCode.length; i++) {
-      if (initCode[i] === " ") {
+  function customCodeToPosition(code: string, codeType: string) {
+    let storedValues = "";
+    if (typeof localStorage !== "undefined") {
+      storedValues =
+        localStorage.getItem(localStorageKey) ?? initialInputValues;
+    }
+    const result: string[] = Array(code.length).fill(" ");
+    for (const i in positionArray) {
+      if (positionToCodeType(positionArray[i]) !== codeType) {
         continue;
       }
-      const index = codeTypeValues.indexOf(initCode[i]);
-      if (index !== -1) {
-        result[i] = positionArray[index];
+      for (let j = 0; j < code.length; j++) {
+        if (storedValues[i] === code[j]) {
+          result[j] = positionArray[i];
+        }
       }
     }
     return result;
-  }
-
-  function customCodeToPosition(code: string, codeType: string) {
-    const initCode = customCodeToInitCode(code, codeType);
-    return initCodeToPosition(initCode, codeType);
   }
 
   function positionToInitCode(position: string[]) {
@@ -112,7 +109,8 @@ const codeConverter = (function () {
   function positionToCustomCode(position: string[]) {
     let storedValues = "";
     if (typeof localStorage !== "undefined") {
-      storedValues = localStorage.getItem("code") ?? initialInputValues;
+      storedValues =
+        localStorage.getItem(localStorageKey) ?? initialInputValues;
     }
     let result = "";
     for (const pos of position) {
@@ -135,17 +133,17 @@ const codeConverter = (function () {
     return permutations;
   }
 
-  function initCodeToVariantCode(code: string, codeType: string) {
-    const result = initCodeToPosition(code, codeType);
+  function customCodeToVariantCode(code: string, codeType: string) {
+    const result = customCodeToPosition(code, codeType);
     const displacePositions: string[][] = [result];
     for (let i = 1; i < codeTypeToNumber(codeType); i++) {
       displacePositions.push(
         displacePositions[i - 1].map((pos) => nextPositionsMap[pos]),
       );
     }
-    const displaceCode = displacePositions.map((pos) =>
-      positionToInitCode(pos),
-    );
+    const displaceCode = displacePositions
+      .map((pos) => positionToInitCode(pos))
+      .filter((initCode) => initCode.trim() !== "");
     const variantCode = generateCyclicPermutations(displaceCode);
     return variantCode;
   }
@@ -155,7 +153,7 @@ const codeConverter = (function () {
     customCodeToInitCode,
     customCodeToPosition,
     positionToCustomCode,
-    initCodeToVariantCode,
+    customCodeToVariantCode,
     initialInputValues,
     letteringSchemes,
     positionArray,

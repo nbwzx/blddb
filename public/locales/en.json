@@ -28,6 +28,22 @@
     "title": "3-Style Edge",
     "hint": "Please enter 3 letter pairs (buffer-position1-position2) you want to query (eg. ACG)"
   },
+  "wing": {
+    "title": "Wing",
+    "hint": "Please enter 3 letter pairs (buffer-position1-position2) you want to query (eg. ACG)"
+  },
+  "xcenter": {
+    "title": "X-center",
+    "hint": "Please enter 3 letter pairs (buffer-position1-position2) you want to query (eg. JAB)"
+  },
+  "tcenter": {
+    "title": "+-center",
+    "hint": "Please enter 3 letter pairs (buffer-position1-position2) you want to query (eg. ACF)"
+  },
+  "midge": {
+    "title": "Midge",
+    "hint": "Please enter 3 letter pairs (buffer-position1-position2) you want to query (eg. ACG)"
+  },
   "code": {
     "title": "Lettering Scheme",
     "setting": "Lettering Scheme:",
