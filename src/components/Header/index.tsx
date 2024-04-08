@@ -135,6 +135,11 @@ const Header = () => {
                         {menuItem.path ? (
                           <Link
                             href={menuItem.path}
+                            target={
+                              menuItem.path.startsWith("http")
+                                ? "_blank"
+                                : "_self"
+                            }
                             onClick={() => setNavbarOpen(false)}
                             className={`flex whitespace-nowrap py-2 text-base font-medium lg:mr-0 lg:inline-flex lg:px-1 ${
                               usePathName === menuItem.path
@@ -180,6 +185,13 @@ const Header = () => {
                                   (submenuItem, submenuIndex) => (
                                     <Link
                                       href={submenuItem.path as string}
+                                      target={
+                                        (submenuItem.path as string).startsWith(
+                                          "http",
+                                        )
+                                          ? "_blank"
+                                          : "_self"
+                                      }
                                       onClick={() => {
                                         setNavbarOpen(false);
                                       }}
