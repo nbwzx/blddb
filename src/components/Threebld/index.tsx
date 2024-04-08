@@ -1,28 +1,29 @@
 "use client";
 
-import edgeNightmare from "public/data/json/edgeNightmare.json";
-import edgeManmade from "public/data/json/edgeManmade.json";
-import edgeNightmareSelected from "public/data/json/edgeNightmareSelected.json";
 import sourceToUrl from "public/data/json/sourceToUrl.json";
 import React, { useState, useEffect, useRef } from "react";
 import { useTranslation } from "@/i18n/client";
 import codeConverter from "@/utils/codeConverter";
 import Table from "@/components/Table";
 
-const Edge = () => {
-  const codeType = "edge";
+const Threebld = ({ codeType }: { codeType: string }) => {
   const { t } = useTranslation();
   const tableRef = useRef<HTMLTableElement>(null);
   const divRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
   const selectRefs = useRef<HTMLSelectElement[]>([]);
   const modeRef = useRef<HTMLSelectElement>(null);
+  const nightmare = require(`public/data/json/${codeType}Nightmare.json`);
+  const manmade = require(`public/data/json/${codeType}Manmade.json`);
+  const nightmareSelected = require(
+    `public/data/json/${codeType}NightmareSelected.json`,
+  );
   const modeToData = {
-    nightmare: edgeNightmare,
-    manmade: edgeManmade,
+    nightmare,
+    manmade,
   };
   const modeToSelected = {
-    nightmare: edgeNightmareSelected,
+    nightmare: nightmareSelected,
   };
   const modeToEmoji = {
     nightmare: "\u{1F480}",
@@ -65,8 +66,8 @@ const Edge = () => {
   const [inputText, setInputText] = useState("");
   const [selectValues, setSelectValues] = useState(["", "", ""]);
   const [modeValue, setModeValue] = useState("");
-  const [data, setdataValue] = useState(edgeNightmare);
-  const [selected, setSelected] = useState(edgeNightmareSelected);
+  const [data, setdataValue] = useState(nightmare);
+  const [selected, setSelected] = useState(nightmareSelected);
 
   const scrollToTop = () => {
     window.scrollTo({
@@ -103,6 +104,14 @@ const Edge = () => {
     scrollToTop();
   };
 
+  const [filteredPositions, setFilteredPositions] = useState([] as string[]);
+  useEffect(() => {
+    const filtered = codeConverter.positionArray.filter(
+      (position) => codeConverter.positionToCodeType(position) === codeType,
+    );
+    setFilteredPositions(filtered);
+  }, [codeType]);
+
   return (
     <>
       <section className="pb-[120px] pt-[100px]">
@@ -125,18 +134,12 @@ const Edge = () => {
                       ref={(ref) =>
                         (selectRefs.current[index] = ref as HTMLSelectElement)
                       }
-                      className="text-transform: w-[3.5rem] rounded-sm border-b-[3px] border-gray-500 bg-inherit py-1 text-base font-medium uppercase text-dark outline-none transition-all duration-300 focus:border-primary dark:border-gray-100 dark:bg-gray-dark dark:text-white dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
+                      className="text-transform: w-[3.5rem] rounded-sm border-b-[3px] border-gray-500 bg-inherit py-1 text-base font-medium text-dark outline-none transition-all duration-300 focus:border-primary dark:border-gray-100 dark:bg-gray-dark dark:text-white dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
                     >
                       <option></option>
-                      {codeConverter.positionArray
-                        .filter(
-                          (position) =>
-                            codeConverter.positionToCodeType(position) ===
-                            codeType,
-                        )
-                        .map((position) => (
-                          <option key={position}>{position}</option>
-                        ))}
+                      {filteredPositions.map((position) => (
+                        <option key={position}>{position}</option>
+                      ))}
                     </select>
                     {index !== 2 && <span className="mx-1">--</span>}
                   </React.Fragment>
@@ -200,4 +203,4 @@ const Edge = () => {
   );
 };
 
-export default Edge;
+export default Threebld;
