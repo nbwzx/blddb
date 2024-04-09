@@ -1,6 +1,5 @@
 "use client";
 
-import sourceToUrl from "public/data/json/sourceToUrl.json";
 import React, { useState, useEffect, useRef } from "react";
 import { useTranslation } from "@/i18n/client";
 import codeConverter from "@/utils/codeConverter";
@@ -51,6 +50,9 @@ const BLD = ({ codeType }: { codeType: string }) => {
     : {
         manmade: "\u{2009}\u{F2BD}\u{2009}",
       };
+  const sourceToUrl = is3bld
+    ? require("public/data/json/sourceToUrl.json")
+    : require("public/data/json/bigbld/sourceToUrl.json");
 
   useEffect(() => {
     const observer = new MutationObserver((mutationsList) => {
