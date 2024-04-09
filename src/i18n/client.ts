@@ -33,6 +33,7 @@ i18next
   )
   .init({
     ...getOptions(),
+    lng: undefined, // detect the language on the client
     detection: {
       convertDetectedLanguage,
       // This will automatically update the cookie
