@@ -141,14 +141,10 @@ const Header = () => {
                                 : "_self"
                             }
                             onClick={() => setNavbarOpen(false)}
-                            className={`flex whitespace-nowrap py-2 text-base lg:mr-0 lg:inline-flex lg:px-1 ${
+                            className={`flex whitespace-nowrap py-2 text-base font-bold lg:mr-0 lg:inline-flex lg:px-1 lg:font-medium ${
                               usePathName === menuItem.path
                                 ? "text-primary dark:text-white"
                                 : "text-dark hover:text-primary dark:text-white dark:hover:text-white"
-                            } ${
-                              window.innerWidth >= 992
-                                ? "font-medium"
-                                : "font-bold"
                             }`}
                           >
                             {t(menuItem.title)}
@@ -163,11 +159,9 @@ const Header = () => {
                                   setNavbarOpen(true);
                                 }
                               }}
-                              className={`flex cursor-pointer items-center justify-between whitespace-nowrap py-2 text-base text-dark group-hover:text-primary dark:text-white dark:group-hover:text-white lg:mr-0 lg:inline-flex lg:px-1 ${
-                                window.innerWidth >= 992
-                                  ? "font-medium"
-                                  : "font-bold"
-                              }`}
+                              className={
+                                "flex cursor-pointer items-center justify-between whitespace-nowrap py-2 text-base font-bold text-dark group-hover:text-primary dark:text-white dark:group-hover:text-white lg:mr-0 lg:inline-flex lg:px-1 lg:font-medium"
+                              }
                             >
                               {t(menuItem.title)}
                               <span>
@@ -182,10 +176,10 @@ const Header = () => {
                               </span>
                             </p>
                             <div
-                              className={`submenu relative left-0 top-full rounded-sm transition-[top] duration-300 lg:invisible lg:absolute lg:top-[110%] lg:block lg:p-2 lg:opacity-0 lg:shadow-[1px_1px_3px_1px_rgba(0,0,0,0.2)]  ${
+                              className={`submenu relative left-0 top-full rounded-sm bg-white transition-[top] duration-300 dark:bg-dark lg:invisible lg:absolute lg:top-[110%] lg:block lg:bg-gray-100 lg:p-2 lg:opacity-0 lg:shadow-[1px_1px_3px_1px_rgba(0,0,0,0.2)] lg:dark:bg-gray-700 ${
                                 openIndex === menuIndex && navbarOpen
-                                  ? `block group-hover:opacity-100 lg:group-hover:visible lg:group-hover:top-full ${window.innerWidth >= 992 ? "bg-gray-100 dark:bg-gray-700" : "bg-white dark:bg-dark"}`
-                                  : "hidden bg-white dark:bg-dark"
+                                  ? "block group-hover:opacity-100 lg:group-hover:visible lg:group-hover:top-full"
+                                  : "hidden"
                               }`}
                             >
                               {menuItem.submenu &&
