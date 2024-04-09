@@ -128,13 +128,9 @@ const BLD = ({ codeType }: { codeType: string }) => {
     scrollToTop();
   };
 
-  const [filteredPositions, setFilteredPositions] = useState([] as string[]);
-  useEffect(() => {
-    const filtered = converter.positionArray.filter(
-      (position) => converter.positionToCodeType(position) === codeType,
-    );
-    setFilteredPositions(filtered);
-  }, [codeType]);
+  const filteredPositions = converter.positionArray.filter(
+    (position) => converter.positionToCodeType(position) === codeType,
+  );
 
   return (
     <>
