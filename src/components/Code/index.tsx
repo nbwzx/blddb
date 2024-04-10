@@ -140,7 +140,7 @@ const Code = ({ cubeSize }: { cubeSize: 3 | 5 }) => {
             </div>
             {cubeSize === 5 && (
               <div className="mb-5 flex">
-                Wing Coding Position:
+                {t("code.wingCodeSetting")}
                 <span
                   onClick={() => handleWingCoding(true)}
                   className={`${
@@ -149,7 +149,7 @@ const Code = ({ cubeSize }: { cubeSize: 3 | 5 }) => {
                       : "text-dark dark:text-white"
                   } ml-4 mr-4 cursor-pointer text-base font-semibold`}
                 >
-                  Standard (coding at UFr)
+                  {t("code.wingCode1")}
                 </span>
                 <div
                   onClick={() => handleWingCoding(!isStandard)}
@@ -174,7 +174,7 @@ const Code = ({ cubeSize }: { cubeSize: 3 | 5 }) => {
                       : "pointer-events-none text-primary"
                   } ml-4 cursor-pointer text-base font-semibold`}
                 >
-                  Non-standard (coding at FUr)
+                  {t("code.wingCode2")}
                 </span>
               </div>
             )}

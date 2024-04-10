@@ -1,6 +1,7 @@
 {
   "Home": "ホーム",
   "title": "BLD手順データベース",
+  "description": "BLDDB (blddb.net) is a comprehensive Rubik’s Cube Blindfolded algorithm database including 3‑style corner (all buffers), 3‑style edge (all buffers), corner twist, edge flip, etc. It provides many options for each case, so the users can select algorithm based on their own preference.",
   "common": {
     "pairs": "ナンバリング：",
     "position": "ステッカー：",
@@ -12,7 +13,8 @@
     "Nightmare": "悪夢",
     "Tools": "ツール",
     "code": "ナンバリング",
-    "Readme": "Readme"
+    "Readme": "Readme",
+    "Star": "Star on GitHub"
   },
   "finger": {
     "thumbdown": "下",
@@ -56,6 +58,9 @@
     "Chichu": "Chichu",
     "Speffz": "Speffz",
     "3BLD": "3BLD ナンバリング",
-    "BigBLD": "BigBLD ナンバリング"
+    "BigBLD": "BigBLD ナンバリング",
+    "wingCodeSetting": "Wing ナンバリング：",
+    "wingCode1": "標準（UFrでナンバリング）",
+    "wingCode2": "非標準（FUrでナンバリング）"
   }
 }

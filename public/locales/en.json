@@ -1,6 +1,7 @@
 {
   "Home": "Home",
   "title": "BLD Algorithm Database",
+  "description": "BLDDB (blddb.net) is a comprehensive Rubik’s Cube Blindfolded algorithm database including 3‑style corner (all buffers), 3‑style edge (all buffers), corner twist, edge flip, etc. It provides many options for each case, so the users can select algorithm based on their own preference.",
   "common": {
     "pairs": "Letter Pairs:",
     "position": "Position:",
@@ -12,7 +13,8 @@
     "Nightmare": "Nightmare",
     "Tools": "Tools",
     "code": "Lettering Scheme",
-    "Readme": "Readme"
+    "Readme": "Readme",
+    "Star": "Star on GitHub"
   },
   "finger": {
     "thumbdown": "Thumb down",
@@ -56,6 +58,9 @@
     "Chichu": "Chichu",
     "Speffz": "Speffz",
     "3BLD": "3BLD Lettering Scheme",
-    "BigBLD": "BigBLD Lettering Scheme"
+    "BigBLD": "BigBLD Lettering Scheme",
+    "wingCodeSetting": "Wing Coding Position:",
+    "wingCode1": "Standard (coding at UFr)",
+    "wingCode2": "Non-standard (coding at FUr)"
   }
 }

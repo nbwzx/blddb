@@ -1,6 +1,10 @@
+"use client";
+
 import Link from "next/link";
+import { useTranslation } from "@/i18n/client";
 
 const Hero = () => {
+  const { i18n, t } = useTranslation();
   return (
     <>
       <section
@@ -12,20 +16,20 @@ const Hero = () => {
             <div className="w-full px-4">
               <div className="mx-auto max-w-[800px] text-center">
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                  <span className="text-blue-500">BLD</span> Algorithm{" "}
-                  <span className="text-blue-500">D</span>ata
-                  <span className="text-blue-500">B</span>ase
+                  {i18n.resolvedLanguage === "zh-CN" ? (
+                    <>
+                      <span>{t("title")}</span>
+                    </>
+                  ) : (
+                    <>
+                      <span className="text-blue-500">BLD</span> Algorithm{" "}
+                      <span className="text-blue-500">D</span>ata
+                      <span className="text-blue-500">B</span>ase
+                    </>
+                  )}
                 </h1>
                 <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
-                  BLDDB (
-                  <a href="https://blddb.net" className="hover:text-primary">
-                    blddb.net
-                  </a>
-                  ) is a comprehensive Rubik&rsquo;s Cube Blindfolded algorithm
-                  database including 3‑style corner (all buffers), 3‑style edge
-                  (all buffers), corner twist, edge flip, etc. It provides many
-                  options for each case, so the users can select algorithm based
-                  on their own preference.
+                  {t("description")}
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
@@ -33,14 +37,14 @@ const Hero = () => {
                     target="_blank"
                     className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                   >
-                    Readme
+                    {t("common.Readme")}
                   </Link>
                   <Link
                     href="https://github.com/nbwzx/blddb"
                     target="_blank"
                     className="inline-block rounded-sm bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
                   >
-                    Star on GitHub
+                    {t("common.Star")}
                   </Link>
                 </div>
               </div>

@@ -1,6 +1,7 @@
 {
   "Home": "主页",
   "title": "盲拧公式库",
+  "description": "盲拧公式库 (blddb.net) 是一个包含了数万条公式的魔方盲拧公式库，有角块三循环、棱块三循环、翻角、翻棱等多种类型的公式。它兼容手机、电脑、平板等多种设备。盲拧公式库提供了多个备选公式，你可以自由地选择公式，从而定制出一套适合自己手法的公式集。",
   "common": {
     "pairs": "公式查询：",
     "position": "位置类：",
@@ -12,7 +13,8 @@
     "Nightmare": "噩梦",
     "Tools": "工具",
     "code": "编码",
-    "Readme": "说明"
+    "Readme": "说明",
+    "Star": "在 Github 点赞"
   },
   "finger": {
     "thumbdown": "下",
@@ -56,6 +58,9 @@
     "Chichu": "彳亍编码",
     "Speffz": "Speffz 编码",
     "3BLD": "三盲编码",
-    "BigBLD": "高盲编码"
+    "BigBLD": "高盲编码",
+    "wingCodeSetting": "翼棱编码位置：",
+    "wingCode1": "标准（在 UFr 位置编码）",
+    "wingCode2": "非标准（在 FUr 位置编码）"
   }
 }
