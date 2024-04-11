@@ -68,7 +68,7 @@ def sequence_to_state(sequence: str) -> str:
     return state
 
 
-def get_raw_code(code_type: str, sequence: str) -> str:
+def get_raw_code(code_type: str, sequence: str, edge_ch: str = edge_ch_default, corner_ch: str = corner_ch_default) -> str:
     full_char = ""
     state = sequence_to_state(sequence)
     steps_dict = {
@@ -76,8 +76,8 @@ def get_raw_code(code_type: str, sequence: str) -> str:
         "corner": 3
     }
     code_order_dict = {
-        "edge": edge_ch_default,
-        "corner": corner_ch_default
+        "edge": edge_ch,
+        "corner": corner_ch
     }
     code_order = code_order_dict[code_type]
     steps = steps_dict[code_type]
@@ -105,14 +105,31 @@ def centersolved(sequence: str) -> bool:
     return False
 
 
-def get_code_auto(x: str) -> tuple:
+def get_code_auto(x: str, edge_ch: str = edge_ch_default, corner_ch: str = corner_ch_default) -> tuple:
     if centersolved(x) == False:
         return ("", "")
     code_json = {}
-    code_json["edge"] = get_raw_code("edge", x)
-    code_json["corner"] = get_raw_code("corner", x)
+    code_json["edge"] = get_raw_code("edge", x, edge_ch, corner_ch)
+    code_json["corner"] = get_raw_code("corner", x, edge_ch, corner_ch)
     if len(code_json["edge"]) == 4 and len(code_json["corner"]) == 0:
         return ("edge", code_json["edge"][0] + code_json["edge"][2] + code_json["edge"][1])
     if len(code_json["edge"]) == 0 and len(code_json["corner"]) == 4:
         return ("corner", code_json["corner"][0] + code_json["corner"][2] + code_json["corner"][1])
+    if len(code_json["edge"]) == 6 and len(code_json["corner"]) == 0:
+        edge_flips = ["ABA", "CDC", "EFE", "GHG", "IJI", "KLK",
+                      "MNM", "OPO", "QRQ", "STS", "WXW", "YZY"]
+        if code_json["edge"][0:3] in edge_flips and code_json["edge"][3:6] in edge_flips:
+            return ("2flips", code_json["edge"][0] + code_json["edge"][3])
+    if len(code_json["edge"]) == 0 and len(code_json["corner"]) == 8:
+        corner_twists_cw = ["ABCA", "DEFD", "GHIG", "JKLJ",
+                            "WMNW", "OPQO", "RSTR", "XYZX"]
+        corner_twists_ccw = ["ACBA", "DFED", "GIHG", "JLKJ",
+                             "WNMW", "OQPO", "RTSR", "XZYX"]
+        if code_json["corner"][0:4] in corner_twists_cw and code_json["corner"][4:8] in corner_twists_ccw:
+            return ("2twists", code_json["corner"][4] + code_json["corner"][0])
+        if code_json["corner"][0:4] in corner_twists_ccw and code_json["corner"][4:8] in corner_twists_cw:
+            return ("2twists", code_json["corner"][0] + code_json["corner"][4])
+    if len(code_json["edge"]) == 3 and len(code_json["corner"]) == 3 and code_json["edge"][0] == code_json["edge"][2] and code_json["corner"][0] == code_json["corner"][2]:
+        return ("parity", code_json["edge"][0] + code_json["edge"][1] + code_json["corner"][0] + code_json["corner"][1])
+
     return ("", "")
