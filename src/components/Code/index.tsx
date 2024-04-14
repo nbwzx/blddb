@@ -119,28 +119,36 @@ const Code = ({ cubeSize }: { cubeSize: 3 | 5 }) => {
               {cubeSize === 3 ? t("code.3BLD") : t("code.BigBLD")}
             </h2>
             <div className="mb-5">
-              {t("code.setting")}
-              {Object.entries(letteringSchemes[cubeSize]).map(
-                ([scheme, value]) => (
-                  <div
-                    key={scheme}
-                    className="mb-1 ml-4 mt-1 inline-block cursor-pointer rounded-sm border-2 border-black bg-white px-4 py-2 text-base font-semibold text-black duration-300 ease-in-out hover:text-primary dark:border-white dark:bg-dark dark:text-white dark:hover:text-primary"
-                    onClick={() => {
-                      setInputValues(value);
-                      if (cubeSize === 5) {
-                        setIsStandard(true);
-                      }
-                      localStorage.setItem(localStorageKey, value);
-                    }}
-                  >
-                    {t(`code.${scheme}`)}
-                  </div>
-                ),
-              )}
+              {" "}
+              <div className="inline-block text-black dark:text-white">
+                {t("code.setting")}
+              </div>
+              <div className="inline-block">
+                {Object.entries(letteringSchemes[cubeSize]).map(
+                  ([scheme, value]) => (
+                    <div
+                      key={scheme}
+                      className="mb-1 ml-4 mt-1 inline-block cursor-pointer rounded-sm border-2 border-black bg-white px-4 py-2 text-base font-semibold text-black duration-300 ease-in-out hover:text-primary dark:border-white dark:bg-dark dark:text-white dark:hover:text-primary"
+                      onClick={() => {
+                        setInputValues(value);
+                        if (cubeSize === 5) {
+                          setIsStandard(true);
+                        }
+                        localStorage.setItem(localStorageKey, value);
+                      }}
+                    >
+                      {t(`code.${scheme}`)}
+                    </div>
+                  ),
+                )}
+              </div>
             </div>
             {cubeSize === 5 && (
               <div className="mb-5 flex">
-                {t("code.wingCodeSetting")}
+                {" "}
+                <div className="inline-block text-black dark:text-white">
+                  {t("code.wingCodeSetting")}
+                </div>
                 <span
                   onClick={() => handleWingCoding(true)}
                   className={`${

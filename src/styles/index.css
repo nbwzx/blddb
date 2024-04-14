@@ -186,7 +186,7 @@
   }
 
   table {
-    @apply whitespace-nowrap text-center text-lg font-medium leading-loose;
+    @apply whitespace-nowrap text-center text-lg font-medium leading-loose text-black dark:text-white;
   }
 
   th {

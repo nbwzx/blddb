@@ -142,7 +142,9 @@ const BLD = ({ codeType }: { codeType: string }) => {
                 <h2 className="mb-8 text-center text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight">
                   {t(`${codeType}.title`)}
                 </h2>
-                <p>{t(`${codeType}.hint`)}</p>
+                <p className="text-black dark:text-white">
+                  {t(`${codeType}.hint`)}
+                </p>
                 <div className="mb-3 mr-2 mt-4 inline-block font-bold text-dark dark:text-white">
                   {t("common.position")}
                 </div>
