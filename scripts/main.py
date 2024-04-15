@@ -81,10 +81,9 @@ def main():
                 logger.warning(e.__class__.__name__ +
                                " when getting the worksheets.")
                 time.sleep(10)
-        index = -1
+
         for worksheet in worksheets:
             start_time = time.time()
-            index += 1
             title = re.sub(r"\s", " ", worksheet.title.strip())
             if worksheet.isSheetHidden:
                 logger.info("\t\t" + title + ": " + str(round(time.time() -
@@ -132,7 +131,7 @@ def main():
             while True:
                 try:
                     values = worksheet.get_values()
-                    notes = worksheet.get_notes(index)
+                    notes = worksheet.get_notes()
                     break
                 except (TransportError, APIError, ConnectionError, ProxyError, ReadTimeout) as e:
                     logger.warning(
@@ -141,8 +140,9 @@ def main():
             for rows in values:
                 for cell in rows:
                     crawl_cell(cell)
-            for cell in notes:
-                crawl_cell(cell)
+            for rows in notes:
+                for cell in rows:
+                    crawl_cell(cell)
             code_used_delta = {output_type: len(code_used[output_type]) - code_used_old[output_type]
                                for output_type in output_types}
             alg_used_delta = {output_type: len(alg_used[output_type]) - alg_used_old[output_type]
