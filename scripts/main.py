@@ -137,6 +137,15 @@ def main():
                     logger.warning(
                         e.__class__.__name__ + " when trying to get values from the spreadsheet.")
                     time.sleep(10)
+            isbigbld = False
+            for rows in values:
+                for cell in rows:
+                    if any(x in cell for x in ["3Rw", "3Lw", "3Uw", "3Dw", "3Fw", "3Bw", "3Rw", "3Lw", "4Uw", "4Dw", "4Fw", "4Bw"]):
+                        isbigbld = True
+            if isbigbld:
+                logger.info("\t\t" + worksheet.title + ": " + str(round(time.time() -
+                            start_time, 2)) + " seconds." + " Ignored because it is a bigBLD sheet.")
+                continue
             for rows in values:
                 for cell in rows:
                     crawl_cell(cell)
