@@ -22,7 +22,7 @@ const codeConverter = (function () {
     "UFR": "RUF", "RUF": "FUR", "FUR": "UFR",
     "DFL": "LDF", "LDF": "FDL", "FDL": "DFL",
     "DFR": "FDR", "FDR": "RDF", "RDF": "DFR",
-    "DBL": "BLD", "BLD": "DLB", "DLB": "DBL",
+    "DBL": "BDL", "BDL": "LDB", "LDB": "DBL",
     "DBR": "RDB", "RDB": "BDR", "BDR": "DBR",
     "UB": "BU", "BU": "UB",
     "UL": "LU", "LU": "UL",
