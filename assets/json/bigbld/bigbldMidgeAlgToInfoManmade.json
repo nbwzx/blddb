@@ -50,13 +50,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "L:[m,U L' U']"
-        ],
-        [
-            "Lw' m U L U' m' U L' U' Lw",
-            [
-                "Michael Tripodi"
-            ],
-            "Lw':[m,U L U']"
         ]
     ],
     "ACI": [
@@ -1286,13 +1279,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "D':[U2,m']"
-        ],
-        [
-            "L' D m U2 m' U2 D' L",
-            [
-                "Kevin Matthews"
-            ],
-            "L' D:[m,U2]"
         ]
     ],
     "AEP": [
@@ -1422,13 +1408,6 @@
                 "Michael Tripodi"
             ],
             "Lw:[m D m',U2]"
-        ],
-        [
-            "Lw U2 m' D' m U2 m' D m Lw'",
-            [
-                "Michael Tripodi"
-            ],
-            "Lw:[U2,m' D' m]"
         ],
         [
             "U' R' e R U2 R' e' R U'",
@@ -2512,8 +2491,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "James Molloy",
-                "Kevin Matthews",
-                "Leonardo Ezequiel Cruz"
+                "Kevin Matthews"
             ],
             "U m U:[m,U2]"
         ],
@@ -2716,8 +2694,7 @@
             "3Rw U R U' m' U R' U' m 3Rw'",
             [
                 "Daniel Wallin",
-                "James Molloy",
-                "Kai Yamamoto (山本快)"
+                "James Molloy"
             ],
             "3Rw:[U R U',m']"
         ],
@@ -2983,13 +2960,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "D:[m',U2]"
-        ],
-        [
-            "Rw D m' U2 m U2 D' Rw'",
-            [
-                "Michael Tripodi"
-            ],
-            "Rw D:[m',U2]"
         ]
     ],
     "AKF": [
@@ -3463,13 +3433,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "[U',m D m']"
-        ],
-        [
-            "z U m U' R U m' U' R' z'",
-            [
-                "Michael Tripodi"
-            ],
-            "z:[U m U',R]"
         ],
         [
             "L e L' U L e' L' U'",
@@ -6099,13 +6062,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "[m,U' R U]"
-        ],
-        [
-            "D m U' R U m' U' R' U D'",
-            [
-                "Michael Tripodi"
-            ],
-            "D:[m,U' R U]"
         ]
     ],
     "AQI": [
@@ -6221,13 +6177,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "U':[U' m U,R]"
-        ],
-        [
-            "3Lw U R U m' U' R' U m U2 3Lw'",
-            [
-                "Michael Tripodi"
-            ],
-            "3Lw U:[R,U m' U']"
         ]
     ],
     "AQO": [
@@ -8414,15 +8363,6 @@
             "Lw:[m D m',U']"
         ],
         [
-            "z U R U' m' U R' U' m z'",
-            [
-                "Graham Siggins",
-                "Hana Davila",
-                "Michael Tripodi"
-            ],
-            "z:[U R U',m']"
-        ],
-        [
             "L U L' e' L U' L' e",
             [
                 "James Molloy",
@@ -8430,6 +8370,14 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "[L U L',e']"
+        ],
+        [
+            "z U R U' m' U R' U' m z'",
+            [
+                "Graham Siggins",
+                "Hana Davila"
+            ],
+            "z:[U R U',m']"
         ]
     ],
     "AWY": [
@@ -9372,8 +9320,7 @@
         [
             "z' U' L' U m' U' L U m z",
             [
-                "Graham Siggins",
-                "Michael Tripodi"
+                "Graham Siggins"
             ],
             "z':[U' L' U,m']"
         ]
@@ -10064,24 +10011,6 @@
             "s U':[m',U2]"
         ]
     ],
-    "CKP": [
-        [
-            "D' 3Lw' m' U L U' m U L' U' 3Lw D",
-            [
-                "Daniel Wallin"
-            ],
-            "D' 3Lw':[m',U L U']"
-        ]
-    ],
-    "CPK": [
-        [
-            "D' 3Lw' U L U' m' U L' U' m 3Lw D",
-            [
-                "Daniel Wallin"
-            ],
-            "D' 3Lw':[U L U',m']"
-        ]
-    ],
     "CTE": [
         [
             "U R' e R U R' e' R U2",
@@ -10089,238 +10018,6 @@
                 "James Molloy"
             ],
             "U:[R' e R,U]"
-        ]
-    ],
-    "EIO": [
-        [
-            "Rw U R U' m2 U R' U' m 3Rw'",
-            [
-                "Kevin Matthews"
-            ],
-            "Rw:[U R U',m2]"
-        ]
-    ],
-    "EIP": [
-        [
-            "3Rw' Rw2 U' R U m2 U' R' U 3Rw'",
-            [
-                "Kevin Matthews"
-            ],
-            "3Rw' Rw2:[U' R U,m2]"
-        ]
-    ],
-    "EIQ": [
-        [
-            "U R U' m2 U R' U' m2",
-            [
-                "Kevin Matthews"
-            ],
-            "[U R U',m2]"
-        ]
-    ],
-    "EIS": [
-        [
-            "U' L' U m2 U' L U m2",
-            [
-                "Kevin Matthews"
-            ],
-            "[U' L' U,m2]"
-        ]
-    ],
-    "EIZ": [
-        [
-            "3Lw U' R' U m2 U' R U m2 3Lw'",
-            [
-                "Kevin Matthews"
-            ],
-            "3Lw:[U' R' U,m2]"
-        ]
-    ],
-    "EJP": [
-        [
-            "U m' U m D' m' U' m D U'",
-            [
-                "Kevin Matthews"
-            ],
-            "U:[m' U m,D']"
-        ]
-    ],
-    "EKS": [
-        [
-            "D m2 D' L D m2 D' L'",
-            [
-                "Graham Siggins",
-                "Michael Tripodi"
-            ],
-            "[D m2 D',L]"
-        ]
-    ],
-    "ELZ": [
-        [
-            "S U' L' e L U L' e' L S'",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "S:[U',L' e L]"
-        ]
-    ],
-    "EMP": [
-        [
-            "3Lw D m U2 m' U2 D' 3Lw'",
-            [
-                "Michael Tripodi"
-            ],
-            "3Lw D:[m,U2]"
-        ]
-    ],
-    "EMT": [
-        [
-            "3Lw D U2 m' U2 m D' 3Lw'",
-            [
-                "Michael Tripodi"
-            ],
-            "3Lw D:[U2,m']"
-        ],
-        [
-            "4Lw D U2 m' U2 m D' 4Lw'",
-            [
-                "Kevin Matthews"
-            ],
-            "4Lw D:[U2,m']"
-        ]
-    ],
-    "ENW": [
-        [
-            "U' L U m U' L' U m'",
-            [
-                "Michael Tripodi"
-            ],
-            "[U' L U,m]"
-        ]
-    ],
-    "EOI": [
-        [
-            "3Rw m' U R U' m2 U R' U' Rw'",
-            [
-                "Kevin Matthews"
-            ],
-            "3Rw m':[U R U',m2]"
-        ]
-    ],
-    "EPI": [
-        [
-            "3Rw U' R U m2 U' R' U Rw2 3Rw",
-            [
-                "Kevin Matthews"
-            ],
-            "3Rw' Rw2:[m2,U' R U]"
-        ]
-    ],
-    "EPJ": [
-        [
-            "U D' m' U m D m' U' m U'",
-            [
-                "Kevin Matthews"
-            ],
-            "U:[D',m' U m]"
-        ]
-    ],
-    "EPM": [
-        [
-            "3Lw D U2 m U2 m' D' 3Lw'",
-            [
-                "Michael Tripodi"
-            ],
-            "3Lw D:[U2,m]"
-        ]
-    ],
-    "EQI": [
-        [
-            "m2 U R U' m2 U R' U'",
-            [
-                "Kevin Matthews"
-            ],
-            "[m2,U R U']"
-        ]
-    ],
-    "ERW": [
-        [
-            "z U2 m' U' R' U m U' R U' z'",
-            [
-                "Michael Tripodi"
-            ],
-            "z U:[U m' U',R']"
-        ]
-    ],
-    "ESI": [
-        [
-            "m2 U' L' U m2 U' L U",
-            [
-                "Kevin Matthews"
-            ],
-            "[m2,U' L' U]"
-        ]
-    ],
-    "ESK": [
-        [
-            "L D m2 D' L' D m2 D'",
-            [
-                "Graham Siggins",
-                "Michael Tripodi"
-            ],
-            "[L,D m2 D']"
-        ]
-    ],
-    "ETM": [
-        [
-            "3Lw D m' U2 m U2 D' 3Lw'",
-            [
-                "Michael Tripodi"
-            ],
-            "3Lw D:[m',U2]"
-        ],
-        [
-            "4Lw D m' U2 m U2 D' 4Lw'",
-            [
-                "Kevin Matthews"
-            ],
-            "4Lw D:[m',U2]"
-        ]
-    ],
-    "EWN": [
-        [
-            "m U' L U m' U' L' U",
-            [
-                "Michael Tripodi"
-            ],
-            "[m,U' L U]"
-        ]
-    ],
-    "EWR": [
-        [
-            "z U R' U m' U' R U m U2 z'",
-            [
-                "Michael Tripodi"
-            ],
-            "z U:[R',U m' U']"
-        ]
-    ],
-    "EZI": [
-        [
-            "3Lw' U' R' U m2 U' R U m2 3Lw",
-            [
-                "Kevin Matthews"
-            ],
-            "3Lw':[U' R' U,m2]"
-        ]
-    ],
-    "EZL": [
-        [
-            "S L' e L U' L' e' L U S'",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "S:[L' e L,U']"
         ]
     ],
     "GAC": [
@@ -11525,20 +11222,6 @@
             "U' Rw:[U R' U',m']"
         ],
         [
-            "U Lw U L' U' m U L U' 3Lw' U'",
-            [
-                "Michael Tripodi"
-            ],
-            "U Lw:[U L' U',m]"
-        ],
-        [
-            "S U m D' m' U' m D m' S'",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "S:[U,m D' m']"
-        ],
-        [
             "U' R' U R U' m' U R' U' m R U",
             [
                 "Ziyi Xu (徐梓翼)"
@@ -11574,24 +11257,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "U' R':[m,U' R U]"
-        ]
-    ],
-    "GDP": [
-        [
-            "U' Rw m U' R U m' U' R' U Rw' U",
-            [
-                "Michael Tripodi"
-            ],
-            "U' Rw:[m,U' R U]"
-        ]
-    ],
-    "GDT": [
-        [
-            "M U' m U L' U' m' U L M'",
-            [
-                "Michael Tripodi"
-            ],
-            "M:[U' m U,L']"
         ]
     ],
     "GEA": [
@@ -11707,15 +11372,6 @@
             "U' m' U':[m,U2]"
         ]
     ],
-    "GFX": [
-        [
-            "U 4Lw U' m' U2 m U' 4Lw' U'",
-            [
-                "Michael Tripodi"
-            ],
-            "U 4Lw U':[m',U2]"
-        ]
-    ],
     "GIA": [
         [
             "m D2 m' U m D2 m' U'",
@@ -11767,15 +11423,6 @@
                 "Hana Davila"
             ],
             "m2 R:[U R' U',m]"
-        ]
-    ],
-    "GIS": [
-        [
-            "L' U m' U2 m U L",
-            [
-                "Hana Davila"
-            ],
-            "L' U:[m',U2]"
         ]
     ],
     "GJA": [
@@ -12197,7 +11844,6 @@
             [
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
-                "Hana Davila",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi"
             ],
@@ -12207,6 +11853,7 @@
             "z' U' m' U' L' U m U' L U2 z",
             [
                 "Graham Siggins",
+                "Hana Davila",
                 "Kevin Matthews"
             ],
             "z' U':[m',U' L' U]"
@@ -12225,15 +11872,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "x:[R' U R,e]"
-        ]
-    ],
-    "GPD": [
-        [
-            "U' Rw U' R U m U' R' U m' Rw' U",
-            [
-                "Michael Tripodi"
-            ],
-            "U' Rw:[U' R U,m]"
         ]
     ],
     "GQA": [
@@ -12406,15 +12044,6 @@
             "U' 4Rw':[e,R U' R']"
         ]
     ],
-    "GSI": [
-        [
-            "L' U' m' U2 m U' L",
-            [
-                "Hana Davila"
-            ],
-            "L' U':[m',U2]"
-        ]
-    ],
     "GTA": [
         [
             "3Lw D m' U m D' m' U' Lw'",
@@ -12464,15 +12093,6 @@
                 "Andrew Tan Jing Bang"
             ],
             "Lw' U Lw':[m',U' L U]"
-        ]
-    ],
-    "GTD": [
-        [
-            "M L' U' m U L U' m' U M'",
-            [
-                "Michael Tripodi"
-            ],
-            "M:[L',U' m U]"
         ]
     ],
     "GWA": [
@@ -12595,15 +12215,6 @@
             "x D':[m,U R' U']"
         ]
     ],
-    "GXF": [
-        [
-            "U 4Lw U m' U2 m U 4Lw' U'",
-            [
-                "Michael Tripodi"
-            ],
-            "U 4Lw U:[m',U2]"
-        ]
-    ],
     "GYA": [
         [
             "4Lw U m' U' R' U m U' x",
@@ -12723,24 +12334,6 @@
             "U 4Rw' U':[m',U2]"
         ]
     ],
-    "KIQ": [
-        [
-            "z U m2 U' L' U m2 U' L z'",
-            [
-                "Graham Siggins"
-            ],
-            "z:[U m2 U',L']"
-        ]
-    ],
-    "KQI": [
-        [
-            "z L' U m2 U' L U m2 U' z'",
-            [
-                "Graham Siggins"
-            ],
-            "z:[L',U m2 U']"
-        ]
-    ],
     "OJM": [
         [
             "3Rw U' R U m' U' R' U m 3Rw'",
@@ -12757,96 +12350,6 @@
                 "James Molloy"
             ],
             "3Rw:[m',U' R U]"
-        ]
-    ],
-    "QIT": [
-        [
-            "z' m' U' R U m U' R' U z",
-            [
-                "Michael Tripodi"
-            ],
-            "z':[m',U' R U]"
-        ]
-    ],
-    "QJY": [
-        [
-            "x' U m2 U' R2 U m2 U' R2 x",
-            [
-                "Hana Davila"
-            ],
-            "x':[U m2 U',R2]"
-        ]
-    ],
-    "QMS": [
-        [
-            "x m U' m U2 m' U' m' x'",
-            [
-                "Michael Tripodi"
-            ],
-            "x m U':[m,U2]"
-        ]
-    ],
-    "QSM": [
-        [
-            "x m U m U2 m' U m' x'",
-            [
-                "Michael Tripodi"
-            ],
-            "x m U:[m,U2]"
-        ]
-    ],
-    "QTI": [
-        [
-            "z' U' R U m' U' R' U m z",
-            [
-                "Michael Tripodi"
-            ],
-            "z':[U' R U,m']"
-        ]
-    ],
-    "QYJ": [
-        [
-            "x' R2 U m2 U' R2 U m2 U' x",
-            [
-                "Hana Davila"
-            ],
-            "x':[R2,U m2 U']"
-        ]
-    ],
-    "SJY": [
-        [
-            "x' U m2 U L2 U' m2 U L2 U2 x",
-            [
-                "Hana Davila"
-            ],
-            "x' U:[m2,U L2 U']"
-        ]
-    ],
-    "SNW": [
-        [
-            "U' L U m U' L2 U m' U' L U",
-            [
-                "Daniel Wallin"
-            ],
-            "U' L:[U m U',L2]"
-        ]
-    ],
-    "SWN": [
-        [
-            "U' L' U m U' L2 U m' U' L' U",
-            [
-                "Daniel Wallin"
-            ],
-            "U' L':[U m U',L2]"
-        ]
-    ],
-    "SYJ": [
-        [
-            "x' U2 L2 U' m2 U L2 U' m2 U' x",
-            [
-                "Hana Davila"
-            ],
-            "x' U:[U L2 U',m2]"
         ]
     ]
 }
