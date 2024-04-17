@@ -11,6 +11,7 @@ from gspread.exceptions import APIError, SpreadsheetNotFound
 from loguru import logger
 from requests.exceptions import ConnectionError, ProxyError, ReadTimeout
 
+import codeConverter
 from rewrite import single
 from tracer import *
 
@@ -23,6 +24,7 @@ def is_included(substring: str, main_string: str, pattern_type: str) -> bool:
         "basic": re.escape(substring),
         "non_alphabetic": r"(?<![a-zA-Z])" + re.escape(substring) + r"(?![a-zA-Z])",
         "non_alphanumeric": r"(?<![a-zA-Z0-9])" + re.escape(substring) + r"(?![a-zA-Z0-9])",
+        "non_alphabetic_strict": r"(?<![a-zA-Z':2])" + re.escape(substring) + r"(?![a-zA-Z':2])",
         "ignore_case": re.escape(substring),
     }
     pattern = patterns[pattern_type]
@@ -37,6 +39,14 @@ def is_pattern(patterns: dict, main_string: str) -> bool:
     return False
 
 
+def get_pattern(patterns: dict, main_string: str) -> str:
+    for pattern_type in patterns:
+        for word in patterns[pattern_type]:
+            if is_included(word, main_string, pattern_type):
+                return word
+    return ""
+
+
 def sum_of_kinch(source: list, result_json: dict) -> float:
     total_sum = 0
     for item in source:
@@ -47,12 +57,15 @@ def sum_of_kinch(source: list, result_json: dict) -> float:
 
 def main():
     def crawl_spreadsheet(spreadsheet: gs.Spreadsheet, isInverse: bool) -> None:
-        def crawl_cell(cell: str) -> None:
+        def crawl_cell(cell: str, output_type_from_pattern: str = "", code_from_pattern: list = []) -> None:
             for line in re.split(r'[\n\r]+| if | or | and ', cell.strip("\n\r")):
                 if len(line) > MAX_CELL_LEN:
                     continue
                 alg = commutator.expand(line, isInverse=isInverse)
                 output_type, code = get_code_auto(alg)
+                if output_type_from_pattern:
+                    if output_type_from_pattern != output_type or (code not in code_from_pattern and code[0] + code[2] + code[1] not in code_from_pattern):
+                        continue
                 if output_type in output_types and len(code) > 0 and stm(alg) <= MAX_STM:
                     if code not in algs_json[output_type]:
                         algs_json[output_type][code] = []
@@ -123,6 +136,11 @@ def main():
                 ["t", "x", "m", "w", "T", "X", "M", "W"]
             }
 
+            patterns_3bld = {
+                "non_alphabetic_strict":
+                [x for x in codeConverter.positionArray if len(x) != 1]
+            }
+
             if is_pattern(patterns, title):
                 logger.info("\t\t" + worksheet.title + ": " + str(round(time.time() -
                             start_time, 2)) + " seconds." + " Ignored because it contains disallowed word.")
@@ -146,12 +164,37 @@ def main():
                 logger.info("\t\t" + worksheet.title + ": " + str(round(time.time() -
                             start_time, 2)) + " seconds." + " Ignored because it is a bigBLD sheet.")
                 continue
+            buffer = get_pattern(patterns_3bld, title)
+            if not values:
+                continue
+            top_list = []
+            for cell in values[0]:
+                top_list.append(get_pattern(patterns_3bld, cell))
+            left_list = []
             for rows in values:
-                for cell in rows:
-                    crawl_cell(cell)
-            for rows in notes:
-                for cell in rows:
-                    crawl_cell(cell)
+                left_list.append(get_pattern(patterns_3bld, rows[0]))
+            for i in range(len(values)):
+                for j in range(len(values[i])):
+                    cell = values[i][j]
+                    cell_pattern = get_pattern(patterns_3bld, cell)
+                    if cell_pattern and ((not top_list[j]) or (not left_list[i])):
+                        top_list[j] = cell_pattern
+                        left_list[i] = cell_pattern
+                    output_type_from_pattern = ""
+                    code_from_pattern = []
+                    if codeConverter.positionToCodeType(buffer) == codeConverter.positionToCodeType(top_list[j]) and codeConverter.positionToCodeType(buffer) == codeConverter.positionToCodeType(left_list[i]):
+                        output_type_from_pattern = codeConverter.positionToCodeType(
+                            buffer)
+                        code_from_pattern = codeConverter.positionToVariantCode(
+                            [buffer, left_list[i], top_list[j]], output_type_from_pattern)
+
+                    crawl_cell(cell, output_type_from_pattern,
+                               code_from_pattern)
+                    try:
+                        crawl_cell(notes[i][j], output_type_from_pattern,
+                                   code_from_pattern)
+                    except IndexError:
+                        pass
             code_used_delta = {output_type: len(code_used[output_type]) - code_used_old[output_type]
                                for output_type in output_types}
             alg_used_delta = {output_type: len(alg_used[output_type]) - alg_used_old[output_type]
