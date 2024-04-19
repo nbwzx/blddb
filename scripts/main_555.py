@@ -150,6 +150,11 @@ def main():
                 "ignore_case":
                 ["UF5", "5 Cycle", "5-Cycle", "5 Style", "5-Style",
                  "6BLD", "7BLD",
+                 "twist", "flip", "parity", "2e2c", "2c2e",
+                 "2t", "2f", "3f",
+                 "2e2e", "2c2c", "ltct", "ltef",
+                 "Info", "Intro", "Readme", "Read me", "作者", "说明", "前言",
+                 "Custom", "Letter", "Scheme", "Setting", "From", "设置", "编码", "参考",
                  "test",
                  "Ignore",
                  "Oblique",
