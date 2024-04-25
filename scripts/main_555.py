@@ -284,7 +284,7 @@ def main():
     output_types = ["wing", "xcenter", "tcenter", "midge"]
     algs_json = {output_type: {} for output_type in output_types}
 
-    url_file = "assets/json/bigbld/bigbldSourceToUrl.json"
+    url_file = "assets/json/sourceToUrl.json"
     with open(url_file, "r", encoding="utf8") as file:
         url_json = json.load(file)
     url_json_new = {}
@@ -301,7 +301,9 @@ def main():
                               for output_type in output_types}
         code_used = {output_type: set() for output_type in output_types}
         alg_used = {output_type: set() for output_type in output_types}
-        for url in url_json[name]:
+        url_json_new[name] = {}
+        for key in url_json[name]:
+            url = url_json[name][key]
             logger.info(name)
             logger.info(url)
             issuccess = False
@@ -319,12 +321,17 @@ def main():
             if not issuccess:
                 logger.error("Failed to open the spreadsheet.")
                 continue
-            url_json_new[name] = url_json[name]
+            url_json_new[name][key] = url_json[name][key]
+            if key not in output_types and key != "bigbld" and key != "bld":
+                logger.info("Ignored because it is not in the output types.")
+                continue
             logger.info("\tOriginal:")
             crawl_spreadsheet(spreadsheet, False)
             logger.info("\tInverse:")
             crawl_spreadsheet(spreadsheet, True)
 
+        if not url_json_new[name]:
+            del url_json_new[name]
         logger.info("Code: " + str({output_type: len(code_used[output_type])
                                     for output_type in output_types}))
         logger.info("Alg: " + str({output_type: len(alg_used[output_type])

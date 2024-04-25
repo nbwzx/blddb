@@ -124,8 +124,18 @@ function algSearchMain(idValue, edgestylecookie) {
                     tab += `<td>${commutator(algInfo[j])}</td>`;
                     let sourceElement = "";
                     for (const source of sourceInfo) {
+                        let url = "";
                         if (source in sourceToUrl) {
-                            sourceElement = `${sourceElement}<a href="${sourceToUrl[source][0]}" target="_blank">${source}</a>`;
+                            if ("edge" in sourceToUrl[source]) {
+                                url = sourceToUrl[source]["edge"];
+                            } else if ("3bld" in sourceToUrl[source]) {
+                                url = sourceToUrl[source]["3bld"];
+                            } else if ("bld" in sourceToUrl[source]) {
+                                url = sourceToUrl[source]["bld"];
+                            }
+                        }
+                        if (url !== "") {
+                            sourceElement = `${sourceElement}<a href="${url}" target="_blank">${source}</a>`;
                         } else {
                             sourceElement = `${sourceElement}${source}`;
                         }

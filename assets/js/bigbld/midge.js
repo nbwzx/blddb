@@ -1,8 +1,8 @@
 "use strict";
 
 $.ajaxSettings.async = false;
-const jsonNameList = ["bigbldMidgeAlgToInfoManmade", "bigbldSourceToUrl", "edgeCodeToPos", "edgePosToCode", "edgeAlgToStandard", "bigbldMidgeChichuToNumber"];
-const jsonNameListPre = {"bigbldMidgeAlgToInfoManmade":"bigbld/bigbldMidgeAlgToInfoManmade", "bigbldSourceToUrl":"bigbld/bigbldSourceToUrl", "edgeCodeToPos":"edgeCodeToPos", "edgePosToCode":"edgePosToCode", "edgeAlgToStandard":"edgeAlgToStandard", "bigbldMidgeChichuToNumber":"bigbld/bigbldMidgeChichuToNumber"};
+const jsonNameList = ["bigbldMidgeAlgToInfoManmade", "sourceToUrl", "edgeCodeToPos", "edgePosToCode", "edgeAlgToStandard", "bigbldMidgeChichuToNumber"];
+const jsonNameListPre = {"bigbldMidgeAlgToInfoManmade":"bigbld/bigbldMidgeAlgToInfoManmade", "sourceToUrl":"sourceToUrl", "edgeCodeToPos":"edgeCodeToPos", "edgePosToCode":"edgePosToCode", "edgeAlgToStandard":"edgeAlgToStandard", "bigbldMidgeChichuToNumber":"bigbld/bigbldMidgeChichuToNumber"};
 const jsonLoaded = jsonNameList.map((name) => $.getJSON(`../assets/json/${jsonNameListPre[name]}.json`, (json) => {
     window[`${name}`] = json;
 }));
@@ -103,8 +103,18 @@ function algSearchMain(idValue, cornerstylecookie) {
                 tab += `<td>${cornerAlgToInfoStyle[idValue][i][2]}</td>`;
                 let sourceElement = "";
                 for (const source of cornerAlgToInfoStyle[idValue][i][1]) {
-                    if (source in bigbldSourceToUrl) {
-                        sourceElement = `${sourceElement}<a href="${bigbldSourceToUrl[source][bigbldSourceToUrl[source].length - 1]}" target="_blank">${source}</a>`;
+                    let url = "";
+                    if (source in sourceToUrl) {
+                        if ("midge" in sourceToUrl[source]) {
+                            url = sourceToUrl[source]["midge"];
+                        } else if ("bigbld" in sourceToUrl[source]) {
+                            url = sourceToUrl[source]["bigbld"];
+                        } else if ("bld" in sourceToUrl[source]) {
+                            url = sourceToUrl[source]["bld"];
+                        }
+                    }
+                    if (url !== "") {
+                        sourceElement = `${sourceElement}<a href="${url}" target="_blank">${source}</a>`;
                     } else {
                         sourceElement = `${sourceElement}${source}`;
                     }

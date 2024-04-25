@@ -1,8 +1,8 @@
 "use strict";
 
 $.ajaxSettings.async = false;
-const jsonNameList = ["bigbldWingAlgToInfoManmade", "bigbldSourceToUrl", "bidbldWingCodeToPos", "bidbldWingPosToCode", "bigbldWingChichuToNumber", "bigbldWingChichuToNumber1", "bidbldWingCodeToPos1", "bidbldWingPosToCode1"];
-const jsonNameListPre = {"bigbldWingAlgToInfoManmade":"bigbld/bigbldWingAlgToInfoManmade", "bigbldSourceToUrl":"bigbld/bigbldSourceToUrl", "bidbldWingCodeToPos":"bigbld/bidbldWingCodeToPos", "bidbldWingPosToCode":"bigbld/bidbldWingPosToCode", "bigbldWingChichuToNumber":"bigbld/bigbldWingChichuToNumber", "bigbldWingChichuToNumber1":"bigbld/bigbldWingChichuToNumber1", "bidbldWingCodeToPos1":"bigbld/bidbldWingCodeToPos1", "bidbldWingPosToCode1":"bigbld/bidbldWingPosToCode1"};
+const jsonNameList = ["bigbldWingAlgToInfoManmade", "sourceToUrl", "bidbldWingCodeToPos", "bidbldWingPosToCode", "bigbldWingChichuToNumber", "bigbldWingChichuToNumber1", "bidbldWingCodeToPos1", "bidbldWingPosToCode1"];
+const jsonNameListPre = {"bigbldWingAlgToInfoManmade":"bigbld/bigbldWingAlgToInfoManmade", "sourceToUrl":"sourceToUrl", "bidbldWingCodeToPos":"bigbld/bidbldWingCodeToPos", "bidbldWingPosToCode":"bigbld/bidbldWingPosToCode", "bigbldWingChichuToNumber":"bigbld/bigbldWingChichuToNumber", "bigbldWingChichuToNumber1":"bigbld/bigbldWingChichuToNumber1", "bidbldWingCodeToPos1":"bigbld/bidbldWingCodeToPos1", "bidbldWingPosToCode1":"bigbld/bidbldWingPosToCode1"};
 const jsonLoaded = jsonNameList.map((name) => $.getJSON(`../assets/json/${jsonNameListPre[name]}.json`, (json) => {
     window[`${name}`] = json;
 }));
@@ -175,8 +175,18 @@ function algSearchMain(idValue, cornerstylecookie) {
                 tab += `<td>${cornerAlgToInfoStyle[idValue][i][2]}</td>`;
                 let sourceElement = "";
                 for (const source of cornerAlgToInfoStyle[idValue][i][1]) {
-                    if (source in bigbldSourceToUrl) {
-                        sourceElement = `${sourceElement}<a href="${bigbldSourceToUrl[source][bigbldSourceToUrl[source].length - 1]}" target="_blank">${source}</a>`;
+                    let url = "";
+                    if (source in sourceToUrl) {
+                        if ("wing" in sourceToUrl[source]) {
+                            url = sourceToUrl[source]["wing"];
+                        } else if ("bigbld" in sourceToUrl[source]) {
+                            url = sourceToUrl[source]["bigbld"];
+                        } else if ("bld" in sourceToUrl[source]) {
+                            url = sourceToUrl[source]["bld"];
+                        }
+                    }
+                    if (url !== "") {
+                        sourceElement = `${sourceElement}<a href="${url}" target="_blank">${source}</a>`;
                     } else {
                         sourceElement = `${sourceElement}${source}`;
                     }
