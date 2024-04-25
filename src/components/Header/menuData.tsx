@@ -47,8 +47,40 @@ const menuData: Menu[] = [
     title: "common.Nightmare",
     submenu: [
       {
-        title: "corner.title",
-        path: "/corner",
+        title: "nightmare.2twists",
+        path: "/nightmare/2twists",
+      },
+      {
+        title: "nightmare.2flips",
+        path: "/nightmare/2flips",
+      },
+      {
+        title: "nightmare.parity",
+        path: "/nightmare/parity",
+      },
+      {
+        title: "nightmare.ltct",
+        path: "/nightmare/ltct",
+      },
+      {
+        title: "nightmare.2e2e",
+        path: "/nightmare/2e2e",
+      },
+      {
+        title: "nightmare.2c2c",
+        path: "/nightmare/2c2c",
+      },
+      {
+        title: "nightmare.3twists",
+        path: "/nightmare/3twists",
+      },
+      {
+        title: "nightmare.4flips",
+        path: "/nightmare/4flips",
+      },
+      {
+        title: "nightmare.5style",
+        path: "/nightmare/5style",
       },
     ],
   },

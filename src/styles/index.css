@@ -186,15 +186,36 @@
   }
 
   table {
-    @apply whitespace-nowrap text-center text-lg font-medium leading-loose text-black dark:text-white;
+    @apply border-separate border-spacing-0 whitespace-nowrap text-center text-lg font-medium leading-loose text-black dark:text-white;
   }
 
   th {
-    @apply border border-gray-500 bg-sky-200 px-[0.5vw] py-[0.2vw] leading-loose dark:bg-sky-800;
+    @apply border-gray-500 bg-sky-200 px-[0.5vw] py-[0.2vw] leading-loose dark:bg-sky-800;
   }
 
   td {
-    @apply border border-gray-500 px-[0.5vw] py-[0.2vw] align-middle leading-loose;
+    @apply border-gray-500 px-[0.5vw] py-[0.2vw] align-middle leading-loose;
+  }
+
+  table th {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+  }
+
+  table td {
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+  }
+
+  table th:first-child,
+  table td:first-child {
+    border-left: 1px solid;
+  }
+
+  table thead th {
+    position: sticky;
+    top: 0;
   }
 
   .face-u {

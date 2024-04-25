@@ -21,13 +21,13 @@ const BLD = ({ codeType }: { codeType: string }) => {
     is3bld = false;
   }
   const manmade = is3bld
-    ? require(`public/data/json/${codeType}Manmade.json`)
-    : require(`public/data/json/bigbld/${codeType}Manmade.json`);
+    ? require(`public/data/${codeType}Manmade.json`)
+    : require(`public/data/bigbld/${codeType}Manmade.json`);
   const nightmare = is3bld
-    ? require(`public/data/json/${codeType}Nightmare.json`)
+    ? require(`public/data/${codeType}Nightmare.json`)
     : {};
   const nightmareSelected = is3bld
-    ? require(`public/data/json/${codeType}NightmareSelected.json`)
+    ? require(`public/data/${codeType}NightmareSelected.json`)
     : {};
   const modeToData = is3bld
     ? {
@@ -51,8 +51,8 @@ const BLD = ({ codeType }: { codeType: string }) => {
         manmade: "\u{2009}\u{F2BD}\u{2009}",
       };
   const sourceToUrl = is3bld
-    ? require("public/data/json/sourceToUrl.json")
-    : require("public/data/json/bigbld/sourceToUrl.json");
+    ? require("public/data/sourceToUrl.json")
+    : require("public/data/bigbld/sourceToUrl.json");
 
   useEffect(() => {
     const observer = new MutationObserver((mutationsList) => {
