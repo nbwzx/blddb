@@ -7,6 +7,7 @@ const arrLang = {
         "edge": "3-Style Edge",
         "2flips": "Edge Flip",
         "parity": "3BLD Parity",
+        "ltct": "LTCT & T2C",
         "2e2e": "2e2e",
         "ltef": "LTEF",
         "5style": "5-Style",
@@ -18,6 +19,9 @@ const arrLang = {
         "2flipsHint": "Please enter the 2 positions you want to flip",
         "parityHint": "Please enter the parity you want to solve",
         "2e2eHint": "Please enter the positions you want to swap",
+        "ltctHint1": "Edge swap is always UF-UR.",
+        "ltctHint2": "For LTCT inquiry, select first and second drop-down lists.",
+        "ltctHint3": "For T2C inquiry, select first and third drop-down lists.",
         "ltefHint": "Please enter the positions you want to query (Here LTEF stand for last edge target + edge flip. eg. UF-xy-RU-FU, plus a flip)",
         "5styleHint": "Please enter 5 letter pairs (buffer-position1-position2-position3-position4) you want to query (eg. ACEGJ)",
         "wingHint": "Please enter 3 letter pairs (buffer-position1-position2) you want to query (eg. ACG)",
@@ -34,6 +38,8 @@ const arrLang = {
         "parity2": "Corner:",
         "twistscw": "CW",
         "twistsccw": "CCW",
+        "ltcttwist": "Twist: ",
+        "ltcttwistHint": "Where U/D sticker is",
         "2e2e1": "Swap1: ",
         "2e2e2": "Swap2: ",
         "2e2eflips": "Flips:",
@@ -122,6 +128,7 @@ const arrLang = {
         "edge": "棱块公式库",
         "2flips": "翻棱公式库",
         "parity": "奇偶公式库",
+        "ltct": "奇偶带翻库",
         "2e2e": "2e2e库",
         "ltef": "棱三循环带翻库",
         "5style": "五循环库",
@@ -132,6 +139,9 @@ const arrLang = {
         "twistsHint": "请在下方选择你要查询的翻角公式",
         "2flipsHint": "请在下方选择你要查询的翻棱公式",
         "parityHint": "请在下方输入你要查询的奇偶公式",
+        "ltctHint1": "棱块交换位置为 UF-UR。",
+        "ltctHint2": "查询奇偶带翻公式时，请在下方选择第一和第二个下拉栏。",
+        "ltctHint3": "查询 T2C 公式时，请在下方选择第一和第三个下拉栏。",
         "2e2eHint": "请在下方选择你要查询的 2e2e 公式",
         "ltefHint": "请在下方选择你要查询的棱三循环带翻公式",
         "5styleHint": "请在下方输入你要查询的五循环公式",
@@ -149,6 +159,8 @@ const arrLang = {
         "parity2": "角：",
         "twistscw": "顺翻",
         "twistsccw": "逆翻",
+        "ltcttwist": "翻角:",
+        "ltcttwistHint": "翻角高级色所在的位置",
         "2e2e1": "交换一: ",
         "2e2e2": "交换二: ",
         "2e2eflips": "含翻:",
@@ -237,6 +249,7 @@ const arrLang = {
         "edge": "3-Styleエッジ",
         "2flips": "エッジフリップ",
         "parity": "3BLD パリティ",
+        "ltct": "LTCT & T2C",
         "2e2e": "2e2e",
         "ltef": "LTEF",
         "5style": "5-Style",
@@ -247,6 +260,9 @@ const arrLang = {
         "twistsHint": "コーナーツイストの条件を設定してください（未解決の場合は空にしてください）",
         "2flipsHint": "フリップしたい2つの位置を入力してください",
         "parityHint": "解決したいパリティを入力してください",
+        "ltctHint1": "エッジ交換は常にUF-URです。",
+        "ltctHint2": "LTCTの問い合わせの場合、最初と2番目のドロップダウンリストを選択してください。",
+        "ltctHint3": "T2Cの問い合わせの場合、最初と3番目のドロップダウンリストを選択してください。",
         "2e2eHint": "交換したい位置を入力してください",
         "ltefHint": "検索したい位置を入力してください （例：UF-xy-RU-FU, plus a flip）",
         "5styleHint": "検索したい5ナンバリング（バッファ-位置1-位置2-位置3-位置4）を入力してください（例：ACEGJ）",
@@ -264,6 +280,8 @@ const arrLang = {
         "parity2": "コーナー：",
         "twistscw": "時計回り",
         "twistsccw": "反時計回り",
+        "ltcttwist": "コーナーツイスト:",
+        "ltcttwistHint": "U/Dステッカーがある位置",
         "2e2e1": "交換1：",
         "2e2e2": "交換2：",
         "2e2eflips": "フリップ：",
@@ -367,6 +385,7 @@ if (lang === "zh") {
     $("#codeinput").width("5.5em");
     $("#cornerstyle").width("5em");
     $("#edgestyle").width("5em");
+    $("#ltctstyle").width("5em");
     $("#image").show();
 } else {
     $("#introduction").attr("href", "https://docs.blddb.net/en");
@@ -375,6 +394,7 @@ if (lang === "zh") {
     $("#codeinput").width("14em");
     $("#cornerstyle").width("7em");
     $("#edgestyle").width("7em");
+    $("#ltctstyle").width("7em");
     $("#image").hide();
 }
 
@@ -438,6 +458,7 @@ dropdownContent.addEventListener("click", (event) => {
             $("#codeinput").width("5.5em");
             $("#cornerstyle").width("5em");
             $("#edgestyle").width("5em");
+            $("#ltctstyle").width("5em");
             $("#image").show();
         } else {
             $("#introduction").attr("href", "https://docs.blddb.net/en");
@@ -446,6 +467,7 @@ dropdownContent.addEventListener("click", (event) => {
             $("#codeinput").width("14em");
             $("#cornerstyle").width("7em");
             $("#edgestyle").width("7em");
+            $("#ltctstyle").width("7em");
             $("#image").hide();
         }
         $(".lang").each(function (index, element) {
