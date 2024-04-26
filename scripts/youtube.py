@@ -52,6 +52,9 @@ def main():
                     elif output_type == "parity":
                         position = "-".join([edgeCodeToPos[char] for char in code[0:2]]) + ", " + "-".join(
                             [cornerCodeToPos[char] for char in code[2:4]])
+                    elif output_type == "ltct":
+                        position = "-".join([edgeCodeToPos[char] for char in code[0:2]]) + ", " + "-".join(
+                            [cornerCodeToPos[char] for char in code[2:4]]) + "[" + cornerCodeToPos[code[4]] + "]"
 
                     full_list[output_type].append([position, alg, commutator.search(
                         alg)[0], url_name, '=HIPERLINK("' + video[1] + '";"' + video[0] + '")'])
@@ -71,7 +74,7 @@ def main():
     logger.remove(0)
     # logger.add("scripts/file_main.log", format="{time:HH:mm:ss} | {level} | {message}")
     logger.add(sys.stderr, format="{time:HH:mm:ss} | {level} | {message}")
-    output_types = ["edge", "corner", "2flips", "2twists", "parity"]
+    output_types = ["edge", "corner", "2flips", "2twists", "parity", "ltct"]
     isInverse = False
     edge_ch = "ABEFGHCDQRSTIJMNOPKLYZWX"
     corner_ch = "JKLABCGHIDEFXYZWMNRSTOPQ"
@@ -287,6 +290,8 @@ def main():
             0, ["Position (cw & ccw)", "Alg" + " " * 90, "Commutator" + " " * 40, "Reconstruction Link", "Youtube Link"])
         full_list["parity"].insert(
             0, ["Position" + " " * 20, "Alg" + " " * 90, "Commutator", "Reconstruction Link", "Youtube Link"])
+        full_list["ltct"].insert(
+            0, ["Position" + " " * 30, "Alg" + " " * 90, "Commutator", "Reconstruction Link", "Youtube Link"])
         for worksheet in worksheets:
             if worksheet.title in full_list:
                 worksheet.update(

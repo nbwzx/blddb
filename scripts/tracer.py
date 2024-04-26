@@ -131,5 +131,14 @@ def get_code_auto(x: str, edge_ch: str = edge_ch_default, corner_ch: str = corne
             return ("2twists", code_json["corner"][0] + code_json["corner"][4])
     if len(code_json["edge"]) == 3 and len(code_json["corner"]) == 3 and code_json["edge"][0] == code_json["edge"][2] and code_json["corner"][0] == code_json["corner"][2]:
         return ("parity", code_json["edge"][0] + code_json["edge"][1] + code_json["corner"][0] + code_json["corner"][1])
+    if len(code_json["edge"]) == 3 and len(code_json["corner"]) == 11 and code_json["edge"][0] == code_json["edge"][2]:
+        corner_twists = ["ABCA", "ACBA", "DEFD", "DFED", "GHIG", "GIHG", "JKLJ", "JLKJ",
+                         "WMNW", "WNMW", "OPQO", "OQPO", "RSTR", "RTSR", "XYZX", "XZYX"]
+        # ASBTCRAXZYX
+        if code_json["corner"][7:11] in corner_twists and (code_json["corner"][0] + code_json["corner"][2] + code_json["corner"][4] + code_json["corner"][0]) in corner_twists:
+            return ("ltct", code_json["edge"][0] + code_json["edge"][1] + code_json["corner"][0] + code_json["corner"][5] + code_json["corner"][8])
+        # JKLJXTZSYRX
+        if code_json["corner"][0:4] in corner_twists and (code_json["corner"][4] + code_json["corner"][6] + code_json["corner"][8] + code_json["corner"][4]) in corner_twists:
+            return ("ltct", code_json["edge"][0] + code_json["edge"][1] + code_json["corner"][4] + code_json["corner"][9] + code_json["corner"][1])
 
     return ("", "")

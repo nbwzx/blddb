@@ -25,7 +25,7 @@ def is_included(substring: str, main_string: str, pattern_type: str) -> bool:
         "non_alphabetic": r"(?<![a-zA-Z])" + re.escape(substring) + r"(?![a-zA-Z])",
         "non_alphanumeric": r"(?<![a-zA-Z0-9])" + re.escape(substring) + r"(?![a-zA-Z0-9])",
         "non_alphabetic_strict": r"(?<![a-zA-Z':2])" + re.escape(substring) + r"(?![a-zA-Z':2])",
-        "ignore_case": re.escape(substring),
+        "ignore_case": r"(?<![a-zA-Z])" + re.escape(substring)
     }
     pattern = patterns[pattern_type]
     flags = re.IGNORECASE if pattern_type == "ignore_case" else 0
@@ -119,7 +119,7 @@ def main():
                  "翼棱", "中棱", "角心", "边心",
                  "twist", "flip", "parity", "2e2c", "2c2e",
                  "2t", "2f", "3f",
-                 "2e2e", "2c2c", "ltct", "ltef",
+                 "2e2e", "2c2c",
                  "Info", "Intro", "Readme", "Read me", "作者", "说明", "前言",
                  "Custom", "Letter", "Scheme", "Setting", "From", "设置", "编码", "参考",
                  "test",
@@ -220,7 +220,7 @@ def main():
     logger.remove(0)
     # logger.add("scripts/file_main.log", format="{time:HH:mm:ss} | {level} | {message}")
     logger.add(sys.stderr, format="{time:HH:mm:ss} | {level} | {message}")
-    output_types = ["edge", "corner"]
+    output_types = ["edge", "corner", "ltct"]
     algs_json = {output_type: {} for output_type in output_types}
 
     url_file = "assets/json/sourceToUrl.json"
