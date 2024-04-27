@@ -62,6 +62,7 @@ def sequence_to_state(sequence: str) -> str:
 
     # Apply this sequence to the cube
     for move in moves:
+        isValid = False
         if move[0].islower() and move[0] in ['r', 'u', 'd', 'l', 'f', 'b']:
             move = '2' + move.upper()
         if move[0] == 'e':
@@ -78,6 +79,7 @@ def sequence_to_state(sequence: str) -> str:
                 rr.rotate(move.replace('E', 'D'))
                 rr.rotate(move.replace('E', 'D'))
                 rr.rotate(move.replace('E', 'D'))
+                isValid = True
             if move[0] == 'M':
                 if (move.replace('M', 'Lw') not in moves_555) or (move.replace('M', 'L') not in moves_555):
                     continue
@@ -85,6 +87,7 @@ def sequence_to_state(sequence: str) -> str:
                 rr.rotate(move.replace('M', 'L'))
                 rr.rotate(move.replace('M', 'L'))
                 rr.rotate(move.replace('M', 'L'))
+                isValid = True
             if move[0] == 'S':
                 if (move.replace('S', 'Fw') not in moves_555) or (move.replace('S', 'F') not in moves_555):
                     continue
@@ -92,8 +95,12 @@ def sequence_to_state(sequence: str) -> str:
                 rr.rotate(move.replace('S', 'F'))
                 rr.rotate(move.replace('S', 'F'))
                 rr.rotate(move.replace('S', 'F'))
+                isValid = True
         elif move in moves_555:
             rr.rotate(move)
+            isValid = True
+        if not isValid:
+            return "x" + solved_555
     state = "".join(rr.state)
     return state
 

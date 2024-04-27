@@ -51,11 +51,13 @@ def sequence_to_state(sequence: str) -> str:
 
     # Apply this sequence to the cube
     for move in moves:
+        isValid = False
         if move[0].islower() and move[0] in ['r', 'u', 'd', 'l', 'f', 'b']:
             if (move.upper() not in moves_333):
                 continue
             rr.rotate('2' + move.upper())
             rr.rotate(move.upper())
+            isValid = True
         if move[0] == 'E':
             move = '2' + move.replace('E', 'D')
         if move[0] == 'M':
@@ -64,8 +66,52 @@ def sequence_to_state(sequence: str) -> str:
             move = '2' + move.replace('S', 'F')
         if move in moves_333:
             rr.rotate(move)
+            isValid = True
+        if not isValid:
+            return "x" + solved_333
     state = "".join(rr.state)
     return state
+
+
+def add_rotation(sequence: str) -> str:
+    state = sequence_to_state(sequence)
+    top_front = state[5] + state[23]
+    if top_front != "UF":
+        arr = sequence.split(" ")
+        while arr and arr[-1][0] in ['x', 'y', 'z']:
+            arr.pop()
+        sequence = " ".join(arr)
+    else:
+        return sequence
+    state = sequence_to_state(sequence)
+    top_front = state[5] + state[23]
+    rotation_map = {
+        'UF': '',
+        'UR': "y'",
+        'UB': 'y2',
+        'UL': 'y',
+        'DF': 'z2',
+        'DL': "y' z2",
+        'DB': 'x2',
+        'DR': 'y z2',
+        'RF': 'z',
+        'RD': "y' z",
+        'RB': 'y2 z',
+        'RU': 'y z',
+        'LF': "z'",
+        'LU': "y' z'",
+        'LB': "y2 z'",
+        'LD': "y z'",
+        'BU': 'x',
+        'BR': "y' x",
+        'BD': 'y2 x',
+        'BL': 'y x',
+        'FD': "x'",
+        'FR': "y' x'",
+        'FU': "y2 x'",
+        'FL': "y x'"
+    }
+    return sequence + " " + rotation_map[top_front]
 
 
 def get_raw_code(code_type: str, sequence: str, edge_ch: str = edge_ch_default, corner_ch: str = corner_ch_default) -> str:

@@ -25,7 +25,9 @@ def main():
         for line in re.split(r'[\n\r]+| if | or | and ', cell.strip("\n\r")):
             if len(line) > MAX_CELL_LEN:
                 continue
-            alg = commutator.expand(line, isInverse=isInverse)
+            alg = commutator.expand(line)
+            alg = add_rotation(alg)
+            alg = commutator.expand(alg, isInverse=isInverse)
             output_type, code = get_code_auto(alg, edge_ch, corner_ch)
             if output_type in output_types and len(code) > 0 and stm(alg) <= MAX_STM:
                 if code not in algs_json[output_type]:
@@ -224,7 +226,12 @@ def main():
                         if (not isAlg) and text_row.rfind("]") != -1:
                             cell = text_row[text_row.find(
                                 "//") + 2:text_row.rfind("]") + 1]
-                            crawl_cell(cell)
+                            isAlg = crawl_cell(cell)
+                        for moves in ["R", "U", "D", "R'", "U'", "D'", "R2", "U2", "D2"]:
+                            if not isAlg:
+                                isAlg = crawl_cell(moves + " " + cell)
+                            else:
+                                break
 
         issuccess = False
         while True:

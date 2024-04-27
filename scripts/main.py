@@ -61,7 +61,9 @@ def main():
             for line in re.split(r'[\n\r]+| if | or | and ', cell.strip("\n\r")):
                 if len(line) > MAX_CELL_LEN:
                     continue
-                alg = commutator.expand(line, isInverse=isInverse)
+                alg = commutator.expand(line)
+                alg = add_rotation(alg)
+                alg = commutator.expand(alg, isInverse=isInverse)
                 output_type, code = get_code_auto(alg)
                 if output_type_from_pattern:
                     if output_type_from_pattern != output_type or (code not in code_from_pattern and code[0] + code[2] + code[1] not in code_from_pattern):
