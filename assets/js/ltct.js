@@ -100,8 +100,34 @@ function sortByCode(inputCode) {
     return outputCode;
 }
 
+algSearchByPos();
 function algSearch() {
-    algSearchByPos();
+    let idValueOrigin = document.getElementById("ltctinput").value;
+    if (typeof idValueOrigin === "undefined") {
+        return;
+    }
+    idValueOrigin = idValueOrigin.toUpperCase();
+    const id = ["G", "A", idValueOrigin[0], idValueOrigin[1], idValueOrigin[2]];
+    let codecookie = "DEGCGAAJWIXKOOMREDCXTQLMKHIRZZPSBBLSQNJYHFFYWTNP";
+    if (getCookie("code") !== "") {
+        codecookie = getCookie("code");
+    }
+    for (const i in cornerChichuToNumber) {
+        for (let j = 0; j <= 2; j++) {
+            if (codecookie[cornerChichuToNumber[i]] === idValueOrigin[j]) {
+                id[j + 2] = i;
+            }
+        }
+    }
+    let ltctstylecookie = "nightmare";
+    if (getCookie("ltctstyle") !== "") {
+        ltctstylecookie = getCookie("ltctstyle");
+    }
+    document.getElementById("ltctinput3").value = cornerCodeToPos[id[2]];
+    document.getElementById("ltctinput4").value = cornerCodeToPos[id[3]];
+    document.getElementById("ltctinput5").value = cornerCodeToPos[id[4]];
+    const idValue = `GA${id[2]}${id[3]}${id[4]}`;
+    algSearchMain(idValue, ltctstylecookie);
 }
 
 function algSearchByPos() {
@@ -131,23 +157,38 @@ function algSearchByPos() {
     } else {
         id[4] = " ";
     }
+    let codecookie = "DEGCGAAJWIXKOOMREDCXTQLMKHIRZZPSBBLSQNJYHFFYWTNP";
+    if (getCookie("code") !== "") {
+        codecookie = getCookie("code");
+    }
+    const cornerinput = [];
+    for (let i = 0; i <= 2; i++) {
+        if (id[i + 2] === " ") {
+            cornerinput[i] = " ";
+        } else if (codecookie[cornerChichuToNumber[id[i + 2]]] === "") {
+            cornerinput[i] = id[i + 2];
+        } else {
+            cornerinput[i] = codecookie[cornerChichuToNumber[id[i + 2]]];
+        }
+    }
     const idValue = `${id[0]}${id[1]}${id[2]}${id[3]}${id[4]}`;
     let ltctstylecookie = "nightmare";
     if (getCookie("ltctstyle") !== "") {
         ltctstylecookie = getCookie("ltctstyle");
     }
+    document.getElementById("ltctinput").value = `${cornerinput[0]}${cornerinput[1]}${cornerinput[2]}`.trimEnd();
     algSearchMain(idValue, ltctstylecookie);
 }
 
 function algSearchMain(idValue, ltctstylecookie) {
     const div1 = document.getElementById("div1");
-    let cornerAlgToInfoStyle = {};
-    let cornerAlgToStyle = {};
+    let ltctAlgToInfoStyle = {};
+    let ltctAlgToStyle = {};
     if (ltctstylecookie === "nightmare") {
-        cornerAlgToInfoStyle = ltctAlgToInfo;
+        ltctAlgToInfoStyle = ltctAlgToInfo;
     }
     if (ltctstylecookie === "manmade") {
-        cornerAlgToInfoStyle = ltctAlgToInfoManmade;
+        ltctAlgToInfoStyle = ltctAlgToInfoManmade;
     }
     let tab = "";
     const spaceIndex = idValue.indexOf(" ");
@@ -161,14 +202,17 @@ function algSearchMain(idValue, ltctstylecookie) {
         searchList.push(idValue);
     }
     let isFound = false;
-    if (idValue.split(" ").length - 1 <= 1) {
+    if (idValue.length === 5 && idValue.split(" ").length - 1 <= 1) {
         for (const originalKey of searchList) {
             const key = sortByCode(originalKey);
-            if (!(key in cornerAlgToInfoStyle)) {
+            if (!(key in ltctAlgToInfoStyle)) {
                 continue;
             }
             isFound = true;
-            let rows = cornerAlgToInfoStyle[key].length;
+            if (document.getElementById("ltctinput") === document.activeElement) {
+                document.getElementById("ltctinput").blur();
+            }
+            let rows = ltctAlgToInfoStyle[key].length;
             if (ltctstylecookie === "nightmare" && idValue.split(" ").length - 1 === 1) {
                 rows = 5;
             }
@@ -196,14 +240,14 @@ function algSearchMain(idValue, ltctstylecookie) {
                 tab += "<tr><td colspan='4'>" + cornerCodeToPos[originalKey[spaceIndex]] + " (" + customCode + ")" + "</td></tr>";
             }
             for (let i = 0; i < rows; i++) {
-                if (ltctstylecookie !== "manmade" && cornerAlgToInfoStyle[key][i] === cornerAlgToStyle[key]) {
+                if (ltctstylecookie !== "manmade" && ltctAlgToInfoStyle[key][i] === ltctAlgToStyle[key]) {
                     tab += "<tr bgcolor=\"#D0D0D0\">";
                 } else {
                     tab += "<tr>";
                 }
                 if (ltctstylecookie === "manmade") {
-                    const algInfo = cornerAlgToInfoStyle[key][i][0];
-                    const sourceInfo = cornerAlgToInfoStyle[key][i][1];
+                    const algInfo = ltctAlgToInfoStyle[key][i][0];
+                    const sourceInfo = ltctAlgToInfoStyle[key][i][1];
                     tab += `<td rowspan="${algInfo.length}">${i + 1}</td>`;
                     for (let j = 0; j < algInfo.length; j++) {
                         if (j === 0) {
@@ -243,8 +287,8 @@ function algSearchMain(idValue, ltctstylecookie) {
                     }
                 } else {
                     tab += `<td>${i + 1}</td>`;
-                    tab += `<td>${cornerAlgToInfoStyle[key][i]}</td>`;
-                    tab += `<td>${fingerbeginfrom(cornerAlgToInfoStyle[key][i])}</td>`;
+                    tab += `<td>${ltctAlgToInfoStyle[key][i]}</td>`;
+                    tab += `<td>${fingerbeginfrom(ltctAlgToInfoStyle[key][i])}</td>`;
                 }
                 tab += "</tr>";
             }

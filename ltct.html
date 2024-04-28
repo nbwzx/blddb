@@ -49,7 +49,7 @@
             <p class="lang" key="ltctHint2"></p>
             <p class="lang" key="ltctHint3"></p>
           </header>
-          <p>
+          <p style="display: inline-block;">
             <strong class="lang" key="position"></strong>
             <!-- <select style="width:3em" id="ltctinput1" onchange="algSearchByPos()">
               <option></option>
@@ -163,34 +163,37 @@
               <option>DBL</option>
             </select>
           </p>
-          <p>
-            <div style="display: inline-block;">
-              <strong class="lang" key="ltcttwist"></strong>
-              <div class="help" style="display: inline-block;">
-                <i class='fa fa-question-circle' style="color: DodgerBlue;"></i>
-                <span class="help-content-right lang" key="ltcttwistHint">
-                </span>
-              </div>
+          &nbsp;&nbsp;
+          <div style="display: inline-block;">
+            <strong class="lang" key="ltcttwist"></strong>
+            <div class="help" style="display: inline-block;">
+              <i class='fa fa-question-circle' style="color: DodgerBlue;"></i>
+              <span class="help-content-right lang" key="ltcttwistHint">
+              </span>
             </div>
-            <select style="width:3.5em" id="ltctinput5" onchange="algSearchByPos()">
-              <option></option>
-              <option>LUB</option>
-              <option>LUF</option>
-              <option>LDF</option>
-              <option>LDB</option>
-              <option>FUL</option>
-              <option>FUR</option>
-              <option>FDR</option>
-              <option>FDL</option>
-              <option>RUF</option>
-              <option>RUB</option>
-              <option>RDB</option>
-              <option>RDF</option>
-              <option>BUR</option>
-              <option>BUL</option>
-              <option>BDL</option>
-              <option>BDR</option>
-            </select>
+          </div>
+          <select style="width:3.5em" id="ltctinput5" onchange="algSearchByPos()">
+            <option></option>
+            <option>LUB</option>
+            <option>LUF</option>
+            <option>LDF</option>
+            <option>LDB</option>
+            <option>FUL</option>
+            <option>FUR</option>
+            <option>FDR</option>
+            <option>FDL</option>
+            <option>RUF</option>
+            <option>RUB</option>
+            <option>RDB</option>
+            <option>RDF</option>
+            <option>BUR</option>
+            <option>BUL</option>
+            <option>BDL</option>
+            <option>BDR</option>
+          </select>
+          <p><strong class="lang" key="pairs"></strong><input type="text" placeholder="" id="ltctinput"
+              onkeyup="algSearch()" maxlength="3" style="text-align:center;width:3em;text-transform:uppercase"
+              autocomplete="off">
             &nbsp;&nbsp;
             <strong class="lang" key="style"></strong><select style="width:5em; font-family:'FontAwesome'"
               id="ltctstyle" onchange="switchStyle()">
