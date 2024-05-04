@@ -104,24 +104,20 @@ def main():
                     for all_algs in algs_json[output_type][code]:
                         if commutator.expand_555_final(alg) == commutator.expand_555_final(all_algs[0]):
                             is_new = False
-                            if alg != all_algs[0]:
-                                if qtm(alg) < qtm(all_algs[0]):
-                                    all_algs[0] = alg
-                                    if "," in alg_original or "/" in alg_original:
-                                        all_algs[2] = alg_original
-                            elif all_algs[2] == "Not found.":
-                                if "," in alg_original or "/" in alg_original:
-                                    all_algs[2] = alg_original
+                            if qtm(alg) < qtm(all_algs[0]):
+                                all_algs[0] = alg
+                            if "," in alg_original or "/" in alg_original:
+                                all_algs[2].append(commutator.expand_555(alg_original))
                             if name not in all_algs[1]:
                                 all_algs[1].append(name)
                                 all_algs[1].sort()
                     if is_new:
                         if "," in alg_original or "/" in alg_original:
                             algs_json[output_type][code].append(
-                                [alg, [name], alg_original])
+                                [alg, [name], [commutator.expand_555(alg_original)]])
                         else:
                             algs_json[output_type][code].append(
-                                [alg, [name], "Not found."])
+                                [alg, [name], []])
                     algs_json[output_type][code].sort(
                         key=lambda line: -len(line[1]))
 
@@ -357,13 +353,13 @@ def main():
             output_type.capitalize() + "AlgToInfoManmade.json"
         for algs in algs_json[output_type]:
             for alg in algs_json[output_type][algs]:
-                commutator_alg = commutator.search_555(alg[0])[0]
+                best_alg = alg[0]
+                if len(alg[2]) > 0:
+                    best_alg = max(alg[2], key=lambda x: alg[2].count(x))
+                commutator_alg = commutator.search_555(best_alg)[0]
                 if commutator_alg == "Not found.":
-                    alg[2] = commutator.search_555(
-                        commutator.expand_555(alg[2]))[0]
-                    if alg[2] == "Not found.":
-                        alg[2] = commutator.search_555_final(
-                            commutator.expand_555_final(alg[0]))[0]
+                    alg[2] = commutator.search_555_final(
+                            commutator.expand_555_final(best_alg))[0]
                 else:
                     alg[2] = commutator_alg
                 alg[2] = commutator.finalReplaceCommutator(alg[2])
