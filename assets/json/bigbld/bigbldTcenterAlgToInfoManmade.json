@@ -1751,7 +1751,7 @@
                 "Ryan Eckersley",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "u:[U l2 U',m]"
+            "Uw:[l2,U' m U]"
         ],
         [
             "Lw' e l' U l e' l' U' l Lw",
@@ -2105,7 +2105,7 @@
                 "Ryan Eckersley",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "u:[U l' U',m]"
+            "Uw:[l',U' m U]"
         ],
         [
             "L' e l' U l e' l' U' Lw",
@@ -2154,7 +2154,7 @@
                 "Ryan Eckersley",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "u:[U l U',m]"
+            "Uw:[l,U' m U]"
         ],
         [
             "L e' l U l' e l U' Lw'",
@@ -2203,7 +2203,7 @@
                 "Kevin Matthews",
                 "Michael Tripodi"
             ],
-            "u:[Uw' r' Uw,m]"
+            "U':[r',Uw m Uw']"
         ],
         [
             "u U' r' U m U' r U m' u'",
@@ -2240,7 +2240,7 @@
                 "Daniel Wallin",
                 "Michael Tripodi"
             ],
-            "3Uw U':[U' r U,m]"
+            "u e':[U' r U,m]"
         ],
         [
             "E' U' r U m U' r' U m' E",
@@ -5090,7 +5090,7 @@
                 "Michael Tripodi",
                 "Ryan Eckersley"
             ],
-            "3Uw' U:[U l' U',m']"
+            "u' e:[U l' U',m']"
         ],
         [
             "e U l' U' m' U l U' m e'",
@@ -5387,7 +5387,7 @@
                 "Daniel Wallin",
                 "Kevin Matthews"
             ],
-            "Lw:[m,U l U']"
+            "3Lw:[U l U',m']"
         ]
     ],
     "AKI": [
@@ -5859,7 +5859,7 @@
                 "Ethan Pan",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "Lw2 U':[u',m' U' m]"
+            "Lw2 Uw':[m' U' m,u]"
         ],
         [
             "z r U2 r e r' U2 r e' r2 z'",
@@ -6892,7 +6892,7 @@
                 "Ryan Eckersley",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "U2 D':[m,U r2 U']"
+            "D' U':[U' m U,r2]"
         ],
         [
             "U' 4Lw U2 m U' r U m' U' r' U' 4Lw' U",
@@ -7147,7 +7147,7 @@
                 "Daniel Wallin",
                 "Michael Tripodi"
             ],
-            "3Uw' U:[U l' U',m2]"
+            "u' e:[U l' U',m2]"
         ],
         [
             "y' x r' U2 r e2 r' U2 r e2 x' y",
@@ -7221,7 +7221,7 @@
                 "Daniel Wallin",
                 "Michael Tripodi"
             ],
-            "3Uw U':[U' r U,m2]"
+            "u e':[U' r U,m2]"
         ],
         [
             "x z' l U2 l' e2 l U2 l' e2 z x'",
@@ -7619,7 +7619,7 @@
                 "Ryan Eckersley",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "U' D':[r2,U' m U]"
+            "D' U':[r2,U' m U]"
         ],
         [
             "U' 4Lw U r U m U' r' U m' U2 4Lw' U",
@@ -8176,7 +8176,7 @@
                 "Daniel Wallin",
                 "Kevin Matthews"
             ],
-            "Rw':[m,U' r' U]"
+            "3Rw':[U' r' U,m']"
         ]
     ],
     "AOI": [
@@ -8221,7 +8221,7 @@
                 "Daniel Wallin",
                 "Kevin Matthews"
             ],
-            "Rw:[m',U' r U]"
+            "3Rw:[U' r U,m]"
         ]
     ],
     "AOK": [
@@ -8938,7 +8938,7 @@
                 "Daniel Wallin",
                 "Kai Yamamoto (山本快)"
             ],
-            "Rw:[m',3Uw' r' 3Uw]"
+            "3Rw:[3Uw' r' 3Uw,m]"
         ],
         [
             "U' d' m' U m d m' U' m U",
@@ -9477,7 +9477,7 @@
                 "James Molloy",
                 "Kevin Matthews"
             ],
-            "Rw:[m' u m,U]"
+            "3Rw:[u,m U m']"
         ],
         [
             "U' Uw' m' Uw r Uw' m Uw r' U",
@@ -10004,7 +10004,7 @@
                 "James Molloy",
                 "Kevin Matthews"
             ],
-            "R U:[u,m' U m]"
+            "R Uw:[m' U m,u']"
         ],
         [
             "U2 e m' U r' U' m U r U e'",
@@ -11232,7 +11232,7 @@
                 "Kevin Matthews",
                 "Michael Tripodi"
             ],
-            "Lw':[m' u m,U']"
+            "3Lw':[u,m U' m']"
         ],
         [
             "x u m U' m' u' m U m' x'",
@@ -11426,7 +11426,7 @@
                 "James Molloy",
                 "Kevin Matthews"
             ],
-            "L' U':[u',m' U' m]"
+            "L' Uw':[m' U' m,u]"
         ],
         [
             "z r U' r e r' U r e' r2 z'",
@@ -12162,7 +12162,7 @@
                 "Michael Tripodi",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "3Rw':[l,U' m' U]"
+            "4Rw':[U' m' U,l']"
         ],
         [
             "x' U' m' U l' U' m U l x",
@@ -12483,7 +12483,7 @@
                 "James Molloy",
                 "Kevin Matthews"
             ],
-            "Lw:[m d' m',U']"
+            "3Lw:[d',m' U' m]"
         ]
     ],
     "AWQ": [
@@ -12824,7 +12824,7 @@
                 "Daniel Wallin",
                 "Kevin Matthews"
             ],
-            "Lw:[m u' m',U2]"
+            "3Lw:[u',m' U2 m]"
         ],
         [
             "U' l e l' U2 l e' l' U'",
@@ -12850,7 +12850,7 @@
                 "Daniel Wallin",
                 "Ethan Pan"
             ],
-            "Lw U:[u,m U' m']"
+            "Lw Uw:[m U' m',u']"
         ],
         [
             "e' m U' r' U m' U' r U e",
@@ -12978,7 +12978,7 @@
                 "Michael Tripodi",
                 "Ryan Eckersley"
             ],
-            "3Uw' U:[m',U l' U']"
+            "u' e:[m',U l' U']"
         ],
         [
             "e m' U l' U' m U l U' e'",
@@ -14102,7 +14102,7 @@
                 "James Molloy",
                 "Kevin Matthews"
             ],
-            "R' U:[u,m' U m]"
+            "R' Uw:[m' U m,u']"
         ]
     ],
     "AZC": [
@@ -14202,7 +14202,7 @@
                 "Kevin Matthews",
                 "Marcell Endrey"
             ],
-            "Rw':[m u m',U2]"
+            "3Rw':[u,m' U2 m]"
         ]
     ],
     "AZF": [
@@ -14328,7 +14328,7 @@
                 "Michael Tripodi",
                 "Ryan Eckersley"
             ],
-            "3Uw U':[m',U' r U]"
+            "u e':[m',U' r U]"
         ],
         [
             "e' m' U' r U m U' r' U e",
@@ -31093,7 +31093,7 @@
                 "Daniel Wallin",
                 "Michael Tripodi"
             ],
-            "3Uw':[U m U',r]"
+            "u' e:[m,U' r U]"
         ],
         [
             "E m U' r U m' U' r' 4Uw",
@@ -31197,7 +31197,7 @@
                 "Daniel Wallin",
                 "Michael Tripodi"
             ],
-            "3Uw' U:[m,U l' U']"
+            "u' e:[m,U l' U']"
         ],
         [
             "E m U l' U' m' U l U' E'",
@@ -31557,7 +31557,7 @@
                 "James Molloy",
                 "Leonardo Ezequiel Cruz"
             ],
-            "U' u:[m' U' m,u2]"
+            "Uw':[u2,m' U' m]"
         ],
         [
             "y' u2 m' U' m u2 m' U m y",
@@ -32455,7 +32455,7 @@
                 "Michael Tripodi",
                 "Ryan Eckersley"
             ],
-            "u':[U' r2 U,m]"
+            "Uw':[r2,U m U']"
         ],
         [
             "Rw e' r U' r' e r U r' Rw'",
@@ -32518,7 +32518,7 @@
                 "Michael Tripodi",
                 "Ryan Eckersley"
             ],
-            "u':[U' r U,m]"
+            "Uw':[r,U m U']"
         ],
         [
             "R e' r U' r' e r U Rw'",
@@ -32914,7 +32914,7 @@
                 "Ryan Eckersley",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "u':[U' r' U,m]"
+            "Uw':[r',U m U']"
         ],
         [
             "R' e r' U' r e' r' U Rw",
