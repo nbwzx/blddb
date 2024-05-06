@@ -322,6 +322,13 @@
             "D r U:[R u' R',U2]"
         ],
         [
+            "U2 3Rw' U2 3Rw U2 l' U2 3Rw' U2 3Rw U2 l",
+            [
+                "Michael Tripodi"
+            ],
+            "[U2 3Rw' U2 3Rw U2,l']"
+        ],
+        [
             "D Rw U' L u L' U2 L u' L' U' Rw' D'",
             [
                 "Antonio Kam (甘浩東)"
@@ -403,6 +410,13 @@
                 "Ryan Eckersley"
             ],
             "D' Lw' U':[R' u' R,U2]"
+        ],
+        [
+            "r U2 3Lw U2 3Lw' U2 r' U2 3Lw U2 3Lw' U2",
+            [
+                "Michael Tripodi"
+            ],
+            "[r,U2 3Lw U2 3Lw' U2]"
         ],
         [
             "y U r' U2 r' D r U2 r' D' r2 U' y'",
@@ -611,6 +625,13 @@
             "D' r U:[R u' R',U2]"
         ],
         [
+            "3Lw' U2 3Lw U2 r' U2 3Lw' U2 3Lw U2 r U2",
+            [
+                "Michael Tripodi"
+            ],
+            "3Lw':[U2,3Lw U2 r' U2 3Lw']"
+        ],
+        [
             "D r2 D' r' U2 r D r' U2 r' D'",
             [
                 "Adrian Dębski"
@@ -684,6 +705,13 @@
                 "Ryan Eckersley"
             ],
             "D Lw' U':[R' u' R,U2]"
+        ],
+        [
+            "U2 l U2 3Rw U2 3Rw' U2 l' U2 3Rw U2 3Rw'",
+            [
+                "Michael Tripodi"
+            ],
+            "U2:[l,U2 3Rw U2 3Rw' U2]"
         ],
         [
             "D l' U2 l' D' l U2 l' D l2 D'",
@@ -1481,6 +1509,17 @@
             "Lw:[r',U L' U']"
         ],
         [
+            "4Lw U L' U' r U L U' 3Lw'",
+            [
+                "Antonio Kam (甘浩東)",
+                "Chenhao Sun (孙晨皓)",
+                "Kai Yamamoto (山本快)",
+                "Kevin Matthews",
+                "Michael Tripodi"
+            ],
+            "4Lw:[U L' U',r]"
+        ],
+        [
             "r' L U L' U' r U L U' L'",
             [
                 "Dong Zhu (朱栋)",
@@ -1490,16 +1529,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "L:[r',U L' U']"
-        ],
-        [
-            "4Lw U L' U' r U L U' 3Lw'",
-            [
-                "Antonio Kam (甘浩東)",
-                "Chenhao Sun (孙晨皓)",
-                "Kai Yamamoto (山本快)",
-                "Kevin Matthews"
-            ],
-            "4Lw:[U L' U',r]"
         ],
         [
             "x' U L' U' r U L U' r' x",
@@ -1594,6 +1623,18 @@
             "U' R:[U' R' U,r]"
         ],
         [
+            "4Lw' U L U' r' U L' U' 3Lw",
+            [
+                "Daniel Lin",
+                "Ethan Pan",
+                "Kai Yamamoto (山本快)",
+                "Kevin Matthews",
+                "Michael Tripodi",
+                "Yuki Tsuneyoshi (恒吉優紀)"
+            ],
+            "4Lw':[U L U',r']"
+        ],
+        [
             "Lw' r U L U' r' U L' U' Lw",
             [
                 "Andrew Tan Jing Bang",
@@ -1603,17 +1644,6 @@
                 "Xi Lu (鲁曦)"
             ],
             "Lw':[r,U L U']"
-        ],
-        [
-            "4Lw' U L U' r' U L' U' 3Lw",
-            [
-                "Daniel Lin",
-                "Ethan Pan",
-                "Kai Yamamoto (山本快)",
-                "Kevin Matthews",
-                "Yuki Tsuneyoshi (恒吉優紀)"
-            ],
-            "4Lw':[U L U',r']"
         ],
         [
             "D r' D' r U' r' D r U D'",
@@ -1829,6 +1859,13 @@
                 "Ryan Eckersley"
             ],
             "U' R':[U' R U,r2]"
+        ],
+        [
+            "3Lw' r2 U L U' r2 U L' U' 3Lw",
+            [
+                "Michael Tripodi"
+            ],
+            "3Lw':[r2,U L U']"
         ],
         [
             "D 4Rw2 U' r2 U 4Rw2 D' r2",
@@ -2430,6 +2467,13 @@
                 "Kevin Matthews"
             ],
             "Rw 3Lw U':[U' l' U,L']"
+        ],
+        [
+            "3Lw' U R d' R' U2 R d R' U 3Lw",
+            [
+                "Michael Tripodi"
+            ],
+            "3Lw' U:[R d' R',U2]"
         ]
     ],
     "ADC": [
@@ -2608,7 +2652,8 @@
         [
             "3Lw' U' L U r U' L' U 4Lw",
             [
-                "Kevin Matthews"
+                "Kevin Matthews",
+                "Michael Tripodi"
             ],
             "3Lw':[U' L U,r]"
         ],
@@ -2885,6 +2930,7 @@
                 "Christopher Morris",
                 "Hana Davila",
                 "James Molloy",
+                "Michael Tripodi",
                 "Ryan Eckersley"
             ],
             "4Lw:[U' L' U,r2]"
@@ -2990,7 +3036,8 @@
             "U' 4Rw U R' U' l2 U R U' l2 4Rw' U",
             [
                 "Christopher Morris",
-                "James Molloy"
+                "James Molloy",
+                "Michael Tripodi"
             ],
             "U' 4Rw:[U R' U',l2]"
         ],
@@ -3393,6 +3440,14 @@
             "L2 D:[U L' U',r]"
         ],
         [
+            "3Lw U2 R' u' R U R' u R U 3Lw'",
+            [
+                "Kevin Matthews",
+                "Michael Tripodi"
+            ],
+            "3Lw U':[U',R' u' R]"
+        ],
+        [
             "x D' r' U' L U r U' L' U D x'",
             [
                 "Adrian Dębski",
@@ -3414,13 +3469,6 @@
                 "Oliver Fritz"
             ],
             "r U:[R u R',U]"
-        ],
-        [
-            "3Lw U2 R' u' R U R' u R U 3Lw'",
-            [
-                "Kevin Matthews"
-            ],
-            "3Lw U':[U',R' u' R]"
         ]
     ],
     "ADX": [
@@ -3876,6 +3924,13 @@
             "Rw F Rw' U':[R' u' R,U2]"
         ],
         [
+            "3Rw U2 l' U2 3Rw' U2 3Rw U2 l U2 3Rw' U2",
+            [
+                "Michael Tripodi"
+            ],
+            "[3Rw U2 l' U2 3Rw',U2]"
+        ],
+        [
             "D' S' U' R' u R U2 R' u' R U' S D",
             [
                 "Antonio Kam (甘浩東)"
@@ -4068,6 +4123,13 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "[U2,Lw U2 r' U2 Lw']"
+        ],
+        [
+            "U2 3Lw U2 r' U2 3Lw' U2 3Lw U2 r U2 3Lw'",
+            [
+                "Michael Tripodi"
+            ],
+            "[U2,3Lw U2 r' U2 3Lw']"
         ],
         [
             "D S' U' R' u R U2 R' u' R U' S D'",
@@ -4740,20 +4802,21 @@
             "L:[U L' U',r']"
         ],
         [
+            "3Lw U L' U' r' U L U' 4Lw'",
+            [
+                "Antonio Kam (甘浩東)",
+                "Kevin Matthews",
+                "Michael Tripodi"
+            ],
+            "3Lw:[U L' U',r']"
+        ],
+        [
             "x' r U L' U' r' U L U' x",
             [
                 "Adrian Dębski",
                 "Dong Zhu (朱栋)"
             ],
             "x':[r,U L' U']"
-        ],
-        [
-            "3Lw U L' U' r' U L U' 4Lw'",
-            [
-                "Antonio Kam (甘浩東)",
-                "Kevin Matthews"
-            ],
-            "3Lw:[U L' U',r']"
         ],
         [
             "4Lw Lw2 r U L U' r' U L' U' Lw2 4Lw'",
@@ -4795,6 +4858,16 @@
             "Lw':[r,U' L U]"
         ],
         [
+            "4Lw' U' L U r' U' L' U 3Lw",
+            [
+                "Chenhao Sun (孙晨皓)",
+                "Kai Yamamoto (山本快)",
+                "Kevin Matthews",
+                "Michael Tripodi"
+            ],
+            "4Lw':[U' L U,r']"
+        ],
+        [
             "r L' U' L U r' U' L' U L",
             [
                 "Dong Zhu (朱栋)",
@@ -4803,15 +4876,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "L':[r,U' L U]"
-        ],
-        [
-            "4Lw' U' L U r' U' L' U 3Lw",
-            [
-                "Chenhao Sun (孙晨皓)",
-                "Kai Yamamoto (山本快)",
-                "Kevin Matthews"
-            ],
-            "4Lw':[U' L U,r']"
         ],
         [
             "r L U' L' U r' U' L U L'",
@@ -5052,6 +5116,13 @@
             "Lw2 4Lw:[r,U L' U']"
         ],
         [
+            "3Lw U L U' r' U L' U' 4Lw'",
+            [
+                "Michael Tripodi"
+            ],
+            "3Lw:[U L U',r']"
+        ],
+        [
             "U D f R' F' R f' R' F R D' U'",
             [
                 "Chenhao Sun (孙晨皓)"
@@ -5095,18 +5166,19 @@
             "Lw':[r,U' L' U]"
         ],
         [
+            "4Lw' U' L' U r' U' L U 3Lw",
+            [
+                "Kai Yamamoto (山本快)",
+                "Michael Tripodi"
+            ],
+            "4Lw':[U' L' U,r']"
+        ],
+        [
             "U' D R' F' R b' R' F R b D' U",
             [
                 "Ryan Eckersley"
             ],
             "U' D:[R' F' R,b']"
-        ],
-        [
-            "4Lw' U' L' U r' U' L U 3Lw",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "4Lw':[U' L' U,r']"
         ]
     ],
     "AFM": [
@@ -5625,6 +5697,13 @@
             "D r U':[R u' R',U2]"
         ],
         [
+            "l' U2 3Rw' U2 3Rw U2 l U2 3Rw' U2 3Rw U2",
+            [
+                "Michael Tripodi"
+            ],
+            "[l',U2 3Rw' U2 3Rw U2]"
+        ],
+        [
             "D Rw U L u L' U2 L u' L' U Rw' D'",
             [
                 "Antonio Kam (甘浩東)"
@@ -5814,6 +5893,13 @@
                 "Ryan Eckersley"
             ],
             "Rw F Rw' U:[R' u' R,U2]"
+        ],
+        [
+            "U2 3Rw U2 l' U2 3Rw' U2 3Rw U2 l U2 3Rw'",
+            [
+                "Michael Tripodi"
+            ],
+            "[U2,3Rw U2 l' U2 3Rw']"
         ],
         [
             "D' S' U R' u R U2 R' u' R U S D",
@@ -6140,6 +6226,13 @@
             "Lw':[r2,U2 Lw U2 Lw' U2]"
         ],
         [
+            "3Lw2 U2 3Lw U2 r' U2 3Lw' U2 3Lw U2 r U2 3Lw",
+            [
+                "Michael Tripodi"
+            ],
+            "3Lw2:[U2,3Lw U2 r' U2 3Lw']"
+        ],
+        [
             "Rw U' Rw' l' U' l D2 l' U l D2 Rw U Rw'",
             [
                 "Oliver Fritz"
@@ -6195,6 +6288,14 @@
             "U Lw:[l,U' L' U]"
         ],
         [
+            "3Lw U2 r' D2 r U2 r' D2 4Lw'",
+            [
+                "Kevin Matthews",
+                "Michael Tripodi"
+            ],
+            "3Lw:[U2,r' D2 r]"
+        ],
+        [
             "U' 4Rw' l U R U' l' U R' U' 4Rw U",
             [
                 "Adrian Dębski"
@@ -6221,13 +6322,6 @@
                 "Xin Shi (石欣)"
             ],
             "D':[b,R F R']"
-        ],
-        [
-            "3Lw U2 r' D2 r U2 r' D2 4Lw'",
-            [
-                "Kevin Matthews"
-            ],
-            "3Lw:[U2,r' D2 r]"
         ],
         [
             "l U2 r' D2 r U2 r' D2 r l'",
@@ -6548,6 +6642,13 @@
             "U R' F':[R f R',F']"
         ],
         [
+            "3Rw U' L' U' l' U L U' l U2 3Rw'",
+            [
+                "Michael Tripodi"
+            ],
+            "3Rw U':[L',U' l' U]"
+        ],
+        [
             "U2 l U L' U' l2 U L U' l U2",
             [
                 "Oliver Fritz"
@@ -6839,6 +6940,13 @@
             "D' Lw' U:[R' u' R,U2]"
         ],
         [
+            "U2 3Lw U2 3Lw' U2 r U2 3Lw U2 3Lw' U2 r'",
+            [
+                "Michael Tripodi"
+            ],
+            "[U2 3Lw U2 3Lw' U2,r]"
+        ],
+        [
             "y U r2 D r U2 r' D' r U2 r U' y'",
             [
                 "Cale Schoon"
@@ -6920,6 +7028,7 @@
             [
                 "Daniel Lin",
                 "Kevin Matthews",
+                "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "3Lw':[U L U',r]"
@@ -7274,7 +7383,8 @@
         [
             "3Lw' U L' U' r U L U' 4Lw",
             [
-                "Kevin Matthews"
+                "Kevin Matthews",
+                "Michael Tripodi"
             ],
             "3Lw':[U L' U',r]"
         ]
@@ -8257,6 +8367,14 @@
             "Lw:[r',U L U']"
         ],
         [
+            "4Lw U L U' r U L' U' 3Lw'",
+            [
+                "Kai Yamamoto (山本快)",
+                "Michael Tripodi"
+            ],
+            "4Lw:[U L U',r]"
+        ],
+        [
             "Lw2 4Lw U L' U' r U L U' 3Lw' Lw2",
             [
                 "Daniel Lin",
@@ -8270,13 +8388,6 @@
                 "Chenhao Sun (孙晨皓)"
             ],
             "U D:[R' F' R,f]"
-        ],
-        [
-            "4Lw U L U' r U L' U' 3Lw'",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "4Lw:[U L U',r]"
         ]
     ],
     "AKI": [
@@ -8384,7 +8495,8 @@
             "4Lw' U L' U' r' U L U' 3Lw",
             [
                 "Kai Yamamoto (山本快)",
-                "Kevin Matthews"
+                "Kevin Matthews",
+                "Michael Tripodi"
             ],
             "4Lw':[U L' U',r']"
         ]
@@ -9149,18 +9261,19 @@
             "Rw' U:[L2,U r2 U']"
         ],
         [
+            "3Lw' U R' u' R U2 R' u R U 3Lw",
+            [
+                "Kevin Matthews",
+                "Michael Tripodi"
+            ],
+            "3Lw' U:[R' u' R,U2]"
+        ],
+        [
             "l' U' L' u L U2 L' u' L U' l",
             [
                 "Oliver Fritz"
             ],
             "l' U':[L' u L,U2]"
-        ],
-        [
-            "3Lw' U R' u' R U2 R' u R U 3Lw",
-            [
-                "Kevin Matthews"
-            ],
-            "3Lw' U:[R' u' R,U2]"
         ]
     ],
     "ALC": [
@@ -9574,6 +9687,7 @@
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
+                "Michael Tripodi",
                 "Xi Lu (鲁曦)"
             ],
             "4Lw:[U' L U,r2]"
@@ -10291,6 +10405,13 @@
             "D' r U':[R u' R',U2]"
         ],
         [
+            "U2 r' U2 3Lw' U2 3Lw U2 r U2 3Lw' U2 3Lw",
+            [
+                "Michael Tripodi"
+            ],
+            "U2:[r',U2 3Lw' U2 3Lw U2]"
+        ],
+        [
             "D r U2 r D' r' U2 r D r2 D'",
             [
                 "Adrian Dębski"
@@ -10370,6 +10491,13 @@
                 "Ryan Eckersley"
             ],
             "U' R':[r2,U' R U]"
+        ],
+        [
+            "3Lw' U L U' r2 U L' U' r2 3Lw",
+            [
+                "Michael Tripodi"
+            ],
+            "3Lw':[U L U',r2]"
         ],
         [
             "r2 D 4Rw2 U' r2 U 4Rw2 D'",
@@ -10490,6 +10618,13 @@
             "[Lw U2 r' U2 Lw',U2]"
         ],
         [
+            "3Lw U2 r' U2 3Lw' U2 3Lw U2 r U2 3Lw' U2",
+            [
+                "Michael Tripodi"
+            ],
+            "[3Lw U2 r' U2 3Lw',U2]"
+        ],
+        [
             "D S' U R' u R U2 R' u' R U S D'",
             [
                 "Antonio Kam (甘浩東)"
@@ -10601,6 +10736,13 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "Lw':[U2 Lw U2 Lw' U2,r2]"
+        ],
+        [
+            "3Lw' U2 r' U2 3Lw' U2 3Lw U2 r U2 3Lw' U2 3Lw2",
+            [
+                "Michael Tripodi"
+            ],
+            "3Lw2:[3Lw U2 r' U2 3Lw',U2]"
         ],
         [
             "Rw U' Rw' D2 l' U' l D2 l' U l Rw U Rw'",
@@ -10750,6 +10892,7 @@
                 "Ethan Pan",
                 "James Molloy",
                 "Kai Yamamoto (山本快)",
+                "Michael Tripodi",
                 "Xi Lu (鲁曦)"
             ],
             "4Lw':[U' L' U,r2]"
@@ -11610,6 +11753,14 @@
             "U Lw:[U' L' U,l]"
         ],
         [
+            "4Lw D2 r U2 r' D2 r U2 3Lw'",
+            [
+                "Kevin Matthews",
+                "Michael Tripodi"
+            ],
+            "4Lw:[D2,r U2 r']"
+        ],
+        [
             "U' 4Rw' U R U' l U R' U' l' 4Rw U",
             [
                 "Adrian Dębski"
@@ -11636,13 +11787,6 @@
                 "Xin Shi (石欣)"
             ],
             "D':[R F R',b]"
-        ],
-        [
-            "4Lw D2 r U2 r' D2 r U2 3Lw'",
-            [
-                "Kevin Matthews"
-            ],
-            "4Lw:[D2,r U2 r']"
         ],
         [
             "l r' D2 r U2 r' D2 r U2 l'",
@@ -17830,6 +17974,13 @@
                 "Ryan Eckersley"
             ],
             "U R' F':[F',R f R']"
+        ],
+        [
+            "3Rw U2 l' U L' U' l U L U 3Rw'",
+            [
+                "Michael Tripodi"
+            ],
+            "3Rw U':[U' l' U,L']"
         ],
         [
             "U2 l' U L' U' l2 U L U' l' U2",
@@ -27072,6 +27223,13 @@
             "Lw2:[U,r' D2 r]"
         ],
         [
+            "3Rw U' L' d L U2 L' d' L U' 3Rw'",
+            [
+                "Michael Tripodi"
+            ],
+            "3Rw U':[L' d L,U2]"
+        ],
+        [
             "Lw U2 L' U' L U l2 U' L' U L l2 U2 Lw'",
             [
                 "Xin Shi (石欣)"
@@ -27169,7 +27327,8 @@
             "U' 4Rw U R' U' l U R U' 3Rw' U",
             [
                 "Kai Yamamoto (山本快)",
-                "Kevin Matthews"
+                "Kevin Matthews",
+                "Michael Tripodi"
             ],
             "U' 4Rw:[U R' U',l]"
         ],
@@ -27352,6 +27511,7 @@
                 "Hana Davila",
                 "James Molloy",
                 "Kevin Matthews",
+                "Michael Tripodi",
                 "Oliver Fritz",
                 "Xi Lu (鲁曦)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -28163,6 +28323,13 @@
             "Lw2:[r' D2 r,U]"
         ],
         [
+            "3Rw U L' d L U2 L' d' L U 3Rw'",
+            [
+                "Michael Tripodi"
+            ],
+            "3Rw U:[L' d L,U2]"
+        ],
+        [
             "Lw U2 l2 L' U' L U l2 U' L' U L U2 Lw'",
             [
                 "Xin Shi (石欣)"
@@ -28619,6 +28786,7 @@
                 "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
+                "Michael Tripodi",
                 "Oliver Fritz",
                 "Xi Lu (鲁曦)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
