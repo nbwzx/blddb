@@ -57,11 +57,18 @@ def sum_of_kinch(source: list, result_json: dict) -> float:
 def main():
     def crawl_spreadsheet(spreadsheet: gs.Spreadsheet, isInverse: bool) -> None:
         def crawl_cell(cell: str, output_type_from_pattern: str = "", code_from_pattern: list = []) -> None:
+            cell_is5bld = False
             for line in re.split(r'[\n\r]+| if | or | and ', cell.strip("\n\r")):
                 if len(line) > MAX_CELL_LEN:
                     continue
                 alg_original = line
 
+                patterns_5bld = {
+                    "ignore_case":
+                    ["5BLD", "5x5"]
+                }
+                if is_pattern(patterns_5bld, alg_original):
+                    cell_is5bld = True
                 if not (("M" in alg_original or "E" in alg_original or "S" in alg_original) and ("m" in alg_original or "e" in alg_original or "s" in alg_original)):
                     if is_pattern(patterns_midge, title):
                         alg_original = alg_original.replace(
@@ -73,7 +80,7 @@ def main():
                         alg_original = alg_original.replace(
                             "m", "M").replace("e", "E").replace("s", "S")
                     # xcenter is complex, m and M are both used.
-                if is5bld == False:
+                if is5bld == False and cell_is5bld == False:
                     # make 4bld algs to 5bld
                     replacements = [("3Rw", "4Rw"), ("3Lw", "4Lw"), ("3Uw", "4Uw"),
                                     ("3Dw", "4Dw"), ("3Fw", "4Fw"), ("3Bw", "4Bw")]
