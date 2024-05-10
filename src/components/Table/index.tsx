@@ -104,7 +104,13 @@ const Table = ({
             }
           >
             {j === 0 && <td rowSpan={item.length}>{i + 1}</td>}
-            <td>{item[j]}</td>
+            <td
+              style={{
+                borderLeft: j === 0 ? "" : "none",
+              }}
+            >
+              {item[j]}
+            </td>
             <td>{commutatorResult}</td>
             {j === 0 && is3bld && <td rowSpan={item.length}>{fingerResult}</td>}
             {isManmade && j === 0 && (
