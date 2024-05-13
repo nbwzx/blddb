@@ -148,7 +148,13 @@ def main():
                 [x for x in codeConverter.positionArray if len(x) != 1]
             }
 
-            if is_pattern(patterns, title):
+            if (not (is_pattern({
+                "ignore_case":
+                ["parity"]
+            }, title) and is_pattern({
+                "ignore_case":
+                ["twist"]
+            }, title))) and is_pattern(patterns, title):
                 logger.info("\t\t" + worksheet.title + ": " + str(round(time.time() -
                             start_time, 2)) + " seconds." + " Ignored because it contains disallowed word.")
                 continue
