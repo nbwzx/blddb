@@ -9719,6 +9719,14 @@
             "r':[U' L2 U,r2]"
         ],
         [
+            "U Rw D r U' r' D' r U r' Rw' U'",
+            [
+                "Kevin Matthews",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "U Rw:[D,r U' r']"
+        ],
+        [
             "4Lw' r2 U' L' U r2 U' L U 4Lw",
             [
                 "Christopher Morris",
@@ -9748,25 +9756,11 @@
             "x:[r2,U' L' U]"
         ],
         [
-            "U Rw D r U' r' D' r U r' Rw' U'",
-            [
-                "Kevin Matthews"
-            ],
-            "U Rw:[D,r U' r']"
-        ],
-        [
             "U r D r U' r' D' r U r2 U'",
             [
                 "Andrew Tan Jing Bang"
             ],
             "U r:[D,r U' r']"
-        ],
-        [
-            "x' U' L U r2 U' L' U r2 x",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "x':[U' L U,r2]"
         ]
     ],
     "ALN": [
@@ -10932,6 +10926,14 @@
             "r:[U' L2 U,r2]"
         ],
         [
+            "U Rw r U' r' D r U r' D' Rw' U'",
+            [
+                "Kevin Matthews",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "U Rw2 R':[U',r' D r]"
+        ],
+        [
             "D r U L2 U' r' U L2 U' D'",
             [
                 "Adrian Dębski"
@@ -10946,25 +10948,11 @@
             "x:[U' L' U,r2]"
         ],
         [
-            "U Rw2 R' U' r' D r U r' D' Rw' U'",
-            [
-                "Kevin Matthews"
-            ],
-            "U Rw2 R':[U',r' D r]"
-        ],
-        [
             "U r2 U' r' D r U r' D' r' U'",
             [
                 "Andrew Tan Jing Bang"
             ],
             "U r:[r U' r',D]"
-        ],
-        [
-            "x' r2 U' L U r2 U' L' U x",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "x':[r2,U' L U]"
         ]
     ],
     "AMN": [
@@ -11081,8 +11069,7 @@
                 "Kevin Matthews",
                 "Michael Tripodi",
                 "Xi Lu (鲁曦)",
-                "Yuki Tsuneyoshi (恒吉優紀)",
-                "Ziyi Xu (徐梓翼)"
+                "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "Rw:[U R U',r2]"
         ],
@@ -11122,6 +11109,13 @@
                 "Antonio Kam (甘浩東)"
             ],
             "U':[R' B R,b']"
+        ],
+        [
+            "U r2 U' r' D' r U r' D r' U'",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "U r:[r U' r',D']"
         ]
     ],
     "AMQ": [
@@ -14147,8 +14141,7 @@
                 "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
-                "Yuki Tsuneyoshi (恒吉優紀)",
-                "Ziyi Xu (徐梓翼)"
+                "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "Rw:[r2,U R U']"
         ],
@@ -14192,6 +14185,13 @@
                 "Antonio Kam (甘浩東)"
             ],
             "U':[b',R' B R]"
+        ],
+        [
+            "U r D' r U' r' D r U r2 U'",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "U r:[D',r U' r']"
         ]
     ],
     "APN": [
