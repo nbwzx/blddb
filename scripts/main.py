@@ -178,7 +178,7 @@ def main():
                             start_time, 2)) + " seconds." + " Ignored because it is a bigBLD sheet.")
                 continue
             buffer = get_pattern(patterns_3bld, title)
-            if not values:
+            if values == [[]]:
                 continue
             top_list = []
             for cell in values[0]:

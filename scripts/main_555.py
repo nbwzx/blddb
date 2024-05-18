@@ -234,7 +234,7 @@ def main():
                         if any(x in cell for x in ["4Rw", "4Lw", "4Uw", "4Dw", "4Fw", "4Bw"]):
                             is5bld = True
             buffer = get_pattern(patterns_5bld, title)
-            if not values:
+            if values == [[]]:
                 continue
             top_list = []
             for cell in values[0]:
