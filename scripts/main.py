@@ -15,8 +15,13 @@ import codeConverter
 from rewrite import single
 from tracer import *
 
-MAX_STM = 20
-MAX_CELL_LEN = 60
+MAX_STM = {
+    "edge": 20,
+    "corner": 20,
+    "ltct": 30,
+    "parity": 30
+}
+MAX_CELL_LEN = 90
 
 
 def is_included(substring: str, main_string: str, pattern_type: str) -> bool:
@@ -68,7 +73,7 @@ def main():
                 if output_type_from_pattern:
                     if output_type_from_pattern != output_type or (code not in code_from_pattern and code[0] + code[2] + code[1] not in code_from_pattern):
                         continue
-                if output_type in output_types and len(code) > 0 and stm(alg) <= MAX_STM:
+                if output_type in output_types and len(code) > 0 and stm(alg) <= MAX_STM[output_type]:
                     if code not in algs_json[output_type]:
                         algs_json[output_type][code] = []
                     if not isInverse:
@@ -119,7 +124,7 @@ def main():
                  "+C", "+-C",
                  "TC", "T-C",
                  "翼棱", "中棱", "角心", "边心",
-                 "twist", "flip", "parity", "2e2c", "2c2e",
+                 "twist", "flip",
                  "2t", "2f", "3f",
                  "2e2e", "2c2c",
                  "Info", "Intro", "Readme", "Read me", "作者", "说明", "前言",
@@ -228,7 +233,7 @@ def main():
     logger.remove(0)
     # logger.add("scripts/file_main.log", format="{time:HH:mm:ss} | {level} | {message}")
     logger.add(sys.stderr, format="{time:HH:mm:ss} | {level} | {message}")
-    output_types = ["edge", "corner", "ltct"]
+    output_types = ["edge", "corner", "ltct", "parity"]
     algs_json = {output_type: {} for output_type in output_types}
 
     url_file = "assets/json/sourceToUrl.json"
