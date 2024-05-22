@@ -386,6 +386,7 @@ if (lang === "zh") {
     $("#cornerstyle").width("5em");
     $("#edgestyle").width("5em");
     $("#ltctstyle").width("5em");
+    $("#paritystyle").width("5em");
     $("#image").show();
 } else {
     $("#introduction").attr("href", "https://docs.blddb.net/en");
@@ -395,6 +396,7 @@ if (lang === "zh") {
     $("#cornerstyle").width("7em");
     $("#edgestyle").width("7em");
     $("#ltctstyle").width("7em");
+    $("#paritystyle").width("7em");
     $("#image").hide();
 }
 
@@ -459,6 +461,7 @@ dropdownContent.addEventListener("click", (event) => {
             $("#cornerstyle").width("5em");
             $("#edgestyle").width("5em");
             $("#ltctstyle").width("5em");
+            $("#paritystyle").width("5em");
             $("#image").show();
         } else {
             $("#introduction").attr("href", "https://docs.blddb.net/en");
@@ -468,6 +471,7 @@ dropdownContent.addEventListener("click", (event) => {
             $("#cornerstyle").width("7em");
             $("#edgestyle").width("7em");
             $("#ltctstyle").width("7em");
+            $("#paritystyle").width("7em");
             $("#image").hide();
         }
         $(".lang").each(function (index, element) {
