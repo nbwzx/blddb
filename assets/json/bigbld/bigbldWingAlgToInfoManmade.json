@@ -31457,18 +31457,6 @@
     ],
     "HAP": [
         [
-            "z' R' u' R U2 R' u R U2 z",
-            [
-                "Daniel Lin",
-                "Dong Zhu (朱栋)",
-                "Ethan Pan",
-                "Xin Shi (石欣)",
-                "Yuki Tsuneyoshi (恒吉優紀)",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "z':[R' u' R,U2]"
-        ],
-        [
             "D' r' D R2 D' r D R2",
             [
                 "Andrew Tan Jing Bang",
@@ -31478,6 +31466,17 @@
                 "Xi Lu (鲁曦)"
             ],
             "[D' r' D,R2]"
+        ],
+        [
+            "z' R' u' R U2 R' u R U2 z",
+            [
+                "Daniel Lin",
+                "Dong Zhu (朱栋)",
+                "Ethan Pan",
+                "Xin Shi (石欣)",
+                "Yuki Tsuneyoshi (恒吉優紀)"
+            ],
+            "z':[R' u' R,U2]"
         ],
         [
             "D' Rw U R' U' r U R U' r' Rw' D",
@@ -31517,6 +31516,13 @@
                 "Chenhao Sun (孙晨皓)"
             ],
             "D' R' F':[u',R U' R']"
+        ],
+        [
+            "U' r' U' R' u R U R' u' Rw U",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "U' Rw':[R U' R',u]"
         ]
     ],
     "HAQ": [
@@ -33393,18 +33399,6 @@
     ],
     "HPA": [
         [
-            "z' U2 R' u' R U2 R' u R z",
-            [
-                "Daniel Lin",
-                "Dong Zhu (朱栋)",
-                "Ethan Pan",
-                "Xin Shi (石欣)",
-                "Yuki Tsuneyoshi (恒吉優紀)",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "z':[U2,R' u' R]"
-        ],
-        [
             "R2 D' r' D R2 D' r D",
             [
                 "Andrew Tan Jing Bang",
@@ -33414,6 +33408,17 @@
                 "Xi Lu (鲁曦)"
             ],
             "[R2,D' r' D]"
+        ],
+        [
+            "z' U2 R' u' R U2 R' u R z",
+            [
+                "Daniel Lin",
+                "Dong Zhu (朱栋)",
+                "Ethan Pan",
+                "Xin Shi (石欣)",
+                "Yuki Tsuneyoshi (恒吉優紀)"
+            ],
+            "z':[U2,R' u' R]"
         ],
         [
             "D' Rw r U R' U' r' U R U' Rw' D",
@@ -33453,6 +33458,13 @@
                 "James Molloy"
             ],
             "Rw2:[R2,U' r' U]"
+        ],
+        [
+            "U' Rw' u R U' R' u' R U r U",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "U' Rw':[u,R U' R']"
         ]
     ],
     "HPJ": [
