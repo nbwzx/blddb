@@ -134,10 +134,17 @@ function algSearchMain(idValue, edgestylecookie) {
                                 url = sourceToUrl[source]["bld"];
                             }
                         }
+                        let sourceNew = source;
+                        if (source.length > 25) {
+                            sourceNew = source.split("(")[0].trim();
+                            if (sourceNew.length > 25) {
+                                sourceNew = source.slice(0, 25) + "...";
+                            }
+                        }
                         if (url !== "") {
-                            sourceElement = `${sourceElement}<a href="${url}" target="_blank">${source}</a>`;
+                            sourceElement = `${sourceElement}<a href="${url}" target="_blank">${sourceNew}</a>`;
                         } else {
-                            sourceElement = `${sourceElement}${source}`;
+                            sourceElement = `${sourceElement}${sourceNew}`;
                         }
                         if (source !== sourceInfo[sourceInfo.length - 1]) {
                             sourceElement += "<br>";
