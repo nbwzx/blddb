@@ -174,11 +174,11 @@ const commutator = (function () {
     }
     const calcTemp = calc(rpnStack);
     if (calcTemp === "") {
-      return "Empty input.";
+      return "";
     }
     const expandOutput = arrayToStr(algToArray(calcTemp));
     if (expandOutput === "") {
-      return "Empty input.";
+      return "";
     }
     return expandOutput;
   }
@@ -394,7 +394,7 @@ const commutator = (function () {
       limit = input.limit ?? limitInit;
     result = [];
     if (algorithm === "") {
-      return ["Empty input."];
+      return [""];
     }
     const expandAlg = expand({
       algorithm,
@@ -406,7 +406,7 @@ const commutator = (function () {
     if (
       expandAlg === "Lack left parenthesis." ||
       expandAlg === "Lack right parenthesis." ||
-      expandAlg === "Empty input."
+      expandAlg === ""
     ) {
       return [expandAlg];
     }
