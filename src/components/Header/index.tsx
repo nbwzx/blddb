@@ -144,7 +144,7 @@ const Header = () => {
                             className={`flex whitespace-nowrap py-2 text-base font-bold lg:mr-0 lg:inline-flex lg:px-1 lg:font-medium ${
                               usePathName === menuItem.path
                                 ? "text-primary dark:text-white"
-                                : "text-dark hover:text-primary dark:text-white dark:hover:text-white"
+                                : "text-dark hover:text-primary dark:text-white dark:hover:text-primary"
                             }`}
                           >
                             {t(menuItem.title)}
@@ -160,7 +160,7 @@ const Header = () => {
                                 }
                               }}
                               className={
-                                "flex cursor-pointer items-center justify-between whitespace-nowrap py-2 text-base font-bold text-dark group-hover:text-primary dark:text-white dark:group-hover:text-white lg:mr-0 lg:inline-flex lg:px-1 lg:font-medium"
+                                "flex cursor-pointer items-center justify-between whitespace-nowrap py-2 text-base font-bold text-dark group-hover:text-primary dark:text-white dark:group-hover:text-primary lg:mr-0 lg:inline-flex lg:px-1 lg:font-medium"
                               }
                             >
                               {t(menuItem.title)}
@@ -198,7 +198,7 @@ const Header = () => {
                                         setNavbarOpen(false);
                                       }}
                                       key={submenuIndex}
-                                      className="block min-w-20 whitespace-nowrap rounded py-1.5 pr-3 text-sm text-dark hover:text-primary dark:text-white dark:hover:text-white"
+                                      className="block min-w-20 whitespace-nowrap rounded py-1.5 pr-3 text-sm text-dark hover:text-primary dark:text-white dark:hover:text-primary"
                                     >
                                       {t(submenuItem.title)}
                                     </Link>
