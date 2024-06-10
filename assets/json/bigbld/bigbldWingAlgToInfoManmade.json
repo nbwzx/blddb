@@ -2936,7 +2936,8 @@
             "U 4Rw' L' u L U L' u' L U' 4Rw U'",
             [
                 "Chenhao Sun (孙晨皓)",
-                "Daniel Wallin"
+                "Daniel Wallin",
+                "Ryan Eckersley"
             ],
             "U 4Rw':[L' u L,U]"
         ],
@@ -5232,6 +5233,14 @@
             "Lw:[U L U',r']"
         ],
         [
+            "U D f R' F' R f' R' F R D' U'",
+            [
+                "Chenhao Sun (孙晨皓)",
+                "Ryan Eckersley"
+            ],
+            "U D:[f,R' F' R]"
+        ],
+        [
             "Lw2 3Lw U L' U' r' U L U' 4Lw' Lw2",
             [
                 "Daniel Lin",
@@ -5245,13 +5254,6 @@
                 "Michael Tripodi"
             ],
             "3Lw:[U L U',r']"
-        ],
-        [
-            "U D f R' F' R f' R' F R D' U'",
-            [
-                "Chenhao Sun (孙晨皓)"
-            ],
-            "U D:[f,R' F' R]"
         ]
     ],
     "AFL": [
@@ -6480,15 +6482,15 @@
     ],
     "AIO": [
         [
-            "4Rw U' L u L' U2 L u' L' U' 4Rw'",
+            "R' F R f' R' F2 R f R' F R",
             [
-                "Chenhao Sun (孙晨皓)",
-                "Daniel Lin",
-                "Kevin Matthews",
-                "Ryan Eckersley",
-                "Yuki Tsuneyoshi (恒吉優紀)"
+                "Andrew Tan Jing Bang",
+                "Antonio Kam (甘浩東)",
+                "Daniel Wallin",
+                "Michael Tripodi",
+                "Ryan Eckersley"
             ],
-            "4Rw U':[L u L',U2]"
+            "R' F:[R f' R',F2]"
         ],
         [
             "D r2 U' R2 U r2 U' R2 U D'",
@@ -6502,14 +6504,14 @@
             "D:[r2,U' R2 U]"
         ],
         [
-            "R' F R f' R' F2 R f R' F R",
+            "4Rw U' L u L' U2 L u' L' U' 4Rw'",
             [
-                "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
-                "Daniel Wallin",
-                "Michael Tripodi"
+                "Chenhao Sun (孙晨皓)",
+                "Daniel Lin",
+                "Kevin Matthews",
+                "Yuki Tsuneyoshi (恒吉優紀)"
             ],
-            "R' F:[R f' R',F2]"
+            "4Rw U':[L u L',U2]"
         ],
         [
             "U' R2 U' l2 U R2 U' l2 U2",
@@ -8561,6 +8563,14 @@
             "Lw:[r',U L U']"
         ],
         [
+            "U D R' F' R f R' F R f' D' U'",
+            [
+                "Chenhao Sun (孙晨皓)",
+                "Ryan Eckersley"
+            ],
+            "U D:[R' F' R,f]"
+        ],
+        [
             "4Lw U L U' r U L' U' 3Lw'",
             [
                 "Kai Yamamoto (山本快)",
@@ -8575,13 +8585,6 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "Lw2 4Lw:[U L' U',r]"
-        ],
-        [
-            "U D R' F' R f R' F R f' D' U'",
-            [
-                "Chenhao Sun (孙晨皓)"
-            ],
-            "U D:[R' F' R,f]"
         ]
     ],
     "AKI": [
@@ -9551,7 +9554,8 @@
             "U 4Rw' U L' u L U' L' u' L 4Rw U'",
             [
                 "Chenhao Sun (孙晨皓)",
-                "Daniel Wallin"
+                "Daniel Wallin",
+                "Ryan Eckersley"
             ],
             "U 4Rw':[U,L' u L]"
         ],
@@ -11626,6 +11630,7 @@
                 "Kevin Matthews",
                 "Michael Tripodi",
                 "Oliver Fritz",
+                "Ryan Eckersley",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
                 "Tom Nelson",
@@ -13174,15 +13179,15 @@
     ],
     "AOI": [
         [
-            "4Rw U L u L' U2 L u' L' U 4Rw'",
+            "R' F' R f' R' F2 R f R' F' R",
             [
-                "Chenhao Sun (孙晨皓)",
-                "Daniel Lin",
-                "Kevin Matthews",
-                "Ryan Eckersley",
-                "Yuki Tsuneyoshi (恒吉優紀)"
+                "Andrew Tan Jing Bang",
+                "Antonio Kam (甘浩東)",
+                "Daniel Wallin",
+                "Michael Tripodi",
+                "Ryan Eckersley"
             ],
-            "4Rw U:[L u L',U2]"
+            "R' F':[R f' R',F2]"
         ],
         [
             "D U' R2 U r2 U' R2 U r2 D'",
@@ -13196,14 +13201,14 @@
             "D:[U' R2 U,r2]"
         ],
         [
-            "R' F' R f' R' F2 R f R' F' R",
+            "4Rw U L u L' U2 L u' L' U 4Rw'",
             [
-                "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
-                "Daniel Wallin",
-                "Michael Tripodi"
+                "Chenhao Sun (孙晨皓)",
+                "Daniel Lin",
+                "Kevin Matthews",
+                "Yuki Tsuneyoshi (恒吉優紀)"
             ],
-            "R' F':[R f' R',F2]"
+            "4Rw U:[L u L',U2]"
         ],
         [
             "U2 l2 U R2 U' l2 U R2 U",
@@ -21764,6 +21769,7 @@
                 "Kevin Matthews",
                 "Michael Tripodi",
                 "Oliver Fritz",
+                "Ryan Eckersley",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
                 "Tom Nelson",
