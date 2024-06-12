@@ -85,24 +85,24 @@ function algSearchByPos() {
 
 function algSearchMain(idValue, cornerstylecookie) {
     const div1 = document.getElementById("div1");
-    if (cornerAlgToInfo.hasOwnProperty(idValue)) {
-        let cornerAlgToInfoStyle = {};
-        let cornerAlgToStyle = {};
-        if (cornerstylecookie === "nightmare") {
-            cornerAlgToInfoStyle = cornerAlgToInfo;
-            cornerAlgToStyle = cornerAlgToNightmare;
-        }
-        if (cornerstylecookie === "yuanzi") {
-            cornerAlgToInfoStyle = cornerAlgToInfoYuanzi;
-            cornerAlgToStyle = cornerAlgToYuanzi;
-        }
-        if (cornerstylecookie === "balance") {
-            cornerAlgToInfoStyle = cornerAlgToInfoBalance;
-            cornerAlgToStyle = cornerAlgToBalance;
-        }
-        if (cornerstylecookie === "manmade") {
-            cornerAlgToInfoStyle = cornerAlgToInfoManmade;
-        }
+    let cornerAlgToInfoStyle = {};
+    let cornerAlgToStyle = {};
+    if (cornerstylecookie === "nightmare") {
+        cornerAlgToInfoStyle = cornerAlgToInfo;
+        cornerAlgToStyle = cornerAlgToNightmare;
+    }
+    if (cornerstylecookie === "yuanzi") {
+        cornerAlgToInfoStyle = cornerAlgToInfoYuanzi;
+        cornerAlgToStyle = cornerAlgToYuanzi;
+    }
+    if (cornerstylecookie === "balance") {
+        cornerAlgToInfoStyle = cornerAlgToInfoBalance;
+        cornerAlgToStyle = cornerAlgToBalance;
+    }
+    if (cornerstylecookie === "manmade") {
+        cornerAlgToInfoStyle = cornerAlgToInfoManmade;
+    }
+    if (cornerAlgToInfoStyle.hasOwnProperty(idValue)) {
         if (document.getElementById("cornerinput") === document.activeElement) {
             document.getElementById("cornerinput").blur();
         }

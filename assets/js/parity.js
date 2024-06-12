@@ -110,16 +110,16 @@ function algSearchByPos() {
 
 function algSearchMain(idValue, paritystylecookie) {
     const div1 = document.getElementById("div1");
-    if (parityAlgToInfo.hasOwnProperty(idValue)) {
-        let parityAlgToInfoStyle = {};
-        let parityAlgToStyle = {};
-        if (paritystylecookie === "nightmare") {
-            parityAlgToInfoStyle = parityAlgToInfo;
-            parityAlgToStyle = parityAlgToNightmare;
-        }
-        if (paritystylecookie === "manmade") {
-            parityAlgToInfoStyle = parityAlgToInfoManmade;
-        }
+    let parityAlgToInfoStyle = {};
+    let parityAlgToStyle = {};
+    if (paritystylecookie === "nightmare") {
+        parityAlgToInfoStyle = parityAlgToInfo;
+        parityAlgToStyle = parityAlgToNightmare;
+    }
+    if (paritystylecookie === "manmade") {
+        parityAlgToInfoStyle = parityAlgToInfoManmade;
+    }
+    if (parityAlgToInfoStyle.hasOwnProperty(idValue)) {
         if (document.getElementById("parityinput1") === document.activeElement) {
             document.getElementById("parityinput1").blur();
         }

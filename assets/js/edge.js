@@ -85,16 +85,16 @@ function algSearchByPos() {
 
 function algSearchMain(idValue, edgestylecookie) {
     const div1 = document.getElementById("div1");
-    if (edgeAlgToInfo.hasOwnProperty(idValue)) {
-        let edgeAlgToInfoStyle = {};
-        let edgeAlgToStyle = {};
-        if (edgestylecookie === "nightmare") {
-            edgeAlgToInfoStyle = edgeAlgToInfo;
-            edgeAlgToStyle = edgeAlgToNightmare;
-        }
-        if (edgestylecookie === "manmade") {
-            edgeAlgToInfoStyle = edgeAlgToInfoManmade;
-        }
+    let edgeAlgToInfoStyle = {};
+    let edgeAlgToStyle = {};
+    if (edgestylecookie === "nightmare") {
+        edgeAlgToInfoStyle = edgeAlgToInfo;
+        edgeAlgToStyle = edgeAlgToNightmare;
+    }
+    if (edgestylecookie === "manmade") {
+        edgeAlgToInfoStyle = edgeAlgToInfoManmade;
+    }
+    if (edgeAlgToInfoStyle.hasOwnProperty(idValue)) {
         if (document.getElementById("edgeinput") === document.activeElement) {
             document.getElementById("edgeinput").blur();
         }
