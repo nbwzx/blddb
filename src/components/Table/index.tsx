@@ -72,15 +72,18 @@ const Table = ({
           sourceResult = source.map((name: string, index: number) => {
             let sourceElement: JSX.Element = <>{name}</>;
             if (sourceToUrl && name in sourceToUrl) {
+              let url = "";
+              if (name in sourceToUrl) {
+                if (codeType in sourceToUrl[name]) {
+                  url = sourceToUrl[name][codeType];
+                } else if (is3bld ? "3bld" : "bigbld" in sourceToUrl[name]) {
+                  url = sourceToUrl[name][is3bld ? "3bld" : "bigbld"];
+                } else if ("bld" in sourceToUrl[name]) {
+                  url = sourceToUrl[name]["bld"];
+                }
+              }
               sourceElement = (
-                <a
-                  href={
-                    sourceToUrl[name][
-                      codeType === "corner" ? sourceToUrl[name].length - 1 : 0
-                    ]
-                  }
-                  target="_blank"
-                >
+                <a href={url} target="_blank">
                   {name}
                 </a>
               );

@@ -50,9 +50,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
     : {
         manmade: "\u{2009}\u{F2BD}\u{2009}",
       };
-  const sourceToUrl = is3bld
-    ? require("public/data/sourceToUrl.json")
-    : require("public/data/bigbld/sourceToUrl.json");
+  const sourceToUrl = require("public/data/sourceToUrl.json");
 
   useEffect(() => {
     const observer = new MutationObserver((mutationsList) => {
