@@ -47,7 +47,7 @@ const ArrayTable = ({ codeType }: { codeType: string }) => {
     subArray.forEach((row, rowIndex) => {
       const isColumnEmpty = (cellIndex: number) =>
         subArray
-          .slice(rowIndex)
+          .slice(Math.min(rowIndex, Math.max(subArray.length - 2, 0)))
           .every((currentRow) => (currentRow[cellIndex] ?? "") === "");
 
       if (rowIndex === 0) {
