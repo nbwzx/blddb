@@ -906,13 +906,13 @@
             "Lw2 U':[R,U' l U]"
         ],
         [
-            "Lw' Uw U2 R' u' R U2 R' u R Uw' Lw",
+            "Lw' u U' R' u' R U2 R' u R Uw' Lw",
             [
                 "Andrew Tan Jing Bang",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Wallin"
             ],
-            "Lw' Uw:[U2,R' u' R]"
+            "Lw' u U':[R' u' R,U2]"
         ],
         [
             "Rw' U' f R F' R' f' R F R' U Rw",
@@ -4269,7 +4269,7 @@
             "[r' D2 r,U2]"
         ],
         [
-            "U' D' R' u R U2 R' u' R U' D",
+            "D' U' R' u R U2 R' u' R U' D",
             [
                 "Andrew Tan Jing Bang",
                 "Antonio Kam (甘浩東)",
@@ -4279,7 +4279,7 @@
                 "Ryan Eckersley",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
-            "U' D':[R' u R,U2]"
+            "D' U':[R' u R,U2]"
         ],
         [
             "D' r' D' r U2 r' D r U2 D",
@@ -11906,7 +11906,7 @@
             "[U2,r' D2 r]"
         ],
         [
-            "U D' R' u R U2 R' u' R U D",
+            "D' U R' u R U2 R' u' R U D",
             [
                 "Andrew Tan Jing Bang",
                 "Antonio Kam (甘浩東)",
@@ -11916,7 +11916,7 @@
                 "Ryan Eckersley",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
-            "U D':[R' u R,U2]"
+            "D' U:[R' u R,U2]"
         ],
         [
             "D' U2 r' D' r U2 r' D r D",
@@ -15155,7 +15155,7 @@
             "Lw2 U':[U' l U,R]"
         ],
         [
-            "Lw' Uw R' u' R U2 R' u R U2 Uw' Lw",
+            "Lw' Uw R' u' R U2 R' u R U u' Lw",
             [
                 "Andrew Tan Jing Bang",
                 "Chenhao Sun (孙晨皓)",
@@ -15950,7 +15950,7 @@
     ],
     "AQY": [
         [
-            "Rw' R2 U r U' R2 U r' U' Rw",
+            "r' R U r U' R2 U r' U' Rw",
             [
                 "Andrew Tan Jing Bang",
                 "Christopher Morris",
@@ -19498,7 +19498,7 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
-            "U u':[R' u' R,U2]"
+            "u' U:[R' u' R,U2]"
         ],
         [
             "Rw' U' L U' r U L' U' r' U2 Rw",
@@ -21914,7 +21914,7 @@
             "x':[U r U',R2]"
         ],
         [
-            "Rw' U r U' R2 U r' U' R2 Rw",
+            "Rw' U r U' R2 U r' U' R' r",
             [
                 "Andrew Tan Jing Bang",
                 "Christopher Morris",
