@@ -104,7 +104,6 @@ const BLD = ({ codeType }: { codeType: string }) => {
     setSelectValues(
       converter.customCodeToPosition(newValue.padEnd(3, " "), codeType),
     );
-    scrollToTop();
   };
 
   const handleSelectChange = (
@@ -115,7 +114,6 @@ const BLD = ({ codeType }: { codeType: string }) => {
     newSelectValues[index] = e.target.value;
     setSelectValues(newSelectValues);
     setInputText(converter.positionToCustomCode(newSelectValues));
-    scrollToTop();
   };
 
   const handleModeChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
@@ -151,6 +149,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
                     <select
                       value={selectValues[index]}
                       onChange={(e) => handleSelectChange(e, index)}
+                      onClick={scrollToTop}
                       ref={(ref) =>
                         (selectRefs.current[index] = ref as HTMLSelectElement)
                       }
@@ -181,6 +180,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
                     maxLength={3}
                     value={inputText}
                     onChange={handleInputChange}
+                    onClick={scrollToTop}
                   />
                   <span className="mx-3"></span>
                   <div className="inline-block">
@@ -193,6 +193,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
                     <select
                       id="modeValue"
                       onChange={(e) => handleModeChange(e)}
+                      onClick={scrollToTop}
                       ref={modeRef}
                       value={modeValue}
                       className="text-transform: ml-2 inline-block rounded-sm border-b-[3px] border-gray-500 bg-inherit py-1 pr-5 text-base font-medium text-dark outline-none transition-all duration-300 focus:border-primary dark:border-gray-100 dark:bg-gray-dark dark:text-white dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
