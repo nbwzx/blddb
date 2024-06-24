@@ -28701,11 +28701,11 @@
             "F2:[u',m' U' m]"
         ],
         [
-            "m2 u m U m' u' m U' m",
+            "F' r Uw' m' Uw r' Uw' m Uw F",
             [
                 "Howie Craig"
             ],
-            "m':[m' u m,U]"
+            "F':[r,Uw' m' Uw]"
         ],
         [
             "3Lw' U' r e' r' U r e 4Lw",
@@ -29328,19 +29328,25 @@
             "m':[r,U' m U]"
         ],
         [
-            "3Lw r U' m' U r' U' m U 3Lw'",
-            [
-                "Hana Davila",
-                "Howie Craig"
-            ],
-            "3Lw:[r,U' m' U]"
-        ],
-        [
             "4Dw' r' e r U r' e' r y'",
             [
                 "Cale Schoon"
             ],
             "y:[U',r' e r]"
+        ],
+        [
+            "U2 l' e2 l U l' e2 l U",
+            [
+                "Howie Craig"
+            ],
+            "U':[U',l' e2 l]"
+        ],
+        [
+            "3Lw r U' m' U r' U' m U 3Lw'",
+            [
+                "Hana Davila"
+            ],
+            "3Lw:[r,U' m' U]"
         ]
     ],
     "GER": [
@@ -29448,12 +29454,11 @@
             "x':[U' m' U,r]"
         ],
         [
-            "4Lw U' m' U r U' m U 3Lw'",
+            "U2 l e2 l' U l e2 l' U",
             [
-                "Hana Davila",
                 "Howie Craig"
             ],
-            "3Lw:[r',U' m' U]"
+            "U':[U',l e2 l']"
         ],
         [
             "m r' U' m' U r U' m U m'",
@@ -29468,6 +29473,13 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "y:[U',r e r']"
+        ],
+        [
+            "4Lw U' m' U r U' m U 3Lw'",
+            [
+                "Hana Davila"
+            ],
+            "3Lw:[r',U' m' U]"
         ]
     ],
     "GEZ": [
@@ -29831,11 +29843,11 @@
             "y' L':[e,l' U' l]"
         ],
         [
-            "4Lw U' r Uw' m' Uw r' Uw' m Uw U 4Lw'",
+            "x' U' r Uw' m' Uw r' Uw' m Uw U x",
             [
                 "Howie Craig"
             ],
-            "4Lw U':[r,Uw' m' Uw]"
+            "x' U':[r,Uw' m' Uw]"
         ],
         [
             "3Dw' r' U m U' r U m' U' 3Dw",
@@ -29970,19 +29982,19 @@
     ],
     "GHJ": [
         [
+            "F2 u m' U' m u' m' U m F2",
+            [
+                "Cale Schoon",
+                "Howie Craig"
+            ],
+            "F2:[u,m' U' m]"
+        ],
+        [
             "m2 u' m U m' u m U' m",
             [
-                "Howie Craig",
                 "Ziyi Xu (徐梓翼)"
             ],
             "m':[m' u' m,U]"
-        ],
-        [
-            "F2 u m' U' m u' m' U m F2",
-            [
-                "Cale Schoon"
-            ],
-            "F2:[u,m' U' m]"
         ]
     ],
     "GHK": [
@@ -30598,11 +30610,11 @@
             "F2:[m' U' m,u']"
         ],
         [
-            "m' U m' u m U' m' u' m2",
+            "F' Uw' m' Uw r Uw' m Uw r' F",
             [
                 "Howie Craig"
             ],
-            "m':[U,m' u m]"
+            "F':[Uw' m' Uw,r]"
         ],
         [
             "4Lw' e' r' U' r e r' U 3Lw",
@@ -30676,19 +30688,19 @@
     ],
     "GJH": [
         [
+            "F2 m' U' m u m' U m u' F2",
+            [
+                "Cale Schoon",
+                "Howie Craig"
+            ],
+            "F2:[m' U' m,u]"
+        ],
+        [
             "m' U m' u' m U' m' u m2",
             [
-                "Howie Craig",
                 "Ziyi Xu (徐梓翼)"
             ],
             "m':[U,m' u' m]"
-        ],
-        [
-            "F2 m' U' m u m' U m u' F2",
-            [
-                "Cale Schoon"
-            ],
-            "F2:[m' U' m,u]"
         ]
     ],
     "GJI": [
@@ -30826,11 +30838,11 @@
             "y' R':[e',r U r']"
         ],
         [
-            "4Lw' U' r' Uw' m' Uw r Uw' m Uw U 4Lw",
+            "x U' r' Uw' m' Uw r Uw' m Uw U x'",
             [
                 "Howie Craig"
             ],
-            "4Lw' U':[r',Uw' m' Uw]"
+            "x U':[r',Uw' m' Uw]"
         ],
         [
             "U 3Uw l 3Uw' m' 3Uw l' 3Uw' m U'",
@@ -30912,11 +30924,11 @@
             "R:[m' U m,d']"
         ],
         [
-            "e' r U m' U' r' U m U' e",
+            "R' F2 m' U' m u m' U m u' F2 R",
             [
                 "Howie Craig"
             ],
-            "e':[r,U m' U']"
+            "R' F2:[m' U' m,u]"
         ],
         [
             "3Uw U' r U m' U' r' U m 3Uw'",
@@ -32293,16 +32305,10 @@
             "r U' m U r' U' m' U",
             [
                 "Cale Schoon",
+                "Howie Craig",
                 "Ziyi Xu (徐梓翼)"
             ],
             "[r,U' m U]"
-        ],
-        [
-            "4Lw' U' m2 U r' U' m2 U 3Lw",
-            [
-                "Howie Craig"
-            ],
-            "3Lw':[r,U' m2 U]"
         ]
     ],
     "GNR": [
@@ -33248,19 +33254,25 @@
             "m':[U' m U,r]"
         ],
         [
-            "3Lw U' m' U r U' m U r' 3Lw'",
-            [
-                "Hana Davila",
-                "Howie Craig"
-            ],
-            "3Lw:[U' m' U,r]"
-        ],
-        [
             "y r' e r U' r' e' r 4Dw",
             [
                 "Cale Schoon"
             ],
             "y:[r' e r,U']"
+        ],
+        [
+            "U' l' e2 l U' l' e2 l U2",
+            [
+                "Howie Craig"
+            ],
+            "U':[l' e2 l,U']"
+        ],
+        [
+            "3Lw U' m' U r U' m U r' 3Lw'",
+            [
+                "Hana Davila"
+            ],
+            "3Lw:[U' m' U,r]"
         ]
     ],
     "GQF": [
@@ -33370,16 +33382,10 @@
             "U' m U r U' m' U r'",
             [
                 "Cale Schoon",
+                "Howie Craig",
                 "Ziyi Xu (徐梓翼)"
             ],
             "[U' m U,r]"
-        ],
-        [
-            "3Lw' U' m2 U r U' m2 U 4Lw",
-            [
-                "Howie Craig"
-            ],
-            "3Lw':[U' m2 U,r]"
         ]
     ],
     "GQO": [
@@ -34425,11 +34431,11 @@
             "y' R':[r U r',e']"
         ],
         [
-            "4Lw' U' Uw' m' Uw r' Uw' m Uw r U 4Lw",
+            "x U' Uw' m' Uw r' Uw' m Uw r U x'",
             [
                 "Howie Craig"
             ],
-            "4Lw' U':[Uw' m' Uw,r']"
+            "x U':[Uw' m' Uw,r']"
         ],
         [
             "U m' 3Uw l 3Uw' m 3Uw l' 3Uw' U'",
@@ -35115,11 +35121,11 @@
             "y' L':[l' U' l,e]"
         ],
         [
-            "4Lw U' Uw' m' Uw r Uw' m Uw r' U 4Lw'",
+            "x' U' Uw' m' Uw r Uw' m Uw r' U x",
             [
                 "Howie Craig"
             ],
-            "4Lw U':[Uw' m' Uw,r]"
+            "x' U':[Uw' m' Uw,r]"
         ],
         [
             "3Dw' U m U' r' U m' U' r 3Dw",
@@ -35505,12 +35511,11 @@
             "x':[r,U' m' U]"
         ],
         [
-            "3Lw U' m' U r' U' m U 4Lw'",
+            "U' l e2 l' U' l e2 l' U2",
             [
-                "Hana Davila",
                 "Howie Craig"
             ],
-            "3Lw:[U' m' U,r']"
+            "U':[l e2 l',U']"
         ],
         [
             "m U' m' U r' U' m U r m'",
@@ -35525,6 +35530,13 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "y:[r e r',U']"
+        ],
+        [
+            "3Lw U' m' U r' U' m U 4Lw'",
+            [
+                "Hana Davila"
+            ],
+            "3Lw:[U' m' U,r']"
         ]
     ],
     "GYH": [
@@ -35948,11 +35960,11 @@
             "R:[d',m' U m]"
         ],
         [
-            "e' U m' U' r U m U' r' e",
+            "R' F2 u m' U' m u' m' U m F2 R",
             [
                 "Howie Craig"
             ],
-            "e':[U m' U',r]"
+            "R' F2:[u,m' U' m]"
         ],
         [
             "3Uw m' U' r U m U' r' U 3Uw'",

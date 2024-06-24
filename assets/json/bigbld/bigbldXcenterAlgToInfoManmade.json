@@ -11526,11 +11526,11 @@
             "F' u:[l U2 l',u]"
         ],
         [
-            "4Lw' U' Uw' l' Uw r' Uw' l Uw r U 4Lw",
+            "x U' Uw' l' Uw r' Uw' l Uw r U x'",
             [
                 "Howie Craig"
             ],
-            "4Lw' U':[Uw' l' Uw,r']"
+            "x U':[Uw' l' Uw,r']"
         ]
     ],
     "GCZ": [
@@ -11985,16 +11985,6 @@
     ],
     "GDT": [
         [
-            "Lw r' U' l' U r U' l U Lw'",
-            [
-                "Graham Siggins",
-                "Howie Craig",
-                "Michael Tripodi",
-                "Timo Norrkniivilä"
-            ],
-            "Lw:[r',U' l' U]"
-        ],
-        [
             "x' U' l' U r U' l U r' x",
             [
                 "Adrian Dębski",
@@ -12005,11 +11995,27 @@
             "x':[U' l' U,r]"
         ],
         [
+            "Lw r' U' l' U r U' l U Lw'",
+            [
+                "Graham Siggins",
+                "Michael Tripodi",
+                "Timo Norrkniivilä"
+            ],
+            "Lw:[r',U' l' U]"
+        ],
+        [
             "l r' U' l' U r U' l U l'",
             [
                 "Stanley Chapel"
             ],
             "l:[r',U' l' U]"
+        ],
+        [
+            "U2 l d2 l' U l d2 l' U",
+            [
+                "Howie Craig"
+            ],
+            "U':[U',l d2 l']"
         ],
         [
             "y' U' l d l' U l d' l' y",
@@ -13034,11 +13040,11 @@
             "L u':[u',l' U' l]"
         ],
         [
-            "4Lw U' r Uw' l' Uw r' Uw' l Uw U 4Lw'",
+            "x' U' r Uw' l' Uw r' Uw' l Uw U x",
             [
                 "Howie Craig"
             ],
-            "4Lw U':[r,Uw' l' Uw]"
+            "x' U':[r,Uw' l' Uw]"
         ]
     ],
     "GHR": [
@@ -15070,11 +15076,11 @@
             "L u':[l' U' l,u']"
         ],
         [
-            "4Lw U' Uw' l' Uw r Uw' l Uw r' U 4Lw'",
+            "x' U' Uw' l' Uw r Uw' l Uw r' U x",
             [
                 "Howie Craig"
             ],
-            "4Lw U':[Uw' l' Uw,r]"
+            "x' U':[Uw' l' Uw,r]"
         ]
     ],
     "GQI": [
@@ -16043,7 +16049,6 @@
             "Lw U' l' U r' U' l U r Lw'",
             [
                 "Graham Siggins",
-                "Howie Craig",
                 "James Molloy",
                 "Michael Tripodi",
                 "Timo Norrkniivilä"
@@ -16065,6 +16070,13 @@
                 "Stanley Chapel"
             ],
             "l:[U' l' U,r']"
+        ],
+        [
+            "U' l d2 l' U' l d2 l' U2",
+            [
+                "Howie Craig"
+            ],
+            "U':[l d2 l',U']"
         ],
         [
             "y' l d l' U' l d' l' U y",
@@ -17120,11 +17132,11 @@
             "F' u:[u,l U2 l']"
         ],
         [
-            "4Lw' U' r' Uw' l' Uw r Uw' l Uw U 4Lw",
+            "x U' r' Uw' l' Uw r Uw' l Uw U x'",
             [
                 "Howie Craig"
             ],
-            "4Lw' U':[r',Uw' l' Uw]"
+            "x U':[r',Uw' l' Uw]"
         ]
     ],
     "GYD": [
@@ -41987,11 +41999,11 @@
             "x:[r',U' l U]"
         ],
         [
-            "Lw U' l' U r U' l U r' Lw'",
+            "U' l' u2 l U' l' u2 l U2",
             [
                 "Howie Craig"
             ],
-            "Lw:[U' l' U,r]"
+            "U':[l' u2 l,U']"
         ]
     ],
     "LDH": [
@@ -42500,10 +42512,16 @@
         [
             "Lw r U' l' U r' U' l U Lw'",
             [
-                "Graham Siggins",
-                "Howie Craig"
+                "Graham Siggins"
             ],
             "Lw:[r,U' l' U]"
+        ],
+        [
+            "U2 l' u2 l U l' u2 l U",
+            [
+                "Howie Craig"
+            ],
+            "U':[U',l' u2 l]"
         ]
     ],
     "LGE": [
@@ -42614,6 +42632,7 @@
             "r U' l U r' U' l' U",
             [
                 "Cale Schoon",
+                "Howie Craig",
                 "Oliver Fritz",
                 "Roman Strakhov",
                 "Stanley Chapel",
@@ -42621,13 +42640,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "[r,U' l U]"
-        ],
-        [
-            "Lw' r U' l2 U r' U' l2 U Lw",
-            [
-                "Howie Craig"
-            ],
-            "Lw':[r,U' l2 U]"
         ]
     ],
     "LGQ": [
@@ -43052,6 +43064,7 @@
             "U' l U r U' l' U r'",
             [
                 "Cale Schoon",
+                "Howie Craig",
                 "Oliver Fritz",
                 "Roman Strakhov",
                 "Stanley Chapel",
@@ -43059,13 +43072,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "[U' l U,r]"
-        ],
-        [
-            "Lw' U' l2 U r U' l2 U r' Lw",
-            [
-                "Howie Craig"
-            ],
-            "Lw':[U' l2 U,r]"
         ]
     ],
     "LQA": [
