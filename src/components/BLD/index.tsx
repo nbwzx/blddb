@@ -85,11 +85,11 @@ const BLD = ({ codeType }: { codeType: string }) => {
     }
   };
 
-  const [inputText, setInputText] = useState("");
   const [selectValues, setSelectValues] = useState(["", "", ""]);
   const [modeValue, setModeValue] = useState("");
   const [data, setdataValue] = useState(is3bld ? nightmare : manmade);
   const [selected, setSelected] = useState(is3bld ? nightmareSelected : {});
+  const compositionRef = useRef<boolean>(false);
 
   const scrollToTop = () => {
     window.scrollTo({
@@ -99,11 +99,12 @@ const BLD = ({ codeType }: { codeType: string }) => {
   };
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const newValue = e.target.value.toUpperCase();
-    setInputText(newValue);
-    setSelectValues(
-      converter.customCodeToPosition(newValue.padEnd(3, " "), codeType),
-    );
+    if (!compositionRef.current) {
+      const newValue = e.target.value.toUpperCase();
+      setSelectValues(
+        converter.customCodeToPosition(newValue.padEnd(3, " "), codeType),
+      );
+    }
   };
 
   const handleSelectChange = (
@@ -113,7 +114,9 @@ const BLD = ({ codeType }: { codeType: string }) => {
     const newSelectValues = [...selectValues];
     newSelectValues[index] = e.target.value;
     setSelectValues(newSelectValues);
-    setInputText(converter.positionToCustomCode(newSelectValues));
+    if (inputRef.current) {
+      inputRef.current.value = converter.positionToCustomCode(newSelectValues);
+    }
   };
 
   const handleModeChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
@@ -122,6 +125,15 @@ const BLD = ({ codeType }: { codeType: string }) => {
     setdataValue(modeToData[newModeValue]);
     setSelected(modeToSelected[newModeValue]);
     scrollToTop();
+  };
+
+  const Composition = (e: React.CompositionEvent<HTMLInputElement>) => {
+    if (e.type === "compositionend") {
+      compositionRef.current = false;
+      handleInputChange(e as unknown as React.ChangeEvent<HTMLInputElement>);
+    } else {
+      compositionRef.current = true;
+    }
   };
 
   const filteredPositions = converter.positionArray.filter(
@@ -178,8 +190,10 @@ const BLD = ({ codeType }: { codeType: string }) => {
                     className="text-transform: ml-2 w-[4rem] rounded-sm border-b-[3px] border-gray-500 bg-inherit px-3 py-1 text-base font-medium uppercase text-dark outline-none outline-none transition-all duration-300 focus:border-primary dark:border-gray-100 dark:bg-inherit dark:text-white dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
                     autoComplete="off"
                     maxLength={3}
-                    value={inputText}
                     onChange={handleInputChange}
+                    onCompositionStart={Composition}
+                    onCompositionEnd={Composition}
+                    onCompositionUpdate={Composition}
                     onClick={scrollToTop}
                   />
                   <span className="mx-3"></span>
@@ -207,7 +221,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
                   </div>
                   <Table
                     codeType={codeType}
-                    inputText={inputText}
+                    inputText={inputRef.current?.value.toUpperCase() ?? ""}
                     data={data}
                     divRef={divRef}
                     tableRef={tableRef}
