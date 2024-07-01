@@ -10667,11 +10667,11 @@
             "Rw' U2 D:[r,U' l2 U]"
         ],
         [
-            "r' U2 D r U' l2 U r' U' l2 D' U' r",
+            "D' l U r2 U l' U' r2 U l U2 l' D",
             [
                 "Howie Craig"
             ],
-            "r' U2 D:[r,U' l2 U]"
+            "D' l U:[r2,U l' U']"
         ],
         [
             "Rw' F U' r U l2 U' r' U l2 F' Rw",
@@ -10828,11 +10828,11 @@
             "Lw U D:[r2,U l' U']"
         ],
         [
-            "l U D r2 U l' U' r2 U l U2 D' l'",
+            "D l U r2 U l' U' r2 U l U2 l' D'",
             [
                 "Howie Craig"
             ],
-            "l U D:[r2,U l' U']"
+            "D l U:[r2,U l' U']"
         ],
         [
             "Lw F r2 U' l' U r2 U' l U F' Lw'",
@@ -14272,11 +14272,11 @@
             "Rw' U D:[l2,U r U']"
         ],
         [
-            "r' U D l2 U r U' l2 U r' U2 D' r",
+            "D' l U2 l' U' r2 U l U' r2 U' l' D",
             [
                 "Howie Craig"
             ],
-            "r' U D:[l2,U r U']"
+            "D' l U:[U l' U',r2]"
         ],
         [
             "Rw' F l2 U' r U l2 U' r' U F' Rw",
@@ -16737,11 +16737,11 @@
             "Lw D U:[U l' U',r2]"
         ],
         [
-            "l U2 D l' U' r2 U l U' r2 D' U' l'",
+            "D l U2 l' U' r2 U l U' r2 U' l' D'",
             [
                 "Howie Craig"
             ],
-            "l U2 D:[l',U' r2 U]"
+            "D l U:[U l' U',r2]"
         ],
         [
             "Lw F U' l' U r2 U' l U r2 F' Lw'",
@@ -25897,16 +25897,6 @@
     ],
     "JGO": [
         [
-            "l' U' r d2 r' U r d2 r' l",
-            [
-                "Howie Craig",
-                "Stanley Chapel",
-                "Yuki Tsuneyoshi (恒吉優紀)",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "l':[U',r d2 r']"
-        ],
-        [
             "U Rw' l2 U' r U l2 U' r' U Rw U'",
             [
                 "Antonio Kam (甘浩東)",
@@ -25915,6 +25905,15 @@
                 "Dong Zhu (朱栋)"
             ],
             "U Rw':[l2,U' r U]"
+        ],
+        [
+            "l' U' r d2 r' U r d2 r' l",
+            [
+                "Stanley Chapel",
+                "Yuki Tsuneyoshi (恒吉優紀)",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "l':[U',r d2 r']"
         ],
         [
             "x r' U' r d2 r' U r d2 x'",
@@ -25953,6 +25952,13 @@
                 "Kevin Matthews"
             ],
             "3Lw:[U',r' u2 r]"
+        ],
+        [
+            "Lw U' r' u2 r U r' u2 r Lw'",
+            [
+                "Howie Craig"
+            ],
+            "Lw:[U',r' u2 r]"
         ]
     ],
     "JGP": [
@@ -26027,7 +26033,8 @@
                 "Daniel Lin",
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
-                "Ethan Pan"
+                "Ethan Pan",
+                "Howie Craig"
             ],
             "U Lw:[U l' U',r2]"
         ],
@@ -26068,13 +26075,6 @@
                 "Andrew Tan Jing Bang"
             ],
             "U l':[U l U',r2]"
-        ],
-        [
-            "U' Lw D' r2 U' l' U r2 U' l U D Lw' U",
-            [
-                "Howie Craig"
-            ],
-            "U' Lw D':[r2,U' l' U]"
         ]
     ],
     "JGS": [
@@ -26248,11 +26248,11 @@
             "l:[r' d2 r,U]"
         ],
         [
-            "l' r u2 r' U r u2 r' U' l",
+            "Lw' r u2 r' U r u2 r' U' Lw",
             [
                 "Howie Craig"
             ],
-            "l':[r u2 r',U]"
+            "Lw':[r u2 r',U]"
         ]
     ],
     "JGX": [
@@ -31513,14 +31513,6 @@
             "l:[r' u2 r,U']"
         ],
         [
-            "l' r d2 r' U' r d2 r' U l",
-            [
-                "Howie Craig",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "l':[r d2 r',U']"
-        ],
-        [
             "U r' U' r U l2 U' r' U l2 r U'",
             [
                 "Ryan Eckersley"
@@ -31540,6 +31532,20 @@
                 "Kevin Matthews"
             ],
             "4Lw:[u2,r U' r']"
+        ],
+        [
+            "Lw r' u2 r U' r' u2 r U Lw'",
+            [
+                "Howie Craig"
+            ],
+            "Lw:[r' u2 r,U']"
+        ],
+        [
+            "l' r d2 r' U' r d2 r' U l",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "l':[r d2 r',U']"
         ]
     ],
     "JOH": [
@@ -33882,7 +33888,8 @@
                 "Daniel Lin",
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
-                "Ethan Pan"
+                "Ethan Pan",
+                "Howie Craig"
             ],
             "U Lw:[r2,U l' U']"
         ],
@@ -33923,13 +33930,6 @@
                 "Andrew Tan Jing Bang"
             ],
             "U l':[r2,U l U']"
-        ],
-        [
-            "U' Lw D' U' l' U r2 U' l U r2 D Lw' U",
-            [
-                "Howie Craig"
-            ],
-            "U' Lw D':[U' l' U,r2]"
         ]
     ],
     "JRH": [
@@ -36309,7 +36309,6 @@
         [
             "l' U r u2 r' U' r u2 r' l",
             [
-                "Howie Craig",
                 "Kai Yamamoto (山本快)",
                 "Stanley Chapel",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -36375,6 +36374,13 @@
                 "Andrew Tan Jing Bang"
             ],
             "l:[U,r' d2 r]"
+        ],
+        [
+            "Lw' U r u2 r' U' r u2 r' Lw",
+            [
+                "Howie Craig"
+            ],
+            "Lw':[U,r u2 r']"
         ],
         [
             "M' r' U r u2 r' U' r u2 M",
