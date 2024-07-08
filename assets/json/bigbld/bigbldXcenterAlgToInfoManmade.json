@@ -17083,11 +17083,11 @@
             "y x:[r' U' r,u2]"
         ],
         [
-            "R u U' l' U r2 U' l U r2 u' R'",
+            "y' x' l' U' l u2 l' U l u2 x y",
             [
                 "Howie Craig"
             ],
-            "R u:[U' l' U,r2]"
+            "y' x':[l' U' l,u2]"
         ]
     ],
     "GYA": [
@@ -17818,11 +17818,11 @@
             "y x:[u2,r' U' r]"
         ],
         [
-            "R u r2 U' l' U r2 U' l U u' R'",
+            "y' x' u2 l' U' l u2 l' U l x y",
             [
                 "Howie Craig"
             ],
-            "R u:[r2,U' l' U]"
+            "y' x':[u2,l' U' l]"
         ]
     ],
     "GZY": [
