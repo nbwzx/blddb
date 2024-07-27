@@ -76,6 +76,12 @@ const codeConverter = (function () {
   }
 
   function customCodeToPosition(code: string, codeType: string) {
+    if (codeType === "parity") {
+      return [
+        ...customCodeToPosition(code.slice(0, 2), "edge"),
+        ...customCodeToPosition(code.slice(2, 4), "corner"),
+      ];
+    }
     let storedValues = "";
     if (typeof localStorage !== "undefined") {
       storedValues =
@@ -133,7 +139,17 @@ const codeConverter = (function () {
     return permutations;
   }
 
+  function cartesianProduct(arrays: string[][]): string[] {
+    return arrays.reduce((a, b) => a.flatMap((x) => b.map((y) => x + y)));
+  }
+
   function customCodeToVariantCode(code: string, codeType: string) {
+    if (codeType === "parity") {
+      return cartesianProduct([
+        customCodeToVariantCode(code.slice(0, 2), "edge"),
+        customCodeToVariantCode(code.slice(2, 4), "corner"),
+      ]);
+    }
     const result = customCodeToPosition(code, codeType);
     const displacePositions: string[][] = [result];
     for (let i = 1; i < codeTypeToNumber(codeType); i++) {

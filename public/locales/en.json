@@ -36,6 +36,12 @@
     "title": "3-Style Edge",
     "hint": "Please enter 3 letter pairs (buffer-position1-position2) you want to query (eg. ACG)"
   },
+  "parity": {
+    "title": "3BLD Parity",
+    "hint": "Please enter the parity you want to solve",
+    "edgeswap": "Edge Swap: ",
+    "cornerswap": "Corner Swap: "
+  },
   "wing": {
     "title": "Wing",
     "hint": "Please enter 3 letter pairs (buffer-position1-position2) you want to query (eg. ACG)"

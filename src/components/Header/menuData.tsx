@@ -13,6 +13,10 @@ const menuData: Menu[] = [
         path: "/edge",
       },
       {
+        title: "parity.title",
+        path: "/parity",
+      },
+      {
         title: "code.title",
         path: "/code",
       },

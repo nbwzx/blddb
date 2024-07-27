@@ -28,11 +28,16 @@ const Table = ({
 }) => {
   const { t } = useTranslation();
   let is3bld = true;
+  let isCommutatorNeeded = true;
   let converter = codeConverter;
   const bigbldCodeTypes = ["wing", "xcenter", "tcenter", "midge"];
+  const commutatorNotNeeded = ["parity"];
   if (bigbldCodeTypes.indexOf(codeType) !== -1) {
     converter = bigbldCodeConverter;
     is3bld = false;
+  }
+  if (commutatorNotNeeded.includes(codeType)) {
+    isCommutatorNeeded = false;
   }
   const variantCode = converter.customCodeToVariantCode(inputText, codeType);
   const tableElements: JSX.Element[] = [];
@@ -60,13 +65,17 @@ const Table = ({
         .map((word) => t(word))
         .join("/");
       for (let j = 0; j < item.length; j++) {
-        const commutatorResult = is3bld
-          ? commutator.search({
+        let commutatorResult = "";
+        if (isCommutatorNeeded) {
+          if (is3bld) {
+            commutatorResult = commutator.search({
               algorithm: item[j],
               maxDepth: 1,
-            })[0]
-          : comm;
-
+            })[0];
+          } else {
+            commutatorResult = comm;
+          }
+        }
         let sourceResult: JSX.Element[] = [];
         if (isManmade) {
           sourceResult = source.map((name: string, index: number) => {
@@ -114,7 +123,7 @@ const Table = ({
             >
               {item[j]}
             </td>
-            <td>{commutatorResult}</td>
+            {isCommutatorNeeded && <td>{commutatorResult}</td>}
             {j === 0 && is3bld && <td rowSpan={item.length}>{fingerResult}</td>}
             {isManmade && j === 0 && (
               <td className="help" rowSpan={item.length}>
@@ -133,7 +142,7 @@ const Table = ({
           <tr>
             <th>{t("table.no")}</th>
             <th>{t("table.algorithm")}</th>
-            <th>{t("table.commutator")}</th>
+            {isCommutatorNeeded && <th>{t("table.commutator")}</th>}
             {is3bld && <th>{t("table.thumbPosition")}</th>}
             {isManmade && <th>{t("table.source")}</th>}
           </tr>
