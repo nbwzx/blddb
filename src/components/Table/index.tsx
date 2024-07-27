@@ -91,9 +91,16 @@ const Table = ({
                   url = sourceToUrl[name]["bld"];
                 }
               }
+              let nameNew = name;
+              if (name.length > 25) {
+                nameNew = name.split("(")[0].trim();
+                if (nameNew.length > 25) {
+                  nameNew = `${name.slice(0, 25)}...`;
+                }
+              }
               sourceElement = (
                 <a href={url} target="_blank">
-                  {name}
+                  {nameNew}
                 </a>
               );
             }
