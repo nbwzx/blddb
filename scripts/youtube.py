@@ -243,7 +243,7 @@ def main():
                 logger.warning(e.__class__.__name__ +
                                " when opening the spreadsheet.")
                 time.sleep(10)
-            except (SpreadsheetNotFound) as e:
+            except (SpreadsheetNotFound, PermissionError) as e:
                 break
         if not issuccess:
             logger.error("Failed to open the spreadsheet.")
