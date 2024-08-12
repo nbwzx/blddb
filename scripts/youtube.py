@@ -183,9 +183,12 @@ def main():
                     logger.warning(e.__class__.__name__ +
                                    " when opening " + video[1])
                     time.sleep(10)
-            y = re.search(r'shortDescription":"', full_html)
+            y = re.search(r'attributedDescription":{"content":"', full_html)
             desc = ""
-            count = y.start() + 19  # adding the length of the 'shortDescription":"
+            if y is None:
+                # no description
+                continue
+            count = y.start() + 35  # adding the length of the attributedDescription":{"content":"
             while True:
                 # get the letter at current index in text
                 letter = full_html[count]
