@@ -217,8 +217,14 @@ def main():
                                        " when opening " + url_name)
                         time.sleep(10)
                 if resp.startswith("https://alg.cubing.net/") and "&puzzle=4x4x4" not in resp and "&puzzle=5x5x5" not in resp:
-                    text = urllib.parse.unquote(resp).replace(
-                        "_", " ").replace("-", "'").split("alg=")[1]
+                    resp_parsed = urllib.parse.unquote(resp).replace(
+                        "_", " ").replace("-", "'")
+                    isPlus2 = "+2" in resp_parsed.split("alg=")[0].replace(" ", "")
+                    text = resp_parsed.split("alg=")[1]
+                    last_alg = ""
+                    for text_row in text.splitlines():
+                        if text_row.replace(" ", "") != "" and not text_row.replace(" ", "").startswith("//"):
+                            last_alg = text_row
                     for text_row in text.splitlines():
                         cell = ""
                         if text_row.find("//") == -1:
@@ -232,7 +238,10 @@ def main():
                             isAlg = crawl_cell(cell)
                         for moves in ["R", "U", "D", "R'", "U'", "D'", "R2", "U2", "D2"]:
                             if not isAlg:
-                                isAlg = crawl_cell(moves + " " + cell)
+                                if isPlus2 and text_row == last_alg:
+                                    isAlg = crawl_cell(cell + " " + moves)
+                                else:
+                                    isAlg = crawl_cell(moves + " " + cell)
                             else:
                                 break
 
