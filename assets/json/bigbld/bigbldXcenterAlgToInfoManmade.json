@@ -4860,18 +4860,18 @@
             "y U:[U l U',r2]"
         ],
         [
-            "D2 r2 U r' u' r U' r' u r' D2",
-            [
-                "James Molloy"
-            ],
-            "D2 r:[r U r',u']"
-        ],
-        [
             "u' D U r U' l2 U r' U' l2 D' u",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "u' D:[U r U',l2]"
+        ],
+        [
+            "D2 r2 U r' u' r U' r' u r' D2",
+            [
+                "James Molloy"
+            ],
+            "D2 r:[r U r',u']"
         ],
         [
             "D2 Rw r U r' u' r U' r' u Rw' D2",
@@ -5151,18 +5151,18 @@
             "y' F' U:[l',U r' U']"
         ],
         [
-            "R2 y' u2 r U2 r' u2 r U2 r' y R2",
-            [
-                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
-            ],
-            "R2 y':[u2,r U2 r']"
-        ],
-        [
             "R' E U r U' l U r' U' l' E' R",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "R' E:[U r U',l]"
+        ],
+        [
+            "R2 y' u2 r U2 r' u2 r U2 r' y R2",
+            [
+                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
+            ],
+            "R2 y':[u2,r U2 r']"
         ]
     ],
     "CFD": [
@@ -5256,18 +5256,18 @@
             "y U:[r2,U l U']"
         ],
         [
-            "D2 r u' r U r' u r U' r2 D2",
-            [
-                "James Molloy"
-            ],
-            "D2 r:[u',r U r']"
-        ],
-        [
             "u' D l2 U r U' l2 U r' U' D' u",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "u' D:[l2,U r U']"
+        ],
+        [
+            "D2 r u' r U r' u r U' r2 D2",
+            [
+                "James Molloy"
+            ],
+            "D2 r:[u',r U r']"
         ],
         [
             "D2 Rw u' r U r' u r U' r' Rw' D2",
@@ -5553,18 +5553,18 @@
             "y' F' U:[U r' U',l']"
         ],
         [
-            "R2 y' r U2 r' u2 r U2 r' u2 y R2",
-            [
-                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
-            ],
-            "R2 y':[r U2 r',u2]"
-        ],
-        [
             "R' E l U r U' l' U r' U' E' R",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "R' E:[l,U r U']"
+        ],
+        [
+            "R2 y' r U2 r' u2 r U2 r' u2 y R2",
+            [
+                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
+            ],
+            "R2 y':[r U2 r',u2]"
         ]
     ],
     "DEF": [
@@ -6576,6 +6576,13 @@
             "D d':[U r2 U',l]"
         ],
         [
+            "L' u' l2 U r U' l2 U r' U' u L",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "L' u':[l2,U r U']"
+        ],
+        [
             "y' x u2 l U l' u2 l U' l' x' y",
             [
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
@@ -6588,13 +6595,6 @@
                 "James Molloy"
             ],
             "D2 r:[d,r U2 r']"
-        ],
-        [
-            "L' u' l2 U r U' l2 U r' U' u L",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "L' u':[l2,U r U']"
         ]
     ],
     "DMX": [
@@ -9174,6 +9174,13 @@
             "D d':[l,U r2 U']"
         ],
         [
+            "L' u' U r U' l2 U r' U' l2 u L",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "L' u':[U r U',l2]"
+        ],
+        [
             "y' x l U l' u2 l U' l' u2 x' y",
             [
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
@@ -9186,13 +9193,6 @@
                 "James Molloy"
             ],
             "D2 r:[r U2 r',d]"
-        ],
-        [
-            "L' u' U r U' l2 U r' U' l2 u L",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "L' u':[U r U',l2]"
         ]
     ],
     "DWN": [
@@ -10679,18 +10679,18 @@
             "Rw' U2 D:[r,U' l2 U]"
         ],
         [
-            "D' l U r2 U l' U' r2 U l U2 l' D",
-            [
-                "Howie Craig"
-            ],
-            "D' l U:[r2,U l' U']"
-        ],
-        [
             "Rw' F U' r U l2 U' r' U l2 F' Rw",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "Rw' F:[U' r U,l2]"
+        ],
+        [
+            "D' l U r2 U l' U' r2 U l U2 l' D",
+            [
+                "Howie Craig"
+            ],
+            "D' l U:[r2,U l' U']"
         ]
     ],
     "GAP": [
@@ -10840,18 +10840,18 @@
             "Lw U D:[r2,U l' U']"
         ],
         [
-            "D l U r2 U l' U' r2 U l U2 l' D'",
-            [
-                "Howie Craig"
-            ],
-            "D l U:[r2,U l' U']"
-        ],
-        [
             "Lw F r2 U' l' U r2 U' l U F' Lw'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "Lw F:[r2,U' l' U]"
+        ],
+        [
+            "D l U r2 U l' U' r2 U l U2 l' D'",
+            [
+                "Howie Craig"
+            ],
+            "D l U:[r2,U l' U']"
         ]
     ],
     "GAY": [
@@ -10881,16 +10881,6 @@
     ],
     "GAZ": [
         [
-            "U2 l d' l' U2 l d l'",
-            [
-                "Cale Schoon",
-                "Marcell Endrey",
-                "Oliver Fritz",
-                "Tom Nelson"
-            ],
-            "[U2,l d' l']"
-        ],
-        [
             "r d r' U2 r d' r' U2",
             [
                 "Howie Craig",
@@ -10899,6 +10889,16 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "[r d r',U2]"
+        ],
+        [
+            "U2 l d' l' U2 l d l'",
+            [
+                "Cale Schoon",
+                "Marcell Endrey",
+                "Oliver Fritz",
+                "Tom Nelson"
+            ],
+            "[U2,l d' l']"
         ]
     ],
     "GBA": [
@@ -11001,18 +11001,18 @@
             "B':[l' U' l,u2]"
         ],
         [
-            "F u2 l U2 l' u2 l U2 l' F'",
-            [
-                "Howie Craig"
-            ],
-            "F:[u2,l U2 l']"
-        ],
-        [
             "x' U l2 U r U' l2 U r' U2 x",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "x' U:[l2,U r U']"
+        ],
+        [
+            "F u2 l U2 l' u2 l U2 l' F'",
+            [
+                "Howie Craig"
+            ],
+            "F:[u2,l U2 l']"
         ]
     ],
     "GBH": [
@@ -12304,18 +12304,18 @@
             "y' D:[U r2 U',l']"
         ],
         [
-            "D l' u' l' U' l u l' U l2 D'",
-            [
-                "Howie Craig"
-            ],
-            "D l':[u',l' U' l]"
-        ],
-        [
             "D2 r2 Uw' l' Uw r2 Uw' l Uw D2",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "D2:[r2,Uw' l' Uw]"
+        ],
+        [
+            "D l' u' l' U' l u l' U l2 D'",
+            [
+                "Howie Craig"
+            ],
+            "D l':[u',l' U' l]"
         ]
     ],
     "GEP": [
@@ -12510,18 +12510,18 @@
             "B':[u2,l' U' l]"
         ],
         [
-            "F l U2 l' u2 l U2 l' u2 F'",
-            [
-                "Howie Craig"
-            ],
-            "F:[l U2 l',u2]"
-        ],
-        [
             "x' U2 r U' l2 U r' U' l2 U' x",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "x' U:[U r U',l2]"
+        ],
+        [
+            "F l U2 l' u2 l U2 l' u2 F'",
+            [
+                "Howie Craig"
+            ],
+            "F:[l U2 l',u2]"
         ]
     ],
     "GFC": [
@@ -14278,18 +14278,18 @@
             "Rw' U D:[l2,U r U']"
         ],
         [
-            "D' l U2 l' U' r2 U l U' r2 U' l' D",
-            [
-                "Howie Craig"
-            ],
-            "D' l U:[U l' U',r2]"
-        ],
-        [
             "Rw' F l2 U' r U l2 U' r' U F' Rw",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "Rw' F:[l2,U' r U]"
+        ],
+        [
+            "D' l U2 l' U' r2 U l U' r2 U' l' D",
+            [
+                "Howie Craig"
+            ],
+            "D' l U:[U l' U',r2]"
         ]
     ],
     "GOB": [
@@ -14381,18 +14381,18 @@
             "y' D:[l',U r2 U']"
         ],
         [
-            "D l2 U' l u' l' U l u l D'",
-            [
-                "Howie Craig"
-            ],
-            "D l':[l' U' l,u']"
-        ],
-        [
             "D2 Uw' l' Uw r2 Uw' l Uw r2 D2",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "D2:[Uw' l' Uw,r2]"
+        ],
+        [
+            "D l2 U' l u' l' U l u l D'",
+            [
+                "Howie Craig"
+            ],
+            "D l':[l' U' l,u']"
         ]
     ],
     "GOF": [
@@ -16743,18 +16743,18 @@
             "Lw D U:[U l' U',r2]"
         ],
         [
-            "D l U2 l' U' r2 U l U' r2 U' l' D'",
-            [
-                "Howie Craig"
-            ],
-            "D l U:[U l' U',r2]"
-        ],
-        [
             "Lw F U' l' U r2 U' l U r2 F' Lw'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "Lw F:[U' l' U,r2]"
+        ],
+        [
+            "D l U2 l' U' r2 U l U' r2 U' l' D'",
+            [
+                "Howie Craig"
+            ],
+            "D l U:[U l' U',r2]"
         ]
     ],
     "GXB": [
@@ -17484,16 +17484,6 @@
     ],
     "GZA": [
         [
-            "l d' l' U2 l d l' U2",
-            [
-                "Cale Schoon",
-                "Marcell Endrey",
-                "Oliver Fritz",
-                "Tom Nelson"
-            ],
-            "[l d' l',U2]"
-        ],
-        [
             "U2 r d r' U2 r d' r'",
             [
                 "Howie Craig",
@@ -17502,6 +17492,16 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "[U2,r d r']"
+        ],
+        [
+            "l d' l' U2 l d l' U2",
+            [
+                "Cale Schoon",
+                "Marcell Endrey",
+                "Oliver Fritz",
+                "Tom Nelson"
+            ],
+            "[l d' l',U2]"
         ]
     ],
     "GZB": [
@@ -19187,18 +19187,18 @@
             "z':[d,r U2 r']"
         ],
         [
-            "F2 r U2 r' u r U2 r' u' F2",
-            [
-                "James Molloy"
-            ],
-            "F2:[r U2 r',u]"
-        ],
-        [
             "R2 U' l' U l d' l' U' l d U R2",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "R2 U':[l' U l,d']"
+        ],
+        [
+            "F2 r U2 r' u r U2 r' u' F2",
+            [
+                "James Molloy"
+            ],
+            "F2:[r U2 r',u]"
         ]
     ],
     "IAO": [
@@ -19727,18 +19727,18 @@
             "y D':[r,U' l2 U]"
         ],
         [
-            "R' 4Dw' l' U r2 U' l U r2 y' R",
-            [
-                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
-            ],
-            "R' y:[U' l' U,r2]"
-        ],
-        [
             "D2 Uw r Uw' l2 Uw r' Uw' l2 D2",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "D2:[Uw r Uw',l2]"
+        ],
+        [
+            "R' 4Dw' l' U r2 U' l U r2 y' R",
+            [
+                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
+            ],
+            "R' y:[U' l' U,r2]"
         ],
         [
             "Rw r U2 r' d' r U2 r' d Rw'",
@@ -20063,18 +20063,18 @@
             "z':[r U2 r',d]"
         ],
         [
-            "F2 u r U2 r' u' r U2 r' F2",
-            [
-                "James Molloy"
-            ],
-            "F2:[u,r U2 r']"
-        ],
-        [
             "R2 U' d' l' U l d l' U' l U R2",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "R2 U':[d',l' U l]"
+        ],
+        [
+            "F2 u r U2 r' u' r U2 r' F2",
+            [
+                "James Molloy"
+            ],
+            "F2:[u,r U2 r']"
         ]
     ],
     "IND": [
@@ -20302,18 +20302,18 @@
             "y D':[U' l2 U,r]"
         ],
         [
-            "R' y r2 U' l' U r2 U' l 4Dw R",
-            [
-                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
-            ],
-            "R' y:[r2,U' l' U]"
-        ],
-        [
             "D2 l2 Uw r Uw' l2 Uw r' Uw' D2",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "D2:[l2,Uw r Uw']"
+        ],
+        [
+            "R' y r2 U' l' U r2 U' l 4Dw R",
+            [
+                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
+            ],
+            "R' y:[r2,U' l' U]"
         ],
         [
             "Rw d' r U2 r' d r U2 r' Rw'",
@@ -21071,18 +21071,18 @@
             "l:[r2,U l' U']"
         ],
         [
-            "3Lw r2 U l' U' r2 U l U' 3Lw'",
-            [
-                "Kevin Matthews"
-            ],
-            "3Lw:[r2,U l' U']"
-        ],
-        [
             "l' r2 U l U' r2 U l' U' l",
             [
                 "Andrew Tan Jing Bang"
             ],
             "l':[r2,U l U']"
+        ],
+        [
+            "3Lw r2 U l' U' r2 U l U' 3Lw'",
+            [
+                "Kevin Matthews"
+            ],
+            "3Lw:[r2,U l' U']"
         ]
     ],
     "JAS": [
@@ -21176,18 +21176,18 @@
             "D' r':[U' r U,l2]"
         ],
         [
-            "U' x' r U r' d2 r U' r' d2 x U",
-            [
-                "Leonardo Ezequiel Cruz"
-            ],
-            "U' x':[r U r',d2]"
-        ],
-        [
             "D' r U' r' U l2 U' r U l2 r' D",
             [
                 "Andrew Tan Jing Bang"
             ],
             "D' r:[U' r' U,l2]"
+        ],
+        [
+            "U' x' r U r' d2 r U' r' d2 x U",
+            [
+                "Leonardo Ezequiel Cruz"
+            ],
+            "U' x':[r U r',d2]"
         ]
     ],
     "JAX": [
@@ -21222,18 +21222,18 @@
             "D l:[r2,U l' U']"
         ],
         [
-            "3Lw D r2 U l' U' r2 U l U' D' 3Lw'",
-            [
-                "Kevin Matthews"
-            ],
-            "3Lw D:[r2,U l' U']"
-        ],
-        [
             "D l' r2 U l U' r2 U l' U' l D'",
             [
                 "Andrew Tan Jing Bang"
             ],
             "D l':[r2,U l U']"
+        ],
+        [
+            "3Lw D r2 U l' U' r2 U l U' D' 3Lw'",
+            [
+                "Kevin Matthews"
+            ],
+            "3Lw D:[r2,U l' U']"
         ]
     ],
     "JAY": [
@@ -21249,20 +21249,20 @@
             "M':[U l U',r']"
         ],
         [
-            "Lw' r U l U' r' U l' U' Lw",
-            [
-                "Daniel Wallin",
-                "Ethan Pan"
-            ],
-            "Lw':[r,U l U']"
-        ],
-        [
             "l' r U l U' r' U l' U' l",
             [
                 "Andrew Tan Jing Bang",
                 "Ryan Eckersley"
             ],
             "l':[r,U l U']"
+        ],
+        [
+            "Lw' r U l U' r' U l' U' Lw",
+            [
+                "Daniel Wallin",
+                "Ethan Pan"
+            ],
+            "Lw':[r,U l U']"
         ],
         [
             "4Dw r' d' r U' r' d r y",
@@ -23540,18 +23540,18 @@
             "l U' D':[r2,U' l' U]"
         ],
         [
-            "U' 3Lw U r2 U l' U' r2 U l U2 3Lw' U",
-            [
-                "Kevin Matthews"
-            ],
-            "U' 3Lw U:[r2,U l' U']"
-        ],
-        [
             "U' l' U r2 U l U' r2 U l' U2 l U",
             [
                 "Andrew Tan Jing Bang"
             ],
             "U' l' U:[r2,U l U']"
+        ],
+        [
+            "U' 3Lw U r2 U l' U' r2 U l U2 3Lw' U",
+            [
+                "Kevin Matthews"
+            ],
+            "U' 3Lw U:[r2,U l' U']"
         ],
         [
             "4Uw U2 r2 D r2 D' r2 U2 r2 D r2 D' r2 4Uw'",
@@ -23732,18 +23732,18 @@
             "D' Rw' U':[U' r U,l2]"
         ],
         [
-            "Rw' F' R U r U' l2 U r' U' l2 R' F Rw",
-            [
-                "Kevin Matthews"
-            ],
-            "Rw' F' R:[U r U',l2]"
-        ],
-        [
             "U' r U2 r' U' l2 U r U' l2 U' r' U",
             [
                 "Andrew Tan Jing Bang"
             ],
             "U' r U:[U r' U',l2]"
+        ],
+        [
+            "Rw' F' R U r U' l2 U r' U' l2 R' F Rw",
+            [
+                "Kevin Matthews"
+            ],
+            "Rw' F' R:[U r U',l2]"
         ],
         [
             "y D' U2 r2 D r2 D' r2 U2 r2 D r2 D' r2 D y'",
@@ -24685,18 +24685,18 @@
             "y:[l',U' r' U]"
         ],
         [
-            "4Uw' r' U' l' U r U' l U 4Uw",
-            [
-                "Antonio Kam (甘浩東)"
-            ],
-            "4Uw':[r',U' l' U]"
-        ],
-        [
             "R u' l' U2 l u2 l' U2 l u' R'",
             [
                 "Chenhao Sun (孙晨皓)"
             ],
             "R u':[l' U2 l,u2]"
+        ],
+        [
+            "4Uw' r' U' l' U r U' l U 4Uw",
+            [
+                "Antonio Kam (甘浩東)"
+            ],
+            "4Uw':[r',U' l' U]"
         ],
         [
             "R y' l' U' l u2 l' U l u2 y R'",
@@ -24760,18 +24760,18 @@
             "m r':[l,U' r U]"
         ],
         [
-            "4Lw U' r U l' U' r' U l 4Lw'",
-            [
-                "Antonio Kam (甘浩東)"
-            ],
-            "4Lw:[U' r U,l']"
-        ],
-        [
             "4Rw' U' r U l' U' r' U 3Rw",
             [
                 "Chenhao Sun (孙晨皓)"
             ],
             "4Rw':[U' r U,l']"
+        ],
+        [
+            "4Lw U' r U l' U' r' U l 4Lw'",
+            [
+                "Antonio Kam (甘浩東)"
+            ],
+            "4Lw:[U' r U,l']"
         ],
         [
             "U2 r' u2 r U r' u2 r U",
@@ -25204,6 +25204,13 @@
             "F2:[l U l',u2]"
         ],
         [
+            "u' l2 u l U l' u' l U' l u",
+            [
+                "Andrew Tan Jing Bang"
+            ],
+            "u' l':[l' u l,U]"
+        ],
+        [
             "F' r U l U' r' U l' U' F",
             [
                 "Leonardo Ezequiel Cruz"
@@ -25216,13 +25223,6 @@
                 "Kevin Matthews"
             ],
             "x':[U' r U,l2]"
-        ],
-        [
-            "u' l2 u l U l' u' l U' l u",
-            [
-                "Andrew Tan Jing Bang"
-            ],
-            "u' l':[l' u l,U]"
         ]
     ],
     "JFO": [
@@ -25423,6 +25423,13 @@
             "D' 4Rw':[U' r U,l]"
         ],
         [
+            "l r' d2 r U' r' d2 r U l'",
+            [
+                "Andrew Tan Jing Bang"
+            ],
+            "l:[r' d2 r,U']"
+        ],
+        [
             "U D r u2 r U2 r' u2 r U2 r2 D' U'",
             [
                 "Leonardo Ezequiel Cruz"
@@ -25435,13 +25442,6 @@
                 "Kevin Matthews"
             ],
             "3Lw:[r' d2 r,U']"
-        ],
-        [
-            "l r' d2 r U' r' d2 r U l'",
-            [
-                "Andrew Tan Jing Bang"
-            ],
-            "l:[r' d2 r,U']"
         ]
     ],
     "JFX": [
@@ -26075,18 +26075,18 @@
             "U' D':[D' l2 D,r2]"
         ],
         [
-            "U 3Lw U l' U' r2 U l U' r2 3Lw' U'",
-            [
-                "Kevin Matthews"
-            ],
-            "U 3Lw:[U l' U',r2]"
-        ],
-        [
             "U l' U l U' r2 U l' U' r2 l U'",
             [
                 "Andrew Tan Jing Bang"
             ],
             "U l':[U l U',r2]"
+        ],
+        [
+            "U 3Lw U l' U' r2 U l U' r2 3Lw' U'",
+            [
+                "Kevin Matthews"
+            ],
+            "U 3Lw:[U l' U',r2]"
         ]
     ],
     "JGS": [
@@ -26239,6 +26239,13 @@
             "U':[l2,D r2 D']"
         ],
         [
+            "l r' d2 r U r' d2 r U' l'",
+            [
+                "Andrew Tan Jing Bang"
+            ],
+            "l:[r' d2 r,U]"
+        ],
+        [
             "U' 3Rw U r' U' l2 U r U' l2 3Rw' U",
             [
                 "Leonardo Ezequiel Cruz"
@@ -26251,13 +26258,6 @@
                 "Kevin Matthews"
             ],
             "4Lw:[d2,r U r']"
-        ],
-        [
-            "l r' d2 r U r' d2 r U' l'",
-            [
-                "Andrew Tan Jing Bang"
-            ],
-            "l:[r' d2 r,U]"
         ],
         [
             "D U' Lw r2 U' l' U r2 U' l U Lw' U D'",
@@ -26306,18 +26306,18 @@
             "U' l:[r2,U' l' U]"
         ],
         [
-            "U' 3Lw' r2 U' l U r2 U' l' U 3Lw U",
-            [
-                "Kevin Matthews"
-            ],
-            "U' 3Lw':[r2,U' l U]"
-        ],
-        [
             "U' l' r2 U' l U r2 U' l' U l U",
             [
                 "Andrew Tan Jing Bang"
             ],
             "U' l':[r2,U' l U]"
+        ],
+        [
+            "U' 3Lw' r2 U' l U r2 U' l' U 3Lw U",
+            [
+                "Kevin Matthews"
+            ],
+            "U' 3Lw':[r2,U' l U]"
         ]
     ],
     "JGY": [
@@ -27740,18 +27740,18 @@
             "R2 d':[l' U l,d2]"
         ],
         [
-            "z' D' r2 U r' u' r U' r' u r' D z",
-            [
-                "Kevin Matthews"
-            ],
-            "z' D' r:[r U r',u']"
-        ],
-        [
             "L2 u' l U l' u2 l U' l' u' L2",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "L2 u':[l U l',u2]"
+        ],
+        [
+            "z' D' r2 U r' u' r U' r' u r' D z",
+            [
+                "Kevin Matthews"
+            ],
+            "z' D' r:[r U r',u']"
         ],
         [
             "x' z U D r2 U l' U' r2 U l U2 D' z' x",
@@ -27966,18 +27966,18 @@
             "z':[r U r',u']"
         ],
         [
-            "U R d' r U' r' d r U Rw' U'",
-            [
-                "Antonio Kam (甘浩東)"
-            ],
-            "U R:[d',r U' r']"
-        ],
-        [
             "R y r U' r' d r U r' d' y' R'",
             [
                 "Chenhao Sun (孙晨皓)"
             ],
             "R y:[r U' r',d]"
+        ],
+        [
+            "U R d' r U' r' d r U Rw' U'",
+            [
+                "Antonio Kam (甘浩東)"
+            ],
+            "U R:[d',r U' r']"
         ]
     ],
     "JIZ": [
@@ -28363,18 +28363,18 @@
             "L2 u:[l' U2 l,u2]"
         ],
         [
-            "L y' U2 l' U' r' U l U' r 4Dw' L'",
-            [
-                "Leonardo Ezequiel Cruz"
-            ],
-            "L 4Dw:[U l' U',r']"
-        ],
-        [
             "u l' r' d r U2 r' d' r U2 l u'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "u l':[r' d r,U2]"
+        ],
+        [
+            "L y' U2 l' U' r' U l U' r 4Dw' L'",
+            [
+                "Leonardo Ezequiel Cruz"
+            ],
+            "L 4Dw:[U l' U',r']"
         ],
         [
             "z r' d r' U2 r d' r' U2 r2 z'",
@@ -28543,18 +28543,18 @@
             "4Dw:[U l' U',r']"
         ],
         [
-            "R' d' l' U l d2 l' U' l d' R",
-            [
-                "Antonio Kam (甘浩東)"
-            ],
-            "R' d':[l' U l,d2]"
-        ],
-        [
             "L u l' U2 l u2 l' U2 l u L'",
             [
                 "Chenhao Sun (孙晨皓)"
             ],
             "L u:[l' U2 l,u2]"
+        ],
+        [
+            "R' d' l' U l d2 l' U' l d' R",
+            [
+                "Antonio Kam (甘浩東)"
+            ],
+            "R' d':[l' U l,d2]"
         ]
     ],
     "JKR": [
@@ -28625,13 +28625,6 @@
             "U' u:[r',U' l' U]"
         ],
         [
-            "U R' d r' U2 r d' r' U2 Rw U'",
-            [
-                "Antonio Kam (甘浩東)"
-            ],
-            "U R':[d,r' U2 r]"
-        ],
-        [
             "R' d' l' U l d' l' U' l d2 R",
             [
                 "Chenhao Sun (孙晨皓)"
@@ -28644,6 +28637,13 @@
                 "Chenhao Sun (孙晨皓)"
             ],
             "U Rw':[U2,l d' l']"
+        ],
+        [
+            "U R' d r' U2 r d' r' U2 Rw U'",
+            [
+                "Antonio Kam (甘浩東)"
+            ],
+            "U R':[d,r' U2 r]"
         ],
         [
             "U' z' r' U' r u r' U r u' z U",
@@ -29404,18 +29404,18 @@
             "R' U:[r U2 r',u]"
         ],
         [
-            "U R' r U2 r' u r U2 r' u' R U'",
-            [
-                "Antonio Kam (甘浩東)"
-            ],
-            "U R':[r U2 r',u]"
-        ],
-        [
             "R' y u' r U2 r' u r U2 r' y' R",
             [
                 "Chenhao Sun (孙晨皓)"
             ],
             "R' y:[u',r U2 r']"
+        ],
+        [
+            "U R' r U2 r' u r U2 r' u' R U'",
+            [
+                "Antonio Kam (甘浩東)"
+            ],
+            "U R':[r U2 r',u]"
         ]
     ],
     "JLT": [
@@ -29928,18 +29928,18 @@
             "L2 u':[l' U2 l,u2]"
         ],
         [
-            "L 4Dw r' U l' U' r U l U2 y L'",
-            [
-                "Leonardo Ezequiel Cruz"
-            ],
-            "L 4Dw:[r',U l' U']"
-        ],
-        [
             "u l' U2 r' d r U2 r' d' r l u'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "u l':[U2,r' d r]"
+        ],
+        [
+            "L 4Dw r' U l' U' r U l U2 y L'",
+            [
+                "Leonardo Ezequiel Cruz"
+            ],
+            "L 4Dw:[r',U l' U']"
         ],
         [
             "z r2 U2 r d r' U2 r d' r z'",
@@ -30670,18 +30670,18 @@
             "F2:[u2,l U l']"
         ],
         [
-            "F' U l U' r U l' U' r' F",
-            [
-                "Leonardo Ezequiel Cruz"
-            ],
-            "F':[U l U',r]"
-        ],
-        [
             "u' l' U l' u l U' l' u' l2 u",
             [
                 "Andrew Tan Jing Bang"
             ],
             "u' l':[U,l' u l]"
+        ],
+        [
+            "F' U l U' r U l' U' r' F",
+            [
+                "Leonardo Ezequiel Cruz"
+            ],
+            "F':[U l U',r]"
         ]
     ],
     "JNG": [
@@ -31134,18 +31134,18 @@
             "D' 4Rw:[U' r' U,l']"
         ],
         [
-            "4Lw' u2 r' U' r u2 r' U 3Lw",
-            [
-                "Kevin Matthews"
-            ],
-            "4Lw':[u2,r' U' r]"
-        ],
-        [
             "l' r u2 r' U' r u2 r' U l",
             [
                 "Andrew Tan Jing Bang"
             ],
             "l':[r u2 r',U']"
+        ],
+        [
+            "4Lw' u2 r' U' r u2 r' U 3Lw",
+            [
+                "Kevin Matthews"
+            ],
+            "4Lw':[u2,r' U' r]"
         ]
     ],
     "JNX": [
@@ -31539,6 +31539,13 @@
             "U' D:[D r2 D',l2]"
         ],
         [
+            "l' r d2 r' U' r d2 r' U l",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "l':[r d2 r',U']"
+        ],
+        [
             "4Lw u2 r U' r' u2 r U 3Lw'",
             [
                 "Kevin Matthews"
@@ -31551,13 +31558,6 @@
                 "Howie Craig"
             ],
             "D' U Lw:[r2,U l' U']"
-        ],
-        [
-            "l' r d2 r' U' r d2 r' U l",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "l':[r d2 r',U']"
         ]
     ],
     "JOH": [
@@ -33133,18 +33133,18 @@
             "R2 d:[l' U l,d2]"
         ],
         [
-            "z' D' r u' r U r' u r U' r2 D z",
-            [
-                "Kevin Matthews"
-            ],
-            "z' D' r:[u',r U r']"
-        ],
-        [
             "L2 u l U l' u2 l U' l' u L2",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "L2 u:[l U l',u2]"
+        ],
+        [
+            "z' D' r u' r U r' u r U' r2 D z",
+            [
+                "Kevin Matthews"
+            ],
+            "z' D' r:[u',r U r']"
         ],
         [
             "x' z U2 D l' U' r2 U l U' r2 D' U' z' x",
@@ -33185,18 +33185,18 @@
             "4Dw:[r',U l' U']"
         ],
         [
-            "R' d l' U l d2 l' U' l d R",
-            [
-                "Antonio Kam (甘浩東)"
-            ],
-            "R' d:[l' U l,d2]"
-        ],
-        [
             "L u' l' U2 l u2 l' U2 l u' L'",
             [
                 "Chenhao Sun (孙晨皓)"
             ],
             "L u':[l' U2 l,u2]"
+        ],
+        [
+            "R' d l' U l d2 l' U' l d R",
+            [
+                "Antonio Kam (甘浩東)"
+            ],
+            "R' d:[l' U l,d2]"
         ]
     ],
     "JQL": [
@@ -33447,18 +33447,18 @@
             "d:[l' U l,d]"
         ],
         [
-            "U d' r' U2 r d r' U2 r U'",
-            [
-                "Kevin Matthews"
-            ],
-            "U:[d',r' U2 r]"
-        ],
-        [
             "Dw l' U l d l' U' l d' Dw'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "Dw:[l' U l,d]"
+        ],
+        [
+            "U d' r' U2 r d r' U2 r U'",
+            [
+                "Kevin Matthews"
+            ],
+            "U:[d',r' U2 r]"
         ],
         [
             "y' l' U2 l d l' U2 l d' y",
@@ -33655,18 +33655,18 @@
             "l:[U l' U',r2]"
         ],
         [
-            "3Lw U l' U' r2 U l U' r2 3Lw'",
-            [
-                "Kevin Matthews"
-            ],
-            "3Lw:[U l' U',r2]"
-        ],
-        [
             "l' U l U' r2 U l' U' r2 l",
             [
                 "Andrew Tan Jing Bang"
             ],
             "l':[U l U',r2]"
+        ],
+        [
+            "3Lw U l' U' r2 U l U' r2 3Lw'",
+            [
+                "Kevin Matthews"
+            ],
+            "3Lw:[U l' U',r2]"
         ]
     ],
     "JRB": [
@@ -33793,18 +33793,18 @@
             "l U2 D':[l',U r2 U']"
         ],
         [
-            "U' 3Lw U2 l' U' r2 U l U' r2 U' 3Lw' U",
-            [
-                "Kevin Matthews"
-            ],
-            "U' 3Lw U:[U l' U',r2]"
-        ],
-        [
             "U' l' U2 l U' r2 U l' U' r2 U' l U",
             [
                 "Andrew Tan Jing Bang"
             ],
             "U' l' U:[U l U',r2]"
+        ],
+        [
+            "U' 3Lw U2 l' U' r2 U l U' r2 U' 3Lw' U",
+            [
+                "Kevin Matthews"
+            ],
+            "U' 3Lw U:[U l' U',r2]"
         ],
         [
             "4Uw r2 D r2 D' r2 U2 r2 D r2 D' r2 U2 4Uw'",
@@ -33930,18 +33930,18 @@
             "U' D':[r2,D' l2 D]"
         ],
         [
-            "U 3Lw r2 U l' U' r2 U l U' 3Lw' U'",
-            [
-                "Kevin Matthews"
-            ],
-            "U 3Lw:[r2,U l' U']"
-        ],
-        [
             "U l' r2 U l U' r2 U l' U' l U'",
             [
                 "Andrew Tan Jing Bang"
             ],
             "U l':[r2,U l U']"
+        ],
+        [
+            "U 3Lw r2 U l' U' r2 U l U' 3Lw' U'",
+            [
+                "Kevin Matthews"
+            ],
+            "U 3Lw:[r2,U l' U']"
         ]
     ],
     "JRH": [
@@ -34684,18 +34684,18 @@
             "R' U:[u,r U2 r']"
         ],
         [
-            "U R' u r U2 r' u' r U2 r' R U'",
-            [
-                "Antonio Kam (甘浩東)"
-            ],
-            "U R':[u,r U2 r']"
-        ],
-        [
             "R' y r U2 r' u' r U2 r' u y' R",
             [
                 "Chenhao Sun (孙晨皓)"
             ],
             "R' y:[r U2 r',u']"
+        ],
+        [
+            "U R' u r U2 r' u' r U2 r' R U'",
+            [
+                "Antonio Kam (甘浩東)"
+            ],
+            "U R':[u,r U2 r']"
         ]
     ],
     "JSM": [
@@ -34953,13 +34953,6 @@
             "U R:[d,r' U2 r]"
         ],
         [
-            "Rw' U z' u' r U r' u r U' r' z U' Rw",
-            [
-                "Kevin Matthews"
-            ],
-            "Rw' U z':[u',r U r']"
-        ],
-        [
             "r' U2 r U' r' d' r U r' d U2 r",
             [
                 "Andrew Tan Jing Bang"
@@ -34972,6 +34965,13 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "R U2:[d,r' U r]"
+        ],
+        [
+            "Rw' U z' u' r U r' u r U' r' z U' Rw",
+            [
+                "Kevin Matthews"
+            ],
+            "Rw' U z':[u',r U r']"
         ],
         [
             "B' d l U2 l' d' l U2 l' B",
@@ -35493,13 +35493,6 @@
             "U2 u:[l',U r' U']"
         ],
         [
-            "U Rw' U2 r d r' U2 r d' R U'",
-            [
-                "Antonio Kam (甘浩東)"
-            ],
-            "U R':[r' U2 r,d]"
-        ],
-        [
             "R' d2 l' U l d l' U' l d R",
             [
                 "Chenhao Sun (孙晨皓)"
@@ -35512,6 +35505,13 @@
                 "Chenhao Sun (孙晨皓)"
             ],
             "U 4Rw':[d',l' U2 l]"
+        ],
+        [
+            "U Rw' U2 r d r' U2 r d' R U'",
+            [
+                "Antonio Kam (甘浩東)"
+            ],
+            "U R':[r' U2 r,d]"
         ],
         [
             "U' z' u r' U' r u' r' U r z U",
@@ -35746,18 +35746,18 @@
             "d:[d,l' U l]"
         ],
         [
-            "U r' U2 r d' r' U2 r d U'",
-            [
-                "Kevin Matthews"
-            ],
-            "U:[r' U2 r,d']"
-        ],
-        [
             "Dw d l' U l d' l' U' l Dw'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "Dw:[d,l' U l]"
+        ],
+        [
+            "U r' U2 r d' r' U2 r d U'",
+            [
+                "Kevin Matthews"
+            ],
+            "U:[r' U2 r,d']"
         ],
         [
             "y' d l' U2 l d' l' U2 l y",
@@ -35863,18 +35863,18 @@
             "U R:[r' U2 r,d]"
         ],
         [
-            "Rw' U z' r U r' u' r U' r' u z U' Rw",
-            [
-                "Kevin Matthews"
-            ],
-            "Rw' U z':[r U r',u']"
-        ],
-        [
             "r' U2 d' r U' r' d r U r' U2 r",
             [
                 "Andrew Tan Jing Bang"
             ],
             "r' U2:[d',r U' r']"
+        ],
+        [
+            "Rw' U z' r U r' u' r U' r' u z U' Rw",
+            [
+                "Kevin Matthews"
+            ],
+            "Rw' U z':[r U r',u']"
         ],
         [
             "B' l U2 l' d l U2 l' d' B",
@@ -36042,18 +36042,18 @@
             "D' r':[l2,U' r U]"
         ],
         [
-            "U' x' d2 r U r' d2 r U' r' x U",
-            [
-                "Leonardo Ezequiel Cruz"
-            ],
-            "U' x':[d2,r U r']"
-        ],
-        [
             "D' r l2 U' r' U l2 U' r U r' D",
             [
                 "Andrew Tan Jing Bang"
             ],
             "D' r:[l2,U' r' U]"
+        ],
+        [
+            "U' x' d2 r U r' d2 r U' r' x U",
+            [
+                "Leonardo Ezequiel Cruz"
+            ],
+            "U' x':[d2,r U r']"
         ]
     ],
     "JWB": [
@@ -36186,18 +36186,18 @@
             "D' Rw' U':[l2,U' r U]"
         ],
         [
-            "Rw' F' R l2 U r U' l2 U r' U' R' F Rw",
-            [
-                "Kevin Matthews"
-            ],
-            "Rw' F' R:[l2,U r U']"
-        ],
-        [
             "U' r U l2 U r' U' l2 U r U2 r' U",
             [
                 "Andrew Tan Jing Bang"
             ],
             "U' r U:[l2,U r' U']"
+        ],
+        [
+            "Rw' F' R l2 U r U' l2 U r' U' R' F Rw",
+            [
+                "Kevin Matthews"
+            ],
+            "Rw' F' R:[l2,U r U']"
         ],
         [
             "y D' r2 D r2 D' r2 U2 r2 D r2 D' r2 U2 D y'",
@@ -36367,6 +36367,20 @@
             "U':[D r2 D',l2]"
         ],
         [
+            "l U r' d2 r U' r' d2 r l'",
+            [
+                "Andrew Tan Jing Bang"
+            ],
+            "l:[U,r' d2 r]"
+        ],
+        [
+            "M' r' U r u2 r' U' r u2 M",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "M':[r' U r,u2]"
+        ],
+        [
             "U' 3Rw l2 U r' U' l2 U r U' 3Rw' U",
             [
                 "Leonardo Ezequiel Cruz"
@@ -36381,25 +36395,11 @@
             "3Lw:[U,r' d2 r]"
         ],
         [
-            "l U r' d2 r U' r' d2 r l'",
-            [
-                "Andrew Tan Jing Bang"
-            ],
-            "l:[U,r' d2 r]"
-        ],
-        [
             "D U' Lw U' l' U r2 U' l U r2 Lw' U D'",
             [
                 "Howie Craig"
             ],
             "D U' Lw:[U' l' U,r2]"
-        ],
-        [
-            "M' r' U r u2 r' U' r u2 M",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "M':[r' U r,u2]"
         ]
     ],
     "JWH": [
@@ -36906,18 +36906,18 @@
             "D l:[U l' U',r2]"
         ],
         [
-            "3Lw D U l' U' r2 U l U' r2 D' 3Lw'",
-            [
-                "Kevin Matthews"
-            ],
-            "3Lw D:[U l' U',r2]"
-        ],
-        [
             "D l' U l U' r2 U l' U' r2 l D'",
             [
                 "Andrew Tan Jing Bang"
             ],
             "D l':[U l U',r2]"
+        ],
+        [
+            "3Lw D U l' U' r2 U l U' r2 D' 3Lw'",
+            [
+                "Kevin Matthews"
+            ],
+            "3Lw D:[U l' U',r2]"
         ]
     ],
     "JXB": [
@@ -37144,18 +37144,18 @@
             "U' l:[U' l' U,r2]"
         ],
         [
-            "U' 3Lw' U' l U r2 U' l' U r2 3Lw U",
-            [
-                "Kevin Matthews"
-            ],
-            "U' 3Lw':[U' l U,r2]"
-        ],
-        [
             "U' l' U' l U r2 U' l' U r2 l U",
             [
                 "Andrew Tan Jing Bang"
             ],
             "U' l':[U' l U,r2]"
+        ],
+        [
+            "U' 3Lw' U' l U r2 U' l' U r2 3Lw U",
+            [
+                "Kevin Matthews"
+            ],
+            "U' 3Lw':[U' l U,r2]"
         ]
     ],
     "JXH": [
@@ -37595,18 +37595,18 @@
             "U2 r':[r' U r,d]"
         ],
         [
-            "D2 l2 U l d' l' U' l d l D2",
-            [
-                "Antonio Kam (甘浩東)"
-            ],
-            "D2 l':[l' U l,d']"
-        ],
-        [
             "D d' U l' U' r2 U l U' r2 d D'",
             [
                 "Chenhao Sun (孙晨皓)"
             ],
             "D d':[U l' U',r2]"
+        ],
+        [
+            "D2 l2 U l d' l' U' l d l D2",
+            [
+                "Antonio Kam (甘浩東)"
+            ],
+            "D2 l':[l' U l,d']"
         ],
         [
             "D2 y l' U' r2 U l U' r2 4Dw D2",
@@ -37993,18 +37993,18 @@
             "z':[u',r U r']"
         ],
         [
-            "U Rw U' r' d' r U r' d R' U'",
-            [
-                "Antonio Kam (甘浩東)"
-            ],
-            "U R:[r U' r',d']"
-        ],
-        [
             "R y d r U' r' d' r U r' y' R'",
             [
                 "Chenhao Sun (孙晨皓)"
             ],
             "R y:[d,r U' r']"
+        ],
+        [
+            "U Rw U' r' d' r U r' d R' U'",
+            [
+                "Antonio Kam (甘浩東)"
+            ],
+            "U R:[r U' r',d']"
         ]
     ],
     "JYK": [
@@ -38608,18 +38608,18 @@
             "y:[U' r' U,l']"
         ],
         [
-            "4Uw' U' l' U r' U' l U r 4Uw",
-            [
-                "Antonio Kam (甘浩東)"
-            ],
-            "4Uw':[U' l' U,r']"
-        ],
-        [
             "R u l' U2 l u2 l' U2 l u R'",
             [
                 "Chenhao Sun (孙晨皓)"
             ],
             "R u:[l' U2 l,u2]"
+        ],
+        [
+            "4Uw' U' l' U r' U' l U r 4Uw",
+            [
+                "Antonio Kam (甘浩東)"
+            ],
+            "4Uw':[U' l' U,r']"
         ],
         [
             "y' U' l' U r' U' l U r y",
@@ -39146,18 +39146,18 @@
             "U2 r':[d,r' U r]"
         ],
         [
-            "D2 l' d' l' U l d l' U' l2 D2",
-            [
-                "Antonio Kam (甘浩東)"
-            ],
-            "D2 l':[d',l' U l]"
-        ],
-        [
             "D d' r2 U l' U' r2 U l U' d D'",
             [
                 "Chenhao Sun (孙晨皓)"
             ],
             "D d':[r2,U l' U']"
+        ],
+        [
+            "D2 l' d' l' U l d l' U' l2 D2",
+            [
+                "Antonio Kam (甘浩東)"
+            ],
+            "D2 l':[d',l' U l]"
         ],
         [
             "D2 4Dw' r2 U l' U' r2 U l y' D2",
@@ -43161,18 +43161,18 @@
             "z:[d',r U2 r']"
         ],
         [
-            "Lw Uw' l' Uw r Uw' l Uw r' Lw'",
-            [
-                "Howie Craig"
-            ],
-            "Lw:[Uw' l' Uw,r]"
-        ],
-        [
             "L Uw' l' Uw r Uw' l Uw r' L'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "L:[Uw' l' Uw,r]"
+        ],
+        [
+            "Lw Uw' l' Uw r Uw' l Uw r' Lw'",
+            [
+                "Howie Craig"
+            ],
+            "Lw:[Uw' l' Uw,r]"
         ]
     ],
     "LRA": [

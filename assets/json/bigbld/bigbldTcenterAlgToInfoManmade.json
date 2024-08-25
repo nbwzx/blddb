@@ -18,20 +18,20 @@
             "Uw':[m' u' m,U]"
         ],
         [
-            "Lw U l' U m' U' l U m U2 Lw'",
-            [
-                "James Molloy",
-                "Kevin Matthews"
-            ],
-            "Lw U:[l',U m' U']"
-        ],
-        [
             "l' U l U m' U' l' U m U2 l",
             [
                 "Andrew Tan Jing Bang",
                 "Howie Craig"
             ],
             "l' U:[l,U m' U']"
+        ],
+        [
+            "Lw U l' U m' U' l U m U2 Lw'",
+            [
+                "James Molloy",
+                "Kevin Matthews"
+            ],
+            "Lw U:[l',U m' U']"
         ],
         [
             "y m u' m' U m u m' U' y'",
@@ -263,15 +263,6 @@
     ],
     "ABL": [
         [
-            "U m' U m' d' m U' m' d m2 U'",
-            [
-                "Andrew Tan Jing Bang",
-                "Kai Yamamoto (山本快)",
-                "Ryan Eckersley"
-            ],
-            "U m':[U,m' d' m]"
-        ],
-        [
             "Lw2 U' m' U' m u' m' U m Uw Lw2",
             [
                 "Daniel Wallin",
@@ -279,6 +270,15 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "Lw2 U':[m' U' m,u']"
+        ],
+        [
+            "U m' U m' d' m U' m' d m2 U'",
+            [
+                "Andrew Tan Jing Bang",
+                "Kai Yamamoto (山本快)",
+                "Ryan Eckersley"
+            ],
+            "U m':[U,m' d' m]"
         ],
         [
             "z r2 e r' U2 r e' r' U2 r' z'",
@@ -679,6 +679,13 @@
             "z r:[r e r',U]"
         ],
         [
+            "U2 3Uw' l' 3Uw m' 3Uw' l 3Uw m U2",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "U2:[3Uw' l' 3Uw,m']"
+        ],
+        [
             "L U' m' U' m u' m' U m Uw L'",
             [
                 "Kevin Matthews"
@@ -691,13 +698,6 @@
                 "James Molloy"
             ],
             "F':[l' U l,e]"
-        ],
-        [
-            "U2 3Uw' l' 3Uw m' 3Uw' l 3Uw m U2",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "U2:[3Uw' l' 3Uw,m']"
         ]
     ],
     "ABY": [
@@ -773,20 +773,20 @@
             "u':[m' u' m,U']"
         ],
         [
-            "Lw U2 m' U' l' U m U' l U' Lw'",
-            [
-                "James Molloy",
-                "Kevin Matthews"
-            ],
-            "Lw U:[U m' U',l']"
-        ],
-        [
             "l' U2 m' U' l U m U' l' U' l",
             [
                 "Andrew Tan Jing Bang",
                 "Howie Craig"
             ],
             "l' U:[U m' U',l]"
+        ],
+        [
+            "Lw U2 m' U' l' U m U' l U' Lw'",
+            [
+                "James Molloy",
+                "Kevin Matthews"
+            ],
+            "Lw U:[U m' U',l']"
         ],
         [
             "y U m u' m' U' m u m' y'",
@@ -1779,6 +1779,13 @@
             "z:[l' U2 l,e']"
         ],
         [
+            "L m' 3Uw l 3Uw' m 3Uw l' 3Uw' L'",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "L:[m',3Uw l 3Uw']"
+        ],
+        [
             "d' L2 d m d' L2 d m'",
             [
                 "Leonardo Ezequiel Cruz"
@@ -1798,13 +1805,6 @@
                 "James Molloy"
             ],
             "L F':[e,r U' r']"
-        ],
-        [
-            "L m' 3Uw l 3Uw' m 3Uw l' 3Uw' L'",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "L:[m',3Uw l 3Uw']"
         ]
     ],
     "ADK": [
@@ -4659,6 +4659,13 @@
             "Lw' Dw:[m',U' r2 U]"
         ],
         [
+            "U2 4Uw' l' 4Uw m2 4Uw' l 4Uw m2 U2",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "U2:[4Uw' l' 4Uw,m2]"
+        ],
+        [
             "y U2 D' r' U m2 U' r U m2 U D y'",
             [
                 "Ethan Pan"
@@ -4671,13 +4678,6 @@
                 "Ethan Pan"
             ],
             "y U2 D:[r',U' m2 U]"
-        ],
-        [
-            "U2 4Uw' l' 4Uw m2 4Uw' l 4Uw m2 U2",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "U2:[4Uw' l' 4Uw,m2]"
         ]
     ],
     "AIY": [
@@ -4848,6 +4848,13 @@
             "z:[e',l' U2 l]"
         ],
         [
+            "L 3Uw l 3Uw' m' 3Uw l' 3Uw' m L'",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "L:[3Uw l 3Uw',m']"
+        ],
+        [
             "m d' L2 d m' d' L2 d",
             [
                 "Leonardo Ezequiel Cruz"
@@ -4867,13 +4874,6 @@
                 "James Molloy"
             ],
             "L F':[r U' r',e]"
-        ],
-        [
-            "L 3Uw l 3Uw' m' 3Uw l' 3Uw' m L'",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "L:[3Uw l 3Uw',m']"
         ]
     ],
     "AJE": [
@@ -8349,6 +8349,13 @@
             "3Uw' U':[U' l' U,m]"
         ],
         [
+            "U2 4Uw' l' 4Uw m 4Uw' l 4Uw m' U2",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "U2:[4Uw' l' 4Uw,m]"
+        ],
+        [
             "3Uw U2 r' U' m U r U' m' U' 3Uw'",
             [
                 "Kevin Matthews"
@@ -8361,13 +8368,6 @@
                 "Ethan Pan"
             ],
             "U' 3Lw:[U',m u' m']"
-        ],
-        [
-            "U2 4Uw' l' 4Uw m 4Uw' l 4Uw m' U2",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "U2:[4Uw' l' 4Uw,m]"
         ]
     ],
     "ANY": [
@@ -9771,6 +9771,13 @@
             "4Uw:[l,U' m' U]"
         ],
         [
+            "4Uw' r U' m U r' U' m' U 4Uw",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "4Uw':[r,U' m U]"
+        ],
+        [
             "y' r U' m U r' U' m' U y",
             [
                 "Kevin Matthews"
@@ -9783,13 +9790,6 @@
                 "James Molloy"
             ],
             "R' e':[r U' r',e2]"
-        ],
-        [
-            "4Uw' r U' m U r' U' m' U 4Uw",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "4Uw':[r,U' m U]"
         ]
     ],
     "APW": [
@@ -12465,6 +12465,13 @@
             "E':[m',U l U']"
         ],
         [
+            "4Uw' U' m U r U' m' U r' 4Uw",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "4Uw':[U' m U,r]"
+        ],
+        [
             "y' U' m U r U' m' U r' y",
             [
                 "Kevin Matthews"
@@ -12477,13 +12484,6 @@
                 "James Molloy"
             ],
             "R' e:[r U' r',e2]"
-        ],
-        [
-            "4Uw' U' m U r U' m' U r' 4Uw",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "4Uw':[U' m U,r]"
         ]
     ],
     "ATQ": [
@@ -12747,20 +12747,20 @@
             "4Rw':[U' m' U,l']"
         ],
         [
-            "x' U' m' U l' U' m U l x",
-            [
-                "Dong Zhu (朱栋)",
-                "Marcell Endrey"
-            ],
-            "x':[U' m' U,l']"
-        ],
-        [
             "m l U' m' U l' U' m U m'",
             [
                 "Andrew Tan Jing Bang",
                 "Howie Craig"
             ],
             "m:[l,U' m' U]"
+        ],
+        [
+            "x' U' m' U l' U' m U l x",
+            [
+                "Dong Zhu (朱栋)",
+                "Marcell Endrey"
+            ],
+            "x':[U' m' U,l']"
         ],
         [
             "U2 r' e2 r U r' e2 r U",
@@ -13329,6 +13329,13 @@
             "z r:[U,r e r']"
         ],
         [
+            "U2 m' 3Uw' l' 3Uw m 3Uw' l 3Uw U2",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "U2:[m',3Uw' l' 3Uw]"
+        ],
+        [
             "L Uw' m' U' m u m' U m U L'",
             [
                 "Kevin Matthews"
@@ -13341,13 +13348,6 @@
                 "James Molloy"
             ],
             "F':[e,l' U l]"
-        ],
-        [
-            "U2 m' 3Uw' l' 3Uw m 3Uw' l 3Uw U2",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "U2:[m',3Uw' l' 3Uw]"
         ]
     ],
     "AXC": [
@@ -13544,18 +13544,18 @@
             "Lw' Dw:[U' r2 U,m']"
         ],
         [
-            "4Dw' D' m2 U' r' U m2 U' r U2 D y'",
-            [
-                "Ethan Pan"
-            ],
-            "4Dw' D':[m2,U' r' U]"
-        ],
-        [
             "U2 m2 4Uw' l' 4Uw m2 4Uw' l 4Uw U2",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "U2:[m2,4Uw' l' 4Uw]"
+        ],
+        [
+            "4Dw' D' m2 U' r' U m2 U' r U2 D y'",
+            [
+                "Ethan Pan"
+            ],
+            "4Dw' D':[m2,U' r' U]"
         ]
     ],
     "AXJ": [
@@ -13745,6 +13745,13 @@
             "3Uw' U':[m,U' l' U]"
         ],
         [
+            "U2 m 4Uw' l' 4Uw m' 4Uw' l 4Uw U2",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "U2:[m,4Uw' l' 4Uw]"
+        ],
+        [
             "3Uw U m U r' U' m' U r U2 3Uw'",
             [
                 "Kevin Matthews"
@@ -13757,13 +13764,6 @@
                 "Ethan Pan"
             ],
             "U' 3Lw:[m u' m',U']"
-        ],
-        [
-            "U2 m 4Uw' l' 4Uw m' 4Uw' l 4Uw U2",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "U2:[m,4Uw' l' 4Uw]"
         ]
     ],
     "AXO": [
@@ -15507,18 +15507,18 @@
             "z Uw:[m',Uw r Uw']"
         ],
         [
-            "m2 d' m U m' d m U' m",
-            [
-                "Howie Craig"
-            ],
-            "m':[m' d' m,U]"
-        ],
-        [
             "L2 u' m' U m u m' U' m L2",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "L2:[u',m' U m]"
+        ],
+        [
+            "m2 d' m U m' d m U' m",
+            [
+                "Howie Craig"
+            ],
+            "m':[m' d' m,U]"
         ]
     ],
     "BCM": [
@@ -15659,18 +15659,18 @@
             "R':[u,m' U m]"
         ],
         [
-            "Rw' u m' U m u' m' U' m Rw",
-            [
-                "Howie Craig"
-            ],
-            "Rw':[u,m' U m]"
-        ],
-        [
             "U m' 3Uw r 3Uw' m 3Uw r' 3Uw' U'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "U:[m',3Uw r 3Uw']"
+        ],
+        [
+            "Rw' u m' U m u' m' U' m Rw",
+            [
+                "Howie Craig"
+            ],
+            "Rw':[u,m' U m]"
         ]
     ],
     "BDC": [
@@ -16145,18 +16145,18 @@
             "z Uw:[Uw r Uw',m']"
         ],
         [
-            "m' U m' d' m U' m' d m2",
-            [
-                "Howie Craig"
-            ],
-            "m':[U,m' d' m]"
-        ],
-        [
             "L2 m' U m u' m' U' m u L2",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "L2:[m' U m,u']"
+        ],
+        [
+            "m' U m' d' m U' m' d m2",
+            [
+                "Howie Craig"
+            ],
+            "m':[U,m' d' m]"
         ]
     ],
     "BLE": [
@@ -16302,18 +16302,18 @@
             "Rw2:[m' U m,u]"
         ],
         [
-            "m' U m' d m U' m' d' m2",
-            [
-                "Howie Craig"
-            ],
-            "m':[U,m' d m]"
-        ],
-        [
             "R2 m' U m u m' U' m u' R2",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "R2:[m' U m,u]"
+        ],
+        [
+            "m' U m' d m U' m' d' m2",
+            [
+                "Howie Craig"
+            ],
+            "m':[U,m' d m]"
         ]
     ],
     "BPE": [
@@ -16610,18 +16610,18 @@
     ],
     "CDJ": [
         [
-            "m2 u m U' m' u' m U m",
-            [
-                "Howie Craig"
-            ],
-            "m':[m' u m,U']"
-        ],
-        [
             "3Rw m' u m U' m' u' m U 3Rw'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Rw:[m' u m,U']"
+        ],
+        [
+            "m2 u m U' m' u' m U m",
+            [
+                "Howie Craig"
+            ],
+            "m':[m' u m,U']"
         ]
     ],
     "CDK": [
@@ -16688,18 +16688,18 @@
     ],
     "CDP": [
         [
-            "Rw2 u' m' U m u2 m' U' m u' Rw2",
-            [
-                "Howie Craig"
-            ],
-            "Rw2 u':[m' U m,u2]"
-        ],
-        [
             "R2 u' m' U m u2 m' U' m u' R2",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "R2 u':[m' U m,u2]"
+        ],
+        [
+            "Rw2 u' m' U m u2 m' U' m u' Rw2",
+            [
+                "Howie Craig"
+            ],
+            "Rw2 u':[m' U m,u2]"
         ]
     ],
     "CDQ": [
@@ -16721,18 +16721,18 @@
     ],
     "CDR": [
         [
-            "Rw u' m' U m u2 m' U' m u' Rw'",
-            [
-                "Howie Craig"
-            ],
-            "Rw u':[m' U m,u2]"
-        ],
-        [
             "R u' m' U m u2 m' U' m u' R'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "R u':[m' U m,u2]"
+        ],
+        [
+            "Rw u' m' U m u2 m' U' m u' Rw'",
+            [
+                "Howie Craig"
+            ],
+            "Rw u':[m' U m,u2]"
         ]
     ],
     "CDS": [
@@ -16761,18 +16761,18 @@
             "z:[m U m',u']"
         ],
         [
-            "u' l U m' U' l' U m U' u",
-            [
-                "Howie Craig"
-            ],
-            "u':[l,U m' U']"
-        ],
-        [
             "u l U' m U l' U' m' U u'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "u:[l,U' m U]"
+        ],
+        [
+            "u' l U m' U' l' U m U' u",
+            [
+                "Howie Craig"
+            ],
+            "u':[l,U m' U']"
         ]
     ],
     "CDY": [
@@ -16891,18 +16891,18 @@
             "U' Lw':[m',U l U']"
         ],
         [
-            "l' U' l U' m' U l' U' m U2 l",
-            [
-                "Howie Craig"
-            ],
-            "l' U':[l,U' m' U]"
-        ],
-        [
             "Lw' U' l U' m' U l' U' m U2 Lw",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "Lw' U':[l,U' m' U]"
+        ],
+        [
+            "l' U' l U' m' U l' U' m U2 l",
+            [
+                "Howie Craig"
+            ],
+            "l' U':[l,U' m' U]"
         ]
     ],
     "CEK": [
@@ -17400,18 +17400,18 @@
             "R:[m U' m',u']"
         ],
         [
-            "Rw m U' m' u' m U m' u Rw'",
-            [
-                "Howie Craig"
-            ],
-            "Rw:[m U' m',u']"
-        ],
-        [
             "U' 3Uw' r' 3Uw m 3Uw' r 3Uw m' U",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "U':[3Uw' r' 3Uw,m]"
+        ],
+        [
+            "Rw m U' m' u' m U m' u Rw'",
+            [
+                "Howie Craig"
+            ],
+            "Rw:[m U' m',u']"
         ]
     ],
     "CFS": [
@@ -17573,18 +17573,18 @@
             "3Rw2:[U,m u m']"
         ],
         [
-            "Dw' U' m' U l2 U' m U l2 Dw",
-            [
-                "Howie Craig"
-            ],
-            "Dw':[U' m' U,l2]"
-        ],
-        [
             "m2 U m' d m U' m' d' m'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "m:[m U m',d]"
+        ],
+        [
+            "Dw' U' m' U l2 U' m U l2 Dw",
+            [
+                "Howie Craig"
+            ],
+            "Dw':[U' m' U,l2]"
         ]
     ],
     "CIQ": [
@@ -17696,18 +17696,18 @@
     ],
     "CJD": [
         [
-            "m' U' m' u m U m' u' m2",
-            [
-                "Howie Craig"
-            ],
-            "m':[U',m' u m]"
-        ],
-        [
             "3Rw U' m' u m U m' u' m 3Rw'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Rw:[U',m' u m]"
+        ],
+        [
+            "m' U' m' u m U m' u' m2",
+            [
+                "Howie Craig"
+            ],
+            "m':[U',m' u m]"
         ]
     ],
     "CJE": [
@@ -17720,18 +17720,18 @@
             "U' Lw':[U l U',m']"
         ],
         [
-            "l' U2 m' U l U' m U l' U l",
-            [
-                "Howie Craig"
-            ],
-            "l' U':[U' m' U,l]"
-        ],
-        [
             "Lw' U2 m' U l U' m U l' U Lw",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "Lw' U':[U' m' U,l]"
+        ],
+        [
+            "l' U2 m' U l U' m U l' U l",
+            [
+                "Howie Craig"
+            ],
+            "l' U':[U' m' U,l]"
         ]
     ],
     "CJF": [
@@ -17804,18 +17804,18 @@
             "F:[U m U',l']"
         ],
         [
-            "m2 u2 m' U m u2 m' U' m'",
-            [
-                "Howie Craig"
-            ],
-            "m:[m u2 m',U]"
-        ],
-        [
             "m' U' m d2 m' U m d2",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "[m' U' m,d2]"
+        ],
+        [
+            "m2 u2 m' U m u2 m' U' m'",
+            [
+                "Howie Craig"
+            ],
+            "m:[m u2 m',U]"
         ]
     ],
     "CJO": [
@@ -17855,18 +17855,18 @@
             "3Rw:[U',m' u' m]"
         ],
         [
-            "Rw' m' U' m d' m' U m d Rw",
-            [
-                "Howie Craig"
-            ],
-            "Rw':[m' U' m,d']"
-        ],
-        [
             "R' m' U' m d' m' U m d R",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "R':[m' U' m,d']"
+        ],
+        [
+            "Rw' m' U' m d' m' U m d Rw",
+            [
+                "Howie Craig"
+            ],
+            "Rw':[m' U' m,d']"
         ]
     ],
     "CJT": [
@@ -18079,18 +18079,18 @@
             "3Rw:[Uw m' Uw',l2]"
         ],
         [
-            "U l2 U' l e' l' U l e l U'",
-            [
-                "Howie Craig"
-            ],
-            "U l':[l' U' l,e']"
-        ],
-        [
             "R Uw m' Uw' l2 Uw m Uw' l2 R'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "R:[Uw m' Uw',l2]"
+        ],
+        [
+            "U l2 U' l e' l' U l e l U'",
+            [
+                "Howie Craig"
+            ],
+            "U l':[l' U' l,e']"
         ]
     ],
     "CKS": [
@@ -18113,18 +18113,18 @@
             "z Uw:[m' U m,u2]"
         ],
         [
-            "U l2 U' l' e' l U l' e l' U'",
-            [
-                "Howie Craig"
-            ],
-            "U l:[l U' l',e']"
-        ],
-        [
             "3Dw' l U' m2 U l' U' m2 U 3Dw",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Dw':[l,U' m2 U]"
+        ],
+        [
+            "U l2 U' l' e' l U l' e l' U'",
+            [
+                "Howie Craig"
+            ],
+            "U l:[l U' l',e']"
         ]
     ],
     "CKW": [
@@ -18147,18 +18147,18 @@
             "z Uw:[m' U' m,u2]"
         ],
         [
-            "U l2 U' l e l' U l e' l U'",
-            [
-                "Howie Craig"
-            ],
-            "U l':[l' U' l,e]"
-        ],
-        [
             "3Uw' D' U l' U' m2 U l U' m2 D 3Uw",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Uw' D':[U l' U',m2]"
+        ],
+        [
+            "U l2 U' l e l' U l e' l U'",
+            [
+                "Howie Craig"
+            ],
+            "U l':[l' U' l,e]"
         ]
     ],
     "CKY": [
@@ -18280,18 +18280,18 @@
             "y:[U r2 U',m]"
         ],
         [
-            "Dw l2 U' m' U l2 U' m U Dw'",
-            [
-                "Howie Craig"
-            ],
-            "Dw:[l2,U' m' U]"
-        ],
-        [
             "3Rw d m' U' m d' m' U m 3Rw'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Rw:[d,m' U' m]"
+        ],
+        [
+            "Dw l2 U' m' U l2 U' m U Dw'",
+            [
+                "Howie Craig"
+            ],
+            "Dw:[l2,U' m' U]"
         ]
     ],
     "CLN": [
@@ -18365,18 +18365,18 @@
             "y':[U' r' U,m']"
         ],
         [
-            "4Dw' l' U m U' l U m' y'",
-            [
-                "Howie Craig"
-            ],
-            "y:[U' l' U,m]"
-        ],
-        [
             "4Uw' U' r' U m' U' r U m 4Uw",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "4Uw':[U' r' U,m']"
+        ],
+        [
+            "4Dw' l' U m U' l U m' y'",
+            [
+                "Howie Craig"
+            ],
+            "y:[U' l' U,m]"
         ]
     ],
     "CLS": [
@@ -18405,18 +18405,18 @@
             "z:[m U' m',u']"
         ],
         [
-            "Dw l U' m' U l' U' m U Dw'",
-            [
-                "Howie Craig"
-            ],
-            "Dw:[l,U' m' U]"
-        ],
-        [
             "U' 4Rw' m' U' m d m' U m d' 4Rw U",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "U' 4Rw':[m' U' m,d]"
+        ],
+        [
+            "Dw l U' m' U l' U' m U Dw'",
+            [
+                "Howie Craig"
+            ],
+            "Dw:[l,U' m' U]"
         ]
     ],
     "CLY": [
@@ -18527,18 +18527,18 @@
             "y:[m,U r2 U']"
         ],
         [
-            "Dw U' m' U l2 U' m U l2 Dw'",
-            [
-                "Howie Craig"
-            ],
-            "Dw:[U' m' U,l2]"
-        ],
-        [
             "3Rw m' U' m d m' U m d' 3Rw'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Rw:[m' U' m,d]"
+        ],
+        [
+            "Dw U' m' U l2 U' m U l2 Dw'",
+            [
+                "Howie Craig"
+            ],
+            "Dw:[U' m' U,l2]"
         ]
     ],
     "CMN": [
@@ -18567,18 +18567,18 @@
             "3Rw2:[U',m' u' m]"
         ],
         [
-            "Dw U m U' l2 U m' U' l2 Dw'",
-            [
-                "Howie Craig"
-            ],
-            "Dw:[U m U',l2]"
-        ],
-        [
             "m2 U' m d' m' U m d m",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "m':[m' U' m,d']"
+        ],
+        [
+            "Dw U m U' l2 U m' U' l2 Dw'",
+            [
+                "Howie Craig"
+            ],
+            "Dw:[U m U',l2]"
         ]
     ],
     "CMQ": [
@@ -18752,18 +18752,18 @@
             "3Rw:[m' u2 m,U']"
         ],
         [
-            "m U m u2 m' U' m u2 m2",
-            [
-                "Howie Craig"
-            ],
-            "m:[U,m u2 m']"
-        ],
-        [
             "d2 m' U' m d2 m' U m",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "[d2,m' U' m]"
+        ],
+        [
+            "m U m u2 m' U' m u2 m2",
+            [
+                "Howie Craig"
+            ],
+            "m:[U,m u2 m']"
         ]
     ],
     "CNK": [
@@ -19043,18 +19043,18 @@
             "Rw2 U:[m u m',U2]"
         ],
         [
-            "R 4Dw' l' U m2 U' l U m2 y' R'",
-            [
-                "Howie Craig"
-            ],
-            "R y:[U' l' U,m2]"
-        ],
-        [
             "D m2 U' m d' m' U m d m D'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "D m':[m' U' m,d']"
+        ],
+        [
+            "R 4Dw' l' U m2 U' l U m2 y' R'",
+            [
+                "Howie Craig"
+            ],
+            "R y:[U' l' U,m2]"
         ]
     ],
     "COQ": [
@@ -19077,18 +19077,18 @@
             "y':[U' r' U,m2]"
         ],
         [
-            "4Dw' l' U m2 U' l U m2 y'",
-            [
-                "Howie Craig"
-            ],
-            "y:[U' l' U,m2]"
-        ],
-        [
             "r2 U2 r e r' U2 r e' r",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "r':[r' U2 r,e]"
+        ],
+        [
+            "4Dw' l' U m2 U' l U m2 y'",
+            [
+                "Howie Craig"
+            ],
+            "y:[U' l' U,m2]"
         ]
     ],
     "COS": [
@@ -19111,18 +19111,18 @@
             "y':[U' r U,m2]"
         ],
         [
-            "4Dw' l U m2 U' l' U m2 y'",
-            [
-                "Howie Craig"
-            ],
-            "y:[U' l U,m2]"
-        ],
-        [
             "r2 U2 r' e r U2 r' e' r'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "r:[r U2 r',e]"
+        ],
+        [
+            "4Dw' l U m2 U' l' U m2 y'",
+            [
+                "Howie Craig"
+            ],
+            "y:[U' l U,m2]"
         ]
     ],
     "COW": [
@@ -19189,18 +19189,18 @@
     ],
     "CPD": [
         [
-            "Rw2 u m' U m u2 m' U' m u Rw2",
-            [
-                "Howie Craig"
-            ],
-            "Rw2 u:[m' U m,u2]"
-        ],
-        [
             "R2 u m' U m u2 m' U' m u R2",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "R2 u:[m' U m,u2]"
+        ],
+        [
+            "Rw2 u m' U m u2 m' U' m u Rw2",
+            [
+                "Howie Craig"
+            ],
+            "Rw2 u:[m' U m,u2]"
         ]
     ],
     "CPE": [
@@ -19237,18 +19237,18 @@
             "3Rw2:[m u m',U]"
         ],
         [
-            "Dw' l2 U' m' U l2 U' m U Dw",
-            [
-                "Howie Craig"
-            ],
-            "Dw':[l2,U' m' U]"
-        ],
-        [
             "m d m U m' d' m U' m2",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "m:[d,m U m']"
+        ],
+        [
+            "Dw' l2 U' m' U l2 U' m U Dw",
+            [
+                "Howie Craig"
+            ],
+            "Dw':[l2,U' m' U]"
         ]
     ],
     "CPJ": [
@@ -19299,18 +19299,18 @@
             "3Rw2:[m' u' m,U']"
         ],
         [
-            "Dw l2 U m U' l2 U m' U' Dw'",
-            [
-                "Howie Craig"
-            ],
-            "Dw:[l2,U m U']"
-        ],
-        [
             "m' d' m' U' m d m' U m2",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "m':[d',m' U' m]"
+        ],
+        [
+            "Dw l2 U m U' l2 U m' U' Dw'",
+            [
+                "Howie Craig"
+            ],
+            "Dw:[l2,U m U']"
         ]
     ],
     "CPN": [
@@ -19333,18 +19333,18 @@
             "Rw2 U':[m u m',U2]"
         ],
         [
-            "R y m2 U' l' U m2 U' l 4Dw R'",
-            [
-                "Howie Craig"
-            ],
-            "R y:[m2,U' l' U]"
-        ],
-        [
             "D m' d' m' U' m d m' U m2 D'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "D m':[d',m' U' m]"
+        ],
+        [
+            "R y m2 U' l' U m2 U' l 4Dw R'",
+            [
+                "Howie Craig"
+            ],
+            "R y:[m2,U' l' U]"
         ]
     ],
     "CPQ": [
@@ -19390,18 +19390,18 @@
             "y' U':[r,U' m U]"
         ],
         [
-            "R' e' r U2 r' e2 r U2 r' e' R",
-            [
-                "Howie Craig"
-            ],
-            "R' e':[r U2 r',e2]"
-        ],
-        [
             "3Dw' l U' m' U l' U' m U 3Dw",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Dw':[l,U' m' U]"
+        ],
+        [
+            "R' e' r U2 r' e2 r U2 r' e' R",
+            [
+                "Howie Craig"
+            ],
+            "R' e':[r U2 r',e2]"
         ]
     ],
     "CPW": [
@@ -19424,18 +19424,18 @@
             "y U:[r',U m' U']"
         ],
         [
-            "R e r' U2 r e2 r' U2 r e R'",
-            [
-                "Howie Craig"
-            ],
-            "R e:[r' U2 r,e2]"
-        ],
-        [
             "4Uw U r' U m' U' r U m U2 4Uw'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "4Uw U:[r',U m' U']"
+        ],
+        [
+            "R e r' U2 r e2 r' U2 r e R'",
+            [
+                "Howie Craig"
+            ],
+            "R e:[r' U2 r,e2]"
         ]
     ],
     "CPY": [
@@ -19669,18 +19669,18 @@
             "F' U:[U r' U',m']"
         ],
         [
-            "U x' r2 U' m' U r2 U' m U x U'",
-            [
-                "Howie Craig"
-            ],
-            "U x':[r2,U' m' U]"
-        ],
-        [
             "U F' U r' U' m' U r U' m F U'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "U F':[U r' U',m']"
+        ],
+        [
+            "U x' r2 U' m' U r2 U' m U x U'",
+            [
+                "Howie Craig"
+            ],
+            "U x':[r2,U' m' U]"
         ]
     ],
     "CQZ": [
@@ -19702,18 +19702,18 @@
     ],
     "CRD": [
         [
-            "Rw u m' U m u2 m' U' m u Rw'",
-            [
-                "Howie Craig"
-            ],
-            "Rw u:[m' U m,u2]"
-        ],
-        [
             "R u m' U m u2 m' U' m u R'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "R u:[m' U m,u2]"
+        ],
+        [
+            "Rw u m' U m u2 m' U' m u Rw'",
+            [
+                "Howie Craig"
+            ],
+            "Rw u:[m' U m,u2]"
         ]
     ],
     "CRE": [
@@ -19745,18 +19745,18 @@
             "R:[u',m U' m']"
         ],
         [
-            "Rw u' m U' m' u m U m' Rw'",
-            [
-                "Howie Craig"
-            ],
-            "Rw:[u',m U' m']"
-        ],
-        [
             "U' m 3Uw' r' 3Uw m' 3Uw' r 3Uw U",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "U':[m,3Uw' r' 3Uw]"
+        ],
+        [
+            "Rw u' m U' m' u m U m' Rw'",
+            [
+                "Howie Craig"
+            ],
+            "Rw:[u',m U' m']"
         ]
     ],
     "CRI": [
@@ -19785,18 +19785,18 @@
             "3Uw':[m',U' r' U]"
         ],
         [
-            "Rw' d' m' U' m d m' U m Rw",
-            [
-                "Howie Craig"
-            ],
-            "Rw':[d',m' U' m]"
-        ],
-        [
             "R' d' m' U' m d m' U m R",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "R':[d',m' U' m]"
+        ],
+        [
+            "Rw' d' m' U' m d m' U m Rw",
+            [
+                "Howie Craig"
+            ],
+            "Rw':[d',m' U' m]"
         ]
     ],
     "CRK": [
@@ -19825,18 +19825,18 @@
             "y':[m',U' r' U]"
         ],
         [
-            "y m U' l' U m' U' l 4Dw",
-            [
-                "Howie Craig"
-            ],
-            "y:[m,U' l' U]"
-        ],
-        [
             "4Uw' m' U' r' U m U' r U 4Uw",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "4Uw':[m',U' r' U]"
+        ],
+        [
+            "y m U' l' U m' U' l 4Dw",
+            [
+                "Howie Craig"
+            ],
+            "y:[m,U' l' U]"
         ]
     ],
     "CRM": [
@@ -19882,18 +19882,18 @@
             "y':[m2,U' r' U]"
         ],
         [
-            "y m2 U' l' U m2 U' l 4Dw",
-            [
-                "Howie Craig"
-            ],
-            "y:[m2,U' l' U]"
-        ],
-        [
             "r' e r' U2 r e' r' U2 r2",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "r':[e,r' U2 r]"
+        ],
+        [
+            "y m2 U' l' U m2 U' l 4Dw",
+            [
+                "Howie Craig"
+            ],
+            "y:[m2,U' l' U]"
         ]
     ],
     "CRQ": [
@@ -19922,18 +19922,18 @@
             "3Rw:[l',Uw m' Uw']"
         ],
         [
-            "U e' l' U' l e l' U l U'",
-            [
-                "Howie Craig"
-            ],
-            "U:[e',l' U' l]"
-        ],
-        [
             "R l' Uw m' Uw' l Uw m Uw' R'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "R:[l',Uw m' Uw']"
+        ],
+        [
+            "U e' l' U' l e l' U l U'",
+            [
+                "Howie Craig"
+            ],
+            "U:[e',l' U' l]"
         ]
     ],
     "CRT": [
@@ -19945,18 +19945,18 @@
             "R y':[U' r U,m]"
         ],
         [
-            "y' x' U m' U' r2 U m U' r2 x y",
-            [
-                "Howie Craig"
-            ],
-            "y' x':[U m' U',r2]"
-        ],
-        [
             "R 4Dw' l U m' U' l' U m y' R'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "R y:[U' l U,m']"
+        ],
+        [
+            "y' x' U m' U' r2 U m U' r2 x y",
+            [
+                "Howie Craig"
+            ],
+            "y' x':[U m' U',r2]"
         ]
     ],
     "CRW": [
@@ -20163,18 +20163,18 @@
             "3Rw:[Uw m' Uw',l']"
         ],
         [
-            "U l' U' l e' l' U l e U'",
-            [
-                "Howie Craig"
-            ],
-            "U:[l' U' l,e']"
-        ],
-        [
             "R Uw m' Uw' l' Uw m Uw' l R'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "R:[Uw m' Uw',l']"
+        ],
+        [
+            "U l' U' l e' l' U l e U'",
+            [
+                "Howie Craig"
+            ],
+            "U:[l' U' l,e']"
         ]
     ],
     "CST": [
@@ -20186,18 +20186,18 @@
             "z U:[u,m' U m]"
         ],
         [
-            "U l' U' l' e' l U l' e l2 U'",
-            [
-                "Howie Craig"
-            ],
-            "U l':[U',l' e' l]"
-        ],
-        [
             "L Dw U' m' U l' U' m U l Dw' L'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "L Dw:[U' m' U,l']"
+        ],
+        [
+            "U l' U' l' e' l U l' e l2 U'",
+            [
+                "Howie Craig"
+            ],
+            "U l':[U',l' e' l]"
         ]
     ],
     "CSW": [
@@ -20219,18 +20219,18 @@
             "Uw':[l' U l,e]"
         ],
         [
-            "U l' U' l e l' U l e' U'",
-            [
-                "Howie Craig"
-            ],
-            "U:[l' U' l,e]"
-        ],
-        [
             "U' l' U l e l' U' l e' U",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "U':[l' U l,e]"
+        ],
+        [
+            "U l' U' l e l' U l e' U'",
+            [
+                "Howie Craig"
+            ],
+            "U:[l' U' l,e]"
         ]
     ],
     "CSY": [
@@ -20259,18 +20259,18 @@
             "3Rw':[Uw m' Uw',l']"
         ],
         [
-            "U l' U' l' e l U l' e' l2 U'",
-            [
-                "Howie Craig"
-            ],
-            "U l':[U',l' e l]"
-        ],
-        [
             "R' Uw m' Uw' l' Uw m Uw' l R",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "R':[Uw m' Uw',l']"
+        ],
+        [
+            "U l' U' l' e l U l' e' l2 U'",
+            [
+                "Howie Craig"
+            ],
+            "U l':[U',l' e l]"
         ]
     ],
     "CTE": [
@@ -20347,18 +20347,18 @@
             "z Uw':[m' U' m,u2]"
         ],
         [
-            "U l e' l U' l' e l U l2 U'",
-            [
-                "Howie Craig"
-            ],
-            "U l:[e',l U' l']"
-        ],
-        [
             "3Dw' U' m2 U l U' m2 U l' 3Dw",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Dw':[U' m2 U,l]"
+        ],
+        [
+            "U l e' l U' l' e l U l2 U'",
+            [
+                "Howie Craig"
+            ],
+            "U l:[e',l U' l']"
         ]
     ],
     "CTM": [
@@ -20398,18 +20398,18 @@
             "y':[m2,U' r U]"
         ],
         [
-            "y m2 U' l U m2 U' l' 4Dw",
-            [
-                "Howie Craig"
-            ],
-            "y:[m2,U' l U]"
-        ],
-        [
             "r e r U2 r' e' r U2 r2",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "r:[e,r U2 r']"
+        ],
+        [
+            "y m2 U' l U m2 U' l' 4Dw",
+            [
+                "Howie Craig"
+            ],
+            "y:[m2,U' l U]"
         ]
     ],
     "CTP": [
@@ -20421,18 +20421,18 @@
             "y' U':[U' m U,r]"
         ],
         [
-            "R' e r U2 r' e2 r U2 r' e R",
-            [
-                "Howie Craig"
-            ],
-            "R' e:[r U2 r',e2]"
-        ],
-        [
             "3Dw' U' m' U l U' m U l' 3Dw",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Dw':[U' m' U,l]"
+        ],
+        [
+            "R' e r U2 r' e2 r U2 r' e R",
+            [
+                "Howie Craig"
+            ],
+            "R' e:[r U2 r',e2]"
         ]
     ],
     "CTQ": [
@@ -20455,18 +20455,18 @@
             "R y':[m,U' r U]"
         ],
         [
-            "y' x' r2 U m' U' r2 U m U' x y",
-            [
-                "Howie Craig"
-            ],
-            "y' x':[r2,U m' U']"
-        ],
-        [
             "R y m' U' l U m U' l' 4Dw R'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "R y:[m',U' l U]"
+        ],
+        [
+            "y' x' r2 U m' U' r2 U m U' x y",
+            [
+                "Howie Craig"
+            ],
+            "y' x':[r2,U m' U']"
         ]
     ],
     "CTS": [
@@ -20478,18 +20478,18 @@
             "z U:[m' U m,u]"
         ],
         [
-            "U l2 e' l U' l' e l U l U'",
-            [
-                "Howie Craig"
-            ],
-            "U l':[l' e' l,U']"
-        ],
-        [
             "L Dw l' U' m' U l U' m U Dw' L'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "L Dw:[l',U' m' U]"
+        ],
+        [
+            "U l2 e' l U' l' e l U l U'",
+            [
+                "Howie Craig"
+            ],
+            "U l':[l' e' l,U']"
         ]
     ],
     "CTW": [
@@ -20535,18 +20535,18 @@
             "3Uw:[e2,r U r']"
         ],
         [
-            "e r U2 r' e2 r U2 r' e",
-            [
-                "Howie Craig"
-            ],
-            "e:[r U2 r',e2]"
-        ],
-        [
             "3Uw' r U' r' e2 r U r' e2 3Uw",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Uw':[r U' r',e2]"
+        ],
+        [
+            "e r U2 r' e2 r U2 r' e",
+            [
+                "Howie Craig"
+            ],
+            "e:[r U2 r',e2]"
         ]
     ],
     "CWD": [
@@ -20558,18 +20558,18 @@
             "z:[u',m U m']"
         ],
         [
-            "u' U m' U' l U m U' l' u",
-            [
-                "Howie Craig"
-            ],
-            "u':[U m' U',l]"
-        ],
-        [
             "u U' m U l U' m' U l' u'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "u:[U' m U,l]"
+        ],
+        [
+            "u' U m' U' l U m U' l' u",
+            [
+                "Howie Craig"
+            ],
+            "u':[U m' U',l]"
         ]
     ],
     "CWE": [
@@ -20639,18 +20639,18 @@
             "z:[u',m U' m']"
         ],
         [
-            "Dw U' m' U l U' m U l' Dw'",
-            [
-                "Howie Craig"
-            ],
-            "Dw:[U' m' U,l]"
-        ],
-        [
             "U' 4Rw' d m' U' m d' m' U m 4Rw U",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "U' 4Rw':[d,m' U' m]"
+        ],
+        [
+            "Dw U' m' U l U' m U l' Dw'",
+            [
+                "Howie Craig"
+            ],
+            "Dw:[U' m' U,l]"
         ]
     ],
     "CWM": [
@@ -20773,18 +20773,18 @@
             "3Rw':[Uw m' Uw',l]"
         ],
         [
-            "U l U' l' e l U l' e' U'",
-            [
-                "Howie Craig"
-            ],
-            "U:[l U' l',e]"
-        ],
-        [
             "R' Uw m' Uw' l Uw m Uw' l' R",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "R':[Uw m' Uw',l]"
+        ],
+        [
+            "U l U' l' e l U l' e' U'",
+            [
+                "Howie Craig"
+            ],
+            "U:[l U' l',e]"
         ]
     ],
     "CXE": [
@@ -20861,18 +20861,18 @@
             "z Uw:[u2,m' U' m]"
         ],
         [
-            "U l' e l' U' l e' l' U l2 U'",
-            [
-                "Howie Craig"
-            ],
-            "U l':[e,l' U' l]"
-        ],
-        [
             "3Uw' D' m2 U l' U' m2 U l U' D 3Uw",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Uw' D':[m2,U l' U']"
+        ],
+        [
+            "U l' e l' U' l e' l' U l2 U'",
+            [
+                "Howie Craig"
+            ],
+            "U l':[e,l' U' l]"
         ]
     ],
     "CXM": [
@@ -20929,18 +20929,18 @@
             "y U:[U m' U',r']"
         ],
         [
-            "R e' r' U2 r e2 r' U2 r e' R'",
-            [
-                "Howie Craig"
-            ],
-            "R e':[r' U2 r,e2]"
-        ],
-        [
             "4Uw U2 m' U' r' U m U' r U' 4Uw'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "4Uw U:[U m' U',r']"
+        ],
+        [
+            "R e' r' U2 r e2 r' U2 r e' R'",
+            [
+                "Howie Craig"
+            ],
+            "R e':[r' U2 r,e2]"
         ]
     ],
     "CXQ": [
@@ -20986,18 +20986,18 @@
             "Uw':[e,l' U l]"
         ],
         [
-            "U e l' U' l e' l' U l U'",
-            [
-                "Howie Craig"
-            ],
-            "U:[e,l' U' l]"
-        ],
-        [
             "U' e l' U l e' l' U' l U",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "U':[e,l' U l]"
+        ],
+        [
+            "U e l' U' l e' l' U l U'",
+            [
+                "Howie Craig"
+            ],
+            "U:[e,l' U' l]"
         ]
     ],
     "CXW": [
@@ -21478,18 +21478,18 @@
             "3Rw':[l',Uw m' Uw']"
         ],
         [
-            "U l2 e l U' l' e' l U l U'",
-            [
-                "Howie Craig"
-            ],
-            "U l':[l' e l,U']"
-        ],
-        [
             "R' l' Uw m' Uw' l Uw m Uw' R",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "R':[l',Uw m' Uw']"
+        ],
+        [
+            "U l2 e l U' l' e' l U l U'",
+            [
+                "Howie Craig"
+            ],
+            "U l':[l' e l,U']"
         ]
     ],
     "CZT": [
@@ -21501,18 +21501,18 @@
             "3Uw:[r U r',e2]"
         ],
         [
-            "e' r U2 r' e2 r U2 r' e'",
-            [
-                "Howie Craig"
-            ],
-            "e':[r U2 r',e2]"
-        ],
-        [
             "3Uw' e2 r U' r' e2 r U r' 3Uw",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Uw':[e2,r U' r']"
+        ],
+        [
+            "e' r U2 r' e2 r U2 r' e'",
+            [
+                "Howie Craig"
+            ],
+            "e':[r U2 r',e2]"
         ]
     ],
     "CZW": [
@@ -21524,18 +21524,18 @@
             "3Rw':[l,Uw m' Uw']"
         ],
         [
-            "U e l U' l' e' l U l' U'",
-            [
-                "Howie Craig"
-            ],
-            "U:[e,l U' l']"
-        ],
-        [
             "R' l Uw m' Uw' l' Uw m Uw' R",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "R':[l,Uw m' Uw']"
+        ],
+        [
+            "U e l U' l' e' l U l' U'",
+            [
+                "Howie Craig"
+            ],
+            "U:[e,l U' l']"
         ]
     ],
     "CZX": [
@@ -21814,18 +21814,18 @@
     ],
     "DEY": [
         [
-            "u' m' Uw r' Uw' m Uw r U'",
-            [
-                "Howie Craig"
-            ],
-            "U:[Uw' m' Uw,r']"
-        ],
-        [
             "Uw U m U' r' U m' U' r Uw'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "Uw:[U m U',r']"
+        ],
+        [
+            "u' m' Uw r' Uw' m Uw r U'",
+            [
+                "Howie Craig"
+            ],
+            "U:[Uw' m' Uw,r']"
         ],
         [
             "3Rw' u' m' U' m u m' U Rw",
@@ -21836,6 +21836,13 @@
         ]
     ],
     "DEZ": [
+        [
+            "3Uw U m U' r U m' U' r' 3Uw'",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "3Uw:[U m U',r]"
+        ],
         [
             "4Dw m' U' l U m U' l' y",
             [
@@ -21849,13 +21856,6 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "L y':[e2,r U2 r']"
-        ],
-        [
-            "3Uw U m U' r U m' U' r' 3Uw'",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "3Uw:[U m U',r]"
         ],
         [
             "Rw' Uw m' U' m u2 m' U m u2 Uw' Rw",
@@ -22125,18 +22125,18 @@
     ],
     "DYE": [
         [
-            "U r' Uw' m' Uw r Uw' m u",
-            [
-                "Howie Craig"
-            ],
-            "U:[r',Uw' m' Uw]"
-        ],
-        [
             "Uw r' U m U' r U m' U' Uw'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "Uw:[r',U m U']"
+        ],
+        [
+            "U r' Uw' m' Uw r Uw' m u",
+            [
+                "Howie Craig"
+            ],
+            "U:[r',Uw' m' Uw]"
         ],
         [
             "Rw' U' m u' m' U m u 3Rw",
@@ -22147,6 +22147,13 @@
         ]
     ],
     "DZE": [
+        [
+            "3Uw r U m U' r' U m' U' 3Uw'",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "3Uw:[r,U m U']"
+        ],
         [
             "y' l U m' U' l' U m 4Dw'",
             [
@@ -22160,13 +22167,6 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "L y':[r U2 r',e2]"
-        ],
-        [
-            "3Uw r U m U' r' U m' U' 3Uw'",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "3Uw:[r,U m U']"
         ],
         [
             "Rw' Uw u2 m' U' m u2 m' U m Uw' Rw",
@@ -22311,6 +22311,13 @@
     ],
     "EFR": [
         [
+            "U2 3Uw' r' 3Uw m 3Uw' r 3Uw m' U2",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "U2:[3Uw' r' 3Uw,m]"
+        ],
+        [
             "Rw U' m U' m' u' m U m' Uw Rw'",
             [
                 "Howie Craig"
@@ -22323,13 +22330,6 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "R y:[u,m' U' m]"
-        ],
-        [
-            "U2 3Uw' r' 3Uw m 3Uw' r 3Uw m' U2",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "U2:[3Uw' r' 3Uw,m]"
         ],
         [
             "U' m l e' l' U l e l' U' m' U",
@@ -22354,18 +22354,18 @@
     ],
     "EFT": [
         [
-            "Lw' U m U m' u m U' m' Uw' Lw",
-            [
-                "Howie Craig"
-            ],
-            "Lw' U:[m U m',u]"
-        ],
-        [
             "U 4Rw' e r U' r' e' r U r' 4Rw U'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "U 4Rw':[e,r U' r']"
+        ],
+        [
+            "Lw' U m U m' u m U' m' Uw' Lw",
+            [
+                "Howie Craig"
+            ],
+            "Lw' U:[m U m',u]"
         ],
         [
             "U m r' e r U' r' e' r U m' U'",
@@ -22376,6 +22376,13 @@
         ]
     ],
     "EFX": [
+        [
+            "4Lw U u' m' U m u m' U' m U' 4Lw'",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "4Lw U:[u',m' U m]"
+        ],
         [
             "Lw U m U m' u m U' m' Uw' Lw'",
             [
@@ -22389,13 +22396,6 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "U2 z:[e,r' U r]"
-        ],
-        [
-            "4Lw U u' m' U m u m' U' m U' 4Lw'",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "4Lw U:[u',m' U m]"
         ],
         [
             "Lw Uw' u' m' U m u m' U' m Uw Lw'",
@@ -22416,6 +22416,13 @@
     ],
     "EFZ": [
         [
+            "3Rw' Uw m' U m u' m' U' m U' 3Rw",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "3Rw' U:[u,m' U m]"
+        ],
+        [
             "Rw' U' m U' m' u' m U m' Uw Rw",
             [
                 "Howie Craig"
@@ -22428,13 +22435,6 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "x' U:[u,m' U m]"
-        ],
-        [
-            "3Rw' Uw m' U m u' m' U' m U' 3Rw",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "3Rw' U:[u,m' U m]"
         ],
         [
             "U m r' e' r U' r' e r U m' U'",
@@ -22513,6 +22513,13 @@
     ],
     "EIP": [
         [
+            "R' 4Uw r 4Uw' m2 4Uw r' 4Uw' m2 R",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "R':[4Uw r 4Uw',m2]"
+        ],
+        [
             "Dw m U r2 U' m' U r2 U' Dw'",
             [
                 "Howie Craig"
@@ -22525,13 +22532,6 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "y x:[r' U' r,e2]"
-        ],
-        [
-            "R' 4Uw r 4Uw' m2 4Uw r' 4Uw' m2 R",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "R':[4Uw r 4Uw',m2]"
         ],
         [
             "Rw' 3Uw r 3Uw' m2 3Uw r' 3Uw' m2 Rw",
@@ -23331,6 +23331,13 @@
     ],
     "ELP": [
         [
+            "U Dw' d2 m' U m d2 m' U' m Dw U'",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "U Dw':[d2,m' U m]"
+        ],
+        [
             "y m U' m u2 m' U m u2 m2 y'",
             [
                 "Howie Craig"
@@ -23343,13 +23350,6 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "y':[m' U' m,d2]"
-        ],
-        [
-            "U Dw' d2 m' U m d2 m' U' m Dw U'",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "U Dw':[d2,m' U m]"
         ],
         [
             "y d2 m' U m d2 m' U' m y'",
@@ -23654,6 +23654,13 @@
     ],
     "EMR": [
         [
+            "U2 3Uw' r' 3Uw m2 3Uw' r 3Uw m2 U2",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "U2:[3Uw' r' 3Uw,m2]"
+        ],
+        [
             "D l2 U' l e' l' U l e l D'",
             [
                 "Howie Craig"
@@ -23666,13 +23673,6 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "R y:[U' m' U,r2]"
-        ],
-        [
-            "U2 3Uw' r' 3Uw m2 3Uw' r 3Uw m2 U2",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "U2:[3Uw' r' 3Uw,m2]"
         ],
         [
             "D' r2 U r e r' U' r e' r D",
@@ -23750,18 +23750,18 @@
             "3Uw':[l',U' m2 U]"
         ],
         [
-            "D l2 U' l e l' U l e' l D'",
-            [
-                "Howie Craig"
-            ],
-            "D l':[l' U' l,e]"
-        ],
-        [
             "4Uw' l' U' m2 U l U' m2 U 4Uw",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "4Uw':[l',U' m2 U]"
+        ],
+        [
+            "D l2 U' l e l' U l e' l D'",
+            [
+                "Howie Craig"
+            ],
+            "D l':[l' U' l,e]"
         ],
         [
             "D' Rw' r' U r e' r' U' r e Rw D",
@@ -23772,6 +23772,13 @@
         ]
     ],
     "EMY": [
+        [
+            "U r' U m2 U' r U m2 U2",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "U:[r',U m2 U']"
+        ],
         [
             "D2 U r' U' m2 U r U' m2 D2",
             [
@@ -23787,13 +23794,6 @@
             "x':[u2,m U m']"
         ],
         [
-            "U r' U m2 U' r U m2 U2",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "U:[r',U m2 U']"
-        ],
-        [
             "Rw' U' m u2 m' U m u2 3Rw",
             [
                 "Hana Davila"
@@ -23802,6 +23802,13 @@
         ]
     ],
     "EMZ": [
+        [
+            "3Uw r U m2 U' r' U m2 U' 3Uw'",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "3Uw:[r,U m2 U']"
+        ],
         [
             "D l2 U' l' e l U l' e' l' D'",
             [
@@ -23815,13 +23822,6 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "R' y:[U' m' U,r2]"
-        ],
-        [
-            "3Uw r U m2 U' r' U m2 U' 3Uw'",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "3Uw:[r,U m2 U']"
         ],
         [
             "D' r2 U r' e' r U' r' e r' D",
@@ -23939,18 +23939,18 @@
             "U:[m U' m',d]"
         ],
         [
-            "y d' m' U m d m' U' m y'",
-            [
-                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
-            ],
-            "y:[d',m' U m]"
-        ],
-        [
             "U' m U m' d m U' m' d' U",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "U':[m U m',d]"
+        ],
+        [
+            "y d' m' U m d m' U' m y'",
+            [
+                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
+            ],
+            "y:[d',m' U m]"
         ]
     ],
     "ENQ": [
@@ -24214,18 +24214,18 @@
     ],
     "EOW": [
         [
-            "D' U' l U m2 U' l' U m2 D",
-            [
-                "Howie Craig"
-            ],
-            "D':[U' l U,m2]"
-        ],
-        [
             "r2 U r' e2 r U' r' e2 r'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "r:[r U r',e2]"
+        ],
+        [
+            "D' U' l U m2 U' l' U m2 D",
+            [
+                "Howie Craig"
+            ],
+            "D':[U' l U,m2]"
         ],
         [
             "Rw r U r' e2 r U' r' e2 Rw'",
@@ -24317,6 +24317,13 @@
     ],
     "EPI": [
         [
+            "R' m2 4Uw r 4Uw' m2 4Uw r' 4Uw' R",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "R':[m2,4Uw r 4Uw']"
+        ],
+        [
             "Dw U r2 U' m U r2 U' m' Dw'",
             [
                 "Howie Craig"
@@ -24329,13 +24336,6 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "y x:[e2,r' U' r]"
-        ],
-        [
-            "R' m2 4Uw r 4Uw' m2 4Uw r' 4Uw' R",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "R':[m2,4Uw r 4Uw']"
         ],
         [
             "Rw' m2 3Uw r 3Uw' m2 3Uw r' 3Uw' Rw",
@@ -24378,6 +24378,13 @@
     ],
     "EPL": [
         [
+            "U Dw' m' U m d2 m' U' m d2 Dw U'",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "U Dw':[m' U m,d2]"
+        ],
+        [
             "y m2 u2 m' U' m u2 m' U m' y'",
             [
                 "Howie Craig"
@@ -24390,13 +24397,6 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "y':[d2,m' U' m]"
-        ],
-        [
-            "U Dw' m' U m d2 m' U' m d2 Dw U'",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "U Dw':[m' U m,d2]"
         ],
         [
             "y m' U m d2 m' U' m d2 y'",
@@ -24440,18 +24440,18 @@
             "U:[d,m U' m']"
         ],
         [
-            "y m' U m d' m' U' m d y'",
-            [
-                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
-            ],
-            "y:[m' U m,d']"
-        ],
-        [
             "U' d m U m' d' m U' m' U",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "U':[d,m U m']"
+        ],
+        [
+            "y m' U m d' m' U' m d y'",
+            [
+                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
+            ],
+            "y:[m' U m,d']"
         ]
     ],
     "EPO": [
@@ -24542,6 +24542,13 @@
     ],
     "EPW": [
         [
+            "U' Dw' l U' m' U l' U' m U2 Dw",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "U' Dw':[l,U' m' U]"
+        ],
+        [
             "Dw U' l U m U' l' U m' Dw'",
             [
                 "Howie Craig"
@@ -24554,13 +24561,6 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "R':[e,l U' l']"
-        ],
-        [
-            "U' Dw' l U' m' U l' U' m U2 Dw",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "U' Dw':[l,U' m' U]"
         ],
         [
             "Rw' e l U' l' e' l U l' Rw",
@@ -24885,6 +24885,13 @@
     ],
     "ERF": [
         [
+            "U2 m 3Uw' r' 3Uw m' 3Uw' r 3Uw U2",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "U2:[m,3Uw' r' 3Uw]"
+        ],
+        [
             "Rw Uw' m U' m' u m U m' U Rw'",
             [
                 "Howie Craig"
@@ -24897,13 +24904,6 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "R y:[m' U' m,u]"
-        ],
-        [
-            "U2 m 3Uw' r' 3Uw m' 3Uw' r 3Uw U2",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "U2:[m,3Uw' r' 3Uw]"
         ],
         [
             "U' m U l e' l' U' l e l' m' U",
@@ -25012,6 +25012,13 @@
     ],
     "ERM": [
         [
+            "U2 m2 3Uw' r' 3Uw m2 3Uw' r 3Uw U2",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "U2:[m2,3Uw' r' 3Uw]"
+        ],
+        [
             "D l' e' l' U' l e l' U l2 D'",
             [
                 "Howie Craig"
@@ -25024,13 +25031,6 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "R y:[r2,U' m' U]"
-        ],
-        [
-            "U2 m2 3Uw' r' 3Uw m2 3Uw' r 3Uw U2",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "U2:[m2,3Uw' r' 3Uw]"
         ],
         [
             "D' r' e r' U r e' r' U' r2 D",
@@ -25116,6 +25116,13 @@
     ],
     "ERT": [
         [
+            "R' 4Dw U r U' m U r' U' m' 4Dw' R",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "R' 4Dw:[U r U',m]"
+        ],
+        [
             "4Dw' x' l2 U m' U' l2 U m U' x 4Dw",
             [
                 "Howie Craig"
@@ -25128,13 +25135,6 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "R2 y':[e2,r U2 r']"
-        ],
-        [
-            "R' 4Dw U r U' m U r' U' m' 4Dw' R",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "R' 4Dw:[U r U',m]"
         ],
         [
             "Rw2 e' r U r' e2 r U' r' e' Rw2",
@@ -25461,18 +25461,18 @@
     ],
     "ETF": [
         [
-            "Lw' Uw m U m' u' m U' m' U' Lw",
-            [
-                "Howie Craig"
-            ],
-            "Lw' U:[u,m U m']"
-        ],
-        [
             "U 4Rw' r U' r' e r U r' e' 4Rw U'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "U 4Rw':[r U' r',e]"
+        ],
+        [
+            "Lw' Uw m U m' u' m U' m' U' Lw",
+            [
+                "Howie Craig"
+            ],
+            "Lw' U:[u,m U m']"
         ],
         [
             "U m U' r' e r U r' e' r m' U'",
@@ -25628,6 +25628,13 @@
     ],
     "ETR": [
         [
+            "R' 4Dw m U r U' m' U r' U' 4Dw' R",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "R' 4Dw:[m,U r U']"
+        ],
+        [
             "4Dw' x' U m' U' l2 U m U' l2 x 4Dw",
             [
                 "Howie Craig"
@@ -25640,13 +25647,6 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "R2 y':[r U2 r',e2]"
-        ],
-        [
-            "R' 4Dw m U r U' m' U r' U' 4Dw' R",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "R' 4Dw:[m,U r U']"
         ],
         [
             "Rw2 e r U r' e2 r U' r' e Rw2",
@@ -25833,18 +25833,18 @@
     ],
     "EWO": [
         [
-            "D' m2 U' l U m2 U' l' U D",
-            [
-                "Howie Craig"
-            ],
-            "D':[m2,U' l U]"
-        ],
-        [
             "r e2 r U r' e2 r U' r2",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "r:[e2,r U r']"
+        ],
+        [
+            "D' m2 U' l U m2 U' l' U D",
+            [
+                "Howie Craig"
+            ],
+            "D':[m2,U' l U]"
         ],
         [
             "Rw e2 r U r' e2 r U' r' Rw'",
@@ -25855,6 +25855,13 @@
         ]
     ],
     "EWP": [
+        [
+            "Dw' U2 m' U l U' m U l' Dw U",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "Dw' U':[U' m' U,l]"
+        ],
         [
             "Dw m U' l U m' U' l' U Dw'",
             [
@@ -25868,13 +25875,6 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "R':[l U' l',e]"
-        ],
-        [
-            "Dw' U2 m' U l U' m U l' Dw U",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "Dw' U':[U' m' U,l]"
         ],
         [
             "Rw' l U' l' e l U l' e' Rw",
@@ -25994,6 +25994,13 @@
     ],
     "EXF": [
         [
+            "4Lw U m' U m u' m' U' m u U' 4Lw'",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "4Lw U:[m' U m,u']"
+        ],
+        [
             "Lw Uw m U m' u' m U' m' U' Lw'",
             [
                 "Howie Craig"
@@ -26006,13 +26013,6 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "U2 z:[r' U r,e]"
-        ],
-        [
-            "4Lw U m' U m u' m' U' m u U' 4Lw'",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "4Lw U:[m' U m,u']"
         ],
         [
             "Lw Uw' m' U m u' m' U' m u Uw Lw'",
@@ -26113,18 +26113,18 @@
             "3Uw':[U' m2 U,l']"
         ],
         [
-            "D l' e l' U' l e' l' U l2 D'",
-            [
-                "Howie Craig"
-            ],
-            "D l':[e,l' U' l]"
-        ],
-        [
             "4Uw' U' m2 U l' U' m2 U l 4Uw",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "4Uw':[U' m2 U,l']"
+        ],
+        [
+            "D l' e l' U' l e' l' U l2 D'",
+            [
+                "Howie Craig"
+            ],
+            "D l':[e,l' U' l]"
         ],
         [
             "D' Rw' e' r' U r e r' U' r Rw D",
@@ -26294,6 +26294,13 @@
     ],
     "EXZ": [
         [
+            "R 4Dw m U' l' U m' U' l y R'",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "R 4Dw:[m,U' l' U]"
+        ],
+        [
             "4Dw' x' U' m' U r2 U' m U r2 x 4Dw",
             [
                 "Howie Craig"
@@ -26306,13 +26313,6 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "R2 y':[e2,r' U2 r]"
-        ],
-        [
-            "R 4Dw m U' l' U m' U' l y R'",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "R 4Dw:[m,U' l' U]"
         ],
         [
             "R2 e l' U' l e2 l' U l e R2",
@@ -26400,6 +26400,13 @@
     ],
     "EYM": [
         [
+            "U2 m2 U' r' U m2 U' r U'",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "U:[U m2 U',r']"
+        ],
+        [
             "D2 m2 U r' U' m2 U r U' D2",
             [
                 "Howie Craig"
@@ -26412,13 +26419,6 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "x':[m U m',u2]"
-        ],
-        [
-            "U2 m2 U' r' U m2 U' r U'",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "U:[U m2 U',r']"
         ],
         [
             "3Rw' u2 m' U' m u2 m' U Rw",
@@ -26605,6 +26605,13 @@
     ],
     "EZF": [
         [
+            "3Rw' U m' U m u m' U' m Uw' 3Rw",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "3Rw' U:[m' U m,u]"
+        ],
+        [
             "Rw' Uw' m U' m' u m U m' U Rw",
             [
                 "Howie Craig"
@@ -26617,13 +26624,6 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "x' U:[m' U m,u]"
-        ],
-        [
-            "3Rw' U m' U m u m' U' m Uw' 3Rw",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "3Rw' U:[m' U m,u]"
         ],
         [
             "U m U' r' e' r U r' e r m' U'",
@@ -26734,6 +26734,13 @@
     ],
     "EZM": [
         [
+            "3Uw U m2 U' r U m2 U' r' 3Uw'",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "3Uw:[U m2 U',r]"
+        ],
+        [
             "D l e l U' l' e' l U l2 D'",
             [
                 "Howie Craig"
@@ -26746,13 +26753,6 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "R' y:[r2,U' m' U]"
-        ],
-        [
-            "3Uw U m2 U' r U m2 U' r' 3Uw'",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "3Uw:[U m2 U',r]"
         ],
         [
             "D' r e' r U r' e r U' r2 D",
@@ -26875,6 +26875,13 @@
     ],
     "EZX": [
         [
+            "R y' l' U m U' l U m' 4Dw' R'",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "R 4Dw:[U' l' U,m]"
+        ],
+        [
             "4Dw' x' r2 U' m' U r2 U' m U x 4Dw",
             [
                 "Howie Craig"
@@ -26887,13 +26894,6 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "R2 y':[r' U2 r,e2]"
-        ],
-        [
-            "R y' l' U m U' l U m' 4Dw' R'",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "R 4Dw:[U' l' U,m]"
         ],
         [
             "R2 e' l' U' l e2 l' U l e' R2",
@@ -27956,18 +27956,18 @@
             "F2:[m' U m,d2]"
         ],
         [
-            "x' m2 U r U' m2 U r' U' x",
-            [
-                "Howie Craig"
-            ],
-            "x':[m2,U r U']"
-        ],
-        [
             "F U' m U r U' m' U r' F'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "F:[U' m U,r]"
+        ],
+        [
+            "x' m2 U r U' m2 U r' U' x",
+            [
+                "Howie Craig"
+            ],
+            "x':[m2,U r U']"
         ]
     ],
     "GBO": [
@@ -28613,18 +28613,18 @@
             "F2:[u',m' U' m]"
         ],
         [
-            "m2 u m U m' u' m U' m",
-            [
-                "Howie Craig"
-            ],
-            "m':[m' u m,U]"
-        ],
-        [
             "3Lw' U' r e' r' U r e 4Lw",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Lw':[U',r e' r']"
+        ],
+        [
+            "m2 u m U m' u' m U' m",
+            [
+                "Howie Craig"
+            ],
+            "m':[m' u m,U]"
         ]
     ],
     "GDK": [
@@ -28653,18 +28653,18 @@
             "D2 m':[u',m' U' m]"
         ],
         [
-            "D' r2 Uw' m' Uw r2 Uw' m Uw D",
-            [
-                "Howie Craig"
-            ],
-            "D':[r2,Uw' m' Uw]"
-        ],
-        [
             "m u m U m' u' m U' m2",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "m:[u,m U m']"
+        ],
+        [
+            "D' r2 Uw' m' Uw r2 Uw' m Uw D",
+            [
+                "Howie Craig"
+            ],
+            "D':[r2,Uw' m' Uw]"
         ]
     ],
     "GDN": [
@@ -28686,34 +28686,34 @@
             "D' m':[u',m' U' m]"
         ],
         [
-            "r2 Uw' m' Uw r2 Uw' m Uw",
-            [
-                "Howie Craig"
-            ],
-            "[r2,Uw' m' Uw]"
-        ],
-        [
             "u' r2 U' m' U r2 U' m Uw",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "u':[r2,U' m' U]"
-        ]
-    ],
-    "GDP": [
+        ],
         [
-            "Dw m2 u' m' U' m u m' U m' Dw'",
+            "r2 Uw' m' Uw r2 Uw' m Uw",
             [
                 "Howie Craig"
             ],
-            "Dw m:[m u' m',U']"
-        ],
+            "[r2,Uw' m' Uw]"
+        ]
+    ],
+    "GDP": [
         [
             "R' 3Uw U' r U m U' r' U m' 3Uw' R",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "R' 3Uw:[U' r U,m]"
+        ],
+        [
+            "Dw m2 u' m' U' m u m' U m' Dw'",
+            [
+                "Howie Craig"
+            ],
+            "Dw m:[m u' m',U']"
         ]
     ],
     "GDQ": [
@@ -28749,18 +28749,18 @@
             "y' F':[l' U' l,e2]"
         ],
         [
-            "R u' m' U' m u2 m' U m u' R'",
-            [
-                "Howie Craig"
-            ],
-            "R u':[m' U' m,u2]"
-        ],
-        [
             "3Uw U l' U' m U l U' m' 3Uw'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Uw:[U l' U',m]"
+        ],
+        [
+            "R u' m' U' m u2 m' U m u' R'",
+            [
+                "Howie Craig"
+            ],
+            "R u':[m' U' m,u2]"
         ]
     ],
     "GDS": [
@@ -28772,34 +28772,34 @@
             "F:[u',m' U' m]"
         ],
         [
-            "Uw2 l' Uw' m Uw l Uw' m' Uw'",
-            [
-                "Howie Craig"
-            ],
-            "Uw:[Uw l' Uw',m]"
-        ],
-        [
             "Uw U l' U' m U l U' m' Uw'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "Uw:[U l' U',m]"
-        ]
-    ],
-    "GDW": [
+        ],
         [
-            "L e' l U2 l' e l U2 Lw'",
+            "Uw2 l' Uw' m Uw l Uw' m' Uw'",
             [
                 "Howie Craig"
             ],
-            "L:[e',l U2 l']"
-        ],
+            "Uw:[Uw l' Uw',m]"
+        ]
+    ],
+    "GDW": [
         [
             "Uw U l U' m U l' U' m' Uw'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "Uw:[U l U',m]"
+        ],
+        [
+            "L e' l U2 l' e l U2 Lw'",
+            [
+                "Howie Craig"
+            ],
+            "L:[e',l U2 l']"
         ]
     ],
     "GDY": [
@@ -28828,18 +28828,18 @@
             "y' F:[r U r',e2]"
         ],
         [
-            "R' u' m' U' m u2 m' U m u' R",
-            [
-                "Howie Craig"
-            ],
-            "R' u':[m' U' m,u2]"
-        ],
-        [
             "3Uw U' r U m U' r' U m' 3Uw'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Uw:[U' r U,m]"
+        ],
+        [
+            "R' u' m' U' m u2 m' U m u' R",
+            [
+                "Howie Craig"
+            ],
+            "R' u':[m' U' m,u2]"
         ]
     ],
     "GEA": [
@@ -28941,6 +28941,13 @@
             "u:[U',m u m']"
         ],
         [
+            "Rw' U r U m U' r' U m' U2 Rw",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "Rw' U:[r,U m U']"
+        ],
+        [
             "y m' u' m U m' u m U' y'",
             [
                 "Howie Craig"
@@ -28953,13 +28960,6 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "y':[m u' m',U]"
-        ],
-        [
-            "Rw' U r U m U' r' U m' U2 Rw",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "Rw' U:[r,U m U']"
         ],
         [
             "Uw' m u' m' U m u m' u",
@@ -29122,18 +29122,18 @@
             "D':[D' m2 D,r2]"
         ],
         [
-            "3Lw' d2 m' U m d2 m' U' m 3Lw",
-            [
-                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
-            ],
-            "3Lw':[d2,m' U m]"
-        ],
-        [
             "m' d2 m' U m d2 m' U' m2",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "m':[d2,m' U m]"
+        ],
+        [
+            "3Lw' d2 m' U m d2 m' U' m 3Lw",
+            [
+                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
+            ],
+            "3Lw':[d2,m' U m]"
         ]
     ],
     "GEN": [
@@ -29514,6 +29514,13 @@
             "u:[m u m',U']"
         ],
         [
+            "Rw' U2 m U' r U m' U' r' U' Rw",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "Rw' U:[U m U',r]"
+        ],
+        [
             "y U m' u' m U' m' u m y'",
             [
                 "Howie Craig"
@@ -29526,13 +29533,6 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "y':[U,m u' m']"
-        ],
-        [
-            "Rw' U2 m U' r U m' U' r' U' Rw",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "Rw' U:[U m U',r]"
         ],
         [
             "u' m u' m' U' m u m' Uw",
@@ -29572,18 +29572,18 @@
             "F2:[u2,m' U' m]"
         ],
         [
-            "x' U' r U m2 U' r' U m2 x",
-            [
-                "Howie Craig"
-            ],
-            "x':[U' r U,m2]"
-        ],
-        [
             "F' r U m U' r' U m' U' F",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "F':[r,U m U']"
+        ],
+        [
+            "x' U' r U m2 U' r' U m2 x",
+            [
+                "Howie Craig"
+            ],
+            "x':[U' r U,m2]"
         ]
     ],
     "GFK": [
@@ -29679,18 +29679,18 @@
             "y R':[e',l' U l]"
         ],
         [
-            "R m U m' u' m U' m' u R'",
-            [
-                "Howie Craig"
-            ],
-            "R:[m U m',u']"
-        ],
-        [
             "U 3Uw' r' 3Uw m 3Uw' r 3Uw m' U'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "U:[3Uw' r' 3Uw,m]"
+        ],
+        [
+            "R m U m' u' m U' m' u R'",
+            [
+                "Howie Craig"
+            ],
+            "R:[m U m',u']"
         ]
     ],
     "GFS": [
@@ -29719,18 +29719,18 @@
             "y' L:[e,r U r']"
         ],
         [
-            "Lw' m U m' u m U' m' u' Lw",
-            [
-                "Howie Craig"
-            ],
-            "Lw':[m U m',u]"
-        ],
-        [
             "4Rw' e r U' r' e' r U r' 4Rw",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "4Rw':[e,r U' r']"
+        ],
+        [
+            "Lw' m U m' u m U' m' u' Lw",
+            [
+                "Howie Craig"
+            ],
+            "Lw':[m U m',u]"
         ]
     ],
     "GFX": [
@@ -29742,18 +29742,18 @@
             "y' L':[e,l' U' l]"
         ],
         [
-            "3Lw U m' u m U' m' u' Lw'",
-            [
-                "Howie Craig"
-            ],
-            "Lw:[m U m',u]"
-        ],
-        [
             "3Dw' r' U m U' r U m' U' 3Dw",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Dw':[r',U m U']"
+        ],
+        [
+            "3Lw U m' u m U' m' u' Lw'",
+            [
+                "Howie Craig"
+            ],
+            "Lw:[m U m',u]"
         ]
     ],
     "GFZ": [
@@ -29765,18 +29765,18 @@
             "y R:[e',r U' r']"
         ],
         [
-            "R' m U m' u' m U' m' u R",
-            [
-                "Howie Craig"
-            ],
-            "R':[m U m',u']"
-        ],
-        [
             "3Dw' r U m U' r' U m' U' 3Dw",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Dw':[r,U m U']"
+        ],
+        [
+            "R' m U m' u' m U' m' u R",
+            [
+                "Howie Craig"
+            ],
+            "R':[m U m',u']"
         ]
     ],
     "GHA": [
@@ -29916,18 +29916,18 @@
             "y' F2 U:[u2,m' U' m]"
         ],
         [
-            "Lw2 u m' U' m u2 m' U m u Lw2",
-            [
-                "Howie Craig"
-            ],
-            "Lw2 u:[m' U' m,u2]"
-        ],
-        [
             "R2 d' m' U m d2 m' U' m d' R2",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "R2 d':[m' U m,d2]"
+        ],
+        [
+            "Lw2 u m' U' m u2 m' U m u Lw2",
+            [
+                "Howie Craig"
+            ],
+            "Lw2 u:[m' U' m,u2]"
         ]
     ],
     "GHM": [
@@ -29939,18 +29939,18 @@
             "D2 m':[u,m' U' m]"
         ],
         [
-            "4Dw' r2 U' m' U r2 U' m U 4Dw",
-            [
-                "Howie Craig"
-            ],
-            "4Dw':[r2,U' m' U]"
-        ],
-        [
             "m u' m U m' u m U' m2",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "m:[u',m U m']"
+        ],
+        [
+            "4Dw' r2 U' m' U r2 U' m U 4Dw",
+            [
+                "Howie Craig"
+            ],
+            "4Dw':[r2,U' m' U]"
         ]
     ],
     "GHN": [
@@ -30016,18 +30016,18 @@
             "R y:[r U' r',e2]"
         ],
         [
-            "Lw' u m' U' m u2 m' U m u Lw",
-            [
-                "Howie Craig"
-            ],
-            "Lw' u:[m' U' m,u2]"
-        ],
-        [
             "4Dw r U m U' r' U m' U' 4Dw'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "4Dw:[r,U m U']"
+        ],
+        [
+            "Lw' u m' U' m u2 m' U m u Lw",
+            [
+                "Howie Craig"
+            ],
+            "Lw' u:[m' U' m,u2]"
         ]
     ],
     "GHW": [
@@ -30039,18 +30039,18 @@
             "y F:[r U' r',e']"
         ],
         [
-            "Lw U' m' u' m U2 m' u m U' Lw'",
-            [
-                "Howie Craig"
-            ],
-            "Lw U':[m' u' m,U2]"
-        ],
-        [
             "U2 l Uw m' Uw' l' Uw m Uw' U2",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "U2:[l,Uw m' Uw']"
+        ],
+        [
+            "Lw U' m' u' m U2 m' u m U' Lw'",
+            [
+                "Howie Craig"
+            ],
+            "Lw U':[m' u' m,U2]"
         ]
     ],
     "GHX": [
@@ -30062,18 +30062,18 @@
             "R' y:[l' U l,e2]"
         ],
         [
-            "Lw u m' U' m u2 m' U m u Lw'",
-            [
-                "Howie Craig"
-            ],
-            "Lw u:[m' U' m,u2]"
-        ],
-        [
             "4Dw' r' U' m' U r U' m U 4Dw",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "4Dw':[r',U' m' U]"
+        ],
+        [
+            "Lw u m' U' m u2 m' U m u Lw'",
+            [
+                "Howie Craig"
+            ],
+            "Lw u:[m' U' m,u2]"
         ]
     ],
     "GHY": [
@@ -30284,18 +30284,18 @@
             "R2 m':[m' U' m,u]"
         ],
         [
-            "Dw U' m U r2 U' m' U r2 Dw'",
-            [
-                "Howie Craig"
-            ],
-            "Dw:[U' m U,r2]"
-        ],
-        [
             "m2 U' m' d m U m' d' m'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "m:[m U' m',d]"
+        ],
+        [
+            "Dw U' m U r2 U' m' U r2 Dw'",
+            [
+                "Howie Craig"
+            ],
+            "Dw:[U' m U,r2]"
         ]
     ],
     "GIQ": [
@@ -30312,18 +30312,18 @@
     ],
     "GIR": [
         [
-            "y' x' r' U' m' U r U' m U x y",
-            [
-                "Howie Craig"
-            ],
-            "y' x':[r',U' m' U]"
-        ],
-        [
             "e r' U' m2 U r U' m2 U e'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "e:[r',U' m2 U]"
+        ],
+        [
+            "y' x' r' U' m' U r U' m U x y",
+            [
+                "Howie Craig"
+            ],
+            "y' x':[r',U' m' U]"
         ]
     ],
     "GIS": [
@@ -30373,18 +30373,18 @@
             "D' l':[l' U2 l,e]"
         ],
         [
-            "4Uw' U' l' U m2 U' l U m2 4Uw",
-            [
-                "Howie Craig"
-            ],
-            "4Uw':[U' l' U,m2]"
-        ],
-        [
             "3Uw' U' l' U m2 U' l U m2 3Uw",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Uw':[U' l' U,m2]"
+        ],
+        [
+            "4Uw' U' l' U m2 U' l U m2 4Uw",
+            [
+                "Howie Craig"
+            ],
+            "4Uw':[U' l' U,m2]"
         ]
     ],
     "GIY": [
@@ -30408,18 +30408,18 @@
             "R' m':[m' U' m,u]"
         ],
         [
-            "4Uw' U' l U m2 U' l' U m2 4Uw",
-            [
-                "Howie Craig"
-            ],
-            "4Uw':[U' l U,m2]"
-        ],
-        [
             "U' 3Uw r 3Uw' m2 3Uw r' 3Uw' m2 U",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "U':[3Uw r 3Uw',m2]"
+        ],
+        [
+            "4Uw' U' l U m2 U' l' U m2 4Uw",
+            [
+                "Howie Craig"
+            ],
+            "4Uw':[U' l U,m2]"
         ]
     ],
     "GJA": [
@@ -30496,18 +30496,18 @@
             "F2:[m' U' m,u']"
         ],
         [
-            "m' U m' u m U' m' u' m2",
-            [
-                "Howie Craig"
-            ],
-            "m':[U,m' u m]"
-        ],
-        [
             "4Lw' e' r' U' r e r' U 3Lw",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Lw':[r e' r',U']"
+        ],
+        [
+            "m' U m' u m U' m' u' m2",
+            [
+                "Howie Craig"
+            ],
+            "m':[U,m' u m]"
         ]
     ],
     "GJE": [
@@ -30552,18 +30552,18 @@
             "F2:[m' U' m,u2]"
         ],
         [
-            "x' m2 U' r U m2 U' r' U x",
-            [
-                "Howie Craig"
-            ],
-            "x':[m2,U' r U]"
-        ],
-        [
             "F' U m U' r U m' U' r' F",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "F':[U m U',r]"
+        ],
+        [
+            "x' m2 U' r U m2 U' r' U x",
+            [
+                "Howie Craig"
+            ],
+            "x':[m2,U' r U]"
         ]
     ],
     "GJH": [
@@ -30695,18 +30695,18 @@
             "F:[l' U2 l,e']"
         ],
         [
-            "z' U' r Uw' m' Uw r' Uw' m Uw U z",
-            [
-                "Howie Craig"
-            ],
-            "z' U':[r,Uw' m' Uw]"
-        ],
-        [
             "e r' U m' U' r U m U' e'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "e:[r',U m' U']"
+        ],
+        [
+            "z' U' r Uw' m' Uw r' Uw' m Uw U z",
+            [
+                "Howie Craig"
+            ],
+            "z' U':[r,Uw' m' Uw]"
         ]
     ],
     "GJT": [
@@ -30718,18 +30718,18 @@
             "y' R':[e',r U r']"
         ],
         [
-            "x U' r' Uw' m' Uw r Uw' m Uw U x'",
-            [
-                "Howie Craig"
-            ],
-            "x U':[r',Uw' m' Uw]"
-        ],
-        [
             "U 3Uw l 3Uw' m' 3Uw l' 3Uw' m U'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "U:[3Uw l 3Uw',m']"
+        ],
+        [
+            "x U' r' Uw' m' Uw r Uw' m Uw U x'",
+            [
+                "Howie Craig"
+            ],
+            "x U':[r',Uw' m' Uw]"
         ]
     ],
     "GJW": [
@@ -30741,18 +30741,18 @@
             "F':[e2,l U2 l']"
         ],
         [
-            "x' U' m2 U' r U m2 U' r' U2 x",
-            [
-                "Howie Craig"
-            ],
-            "x' U':[m2,U' r U]"
-        ],
-        [
             "U2 l U' m' U l' U' m U'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "U:[U l U',m']"
+        ],
+        [
+            "x' U' m2 U' r U m2 U' r' U2 x",
+            [
+                "Howie Craig"
+            ],
+            "x' U':[m2,U' r U]"
         ]
     ],
     "GJX": [
@@ -30764,18 +30764,18 @@
             "F:[l' U2 l,e]"
         ],
         [
-            "3Lw D' Uw' m' Uw r2 Uw' m Uw r2 D 3Lw'",
-            [
-                "Howie Craig"
-            ],
-            "3Lw D':[Uw' m' Uw,r2]"
-        ],
-        [
             "L' m' U m d m' U' m d' L",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "L':[m' U m,d]"
+        ],
+        [
+            "3Lw D' Uw' m' Uw r2 Uw' m Uw r2 D 3Lw'",
+            [
+                "Howie Craig"
+            ],
+            "3Lw D':[Uw' m' Uw,r2]"
         ]
     ],
     "GJY": [
@@ -30804,18 +30804,18 @@
             "R:[m' U m,d']"
         ],
         [
-            "R' F2 m' U' m u m' U m u' F2 R",
-            [
-                "Howie Craig"
-            ],
-            "R' F2:[m' U' m,u]"
-        ],
-        [
             "3Uw U' r U m' U' r' U m 3Uw'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Uw:[U' r U,m']"
+        ],
+        [
+            "R' F2 m' U' m u m' U m u' F2 R",
+            [
+                "Howie Craig"
+            ],
+            "R' F2:[m' U' m,u]"
         ]
     ],
     "GKA": [
@@ -31038,18 +31038,18 @@
     ],
     "GKQ": [
         [
-            "D r U' m2 U r' U' m2 U D'",
-            [
-                "Howie Craig"
-            ],
-            "D:[r,U' m2 U]"
-        ],
-        [
             "D' r U m2 U' r' U m2 U' D",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "D':[r,U m2 U']"
+        ],
+        [
+            "D r U' m2 U r' U' m2 U D'",
+            [
+                "Howie Craig"
+            ],
+            "D:[r,U' m2 U]"
         ]
     ],
     "GKR": [
@@ -31156,18 +31156,18 @@
             "y:[U' r U,m2]"
         ],
         [
-            "y' U' l U m2 U' l' U m2 y",
-            [
-                "Howie Craig"
-            ],
-            "y':[U' l U,m2]"
-        ],
-        [
             "3Dw' r U m2 U' r' U m2 U' 3Dw",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Dw':[r,U m2 U']"
+        ],
+        [
+            "y' U' l U m2 U' l' U m2 y",
+            [
+                "Howie Craig"
+            ],
+            "y':[U' l U,m2]"
         ]
     ],
     "GLA": [
@@ -31263,18 +31263,18 @@
             "y' F2 U:[m' U' m,u2]"
         ],
         [
-            "Lw2 u' m' U' m u2 m' U m u' Lw2",
-            [
-                "Howie Craig"
-            ],
-            "Lw2 u':[m' U' m,u2]"
-        ],
-        [
             "R2 d m' U m d2 m' U' m d R2",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "R2 d:[m' U m,d2]"
+        ],
+        [
+            "Lw2 u' m' U' m u2 m' U m u' Lw2",
+            [
+                "Howie Craig"
+            ],
+            "Lw2 u':[m' U' m,u2]"
         ]
     ],
     "GLI": [
@@ -31360,18 +31360,18 @@
             "D m':[d,m' U m]"
         ],
         [
-            "d' r2 U' m U r2 U' m' U d",
-            [
-                "Howie Craig"
-            ],
-            "d':[r2,U' m U]"
-        ],
-        [
             "d r2 U m' U' r2 U m U' d'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "d:[r2,U m' U']"
+        ],
+        [
+            "d' r2 U' m U r2 U' m' U d",
+            [
+                "Howie Craig"
+            ],
+            "d':[r2,U' m U]"
         ]
     ],
     "GLP": [
@@ -31383,18 +31383,18 @@
             "4Dw:[m' U m,d2]"
         ],
         [
-            "z' r2 Uw' m' Uw r2 Uw' m Uw z",
-            [
-                "Howie Craig"
-            ],
-            "z':[r2,Uw' m' Uw]"
-        ],
-        [
             "d m' U m d2 m' U' m d",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "d:[m' U m,d2]"
+        ],
+        [
+            "z' r2 Uw' m' Uw r2 Uw' m Uw z",
+            [
+                "Howie Craig"
+            ],
+            "z':[r2,Uw' m' Uw]"
         ]
     ],
     "GLQ": [
@@ -31406,18 +31406,18 @@
             "y' F':[r U r',e']"
         ],
         [
-            "3Lw2 r Uw' m' Uw r' Uw' m Uw 3Lw2",
-            [
-                "Howie Craig"
-            ],
-            "3Lw2:[r,Uw' m' Uw]"
-        ],
-        [
             "Dw r U m' U' r' U m U' Dw'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "Dw:[r,U m' U']"
+        ],
+        [
+            "3Lw2 r Uw' m' Uw r' Uw' m Uw 3Lw2",
+            [
+                "Howie Craig"
+            ],
+            "3Lw2:[r,Uw' m' Uw]"
         ]
     ],
     "GLR": [
@@ -31429,18 +31429,18 @@
             "y' F:[l' U' l,e2]"
         ],
         [
-            "z' U' r2 Uw' m' Uw r2 Uw' m Uw U z",
-            [
-                "Howie Craig"
-            ],
-            "z' U':[r2,Uw' m' Uw]"
-        ],
-        [
             "3Dw r' U m' U' r U m U' 3Dw'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Dw:[r',U m' U']"
+        ],
+        [
+            "z' U' r2 Uw' m' Uw r2 Uw' m Uw U z",
+            [
+                "Howie Craig"
+            ],
+            "z' U':[r2,Uw' m' Uw]"
         ]
     ],
     "GLS": [
@@ -31452,18 +31452,18 @@
             "L:[e,l' U2 l]"
         ],
         [
-            "3Lw' U2 r' e r U2 r' e' r 3Lw",
-            [
-                "Howie Craig"
-            ],
-            "3Lw':[U2,r' e r]"
-        ],
-        [
             "F' d m' U m d' m' U' m F",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "F':[d,m' U m]"
+        ],
+        [
+            "3Lw' U2 r' e r U2 r' e' r 3Lw",
+            [
+                "Howie Craig"
+            ],
+            "3Lw':[U2,r' e r]"
         ]
     ],
     "GLW": [
@@ -31475,18 +31475,18 @@
             "y' F':[r U r',e]"
         ],
         [
-            "L' e' l U2 l' e l U2 l' L",
-            [
-                "Howie Craig"
-            ],
-            "L':[e',l U2 l']"
-        ],
-        [
             "U 4Rw' m' U' m d m' U m d' 4Rw U'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "U 4Rw':[m' U' m,d]"
+        ],
+        [
+            "L' e' l U2 l' e l U2 l' L",
+            [
+                "Howie Craig"
+            ],
+            "L':[e',l U2 l']"
         ]
     ],
     "GLY": [
@@ -31498,18 +31498,18 @@
             "y' F:[l' U' l,e]"
         ],
         [
-            "3Lw2 r' Uw' m' Uw r Uw' m Uw 3Lw2",
-            [
-                "Howie Craig"
-            ],
-            "3Lw2:[r',Uw' m' Uw]"
-        ],
-        [
             "Dw' r' U' m U r U' m' U Dw",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "Dw':[r',U' m U]"
+        ],
+        [
+            "3Lw2 r' Uw' m' Uw r Uw' m Uw 3Lw2",
+            [
+                "Howie Craig"
+            ],
+            "3Lw2:[r',Uw' m' Uw]"
         ]
     ],
     "GLZ": [
@@ -31521,18 +31521,18 @@
             "y' F':[r U r',e2]"
         ],
         [
-            "y x' U2 m' U' r2 U m U' r2 U' x y'",
-            [
-                "Howie Craig"
-            ],
-            "y x' U:[U m' U',r2]"
-        ],
-        [
             "3Dw' r U' m U r' U' m' U 3Dw",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Dw':[r,U' m U]"
+        ],
+        [
+            "y x' U2 m' U' r2 U m U' r2 U' x y'",
+            [
+                "Howie Craig"
+            ],
+            "y x' U:[U m' U',r2]"
         ]
     ],
     "GMA": [
@@ -31641,18 +31641,18 @@
             "D2 m':[m' U' m,u']"
         ],
         [
-            "D' Uw' m' Uw r2 Uw' m Uw r2 D",
-            [
-                "Howie Craig"
-            ],
-            "D':[Uw' m' Uw,r2]"
-        ],
-        [
             "m2 U m' u m U' m' u' m'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "m:[m U m',u]"
+        ],
+        [
+            "D' Uw' m' Uw r2 Uw' m Uw r2 D",
+            [
+                "Howie Craig"
+            ],
+            "D':[Uw' m' Uw,r2]"
         ]
     ],
     "GME": [
@@ -31673,18 +31673,18 @@
             "D':[r2,D' m2 D]"
         ],
         [
-            "3Lw' m' U m d2 m' U' m d2 3Lw",
-            [
-                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
-            ],
-            "3Lw':[m' U m,d2]"
-        ],
-        [
             "m2 U m d2 m' U' m d2 m",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "m':[m' U m,d2]"
+        ],
+        [
+            "3Lw' m' U m d2 m' U' m d2 3Lw",
+            [
+                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
+            ],
+            "3Lw':[m' U m,d2]"
         ]
     ],
     "GMF": [
@@ -31707,18 +31707,18 @@
             "D2 m':[m' U' m,u]"
         ],
         [
-            "4Dw' U' m' U r2 U' m U r2 4Dw",
-            [
-                "Howie Craig"
-            ],
-            "4Dw':[U' m' U,r2]"
-        ],
-        [
             "m2 U m' u' m U' m' u m'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "m:[m U m',u']"
+        ],
+        [
+            "4Dw' U' m' U r2 U' m U r2 4Dw",
+            [
+                "Howie Craig"
+            ],
+            "4Dw':[U' m' U,r2]"
         ]
     ],
     "GMJ": [
@@ -31777,18 +31777,18 @@
     ],
     "GMP": [
         [
-            "Dw' U m' U' r2 U m U' r2 Dw",
-            [
-                "Howie Craig"
-            ],
-            "Dw':[U m' U',r2]"
-        ],
-        [
             "m2 U m d' m' U' m d m",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "m':[m' U m,d']"
+        ],
+        [
+            "Dw' U m' U' r2 U m U' r2 Dw",
+            [
+                "Howie Craig"
+            ],
+            "Dw':[U m' U',r2]"
         ]
     ],
     "GMQ": [
@@ -31817,18 +31817,18 @@
             "D l':[l' U2 l,e']"
         ],
         [
-            "3Uw U l' U' m2 U l U' m2 3Uw'",
-            [
-                "Howie Craig"
-            ],
-            "3Uw:[U l' U',m2]"
-        ],
-        [
             "U 3Uw' r' 3Uw m2 3Uw' r 3Uw m2 U'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "U:[3Uw' r' 3Uw,m2]"
+        ],
+        [
+            "3Uw U l' U' m2 U l U' m2 3Uw'",
+            [
+                "Howie Craig"
+            ],
+            "3Uw:[U l' U',m2]"
         ]
     ],
     "GMS": [
@@ -31851,18 +31851,18 @@
             "L m':[m' U m,d]"
         ],
         [
-            "3Uw U l U' m2 U l' U' m2 3Uw'",
-            [
-                "Howie Craig"
-            ],
-            "3Uw:[U l U',m2]"
-        ],
-        [
             "e r U m2 U' r' U m2 U' e'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "e:[r,U m2 U']"
+        ],
+        [
+            "3Uw U l U' m2 U l' U' m2 3Uw'",
+            [
+                "Howie Craig"
+            ],
+            "3Uw:[U l U',m2]"
         ]
     ],
     "GMW": [
@@ -31904,18 +31904,18 @@
     ],
     "GMZ": [
         [
-            "D' U' r2 U r' e' r U' r' e r' U D",
-            [
-                "Howie Craig"
-            ],
-            "D' U' r:[r U r',e']"
-        ],
-        [
             "e' r U m2 U' r' U m2 U' e",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "e':[r,U m2 U']"
+        ],
+        [
+            "D' U' r2 U r' e' r U' r' e r' U D",
+            [
+                "Howie Craig"
+            ],
+            "D' U' r:[r U r',e']"
         ]
     ],
     "GNA": [
@@ -31968,18 +31968,18 @@
             "F2:[d2,m' U m]"
         ],
         [
-            "x' U r U' m2 U r' U' m2 x",
-            [
-                "Howie Craig"
-            ],
-            "x':[U r U',m2]"
-        ],
-        [
             "F r U' m U r' U' m' U F'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "F:[r,U' m U]"
+        ],
+        [
+            "x' U r U' m2 U r' U' m2 x",
+            [
+                "Howie Craig"
+            ],
+            "x':[U r U',m2]"
         ]
     ],
     "GNC": [
@@ -32163,18 +32163,18 @@
     ],
     "GNR": [
         [
-            "z' U' r' Uw' m' Uw r Uw' m Uw U z",
-            [
-                "Howie Craig"
-            ],
-            "z' U':[r',Uw' m' Uw]"
-        ],
-        [
             "e r' U' m U r U' m' U e'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "e:[r',U' m U]"
+        ],
+        [
+            "z' U' r' Uw' m' Uw r Uw' m Uw U z",
+            [
+                "Howie Craig"
+            ],
+            "z' U':[r',Uw' m' Uw]"
         ]
     ],
     "GNS": [
@@ -32203,34 +32203,34 @@
             "y' L':[e,r U r']"
         ],
         [
-            "3Lw U' m' d' m U m' d Lw'",
-            [
-                "Howie Craig"
-            ],
-            "Lw:[m U' m',d']"
-        ],
-        [
             "e r U' m U r' U' m' U e'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "e:[r,U' m U]"
-        ]
-    ],
-    "GNX": [
+        ],
         [
-            "Lw' m U' m' d' m U m' d Lw",
+            "3Lw U' m' d' m U m' d Lw'",
             [
                 "Howie Craig"
             ],
-            "Lw':[m U' m',d']"
-        ],
+            "Lw:[m U' m',d']"
+        ]
+    ],
+    "GNX": [
         [
             "3Uw' U' l' U m U' l U m' 3Uw",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Uw':[U' l' U,m]"
+        ],
+        [
+            "Lw' m U' m' d' m U m' d Lw",
+            [
+                "Howie Craig"
+            ],
+            "Lw':[m U' m',d']"
         ]
     ],
     "GNZ": [
@@ -32242,18 +32242,18 @@
             "y R':[e',r U' r']"
         ],
         [
-            "4Lw e' r U r' e r U' 3Lw'",
-            [
-                "Howie Craig"
-            ],
-            "3Lw:[r' e' r,U]"
-        ],
-        [
             "e' r U' m U r' U' m' U e",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "e':[r,U' m U]"
+        ],
+        [
+            "4Lw e' r U r' e r U' 3Lw'",
+            [
+                "Howie Craig"
+            ],
+            "3Lw:[r' e' r,U]"
         ]
     ],
     "GOA": [
@@ -32346,18 +32346,18 @@
             "D' m':[m' U' m,u']"
         ],
         [
-            "Uw' m' Uw r2 Uw' m Uw r2",
-            [
-                "Howie Craig"
-            ],
-            "[Uw' m' Uw,r2]"
-        ],
-        [
             "Uw' m' U r2 U' m U r2 u",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "u':[U' m' U,r2]"
+        ],
+        [
+            "Uw' m' Uw r2 Uw' m Uw r2",
+            [
+                "Howie Craig"
+            ],
+            "[Uw' m' Uw,r2]"
         ]
     ],
     "GOE": [
@@ -32435,18 +32435,18 @@
             "D m':[m' U m,d]"
         ],
         [
-            "d' U' m U r2 U' m' U r2 d",
-            [
-                "Howie Craig"
-            ],
-            "d':[U' m U,r2]"
-        ],
-        [
             "d U m' U' r2 U m U' r2 d'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "d:[U m' U',r2]"
+        ],
+        [
+            "d' U' m U r2 U' m' U r2 d",
+            [
+                "Howie Craig"
+            ],
+            "d':[U' m U,r2]"
         ]
     ],
     "GON": [
@@ -32470,18 +32470,18 @@
             "D m':[m' U m,d']"
         ],
         [
-            "d U' m U r2 U' m' U r2 d'",
-            [
-                "Howie Craig"
-            ],
-            "d:[U' m U,r2]"
-        ],
-        [
             "d' U m' U' r2 U m U' r2 d",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "d':[U m' U',r2]"
+        ],
+        [
+            "d U' m U r2 U' m' U r2 d'",
+            [
+                "Howie Craig"
+            ],
+            "d:[U' m U,r2]"
         ]
     ],
     "GOQ": [
@@ -32493,18 +32493,18 @@
             "F':[U' m' U,r2]"
         ],
         [
-            "D' r U' m2 U r' U' m2 U D",
-            [
-                "Howie Craig"
-            ],
-            "D':[r,U' m2 U]"
-        ],
-        [
             "D r U m2 U' r' U m2 U' D'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "D:[r,U m2 U']"
+        ],
+        [
+            "D' r U' m2 U r' U' m2 U D",
+            [
+                "Howie Craig"
+            ],
+            "D':[r,U' m2 U]"
         ]
     ],
     "GOR": [
@@ -32516,18 +32516,18 @@
             "D2 l':[l' U2 l,e']"
         ],
         [
-            "y' x' m' U' m u2 m' U m u2 x y",
-            [
-                "Howie Craig"
-            ],
-            "y' x':[m' U' m,u2]"
-        ],
-        [
             "3Dw r' U m2 U' r U m2 U' 3Dw'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Dw:[r',U m2 U']"
+        ],
+        [
+            "y' x' m' U' m u2 m' U m u2 x y",
+            [
+                "Howie Craig"
+            ],
+            "y' x':[m' U' m,u2]"
         ]
     ],
     "GOS": [
@@ -32549,34 +32549,34 @@
             "U2 r:[r U2 r',e]"
         ],
         [
-            "U' r2 U r' e r U' r' e' r' U",
-            [
-                "Howie Craig"
-            ],
-            "U' r:[r U r',e]"
-        ],
-        [
             "L' Uw' m' Uw r2 Uw' m Uw r2 L",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "L':[Uw' m' Uw,r2]"
-        ]
-    ],
-    "GOW": [
+        ],
         [
-            "D U2 l U' m2 U l' U' m2 U' D'",
+            "U' r2 U r' e r U' r' e' r' U",
             [
                 "Howie Craig"
             ],
-            "D U:[U l U',m2]"
-        ],
+            "U' r:[r U r',e]"
+        ]
+    ],
+    "GOW": [
         [
             "D' U2 l U m2 U' l' U m2 D U",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "D' U':[U' l U,m2]"
+        ],
+        [
+            "D U2 l U' m2 U l' U' m2 U' D'",
+            [
+                "Howie Craig"
+            ],
+            "D U:[U l U',m2]"
         ]
     ],
     "GOX": [
@@ -32588,18 +32588,18 @@
             "D2 l':[l' U2 l,e]"
         ],
         [
-            "3Lw Uw' m' Uw r2 Uw' m Uw r2 3Lw'",
-            [
-                "Howie Craig"
-            ],
-            "3Lw:[Uw' m' Uw,r2]"
-        ],
-        [
             "L Uw' m' Uw r2 Uw' m Uw r2 L'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "L:[Uw' m' Uw,r2]"
+        ],
+        [
+            "3Lw Uw' m' Uw r2 Uw' m Uw r2 3Lw'",
+            [
+                "Howie Craig"
+            ],
+            "3Lw:[Uw' m' Uw,r2]"
         ]
     ],
     "GOY": [
@@ -32684,18 +32684,18 @@
     ],
     "GPD": [
         [
-            "Dw m U' m u' m' U m u m2 Dw'",
-            [
-                "Howie Craig"
-            ],
-            "Dw m:[U',m u' m']"
-        ],
-        [
             "R' 3Uw m U' r U m' U' r' U 3Uw' R",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "R' 3Uw:[m,U' r U]"
+        ],
+        [
+            "Dw m U' m u' m' U m u m2 Dw'",
+            [
+                "Howie Craig"
+            ],
+            "Dw m:[U',m u' m']"
         ]
     ],
     "GPE": [
@@ -32744,18 +32744,18 @@
             "R2 m':[u,m' U' m]"
         ],
         [
-            "Dw r2 U' m U r2 U' m' U Dw'",
-            [
-                "Howie Craig"
-            ],
-            "Dw:[r2,U' m U]"
-        ],
-        [
             "m d m U' m' d' m U m2",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "m:[d,m U' m']"
+        ],
+        [
+            "Dw r2 U' m U r2 U' m' U Dw'",
+            [
+                "Howie Craig"
+            ],
+            "Dw:[r2,U' m U]"
         ]
     ],
     "GPJ": [
@@ -32802,34 +32802,34 @@
             "4Dw:[d2,m' U m]"
         ],
         [
-            "z' Uw' m' Uw r2 Uw' m Uw r2 z",
-            [
-                "Howie Craig"
-            ],
-            "z':[Uw' m' Uw,r2]"
-        ],
-        [
             "d' m' U m d2 m' U' m d'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "d':[m' U m,d2]"
-        ]
-    ],
-    "GPM": [
+        ],
         [
-            "Dw' r2 U m' U' r2 U m U' Dw",
+            "z' Uw' m' Uw r2 Uw' m Uw r2 z",
             [
                 "Howie Craig"
             ],
-            "Dw':[r2,U m' U']"
-        ],
+            "z':[Uw' m' Uw,r2]"
+        ]
+    ],
+    "GPM": [
         [
             "m' d' m' U m d m' U' m2",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "m':[d',m' U m]"
+        ],
+        [
+            "Dw' r2 U m' U' r2 U m U' Dw",
+            [
+                "Howie Craig"
+            ],
+            "Dw':[r2,U m' U']"
         ]
     ],
     "GPN": [
@@ -32858,18 +32858,18 @@
             "D m':[d',m' U m]"
         ],
         [
-            "d r2 U' m U r2 U' m' U d'",
-            [
-                "Howie Craig"
-            ],
-            "d:[r2,U' m U]"
-        ],
-        [
             "d' r2 U m' U' r2 U m U' d",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "d':[r2,U m' U']"
+        ],
+        [
+            "d r2 U' m U r2 U' m' U d'",
+            [
+                "Howie Craig"
+            ],
+            "d:[r2,U' m U]"
         ]
     ],
     "GPQ": [
@@ -32881,18 +32881,18 @@
             "F:[d',m' U m]"
         ],
         [
-            "S' Uw' m' Uw r Uw' m Uw r' S",
-            [
-                "Howie Craig"
-            ],
-            "S':[Uw' m' Uw,r]"
-        ],
-        [
             "d' r U m' U' r' U m U' d",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "d':[r,U m' U']"
+        ],
+        [
+            "S' Uw' m' Uw r Uw' m Uw r' S",
+            [
+                "Howie Craig"
+            ],
+            "S':[Uw' m' Uw,r]"
         ]
     ],
     "GPS": [
@@ -32904,18 +32904,18 @@
             "R:[e',l' U2 l]"
         ],
         [
-            "Lw' U' m d' m' U2 m d m' U' Lw",
-            [
-                "Howie Craig"
-            ],
-            "Lw' U':[m d' m',U2]"
-        ],
-        [
             "Dw' U2 l' U' m' U l U' m Dw U'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "Dw' U:[U l' U',m']"
+        ],
+        [
+            "Lw' U' m d' m' U2 m d m' U' Lw",
+            [
+                "Howie Craig"
+            ],
+            "Lw' U':[m d' m',U2]"
         ]
     ],
     "GPT": [
@@ -32927,18 +32927,18 @@
             "y F':[r U' r',e2]"
         ],
         [
-            "z' D Uw' m' Uw r2 Uw' m Uw r2 D' z",
-            [
-                "Howie Craig"
-            ],
-            "z' D:[Uw' m' Uw,r2]"
-        ],
-        [
             "E r U' m U r' U' m' 4Uw",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "4Uw':[U r U',m]"
+        ],
+        [
+            "z' D Uw' m' Uw r2 Uw' m Uw r2 D' z",
+            [
+                "Howie Craig"
+            ],
+            "z' D:[Uw' m' Uw,r2]"
         ]
     ],
     "GPW": [
@@ -32950,18 +32950,18 @@
             "y F':[r U' r',e']"
         ],
         [
-            "z' m U' m u' m' U m u m2 z",
-            [
-                "Howie Craig"
-            ],
-            "z' m:[U',m u' m']"
-        ],
-        [
             "U2 Dw' l U' m' U l' U' m Dw U'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "U2 Dw':[l,U' m' U]"
+        ],
+        [
+            "z' m U' m u' m' U m u m2 z",
+            [
+                "Howie Craig"
+            ],
+            "z' m:[U',m u' m']"
         ]
     ],
     "GPX": [
@@ -32973,18 +32973,18 @@
             "R y:[l' U l,e2]"
         ],
         [
-            "z' D' Uw' m' Uw r2 Uw' m Uw r2 D z",
-            [
-                "Howie Craig"
-            ],
-            "z' D':[Uw' m' Uw,r2]"
-        ],
-        [
             "E' r' U m' U' r U m 4Uw'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "4Uw:[U' r' U,m']"
+        ],
+        [
+            "z' D' Uw' m' Uw r2 Uw' m Uw r2 D z",
+            [
+                "Howie Craig"
+            ],
+            "z' D':[Uw' m' Uw,r2]"
         ]
     ],
     "GPY": [
@@ -32996,18 +32996,18 @@
             "y F:[l' U l,e']"
         ],
         [
-            "S' Uw' m' Uw r' Uw' m Uw r S",
-            [
-                "Howie Craig"
-            ],
-            "S':[Uw' m' Uw,r']"
-        ],
-        [
             "Dw r' U' m U r U' m' U Dw'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "Dw:[r',U' m U]"
+        ],
+        [
+            "S' Uw' m' Uw r' Uw' m Uw r S",
+            [
+                "Howie Craig"
+            ],
+            "S':[Uw' m' Uw,r']"
         ]
     ],
     "GQA": [
@@ -33173,18 +33173,18 @@
     ],
     "GQK": [
         [
-            "D U' m2 U r U' m2 U r' D'",
-            [
-                "Howie Craig"
-            ],
-            "D:[U' m2 U,r]"
-        ],
-        [
             "D' U m2 U' r U m2 U' r' D",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "D':[U m2 U',r]"
+        ],
+        [
+            "D U' m2 U r U' m2 U r' D'",
+            [
+                "Howie Craig"
+            ],
+            "D:[U' m2 U,r]"
         ]
     ],
     "GQL": [
@@ -33196,18 +33196,18 @@
             "y' F':[e',r U r']"
         ],
         [
-            "3Lw2 Uw' m' Uw r Uw' m Uw r' 3Lw2",
-            [
-                "Howie Craig"
-            ],
-            "3Lw2:[Uw' m' Uw,r]"
-        ],
-        [
             "Dw U m' U' r U m U' r' Dw'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "Dw:[U m' U',r]"
+        ],
+        [
+            "3Lw2 Uw' m' Uw r Uw' m Uw r' 3Lw2",
+            [
+                "Howie Craig"
+            ],
+            "3Lw2:[Uw' m' Uw,r]"
         ]
     ],
     "GQM": [
@@ -33247,18 +33247,18 @@
             "F':[r2,U' m' U]"
         ],
         [
-            "D' U' m2 U r U' m2 U r' D",
-            [
-                "Howie Craig"
-            ],
-            "D':[U' m2 U,r]"
-        ],
-        [
             "D U m2 U' r U m2 U' r' D'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "D:[U m2 U',r]"
+        ],
+        [
+            "D' U' m2 U r U' m2 U r' D",
+            [
+                "Howie Craig"
+            ],
+            "D':[U' m2 U,r]"
         ]
     ],
     "GQP": [
@@ -33270,18 +33270,18 @@
             "F:[m' U m,d']"
         ],
         [
-            "S' r Uw' m' Uw r' Uw' m Uw S",
-            [
-                "Howie Craig"
-            ],
-            "S':[r,Uw' m' Uw]"
-        ],
-        [
             "d' U m' U' r U m U' r' d",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "d':[U m' U',r]"
+        ],
+        [
+            "S' r Uw' m' Uw r' Uw' m Uw S",
+            [
+                "Howie Craig"
+            ],
+            "S':[r,Uw' m' Uw]"
         ]
     ],
     "GQR": [
@@ -33310,18 +33310,18 @@
             "y':[e',r U r']"
         ],
         [
-            "x r' Uw' m' Uw r Uw' m Uw x'",
-            [
-                "Howie Craig"
-            ],
-            "x:[r',Uw' m' Uw]"
-        ],
-        [
             "U' r U r' e r U' r' e' U",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "U':[r U r',e]"
+        ],
+        [
+            "x r' Uw' m' Uw r Uw' m Uw x'",
+            [
+                "Howie Craig"
+            ],
+            "x:[r',Uw' m' Uw]"
         ]
     ],
     "GQW": [
@@ -33350,18 +33350,18 @@
             "y' F2:[e',r U r']"
         ],
         [
-            "3Lw Uw' m' Uw r Uw' m Uw r' 3Lw'",
-            [
-                "Howie Craig"
-            ],
-            "3Lw:[Uw' m' Uw,r]"
-        ],
-        [
             "L Uw' m' Uw r Uw' m Uw r' L'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "L:[Uw' m' Uw,r]"
+        ],
+        [
+            "3Lw Uw' m' Uw r Uw' m Uw r' 3Lw'",
+            [
+                "Howie Craig"
+            ],
+            "3Lw:[Uw' m' Uw,r]"
         ]
     ],
     "GQY": [
@@ -33479,18 +33479,18 @@
             "y' F':[e2,l' U' l]"
         ],
         [
-            "R u m' U' m u2 m' U m u R'",
-            [
-                "Howie Craig"
-            ],
-            "R u:[m' U' m,u2]"
-        ],
-        [
             "3Uw m U l' U' m' U l U' 3Uw'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Uw:[m,U l' U']"
+        ],
+        [
+            "R u m' U' m u2 m' U m u R'",
+            [
+                "Howie Craig"
+            ],
+            "R u:[m' U' m,u2]"
         ]
     ],
     "GRE": [
@@ -33516,34 +33516,34 @@
             "y R':[l' U l,e']"
         ],
         [
-            "R u' m U m' u m U' m' R'",
-            [
-                "Howie Craig"
-            ],
-            "R:[u',m U m']"
-        ],
-        [
             "U m 3Uw' r' 3Uw m' 3Uw' r 3Uw U'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "U:[m,3Uw' r' 3Uw]"
-        ]
-    ],
-    "GRI": [
+        ],
         [
-            "y' x' U' m' U r' U' m U r x y",
+            "R u' m U m' u m U' m' R'",
             [
                 "Howie Craig"
             ],
-            "y' x':[U' m' U,r']"
-        ],
+            "R:[u',m U m']"
+        ]
+    ],
+    "GRI": [
         [
             "e U' m2 U r' U' m2 U r e'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "e:[U' m2 U,r']"
+        ],
+        [
+            "y' x' U' m' U r' U' m U r x y",
+            [
+                "Howie Craig"
+            ],
+            "y' x':[U' m' U,r']"
         ]
     ],
     "GRJ": [
@@ -33555,18 +33555,18 @@
             "F:[e',l' U2 l]"
         ],
         [
-            "z' U' Uw' m' Uw r Uw' m Uw r' U z",
-            [
-                "Howie Craig"
-            ],
-            "z' U':[Uw' m' Uw,r]"
-        ],
-        [
             "e U m' U' r' U m U' r e'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "e:[U m' U',r']"
+        ],
+        [
+            "z' U' Uw' m' Uw r Uw' m Uw r' U z",
+            [
+                "Howie Craig"
+            ],
+            "z' U':[Uw' m' Uw,r]"
         ]
     ],
     "GRK": [
@@ -33595,18 +33595,18 @@
             "y' F:[e2,l' U' l]"
         ],
         [
-            "z' U' Uw' m' Uw r2 Uw' m Uw r2 U z",
-            [
-                "Howie Craig"
-            ],
-            "z' U':[Uw' m' Uw,r2]"
-        ],
-        [
             "3Dw U m' U' r' U m U' r 3Dw'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Dw:[U m' U',r']"
+        ],
+        [
+            "z' U' Uw' m' Uw r2 Uw' m Uw r2 U z",
+            [
+                "Howie Craig"
+            ],
+            "z' U':[Uw' m' Uw,r2]"
         ]
     ],
     "GRM": [
@@ -33618,34 +33618,34 @@
             "D l':[e',l' U2 l]"
         ],
         [
-            "3Uw m2 U l' U' m2 U l U' 3Uw'",
-            [
-                "Howie Craig"
-            ],
-            "3Uw:[m2,U l' U']"
-        ],
-        [
             "U m2 3Uw' r' 3Uw m2 3Uw' r 3Uw U'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "U:[m2,3Uw' r' 3Uw]"
-        ]
-    ],
-    "GRN": [
+        ],
         [
-            "z' U' Uw' m' Uw r' Uw' m Uw r U z",
+            "3Uw m2 U l' U' m2 U l U' 3Uw'",
             [
                 "Howie Craig"
             ],
-            "z' U':[Uw' m' Uw,r']"
-        ],
+            "3Uw:[m2,U l' U']"
+        ]
+    ],
+    "GRN": [
         [
             "e U' m U r' U' m' U r e'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "e:[U' m U,r']"
+        ],
+        [
+            "z' U' Uw' m' Uw r' Uw' m Uw r U z",
+            [
+                "Howie Craig"
+            ],
+            "z' U':[Uw' m' Uw,r']"
         ]
     ],
     "GRO": [
@@ -33657,18 +33657,18 @@
             "D2 l':[e',l' U2 l]"
         ],
         [
-            "y' x' u2 m' U' m u2 m' U m x y",
-            [
-                "Howie Craig"
-            ],
-            "y' x':[u2,m' U' m]"
-        ],
-        [
             "3Dw U m2 U' r' U m2 U' r 3Dw'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Dw:[U m2 U',r']"
+        ],
+        [
+            "y' x' u2 m' U' m u2 m' U m x y",
+            [
+                "Howie Craig"
+            ],
+            "y' x':[u2,m' U' m]"
         ]
     ],
     "GRQ": [
@@ -33709,18 +33709,18 @@
             "R2 y:[r U' r',e2]"
         ],
         [
-            "y' x' U' m' U r2 U' m U r2 x y",
-            [
-                "Howie Craig"
-            ],
-            "y' x':[U' m' U,r2]"
-        ],
-        [
             "R' y U l U' m' U l' U' m y' R",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "R' y:[U l U',m']"
+        ],
+        [
+            "y' x' U' m' U r2 U' m U r2 x y",
+            [
+                "Howie Craig"
+            ],
+            "y' x':[U' m' U,r2]"
         ]
     ],
     "GRW": [
@@ -33766,18 +33766,18 @@
             "y:[l' U l,e']"
         ],
         [
-            "y' x' u' m' U' m u m' U m x y",
-            [
-                "Howie Craig"
-            ],
-            "y' x':[u',m' U' m]"
-        ],
-        [
             "U e r' U' r e' r' U r U'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "U:[e,r' U' r]"
+        ],
+        [
+            "y' x' u' m' U' m u m' U m x y",
+            [
+                "Howie Craig"
+            ],
+            "y' x':[u',m' U' m]"
         ]
     ],
     "GSA": [
@@ -33843,18 +33843,18 @@
             "F:[m' U' m,u']"
         ],
         [
-            "Uw m Uw l' Uw' m' Uw l Uw2",
-            [
-                "Howie Craig"
-            ],
-            "Uw:[m,Uw l' Uw']"
-        ],
-        [
             "Uw m U l' U' m' U l U' Uw'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "Uw:[m,U l' U']"
+        ],
+        [
+            "Uw m Uw l' Uw' m' Uw l Uw2",
+            [
+                "Howie Craig"
+            ],
+            "Uw:[m,Uw l' Uw']"
         ]
     ],
     "GSE": [
@@ -33954,18 +33954,18 @@
             "L:[l' U2 l,e]"
         ],
         [
-            "3Lw' r' e r U2 r' e' r U2 3Lw",
-            [
-                "Howie Craig"
-            ],
-            "3Lw':[r' e r,U2]"
-        ],
-        [
             "F' m' U m d m' U' m d' F",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "F':[m' U m,d]"
+        ],
+        [
+            "3Lw' r' e r U2 r' e' r U2 3Lw",
+            [
+                "Howie Craig"
+            ],
+            "3Lw':[r' e r,U2]"
         ]
     ],
     "GSM": [
@@ -34015,18 +34015,18 @@
             "R:[l' U2 l,e']"
         ],
         [
-            "Lw' U m d' m' U2 m d m' U Lw",
-            [
-                "Howie Craig"
-            ],
-            "Lw' U:[m d' m',U2]"
-        ],
-        [
             "U Dw' m' U l' U' m U l U2 Dw",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "U Dw':[m',U l' U']"
+        ],
+        [
+            "Lw' U m d' m' U2 m d m' U Lw",
+            [
+                "Howie Craig"
+            ],
+            "Lw' U:[m d' m',U2]"
         ]
     ],
     "GSR": [
@@ -34067,18 +34067,18 @@
             "F2:[e2,l U2 l']"
         ],
         [
-            "U' x' l2 U m' U' l2 U m U' x U",
-            [
-                "Howie Craig"
-            ],
-            "U' x':[l2,U m' U']"
-        ],
-        [
             "U x' l2 U' m' U l2 U' m U x U'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "U x':[l2,U' m' U]"
+        ],
+        [
+            "U' x' l2 U m' U' l2 U m U' x U",
+            [
+                "Howie Craig"
+            ],
+            "U' x':[l2,U m' U']"
         ]
     ],
     "GSX": [
@@ -34212,18 +34212,18 @@
             "y' L:[r U r',e]"
         ],
         [
-            "Lw' u m U m' u' m U' m' Lw",
-            [
-                "Howie Craig"
-            ],
-            "Lw':[u,m U m']"
-        ],
-        [
             "4Rw' r U' r' e r U r' e' 4Rw",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "4Rw':[r U' r',e]"
+        ],
+        [
+            "Lw' u m U m' u' m U' m' Lw",
+            [
+                "Howie Craig"
+            ],
+            "Lw':[u,m U m']"
         ]
     ],
     "GTH": [
@@ -34235,18 +34235,18 @@
             "R y:[e2,r U' r']"
         ],
         [
-            "Lw' u' m' U' m u2 m' U m u' Lw",
-            [
-                "Howie Craig"
-            ],
-            "Lw' u':[m' U' m,u2]"
-        ],
-        [
             "4Dw U m U' r U m' U' r' 4Dw'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "4Dw:[U m U',r]"
+        ],
+        [
+            "Lw' u' m' U' m u2 m' U m u' Lw",
+            [
+                "Howie Craig"
+            ],
+            "Lw' u':[m' U' m,u2]"
         ]
     ],
     "GTI": [
@@ -34275,18 +34275,18 @@
             "y' R':[r U r',e']"
         ],
         [
-            "x U' Uw' m' Uw r' Uw' m Uw r U x'",
-            [
-                "Howie Craig"
-            ],
-            "x U':[Uw' m' Uw,r']"
-        ],
-        [
             "U m' 3Uw l 3Uw' m 3Uw l' 3Uw' U'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "U:[m',3Uw l 3Uw']"
+        ],
+        [
+            "x U' Uw' m' Uw r' Uw' m Uw r U x'",
+            [
+                "Howie Craig"
+            ],
+            "x U':[Uw' m' Uw,r']"
         ]
     ],
     "GTK": [
@@ -34315,18 +34315,18 @@
             "L m':[d,m' U m]"
         ],
         [
-            "3Uw m2 U l U' m2 U l' U' 3Uw'",
-            [
-                "Howie Craig"
-            ],
-            "3Uw:[m2,U l U']"
-        ],
-        [
             "e U m2 U' r U m2 U' r' e'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "e:[U m2 U',r]"
+        ],
+        [
+            "3Uw m2 U l U' m2 U l' U' 3Uw'",
+            [
+                "Howie Craig"
+            ],
+            "3Uw:[m2,U l U']"
         ]
     ],
     "GTN": [
@@ -34338,18 +34338,18 @@
             "y' L':[r U r',e]"
         ],
         [
-            "Lw d' m U' m' d m U 3Lw'",
-            [
-                "Howie Craig"
-            ],
-            "Lw:[d',m U' m']"
-        ],
-        [
             "e U' m U r U' m' U r' e'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "e:[U' m U,r]"
+        ],
+        [
+            "Lw d' m U' m' d m U 3Lw'",
+            [
+                "Howie Craig"
+            ],
+            "Lw:[d',m U' m']"
         ]
     ],
     "GTO": [
@@ -34361,18 +34361,18 @@
             "U2 r:[e,r U2 r']"
         ],
         [
-            "U' r e r U r' e' r U' r2 U",
-            [
-                "Howie Craig"
-            ],
-            "U' r:[e,r U r']"
-        ],
-        [
             "L' r2 Uw' m' Uw r2 Uw' m Uw L",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "L':[r2,Uw' m' Uw]"
+        ],
+        [
+            "U' r e r U r' e' r U' r2 U",
+            [
+                "Howie Craig"
+            ],
+            "U' r:[e,r U r']"
         ]
     ],
     "GTP": [
@@ -34384,18 +34384,18 @@
             "y F':[e2,r U' r']"
         ],
         [
-            "z' D r2 Uw' m' Uw r2 Uw' m Uw D' z",
-            [
-                "Howie Craig"
-            ],
-            "z' D:[r2,Uw' m' Uw]"
-        ],
-        [
             "4Uw' m U r U' m' U r' E'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "4Uw':[m,U r U']"
+        ],
+        [
+            "z' D r2 Uw' m' Uw r2 Uw' m Uw D' z",
+            [
+                "Howie Craig"
+            ],
+            "z' D:[r2,Uw' m' Uw]"
         ]
     ],
     "GTQ": [
@@ -34407,18 +34407,18 @@
             "y':[r U r',e']"
         ],
         [
-            "x Uw' m' Uw r' Uw' m Uw r x'",
-            [
-                "Howie Craig"
-            ],
-            "x:[Uw' m' Uw,r']"
-        ],
-        [
             "U' e r U r' e' r U' r' U",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "U':[e,r U r']"
+        ],
+        [
+            "x Uw' m' Uw r' Uw' m Uw r x'",
+            [
+                "Howie Craig"
+            ],
+            "x:[Uw' m' Uw,r']"
         ]
     ],
     "GTR": [
@@ -34430,18 +34430,18 @@
             "R2 y:[e2,r U' r']"
         ],
         [
-            "y' x' r2 U' m' U r2 U' m U x y",
-            [
-                "Howie Craig"
-            ],
-            "y' x':[r2,U' m' U]"
-        ],
-        [
             "R' y m' U l U' m U l' U' y' R",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "R' y:[m',U l U']"
+        ],
+        [
+            "y' x' r2 U' m' U r2 U' m U x y",
+            [
+                "Howie Craig"
+            ],
+            "y' x':[r2,U' m' U]"
         ]
     ],
     "GTS": [
@@ -34487,18 +34487,18 @@
             "y' L2:[r U r',e]"
         ],
         [
-            "U' r2 e r U r' e' r U' r U",
-            [
-                "Howie Craig"
-            ],
-            "U' r':[r' e r,U]"
-        ],
-        [
             "Rw' U r U' r' e r U r' e' U' Rw",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "Rw' U:[r U' r',e]"
+        ],
+        [
+            "U' r2 e r U r' e' r U' r U",
+            [
+                "Howie Craig"
+            ],
+            "U' r':[r' e r,U]"
         ]
     ],
     "GTZ": [
@@ -34510,18 +34510,18 @@
             "y':[r U r',e2]"
         ],
         [
-            "e' l U2 l' e2 l U2 l' e'",
-            [
-                "Howie Craig"
-            ],
-            "e':[l U2 l',e2]"
-        ],
-        [
             "3Uw' r U r' e2 r U' r' e2 3Uw",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Uw':[r U r',e2]"
+        ],
+        [
+            "e' l U2 l' e2 l U2 l' e'",
+            [
+                "Howie Craig"
+            ],
+            "e':[l U2 l',e2]"
         ]
     ],
     "GWA": [
@@ -34596,18 +34596,18 @@
     ],
     "GWD": [
         [
-            "Lw U2 l' e' l U2 l' e L'",
-            [
-                "Howie Craig"
-            ],
-            "L:[l U2 l',e']"
-        ],
-        [
             "Uw m U l U' m' U l' U' Uw'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "Uw:[m,U l U']"
+        ],
+        [
+            "Lw U2 l' e' l U2 l' e L'",
+            [
+                "Howie Craig"
+            ],
+            "L:[l U2 l',e']"
         ]
     ],
     "GWE": [
@@ -34646,18 +34646,18 @@
             "y F:[e',r U' r']"
         ],
         [
-            "Lw U m' u' m U2 m' u m U Lw'",
-            [
-                "Howie Craig"
-            ],
-            "Lw U:[m' u' m,U2]"
-        ],
-        [
             "U2 Uw m' Uw' l Uw m Uw' l' U2",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "U2:[Uw m' Uw',l]"
+        ],
+        [
+            "Lw U m' u' m U2 m' u m U Lw'",
+            [
+                "Howie Craig"
+            ],
+            "Lw U:[m' u' m,U2]"
         ]
     ],
     "GWI": [
@@ -34706,18 +34706,18 @@
             "y' F':[e,r U r']"
         ],
         [
-            "L' l U2 l' e' l U2 l' e L",
-            [
-                "Howie Craig"
-            ],
-            "L':[l U2 l',e']"
-        ],
-        [
             "U 4Rw' d m' U' m d' m' U m 4Rw U'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "U 4Rw':[d,m' U' m]"
+        ],
+        [
+            "L' l U2 l' e' l U2 l' e L",
+            [
+                "Howie Craig"
+            ],
+            "L':[l U2 l',e']"
         ]
     ],
     "GWM": [
@@ -34732,18 +34732,18 @@
     ],
     "GWO": [
         [
-            "D U m2 U l U' m2 U l' U2 D'",
-            [
-                "Howie Craig"
-            ],
-            "D U:[m2,U l U']"
-        ],
-        [
             "U' D' m2 U' l U m2 U' l' U2 D",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "U' D':[m2,U' l U]"
+        ],
+        [
+            "D U m2 U l U' m2 U l' U2 D'",
+            [
+                "Howie Craig"
+            ],
+            "D U:[m2,U l U']"
         ]
     ],
     "GWP": [
@@ -34755,18 +34755,18 @@
             "y F':[e',r U' r']"
         ],
         [
-            "z' m2 u' m' U' m u m' U m' z",
-            [
-                "Howie Craig"
-            ],
-            "z' m:[m u' m',U']"
-        ],
-        [
             "U Dw' m' U l U' m U l' Dw U2",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "U Dw':[m',U l U']"
+        ],
+        [
+            "z' m2 u' m' U' m u m' U m' z",
+            [
+                "Howie Craig"
+            ],
+            "z' m:[m u' m',U']"
         ]
     ],
     "GWQ": [
@@ -34812,18 +34812,18 @@
             "F2:[l U2 l',e2]"
         ],
         [
-            "U' x' U m' U' l2 U m U' l2 x U",
-            [
-                "Howie Craig"
-            ],
-            "U' x':[U m' U',l2]"
-        ],
-        [
             "U x' U' m' U l2 U' m U l2 x U'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "U x':[U' m' U,l2]"
+        ],
+        [
+            "U' x' U m' U' l2 U m U' l2 x U",
+            [
+                "Howie Craig"
+            ],
+            "U' x':[U m' U',l2]"
         ]
     ],
     "GWT": [
@@ -34965,18 +34965,18 @@
             "y' L':[l' U' l,e]"
         ],
         [
-            "Lw u m U m' u' m U' 3Lw'",
-            [
-                "Howie Craig"
-            ],
-            "Lw:[u,m U m']"
-        ],
-        [
             "3Dw' U m U' r' U m' U' r 3Dw",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Dw':[U m U',r']"
+        ],
+        [
+            "Lw u m U m' u' m U' 3Lw'",
+            [
+                "Howie Craig"
+            ],
+            "Lw:[u,m U m']"
         ]
     ],
     "GXH": [
@@ -34988,18 +34988,18 @@
             "R' y:[e2,l' U l]"
         ],
         [
-            "Lw u' m' U' m u2 m' U m u' Lw'",
-            [
-                "Howie Craig"
-            ],
-            "Lw u':[m' U' m,u2]"
-        ],
-        [
             "4Dw' U' m' U r' U' m U r 4Dw",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "4Dw':[U' m' U,r']"
+        ],
+        [
+            "Lw u' m' U' m u2 m' U m u' Lw'",
+            [
+                "Howie Craig"
+            ],
+            "Lw u':[m' U' m,u2]"
         ]
     ],
     "GXI": [
@@ -35011,18 +35011,18 @@
             "D' l':[e,l' U2 l]"
         ],
         [
-            "4Uw' m2 U' l' U m2 U' l U 4Uw",
-            [
-                "Howie Craig"
-            ],
-            "4Uw':[m2,U' l' U]"
-        ],
-        [
             "3Uw' m2 U' l' U m2 U' l U 3Uw",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Uw':[m2,U' l' U]"
+        ],
+        [
+            "4Uw' m2 U' l' U m2 U' l U 4Uw",
+            [
+                "Howie Craig"
+            ],
+            "4Uw':[m2,U' l' U]"
         ]
     ],
     "GXJ": [
@@ -35034,18 +35034,18 @@
             "F:[e,l' U2 l]"
         ],
         [
-            "3Lw D' r2 Uw' m' Uw r2 Uw' m Uw D 3Lw'",
-            [
-                "Howie Craig"
-            ],
-            "3Lw D':[r2,Uw' m' Uw]"
-        ],
-        [
             "L' d m' U m d' m' U' m L",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "L':[d,m' U m]"
+        ],
+        [
+            "3Lw D' r2 Uw' m' Uw r2 Uw' m Uw D 3Lw'",
+            [
+                "Howie Craig"
+            ],
+            "3Lw D':[r2,Uw' m' Uw]"
         ]
     ],
     "GXK": [
@@ -35077,18 +35077,18 @@
     ],
     "GXN": [
         [
-            "Lw' d' m U' m' d m U m' Lw",
-            [
-                "Howie Craig"
-            ],
-            "Lw':[d',m U' m']"
-        ],
-        [
             "3Uw' m U' l' U m' U' l U 3Uw",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Uw':[m,U' l' U]"
+        ],
+        [
+            "Lw' d' m U' m' d m U m' Lw",
+            [
+                "Howie Craig"
+            ],
+            "Lw':[d',m U' m']"
         ]
     ],
     "GXO": [
@@ -35100,18 +35100,18 @@
             "D2 l':[e,l' U2 l]"
         ],
         [
-            "3Lw r2 Uw' m' Uw r2 Uw' m Uw 3Lw'",
-            [
-                "Howie Craig"
-            ],
-            "3Lw:[r2,Uw' m' Uw]"
-        ],
-        [
             "L r2 Uw' m' Uw r2 Uw' m Uw L'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "L:[r2,Uw' m' Uw]"
+        ],
+        [
+            "3Lw r2 Uw' m' Uw r2 Uw' m Uw 3Lw'",
+            [
+                "Howie Craig"
+            ],
+            "3Lw:[r2,Uw' m' Uw]"
         ]
     ],
     "GXP": [
@@ -35123,18 +35123,18 @@
             "R y:[e2,l' U l]"
         ],
         [
-            "z' D' r2 Uw' m' Uw r2 Uw' m Uw D z",
-            [
-                "Howie Craig"
-            ],
-            "z' D':[r2,Uw' m' Uw]"
-        ],
-        [
             "4Uw m' U' r' U m U' r E",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "4Uw:[m',U' r' U]"
+        ],
+        [
+            "z' D' r2 Uw' m' Uw r2 Uw' m Uw D z",
+            [
+                "Howie Craig"
+            ],
+            "z' D':[r2,Uw' m' Uw]"
         ]
     ],
     "GXQ": [
@@ -35146,18 +35146,18 @@
             "y' F2:[r U r',e']"
         ],
         [
-            "3Lw r Uw' m' Uw r' Uw' m Uw 3Lw'",
-            [
-                "Howie Craig"
-            ],
-            "3Lw:[r,Uw' m' Uw]"
-        ],
-        [
             "L r Uw' m' Uw r' Uw' m Uw L'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "L:[r,Uw' m' Uw]"
+        ],
+        [
+            "3Lw r Uw' m' Uw r' Uw' m Uw 3Lw'",
+            [
+                "Howie Craig"
+            ],
+            "3Lw:[r,Uw' m' Uw]"
         ]
     ],
     "GXR": [
@@ -35215,18 +35215,18 @@
             "y':[l' U' l,e]"
         ],
         [
-            "x' Uw' m' Uw r Uw' m Uw r' x",
-            [
-                "Howie Craig"
-            ],
-            "x':[Uw' m' Uw,r]"
-        ],
-        [
             "U' e' r' U r e r' U' r U",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "U':[e',r' U r]"
+        ],
+        [
+            "x' Uw' m' Uw r Uw' m Uw r' x",
+            [
+                "Howie Craig"
+            ],
+            "x':[Uw' m' Uw,r]"
         ]
     ],
     "GXZ": [
@@ -35238,18 +35238,18 @@
             "y' F2:[r U r',e2]"
         ],
         [
-            "y x' U m' U' r2 U m U' r2 x y'",
-            [
-                "Howie Craig"
-            ],
-            "y x':[U m' U',r2]"
-        ],
-        [
             "R 4Uw m' U' r' U m U' r E R'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "R 4Uw:[m',U' r' U]"
+        ],
+        [
+            "y x' U m' U' r2 U m U' r2 x y'",
+            [
+                "Howie Craig"
+            ],
+            "y x':[U m' U',r2]"
         ]
     ],
     "GYA": [
@@ -35455,18 +35455,18 @@
             "y' F:[e,l' U' l]"
         ],
         [
-            "3Lw2 Uw' m' Uw r' Uw' m Uw r 3Lw2",
-            [
-                "Howie Craig"
-            ],
-            "3Lw2:[Uw' m' Uw,r']"
-        ],
-        [
             "Dw' U' m U r' U' m' U r Dw",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "Dw':[U' m U,r']"
+        ],
+        [
+            "3Lw2 Uw' m' Uw r' Uw' m Uw r 3Lw2",
+            [
+                "Howie Craig"
+            ],
+            "3Lw2:[Uw' m' Uw,r']"
         ]
     ],
     "GYM": [
@@ -35512,18 +35512,18 @@
             "y F:[e',l' U l]"
         ],
         [
-            "S' r' Uw' m' Uw r Uw' m Uw S",
-            [
-                "Howie Craig"
-            ],
-            "S':[r',Uw' m' Uw]"
-        ],
-        [
             "Dw U' m U r' U' m' U r Dw'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "Dw:[U' m U,r']"
+        ],
+        [
+            "S' r' Uw' m' Uw r Uw' m Uw S",
+            [
+                "Howie Craig"
+            ],
+            "S':[r',Uw' m' Uw]"
         ]
     ],
     "GYQ": [
@@ -35552,18 +35552,18 @@
             "y:[e',l' U l]"
         ],
         [
-            "y' x' m' U' m u' m' U m u x y",
-            [
-                "Howie Craig"
-            ],
-            "y' x':[m' U' m,u']"
-        ],
-        [
             "U r' U' r e r' U r e' U'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "U:[r' U' r,e]"
+        ],
+        [
+            "y' x' m' U' m u' m' U m u x y",
+            [
+                "Howie Craig"
+            ],
+            "y' x':[m' U' m,u']"
         ]
     ],
     "GYS": [
@@ -35587,18 +35587,18 @@
             "y' L2:[e,r U r']"
         ],
         [
-            "U' r' U r' e r U' r' e' r2 U",
-            [
-                "Howie Craig"
-            ],
-            "U' r':[U,r' e r]"
-        ],
-        [
             "Rw' U e r U' r' e' r U r' U' Rw",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "Rw' U:[e,r U' r']"
+        ],
+        [
+            "U' r' U r' e r U' r' e' r2 U",
+            [
+                "Howie Craig"
+            ],
+            "U' r':[U,r' e r]"
         ]
     ],
     "GYX": [
@@ -35610,18 +35610,18 @@
             "y':[e,l' U' l]"
         ],
         [
-            "x' r Uw' m' Uw r' Uw' m Uw x",
-            [
-                "Howie Craig"
-            ],
-            "x':[r,Uw' m' Uw]"
-        ],
-        [
             "U' r' U r e' r' U' r e U",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "U':[r' U r,e']"
+        ],
+        [
+            "x' r Uw' m' Uw r' Uw' m Uw x",
+            [
+                "Howie Craig"
+            ],
+            "x':[r,Uw' m' Uw]"
         ]
     ],
     "GYZ": [
@@ -35721,18 +35721,18 @@
             "y' F:[e2,r U r']"
         ],
         [
-            "R' u m' U' m u2 m' U m u R",
-            [
-                "Howie Craig"
-            ],
-            "R' u:[m' U' m,u2]"
-        ],
-        [
             "3Uw m U' r U m' U' r' U 3Uw'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Uw:[m,U' r U]"
+        ],
+        [
+            "R' u m' U' m u2 m' U m u R",
+            [
+                "Howie Craig"
+            ],
+            "R' u:[m' U' m,u2]"
         ]
     ],
     "GZE": [
@@ -35758,18 +35758,18 @@
             "y R:[r U' r',e']"
         ],
         [
-            "R' u' m U m' u m U' m' R",
-            [
-                "Howie Craig"
-            ],
-            "R':[u',m U m']"
-        ],
-        [
             "3Dw' U m U' r U m' U' r' 3Dw",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Dw':[U m U',r]"
+        ],
+        [
+            "R' u' m U m' u m U' m' R",
+            [
+                "Howie Craig"
+            ],
+            "R':[u',m U m']"
         ]
     ],
     "GZI": [
@@ -35781,18 +35781,18 @@
             "R' m':[u,m' U' m]"
         ],
         [
-            "4Uw' m2 U' l U m2 U' l' U 4Uw",
-            [
-                "Howie Craig"
-            ],
-            "4Uw':[m2,U' l U]"
-        ],
-        [
             "U' m2 3Uw r 3Uw' m2 3Uw r' 3Uw' U",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "U':[m2,3Uw r 3Uw']"
+        ],
+        [
+            "4Uw' m2 U' l U m2 U' l' U 4Uw",
+            [
+                "Howie Craig"
+            ],
+            "4Uw':[m2,U' l U]"
         ]
     ],
     "GZJ": [
@@ -35804,18 +35804,18 @@
             "R:[d',m' U m]"
         ],
         [
-            "R' F2 u m' U' m u' m' U m F2 R",
-            [
-                "Howie Craig"
-            ],
-            "R' F2:[u,m' U' m]"
-        ],
-        [
             "3Uw m' U' r U m U' r' U 3Uw'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Uw:[m',U' r U]"
+        ],
+        [
+            "R' F2 u m' U' m u' m' U m F2 R",
+            [
+                "Howie Craig"
+            ],
+            "R' F2:[u,m' U' m]"
         ]
     ],
     "GZK": [
@@ -35827,18 +35827,18 @@
             "y:[m2,U' r U]"
         ],
         [
-            "y' m2 U' l U m2 U' l' U y",
-            [
-                "Howie Craig"
-            ],
-            "y':[m2,U' l U]"
-        ],
-        [
             "3Dw' U m2 U' r U m2 U' r' 3Dw",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Dw':[U m2 U',r]"
+        ],
+        [
+            "y' m2 U' l U m2 U' l' U y",
+            [
+                "Howie Craig"
+            ],
+            "y':[m2,U' l U]"
         ]
     ],
     "GZL": [
@@ -35850,34 +35850,34 @@
             "y' F':[e2,r U r']"
         ],
         [
-            "y x' U r2 U m' U' r2 U m U2 x y'",
-            [
-                "Howie Craig"
-            ],
-            "y x' U:[r2,U m' U']"
-        ],
-        [
             "3Dw' U' m U r U' m' U r' 3Dw",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Dw':[U' m U,r]"
-        ]
-    ],
-    "GZM": [
+        ],
         [
-            "D' U' r e' r U r' e r U' r2 U D",
+            "y x' U r2 U m' U' r2 U m U2 x y'",
             [
                 "Howie Craig"
             ],
-            "D' U' r:[e',r U r']"
-        ],
+            "y x' U:[r2,U m' U']"
+        ]
+    ],
+    "GZM": [
         [
             "e' U m2 U' r U m2 U' r' e",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "e':[U m2 U',r]"
+        ],
+        [
+            "D' U' r e' r U r' e r U' r2 U D",
+            [
+                "Howie Craig"
+            ],
+            "D' U' r:[e',r U r']"
         ]
     ],
     "GZN": [
@@ -35889,18 +35889,18 @@
             "y R':[r U' r',e']"
         ],
         [
-            "3Lw U r' e' r U' r' e 4Lw'",
-            [
-                "Howie Craig"
-            ],
-            "3Lw:[U,r' e' r]"
-        ],
-        [
             "e' U' m U r U' m' U r' e",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "e':[U' m U,r]"
+        ],
+        [
+            "3Lw U r' e' r U' r' e 4Lw'",
+            [
+                "Howie Craig"
+            ],
+            "3Lw:[U,r' e' r]"
         ]
     ],
     "GZO": [
@@ -35956,18 +35956,18 @@
             "y':[e2,r U r']"
         ],
         [
-            "e l U2 l' e2 l U2 l' e",
-            [
-                "Howie Craig"
-            ],
-            "e:[l U2 l',e2]"
-        ],
-        [
             "3Uw' e2 r U r' e2 r U' r' 3Uw",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Uw':[e2,r U r']"
+        ],
+        [
+            "e l U2 l' e2 l U2 l' e",
+            [
+                "Howie Craig"
+            ],
+            "e:[l U2 l',e2]"
         ]
     ],
     "GZW": [
@@ -35996,18 +35996,18 @@
             "y' F2:[e2,r U r']"
         ],
         [
-            "y x' r2 U m' U' r2 U m U' x y'",
-            [
-                "Howie Craig"
-            ],
-            "y x':[r2,U m' U']"
-        ],
-        [
             "R E' r' U m' U' r U m 4Uw' R'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "R 4Uw:[U' r' U,m']"
+        ],
+        [
+            "y x' r2 U m' U' r2 U m U' x y'",
+            [
+                "Howie Craig"
+            ],
+            "y x':[r2,U m' U']"
         ]
     ],
     "GZY": [
@@ -36267,6 +36267,13 @@
             "Rw':[3Uw' r' 3Uw,m']"
         ],
         [
+            "Rw' 4Uw' r' 4Uw m' 4Uw' r 4Uw m Rw",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "Rw':[4Uw' r' 4Uw,m']"
+        ],
+        [
             "m d R2 d' m' d R2 d'",
             [
                 "Leonardo Ezequiel Cruz"
@@ -36286,13 +36293,6 @@
                 "James Molloy"
             ],
             "F' R:[r U' r',e']"
-        ],
-        [
-            "Rw' 4Uw' r' 4Uw m' 4Uw' r 4Uw m Rw",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "Rw':[4Uw' r' 4Uw,m']"
         ]
     ],
     "HAK": [
@@ -36687,18 +36687,18 @@
             "E:[m,U' r U]"
         ],
         [
-            "R e r U' r' e2 r U r' e R'",
-            [
-                "James Molloy"
-            ],
-            "R e:[r U' r',e2]"
-        ],
-        [
             "3Uw U m' U' l U m U' l' 3Uw'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Uw:[U m' U',l]"
+        ],
+        [
+            "R e r U' r' e2 r U r' e R'",
+            [
+                "James Molloy"
+            ],
+            "R e:[r U' r',e2]"
         ]
     ],
     "HAW": [
@@ -37017,18 +37017,18 @@
             "z Uw:[m',Uw r2 Uw']"
         ],
         [
-            "Dw' m U m u m' U' m u' m2 Dw",
-            [
-                "Howie Craig"
-            ],
-            "Dw' m:[U,m u m']"
-        ],
-        [
             "L' 3Uw m' U' l U m U' l' U 3Uw' L",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "L' 3Uw:[m',U' l U]"
+        ],
+        [
+            "Dw' m U m u m' U' m u' m2 Dw",
+            [
+                "Howie Craig"
+            ],
+            "Dw' m:[U,m u m']"
         ]
     ],
     "HCM": [
@@ -37040,18 +37040,18 @@
             "y:[m',U r2 U']"
         ],
         [
-            "D Uw m' Uw' l2 Uw m Uw' l2 D'",
-            [
-                "Howie Craig"
-            ],
-            "D:[Uw m' Uw',l2]"
-        ],
-        [
             "m2 U' m' u' m U m' u m'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "m:[m U' m',u']"
+        ],
+        [
+            "D Uw m' Uw' l2 Uw m Uw' l2 D'",
+            [
+                "Howie Craig"
+            ],
+            "D:[Uw m' Uw',l2]"
         ]
     ],
     "HCN": [
@@ -37113,18 +37113,18 @@
             "3Uw':[m,U' r U]"
         ],
         [
-            "L' u' m' U m u2 m' U' m u' L",
-            [
-                "Howie Craig"
-            ],
-            "L' u':[m' U m,u2]"
-        ],
-        [
             "3Uw m' U' l U m U' l' U 3Uw'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Uw:[m',U' l U]"
+        ],
+        [
+            "L' u' m' U m u2 m' U' m u' L",
+            [
+                "Howie Craig"
+            ],
+            "L' u':[m' U m,u2]"
         ]
     ],
     "HCW": [
@@ -37346,18 +37346,18 @@
             "U':[m U' m',u']"
         ],
         [
-            "y u m' U' m u' m' U m y'",
-            [
-                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
-            ],
-            "y:[u,m' U' m]"
-        ],
-        [
             "Uw u m' U' m u' m' U m Uw'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "Uw:[u,m' U' m]"
+        ],
+        [
+            "y u m' U' m u' m' U m y'",
+            [
+                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
+            ],
+            "y:[u,m' U' m]"
         ]
     ],
     "HEI": [
@@ -37423,20 +37423,20 @@
             "Uw m':[m' d' m,U']"
         ],
         [
-            "x' z' m2 U l' U' m2 U l U' z x",
-            [
-                "Daniel Lin",
-                "Ethan Pan"
-            ],
-            "x' z':[m2,U l' U']"
-        ],
-        [
             "Uw' m2 d m' U' m d' m' U m' Uw",
             [
                 "Hana Davila",
                 "Ziyi Xu (徐梓翼)"
             ],
             "Uw' m:[m d m',U']"
+        ],
+        [
+            "x' z' m2 U l' U' m2 U l U' z x",
+            [
+                "Daniel Lin",
+                "Ethan Pan"
+            ],
+            "x' z':[m2,U l' U']"
         ],
         [
             "y x' U r U' m2 U r' U' m2 x y'",
@@ -37836,6 +37836,13 @@
             "Rw':[m',3Uw' r' 3Uw]"
         ],
         [
+            "Rw' m' 4Uw' r' 4Uw m 4Uw' r 4Uw Rw",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "Rw':[m',4Uw' r' 4Uw]"
+        ],
+        [
             "d R2 d' m d R2 d' m'",
             [
                 "Leonardo Ezequiel Cruz"
@@ -37855,13 +37862,6 @@
                 "James Molloy"
             ],
             "F' R:[e',r U' r']"
-        ],
-        [
-            "Rw' m' 4Uw' r' 4Uw m 4Uw' r 4Uw Rw",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "Rw':[m',4Uw' r' 4Uw]"
         ]
     ],
     "HJC": [
@@ -38033,18 +38033,18 @@
             "z Uw:[Uw r2 Uw',m']"
         ],
         [
-            "Dw' m2 u m' U m u' m' U' m' Dw",
-            [
-                "Howie Craig"
-            ],
-            "Dw' m:[m u m',U]"
-        ],
-        [
             "L' 3Uw U' l U m' U' l' U m 3Uw' L",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "L' 3Uw:[U' l U,m']"
+        ],
+        [
+            "Dw' m2 u m' U m u' m' U' m' Dw",
+            [
+                "Howie Craig"
+            ],
+            "Dw' m:[m u m',U]"
         ]
     ],
     "HLE": [
@@ -38057,20 +38057,20 @@
             "Uw m':[U',m' d' m]"
         ],
         [
-            "x' z' U l' U' m2 U l U' m2 z x",
-            [
-                "Daniel Lin",
-                "Ethan Pan"
-            ],
-            "x' z':[U l' U',m2]"
-        ],
-        [
             "Uw' m U' m d m' U m d' m2 Uw",
             [
                 "Hana Davila",
                 "Ziyi Xu (徐梓翼)"
             ],
             "Uw' m:[U',m d m']"
+        ],
+        [
+            "x' z' U l' U' m2 U l U' m2 z x",
+            [
+                "Daniel Lin",
+                "Ethan Pan"
+            ],
+            "x' z':[U l' U',m2]"
         ],
         [
             "y x' m2 U r U' m2 U r' U' x y'",
@@ -38152,18 +38152,18 @@
             "y:[U r2 U',m']"
         ],
         [
-            "D l2 Uw m' Uw' l2 Uw m Uw' D'",
-            [
-                "Howie Craig"
-            ],
-            "D:[l2,Uw m' Uw']"
-        ],
-        [
             "m u' m U' m' u m U m2",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "m:[u',m U' m']"
+        ],
+        [
+            "D l2 Uw m' Uw' l2 Uw m Uw' D'",
+            [
+                "Howie Craig"
+            ],
+            "D:[l2,Uw m' Uw']"
         ]
     ],
     "HME": [
@@ -38573,18 +38573,18 @@
             "4Uw':[r,U m U']"
         ],
         [
-            "R e' r U' r' e2 r U r' e' R'",
-            [
-                "James Molloy"
-            ],
-            "R e':[r U' r',e2]"
-        ],
-        [
             "3Uw l U m' U' l' U m U' 3Uw'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Uw:[l,U m' U']"
+        ],
+        [
+            "R e' r U' r' e2 r U r' e' R'",
+            [
+                "James Molloy"
+            ],
+            "R e':[r U' r',e2]"
         ]
     ],
     "HTC": [
@@ -38596,18 +38596,18 @@
             "3Uw':[U' r U,m]"
         ],
         [
-            "L' u m' U m u2 m' U' m u L",
-            [
-                "Howie Craig"
-            ],
-            "L' u:[m' U m,u2]"
-        ],
-        [
             "3Uw U' l U m' U' l' U m 3Uw'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Uw:[U' l U,m']"
+        ],
+        [
+            "L' u m' U m u2 m' U' m u L",
+            [
+                "Howie Craig"
+            ],
+            "L' u:[m' U m,u2]"
         ]
     ],
     "HTE": [
