@@ -70,6 +70,8 @@
     "wingCode2": "非標準（FUrでナンバリング）"
   },
   "nightmare": {
+    "corner": "3-Styleコーナー",
+    "edge": "3-Styleエッジ",
     "2e2e": "2e2e",
     "2c2c": "2c2c",
     "2flips": "全2エッジフリップ",
@@ -78,6 +80,8 @@
     "4flips": "全4エッジフリップ",
     "5style": "5-Styleエッジ(UR)",
     "ltct": "LTCT",
-    "parity": "パリティ"
+    "parity": "パリティ",
+    "code": "ナンバリング",
+    "algorithm": "手順"
   }
 }

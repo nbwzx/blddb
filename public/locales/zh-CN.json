@@ -70,6 +70,8 @@
     "wingCode2": "非标准（在 FUr 位置编码）"
   },
   "nightmare": {
+    "corner": "全缓冲角",
+    "edge": "全缓冲棱",
     "2e2e": "2e2e",
     "2c2c": "2c2c",
     "2flips": "全两棱翻",
@@ -78,6 +80,8 @@
     "4flips": "全四棱翻",
     "5style": "五循环(UR)",
     "ltct": "奇偶带翻",
-    "parity": "奇偶"
+    "parity": "奇偶",
+    "code": "编码",
+    "algorithm": "公式"
   }
 }

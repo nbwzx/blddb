@@ -2,12 +2,17 @@
 
 import { useTranslation } from "@/i18n/client";
 import React, { JSX } from "react";
+import codeConverter from "@/utils/codeConverter";
 
 const ArrayTable = ({ codeType }: { codeType: string }) => {
   const { t } = useTranslation();
-  const data: string[][] = require(
-    `public/data/nightmare/${codeType}.ts`,
-  ).default;
+  const isCornerEdge = codeType === "corner" || codeType === "edge";
+  const data: string[][] = isCornerEdge
+    ? []
+    : require(`public/data/nightmare/${codeType}.ts`).default;
+  const dataCornerEdge: { [key: string]: string } = isCornerEdge
+    ? require(`public/data/${codeType}NightmareSelected.json`)
+    : {};
 
   const splitArrayByEmptyLine = (dataInput: string[][]): string[][][] => {
     const subArrays: string[][][] = [];
@@ -38,7 +43,39 @@ const ArrayTable = ({ codeType }: { codeType: string }) => {
     return subArrays;
   };
 
-  const subArrays = splitArrayByEmptyLine(data);
+  let subArrays: string[][][] = [];
+  const array: string[][] = [];
+  if (isCornerEdge) {
+    const numColumns = codeConverter.codeTypeToNumber(codeType);
+    let cnt = 0;
+    let newRow: string[] = [];
+    for (const key in dataCornerEdge) {
+      cnt++;
+      newRow.push(key);
+      newRow.push(dataCornerEdge[key]);
+      if (cnt % numColumns === 0) {
+        array.push(newRow);
+        newRow = [];
+      }
+    }
+    // UFR-UBR-UFL-UBL-DFR-DFL
+    const orderCorner = ["J", "G", "A", "D", "X", "W"];
+    // UR-UF-UL-UB-DR-DL-FR-FL-BR-DF
+    const orderEdge = ["G", "A", "C", "E", "O", "K", "Q", "S", "Y", "I"];
+    const order = codeType === "corner" ? orderCorner : orderEdge;
+    array.sort((a, b) => {
+      return order.indexOf(a[0][0]) - order.indexOf(b[0][0]);
+    });
+    array.unshift([]);
+    for (let i = 0; i < numColumns; i++) {
+      array[0].push(t("nightmare.code"));
+      array[0].push(t("nightmare.algorithm"));
+    }
+    subArrays.push(array);
+  } else {
+    subArrays = splitArrayByEmptyLine(data);
+  }
+
   const tables: JSX.Element[] = [];
 
   subArrays.forEach((subArray) => {
@@ -97,7 +134,10 @@ const ArrayTable = ({ codeType }: { codeType: string }) => {
       }
     });
     tables.push(
-      <div key={tables.length} className="mt-8 max-h-[75vh] overflow-auto">
+      <div
+        key={tables.length}
+        className={`mt-8 overflow-auto ${isCornerEdge ? "" : "max-h-[75vh]"}`}
+      >
         <table>
           <thead>{currentTableHead}</thead>
           <tbody>{currentTable}</tbody>

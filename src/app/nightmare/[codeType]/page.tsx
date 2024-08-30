@@ -4,6 +4,8 @@ export const dynamicParams = false;
 
 export async function generateStaticParams() {
   const codeTypes = [
+    "corner",
+    "edge",
     "2c2c",
     "2e2e",
     "2flips",

@@ -51,6 +51,14 @@ const menuData: Menu[] = [
     title: "common.Nightmare",
     submenu: [
       {
+        title: "nightmare.corner",
+        path: "/nightmare/corner",
+      },
+      {
+        title: "nightmare.edge",
+        path: "/nightmare/edge",
+      },
+      {
         title: "nightmare.2twists",
         path: "/nightmare/2twists",
       },

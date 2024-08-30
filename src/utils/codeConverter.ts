@@ -170,6 +170,7 @@ const codeConverter = (function () {
     customCodeToPosition,
     positionToCustomCode,
     customCodeToVariantCode,
+    codeTypeToNumber,
     initialInputValues,
     letteringSchemes,
     positionArray,
