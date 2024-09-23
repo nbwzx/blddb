@@ -173,6 +173,10 @@ def main():
                     logger.warning(
                         e.__class__.__name__ + " when trying to get values from the spreadsheet.")
                     time.sleep(10)
+                except Exception as e:
+                    logger.error(e.__class__.__name__ +
+                                 " when trying to get values from the spreadsheet.")
+                    time.sleep(10)
             isbigbld = False
             for rows in values:
                 for cell in rows:
