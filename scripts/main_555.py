@@ -225,10 +225,6 @@ def main():
                     logger.warning(
                         e.__class__.__name__ + " when trying to get values from the spreadsheet.")
                     time.sleep(10)
-                except Exception as e:
-                    logger.error(e.__class__.__name__ +
-                                 " when trying to get values from the spreadsheet.")
-                    time.sleep(10)
             is5bld = False
             if (is_pattern(patterns_midge, title)) or (is_pattern(patterns_tcenter, title)):
                 is5bld = True
