@@ -313,9 +313,16 @@ def main():
             0, ["Position" + " " * 30, "Alg" + " " * 90, "Commutator", "Reconstruction Link", "Youtube Link"])
         for worksheet in worksheets:
             if worksheet.title in full_list:
-                worksheet.update(
-                    values=full_list[worksheet.title], range_name="A1:ZZ10000", value_input_option='USER_ENTERED')
-                worksheet = worksheet.columns_auto_resize(0, 5)
+                while True:
+                    try:
+                        worksheet.update(
+                            values=full_list[worksheet.title], range_name="A1:ZZ10000", value_input_option='USER_ENTERED')
+                        worksheet = worksheet.columns_auto_resize(0, 5)
+                        break
+                    except (TransportError, APIError, ConnectionError, ProxyError, ReadTimeout) as e:
+                        logger.warning(e.__class__.__name__ +
+                                    " when updating the worksheet.")
+                        time.sleep(10)
 
 
 if __name__ == "__main__":
