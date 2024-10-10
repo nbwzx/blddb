@@ -30331,10 +30331,16 @@
             "U2 l' U m2 U' l U m2 U",
             [
                 "Cale Schoon",
-                "Howie Craig",
                 "Ziyi Xu (徐梓翼)"
             ],
             "U':[U' l' U,m2]"
+        ],
+        [
+            "e2 r' U' m2 U r U' m2 U e2",
+            [
+                "Howie Craig"
+            ],
+            "e2:[r',U' m2 U]"
         ]
     ],
     "GIT": [
@@ -30358,10 +30364,16 @@
         [
             "U2 l U m2 U' l' U m2 U",
             [
-                "Howie Craig",
                 "Ziyi Xu (徐梓翼)"
             ],
             "U':[U' l U,m2]"
+        ],
+        [
+            "e2 r U' m2 U r' U' m2 U e2",
+            [
+                "Howie Craig"
+            ],
+            "e2:[r,U' m2 U]"
         ]
     ],
     "GIX": [
@@ -33910,10 +33922,16 @@
             "U' m2 U' l' U m2 U' l U2",
             [
                 "Cale Schoon",
-                "Howie Craig",
                 "Ziyi Xu (徐梓翼)"
             ],
             "U':[m2,U' l' U]"
+        ],
+        [
+            "e2 U' m2 U r' U' m2 U r e2",
+            [
+                "Howie Craig"
+            ],
+            "e2:[U' m2 U,r']"
         ]
     ],
     "GSK": [
@@ -34652,10 +34670,16 @@
         [
             "U' m2 U' l U m2 U' l' U2",
             [
-                "Howie Craig",
                 "Ziyi Xu (徐梓翼)"
             ],
             "U':[m2,U' l U]"
+        ],
+        [
+            "e2 U' m2 U r U' m2 U r' e2",
+            [
+                "Howie Craig"
+            ],
+            "e2:[U' m2 U,r]"
         ]
     ],
     "GWJ": [
