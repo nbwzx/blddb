@@ -11554,26 +11554,20 @@
     ],
     "GCZ": [
         [
+            "Uw' r U r d r' U' r d' r2 Uw",
+            [
+                "Howie Craig",
+                "Stanley Chapel"
+            ],
+            "Uw' r:[U,r d r']"
+        ],
+        [
             "R2 u l U2 l' u2 l U2 l' u R2",
             [
                 "Oliver Fritz",
                 "Ziyi Xu (徐梓翼)"
             ],
             "R2 u:[l U2 l',u2]"
-        ],
-        [
-            "Uw' r U r d r' U' r d' r2 Uw",
-            [
-                "Stanley Chapel"
-            ],
-            "Uw' r:[U,r d r']"
-        ],
-        [
-            "y' x' r2 U' l' U r2 U' l U x y",
-            [
-                "Howie Craig"
-            ],
-            "y' x':[r2,U' l' U]"
         ]
     ],
     "GDB": [
@@ -13754,7 +13748,6 @@
         [
             "Dw' r2 U' l U r2 U' l' U Dw",
             [
-                "Howie Craig",
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -13766,6 +13759,13 @@
                 "Oliver Fritz"
             ],
             "y' U':[l2,U' r U]"
+        ],
+        [
+            "4Dw' r2 U' l U r2 U' l' U 4Dw",
+            [
+                "Howie Craig"
+            ],
+            "4Dw':[r2,U' l U]"
         ]
     ],
     "GMS": [
@@ -15207,7 +15207,6 @@
         [
             "U' d' r' U r d r' U' r U",
             [
-                "Howie Craig",
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -15221,11 +15220,11 @@
             "d:[l' U2 l,d]"
         ],
         [
-            "x' Uw' l' Uw r Uw' l Uw r' x",
+            "Lw r' Uw' l' Uw r Uw' l Uw Lw'",
             [
                 "Howie Craig"
             ],
-            "x':[Uw' l' Uw,r]"
+            "Lw:[r',Uw' l' Uw]"
         ]
     ],
     "GQW": [
@@ -15488,7 +15487,6 @@
         [
             "Dw' U' l U r2 U' l' U r2 Dw",
             [
-                "Howie Craig",
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -15500,6 +15498,13 @@
                 "Oliver Fritz"
             ],
             "y' U':[U' r U,l2]"
+        ],
+        [
+            "4Dw' U' l U r2 U' l' U r2 4Dw",
+            [
+                "Howie Craig"
+            ],
+            "4Dw':[U' l U,r2]"
         ]
     ],
     "GRN": [
@@ -16218,7 +16223,6 @@
         [
             "U' r' U r d' r' U' r d U",
             [
-                "Howie Craig",
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -16232,11 +16236,11 @@
             "d:[d,l' U2 l]"
         ],
         [
-            "x' r Uw' l' Uw r' Uw' l Uw x",
+            "Lw Uw' l' Uw r' Uw' l Uw r Lw'",
             [
                 "Howie Craig"
             ],
-            "x':[r,Uw' l' Uw]"
+            "Lw:[Uw' l' Uw,r']"
         ]
     ],
     "GTR": [
@@ -16364,13 +16368,6 @@
                 "Oliver Fritz"
             ],
             "d':[d',l' U2 l]"
-        ],
-        [
-            "R u U' l' U r' U' l U r u' R'",
-            [
-                "Howie Craig"
-            ],
-            "R u:[U' l' U,r']"
         ]
     ],
     "GWA": [
@@ -17112,7 +17109,6 @@
         [
             "U' r2 U r d r' U' r d' r U",
             [
-                "Howie Craig",
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -17576,26 +17572,20 @@
     ],
     "GZC": [
         [
+            "Uw' r2 d r' U r d' r' U' r' Uw",
+            [
+                "Howie Craig",
+                "Stanley Chapel"
+            ],
+            "Uw' r:[r d r',U]"
+        ],
+        [
             "R2 u' l U2 l' u2 l U2 l' u' R2",
             [
                 "Oliver Fritz",
                 "Ziyi Xu (徐梓翼)"
             ],
             "R2 u':[l U2 l',u2]"
-        ],
-        [
-            "Uw' r2 d r' U r d' r' U' r' Uw",
-            [
-                "Stanley Chapel"
-            ],
-            "Uw' r:[r d r',U]"
-        ],
-        [
-            "y' x' U' l' U r2 U' l U r2 x y",
-            [
-                "Howie Craig"
-            ],
-            "y' x':[U' l' U,r2]"
         ]
     ],
     "GZD": [
@@ -17831,13 +17821,6 @@
                 "Oliver Fritz"
             ],
             "d':[l' U2 l,d']"
-        ],
-        [
-            "R u r' U' l' U r U' l U u' R'",
-            [
-                "Howie Craig"
-            ],
-            "R u:[r',U' l' U]"
         ]
     ],
     "GZW": [
@@ -17869,7 +17852,6 @@
         [
             "U' r' d r' U r d' r' U' r2 U",
             [
-                "Howie Craig",
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -40549,7 +40531,6 @@
         [
             "L2 u' l' U' l u2 l' U l u' L2",
             [
-                "Howie Craig",
                 "Oliver Fritz",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -40561,6 +40542,13 @@
                 "Stanley Chapel"
             ],
             "u l':[l' d' l,U']"
+        ],
+        [
+            "d' l U' l u l' U l u' l2 d",
+            [
+                "Howie Craig"
+            ],
+            "d' l:[U',l u l']"
         ]
     ],
     "KGN": [
@@ -40954,7 +40942,6 @@
         [
             "L2 u l' U' l u2 l' U l u L2",
             [
-                "Howie Craig",
                 "Oliver Fritz",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -40966,6 +40953,13 @@
                 "Stanley Chapel"
             ],
             "u l':[U',l' d' l]"
+        ],
+        [
+            "d' l2 u l' U' l u' l' U l' d",
+            [
+                "Howie Craig"
+            ],
+            "d' l:[l u l',U']"
         ]
     ],
     "KNA": [
@@ -42871,18 +42865,11 @@
         [
             "U' r2 d r' U r d' r' U' r' U",
             [
+                "Howie Craig",
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
             "U' r:[r d r',U]"
-        ],
-        [
-            "z' l' U2 l u' l' U2 l u z",
-            [
-                "Howie Craig",
-                "Oliver Fritz"
-            ],
-            "z':[l' U2 l,u']"
         ],
         [
             "F2 d' l' U2 l d l' U2 l F2",
@@ -42890,6 +42877,13 @@
                 "Cale Schoon"
             ],
             "F2:[d',l' U2 l]"
+        ],
+        [
+            "z' l' U2 l u' l' U2 l u z",
+            [
+                "Oliver Fritz"
+            ],
+            "z':[l' U2 l,u']"
         ]
     ],
     "LHA": [
@@ -43662,18 +43656,11 @@
         [
             "U' r U r d r' U' r d' r2 U",
             [
+                "Howie Craig",
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
             "U' r:[U,r d r']"
-        ],
-        [
-            "z' u' l' U2 l u l' U2 l z",
-            [
-                "Howie Craig",
-                "Oliver Fritz"
-            ],
-            "z':[u',l' U2 l]"
         ],
         [
             "F2 l' U2 l d' l' U2 l d F2",
@@ -43681,6 +43668,13 @@
                 "Cale Schoon"
             ],
             "F2:[l' U2 l,d']"
+        ],
+        [
+            "z' u' l' U2 l u l' U2 l z",
+            [
+                "Oliver Fritz"
+            ],
+            "z':[u',l' U2 l]"
         ]
     ],
     "MOR": [

@@ -29923,11 +29923,11 @@
             "R2 d':[m' U m,d2]"
         ],
         [
-            "Lw2 u m' U' m u2 m' U m u Lw2",
+            "Dw' m2 u m' U' m u' m' U m' Dw",
             [
                 "Howie Craig"
             ],
-            "Lw2 u:[m' U' m,u2]"
+            "Dw' m:[m u m',U']"
         ]
     ],
     "GHM": [
@@ -31063,10 +31063,16 @@
             "l2 U2 l e' l' U2 l e l",
             [
                 "Cale Schoon",
-                "Howie Craig",
                 "Ziyi Xu (徐梓翼)"
             ],
             "l':[l' U2 l,e']"
+        ],
+        [
+            "y U l' U' m2 U l U' m2 y'",
+            [
+                "Howie Craig"
+            ],
+            "y:[U l' U',m2]"
         ]
     ],
     "GKS": [
@@ -31270,11 +31276,11 @@
             "R2 d:[m' U m,d2]"
         ],
         [
-            "Lw2 u' m' U' m u2 m' U m u' Lw2",
+            "Dw' m U' m u m' U m u' m2 Dw",
             [
                 "Howie Craig"
             ],
-            "Lw2 u':[m' U' m,u2]"
+            "Dw' m:[U',m u m']"
         ]
     ],
     "GLI": [
@@ -33580,10 +33586,16 @@
             "l' e' l' U2 l e l' U2 l2",
             [
                 "Cale Schoon",
-                "Howie Craig",
                 "Ziyi Xu (徐梓翼)"
             ],
             "l':[e',l' U2 l]"
+        ],
+        [
+            "y m2 U l' U' m2 U l U' y'",
+            [
+                "Howie Craig"
+            ],
+            "y:[m2,U l' U']"
         ]
     ],
     "GRL": [
@@ -35234,11 +35246,11 @@
             "U':[e',r' U r]"
         ],
         [
-            "x' Uw' m' Uw r Uw' m Uw r' x",
+            "4Lw Uw' m' Uw r Uw' m Uw 3Lw'",
             [
                 "Howie Craig"
             ],
-            "x':[Uw' m' Uw,r]"
+            "3Lw:[r',Uw' m' Uw]"
         ]
     ],
     "GXZ": [
@@ -35629,11 +35641,11 @@
             "U':[r' U r,e']"
         ],
         [
-            "x' r Uw' m' Uw r' Uw' m Uw x",
+            "3Lw Uw' m' Uw r' Uw' m Uw 4Lw'",
             [
                 "Howie Craig"
             ],
-            "x':[r,Uw' m' Uw]"
+            "3Lw:[Uw' m' Uw,r']"
         ]
     ],
     "GYZ": [
