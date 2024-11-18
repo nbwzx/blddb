@@ -26,14 +26,6 @@
             "l' U:[l,U m' U']"
         ],
         [
-            "Lw U l' U m' U' l U m U2 Lw'",
-            [
-                "James Molloy",
-                "Kevin Matthews"
-            ],
-            "Lw U:[l',U m' U']"
-        ],
-        [
             "y m u' m' U m u m' U' y'",
             [
                 "Daniel Lin",
@@ -63,6 +55,13 @@
             "Uw:[m u' m',U]"
         ],
         [
+            "Lw U l' U m' U' l U m U2 Lw'",
+            [
+                "Kevin Matthews"
+            ],
+            "Lw U:[l',U m' U']"
+        ],
+        [
             "y' m' u' m U m' u m 4Dw'",
             [
                 "Dong Zhu (朱栋)"
@@ -81,7 +80,6 @@
                 "Ethan Pan",
                 "Hill Pong Yong Feng",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -99,7 +97,6 @@
                 "Daniel Lin",
                 "Daniel Wallin",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Ziyi Xu (徐梓翼)"
@@ -178,16 +175,6 @@
             "U:[m' U m,u2]"
         ],
         [
-            "F m U' r U m' U' r' U F'",
-            [
-                "Ethan Pan",
-                "James Molloy",
-                "Kevin Matthews",
-                "Michael Tripodi"
-            ],
-            "F:[m,U' r U]"
-        ],
-        [
             "U' m' U' m u2 m' U m u2 U",
             [
                 "Daniel Lin",
@@ -196,6 +183,15 @@
                 "Leonardo Ezequiel Cruz"
             ],
             "U':[m' U' m,u2]"
+        ],
+        [
+            "F m U' r U m' U' r' U F'",
+            [
+                "Ethan Pan",
+                "Kevin Matthews",
+                "Michael Tripodi"
+            ],
+            "F:[m,U' r U]"
         ]
     ],
     "ABI": [
@@ -204,7 +200,6 @@
             [
                 "Andrew Tan Jing Bang",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -241,7 +236,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -345,7 +339,6 @@
             "F m2 U' r U m2 U' r' U F'",
             [
                 "Ethan Pan",
-                "James Molloy",
                 "Kevin Matthews"
             ],
             "F:[m2,U' r U]"
@@ -356,7 +349,6 @@
             "F U2 m U r U' m' U r' U F'",
             [
                 "Daniel Wallin",
-                "James Molloy",
                 "Leonardo Ezequiel Cruz",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -420,7 +412,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -459,14 +450,6 @@
             "Rw2 U:[m' U m,u]"
         ],
         [
-            "R2 U m' U m u m' U' m Uw' R2",
-            [
-                "James Molloy",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "R2 U:[m' U m,u]"
-        ],
-        [
             "x' z' r U r e r' U' r e' r2 z x",
             [
                 "Daniel Lin",
@@ -494,6 +477,13 @@
                 "Marcell Endrey"
             ],
             "y' m:[m u m',U']"
+        ],
+        [
+            "R2 U m' U m u m' U' m Uw' R2",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "R2 U:[m' U m,u]"
         ],
         [
             "R' F r U' r' e' r U r' e F' R",
@@ -551,19 +541,18 @@
             "F':[l' U l,e']"
         ],
         [
-            "R U m' U m u m' U' m Uw' R'",
-            [
-                "James Molloy",
-                "Kevin Matthews"
-            ],
-            "R U:[m' U m,u]"
-        ],
-        [
             "3Dw' U l' U m' U' l U m U2 3Dw",
             [
                 "Leonardo Ezequiel Cruz"
             ],
             "3Dw' U:[l',U m' U']"
+        ],
+        [
+            "R U m' U m u m' U' m Uw' R'",
+            [
+                "Kevin Matthews"
+            ],
+            "R U:[m' U m,u]"
         ],
         [
             "U' e r' U' m' U r U' m U2 e'",
@@ -604,20 +593,19 @@
             "F:[r U' r',e]"
         ],
         [
-            "L' U' m' U' m u' m' U m Uw L",
-            [
-                "James Molloy",
-                "Kevin Matthews"
-            ],
-            "L' U':[m' U' m,u']"
-        ],
-        [
             "z r2 e r' U' r e' r' U r' z'",
             [
                 "Daniel Lin",
                 "Dong Zhu (朱栋)"
             ],
             "z r:[r e r',U']"
+        ],
+        [
+            "L' U' m' U' m u' m' U m Uw L",
+            [
+                "Kevin Matthews"
+            ],
+            "L' U':[m' U' m,u']"
         ],
         [
             "U' e r U' m' U r' U' m U2 e'",
@@ -637,7 +625,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -691,13 +678,6 @@
                 "Kevin Matthews"
             ],
             "L U':[m' U' m,u']"
-        ],
-        [
-            "F' l' U l e l' U' l e' F",
-            [
-                "James Molloy"
-            ],
-            "F':[l' U l,e]"
         ]
     ],
     "ABY": [
@@ -710,7 +690,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -748,7 +727,6 @@
         [
             "R' U m' U m u m' U' m Uw' R",
             [
-                "James Molloy",
                 "Kevin Matthews"
             ],
             "R' U:[m' U m,u]"
@@ -781,14 +759,6 @@
             "l' U:[U m' U',l]"
         ],
         [
-            "Lw U2 m' U' l' U m U' l U' Lw'",
-            [
-                "James Molloy",
-                "Kevin Matthews"
-            ],
-            "Lw U:[U m' U',l']"
-        ],
-        [
             "y U m u' m' U' m u m' y'",
             [
                 "Daniel Lin",
@@ -818,6 +788,13 @@
             "Uw:[U,m u' m']"
         ],
         [
+            "Lw U2 m' U' l' U m U' l U' Lw'",
+            [
+                "Kevin Matthews"
+            ],
+            "Lw U:[U m' U',l']"
+        ],
+        [
             "4Dw m' u' m U' m' u m y",
             [
                 "Dong Zhu (朱栋)"
@@ -836,7 +813,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -887,7 +863,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ziyi Xu (徐梓翼)"
@@ -935,7 +910,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -1010,7 +984,6 @@
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
-                "James Molloy",
                 "Michael Tripodi",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -1021,7 +994,6 @@
             [
                 "Graham Siggins",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz"
@@ -1069,7 +1041,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -1090,7 +1061,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Graham Siggins",
-                "James Molloy",
                 "Michael Tripodi",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -1158,7 +1128,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ziyi Xu (徐梓翼)"
@@ -1203,7 +1172,6 @@
             [
                 "Andrew Tan Jing Bang",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -1254,7 +1222,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -1275,7 +1242,6 @@
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -1323,7 +1289,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Marcell Endrey",
@@ -1356,7 +1321,6 @@
             [
                 "Daniel Wallin",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ziyi Xu (徐梓翼)"
@@ -1412,7 +1376,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Marcell Endrey",
                 "Michael Tripodi",
@@ -1445,7 +1408,6 @@
                 "Daniel Lin",
                 "Daniel Wallin",
                 "Ethan Pan",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -1488,7 +1450,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Marcell Endrey",
                 "Michael Tripodi",
@@ -1522,7 +1483,6 @@
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Marcell Endrey",
@@ -1571,7 +1531,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Marcell Endrey",
                 "Michael Tripodi",
@@ -1607,7 +1566,6 @@
                 "Ethan Pan",
                 "Hill Pong Yong Feng",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -1629,7 +1587,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -1651,7 +1608,6 @@
                 "Hana Davila",
                 "Hill Pong Yong Feng",
                 "Howie Craig",
-                "James Molloy",
                 "Leonardo Ezequiel Cruz",
                 "Roman Strakhov",
                 "Ryan Eckersley",
@@ -1685,7 +1641,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -1709,7 +1664,6 @@
             [
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
@@ -1734,13 +1688,6 @@
                 "Ethan Pan"
             ],
             "y:[l2,U' m U]"
-        ],
-        [
-            "U 3Rw u' m' U m u m' U' m 3Rw' U'",
-            [
-                "James Molloy"
-            ],
-            "U 3Rw:[u',m' U m]"
         ]
     ],
     "ADJ": [
@@ -1771,14 +1718,6 @@
             "3Rw U:[m U' m',u]"
         ],
         [
-            "z l' U2 l e' l' U2 l e z'",
-            [
-                "Dong Zhu (朱栋)",
-                "James Molloy"
-            ],
-            "z:[l' U2 l,e']"
-        ],
-        [
             "L m' 3Uw l 3Uw' m 3Uw l' 3Uw' L'",
             [
                 "Ziyi Xu (徐梓翼)"
@@ -1800,11 +1739,11 @@
             "U' m':[m' u m,U]"
         ],
         [
-            "L F' e r U' r' e' r U r' F L'",
+            "z l' U2 l e' l' U2 l e z'",
             [
-                "James Molloy"
+                "Dong Zhu (朱栋)"
             ],
-            "L F':[e,r U' r']"
+            "z:[l' U2 l,e']"
         ]
     ],
     "ADK": [
@@ -1816,7 +1755,6 @@
                 "Daniel Wallin",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -1876,14 +1814,6 @@
             "U m:[u,m U' m']"
         ],
         [
-            "U' m u m U m' u' m U' m2 U",
-            [
-                "Daniel Lin",
-                "James Molloy"
-            ],
-            "U' m:[u,m U m']"
-        ],
-        [
             "y' x e2 r' U r e2 r' U' r x' y",
             [
                 "Marcell Endrey"
@@ -1912,11 +1842,11 @@
             "D' U':[r2,Uw' m' Uw]"
         ],
         [
-            "L 3Uw' U m2 U' r U m2 U' r' 3Uw L'",
+            "U' m u m U m' u' m U' m2 U",
             [
-                "James Molloy"
+                "Daniel Lin"
             ],
-            "L 3Uw':[U m2 U',r]"
+            "U' m:[u,m U m']"
         ],
         [
             "x' z e2 l' U l e2 l' U' l z' x",
@@ -1940,7 +1870,6 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Ethan Pan",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
@@ -1976,13 +1905,6 @@
                 "Howie Craig"
             ],
             "U' m:[m u' m',U']"
-        ],
-        [
-            "U 3Rw' m u' m' U m u m' U' 3Rw U'",
-            [
-                "James Molloy"
-            ],
-            "U 3Rw':[m u' m',U]"
         ]
     ],
     "ADO": [
@@ -1993,7 +1915,6 @@
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
-                "James Molloy",
                 "Ryan Eckersley",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -2021,13 +1942,6 @@
                 "Kai Yamamoto (山本快)"
             ],
             "u:[U' r2 U,m]"
-        ],
-        [
-            "Rw2 U m' u m U' m' u' m Rw2",
-            [
-                "James Molloy"
-            ],
-            "Rw2:[U,m' u m]"
         ],
         [
             "x z U r' U m' U' r U m U2 z' x'",
@@ -2072,13 +1986,6 @@
             "x' z':[m2,U r U']"
         ],
         [
-            "R 3Uw l' U' m U l U' m' U 3Uw' R'",
-            [
-                "James Molloy"
-            ],
-            "R 3Uw:[l',U' m U]"
-        ],
-        [
             "y x' U l' U' m2 U l U' m2 x y'",
             [
                 "Dong Zhu (朱栋)"
@@ -2100,15 +2007,6 @@
             "Uw':[r,U' m' U]"
         ],
         [
-            "Rw U m' u m U' m' u' 3Rw'",
-            [
-                "Daniel Wallin",
-                "James Molloy",
-                "Kevin Matthews"
-            ],
-            "Rw:[U,m' u m]"
-        ],
-        [
             "U' r Uw' m' Uw r' Uw' m Uw U",
             [
                 "Daniel Lin",
@@ -2116,6 +2014,14 @@
                 "Leonardo Ezequiel Cruz"
             ],
             "U':[r,Uw' m' Uw]"
+        ],
+        [
+            "Rw U m' u m U' m' u' 3Rw'",
+            [
+                "Daniel Wallin",
+                "Kevin Matthews"
+            ],
+            "Rw:[U,m' u m]"
         ],
         [
             "U' r Uw m Uw' r' Uw m' u'",
@@ -2134,11 +2040,20 @@
     ],
     "ADR": [
         [
+            "y l' U' m U l U' m' 4Dw",
+            [
+                "Andrew Tan Jing Bang",
+                "Ethan Pan",
+                "Howie Craig",
+                "Leonardo Ezequiel Cruz"
+            ],
+            "y:[l',U' m U]"
+        ],
+        [
             "y' r' U' m' U r U' m U y",
             [
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
-                "James Molloy",
                 "Kevin Matthews",
                 "Marcell Endrey"
             ],
@@ -2148,21 +2063,10 @@
             "3Uw l' U' m U l U' m' U 3Uw'",
             [
                 "Daniel Wallin",
-                "James Molloy",
                 "Michael Tripodi",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "3Uw:[l',U' m U]"
-        ],
-        [
-            "y l' U' m U l U' m' 4Dw",
-            [
-                "Andrew Tan Jing Bang",
-                "Ethan Pan",
-                "Howie Craig",
-                "Leonardo Ezequiel Cruz"
-            ],
-            "y:[l',U' m U]"
+            "u e':[U l' U',m]"
         ],
         [
             "4Uw l' U' m U l U' m' E",
@@ -2202,7 +2106,6 @@
             "L' e l' U l e' l' U' Lw",
             [
                 "Daniel Lin",
-                "James Molloy",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "L':[e,l' U l]"
@@ -2253,7 +2156,6 @@
             "L e' l U l' e l U' Lw'",
             [
                 "Daniel Lin",
-                "James Molloy",
                 "Leonardo Ezequiel Cruz"
             ],
             "L:[e',l U l']"
@@ -2282,21 +2184,20 @@
             "Uw':[r',U' m' U]"
         ],
         [
-            "Rw' U m' u m U' m' u' m Rw",
-            [
-                "Daniel Lin",
-                "Ethan Pan",
-                "James Molloy"
-            ],
-            "Rw':[U,m' u m]"
-        ],
-        [
             "U' r' Uw m Uw' r Uw m' u'",
             [
                 "Kevin Matthews",
                 "Michael Tripodi"
             ],
             "U':[r',Uw m Uw']"
+        ],
+        [
+            "Rw' U m' u m U' m' u' m Rw",
+            [
+                "Daniel Lin",
+                "Ethan Pan"
+            ],
+            "Rw':[U,m' u m]"
         ],
         [
             "U' r' Uw' m' Uw r Uw' m Uw U",
@@ -2360,7 +2261,6 @@
                 "Daniel Lin",
                 "Daniel Wallin",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -2467,7 +2367,6 @@
                 "Hana Davila",
                 "Hill Pong Yong Feng",
                 "Howie Craig",
-                "James Molloy",
                 "Leonardo Ezequiel Cruz",
                 "Roman Strakhov",
                 "Ryan Eckersley",
@@ -2499,7 +2398,6 @@
                 "Ethan Pan",
                 "Hana Davila",
                 "Hill Pong Yong Feng",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -2576,7 +2474,6 @@
                 "Hana Davila",
                 "Hill Pong Yong Feng",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -2609,7 +2506,6 @@
                 "Ethan Pan",
                 "Hana Davila",
                 "Hill Pong Yong Feng",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -2671,7 +2567,6 @@
                 "Hana Davila",
                 "Hill Pong Yong Feng",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -2724,7 +2619,6 @@
                 "Hana Davila",
                 "Hill Pong Yong Feng",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -2754,7 +2648,6 @@
                 "Daniel Wallin",
                 "Hill Pong Yong Feng",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -2788,7 +2681,6 @@
                 "Dong Zhu (朱栋)",
                 "Hana Davila",
                 "Hill Pong Yong Feng",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -2851,7 +2743,6 @@
                 "Hana Davila",
                 "Hill Pong Yong Feng",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -2904,7 +2795,6 @@
                 "Hana Davila",
                 "Hill Pong Yong Feng",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -2934,7 +2824,6 @@
                 "Andrew Tan Jing Bang",
                 "Hana Davila",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Ziyi Xu (徐梓翼)"
@@ -2993,7 +2882,6 @@
                 "Hana Davila",
                 "Hill Pong Yong Feng",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -3039,7 +2927,6 @@
                 "Hana Davila",
                 "Hill Pong Yong Feng",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Ziyi Xu (徐梓翼)"
@@ -3101,7 +2988,6 @@
                 "Hana Davila",
                 "Hill Pong Yong Feng",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -3128,7 +3014,6 @@
                 "Hana Davila",
                 "Hill Pong Yong Feng",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Ziyi Xu (徐梓翼)"
@@ -3187,7 +3072,6 @@
                 "Hana Davila",
                 "Hill Pong Yong Feng",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -3212,7 +3096,6 @@
                 "Andrew Tan Jing Bang",
                 "Hana Davila",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Ziyi Xu (徐梓翼)"
@@ -3264,7 +3147,6 @@
                 "Hana Davila",
                 "Hill Pong Yong Feng",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -3303,16 +3185,6 @@
             "U:[u2,m' U m]"
         ],
         [
-            "F U' r U m U' r' U m' F'",
-            [
-                "Ethan Pan",
-                "James Molloy",
-                "Kevin Matthews",
-                "Michael Tripodi"
-            ],
-            "F:[U' r U,m]"
-        ],
-        [
             "U' u2 m' U' m u2 m' U m U",
             [
                 "Daniel Lin",
@@ -3321,6 +3193,15 @@
                 "Leonardo Ezequiel Cruz"
             ],
             "U':[u2,m' U' m]"
+        ],
+        [
+            "F U' r U m U' r' U m' F'",
+            [
+                "Ethan Pan",
+                "Kevin Matthews",
+                "Michael Tripodi"
+            ],
+            "F:[U' r U,m]"
         ]
     ],
     "AFC": [
@@ -3332,7 +3213,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ziyi Xu (徐梓翼)"
@@ -3380,7 +3260,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -3406,7 +3285,6 @@
                 "Ethan Pan",
                 "Hana Davila",
                 "Hill Pong Yong Feng",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -3479,7 +3357,6 @@
                 "Andrew Tan Jing Bang",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -3515,7 +3392,6 @@
             "F' U' r U m U' r' U m' F",
             [
                 "Daniel Wallin",
-                "James Molloy",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -3565,7 +3441,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -3637,13 +3512,6 @@
                 "Howie Craig"
             ],
             "U' m:[U,m d m']"
-        ],
-        [
-            "3Rw' 4Uw' m' U m d' m' U' m 3Uw 3Rw",
-            [
-                "James Molloy"
-            ],
-            "3Rw' 3Uw':[d,m' U m]"
         ]
     ],
     "AFM": [
@@ -3654,7 +3522,6 @@
                 "Daniel Wallin",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -3703,7 +3570,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -3773,13 +3639,6 @@
                 "Howie Craig"
             ],
             "U' m:[U,m d' m']"
-        ],
-        [
-            "U' 3Rw' e' r U' r' e r U r' 3Rw U",
-            [
-                "James Molloy"
-            ],
-            "U' 3Rw':[e',r U' r']"
         ]
     ],
     "AFQ": [
@@ -3792,7 +3651,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -3814,7 +3672,6 @@
                 "Daniel Wallin",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -3859,7 +3716,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -3878,7 +3734,6 @@
             "3Uw' r 3Uw m 3Uw' r' 3Uw m'",
             [
                 "Daniel Lin",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -3907,13 +3762,6 @@
                 "Dong Zhu (朱栋)"
             ],
             "z:[e,r' U' r]"
-        ],
-        [
-            "U' m r' e r U' r' e' r U m' U",
-            [
-                "James Molloy"
-            ],
-            "U' m:[r' e r,U']"
         ]
     ],
     "AFW": [
@@ -3976,13 +3824,6 @@
                 "Kevin Matthews"
             ],
             "L U:[m U' m',u]"
-        ],
-        [
-            "U 4Rw' e l' U l e' l' U' 3Rw U'",
-            [
-                "James Molloy"
-            ],
-            "U 3Rw':[l e l',U]"
         ]
     ],
     "AFY": [
@@ -4028,19 +3869,18 @@
             "Rw' U':[m U m',u']"
         ],
         [
-            "R' U' m U m' u' m U' m' Uw R",
-            [
-                "James Molloy",
-                "Kevin Matthews"
-            ],
-            "R' U':[m U m',u']"
-        ],
-        [
             "3Dw' U' r U m U' r' U m' 3Dw",
             [
                 "Leonardo Ezequiel Cruz"
             ],
             "3Dw':[U' r U,m]"
+        ],
+        [
+            "R' U' m U m' u' m U' m' Uw R",
+            [
+                "Kevin Matthews"
+            ],
+            "R' U':[m U m',u']"
         ]
     ],
     "AIB": [
@@ -4049,7 +3889,6 @@
             [
                 "Andrew Tan Jing Bang",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -4086,7 +3925,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -4114,7 +3952,6 @@
             [
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
@@ -4139,13 +3976,6 @@
                 "Ethan Pan"
             ],
             "y:[U' m U,l2]"
-        ],
-        [
-            "U 3Rw m' U m u' m' U' m u 3Rw' U'",
-            [
-                "James Molloy"
-            ],
-            "U 3Rw:[m' U m,u']"
         ]
     ],
     "AIE": [
@@ -4159,7 +3989,6 @@
                 "Hana Davila",
                 "Hill Pong Yong Feng",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -4189,7 +4018,6 @@
                 "Andrew Tan Jing Bang",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -4230,7 +4058,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -4304,7 +4131,6 @@
             [
                 "Andrew Tan Jing Bang",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -4378,20 +4204,19 @@
             "y:[U' m' U,l2]"
         ],
         [
-            "U' m2 U' m' d m U m' d' m' U",
-            [
-                "James Molloy",
-                "Leonardo Ezequiel Cruz"
-            ],
-            "U' m:[m U' m',d]"
-        ],
-        [
             "y' U' m U r2 U' m' U r2 y",
             [
                 "Dong Zhu (朱栋)",
                 "Kevin Matthews"
             ],
             "y':[U' m U,r2]"
+        ],
+        [
+            "U' m2 U' m' d m U m' d' m' U",
+            [
+                "Leonardo Ezequiel Cruz"
+            ],
+            "U' m:[m U' m',d]"
         ]
     ],
     "AIQ": [
@@ -4404,7 +4229,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -4466,13 +4290,6 @@
             "y D':[l',U' m2 U]"
         ],
         [
-            "3Uw' r' U' m2 U r U' m2 U 3Uw",
-            [
-                "James Molloy"
-            ],
-            "3Uw':[r',U' m2 U]"
-        ],
-        [
             "4Uw l' U m2 U' l U m2 U' 4Uw'",
             [
                 "Daniel Lin"
@@ -4490,7 +4307,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -4525,8 +4341,7 @@
             [
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
-                "Howie Craig",
-                "James Molloy"
+                "Howie Craig"
             ],
             "D r:[r U' r',e]"
         ],
@@ -4541,8 +4356,7 @@
         [
             "3Uw' r U' m2 U r' U' m2 U 3Uw",
             [
-                "Daniel Wallin",
-                "James Molloy"
+                "Daniel Wallin"
             ],
             "3Uw':[r,U' m2 U]"
         ],
@@ -4571,7 +4385,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -4609,14 +4422,6 @@
             "Lw' Dw:[m',U' r2 U]"
         ],
         [
-            "3Uw' U2 l' U m2 U' l U m2 U 3Uw",
-            [
-                "Daniel Wallin",
-                "James Molloy"
-            ],
-            "3Uw' U':[U' l' U,m2]"
-        ],
-        [
             "U2 3Uw r' 3Uw' m2 3Uw r 3Uw' m2 U2",
             [
                 "Kai Yamamoto (山本快)",
@@ -4638,6 +4443,13 @@
                 "Hill Pong Yong Feng"
             ],
             "e U:[l',U m2 U']"
+        ],
+        [
+            "3Uw' U2 l' U m2 U' l U m2 U 3Uw",
+            [
+                "Daniel Wallin"
+            ],
+            "3Uw' U':[U' l' U,m2]"
         ],
         [
             "U2 3Uw' l' 3Uw m2 3Uw' l 3Uw m2 U2",
@@ -4686,13 +4498,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "U':[r',U' m2 U]"
-        ],
-        [
-            "Rw' U m d2 m' U' m d2 3Rw",
-            [
-                "James Molloy"
-            ],
-            "Rw':[U,m d2 m']"
         ]
     ],
     "AIZ": [
@@ -4725,14 +4530,6 @@
             "Rw Dw':[m',U l2 U']"
         ],
         [
-            "3Uw U2 r U' m2 U r' U' m2 U' 3Uw'",
-            [
-                "Daniel Wallin",
-                "James Molloy"
-            ],
-            "3Uw U:[U r U',m2]"
-        ],
-        [
             "R 4Dw' m' U l2 U' m U l2 y' R'",
             [
                 "Daniel Lin",
@@ -4741,18 +4538,18 @@
             "R y:[U' m' U,l2]"
         ],
         [
+            "3Uw U2 r U' m2 U r' U' m2 U' 3Uw'",
+            [
+                "Daniel Wallin"
+            ],
+            "3Uw U:[U r U',m2]"
+        ],
+        [
             "R y' U' m U r2 U' m' U r2 y R'",
             [
                 "Kevin Matthews"
             ],
             "R y':[U' m U,r2]"
-        ],
-        [
-            "R Dw' m' U l2 U' m U l2 U' Dw R'",
-            [
-                "James Molloy"
-            ],
-            "R Dw':[m',U l2 U']"
         ]
     ],
     "AJC": [
@@ -4828,14 +4625,6 @@
             "3Rw Uw:[m U' m',u']"
         ],
         [
-            "z e' l' U2 l e l' U2 l z'",
-            [
-                "Dong Zhu (朱栋)",
-                "James Molloy"
-            ],
-            "z:[e',l' U2 l]"
-        ],
-        [
             "L 3Uw l 3Uw' m' 3Uw l' 3Uw' m L'",
             [
                 "Ziyi Xu (徐梓翼)"
@@ -4857,11 +4646,11 @@
             "U' m':[U,m' u m]"
         ],
         [
-            "L F' r U' r' e r U r' e' F L'",
+            "z e' l' U2 l e l' U2 l z'",
             [
-                "James Molloy"
+                "Dong Zhu (朱栋)"
             ],
-            "L F':[r U' r',e]"
+            "z:[e',l' U2 l]"
         ]
     ],
     "AJE": [
@@ -4874,7 +4663,6 @@
                 "Ethan Pan",
                 "Hana Davila",
                 "Hill Pong Yong Feng",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -4930,7 +4718,6 @@
             "F' m U' r U m' U' r' U F",
             [
                 "Daniel Wallin",
-                "James Molloy",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -4980,7 +4767,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -5008,7 +4794,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -5057,13 +4842,6 @@
                 "Howie Craig"
             ],
             "U':[m' U m,d]"
-        ],
-        [
-            "3Uw' m' U m d m' U' m 4Uw",
-            [
-                "James Molloy"
-            ],
-            "3Uw':[m' U m,d]"
         ]
     ],
     "AJM": [
@@ -5087,7 +4865,6 @@
         [
             "F' m2 U' r U m2 U' r' U F",
             [
-                "James Molloy",
                 "Kevin Matthews"
             ],
             "F':[m2,U' r U]"
@@ -5132,13 +4909,6 @@
             "U' m:[m u2 m',U']"
         ],
         [
-            "3Rw D m U' r2 U m' U' r2 U D' 3Rw'",
-            [
-                "James Molloy"
-            ],
-            "3Rw D:[m,U' r2 U]"
-        ],
-        [
             "U' m' U m d2 m' U' m d2 U",
             [
                 "Daniel Lin"
@@ -5163,7 +4933,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Marcell Endrey",
@@ -5220,13 +4989,6 @@
                 "Kai Yamamoto (山本快)"
             ],
             "Rw:[3Uw' r' 3Uw,m']"
-        ],
-        [
-            "3Uw m' U' m d' m' U m 4Uw'",
-            [
-                "James Molloy"
-            ],
-            "3Uw:[m' U' m,d']"
         ]
     ],
     "AJQ": [
@@ -5275,13 +5037,6 @@
                 "Roman Strakhov"
             ],
             "[3Uw l' 3Uw',m']"
-        ],
-        [
-            "F l' U l e' l' U' l e F'",
-            [
-                "James Molloy"
-            ],
-            "F:[l' U l,e']"
         ]
     ],
     "AJS": [
@@ -5301,7 +5056,6 @@
             "3Uw' r 3Uw m' 3Uw' r' 3Uw m",
             [
                 "Daniel Lin",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -5330,13 +5084,6 @@
                 "Dong Zhu (朱栋)"
             ],
             "z:[e',l' U l]"
-        ],
-        [
-            "3Uw' r U m' U' r' U m U' 3Uw",
-            [
-                "James Molloy"
-            ],
-            "3Uw':[r,U m' U']"
         ]
     ],
     "AJW": [
@@ -5349,7 +5096,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -5404,13 +5150,6 @@
                 "Kai Yamamoto (山本快)"
             ],
             "e':[U' r' U,m']"
-        ],
-        [
-            "F l' U l e l' U' l e' F'",
-            [
-                "James Molloy"
-            ],
-            "F:[l' U l,e]"
         ]
     ],
     "AJY": [
@@ -5423,7 +5162,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -5473,13 +5211,6 @@
                 "Leonardo Ezequiel Cruz"
             ],
             "[m,d R d']"
-        ],
-        [
-            "F' r U' r' e' r U r' e F",
-            [
-                "James Molloy"
-            ],
-            "F':[r U' r',e']"
         ]
     ],
     "AKB": [
@@ -5492,7 +5223,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -5520,7 +5250,6 @@
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
-                "James Molloy",
                 "Michael Tripodi",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -5531,7 +5260,6 @@
             [
                 "Graham Siggins",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz"
@@ -5577,7 +5305,6 @@
                 "Daniel Wallin",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -5621,7 +5348,6 @@
                 "Hana Davila",
                 "Hill Pong Yong Feng",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -5672,7 +5398,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -5722,10 +5447,9 @@
         [
             "3Lw' U l' U' m U l U' Lw",
             [
-                "James Molloy",
                 "Kevin Matthews"
             ],
-            "Lw':[m',U l' U']"
+            "3Lw':[U l' U',m]"
         ]
     ],
     "AKL": [
@@ -5766,13 +5490,6 @@
             "x' z U':[U' m U,l']"
         ],
         [
-            "4Uw U m U' l2 U m' U' l2 4Uw'",
-            [
-                "James Molloy"
-            ],
-            "4Uw:[U m U',l2]"
-        ],
-        [
             "x z U2 m' U r' U' m U r U z' x'",
             [
                 "Daniel Lin"
@@ -5800,7 +5517,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -5865,13 +5581,6 @@
                 "Kevin Matthews"
             ],
             "y' x':[m,U r U']"
-        ],
-        [
-            "D U' m2 U' m' d m U m' d' m' U D'",
-            [
-                "James Molloy"
-            ],
-            "D U' m:[m U' m',d]"
         ]
     ],
     "AKQ": [
@@ -5884,7 +5593,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -5908,7 +5616,6 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Lin",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
@@ -5954,7 +5661,6 @@
             [
                 "Andrew Tan Jing Bang",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -5988,7 +5694,6 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Lin",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -6027,7 +5732,6 @@
             [
                 "Andrew Tan Jing Bang",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -6062,7 +5766,6 @@
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -6097,7 +5800,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
@@ -6128,7 +5830,6 @@
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -6222,7 +5923,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -6255,7 +5955,6 @@
                 "Hana Davila",
                 "Hill Pong Yong Feng",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -6330,13 +6029,6 @@
                 "Howie Craig"
             ],
             "U' m:[m d m',U]"
-        ],
-        [
-            "3Rw' 3Uw' m' U m d m' U' m 4Uw 3Rw",
-            [
-                "James Molloy"
-            ],
-            "3Rw' 3Uw':[m' U m,d]"
         ]
     ],
     "ALI": [
@@ -6401,13 +6093,6 @@
                 "Howie Craig"
             ],
             "U':[d,m' U m]"
-        ],
-        [
-            "4Uw' m' U m d' m' U' m 3Uw",
-            [
-                "James Molloy"
-            ],
-            "3Uw':[d,m' U m]"
         ]
     ],
     "ALK": [
@@ -6448,13 +6133,6 @@
             "x' z U':[l',U' m U]"
         ],
         [
-            "4Uw l2 U m U' l2 U m' U' 4Uw'",
-            [
-                "James Molloy"
-            ],
-            "4Uw:[l2,U m U']"
-        ],
-        [
             "x z U' r' U' m' U r U' m U2 z' x'",
             [
                 "Daniel Lin"
@@ -6483,7 +6161,6 @@
             "U m' d m' U' m d' m' U m2 U'",
             [
                 "Daniel Lin",
-                "James Molloy",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz"
             ],
@@ -6502,13 +6179,6 @@
                 "Kevin Matthews"
             ],
             "y U:[U r2 U',m]"
-        ],
-        [
-            "4Dw U l2 U' m' U l2 U' m 4Dw'",
-            [
-                "James Molloy"
-            ],
-            "4Dw:[U l2 U',m']"
         ],
         [
             "U' m' d m' U m d' m' U' m2 U",
@@ -6548,13 +6218,6 @@
                 "Michael Tripodi"
             ],
             "U':[d',m U' m']"
-        ],
-        [
-            "4Uw m U m' d m U' m' 3Uw'",
-            [
-                "James Molloy"
-            ],
-            "3Uw:[d',m U m']"
         ]
     ],
     "ALO": [
@@ -6574,7 +6237,6 @@
             [
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
-                "James Molloy",
                 "Leonardo Ezequiel Cruz",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -6653,13 +6315,6 @@
                 "Howie Craig"
             ],
             "y' m:[m u2 m',U']"
-        ],
-        [
-            "4Uw' m' U m d2 m' U' m d 3Uw",
-            [
-                "James Molloy"
-            ],
-            "4Uw':[m' U m,d2]"
         ]
     ],
     "ALQ": [
@@ -6685,24 +6340,9 @@
         [
             "Rw U m d m' U' m d' m' Rw'",
             [
-                "Daniel Lin",
-                "James Molloy"
+                "Daniel Lin"
             ],
             "Rw:[U,m d m']"
-        ],
-        [
-            "L' e r U' r' e' r U r' L",
-            [
-                "James Molloy"
-            ],
-            "L':[e,r U' r']"
-        ],
-        [
-            "U2 Rw U' m' d' m U m' d 3Rw' U2",
-            [
-                "James Molloy"
-            ],
-            "U2 Rw:[U',m' d' m]"
         ]
     ],
     "ALR": [
@@ -6712,7 +6352,6 @@
                 "Andrew Tan Jing Bang",
                 "Dong Zhu (朱栋)",
                 "Howie Craig",
-                "James Molloy",
                 "Kevin Matthews",
                 "Marcell Endrey",
                 "Michael Tripodi"
@@ -6762,13 +6401,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "Dw:[U l' U',m']"
-        ],
-        [
-            "L e l' U l e' l' U' l L'",
-            [
-                "James Molloy"
-            ],
-            "L:[e,l' U l]"
         ]
     ],
     "ALT": [
@@ -6798,13 +6430,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "Dw:[U l U',m']"
-        ],
-        [
-            "L' e' l U l' e l U' Lw' L2",
-            [
-                "James Molloy"
-            ],
-            "L':[e',l U l']"
         ]
     ],
     "ALX": [
@@ -6843,13 +6468,6 @@
             "Rw':[U,m d m']"
         ],
         [
-            "L e' r' U' r e r' U r L'",
-            [
-                "James Molloy"
-            ],
-            "L:[e',r' U' r]"
-        ],
-        [
             "r' U m d m' U' m d' m' r",
             [
                 "Daniel Lin"
@@ -6865,7 +6483,6 @@
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
                 "Howie Craig",
-                "James Molloy",
                 "Michael Tripodi",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -6925,7 +6542,6 @@
             "F U' r U m2 U' r' U m2 F'",
             [
                 "Ethan Pan",
-                "James Molloy",
                 "Kevin Matthews"
             ],
             "F:[U' r U,m2]"
@@ -6940,7 +6556,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Graham Siggins",
-                "James Molloy",
                 "Michael Tripodi",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -7015,14 +6630,6 @@
             "U m:[m U' m',u]"
         ],
         [
-            "U' m2 U m' u m U' m' u' m' U",
-            [
-                "Daniel Lin",
-                "James Molloy"
-            ],
-            "U' m:[m U m',u]"
-        ],
-        [
             "y' x r' U r e2 r' U' r e2 x' y",
             [
                 "Marcell Endrey"
@@ -7051,11 +6658,11 @@
             "D' U':[Uw' m' Uw,r2]"
         ],
         [
-            "L 3Uw' r U m2 U' r' U m2 U' 3Uw L'",
+            "U' m2 U m' u m U' m' u' m' U",
             [
-                "James Molloy"
+                "Daniel Lin"
             ],
-            "L 3Uw':[r,U m2 U']"
+            "U' m:[m U m',u]"
         ],
         [
             "x' z l' U l e2 l' U' l e2 z' x",
@@ -7081,7 +6688,6 @@
                 "Daniel Wallin",
                 "Hill Pong Yong Feng",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -7114,7 +6720,6 @@
                 "Daniel Wallin",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -7174,7 +6779,6 @@
         [
             "F' U' r U m2 U' r' U m2 F",
             [
-                "James Molloy",
                 "Kevin Matthews"
             ],
             "F':[U' r U,m2]"
@@ -7211,7 +6815,6 @@
             "U m2 U' m d m' U m d' m U'",
             [
                 "Daniel Lin",
-                "James Molloy",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz"
             ],
@@ -7232,13 +6835,6 @@
             "y U:[m,U r2 U']"
         ],
         [
-            "4Dw m' U l2 U' m U l2 U' 4Dw'",
-            [
-                "James Molloy"
-            ],
-            "4Dw:[m',U l2 U']"
-        ],
-        [
             "U' m2 U m d m' U' m d' m U",
             [
                 "Daniel Lin"
@@ -7256,7 +6852,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -7314,13 +6909,6 @@
                 "Kevin Matthews"
             ],
             "4Dw':[m',U' r2 U]"
-        ],
-        [
-            "U' m2 U m d' m' U' m d m U",
-            [
-                "James Molloy"
-            ],
-            "U' m':[m' U m,d']"
         ]
     ],
     "AMQ": [
@@ -7333,7 +6921,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -7354,7 +6941,6 @@
                 "Daniel Lin",
                 "Daniel Wallin",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -7399,7 +6985,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -7414,20 +6999,6 @@
     ],
     "AMT": [
         [
-            "3Uw' r 3Uw m2 3Uw' r' 3Uw m2",
-            [
-                "James Molloy",
-                "Kai Yamamoto (山本快)",
-                "Kevin Matthews",
-                "Leonardo Ezequiel Cruz",
-                "Marcell Endrey",
-                "Roman Strakhov",
-                "Tom Nelson",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "[3Uw' r 3Uw,m2]"
-        ],
-        [
             "3Uw l 3Uw' m2 3Uw l' 3Uw' m2",
             [
                 "Andrew Tan Jing Bang",
@@ -7441,18 +7012,24 @@
             "[3Uw l 3Uw',m2]"
         ],
         [
+            "3Uw' r 3Uw m2 3Uw' r' 3Uw m2",
+            [
+                "Kai Yamamoto (山本快)",
+                "Kevin Matthews",
+                "Leonardo Ezequiel Cruz",
+                "Marcell Endrey",
+                "Roman Strakhov",
+                "Tom Nelson",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "[3Uw' r 3Uw,m2]"
+        ],
+        [
             "4Uw l U' m2 U l' U' m2 E",
             [
                 "Ethan Pan"
             ],
             "4Uw:[l,U' m2 U]"
-        ],
-        [
-            "3Uw' r U m2 U' r' U m2 U' 3Uw",
-            [
-                "James Molloy"
-            ],
-            "3Uw':[r,U m2 U']"
         ],
         [
             "z e r' U' r e2 r' U r e z'",
@@ -7472,7 +7049,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -7492,7 +7068,6 @@
             [
                 "Andrew Tan Jing Bang",
                 "Howie Craig",
-                "James Molloy",
                 "Ryan Eckersley",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -7547,7 +7122,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -7567,7 +7141,6 @@
                 "Andrew Tan Jing Bang",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Ryan Eckersley",
                 "Ziyi Xu (徐梓翼)"
@@ -7611,7 +7184,6 @@
             "F U' r U' m U r' U' m' U2 F'",
             [
                 "Daniel Wallin",
-                "James Molloy",
                 "Leonardo Ezequiel Cruz",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -7674,7 +7246,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ziyi Xu (徐梓翼)"
@@ -7720,7 +7291,6 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Ethan Pan",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
@@ -7756,13 +7326,6 @@
                 "Howie Craig"
             ],
             "U' m:[U',m u' m']"
-        ],
-        [
-            "U 3Rw' U m u' m' U' m u m' 3Rw U'",
-            [
-                "James Molloy"
-            ],
-            "U 3Rw':[U,m u' m']"
         ]
     ],
     "ANE": [
@@ -7774,7 +7337,6 @@
                 "Dong Zhu (朱栋)",
                 "Hana Davila",
                 "Hill Pong Yong Feng",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -7841,7 +7403,6 @@
             [
                 "Andrew Tan Jing Bang",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -7914,13 +7475,6 @@
             "U' m:[U',m u2 m']"
         ],
         [
-            "3Rw D U' r2 U m U' r2 U m' D' 3Rw'",
-            [
-                "James Molloy"
-            ],
-            "3Rw D:[U' r2 U,m]"
-        ],
-        [
             "U' d2 m' U m d2 m' U' m U",
             [
                 "Daniel Lin"
@@ -7945,7 +7499,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -7995,13 +7548,6 @@
                 "Howie Craig"
             ],
             "U':[m U' m',d']"
-        ],
-        [
-            "3Uw m U m' d' m U' m' 4Uw'",
-            [
-                "James Molloy"
-            ],
-            "3Uw:[m U m',d']"
         ]
     ],
     "ANM": [
@@ -8014,7 +7560,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -8041,7 +7586,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -8090,13 +7634,6 @@
                 "Ryan Eckersley"
             ],
             "U':[m U' m',d]"
-        ],
-        [
-            "3Uw' m U' m' d m U m' 4Uw",
-            [
-                "James Molloy"
-            ],
-            "3Uw':[m U' m',d]"
         ]
     ],
     "ANQ": [
@@ -8109,7 +7646,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -8132,16 +7668,6 @@
             "3Uw:[l',U m U']"
         ],
         [
-            "3Uw' r' U' m U r U' m' U 3Uw",
-            [
-                "Daniel Lin",
-                "Ethan Pan",
-                "James Molloy",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "3Uw':[r',U' m U]"
-        ],
-        [
             "3Uw' r' 3Uw' m 3Uw r 3Uw' m' 3Uw2",
             [
                 "Andrew Tan Jing Bang",
@@ -8149,6 +7675,15 @@
                 "Michael Tripodi"
             ],
             "3Uw':[r',3Uw' m 3Uw]"
+        ],
+        [
+            "3Uw' r' U' m U r U' m' U 3Uw",
+            [
+                "Daniel Lin",
+                "Ethan Pan",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "3Uw':[r',U' m U]"
         ],
         [
             "z' r2 e r U' r' e' r U r z",
@@ -8174,13 +7709,6 @@
             "x' y:[m' U m,d]"
         ],
         [
-            "3Rw' 4Uw m' U m d m' U' m 3Uw' 3Rw",
-            [
-                "James Molloy"
-            ],
-            "3Rw' 3Uw:[d',m' U m]"
-        ],
-        [
             "z' x' m' U m d m' U' m d' x z",
             [
                 "Daniel Lin"
@@ -8198,7 +7726,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -8241,13 +7768,6 @@
             "3Uw':[r,3Uw' m 3Uw]"
         ],
         [
-            "U' m r' e r U r' e' r U' m' U",
-            [
-                "James Molloy"
-            ],
-            "U' m:[r' e r,U]"
-        ],
-        [
             "z l2 e' l' U l e l' U' l' z'",
             [
                 "Daniel Lin"
@@ -8276,7 +7796,6 @@
             "U 4Rw' e l' U' l e' l' U 3Rw U'",
             [
                 "Andrew Tan Jing Bang",
-                "James Molloy",
                 "Michael Tripodi"
             ],
             "U 3Rw':[l e l',U']"
@@ -8359,15 +7878,6 @@
             "U2:[3Uw r 3Uw',m]"
         ],
         [
-            "U' 4Lw e' r U r' e r U' 3Lw' U",
-            [
-                "Andrew Tan Jing Bang",
-                "James Molloy",
-                "Michael Tripodi"
-            ],
-            "U' 3Lw:[r' e' r,U]"
-        ],
-        [
             "z' r2 e r U r' e' r U' r z",
             [
                 "Daniel Lin",
@@ -8375,6 +7885,14 @@
                 "Kevin Matthews"
             ],
             "z' r':[r' e r,U]"
+        ],
+        [
+            "U' 4Lw e' r U r' e r U' 3Lw' U",
+            [
+                "Andrew Tan Jing Bang",
+                "Michael Tripodi"
+            ],
+            "U' 3Lw:[r' e' r,U]"
         ],
         [
             "3Uw U2 r U' m U r' U' m' U' 3Uw'",
@@ -8401,7 +7919,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -8425,7 +7942,6 @@
             [
                 "Andrew Tan Jing Bang",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -8473,7 +7989,6 @@
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
-                "James Molloy",
                 "Ryan Eckersley",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -8503,13 +8018,6 @@
             "u:[m,U' r2 U]"
         ],
         [
-            "Rw2 m' u m U m' u' m U' Rw2",
-            [
-                "James Molloy"
-            ],
-            "Rw2:[m' u m,U]"
-        ],
-        [
             "x z U2 m' U' r' U m U' r U' z' x'",
             [
                 "Daniel Lin"
@@ -8528,7 +8036,6 @@
                 "Hana Davila",
                 "Hill Pong Yong Feng",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -8579,7 +8086,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -8622,7 +8128,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Marcell Endrey",
@@ -8668,7 +8173,6 @@
             [
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
-                "James Molloy",
                 "Leonardo Ezequiel Cruz",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -8712,7 +8216,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -8768,13 +8271,6 @@
                 "Leonardo Ezequiel Cruz"
             ],
             "D' y:[U' m' U,l2]"
-        ],
-        [
-            "D U' m2 U m d' m' U' m d m U D'",
-            [
-                "James Molloy"
-            ],
-            "D U' m':[m' U m,d']"
         ]
     ],
     "AOQ": [
@@ -8783,7 +8279,6 @@
             [
                 "Andrew Tan Jing Bang",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -8818,7 +8313,6 @@
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -8881,13 +8375,6 @@
                 "Kevin Matthews"
             ],
             "4Lw' U':[U' r U,m]"
-        ],
-        [
-            "D' U l' U m2 U' l U m2 U2 D",
-            [
-                "James Molloy"
-            ],
-            "D' U:[l',U m2 U']"
         ]
     ],
     "AOT": [
@@ -8897,7 +8384,6 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Lin",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -8947,7 +8433,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
@@ -8984,7 +8469,6 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Lin",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -9016,7 +8500,6 @@
                 "Andrew Tan Jing Bang",
                 "Hill Pong Yong Feng",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -9051,7 +8534,6 @@
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -9098,14 +8580,6 @@
             "Rw2 U:[u,m' U m]"
         ],
         [
-            "R2 Uw m' U m u' m' U' m U' R2",
-            [
-                "James Molloy",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "R2 U:[u,m' U m]"
-        ],
-        [
             "x' z' r2 e r' U r e' r' U' r' z x",
             [
                 "Daniel Lin",
@@ -9133,6 +8607,13 @@
                 "Marcell Endrey"
             ],
             "y' m:[U',m u m']"
+        ],
+        [
+            "R2 Uw m' U m u' m' U' m U' R2",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "R2 U:[u,m' U m]"
         ],
         [
             "R' F e' r U' r' e r U r' F' R",
@@ -9167,7 +8648,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -9220,13 +8700,6 @@
                 "Howie Craig"
             ],
             "y' x':[U r U',m2]"
-        ],
-        [
-            "R 3Uw U' m U l' U' m' U l 3Uw' R'",
-            [
-                "James Molloy"
-            ],
-            "R 3Uw:[U' m U,l']"
         ]
     ],
     "APE": [
@@ -9241,7 +8714,6 @@
                 "Hana Davila",
                 "Hill Pong Yong Feng",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -9317,13 +8789,6 @@
                 "Howie Craig"
             ],
             "U' m:[m d' m',U]"
-        ],
-        [
-            "U' 3Rw' r U' r' e' r U r' e 3Rw U",
-            [
-                "James Molloy"
-            ],
-            "U' 3Rw':[r U' r',e']"
         ]
     ],
     "API": [
@@ -9350,20 +8815,19 @@
             "y:[l2,U' m' U]"
         ],
         [
-            "U' m d m U' m' d' m U m2 U",
-            [
-                "James Molloy",
-                "Leonardo Ezequiel Cruz"
-            ],
-            "U' m:[d,m U' m']"
-        ],
-        [
             "y' r2 U' m U r2 U' m' U y",
             [
                 "Dong Zhu (朱栋)",
                 "Kevin Matthews"
             ],
             "y':[r2,U' m U]"
+        ],
+        [
+            "U' m d m U' m' d' m U m2 U",
+            [
+                "Leonardo Ezequiel Cruz"
+            ],
+            "U' m:[d,m U' m']"
         ]
     ],
     "APJ": [
@@ -9403,13 +8867,6 @@
                 "Kai Yamamoto (山本快)"
             ],
             "3Rw:[3Uw' r' 3Uw,m]"
-        ],
-        [
-            "4Uw m' U' m d m' U m 3Uw'",
-            [
-                "James Molloy"
-            ],
-            "3Uw:[d',m' U' m]"
         ]
     ],
     "APK": [
@@ -9449,13 +8906,6 @@
                 "Kevin Matthews"
             ],
             "y' x':[U r U',m]"
-        ],
-        [
-            "D U' m d m U' m' d' m U m2 U D'",
-            [
-                "James Molloy"
-            ],
-            "D U' m:[d,m U' m']"
         ]
     ],
     "APL": [
@@ -9515,13 +8965,6 @@
                 "Howie Craig"
             ],
             "y' m:[U',m u2 m']"
-        ],
-        [
-            "3Uw' d' m' U m d2 m' U' m 4Uw",
-            [
-                "James Molloy"
-            ],
-            "3Uw' d':[m' U m,d2]"
         ]
     ],
     "APM": [
@@ -9554,13 +8997,6 @@
                 "Kevin Matthews"
             ],
             "4Dw':[U' r2 U,m']"
-        ],
-        [
-            "U' m' d' m' U m d m' U' m2 U",
-            [
-                "James Molloy"
-            ],
-            "U' m':[d',m' U m]"
         ]
     ],
     "APN": [
@@ -9593,13 +9029,6 @@
                 "Ryan Eckersley"
             ],
             "U':[d,m U' m']"
-        ],
-        [
-            "4Uw' m U' m' d' m U m' 3Uw",
-            [
-                "James Molloy"
-            ],
-            "3Uw':[d,m U' m']"
         ]
     ],
     "APO": [
@@ -9640,13 +9069,6 @@
                 "Leonardo Ezequiel Cruz"
             ],
             "D' y:[l2,U' m' U]"
-        ],
-        [
-            "D U' m' d' m' U m d m' U' m2 U D'",
-            [
-                "James Molloy"
-            ],
-            "D U' m':[d',m' U m]"
         ]
     ],
     "APQ": [
@@ -9667,13 +9089,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "Dw':[U' r U,m']"
-        ],
-        [
-            "R' e' r U' r' e r U r' R",
-            [
-                "James Molloy"
-            ],
-            "R':[e',r U' r']"
         ]
     ],
     "APS": [
@@ -9694,13 +9109,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "Dw':[U l' U',m']"
-        ],
-        [
-            "R e' l' U l e l' U' l R'",
-            [
-                "James Molloy"
-            ],
-            "R:[e',l' U l]"
         ],
         [
             "Lw' U' m d' m' U m d m' Lw",
@@ -9747,13 +9155,6 @@
                 "Kevin Matthews"
             ],
             "y':[r,U' m U]"
-        ],
-        [
-            "R' e' r U' r' e2 r U r' e' R",
-            [
-                "James Molloy"
-            ],
-            "R' e':[r U' r',e2]"
         ]
     ],
     "APW": [
@@ -9778,7 +9179,6 @@
             "Lw U' m d' m' U m d 3Lw'",
             [
                 "Daniel Lin",
-                "James Molloy",
                 "Kevin Matthews"
             ],
             "Lw:[U',m d' m']"
@@ -9815,13 +9215,6 @@
             "E':[U' r' U,m']"
         ],
         [
-            "y' U2 l' U m U' l U m' U y",
-            [
-                "James Molloy"
-            ],
-            "y' U':[U' l' U,m]"
-        ],
-        [
             "z l' e' l' U' l e l' U l2 z'",
             [
                 "Daniel Lin"
@@ -9851,8 +9244,7 @@
         [
             "Rw' r' e' r U' r' e r U Rw",
             [
-                "Daniel Lin",
-                "James Molloy"
+                "Daniel Lin"
             ],
             "Rw':[r' e' r,U']"
         ]
@@ -9885,7 +9277,6 @@
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -9941,7 +9332,6 @@
             [
                 "Daniel Wallin",
                 "Ethan Pan",
-                "James Molloy",
                 "Kevin Matthews"
             ],
             "3Rw:[u,m U m']"
@@ -9977,7 +9367,6 @@
                 "Andrew Tan Jing Bang",
                 "Hana Davila",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Ziyi Xu (徐梓翼)"
@@ -10035,7 +9424,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -10058,7 +9446,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -10091,7 +9478,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -10131,24 +9517,9 @@
         [
             "Rw m d m' U m d' m' U' Rw'",
             [
-                "Daniel Lin",
-                "James Molloy"
+                "Daniel Lin"
             ],
             "Rw:[m d m',U]"
-        ],
-        [
-            "L' r U' r' e r U r' e' L",
-            [
-                "James Molloy"
-            ],
-            "L':[r U' r',e]"
-        ],
-        [
-            "U2 3Rw d' m U' m' d m U Rw' U2",
-            [
-                "James Molloy"
-            ],
-            "U2 Rw:[m' d' m,U']"
         ]
     ],
     "AQM": [
@@ -10161,7 +9532,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -10184,7 +9554,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -10201,7 +9570,6 @@
             [
                 "Andrew Tan Jing Bang",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -10246,13 +9614,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "Dw':[m',U' r U]"
-        ],
-        [
-            "R' r U' r' e' r U r' e R",
-            [
-                "James Molloy"
-            ],
-            "R':[r U' r',e']"
         ]
     ],
     "AQR": [
@@ -10263,7 +9624,6 @@
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Ryan Eckersley",
@@ -10301,7 +9661,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -10337,13 +9696,6 @@
                 "Kevin Matthews"
             ],
             "3Lw U':[U' r U,m']"
-        ],
-        [
-            "F U l U' m' U l' U' m F'",
-            [
-                "James Molloy"
-            ],
-            "F:[U l U',m']"
         ]
     ],
     "AQX": [
@@ -10355,7 +9707,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -10394,14 +9745,6 @@
             "x':[r2,U m' U']"
         ],
         [
-            "F U' r' U m' U' r U m F'",
-            [
-                "James Molloy",
-                "Michael Tripodi"
-            ],
-            "F:[U' r' U,m']"
-        ],
-        [
             "4Lw r2 U m' U' r2 U m U' 4Lw'",
             [
                 "Daniel Wallin"
@@ -10414,6 +9757,13 @@
                 "Ryan Eckersley"
             ],
             "m r:[U m' U',r2]"
+        ],
+        [
+            "F U' r' U m' U' r U m F'",
+            [
+                "Michael Tripodi"
+            ],
+            "F:[U' r' U,m']"
         ],
         [
             "3Lw Rw U m' U' r2 U m U' r2 Rw' 3Lw'",
@@ -10447,7 +9797,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -10486,7 +9835,6 @@
         [
             "R Uw m' U m u' m' U' m U' R'",
             [
-                "James Molloy",
                 "Kevin Matthews"
             ],
             "R Uw:[m' U m,u']"
@@ -10508,7 +9856,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Marcell Endrey",
@@ -10537,16 +9884,6 @@
     ],
     "ARD": [
         [
-            "3Uw U' m U l' U' m' U l 3Uw'",
-            [
-                "Daniel Wallin",
-                "James Molloy",
-                "Michael Tripodi",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "3Uw:[U' m U,l']"
-        ],
-        [
             "4Dw' m U l' U' m' U l y'",
             [
                 "Andrew Tan Jing Bang",
@@ -10557,10 +9894,18 @@
             "y:[U' m U,l']"
         ],
         [
+            "3Uw U' m U l' U' m' U l 3Uw'",
+            [
+                "Daniel Wallin",
+                "Michael Tripodi",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "3Uw:[U' m U,l']"
+        ],
+        [
             "y' U' m' U r' U' m U r y",
             [
                 "Dong Zhu (朱栋)",
-                "James Molloy",
                 "Kevin Matthews",
                 "Marcell Endrey"
             ],
@@ -10601,7 +9946,6 @@
                 "Hana Davila",
                 "Hill Pong Yong Feng",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -10648,7 +9992,6 @@
                 "Daniel Wallin",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -10734,13 +10077,6 @@
             "y D':[U' m2 U,l']"
         ],
         [
-            "3Uw' U' m2 U r' U' m2 U r 3Uw",
-            [
-                "James Molloy"
-            ],
-            "3Uw':[U' m2 U,r']"
-        ],
-        [
             "4Uw U m2 U' l' U m2 U' l 4Uw'",
             [
                 "Daniel Lin"
@@ -10782,13 +10118,6 @@
                 "Roman Strakhov"
             ],
             "[m',3Uw l' 3Uw']"
-        ],
-        [
-            "F e' l' U l e l' U' l F'",
-            [
-                "James Molloy"
-            ],
-            "F:[e',l' U l]"
         ]
     ],
     "ARK": [
@@ -10798,7 +10127,6 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Lin",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
@@ -10845,7 +10173,6 @@
                 "Andrew Tan Jing Bang",
                 "Dong Zhu (朱栋)",
                 "Howie Craig",
-                "James Molloy",
                 "Kevin Matthews",
                 "Marcell Endrey",
                 "Michael Tripodi"
@@ -10885,7 +10212,6 @@
                 "Daniel Lin",
                 "Daniel Wallin",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -10932,16 +10258,6 @@
             "3Uw:[U m U',l']"
         ],
         [
-            "3Uw' U' m U r' U' m' U r 3Uw",
-            [
-                "Daniel Lin",
-                "Ethan Pan",
-                "James Molloy",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "3Uw':[U' m U,r']"
-        ],
-        [
             "3Uw2 m 3Uw r' 3Uw' m' 3Uw r 3Uw",
             [
                 "Andrew Tan Jing Bang",
@@ -10949,6 +10265,15 @@
                 "Michael Tripodi"
             ],
             "3Uw':[3Uw' m 3Uw,r']"
+        ],
+        [
+            "3Uw' U' m U r' U' m' U r 3Uw",
+            [
+                "Daniel Lin",
+                "Ethan Pan",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "3Uw':[U' m U,r']"
         ],
         [
             "z' r' U' r' e r U r' e' r2 z",
@@ -10974,13 +10299,6 @@
             "x' y:[d,m' U m]"
         ],
         [
-            "3Rw' 3Uw m' U m d' m' U' m 4Uw' 3Rw",
-            [
-                "James Molloy"
-            ],
-            "3Rw' 3Uw:[m' U m,d']"
-        ],
-        [
             "z' x' d m' U m d' m' U' m x z",
             [
                 "Daniel Lin"
@@ -10996,7 +10314,6 @@
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -11037,7 +10354,6 @@
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Ryan Eckersley",
@@ -11066,7 +10382,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Marcell Endrey",
@@ -11156,7 +10471,6 @@
             "x' m' U' m d' m' U m d x",
             [
                 "Daniel Lin",
-                "James Molloy",
                 "Kevin Matthews",
                 "Marcell Endrey"
             ],
@@ -11186,7 +10500,6 @@
             "e r' U' r e2 r' U r e",
             [
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi"
             ],
@@ -11226,13 +10539,6 @@
                 "Ethan Pan"
             ],
             "y' F':[U m' U',r']"
-        ],
-        [
-            "L 3Uw U' m U l' U' m' U l 3Uw' L'",
-            [
-                "James Molloy"
-            ],
-            "L 3Uw:[U' m U,l']"
         ]
     ],
     "ARY": [
@@ -11244,7 +10550,6 @@
                 "Daniel Wallin",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Marcell Endrey",
@@ -11287,7 +10592,6 @@
             [
                 "Daniel Wallin",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ziyi Xu (徐梓翼)"
@@ -11363,7 +10667,6 @@
             "Lw' U l e l' U' l e' L",
             [
                 "Daniel Lin",
-                "James Molloy",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "L':[l' U l,e]"
@@ -11384,7 +10687,6 @@
                 "Hana Davila",
                 "Hill Pong Yong Feng",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Ziyi Xu (徐梓翼)"
@@ -11448,7 +10750,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -11472,7 +10773,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -11509,7 +10809,6 @@
             [
                 "Andrew Tan Jing Bang",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -11554,13 +10853,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "Dw:[m',U l' U']"
-        ],
-        [
-            "L l' U l e l' U' l e' L'",
-            [
-                "James Molloy"
-            ],
-            "L:[l' U l,e]"
         ]
     ],
     "ASM": [
@@ -11573,7 +10865,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -11596,7 +10887,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -11632,13 +10922,6 @@
                 "Kevin Matthews"
             ],
             "4Lw' U':[m,U' r U]"
-        ],
-        [
-            "D' U2 m2 U' l' U m2 U' l U' D",
-            [
-                "James Molloy"
-            ],
-            "D' U:[U m2 U',l']"
         ]
     ],
     "ASP": [
@@ -11659,13 +10942,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "Dw':[m',U l' U']"
-        ],
-        [
-            "R l' U l e' l' U' l e R'",
-            [
-                "James Molloy"
-            ],
-            "R:[l' U l,e']"
         ],
         [
             "Lw' m d' m' U' m d m' U Lw",
@@ -11694,7 +10970,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Marcell Endrey",
@@ -11722,7 +10997,6 @@
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Ziyi Xu (徐梓翼)"
@@ -11762,14 +11036,6 @@
             "x':[l2,U' m' U]"
         ],
         [
-            "F' U l U' m' U l' U' m F",
-            [
-                "James Molloy",
-                "Michael Tripodi"
-            ],
-            "F':[U l U',m']"
-        ],
-        [
             "4Rw' l2 U' m' U l2 U' m U 4Rw",
             [
                 "Daniel Wallin"
@@ -11782,6 +11048,13 @@
                 "Ryan Eckersley"
             ],
             "m l':[U' m' U,l2]"
+        ],
+        [
+            "F' U l U' m' U l' U' m F",
+            [
+                "Michael Tripodi"
+            ],
+            "F':[U l U',m']"
         ],
         [
             "3Rw' Lw' U' m' U l2 U' m U l2 Lw 3Rw",
@@ -11815,7 +11088,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -11836,7 +11108,6 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
-                "James Molloy",
                 "Marcell Endrey",
                 "Ryan Eckersley",
                 "Tom Nelson",
@@ -11900,13 +11171,6 @@
                 "Kevin Matthews"
             ],
             "R' Uw:[U m' U',l']"
-        ],
-        [
-            "R2 l' U l e' l' U' l e R2",
-            [
-                "James Molloy"
-            ],
-            "R2:[l' U l,e']"
         ]
     ],
     "ATB": [
@@ -11931,20 +11195,19 @@
             "F:[e,r U' r']"
         ],
         [
-            "L' Uw' m' U' m u m' U m U L",
-            [
-                "James Molloy",
-                "Kevin Matthews"
-            ],
-            "L' Uw':[m' U' m,u]"
-        ],
-        [
             "z r U' r e r' U r e' r2 z'",
             [
                 "Daniel Lin",
                 "Dong Zhu (朱栋)"
             ],
             "z r:[U',r e r']"
+        ],
+        [
+            "L' Uw' m' U' m u m' U m U L",
+            [
+                "Kevin Matthews"
+            ],
+            "L' Uw':[m' U' m,u]"
         ],
         [
             "U2 e m' U r U' m U r' U e'",
@@ -11963,7 +11226,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Marcell Endrey",
                 "Michael Tripodi",
@@ -12013,7 +11275,6 @@
                 "Hana Davila",
                 "Hill Pong Yong Feng",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -12038,7 +11299,6 @@
             [
                 "Daniel Lin",
                 "Ethan Pan",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -12066,13 +11326,6 @@
                 "Dong Zhu (朱栋)"
             ],
             "z:[r' U' r,e]"
-        ],
-        [
-            "U' m U' r' e r U r' e' r m' U",
-            [
-                "James Molloy"
-            ],
-            "U' m:[U',r' e r]"
         ]
     ],
     "ATI": [
@@ -12091,8 +11344,7 @@
             [
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
-                "Howie Craig",
-                "James Molloy"
+                "Howie Craig"
             ],
             "D r:[e,r U' r']"
         ],
@@ -12107,8 +11359,7 @@
         [
             "3Uw' U' m2 U r U' m2 U r' 3Uw",
             [
-                "Daniel Wallin",
-                "James Molloy"
+                "Daniel Wallin"
             ],
             "3Uw':[U' m2 U,r]"
         ],
@@ -12132,7 +11383,6 @@
             "m' 3Uw' r 3Uw m 3Uw' r' 3Uw",
             [
                 "Daniel Lin",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -12161,13 +11411,6 @@
                 "Dong Zhu (朱栋)"
             ],
             "z:[l' U l,e']"
-        ],
-        [
-            "3Uw' U m' U' r U m U' r' 3Uw",
-            [
-                "James Molloy"
-            ],
-            "3Uw':[U m' U',r]"
         ]
     ],
     "ATK": [
@@ -12177,7 +11420,6 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Lin",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -12221,20 +11463,6 @@
     ],
     "ATM": [
         [
-            "m2 3Uw' r 3Uw m2 3Uw' r' 3Uw",
-            [
-                "James Molloy",
-                "Kai Yamamoto (山本快)",
-                "Kevin Matthews",
-                "Leonardo Ezequiel Cruz",
-                "Marcell Endrey",
-                "Roman Strakhov",
-                "Tom Nelson",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "[m2,3Uw' r 3Uw]"
-        ],
-        [
             "m2 3Uw l 3Uw' m2 3Uw l' 3Uw'",
             [
                 "Andrew Tan Jing Bang",
@@ -12248,18 +11476,24 @@
             "[m2,3Uw l 3Uw']"
         ],
         [
+            "m2 3Uw' r 3Uw m2 3Uw' r' 3Uw",
+            [
+                "Kai Yamamoto (山本快)",
+                "Kevin Matthews",
+                "Leonardo Ezequiel Cruz",
+                "Marcell Endrey",
+                "Roman Strakhov",
+                "Tom Nelson",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "[m2,3Uw' r 3Uw]"
+        ],
+        [
             "E' m2 U l U' m2 U l' 4Uw'",
             [
                 "Ethan Pan"
             ],
             "4Uw:[U' m2 U,l]"
-        ],
-        [
-            "3Uw' U m2 U' r U m2 U' r' 3Uw",
-            [
-                "James Molloy"
-            ],
-            "3Uw':[U m2 U',r]"
         ],
         [
             "z e' r' U' r e2 r' U r e' z'",
@@ -12300,13 +11534,6 @@
             "3Uw':[3Uw' m 3Uw,r]"
         ],
         [
-            "U' m U r' e r U' r' e' r m' U",
-            [
-                "James Molloy"
-            ],
-            "U' m:[U,r' e r]"
-        ],
-        [
             "z l U l e' l' U' l e l2 z'",
             [
                 "Daniel Lin"
@@ -12328,7 +11555,6 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Lin",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -12405,13 +11631,6 @@
                 "Kevin Matthews"
             ],
             "y':[U' m U,r]"
-        ],
-        [
-            "R' e r U' r' e2 r U r' e R",
-            [
-                "James Molloy"
-            ],
-            "R' e:[r U' r',e2]"
         ]
     ],
     "ATQ": [
@@ -12424,7 +11643,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -12488,18 +11706,6 @@
     ],
     "ATS": [
         [
-            "l2 e' l U l' e l U' l",
-            [
-                "Andrew Tan Jing Bang",
-                "Dong Zhu (朱栋)",
-                "Howie Craig",
-                "James Molloy",
-                "Kai Yamamoto (山本快)",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "l':[l' e' l,U]"
-        ],
-        [
             "Lw' U' m' u m U m' u' 3Lw",
             [
                 "Daniel Lin",
@@ -12509,6 +11715,17 @@
                 "Michael Tripodi"
             ],
             "Lw':[U',m' u m]"
+        ],
+        [
+            "l2 e' l U l' e l U' l",
+            [
+                "Andrew Tan Jing Bang",
+                "Dong Zhu (朱栋)",
+                "Howie Craig",
+                "Kai Yamamoto (山本快)",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "l':[l' e' l,U]"
         ],
         [
             "x m U' m' u m U m' u' x'",
@@ -12535,7 +11752,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -12572,7 +11788,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -12605,7 +11820,6 @@
                 "Dong Zhu (朱栋)",
                 "Hill Pong Yong Feng",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
@@ -12646,7 +11860,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -12666,7 +11879,6 @@
                 "Daniel Wallin",
                 "Ethan Pan",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -12720,7 +11932,6 @@
             "Lw U l' e' l U' l' e L'",
             [
                 "Daniel Lin",
-                "James Molloy",
                 "Leonardo Ezequiel Cruz"
             ],
             "L:[l U l',e']"
@@ -12734,7 +11945,6 @@
                 "Hana Davila",
                 "Hill Pong Yong Feng",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Ziyi Xu (徐梓翼)"
@@ -12804,7 +12014,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -12833,7 +12042,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -12852,7 +12060,6 @@
             [
                 "Andrew Tan Jing Bang",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -12897,13 +12104,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "Dw:[m',U l U']"
-        ],
-        [
-            "L2 Lw U l' e' l U' l' e L",
-            [
-                "James Molloy"
-            ],
-            "L':[l U l',e']"
         ]
     ],
     "AWM": [
@@ -12916,7 +12116,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -12949,7 +12148,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
@@ -13001,7 +12199,6 @@
             "3Lw d' m' U' m d m' U Lw'",
             [
                 "Daniel Lin",
-                "James Molloy",
                 "Kevin Matthews"
             ],
             "3Lw:[d',m' U' m]"
@@ -13031,13 +12228,6 @@
                 "Kevin Matthews"
             ],
             "3Lw U':[m',U' r U]"
-        ],
-        [
-            "F m' U l U' m U l' U' F'",
-            [
-                "James Molloy"
-            ],
-            "F:[m',U l U']"
         ]
     ],
     "AWR": [
@@ -13060,7 +12250,6 @@
             "x' d' m' U' m d m' U m x",
             [
                 "Daniel Lin",
-                "James Molloy",
                 "Kevin Matthews",
                 "Marcell Endrey"
             ],
@@ -13089,14 +12278,6 @@
             "x':[U' m' U,l2]"
         ],
         [
-            "F' m' U l U' m U l' U' F",
-            [
-                "James Molloy",
-                "Michael Tripodi"
-            ],
-            "F':[m',U l U']"
-        ],
-        [
             "4Rw' U' m' U l2 U' m U l2 4Rw",
             [
                 "Daniel Wallin"
@@ -13109,6 +12290,13 @@
                 "Ryan Eckersley"
             ],
             "m l:[U' m' U,l2]"
+        ],
+        [
+            "F' m' U l U' m U l' U' F",
+            [
+                "Michael Tripodi"
+            ],
+            "F':[m',U l U']"
         ],
         [
             "4Rw' L' U' m' U l2 U' m U l2 L 4Rw",
@@ -13142,7 +12330,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -13169,7 +12356,6 @@
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -13214,7 +12400,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -13269,13 +12454,6 @@
                 "Kevin Matthews"
             ],
             "L Uw':[m' U' m,u]"
-        ],
-        [
-            "F' e l' U l e' l' U' l F",
-            [
-                "James Molloy"
-            ],
-            "F':[e,l' U l]"
         ]
     ],
     "AXC": [
@@ -13288,7 +12466,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Marcell Endrey",
                 "Michael Tripodi",
@@ -13349,13 +12526,6 @@
                 "Kevin Matthews"
             ],
             "3Lw:[u',m' U2 m]"
-        ],
-        [
-            "U' l e l' U2 l e' l' U'",
-            [
-                "James Molloy"
-            ],
-            "U':[l e l',U2]"
         ]
     ],
     "AXF": [
@@ -13406,13 +12576,6 @@
                 "Kevin Matthews"
             ],
             "L Uw:[m U' m',u']"
-        ],
-        [
-            "U 3Rw' U l e l' U' l e' 4Rw U'",
-            [
-                "James Molloy"
-            ],
-            "U 3Rw':[U,l e l']"
         ]
     ],
     "AXI": [
@@ -13432,14 +12595,6 @@
                 "Michael Tripodi"
             ],
             "Lw' Dw:[U' r2 U,m']"
-        ],
-        [
-            "3Uw' U' m2 U' l' U m2 U' l U2 3Uw",
-            [
-                "Daniel Wallin",
-                "James Molloy"
-            ],
-            "3Uw' U':[m2,U' l' U]"
         ],
         [
             "U2 m2 3Uw r' 3Uw' m2 3Uw r 3Uw' U2",
@@ -13463,6 +12618,13 @@
                 "Hill Pong Yong Feng"
             ],
             "e U:[U m2 U',l']"
+        ],
+        [
+            "3Uw' U' m2 U' l' U m2 U' l U2 3Uw",
+            [
+                "Daniel Wallin"
+            ],
+            "3Uw' U':[m2,U' l' U]"
         ],
         [
             "U2 m2 3Uw' l' 3Uw m2 3Uw' l 3Uw U2",
@@ -13528,13 +12690,6 @@
                 "Kai Yamamoto (山本快)"
             ],
             "e':[m',U' r' U]"
-        ],
-        [
-            "F e l' U l e' l' U' l F'",
-            [
-                "James Molloy"
-            ],
-            "F:[e,l' U l]"
         ]
     ],
     "AXK": [
@@ -13545,7 +12700,6 @@
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -13586,7 +12740,6 @@
             [
                 "Andrew Tan Jing Bang",
                 "Howie Craig",
-                "James Molloy",
                 "Ryan Eckersley",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -13636,7 +12789,6 @@
             "U 3Rw' U' l e l' U l e' 4Rw U'",
             [
                 "Andrew Tan Jing Bang",
-                "James Molloy",
                 "Michael Tripodi"
             ],
             "U 3Rw':[U',l e l']"
@@ -13701,7 +12853,6 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Lin",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -13757,13 +12908,6 @@
             "E':[m',U' r' U]"
         ],
         [
-            "y' U' m U' l' U m' U' l U2 y",
-            [
-                "James Molloy"
-            ],
-            "y' U':[m,U' l' U]"
-        ],
-        [
             "z l2 U' l e' l' U l e l z'",
             [
                 "Daniel Lin"
@@ -13780,7 +12924,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -13820,7 +12963,6 @@
             "e' r' U' r e2 r' U r e'",
             [
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi"
             ],
@@ -13860,13 +13002,6 @@
                 "Ethan Pan"
             ],
             "y' F':[r',U m' U']"
-        ],
-        [
-            "L 3Uw l' U' m U l U' m' U 3Uw' L'",
-            [
-                "James Molloy"
-            ],
-            "L 3Uw:[l',U' m U]"
         ]
     ],
     "AXS": [
@@ -13879,7 +13014,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -13910,7 +13044,6 @@
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -13946,7 +13079,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -14019,7 +13151,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -14038,7 +13169,6 @@
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Marcell Endrey",
@@ -14092,21 +13222,20 @@
             "Uw':[U' m' U,r']"
         ],
         [
-            "Rw' m' u m U m' u' m U' Rw",
-            [
-                "Daniel Lin",
-                "Ethan Pan",
-                "James Molloy"
-            ],
-            "Rw':[m' u m,U]"
-        ],
-        [
             "u m Uw' r' Uw m' Uw' r U",
             [
                 "Kevin Matthews",
                 "Michael Tripodi"
             ],
             "u:[m,Uw' r' Uw]"
+        ],
+        [
+            "Rw' m' u m U m' u' m U' Rw",
+            [
+                "Daniel Lin",
+                "Ethan Pan"
+            ],
+            "Rw':[m' u m,U]"
         ],
         [
             "U' Uw' m' Uw r' Uw' m Uw r U",
@@ -14131,7 +13260,6 @@
                 "Andrew Tan Jing Bang",
                 "Hana Davila",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Ziyi Xu (徐梓翼)"
@@ -14202,13 +13330,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "U':[U' m2 U,r']"
-        ],
-        [
-            "3Rw' d2 m' U m d2 m' U' Rw",
-            [
-                "James Molloy"
-            ],
-            "3Rw':[d2,m' U m]"
         ]
     ],
     "AYJ": [
@@ -14221,7 +13342,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -14244,7 +13364,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
@@ -14293,13 +13412,6 @@
             "3Rw':[d,m' U m]"
         ],
         [
-            "L r' U' r e' r' U r e L'",
-            [
-                "James Molloy"
-            ],
-            "L:[r' U' r,e']"
-        ],
-        [
             "r' m d m' U m d' m' U' r",
             [
                 "Daniel Lin"
@@ -14317,7 +13429,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -14348,7 +13459,6 @@
                 "Andrew Tan Jing Bang",
                 "Hill Pong Yong Feng",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -14397,8 +13507,7 @@
         [
             "Rw' U' r' e' r U r' e r Rw",
             [
-                "Daniel Lin",
-                "James Molloy"
+                "Daniel Lin"
             ],
             "Rw':[U',r' e' r]"
         ]
@@ -14418,14 +13527,6 @@
             "x':[U m' U',r2]"
         ],
         [
-            "F m' U' r' U m U' r U F'",
-            [
-                "James Molloy",
-                "Michael Tripodi"
-            ],
-            "F:[m',U' r' U]"
-        ],
-        [
             "4Lw U m' U' r2 U m U' r2 4Lw'",
             [
                 "Daniel Wallin"
@@ -14438,6 +13539,13 @@
                 "Ryan Eckersley"
             ],
             "m r':[U m' U',r2]"
+        ],
+        [
+            "F m' U' r' U m U' r U F'",
+            [
+                "Michael Tripodi"
+            ],
+            "F:[m',U' r' U]"
         ],
         [
             "4Lw R U m' U' r2 U m U' r2 R' 4Lw'",
@@ -14470,7 +13578,6 @@
                 "Daniel Wallin",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Marcell Endrey",
@@ -14496,7 +13603,6 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
-                "James Molloy",
                 "Marcell Endrey",
                 "Ryan Eckersley",
                 "Tom Nelson",
@@ -14539,7 +13645,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -14582,7 +13687,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -14655,7 +13759,6 @@
         [
             "R' Uw m' U m u' m' U' m U' R",
             [
-                "James Molloy",
                 "Kevin Matthews"
             ],
             "R' Uw:[m' U m,u']"
@@ -14670,7 +13773,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Marcell Endrey",
                 "Michael Tripodi",
@@ -14745,7 +13847,6 @@
                 "Hana Davila",
                 "Hill Pong Yong Feng",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -14802,19 +13903,18 @@
             "Rw' U':[u',m U m']"
         ],
         [
-            "R' Uw' m U m' u m U' m' U R",
-            [
-                "James Molloy",
-                "Kevin Matthews"
-            ],
-            "R' U':[u',m U m']"
-        ],
-        [
             "3Dw' m U' r U m' U' r' U 3Dw",
             [
                 "Leonardo Ezequiel Cruz"
             ],
             "3Dw':[m,U' r U]"
+        ],
+        [
+            "R' Uw' m U m' u m U' m' U R",
+            [
+                "Kevin Matthews"
+            ],
+            "R' Uw':[m U m',u]"
         ]
     ],
     "AZI": [
@@ -14847,14 +13947,6 @@
             "Rw Dw':[U l2 U',m']"
         ],
         [
-            "3Uw U m2 U r U' m2 U r' U2 3Uw'",
-            [
-                "Daniel Wallin",
-                "James Molloy"
-            ],
-            "3Uw U:[m2,U r U']"
-        ],
-        [
             "R y l2 U' m' U l2 U' m 4Dw R'",
             [
                 "Daniel Lin",
@@ -14863,18 +13955,18 @@
             "R y:[l2,U' m' U]"
         ],
         [
+            "3Uw U m2 U r U' m2 U r' U2 3Uw'",
+            [
+                "Daniel Wallin"
+            ],
+            "3Uw U:[m2,U r U']"
+        ],
+        [
             "R y' r2 U' m U r2 U' m' U y R'",
             [
                 "Kevin Matthews"
             ],
             "R y':[r2,U' m U]"
-        ],
-        [
-            "R Dw' U l2 U' m' U l2 U' m Dw R'",
-            [
-                "James Molloy"
-            ],
-            "R Dw':[U l2 U',m']"
         ]
     ],
     "AZJ": [
@@ -14914,13 +14006,6 @@
                 "Leonardo Ezequiel Cruz"
             ],
             "[d R d',m]"
-        ],
-        [
-            "F' e' r U' r' e r U r' F",
-            [
-                "James Molloy"
-            ],
-            "F':[e',r U' r']"
         ]
     ],
     "AZK": [
@@ -14931,7 +14016,6 @@
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -14965,7 +14049,6 @@
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
                 "Howie Craig",
-                "James Molloy",
                 "Michael Tripodi",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -15011,7 +14094,6 @@
                 "Andrew Tan Jing Bang",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Ryan Eckersley",
                 "Ziyi Xu (徐梓翼)"
@@ -15064,15 +14146,6 @@
             "U2:[m,3Uw r 3Uw']"
         ],
         [
-            "U' 3Lw U r' e' r U' r' e 4Lw' U",
-            [
-                "Andrew Tan Jing Bang",
-                "James Molloy",
-                "Michael Tripodi"
-            ],
-            "U' 3Lw:[U,r' e' r]"
-        ],
-        [
             "z' r' U r' e r U' r' e' r2 z",
             [
                 "Daniel Lin",
@@ -15080,6 +14153,14 @@
                 "Kevin Matthews"
             ],
             "z' r':[U,r' e r]"
+        ],
+        [
+            "U' 3Lw U r' e' r U' r' e 4Lw' U",
+            [
+                "Andrew Tan Jing Bang",
+                "Michael Tripodi"
+            ],
+            "U' 3Lw:[U,r' e' r]"
         ],
         [
             "3Uw U m U r U' m' U r' U2 3Uw'",
@@ -15104,7 +14185,6 @@
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -15150,7 +14230,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -15202,13 +14281,6 @@
                 "Kevin Matthews"
             ],
             "R' Uw:[l',U m' U']"
-        ],
-        [
-            "R2 e' l' U l e l' U' l R2",
-            [
-                "James Molloy"
-            ],
-            "R2:[e',l' U l]"
         ]
     ],
     "AZT": [
@@ -15220,7 +14292,6 @@
                 "Dong Zhu (朱栋)",
                 "Hill Pong Yong Feng",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
@@ -15261,7 +14332,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -15693,13 +14763,6 @@
             "D:[m',U r2 U']"
         ],
         [
-            "U 3Rw m' U r' U' m U r U' 3Rw' U'",
-            [
-                "James Molloy"
-            ],
-            "U 3Rw:[m',U r' U']"
-        ],
-        [
             "F U r U' m2 U r' U' m2 F'",
             [
                 "Hana Davila"
@@ -16018,13 +15081,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "D:[U r2 U',m']"
-        ],
-        [
-            "U 3Rw U r' U' m' U r U' m 3Rw' U'",
-            [
-                "James Molloy"
-            ],
-            "U 3Rw:[U r' U',m']"
         ],
         [
             "F m2 U r U' m2 U r' U' F'",
@@ -16505,13 +15561,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "[m u' m',U]"
-        ],
-        [
-            "3Rw' u' m' U m u m' U' Rw",
-            [
-                "James Molloy"
-            ],
-            "Rw':[m u' m',U]"
         ]
     ],
     "CDF": [
@@ -16749,13 +15798,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "[U,m u' m']"
-        ],
-        [
-            "Rw' U m u' m' U' m u 3Rw",
-            [
-                "James Molloy"
-            ],
-            "Rw':[U,m u' m']"
         ]
     ],
     "CEF": [
@@ -22421,8 +21463,7 @@
         [
             "U m2 U' m' d' m U m' d m' U'",
             [
-                "Hana Davila",
-                "James Molloy"
+                "Hana Davila"
             ],
             "U m:[m U' m',d']"
         ]
@@ -23147,8 +22188,7 @@
         [
             "U m d' m U' m' d m U m2 U'",
             [
-                "Hana Davila",
-                "James Molloy"
+                "Hana Davila"
             ],
             "U m:[d',m U' m']"
         ]
@@ -26870,7 +25910,6 @@
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
-                "James Molloy",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Ziyi Xu (徐梓翼)"
@@ -26942,7 +25981,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -26991,7 +26029,6 @@
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -27040,7 +26077,6 @@
                 "Dong Zhu (朱栋)",
                 "Hill Pong Yong Feng",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -27061,7 +26097,6 @@
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -27121,19 +26156,18 @@
             "y:[m d m',U']"
         ],
         [
-            "Rw' U' r U m' U' r' U m Rw",
-            [
-                "Dong Zhu (朱栋)",
-                "James Molloy"
-            ],
-            "Rw':[U' r U,m']"
-        ],
-        [
             "x m U' r' U m' U' r U x'",
             [
                 "Ethan Pan"
             ],
             "x:[m,U' r' U]"
+        ],
+        [
+            "Rw' U' r U m' U' r' U m Rw",
+            [
+                "Dong Zhu (朱栋)"
+            ],
+            "Rw':[U' r U,m']"
         ]
     ],
     "GAK": [
@@ -27142,7 +26176,6 @@
             [
                 "Andrew Tan Jing Bang",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -27187,7 +26220,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -27207,7 +26239,6 @@
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
-                "James Molloy",
                 "Michael Tripodi",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -27262,7 +26293,6 @@
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -27304,7 +26334,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Michael Tripodi",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -27314,7 +26343,6 @@
             "D' U m' u2 m U' m' u2 m D",
             [
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz"
@@ -27357,7 +26385,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -27410,8 +26437,7 @@
         [
             "3Lw r U m' U' r' U m U' 3Lw'",
             [
-                "Dong Zhu (朱栋)",
-                "James Molloy"
+                "Dong Zhu (朱栋)"
             ],
             "3Lw:[r,U m' U']"
         ]
@@ -27426,7 +26452,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -27454,7 +26479,6 @@
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -27496,7 +26520,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -27526,7 +26549,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -27566,7 +26588,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -27593,7 +26614,6 @@
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -27636,7 +26656,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -27662,7 +26681,6 @@
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
-                "James Molloy",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Ziyi Xu (徐梓翼)"
@@ -28442,7 +27460,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -29338,7 +28355,6 @@
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -29717,7 +28733,6 @@
                 "Dong Zhu (朱栋)",
                 "Hill Pong Yong Feng",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -30030,7 +29045,6 @@
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -30388,19 +29402,18 @@
             "y:[U',m d m']"
         ],
         [
-            "Rw' m' U' r U m U' r' U Rw",
-            [
-                "Dong Zhu (朱栋)",
-                "James Molloy"
-            ],
-            "Rw':[m',U' r U]"
-        ],
-        [
             "x U' r' U m U' r U m' x'",
             [
                 "Ethan Pan"
             ],
             "x:[U' r' U,m]"
+        ],
+        [
+            "Rw' m' U' r U m U' r' U Rw",
+            [
+                "Dong Zhu (朱栋)"
+            ],
+            "Rw':[m',U' r U]"
         ]
     ],
     "GJC": [
@@ -30758,7 +29771,6 @@
             [
                 "Andrew Tan Jing Bang",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -31115,7 +30127,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -31477,7 +30488,6 @@
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
-                "James Molloy",
                 "Michael Tripodi",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -31866,7 +30876,6 @@
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -32205,7 +31214,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kevin Matthews",
                 "Michael Tripodi",
                 "Ziyi Xu (徐梓翼)"
@@ -32216,7 +31224,6 @@
             "D' m' u2 m U m' u2 m U' D",
             [
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz"
@@ -32580,7 +31587,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -32991,8 +31997,7 @@
         [
             "3Lw U m' U' r U m U' r' 3Lw'",
             [
-                "Dong Zhu (朱栋)",
-                "James Molloy"
+                "Dong Zhu (朱栋)"
             ],
             "3Lw:[U m' U',r]"
         ]
@@ -33348,7 +32353,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -33729,7 +32733,6 @@
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -34078,7 +33081,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -34096,13 +33098,6 @@
                 "Kevin Matthews"
             ],
             "Lw':[m' u m,U]"
-        ],
-        [
-            "3Lw d m' U m d' m' U' Lw'",
-            [
-                "James Molloy"
-            ],
-            "Lw:[m d m',U]"
         ]
     ],
     "GTB": [
@@ -34479,7 +33474,6 @@
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -34839,7 +33833,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -35212,7 +34205,6 @@
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -35603,7 +34595,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -35989,7 +34980,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -36015,7 +35005,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -36041,16 +35030,6 @@
             "U u':[m' U m,u2]"
         ],
         [
-            "Uw' m' U' m u2 m' U m u' U",
-            [
-                "Hana Davila",
-                "Howie Craig",
-                "James Molloy",
-                "Leonardo Ezequiel Cruz"
-            ],
-            "Uw':[m' U' m,u2]"
-        ],
-        [
             "y u2 m' U m u2 m' U' m y'",
             [
                 "Daniel Lin",
@@ -36058,6 +35037,15 @@
                 "Marcell Endrey"
             ],
             "y:[u2,m' U m]"
+        ],
+        [
+            "Uw' m' U' m u2 m' U m u2 Uw",
+            [
+                "Hana Davila",
+                "Howie Craig",
+                "Leonardo Ezequiel Cruz"
+            ],
+            "Uw':[m' U' m,u2]"
         ],
         [
             "Uw m U' m' u2 m U m' u2 Uw'",
@@ -36086,7 +35074,6 @@
                 "Hana Davila",
                 "Hill Pong Yong Feng",
                 "Howie Craig",
-                "James Molloy",
                 "Leonardo Ezequiel Cruz",
                 "Marcell Endrey",
                 "Roman Strakhov",
@@ -36120,7 +35107,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -36165,15 +35151,6 @@
             "y':[U m U',r2]"
         ],
         [
-            "U' m2 U' m u m' U m u' m U",
-            [
-                "Daniel Wallin",
-                "James Molloy",
-                "Ryan Eckersley"
-            ],
-            "U' m':[m' U' m,u]"
-        ],
-        [
             "y U m' U' l2 U m U' l2 y'",
             [
                 "Ethan Pan",
@@ -36181,6 +35158,14 @@
                 "Marcell Endrey"
             ],
             "y:[U m' U',l2]"
+        ],
+        [
+            "U' m2 U' m u m' U m u' m U",
+            [
+                "Daniel Wallin",
+                "Ryan Eckersley"
+            ],
+            "U' m':[m' U' m,u]"
         ]
     ],
     "HAJ": [
@@ -36238,13 +35223,6 @@
                 "Ethan Pan"
             ],
             "3Lw' Uw':[m U m',u]"
-        ],
-        [
-            "F' Rw U' r' e' r U r' e R' F",
-            [
-                "James Molloy"
-            ],
-            "F' R:[r U' r',e']"
         ]
     ],
     "HAK": [
@@ -36256,7 +35234,6 @@
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
                 "Howie Craig",
-                "James Molloy",
                 "Leonardo Ezequiel Cruz",
                 "Marcell Endrey",
                 "Ryan Eckersley",
@@ -36357,7 +35334,6 @@
             [
                 "Andrew Tan Jing Bang",
                 "Daniel Lin",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -36451,13 +35427,6 @@
             "Uw F':[l',U m U']"
         ],
         [
-            "U 4Rw' e' l' U' l e l' U 3Rw U'",
-            [
-                "James Molloy"
-            ],
-            "U 3Rw':[l e' l',U']"
-        ],
-        [
             "x' z' r U' r e' r' U r e r2 z x",
             [
                 "Daniel Lin"
@@ -36474,7 +35443,6 @@
                 "Daniel Wallin",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Marcell Endrey",
@@ -36488,7 +35456,6 @@
             [
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
-                "James Molloy",
                 "Leonardo Ezequiel Cruz",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -36532,7 +35499,6 @@
             [
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
-                "James Molloy",
                 "Leonardo Ezequiel Cruz",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -36579,14 +35545,6 @@
             "Lw':[m' u' m,U']"
         ],
         [
-            "R' l' U l e' l' U' l e R",
-            [
-                "Dong Zhu (朱栋)",
-                "James Molloy"
-            ],
-            "R':[l' U l,e']"
-        ],
-        [
             "u' m Uw l' Uw' m' Uw l U'",
             [
                 "Michael Tripodi"
@@ -36599,6 +35557,13 @@
                 "Kai Yamamoto (山本快)"
             ],
             "u':[m,U l' U']"
+        ],
+        [
+            "R' l' U l e' l' U' l e R",
+            [
+                "Dong Zhu (朱栋)"
+            ],
+            "R':[l' U l,e']"
         ]
     ],
     "HAT": [
@@ -36644,13 +35609,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Uw:[U m' U',l]"
-        ],
-        [
-            "R e r U' r' e2 r U r' e R'",
-            [
-                "James Molloy"
-            ],
-            "R e:[r U' r',e2]"
         ]
     ],
     "HAW": [
@@ -36690,13 +35648,6 @@
                 "Kai Yamamoto (山本快)"
             ],
             "u':[m,U l U']"
-        ],
-        [
-            "R l U l' e l U' l' e' R'",
-            [
-                "James Molloy"
-            ],
-            "R:[l U l',e]"
         ]
     ],
     "HAX": [
@@ -36737,20 +35688,6 @@
             "E:[m,U l' U']"
         ],
         [
-            "Uw 3Rw U' l e l' U l e' l' 3Rw' Uw'",
-            [
-                "James Molloy"
-            ],
-            "Uw 3Rw:[U',l e l']"
-        ],
-        [
-            "Uw' m U' r e' r' U r e r' m' Uw",
-            [
-                "James Molloy"
-            ],
-            "Uw' m:[U',r e' r']"
-        ],
-        [
             "z r2 U r e r' U' r e' r z'",
             [
                 "Daniel Lin"
@@ -36779,7 +35716,6 @@
         [
             "Rw' U' r e r' U r e' R",
             [
-                "James Molloy",
                 "Leonardo Ezequiel Cruz"
             ],
             "R':[r' U' r,e]"
@@ -36804,7 +35740,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -36860,7 +35795,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -37137,16 +36071,6 @@
             "Uw:[m' U m,u2]"
         ],
         [
-            "U' u m' U' m u2 m' U m Uw",
-            [
-                "Hana Davila",
-                "Howie Craig",
-                "James Molloy",
-                "Leonardo Ezequiel Cruz"
-            ],
-            "U' u:[m' U' m,u2]"
-        ],
-        [
             "y m' U m u2 m' U' m u2 y'",
             [
                 "Daniel Lin",
@@ -37154,6 +36078,15 @@
                 "Marcell Endrey"
             ],
             "y:[m' U m,u2]"
+        ],
+        [
+            "Uw' u2 m' U' m u2 m' U m Uw",
+            [
+                "Hana Davila",
+                "Howie Craig",
+                "Leonardo Ezequiel Cruz"
+            ],
+            "U' u:[m' U' m,u2]"
         ],
         [
             "y' u2 m' U' m u2 m' U m y",
@@ -37217,7 +36150,6 @@
                 "Hana Davila",
                 "Hill Pong Yong Feng",
                 "Howie Craig",
-                "James Molloy",
                 "Leonardo Ezequiel Cruz",
                 "Marcell Endrey",
                 "Roman Strakhov",
@@ -37367,14 +36299,6 @@
     ],
     "HEL": [
         [
-            "Uw m2 d' m U' m' d m U m Uw'",
-            [
-                "James Molloy",
-                "Ryan Eckersley"
-            ],
-            "Uw m':[m' d' m,U']"
-        ],
-        [
             "Uw' m2 d m' U' m d' m' U m' Uw",
             [
                 "Hana Davila",
@@ -37389,6 +36313,13 @@
                 "Ethan Pan"
             ],
             "x' z':[m2,U l' U']"
+        ],
+        [
+            "Uw m2 d' m U' m' d m U m Uw'",
+            [
+                "Ryan Eckersley"
+            ],
+            "Uw m':[m' d' m,U']"
         ],
         [
             "y x' U r U' m2 U r' U' m2 x y'",
@@ -37526,13 +36457,6 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "R y':[r U2 r',e2]"
-        ],
-        [
-            "e Rw U r' e' r U' r' e R' e'",
-            [
-                "James Molloy"
-            ],
-            "e R:[r U r',e']"
         ]
     ],
     "HEW": [
@@ -37625,7 +36549,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -37705,15 +36628,6 @@
             "y':[r2,U m U']"
         ],
         [
-            "U' m' u m' U' m u' m' U m2 U",
-            [
-                "Daniel Wallin",
-                "James Molloy",
-                "Ryan Eckersley"
-            ],
-            "U' m':[u,m' U' m]"
-        ],
-        [
             "y l2 U m' U' l2 U m U' y'",
             [
                 "Ethan Pan",
@@ -37721,6 +36635,14 @@
                 "Marcell Endrey"
             ],
             "y:[l2,U m' U']"
+        ],
+        [
+            "U' m' u m' U' m u' m' U m2 U",
+            [
+                "Daniel Wallin",
+                "Ryan Eckersley"
+            ],
+            "U' m':[u,m' U' m]"
         ]
     ],
     "HIC": [
@@ -37807,13 +36729,6 @@
                 "Ethan Pan"
             ],
             "3Lw' U':[m U m',u']"
-        ],
-        [
-            "F' R e' r U' r' e r U Rw' F",
-            [
-                "James Molloy"
-            ],
-            "F' R:[e',r U' r']"
         ]
     ],
     "HJC": [
@@ -37854,7 +36769,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Leonardo Ezequiel Cruz",
                 "Marcell Endrey",
                 "Ryan Eckersley",
@@ -38001,14 +36915,6 @@
     ],
     "HLE": [
         [
-            "Uw m' U' m' d' m U m' d m2 Uw'",
-            [
-                "James Molloy",
-                "Ryan Eckersley"
-            ],
-            "Uw m':[U',m' d' m]"
-        ],
-        [
             "Uw' m U' m d m' U m d' m2 Uw",
             [
                 "Hana Davila",
@@ -38023,6 +36929,13 @@
                 "Ethan Pan"
             ],
             "x' z':[U l' U',m2]"
+        ],
+        [
+            "Uw m' U' m' d' m U m' d m2 Uw'",
+            [
+                "Ryan Eckersley"
+            ],
+            "Uw m':[U',m' d' m]"
         ],
         [
             "y x' m2 U r U' m2 U r' U' x y'",
@@ -38046,7 +36959,6 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Lin",
                 "Ethan Pan",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -38188,13 +37100,6 @@
             "R' 3Uw:[U m U',l']"
         ],
         [
-            "U 3Rw' U' l e' l' U l e 4Rw U'",
-            [
-                "James Molloy"
-            ],
-            "U 3Rw':[U',l e' l']"
-        ],
-        [
             "x' z' r2 e' r' U' r e r' U r' z x",
             [
                 "Daniel Lin"
@@ -38256,7 +37161,6 @@
                 "Daniel Wallin",
                 "Ethan Pan",
                 "Howie Craig",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Marcell Endrey",
@@ -38270,7 +37174,6 @@
             [
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
-                "James Molloy",
                 "Leonardo Ezequiel Cruz",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -38352,7 +37255,6 @@
             [
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
-                "James Molloy",
                 "Leonardo Ezequiel Cruz",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -38429,14 +37331,6 @@
             "Lw':[U',m' u' m]"
         ],
         [
-            "R' e' l' U l e l' U' l R",
-            [
-                "Dong Zhu (朱栋)",
-                "James Molloy"
-            ],
-            "R':[e',l' U l]"
-        ],
-        [
             "U l' Uw' m Uw l Uw' m' u",
             [
                 "Michael Tripodi"
@@ -38449,6 +37343,13 @@
                 "Kai Yamamoto (山本快)"
             ],
             "u':[U l' U',m]"
+        ],
+        [
+            "R' e' l' U l e l' U' l R",
+            [
+                "Dong Zhu (朱栋)"
+            ],
+            "R':[e',l' U l]"
         ]
     ],
     "HSC": [
@@ -38530,13 +37431,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Uw:[l,U m' U']"
-        ],
-        [
-            "R e' r U' r' e2 r U r' e' R'",
-            [
-                "James Molloy"
-            ],
-            "R e':[r U' r',e2]"
         ]
     ],
     "HTC": [
@@ -38584,13 +37478,6 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "R y':[e2,r U2 r']"
-        ],
-        [
-            "e R e' r U r' e r U' Rw' e'",
-            [
-                "James Molloy"
-            ],
-            "e R:[e',r U r']"
         ]
     ],
     "HWA": [
@@ -38630,13 +37517,6 @@
                 "Kai Yamamoto (山本快)"
             ],
             "u':[U l U',m]"
-        ],
-        [
-            "R e l U l' e' l U' l' R'",
-            [
-                "James Molloy"
-            ],
-            "R:[e,l U l']"
         ]
     ],
     "HWC": [
@@ -38719,20 +37599,6 @@
             "E:[U l' U',m]"
         ],
         [
-            "Uw 3Rw l e l' U' l e' l' U 3Rw' Uw'",
-            [
-                "James Molloy"
-            ],
-            "Uw 3Rw:[l e l',U']"
-        ],
-        [
-            "Uw' m r e' r' U' r e r' U m' Uw",
-            [
-                "James Molloy"
-            ],
-            "Uw' m:[r e' r',U']"
-        ],
-        [
             "z r' e r' U r e' r' U' r2 z'",
             [
                 "Daniel Lin"
@@ -38809,7 +37675,6 @@
             "R' e r' U' r e' r' U Rw",
             [
                 "Daniel Lin",
-                "James Molloy",
                 "Leonardo Ezequiel Cruz"
             ],
             "R':[e,r' U' r]"

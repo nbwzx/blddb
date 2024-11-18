@@ -39,19 +39,18 @@
             "Lw' U':[R' u2 R,U2]"
         ],
         [
-            "Rw' U' Rw U R' U' r U R U' r' Rw' U Rw",
-            [
-                "Christopher Morris",
-                "James Molloy"
-            ],
-            "Rw' U' Rw:[U R' U',r]"
-        ],
-        [
             "l2 U' r' D2 r U r' D2 r l2",
             [
                 "Oliver Fritz"
             ],
             "l2:[U',r' D2 r]"
+        ],
+        [
+            "Rw' U' Rw U R' U' r U R U' r' Rw' U Rw",
+            [
+                "Christopher Morris"
+            ],
+            "Rw' U' Rw:[U R' U',r]"
         ]
     ],
     "ABD": [
@@ -84,15 +83,6 @@
             "Rw2:[l D2 l',U']"
         ],
         [
-            "Rw' U2 R r2 U R' U' r2 U R U' R' U2 Rw",
-            [
-                "Christopher Morris",
-                "James Molloy",
-                "Xin Shi (石欣)"
-            ],
-            "Rw' U2 R:[r2,U R' U']"
-        ],
-        [
             "Rw Lw U' L' U' l' U L U' l U2 Lw' Rw'",
             [
                 "Daniel Wallin",
@@ -107,6 +97,14 @@
                 "Kevin Matthews"
             ],
             "x' Rw2 U':[L',U' l' U]"
+        ],
+        [
+            "Rw' U2 R r2 U R' U' r2 U R U' R' U2 Rw",
+            [
+                "Christopher Morris",
+                "Xin Shi (石欣)"
+            ],
+            "Rw' U2 R:[r2,U R' U']"
         ],
         [
             "Lw' L' r' D r U2 r' D' r U2 L Lw",
@@ -133,7 +131,6 @@
             "U2 Rw' U2 Rw U2 l U2 Rw' U2 Rw U2 l'",
             [
                 "Christopher Morris",
-                "James Molloy",
                 "Leonardo Ezequiel Cruz",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
@@ -222,7 +219,6 @@
             "U2 l' U2 Rw U2 Rw' U2 l U2 Rw U2 Rw'",
             [
                 "Hana Davila",
-                "James Molloy",
                 "Oliver Fritz",
                 "Xin Shi (石欣)"
             ],
@@ -301,7 +297,6 @@
             "r2 D2 r' U2 r D2 r' U2 r'",
             [
                 "Hill Pong Yong Feng",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Oliver Fritz"
             ],
@@ -374,7 +369,6 @@
                 "Andrew Tan Jing Bang",
                 "Christopher Morris",
                 "Ethan Pan",
-                "James Molloy",
                 "Leonardo Ezequiel Cruz",
                 "Mark Rivers",
                 "Michael Tripodi",
@@ -482,20 +476,6 @@
     ],
     "ABK": [
         [
-            "Rw r D' r' U2 r D r' U2 Rw'",
-            [
-                "Daniel Wallin",
-                "Dong Zhu (朱栋)",
-                "Graham Siggins",
-                "James Molloy",
-                "Kevin Matthews",
-                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
-                "Xi Lu (鲁曦)",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "Rw:[r D' r',U2]"
-        ],
-        [
             "r2 D' r' U2 r D r' U2 r'",
             [
                 "Chenhao Sun (孙晨皓)",
@@ -508,6 +488,19 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "r:[r D' r',U2]"
+        ],
+        [
+            "Rw r D' r' U2 r D r' U2 Rw'",
+            [
+                "Daniel Wallin",
+                "Dong Zhu (朱栋)",
+                "Graham Siggins",
+                "Kevin Matthews",
+                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
+                "Xi Lu (鲁曦)",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "Rw:[r D' r',U2]"
         ],
         [
             "Rw U' L u' L' U2 L u L' U' Rw'",
@@ -568,7 +561,6 @@
             "Rw' U2 r2 U' L2 U r2 U' L2 U' Rw",
             [
                 "Christopher Morris",
-                "James Molloy",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Xin Shi (石欣)"
             ],
@@ -608,7 +600,6 @@
             "r2 U2 Lw U2 Lw' U2 r2 U2 Lw U2 Lw' U2",
             [
                 "Christopher Morris",
-                "James Molloy",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -695,7 +686,6 @@
             "U2 Rw' U2 Rw U2 l2 U2 Rw' U2 Rw U2 l2",
             [
                 "Christopher Morris",
-                "James Molloy",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -708,8 +698,7 @@
             [
                 "Christopher Morris",
                 "Daniel Wallin",
-                "Graham Siggins",
-                "James Molloy"
+                "Graham Siggins"
             ],
             "D' Rw' U':[U' r2 U,R']"
         ],
@@ -772,7 +761,6 @@
                 "Christopher Morris",
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -832,7 +820,6 @@
                 "Christopher Morris",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kevin Matthews",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Xin Shi (石欣)"
@@ -904,7 +891,6 @@
             [
                 "Adrian Dębski",
                 "Christopher Morris",
-                "James Molloy",
                 "Xi Lu (鲁曦)"
             ],
             "Lw2 U':[R,U' l U]"
@@ -947,7 +933,6 @@
                 "Chenhao Sun (孙晨皓)",
                 "Dong Zhu (朱栋)",
                 "Hana Davila",
-                "James Molloy",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -1006,7 +991,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Graham Siggins",
-                "James Molloy",
                 "Kevin Matthews",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Xi Lu (鲁曦)",
@@ -1060,24 +1044,6 @@
     ],
     "ABT": [
         [
-            "Rw' U2 r2 U' L' U r2 U' L U' Rw",
-            [
-                "Christopher Morris",
-                "Daniel Lin",
-                "Dong Zhu (朱栋)",
-                "Graham Siggins",
-                "Hana Davila",
-                "James Molloy",
-                "Kai Yamamoto (山本快)",
-                "Kevin Matthews",
-                "Leonardo Ezequiel Cruz",
-                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
-                "Xin Shi (石欣)",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "Rw' U:[U r2 U',L']"
-        ],
-        [
             "l' U' R' u' R U2 R' u R U' l",
             [
                 "Andrew Tan Jing Bang",
@@ -1093,6 +1059,23 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "l' U':[R' u' R,U2]"
+        ],
+        [
+            "Rw' U2 r2 U' L' U r2 U' L U' Rw",
+            [
+                "Christopher Morris",
+                "Daniel Lin",
+                "Dong Zhu (朱栋)",
+                "Graham Siggins",
+                "Hana Davila",
+                "Kai Yamamoto (山本快)",
+                "Kevin Matthews",
+                "Leonardo Ezequiel Cruz",
+                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
+                "Xin Shi (石欣)",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "Rw' U:[U r2 U',L']"
         ],
         [
             "Lw D r U' R2 U r' U' R2 U D' Lw'",
@@ -1135,7 +1118,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Xi Lu (鲁曦)"
             ],
@@ -1189,21 +1171,20 @@
             "Lw':[r' D r,U2]"
         ],
         [
-            "Rw' U2 r2 U' L U r2 U' L' U' Rw",
-            [
-                "Christopher Morris",
-                "James Molloy",
-                "Xin Shi (石欣)"
-            ],
-            "Rw' U:[U r2 U',L]"
-        ],
-        [
             "Lw' U2 l' D' l U2 l' D l Lw",
             [
                 "Adrian Dębski",
                 "Xi Lu (鲁曦)"
             ],
             "Lw':[U2,l' D' l]"
+        ],
+        [
+            "Rw' U2 r2 U' L U r2 U' L' U' Rw",
+            [
+                "Christopher Morris",
+                "Xin Shi (石欣)"
+            ],
+            "Rw' U:[U r2 U',L]"
         ],
         [
             "3Lw2 4Lw D r U2 r' D' r U2 3Lw",
@@ -1237,7 +1218,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
@@ -1269,7 +1249,6 @@
                 "Christopher Morris",
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
-                "James Molloy",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
@@ -1362,33 +1341,21 @@
             "Lw' U:[R' u2 R,U2]"
         ],
         [
-            "Rw' U' Rw r U R' U' r' U R U' Rw' U Rw",
-            [
-                "Christopher Morris",
-                "James Molloy"
-            ],
-            "Rw' U' Rw:[r,U R' U']"
-        ],
-        [
             "l2 r' D2 r U' r' D2 r U l2",
             [
                 "Oliver Fritz"
             ],
             "l2:[r' D2 r,U']"
+        ],
+        [
+            "Rw' U' Rw r U R' U' r' U R U' Rw' U Rw",
+            [
+                "Christopher Morris"
+            ],
+            "Rw' U' Rw:[r,U R' U']"
         ]
     ],
     "ACD": [
-        [
-            "U' Rw2 D r' U2 r D' r' U2 Rw' R' U",
-            [
-                "Christopher Morris",
-                "Dong Zhu (朱栋)",
-                "Hana Davila",
-                "James Molloy",
-                "Xi Lu (鲁曦)"
-            ],
-            "U' Rw2:[D,r' U2 r]"
-        ],
         [
             "U' Lw' Rw' U2 r U' R U r' U' R' U' Rw Lw U",
             [
@@ -1408,6 +1375,16 @@
                 "Ryan Eckersley"
             ],
             "f2 4Rw:[L u L',U']"
+        ],
+        [
+            "U' Rw2 D r' U2 r D' r' U2 Rw' R' U",
+            [
+                "Christopher Morris",
+                "Dong Zhu (朱栋)",
+                "Hana Davila",
+                "Xi Lu (鲁曦)"
+            ],
+            "U' Rw2:[D,r' U2 r]"
         ],
         [
             "U' Lw2 U r' D2 r U' r' D2 r Lw2 U",
@@ -1483,7 +1460,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -1529,7 +1505,6 @@
                 "Ethan Pan",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
-                "James Molloy",
                 "Michael Tripodi",
                 "Oliver Fritz",
                 "Ryan Eckersley",
@@ -1595,7 +1570,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Graham Siggins",
-                "James Molloy",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Oliver Fritz",
@@ -1657,17 +1631,6 @@
             "U' R:[U' R' U,r]"
         ],
         [
-            "Lw' r U L U' r' U L' U' Lw",
-            [
-                "Andrew Tan Jing Bang",
-                "Christopher Morris",
-                "James Molloy",
-                "Michael Tripodi",
-                "Xi Lu (鲁曦)"
-            ],
-            "Lw':[r,U L U']"
-        ],
-        [
             "4Lw' U L U' r' U L' U' 3Lw",
             [
                 "Daniel Lin",
@@ -1677,6 +1640,16 @@
                 "Michael Tripodi"
             ],
             "4Lw':[U L U',r']"
+        ],
+        [
+            "Lw' r U L U' r' U L' U' Lw",
+            [
+                "Andrew Tan Jing Bang",
+                "Christopher Morris",
+                "Michael Tripodi",
+                "Xi Lu (鲁曦)"
+            ],
+            "Lw':[r,U L U']"
         ],
         [
             "D r' D' r U' r' D r U D'",
@@ -1753,7 +1726,6 @@
             "Rw' U' r U L2 U' r' U L2 Rw",
             [
                 "Christopher Morris",
-                "James Molloy",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Xi Lu (鲁曦)"
             ],
@@ -1840,7 +1812,6 @@
                 "Christopher Morris",
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
-                "James Molloy",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
@@ -1854,19 +1825,6 @@
     ],
     "ACM": [
         [
-            "U' R U' R' U r2 U' R U R' r2 U",
-            [
-                "Antonio Kam (甘浩東)",
-                "Chenhao Sun (孙晨皓)",
-                "Daniel Wallin",
-                "Graham Siggins",
-                "James Molloy",
-                "Leonardo Ezequiel Cruz",
-                "Yuki Tsuneyoshi (恒吉優紀)"
-            ],
-            "U' R:[U' R' U,r2]"
-        ],
-        [
             "Lw' r2 U L U' r2 U L' U' Lw",
             [
                 "Andrew Tan Jing Bang",
@@ -1878,6 +1836,18 @@
                 "Xi Lu (鲁曦)"
             ],
             "Lw':[r2,U L U']"
+        ],
+        [
+            "U' R U' R' U r2 U' R U R' r2 U",
+            [
+                "Antonio Kam (甘浩東)",
+                "Chenhao Sun (孙晨皓)",
+                "Daniel Wallin",
+                "Graham Siggins",
+                "Leonardo Ezequiel Cruz",
+                "Yuki Tsuneyoshi (恒吉優紀)"
+            ],
+            "U' R:[U' R' U,r2]"
         ],
         [
             "r2 L U L' U' r2 U L U' L'",
@@ -1944,7 +1914,6 @@
                 "Gavriel Johann Arcilla",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Kevin Matthews",
                 "Oliver Fritz",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
@@ -2000,7 +1969,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -2038,7 +2006,6 @@
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -2097,21 +2064,20 @@
             "z:[R,U' r2 U]"
         ],
         [
-            "r' U' r U' R U r' U' R' U2 r",
-            [
-                "Christopher Morris",
-                "James Molloy",
-                "Xi Lu (鲁曦)"
-            ],
-            "r' U':[r,U' R U]"
-        ],
-        [
             "u' U L' u' L U' L' u L u",
             [
                 "Daniel Wallin",
                 "Kai Yamamoto (山本快)"
             ],
             "u':[U,L' u' L]"
+        ],
+        [
+            "r' U' r U' R U r' U' R' U2 r",
+            [
+                "Christopher Morris",
+                "Xi Lu (鲁曦)"
+            ],
+            "r' U':[r,U' R U]"
         ]
     ],
     "ACR": [
@@ -2149,14 +2115,6 @@
             "R':[r' D' r,U']"
         ],
         [
-            "z R U l' U' R' U l U' z'",
-            [
-                "Christopher Morris",
-                "James Molloy"
-            ],
-            "z:[R,U l' U']"
-        ],
-        [
             "R' U' R' u R U' R' u' R U2 R",
             [
                 "Daniel Wallin"
@@ -2169,6 +2127,13 @@
                 "Israel Fraga da Silva"
             ],
             "[R f R',F]"
+        ],
+        [
+            "z R U l' U' R' U l U' z'",
+            [
+                "Christopher Morris"
+            ],
+            "z:[R,U l' U']"
         ]
     ],
     "ACS": [
@@ -2181,7 +2146,6 @@
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
-                "James Molloy",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Oliver Fritz",
@@ -2255,7 +2219,6 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -2268,13 +2231,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "U':[R' u' R,U']"
-        ],
-        [
-            "Rw' Uw' r U' R U r' U' R' U Uw Rw",
-            [
-                "James Molloy"
-            ],
-            "Rw' Uw':[r,U' R U]"
         ]
     ],
     "ACW": [
@@ -2286,7 +2242,6 @@
                 "Christopher Morris",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
-                "James Molloy",
                 "Leonardo Ezequiel Cruz",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
@@ -2365,7 +2320,6 @@
                 "Christopher Morris",
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
-                "James Molloy",
                 "Leonardo Ezequiel Cruz"
             ],
             "Lw' D:[r,U L U']"
@@ -2402,7 +2356,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Graham Siggins",
-                "James Molloy",
                 "Xi Lu (鲁曦)"
             ],
             "r' U':[r,U' R' U]"
@@ -2478,7 +2431,6 @@
             "z R U' r' U R' U' r U z'",
             [
                 "Christopher Morris",
-                "James Molloy",
                 "Kevin Matthews"
             ],
             "z:[R,U' r' U]"
@@ -2514,15 +2466,6 @@
             "Rw2:[U',l D2 l']"
         ],
         [
-            "Rw' U2 R U R' U' r2 U R U' r2 R' U2 Rw",
-            [
-                "Christopher Morris",
-                "James Molloy",
-                "Xin Shi (石欣)"
-            ],
-            "Rw' U2 R:[U R' U',r2]"
-        ],
-        [
             "Rw Lw U2 l' U L' U' l U L U Lw' Rw'",
             [
                 "Daniel Wallin",
@@ -2537,6 +2480,14 @@
                 "Kevin Matthews"
             ],
             "Rw 3Lw U':[U' l' U,L']"
+        ],
+        [
+            "Rw' U2 R U R' U' r2 U R U' r2 R' U2 Rw",
+            [
+                "Christopher Morris",
+                "Xin Shi (石欣)"
+            ],
+            "Rw' U2 R:[U R' U',r2]"
         ],
         [
             "3Lw' U R d' R' U2 R d R' U 3Lw",
@@ -2554,17 +2505,6 @@
         ]
     ],
     "ADC": [
-        [
-            "U' Rw R U2 r D r' U2 r D' Rw2 U",
-            [
-                "Christopher Morris",
-                "Dong Zhu (朱栋)",
-                "Hana Davila",
-                "James Molloy",
-                "Xi Lu (鲁曦)"
-            ],
-            "U' Rw2:[r' U2 r,D]"
-        ],
         [
             "U' Lw' Rw' U R U r U' R' U r' U2 Rw Lw U",
             [
@@ -2584,6 +2524,16 @@
                 "Ryan Eckersley"
             ],
             "f2 4Rw:[U',L u L']"
+        ],
+        [
+            "U' Rw R U2 r D r' U2 r D' Rw2 U",
+            [
+                "Christopher Morris",
+                "Dong Zhu (朱栋)",
+                "Hana Davila",
+                "Xi Lu (鲁曦)"
+            ],
+            "U' Rw2:[r' U2 r,D]"
         ],
         [
             "U' Lw2 r' D2 r U r' D2 r U' Lw2 U",
@@ -2649,7 +2599,6 @@
                 "Daniel Wallin",
                 "Ethan Pan",
                 "Gavriel Johann Arcilla",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
@@ -2674,7 +2623,6 @@
             "4Lw U L' U r2 U' L U r2 U2 4Lw'",
             [
                 "Christopher Morris",
-                "James Molloy",
                 "Oliver Fritz",
                 "Xi Lu (鲁曦)"
             ],
@@ -2709,7 +2657,6 @@
                 "Ethan Pan",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -2754,7 +2701,6 @@
                 "Chenhao Sun (孙晨皓)",
                 "Christopher Morris",
                 "Gavriel Johann Arcilla",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Xi Lu (鲁曦)",
@@ -2821,7 +2767,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -2890,7 +2835,6 @@
             [
                 "Christopher Morris",
                 "Hana Davila",
-                "James Molloy",
                 "Kevin Matthews",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
@@ -2944,16 +2888,6 @@
             "[L2,D r' D']"
         ],
         [
-            "Rw' U r2 U' L2 U r2 U' L2 Rw",
-            [
-                "Christopher Morris",
-                "Hana Davila",
-                "James Molloy",
-                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
-            ],
-            "Rw':[U r2 U',L2]"
-        ],
-        [
             "U 4Rw' L' u L U L' u' L U' 4Rw U'",
             [
                 "Chenhao Sun (孙晨皓)",
@@ -2961,6 +2895,15 @@
                 "Ryan Eckersley"
             ],
             "U 4Rw':[L' u L,U]"
+        ],
+        [
+            "Rw' U r2 U' L2 U r2 U' L2 Rw",
+            [
+                "Christopher Morris",
+                "Hana Davila",
+                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
+            ],
+            "Rw':[U r2 U',L2]"
         ],
         [
             "f' 4Rw U' L u L' U L u' L' 4Rw' f",
@@ -3022,17 +2965,6 @@
     ],
     "ADM": [
         [
-            "4Lw U' L' U r2 U' L U r2 4Lw'",
-            [
-                "Christopher Morris",
-                "Hana Davila",
-                "James Molloy",
-                "Michael Tripodi",
-                "Ryan Eckersley"
-            ],
-            "4Lw:[U' L' U,r2]"
-        ],
-        [
             "x' U' L' U r2 U' L U r2 x",
             [
                 "Dong Zhu (朱栋)",
@@ -3042,6 +2974,16 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "x':[U' L' U,r2]"
+        ],
+        [
+            "4Lw U' L' U r2 U' L U r2 4Lw'",
+            [
+                "Christopher Morris",
+                "Hana Davila",
+                "Michael Tripodi",
+                "Ryan Eckersley"
+            ],
+            "4Lw:[U' L' U,r2]"
         ],
         [
             "4Lw' r2 U' L U r2 U' L' U 4Lw",
@@ -3136,7 +3078,6 @@
             "U' 4Rw U R' U' l2 U R U' l2 4Rw' U",
             [
                 "Christopher Morris",
-                "James Molloy",
                 "Michael Tripodi"
             ],
             "U' 4Rw:[U R' U',l2]"
@@ -3207,7 +3148,6 @@
                 "Christopher Morris",
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Xi Lu (鲁曦)"
@@ -3234,7 +3174,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -3323,13 +3262,6 @@
                 "Adrian Dębski"
             ],
             "R U' Rw:[l',U R' U']"
-        ],
-        [
-            "z' D l' U L' U' l U L U' D' z",
-            [
-                "James Molloy"
-            ],
-            "z' D:[l',U L' U']"
         ]
     ],
     "ADR": [
@@ -3365,7 +3297,6 @@
             "Rw' U r2 U R2 U' r2 U R2 U2 Rw",
             [
                 "Christopher Morris",
-                "James Molloy",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "Rw' U:[r2,U R2 U']"
@@ -3433,19 +3364,18 @@
             "Rw U:[R' d R,U]"
         ],
         [
-            "L2 D U L U' r U L' U' r' D' L2",
-            [
-                "Christopher Morris",
-                "James Molloy"
-            ],
-            "L2 D:[U L U',r]"
-        ],
-        [
             "r U R' d R U R' d' R U2 r'",
             [
                 "Oliver Fritz"
             ],
             "r U:[R' d R,U]"
+        ],
+        [
+            "L2 D U L U' r U L' U' r' D' L2",
+            [
+                "Christopher Morris"
+            ],
+            "L2 D:[U L U',r]"
         ]
     ],
     "ADT": [
@@ -3473,7 +3403,6 @@
                 "Christopher Morris",
                 "Dong Zhu (朱栋)",
                 "Hana Davila",
-                "James Molloy",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -3550,21 +3479,20 @@
             "x D':[r',U' L U]"
         ],
         [
-            "L2 D U L' U' r U L U' r' D' L2",
-            [
-                "Christopher Morris",
-                "James Molloy",
-                "Xi Lu (鲁曦)"
-            ],
-            "L2 D:[U L' U',r]"
-        ],
-        [
             "3Lw U2 R' u' R U R' u R U 3Lw'",
             [
                 "Kevin Matthews",
                 "Michael Tripodi"
             ],
             "3Lw U':[U',R' u' R]"
+        ],
+        [
+            "L2 D U L' U' r U L U' r' D' L2",
+            [
+                "Christopher Morris",
+                "Xi Lu (鲁曦)"
+            ],
+            "L2 D:[U L' U',r]"
         ],
         [
             "Rw U R u R' U R u' R' U2 Rw'",
@@ -3612,8 +3540,7 @@
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
-                "Graham Siggins",
-                "James Molloy"
+                "Graham Siggins"
             ],
             "x':[L',U r2 U']"
         ],
@@ -3687,15 +3614,6 @@
             "Rw U:[R u' R',U]"
         ],
         [
-            "R' U' Rw l' U R' U' l U R U' Rw' U R",
-            [
-                "Christopher Morris",
-                "James Molloy",
-                "Oliver Fritz"
-            ],
-            "R' U' Rw:[l',U R' U']"
-        ],
-        [
             "M' U' L' d L U L' d' 4Lw",
             [
                 "Antonio Kam (甘浩東)",
@@ -3703,6 +3621,14 @@
                 "Kai Yamamoto (山本快)"
             ],
             "M':[U',L' d L]"
+        ],
+        [
+            "R' U' Rw l' U R' U' l U R U' Rw' U R",
+            [
+                "Christopher Morris",
+                "Oliver Fritz"
+            ],
+            "R' U' Rw:[l',U R' U']"
         ]
     ],
     "ADZ": [
@@ -3716,7 +3642,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hill Pong Yong Feng",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
@@ -3764,7 +3689,6 @@
             "l U2 Rw' U2 Rw U2 l' U2 Rw' U2 Rw U2",
             [
                 "Christopher Morris",
-                "James Molloy",
                 "Leonardo Ezequiel Cruz",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
@@ -3841,7 +3765,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -3912,7 +3835,6 @@
             "4Lw U2 r2 U' L' U r2 U' L U' 4Lw'",
             [
                 "Christopher Morris",
-                "James Molloy",
                 "Oliver Fritz",
                 "Xi Lu (鲁曦)"
             ],
@@ -3953,21 +3875,20 @@
             "Rw' F':[u',R U R']"
         ],
         [
-            "Rw' U2 Rw U2 l U2 Rw' U2 Rw U2 l' U2",
-            [
-                "Hana Davila",
-                "James Molloy",
-                "Xin Shi (石欣)"
-            ],
-            "Rw':[U2,Rw U2 l U2 Rw']"
-        ],
-        [
             "U2 Lw' U2 Lw U2 r U2 Lw' U2 Lw U2 r'",
             [
                 "Leonardo Ezequiel Cruz",
                 "Xi Lu (鲁曦)"
             ],
             "[U2 Lw' U2 Lw U2,r]"
+        ],
+        [
+            "Rw' U2 Rw U2 l U2 Rw' U2 Rw U2 l' U2",
+            [
+                "Hana Davila",
+                "Xin Shi (石欣)"
+            ],
+            "Rw':[U2,Rw U2 l U2 Rw']"
         ],
         [
             "Lw' D' R U R U' r U R' U' Rw' D Lw",
@@ -4022,7 +3943,6 @@
                 "Ethan Pan",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Oliver Fritz",
@@ -4108,7 +4028,6 @@
                 "Christopher Morris",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Marcell Endrey",
                 "Mark Rivers",
                 "Oliver Fritz",
@@ -4164,7 +4083,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -4205,7 +4123,6 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
@@ -4246,7 +4163,6 @@
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
-                "James Molloy",
                 "Leonardo Ezequiel Cruz",
                 "Ryan Eckersley",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
@@ -4310,7 +4226,6 @@
                 "Gavriel Johann Arcilla",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Oliver Fritz",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Tom Nelson",
@@ -4365,7 +4280,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -4398,25 +4312,6 @@
     ],
     "AEP": [
         [
-            "r' D' r U2 r' D r U2",
-            [
-                "Adrian Dębski",
-                "Christopher Morris",
-                "Dong Zhu (朱栋)",
-                "Graham Siggins",
-                "Hana Davila",
-                "James Molloy",
-                "Kevin Matthews",
-                "Leonardo Ezequiel Cruz",
-                "Oliver Fritz",
-                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
-                "Timo Norrkniivilä",
-                "Xi Lu (鲁曦)",
-                "Xin Shi (石欣)"
-            ],
-            "[r' D' r,U2]"
-        ],
-        [
             "U' R' u R U2 R' u' R U'",
             [
                 "Andrew Tan Jing Bang",
@@ -4433,6 +4328,24 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "U':[R' u R,U2]"
+        ],
+        [
+            "r' D' r U2 r' D r U2",
+            [
+                "Adrian Dębski",
+                "Christopher Morris",
+                "Dong Zhu (朱栋)",
+                "Graham Siggins",
+                "Hana Davila",
+                "Kevin Matthews",
+                "Leonardo Ezequiel Cruz",
+                "Oliver Fritz",
+                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
+                "Timo Norrkniivilä",
+                "Xi Lu (鲁曦)",
+                "Xin Shi (石欣)"
+            ],
+            "[r' D' r,U2]"
         ]
     ],
     "AEQ": [
@@ -4460,7 +4373,6 @@
                 "Christopher Morris",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Leonardo Ezequiel Cruz",
                 "Xi Lu (鲁曦)",
                 "Ziyi Xu (徐梓翼)"
@@ -4516,7 +4428,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
@@ -4547,7 +4458,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
@@ -4643,21 +4553,20 @@
             "U':[R' u' R,U2]"
         ],
         [
-            "L r' D r U2 r' D' r U2 L'",
-            [
-                "Christopher Morris",
-                "James Molloy",
-                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
-            ],
-            "L:[r' D r,U2]"
-        ],
-        [
             "L U2 l' D' l U2 l' D l L'",
             [
                 "Graham Siggins",
                 "Ziyi Xu (徐梓翼)"
             ],
             "L:[U2,l' D' l]"
+        ],
+        [
+            "L r' D r U2 r' D' r U2 L'",
+            [
+                "Christopher Morris",
+                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
+            ],
+            "L:[r' D r,U2]"
         ]
     ],
     "AEW": [
@@ -4687,7 +4596,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Xi Lu (鲁曦)",
@@ -4732,7 +4640,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
@@ -4756,7 +4663,6 @@
                 "Andrew Tan Jing Bang",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
-                "James Molloy",
                 "Kevin Matthews",
                 "Michael Tripodi",
                 "Oliver Fritz",
@@ -4851,7 +4757,6 @@
             [
                 "Christopher Morris",
                 "Dong Zhu (朱栋)",
-                "James Molloy",
                 "Kevin Matthews",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
@@ -4884,7 +4789,6 @@
             "Rw U2 Rw' U2 l' U2 Rw U2 Rw' U2 l U2",
             [
                 "Hana Davila",
-                "James Molloy",
                 "Oliver Fritz",
                 "Xin Shi (石欣)"
             ],
@@ -4961,7 +4865,6 @@
                 "Ethan Pan",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Oliver Fritz",
@@ -5029,7 +4932,6 @@
                 "Ethan Pan",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
-                "James Molloy",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
                 "Oliver Fritz",
@@ -5088,21 +4990,20 @@
             "Rw' F':[R U R',u']"
         ],
         [
-            "U2 l U2 Rw' U2 Rw U2 l' U2 Rw' U2 Rw",
-            [
-                "Hana Davila",
-                "James Molloy",
-                "Xin Shi (石欣)"
-            ],
-            "U2:[l,U2 Rw' U2 Rw U2]"
-        ],
-        [
             "r U2 Lw' U2 Lw U2 r' U2 Lw' U2 Lw U2",
             [
                 "Leonardo Ezequiel Cruz",
                 "Xi Lu (鲁曦)"
             ],
             "[r,U2 Lw' U2 Lw U2]"
+        ],
+        [
+            "U2 l U2 Rw' U2 Rw U2 l' U2 Rw' U2 Rw",
+            [
+                "Hana Davila",
+                "Xin Shi (石欣)"
+            ],
+            "U2:[l,U2 Rw' U2 Rw U2]"
         ],
         [
             "Lw' D' Rw U R U' r' U R' U' R' D Lw",
@@ -5156,7 +5057,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Michael Tripodi",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Xi Lu (鲁曦)",
@@ -5216,7 +5116,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Marcell Endrey",
                 "Mark Rivers",
                 "Michael Tripodi",
@@ -5234,7 +5133,6 @@
             [
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Wallin",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz"
@@ -5276,7 +5174,6 @@
                 "Ethan Pan",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Oliver Fritz",
@@ -5296,7 +5193,6 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi"
             ],
@@ -5336,7 +5232,6 @@
                 "Ethan Pan",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Oliver Fritz",
@@ -5357,7 +5252,6 @@
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Wallin",
                 "Graham Siggins",
-                "James Molloy",
                 "Michael Tripodi"
             ],
             "Lw':[r,U' L' U]"
@@ -5387,7 +5281,6 @@
                 "Christopher Morris",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
-                "James Molloy",
                 "Oliver Fritz",
                 "Ryan Eckersley",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
@@ -5441,7 +5334,6 @@
                 "Antonio Kam (甘浩東)",
                 "Christopher Morris",
                 "Dong Zhu (朱栋)",
-                "James Molloy",
                 "Leonardo Ezequiel Cruz",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Xi Lu (鲁曦)",
@@ -5466,7 +5358,6 @@
             [
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews"
             ],
@@ -5498,7 +5389,6 @@
                 "Christopher Morris",
                 "Dong Zhu (朱栋)",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Oliver Fritz",
                 "Ryan Eckersley",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
@@ -5516,7 +5406,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -5552,7 +5441,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Oliver Fritz",
                 "Ryan Eckersley",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
@@ -5571,7 +5459,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -5597,7 +5484,6 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -5631,7 +5517,6 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -5664,7 +5549,6 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -5699,7 +5583,6 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -5733,7 +5616,6 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -5766,7 +5648,6 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -5800,7 +5681,6 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -5834,7 +5714,6 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -5858,7 +5737,6 @@
                 "Andrew Tan Jing Bang",
                 "Christopher Morris",
                 "Ethan Pan",
-                "James Molloy",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
                 "Xi Lu (鲁曦)",
@@ -5953,7 +5831,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Graham Siggins",
-                "James Molloy",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Oliver Fritz",
@@ -6019,7 +5896,6 @@
             [
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kevin Matthews",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Ziyi Xu (徐梓翼)"
@@ -6070,7 +5946,6 @@
                 "Ethan Pan",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Oliver Fritz",
@@ -6140,7 +6015,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Michael Tripodi",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Xi Lu (鲁曦)",
@@ -6167,7 +6041,6 @@
             [
                 "Christopher Morris",
                 "Daniel Wallin",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz"
@@ -6233,14 +6106,6 @@
             "Lw:[l U2 l',D2]"
         ],
         [
-            "Lw' r U2 Lw U2 Lw' U2 r' U2 Lw U2 Lw' U2 Lw",
-            [
-                "Christopher Morris",
-                "James Molloy"
-            ],
-            "Lw':[r,U2 Lw U2 Lw' U2]"
-        ],
-        [
             "Rw D R' U' R' U r' U' R U Rw D' Rw'",
             [
                 "Daniel Wallin"
@@ -6262,6 +6127,13 @@
             "3Lw U:[D2,r U' r']"
         ],
         [
+            "Lw' r U2 Lw U2 Lw' U2 r' U2 Lw U2 Lw' U2 Lw",
+            [
+                "Christopher Morris"
+            ],
+            "Lw':[r,U2 Lw U2 Lw' U2]"
+        ],
+        [
             "x U2 l U2 l' U2 r' U2 l U2 l' U2 r x'",
             [
                 "Dong Zhu (朱栋)"
@@ -6276,7 +6148,6 @@
                 "Christopher Morris",
                 "Daniel Wallin",
                 "Graham Siggins",
-                "James Molloy",
                 "Kevin Matthews"
             ],
             "Lw U:[L,U l U']"
@@ -6356,7 +6227,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Oliver Fritz",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Xi Lu (鲁曦)",
@@ -6447,7 +6317,6 @@
             "Lw' r2 U2 Lw U2 Lw' U2 r2 U2 Lw U2 Lw' U2 Lw",
             [
                 "Christopher Morris",
-                "James Molloy",
                 "Ziyi Xu (徐梓翼)"
             ],
             "Lw':[r2,U2 Lw U2 Lw' U2]"
@@ -6489,7 +6358,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Michael Tripodi",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Ziyi Xu (徐梓翼)"
@@ -6578,7 +6446,6 @@
                 "Christopher Morris",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Ziyi Xu (徐梓翼)"
             ],
             "D:[r2,U' R2 U]"
@@ -6659,7 +6526,6 @@
             "Rw U R U l' U' R' U l U2 Rw'",
             [
                 "Christopher Morris",
-                "James Molloy",
                 "Kevin Matthews",
                 "Michael Tripodi",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
@@ -6710,7 +6576,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -6751,17 +6616,6 @@
             "R D:[f',R' F R]"
         ],
         [
-            "r U R U l' U' R' U l U2 r'",
-            [
-                "Andrew Tan Jing Bang",
-                "Christopher Morris",
-                "James Molloy",
-                "Kai Yamamoto (山本快)",
-                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
-            ],
-            "r U:[R,U l' U']"
-        ],
-        [
             "Rw U' r D2 r' U r D2 r' Rw'",
             [
                 "Hana Davila",
@@ -6770,6 +6624,16 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "Rw:[U',r D2 r']"
+        ],
+        [
+            "r U R U l' U' R' U l U2 r'",
+            [
+                "Andrew Tan Jing Bang",
+                "Christopher Morris",
+                "Kai Yamamoto (山本快)",
+                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
+            ],
+            "r U:[R,U l' U']"
         ],
         [
             "Rw D' U' r D' r' U r D r' D Rw'",
@@ -6823,7 +6687,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -6862,7 +6725,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Ziyi Xu (徐梓翼)"
             ],
             "Uw':[R,U' l2 U]"
@@ -6919,7 +6781,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
@@ -6957,7 +6818,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -7021,7 +6881,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -7085,21 +6944,20 @@
             "U' u:[R,U' l2 U]"
         ],
         [
-            "Rw U R2 U l' U' R2 U l U2 Rw'",
-            [
-                "Christopher Morris",
-                "James Molloy",
-                "Leonardo Ezequiel Cruz"
-            ],
-            "Rw U:[R2,U l' U']"
-        ],
-        [
             "R D' r U L2 U' r' U L2 U' D R'",
             [
                 "Xin Shi (石欣)",
                 "Ziyi Xu (徐梓翼)"
             ],
             "R D':[r,U L2 U']"
+        ],
+        [
+            "Rw U R2 U l' U' R2 U l U2 Rw'",
+            [
+                "Christopher Morris",
+                "Leonardo Ezequiel Cruz"
+            ],
+            "Rw U:[R2,U l' U']"
         ],
         [
             "D R D' r U' R U r' U' R' U D R' D'",
@@ -7123,7 +6981,6 @@
                 "Andrew Tan Jing Bang",
                 "Christopher Morris",
                 "Ethan Pan",
-                "James Molloy",
                 "Leonardo Ezequiel Cruz",
                 "Mark Rivers",
                 "Michael Tripodi",
@@ -7251,7 +7108,6 @@
                 "Andrew Tan Jing Bang",
                 "Christopher Morris",
                 "Ethan Pan",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Xi Lu (鲁曦)"
@@ -7326,7 +7182,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -7396,7 +7251,6 @@
                 "Christopher Morris",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Marcell Endrey",
                 "Mark Rivers",
                 "Oliver Fritz",
@@ -7451,7 +7305,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Marcell Endrey",
                 "Mark Rivers",
                 "Michael Tripodi",
@@ -7471,7 +7324,6 @@
                 "Christopher Morris",
                 "Daniel Wallin",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz"
@@ -7546,14 +7398,6 @@
             "Lw:[D2,l U2 l']"
         ],
         [
-            "Lw' U2 Lw U2 Lw' U2 r U2 Lw U2 Lw' U2 r' Lw",
-            [
-                "Christopher Morris",
-                "James Molloy"
-            ],
-            "Lw':[U2 Lw U2 Lw' U2,r]"
-        ],
-        [
             "Rw D Rw' U' R' U r U' R U R D' Rw'",
             [
                 "Daniel Wallin"
@@ -7580,6 +7424,13 @@
                 "Kevin Matthews"
             ],
             "3Lw U:[r U' r',D2]"
+        ],
+        [
+            "Lw' U2 Lw U2 Lw' U2 r U2 Lw U2 Lw' U2 r' Lw",
+            [
+                "Christopher Morris"
+            ],
+            "Lw':[U2 Lw U2 Lw' U2,r]"
         ],
         [
             "x r' U2 l U2 l' U2 r U2 l U2 l' U2 x'",
@@ -7621,7 +7472,6 @@
                 "Daniel Wallin",
                 "Ethan Pan",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley"
@@ -7677,21 +7527,20 @@
             "x:[U' L' U,r]"
         ],
         [
-            "4Lw' U' L' U r U' L U r' 4Lw",
-            [
-                "Christopher Morris",
-                "Daniel Lin",
-                "James Molloy"
-            ],
-            "4Lw':[U' L' U,r]"
-        ],
-        [
             "U f L F L' f' L F' L' U'",
             [
                 "Antonio Kam (甘浩東)",
                 "Michael Tripodi"
             ],
             "U:[f,L F L']"
+        ],
+        [
+            "4Lw' U' L' U r U' L U r' 4Lw",
+            [
+                "Christopher Morris",
+                "Daniel Lin"
+            ],
+            "4Lw':[U' L' U,r]"
         ],
         [
             "U D' L' u' L D L' u L U'",
@@ -7721,7 +7570,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -7790,7 +7638,6 @@
             [
                 "Chenhao Sun (孙晨皓)",
                 "Christopher Morris",
-                "James Molloy",
                 "Marcell Endrey",
                 "Oliver Fritz",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
@@ -7900,7 +7747,6 @@
                 "Daniel Lin",
                 "Daniel Wallin",
                 "Ethan Pan",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -7919,7 +7765,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Xi Lu (鲁曦)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -8002,7 +7847,6 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -8032,7 +7876,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kevin Matthews",
                 "Mark Rivers",
                 "Michael Tripodi",
@@ -8090,7 +7933,6 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Mark Rivers",
@@ -8119,7 +7961,6 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Hill Pong Yong Feng",
-                "James Molloy",
                 "Leonardo Ezequiel Cruz",
                 "Mark Rivers",
                 "Michael Tripodi",
@@ -8185,7 +8026,6 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Mark Rivers",
@@ -8213,7 +8053,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Mark Rivers",
                 "Michael Tripodi",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
@@ -8289,7 +8128,6 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Marcell Endrey",
@@ -8316,7 +8154,6 @@
                 "Chenhao Sun (孙晨皓)",
                 "Christopher Morris",
                 "Graham Siggins",
-                "James Molloy",
                 "Kevin Matthews",
                 "Mark Rivers",
                 "Michael Tripodi",
@@ -8364,7 +8201,6 @@
                 "Christopher Morris",
                 "Ethan Pan",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Oliver Fritz",
@@ -8438,7 +8274,6 @@
             "Rw' L2 U' r U L2 U' r' U Rw",
             [
                 "Christopher Morris",
-                "James Molloy",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Xi Lu (鲁曦)"
             ],
@@ -8521,7 +8356,6 @@
             [
                 "Christopher Morris",
                 "Hana Davila",
-                "James Molloy",
                 "Kevin Matthews",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
@@ -8572,7 +8406,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -8633,7 +8466,6 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
-                "James Molloy",
                 "Michael Tripodi"
             ],
             "Lw:[r',U L U']"
@@ -8681,7 +8513,6 @@
                 "Christopher Morris",
                 "Daniel Wallin",
                 "Graham Siggins",
-                "James Molloy",
                 "Kevin Matthews"
             ],
             "Lw U:[U l U',L]"
@@ -8759,7 +8590,6 @@
                 "Daniel Wallin",
                 "Ethan Pan",
                 "Graham Siggins",
-                "James Molloy",
                 "Michael Tripodi",
                 "Ryan Eckersley"
             ],
@@ -8831,19 +8661,18 @@
             "D Lw:[l U2 l',D2]"
         ],
         [
-            "Fw R L2 U' r' U L2 U' r U R' Fw'",
-            [
-                "Christopher Morris",
-                "James Molloy"
-            ],
-            "Fw R:[L2,U' r' U]"
-        ],
-        [
             "D Rw D R' U' R' U r' U' R U Rw D' Rw' D'",
             [
                 "Daniel Wallin"
             ],
             "D Rw D R':[U' R' U,r']"
+        ],
+        [
+            "Fw R L2 U' r' U L2 U' r U R' Fw'",
+            [
+                "Christopher Morris"
+            ],
+            "Fw R:[L2,U' r' U]"
         ],
         [
             "f2 4Lw' R' d R U R' d' R U' 4Lw f2",
@@ -8863,7 +8692,6 @@
                 "Dong Zhu (朱栋)",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Kevin Matthews",
                 "Michael Tripodi",
                 "Oliver Fritz",
@@ -8914,7 +8742,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kevin Matthews",
                 "Michael Tripodi",
                 "Oliver Fritz",
@@ -8986,7 +8813,6 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
@@ -9049,7 +8875,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)"
             ],
             "Rw D':[U R U',r']"
@@ -9114,7 +8939,6 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Hill Pong Yong Feng",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -9165,7 +8989,6 @@
             [
                 "Chenhao Sun (孙晨皓)",
                 "Christopher Morris",
-                "James Molloy",
                 "Ryan Eckersley"
             ],
             "D' r:[U R U',r2]"
@@ -9219,7 +9042,6 @@
                 "Antonio Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Christopher Morris",
-                "James Molloy",
                 "Michael Tripodi",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Xin Shi (石欣)",
@@ -9251,16 +9073,6 @@
             "y':[R,U' l2 U]"
         ],
         [
-            "Rw D' U' L' U r' U' L U r D Rw'",
-            [
-                "Christopher Morris",
-                "Daniel Wallin",
-                "Dong Zhu (朱栋)",
-                "James Molloy"
-            ],
-            "Rw D':[U' L' U,r']"
-        ],
-        [
             "D' r U' L' U r2 U' L U r D",
             [
                 "Antonio Kam (甘浩東)",
@@ -9268,6 +9080,15 @@
                 "Kai Yamamoto (山本快)"
             ],
             "D' r:[U' L' U,r2]"
+        ],
+        [
+            "Rw D' U' L' U r' U' L U r D Rw'",
+            [
+                "Christopher Morris",
+                "Daniel Wallin",
+                "Dong Zhu (朱栋)"
+            ],
+            "Rw D':[U' L' U,r']"
         ],
         [
             "4Lw' U2 R' d R U' R' d' R U' 4Lw",
@@ -9333,7 +9154,6 @@
                 "Antonio Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Christopher Morris",
-                "James Molloy",
                 "Michael Tripodi",
                 "Xin Shi (石欣)",
                 "Ziyi Xu (徐梓翼)"
@@ -9365,7 +9185,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kevin Matthews",
                 "Michael Tripodi",
                 "Ziyi Xu (徐梓翼)"
@@ -9438,7 +9257,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -9481,7 +9299,6 @@
                 "Antonio Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Christopher Morris",
-                "James Molloy",
                 "Ryan Eckersley"
             ],
             "D' r:[U R' U',r2]"
@@ -9552,7 +9369,6 @@
             "Rw' U L2 U r2 U' L2 U r2 U2 Rw",
             [
                 "Christopher Morris",
-                "James Molloy",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Xin Shi (石欣)"
             ],
@@ -9603,7 +9419,6 @@
                 "Christopher Morris",
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
-                "James Molloy",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
@@ -9630,16 +9445,6 @@
             "[D r' D',L2]"
         ],
         [
-            "Rw' L2 U r2 U' L2 U r2 U' Rw",
-            [
-                "Christopher Morris",
-                "Hana Davila",
-                "James Molloy",
-                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
-            ],
-            "Rw':[L2,U r2 U']"
-        ],
-        [
             "U 4Rw' U L' u L U' L' u' L 4Rw U'",
             [
                 "Chenhao Sun (孙晨皓)",
@@ -9647,6 +9452,15 @@
                 "Ryan Eckersley"
             ],
             "U 4Rw':[U,L' u L]"
+        ],
+        [
+            "Rw' L2 U r2 U' L2 U r2 U' Rw",
+            [
+                "Christopher Morris",
+                "Hana Davila",
+                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
+            ],
+            "Rw':[L2,U r2 U']"
         ],
         [
             "f' 4Rw L u L' U' L u' L' U 4Rw' f",
@@ -9709,7 +9523,6 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
@@ -9751,7 +9564,6 @@
                 "Ethan Pan",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Oliver Fritz",
@@ -9772,7 +9584,6 @@
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Wallin",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi"
             ],
@@ -9795,7 +9606,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Oliver Fritz",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Xin Shi (石欣)",
@@ -9887,21 +9697,20 @@
             "x:[r,U' L' U]"
         ],
         [
-            "4Lw' r U' L' U r' U' L U 4Lw",
-            [
-                "Christopher Morris",
-                "James Molloy",
-                "Xi Lu (鲁曦)"
-            ],
-            "4Lw':[r,U' L' U]"
-        ],
-        [
             "U L F L' f L F' L' f' U'",
             [
                 "Antonio Kam (甘浩東)",
                 "Michael Tripodi"
             ],
             "U:[L F L',f]"
+        ],
+        [
+            "4Lw' r U' L' U r' U' L U 4Lw",
+            [
+                "Christopher Morris",
+                "Xi Lu (鲁曦)"
+            ],
+            "4Lw':[r,U' L' U]"
         ],
         [
             "U L' u' L D' L' u L D U'",
@@ -9974,19 +9783,18 @@
             "D Lw:[D2,l U2 l']"
         ],
         [
-            "Fw R U' r' U L2 U' r U L2 R' Fw'",
-            [
-                "Christopher Morris",
-                "James Molloy"
-            ],
-            "Fw R:[U' r' U,L2]"
-        ],
-        [
             "D Rw D Rw' U' R' U r U' R U R D' Rw' D'",
             [
                 "Daniel Wallin"
             ],
             "D Rw D R':[r',U' R' U]"
+        ],
+        [
+            "Fw R U' r' U L2 U' r U L2 R' Fw'",
+            [
+                "Christopher Morris"
+            ],
+            "Fw R:[U' r' U,L2]"
         ],
         [
             "f2 4Lw' U R' d R U' R' d' R 4Lw f2",
@@ -10058,14 +9866,6 @@
             "r':[U' L2 U,r2]"
         ],
         [
-            "4Lw' r2 U' L' U r2 U' L U 4Lw",
-            [
-                "Christopher Morris",
-                "James Molloy"
-            ],
-            "4Lw':[r2,U' L' U]"
-        ],
-        [
             "Lw r' U' L U r2 U' L' U r' Lw'",
             [
                 "Michael Tripodi"
@@ -10078,6 +9878,13 @@
                 "Adrian Dębski"
             ],
             "D:[U L2 U',r]"
+        ],
+        [
+            "4Lw' r2 U' L' U r2 U' L U 4Lw",
+            [
+                "Christopher Morris"
+            ],
+            "4Lw':[r2,U' L' U]"
         ]
     ],
     "ALN": [
@@ -10110,8 +9917,7 @@
             "U D' l U l' D l U' l' U'",
             [
                 "Christopher Morris",
-                "Daniel Wallin",
-                "James Molloy"
+                "Daniel Wallin"
             ],
             "U:[D',l U l']"
         ],
@@ -10171,7 +9977,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ziyi Xu (徐梓翼)"
@@ -10201,14 +10006,6 @@
             "x:[L' U' L,u]"
         ],
         [
-            "4Lw' D r' U' L' U r U' L U D' 4Lw",
-            [
-                "Christopher Morris",
-                "James Molloy"
-            ],
-            "4Lw' D:[r',U' L' U]"
-        ],
-        [
             "R2 U r' D r U' r' D' r R2",
             [
                 "Xi Lu (鲁曦)"
@@ -10228,6 +10025,13 @@
                 "Kevin Matthews"
             ],
             "S:[r' D r,U']"
+        ],
+        [
+            "4Lw' D r' U' L' U r U' L U D' 4Lw",
+            [
+                "Christopher Morris"
+            ],
+            "4Lw' D:[r',U' L' U]"
         ]
     ],
     "ALP": [
@@ -10239,7 +10043,6 @@
                 "Christopher Morris",
                 "Ethan Pan",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -10308,7 +10111,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -10369,7 +10171,6 @@
             "D r U R U' r U R' U' r2 D'",
             [
                 "Christopher Morris",
-                "James Molloy",
                 "Xi Lu (鲁曦)"
             ],
             "D r:[U R U',r]"
@@ -10403,7 +10204,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -10459,14 +10259,6 @@
             "[D r' D',L]"
         ],
         [
-            "D r U' L' U r U' L U r2 D'",
-            [
-                "Christopher Morris",
-                "James Molloy"
-            ],
-            "D r:[U' L' U,r]"
-        ],
-        [
             "L' F' U' l' U L' U' l U L F L",
             [
                 "Xi Lu (鲁曦)"
@@ -10479,6 +10271,13 @@
                 "Kevin Matthews"
             ],
             "y':[R,U r U']"
+        ],
+        [
+            "D r U' L' U r U' L U r2 D'",
+            [
+                "Christopher Morris"
+            ],
+            "D r:[U' L' U,r]"
         ]
     ],
     "ALW": [
@@ -10496,7 +10295,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -10539,14 +10337,6 @@
             "[D r' D',L']"
         ],
         [
-            "D r U' L U r U' L' U r2 D'",
-            [
-                "Christopher Morris",
-                "James Molloy"
-            ],
-            "D r:[U' L U,r]"
-        ],
-        [
             "L2 F' L' U' l' U L U' l U F L2",
             [
                 "Xi Lu (鲁曦)"
@@ -10559,6 +10349,13 @@
                 "Kevin Matthews"
             ],
             "y U:[U R' U',l]"
+        ],
+        [
+            "D r U' L U r U' L' U r2 D'",
+            [
+                "Christopher Morris"
+            ],
+            "D r:[U' L U,r]"
         ]
     ],
     "ALY": [
@@ -10576,7 +10373,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Oliver Fritz",
@@ -10593,7 +10389,6 @@
             "R' U r' D r U' r' D' Rw",
             [
                 "Christopher Morris",
-                "James Molloy",
                 "Kevin Matthews"
             ],
             "R':[U,r' D r]"
@@ -10626,7 +10421,6 @@
             "D r U R' U' r U R U' r2 D'",
             [
                 "Christopher Morris",
-                "James Molloy",
                 "Xi Lu (鲁曦)"
             ],
             "D r:[U R' U',r]"
@@ -10702,7 +10496,6 @@
             "U2 Lw U2 Lw' U2 r2 U2 Lw U2 Lw' U2 r2",
             [
                 "Christopher Morris",
-                "James Molloy",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -10771,19 +10564,6 @@
     ],
     "AMC": [
         [
-            "U' r2 R U' R' U r2 U' R U R' U",
-            [
-                "Antonio Kam (甘浩東)",
-                "Chenhao Sun (孙晨皓)",
-                "Daniel Wallin",
-                "Graham Siggins",
-                "James Molloy",
-                "Leonardo Ezequiel Cruz",
-                "Yuki Tsuneyoshi (恒吉優紀)"
-            ],
-            "U' R:[r2,U' R' U]"
-        ],
-        [
             "Lw' U L U' r2 U L' U' r2 Lw",
             [
                 "Andrew Tan Jing Bang",
@@ -10795,6 +10575,18 @@
                 "Xi Lu (鲁曦)"
             ],
             "Lw':[U L U',r2]"
+        ],
+        [
+            "U' r2 R U' R' U r2 U' R U R' U",
+            [
+                "Antonio Kam (甘浩東)",
+                "Chenhao Sun (孙晨皓)",
+                "Daniel Wallin",
+                "Graham Siggins",
+                "Leonardo Ezequiel Cruz",
+                "Yuki Tsuneyoshi (恒吉優紀)"
+            ],
+            "U' R:[r2,U' R' U]"
         ],
         [
             "L U L' U' r2 U L U' L' r2",
@@ -10875,15 +10667,6 @@
             "x':[r2,U' L' U]"
         ],
         [
-            "4Lw r2 U' L' U r2 U' L U 4Lw'",
-            [
-                "Christopher Morris",
-                "James Molloy",
-                "Ryan Eckersley"
-            ],
-            "4Lw:[r2,U' L' U]"
-        ],
-        [
             "D b' L F' L' b L F L' D'",
             [
                 "Andrew Tan Jing Bang",
@@ -10899,6 +10682,14 @@
                 "Xi Lu (鲁曦)"
             ],
             "D r:[U,r D' r']"
+        ],
+        [
+            "4Lw r2 U' L' U r2 U' L U 4Lw'",
+            [
+                "Christopher Morris",
+                "Ryan Eckersley"
+            ],
+            "4Lw:[r2,U' L' U]"
         ],
         [
             "Lw' r U' L U r2 U' L' U r Lw",
@@ -10933,7 +10724,6 @@
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
-                "James Molloy",
                 "Leonardo Ezequiel Cruz",
                 "Ryan Eckersley",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
@@ -10996,7 +10786,6 @@
                 "Christopher Morris",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
-                "James Molloy",
                 "Oliver Fritz",
                 "Ryan Eckersley",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
@@ -11075,7 +10864,6 @@
             "Lw' U2 Lw U2 Lw' U2 r2 U2 Lw U2 Lw' U2 r2 Lw",
             [
                 "Christopher Morris",
-                "James Molloy",
                 "Ziyi Xu (徐梓翼)"
             ],
             "Lw':[U2 Lw U2 Lw' U2,r2]"
@@ -11122,7 +10910,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -11195,7 +10982,6 @@
                 "Dong Zhu (朱栋)",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Kevin Matthews",
                 "Michael Tripodi",
                 "Oliver Fritz",
@@ -11241,7 +11027,6 @@
             [
                 "Christopher Morris",
                 "Ethan Pan",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Xi Lu (鲁曦)"
@@ -11323,7 +11108,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -11399,7 +11183,6 @@
                 "Daniel Wallin",
                 "Ethan Pan",
                 "Hill Pong Yong Feng",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi"
             ],
@@ -11424,7 +11207,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -11500,7 +11282,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -11531,7 +11312,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Oliver Fritz",
@@ -11574,7 +11354,6 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -11606,7 +11385,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Oliver Fritz",
@@ -11656,7 +11434,6 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -11689,7 +11466,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Oliver Fritz",
@@ -11732,7 +11508,6 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -11764,7 +11539,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Oliver Fritz",
@@ -11794,23 +11568,12 @@
                 "Ethan Pan",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
                 "Oliver Fritz"
             ],
             "Rw:[U2,Rw' U2 l U2 Rw]"
-        ],
-        [
-            "D' Rw' U' R' U' r2 U R U' r2 U2 Rw D",
-            [
-                "Christopher Morris",
-                "Daniel Wallin",
-                "Graham Siggins",
-                "James Molloy"
-            ],
-            "D' Rw' U':[R',U' r2 U]"
         ],
         [
             "l2 U2 Rw' U2 Rw U2 l2 U2 Rw' U2 Rw U2",
@@ -11821,6 +11584,15 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "[l2,U2 Rw' U2 Rw U2]"
+        ],
+        [
+            "D' Rw' U' R' U' r2 U R U' r2 U2 Rw D",
+            [
+                "Christopher Morris",
+                "Daniel Wallin",
+                "Graham Siggins"
+            ],
+            "D' Rw' U':[R',U' r2 U]"
         ],
         [
             "D Lw' U R' u' R U2 R' u R U Lw D'",
@@ -11876,7 +11648,6 @@
                 "Gavriel Johann Arcilla",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Kevin Matthews",
                 "Oliver Fritz",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
@@ -11945,14 +11716,6 @@
             "x U':[L,U' l' U]"
         ],
         [
-            "U' 4Rw l2 U R' U' l2 U R U' 4Rw' U",
-            [
-                "Christopher Morris",
-                "James Molloy"
-            ],
-            "U' 4Rw:[l2,U R' U']"
-        ],
-        [
             "U' Rw' l U R U' l2 U R' U' l Rw U",
             [
                 "Michael Tripodi"
@@ -11988,6 +11751,13 @@
             "3Lw U':[R' u' R,U2]"
         ],
         [
+            "U' 4Rw l2 U R' U' l2 U R U' 4Rw' U",
+            [
+                "Christopher Morris"
+            ],
+            "U' 4Rw:[l2,U R' U']"
+        ],
+        [
             "L2 l U2 l' D' l U2 l' D L2",
             [
                 "Dong Zhu (朱栋)"
@@ -12005,7 +11775,6 @@
                 "Gavriel Johann Arcilla",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Oliver Fritz",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Tom Nelson",
@@ -12061,7 +11830,6 @@
                 "Antonio Kam (甘浩東)",
                 "Christopher Morris",
                 "Dong Zhu (朱栋)",
-                "James Molloy",
                 "Leonardo Ezequiel Cruz",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Xi Lu (鲁曦)",
@@ -12069,18 +11837,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "D':[U R2 U',r]"
-        ],
-        [
-            "D' R U R U' r U R' U' Rw' D",
-            [
-                "Christopher Morris",
-                "Graham Siggins",
-                "Hana Davila",
-                "James Molloy",
-                "Kai Yamamoto (山本快)",
-                "Kevin Matthews"
-            ],
-            "D' R:[U R U',r]"
         ],
         [
             "U' b' R B R' b R B' R' U",
@@ -12092,6 +11848,17 @@
                 "Ryan Eckersley"
             ],
             "U':[b',R B R']"
+        ],
+        [
+            "D' R U R U' r U R' U' Rw' D",
+            [
+                "Christopher Morris",
+                "Graham Siggins",
+                "Hana Davila",
+                "Kai Yamamoto (山本快)",
+                "Kevin Matthews"
+            ],
+            "D' R:[U R U',r]"
         ],
         [
             "U' x' u' R U R' u R U' 4Lw' U",
@@ -12118,7 +11885,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Michael Tripodi",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Ziyi Xu (徐梓翼)"
@@ -12194,7 +11960,6 @@
             [
                 "Chenhao Sun (孙晨皓)",
                 "Christopher Morris",
-                "James Molloy",
                 "Marcell Endrey",
                 "Oliver Fritz",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
@@ -12283,7 +12048,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kevin Matthews",
                 "Michael Tripodi",
                 "Oliver Fritz",
@@ -12371,8 +12135,7 @@
             "U l U l' D' l U' l' D U'",
             [
                 "Christopher Morris",
-                "Daniel Wallin",
-                "James Molloy"
+                "Daniel Wallin"
             ],
             "U:[l U l',D']"
         ],
@@ -12383,14 +12146,6 @@
                 "Michael Tripodi"
             ],
             "U:[D,L' u' L]"
-        ],
-        [
-            "U D2 r U' r' D' r U r' D' U'",
-            [
-                "James Molloy",
-                "Leonardo Ezequiel Cruz"
-            ],
-            "U D:[D,r U' r']"
         ],
         [
             "U f L' B' L f' L' B L U'",
@@ -12412,6 +12167,13 @@
                 "Antonio Kam (甘浩東)"
             ],
             "D U:[L F L',f]"
+        ],
+        [
+            "U D2 r U' r' D' r U r' D' U'",
+            [
+                "Leonardo Ezequiel Cruz"
+            ],
+            "U D:[D,r U' r']"
         ],
         [
             "U' D2 r U r' D' r U' r' D' U",
@@ -12438,7 +12200,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -12496,7 +12257,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kevin Matthews",
                 "Michael Tripodi",
                 "Oliver Fritz",
@@ -12565,14 +12325,6 @@
             "U':[b,R B R']"
         ],
         [
-            "Lw r' D' r U2 r' D r U2 Lw'",
-            [
-                "Christopher Morris",
-                "James Molloy"
-            ],
-            "Lw:[r' D' r,U2]"
-        ],
-        [
             "U' x' u R U R' u' R U' 4Lw' U",
             [
                 "Daniel Lin",
@@ -12621,6 +12373,13 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "y:[D',r U' r']"
+        ],
+        [
+            "Lw r' D' r U2 r' D r U2 Lw'",
+            [
+                "Christopher Morris"
+            ],
+            "Lw:[r' D' r,U2]"
         ]
     ],
     "ANQ": [
@@ -12637,7 +12396,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -12709,14 +12467,6 @@
             "R':[l U2 l',D]"
         ],
         [
-            "4Uw' R' U' l U R U' l' U 4Uw",
-            [
-                "Christopher Morris",
-                "James Molloy"
-            ],
-            "4Uw':[R',U' l U]"
-        ],
-        [
             "D' U R2 U' r U R' U' r' U R' U' D",
             [
                 "Daniel Wallin"
@@ -12736,6 +12486,13 @@
                 "Kai Yamamoto (山本快)"
             ],
             "U Lw:[d',L' U' L]"
+        ],
+        [
+            "4Uw' R' U' l U R U' l' U 4Uw",
+            [
+                "Christopher Morris"
+            ],
+            "4Uw':[R',U' l U]"
         ]
     ],
     "ANS": [
@@ -12752,7 +12509,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -12811,21 +12567,20 @@
             "l U':[R' u' R,U2]"
         ],
         [
-            "Uw' R U' l U R' U' l' U Uw",
-            [
-                "Christopher Morris",
-                "Hana Davila",
-                "James Molloy"
-            ],
-            "Uw':[R,U' l U]"
-        ],
-        [
             "Lw U2 l' D' l U2 l' D L'",
             [
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)"
             ],
             "L:[l U2 l',D']"
+        ],
+        [
+            "Uw' R U' l U R' U' l' U Uw",
+            [
+                "Christopher Morris",
+                "Hana Davila"
+            ],
+            "Uw':[R,U' l U]"
         ],
         [
             "4Rw U' L' U' l' U L U' l U2 4Rw'",
@@ -12857,7 +12612,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -12888,7 +12642,6 @@
                 "Christopher Morris",
                 "Daniel Wallin",
                 "Hana Davila",
-                "James Molloy",
                 "Michael Tripodi",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -12953,7 +12706,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -13002,14 +12754,6 @@
             "Lw U:[L' u' L,U2]"
         ],
         [
-            "D2 r U R' U' r U R U' r2 D2",
-            [
-                "Christopher Morris",
-                "James Molloy"
-            ],
-            "D2 r:[U R' U',r]"
-        ],
-        [
             "D' U R2 U' r U R U' r' U R U' D",
             [
                 "Daniel Wallin"
@@ -13052,6 +12796,13 @@
             "x U:[R2,U l' U']"
         ],
         [
+            "D2 r U R' U' r U R U' r2 D2",
+            [
+                "Christopher Morris"
+            ],
+            "D2 r:[U R' U',r]"
+        ],
+        [
             "D' z' R' u' R U R' u R U' z D",
             [
                 "Dong Zhu (朱栋)"
@@ -13067,7 +12818,6 @@
                 "Christopher Morris",
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -13120,7 +12870,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -13172,7 +12921,6 @@
                 "Christopher Morris",
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Xi Lu (鲁曦)"
@@ -13200,7 +12948,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -13240,7 +12987,6 @@
                 "Christopher Morris",
                 "Dong Zhu (朱栋)",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Oliver Fritz",
                 "Ryan Eckersley",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
@@ -13258,7 +13004,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -13308,7 +13053,6 @@
                 "Christopher Morris",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Ziyi Xu (徐梓翼)"
             ],
             "D:[U' R2 U,r2]"
@@ -13386,13 +13130,12 @@
                 "Daniel Wallin",
                 "Ethan Pan",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
                 "Ryan Eckersley"
             ],
-            "R:[r,U' R U]"
+            "Rw:[U' R U,r']"
         ]
     ],
     "AOK": [
@@ -13409,7 +13152,6 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
@@ -13461,7 +13203,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ziyi Xu (徐梓翼)"
@@ -13542,7 +13283,6 @@
                 "Daniel Wallin",
                 "Ethan Pan",
                 "Hill Pong Yong Feng",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi"
             ],
@@ -13568,7 +13308,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kevin Matthews",
                 "Michael Tripodi",
                 "Oliver Fritz",
@@ -13630,7 +13369,6 @@
             [
                 "Andrew Tan Jing Bang",
                 "Christopher Morris",
-                "James Molloy",
                 "Kevin Matthews",
                 "Michael Tripodi"
             ],
@@ -13717,7 +13455,6 @@
                 "Christopher Morris",
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
-                "James Molloy",
                 "Michael Tripodi",
                 "Xin Shi (石欣)",
                 "Ziyi Xu (徐梓翼)"
@@ -13738,7 +13475,6 @@
             [
                 "Chenhao Sun (孙晨皓)",
                 "Christopher Morris",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
@@ -13807,7 +13543,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -13860,14 +13595,6 @@
             "R' F:[F,R f' R']"
         ],
         [
-            "z' U2 L' U' l' U L U' l U' z",
-            [
-                "Christopher Morris",
-                "James Molloy"
-            ],
-            "z' U:[U L' U',l']"
-        ],
-        [
             "S D r' D' L D r D' L' S'",
             [
                 "Andrew Tan Jing Bang"
@@ -13880,6 +13607,13 @@
                 "Kevin Matthews"
             ],
             "y':[R,U r2 U']"
+        ],
+        [
+            "z' U2 L' U' l' U L U' l U' z",
+            [
+                "Christopher Morris"
+            ],
+            "z' U:[U L' U',l']"
         ]
     ],
     "AOW": [
@@ -13894,7 +13628,6 @@
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -13956,8 +13689,7 @@
             [
                 "Christopher Morris",
                 "Dong Zhu (朱栋)",
-                "Graham Siggins",
-                "James Molloy"
+                "Graham Siggins"
             ],
             "D r:[U' L U,r2]"
         ],
@@ -14028,8 +13760,7 @@
             "Rw' R' U r U' R U r' U' Rw",
             [
                 "Christopher Morris",
-                "Daniel Lin",
-                "James Molloy"
+                "Daniel Lin"
             ],
             "Rw':[R',U r U']"
         ]
@@ -14061,7 +13792,6 @@
                 "Antonio Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Christopher Morris",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Ryan Eckersley"
             ],
@@ -14096,7 +13826,6 @@
                 "Christopher Morris",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Ziyi Xu (徐梓翼)"
@@ -14145,7 +13874,6 @@
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -14185,7 +13913,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
@@ -14231,25 +13958,6 @@
     ],
     "APE": [
         [
-            "U2 r' D' r U2 r' D r",
-            [
-                "Adrian Dębski",
-                "Christopher Morris",
-                "Dong Zhu (朱栋)",
-                "Graham Siggins",
-                "Hana Davila",
-                "James Molloy",
-                "Kevin Matthews",
-                "Leonardo Ezequiel Cruz",
-                "Oliver Fritz",
-                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
-                "Timo Norrkniivilä",
-                "Xi Lu (鲁曦)",
-                "Xin Shi (石欣)"
-            ],
-            "[U2,r' D' r]"
-        ],
-        [
             "U R' u R U2 R' u' R U",
             [
                 "Andrew Tan Jing Bang",
@@ -14266,28 +13974,27 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "U:[R' u R,U2]"
+        ],
+        [
+            "U2 r' D' r U2 r' D r",
+            [
+                "Adrian Dębski",
+                "Christopher Morris",
+                "Dong Zhu (朱栋)",
+                "Graham Siggins",
+                "Hana Davila",
+                "Kevin Matthews",
+                "Leonardo Ezequiel Cruz",
+                "Oliver Fritz",
+                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
+                "Timo Norrkniivilä",
+                "Xi Lu (鲁曦)",
+                "Xin Shi (石欣)"
+            ],
+            "[U2,r' D' r]"
         ]
     ],
     "APF": [
-        [
-            "R U R U' r U R' U' Rw'",
-            [
-                "Andrew Tan Jing Bang",
-                "Chenhao Sun (孙晨皓)",
-                "Christopher Morris",
-                "Daniel Lin",
-                "Daniel Wallin",
-                "Graham Siggins",
-                "Hana Davila",
-                "James Molloy",
-                "Kai Yamamoto (山本快)",
-                "Kevin Matthews",
-                "Leonardo Ezequiel Cruz",
-                "Michael Tripodi",
-                "Yuki Tsuneyoshi (恒吉優紀)"
-            ],
-            "R:[U R U',r]"
-        ],
         [
             "U R2 U' r U R2 U' r'",
             [
@@ -14305,6 +14012,24 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "[U R2 U',r]"
+        ],
+        [
+            "R U R U' r U R' U' Rw'",
+            [
+                "Andrew Tan Jing Bang",
+                "Chenhao Sun (孙晨皓)",
+                "Christopher Morris",
+                "Daniel Lin",
+                "Daniel Wallin",
+                "Graham Siggins",
+                "Hana Davila",
+                "Kai Yamamoto (山本快)",
+                "Kevin Matthews",
+                "Leonardo Ezequiel Cruz",
+                "Michael Tripodi",
+                "Yuki Tsuneyoshi (恒吉優紀)"
+            ],
+            "R:[U R U',r]"
         ]
     ],
     "API": [
@@ -14335,7 +14060,6 @@
             "Rw U2 l' U' R U l U' R' U' Rw'",
             [
                 "Christopher Morris",
-                "James Molloy",
                 "Kevin Matthews",
                 "Michael Tripodi",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
@@ -14389,7 +14113,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Xi Lu (鲁曦)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -14484,7 +14207,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)"
             ],
             "Rw D':[r',U R U']"
@@ -14542,7 +14264,6 @@
                 "Christopher Morris",
                 "Ethan Pan",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -14608,7 +14329,6 @@
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -14698,14 +14418,6 @@
             "U':[R B R',b]"
         ],
         [
-            "Lw U2 r' D' r U2 r' D r Lw'",
-            [
-                "Christopher Morris",
-                "James Molloy"
-            ],
-            "Lw:[U2,r' D' r]"
-        ],
-        [
             "U' 4Lw U R' u R U' R' u' x U",
             [
                 "Daniel Lin",
@@ -14754,6 +14466,13 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "y:[r U' r',D']"
+        ],
+        [
+            "Lw U2 r' D' r U2 r' D r Lw'",
+            [
+                "Christopher Morris"
+            ],
+            "Lw:[U2,r' D' r]"
         ]
     ],
     "APO": [
@@ -14776,7 +14495,6 @@
             [
                 "Andrew Tan Jing Bang",
                 "Christopher Morris",
-                "James Molloy",
                 "Kevin Matthews",
                 "Michael Tripodi"
             ],
@@ -14849,7 +14567,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -14904,19 +14621,18 @@
             "U R:[R,U' r U]"
         ],
         [
-            "D' r U R U' r U R' U' r2 D",
-            [
-                "Christopher Morris",
-                "James Molloy"
-            ],
-            "D' r:[U R U',r]"
-        ],
-        [
             "y L' U' r U L U' r' 4Dw",
             [
                 "Adrian Dębski"
             ],
             "4Dw':[U L' U',r]"
+        ],
+        [
+            "D' r U R U' r U R' U' r2 D",
+            [
+                "Christopher Morris"
+            ],
+            "D' r:[U R U',r]"
         ]
     ],
     "APS": [
@@ -14931,7 +14647,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -14994,7 +14709,6 @@
             "D' r U' L' U r U' L U r2 D",
             [
                 "Christopher Morris",
-                "James Molloy",
                 "Xi Lu (鲁曦)"
             ],
             "D' r:[U' L' U,r]"
@@ -15034,7 +14748,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Oliver Fritz",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
@@ -15113,14 +14826,6 @@
             "S':[U',R d' R']"
         ],
         [
-            "Rw2 U' r' U' L U r U' L' U2 Rw2",
-            [
-                "Christopher Morris",
-                "James Molloy"
-            ],
-            "Rw2 U':[r',U' L U]"
-        ],
-        [
             "D' r' D' L' D r D' L D2",
             [
                 "Oliver Fritz"
@@ -15140,6 +14845,13 @@
                 "Ethan Pan"
             ],
             "4Dw':[U' R' U,r]"
+        ],
+        [
+            "Rw2 U' r' U' L U r U' L' U2 Rw2",
+            [
+                "Christopher Morris"
+            ],
+            "Rw2 U':[r',U' L U]"
         ],
         [
             "R d R' U' R d2 R' U R d R'",
@@ -15164,7 +14876,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -15226,19 +14937,18 @@
             "x':[R',U' r2 U]"
         ],
         [
-            "D' r U R' U' r U R U' r2 D",
-            [
-                "Christopher Morris",
-                "James Molloy"
-            ],
-            "D' r:[U R' U',r]"
-        ],
-        [
             "y U2 R U r U' R' U r' 4Dw",
             [
                 "Kevin Matthews"
             ],
             "4Dw':[U' R U,r]"
+        ],
+        [
+            "D' r U R' U' r U R U' r2 D",
+            [
+                "Christopher Morris"
+            ],
+            "D' r:[U R' U',r]"
         ]
     ],
     "AQB": [
@@ -15274,7 +14984,6 @@
             [
                 "Adrian Dębski",
                 "Christopher Morris",
-                "James Molloy",
                 "Xi Lu (鲁曦)"
             ],
             "Lw2 U':[U' l U,R]"
@@ -15333,21 +15042,20 @@
             "z:[U' r2 U,R]"
         ],
         [
-            "r' U2 R U r U' R' U r' U r",
-            [
-                "Christopher Morris",
-                "James Molloy",
-                "Xi Lu (鲁曦)"
-            ],
-            "r' U':[U' R U,r]"
-        ],
-        [
             "u' L' u' L U L' u L U' u",
             [
                 "Daniel Wallin",
                 "Kai Yamamoto (山本快)"
             ],
             "u':[L' u' L,U]"
+        ],
+        [
+            "r' U2 R U r U' R' U r' U r",
+            [
+                "Christopher Morris",
+                "Xi Lu (鲁曦)"
+            ],
+            "r' U':[U' R U,r]"
         ]
     ],
     "AQD": [
@@ -15388,19 +15096,18 @@
             "Rw U R:[r,U R' U']"
         ],
         [
-            "z' D U L' U' l' U L U' l D' z",
-            [
-                "Christopher Morris",
-                "James Molloy"
-            ],
-            "z' D:[U L' U',l']"
-        ],
-        [
             "R U' Rw U R' U' l' U R U' Rw' l U R'",
             [
                 "Adrian Dębski"
             ],
             "R U' Rw:[U R' U',l']"
+        ],
+        [
+            "z' D U L' U' l' U L U' l D' z",
+            [
+                "Christopher Morris"
+            ],
+            "z' D:[U L' U',l']"
         ]
     ],
     "AQE": [
@@ -15427,7 +15134,6 @@
                 "Christopher Morris",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Leonardo Ezequiel Cruz",
                 "Xi Lu (鲁曦)",
                 "Ziyi Xu (徐梓翼)"
@@ -15481,7 +15187,6 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -15513,7 +15218,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -15557,7 +15261,6 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -15593,7 +15296,6 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Hill Pong Yong Feng",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -15626,7 +15328,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -15663,7 +15364,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -15694,7 +15394,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -15746,7 +15445,6 @@
                 "Christopher Morris",
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
-                "James Molloy",
                 "Michael Tripodi",
                 "Xin Shi (石欣)",
                 "Ziyi Xu (徐梓翼)"
@@ -15776,7 +15474,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -15825,14 +15522,6 @@
             "R b Rw' U:[r2,U R U']"
         ],
         [
-            "Uw R U2 L' U r U' L U r' U R' Uw'",
-            [
-                "Christopher Morris",
-                "James Molloy"
-            ],
-            "Uw R U':[U' L' U,r]"
-        ],
-        [
             "z' l' U R' u' R U2 R' u R U l z",
             [
                 "Daniel Lin",
@@ -15874,6 +15563,13 @@
                 "Kai Yamamoto (山本快)"
             ],
             "Uw2 L:[U',L d' L']"
+        ],
+        [
+            "Uw R U2 L' U r U' L U r' U R' Uw'",
+            [
+                "Christopher Morris"
+            ],
+            "Uw R U':[U' L' U,r]"
         ]
     ],
     "AQS": [
@@ -15901,7 +15597,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
@@ -15953,7 +15648,6 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -15972,8 +15666,7 @@
         [
             "z' U L' U' l' U L U' l z",
             [
-                "Christopher Morris",
-                "James Molloy"
+                "Christopher Morris"
             ],
             "z':[U L' U',l']"
         ]
@@ -15989,7 +15682,6 @@
                 "Ethan Pan",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -16008,7 +15700,6 @@
             [
                 "Christopher Morris",
                 "Graham Siggins",
-                "James Molloy",
                 "Leonardo Ezequiel Cruz"
             ],
             "z:[r2,U R U']"
@@ -16060,13 +15751,6 @@
             "z' U:[L',U r' U']"
         ],
         [
-            "Lw' D r U' R U r' U' R' U D' Lw",
-            [
-                "James Molloy"
-            ],
-            "Lw' D:[r,U' R U]"
-        ],
-        [
             "z' D2 U L' U' l' U L U' l D2 z",
             [
                 "Christopher Morris"
@@ -16084,7 +15768,6 @@
                 "Daniel Wallin",
                 "Ethan Pan",
                 "Graham Siggins",
-                "James Molloy",
                 "Ryan Eckersley",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -16142,7 +15825,6 @@
                 "Ethan Pan",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -16161,8 +15843,7 @@
         [
             "z' U L' U' l U L U' l' z",
             [
-                "Christopher Morris",
-                "James Molloy"
+                "Christopher Morris"
             ],
             "z':[U L' U',l]"
         ]
@@ -16175,7 +15856,6 @@
                 "Chenhao Sun (孙晨皓)",
                 "Dong Zhu (朱栋)",
                 "Hana Davila",
-                "James Molloy",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -16233,7 +15913,6 @@
                 "Daniel Lin",
                 "Gavriel Johann Arcilla",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Oliver Fritz",
@@ -16253,7 +15932,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Xi Lu (鲁曦)"
@@ -16286,7 +15964,6 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Michael Tripodi",
                 "Ryan Eckersley",
                 "Xi Lu (鲁曦)",
@@ -16367,7 +16044,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
@@ -16409,7 +16085,6 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -16440,17 +16115,6 @@
             "R D:[R' F R,f']"
         ],
         [
-            "r U2 l' U' R U l U' R' U' r'",
-            [
-                "Andrew Tan Jing Bang",
-                "Christopher Morris",
-                "James Molloy",
-                "Kai Yamamoto (山本快)",
-                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
-            ],
-            "r U:[U l' U',R]"
-        ],
-        [
             "Rw r D2 r' U' r D2 r' U Rw'",
             [
                 "Hana Davila",
@@ -16459,6 +16123,16 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "Rw:[r D2 r',U']"
+        ],
+        [
+            "r U2 l' U' R U l U' R' U' r'",
+            [
+                "Andrew Tan Jing Bang",
+                "Christopher Morris",
+                "Kai Yamamoto (山本快)",
+                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
+            ],
+            "r U:[U l' U',R]"
         ],
         [
             "Rw D' r D' r' U' r D r' U D Rw'",
@@ -16507,7 +16181,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kevin Matthews",
                 "Mark Rivers",
                 "Michael Tripodi",
@@ -16577,7 +16250,6 @@
             "D' r' U R U' r2 U R' U' r' D",
             [
                 "Chenhao Sun (孙晨皓)",
-                "James Molloy",
                 "Ryan Eckersley"
             ],
             "D' r':[U R U',r2]"
@@ -16650,7 +16322,6 @@
             "D r2 U R U' r' U R' U' r' D'",
             [
                 "Christopher Morris",
-                "James Molloy",
                 "Xi Lu (鲁曦)"
             ],
             "D r:[r,U R U']"
@@ -16685,7 +16356,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Oliver Fritz",
@@ -16761,14 +16431,6 @@
             "R':[D,l U2 l']"
         ],
         [
-            "4Uw' U' l U R' U' l' U R 4Uw",
-            [
-                "Christopher Morris",
-                "James Molloy"
-            ],
-            "4Uw':[U' l U,R']"
-        ],
-        [
             "D' U R U' r U R U' r' U R2 U' D",
             [
                 "Daniel Wallin"
@@ -16788,6 +16450,13 @@
                 "Kai Yamamoto (山本快)"
             ],
             "U l:[U',L d' L']"
+        ],
+        [
+            "4Uw' U' l U R' U' l' U R 4Uw",
+            [
+                "Christopher Morris"
+            ],
+            "4Uw':[U' l U,R']"
         ]
     ],
     "ARO": [
@@ -16796,7 +16465,6 @@
             [
                 "Chenhao Sun (孙晨皓)",
                 "Christopher Morris",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
@@ -16897,19 +16565,18 @@
             "U R:[U' r U,R]"
         ],
         [
-            "D' r2 U R U' r' U R' U' r' D",
-            [
-                "Christopher Morris",
-                "James Molloy"
-            ],
-            "D' r:[r,U R U']"
-        ],
-        [
             "4Dw' r U L' U' r' U L y'",
             [
                 "Adrian Dębski"
             ],
             "4Dw':[r,U L' U']"
+        ],
+        [
+            "D' r2 U R U' r' U R' U' r' D",
+            [
+                "Christopher Morris"
+            ],
+            "D' r:[r,U R U']"
         ]
     ],
     "ARQ": [
@@ -16944,14 +16611,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "R b Rw' U:[U R U',r2]"
-        ],
-        [
-            "Uw R U' r U' L' U r' U' L U2 R' Uw'",
-            [
-                "Christopher Morris",
-                "James Molloy"
-            ],
-            "Uw R U':[r,U' L' U]"
         ],
         [
             "z' l' U' R' u' R U2 R' u R U' l z",
@@ -16995,6 +16654,13 @@
                 "Kai Yamamoto (山本快)"
             ],
             "Uw2 L:[L d' L',U']"
+        ],
+        [
+            "Uw R U' r U' L' U r' U' L U2 R' Uw'",
+            [
+                "Christopher Morris"
+            ],
+            "Uw R U':[r,U' L' U]"
         ]
     ],
     "ARS": [
@@ -17028,7 +16694,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kevin Matthews"
             ],
             "z:[l',U' R U]"
@@ -17063,14 +16728,6 @@
                 "Xin Shi (石欣)"
             ],
             "Dw R':[U',R' u' R]"
-        ],
-        [
-            "R2 Rw' U' r2 U' L' U r2 U' L U2 r R'",
-            [
-                "Christopher Morris",
-                "James Molloy"
-            ],
-            "R2 Rw' U':[r2,U' L' U]"
         ],
         [
             "d R' U' R' u' R U R' u R2 d'",
@@ -17113,6 +16770,13 @@
                 "Kevin Matthews"
             ],
             "L y':[U r U',R']"
+        ],
+        [
+            "R2 Rw' U' r2 U' L' U r2 U' L U2 Rw R2",
+            [
+                "Christopher Morris"
+            ],
+            "R2 Rw' U':[r2,U' L' U]"
         ],
         [
             "R' y L U' r U L' U' r' 4Dw R",
@@ -17170,8 +16834,7 @@
         [
             "z U2 l' U' R U l U' R' U' z'",
             [
-                "Christopher Morris",
-                "James Molloy"
+                "Christopher Morris"
             ],
             "z U:[U l' U',R]"
         ]
@@ -17185,7 +16848,6 @@
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
-                "James Molloy",
                 "Kevin Matthews",
                 "Michael Tripodi",
                 "Xin Shi (石欣)",
@@ -17269,8 +16931,7 @@
             "z' r U' L' U r' U' L U z",
             [
                 "Dong Zhu (朱栋)",
-                "Graham Siggins",
-                "James Molloy"
+                "Graham Siggins"
             ],
             "z':[r,U' L' U]"
         ],
@@ -17337,7 +16998,6 @@
             "Rw' R2 U' r2 U R2 U' r2 U Rw",
             [
                 "Christopher Morris",
-                "James Molloy",
                 "Ziyi Xu (徐梓翼)"
             ],
             "Rw':[R2,U' r2 U]"
@@ -17360,7 +17020,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Graham Siggins",
-                "James Molloy",
                 "Kevin Matthews",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Xi Lu (鲁曦)",
@@ -17422,7 +17081,6 @@
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
-                "James Molloy",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Oliver Fritz",
@@ -17515,19 +17173,18 @@
             "Rw U:[U,R' d R]"
         ],
         [
-            "L2 D r U L U' r' U L' U' D' L2",
-            [
-                "Christopher Morris",
-                "James Molloy"
-            ],
-            "L2 D:[r,U L U']"
-        ],
-        [
             "r U2 R' d R U' R' d' R U' r'",
             [
                 "Oliver Fritz"
             ],
             "r U:[U,R' d R]"
+        ],
+        [
+            "L2 D r U L U' r' U L' U' D' L2",
+            [
+                "Christopher Morris"
+            ],
+            "L2 D:[r,U L U']"
         ]
     ],
     "ASE": [
@@ -17542,7 +17199,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
@@ -17627,7 +17283,6 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -17660,7 +17315,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -17692,7 +17346,6 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Mark Rivers",
@@ -17737,7 +17390,6 @@
                 "Antonio Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Christopher Morris",
-                "James Molloy",
                 "Michael Tripodi",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Xin Shi (石欣)",
@@ -17766,7 +17418,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -17811,7 +17462,6 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -17842,7 +17492,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -17880,7 +17529,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -17913,7 +17561,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -17946,7 +17593,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
@@ -18017,7 +17663,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kevin Matthews"
             ],
             "z:[U' R U,l']"
@@ -18059,14 +17704,6 @@
             "u x':[L2,U' r U]"
         ],
         [
-            "Rw' Uw L' U' r U L2 U' r' U L' Uw' Rw",
-            [
-                "Christopher Morris",
-                "James Molloy"
-            ],
-            "Rw' Uw L':[U' r U,L2]"
-        ],
-        [
             "u F R2 u R' U' R u' R' U R' F' u'",
             [
                 "Daniel Wallin"
@@ -18095,6 +17732,13 @@
             "Dw2 R':[U',R' u' R]"
         ],
         [
+            "Rw' Uw L' U' r U L2 U' r' U L' Uw' Rw",
+            [
+                "Christopher Morris"
+            ],
+            "Rw' Uw L':[U' r U,L2]"
+        ],
+        [
             "u2 L' U L' u' L U' L' u L2 u2",
             [
                 "Gavriel Johann Arcilla"
@@ -18110,7 +17754,6 @@
                 "Christopher Morris",
                 "Dong Zhu (朱栋)",
                 "Hana Davila",
-                "James Molloy",
                 "Kevin Matthews",
                 "Oliver Fritz",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
@@ -18191,8 +17834,7 @@
                 "Christopher Morris",
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
-                "Hana Davila",
-                "James Molloy"
+                "Hana Davila"
             ],
             "z:[U' R U,l]"
         ],
@@ -18213,19 +17855,6 @@
     ],
     "ASY": [
         [
-            "Rw' U2 L' U' r U L U' r' U' Rw",
-            [
-                "Andrew Tan Jing Bang",
-                "Chenhao Sun (孙晨皓)",
-                "Christopher Morris",
-                "Daniel Wallin",
-                "James Molloy",
-                "Michael Tripodi",
-                "Xi Lu (鲁曦)"
-            ],
-            "Rw' U:[U L' U',r]"
-        ],
-        [
             "d2 R' U' R d2 R' U R",
             [
                 "Daniel Lin",
@@ -18237,6 +17866,18 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "[d2,R' U' R]"
+        ],
+        [
+            "Rw' U2 L' U' r U L U' r' U' Rw",
+            [
+                "Andrew Tan Jing Bang",
+                "Chenhao Sun (孙晨皓)",
+                "Christopher Morris",
+                "Daniel Wallin",
+                "Michael Tripodi",
+                "Xi Lu (鲁曦)"
+            ],
+            "Rw' U:[U L' U',r]"
         ],
         [
             "L' U L d2 L' U' L d2",
@@ -18295,7 +17936,6 @@
             "z U' R U' r' U R' U' r U2 z'",
             [
                 "Christopher Morris",
-                "James Molloy",
                 "Kevin Matthews"
             ],
             "z U':[R,U' r' U]"
@@ -18309,24 +17949,6 @@
         ]
     ],
     "ATB": [
-        [
-            "Rw' U L' U r2 U' L U r2 U2 Rw",
-            [
-                "Christopher Morris",
-                "Daniel Lin",
-                "Dong Zhu (朱栋)",
-                "Graham Siggins",
-                "Hana Davila",
-                "James Molloy",
-                "Kai Yamamoto (山本快)",
-                "Kevin Matthews",
-                "Leonardo Ezequiel Cruz",
-                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
-                "Xin Shi (石欣)",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "Rw' U:[L',U r2 U']"
-        ],
         [
             "l' U R' u' R U2 R' u R U l",
             [
@@ -18343,6 +17965,23 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "l' U:[R' u' R,U2]"
+        ],
+        [
+            "Rw' U L' U r2 U' L U r2 U2 Rw",
+            [
+                "Christopher Morris",
+                "Daniel Lin",
+                "Dong Zhu (朱栋)",
+                "Graham Siggins",
+                "Hana Davila",
+                "Kai Yamamoto (山本快)",
+                "Kevin Matthews",
+                "Leonardo Ezequiel Cruz",
+                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
+                "Xin Shi (石欣)",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "Rw' U:[L',U r2 U']"
         ],
         [
             "Lw D U' R2 U r U' R2 U r' D' Lw'",
@@ -18374,7 +18013,6 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -18387,13 +18025,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "U':[U',R' u' R]"
-        ],
-        [
-            "Rw' Uw' U' R U r U' R' U r' Uw Rw",
-            [
-                "James Molloy"
-            ],
-            "Rw' Uw':[U' R U,r]"
         ]
     ],
     "ATD": [
@@ -18421,7 +18052,6 @@
             [
                 "Christopher Morris",
                 "Dong Zhu (朱栋)",
-                "James Molloy",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -18478,7 +18108,6 @@
                 "Ethan Pan",
                 "Gavriel Johann Arcilla",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -18491,21 +18120,20 @@
             "U:[R' u' R,U2]"
         ],
         [
-            "L U2 r' D r U2 r' D' r L'",
-            [
-                "Christopher Morris",
-                "James Molloy",
-                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
-            ],
-            "L:[U2,r' D r]"
-        ],
-        [
             "L l' D' l U2 l' D l U2 L'",
             [
                 "Graham Siggins",
                 "Ziyi Xu (徐梓翼)"
             ],
             "L:[l' D' l,U2]"
+        ],
+        [
+            "L U2 r' D r U2 r' D' r L'",
+            [
+                "Christopher Morris",
+                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
+            ],
+            "L:[U2,r' D r]"
         ]
     ],
     "ATF": [
@@ -18525,7 +18153,6 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -18567,7 +18194,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Ziyi Xu (徐梓翼)"
             ],
             "Uw':[U' l2 U,R]"
@@ -18627,7 +18253,6 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Hill Pong Yong Feng",
-                "James Molloy",
                 "Leonardo Ezequiel Cruz",
                 "Mark Rivers",
                 "Michael Tripodi",
@@ -18692,16 +18317,6 @@
             "y':[U' l2 U,R]"
         ],
         [
-            "Rw D' r' U' L' U r U' L U D Rw'",
-            [
-                "Christopher Morris",
-                "Daniel Wallin",
-                "Dong Zhu (朱栋)",
-                "James Molloy"
-            ],
-            "Rw D':[r',U' L' U]"
-        ],
-        [
             "D' r' U' L' U r2 U' L U r' D",
             [
                 "Antonio Kam (甘浩東)",
@@ -18709,6 +18324,15 @@
                 "Kai Yamamoto (山本快)"
             ],
             "D' r':[U' L' U,r2]"
+        ],
+        [
+            "Rw D' r' U' L' U r U' L U D Rw'",
+            [
+                "Christopher Morris",
+                "Daniel Wallin",
+                "Dong Zhu (朱栋)"
+            ],
+            "Rw D':[r',U' L' U]"
         ],
         [
             "4Lw' U R' d R U R' d' R U2 4Lw",
@@ -18776,14 +18400,6 @@
             "[L,D r' D']"
         ],
         [
-            "D r2 U' L' U r' U' L U r' D'",
-            [
-                "Christopher Morris",
-                "James Molloy"
-            ],
-            "D r:[r,U' L' U]"
-        ],
-        [
             "L' F' L' U' l' U L U' l U F L",
             [
                 "Xi Lu (鲁曦)"
@@ -18796,6 +18412,13 @@
                 "Kevin Matthews"
             ],
             "y':[U r U',R]"
+        ],
+        [
+            "D r2 U' L' U r' U' L U r' D'",
+            [
+                "Christopher Morris"
+            ],
+            "D r:[r,U' L' U]"
         ]
     ],
     "ATM": [
@@ -18813,7 +18436,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Oliver Fritz",
@@ -18891,8 +18513,7 @@
             "Uw' U' l U R U' l' U R' Uw",
             [
                 "Christopher Morris",
-                "Hana Davila",
-                "James Molloy"
+                "Hana Davila"
             ],
             "Uw':[U' l U,R]"
         ],
@@ -18977,13 +18598,6 @@
                 "Kevin Matthews"
             ],
             "y':[U r2 U',R]"
-        ],
-        [
-            "z' U l' U L' U' l U L U2 z",
-            [
-                "James Molloy"
-            ],
-            "z' U:[l',U L' U']"
         ]
     ],
     "ATP": [
@@ -19026,7 +18640,6 @@
             "D' r2 U' L' U r' U' L U r' D",
             [
                 "Christopher Morris",
-                "James Molloy",
                 "Xi Lu (鲁曦)"
             ],
             "D' r:[r,U' L' U]"
@@ -19083,13 +18696,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "[u',R U' R']"
-        ],
-        [
-            "z' l' U L' U' l U L U' z",
-            [
-                "James Molloy"
-            ],
-            "z':[l',U L' U']"
         ]
     ],
     "ATR": [
@@ -19121,14 +18727,6 @@
                 "Xin Shi (石欣)"
             ],
             "Dw R':[R' u' R,U']"
-        ],
-        [
-            "R2 Rw' U2 L' U r2 U' L U r2 U Rw R2",
-            [
-                "Christopher Morris",
-                "James Molloy"
-            ],
-            "R2 Rw' U':[U' L' U,r2]"
         ],
         [
             "d R2 u' R U' R' u R U R d'",
@@ -19171,6 +18769,13 @@
                 "Kevin Matthews"
             ],
             "L y':[R',U r U']"
+        ],
+        [
+            "R2 Rw' U2 L' U r2 U' L U r2 U Rw R2",
+            [
+                "Christopher Morris"
+            ],
+            "R2 Rw' U':[U' L' U,r2]"
         ],
         [
             "R' 4Dw' r U L U' r' U L' y' R",
@@ -19223,14 +18828,6 @@
             "u x':[U' r U,L2]"
         ],
         [
-            "Rw' Uw L U' r U L2 U' r' U L Uw' Rw",
-            [
-                "Christopher Morris",
-                "James Molloy"
-            ],
-            "Rw' Uw L:[U' r U,L2]"
-        ],
-        [
             "u F R U' R u R' U R u' R2 F' u'",
             [
                 "Daniel Wallin"
@@ -19264,6 +18861,13 @@
                 "Ethan Pan"
             ],
             "z r' U':[U' r2 U,R]"
+        ],
+        [
+            "Rw' Uw L U' r U L2 U' r' U L Uw' Rw",
+            [
+                "Christopher Morris"
+            ],
+            "Rw' Uw L:[U' r U,L2]"
         ],
         [
             "u2 L2 u' L U L' u L U' L u2",
@@ -19304,7 +18908,6 @@
             [
                 "Christopher Morris",
                 "Graham Siggins",
-                "James Molloy",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz"
             ],
@@ -19353,14 +18956,6 @@
             "Dw' R':[R' u' R,U']"
         ],
         [
-            "4Lw L2 U r2 U' L2 U r2 U' 4Lw'",
-            [
-                "Christopher Morris",
-                "James Molloy"
-            ],
-            "4Lw:[L2,U r2 U']"
-        ],
-        [
             "L D r' D' L2 D r D' L",
             [
                 "Oliver Fritz"
@@ -19380,6 +18975,13 @@
                 "Ethan Pan"
             ],
             "R d' R':[R' u' R,U']"
+        ],
+        [
+            "4Lw L2 U r2 U' L2 U r2 U' 4Lw'",
+            [
+                "Christopher Morris"
+            ],
+            "4Lw:[L2,U r2 U']"
         ],
         [
             "z U L d' L' U2 L d L' U z'",
@@ -19412,7 +19014,6 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -19425,13 +19026,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "R':[R' u' R,U']"
-        ],
-        [
-            "Rw' Uw U L U' r U L' U' r' Uw' Rw",
-            [
-                "James Molloy"
-            ],
-            "Rw' Uw:[U L U',r]"
         ]
     ],
     "ATZ": [
@@ -19459,21 +19053,20 @@
             "u':[R U' R',u2]"
         ],
         [
-            "Rw' U2 L' U r2 U' L U r2 U Rw",
-            [
-                "Christopher Morris",
-                "James Molloy",
-                "Xin Shi (石欣)"
-            ],
-            "Rw' U':[U' L' U,r2]"
-        ],
-        [
             "z r U R U' r2 U R' U' r z'",
             [
                 "Dong Zhu (朱栋)",
                 "Graham Siggins"
             ],
             "z r:[U R U',r2]"
+        ],
+        [
+            "Rw' U2 L' U r2 U' L U r2 U Rw",
+            [
+                "Christopher Morris",
+                "Xin Shi (石欣)"
+            ],
+            "Rw' U':[U' L' U,r2]"
         ],
         [
             "x' U2 L2 U r2 U' L2 U r2 U x",
@@ -19516,7 +19109,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Xi Lu (鲁曦)"
             ],
@@ -19540,21 +19132,6 @@
     ],
     "AWC": [
         [
-            "x' U' r U L' U' r' U 4Rw",
-            [
-                "Adrian Dębski",
-                "Andrew Tan Jing Bang",
-                "Christopher Morris",
-                "Dong Zhu (朱栋)",
-                "James Molloy",
-                "Leonardo Ezequiel Cruz",
-                "Xi Lu (鲁曦)",
-                "Xin Shi (石欣)",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "x':[U' r U,L']"
-        ],
-        [
             "u L' u' L U L' u L Uw'",
             [
                 "Daniel Lin",
@@ -19567,6 +19144,20 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "u:[L' u' L,U]"
+        ],
+        [
+            "x' U' r U L' U' r' U 4Rw",
+            [
+                "Adrian Dębski",
+                "Andrew Tan Jing Bang",
+                "Christopher Morris",
+                "Dong Zhu (朱栋)",
+                "Leonardo Ezequiel Cruz",
+                "Xi Lu (鲁曦)",
+                "Xin Shi (石欣)",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "x':[U' r U,L']"
         ],
         [
             "4Lw U' r U L' U' r' U M'",
@@ -19630,7 +19221,6 @@
             "L2 D r U L' U' r' U L U' D' L2",
             [
                 "Christopher Morris",
-                "James Molloy",
                 "Xi Lu (鲁曦)"
             ],
             "L2 D:[r,U L' U']"
@@ -19691,7 +19281,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Xi Lu (鲁曦)",
@@ -19731,7 +19320,6 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -19763,7 +19351,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
@@ -19807,7 +19394,6 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Mark Rivers",
@@ -19850,7 +19436,6 @@
                 "Antonio Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Christopher Morris",
-                "James Molloy",
                 "Michael Tripodi",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -19889,7 +19474,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -19920,7 +19504,6 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -19953,7 +19536,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -19986,7 +19568,6 @@
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -20027,7 +19608,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Oliver Fritz",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
@@ -20098,7 +19678,6 @@
             [
                 "Christopher Morris",
                 "Graham Siggins",
-                "James Molloy",
                 "Leonardo Ezequiel Cruz"
             ],
             "z:[U R U',r2]"
@@ -20159,8 +19738,7 @@
         [
             "z U R U l' U' R' U l U2 z'",
             [
-                "Christopher Morris",
-                "James Molloy"
+                "Christopher Morris"
             ],
             "z U:[R,U l' U']"
         ]
@@ -20173,7 +19751,6 @@
                 "Christopher Morris",
                 "Dong Zhu (朱栋)",
                 "Hana Davila",
-                "James Molloy",
                 "Kevin Matthews",
                 "Oliver Fritz",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
@@ -20248,7 +19825,6 @@
             [
                 "Christopher Morris",
                 "Graham Siggins",
-                "James Molloy",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz"
             ],
@@ -20263,7 +19839,6 @@
                 "Antonio Kam (甘浩東)",
                 "Christopher Morris",
                 "Daniel Wallin",
-                "James Molloy",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "Uw' L':[U r U',L2]"
@@ -20361,7 +19936,6 @@
                 "Christopher Morris",
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
-                "James Molloy",
                 "Michael Tripodi",
                 "Xi Lu (鲁曦)"
             ],
@@ -20421,7 +19995,6 @@
             [
                 "Christopher Morris",
                 "Graham Siggins",
-                "James Molloy",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Timo Norrkniivilä"
@@ -20461,21 +20034,20 @@
             "Lw':[U2,r' D r]"
         ],
         [
-            "Rw' U L U r2 U' L' U r2 U2 Rw",
-            [
-                "Christopher Morris",
-                "James Molloy",
-                "Xin Shi (石欣)"
-            ],
-            "Rw' U:[L,U r2 U']"
-        ],
-        [
             "Lw' l' D' l U2 l' D l U2 Lw",
             [
                 "Adrian Dębski",
                 "Xi Lu (鲁曦)"
             ],
             "Lw':[l' D' l,U2]"
+        ],
+        [
+            "Rw' U L U r2 U' L' U r2 U2 Rw",
+            [
+                "Christopher Morris",
+                "Xin Shi (石欣)"
+            ],
+            "Rw' U:[L,U r2 U']"
         ],
         [
             "3Lw' U2 r' D r U2 r' D' r 3Lw",
@@ -20516,7 +20088,6 @@
                 "Christopher Morris",
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
-                "James Molloy",
                 "Leonardo Ezequiel Cruz"
             ],
             "Lw' D:[U L U',r]"
@@ -20552,8 +20123,7 @@
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
-                "Graham Siggins",
-                "James Molloy"
+                "Graham Siggins"
             ],
             "x':[U r2 U',L']"
         ],
@@ -20625,7 +20195,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
@@ -20657,7 +20226,6 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -20686,7 +20254,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -20745,7 +20312,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Mark Rivers",
                 "Michael Tripodi",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
@@ -20812,7 +20378,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kevin Matthews",
                 "Michael Tripodi",
                 "Xin Shi (石欣)",
@@ -20898,14 +20463,6 @@
             "[L',D r' D']"
         ],
         [
-            "D r2 U' L U r' U' L' U r' D'",
-            [
-                "Christopher Morris",
-                "James Molloy"
-            ],
-            "D r:[r,U' L U]"
-        ],
-        [
             "L2 F' U' l' U L' U' l U L F L2",
             [
                 "Xi Lu (鲁曦)"
@@ -20918,6 +20475,13 @@
                 "Kevin Matthews"
             ],
             "y U:[l,U R' U']"
+        ],
+        [
+            "D r2 U' L U r' U' L' U r' D'",
+            [
+                "Christopher Morris"
+            ],
+            "D r:[r,U' L U]"
         ]
     ],
     "AXM": [
@@ -20935,7 +20499,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Oliver Fritz",
@@ -20971,7 +20534,6 @@
                 "Chenhao Sun (孙晨皓)",
                 "Christopher Morris",
                 "Daniel Wallin",
-                "James Molloy",
                 "Michael Tripodi",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -21054,8 +20616,7 @@
             [
                 "Christopher Morris",
                 "Dong Zhu (朱栋)",
-                "Graham Siggins",
-                "James Molloy"
+                "Graham Siggins"
             ],
             "D r':[U' L U,r2]"
         ],
@@ -21118,14 +20679,6 @@
             "S':[R d' R',U']"
         ],
         [
-            "Rw2 U2 L U r' U' L' U r U Rw2",
-            [
-                "Christopher Morris",
-                "James Molloy"
-            ],
-            "Rw2 U':[U' L U,r']"
-        ],
-        [
             "D2 L' D r' D' L D r D",
             [
                 "Oliver Fritz"
@@ -21145,6 +20698,13 @@
                 "Ethan Pan"
             ],
             "4Dw':[r,U' R' U]"
+        ],
+        [
+            "Rw2 U2 L U r' U' L' U r U Rw2",
+            [
+                "Christopher Morris"
+            ],
+            "Rw2 U':[U' L U,r']"
         ],
         [
             "R d' R' U' R d2 R' U R d' R'",
@@ -21188,8 +20748,7 @@
         [
             "z' D2 l' U L' U' l U L U' D2 z",
             [
-                "Christopher Morris",
-                "James Molloy"
+                "Christopher Morris"
             ],
             "z' D2:[l',U L' U']"
         ]
@@ -21203,7 +20762,6 @@
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
-                "James Molloy",
                 "Kevin Matthews",
                 "Michael Tripodi",
                 "Xin Shi (石欣)",
@@ -21285,8 +20843,7 @@
                 "Christopher Morris",
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
-                "Hana Davila",
-                "James Molloy"
+                "Hana Davila"
             ],
             "z:[l,U' R U]"
         ]
@@ -21333,14 +20890,6 @@
             "Dw' R':[U',R' u' R]"
         ],
         [
-            "4Lw U r2 U' L2 U r2 U' L2 4Lw'",
-            [
-                "Christopher Morris",
-                "James Molloy"
-            ],
-            "4Lw:[U r2 U',L2]"
-        ],
-        [
             "L' D r' D' L2 D r D' L'",
             [
                 "Oliver Fritz"
@@ -21360,6 +20909,13 @@
                 "Ethan Pan"
             ],
             "R d' R':[U',R' u' R]"
+        ],
+        [
+            "4Lw U r2 U' L2 U r2 U' L2 4Lw'",
+            [
+                "Christopher Morris"
+            ],
+            "4Lw:[U r2 U',L2]"
         ],
         [
             "z U' L d' L' U2 L d L' U' z'",
@@ -21384,7 +20940,6 @@
                 "Antonio Kam (甘浩東)",
                 "Christopher Morris",
                 "Daniel Wallin",
-                "James Molloy",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "Uw' L:[U r U',L2]"
@@ -21486,7 +21041,6 @@
                 "Christopher Morris",
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
-                "James Molloy",
                 "Kevin Matthews"
             ],
             "z':[r',U' L' U]"
@@ -21503,7 +21057,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Michael Tripodi",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Xin Shi (石欣)",
@@ -21557,7 +21110,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kevin Matthews",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Xi Lu (鲁曦)"
@@ -21605,7 +21157,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Graham Siggins",
-                "James Molloy",
                 "Leonardo Ezequiel Cruz",
                 "Xi Lu (鲁曦)"
             ],
@@ -21660,7 +21211,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kevin Matthews",
                 "Michael Tripodi",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
@@ -21719,7 +21269,6 @@
                 "Christopher Morris",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Leonardo Ezequiel Cruz",
                 "Xi Lu (鲁曦)"
             ],
@@ -21787,7 +21336,6 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -21820,7 +21368,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -21865,7 +21412,6 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Marcell Endrey",
@@ -21899,7 +21445,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -21933,7 +21478,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Oliver Fritz",
@@ -21971,7 +21515,6 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -22003,7 +21546,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -22069,8 +21611,7 @@
         [
             "Rw' U r U' R' U r' U' R Rw",
             [
-                "Daniel Lin",
-                "James Molloy"
+                "Daniel Lin"
             ],
             "Rw':[U r U',R']"
         ]
@@ -22090,7 +21631,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -22107,20 +21647,6 @@
     ],
     "AYQ": [
         [
-            "Rw' U r U' R2 U r' U' R' r",
-            [
-                "Andrew Tan Jing Bang",
-                "Christopher Morris",
-                "Daniel Wallin",
-                "Ethan Pan",
-                "Graham Siggins",
-                "James Molloy",
-                "Ryan Eckersley",
-                "Yuki Tsuneyoshi (恒吉優紀)"
-            ],
-            "Rw':[U r U',R2]"
-        ],
-        [
             "x' U r U' R2 U r' U' R2 x",
             [
                 "Adrian Dębski",
@@ -22133,6 +21659,19 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "x':[U r U',R2]"
+        ],
+        [
+            "Rw' U r U' R2 U r' U' R' r",
+            [
+                "Andrew Tan Jing Bang",
+                "Christopher Morris",
+                "Daniel Wallin",
+                "Ethan Pan",
+                "Graham Siggins",
+                "Ryan Eckersley",
+                "Yuki Tsuneyoshi (恒吉優紀)"
+            ],
+            "Rw':[U r U',R2]"
         ],
         [
             "Uw R' U2 R' u' R U2 R' u R2 Uw'",
@@ -22199,8 +21738,7 @@
             [
                 "Christopher Morris",
                 "Dong Zhu (朱栋)",
-                "Graham Siggins",
-                "James Molloy"
+                "Graham Siggins"
             ],
             "z':[U' L' U,r]"
         ],
@@ -22222,19 +21760,6 @@
     ],
     "AYS": [
         [
-            "Rw' U r U L' U' r' U L U2 Rw",
-            [
-                "Andrew Tan Jing Bang",
-                "Chenhao Sun (孙晨皓)",
-                "Christopher Morris",
-                "Daniel Wallin",
-                "James Molloy",
-                "Michael Tripodi",
-                "Xi Lu (鲁曦)"
-            ],
-            "Rw' U:[r,U L' U']"
-        ],
-        [
             "R' U' R d2 R' U R d2",
             [
                 "Daniel Lin",
@@ -22246,6 +21771,18 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "[R' U' R,d2]"
+        ],
+        [
+            "Rw' U r U L' U' r' U L U2 Rw",
+            [
+                "Andrew Tan Jing Bang",
+                "Chenhao Sun (孙晨皓)",
+                "Christopher Morris",
+                "Daniel Wallin",
+                "Michael Tripodi",
+                "Xi Lu (鲁曦)"
+            ],
+            "Rw' U:[r,U L' U']"
         ],
         [
             "d2 L' U L d2 L' U' L",
@@ -22292,7 +21829,6 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -22305,13 +21841,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "R':[U',R' u' R]"
-        ],
-        [
-            "Rw' Uw r U L U' r' U L' U' Uw' Rw",
-            [
-                "James Molloy"
-            ],
-            "Rw' Uw:[r,U L U']"
         ]
     ],
     "AYW": [
@@ -22341,7 +21870,6 @@
                 "Christopher Morris",
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
-                "James Molloy",
                 "Michael Tripodi"
             ],
             "Rw' U:[r,U L U']"
@@ -22400,7 +21928,6 @@
                 "Christopher Morris",
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
-                "James Molloy",
                 "Kevin Matthews"
             ],
             "z':[U' L' U,r']"
@@ -22429,7 +21956,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Xi Lu (鲁曦)"
             ],
@@ -22480,7 +22006,6 @@
                 "Christopher Morris",
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
-                "James Molloy",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
@@ -22565,7 +22090,6 @@
             "z U' r' U R U' r U R' z'",
             [
                 "Christopher Morris",
-                "James Molloy",
                 "Kevin Matthews"
             ],
             "z:[U' r' U,R]"
@@ -22582,7 +22106,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hill Pong Yong Feng",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
@@ -22642,7 +22165,6 @@
             [
                 "Christopher Morris",
                 "Dong Zhu (朱栋)",
-                "James Molloy",
                 "Kevin Matthews",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
@@ -22665,7 +22187,6 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -22719,21 +22240,20 @@
             "U2 u:[l2,U R U']"
         ],
         [
-            "Rw U2 l' U' R2 U l U' R2 U' Rw'",
-            [
-                "Christopher Morris",
-                "James Molloy",
-                "Leonardo Ezequiel Cruz"
-            ],
-            "Rw U:[U l' U',R2]"
-        ],
-        [
             "R D' U L2 U' r U L2 U' r' D R'",
             [
                 "Xin Shi (石欣)",
                 "Ziyi Xu (徐梓翼)"
             ],
             "R D':[U L2 U',r]"
+        ],
+        [
+            "Rw U2 l' U' R2 U l U' R2 U' Rw'",
+            [
+                "Christopher Morris",
+                "Leonardo Ezequiel Cruz"
+            ],
+            "Rw U:[U l' U',R2]"
         ],
         [
             "D R D' U' R U r U' R' U r' D R' D'",
@@ -22758,7 +22278,6 @@
                 "Chenhao Sun (孙晨皓)",
                 "Christopher Morris",
                 "Graham Siggins",
-                "James Molloy",
                 "Kevin Matthews",
                 "Mark Rivers",
                 "Michael Tripodi",
@@ -22821,7 +22340,6 @@
                 "Antonio Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Christopher Morris",
-                "James Molloy",
                 "Ryan Eckersley"
             ],
             "D' r':[U R' U',r2]"
@@ -22885,7 +22403,6 @@
             "D r2 U R' U' r' U R U' r' D'",
             [
                 "Christopher Morris",
-                "James Molloy",
                 "Xi Lu (鲁曦)"
             ],
             "D r:[r,U R' U']"
@@ -22957,7 +22474,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Oliver Fritz",
@@ -23001,14 +22517,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "Lw U':[L' u' L,U2]"
-        ],
-        [
-            "D2 r2 U R' U' r' U R U' r' D2",
-            [
-                "Christopher Morris",
-                "James Molloy"
-            ],
-            "D2 r:[r,U R' U']"
         ],
         [
             "D' U R' U' r U R' U' r' U R2 U' D",
@@ -23060,6 +22568,13 @@
             "x U:[U l' U',R2]"
         ],
         [
+            "D2 r2 U R' U' r' U R U' r' D2",
+            [
+                "Christopher Morris"
+            ],
+            "D2 r:[r,U R' U']"
+        ],
+        [
             "D' z' U R' u' R U' R' u R z D",
             [
                 "Dong Zhu (朱栋)"
@@ -23094,7 +22609,6 @@
                 "Antonio Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Christopher Morris",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Ryan Eckersley"
             ],
@@ -23155,19 +22669,18 @@
             "x':[U' r2 U,R']"
         ],
         [
-            "D' r2 U R' U' r' U R U' r' D",
-            [
-                "Christopher Morris",
-                "James Molloy"
-            ],
-            "D' r:[r,U R' U']"
-        ],
-        [
             "4Dw' r U' R U r' U' R' U2 y'",
             [
                 "Kevin Matthews"
             ],
             "4Dw':[r,U' R U]"
+        ],
+        [
+            "D' r2 U R' U' r' U R U' r' D",
+            [
+                "Christopher Morris"
+            ],
+            "D' r:[r,U R' U']"
         ]
     ],
     "AZQ": [
@@ -23184,7 +22697,6 @@
                 "Ethan Pan",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -23200,19 +22712,18 @@
             "[u,R U' R']"
         ],
         [
-            "z' l U L' U' l' U L U' z",
-            [
-                "Christopher Morris",
-                "James Molloy"
-            ],
-            "z':[l,U L' U']"
-        ],
-        [
             "R2 d R' U' R d' R' U R'",
             [
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "R:[R d R',U']"
+        ],
+        [
+            "z' l U L' U' l' U L U' z",
+            [
+                "Christopher Morris"
+            ],
+            "z':[l,U L' U']"
         ]
     ],
     "AZR": [
@@ -23262,7 +22773,6 @@
             "Rw' U' r2 U R2 U' r2 U R2 Rw",
             [
                 "Christopher Morris",
-                "James Molloy",
                 "Ziyi Xu (徐梓翼)"
             ],
             "Rw':[U' r2 U,R2]"
@@ -23303,7 +22813,6 @@
             "z U2 r' U R U' r U R' U z'",
             [
                 "Christopher Morris",
-                "James Molloy",
                 "Kevin Matthews"
             ],
             "z U':[U' r' U,R]"
@@ -23341,21 +22850,20 @@
             "u:[R U' R',u2]"
         ],
         [
-            "Rw' U' r2 U' L' U r2 U' L U2 Rw",
-            [
-                "Christopher Morris",
-                "James Molloy",
-                "Xin Shi (石欣)"
-            ],
-            "Rw' U':[r2,U' L' U]"
-        ],
-        [
             "z r' U R U' r2 U R' U' r' z'",
             [
                 "Dong Zhu (朱栋)",
                 "Graham Siggins"
             ],
             "z r':[U R U',r2]"
+        ],
+        [
+            "Rw' U' r2 U' L' U r2 U' L U2 Rw",
+            [
+                "Christopher Morris",
+                "Xin Shi (石欣)"
+            ],
+            "Rw' U':[r2,U' L' U]"
         ],
         [
             "x' U' r2 U' L2 U r2 U' L2 U2 x",
@@ -23404,7 +22912,6 @@
             [
                 "Christopher Morris",
                 "Graham Siggins",
-                "James Molloy",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Timo Norrkniivilä"
@@ -23423,7 +22930,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Michael Tripodi",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Xin Shi (石欣)",
@@ -23476,7 +22982,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Xi Lu (鲁曦)"
             ],
@@ -27993,7 +27498,6 @@
                 "Chenhao Sun (孙晨皓)",
                 "Christopher Morris",
                 "Dong Zhu (朱栋)",
-                "James Molloy",
                 "Xi Lu (鲁曦)"
             ],
             "Rw2:[D,r' U2 r]"
@@ -28052,7 +27556,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -28099,7 +27602,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Graham Siggins",
-                "James Molloy",
                 "Leonardo Ezequiel Cruz",
                 "Oliver Fritz",
                 "Xi Lu (鲁曦)"
@@ -28172,7 +27674,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -28242,13 +27743,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "R':[U' R U,r']"
-        ],
-        [
-            "R U' R' U r' U' R U r R'",
-            [
-                "James Molloy"
-            ],
-            "R:[U' R' U,r']"
         ]
     ],
     "GAH": [
@@ -28279,7 +27773,6 @@
                 "Daniel Lin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Leonardo Ezequiel Cruz",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Xin Shi (石欣)"
@@ -28323,7 +27816,6 @@
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
                 "Hana Davila",
-                "James Molloy",
                 "Kevin Matthews",
                 "Michael Tripodi",
                 "Oliver Fritz",
@@ -28390,7 +27882,6 @@
                 "Ethan Pan",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -28431,7 +27922,6 @@
                 "Daniel Wallin",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
-                "James Molloy",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -28484,7 +27974,6 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -28532,7 +28021,6 @@
                 "Ethan Pan",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -28568,7 +28056,6 @@
                 "Dong Zhu (朱栋)",
                 "Gavriel Johann Arcilla",
                 "Hana Davila",
-                "James Molloy",
                 "Kevin Matthews",
                 "Oliver Fritz",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
@@ -28622,7 +28109,6 @@
             [
                 "Adrian Dębski",
                 "Christopher Morris",
-                "James Molloy",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Oliver Fritz",
@@ -28706,7 +28192,6 @@
                 "Adrian Dębski",
                 "Christopher Morris",
                 "Dong Zhu (朱栋)",
-                "James Molloy",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Oliver Fritz",
@@ -28742,7 +28227,6 @@
                 "Christopher Morris",
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
-                "James Molloy",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Xi Lu (鲁曦)",
@@ -28777,7 +28261,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
                 "Xi Lu (鲁曦)",
@@ -28813,7 +28296,6 @@
             "U Rw' D' r U' r' D r U R U'",
             [
                 "Christopher Morris",
-                "James Molloy",
                 "Kevin Matthews"
             ],
             "U R':[r' D' r,U']"
@@ -28847,7 +28329,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz"
             ],
@@ -28893,7 +28374,6 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -28909,13 +28389,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "[R' u' R,U']"
-        ],
-        [
-            "z' U' l' U L' U' l U L z",
-            [
-                "James Molloy"
-            ],
-            "z':[U' l' U,L']"
         ]
     ],
     "GAW": [
@@ -28956,8 +28429,7 @@
             "z' U' l2 U L' U' l2 U L z",
             [
                 "Christopher Morris",
-                "Graham Siggins",
-                "James Molloy"
+                "Graham Siggins"
             ],
             "z':[U' l2 U,L']"
         ],
@@ -29000,7 +28472,6 @@
             [
                 "Christopher Morris",
                 "Graham Siggins",
-                "James Molloy",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz"
             ],
@@ -29028,7 +28499,6 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -29105,7 +28575,6 @@
                 "Christopher Morris",
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
-                "James Molloy",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Xi Lu (鲁曦)",
@@ -29144,7 +28613,6 @@
                 "Chenhao Sun (孙晨皓)",
                 "Christopher Morris",
                 "Dong Zhu (朱栋)",
-                "James Molloy",
                 "Xi Lu (鲁曦)"
             ],
             "Rw2:[r' U2 r,D]"
@@ -29238,7 +28706,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -29296,7 +28763,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Oliver Fritz",
@@ -29398,7 +28864,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -29486,7 +28951,6 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -29573,7 +29037,6 @@
                 "Daniel Lin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Leonardo Ezequiel Cruz",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Xin Shi (石欣)"
@@ -29657,7 +29120,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -29743,7 +29205,6 @@
                 "Ethan Pan",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -30156,7 +29617,6 @@
                 "Daniel Wallin",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
-                "James Molloy",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -30220,7 +29680,6 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -30280,7 +29739,6 @@
                 "Ethan Pan",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -30340,7 +29798,6 @@
                 "Dong Zhu (朱栋)",
                 "Gavriel Johann Arcilla",
                 "Hana Davila",
-                "James Molloy",
                 "Kevin Matthews",
                 "Oliver Fritz",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
@@ -30429,7 +29886,6 @@
             [
                 "Adrian Dębski",
                 "Christopher Morris",
-                "James Molloy",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Oliver Fritz",
@@ -30533,7 +29989,6 @@
             [
                 "Adrian Dębski",
                 "Dong Zhu (朱栋)",
-                "James Molloy",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Oliver Fritz",
@@ -30617,7 +30072,6 @@
             [
                 "Andrew Tan Jing Bang",
                 "Hana Davila",
-                "James Molloy",
                 "Oliver Fritz",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
@@ -30687,7 +30141,6 @@
             "U R' U' r' D' r U r' D Rw U'",
             [
                 "Christopher Morris",
-                "James Molloy",
                 "Kevin Matthews"
             ],
             "U R':[U',r' D' r]"
@@ -30737,7 +30190,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz"
             ],
@@ -30801,7 +30253,6 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -30817,13 +30268,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "[U',R' u' R]"
-        ],
-        [
-            "z' L' U' l' U L U' l U z",
-            [
-                "James Molloy"
-            ],
-            "z':[L',U' l' U]"
         ]
     ],
     "GTJ": [
@@ -30887,8 +30331,7 @@
         [
             "z' L' U' l2 U L U' l2 U z",
             [
-                "Graham Siggins",
-                "James Molloy"
+                "Graham Siggins"
             ],
             "z':[L',U' l2 U]"
         ],
@@ -30949,7 +30392,6 @@
             [
                 "Christopher Morris",
                 "Graham Siggins",
-                "James Molloy",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz"
             ],
@@ -30994,7 +30436,6 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -31083,7 +30524,6 @@
                 "Christopher Morris",
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
-                "James Molloy",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Xi Lu (鲁曦)",
@@ -31122,7 +30562,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -31180,7 +30619,6 @@
                 "Christopher Morris",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -31212,7 +30650,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -31268,19 +30705,10 @@
                 "Adrian Dębski",
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
-                "James Molloy",
                 "Leonardo Ezequiel Cruz",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "x' U':[U' r2 U,R]"
-        ],
-        [
-            "Rw' U2 r2 U R U' r' U R' U' r' U2 Rw",
-            [
-                "Christopher Morris",
-                "James Molloy"
-            ],
-            "Rw' U2 r:[r,U R U']"
         ],
         [
             "R2 r' D' r U2 r' D r U2 R2",
@@ -31288,6 +30716,13 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "R2:[r' D' r,U2]"
+        ],
+        [
+            "Rw' U2 r2 U R U' r' U R' U' r' U2 Rw",
+            [
+                "Christopher Morris"
+            ],
+            "Rw' U2 r:[r,U R U']"
         ]
     ],
     "HAF": [
@@ -31304,7 +30739,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -31369,7 +30803,6 @@
             "r U' r D2 r' U r D2 r2",
             [
                 "Christopher Morris",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Xi Lu (鲁曦)"
@@ -31397,7 +30830,6 @@
                 "Daniel Wallin",
                 "Ethan Pan",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -31456,7 +30888,6 @@
             "r U' r D' r' U r D r2",
             [
                 "Christopher Morris",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Xi Lu (鲁曦)",
@@ -31532,14 +30963,6 @@
             "D R' F':[u',R U' R']"
         ],
         [
-            "U' D Rw R2 U' R U r2 U' R' U Rw U D'",
-            [
-                "Christopher Morris",
-                "James Molloy"
-            ],
-            "U' D Rw':[r2,U' R U]"
-        ],
-        [
             "U l2 D' l U l' D l U' l U'",
             [
                 "Adrian Dębski"
@@ -31552,6 +30975,13 @@
                 "Kevin Matthews"
             ],
             "x:[u2,R' U R]"
+        ],
+        [
+            "U' D Rw R2 U' R U r2 U' R' U Rw U D'",
+            [
+                "Christopher Morris"
+            ],
+            "U' D R' r:[U' R U,r2]"
         ]
     ],
     "HAM": [
@@ -31567,7 +30997,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -31630,14 +31059,6 @@
             "U Lw:[U' L' U,l2]"
         ],
         [
-            "D2 Rw U R' U' r U R U' r' Rw' D2",
-            [
-                "Christopher Morris",
-                "James Molloy"
-            ],
-            "D2 Rw:[U R' U',r]"
-        ],
-        [
             "D2 R' F' u' R U' R' u R U R' F R D2",
             [
                 "Chenhao Sun (孙晨皓)"
@@ -31664,6 +31085,13 @@
                 "Andrew Tan Jing Bang"
             ],
             "4Rw U:[R',U l' U']"
+        ],
+        [
+            "D2 Rw U R' U' r U R U' r' Rw' D2",
+            [
+                "Christopher Morris"
+            ],
+            "D2 Rw:[U R' U',r]"
         ],
         [
             "R2 y D' r U' r' D r U r' y' R2",
@@ -31695,16 +31123,6 @@
             "[f',R' F R]"
         ],
         [
-            "r U' r D r' U r D' r2",
-            [
-                "Christopher Morris",
-                "Dong Zhu (朱栋)",
-                "James Molloy",
-                "Xi Lu (鲁曦)"
-            ],
-            "r:[U',r D r']"
-        ],
-        [
             "z' U2 L' U r U' L U r' U z",
             [
                 "Dong Zhu (朱栋)",
@@ -31712,6 +31130,15 @@
                 "Kevin Matthews"
             ],
             "z' U':[U' L' U,r]"
+        ],
+        [
+            "r U' r D r' U r D' r2",
+            [
+                "Christopher Morris",
+                "Dong Zhu (朱栋)",
+                "Xi Lu (鲁曦)"
+            ],
+            "r:[U',r D r']"
         ],
         [
             "R2 U' R' u R U R' u' R'",
@@ -31763,14 +31190,6 @@
             "U':[R B' R',b]"
         ],
         [
-            "Rw2 U' r' U R2 U' r U r2",
-            [
-                "Christopher Morris",
-                "James Molloy"
-            ],
-            "Rw2:[U' r' U,R2]"
-        ],
-        [
             "x' R' U' r2 U R2 U' r2 U 4Lw'",
             [
                 "Adrian Dębski"
@@ -31790,6 +31209,13 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "U' Rw':[R U' R',u]"
+        ],
+        [
+            "Rw2 U' r' U R2 U' r U r2",
+            [
+                "Christopher Morris"
+            ],
+            "Rw2:[U' r' U,R2]"
         ]
     ],
     "HAQ": [
@@ -31802,7 +31228,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -31865,7 +31290,6 @@
                 "Chenhao Sun (孙晨皓)",
                 "Christopher Morris",
                 "Hana Davila",
-                "James Molloy",
                 "Ziyi Xu (徐梓翼)"
             ],
             "r':[R,U' r2 U]"
@@ -31948,8 +31372,7 @@
         [
             "Lw' U' R' U' R U r' U' R' U Rw U Lw",
             [
-                "Daniel Wallin",
-                "James Molloy"
+                "Daniel Wallin"
             ],
             "Lw' U' R':[U' R U,r']"
         ],
@@ -32010,7 +31433,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)"
@@ -32074,14 +31496,6 @@
             "r:[R u R',U]"
         ],
         [
-            "4Lw D U' r U R2 U' r' U R2 D' 4Lw'",
-            [
-                "Christopher Morris",
-                "James Molloy"
-            ],
-            "4Lw D:[U' r U,R2]"
-        ],
-        [
             "z D U R U' r' U R' U' r D' z'",
             [
                 "Graham Siggins"
@@ -32108,6 +31522,13 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "R:[L U L',u']"
+        ],
+        [
+            "4Lw D U' r U R2 U' r' U R2 D' 4Lw'",
+            [
+                "Christopher Morris"
+            ],
+            "4Lw D:[U' r U,R2]"
         ]
     ],
     "HAX": [
@@ -32120,7 +31541,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Michael Tripodi",
                 "Oliver Fritz",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
@@ -32171,7 +31591,6 @@
                 "Hana Davila",
                 "Hill Pong Yong Feng",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -32235,7 +31654,6 @@
                 "Daniel Lin",
                 "Ethan Pan",
                 "Hana Davila",
-                "James Molloy",
                 "Xin Shi (石欣)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -32300,7 +31718,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -32454,7 +31871,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -32517,7 +31933,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -32588,20 +32003,19 @@
             "x' U':[R,U' r2 U]"
         ],
         [
-            "Rw' U2 r U R U' r U R' U' r2 U2 Rw",
-            [
-                "Christopher Morris",
-                "James Molloy"
-            ],
-            "Rw' U2 r:[U R U',r]"
-        ],
-        [
             "R2 U2 r' D' r U2 r' D r R2",
             [
                 "Dong Zhu (朱栋)",
                 "Ziyi Xu (徐梓翼)"
             ],
             "R2:[U2,r' D' r]"
+        ],
+        [
+            "Rw' U2 r U R U' r U R' U' r2 U2 Rw",
+            [
+                "Christopher Morris"
+            ],
+            "Rw' U2 r:[U R U',r]"
         ]
     ],
     "HEJ": [
@@ -32655,7 +32069,6 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -32737,7 +32150,6 @@
         [
             "r2 D2 r' U' r D2 r' U r'",
             [
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Xi Lu (鲁曦)"
@@ -32803,7 +32215,6 @@
                 "Daniel Lin",
                 "Daniel Wallin",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -33253,17 +32664,6 @@
             "4Lw':[U,R' d R]"
         ],
         [
-            "r2 D' r' U' r D r' U r'",
-            [
-                "James Molloy",
-                "Kai Yamamoto (山本快)",
-                "Kevin Matthews",
-                "Xi Lu (鲁曦)",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "r:[r D' r',U']"
-        ],
-        [
             "Rw D' r' U R' U' r U R U' D Rw'",
             [
                 "Daniel Wallin",
@@ -33272,6 +32672,16 @@
                 "Hana Davila"
             ],
             "Rw D':[r',U R' U']"
+        ],
+        [
+            "r2 D' r' U' r D r' U r'",
+            [
+                "Kai Yamamoto (山本快)",
+                "Kevin Matthews",
+                "Xi Lu (鲁曦)",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "r:[r D' r',U']"
         ],
         [
             "D' R r' U R' U' r2 U R U' Rw' D",
@@ -33385,13 +32795,6 @@
                 "Kevin Matthews"
             ],
             "4Lw':[U,R u2 R']"
-        ],
-        [
-            "U' D Rw' U' R U r2 U' R' U r2 Rw D' U",
-            [
-                "James Molloy"
-            ],
-            "U' D Rw':[U' R U,r2]"
         ]
     ],
     "HLJ": [
@@ -33418,7 +32821,6 @@
                 "Daniel Wallin",
                 "Ethan Pan",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Xin Shi (石欣)",
@@ -33501,14 +32903,6 @@
             "x U:[U l' U',R']"
         ],
         [
-            "D2 Rw r U R' U' r' U R U' Rw' D2",
-            [
-                "Christopher Morris",
-                "James Molloy"
-            ],
-            "D2 Rw:[r,U R' U']"
-        ],
-        [
             "U Lw l2 U' L' U l2 U' L U Lw' U'",
             [
                 "Oliver Fritz"
@@ -33542,6 +32936,13 @@
                 "Andrew Tan Jing Bang"
             ],
             "4Rw U:[U l' U',R']"
+        ],
+        [
+            "D2 Rw r U R' U' r' U R U' Rw' D2",
+            [
+                "Christopher Morris"
+            ],
+            "D2 Rw:[r,U R' U']"
         ],
         [
             "R2 y r U' r' D' r U r' D y' R2",
@@ -33627,7 +33028,6 @@
             "r2 D r' U' r D' r' U r'",
             [
                 "Dong Zhu (朱栋)",
-                "James Molloy",
                 "Xi Lu (鲁曦)"
             ],
             "r:[r D r',U']"
@@ -33734,13 +33134,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "U' Rw':[u,R U' R']"
-        ],
-        [
-            "r2 U' r' U R2 U' r U Rw2",
-            [
-                "James Molloy"
-            ],
-            "Rw2:[R2,U' r' U]"
         ]
     ],
     "HPJ": [
@@ -33765,7 +33158,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -33852,7 +33244,6 @@
                 "Chenhao Sun (孙晨皓)",
                 "Christopher Morris",
                 "Hana Davila",
-                "James Molloy",
                 "Ziyi Xu (徐梓翼)"
             ],
             "r':[U' r2 U,R]"
@@ -33967,8 +33358,7 @@
         [
             "Lw' U' Rw' U' R U r U' R' U R U Lw",
             [
-                "Daniel Wallin",
-                "James Molloy"
+                "Daniel Wallin"
             ],
             "Lw' U' R':[r',U' R U]"
         ],
@@ -34064,7 +33454,6 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)"
@@ -34176,20 +33565,6 @@
             "R:[u',L U L']"
         ],
         [
-            "Lw U' Rw' U' R U r U' R' U R U Lw'",
-            [
-                "James Molloy"
-            ],
-            "Lw U' R':[r',U' R U]"
-        ],
-        [
-            "4Lw D R2 U' r U R2 U' r' U D' 4Lw'",
-            [
-                "James Molloy"
-            ],
-            "4Lw D:[R2,U' r U]"
-        ],
-        [
             "L U' Rw' U' R U r U' R' U R U L'",
             [
                 "Christopher Morris"
@@ -34246,7 +33621,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Michael Tripodi",
                 "Oliver Fritz",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
@@ -34327,7 +33701,6 @@
                 "Hana Davila",
                 "Hill Pong Yong Feng",
                 "Israel Fraga da Silva",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -34408,19 +33781,6 @@
     ],
     "HZA": [
         [
-            "r' U' r2 U R' U' r2 U Rw",
-            [
-                "Chenhao Sun (孙晨皓)",
-                "Christopher Morris",
-                "Daniel Lin",
-                "Ethan Pan",
-                "Hana Davila",
-                "James Molloy",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "Rw':[R,U' r2 U]"
-        ],
-        [
             "S' U L' u' L U' L' u L S",
             [
                 "Andrew Tan Jing Bang",
@@ -34431,6 +33791,18 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "S':[U,L' u' L]"
+        ],
+        [
+            "r' U' r2 U R' U' r2 U Rw",
+            [
+                "Chenhao Sun (孙晨皓)",
+                "Christopher Morris",
+                "Daniel Lin",
+                "Ethan Pan",
+                "Hana Davila",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "Rw':[R,U' r2 U]"
         ],
         [
             "4Lw U' r2 U R' U' r2 U x",

@@ -17,7 +17,6 @@
             "U m2 U' m' U2 m U' m2 U'",
             [
                 "Hana Davila",
-                "James Molloy",
                 "Kevin Matthews",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -31,7 +30,6 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -56,7 +54,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -72,7 +69,6 @@
             "3Lw' U L U' m U L' U' Lw",
             [
                 "Andrew Tan Jing Bang",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -130,13 +126,6 @@
                 "Graham Siggins"
             ],
             "4Rw':[U' m' U,L2]"
-        ],
-        [
-            "U' 4Lw2 U' m U2 m' U' 4Lw2 U",
-            [
-                "James Molloy"
-            ],
-            "U' 4Lw2 U':[m,U2]"
         ]
     ],
     "ACL": [
@@ -155,25 +144,9 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "[m D m',U']"
-        ],
-        [
-            "U L e L' U' L e' L'",
-            [
-                "James Molloy"
-            ],
-            "[U,L e L']"
         ]
     ],
     "ACM": [
-        [
-            "Lw m2 U L' U' m2 U L U' Lw'",
-            [
-                "James Molloy",
-                "Kevin Matthews",
-                "Ryan Eckersley"
-            ],
-            "Lw:[m2,U L' U']"
-        ],
         [
             "Lw' m2 U L U' m2 U L' U' Lw",
             [
@@ -191,6 +164,14 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "L:[m2,U L' U']"
+        ],
+        [
+            "Lw m2 U L' U' m2 U L U' Lw'",
+            [
+                "Kevin Matthews",
+                "Ryan Eckersley"
+            ],
+            "Lw' 3Lw2:[U L' U',m2]"
         ],
         [
             "m2 L' U L U' m2 U L' U' L",
@@ -219,7 +200,6 @@
             "U Lw U' L' U m U' L U 3Lw' U'",
             [
                 "Daniel Wallin",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley"
@@ -246,16 +226,6 @@
     ],
     "ACO": [
         [
-            "4Rw2 U' m U2 m' U' 4Rw2",
-            [
-                "Daniel Wallin",
-                "James Molloy",
-                "Kevin Matthews",
-                "Michael Tripodi"
-            ],
-            "4Rw2 U':[m,U2]"
-        ],
-        [
             "D' m D2 m' U' m D2 m' U D",
             [
                 "Hana Davila",
@@ -264,6 +234,15 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "D':[m D2 m',U']"
+        ],
+        [
+            "4Rw2 U' m U2 m' U' 4Rw2",
+            [
+                "Daniel Wallin",
+                "Kevin Matthews",
+                "Michael Tripodi"
+            ],
+            "4Rw2 U':[m,U2]"
         ],
         [
             "L2 D' m D2 m' D' L2",
@@ -296,13 +275,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "[m D' m',U']"
-        ],
-        [
-            "U' R' e' R U' R' e R U2",
-            [
-                "James Molloy"
-            ],
-            "U':[R' e' R,U']"
         ]
     ],
     "ACQ": [
@@ -312,7 +284,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kevin Matthews",
                 "Michael Tripodi"
             ],
@@ -352,7 +323,6 @@
         [
             "U L e' L' U' L e L'",
             [
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -386,13 +356,6 @@
                 "Ryan Eckersley"
             ],
             "l m:[U' m' U,L']"
-        ],
-        [
-            "z' L' U m2 U' L' U m2 U' L2 z",
-            [
-                "James Molloy"
-            ],
-            "z' L':[U m2 U',L']"
         ]
     ],
     "ACT": [
@@ -418,7 +381,6 @@
         [
             "U' R' e R U' R' e' R U2",
             [
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -459,13 +421,6 @@
                 "Ryan Eckersley"
             ],
             "l m:[U' m' U,L]"
-        ],
-        [
-            "z' L' U' m2 U L' U' m2 U L2 z",
-            [
-                "James Molloy"
-            ],
-            "z' L':[U' m2 U,L']"
         ]
     ],
     "ACX": [
@@ -489,14 +444,6 @@
             "L' D:[m',U L U']"
         ],
         [
-            "z' L' U m U' L' U m' U' L2 z",
-            [
-                "Hana Davila",
-                "James Molloy"
-            ],
-            "z' L':[U m U',L']"
-        ],
-        [
             "U' Lw' U m D m' U' m D' m' Lw U",
             [
                 "Ryan Eckersley"
@@ -509,6 +456,13 @@
                 "Kai Yamamoto (山本快)"
             ],
             "U':[R e' R',U']"
+        ],
+        [
+            "z' L' U m U' L' U m' U' L2 z",
+            [
+                "Hana Davila"
+            ],
+            "z' L':[U m U',L']"
         ]
     ],
     "ACY": [
@@ -516,7 +470,6 @@
             "z R U m2 U' R' U m2 U' z'",
             [
                 "Graham Siggins",
-                "James Molloy",
                 "Kevin Matthews",
                 "Michael Tripodi"
             ],
@@ -560,21 +513,20 @@
             "z:[R,U' m U]"
         ],
         [
-            "U L' e L U' L' e' L",
-            [
-                "James Molloy",
-                "Kai Yamamoto (山本快)",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "[U,L' e L]"
-        ],
-        [
             "Rw m D' m' U' m D m' U Rw'",
             [
                 "Andrew Tan Jing Bang",
                 "Ryan Eckersley"
             ],
             "Rw:[m D' m',U']"
+        ],
+        [
+            "U L' e L U' L' e' L",
+            [
+                "Kai Yamamoto (山本快)",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "[U,L' e L]"
         ]
     ],
     "ADE": [
@@ -596,7 +548,6 @@
         [
             "U m' U m U2 m' U m U'",
             [
-                "James Molloy",
                 "Leonardo Ezequiel Cruz"
             ],
             "U m' U:[m,U2]"
@@ -609,7 +560,6 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -688,7 +638,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -889,19 +838,18 @@
             "4Rw' U:[m2,U R' U']"
         ],
         [
-            "D' 3Lw' m' U' L U m U' L' U 3Lw D",
-            [
-                "James Molloy",
-                "Kai Yamamoto (山本快)"
-            ],
-            "D' 3Lw':[m',U' L U]"
-        ],
-        [
             "R' 4Rw' U m' U2 m U 4Rw R",
             [
                 "Graham Siggins"
             ],
             "R' 4Rw' U:[m',U2]"
+        ],
+        [
+            "D' 3Lw' m' U' L U m U' L' U 3Lw D",
+            [
+                "Kai Yamamoto (山本快)"
+            ],
+            "D' 3Lw':[m',U' L U]"
         ]
     ],
     "ADQ": [
@@ -1114,7 +1062,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -1142,7 +1089,6 @@
             "U m2 U m' U2 m U m2 U'",
             [
                 "Hana Davila",
-                "James Molloy",
                 "Kevin Matthews",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -1168,7 +1114,6 @@
         [
             "U m' U' m U2 m' U' m U'",
             [
-                "James Molloy",
                 "Leonardo Ezequiel Cruz"
             ],
             "U m' U':[m,U2]"
@@ -1182,7 +1127,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -1211,7 +1155,6 @@
             [
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kevin Matthews"
             ],
             "U' m U:[m,U2]"
@@ -1239,7 +1182,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -1267,13 +1209,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "[m D m',U2]"
-        ],
-        [
-            "U L e L' U2 L e' L' U",
-            [
-                "James Molloy"
-            ],
-            "U:[L e L',U2]"
         ]
     ],
     "AEM": [
@@ -1283,7 +1218,6 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -1303,7 +1237,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kevin Matthews",
                 "Ryan Eckersley"
             ],
@@ -1334,7 +1267,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -1362,13 +1294,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "[m D' m',U2]"
-        ],
-        [
-            "U' R' e' R U2 R' e R U'",
-            [
-                "James Molloy"
-            ],
-            "U':[R' e' R,U2]"
         ]
     ],
     "AEQ": [
@@ -1393,13 +1318,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "R' D':[U2,m']"
-        ],
-        [
-            "y U2 R' e R U2 R' e' R y'",
-            [
-                "James Molloy"
-            ],
-            "y:[U2,R' e R]"
         ]
     ],
     "AER": [
@@ -1423,13 +1341,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "R':[m D' m',U2]"
-        ],
-        [
-            "U L e' L' U2 L e L' U",
-            [
-                "James Molloy"
-            ],
-            "U:[L e' L',U2]"
         ]
     ],
     "AES": [
@@ -1454,13 +1365,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "L D:[U2,m']"
-        ],
-        [
-            "y U2 R e' R' U2 R e R' y'",
-            [
-                "James Molloy"
-            ],
-            "y:[U2,R e' R']"
         ]
     ],
     "AET": [
@@ -1484,13 +1388,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "L:[m D m',U2]"
-        ],
-        [
-            "U' R' e R U2 R' e' R U'",
-            [
-                "James Molloy"
-            ],
-            "U':[R' e R,U2]"
         ]
     ],
     "AEW": [
@@ -1515,13 +1412,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "L' D:[U2,m']"
-        ],
-        [
-            "y' R' e R U2 R' e' R U2 y",
-            [
-                "James Molloy"
-            ],
-            "y':[R' e R,U2]"
         ]
     ],
     "AEX": [
@@ -1551,13 +1441,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "L':[m D m',U2]"
-        ],
-        [
-            "U' R e' R' U2 R e R' U'",
-            [
-                "James Molloy"
-            ],
-            "U':[R e' R',U2]"
         ]
     ],
     "AEY": [
@@ -1582,13 +1465,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "R D':[U2,m']"
-        ],
-        [
-            "y' R e' R' U2 R e R' U2 y",
-            [
-                "James Molloy"
-            ],
-            "y':[R e' R',U2]"
         ]
     ],
     "AEZ": [
@@ -1612,13 +1488,6 @@
             "R:[m D' m',U2]"
         ],
         [
-            "U L' e L U2 L' e' L U",
-            [
-                "James Molloy"
-            ],
-            "U:[L' e L,U2]"
-        ],
-        [
             "Rw m D' m' U2 m D m' U2 Rw'",
             [
                 "Hana Davila"
@@ -1633,7 +1502,6 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -1657,7 +1525,6 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -1698,7 +1565,6 @@
             [
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Michael Tripodi",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -1721,7 +1587,6 @@
             "D m' U R2 U' m U R2 U' D'",
             [
                 "Hana Davila",
-                "James Molloy",
                 "Michael Tripodi",
                 "Ryan Eckersley",
                 "Ziyi Xu (徐梓翼)"
@@ -1736,7 +1601,6 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley"
@@ -1761,7 +1625,6 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley"
@@ -1781,18 +1644,6 @@
     ],
     "AFM": [
         [
-            "D' U' R2 U m U' R2 U m' D",
-            [
-                "Graham Siggins",
-                "Hana Davila",
-                "James Molloy",
-                "Leonardo Ezequiel Cruz",
-                "Michael Tripodi",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "D':[U' R2 U,m]"
-        ],
-        [
             "D' Rw' U' R' U m U' R U 3Rw D",
             [
                 "Andrew Tan Jing Bang",
@@ -1802,6 +1653,17 @@
                 "Ryan Eckersley"
             ],
             "D' Rw':[U' R' U,m]"
+        ],
+        [
+            "D' U' R2 U m U' R2 U m' D",
+            [
+                "Graham Siggins",
+                "Hana Davila",
+                "Leonardo Ezequiel Cruz",
+                "Michael Tripodi",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "D':[U' R2 U,m]"
         ]
     ],
     "AFN": [
@@ -1821,7 +1683,6 @@
             "D' m' U R2 U' m U R2 U' D",
             [
                 "Hana Davila",
-                "James Molloy",
                 "Michael Tripodi",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -1842,7 +1703,6 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -1866,7 +1726,6 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -1892,7 +1751,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -1911,7 +1769,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -1930,7 +1787,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -1949,7 +1805,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -1968,7 +1823,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -1987,7 +1841,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -2006,7 +1859,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -2025,7 +1877,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -2044,7 +1895,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -2110,7 +1960,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -2139,7 +1988,6 @@
             [
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Michael Tripodi",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -2556,7 +2404,6 @@
             "Lw' U L U' m' U L' U' 3Lw",
             [
                 "Andrew Tan Jing Bang",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -2601,7 +2448,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -2624,7 +2470,6 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
-                "James Molloy",
                 "Kevin Matthews",
                 "Ryan Eckersley"
             ],
@@ -2670,7 +2515,6 @@
             "D U R2 U' m' U R2 U' m D'",
             [
                 "Hana Davila",
-                "James Molloy",
                 "Michael Tripodi",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -2686,18 +2530,6 @@
     ],
     "AJK": [
         [
-            "Lw' U L' U' m' U L U' 3Lw",
-            [
-                "Andrew Tan Jing Bang",
-                "Daniel Wallin",
-                "James Molloy",
-                "Kai Yamamoto (山本快)",
-                "Kevin Matthews",
-                "Michael Tripodi"
-            ],
-            "Lw':[U L' U',m']"
-        ],
-        [
             "U L2 U' m' U L2 U' m",
             [
                 "Graham Siggins",
@@ -2707,6 +2539,17 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "[U L2 U',m']"
+        ],
+        [
+            "Lw' U L' U' m' U L U' 3Lw",
+            [
+                "Andrew Tan Jing Bang",
+                "Daniel Wallin",
+                "Kai Yamamoto (山本快)",
+                "Kevin Matthews",
+                "Michael Tripodi"
+            ],
+            "Lw':[U L' U',m']"
         ]
     ],
     "AJL": [
@@ -2748,7 +2591,6 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -2771,7 +2613,6 @@
             [
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -2793,18 +2634,6 @@
     ],
     "AJO": [
         [
-            "Rw U' R U m' U' R' U 3Rw'",
-            [
-                "Andrew Tan Jing Bang",
-                "Daniel Wallin",
-                "James Molloy",
-                "Kai Yamamoto (山本快)",
-                "Kevin Matthews",
-                "Michael Tripodi"
-            ],
-            "Rw:[U' R U,m']"
-        ],
-        [
             "U' R2 U m' U' R2 U m",
             [
                 "Graham Siggins",
@@ -2814,6 +2643,17 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "[U' R2 U,m']"
+        ],
+        [
+            "Rw U' R U m' U' R' U 3Rw'",
+            [
+                "Andrew Tan Jing Bang",
+                "Daniel Wallin",
+                "Kai Yamamoto (山本快)",
+                "Kevin Matthews",
+                "Michael Tripodi"
+            ],
+            "Rw:[U' R U,m']"
         ]
     ],
     "AJP": [
@@ -2835,8 +2675,7 @@
         [
             "3Rw U R U' m' U R' U' m 3Rw'",
             [
-                "Daniel Wallin",
-                "James Molloy"
+                "Daniel Wallin"
             ],
             "3Rw:[U R U',m']"
         ],
@@ -2856,7 +2695,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -2872,7 +2710,6 @@
             "m' U R U' m' U R' U' m2",
             [
                 "Hana Davila",
-                "James Molloy",
                 "Michael Tripodi",
                 "Ryan Eckersley",
                 "Ziyi Xu (徐梓翼)"
@@ -2904,7 +2741,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -2921,7 +2757,6 @@
             [
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Michael Tripodi",
                 "Ryan Eckersley",
                 "Ziyi Xu (徐梓翼)"
@@ -2953,7 +2788,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -2970,7 +2804,6 @@
             [
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Michael Tripodi",
                 "Ryan Eckersley",
                 "Ziyi Xu (徐梓翼)"
@@ -3002,7 +2835,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -3019,7 +2851,6 @@
             [
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Michael Tripodi",
                 "Ryan Eckersley",
                 "Ziyi Xu (徐梓翼)"
@@ -3064,13 +2895,6 @@
                 "Graham Siggins"
             ],
             "4Rw':[L2,U' m' U]"
-        ],
-        [
-            "U' 4Lw2 U m U2 m' U 4Lw2 U",
-            [
-                "James Molloy"
-            ],
-            "U' 4Lw2 U:[m,U2]"
         ]
     ],
     "AKD": [
@@ -3104,7 +2928,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -3122,7 +2945,6 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley"
@@ -3167,18 +2989,6 @@
     ],
     "AKJ": [
         [
-            "3Lw' U L' U' m U L U' Lw",
-            [
-                "Andrew Tan Jing Bang",
-                "Daniel Wallin",
-                "James Molloy",
-                "Kai Yamamoto (山本快)",
-                "Kevin Matthews",
-                "Michael Tripodi"
-            ],
-            "Lw':[m',U L' U']"
-        ],
-        [
             "m' U L2 U' m U L2 U'",
             [
                 "Graham Siggins",
@@ -3188,6 +2998,17 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "[m',U L2 U']"
+        ],
+        [
+            "3Lw' U L' U' m U L U' Lw",
+            [
+                "Andrew Tan Jing Bang",
+                "Daniel Wallin",
+                "Kai Yamamoto (山本快)",
+                "Kevin Matthews",
+                "Michael Tripodi"
+            ],
+            "Lw':[m',U L' U']"
         ]
     ],
     "AKM": [
@@ -3594,13 +3415,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "[U',m D m']"
-        ],
-        [
-            "L e L' U L e' L' U'",
-            [
-                "James Molloy"
-            ],
-            "[L e L',U]"
         ]
     ],
     "ALD": [
@@ -3668,13 +3482,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "[U2,m D m']"
-        ],
-        [
-            "U' L e L' U2 L e' L' U'",
-            [
-                "James Molloy"
-            ],
-            "U':[L e L',U2]"
         ]
     ],
     "ALF": [
@@ -3684,7 +3491,6 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley"
@@ -3912,7 +3718,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -3965,7 +3770,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -3996,13 +3800,6 @@
                 "Kevin Matthews"
             ],
             "y':[R,U m' U']"
-        ],
-        [
-            "D m' U' L' U m' U' L U m2 D'",
-            [
-                "James Molloy"
-            ],
-            "D m':[U' L' U,m']"
         ]
     ],
     "ALW": [
@@ -4013,7 +3810,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -4067,7 +3863,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Ryan Eckersley",
                 "Ziyi Xu (徐梓翼)"
@@ -4114,15 +3909,6 @@
     ],
     "AMC": [
         [
-            "Lw U L' U' m2 U L U' m2 Lw'",
-            [
-                "James Molloy",
-                "Kevin Matthews",
-                "Ryan Eckersley"
-            ],
-            "Lw:[U L' U',m2]"
-        ],
-        [
             "Lw' U L U' m2 U L' U' m2 Lw",
             [
                 "Andrew Tan Jing Bang",
@@ -4139,6 +3925,14 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "L:[U L' U',m2]"
+        ],
+        [
+            "Lw U L' U' m2 U L U' m2 Lw'",
+            [
+                "Kevin Matthews",
+                "Ryan Eckersley"
+            ],
+            "Lw:[U L' U',m2]"
         ],
         [
             "L' U L U' m2 U L' U' L m2",
@@ -4199,7 +3993,6 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -4213,18 +4006,6 @@
     ],
     "AMF": [
         [
-            "D' m U' R2 U m' U' R2 U D",
-            [
-                "Graham Siggins",
-                "Hana Davila",
-                "James Molloy",
-                "Leonardo Ezequiel Cruz",
-                "Michael Tripodi",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "D':[m,U' R2 U]"
-        ],
-        [
             "D' 3Rw' U' R' U m' U' R U Rw D",
             [
                 "Andrew Tan Jing Bang",
@@ -4234,6 +4015,17 @@
                 "Ryan Eckersley"
             ],
             "D' 3Rw':[U' R' U,m']"
+        ],
+        [
+            "D' m U' R2 U m' U' R2 U D",
+            [
+                "Graham Siggins",
+                "Hana Davila",
+                "Leonardo Ezequiel Cruz",
+                "Michael Tripodi",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "D':[m,U' R2 U]"
         ]
     ],
     "AMI": [
@@ -4268,7 +4060,6 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -4445,7 +4236,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -4508,7 +4298,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -4552,7 +4341,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -4596,7 +4384,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -4610,7 +4397,6 @@
             "U 3Lw U' L' U m' U' L U Lw' U'",
             [
                 "Daniel Wallin",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley"
@@ -4677,7 +4463,6 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley"
@@ -4718,7 +4503,6 @@
             "D' U R2 U' m' U R2 U' m D",
             [
                 "Hana Davila",
-                "James Molloy",
                 "Michael Tripodi",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -4773,7 +4557,6 @@
             [
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -4911,7 +4694,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -4969,7 +4751,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -5129,16 +4910,6 @@
     ],
     "AOC": [
         [
-            "4Rw2 U m U2 m' U 4Rw2",
-            [
-                "Daniel Wallin",
-                "James Molloy",
-                "Kevin Matthews",
-                "Michael Tripodi"
-            ],
-            "4Rw2 U:[m,U2]"
-        ],
-        [
             "D' U' m D2 m' U m D2 m' D",
             [
                 "Hana Davila",
@@ -5147,6 +4918,15 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "D':[U',m D2 m']"
+        ],
+        [
+            "4Rw2 U m U2 m' U 4Rw2",
+            [
+                "Daniel Wallin",
+                "Kevin Matthews",
+                "Michael Tripodi"
+            ],
+            "4Rw2 U:[m,U2]"
         ],
         [
             "L2 D m D2 m' D L2",
@@ -5194,7 +4974,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -5212,7 +4991,6 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -5256,18 +5034,6 @@
     ],
     "AOJ": [
         [
-            "3Rw U' R U m U' R' U Rw'",
-            [
-                "Andrew Tan Jing Bang",
-                "Daniel Wallin",
-                "James Molloy",
-                "Kai Yamamoto (山本快)",
-                "Kevin Matthews",
-                "Michael Tripodi"
-            ],
-            "Rw:[m',U' R U]"
-        ],
-        [
             "m' U' R2 U m U' R2 U",
             [
                 "Graham Siggins",
@@ -5277,6 +5043,17 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "[m',U' R2 U]"
+        ],
+        [
+            "3Rw U' R U m U' R' U Rw'",
+            [
+                "Andrew Tan Jing Bang",
+                "Daniel Wallin",
+                "Kai Yamamoto (山本快)",
+                "Kevin Matthews",
+                "Michael Tripodi"
+            ],
+            "Rw:[m',U' R U]"
         ]
     ],
     "AOK": [
@@ -5418,13 +5195,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "D:[U' R U,m2]"
-        ],
-        [
-            "U D' R U' m' U2 m U' R' D U'",
-            [
-                "James Molloy"
-            ],
-            "U D' R U':[m',U2]"
         ]
     ],
     "AOR": [
@@ -5629,13 +5399,6 @@
             "D:[U' R' U,m2]"
         ],
         [
-            "3Rw' R' U m' U' R U m U' 3Rw",
-            [
-                "James Molloy"
-            ],
-            "3Rw':[R',U m' U']"
-        ],
-        [
             "x' R' U m' U' R U m U' x",
             [
                 "Hana Davila"
@@ -5700,13 +5463,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "[U',m D' m']"
-        ],
-        [
-            "U2 R' e' R U R' e R U",
-            [
-                "James Molloy"
-            ],
-            "U':[U',R' e' R]"
         ]
     ],
     "APD": [
@@ -5729,19 +5485,18 @@
             "4Rw' U:[U R' U',m2]"
         ],
         [
-            "D' 3Lw' U' L U m' U' L' U m 3Lw D",
-            [
-                "James Molloy",
-                "Kai Yamamoto (山本快)"
-            ],
-            "D' 3Lw':[U' L U,m']"
-        ],
-        [
             "R' 4Rw' U' m' U2 m U' 4Rw R",
             [
                 "Graham Siggins"
             ],
             "R' 4Rw' U':[m',U2]"
+        ],
+        [
+            "D' 3Lw' U' L U m' U' L' U m 3Lw D",
+            [
+                "Kai Yamamoto (山本快)"
+            ],
+            "D' 3Lw':[U' L U,m']"
         ]
     ],
     "APE": [
@@ -5761,13 +5516,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "[U2,m D' m']"
-        ],
-        [
-            "U R' e' R U2 R' e R U",
-            [
-                "James Molloy"
-            ],
-            "U:[R' e' R,U2]"
         ]
     ],
     "APF": [
@@ -5777,7 +5525,6 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -5855,8 +5602,7 @@
         [
             "3Rw m' U R U' m U R' U' 3Rw'",
             [
-                "Daniel Wallin",
-                "James Molloy"
+                "Daniel Wallin"
             ],
             "3Rw:[m',U R U']"
         ],
@@ -6010,7 +5756,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -6063,7 +5808,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -6086,20 +5830,19 @@
             "y':[R,U' m U]"
         ],
         [
-            "D' m' U' L' U m' U' L U m2 D",
-            [
-                "James Molloy",
-                "Michael Tripodi"
-            ],
-            "D' m':[U' L' U,m']"
-        ],
-        [
             "S' U' R' e R U R' e' R S",
             [
                 "Kai Yamamoto (山本快)",
                 "Ziyi Xu (徐梓翼)"
             ],
             "S':[U',R' e R]"
+        ],
+        [
+            "D' m' U' L' U m' U' L U m2 D",
+            [
+                "Michael Tripodi"
+            ],
+            "D' m':[U' L' U,m']"
         ],
         [
             "D' m D' L D m' D' L' D2",
@@ -6175,7 +5918,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -6227,7 +5969,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kevin Matthews",
                 "Michael Tripodi"
             ],
@@ -6301,13 +6042,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "R' D':[m',U2]"
-        ],
-        [
-            "y R' e R U2 R' e' R U2 y'",
-            [
-                "James Molloy"
-            ],
-            "y:[R' e R,U2]"
         ]
     ],
     "AQF": [
@@ -6318,7 +6052,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -6354,7 +6087,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -6402,7 +6134,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -6420,7 +6151,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -6440,7 +6170,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -6471,13 +6200,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "D:[m2,U' R U]"
-        ],
-        [
-            "U D' R U m' U2 m U R' D U'",
-            [
-                "James Molloy"
-            ],
-            "U D' R U:[m',U2]"
         ]
     ],
     "AQP": [
@@ -6488,7 +6210,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -6552,7 +6273,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -6672,7 +6392,6 @@
             [
                 "Daniel Wallin",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -6714,7 +6433,6 @@
         [
             "L e' L' U L e L' U'",
             [
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -6776,13 +6494,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "R':[U2,m D' m']"
-        ],
-        [
-            "U' L e' L' U2 L e L' U'",
-            [
-                "James Molloy"
-            ],
-            "U':[L e' L',U2]"
         ]
     ],
     "ARF": [
@@ -6793,7 +6504,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -6850,7 +6560,6 @@
             "m2 U R U' m U R' U' m",
             [
                 "Hana Davila",
-                "James Molloy",
                 "Michael Tripodi",
                 "Ryan Eckersley",
                 "Ziyi Xu (徐梓翼)"
@@ -7095,7 +6804,6 @@
             "e' L' U L e L' U' L",
             [
                 "Daniel Wallin",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Roman Strakhov",
                 "Ryan Eckersley",
@@ -7341,13 +7049,6 @@
                 "Ryan Eckersley"
             ],
             "l m:[L',U' m' U]"
-        ],
-        [
-            "z' L2 U m2 U' L U m2 U' L z",
-            [
-                "James Molloy"
-            ],
-            "z' L':[L',U m2 U']"
         ]
     ],
     "ASD": [
@@ -7389,13 +7090,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "L D:[m',U2]"
-        ],
-        [
-            "y R e' R' U2 R e R' U2 y'",
-            [
-                "James Molloy"
-            ],
-            "y:[R e' R',U2]"
         ]
     ],
     "ASF": [
@@ -7406,7 +7100,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -7442,7 +7135,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -7482,7 +7174,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -7519,7 +7210,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -7566,7 +7256,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -7628,7 +7317,6 @@
             "L' U L e' L' U' L e",
             [
                 "Daniel Wallin",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Roman Strakhov",
                 "Ryan Eckersley",
@@ -7692,7 +7380,6 @@
             "L' U L e L' U' L e'",
             [
                 "Daniel Wallin",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -7763,7 +7450,6 @@
         [
             "L' U L' e L U' L' e' L2",
             [
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Ryan Eckersley",
                 "Ziyi Xu (徐梓翼)"
@@ -7808,7 +7494,6 @@
         [
             "U2 R' e R U R' e' R U",
             [
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -7872,13 +7557,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "L:[U2,m D m']"
-        ],
-        [
-            "U R' e R U2 R' e' R U",
-            [
-                "James Molloy"
-            ],
-            "U:[R' e R,U2]"
         ]
     ],
     "ATF": [
@@ -7889,7 +7567,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -7947,7 +7624,6 @@
             [
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Michael Tripodi",
                 "Ryan Eckersley",
                 "Ziyi Xu (徐梓翼)"
@@ -8033,13 +7709,6 @@
                 "Kevin Matthews"
             ],
             "y':[U m' U',R]"
-        ],
-        [
-            "D m2 U' L' U m U' L U m D'",
-            [
-                "James Molloy"
-            ],
-            "D m':[m',U' L' U]"
         ]
     ],
     "ATM": [
@@ -8050,7 +7719,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -8161,20 +7829,19 @@
             "y':[U' m U,R]"
         ],
         [
-            "D' m2 U' L' U m U' L U m D",
-            [
-                "James Molloy",
-                "Michael Tripodi"
-            ],
-            "D' m':[m',U' L' U]"
-        ],
-        [
             "S' R' e R U' R' e' R U S",
             [
                 "Kai Yamamoto (山本快)",
                 "Ziyi Xu (徐梓翼)"
             ],
             "S':[R' e R,U']"
+        ],
+        [
+            "D' m2 U' L' U m U' L U m D",
+            [
+                "Michael Tripodi"
+            ],
+            "D' m':[m',U' L' U]"
         ],
         [
             "D2 L D m D' L' D m' D",
@@ -8191,7 +7858,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -8276,21 +7942,20 @@
             "Lw:[U',m D m']"
         ],
         [
-            "e' L U L' e L U' L'",
-            [
-                "James Molloy",
-                "Kai Yamamoto (山本快)",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "[e',L U L']"
-        ],
-        [
             "z m' U R U' m U R' U' z'",
             [
                 "Graham Siggins",
                 "Hana Davila"
             ],
             "z:[m',U R U']"
+        ],
+        [
+            "e' L U L' e L U' L'",
+            [
+                "Kai Yamamoto (山本快)",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "[e',L U L']"
         ]
     ],
     "ATX": [
@@ -8356,7 +8021,6 @@
         [
             "R2 e R U' R' e' R U R",
             [
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -8431,13 +8095,6 @@
                 "Ryan Eckersley"
             ],
             "l m:[L,U' m' U]"
-        ],
-        [
-            "z' L2 U' m2 U L U' m2 U L z",
-            [
-                "James Molloy"
-            ],
-            "z' L':[L',U' m2 U]"
         ]
     ],
     "AWD": [
@@ -8479,13 +8136,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "L' D:[m',U2]"
-        ],
-        [
-            "y' U2 R' e R U2 R' e' R y",
-            [
-                "James Molloy"
-            ],
-            "y':[U2,R' e R]"
         ]
     ],
     "AWF": [
@@ -8496,7 +8146,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -8532,7 +8181,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -8574,7 +8222,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -8774,21 +8421,20 @@
             "Lw:[m D m',U']"
         ],
         [
-            "L U L' e' L U' L' e",
-            [
-                "James Molloy",
-                "Kai Yamamoto (山本快)",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "[L U L',e']"
-        ],
-        [
             "z U R U' m' U R' U' m z'",
             [
                 "Graham Siggins",
                 "Hana Davila"
             ],
             "z:[U R U',m']"
+        ],
+        [
+            "L U L' e' L U' L' e",
+            [
+                "Kai Yamamoto (山本快)",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "[L U L',e']"
         ]
     ],
     "AWY": [
@@ -8828,17 +8474,6 @@
     ],
     "AWZ": [
         [
-            "L U L' e L U' L' e'",
-            [
-                "Daniel Wallin",
-                "James Molloy",
-                "Kai Yamamoto (山本快)",
-                "Ryan Eckersley",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "[L U L',e]"
-        ],
-        [
             "z U R U' m U R' U' m' z'",
             [
                 "Andrew Tan Jing Bang",
@@ -8848,6 +8483,16 @@
                 "Michael Tripodi"
             ],
             "z:[U R U',m]"
+        ],
+        [
+            "L U L' e L U' L' e'",
+            [
+                "Daniel Wallin",
+                "Kai Yamamoto (山本快)",
+                "Ryan Eckersley",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "[L U L',e]"
         ]
     ],
     "AXC": [
@@ -8871,19 +8516,18 @@
             "L' D:[U L U',m']"
         ],
         [
-            "U2 R e' R' U R e R' U",
-            [
-                "James Molloy",
-                "Kai Yamamoto (山本快)"
-            ],
-            "U':[U',R e' R']"
-        ],
-        [
             "U' Lw' m D m' U m D' m' U' Lw U",
             [
                 "Ryan Eckersley"
             ],
             "U' Lw':[m D m',U]"
+        ],
+        [
+            "U2 R e' R' U R e R' U",
+            [
+                "Kai Yamamoto (山本快)"
+            ],
+            "U':[U',R e' R']"
         ],
         [
             "z' L2 U m U' L U m' U' L z",
@@ -8955,13 +8599,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "L':[U2,m D m']"
-        ],
-        [
-            "U R e' R' U2 R e R' U",
-            [
-                "James Molloy"
-            ],
-            "U:[R e' R',U2]"
         ]
     ],
     "AXF": [
@@ -8972,7 +8609,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -9017,7 +8653,6 @@
             [
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Michael Tripodi",
                 "Ryan Eckersley",
                 "Ziyi Xu (徐梓翼)"
@@ -9125,7 +8760,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -9337,7 +8971,6 @@
             "e L' U L e' L' U' L",
             [
                 "Daniel Wallin",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -9409,7 +9042,6 @@
             [
                 "Daniel Wallin",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -9438,7 +9070,6 @@
             "z U m2 U' R U m2 U' R' z'",
             [
                 "Graham Siggins",
-                "James Molloy",
                 "Kevin Matthews",
                 "Michael Tripodi"
             ],
@@ -9531,13 +9162,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "R D':[m',U2]"
-        ],
-        [
-            "y' U2 R e' R' U2 R e R' y",
-            [
-                "James Molloy"
-            ],
-            "y':[U2,R e' R']"
         ]
     ],
     "AYF": [
@@ -9548,7 +9172,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -9584,7 +9207,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -9632,7 +9254,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Ryan Eckersley",
                 "Ziyi Xu (徐梓翼)"
@@ -9706,13 +9327,6 @@
             "D:[m2,U' R' U]"
         ],
         [
-            "3Rw' U m' U' R' U m U' R 3Rw",
-            [
-                "James Molloy"
-            ],
-            "3Rw':[U m' U',R']"
-        ],
-        [
             "x' U m' U' R' U m U' R x",
             [
                 "Hana Davila"
@@ -9728,7 +9342,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -9860,7 +9473,6 @@
         [
             "R' U' R' e R U R' e' R2",
             [
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -9919,7 +9531,6 @@
             [
                 "Daniel Wallin",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -9940,21 +9551,20 @@
             "z:[U' m U,R]"
         ],
         [
-            "L' e L U L' e' L U'",
-            [
-                "James Molloy",
-                "Kai Yamamoto (山本快)",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "[L' e L,U]"
-        ],
-        [
             "Rw U' m D' m' U m D m' Rw'",
             [
                 "Andrew Tan Jing Bang",
                 "Ryan Eckersley"
             ],
             "Rw:[U',m D' m']"
+        ],
+        [
+            "L' e L U L' e' L U'",
+            [
+                "Kai Yamamoto (山本快)",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "[L' e L,U]"
         ]
     ],
     "AZD": [
@@ -9965,7 +9575,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -9996,13 +9605,6 @@
             "R:[U2,m D' m']"
         ],
         [
-            "U' L' e L U2 L' e' L U'",
-            [
-                "James Molloy"
-            ],
-            "U':[L' e L,U2]"
-        ],
-        [
             "Rw U2 m D' m' U2 m D m' Rw'",
             [
                 "Hana Davila"
@@ -10018,7 +9620,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -10070,7 +9671,6 @@
             [
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Michael Tripodi",
                 "Ryan Eckersley",
                 "Ziyi Xu (徐梓翼)"
@@ -10172,7 +9772,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -10309,7 +9908,6 @@
             [
                 "Daniel Wallin",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -10390,7 +9988,6 @@
         [
             "L2 e L U L' e' L U' L",
             [
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Ryan Eckersley",
                 "Ziyi Xu (徐梓翼)"
@@ -10455,17 +10052,6 @@
     ],
     "AZW": [
         [
-            "e L U L' e' L U' L'",
-            [
-                "Daniel Wallin",
-                "James Molloy",
-                "Kai Yamamoto (山本快)",
-                "Ryan Eckersley",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "[e,L U L']"
-        ],
-        [
             "z m U R U' m' U R' U' z'",
             [
                 "Andrew Tan Jing Bang",
@@ -10475,6 +10061,16 @@
                 "Michael Tripodi"
             ],
             "z:[m,U R U']"
+        ],
+        [
+            "e L U L' e' L U' L'",
+            [
+                "Daniel Wallin",
+                "Kai Yamamoto (山本快)",
+                "Ryan Eckersley",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "[e,L U L']"
         ]
     ],
     "AZX": [
@@ -10494,24 +10090,6 @@
             "x' U':[m',U2]"
         ]
     ],
-    "CET": [
-        [
-            "U2 R' e R U' R' e' R U'",
-            [
-                "James Molloy"
-            ],
-            "U:[U,R' e R]"
-        ]
-    ],
-    "CTE": [
-        [
-            "U R' e R U R' e' R U2",
-            [
-                "James Molloy"
-            ],
-            "U:[R' e R,U]"
-        ]
-    ],
     "GAC": [
         [
             "m2 U' m U2 m' U' m2",
@@ -10520,7 +10098,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -10538,7 +10115,6 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -10579,7 +10155,6 @@
             "U' m2 U' m' U2 m U' m2 U",
             [
                 "Hana Davila",
-                "James Molloy",
                 "Kevin Matthews",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -10593,7 +10168,6 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -10626,13 +10200,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "[U,m D2 m']"
-        ],
-        [
-            "U' Rw m2 U R' U' m2 U R U' Rw' U",
-            [
-                "James Molloy"
-            ],
-            "U' Rw:[m2,U R' U']"
         ]
     ],
     "GAJ": [
@@ -10642,7 +10209,6 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -10661,16 +10227,6 @@
     ],
     "GAK": [
         [
-            "4Lw2 U' m U2 m' U' 4Lw2",
-            [
-                "Daniel Wallin",
-                "James Molloy",
-                "Kevin Matthews",
-                "Michael Tripodi"
-            ],
-            "4Lw2 U':[m,U2]"
-        ],
-        [
             "D U m D2 m' U' m D2 m' D'",
             [
                 "Hana Davila",
@@ -10679,6 +10235,15 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "D:[U,m D2 m']"
+        ],
+        [
+            "4Lw2 U' m U2 m' U' 4Lw2",
+            [
+                "Daniel Wallin",
+                "Kevin Matthews",
+                "Michael Tripodi"
+            ],
+            "4Lw2 U':[m,U2]"
         ],
         [
             "R2 D' m D2 m' D' R2",
@@ -10711,13 +10276,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "[U,m D m']"
-        ],
-        [
-            "U2 L e L' U' L e' L' U'",
-            [
-                "James Molloy"
-            ],
-            "U:[U,L e L']"
         ]
     ],
     "GAM": [
@@ -10754,13 +10312,6 @@
                 "Graham Siggins"
             ],
             "R' U R U:[m,U2]"
-        ],
-        [
-            "R U' R' U m2 U' R U m2 R'",
-            [
-                "James Molloy"
-            ],
-            "R:[U' R' U,m2]"
         ]
     ],
     "GAN": [
@@ -10768,12 +10319,11 @@
             "U' 3Rw' U R U' m' U R' U' Rw U",
             [
                 "Daniel Wallin",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley"
             ],
-            "U' Rw':[m,U R U']"
+            "U' 3Rw':[U R U',m']"
         ],
         [
             "D' U m D' m' U' m D m' D",
@@ -10827,13 +10377,6 @@
                 "Graham Siggins"
             ],
             "4Lw:[R2,U m' U']"
-        ],
-        [
-            "U 4Rw2 U' m U2 m' U' 4Rw2 U'",
-            [
-                "James Molloy"
-            ],
-            "U 4Rw2 U':[m,U2]"
         ]
     ],
     "GAP": [
@@ -10856,7 +10399,6 @@
         [
             "R' e' R U' R' e R U",
             [
-                "James Molloy",
                 "Ziyi Xu (徐梓翼)"
             ],
             "[R' e' R,U']"
@@ -10889,13 +10431,6 @@
                 "Kai Yamamoto (山本快)"
             ],
             "M:[R,U m' U']"
-        ],
-        [
-            "z R2 U' m2 U R' U' m2 U R' z'",
-            [
-                "James Molloy"
-            ],
-            "z R:[R,U' m2 U]"
         ]
     ],
     "GAR": [
@@ -10909,21 +10444,20 @@
             "U Rw':[m D' m',U']"
         ],
         [
-            "U2 L e' L' U' L e L' U'",
-            [
-                "James Molloy",
-                "Kai Yamamoto (山本快)",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "U:[U,L e' L']"
-        ],
-        [
             "Rw' D' U' R U m' U' R' U m D Rw",
             [
                 "Andrew Tan Jing Bang",
                 "Michael Tripodi"
             ],
             "Rw' D':[U' R U,m']"
+        ],
+        [
+            "U2 L e' L' U' L e L' U'",
+            [
+                "Kai Yamamoto (山本快)",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "U:[U,L e' L']"
         ],
         [
             "z R2 U m' U' R' U m U' R' z'",
@@ -10946,7 +10480,6 @@
             [
                 "Daniel Wallin",
                 "Hana Davila",
-                "James Molloy",
                 "Kevin Matthews",
                 "Michael Tripodi"
             ],
@@ -10986,7 +10519,6 @@
         [
             "R' e R U' R' e' R U",
             [
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -10998,7 +10530,6 @@
             "z' U' m2 U L' U' m2 U L z",
             [
                 "Graham Siggins",
-                "James Molloy",
                 "Kevin Matthews",
                 "Michael Tripodi"
             ],
@@ -11058,7 +10589,6 @@
         [
             "R e' R' U' R e R' U",
             [
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -11077,20 +10607,19 @@
             "4Lw:[R',U m' U']"
         ],
         [
-            "3Rw' U m' U' R U m U' R' 3Rw",
-            [
-                "James Molloy",
-                "Michael Tripodi"
-            ],
-            "3Rw':[U m' U',R]"
-        ],
-        [
             "4Rw' U m' U' R U m U' M'",
             [
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews"
             ],
             "4Rw':[U m' U',R]"
+        ],
+        [
+            "3Rw' U m' U' R U m U' r m'",
+            [
+                "Michael Tripodi"
+            ],
+            "m r':[R',U m' U']"
         ]
     ],
     "GAZ": [
@@ -11117,7 +10646,6 @@
         [
             "U2 L' e L U' L' e' L U'",
             [
-                "James Molloy",
                 "Kai Yamamoto (山本快)"
             ],
             "U:[U,L' e L]"
@@ -11137,7 +10665,6 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
@@ -11153,7 +10680,6 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -11177,7 +10703,6 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -11199,13 +10724,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "R':[m',U R U']"
-        ],
-        [
-            "D 3Rw U R' U' m U R U' Rw' D'",
-            [
-                "James Molloy"
-            ],
-            "D Rw:[m',U R' U']"
         ]
     ],
     "GBF": [
@@ -11224,13 +10742,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "U m U:[m',U2]"
-        ],
-        [
-            "U' m' U m U2 m' U m U",
-            [
-                "James Molloy"
-            ],
-            "U' m' U:[m,U2]"
         ]
     ],
     "GBI": [
@@ -11240,7 +10751,6 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -11739,7 +11249,6 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -11757,7 +11266,6 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
@@ -11773,7 +11281,6 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -11803,7 +11310,6 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -11838,7 +11344,6 @@
             "U' m2 U m' U2 m U m2 U",
             [
                 "Hana Davila",
-                "James Molloy",
                 "Kevin Matthews",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -11852,7 +11357,6 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -11883,7 +11387,6 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -11916,13 +11419,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "U m U':[m',U2]"
-        ],
-        [
-            "U' m' U' m U2 m' U' m U",
-            [
-                "James Molloy"
-            ],
-            "U' m' U':[m,U2]"
         ]
     ],
     "GIA": [
@@ -11941,13 +11437,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "[m D2 m',U]"
-        ],
-        [
-            "U' Rw U R' U' m2 U R U' m2 Rw' U",
-            [
-                "James Molloy"
-            ],
-            "U' Rw:[U R' U',m2]"
         ]
     ],
     "GIB": [
@@ -11957,7 +11446,6 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -11987,7 +11475,6 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -12053,16 +11540,6 @@
     ],
     "GKA": [
         [
-            "4Lw2 U m U2 m' U 4Lw2",
-            [
-                "Daniel Wallin",
-                "James Molloy",
-                "Kevin Matthews",
-                "Michael Tripodi"
-            ],
-            "4Lw2 U:[m,U2]"
-        ],
-        [
             "D m D2 m' U m D2 m' U' D'",
             [
                 "Hana Davila",
@@ -12071,6 +11548,15 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "D:[m D2 m',U]"
+        ],
+        [
+            "4Lw2 U m U2 m' U 4Lw2",
+            [
+                "Daniel Wallin",
+                "Kevin Matthews",
+                "Michael Tripodi"
+            ],
+            "4Lw2 U:[m,U2]"
         ],
         [
             "R2 D m D2 m' D R2",
@@ -12132,13 +11618,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "[m D m',U]"
-        ],
-        [
-            "U L e L' U L e' L' U2",
-            [
-                "James Molloy"
-            ],
-            "U:[L e L',U]"
         ]
     ],
     "GLB": [
@@ -12170,7 +11649,6 @@
             [
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews"
             ],
@@ -12199,13 +11677,6 @@
                 "Graham Siggins"
             ],
             "R' U R U':[m,U2]"
-        ],
-        [
-            "U Lw U L' U' m2 U L U' m2 Lw' U'",
-            [
-                "James Molloy"
-            ],
-            "U Lw:[U L' U',m2]"
         ]
     ],
     "GMB": [
@@ -12248,7 +11719,6 @@
             "U' Rw' U R U' m U R' U' 3Rw U",
             [
                 "Daniel Wallin",
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley"
@@ -12343,13 +11813,6 @@
                 "Graham Siggins"
             ],
             "4Lw:[U m' U',R2]"
-        ],
-        [
-            "U 4Rw2 U m U2 m' U 4Rw2 U'",
-            [
-                "James Molloy"
-            ],
-            "U 4Rw2 U:[m,U2]"
         ]
     ],
     "GOB": [
@@ -12413,7 +11876,6 @@
         [
             "U' R' e' R U R' e R",
             [
-                "James Molloy",
                 "Ziyi Xu (徐梓翼)"
             ],
             "[U',R' e' R]"
@@ -12483,13 +11945,6 @@
                 "Kai Yamamoto (山本快)"
             ],
             "M:[U m' U',R]"
-        ],
-        [
-            "z R U' m2 U R U' m2 U R2 z'",
-            [
-                "James Molloy"
-            ],
-            "z R:[U' m2 U,R]"
         ]
     ],
     "GQB": [
@@ -12533,21 +11988,20 @@
             "U Rw':[U',m D' m']"
         ],
         [
-            "U L e' L' U L e L' U2",
-            [
-                "James Molloy",
-                "Kai Yamamoto (山本快)",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "U:[L e' L',U]"
-        ],
-        [
             "Rw' D' m' U' R U m U' R' U D Rw",
             [
                 "Andrew Tan Jing Bang",
                 "Michael Tripodi"
             ],
             "Rw' D':[m',U' R U]"
+        ],
+        [
+            "U L e' L' U L e L' U2",
+            [
+                "Kai Yamamoto (山本快)",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "U:[L e' L',U]"
         ],
         [
             "z R U m' U' R U m U' R2 z'",
@@ -12587,7 +12041,6 @@
             [
                 "Daniel Wallin",
                 "Hana Davila",
-                "James Molloy",
                 "Kevin Matthews",
                 "Michael Tripodi"
             ],
@@ -12661,7 +12114,6 @@
         [
             "U' R' e R U R' e' R",
             [
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -12708,7 +12160,6 @@
             "z' L' U' m2 U L U' m2 U z",
             [
                 "Graham Siggins",
-                "James Molloy",
                 "Kevin Matthews",
                 "Michael Tripodi"
             ],
@@ -12785,7 +12236,6 @@
         [
             "U' R e' R' U R e R'",
             [
-                "James Molloy",
                 "Kai Yamamoto (山本快)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -12858,13 +12308,6 @@
                 "Michael Tripodi"
             ],
             "m r':[U m' U',R']"
-        ],
-        [
-            "z R U m2 U' R U m2 U' R2 z'",
-            [
-                "James Molloy"
-            ],
-            "z R:[U m2 U',R]"
         ]
     ],
     "GYB": [
@@ -12924,19 +12367,18 @@
             "R D':[m',U' R' U]"
         ],
         [
-            "z R U' m U R U' m' U R2 z'",
-            [
-                "Hana Davila",
-                "James Molloy"
-            ],
-            "z R:[U' m U,R]"
-        ],
-        [
             "U L' e L U L' e' L U2",
             [
                 "Kai Yamamoto (山本快)"
             ],
             "U:[L' e L,U]"
+        ],
+        [
+            "z R U' m U R U' m' U R2 z'",
+            [
+                "Hana Davila"
+            ],
+            "z R:[U' m U,R]"
         ]
     ],
     "GZB": [
@@ -12954,24 +12396,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "U 4Rw' U':[m',U2]"
-        ]
-    ],
-    "OJM": [
-        [
-            "3Rw U' R U m' U' R' U m 3Rw'",
-            [
-                "James Molloy"
-            ],
-            "3Rw:[U' R U,m']"
-        ]
-    ],
-    "OMJ": [
-        [
-            "3Rw m' U' R U m U' R' U 3Rw'",
-            [
-                "James Molloy"
-            ],
-            "3Rw:[m',U' R U]"
         ]
     ]
 }
