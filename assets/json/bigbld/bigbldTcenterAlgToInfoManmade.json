@@ -30443,11 +30443,11 @@
             "3Dw':[r,U' m U]"
         ],
         [
-            "4Dw' r U' m U r' U' m' U 4Dw",
+            "y x' U2 m' U' r2 U m U' r2 U' x y'",
             [
                 "Howie Craig"
             ],
-            "4Dw':[r,U' m U]"
+            "y x' U:[U m' U',r2]"
         ]
     ],
     "GMA": [
@@ -31838,11 +31838,11 @@
             "4Uw':[U r U',m]"
         ],
         [
-            "4Uw U l U' m' U l' U' m 4Uw'",
+            "y U l U' m' U l' U' m y'",
             [
                 "Howie Craig"
             ],
-            "4Uw:[U l U',m']"
+            "y:[U l U',m']"
         ]
     ],
     "GPW": [
@@ -33278,11 +33278,11 @@
             "4Uw':[m,U r U']"
         ],
         [
-            "4Uw m' U l U' m U l' U' 4Uw'",
+            "y m' U l U' m U l' U' y'",
             [
                 "Howie Craig"
             ],
-            "4Uw:[m',U l U']"
+            "y:[m',U l U']"
         ]
     ],
     "GTQ": [
@@ -34746,11 +34746,11 @@
             "3Dw':[U' m U,r]"
         ],
         [
-            "4Dw' U' m U r U' m' U r' 4Dw",
+            "y x' U r2 U m' U' r2 U m U2 x y'",
             [
                 "Howie Craig"
             ],
-            "4Dw':[U' m U,r]"
+            "y x' U:[r2,U m' U']"
         ]
     ],
     "GZM": [
