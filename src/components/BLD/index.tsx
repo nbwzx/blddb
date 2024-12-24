@@ -47,6 +47,22 @@ const BLD = ({ codeType }: { codeType: string }) => {
         setManmade(manmadeData.default);
         setNightmare(nightmareData.default || {});
         setNightmareSelected(nightmareSelectedData.default || {});
+
+        const params = new URLSearchParams(window.location.search);
+        const positionParam = params.get("position") || "";
+        const modeParam = params.get("mode") || defaultMode;
+
+        if (positionParam) {
+          const positions = positionParam.split("-");
+          setSelectValues(positions);
+          if (inputRef.current) {
+            inputRef.current.value = converter.positionToCustomCode(positions);
+          }
+        }
+
+        if (modeParam) {
+          setModeValue(modeParam);
+        }
         setLoading(false);
       } catch (error) {
         // Handle error
@@ -130,6 +146,8 @@ const BLD = ({ codeType }: { codeType: string }) => {
         codeType,
       );
       setSelectValues(newSelectValues);
+      const newUrl = `?position=${newSelectValues.join("-")}&mode=${modeValue}`;
+      window.history.pushState({ path: newUrl }, "", newUrl);
     }
   };
 
@@ -143,11 +161,17 @@ const BLD = ({ codeType }: { codeType: string }) => {
     if (inputRef.current) {
       inputRef.current.value = converter.positionToCustomCode(newSelectValues);
     }
+    const positionStr = newSelectValues.join("-");
+    const newUrl = `?position=${positionStr}&mode=${modeValue}`;
+    window.history.pushState({ path: newUrl }, "", newUrl);
   };
 
   const handleModeChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
     const newModeValue = e.target.value;
     setModeValue(newModeValue);
+    const positionStr = selectValues.join("-");
+    const newUrl = `?position=${positionStr}&mode=${newModeValue}`;
+    window.history.pushState({ path: newUrl }, "", newUrl);
     scrollToTop();
   };
 
@@ -257,12 +281,10 @@ const BLD = ({ codeType }: { codeType: string }) => {
                   <Table
                     codeType={codeType}
                     inputText={converter.positionToCustomCode(selectValues)}
-                    data={modeToData[modeRef.current?.value || defaultMode]}
+                    data={modeToData[modeValue]}
                     divRef={divRef}
                     tableRef={tableRef}
-                    selected={
-                      modeToSelected[modeRef.current?.value || defaultMode]
-                    }
+                    selected={modeToSelected[modeValue]}
                     sourceToUrl={sourceToUrl}
                   />
                 </div>
