@@ -5,6 +5,7 @@ import { useTranslation } from "@/i18n/client";
 import codeConverter from "@/utils/codeConverter";
 import bigbldCodeConverter from "@/utils/bigbldCodeConverter";
 import Table from "@/components/Table";
+import Loading from "@/app/loading";
 
 const BLD = ({ codeType }: { codeType: string }) => {
   const { t } = useTranslation();
@@ -13,6 +14,8 @@ const BLD = ({ codeType }: { codeType: string }) => {
   const inputRef = useRef<HTMLInputElement>(null);
   const selectRefs = useRef<HTMLSelectElement[]>([]);
   const modeRef = useRef<HTMLSelectElement>(null);
+  const [loading, setLoading] = useState(true);
+
   let is3bld = true;
   let converter = codeConverter;
   const bigbldCodeTypes = ["wing", "xcenter", "tcenter", "midge"];
@@ -20,15 +23,38 @@ const BLD = ({ codeType }: { codeType: string }) => {
     converter = bigbldCodeConverter;
     is3bld = false;
   }
-  const manmade = is3bld
-    ? require(`public/data/${codeType}Manmade.json`)
-    : require(`public/data/bigbld/${codeType}Manmade.json`);
-  const nightmare = is3bld
-    ? require(`public/data/${codeType}Nightmare.json`)
-    : {};
-  const nightmareSelected = is3bld
-    ? require(`public/data/${codeType}NightmareSelected.json`)
-    : {};
+
+  const defaultMode = is3bld ? "nightmare" : "manmade";
+  const [manmade, setManmade] = useState({});
+  const [nightmare, setNightmare] = useState({});
+  const [nightmareSelected, setNightmareSelected] = useState({});
+
+  useEffect(() => {
+    const loadData = async () => {
+      try {
+        const manmadeData = is3bld
+          ? await import(`public/data/${codeType}Manmade.json`)
+          : await import(`public/data/bigbld/${codeType}Manmade.json`);
+
+        const nightmareData = is3bld
+          ? await import(`public/data/${codeType}Nightmare.json`)
+          : {};
+
+        const nightmareSelectedData = is3bld
+          ? await import(`public/data/${codeType}NightmareSelected.json`)
+          : {};
+
+        setManmade(manmadeData.default);
+        setNightmare(nightmareData.default || {});
+        setNightmareSelected(nightmareSelectedData.default || {});
+        setLoading(false);
+      } catch (error) {
+        // Handle error
+      }
+    };
+    loadData();
+  }, [codeType, is3bld, converter, defaultMode]);
+
   const modeToData = is3bld
     ? {
         nightmare,
@@ -87,8 +113,6 @@ const BLD = ({ codeType }: { codeType: string }) => {
 
   const [selectValues, setSelectValues] = useState(["", "", ""]);
   const [modeValue, setModeValue] = useState("");
-  const [data, setdataValue] = useState(is3bld ? nightmare : manmade);
-  const [selected, setSelected] = useState(is3bld ? nightmareSelected : {});
   const compositionRef = useRef<boolean>(false);
 
   const scrollToTop = () => {
@@ -101,9 +125,11 @@ const BLD = ({ codeType }: { codeType: string }) => {
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (!compositionRef.current) {
       const newValue = e.target.value.toUpperCase();
-      setSelectValues(
-        converter.customCodeToPosition(newValue.padEnd(3, " "), codeType),
+      const newSelectValues = converter.customCodeToPosition(
+        newValue.padEnd(3, " "),
+        codeType,
       );
+      setSelectValues(newSelectValues);
     }
   };
 
@@ -122,8 +148,6 @@ const BLD = ({ codeType }: { codeType: string }) => {
   const handleModeChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
     const newModeValue = e.target.value;
     setModeValue(newModeValue);
-    setdataValue(modeToData[newModeValue]);
-    setSelected(modeToSelected[newModeValue]);
     scrollToTop();
   };
 
@@ -139,6 +163,17 @@ const BLD = ({ codeType }: { codeType: string }) => {
   const filteredPositions = converter.positionArray.filter(
     (position) => converter.positionToCodeType(position) === codeType,
   );
+
+  useEffect(() => {
+    if (!loading && inputRef.current) {
+      const positions = selectValues;
+      inputRef.current.value = converter.positionToCustomCode(positions);
+    }
+  }, [loading, selectValues, converter]);
+
+  if (loading) {
+    return <Loading />;
+  }
 
   return (
     <>
@@ -206,7 +241,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
                     </label>
                     <select
                       id="modeValue"
-                      onChange={(e) => handleModeChange(e)}
+                      onChange={handleModeChange}
                       onClick={scrollToTop}
                       ref={modeRef}
                       value={modeValue}
@@ -221,11 +256,13 @@ const BLD = ({ codeType }: { codeType: string }) => {
                   </div>
                   <Table
                     codeType={codeType}
-                    inputText={inputRef.current?.value.toUpperCase() ?? ""}
-                    data={data}
+                    inputText={converter.positionToCustomCode(selectValues)}
+                    data={modeToData[modeRef.current?.value || defaultMode]}
                     divRef={divRef}
                     tableRef={tableRef}
-                    selected={selected}
+                    selected={
+                      modeToSelected[modeRef.current?.value || defaultMode]
+                    }
                     sourceToUrl={sourceToUrl}
                   />
                 </div>

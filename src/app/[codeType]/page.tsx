@@ -1,5 +1,4 @@
 import BLD from "@/components/BLD";
-import Parity from "@/components/Parity";
 
 export const dynamicParams = false;
 
@@ -24,8 +23,5 @@ export async function generateMetadata({
 
 export default function Page({ params }: { params: { codeType: string } }) {
   const { codeType } = params;
-  if (codeType === "parity") {
-    return <Parity codeType={codeType} />;
-  }
   return <BLD codeType={codeType} />;
 }
