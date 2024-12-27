@@ -6,6 +6,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -30,6 +31,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -54,6 +56,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -69,6 +72,7 @@
             "3Lw' U L U' m U L' U' Lw",
             [
                 "Andrew Tan Jing Bang",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -110,6 +114,7 @@
             "D m D2 m' U' m D2 m' U D'",
             [
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -136,6 +141,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -166,19 +172,20 @@
             "L:[m2,U L' U']"
         ],
         [
+            "m2 L' U L U' m2 U L' U' L",
+            [
+                "Hill Pong Yong Feng",
+                "Jonghyun Kim (김종현)"
+            ],
+            "L':[m2,U L U']"
+        ],
+        [
             "Lw m2 U L' U' m2 U L U' Lw'",
             [
                 "Kevin Matthews",
                 "Ryan Eckersley"
             ],
             "Lw' 3Lw2:[U L' U',m2]"
-        ],
-        [
-            "m2 L' U L U' m2 U L' U' L",
-            [
-                "Hill Pong Yong Feng"
-            ],
-            "L':[m2,U L U']"
         ],
         [
             "U' Rw U' R' U m2 U' R U m2 Rw' U",
@@ -197,6 +204,17 @@
     ],
     "ACN": [
         [
+            "D' m D' m' U' m D m' U D",
+            [
+                "Andrew Tan Jing Bang",
+                "Graham Siggins",
+                "Hana Davila",
+                "Jonghyun Kim (김종현)",
+                "Kevin Matthews"
+            ],
+            "D':[m D' m',U']"
+        ],
+        [
             "U Lw U' L' U m U' L U 3Lw' U'",
             [
                 "Daniel Wallin",
@@ -205,16 +223,6 @@
                 "Ryan Eckersley"
             ],
             "U Lw:[U' L' U,m]"
-        ],
-        [
-            "D' m D' m' U' m D m' U D",
-            [
-                "Andrew Tan Jing Bang",
-                "Graham Siggins",
-                "Hana Davila",
-                "Kevin Matthews"
-            ],
-            "D':[m D' m',U']"
         ],
         [
             "D m D m' U' m D' m' U D'",
@@ -229,6 +237,7 @@
             "D' m D2 m' U' m D2 m' U D",
             [
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Ryan Eckersley",
                 "Ziyi Xu (徐梓翼)"
@@ -267,6 +276,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -284,6 +294,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi"
             ],
@@ -314,6 +325,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi",
                 "Ryan Eckersley"
@@ -345,6 +357,7 @@
         [
             "M U' m' U L' U' m U L M'",
             [
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi"
             ],
@@ -360,6 +373,16 @@
     ],
     "ACT": [
         [
+            "Lw D m' U L' U' m U L U' D' Lw'",
+            [
+                "Andrew Tan Jing Bang",
+                "Jonghyun Kim (김종현)",
+                "Michael Tripodi",
+                "Ryan Eckersley"
+            ],
+            "Lw D:[m',U L' U']"
+        ],
+        [
             "U' Lw U m D m' U' m D' 3Lw' U",
             [
                 "Daniel Wallin",
@@ -368,15 +391,6 @@
                 "Ryan Eckersley"
             ],
             "U' Lw:[U,m D m']"
-        ],
-        [
-            "Lw D m' U L' U' m U L U' D' Lw'",
-            [
-                "Andrew Tan Jing Bang",
-                "Michael Tripodi",
-                "Ryan Eckersley"
-            ],
-            "Lw D:[m',U L' U']"
         ],
         [
             "U' R' e R U' R' e' R U2",
@@ -409,6 +423,7 @@
         [
             "M U' m' U L U' m U 4Lw'",
             [
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi"
@@ -429,6 +444,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
+                "Jonghyun Kim (김종현)",
                 "Michael Tripodi",
                 "Ryan Eckersley"
             ],
@@ -470,6 +486,7 @@
             "z R U m2 U' R' U m2 U' z'",
             [
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi"
             ],
@@ -507,6 +524,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Hill Pong Yong Feng",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi"
             ],
@@ -537,6 +555,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -560,6 +579,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -623,6 +643,13 @@
             "M U':[m,D2]"
         ],
         [
+            "4Rw' U' m D2 m' D2 U 4Rw",
+            [
+                "Jonghyun Kim (김종현)"
+            ],
+            "4Rw' U':[m,D2]"
+        ],
+        [
             "L' B' U2 m' U2 m B L",
             [
                 "Hana Davila"
@@ -638,6 +665,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -660,6 +688,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
@@ -682,6 +711,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -731,6 +761,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -766,6 +797,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
                 "Ziyi Xu (徐梓翼)"
@@ -802,6 +834,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -824,6 +857,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Michael Tripodi",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -858,6 +892,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
+                "Jonghyun Kim (김종현)",
                 "Ryan Eckersley"
             ],
             "Rw U' Rw:[m',U R' U']"
@@ -895,6 +930,7 @@
             "R M U m' U2 m U M' R'",
             [
                 "Andrew Tan Jing Bang",
+                "Jonghyun Kim (김종현)",
                 "Michael Tripodi"
             ],
             "R M U:[m',U2]"
@@ -923,6 +959,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -940,6 +977,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi",
                 "Ziyi Xu (徐梓翼)"
@@ -969,6 +1007,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -990,20 +1029,21 @@
             "4Rw':[U m2 U',L]"
         ],
         [
+            "M U m2 U' L U m2 U' 4Lw'",
+            [
+                "Jonghyun Kim (김종현)",
+                "Kevin Matthews",
+                "Michael Tripodi"
+            ],
+            "M:[U m2 U',L]"
+        ],
+        [
             "3Lw L' U m2 U' L U m2 U' 3Lw'",
             [
                 "Graham Siggins",
                 "Ryan Eckersley"
             ],
             "3Lw:[L',U m2 U']"
-        ],
-        [
-            "M U m2 U' L U m2 U' 4Lw'",
-            [
-                "Kevin Matthews",
-                "Michael Tripodi"
-            ],
-            "M:[U m2 U',L]"
         ],
         [
             "S U' R e' R' U R e R' S'",
@@ -1028,7 +1068,8 @@
         [
             "Rw' U' 3Rw U R' U' m U R U' Rw' U Rw",
             [
-                "Daniel Wallin"
+                "Daniel Wallin",
+                "Jonghyun Kim (김종현)"
             ],
             "Rw' U' Rw:[m',U R' U']"
         ],
@@ -1062,6 +1103,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -1078,6 +1120,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -1103,6 +1146,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -1127,6 +1171,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -1155,6 +1200,7 @@
             [
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews"
             ],
             "U' m U:[m,U2]"
@@ -1182,6 +1228,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -1200,6 +1247,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -1218,6 +1266,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -1245,6 +1294,7 @@
         [
             "U' m' U' m' U2 m U' m U",
             [
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi"
             ],
@@ -1267,6 +1317,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -1285,6 +1336,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -1304,6 +1356,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -1328,6 +1381,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -1351,6 +1405,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -1375,6 +1430,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -1397,6 +1453,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -1421,6 +1478,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi"
@@ -1450,6 +1508,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -1474,6 +1533,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi"
@@ -1502,6 +1562,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -1525,6 +1586,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -1554,6 +1616,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Ryan Eckersley"
@@ -1578,6 +1641,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews"
             ],
@@ -1601,6 +1665,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley"
@@ -1625,6 +1690,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley"
@@ -1648,6 +1714,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Ryan Eckersley"
@@ -1673,6 +1740,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Ryan Eckersley"
@@ -1703,6 +1771,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -1726,6 +1795,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -1751,6 +1821,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -1769,6 +1840,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -1787,6 +1859,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -1805,6 +1878,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -1823,6 +1897,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -1841,6 +1916,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -1859,6 +1935,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -1877,6 +1954,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -1895,6 +1973,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -1917,6 +1996,14 @@
             "3Rw' U':[D2,m]"
         ],
         [
+            "4Rw' U' D2 m D2 m' U 4Rw",
+            [
+                "Jonghyun Kim (김종현)",
+                "Kevin Matthews"
+            ],
+            "4Rw' U':[D2,m]"
+        ],
+        [
             "m U' D2 m D2 m' U m'",
             [
                 "Ryan Eckersley"
@@ -1929,13 +2016,6 @@
                 "Andrew Tan Jing Bang"
             ],
             "3Rw' U:[m',D2]"
-        ],
-        [
-            "4Rw' U' D2 m D2 m' U 4Rw",
-            [
-                "Kevin Matthews"
-            ],
-            "4Rw' U':[D2,m]"
         ],
         [
             "M U' D2 m D2 m' U M'",
@@ -1960,6 +2040,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -1977,6 +2058,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Ryan Eckersley"
@@ -2001,6 +2083,7 @@
                 "Andrew Tan Jing Bang",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -2025,6 +2108,7 @@
             [
                 "Daniel Wallin",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Michael Tripodi",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -2068,6 +2152,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -2092,6 +2177,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley"
@@ -2127,6 +2213,7 @@
                 "Andrew Tan Jing Bang",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -2156,20 +2243,21 @@
             "m' D':[m',U2]"
         ],
         [
+            "3Lw' D' m' U2 m U2 D 3Lw",
+            [
+                "Daniel Wallin",
+                "Hana Davila",
+                "Jonghyun Kim (김종현)"
+            ],
+            "3Lw' D':[m',U2]"
+        ],
+        [
             "3Lw' D U2 m U2 m' D' 3Lw",
             [
                 "Andrew Tan Jing Bang",
                 "Michael Tripodi"
             ],
             "3Lw' D:[U2,m]"
-        ],
-        [
-            "3Lw' D' m' U2 m U2 D 3Lw",
-            [
-                "Daniel Wallin",
-                "Hana Davila"
-            ],
-            "3Lw' D':[m',U2]"
         ],
         [
             "4Lw' D' m' U2 m U2 D 4Lw",
@@ -2194,6 +2282,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -2223,18 +2312,19 @@
             "3Uw':[R',U' m2 U]"
         ],
         [
+            "U2 m U' R U m2 U' R' U m U2",
+            [
+                "Andrew Tan Jing Bang",
+                "Jonghyun Kim (김종현)"
+            ],
+            "U2 m:[U' R U,m2]"
+        ],
+        [
             "3Lw' Rw' D' m' U2 m U2 D Rw 3Lw",
             [
                 "Daniel Wallin"
             ],
             "3Lw' Rw' D':[m',U2]"
-        ],
-        [
-            "U2 m U' R U m2 U' R' U m U2",
-            [
-                "Andrew Tan Jing Bang"
-            ],
-            "U2 m:[U' R U,m2]"
         ],
         [
             "R2 B m' U2 m U2 B' R2",
@@ -2252,6 +2342,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -2281,18 +2372,19 @@
             "3Uw':[R,U' m2 U]"
         ],
         [
+            "U2 m U L' U' m2 U L U' m U2",
+            [
+                "Andrew Tan Jing Bang",
+                "Jonghyun Kim (김종현)"
+            ],
+            "U2 m:[U L' U',m2]"
+        ],
+        [
             "3Rw Lw D m' U2 m U2 D' Lw' 3Rw'",
             [
                 "Daniel Wallin"
             ],
             "3Rw Lw D:[m',U2]"
-        ],
-        [
-            "U2 m U L' U' m2 U L U' m U2",
-            [
-                "Andrew Tan Jing Bang"
-            ],
-            "U2 m:[U L' U',m2]"
         ],
         [
             "L2 B' m' U2 m U2 B L2",
@@ -2317,6 +2409,13 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "U' L U:[m',U2]"
+        ],
+        [
+            "U L U m2 U' L' U m2 U2",
+            [
+                "Jonghyun Kim (김종현)"
+            ],
+            "U:[L,U m2 U']"
         ]
     ],
     "AIX": [
@@ -2325,6 +2424,7 @@
             [
                 "Daniel Wallin",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley"
@@ -2362,6 +2462,13 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "U R' U':[m',U2]"
+        ],
+        [
+            "U' R' U' m2 U R U' m2 U2",
+            [
+                "Jonghyun Kim (김종현)"
+            ],
+            "U':[R',U' m2 U]"
         ]
     ],
     "AIZ": [
@@ -2370,6 +2477,7 @@
             [
                 "Daniel Wallin",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Ryan Eckersley"
             ],
@@ -2404,6 +2512,7 @@
             "Lw' U L U' m' U L' U' 3Lw",
             [
                 "Andrew Tan Jing Bang",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -2448,6 +2557,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -2479,6 +2589,7 @@
             "U' m U' m U2 m' U' m' U",
             [
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi"
             ],
@@ -2506,6 +2617,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews"
             ],
@@ -2530,6 +2642,18 @@
     ],
     "AJK": [
         [
+            "Lw' U L' U' m' U L U' 3Lw",
+            [
+                "Andrew Tan Jing Bang",
+                "Daniel Wallin",
+                "Jonghyun Kim (김종현)",
+                "Kai Yamamoto (山本快)",
+                "Kevin Matthews",
+                "Michael Tripodi"
+            ],
+            "Lw':[U L' U',m']"
+        ],
+        [
             "U L2 U' m' U L2 U' m",
             [
                 "Graham Siggins",
@@ -2539,17 +2663,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "[U L2 U',m']"
-        ],
-        [
-            "Lw' U L' U' m' U L U' 3Lw",
-            [
-                "Andrew Tan Jing Bang",
-                "Daniel Wallin",
-                "Kai Yamamoto (山本快)",
-                "Kevin Matthews",
-                "Michael Tripodi"
-            ],
-            "Lw':[U L' U',m']"
         ]
     ],
     "AJL": [
@@ -2558,6 +2671,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Ethan Pan",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -2591,6 +2705,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -2613,6 +2728,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -2634,6 +2750,18 @@
     ],
     "AJO": [
         [
+            "Rw U' R U m' U' R' U 3Rw'",
+            [
+                "Andrew Tan Jing Bang",
+                "Daniel Wallin",
+                "Jonghyun Kim (김종현)",
+                "Kai Yamamoto (山本快)",
+                "Kevin Matthews",
+                "Michael Tripodi"
+            ],
+            "Rw:[U' R U,m']"
+        ],
+        [
             "U' R2 U m' U' R2 U m",
             [
                 "Graham Siggins",
@@ -2643,17 +2771,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "[U' R2 U,m']"
-        ],
-        [
-            "Rw U' R U m' U' R' U 3Rw'",
-            [
-                "Andrew Tan Jing Bang",
-                "Daniel Wallin",
-                "Kai Yamamoto (山本快)",
-                "Kevin Matthews",
-                "Michael Tripodi"
-            ],
-            "Rw:[U' R U,m']"
         ]
     ],
     "AJP": [
@@ -2662,6 +2779,7 @@
             [
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -2695,6 +2813,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -2710,6 +2829,7 @@
             "m' U R U' m' U R' U' m2",
             [
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
                 "Ziyi Xu (徐梓翼)"
@@ -2741,6 +2861,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -2757,6 +2878,7 @@
             [
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
                 "Ziyi Xu (徐梓翼)"
@@ -2788,6 +2910,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -2804,6 +2927,7 @@
             [
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
                 "Ziyi Xu (徐梓翼)"
@@ -2835,6 +2959,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -2851,6 +2976,7 @@
             [
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
                 "Ziyi Xu (徐梓翼)"
@@ -2879,6 +3005,7 @@
             "D U' m D2 m' U m D2 m' D'",
             [
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -2904,6 +3031,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
@@ -2928,6 +3056,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -2945,6 +3074,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley"
@@ -2969,6 +3099,7 @@
                 "Andrew Tan Jing Bang",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -2989,6 +3120,18 @@
     ],
     "AKJ": [
         [
+            "3Lw' U L' U' m U L U' Lw",
+            [
+                "Andrew Tan Jing Bang",
+                "Daniel Wallin",
+                "Jonghyun Kim (김종현)",
+                "Kai Yamamoto (山本快)",
+                "Kevin Matthews",
+                "Michael Tripodi"
+            ],
+            "Lw':[m',U L' U']"
+        ],
+        [
             "m' U L2 U' m U L2 U'",
             [
                 "Graham Siggins",
@@ -2998,17 +3141,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "[m',U L2 U']"
-        ],
-        [
-            "3Lw' U L' U' m U L U' Lw",
-            [
-                "Andrew Tan Jing Bang",
-                "Daniel Wallin",
-                "Kai Yamamoto (山本快)",
-                "Kevin Matthews",
-                "Michael Tripodi"
-            ],
-            "Lw':[m',U L' U']"
         ]
     ],
     "AKM": [
@@ -3016,6 +3148,7 @@
             "m2 U L2 U' m2 U L2 U'",
             [
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -3055,6 +3188,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi",
                 "Ryan Eckersley",
@@ -3085,6 +3219,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -3127,6 +3262,13 @@
             "L2:[m D' m',U']"
         ],
         [
+            "L' D' m' U L' U' m U L U' D L",
+            [
+                "Jonghyun Kim (김종현)"
+            ],
+            "L' D':[m',U L' U']"
+        ],
+        [
             "3Rw D' U R U' m U R' U' m' D 3Rw'",
             [
                 "Hana Davila"
@@ -3150,6 +3292,7 @@
             "D' U' R U m2 U' R' U m2 D",
             [
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -3174,6 +3317,14 @@
             "3Rw:[U',m' D' m]"
         ],
         [
+            "z U2 R U m' U' R' U m U z'",
+            [
+                "Graham Siggins",
+                "Jonghyun Kim (김종현)"
+            ],
+            "z U':[U' R U,m']"
+        ],
+        [
             "L2 U L e' L' U' L e L",
             [
                 "Kai Yamamoto (山本快)",
@@ -3190,13 +3341,6 @@
             "y':[R',U' m2 U]"
         ],
         [
-            "z U2 R U m' U' R' U m U z'",
-            [
-                "Graham Siggins"
-            ],
-            "z U':[U' R U,m']"
-        ],
-        [
             "S' D' m D R' D' m' D R S",
             [
                 "Andrew Tan Jing Bang"
@@ -3210,6 +3354,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi"
@@ -3231,6 +3376,7 @@
             [
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Ryan Eckersley"
             ],
@@ -3273,6 +3419,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -3291,20 +3438,21 @@
     ],
     "AKX": [
         [
+            "L' D m' U L' U' m U L U' D' L",
+            [
+                "Graham Siggins",
+                "Jonghyun Kim (김종현)",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "L' D:[m',U L' U']"
+        ],
+        [
             "y R' U m U2 m' U R y'",
             [
                 "Daniel Wallin",
                 "Ryan Eckersley"
             ],
             "y R' U:[m,U2]"
-        ],
-        [
-            "L' D m' U L' U' m U L U' D' L",
-            [
-                "Graham Siggins",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "L' D:[m',U L' U']"
         ],
         [
             "z 4Rw U m U2 m' U 4Rw' z'",
@@ -3342,20 +3490,21 @@
             "R D':[m,D2]"
         ],
         [
+            "D' U' R' U m2 U' R U m2 D",
+            [
+                "Jonghyun Kim (김종현)",
+                "Kai Yamamoto (山本快)",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "D':[U' R' U,m2]"
+        ],
+        [
             "z R U m U2 m' U R' z'",
             [
                 "Graham Siggins",
                 "Kevin Matthews"
             ],
             "z R U:[m,U2]"
-        ],
-        [
-            "D' U' R' U m2 U' R U m2 D",
-            [
-                "Kai Yamamoto (山本快)",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "D':[U' R' U,m2]"
         ]
     ],
     "AKZ": [
@@ -3392,6 +3541,13 @@
             "S':[D' m D,R]"
         ],
         [
+            "D' m' U R' U' m2 U R U' m' D",
+            [
+                "Jonghyun Kim (김종현)"
+            ],
+            "D' m':[U R' U',m2]"
+        ],
+        [
             "y' L U m' U2 m U L' y",
             [
                 "Hana Davila"
@@ -3407,6 +3563,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -3423,6 +3580,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -3473,6 +3631,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -3491,6 +3650,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley"
@@ -3514,6 +3674,7 @@
             [
                 "Daniel Wallin",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Michael Tripodi",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -3555,6 +3716,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Ethan Pan",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -3602,6 +3764,14 @@
             "m:[U' L2 U,m2]"
         ],
         [
+            "3Lw' m2 U' L' U m2 U' L U 3Lw",
+            [
+                "Jonghyun Kim (김종현)",
+                "Kai Yamamoto (山本快)"
+            ],
+            "3Lw':[m2,U' L' U]"
+        ],
+        [
             "U m' D m' U' m D' m' U m2 U'",
             [
                 "Ryan Eckersley"
@@ -3614,13 +3784,6 @@
                 "Kevin Matthews"
             ],
             "U 3Rw2 Rw':[m D m',U']"
-        ],
-        [
-            "Lw' m U' L' U m2 U' L U 3Lw",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "Lw' m:[U' L' U,m2]"
         ]
     ],
     "ALN": [
@@ -3630,6 +3793,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Ryan Eckersley",
                 "Ziyi Xu (徐梓翼)"
@@ -3661,6 +3825,7 @@
             "R D U' R U m' U' R' U m D' R'",
             [
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Ziyi Xu (徐梓翼)"
             ],
             "R D:[U' R U,m']"
@@ -3686,6 +3851,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -3718,6 +3884,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -3734,6 +3901,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Ryan Eckersley"
             ],
@@ -3770,6 +3938,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -3786,6 +3955,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
@@ -3810,6 +3980,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -3826,6 +3997,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
@@ -3863,6 +4035,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Ryan Eckersley",
                 "Ziyi Xu (徐梓翼)"
@@ -3905,6 +4078,13 @@
                 "Kai Yamamoto (山本快)"
             ],
             "S:[U,L' e L]"
+        ],
+        [
+            "z U' m' U R U' m2 U R' U' m' U z'",
+            [
+                "Jonghyun Kim (김종현)"
+            ],
+            "z U' m':[U R U',m2]"
         ]
     ],
     "AMC": [
@@ -3927,19 +4107,20 @@
             "L:[U L' U',m2]"
         ],
         [
+            "L' U L U' m2 U L' U' L m2",
+            [
+                "Hill Pong Yong Feng",
+                "Jonghyun Kim (김종현)"
+            ],
+            "L':[U L U',m2]"
+        ],
+        [
             "Lw U L' U' m2 U L U' m2 Lw'",
             [
                 "Kevin Matthews",
                 "Ryan Eckersley"
             ],
             "Lw:[U L' U',m2]"
-        ],
-        [
-            "L' U L U' m2 U L' U' L m2",
-            [
-                "Hill Pong Yong Feng"
-            ],
-            "L':[U L U',m2]"
         ],
         [
             "U' Rw m2 U' R' U m2 U' R U Rw' U",
@@ -3963,6 +4144,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -3993,6 +4175,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -4010,6 +4193,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Ryan Eckersley"
@@ -4036,6 +4220,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Roman Strakhov",
@@ -4060,6 +4245,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -4081,6 +4267,7 @@
             "U L2 U' m2 U L2 U' m2",
             [
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -4118,6 +4305,7 @@
             "3Lw' U' L' U m2 U' L U m2 3Lw",
             [
                 "Andrew Tan Jing Bang",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi"
             ],
@@ -4160,6 +4348,7 @@
             "U' R2 U m2 U' R2 U m2",
             [
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
                 "Roman Strakhov",
@@ -4194,6 +4383,17 @@
     ],
     "AMP": [
         [
+            "m' U R2 U' m2 U R2 U' m'",
+            [
+                "Graham Siggins",
+                "Hana Davila",
+                "Jonghyun Kim (김종현)",
+                "Leonardo Ezequiel Cruz",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "m':[U R2 U',m2]"
+        ],
+        [
             "3Rw U R U' m2 U R' U' m2 3Rw'",
             [
                 "Andrew Tan Jing Bang",
@@ -4202,16 +4402,6 @@
                 "Michael Tripodi"
             ],
             "3Rw:[U R U',m2]"
-        ],
-        [
-            "m' U R2 U' m2 U R2 U' m'",
-            [
-                "Graham Siggins",
-                "Hana Davila",
-                "Leonardo Ezequiel Cruz",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "m':[U R2 U',m2]"
         ],
         [
             "3Rw' m2 U R' U' m2 U R U' 3Rw",
@@ -4236,6 +4426,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -4255,6 +4446,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -4279,6 +4471,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -4298,6 +4491,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -4322,6 +4516,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -4341,6 +4536,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -4365,6 +4561,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -4384,6 +4581,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -4394,6 +4592,17 @@
     ],
     "ANC": [
         [
+            "D' U' m D' m' U m D m' D",
+            [
+                "Andrew Tan Jing Bang",
+                "Graham Siggins",
+                "Hana Davila",
+                "Jonghyun Kim (김종현)",
+                "Kevin Matthews"
+            ],
+            "D':[U',m D' m']"
+        ],
+        [
             "U 3Lw U' L' U m' U' L U Lw' U'",
             [
                 "Daniel Wallin",
@@ -4402,16 +4611,6 @@
                 "Ryan Eckersley"
             ],
             "U 3Lw:[U' L' U,m']"
-        ],
-        [
-            "D' U' m D' m' U m D m' D",
-            [
-                "Andrew Tan Jing Bang",
-                "Graham Siggins",
-                "Hana Davila",
-                "Kevin Matthews"
-            ],
-            "D':[U',m D' m']"
         ],
         [
             "D U' m D m' U m D' m' D'",
@@ -4427,6 +4626,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
                 "Ziyi Xu (徐梓翼)"
@@ -4473,6 +4673,7 @@
             "U' m' U m' U2 m U m U",
             [
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews"
             ],
             "U' m' U:[m',U2]"
@@ -4493,6 +4694,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Ryan Eckersley"
@@ -4523,6 +4725,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley"
@@ -4557,6 +4760,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -4583,6 +4787,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi",
                 "Ryan Eckersley",
@@ -4612,6 +4817,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Ryan Eckersley",
                 "Ziyi Xu (徐梓翼)"
@@ -4635,6 +4841,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi",
                 "Ryan Eckersley",
@@ -4663,6 +4870,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Ziyi Xu (徐梓翼)"
@@ -4694,6 +4902,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -4705,20 +4914,21 @@
     ],
     "ANR": [
         [
+            "3Lw' U R U m' U' R' U m U2 3Lw",
+            [
+                "Andrew Tan Jing Bang",
+                "Jonghyun Kim (김종현)",
+                "Michael Tripodi"
+            ],
+            "3Lw' U:[R,U m' U']"
+        ],
+        [
             "3Rw' U' D' m' U' m D m' U m U 3Rw",
             [
                 "Graham Siggins",
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Rw' U':[D',m' U' m]"
-        ],
-        [
-            "3Lw' U R U m' U' R' U m U2 3Lw",
-            [
-                "Andrew Tan Jing Bang",
-                "Michael Tripodi"
-            ],
-            "3Lw' U:[R,U m' U']"
         ],
         [
             "m' U R U m' U' R' U m U2 m",
@@ -4751,6 +4961,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -4762,6 +4973,16 @@
     ],
     "ANT": [
         [
+            "3Rw U' L' U' m' U L U' m U2 3Rw'",
+            [
+                "Andrew Tan Jing Bang",
+                "Daniel Wallin",
+                "Jonghyun Kim (김종현)",
+                "Michael Tripodi"
+            ],
+            "3Rw U':[L',U' m' U]"
+        ],
+        [
             "3Lw U D m' U m D' m' U' m U' 3Lw'",
             [
                 "Graham Siggins",
@@ -4769,15 +4990,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Lw U:[D,m' U m]"
-        ],
-        [
-            "3Rw U' L' U' m' U L U' m U2 3Rw'",
-            [
-                "Andrew Tan Jing Bang",
-                "Daniel Wallin",
-                "Michael Tripodi"
-            ],
-            "3Rw U':[L',U' m' U]"
         ],
         [
             "U' 4Rw' e R U R' e' R U' M' U",
@@ -4802,6 +5014,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -4817,6 +5030,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
+                "Jonghyun Kim (김종현)",
                 "Michael Tripodi",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -4853,6 +5067,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -4864,20 +5079,21 @@
     ],
     "ANZ": [
         [
+            "3Lw' U R' U m' U' R U m U2 3Lw",
+            [
+                "Andrew Tan Jing Bang",
+                "Jonghyun Kim (김종현)",
+                "Michael Tripodi"
+            ],
+            "3Lw' U:[R',U m' U']"
+        ],
+        [
             "3Rw U R2 U m' U' R2 U m U2 3Rw'",
             [
                 "Graham Siggins",
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Rw U:[R2,U m' U']"
-        ],
-        [
-            "3Lw' U R' U m' U' R U m U2 3Lw",
-            [
-                "Andrew Tan Jing Bang",
-                "Michael Tripodi"
-            ],
-            "3Lw' U:[R',U m' U']"
         ],
         [
             "D' U R2 U' m' U R U' m U R U' D",
@@ -4913,6 +5129,7 @@
             "D' U' m D2 m' U m D2 m' D",
             [
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Ryan Eckersley",
                 "Ziyi Xu (徐梓翼)"
@@ -4950,6 +5167,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -4974,6 +5192,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -4991,6 +5210,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -5014,6 +5234,7 @@
                 "Andrew Tan Jing Bang",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -5034,6 +5255,18 @@
     ],
     "AOJ": [
         [
+            "3Rw U' R U m U' R' U Rw'",
+            [
+                "Andrew Tan Jing Bang",
+                "Daniel Wallin",
+                "Jonghyun Kim (김종현)",
+                "Kai Yamamoto (山本快)",
+                "Kevin Matthews",
+                "Michael Tripodi"
+            ],
+            "Rw:[m',U' R U]"
+        ],
+        [
             "m' U' R2 U m U' R2 U",
             [
                 "Graham Siggins",
@@ -5043,17 +5276,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "[m',U' R2 U]"
-        ],
-        [
-            "3Rw U' R U m U' R' U Rw'",
-            [
-                "Andrew Tan Jing Bang",
-                "Daniel Wallin",
-                "Kai Yamamoto (山本快)",
-                "Kevin Matthews",
-                "Michael Tripodi"
-            ],
-            "Rw:[m',U' R U]"
         ]
     ],
     "AOK": [
@@ -5064,6 +5286,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -5089,6 +5312,7 @@
             "R D m' U' R U m U' R' U D' R'",
             [
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Ziyi Xu (徐梓翼)"
             ],
             "R D:[m',U' R U]"
@@ -5113,6 +5337,7 @@
             "m2 U' R2 U m2 U' R2 U",
             [
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
                 "Roman Strakhov",
@@ -5152,6 +5377,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi",
                 "Ryan Eckersley",
@@ -5181,6 +5407,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -5216,19 +5443,20 @@
             "y':[R',U m2 U']"
         ],
         [
+            "R' D' m' U' R' U m U' R U D R",
+            [
+                "Jonghyun Kim (김종현)",
+                "Ryan Eckersley"
+            ],
+            "R' D':[m',U' R' U]"
+        ],
+        [
             "y L' U m2 U' L U m2 U' y'",
             [
                 "Daniel Wallin",
                 "Hana Davila"
             ],
             "y:[L',U m2 U']"
-        ],
-        [
-            "R' D' m' U' R' U m U' R U D R",
-            [
-                "Ryan Eckersley"
-            ],
-            "R' D':[m',U' R' U]"
         ],
         [
             "D m' U R U' m2 U R' U' m' D'",
@@ -5253,6 +5481,7 @@
             "D U L' U' m2 U L U' m2 D'",
             [
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -5277,6 +5506,14 @@
             "3Lw':[U,m' D m]"
         ],
         [
+            "z' U2 L' U' m' U L U' m U' z",
+            [
+                "Graham Siggins",
+                "Jonghyun Kim (김종현)"
+            ],
+            "z' U:[U L' U',m']"
+        ],
+        [
             "R2 U' R' e R U R' e' R'",
             [
                 "Kai Yamamoto (山本快)",
@@ -5291,13 +5528,6 @@
                 "Kevin Matthews"
             ],
             "y':[R,U m2 U']"
-        ],
-        [
-            "z' U2 L' U' m' U L U' m U' z",
-            [
-                "Graham Siggins"
-            ],
-            "z' U:[U L' U',m']"
         ],
         [
             "D m' U' L' U m2 U' L U m' D'",
@@ -5329,6 +5559,7 @@
             "D U L U' m2 U L' U' m2 D'",
             [
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -5375,6 +5606,13 @@
                 "Andrew Tan Jing Bang"
             ],
             "S:[D m D',L']"
+        ],
+        [
+            "D m' U' L U m2 U' L' U m' D'",
+            [
+                "Jonghyun Kim (김종현)"
+            ],
+            "D m':[U' L U,m2]"
         ]
     ],
     "AOY": [
@@ -5384,6 +5622,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -5420,6 +5659,7 @@
             "R D' m' U' R U m U' R' U D R'",
             [
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Ziyi Xu (徐梓翼)"
             ],
             "R D':[m',U' R U]"
@@ -5455,6 +5695,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -5471,6 +5712,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Michael Tripodi",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -5507,6 +5749,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -5525,6 +5768,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -5553,20 +5797,21 @@
             "m' D':[U2,m']"
         ],
         [
+            "3Lw' D' U2 m' U2 m D 3Lw",
+            [
+                "Daniel Wallin",
+                "Hana Davila",
+                "Jonghyun Kim (김종현)"
+            ],
+            "3Lw' D':[U2,m']"
+        ],
+        [
             "3Lw' D m U2 m' U2 D' 3Lw",
             [
                 "Andrew Tan Jing Bang",
                 "Michael Tripodi"
             ],
             "3Lw' D:[m,U2]"
-        ],
-        [
-            "3Lw' D' U2 m' U2 m D 3Lw",
-            [
-                "Daniel Wallin",
-                "Hana Davila"
-            ],
-            "3Lw' D':[U2,m']"
         ],
         [
             "4Lw' D' U2 m' U2 m D 4Lw",
@@ -5589,6 +5834,7 @@
             [
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -5646,6 +5892,13 @@
             "L2:[U',m D' m']"
         ],
         [
+            "L' D' U L' U' m' U L U' m D L",
+            [
+                "Jonghyun Kim (김종현)"
+            ],
+            "L' D':[U L' U',m']"
+        ],
+        [
             "3Rw D' m U R U' m' U R' U' D 3Rw'",
             [
                 "Hana Davila"
@@ -5659,6 +5912,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -5689,6 +5943,7 @@
             [
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Leonardo Ezequiel Cruz",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -5725,6 +5980,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Ziyi Xu (徐梓翼)"
@@ -5756,6 +6012,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -5771,6 +6028,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
@@ -5808,6 +6066,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -5824,6 +6083,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Ryan Eckersley"
             ],
@@ -5860,6 +6120,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Ryan Eckersley",
                 "Ziyi Xu (徐梓翼)"
@@ -5908,6 +6169,13 @@
                 "Kai Yamamoto (山本快)"
             ],
             "S':[U',R e' R']"
+        ],
+        [
+            "z' U m' U' L' U m2 U' L U m' U' z",
+            [
+                "Jonghyun Kim (김종현)"
+            ],
+            "z' U m':[U' L' U,m2]"
         ]
     ],
     "APY": [
@@ -5918,6 +6186,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -5933,6 +6202,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
@@ -5969,6 +6239,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi"
             ],
@@ -5997,6 +6268,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
+                "Jonghyun Kim (김종현)",
                 "Ryan Eckersley"
             ],
             "Rw U' Rw:[U R' U',m']"
@@ -6028,6 +6300,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -6052,6 +6325,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -6070,6 +6344,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -6087,6 +6362,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -6113,6 +6389,7 @@
             "D' m2 U' R U m2 U' R' U D",
             [
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -6134,6 +6411,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -6151,6 +6429,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -6170,6 +6449,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -6186,6 +6466,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -6210,6 +6491,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -6224,6 +6506,7 @@
             "z U R U m' U2 m U R' U' z'",
             [
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi"
             ],
@@ -6286,6 +6569,7 @@
             "z' U L' U' m' U L U' m z",
             [
                 "Andrew Tan Jing Bang",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews"
             ],
             "z':[U L' U',m']"
@@ -6297,6 +6581,7 @@
             [
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi"
             ],
@@ -6328,6 +6613,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi",
                 "Ryan Eckersley"
@@ -6372,18 +6658,19 @@
             "x':[R2,U m' U']"
         ],
         [
+            "M R U m' U' R2 U m U' 4Rw",
+            [
+                "Jonghyun Kim (김종현)",
+                "Kai Yamamoto (山本快)"
+            ],
+            "M R:[U m' U',R2]"
+        ],
+        [
             "3Rw' R2 U m' U' R2 U m U' 3Rw",
             [
                 "Ryan Eckersley"
             ],
             "3Rw':[R2,U m' U']"
-        ],
-        [
-            "M R U m' U' R2 U m U' 4Rw",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "M R:[U m' U',R2]"
         ]
     ],
     "AQZ": [
@@ -6411,6 +6698,7 @@
         [
             "z' U L' U' m U L U' m' z",
             [
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews"
             ],
             "z':[U L' U',m]"
@@ -6424,6 +6712,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi",
                 "Ryan Eckersley"
@@ -6453,6 +6742,7 @@
             "R M U' m' U2 m U' M' R'",
             [
                 "Andrew Tan Jing Bang",
+                "Jonghyun Kim (김종현)",
                 "Michael Tripodi"
             ],
             "R M U':[m',U2]"
@@ -6481,6 +6771,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -6504,6 +6795,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -6534,18 +6826,19 @@
             "3Uw':[U' m2 U,R']"
         ],
         [
+            "U2 m' U' R U m2 U' R' U m' U2",
+            [
+                "Andrew Tan Jing Bang",
+                "Jonghyun Kim (김종현)"
+            ],
+            "U2 m':[U' R U,m2]"
+        ],
+        [
             "3Lw' Rw' D' U2 m' U2 m D Rw 3Lw",
             [
                 "Daniel Wallin"
             ],
             "3Lw' Rw' D':[U2,m']"
-        ],
-        [
-            "U2 m' U' R U m2 U' R' U m' U2",
-            [
-                "Andrew Tan Jing Bang"
-            ],
-            "U2 m':[U' R U,m2]"
         ],
         [
             "R2 B U2 m' U2 m B' R2",
@@ -6560,6 +6853,7 @@
             "m2 U R U' m U R' U' m",
             [
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
                 "Ziyi Xu (徐梓翼)"
@@ -6594,6 +6888,14 @@
             "3Rw:[m' D' m,U']"
         ],
         [
+            "z U' m' U' R U m U' R' U2 z'",
+            [
+                "Graham Siggins",
+                "Jonghyun Kim (김종현)"
+            ],
+            "z U':[m',U' R U]"
+        ],
+        [
             "L' e' L' U L e L' U' L2",
             [
                 "Kai Yamamoto (山本快)",
@@ -6610,13 +6912,6 @@
             "y':[U' m2 U,R']"
         ],
         [
-            "z U' m' U' R U m U' R' U2 z'",
-            [
-                "Graham Siggins"
-            ],
-            "z U':[m',U' R U]"
-        ],
-        [
             "S' R' D' m D R D' m' D S",
             [
                 "Andrew Tan Jing Bang"
@@ -6631,6 +6926,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Ryan Eckersley"
             ],
@@ -6667,6 +6963,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -6685,20 +6982,21 @@
     ],
     "ARN": [
         [
+            "3Lw' U2 m' U' R U m U' R' U' 3Lw",
+            [
+                "Andrew Tan Jing Bang",
+                "Jonghyun Kim (김종현)",
+                "Michael Tripodi"
+            ],
+            "3Lw' U:[U m' U',R]"
+        ],
+        [
             "3Rw' U' m' U' m D' m' U m D U 3Rw",
             [
                 "Graham Siggins",
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Rw' U':[m' U' m,D']"
-        ],
-        [
-            "3Lw' U2 m' U' R U m U' R' U' 3Lw",
-            [
-                "Andrew Tan Jing Bang",
-                "Michael Tripodi"
-            ],
-            "3Lw' U:[U m' U',R]"
         ],
         [
             "m' U2 m' U' R U m U' R' U' m",
@@ -6742,19 +7040,20 @@
             "y':[U m2 U',R']"
         ],
         [
+            "R' D' U' R' U m' U' R U m D R",
+            [
+                "Jonghyun Kim (김종현)",
+                "Ryan Eckersley"
+            ],
+            "R' D':[U' R' U,m']"
+        ],
+        [
             "y U m2 U' L' U m2 U' L y'",
             [
                 "Daniel Wallin",
                 "Hana Davila"
             ],
             "y:[U m2 U',L']"
-        ],
-        [
-            "R' D' U' R' U m' U' R U m D R",
-            [
-                "Ryan Eckersley"
-            ],
-            "R' D':[U' R' U,m']"
         ],
         [
             "D m U R U' m2 U R' U' m D'",
@@ -6770,6 +7069,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
@@ -6801,6 +7101,18 @@
     ],
     "ARS": [
         [
+            "z m' U' R U m U' R' U z'",
+            [
+                "Andrew Tan Jing Bang",
+                "Graham Siggins",
+                "Hana Davila",
+                "Jonghyun Kim (김종현)",
+                "Kevin Matthews",
+                "Michael Tripodi"
+            ],
+            "z:[m',U' R U]"
+        ],
+        [
             "e' L' U L e L' U' L",
             [
                 "Daniel Wallin",
@@ -6810,17 +7122,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "[e',L' U L]"
-        ],
-        [
-            "z m' U' R U m U' R' U z'",
-            [
-                "Andrew Tan Jing Bang",
-                "Graham Siggins",
-                "Hana Davila",
-                "Kevin Matthews",
-                "Michael Tripodi"
-            ],
-            "z:[m',U' R U]"
         ]
     ],
     "ART": [
@@ -6875,6 +7176,13 @@
             "U2 x U:[m,U2]"
         ],
         [
+            "z' U2 m U L' U' m2 U L U' m U2 z",
+            [
+                "Jonghyun Kim (김종현)"
+            ],
+            "z' U2 m:[U L' U',m2]"
+        ],
+        [
             "U2 F' m' U2 m U2 F U2",
             [
                 "Hana Davila"
@@ -6898,6 +7206,7 @@
             "z U2 m' U' R U m U' R' U' z'",
             [
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi"
             ],
@@ -6930,19 +7239,20 @@
             "3Lw U:[U R U',m2]"
         ],
         [
+            "z' m' U' L' U m2 U' L U m' z",
+            [
+                "Graham Siggins",
+                "Jonghyun Kim (김종현)"
+            ],
+            "z' m':[U' L' U,m2]"
+        ],
+        [
             "4Lw U2 R U' m2 U R' U' m2 U' 4Lw'",
             [
                 "Kevin Matthews",
                 "Ziyi Xu (徐梓翼)"
             ],
             "4Lw U:[U R U',m2]"
-        ],
-        [
-            "z' m' U' L' U m2 U' L U m' z",
-            [
-                "Graham Siggins"
-            ],
-            "z' m':[U' L' U,m2]"
         ],
         [
             "e R' U' R e2 R' U R e",
@@ -6976,7 +7286,8 @@
         [
             "z' m' U' L' U m U' L U z",
             [
-                "Graham Siggins"
+                "Graham Siggins",
+                "Jonghyun Kim (김종현)"
             ],
             "z':[m',U' L' U]"
         ]
@@ -7003,7 +7314,8 @@
         [
             "R' D' m D R2 D' m' D R'",
             [
-                "Graham Siggins"
+                "Graham Siggins",
+                "Jonghyun Kim (김종현)"
             ],
             "R':[D' m D,R2]"
         ],
@@ -7038,6 +7350,7 @@
         [
             "M L' U' m' U L U' m U M'",
             [
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi"
             ],
@@ -7059,6 +7372,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -7076,6 +7390,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -7100,6 +7415,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -7118,6 +7434,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -7135,6 +7452,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -7151,6 +7469,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi"
@@ -7174,6 +7493,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -7191,6 +7511,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -7210,6 +7531,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -7234,6 +7556,7 @@
             "D m2 U L' U' m2 U L U' D'",
             [
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -7256,6 +7579,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -7270,6 +7594,7 @@
             "z U R U' m' U2 m U' R' U' z'",
             [
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi"
             ],
@@ -7314,6 +7639,18 @@
     ],
     "ASR": [
         [
+            "z U' R U m' U' R' U m z'",
+            [
+                "Andrew Tan Jing Bang",
+                "Graham Siggins",
+                "Hana Davila",
+                "Jonghyun Kim (김종현)",
+                "Kevin Matthews",
+                "Michael Tripodi"
+            ],
+            "z:[U' R U,m']"
+        ],
+        [
             "L' U L e' L' U' L e",
             [
                 "Daniel Wallin",
@@ -7323,17 +7660,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "[L' U L,e']"
-        ],
-        [
-            "z U' R U m' U' R' U m z'",
-            [
-                "Andrew Tan Jing Bang",
-                "Graham Siggins",
-                "Hana Davila",
-                "Kevin Matthews",
-                "Michael Tripodi"
-            ],
-            "z:[U' R U,m']"
         ]
     ],
     "ASW": [
@@ -7353,6 +7679,7 @@
         [
             "3Lw L2 U' m' U L2 U' m U 3Lw'",
             [
+                "Jonghyun Kim (김종현)",
                 "Ryan Eckersley"
             ],
             "3Lw:[L2,U' m' U]"
@@ -7371,6 +7698,7 @@
             [
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi"
             ],
@@ -7399,6 +7727,7 @@
             "z U' R U m2 U' R' U m2 z'",
             [
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi"
             ],
@@ -7442,6 +7771,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi"
             ],
@@ -7473,6 +7803,16 @@
     ],
     "ATC": [
         [
+            "Lw D U L' U' m' U L U' m D' Lw'",
+            [
+                "Andrew Tan Jing Bang",
+                "Jonghyun Kim (김종현)",
+                "Michael Tripodi",
+                "Ryan Eckersley"
+            ],
+            "Lw D:[U L' U',m']"
+        ],
+        [
             "U' 3Lw D m' U m D' m' U' Lw' U",
             [
                 "Daniel Wallin",
@@ -7481,15 +7821,6 @@
                 "Ryan Eckersley"
             ],
             "U' Lw:[m D m',U]"
-        ],
-        [
-            "Lw D U L' U' m' U L U' m D' Lw'",
-            [
-                "Andrew Tan Jing Bang",
-                "Michael Tripodi",
-                "Ryan Eckersley"
-            ],
-            "Lw D:[U L' U',m']"
         ],
         [
             "U2 R' e R U R' e' R U",
@@ -7515,6 +7846,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi",
                 "Ziyi Xu (徐梓翼)"
@@ -7544,6 +7876,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -7567,6 +7900,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -7597,18 +7931,19 @@
             "3Uw':[U' m2 U,R]"
         ],
         [
+            "U2 m' U L' U' m2 U L U' m' U2",
+            [
+                "Andrew Tan Jing Bang",
+                "Jonghyun Kim (김종현)"
+            ],
+            "U2 m':[U L' U',m2]"
+        ],
+        [
             "3Rw Lw D U2 m' U2 m D' Lw' 3Rw'",
             [
                 "Daniel Wallin"
             ],
             "3Rw Lw D:[U2,m']"
-        ],
-        [
-            "U2 m' U L' U' m2 U L U' m' U2",
-            [
-                "Andrew Tan Jing Bang"
-            ],
-            "U2 m':[U L' U',m2]"
         ],
         [
             "L2 B' U2 m' U2 m B L2",
@@ -7624,6 +7959,7 @@
             [
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
                 "Ziyi Xu (徐梓翼)"
@@ -7653,6 +7989,7 @@
             [
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Ryan Eckersley"
             ],
@@ -7695,6 +8032,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
@@ -7719,6 +8057,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -7737,6 +8076,16 @@
     ],
     "ATN": [
         [
+            "3Rw U2 m' U L' U' m U L U 3Rw'",
+            [
+                "Andrew Tan Jing Bang",
+                "Daniel Wallin",
+                "Jonghyun Kim (김종현)",
+                "Michael Tripodi"
+            ],
+            "3Rw U':[U' m' U,L']"
+        ],
+        [
             "3Lw U m' U m D m' U' m D' U' 3Lw'",
             [
                 "Graham Siggins",
@@ -7744,15 +8093,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Lw U:[m' U m,D]"
-        ],
-        [
-            "3Rw U2 m' U L' U' m U L U 3Rw'",
-            [
-                "Andrew Tan Jing Bang",
-                "Daniel Wallin",
-                "Michael Tripodi"
-            ],
-            "3Rw U':[U' m' U,L']"
         ],
         [
             "U' M U R' e R U' R' e' 4Rw U",
@@ -7779,6 +8119,14 @@
             "3Lw':[m' D m,U]"
         ],
         [
+            "z' U m' U L' U' m U L U2 z",
+            [
+                "Graham Siggins",
+                "Jonghyun Kim (김종현)"
+            ],
+            "z' U:[m',U L' U']"
+        ],
+        [
             "R e R U' R' e' R U R2",
             [
                 "Kai Yamamoto (山本快)",
@@ -7793,13 +8141,6 @@
                 "Kevin Matthews"
             ],
             "y':[U m2 U',R]"
-        ],
-        [
-            "z' U m' U L' U' m U L U2 z",
-            [
-                "Graham Siggins"
-            ],
-            "z' U:[m',U L' U']"
         ],
         [
             "D m U' L' U m2 U' L U m D'",
@@ -7823,6 +8164,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Ryan Eckersley"
             ],
@@ -7871,6 +8213,7 @@
             "z' m' U L' U' m U L U' z",
             [
                 "Andrew Tan Jing Bang",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews"
             ],
             "z':[m',U L' U']"
@@ -7927,6 +8270,13 @@
                 "Kai Yamamoto (山本快)"
             ],
             "U2 x U':[m,U2]"
+        ],
+        [
+            "z' U2 m' U L' U' m2 U L U' m' U2 z",
+            [
+                "Jonghyun Kim (김종현)"
+            ],
+            "z' U2 m':[U L' U',m2]"
         ]
     ],
     "ATW": [
@@ -7945,7 +8295,8 @@
             "z m' U R U' m U R' U' z'",
             [
                 "Graham Siggins",
-                "Hana Davila"
+                "Hana Davila",
+                "Jonghyun Kim (김종현)"
             ],
             "z:[m',U R U']"
         ],
@@ -7972,7 +8323,8 @@
         [
             "L D m D' L2 D m' D' L",
             [
-                "Graham Siggins"
+                "Graham Siggins",
+                "Jonghyun Kim (김종현)"
             ],
             "L:[D m D',L2]"
         ],
@@ -8000,6 +8352,16 @@
     ],
     "ATY": [
         [
+            "z' U2 m' U L' U' m U L U z",
+            [
+                "Graham Siggins",
+                "Jonghyun Kim (김종현)",
+                "Kevin Matthews",
+                "Michael Tripodi"
+            ],
+            "z' U':[U' m' U,L']"
+        ],
+        [
             "x' m' U m D m' U' m D' x",
             [
                 "Andrew Tan Jing Bang",
@@ -8008,15 +8370,6 @@
                 "Ryan Eckersley"
             ],
             "x':[m' U m,D]"
-        ],
-        [
-            "z' U2 m' U L' U' m U L U z",
-            [
-                "Graham Siggins",
-                "Kevin Matthews",
-                "Michael Tripodi"
-            ],
-            "z' U':[U' m' U,L']"
         ],
         [
             "R2 e R U' R' e' R U R",
@@ -8042,6 +8395,7 @@
             "3Rw' U2 L' U m2 U' L U m2 U 3Rw",
             [
                 "Andrew Tan Jing Bang",
+                "Jonghyun Kim (김종현)",
                 "Michael Tripodi"
             ],
             "3Rw' U':[U' L' U,m2]"
@@ -8083,6 +8437,7 @@
         [
             "4Lw U' m' U L' U' m U M'",
             [
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi"
@@ -8105,6 +8460,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -8121,6 +8477,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -8146,6 +8503,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -8171,6 +8529,13 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "U' L U':[m',U2]"
+        ],
+        [
+            "U2 m2 U' L U m2 U' L' U'",
+            [
+                "Jonghyun Kim (김종현)"
+            ],
+            "U:[U m2 U',L]"
         ]
     ],
     "AWJ": [
@@ -8181,6 +8546,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -8198,6 +8564,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -8222,6 +8589,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -8239,6 +8607,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -8258,6 +8627,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -8283,6 +8653,7 @@
             "D m2 U L U' m2 U L' U' D'",
             [
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -8304,6 +8675,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Ryan Eckersley",
                 "Ziyi Xu (徐梓翼)"
@@ -8325,6 +8697,7 @@
             [
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi",
                 "Ryan Eckersley"
@@ -8365,6 +8738,7 @@
             "z U R U m' U' R' U m U2 z'",
             [
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi"
             ],
@@ -8396,6 +8770,7 @@
         [
             "3Lw U' m' U L2 U' m U L2 3Lw'",
             [
+                "Jonghyun Kim (김종현)",
                 "Ryan Eckersley"
             ],
             "3Lw:[U' m' U,L2]"
@@ -8424,7 +8799,8 @@
             "z U R U' m' U R' U' m z'",
             [
                 "Graham Siggins",
-                "Hana Davila"
+                "Hana Davila",
+                "Jonghyun Kim (김종현)"
             ],
             "z:[U R U',m']"
         ],
@@ -8453,6 +8829,7 @@
         [
             "3Rw' U2 L U' m' U L' U' m U' 3Rw",
             [
+                "Jonghyun Kim (김종현)",
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Rw' U:[U L U',m']"
@@ -8479,6 +8856,7 @@
                 "Andrew Tan Jing Bang",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi"
             ],
@@ -8501,6 +8879,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
+                "Jonghyun Kim (김종현)",
                 "Michael Tripodi",
                 "Ryan Eckersley"
             ],
@@ -8549,20 +8928,21 @@
             "4Rw':[L,U m2 U']"
         ],
         [
+            "4Lw U m2 U' L' U m2 U' M'",
+            [
+                "Jonghyun Kim (김종현)",
+                "Kevin Matthews",
+                "Michael Tripodi"
+            ],
+            "4Lw:[U m2 U',L']"
+        ],
+        [
             "3Lw U m2 U' L' U m2 U' L 3Lw'",
             [
                 "Graham Siggins",
                 "Ryan Eckersley"
             ],
             "3Lw:[U m2 U',L']"
-        ],
-        [
-            "4Lw U m2 U' L' U m2 U' M'",
-            [
-                "Kevin Matthews",
-                "Michael Tripodi"
-            ],
-            "4Lw:[U m2 U',L']"
         ],
         [
             "S R e' R' U' R e R' U S'",
@@ -8579,6 +8959,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi"
@@ -8609,6 +8990,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -8625,6 +9007,7 @@
             [
                 "Daniel Wallin",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley"
@@ -8653,6 +9036,7 @@
             [
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
                 "Ziyi Xu (徐梓翼)"
@@ -8678,20 +9062,21 @@
     ],
     "AXK": [
         [
+            "L' D U L' U' m' U L U' m D' L",
+            [
+                "Graham Siggins",
+                "Jonghyun Kim (김종현)",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "L' D:[U L' U',m']"
+        ],
+        [
             "y R' U' m U2 m' U' R y'",
             [
                 "Daniel Wallin",
                 "Ryan Eckersley"
             ],
             "y R' U':[m,U2]"
-        ],
-        [
-            "L' D U L' U' m' U L U' m D' L",
-            [
-                "Graham Siggins",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "L' D:[U L' U',m']"
         ],
         [
             "z 4Rw U' m U2 m' U' 4Rw' z'",
@@ -8723,6 +9108,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
@@ -8760,6 +9146,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -8782,6 +9169,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
+                "Jonghyun Kim (김종현)",
                 "Michael Tripodi",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -8843,6 +9231,13 @@
                 "Andrew Tan Jing Bang"
             ],
             "S:[L',D m D']"
+        ],
+        [
+            "D m U' L U m2 U' L' U m D'",
+            [
+                "Jonghyun Kim (김종현)"
+            ],
+            "D m:[U' L U,m2]"
         ]
     ],
     "AXP": [
@@ -8878,6 +9273,13 @@
                 "Kai Yamamoto (山本快)"
             ],
             "S':[R e' R',U']"
+        ],
+        [
+            "z' U m U' L' U m2 U' L U m U' z",
+            [
+                "Jonghyun Kim (김종현)"
+            ],
+            "z' U m:[U' L' U,m2]"
         ]
     ],
     "AXQ": [
@@ -8887,6 +9289,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi",
                 "Ryan Eckersley"
@@ -8934,19 +9337,20 @@
             "3Lw U:[m2,U R U']"
         ],
         [
+            "z' m U' L' U m2 U' L U m z",
+            [
+                "Graham Siggins",
+                "Jonghyun Kim (김종현)"
+            ],
+            "z' m:[U' L' U,m2]"
+        ],
+        [
             "4Lw U m2 U R U' m2 U R' U2 4Lw'",
             [
                 "Kevin Matthews",
                 "Ziyi Xu (徐梓翼)"
             ],
             "4Lw U:[m2,U R U']"
-        ],
-        [
-            "z' m U' L' U m2 U' L U m z",
-            [
-                "Graham Siggins"
-            ],
-            "z' m:[U' L' U,m2]"
         ],
         [
             "e' R' U' R e2 R' U R e'",
@@ -8962,6 +9366,7 @@
             [
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi"
             ],
@@ -8999,7 +9404,8 @@
         [
             "L' D m D' L2 D m' D' L'",
             [
-                "Graham Siggins"
+                "Graham Siggins",
+                "Jonghyun Kim (김종현)"
             ],
             "L':[D m D',L2]"
         ],
@@ -9031,6 +9437,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi",
                 "Ryan Eckersley"
@@ -9056,6 +9463,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -9070,6 +9478,7 @@
             "z U m2 U' R U m2 U' R' z'",
             [
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi"
             ],
@@ -9114,7 +9523,8 @@
         [
             "Rw' U' Rw U R' U' m' U R U' 3Rw' U Rw",
             [
-                "Daniel Wallin"
+                "Daniel Wallin",
+                "Jonghyun Kim (김종현)"
             ],
             "Rw' U' Rw:[U R' U',m']"
         ],
@@ -9147,6 +9557,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -9172,6 +9583,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -9197,6 +9609,13 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "U R' U:[m',U2]"
+        ],
+        [
+            "U2 m2 U R' U' m2 U R U",
+            [
+                "Jonghyun Kim (김종현)"
+            ],
+            "U':[U' m2 U,R']"
         ]
     ],
     "AYJ": [
@@ -9207,6 +9626,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -9230,20 +9650,21 @@
             "R D:[m,D2]"
         ],
         [
+            "D' m2 U' R' U m2 U' R U D",
+            [
+                "Jonghyun Kim (김종현)",
+                "Kai Yamamoto (山本快)",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "D':[m2,U' R' U]"
+        ],
+        [
             "z R U' m U2 m' U' R' z'",
             [
                 "Graham Siggins",
                 "Kevin Matthews"
             ],
             "z R U':[m,U2]"
-        ],
-        [
-            "D' m2 U' R' U m2 U' R U D",
-            [
-                "Kai Yamamoto (山本快)",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "D':[m2,U' R' U]"
         ]
     ],
     "AYL": [
@@ -9254,6 +9675,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Ryan Eckersley",
                 "Ziyi Xu (徐梓翼)"
@@ -9277,6 +9699,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -9296,6 +9719,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -9312,6 +9736,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -9342,6 +9767,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -9366,18 +9792,19 @@
             "x':[U m' U',R2]"
         ],
         [
+            "4Rw' U m' U' R2 U m U' R' M'",
+            [
+                "Jonghyun Kim (김종현)",
+                "Kai Yamamoto (山本快)"
+            ],
+            "4Rw':[U m' U',R2]"
+        ],
+        [
             "3Rw' U m' U' R2 U m U' R2 3Rw",
             [
                 "Ryan Eckersley"
             ],
             "3Rw':[U m' U',R2]"
-        ],
-        [
-            "4Rw' U m' U' R2 U m U' R2 4Rw",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "4Rw':[U m' U',R2]"
         ]
     ],
     "AYR": [
@@ -9404,7 +9831,8 @@
         [
             "z' U' L' U m' U' L U m z",
             [
-                "Graham Siggins"
+                "Graham Siggins",
+                "Jonghyun Kim (김종현)"
             ],
             "z':[U' L' U,m']"
         ]
@@ -9414,6 +9842,7 @@
             "z m2 U' R U m2 U' R' U z'",
             [
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi"
             ],
@@ -9452,6 +9881,16 @@
     ],
     "AYT": [
         [
+            "z' U' L' U' m' U L U' m U2 z",
+            [
+                "Graham Siggins",
+                "Jonghyun Kim (김종현)",
+                "Kevin Matthews",
+                "Michael Tripodi"
+            ],
+            "z' U':[L',U' m' U]"
+        ],
+        [
             "x' D m' U m D' m' U' m x",
             [
                 "Andrew Tan Jing Bang",
@@ -9460,15 +9899,6 @@
                 "Ryan Eckersley"
             ],
             "x':[D,m' U m]"
-        ],
-        [
-            "z' U' L' U' m' U L U' m U2 z",
-            [
-                "Graham Siggins",
-                "Kevin Matthews",
-                "Michael Tripodi"
-            ],
-            "z' U':[L',U' m' U]"
         ],
         [
             "R' U' R' e R U R' e' R2",
@@ -9495,6 +9925,7 @@
         [
             "3Rw' U m' U L U' m U L' U2 3Rw",
             [
+                "Jonghyun Kim (김종현)",
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Rw' U:[m',U L U']"
@@ -9520,6 +9951,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi",
                 "Ryan Eckersley"
@@ -9545,6 +9977,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Hill Pong Yong Feng",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi"
             ],
@@ -9575,6 +10008,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -9591,6 +10025,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi"
@@ -9620,6 +10055,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -9636,6 +10072,7 @@
             [
                 "Daniel Wallin",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Ryan Eckersley"
             ],
@@ -9671,6 +10108,7 @@
             [
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
                 "Ziyi Xu (徐梓翼)"
@@ -9728,6 +10166,13 @@
             "S':[R,D' m D]"
         ],
         [
+            "D' m U R' U' m2 U R U' m D",
+            [
+                "Jonghyun Kim (김종현)"
+            ],
+            "D' m:[U R' U',m2]"
+        ],
+        [
             "y' L U' m' U2 m U' L' y",
             [
                 "Hana Davila"
@@ -9762,6 +10207,13 @@
                 "Kai Yamamoto (山本快)"
             ],
             "S:[L' e L,U]"
+        ],
+        [
+            "z U' m U R U' m2 U R' U' m U z'",
+            [
+                "Jonghyun Kim (김종현)"
+            ],
+            "z U' m:[U R U',m2]"
         ]
     ],
     "AZM": [
@@ -9772,6 +10224,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -9782,20 +10235,21 @@
     ],
     "AZN": [
         [
+            "3Lw' U2 m' U' R' U m U' R U' 3Lw",
+            [
+                "Andrew Tan Jing Bang",
+                "Jonghyun Kim (김종현)",
+                "Michael Tripodi"
+            ],
+            "3Lw' U:[U m' U',R']"
+        ],
+        [
             "3Rw U2 m' U' R2 U m U' R2 U' 3Rw'",
             [
                 "Graham Siggins",
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Rw U:[U m' U',R2]"
-        ],
-        [
-            "3Lw' U2 m' U' R' U m U' R U' 3Lw",
-            [
-                "Andrew Tan Jing Bang",
-                "Michael Tripodi"
-            ],
-            "3Lw' U:[U m' U',R']"
         ],
         [
             "D' U R' U' m' U R' U' m U R2 U' D",
@@ -9840,6 +10294,7 @@
             "R D' U' R U m' U' R' U m D R'",
             [
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Ziyi Xu (徐梓翼)"
             ],
             "R D':[U' R U,m']"
@@ -9873,6 +10328,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
@@ -9927,6 +10383,7 @@
         [
             "z' m U L' U' m' U L U' z",
             [
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews"
             ],
             "z':[m,U L' U']"
@@ -9954,7 +10411,8 @@
         [
             "R D' m D R2 D' m' D R",
             [
-                "Graham Siggins"
+                "Graham Siggins",
+                "Jonghyun Kim (김종현)"
             ],
             "R:[D' m D,R2]"
         ],
@@ -9980,6 +10438,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi"
             ],
@@ -10011,6 +10470,16 @@
     ],
     "AZT": [
         [
+            "3Rw' U' m2 U' L' U m2 U' L U2 3Rw",
+            [
+                "Andrew Tan Jing Bang",
+                "Hana Davila",
+                "Jonghyun Kim (김종현)",
+                "Michael Tripodi"
+            ],
+            "3Rw' U':[m2,U' L' U]"
+        ],
+        [
             "e' R U' R' e2 R U R' e'",
             [
                 "Kai Yamamoto (山本快)",
@@ -10018,15 +10487,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "e':[R U' R',e2]"
-        ],
-        [
-            "3Rw' U' m2 U' L' U m2 U' L U2 3Rw",
-            [
-                "Andrew Tan Jing Bang",
-                "Hana Davila",
-                "Michael Tripodi"
-            ],
-            "3Rw' U':[m2,U' L' U]"
         ],
         [
             "4Rw' L' U' m' U2 m U' L 4Rw",
@@ -10057,6 +10517,7 @@
                 "Andrew Tan Jing Bang",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi"
             ],
@@ -10081,6 +10542,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -10098,6 +10560,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -10115,6 +10578,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -10144,6 +10608,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -10168,6 +10633,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -10192,6 +10658,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -10209,6 +10676,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -10230,6 +10698,7 @@
             "D U m D2 m' U' m D2 m' D'",
             [
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Ryan Eckersley",
                 "Ziyi Xu (徐梓翼)"
@@ -10268,6 +10737,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -10293,6 +10763,7 @@
             "R' U' R U m2 U' R' U R m2",
             [
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Leonardo Ezequiel Cruz",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -10329,6 +10800,7 @@
             "D' U m D' m' U' m D m' D",
             [
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Ryan Eckersley"
             ],
             "D':[U,m D' m']"
@@ -10361,6 +10833,7 @@
             "D' U m D2 m' U' m D2 m' D",
             [
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -10388,6 +10861,7 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -10419,21 +10893,31 @@
             "4Lw:[R,U m' U']"
         ],
         [
+            "M R U m' U' R' U m U' M'",
+            [
+                "Jonghyun Kim (김종현)",
+                "Kai Yamamoto (山本快)"
+            ],
+            "M:[R,U m' U']"
+        ],
+        [
             "m r' R U m' U' R' U m U' r m'",
             [
                 "Ryan Eckersley"
             ],
             "m r':[R,U m' U']"
-        ],
-        [
-            "M R U m' U' R' U m U' M'",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "M:[R,U m' U']"
         ]
     ],
     "GAR": [
+        [
+            "Rw' D' U' R U m' U' R' U m D Rw",
+            [
+                "Andrew Tan Jing Bang",
+                "Jonghyun Kim (김종현)",
+                "Michael Tripodi"
+            ],
+            "Rw' D':[U' R U,m']"
+        ],
         [
             "U 3Rw' D' m' U' m D m' U Rw U'",
             [
@@ -10442,14 +10926,6 @@
                 "Kevin Matthews"
             ],
             "U Rw':[m D' m',U']"
-        ],
-        [
-            "Rw' D' U' R U m' U' R' U m D Rw",
-            [
-                "Andrew Tan Jing Bang",
-                "Michael Tripodi"
-            ],
-            "Rw' D':[U' R U,m']"
         ],
         [
             "U2 L e' L' U' L e L' U'",
@@ -10480,6 +10956,7 @@
             [
                 "Daniel Wallin",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi"
             ],
@@ -10510,6 +10987,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi",
                 "Ryan Eckersley"
@@ -10530,6 +11008,7 @@
             "z' U' m2 U L' U' m2 U L z",
             [
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi"
             ],
@@ -10572,6 +11051,7 @@
             [
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi"
             ],
@@ -10609,6 +11089,7 @@
         [
             "4Rw' U m' U' R U m U' M'",
             [
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews"
             ],
@@ -10628,6 +11109,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
+                "Jonghyun Kim (김종현)",
                 "Michael Tripodi",
                 "Ryan Eckersley"
             ],
@@ -10665,6 +11147,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
@@ -10680,6 +11163,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -10703,6 +11187,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -10734,6 +11219,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -10751,6 +11237,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -10779,6 +11266,7 @@
             [
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Lw U:[D2,m]"
@@ -10826,6 +11314,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi",
                 "Ziyi Xu (徐梓翼)"
@@ -10856,6 +11345,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -10878,6 +11368,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Michael Tripodi",
                 "Ryan Eckersley"
             ],
@@ -10914,6 +11405,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -10942,6 +11434,7 @@
             "D' m D R2 D' m' D R2",
             [
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi"
@@ -10984,6 +11477,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley"
@@ -11043,6 +11537,13 @@
                 "Kai Yamamoto (山本快)"
             ],
             "S':[L e' L',U]"
+        ],
+        [
+            "M R U' m2 U R' U' m2 U M'",
+            [
+                "Jonghyun Kim (김종현)"
+            ],
+            "M:[R,U' m2 U]"
         ]
     ],
     "GBR": [
@@ -11053,6 +11554,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -11076,6 +11578,7 @@
             "L' M U m' U2 m U M' L",
             [
                 "Andrew Tan Jing Bang",
+                "Jonghyun Kim (김종현)",
                 "Michael Tripodi"
             ],
             "L' M U:[m',U2]"
@@ -11103,6 +11606,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi"
             ],
@@ -11139,6 +11643,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -11154,6 +11659,7 @@
             [
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi"
             ],
@@ -11201,20 +11707,21 @@
             "4Lw:[R',U' m2 U]"
         ],
         [
+            "4Rw' U' m2 U R U' m2 U M'",
+            [
+                "Jonghyun Kim (김종현)",
+                "Kevin Matthews",
+                "Michael Tripodi"
+            ],
+            "4Rw':[U' m2 U,R]"
+        ],
+        [
             "3Rw' U' m2 U R U' m2 U R' 3Rw",
             [
                 "Graham Siggins",
                 "Ryan Eckersley"
             ],
             "3Rw':[U' m2 U,R]"
-        ],
-        [
-            "4Rw' U' m2 U R U' m2 U M'",
-            [
-                "Kevin Matthews",
-                "Michael Tripodi"
-            ],
-            "4Rw':[U' m2 U,R]"
         ],
         [
             "S' L' e L U L' e' L U' S",
@@ -11232,6 +11739,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -11249,6 +11757,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -11266,6 +11775,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
@@ -11281,6 +11791,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -11310,6 +11821,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -11333,6 +11845,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -11357,6 +11870,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -11387,6 +11901,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -11411,6 +11926,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -11429,6 +11945,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -11446,6 +11963,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -11475,6 +11993,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -11497,6 +12016,7 @@
             [
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Lw U:[m,D2]"
@@ -11543,6 +12063,7 @@
             "D m D2 m' U m D2 m' U' D'",
             [
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Ryan Eckersley",
                 "Ziyi Xu (徐梓翼)"
@@ -11579,6 +12100,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi",
                 "Ziyi Xu (徐梓翼)"
@@ -11610,6 +12132,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -11627,6 +12150,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -11658,6 +12182,7 @@
             "m2 R' U' R U m2 U' R' U R",
             [
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Leonardo Ezequiel Cruz",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -11685,6 +12210,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Michael Tripodi",
                 "Ryan Eckersley"
             ],
@@ -11729,6 +12255,7 @@
             "D' m D' m' U m D m' U' D",
             [
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Ryan Eckersley"
             ],
             "D':[m D' m',U]"
@@ -11763,6 +12290,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -11797,6 +12325,7 @@
             "D' m D2 m' U m D2 m' U' D",
             [
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -11820,6 +12349,7 @@
             "R2 D' m D R2 D' m' D",
             [
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi"
@@ -11865,6 +12395,7 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -11887,6 +12418,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley"
@@ -11933,18 +12465,19 @@
             "4Lw:[U m' U',R]"
         ],
         [
+            "M U m' U' R U m U' R' M'",
+            [
+                "Jonghyun Kim (김종현)",
+                "Kai Yamamoto (山本快)"
+            ],
+            "M:[U m' U',R]"
+        ],
+        [
             "m r' U m' U' R U m U' R' r m'",
             [
                 "Ryan Eckersley"
             ],
             "m r':[U m' U',R]"
-        ],
-        [
-            "M U m' U' R U m U' R' M'",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "M:[U m' U',R]"
         ]
     ],
     "GQB": [
@@ -11975,9 +12508,25 @@
                 "Kai Yamamoto (山本快)"
             ],
             "S':[U,L e' L']"
+        ],
+        [
+            "M U' m2 U R U' m2 U R' M'",
+            [
+                "Jonghyun Kim (김종현)"
+            ],
+            "M:[U' m2 U,R]"
         ]
     ],
     "GRA": [
+        [
+            "Rw' D' m' U' R U m U' R' U D Rw",
+            [
+                "Andrew Tan Jing Bang",
+                "Jonghyun Kim (김종현)",
+                "Michael Tripodi"
+            ],
+            "Rw' D':[m',U' R U]"
+        ],
         [
             "U Rw' U' m D' m' U m D 3Rw U'",
             [
@@ -11986,14 +12535,6 @@
                 "Kevin Matthews"
             ],
             "U Rw':[U',m D' m']"
-        ],
-        [
-            "Rw' D' m' U' R U m U' R' U D Rw",
-            [
-                "Andrew Tan Jing Bang",
-                "Michael Tripodi"
-            ],
-            "Rw' D':[m',U' R U]"
         ],
         [
             "U L e' L' U L e L' U2",
@@ -12026,6 +12567,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -12041,6 +12583,7 @@
             [
                 "Daniel Wallin",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi"
             ],
@@ -12077,6 +12620,7 @@
             "L' M U' m' U2 m U' M' L",
             [
                 "Andrew Tan Jing Bang",
+                "Jonghyun Kim (김종현)",
                 "Michael Tripodi"
             ],
             "L' M U':[m',U2]"
@@ -12105,6 +12649,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi",
                 "Ryan Eckersley"
@@ -12127,6 +12672,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi"
             ],
@@ -12160,6 +12706,7 @@
             "z' L' U' m2 U L U' m2 U z",
             [
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi"
             ],
@@ -12204,6 +12751,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -12219,6 +12767,7 @@
             [
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi"
             ],
@@ -12248,6 +12797,7 @@
             [
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi"
             ],
@@ -12297,6 +12847,7 @@
         [
             "M U m' U' R' U m U' 4Rw",
             [
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews"
             ],
@@ -12322,20 +12873,21 @@
             "4Lw:[U' m2 U,R']"
         ],
         [
+            "M U' m2 U R' U' m2 U 4Rw",
+            [
+                "Jonghyun Kim (김종현)",
+                "Kevin Matthews",
+                "Michael Tripodi"
+            ],
+            "M:[U' m2 U,R']"
+        ],
+        [
             "3Rw' R U' m2 U R' U' m2 U 3Rw",
             [
                 "Graham Siggins",
                 "Ryan Eckersley"
             ],
             "3Rw':[R,U' m2 U]"
-        ],
-        [
-            "M U' m2 U R' U' m2 U 4Rw",
-            [
-                "Kevin Matthews",
-                "Michael Tripodi"
-            ],
-            "M:[U' m2 U,R']"
         ],
         [
             "S' U L' e L U' L' e' L S",
@@ -12351,6 +12903,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
+                "Jonghyun Kim (김종현)",
                 "Michael Tripodi",
                 "Ryan Eckersley"
             ],
@@ -12389,6 +12942,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
