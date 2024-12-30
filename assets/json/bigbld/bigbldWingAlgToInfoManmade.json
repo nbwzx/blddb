@@ -1847,6 +1847,20 @@
     ],
     "ACM": [
         [
+            "Lw' r2 U L U' r2 U L' U' Lw",
+            [
+                "Andrew Tan Jing Bang",
+                "Christopher Morris",
+                "Daniel Lin",
+                "Ethan Pan",
+                "Jonghyun Kim (김종현)",
+                "Kai Yamamoto (山本快)",
+                "Michael Tripodi",
+                "Xi Lu (鲁曦)"
+            ],
+            "Lw':[r2,U L U']"
+        ],
+        [
             "U' R U' R' U r2 U' R U R' r2 U",
             [
                 "Antonio Kam (甘浩東)",
@@ -1854,24 +1868,10 @@
                 "Daniel Wallin",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
-                "Jonghyun Kim (김종현)",
                 "Leonardo Ezequiel Cruz",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "U' R:[U' R' U,r2]"
-        ],
-        [
-            "Lw' r2 U L U' r2 U L' U' Lw",
-            [
-                "Andrew Tan Jing Bang",
-                "Christopher Morris",
-                "Daniel Lin",
-                "Ethan Pan",
-                "Kai Yamamoto (山本快)",
-                "Michael Tripodi",
-                "Xi Lu (鲁曦)"
-            ],
-            "Lw':[r2,U L U']"
         ],
         [
             "r2 L U L' U' r2 U L U' L'",
@@ -5622,7 +5622,6 @@
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
-                "Michael Tripodi",
                 "Oliver Fritz",
                 "Ryan Eckersley",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
@@ -5634,6 +5633,13 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "[r,U' L' U]"
+        ],
+        [
+            "Uw' R U r' U' R' U r u",
+            [
+                "Michael Tripodi"
+            ],
+            "u':[U' R U,r']"
         ]
     ],
     "AFW": [
@@ -10696,6 +10702,20 @@
     ],
     "AMC": [
         [
+            "Lw' U L U' r2 U L' U' r2 Lw",
+            [
+                "Andrew Tan Jing Bang",
+                "Christopher Morris",
+                "Daniel Lin",
+                "Ethan Pan",
+                "Jonghyun Kim (김종현)",
+                "Kai Yamamoto (山本快)",
+                "Michael Tripodi",
+                "Xi Lu (鲁曦)"
+            ],
+            "Lw':[U L U',r2]"
+        ],
+        [
             "U' r2 R U' R' U r2 U' R U R' U",
             [
                 "Antonio Kam (甘浩東)",
@@ -10703,24 +10723,10 @@
                 "Daniel Wallin",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
-                "Jonghyun Kim (김종현)",
                 "Leonardo Ezequiel Cruz",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "U' R:[r2,U' R' U]"
-        ],
-        [
-            "Lw' U L U' r2 U L' U' r2 Lw",
-            [
-                "Andrew Tan Jing Bang",
-                "Christopher Morris",
-                "Daniel Lin",
-                "Ethan Pan",
-                "Kai Yamamoto (山本快)",
-                "Michael Tripodi",
-                "Xi Lu (鲁曦)"
-            ],
-            "Lw':[U L U',r2]"
         ],
         [
             "L U L' U' r2 U L U' L' r2",
@@ -18496,7 +18502,6 @@
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
-                "Michael Tripodi",
                 "Oliver Fritz",
                 "Ryan Eckersley",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
@@ -18508,6 +18513,13 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "[U' L' U,r]"
+        ],
+        [
+            "u' r' U' R U r U' R' Uw",
+            [
+                "Michael Tripodi"
+            ],
+            "u':[r',U' R U]"
         ]
     ],
     "ATI": [
