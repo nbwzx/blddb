@@ -6403,15 +6403,6 @@
             "Lw:[U2,r' D2 r]"
         ],
         [
-            "U Lw l U' L' U l' U' L U Lw' U'",
-            [
-                "Daniel Wallin",
-                "Kai Yamamoto (山本快)",
-                "Ryan Eckersley"
-            ],
-            "U Lw:[l,U' L' U]"
-        ],
-        [
             "D f L' F' L f' L' F L D'",
             [
                 "Andrew Tan Jing Bang",
@@ -6421,12 +6412,27 @@
             "D:[f,L' F' L]"
         ],
         [
+            "U Lw l U' L' U l' U' L U Lw' U'",
+            [
+                "Kai Yamamoto (山本快)",
+                "Ryan Eckersley"
+            ],
+            "U Lw:[l,U' L' U]"
+        ],
+        [
             "D' b R F R' b' R F' R' D",
             [
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "D':[b,R F R']"
+        ],
+        [
+            "Lw D' U R' u R U2 R' u' R U D Lw'",
+            [
+                "Daniel Wallin"
+            ],
+            "Lw D' U:[R' u R,U2]"
         ],
         [
             "U' 4Rw' l U R U' l' U R' U' 4Rw U",
@@ -7944,6 +7950,7 @@
                 "Adrian Dębski",
                 "Chenhao Sun (孙晨皓)",
                 "Christopher Morris",
+                "Daniel Wallin",
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
@@ -7973,13 +7980,6 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "[r',D R' D']"
-        ],
-        [
-            "4Lw' U R U' r U R' U' r' 4Lw",
-            [
-                "Daniel Wallin"
-            ],
-            "4Lw':[U R U',r]"
         ],
         [
             "x R U R' U' r U R U' Rw' x'",
@@ -8032,6 +8032,7 @@
                 "Adrian Dębski",
                 "Chenhao Sun (孙晨皓)",
                 "Christopher Morris",
+                "Daniel Wallin",
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
@@ -8069,13 +8070,6 @@
                 "Oliver Fritz"
             ],
             "[r',D' L D]"
-        ],
-        [
-            "Rw U' L' U r U' L U r' Rw'",
-            [
-                "Daniel Wallin"
-            ],
-            "Rw:[U' L' U,r]"
         ],
         [
             "4Rw U' L' U r U' L U L' r' x'",
@@ -8127,6 +8121,7 @@
                 "Adrian Dębski",
                 "Chenhao Sun (孙晨皓)",
                 "Christopher Morris",
+                "Daniel Wallin",
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
@@ -8154,14 +8149,6 @@
             "[r',D' L' D]"
         ],
         [
-            "Rw U' L U r U' L' U r' Rw'",
-            [
-                "Daniel Wallin",
-                "Kevin Matthews"
-            ],
-            "Rw:[U' L U,r]"
-        ],
-        [
             "U' Rw d' R' U' R d R' U r' U",
             [
                 "Ryan Eckersley"
@@ -8181,6 +8168,13 @@
                 "Marcell Endrey"
             ],
             "x:[U' L2 U,r]"
+        ],
+        [
+            "Rw U' L U r U' L' U r' Rw'",
+            [
+                "Kevin Matthews"
+            ],
+            "Rw:[U' L U,r]"
         ],
         [
             "d' U' R' U r U' R U r' d",
@@ -8234,6 +8228,7 @@
                 "Adrian Dębski",
                 "Chenhao Sun (孙晨皓)",
                 "Christopher Morris",
+                "Daniel Wallin",
                 "Graham Siggins",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
@@ -8260,13 +8255,6 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "[r',D R D']"
-        ],
-        [
-            "4Lw' U R' U' r U R U' r' 4Lw",
-            [
-                "Daniel Wallin"
-            ],
-            "4Lw':[U R' U',r]"
         ],
         [
             "F R2 F' r F R2 F' r'",
@@ -12049,15 +12037,6 @@
             "Lw:[r' D2 r,U2]"
         ],
         [
-            "U Lw U' L' U l U' L U l' Lw' U'",
-            [
-                "Daniel Wallin",
-                "Kai Yamamoto (山本快)",
-                "Ryan Eckersley"
-            ],
-            "U Lw:[U' L' U,l]"
-        ],
-        [
             "D L' F' L f L' F L f' D'",
             [
                 "Andrew Tan Jing Bang",
@@ -12067,12 +12046,27 @@
             "D:[L' F' L,f]"
         ],
         [
+            "U Lw U' L' U l U' L U l' Lw' U'",
+            [
+                "Kai Yamamoto (山本快)",
+                "Ryan Eckersley"
+            ],
+            "U Lw:[U' L' U,l]"
+        ],
+        [
             "D' R F R' b R F' R' b' D",
             [
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "D':[R F R',b]"
+        ],
+        [
+            "Lw D' U' R' u R U2 R' u' R U' D Lw'",
+            [
+                "Daniel Wallin"
+            ],
+            "Lw D' U':[R' u R,U2]"
         ],
         [
             "U' 4Rw' U R U' l U R' U' l' 4Rw U",
@@ -13863,7 +13857,6 @@
             "R2 U' R d' R' U R d R",
             [
                 "Adrian Dębski",
-                "Daniel Wallin",
                 "Hana Davila",
                 "Kai Yamamoto (山本快)",
                 "Oliver Fritz",
@@ -13911,6 +13904,13 @@
                 "Jonghyun Kim (김종현)"
             ],
             "Dw:[U L' U',r2]"
+        ],
+        [
+            "Lw r U2 R u' R' U' R u R' U' r' Lw'",
+            [
+                "Daniel Wallin"
+            ],
+            "Lw r U:[U,R u' R']"
         ],
         [
             "D Rw U' L U r2 U' L' U r2 Rw' D'",
@@ -15949,7 +15949,6 @@
                 "Andrew Tan Jing Bang",
                 "Antonio Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
-                "Daniel Wallin",
                 "Ethan Pan",
                 "Gavriel Johann Arcilla",
                 "Hana Davila",
@@ -15980,6 +15979,7 @@
         [
             "4Lw U2 R U r U' R' U r' U 4Lw'",
             [
+                "Daniel Wallin",
                 "Xi Lu (鲁曦)"
             ],
             "4Lw U':[U' R U,r]"
@@ -16470,6 +16470,7 @@
                 "Adrian Dębski",
                 "Chenhao Sun (孙晨皓)",
                 "Christopher Morris",
+                "Daniel Wallin",
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
@@ -16499,13 +16500,6 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "[D R' D',r']"
-        ],
-        [
-            "4Lw' r U R U' r' U R' U' 4Lw",
-            [
-                "Daniel Wallin"
-            ],
-            "4Lw':[r,U R U']"
         ],
         [
             "x Rw U R' U' r' U R U' R' x'",
@@ -18601,6 +18595,7 @@
                 "Adrian Dębski",
                 "Chenhao Sun (孙晨皓)",
                 "Christopher Morris",
+                "Daniel Wallin",
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
@@ -18638,13 +18633,6 @@
                 "Oliver Fritz"
             ],
             "[D' L D,r']"
-        ],
-        [
-            "Rw r U' L' U r' U' L U Rw'",
-            [
-                "Daniel Wallin"
-            ],
-            "Rw:[r,U' L' U]"
         ],
         [
             "x r L U' L' U r' U' L U 4Rw'",
@@ -20049,7 +20037,6 @@
                 "Andrew Tan Jing Bang",
                 "Antonio Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
-                "Daniel Wallin",
                 "Ethan Pan",
                 "Gavriel Johann Arcilla",
                 "Hana Davila",
@@ -20080,6 +20067,7 @@
         [
             "4Lw U' r U' R U r' U' R' U2 4Lw'",
             [
+                "Daniel Wallin",
                 "Xi Lu (鲁曦)"
             ],
             "4Lw U':[r,U' R U]"
@@ -20732,6 +20720,7 @@
                 "Adrian Dębski",
                 "Chenhao Sun (孙晨皓)",
                 "Christopher Morris",
+                "Daniel Wallin",
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
@@ -20759,14 +20748,6 @@
             "[D' L' D,r']"
         ],
         [
-            "Rw r U' L U r' U' L' U Rw'",
-            [
-                "Daniel Wallin",
-                "Kevin Matthews"
-            ],
-            "Rw2 R':[U' L U,r']"
-        ],
-        [
             "U' r U' R d' R' U R d Rw' U",
             [
                 "Ryan Eckersley"
@@ -20786,6 +20767,13 @@
                 "Marcell Endrey"
             ],
             "x:[r,U' L2 U]"
+        ],
+        [
+            "Rw2 R' U' L U r' U' L' U Rw'",
+            [
+                "Kevin Matthews"
+            ],
+            "Rw2 R':[U' L U,r']"
         ],
         [
             "d' r U' R' U r' U' R U d",
@@ -21028,7 +21016,6 @@
             "R' d' R' U' R d R' U R2",
             [
                 "Adrian Dębski",
-                "Daniel Wallin",
                 "Hana Davila",
                 "Kai Yamamoto (山本快)",
                 "Oliver Fritz",
@@ -21075,6 +21062,13 @@
                 "Jonghyun Kim (김종현)"
             ],
             "Dw:[r2,U L' U']"
+        ],
+        [
+            "Lw r U R u' R' U R u R' U2 r' Lw'",
+            [
+                "Daniel Wallin"
+            ],
+            "Lw r U:[R u' R',U]"
         ],
         [
             "D Rw' U' L U r2 U' L' U r2 Rw D'",
@@ -22785,6 +22779,7 @@
                 "Adrian Dębski",
                 "Chenhao Sun (孙晨皓)",
                 "Christopher Morris",
+                "Daniel Wallin",
                 "Graham Siggins",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
@@ -22811,13 +22806,6 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "[D R D',r']"
-        ],
-        [
-            "4Lw' r U R' U' r' U R U' 4Lw",
-            [
-                "Daniel Wallin"
-            ],
-            "4Lw':[r,U R' U']"
         ],
         [
             "r F R2 F' r' F R2 F'",

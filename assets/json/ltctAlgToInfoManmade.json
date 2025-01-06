@@ -325,7 +325,8 @@
                 "R' D' R U2 R' D R U R U2 R' U R U R' U2"
             ],
             [
-                "Andy Wong"
+                "Andy Wong",
+                "Jonghyun Kim (김종현)"
             ]
         ],
         [
@@ -356,15 +357,16 @@
     "GAADL": [
         [
             [
-                "U S R B' U' R2 U B U' R2 U R' S'"
+                "U' L' U R' U' R L U2 R' U R U R' U R U"
             ],
             [
-                "Andy Wong"
+                "Andy Wong",
+                "Jonghyun Kim (김종현)"
             ]
         ],
         [
             [
-                "U' L' U R' U' R L U2 R' U R U R' U R U"
+                "U S R B' U' R2 U B U' R2 U R' S'"
             ],
             [
                 "Andy Wong"
@@ -390,6 +392,15 @@
     "GAAEK": [
         [
             [
+                "U' R' U' R U' R' U' R U2 R' L' U R U' L U"
+            ],
+            [
+                "Andy Wong",
+                "Jonghyun Kim (김종현)"
+            ]
+        ],
+        [
+            [
                 "S R U' R2 U B' U' R2 U B R' S' U'"
             ],
             [
@@ -399,14 +410,6 @@
         [
             [
                 "U' R' U' R U' R' U R' U' R U R' F' R U R' U' R' F R' U'"
-            ],
-            [
-                "Andy Wong"
-            ]
-        ],
-        [
-            [
-                "U' R' U' R U' R' U' R U2 R' L' U R U' L U"
             ],
             [
                 "Andy Wong"
@@ -427,7 +430,8 @@
                 "U' R' U2 R U R2 D' R U' R' D R U2 R U2"
             ],
             [
-                "Andy Wong"
+                "Andy Wong",
+                "Jonghyun Kim (김종현)"
             ]
         ]
     ],
@@ -437,7 +441,8 @@
                 "U2 R' U2 R' D' R U R' D R2 U' R' U2 R U"
             ],
             [
-                "Andy Wong"
+                "Andy Wong",
+                "Jonghyun Kim (김종현)"
             ]
         ]
     ],
@@ -447,7 +452,8 @@
                 "U2 R U' R' U' R U2 R' U' R' D' R U2 R' D R"
             ],
             [
-                "Andy Wong"
+                "Andy Wong",
+                "Jonghyun Kim (김종현)"
             ]
         ],
         [
@@ -1329,11 +1335,21 @@
                 "D R' D' R U R' D R2 U' R' U2 R U' R' U2 D'"
             ],
             [
-                "Andy Wong"
+                "Andy Wong",
+                "Jonghyun Kim (김종현)"
             ]
         ]
     ],
     "GADML": [
+        [
+            [
+                "U' D R' D' R D R U2 R' U R U R' U2 D' R' D R D'"
+            ],
+            [
+                "Andy Wong",
+                "Jonghyun Kim (김종현)"
+            ]
+        ],
         [
             [
                 "U' M F' L' F l' U' L2 U2 L' U' L"
@@ -1345,14 +1361,6 @@
         [
             [
                 "R' D R U D R' U R U R' U2 R U D' R' D' R U'"
-            ],
-            [
-                "Andy Wong"
-            ]
-        ],
-        [
-            [
-                "U' D R' D' R D R U2 R' U R U R' U2 D' R' D R D'"
             ],
             [
                 "Andy Wong"
@@ -1391,20 +1399,29 @@
             [
                 "Andy Wong"
             ]
+        ],
+        [
+            [
+                "D2 R D R' D' R' U2 R U' R' U' R U2 D R D' R' U D2"
+            ],
+            [
+                "Jonghyun Kim (김종현)"
+            ]
         ]
     ],
     "GADNL": [
         [
             [
-                "U L D L' U' L D' L2 U L U2 L' U L U"
+                "U' D2 R D R' U' R D' R2 U R U2 R' U R U' D2"
             ],
             [
-                "Andy Wong"
+                "Andy Wong",
+                "Jonghyun Kim (김종현)"
             ]
         ],
         [
             [
-                "U' D2 R D R' U' R D' R2 U R U2 R' U R U' D2"
+                "U L D L' U' L D' L2 U L U2 L' U L U"
             ],
             [
                 "Andy Wong"
@@ -1417,7 +1434,8 @@
                 "U D' R' U' R U2 R' U' R2 D R' U R D' R' U D"
             ],
             [
-                "Andy Wong"
+                "Andy Wong",
+                "Jonghyun Kim (김종현)"
             ]
         ]
     ],
@@ -1427,7 +1445,8 @@
                 "U2 D2 R U R' U2 R U R2 D' R U' R' D R D2"
             ],
             [
-                "Andy Wong"
+                "Andy Wong",
+                "Jonghyun Kim (김종현)"
             ]
         ]
     ],
@@ -1437,7 +1456,8 @@
                 "D2 R' D' R U R' D R2 U' R' U2 R U' R' U2 D2"
             ],
             [
-                "Andy Wong"
+                "Andy Wong",
+                "Jonghyun Kim (김종현)"
             ]
         ],
         [
@@ -1545,9 +1565,26 @@
             [
                 "Andy Wong"
             ]
+        ],
+        [
+            [
+                "U' D2 R' D' R D R U2 R' U R U R' U2 D' R' D R D2"
+            ],
+            [
+                "Jonghyun Kim (김종현)"
+            ]
         ]
     ],
     "GADQK": [
+        [
+            [
+                "D' R D R' D' R' U2 R U' R' U' R U2 D R D' R' U D"
+            ],
+            [
+                "Andy Wong",
+                "Jonghyun Kim (김종현)"
+            ]
+        ],
         [
             [
                 "U f' L B L2 B2 L F L' B L S"
@@ -1583,14 +1620,6 @@
         [
             [
                 "U R U R' U D2 R U D' R' U R D R' U' D2 R U R'"
-            ],
-            [
-                "Andy Wong"
-            ]
-        ],
-        [
-            [
-                "D' R D R' D' R' U2 R U' R' U' R U2 D R D' R' U D"
             ],
             [
                 "Andy Wong"
@@ -1651,7 +1680,8 @@
                 "U' D' R D R' U' R D' R2 U R U2 R' U R U' D"
             ],
             [
-                "Andy Wong"
+                "Andy Wong",
+                "Jonghyun Kim (김종현)"
             ]
         ]
     ],
@@ -1661,7 +1691,8 @@
                 "U R' U' R U2 R' U' R2 D R' U R D' R' U"
             ],
             [
-                "Andy Wong"
+                "Andy Wong",
+                "Jonghyun Kim (김종현)"
             ]
         ]
     ],
@@ -1671,7 +1702,8 @@
                 "U2 D' R U R' U2 R U R2 D' R U' R' D R D"
             ],
             [
-                "Andy Wong"
+                "Andy Wong",
+                "Jonghyun Kim (김종현)"
             ]
         ]
     ],
@@ -1681,7 +1713,8 @@
                 "D' R' D' R U R' D R2 U' R' U2 R U' R' U2 D"
             ],
             [
-                "Andy Wong"
+                "Andy Wong",
+                "Jonghyun Kim (김종현)"
             ]
         ]
     ],
@@ -1733,9 +1766,26 @@
             [
                 "Andy Wong"
             ]
+        ],
+        [
+            [
+                "U' D' R' D' R D R U2 R' U R U R' U2 D' R' D R D"
+            ],
+            [
+                "Jonghyun Kim (김종현)"
+            ]
         ]
     ],
     "GADTK": [
+        [
+            [
+                "R D R' D' R' U2 R U' R' U' R U2 D R D' R' U"
+            ],
+            [
+                "Andy Wong",
+                "Jonghyun Kim (김종현)"
+            ]
+        ],
         [
             [
                 "R U F' U' R' U2 R U' R' U' R U' F U' R' U"
@@ -1778,14 +1828,6 @@
         ],
         [
             [
-                "R D R' D' R' U2 R U' R' U' R U2 D R D' R' U"
-            ],
-            [
-                "Andy Wong"
-            ]
-        ],
-        [
-            [
                 "R U R' U R2 U2 R2 U' D R' U' R U D' R U'"
             ],
             [
@@ -1799,22 +1841,24 @@
                 "U' R D R' U' R D' R2 U R U2 R' U R U'"
             ],
             [
-                "Andy Wong"
+                "Andy Wong",
+                "Jonghyun Kim (김종현)"
             ]
         ]
     ],
     "GADWK": [
         [
             [
-                "U' L' U' L U2 L' U' L2 D L' U L D' L' U'"
+                "U D2 R' U' R U2 R' U' R2 D R' U R D' R' U D2"
             ],
             [
-                "Andy Wong"
+                "Andy Wong",
+                "Jonghyun Kim (김종현)"
             ]
         ],
         [
             [
-                "U D2 R' U' R U2 R' U' R2 D R' U R D' R' U D2"
+                "U' L' U' L U2 L' U' L2 D L' U L D' L' U'"
             ],
             [
                 "Andy Wong"
@@ -1827,7 +1871,8 @@
                 "U2 D R U R' U2 R U R2 D' R U' R' D R D'"
             ],
             [
-                "Andy Wong"
+                "Andy Wong",
+                "Jonghyun Kim (김종현)"
             ]
         ]
     ],
@@ -1837,7 +1882,8 @@
                 "U D R' U' R U2 R' U' R2 D R' U R D' R' U D'"
             ],
             [
-                "Andy Wong"
+                "Andy Wong",
+                "Jonghyun Kim (김종현)"
             ]
         ]
     ],
@@ -1847,7 +1893,8 @@
                 "U2 R U R' U2 R U R2 D' R U' R' D R"
             ],
             [
-                "Andy Wong"
+                "Andy Wong",
+                "Jonghyun Kim (김종현)"
             ]
         ]
     ],
@@ -1857,7 +1904,8 @@
                 "R' D' R U R' D R2 U' R' U2 R U' R' U2"
             ],
             [
-                "Andy Wong"
+                "Andy Wong",
+                "Jonghyun Kim (김종현)"
             ]
         ]
     ],
@@ -1868,6 +1916,14 @@
             ],
             [
                 "Andy Wong"
+            ]
+        ],
+        [
+            [
+                "U' R' D' R D R U2 R' U R U R' U2 D' R' D R"
+            ],
+            [
+                "Jonghyun Kim (김종현)"
             ]
         ]
     ],
@@ -1919,6 +1975,14 @@
             [
                 "Andy Wong"
             ]
+        ],
+        [
+            [
+                "D R D R' D' R' U2 R U' R' U' R U2 D R D' R' U D'"
+            ],
+            [
+                "Jonghyun Kim (김종현)"
+            ]
         ]
     ],
     "GADZL": [
@@ -1927,7 +1991,8 @@
                 "U' D R D R' U' R D' R2 U R U2 R' U R U' D'"
             ],
             [
-                "Andy Wong"
+                "Andy Wong",
+                "Jonghyun Kim (김종현)"
             ]
         ]
     ],
@@ -1937,7 +2002,8 @@
                 "U' R U R' U R U R2 D' r U2 r' D R2 U R'"
             ],
             [
-                "Andy Wong"
+                "Andy Wong",
+                "Jonghyun Kim (김종현)"
             ]
         ],
         [
@@ -1963,7 +2029,8 @@
                 "R U R' U M F R' F' r U' R U' R' U"
             ],
             [
-                "Andy Wong"
+                "Andy Wong",
+                "Jonghyun Kim (김종현)"
             ]
         ],
         [
@@ -1981,22 +2048,24 @@
                 "U' R U R' U r' F R F' M' U' R U' R'"
             ],
             [
-                "Andy Wong"
+                "Andy Wong",
+                "Jonghyun Kim (김종현)"
             ]
         ]
     ],
     "GAGBL": [
         [
             [
-                "f U' R' U R' U' R2 U2 R' D' R U' R' D f'"
+                "U' F U' R' U R U F' R U R2 U R2 U2 R' U"
             ],
             [
-                "Andy Wong"
+                "Andy Wong",
+                "Jonghyun Kim (김종현)"
             ]
         ],
         [
             [
-                "U' F U' R' U R U F' R U R2 U R2 U2 R' U"
+                "f U' R' U R' U' R2 U2 R' D' R U' R' D f'"
             ],
             [
                 "Andy Wong"
@@ -2065,7 +2134,8 @@
                 "U' R U2 R2 U' R2 U' R' F U' R' U' R U F' U"
             ],
             [
-                "Andy Wong"
+                "Andy Wong",
+                "Jonghyun Kim (김종현)"
             ]
         ],
         [
@@ -2091,7 +2161,8 @@
                 "R U' R2 D' r U2 r' D R2 U' R' U' R U' R' U"
             ],
             [
-                "Andy Wong"
+                "Andy Wong",
+                "Jonghyun Kim (김종현)"
             ]
         ],
         [
@@ -2117,7 +2188,8 @@
                 "L U' R U R' L' U2 R U' R' U' R U' R'"
             ],
             [
-                "Andy Wong"
+                "Andy Wong",
+                "Jonghyun Kim (김종현)"
             ]
         ],
         [
@@ -2144,6 +2216,7 @@
             ],
             [
                 "Andy Wong",
+                "Jonghyun Kim (김종현)",
                 "Phillip Maxwell"
             ]
         ],
@@ -2163,6 +2236,7 @@
             ],
             [
                 "Andy Wong",
+                "Jonghyun Kim (김종현)",
                 "Phillip Maxwell"
             ]
         ],
@@ -2189,7 +2263,8 @@
                 "U R U2 R D R' U' R D' R2 U R U2 R'"
             ],
             [
-                "Andy Wong"
+                "Andy Wong",
+                "Jonghyun Kim (김종현)"
             ]
         ],
         [
@@ -2207,7 +2282,8 @@
                 "R U2 R' U' R2 D R' U R D' R' U2 R' U'"
             ],
             [
-                "Andy Wong"
+                "Andy Wong",
+                "Jonghyun Kim (김종현)"
             ]
         ],
         [
@@ -2225,7 +2301,8 @@
                 "R U R' U R U R' U2 R L U' R' U L'"
             ],
             [
-                "Andy Wong"
+                "Andy Wong",
+                "Jonghyun Kim (김종현)"
             ]
         ]
     ],
