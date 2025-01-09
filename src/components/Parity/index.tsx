@@ -17,6 +17,7 @@ const Parity = ({ codeType }: { codeType: string }) => {
   const [loading, setLoading] = useState(true);
 
   let is3bld = true;
+  const selectValuesLen = 4;
   let converter = codeConverter;
   const bigbldCodeTypes = ["wing", "xcenter", "tcenter", "midge"];
   if (bigbldCodeTypes.indexOf(codeType) !== -1) {
@@ -24,10 +25,20 @@ const Parity = ({ codeType }: { codeType: string }) => {
     is3bld = false;
   }
 
-  const defaultMode = is3bld ? "nightmare" : "manmade";
+  const availableModes = is3bld ? ["nightmare", "manmade"] : ["manmade"];
+  const defaultMode = availableModes[0];
   const [manmade, setManmade] = useState({});
   const [nightmare, setNightmare] = useState({});
   const [nightmareSelected, setNightmareSelected] = useState({});
+  const [modeValue, setModeValue] = useState(() => {
+    if (typeof window !== "undefined") {
+      const savedMode = localStorage.getItem("mode");
+      return savedMode && availableModes.includes(savedMode)
+        ? savedMode
+        : defaultMode;
+    }
+    return defaultMode;
+  });
 
   useEffect(() => {
     const loadData = async () => {
@@ -50,7 +61,7 @@ const Parity = ({ codeType }: { codeType: string }) => {
 
         const params = new URLSearchParams(window.location.search);
         const positionParam = params.get("position") || "";
-        const modeParam = params.get("mode") || defaultMode;
+        const modeParam = params.get("mode") || modeValue;
 
         if (positionParam) {
           const positions = positionParam.split("-");
@@ -69,7 +80,7 @@ const Parity = ({ codeType }: { codeType: string }) => {
       }
     };
     loadData();
-  }, [codeType, is3bld, converter, defaultMode]);
+  }, [codeType, is3bld, converter, defaultMode, modeValue]);
 
   const modeToData = is3bld
     ? {
@@ -127,8 +138,16 @@ const Parity = ({ codeType }: { codeType: string }) => {
     }
   };
 
-  const [selectValues, setSelectValues] = useState(["", "", "", ""]);
-  const [modeValue, setModeValue] = useState("");
+  useEffect(() => {
+    if (availableModes.length === 1) {
+      return;
+    }
+    localStorage.setItem("mode", modeValue);
+  }, [availableModes.length, codeType, modeValue]);
+
+  const [selectValues, setSelectValues] = useState(
+    Array(selectValuesLen).fill(""),
+  );
   const compositionRef = useRef<boolean>(false);
 
   const scrollToTop = () => {
@@ -142,7 +161,7 @@ const Parity = ({ codeType }: { codeType: string }) => {
     if (!compositionRef.current) {
       const newValue = e.target.value.toUpperCase();
       const newSelectValues = converter.customCodeToPosition(
-        newValue.padEnd(4, " "),
+        newValue.padEnd(selectValuesLen, " "),
         codeType,
       );
       setSelectValues(newSelectValues);
@@ -274,7 +293,7 @@ const Parity = ({ codeType }: { codeType: string }) => {
                     placeholder=""
                     className="text-transform: ml-2 w-[4.5rem] rounded-sm border-b-[3px] border-gray-500 bg-inherit px-2 py-1 text-base font-medium uppercase text-dark outline-none transition-all duration-300 focus:border-primary dark:border-gray-100 dark:bg-inherit dark:text-white dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
                     autoComplete="off"
-                    maxLength={4}
+                    maxLength={selectValuesLen}
                     onChange={handleInputChange}
                     onCompositionStart={Composition}
                     onCompositionEnd={Composition}
