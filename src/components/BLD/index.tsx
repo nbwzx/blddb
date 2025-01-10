@@ -20,7 +20,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
   const selectValuesLen = codeType === "parity" ? 4 : 3;
   let converter = codeConverter;
   const bigbldCodeTypes = ["wing", "xcenter", "tcenter", "midge"];
-  if (bigbldCodeTypes.indexOf(codeType) !== -1) {
+  if (bigbldCodeTypes.includes(codeType)) {
     converter = bigbldCodeConverter;
     is3bld = false;
   }

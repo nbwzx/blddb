@@ -32,7 +32,7 @@ const Table = ({
   let converter = codeConverter;
   const bigbldCodeTypes = ["wing", "xcenter", "tcenter", "midge"];
   const commutatorNotNeeded = ["parity"];
-  if (bigbldCodeTypes.indexOf(codeType) !== -1) {
+  if (bigbldCodeTypes.includes(codeType)) {
     converter = bigbldCodeConverter;
     is3bld = false;
   }
