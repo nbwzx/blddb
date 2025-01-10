@@ -17,7 +17,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
   const [loading, setLoading] = useState(true);
 
   let is3bld = true;
-  const selectValuesLen = 3;
+  const selectValuesLen = codeType === "parity" ? 4 : 3;
   let converter = codeConverter;
   const bigbldCodeTypes = ["wing", "xcenter", "tcenter", "midge"];
   if (bigbldCodeTypes.indexOf(codeType) !== -1) {
@@ -203,10 +203,6 @@ const BLD = ({ codeType }: { codeType: string }) => {
     }
   };
 
-  const filteredPositions = converter.positionArray.filter(
-    (position) => converter.positionToCodeType(position) === codeType,
-  );
-
   useEffect(() => {
     if (!loading && inputRef.current) {
       const positions = selectValues;
@@ -218,101 +214,123 @@ const BLD = ({ codeType }: { codeType: string }) => {
     return <Loading />;
   }
 
-  return (
+  const positionElement = ({ positionHint }) => (
+    <div className="mb-3 mr-2 mt-4 inline-block font-bold text-dark dark:text-white">
+      {positionHint}
+    </div>
+  );
+
+  const inputElement = ({ inputWidth }) => (
+    <div className="mb-8">
+      {positionElement({ positionHint: t("common.pairs") })}
+      <input
+        id="inputText"
+        type="text"
+        ref={inputRef}
+        placeholder=""
+        style={{ width: `${inputWidth}rem` }}
+        className="text-transform: ml-2 rounded-sm border-b-[3px] border-gray-500 bg-inherit px-2 py-1 text-base font-medium uppercase text-dark outline-none transition-all duration-300 focus:border-primary dark:border-gray-100 dark:bg-inherit dark:text-white dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
+        autoComplete="off"
+        maxLength={selectValuesLen}
+        onChange={handleInputChange}
+        onCompositionStart={Composition}
+        onCompositionEnd={Composition}
+        onCompositionUpdate={Composition}
+        onClick={scrollToTop}
+      />
+      <span className="mx-3"></span>
+      <div className="inline-block">
+        {positionElement({ positionHint: t("common.mode") })}
+        <select
+          id="modeValue"
+          onChange={handleModeChange}
+          onClick={scrollToTop}
+          ref={modeRef}
+          value={modeValue}
+          className="text-transform: inline-block rounded-sm border-b-[3px] border-gray-500 bg-inherit py-1 pr-5 text-base font-medium text-dark outline-none transition-all duration-300 focus:border-primary dark:border-gray-100 dark:bg-gray-dark dark:text-white dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
+        >
+          {Object.entries(modeToEmoji).map(([mode, emoji]) => (
+            <option key={mode} value={mode}>
+              {emoji + t(`common.${mode}`)}
+            </option>
+          ))}
+        </select>
+      </div>
+    </div>
+  );
+
+  const groupInputElement = ({ groupArray, positionType }) =>
+    groupArray.map((index: number) => (
+      <React.Fragment key={index}>
+        <select
+          value={selectValues[index]}
+          onChange={(e) => handleSelectChange(e, index)}
+          onClick={scrollToTop}
+          ref={(ref) => (selectRefs.current[index] = ref as HTMLSelectElement)}
+          className="text-transform: w-[3.5rem] rounded-sm border-b-[3px] border-gray-500 bg-inherit py-1 text-base font-medium text-dark outline-none transition-all duration-300 focus:border-primary dark:border-gray-100 dark:bg-gray-dark dark:text-white dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
+        >
+          <option></option>
+          {converter.positionArray
+            .filter(
+              (position) =>
+                converter.positionToCodeType(position) === positionType,
+            )
+            .map((position) => (
+              <option key={position}>{position}</option>
+            ))}
+        </select>
+        {index !== groupArray[groupArray.length - 1] && (
+          <span className="mx-1">--</span>
+        )}
+      </React.Fragment>
+    ));
+
+  const renderParity = () => (
     <>
-      <section className="pb-[120px] pt-[100px]">
-        <div className="container">
-          <div className="-mx-4 flex flex-wrap justify-center">
-            <div className="w-full px-4 lg:w-10/12">
-              <div>
-                <h2 className="mb-8 text-center text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight">
-                  {t(`${codeType}.title`)}
-                </h2>
-                <p className="text-black dark:text-white">
-                  {t(`${codeType}.hint`)}
-                </p>
-                <div className="mb-3 mr-2 mt-4 inline-block font-bold text-dark dark:text-white">
-                  {t("common.position")}
-                </div>
-                {[0, 1, 2].map((index) => (
-                  <React.Fragment key={index}>
-                    <select
-                      value={selectValues[index]}
-                      onChange={(e) => handleSelectChange(e, index)}
-                      onClick={scrollToTop}
-                      ref={(ref) =>
-                        (selectRefs.current[index] = ref as HTMLSelectElement)
-                      }
-                      className="text-transform: w-[3.5rem] rounded-sm border-b-[3px] border-gray-500 bg-inherit py-1 text-base font-medium text-dark outline-none transition-all duration-300 focus:border-primary dark:border-gray-100 dark:bg-gray-dark dark:text-white dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
-                    >
-                      <option></option>
-                      {filteredPositions.map((position) => (
-                        <option key={position}>{position}</option>
-                      ))}
-                    </select>
-                    {index !== 2 && <span className="mx-1">--</span>}
-                  </React.Fragment>
-                ))}
-                <div className="mb-8">
-                  <label
-                    htmlFor="inputText"
-                    className="mb-3 mt-4 inline-block font-bold text-dark dark:text-white"
-                  >
-                    {t("common.pairs")}
-                  </label>
-                  <input
-                    id="inputText"
-                    type="text"
-                    ref={inputRef}
-                    placeholder=""
-                    className="text-transform: ml-2 w-[4rem] rounded-sm border-b-[3px] border-gray-500 bg-inherit px-2 py-1 text-base font-medium uppercase text-dark outline-none transition-all duration-300 focus:border-primary dark:border-gray-100 dark:bg-inherit dark:text-white dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
-                    autoComplete="off"
-                    maxLength={selectValuesLen}
-                    onChange={handleInputChange}
-                    onCompositionStart={Composition}
-                    onCompositionEnd={Composition}
-                    onCompositionUpdate={Composition}
-                    onClick={scrollToTop}
-                  />
-                  <span className="mx-3"></span>
-                  <div className="inline-block">
-                    <label
-                      htmlFor="modeValue"
-                      className="mb-3 mt-4 inline-block font-bold text-dark dark:text-white"
-                    >
-                      {t("common.mode")}
-                    </label>
-                    <select
-                      id="modeValue"
-                      onChange={handleModeChange}
-                      onClick={scrollToTop}
-                      ref={modeRef}
-                      value={modeValue}
-                      className="text-transform: ml-2 inline-block rounded-sm border-b-[3px] border-gray-500 bg-inherit py-1 pr-5 text-base font-medium text-dark outline-none transition-all duration-300 focus:border-primary dark:border-gray-100 dark:bg-gray-dark dark:text-white dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
-                    >
-                      {Object.entries(modeToEmoji).map(([mode, emoji]) => (
-                        <option key={mode} value={mode}>
-                          {emoji + t(`common.${mode}`)}
-                        </option>
-                      ))}
-                    </select>
-                  </div>
-                  <Table
-                    codeType={codeType}
-                    inputText={converter.positionToCustomCode(selectValues)}
-                    data={modeToData[modeValue]}
-                    divRef={divRef}
-                    tableRef={tableRef}
-                    selected={modeToSelected[modeValue]}
-                    sourceToUrl={sourceToUrl}
-                  />
-                </div>
-              </div>
+      {positionElement({ positionHint: t(`${codeType}.edgeswap`) })}
+      {groupInputElement({ groupArray: [0, 1], positionType: "edge" })}
+      <br />
+      {positionElement({ positionHint: t(`${codeType}.cornerswap`) })}
+      {groupInputElement({ groupArray: [2, 3], positionType: "corner" })}
+      {inputElement({ inputWidth: 4.5 })}
+    </>
+  );
+
+  const renderBLD = () => (
+    <>
+      {positionElement({ positionHint: t("common.position") })}
+      {groupInputElement({ groupArray: [0, 1, 2], positionType: codeType })}
+      {inputElement({ inputWidth: 4 })}
+    </>
+  );
+
+  return (
+    <section className="pb-[120px] pt-[100px]">
+      <div className="container">
+        <div className="-mx-4 flex flex-wrap justify-center">
+          <div className="w-full px-4 lg:w-10/12">
+            <div>
+              <h2 className="mb-8 text-center text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight">
+                {t(`${codeType}.title`)}
+              </h2>
+              <p className="text-black dark:text-white">
+                {t(`${codeType}.hint`)}
+              </p>
+              {codeType === "parity" ? renderParity() : renderBLD()}
+              <Table
+                codeType={codeType}
+                inputText={converter.positionToCustomCode(selectValues)}
+                data={modeToData[modeValue]}
+                divRef={divRef}
+                tableRef={tableRef}
+                selected={modeToSelected[modeValue]}
+                sourceToUrl={sourceToUrl}
+              />
             </div>
           </div>
         </div>
-      </section>
-    </>
+      </div>
+    </section>
   );
 };
 
