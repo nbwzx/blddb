@@ -116,7 +116,7 @@ def main():
 
             patterns = {
                 "ignore_case":
-                ["UF5", "5 Cycle", "5-Cycle", "5 Style", "5-Style",
+                ["UF5", "5 Cycle", "5-Cycle", "5 Style", "5-Style", "DFR3",
                  "4x4", "5x5", "6x6", "7x7",
                  "4BLD", "5BLD", "6BLD", "7BLD", "BigBLD",
                  "wing", "midge", "center", "centre",
