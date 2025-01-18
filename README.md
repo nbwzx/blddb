@@ -17,7 +17,7 @@ Version 1 ([main branch](https://github.com/nbwzx/blddb/tree/main)): The origina
 
 ## License GPL-3.0
 
-    Copyright (C) 2022-2024 Zixing Wang
+    Copyright (C) 2022-2025 Zixing Wang
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
