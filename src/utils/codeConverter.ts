@@ -36,6 +36,7 @@ const codeConverter = (function () {
     "DL": "LD", "LD": "DL",
     "DR": "RD", "RD": "DR",
     "DB": "BD", "BD": "DB",
+    "*": "*",
   };
 
   function codeTypeToNumber(codeType: string) {
@@ -96,6 +97,9 @@ const codeConverter = (function () {
         if (storedValues[i] === code[j]) {
           result[j] = positionArray[i];
         }
+        if (code[j] === "*") {
+          result[j] = "*";
+        }
       }
     }
     return result;
@@ -107,6 +111,9 @@ const codeConverter = (function () {
       const index = positionArray.indexOf(pos);
       if (index !== -1) {
         result += initialInputValues[index];
+      }
+      if (pos === "*") {
+        result += "*";
       }
     }
     return result;
@@ -123,6 +130,9 @@ const codeConverter = (function () {
       const index = positionArray.indexOf(pos);
       if (index !== -1) {
         result += storedValues[index];
+      }
+      if (pos === "*") {
+        result += "*";
       }
     }
     return result;
@@ -164,6 +174,60 @@ const codeConverter = (function () {
     return variantCode;
   }
 
+  function initCodeToCustomCode(code: string, codeType: string) {
+    if (codeType === "parity") {
+      return (
+        initCodeToCustomCode(code.slice(0, 2), "edge") +
+        initCodeToCustomCode(code.slice(2, 4), "corner")
+      );
+    }
+    let storedValues = "";
+    if (typeof localStorage !== "undefined") {
+      storedValues =
+        localStorage.getItem(localStorageKey) ?? initialInputValues;
+    }
+    const result: string[] = Array(code.length).fill(" ");
+    for (const i in positionArray) {
+      if (positionToCodeType(positionArray[i]) !== codeType) {
+        continue;
+      }
+      for (let j = 0; j < code.length; j++) {
+        if (initialInputValues[i] === code[j]) {
+          result[j] = storedValues[i];
+        }
+      }
+    }
+    return result.join("");
+  }
+
+  function customCodeToVariantCustomCode(code: string, codeType: string) {
+    if (codeType === "parity") {
+      return cartesianProduct([
+        customCodeToVariantCustomCode(code.slice(0, 2), "edge"),
+        customCodeToVariantCustomCode(code.slice(2, 4), "corner"),
+      ]);
+    }
+    const result = customCodeToPosition(code, codeType);
+    const displacePositions: string[][] = [result];
+    for (let i = 1; i < codeTypeToNumber(codeType); i++) {
+      displacePositions.push(
+        displacePositions[i - 1].map((pos) => nextPositionsMap[pos]),
+      );
+    }
+    const displaceCode = displacePositions
+      .map((pos) => positionToCustomCode(pos))
+      .filter((initCode) => initCode.trim() !== "");
+    const variantCode = generateCyclicPermutations(displaceCode);
+    return variantCode;
+  }
+
+  function initCodeToVariantCustomCode(code: string, codeType: string) {
+    return customCodeToVariantCustomCode(
+      initCodeToCustomCode(code, codeType),
+      codeType,
+    );
+  }
+
   return {
     positionToCodeType,
     customCodeToInitCode,
@@ -171,6 +235,7 @@ const codeConverter = (function () {
     positionToCustomCode,
     customCodeToVariantCode,
     codeTypeToNumber,
+    initCodeToVariantCustomCode,
     initialInputValues,
     letteringSchemes,
     positionArray,

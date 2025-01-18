@@ -5,6 +5,17 @@ import codeConverter from "@/utils/codeConverter";
 import bigbldCodeConverter from "@/utils/bigbldCodeConverter";
 import { useTranslation } from "@/i18n/client";
 
+function matchesPattern(patterns: string[], str: string): boolean {
+  for (const pattern of patterns) {
+    const regexPattern = pattern.replace(/\*/gu, ".");
+    const regex = new RegExp(`^${regexPattern}$`, "u");
+    if (regex.test(str)) {
+      return true;
+    }
+  }
+  return false;
+}
+
 const Table = ({
   codeType,
   inputText,
@@ -42,9 +53,15 @@ const Table = ({
   const variantCode = converter.customCodeToVariantCode(inputText, codeType);
   const tableElements: JSX.Element[] = [];
   const isManmade = Object.values(data)[0][0] instanceof Array;
-
+  if (variantCode.length === 0 || variantCode[0].split("*").length > 2) {
+    return <div ref={divRef} className="mt-4"></div>;
+  }
+  const isRegularExpression = variantCode[0].includes("*");
+  if (isRegularExpression && !isManmade) {
+    return <div ref={divRef} className="mt-4"></div>;
+  }
   for (const [key, value] of Object.entries(data)) {
-    if (!variantCode.includes(key)) {
+    if (!matchesPattern(variantCode, key)) {
       continue;
     }
     const tableRows: JSX.Element[] = [];
@@ -142,26 +159,73 @@ const Table = ({
         );
       }
     }
-
-    tableElements.push(
-      <table ref={tableRef} key={key}>
-        <thead>
-          <tr>
-            <th>{t("table.no")}</th>
-            <th>{t("table.algorithm")}</th>
-            {isCommutatorNeeded && <th>{t("table.commutator")}</th>}
-            {is3bld && <th>{t("table.thumbPosition")}</th>}
-            {isManmade && <th>{t("table.source")}</th>}
-          </tr>
-        </thead>
-        <tbody>{tableRows}</tbody>
-      </table>,
-    );
+    if (isRegularExpression) {
+      const variantCodeKey = converter.initCodeToVariantCustomCode(
+        key,
+        codeType,
+      );
+      let matchedCode = "";
+      for (const i of variantCodeKey) {
+        const regexPattern = inputText.replace(/\*/gu, ".");
+        const regex = new RegExp(`^${regexPattern}$`, "u"); // Matches the entire string
+        if (regex.test(i)) {
+          matchedCode = i;
+          break;
+        }
+      }
+      const matchedPosition = converter.customCodeToPosition(
+        matchedCode.padEnd(3, " "),
+        codeType,
+      );
+      tableElements.push(
+        <>
+          <thead>
+            <tr>
+              <th colSpan={5} className="border-b-0 bg-[#86efac] text-left">
+                {codeType === "parity"
+                  ? `${t("common.position")} ${`${matchedPosition.slice(0, 2).join("--")} & ${matchedPosition.slice(2, 4).join("--")}`}`
+                  : `${t("common.position")} ${matchedPosition.join("--")}`}
+                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                {`${t("common.pairs")} ${matchedCode}`}
+              </th>
+            </tr>
+            <tr>
+              <th>{t("table.no")}</th>
+              <th>{t("table.algorithm")}</th>
+              {isCommutatorNeeded && <th>{t("table.commutator")}</th>}
+              {is3bld && <th>{t("table.thumbPosition")}</th>}
+              {isManmade && <th>{t("table.source")}</th>}
+            </tr>
+          </thead>
+          <tbody>{tableRows}</tbody>
+          <br />
+        </>,
+      );
+    } else {
+      tableElements.push(
+        <>
+          <thead>
+            <tr>
+              <th>{t("table.no")}</th>
+              <th>{t("table.algorithm")}</th>
+              {isCommutatorNeeded && <th>{t("table.commutator")}</th>}
+              {is3bld && <th>{t("table.thumbPosition")}</th>}
+              {isManmade && <th>{t("table.source")}</th>}
+            </tr>
+          </thead>
+          <tbody>{tableRows}</tbody>
+        </>,
+      );
+    }
   }
 
+  const tableElements2: JSX.Element[] = [];
+  if (tableElements.length !== 0) {
+    tableElements2.push(<table ref={tableRef}>{tableElements}</table>);
+  }
   return (
     <div ref={divRef} className="mt-4">
-      {tableElements}
+      {tableElements2}
     </div>
   );
 };

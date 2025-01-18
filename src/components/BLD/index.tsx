@@ -270,6 +270,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
           className="text-transform: w-[3.5rem] rounded-sm border-b-[3px] border-gray-500 bg-inherit py-1 text-base font-medium text-dark outline-none transition-all duration-300 focus:border-primary dark:border-gray-100 dark:bg-gray-dark dark:text-white dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
         >
           <option></option>
+          {modeValue === "manmade" && <option>*</option>}
           {converter.positionArray
             .filter(
               (position) =>
