@@ -181,7 +181,10 @@ const Table = ({
         <>
           <thead>
             <tr>
-              <th colSpan={5} className="border-b-0 bg-[#86efac] text-left">
+              <th
+                colSpan={5}
+                className="border-b-0 bg-green-300 text-left dark:bg-green-800"
+              >
                 {codeType === "parity"
                   ? `${t("common.position")} ${`${matchedPosition.slice(0, 2).join("--")} & ${matchedPosition.slice(2, 4).join("--")}`}`
                   : `${t("common.position")} ${matchedPosition.join("--")}`}
