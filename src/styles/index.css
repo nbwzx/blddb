@@ -283,38 +283,34 @@
     position: relative;
   }
 
+  .help .help-content,
+  .triangle {
+    position: absolute;
+    visibility: hidden;
+    top: 50%;
+  }
+
   .help .help-content {
     display: inline-block;
-    position: absolute;
-    @apply text-dark dark:text-white;
-    @apply bg-gray-100 dark:bg-gray-700;
-    top: 50%;
+    @apply bg-gray-100 text-dark dark:bg-gray-700 dark:text-white;
     left: 0;
     padding: 5px 10px;
     line-height: 1.5;
     border: 2px solid #ccc;
     box-shadow: 0 0 5px #ccc;
-    visibility: hidden;
     transform: translate(-100%, -50%);
-    white-space: nowrap;
+    max-height: 500px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-width: max-content;
     font-size: 14px;
     z-index: 50;
   }
 
   .help:hover .help-content,
-  .help-content:hover {
+  .help-content:hover,
+  .help:hover .triangle {
     visibility: visible;
-  }
-
-  .help:hover .help-content:before {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 100%;
-    margin-top: -8px;
-    border-width: 8px;
-    border-style: solid;
-    border-color: transparent transparent transparent #ccc;
   }
 
   .help a {
@@ -326,6 +322,15 @@
     color: #f2849e !important;
   }
 
+  .triangle {
+    left: 0;
+    right: auto;
+    margin-top: -8px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent transparent transparent #ccc;
+  }
+
   @media (min-width: 1100px) {
     .help .help-content {
       left: auto;
@@ -333,9 +338,9 @@
       transform: translate(100%, -50%);
     }
 
-    .help:hover .help-content:before {
+    .triangle {
       left: auto;
-      right: 100%;
+      right: 0;
       border-color: transparent #ccc transparent transparent;
     }
   }

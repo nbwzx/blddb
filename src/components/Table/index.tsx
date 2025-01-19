@@ -153,6 +153,7 @@ const Table = ({
               <td className="help" rowSpan={item.length}>
                 {source.length}
                 <span className="help-content">{sourceResult}</span>
+                <div className="triangle"></div>
               </td>
             )}
           </tr>,
