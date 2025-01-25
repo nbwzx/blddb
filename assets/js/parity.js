@@ -7,13 +7,13 @@ const jsonLoaded = jsonNameList.map((name) => $.getJSON(`assets/json/${name}.jso
 }));
 
 if (getCookie("paritystyle") === "") {
-    setCookie("paritystyle", "nightmare", 30);
+    setCookie("paritystyle", "nightmare", 400);
 } else {
     document.getElementById("paritystyle").value = getCookie("paritystyle");
 }
 
 function switchStyle() {
-    setCookie("paritystyle", document.getElementById("paritystyle").value, 30);
+    setCookie("paritystyle", document.getElementById("paritystyle").value, 400);
     algSearch();
 }
 

@@ -30,7 +30,7 @@ function getCookie(cname) {
 function init() {
     let codecookie = "DEGCGAAJWIXKOOMREDCXTQLMKHIRZZPSBBLSQNJYHFFYWTNP";
     if (getCookie("code") === "") {
-        setCookie("code", codecookie, 30);
+        setCookie("code", codecookie, 400);
     } else if (byid("codeinput") !== null && byid("wingcodeinput") === null) {
         codecookie = getCookie("code");
     }
@@ -46,7 +46,7 @@ function init() {
 function initBig() {
     let codecookie = "DEE G DEGGCCGGCAAJ A AAJWII X WIXOKKOOKOMR O MMREDD C EDCTXXTTXQLM Q LLMKHH I KHIZRRZZRZPS Z PPSBBB L BBLQSSQQSNJY N JJYHFF F HFFWYYWWYTNP T NNP";
     if (getCookie("codeBig") === "") {
-        setCookie("codeBig", codecookie, 30);
+        setCookie("codeBig", codecookie, 400);
     } else if (byid("codeinput") !== null && byid("wingcodeinput") !== null) {
         codecookie = getCookie("codeBig");
     }
@@ -277,7 +277,7 @@ function setColor(casenumgiven) {
       </tbody>`;
     init();
     document.getElementById("codeinput").value = casenum;
-    setCookie("codeinput", casenum, 30);
+    setCookie("codeinput", casenum, 400);
 }
 
 function setColorBig(casenumgiven, wingnumgiven) {
@@ -770,7 +770,7 @@ function setColorBig(casenumgiven, wingnumgiven) {
             }
         }
     }
-    setCookie("codeinput", casenum, 30);
+    setCookie("codeinput", casenum, 400);
 }
 
 window.onload = function onload() {
@@ -801,7 +801,7 @@ function setAll() {
         }
         count = count + 1;
     }
-    setCookie("code", str, 30);
+    setCookie("code", str, 400);
 }
 
 function setChichu() {
@@ -811,7 +811,7 @@ function setChichu() {
         byid(i).value = str[count];
         count = count + 1;
     }
-    setCookie("code", str, 30);
+    setCookie("code", str, 400);
 }
 
 function setSpeffz() {
@@ -821,7 +821,7 @@ function setSpeffz() {
         byid(i).value = str[count];
         count = count + 1;
     }
-    setCookie("code", str, 30);
+    setCookie("code", str, 400);
 }
 
 function setAllBig() {
@@ -836,7 +836,7 @@ function setAllBig() {
         }
         count = count + 1;
     }
-    setCookie("codeBig", str, 30);
+    setCookie("codeBig", str, 400);
 }
 
 function setChichuBig() {
@@ -857,7 +857,7 @@ function setChichuBig() {
         document.getElementById(`a${i.toString()}24`).disabled = false;
     }
     document.getElementById("wingcodeinput").value = "1";
-    setCookie("codeBig", str, 30);
+    setCookie("codeBig", str, 400);
 }
 
 function setSpeffzBig() {
@@ -878,5 +878,5 @@ function setSpeffzBig() {
         document.getElementById(`a${i.toString()}24`).disabled = false;
     }
     document.getElementById("wingcodeinput").value = "1";
-    setCookie("codeBig", str, 30);
+    setCookie("codeBig", str, 400);
 }

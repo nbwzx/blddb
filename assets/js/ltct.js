@@ -7,13 +7,13 @@ const jsonLoaded = jsonNameList.map((name) => $.getJSON(`assets/json/${name}.jso
 }));
 
 if (getCookie("ltctstyle") === "") {
-    setCookie("ltctstyle", "nightmare", 30);
+    setCookie("ltctstyle", "nightmare", 400);
 } else {
     document.getElementById("ltctstyle").value = getCookie("ltctstyle");
 }
 
 function switchStyle() {
-    setCookie("ltctstyle", document.getElementById("ltctstyle").value, 30);
+    setCookie("ltctstyle", document.getElementById("ltctstyle").value, 400);
     algSearch();
 }
 

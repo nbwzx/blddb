@@ -451,7 +451,7 @@ dropdownContent.addEventListener("click", (event) => {
             }
         }
         // update cookie key
-        setCookie("lang", lang, 30);
+        setCookie("lang", lang, 400);
         document.querySelector(".language .status_circle").textContent = langNames[lang];
         if (lang === "zh") {
             $("#introduction").attr("href", "https://docs.blddb.net/zh");

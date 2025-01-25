@@ -7,13 +7,13 @@ const jsonLoaded = jsonNameList.map((name) => $.getJSON(`../assets/json/${name}.
 }));
 
 if (getCookie("edgestyle") === "") {
-    setCookie("edgestyle", "nightmare", 30);
+    setCookie("edgestyle", "nightmare", 400);
 } else {
     document.getElementById("edgestyle").value = getCookie("edgestyle");
 }
 
 function switchStyle() {
-    setCookie("edgestyle", document.getElementById("edgestyle").value, 30);
+    setCookie("edgestyle", document.getElementById("edgestyle").value, 400);
     algSearch();
 }
 

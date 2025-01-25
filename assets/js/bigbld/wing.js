@@ -43,7 +43,7 @@ if (getCookie("codeBig") !== "") {
 }
 
 function switchStyle() {
-    setCookie("cornerstyle", document.getElementById("cornerstyle").value, 30);
+    setCookie("cornerstyle", document.getElementById("cornerstyle").value, 400);
     algSearch();
 }
 

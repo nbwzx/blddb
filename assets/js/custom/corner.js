@@ -7,13 +7,13 @@ const jsonLoaded = jsonNameList.map((name) => $.getJSON(`../assets/json/${name}.
 }));
 
 if (getCookie("cornerstyle") === "") {
-    setCookie("cornerstyle", "nightmare", 30);
+    setCookie("cornerstyle", "nightmare", 400);
 } else {
     document.getElementById("cornerstyle").value = getCookie("cornerstyle");
 }
 
 function switchStyle() {
-    setCookie("cornerstyle", document.getElementById("cornerstyle").value, 30);
+    setCookie("cornerstyle", document.getElementById("cornerstyle").value, 400);
     algSearch();
 }
 
