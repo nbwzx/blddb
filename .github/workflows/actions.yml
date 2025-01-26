@@ -22,6 +22,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r scripts/requirements.txt
 
+      - name: execute result.py
+        run: python scripts/result.py
+
       - name: execute youtube.py
         env:
           SERVICE_ACCOUNT: ${{ secrets.SERVICE_ACCOUNT }}
