@@ -700,18 +700,18 @@
             "U' 3Lw:[r2,U l' U']"
         ],
         [
-            "U' D l2 D' r2 D l2 D' r2 U",
-            [
-                "Graham Siggins"
-            ],
-            "U':[D l2 D',r2]"
-        ],
-        [
             "r' U l u2 l' U' l u2 l' r",
             [
                 "Michael Tripodi"
             ],
             "r':[U,l u2 l']"
+        ],
+        [
+            "U' D l2 D' r2 D l2 D' r2 U",
+            [
+                "Graham Siggins"
+            ],
+            "U':[D l2 D',r2]"
         ],
         [
             "y' l2 D' r2 D l2 D' r2 4Uw",
@@ -2496,18 +2496,18 @@
             "U' 3Lw:[U l' U',r2]"
         ],
         [
-            "U' r2 D l2 D' r2 D l2 D' U",
-            [
-                "Graham Siggins"
-            ],
-            "U':[r2,D l2 D']"
-        ],
-        [
             "r' l u2 l' U l u2 l' U' r",
             [
                 "Michael Tripodi"
             ],
             "r':[l u2 l',U]"
+        ],
+        [
+            "U' r2 D l2 D' r2 D l2 D' U",
+            [
+                "Graham Siggins"
+            ],
+            "U':[r2,D l2 D']"
         ],
         [
             "4Uw' r2 D l2 D' r2 D l2 y",
@@ -4224,7 +4224,7 @@
             "Dw l' U r' U' l U r U' Dw'",
             [
                 "Adrian Dębski",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Michael Tripodi"
             ],
             "Dw:[l',U r' U']"
@@ -4599,7 +4599,7 @@
             "Dw U r' U' l' U r U' l Dw'",
             [
                 "Adrian Dębski",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Michael Tripodi",
                 "Stanley Chapel"
             ],
@@ -5554,18 +5554,18 @@
             "U' u r':[U',r' d' r]"
         ],
         [
-            "R2 u r' U2 r u2 r' U2 r u R2",
-            [
-                "Graham Siggins"
-            ],
-            "R2 u:[r' U2 r,u2]"
-        ],
-        [
             "R2 U' u r' U' r u2 r' U r Uw R2",
             [
                 "Michael Tripodi"
             ],
             "R2 U' u:[r' U' r,u2]"
+        ],
+        [
+            "R2 u r' U2 r u2 r' U2 r u R2",
+            [
+                "Graham Siggins"
+            ],
+            "R2 u:[r' U2 r,u2]"
         ],
         [
             "R y' U2 r' U' l' U r U' l 4Dw' R'",
@@ -6563,18 +6563,18 @@
             "4Fw l':[Uw r Uw',l2]"
         ],
         [
-            "x' D2 U r2 U' l' U r2 U' l D2 x",
-            [
-                "Graham Siggins"
-            ],
-            "x' D2:[U r2 U',l']"
-        ],
-        [
             "L' F2 Lw U r U' l' U r' U' L' F2 L",
             [
                 "Michael Tripodi"
             ],
             "L' F2 L:[l,U r U']"
+        ],
+        [
+            "x' D2 U r2 U' l' U r2 U' l D2 x",
+            [
+                "Graham Siggins"
+            ],
+            "x' D2:[U r2 U',l']"
         ],
         [
             "Lw D2 U r2 U' l' U r2 U' l D2 Lw'",
@@ -7127,18 +7127,18 @@
             "4Fw l:[Uw r Uw',l2]"
         ],
         [
-            "x' D2 l' U r2 U' l U r2 U' D2 x",
-            [
-                "Graham Siggins"
-            ],
-            "x' D2:[l',U r2 U']"
-        ],
-        [
             "L' F2 L U r U' l U r' U' Lw' F2 L",
             [
                 "Michael Tripodi"
             ],
             "L' F2 L:[U r U',l]"
+        ],
+        [
+            "x' D2 l' U r2 U' l U r2 U' D2 x",
+            [
+                "Graham Siggins"
+            ],
+            "x' D2:[l',U r2 U']"
         ],
         [
             "Lw D2 l' U r2 U' l U r2 U' D2 Lw'",
@@ -9978,7 +9978,7 @@
         [
             "R2 u l' U l u2 l' U' l u R2",
             [
-                "Antonio Kam (甘浩東)"
+                "Anto Kam (甘浩東)"
             ],
             "R2 u:[l' U l,u2]"
         ]
@@ -9987,7 +9987,7 @@
         [
             "R u l' U l u2 l' U' l u R'",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Ethan Pan"
             ],
             "R u:[l' U l,u2]"
@@ -9997,7 +9997,7 @@
         [
             "R2 u' l' U l u2 l' U' l u' R2",
             [
-                "Antonio Kam (甘浩東)"
+                "Anto Kam (甘浩東)"
             ],
             "R2 u':[l' U l,u2]"
         ]
@@ -10006,7 +10006,7 @@
         [
             "R u' l' U l u2 l' U' l u' R'",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Ethan Pan"
             ],
             "R u':[l' U l,u2]"
@@ -10016,7 +10016,7 @@
         [
             "U r u2 r' U2 r u2 r' U",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Howie Craig",
                 "Oliver Fritz",
                 "Stanley Chapel",
@@ -10281,7 +10281,7 @@
         [
             "U2 l d2 l' U2 l d2 l'",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Cale Schoon",
                 "Howie Craig",
                 "Oliver Fritz",
@@ -10398,7 +10398,7 @@
         [
             "U' r u2 r' U2 r u2 r' U'",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Howie Craig",
                 "Oliver Fritz",
                 "Stanley Chapel",
@@ -10715,7 +10715,7 @@
         [
             "Dw r2 U' l' U r2 U' l U Dw'",
             [
-                "Antonio Kam (甘浩東)"
+                "Anto Kam (甘浩東)"
             ],
             "Dw:[r2,U' l' U]"
         ]
@@ -10737,7 +10737,7 @@
         [
             "d r2 U' l' U r2 U' l U d'",
             [
-                "Antonio Kam (甘浩東)"
+                "Anto Kam (甘浩東)"
             ],
             "d:[r2,U' l' U]"
         ]
@@ -15442,7 +15442,7 @@
         [
             "l d2 l' U2 l d2 l' U2",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Cale Schoon",
                 "Howie Craig",
                 "Oliver Fritz",
@@ -15835,7 +15835,7 @@
         [
             "Dw U' l' U r2 U' l U r2 Dw'",
             [
-                "Antonio Kam (甘浩東)"
+                "Anto Kam (甘浩東)"
             ],
             "Dw:[U' l' U,r2]"
         ]
@@ -16226,7 +16226,7 @@
         [
             "d U' l' U r2 U' l U r2 d'",
             [
-                "Antonio Kam (甘浩東)"
+                "Anto Kam (甘浩東)"
             ],
             "d:[U' l' U,r2]"
         ]
@@ -18156,7 +18156,7 @@
         [
             "4Lw r' U l U' r U l' U' 4Lw'",
             [
-                "Antonio Kam (甘浩東)"
+                "Anto Kam (甘浩東)"
             ],
             "4Lw:[r',U l U']"
         ]
@@ -18246,7 +18246,7 @@
         [
             "4Lw U l U' r' U l' U' r 4Lw'",
             [
-                "Antonio Kam (甘浩東)"
+                "Anto Kam (甘浩東)"
             ],
             "4Lw:[U l U',r']"
         ]
@@ -19306,7 +19306,7 @@
         [
             "R' u l' U l u2 l' U' l u R",
             [
-                "Antonio Kam (甘浩東)"
+                "Anto Kam (甘浩東)"
             ],
             "R' u:[l' U l,u2]"
         ]
@@ -19476,7 +19476,7 @@
         [
             "R' u' l' U l u2 l' U' l u' R",
             [
-                "Antonio Kam (甘浩東)"
+                "Anto Kam (甘浩東)"
             ],
             "R' u':[l' U l,u2]"
         ]
@@ -19861,7 +19861,7 @@
             "r u2 r' U' r u2 r' U",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
@@ -19914,7 +19914,7 @@
         [
             "U' r' u' r U' r' u r U2",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz"
             ],
@@ -19923,18 +19923,18 @@
     ],
     "JAD": [
         [
-            "l u' l' U2 l u l' U' l u' l' U' l u l'",
-            [
-                "Tim Wong"
-            ],
-            "l u' l' U:[U,l u l']"
-        ],
-        [
             "3Rw' U l' d2 l U' l' d2 l 3Rw",
             [
                 "Daniel Lin"
             ],
             "3Rw':[U,l' d2 l]"
+        ],
+        [
+            "l u' l' U2 l u l' U' l u' l' U' l u l'",
+            [
+                "Tim Wong"
+            ],
+            "l u' l' U:[U,l u l']"
         ]
     ],
     "JAE": [
@@ -19942,7 +19942,7 @@
             "r u r' U' r u' r' U",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -19976,15 +19976,6 @@
             "x':[l',U' r U]"
         ],
         [
-            "Uw l' u' l U' l' u l u'",
-            [
-                "Kai Yamamoto (山本快)",
-                "Stanley Chapel",
-                "Yuki Tsuneyoshi (恒吉優紀)"
-            ],
-            "Uw:[l' u' l,U']"
-        ],
-        [
             "Rw' U' r U l U' r' U l' Rw",
             [
                 "Chenhao Sun (孙晨皓)",
@@ -19992,6 +19983,15 @@
                 "Ethan Pan"
             ],
             "Rw':[U' r U,l]"
+        ],
+        [
+            "Uw l' u' l U' l' u l u'",
+            [
+                "Kai Yamamoto (山本快)",
+                "Stanley Chapel",
+                "Yuki Tsuneyoshi (恒吉優紀)"
+            ],
+            "Uw:[l' u' l,U']"
         ],
         [
             "r' U' r U l U' r' U l' r",
@@ -20011,16 +20011,9 @@
         [
             "4Lw l' U' r U l U' r' U 4Lw'",
             [
-                "Antonio Kam (甘浩東)"
+                "Anto Kam (甘浩東)"
             ],
             "4Lw:[l',U' r U]"
-        ],
-        [
-            "U' r' u2 r U' r' u2 r U2",
-            [
-                "Leonardo Ezequiel Cruz"
-            ],
-            "U':[r' u2 r,U']"
         ],
         [
             "Uw' r' u' r U' r' u r U Uw",
@@ -20028,6 +20021,13 @@
                 "Kevin Matthews"
             ],
             "Uw':[r' u' r,U']"
+        ],
+        [
+            "U' r' u2 r U' r' u2 r U2",
+            [
+                "Leonardo Ezequiel Cruz"
+            ],
+            "U':[r' u2 r,U']"
         ],
         [
             "y' r' u' r U' r' u r U y",
@@ -20089,7 +20089,7 @@
         [
             "4Lw U l' U' r U l U' 3Lw'",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)"
             ],
             "4Lw:[U l' U',r]"
@@ -20109,18 +20109,18 @@
             "U:[U,l u2 l']"
         ],
         [
-            "y U l u l' U' l u' l' y'",
-            [
-                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
-            ],
-            "y:[U,l u l']"
-        ],
-        [
             "4Dw r u r' U' r u' r' y",
             [
                 "Daniel Lin"
             ],
             "y':[U,r u r']"
+        ],
+        [
+            "y U l u l' U' l u' l' y'",
+            [
+                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
+            ],
+            "y:[U,l u l']"
         ]
     ],
     "JAI": [
@@ -20157,7 +20157,7 @@
             "r u' r' U' r u r' U",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -20181,7 +20181,7 @@
             "U l' u2 l U' l' u2 l",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
@@ -20216,7 +20216,7 @@
             "r' d r U' r' d' r U",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -20251,7 +20251,7 @@
         [
             "Rw U' r' U l' U' r U l Rw'",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Wallin",
                 "Ethan Pan"
@@ -20268,20 +20268,20 @@
             "x:[l,U' r' U]"
         ],
         [
-            "U' r d2 r' U' r d2 r' U2",
-            [
-                "Hana Davila",
-                "Leonardo Ezequiel Cruz"
-            ],
-            "U':[r d2 r',U']"
-        ],
-        [
             "y' r d r' U' r d' r' U y",
             [
                 "Daniel Lin",
                 "Kevin Matthews"
             ],
             "y':[r d r',U']"
+        ],
+        [
+            "U' r d2 r' U' r d2 r' U2",
+            [
+                "Hana Davila",
+                "Leonardo Ezequiel Cruz"
+            ],
+            "U':[r d2 r',U']"
         ],
         [
             "m' r U' r' U l' U' r U M",
@@ -20302,7 +20302,7 @@
         [
             "Rw' U' r U l2 U' r' U l2 Rw",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -20344,7 +20344,7 @@
             "r' d2 r U' r' d2 r U",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
@@ -20380,7 +20380,7 @@
             "U l d l' U' l d' l'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -20409,7 +20409,7 @@
         [
             "Lw r2 U l' U' r2 U l U' Lw'",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -20456,7 +20456,7 @@
             "r' d' r U' r' d r U",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -20480,7 +20480,7 @@
             "U l d2 l' U' l d2 l'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
@@ -20515,7 +20515,7 @@
         [
             "Rw' D' U' r U l2 U' r' U l2 D Rw",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -20563,7 +20563,7 @@
         [
             "Lw D r2 U l' U' r2 U l U' D' Lw'",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -20714,7 +20714,7 @@
             "U' r u2 r' U r u2 r'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
@@ -20749,7 +20749,7 @@
             "Lw' U2 l u' l' U2 l u L",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
@@ -20791,7 +20791,7 @@
             "U2 r u2 r' U2 r u2 r'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -20828,7 +20828,7 @@
             "l' U2 l u' l' U2 l u",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
@@ -20876,7 +20876,7 @@
         [
             "F u2 l U l' u2 l U' l' F'",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Leonardo Ezequiel Cruz"
             ],
@@ -20917,7 +20917,7 @@
             "U r u2 r' U' r u2 r'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Cale Schoon",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
@@ -20949,7 +20949,7 @@
             "l' U2 l u2 l' U2 l u2",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
@@ -21011,7 +21011,7 @@
             "l' U2 l u l' U2 l u'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
@@ -21109,7 +21109,7 @@
         [
             "D2 U' r2 U' l' U r2 U' l U2 D2",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Dong Zhu (朱栋)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -21139,11 +21139,11 @@
             "F2:[U l2 U',r]"
         ],
         [
-            "U D' r' u2 r' U' r u2 r' U r2 D U'",
+            "y r' u r' U' r u' r' U r2 y'",
             [
-                "Leonardo Ezequiel Cruz"
+                "Jonghyun Kim (김종현)"
             ],
-            "U D' r':[u2,r' U' r]"
+            "y r':[u,r' U' r]"
         ],
         [
             "4Lw' U2 r' U l' U' r U l U 4Lw",
@@ -21153,11 +21153,11 @@
             "4Lw' U':[U' r' U,l']"
         ],
         [
-            "y r' u r' U' r u' r' U r2 y'",
+            "U D' r' u2 r' U' r u2 r' U r2 D U'",
             [
-                "Jonghyun Kim (김종현)"
+                "Leonardo Ezequiel Cruz"
             ],
-            "y r':[u,r' U' r]"
+            "U D' r':[u2,r' U' r]"
         ]
     ],
     "JBP": [
@@ -21187,7 +21187,7 @@
         [
             "U' 4Rw' l2 U r U' l2 U r' U' 4Rw U",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Daniel Wallin",
                 "Ethan Pan"
             ],
@@ -21205,7 +21205,7 @@
         [
             "Lw' r' d r U2 r' d' r U2 Lw",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Ethan Pan",
                 "Kai Yamamoto (山本快)",
@@ -21255,7 +21255,7 @@
             "U' D' r2 U' l' U r2 U' l U2 D",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Daniel Lin",
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
@@ -21290,7 +21290,7 @@
             "l' U2 l' d l U2 l' d' l2",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
@@ -21340,7 +21340,7 @@
             "U' r' U' l' U r U' l U2",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -21370,7 +21370,7 @@
             "U' D r2 U' l' U r2 U' l U2 D'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
@@ -21406,7 +21406,7 @@
             "U' r2 U' l' U r2 U' l U2",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -21461,7 +21461,7 @@
         [
             "R l' U2 l u l' U2 l u' R'",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -21498,7 +21498,7 @@
         [
             "U2 r' u' r U r' u r U",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz"
             ],
@@ -21510,7 +21510,7 @@
             "L' u' l' U2 l u l' U2 Lw",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
@@ -21552,7 +21552,7 @@
             "U r' u' r U2 r' u r U",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -21616,7 +21616,7 @@
             "u l U l' u' l U' l'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -21652,7 +21652,7 @@
             "r' u' r U' r' u r U",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Cale Schoon",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
@@ -21681,7 +21681,7 @@
             "r' Uw l Uw' r Uw l' Uw'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -21780,25 +21780,25 @@
             "L' u':[l' U2 l,u2]"
         ],
         [
-            "L' y' l' U' l u2 l' U l u2 y L",
-            [
-                "Leonardo Ezequiel Cruz"
-            ],
-            "L' y':[l' U' l,u2]"
-        ],
-        [
             "R U u' r U2 r' u2 r U2 r' Uw' R'",
             [
                 "Kevin Matthews"
             ],
             "R U u':[r U2 r',u2]"
+        ],
+        [
+            "L' y' l' U' l u2 l' U l u2 y L",
+            [
+                "Leonardo Ezequiel Cruz"
+            ],
+            "L' y':[l' U' l,u2]"
         ]
     ],
     "JCL": [
         [
             "U u' r U2 r' u r U2 r' U'",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -21843,7 +21843,7 @@
             "l2 u l U l' u' l U' l",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Ethan Pan",
@@ -21892,7 +21892,7 @@
             "l u l U l' u' l U' l2",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -21928,7 +21928,7 @@
         [
             "Uw' U' l U r U' l' U r' Uw",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Daniel Wallin",
                 "Ethan Pan",
                 "Jonghyun Kim (김종현)",
@@ -22000,7 +22000,7 @@
             "r2 Uw l Uw' r2 Uw l' Uw'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -22095,7 +22095,7 @@
         [
             "U' Rw' U' r U r' u' r U' r' Uw Rw U",
             [
-                "Antonio Kam (甘浩東)"
+                "Anto Kam (甘浩東)"
             ],
             "U' Rw' U':[r U r',u']"
         ],
@@ -22171,7 +22171,7 @@
         [
             "U r u' r U2 r' u r U2 r2 U'",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Leonardo Ezequiel Cruz"
             ],
             "U r:[u',r U2 r']"
@@ -22189,7 +22189,7 @@
             "r Uw l Uw' r' Uw l' Uw'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -22250,18 +22250,18 @@
     ],
     "JDA": [
         [
-            "l u' l' U l u l' U l u' l' U2 l u l'",
-            [
-                "Tim Wong"
-            ],
-            "l u' l' U:[l u l',U]"
-        ],
-        [
             "3Rw' l' d2 l U l' d2 l U' 3Rw",
             [
                 "Daniel Lin"
             ],
             "3Rw':[l' d2 l,U]"
+        ],
+        [
+            "l u' l' U l u l' U l u' l' U2 l u l'",
+            [
+                "Tim Wong"
+            ],
+            "l u' l' U:[l u l',U]"
         ]
     ],
     "JDB": [
@@ -22269,7 +22269,7 @@
             "r u2 r' U2 r u2 r' U2",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -22306,7 +22306,7 @@
             "U' r' u' r U2 r' u r U'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -22354,7 +22354,7 @@
             "r u r' U2 r u' r' U2",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Daniel Lin",
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
@@ -22391,7 +22391,7 @@
             "U' r' u2 r U2 r' u2 r U'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Graham Siggins",
                 "Hana Davila",
@@ -22433,34 +22433,34 @@
             "Uw':[r' u' r,U2]"
         ],
         [
-            "U' u r' u r U2 r' u' r Uw'",
-            [
-                "Ethan Pan"
-            ],
-            "U' u:[r' u r,U2]"
-        ],
-        [
             "y' r' u' r U2 r' u r U2 y",
             [
                 "Daniel Lin"
             ],
             "y':[r' u' r,U2]"
+        ],
+        [
+            "U' u r' u r U2 r' u' r Uw'",
+            [
+                "Ethan Pan"
+            ],
+            "U' u:[r' u r,U2]"
         ]
     ],
     "JDG": [
-        [
-            "l u' l' U' l u l' U' l u' l' U2 l u l'",
-            [
-                "Tim Wong"
-            ],
-            "l u' l' U':[l u l',U']"
-        ],
         [
             "3Lw' U r' d2 r U' r' d2 r 3Lw",
             [
                 "Daniel Lin"
             ],
             "3Lw':[U,r' d2 r]"
+        ],
+        [
+            "l u' l' U' l u l' U' l u' l' U2 l u l'",
+            [
+                "Tim Wong"
+            ],
+            "l u' l' U':[l u l',U']"
         ]
     ],
     "JDH": [
@@ -22510,7 +22510,7 @@
             "U' r' u r U2 r' u' r U'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -22545,7 +22545,7 @@
             "r u' r' U2 r u r' U2",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Daniel Lin",
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
@@ -22642,7 +22642,7 @@
             "r' d r U2 r' d' r U2",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -22686,7 +22686,7 @@
             "U' r d2 r' U2 r d2 r' U'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
@@ -22740,7 +22740,7 @@
             "Rw' U2 r U l2 U' r' U l2 U Rw",
             [
                 "Adrian Dębski",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -22786,7 +22786,7 @@
             "r' d2 r U2 r' d2 r U2",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
@@ -22837,7 +22837,7 @@
             [
                 "Adrian Dębski",
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -22900,7 +22900,7 @@
         [
             "Lw' U' D' r2 U' l U r2 U' l' U2 D Lw",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan"
@@ -22980,7 +22980,7 @@
             "r' d' r U2 r' d r U2",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -23015,7 +23015,7 @@
             "U l d2 l' U2 l d2 l' U",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Hana Davila",
                 "Jonghyun Kim (김종현)",
@@ -23063,18 +23063,18 @@
             "3Lw' U':[r',U' l U]"
         ],
         [
-            "Lw' U' r' U' l U r U' l' U2 Lw",
-            [
-                "Ethan Pan"
-            ],
-            "Lw' U':[r',U' l U]"
-        ],
-        [
             "y' r d' r' U2 r d r' U2 y",
             [
                 "Daniel Lin"
             ],
             "y':[r d' r',U2]"
+        ],
+        [
+            "Lw' U' r' U' l U r U' l' U2 Lw",
+            [
+                "Ethan Pan"
+            ],
+            "Lw' U':[r',U' l U]"
         ],
         [
             "y' U2 l d l' U2 l d' l' y",
@@ -23088,7 +23088,7 @@
         [
             "Rw' D' U2 r U l2 U' r' U l2 U D Rw",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
@@ -23196,7 +23196,7 @@
             "Lw' U' r2 U' l U r2 U' l' U2 Lw",
             [
                 "Adrian Dębski",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan"
@@ -23245,7 +23245,7 @@
             "U2 l' d2 l U2 l' d2 l",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
@@ -23287,18 +23287,18 @@
             "U' Lw' U:[r,U l U']"
         ],
         [
-            "4Dw r' d' r U2 r' d r U y",
-            [
-                "Graham Siggins"
-            ],
-            "4Dw:[r' d' r,U2]"
-        ],
-        [
             "U' l U r U l' U' r' U l U2 l' U",
             [
                 "Ryan Eckersley"
             ],
             "U' l U:[r,U l' U']"
+        ],
+        [
+            "4Dw r' d' r U2 r' d r U y",
+            [
+                "Graham Siggins"
+            ],
+            "4Dw:[r' d' r,U2]"
         ],
         [
             "d' r' d r U2 r' d' r U2 d",
@@ -23314,7 +23314,7 @@
             [
                 "Adrian Dębski",
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
@@ -23357,7 +23357,7 @@
             "U' r u r' U r u' r'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -23381,7 +23381,7 @@
             "u' l' U2 l u l' U2 l",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
@@ -23426,7 +23426,7 @@
             "U2 r u r' U2 r u' r'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Daniel Lin",
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
@@ -23463,7 +23463,7 @@
             "L u l U l' u' l U' Lw'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -23492,7 +23492,7 @@
             "U r u r' U' r u' r'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Cale Schoon",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
@@ -23519,7 +23519,7 @@
             "Uw r' U' r u' r' U r U'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -23556,7 +23556,7 @@
             "L u l U l' u2 l U' l' u L'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
@@ -23646,7 +23646,7 @@
             "U' r Uw' l' Uw r' Uw' l Uw U",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -23686,7 +23686,7 @@
             "Uw l' U' r' U l U' r u'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -23723,7 +23723,7 @@
             "Uw l2 U' r' U l2 U' r u'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Daniel Lin",
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
@@ -23774,7 +23774,7 @@
             "l2 u' l' U2 l u l' U2 l'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
@@ -23824,7 +23824,7 @@
         [
             "U r' u r' U' r u' r' U r2 U'",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Wallin",
                 "Jonghyun Kim (김종현)",
@@ -23881,7 +23881,7 @@
             "Uw r' U' r' d' r U r' d r2 Uw'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
@@ -23923,7 +23923,7 @@
             "Uw' r' U' l' U r U' l U Uw",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -23960,7 +23960,7 @@
             "l' u' l' U2 l u l' U2 l2",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
@@ -24011,7 +24011,7 @@
             "Uw' r2 U' l' U r2 U' l U Uw",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -24040,7 +24040,7 @@
             "Lw r Uw l Uw' r' Uw l' Uw' Lw'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Ethan Pan",
@@ -24125,7 +24125,7 @@
         [
             "4Uw' r' U' l' U r U' l U 4Uw",
             [
-                "Antonio Kam (甘浩東)"
+                "Anto Kam (甘浩東)"
             ],
             "4Uw':[r',U' l' U]"
         ],
@@ -24201,16 +24201,9 @@
         [
             "4Lw U' r U l' U' r' U l 4Lw'",
             [
-                "Antonio Kam (甘浩東)"
+                "Anto Kam (甘浩東)"
             ],
             "4Lw:[U' r U,l']"
-        ],
-        [
-            "U2 r' u2 r U r' u2 r U",
-            [
-                "Leonardo Ezequiel Cruz"
-            ],
-            "U':[U',r' u2 r]"
         ],
         [
             "Uw' U' r' u' r U r' u r Uw",
@@ -24218,6 +24211,13 @@
                 "Kevin Matthews"
             ],
             "Uw':[U',r' u' r]"
+        ],
+        [
+            "U2 r' u2 r U r' u2 r U",
+            [
+                "Leonardo Ezequiel Cruz"
+            ],
+            "U':[U',r' u2 r]"
         ],
         [
             "y' U' r' u' r U r' u r y",
@@ -24242,7 +24242,7 @@
         [
             "F l U l' u2 l U' l' u2 F'",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Leonardo Ezequiel Cruz"
             ],
@@ -24292,7 +24292,7 @@
             "l U l' u l U' l' u'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -24328,7 +24328,7 @@
             "U r' u2 r U2 r' u2 r U",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Graham Siggins",
                 "Hana Davila",
@@ -24382,7 +24382,7 @@
             "Lw U l' u l U' l' u' L'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -24411,7 +24411,7 @@
             "r' u2 r U' r' u2 r U",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Cale Schoon",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
@@ -24462,7 +24462,7 @@
             "l U l' u' l U' l' u",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -24485,7 +24485,7 @@
             "u' r' Uw l Uw' r Uw l' U'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -24529,7 +24529,7 @@
             "l U l' u2 l U' l' u2",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
@@ -24602,16 +24602,6 @@
     ],
     "JFN": [
         [
-            "4Rw' U' r U l2 U' r' U l2 4Rw",
-            [
-                "Antonio Kam (甘浩東)",
-                "Chenhao Sun (孙晨皓)",
-                "Daniel Wallin",
-                "Ethan Pan"
-            ],
-            "4Rw':[U' r U,l2]"
-        ],
-        [
             "l' D' r2 D l2 D' r2 D l'",
             [
                 "Kai Yamamoto (山本快)",
@@ -24620,6 +24610,16 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "l':[D' r2 D,l2]"
+        ],
+        [
+            "4Rw' U' r U l2 U' r' U l2 4Rw",
+            [
+                "Anto Kam (甘浩東)",
+                "Chenhao Sun (孙晨皓)",
+                "Daniel Wallin",
+                "Ethan Pan"
+            ],
+            "4Rw':[U' r U,l2]"
         ],
         [
             "x' U' r U l2 U' r' U l2 x",
@@ -24671,7 +24671,7 @@
             "D' r2 U l U' r2 U l' U' D",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Dong Zhu (朱栋)",
                 "Kai Yamamoto (山本快)",
@@ -24715,7 +24715,7 @@
             "l U l d l' U' l d' l2",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
@@ -24764,7 +24764,7 @@
             "r2 U l U' r2 U l' U'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -24804,7 +24804,7 @@
         [
             "R' l U l' u' l U' l' u R",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Leonardo Ezequiel Cruz"
             ],
@@ -24833,7 +24833,7 @@
         [
             "D2 r2 U l U' r2 U l' U' D2",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
@@ -24876,18 +24876,18 @@
             "l:[r' d2 r,U']"
         ],
         [
-            "U D r u2 r U2 r' u2 r U2 r2 D' U'",
-            [
-                "Leonardo Ezequiel Cruz"
-            ],
-            "U D r:[u2,r U2 r']"
-        ],
-        [
             "4Lw d2 r U' r' d2 r U 3Lw'",
             [
                 "Kevin Matthews"
             ],
             "3Lw:[r' d2 r,U']"
+        ],
+        [
+            "U D r u2 r U2 r' u2 r U2 r2 D' U'",
+            [
+                "Leonardo Ezequiel Cruz"
+            ],
+            "U D r:[u2,r U2 r']"
         ]
     ],
     "JFX": [
@@ -24895,7 +24895,7 @@
             "D r2 U l U' r2 U l' U' D'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -24924,7 +24924,7 @@
             "r U l U' r' U l' U'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -24947,7 +24947,7 @@
             "l U l d' l' U' l d l2",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
@@ -24992,7 +24992,7 @@
             "r u2 r' U r u2 r' U'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Cale Schoon",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
@@ -25024,7 +25024,7 @@
             "U' r' u' r U r' u r",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Cale Schoon",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
@@ -25050,18 +25050,18 @@
     ],
     "JGD": [
         [
-            "l u' l' U2 l u l' U l u' l' U l u l'",
-            [
-                "Tim Wong"
-            ],
-            "l u' l' U':[U',l u l']"
-        ],
-        [
             "3Lw' r' d2 r U r' d2 r U' 3Lw",
             [
                 "Daniel Lin"
             ],
             "3Lw':[r' d2 r,U]"
+        ],
+        [
+            "l u' l' U2 l u l' U l u' l' U l u l'",
+            [
+                "Tim Wong"
+            ],
+            "l u' l' U':[U',l u l']"
         ]
     ],
     "JGE": [
@@ -25069,7 +25069,7 @@
             "r u r' U r u' r' U'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Cale Schoon",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
@@ -25096,7 +25096,7 @@
             "U' r' u2 r U r' u2 r",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Cale Schoon",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
@@ -25129,7 +25129,7 @@
             "u r u' r' U r u r' Uw'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Ethan Pan",
                 "Kai Yamamoto (山本快)",
@@ -25142,7 +25142,7 @@
         [
             "U2 l u2 l' U l u2 l' U",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Howie Craig",
                 "Leonardo Ezequiel Cruz",
                 "Oliver Fritz",
@@ -25187,7 +25187,7 @@
             "U' r' u r U r' u' r",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -25260,7 +25260,7 @@
         [
             "U l' u2 l U l' u2 l U2",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Howie Craig",
                 "Oliver Fritz"
             ],
@@ -25295,7 +25295,7 @@
             "r' d r U r' d' r U'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Cale Schoon",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
@@ -25324,7 +25324,7 @@
             "U' r d2 r' U r d2 r'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Cale Schoon",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
@@ -25369,7 +25369,7 @@
         [
             "U Rw' l2 U' r U l2 U' r' U Rw U'",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
@@ -25452,7 +25452,7 @@
         [
             "U' Rw' U r U' l U r' U' l' Rw U",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Daniel Wallin"
             ],
             "U' Rw':[U r U',l]"
@@ -25470,7 +25470,7 @@
             "U' r d' r' U r d r'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -25495,7 +25495,7 @@
         [
             "U Lw U l' U' r2 U l U' r2 Lw' U'",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -25550,7 +25550,7 @@
             "r' d' r U r' d r U'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Cale Schoon",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
@@ -25678,7 +25678,7 @@
         [
             "U' Rw U r' U' l2 U r U' l2 Rw' U",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Dong Zhu (朱栋)"
             ],
             "U' Rw:[U r' U',l2]"
@@ -25705,18 +25705,18 @@
             "l:[r' d2 r,U]"
         ],
         [
-            "U' 3Rw U r' U' l2 U r U' l2 3Rw' U",
-            [
-                "Leonardo Ezequiel Cruz"
-            ],
-            "U' 3Rw:[U r' U',l2]"
-        ],
-        [
             "4Lw d2 r U r' d2 r U' 3Lw'",
             [
                 "Kevin Matthews"
             ],
             "4Lw:[d2,r U r']"
+        ],
+        [
+            "U' 3Rw U r' U' l2 U r U' l2 3Rw' U",
+            [
+                "Leonardo Ezequiel Cruz"
+            ],
+            "U' 3Rw:[U r' U',l2]"
         ],
         [
             "Lw' r u2 r' U r u2 r' U' Lw",
@@ -25741,7 +25741,7 @@
         [
             "U' Lw r2 U' l' U r2 U' l U Lw' U",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Wallin",
                 "Howie Craig",
@@ -25785,7 +25785,7 @@
             "U2 l' d2 l U l' d2 l U",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Howie Craig",
                 "Kai Yamamoto (山本快)",
@@ -25853,7 +25853,7 @@
             "U' r d r' U r d' r'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
@@ -25932,7 +25932,7 @@
         [
             "3Lw U l' U' r' U l U' 4Lw'",
             [
-                "Antonio Kam (甘浩東)"
+                "Anto Kam (甘浩東)"
             ],
             "4Lw:[r,U l' U']"
         ],
@@ -25944,18 +25944,18 @@
             "U:[l u2 l',U]"
         ],
         [
-            "y l u l' U l u' l' U' y'",
-            [
-                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
-            ],
-            "y:[l u l',U]"
-        ],
-        [
             "y' r u r' U r u' r' 4Dw'",
             [
                 "Daniel Lin"
             ],
             "y':[r u r',U]"
+        ],
+        [
+            "y l u l' U l u' l' U' y'",
+            [
+                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
+            ],
+            "y:[l u l',U]"
         ]
     ],
     "JHB": [
@@ -25963,7 +25963,7 @@
             "u2 l' U2 l u2 l' U2 l",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
@@ -25992,7 +25992,7 @@
             "Uw l Uw' r' Uw l' Uw' r",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -26064,7 +26064,7 @@
             "U r' U' r u r' U r Uw'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -26119,7 +26119,7 @@
             "Uw r u' r' U' r u r' u'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Ethan Pan",
                 "Kai Yamamoto (山本快)",
@@ -26132,7 +26132,7 @@
         [
             "U' l u2 l' U' l u2 l' U2",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Howie Craig",
                 "Leonardo Ezequiel Cruz",
                 "Oliver Fritz",
@@ -26177,7 +26177,7 @@
             "U Rw' U' r u' r' U r u R U'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Daniel Wallin",
                 "Ethan Pan",
                 "Jonghyun Kim (김종현)",
@@ -26231,7 +26231,7 @@
             "U r' U' r u' r' U r u U'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Daniel Lin",
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
@@ -26260,7 +26260,7 @@
             "F' u2 l' U2 l u2 l' U2 l F",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Dong Zhu (朱栋)",
                 "Kai Yamamoto (山本快)",
@@ -26315,7 +26315,7 @@
         [
             "Rw' U d r U' r' d' r U r' U' Rw",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Ethan Pan"
             ],
@@ -26357,7 +26357,7 @@
             "U l' U' r' U l U' r",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -26380,7 +26380,7 @@
             "U l2 U' r' U l2 U' r",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -26419,7 +26419,7 @@
             "Dw U l' U' r' U l U' r Dw'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
@@ -26456,7 +26456,7 @@
             "D U l2 U' r' U l2 U' r D'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -26478,7 +26478,7 @@
             "U r' U' r' d' r U r' d r2 U'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Ethan Pan",
                 "Jonghyun Kim (김종현)",
@@ -26522,7 +26522,7 @@
             "D' U l2 U' r' U l2 U' r D",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
@@ -26545,18 +26545,18 @@
             "y:[l2,Uw' r' Uw]"
         ],
         [
-            "l' u2 l' U2 l u2 l' U2 l2",
-            [
-                "Leonardo Ezequiel Cruz"
-            ],
-            "l':[u2,l' U2 l]"
-        ],
-        [
             "y' r2 Uw' l' Uw r2 Uw' l Uw y",
             [
                 "Kevin Matthews"
             ],
             "y':[r2,Uw' l' Uw]"
+        ],
+        [
+            "l' u2 l' U2 l u2 l' U2 l2",
+            [
+                "Leonardo Ezequiel Cruz"
+            ],
+            "l':[u2,l' U2 l]"
         ]
     ],
     "JHX": [
@@ -26580,7 +26580,7 @@
         [
             "D2 U l2 U' r' U l2 U' r D2",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Dong Zhu (朱栋)",
                 "Ziyi Xu (徐梓翼)"
@@ -26775,7 +26775,7 @@
             "U r' u r U2 r' u' r U",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -26810,7 +26810,7 @@
             "L u' l U l' u2 l U' l' u' L'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
@@ -26865,7 +26865,7 @@
             "u' l U l' u l U' l'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -26888,7 +26888,7 @@
             "r' u r U' r' u' r U",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -26915,7 +26915,7 @@
             "U R' u' r' U' r u r' U Rw U'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Daniel Wallin",
                 "Ethan Pan",
                 "Jonghyun Kim (김종현)",
@@ -26977,7 +26977,7 @@
         [
             "Uw r U2 r' u' r U2 r' U'",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -27038,7 +27038,7 @@
         [
             "L' u' l U l' u2 l U' l' u' L",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)"
             ],
             "L' u':[l U l',u2]"
@@ -27064,7 +27064,7 @@
             "l2 u' l U l' u l U' l",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -27087,18 +27087,18 @@
             "R2:[d',l' U l]"
         ],
         [
-            "F U2 l' Uw r Uw' l Uw r' Uw' U2 F'",
-            [
-                "Leonardo Ezequiel Cruz"
-            ],
-            "F U2:[l',Uw r Uw']"
-        ],
-        [
             "3Lw' U2 r' u r U r' u' r U 3Lw",
             [
                 "Kevin Matthews"
             ],
             "3Lw' U':[U',r' u r]"
+        ],
+        [
+            "F U2 l' Uw r Uw' l Uw r' Uw' U2 F'",
+            [
+                "Leonardo Ezequiel Cruz"
+            ],
+            "F U2:[l',Uw r Uw']"
         ]
     ],
     "JIO": [
@@ -27106,7 +27106,7 @@
             "l u' l U l' u l U' l2",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -27167,7 +27167,7 @@
         [
             "R d l U2 l' d' l U2 l' R'",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)"
             ],
             "R:[d,l U2 l']"
@@ -27198,7 +27198,7 @@
         [
             "Uw r U2 r d' r' U2 r d r2 Uw'",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
@@ -27259,7 +27259,7 @@
             "u' r2 U l U' r2 U l' U' u",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Wallin",
                 "Ethan Pan",
@@ -27303,7 +27303,7 @@
             "U r2 u r U2 r' u' r U2 r U'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Ethan Pan",
                 "Jonghyun Kim (김종현)",
@@ -27350,7 +27350,7 @@
             "U2 l2 Uw r Uw' l2 Uw r' Uw' U2",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -27400,7 +27400,7 @@
             "U r u r U2 r' u' r U2 r2 U'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -27473,7 +27473,7 @@
         [
             "U R d' r U' r' d r U Rw' U'",
             [
-                "Antonio Kam (甘浩東)"
+                "Anto Kam (甘浩東)"
             ],
             "U R:[d',r U' r']"
         ]
@@ -27492,7 +27492,7 @@
             "U' r u' r' U r u r'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -27516,7 +27516,7 @@
             "u l' U2 l u' l' U2 l",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
@@ -27585,18 +27585,18 @@
             "L' u:[l' U2 l,u2]"
         ],
         [
-            "L' y' u2 l' U' l u2 l' U l y L",
-            [
-                "Leonardo Ezequiel Cruz"
-            ],
-            "L' y':[u2,l' U' l]"
-        ],
-        [
             "R Uw r U2 r' u2 r U2 r' u2 Uw' R'",
             [
                 "Kevin Matthews"
             ],
             "R Uw:[r U2 r',u2]"
+        ],
+        [
+            "L' y' u2 l' U' l u2 l' U l y L",
+            [
+                "Leonardo Ezequiel Cruz"
+            ],
+            "L' y':[u2,l' U' l]"
         ]
     ],
     "JKD": [
@@ -27604,7 +27604,7 @@
             "U2 r u' r' U2 r u r'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Daniel Lin",
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
@@ -27676,7 +27676,7 @@
             "U l Uw' r' Uw l' Uw' r u",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -27753,7 +27753,7 @@
             "U u' r' U' r u r' U r U'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Daniel Lin",
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
@@ -27822,7 +27822,7 @@
         [
             "U R u r U2 r' u' r U2 Rw' U'",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan"
@@ -27835,7 +27835,7 @@
             "U u' r' U' r' d r U r' d' r2 u U'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Ethan Pan",
                 "Kai Yamamoto (山本快)",
@@ -27917,7 +27917,7 @@
         [
             "F u l' U2 l u' l' U2 l F'",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Leonardo Ezequiel Cruz"
             ],
             "F:[u,l' U2 l]"
@@ -27975,7 +27975,7 @@
         [
             "D l' u l' U2 l u' l' U2 l2 D'",
             [
-                "Antonio Kam (甘浩東)"
+                "Anto Kam (甘浩東)"
             ],
             "D l':[u,l' U2 l]"
         ]
@@ -28009,7 +28009,7 @@
         [
             "Lw U2 r u' r' U2 r u r' Lw'",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Dong Zhu (朱栋)"
             ],
             "Lw:[U2,r u' r']"
@@ -28063,7 +28063,7 @@
         [
             "R' d' l' U l d2 l' U' l d' R",
             [
-                "Antonio Kam (甘浩東)"
+                "Anto Kam (甘浩東)"
             ],
             "R' d':[l' U l,d2]"
         ]
@@ -28104,7 +28104,7 @@
         [
             "D2 l' u l' U2 l u' l' U2 l2 D2",
             [
-                "Antonio Kam (甘浩東)"
+                "Anto Kam (甘浩東)"
             ],
             "D2 l':[u,l' U2 l]"
         ]
@@ -28154,7 +28154,7 @@
         [
             "U R' d r' U2 r d' r' U2 Rw U'",
             [
-                "Antonio Kam (甘浩東)"
+                "Anto Kam (甘浩東)"
             ],
             "U R':[d,r' U2 r]"
         ],
@@ -28171,7 +28171,7 @@
             "l' u l' U2 l u' l' U2 l2",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
@@ -28218,7 +28218,7 @@
         [
             "D' l' u l' U2 l u' l' U2 l2 D",
             [
-                "Antonio Kam (甘浩東)"
+                "Anto Kam (甘浩東)"
             ],
             "D' l':[u,l' U2 l]"
         ],
@@ -28249,7 +28249,7 @@
             "U r2 u' r' U' r u r' U r' U'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Wallin",
                 "Ethan Pan",
@@ -28293,7 +28293,7 @@
             "l' u2 l U l' u2 l U'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
@@ -28338,7 +28338,7 @@
         [
             "U r U2 r' u' r U2 r' u U'",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -28434,7 +28434,7 @@
             "U' Uw' l' Uw r Uw' l Uw r' U",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -28465,7 +28465,7 @@
             "u2 l U l' u2 l U' l'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
@@ -28513,7 +28513,7 @@
         [
             "U2 l' u2 l U' l' u2 l U'",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Howie Craig",
                 "Oliver Fritz"
             ],
@@ -28548,7 +28548,7 @@
             "F' l' U2 l u2 l' U2 l u2 F",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Dong Zhu (朱栋)",
                 "Kai Yamamoto (山本快)",
@@ -28589,7 +28589,7 @@
         [
             "U r U2 r' u r U2 r' Uw'",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -28650,7 +28650,7 @@
         [
             "U Rw U2 r' u r U2 r' u' R' U'",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan"
@@ -28679,7 +28679,7 @@
         [
             "L' u2 l U l' u' l U' l' u' L",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)"
             ],
             "L' u:[u,l U l']"
@@ -28727,7 +28727,7 @@
         [
             "l u2 l U l' u2 l U' l2",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
@@ -28790,7 +28790,7 @@
             "U2 l U r U' l' U r' U",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -28820,7 +28820,7 @@
             "U r U2 r d' r' U2 r d r2 U'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
@@ -28863,7 +28863,7 @@
             "u r2 Uw l Uw' r2 Uw l' Uw' u'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Ethan Pan",
                 "Kai Yamamoto (山本快)",
@@ -28943,7 +28943,7 @@
         [
             "U R' r U2 r' u r U2 r' u' R U'",
             [
-                "Antonio Kam (甘浩東)"
+                "Anto Kam (甘浩東)"
             ],
             "U R':[r U2 r',u]"
         ]
@@ -28975,7 +28975,7 @@
         [
             "U2 4Rw' r2 U' l' U r2 U' l U 4Rw U2",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Ethan Pan"
             ],
             "U2 4Rw':[r2,U' l' U]"
@@ -29007,7 +29007,7 @@
             "U2 l2 U r U' l2 U r' U",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -29030,7 +29030,7 @@
             "U2 D' l2 U r U' l2 U r' D U",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -29087,7 +29087,7 @@
         [
             "Rw Uw' r' U2 r u r' U2 r U Rw'",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Daniel Wallin",
                 "Ethan Pan"
             ],
@@ -29123,7 +29123,7 @@
             "U' r' d r U r' d' r",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -29197,7 +29197,7 @@
             "U2 r' d r U2 r' d' r",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -29292,7 +29292,7 @@
             "U r' d r U' r' d' r",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Cale Schoon",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
@@ -29334,7 +29334,7 @@
         [
             "Rw' U r U' r' d r U r' d' U' Rw",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Ethan Pan"
             ],
@@ -29407,7 +29407,7 @@
         [
             "L' u l U l' u2 l U' l' u L",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)"
             ],
             "L' u:[l U l',u2]"
@@ -29433,7 +29433,7 @@
             "U u' r2 d r U' r' d' r U r u U'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Ethan Pan",
                 "Kai Yamamoto (山本快)",
@@ -29510,7 +29510,7 @@
         [
             "L' u l U l' u l U' l' u2 L",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)"
             ],
             "L' u:[l U l',u]"
@@ -29543,7 +29543,7 @@
             "L d l' U l d' l' U' l L'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
@@ -29580,7 +29580,7 @@
             "d U l2 U' r U l2 U' r' d'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -29616,7 +29616,7 @@
             "d' l U2 l' d l U2 l'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -29709,7 +29709,7 @@
             "d' l U2 l' d2 l U2 l' d'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
@@ -29772,7 +29772,7 @@
         [
             "Rw' U' r U2 r' d r U2 r' d' U Rw",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Ethan Pan"
             ],
             "Rw' U':[r U2 r',d]"
@@ -29862,7 +29862,7 @@
         [
             "U D Rw d r U' r' d' r U r' Rw' D' U'",
             [
-                "Antonio Kam (甘浩東)"
+                "Anto Kam (甘浩東)"
             ],
             "U D Rw:[d,r U' r']"
         ],
@@ -29879,7 +29879,7 @@
             "U d r U' r' d' r U r' U'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -29896,18 +29896,18 @@
             "U:[d,r U' r']"
         ],
         [
-            "4Lw' Uw l Uw' r' Uw l' Uw' 3Lw",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "4Lw':[Uw l Uw',r']"
-        ],
-        [
             "x Uw l Uw' r' Uw l' Uw' r x'",
             [
                 "Daniel Lin"
             ],
             "x:[Uw l Uw',r']"
+        ],
+        [
+            "4Lw' Uw l Uw' r' Uw l' Uw' 3Lw",
+            [
+                "Kai Yamamoto (山本快)"
+            ],
+            "4Lw':[Uw l Uw',r']"
         ]
     ],
     "JMZ": [
@@ -29915,7 +29915,7 @@
             "L d l' U l d2 l' U' l d L'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
@@ -29969,15 +29969,6 @@
             "M':[U' r' U,l]"
         ],
         [
-            "Rw l' U' r' U l U' r U Rw'",
-            [
-                "Antonio Kam (甘浩東)",
-                "Daniel Wallin",
-                "Ethan Pan"
-            ],
-            "Rw:[l',U' r' U]"
-        ],
-        [
             "r l' U' r' U l U' r U r'",
             [
                 "Andrew Tan Jing Bang",
@@ -29985,6 +29976,15 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "r:[l',U' r' U]"
+        ],
+        [
+            "Rw l' U' r' U l U' r U Rw'",
+            [
+                "Anto Kam (甘浩東)",
+                "Daniel Wallin",
+                "Ethan Pan"
+            ],
+            "Rw:[l',U' r' U]"
         ],
         [
             "x U' r' U l U' r U l' x'",
@@ -29996,20 +29996,20 @@
             "x:[U' r' U,l]"
         ],
         [
-            "U2 r d2 r' U r d2 r' U",
-            [
-                "Hana Davila",
-                "Leonardo Ezequiel Cruz"
-            ],
-            "U':[U',r d2 r']"
-        ],
-        [
             "y' U' r d r' U r d' r' y",
             [
                 "Daniel Lin",
                 "Kevin Matthews"
             ],
             "y':[U',r d r']"
+        ],
+        [
+            "U2 r d2 r' U r d2 r' U",
+            [
+                "Hana Davila",
+                "Leonardo Ezequiel Cruz"
+            ],
+            "U':[U',r d2 r']"
         ],
         [
             "4Rw U' r' U l U' r U 3Rw'",
@@ -30031,7 +30031,7 @@
             "l' U l' u l U' l' u' l2",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Ethan Pan",
@@ -30067,18 +30067,18 @@
             "Lw':[r u r',U']"
         ],
         [
-            "F' Uw l Uw' r Uw l' Uw' r' F",
-            [
-                "Leonardo Ezequiel Cruz"
-            ],
-            "F':[Uw l Uw',r]"
-        ],
-        [
             "4Lw' u r' U' r u' r' U 3Lw",
             [
                 "Kevin Matthews"
             ],
             "4Lw':[u,r' U' r]"
+        ],
+        [
+            "F' Uw l Uw' r Uw l' Uw' r' F",
+            [
+                "Leonardo Ezequiel Cruz"
+            ],
+            "F':[Uw l Uw',r]"
         ]
     ],
     "JND": [
@@ -30086,7 +30086,7 @@
             "U r d2 r' U2 r d2 r' U",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
@@ -30140,7 +30140,7 @@
             "u r' U l' U' r U l Uw'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -30174,16 +30174,6 @@
     ],
     "JNF": [
         [
-            "4Rw' l2 U' r U l2 U' r' U 4Rw",
-            [
-                "Antonio Kam (甘浩東)",
-                "Chenhao Sun (孙晨皓)",
-                "Daniel Wallin",
-                "Ethan Pan"
-            ],
-            "4Rw':[l2,U' r U]"
-        ],
-        [
             "l D' r2 D l2 D' r2 D l",
             [
                 "Kai Yamamoto (山本快)",
@@ -30192,6 +30182,16 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "l:[D' r2 D,l2]"
+        ],
+        [
+            "4Rw' l2 U' r U l2 U' r' U 4Rw",
+            [
+                "Anto Kam (甘浩東)",
+                "Chenhao Sun (孙晨皓)",
+                "Daniel Wallin",
+                "Ethan Pan"
+            ],
+            "4Rw':[l2,U' r U]"
         ],
         [
             "x' l2 U' r U l2 U' r' U x",
@@ -30244,7 +30244,7 @@
             "r d2 r' U' r d2 r' U",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Cale Schoon",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
@@ -30290,7 +30290,7 @@
             "r' U l' U' r U l U'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -30313,7 +30313,7 @@
             "l' U l' u' l U' l' u l2",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -30336,18 +30336,18 @@
             "R2:[l' U l,d']"
         ],
         [
-            "F U2 Uw r Uw' l' Uw r' Uw' l U2 F'",
-            [
-                "Leonardo Ezequiel Cruz"
-            ],
-            "F U2:[Uw r Uw',l']"
-        ],
-        [
             "3Lw' U' r' u r U' r' u' r U2 3Lw",
             [
                 "Kevin Matthews"
             ],
             "3Lw' U':[r' u r,U']"
+        ],
+        [
+            "F U2 Uw r Uw' l' Uw r' Uw' l U2 F'",
+            [
+                "Leonardo Ezequiel Cruz"
+            ],
+            "F U2:[Uw r Uw',l']"
         ]
     ],
     "JNK": [
@@ -30377,7 +30377,7 @@
         [
             "F l' U2 l u l' U2 l u' F'",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Leonardo Ezequiel Cruz"
             ],
             "F:[l' U2 l,u]"
@@ -30425,7 +30425,7 @@
             "L l' U l d l' U' l d' L'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
@@ -30462,7 +30462,7 @@
             "D' r2 U l' U' r2 U l U' D",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
@@ -30520,7 +30520,7 @@
         [
             "4Rw' U' l2 U' r U l2 U' r' U2 4Rw",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Wallin",
                 "Ethan Pan"
@@ -30541,7 +30541,7 @@
             "l' U l d l' U' l d'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -30564,7 +30564,7 @@
             "r2 U l' U' r2 U l U'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -30601,7 +30601,7 @@
         [
             "R l' U l d' l' U' l d R'",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Leonardo Ezequiel Cruz",
                 "Ziyi Xu (徐梓翼)"
@@ -30624,7 +30624,7 @@
             "l' U l d2 l' U' l d2",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
@@ -30676,7 +30676,7 @@
         [
             "D2 r2 U l' U' r2 U l U' D2",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan"
@@ -30720,7 +30720,7 @@
             "D r2 U l' U' r2 U l U' D'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -30760,7 +30760,7 @@
             "l' U l d' l' U' l d",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -30789,7 +30789,7 @@
         [
             "Rw' l2 U' r U l2 U' r' U Rw",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -30842,7 +30842,7 @@
         [
             "D2 U2 l' U r2 U' l U r2 U D2",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Dong Zhu (朱栋)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -30872,11 +30872,11 @@
             "F2:[r,U l2 U']"
         ],
         [
-            "U D' r2 U' r u2 r' U r u2 r D U'",
+            "y r2 U' r u r' U r u' r y'",
             [
-                "Leonardo Ezequiel Cruz"
+                "Jonghyun Kim (김종현)"
             ],
-            "U D' r':[r' U' r,u2]"
+            "y r':[r' U' r,u]"
         ],
         [
             "4Lw' U' l' U' r' U l U' r U2 4Lw",
@@ -30886,11 +30886,11 @@
             "4Lw' U':[l',U' r' U]"
         ],
         [
-            "y r2 U' r u r' U r u' r y'",
+            "U D' r2 U' r u2 r' U r u2 r D U'",
             [
-                "Jonghyun Kim (김종현)"
+                "Leonardo Ezequiel Cruz"
             ],
-            "y r':[r' U' r,u]"
+            "U D' r':[r' U' r,u2]"
         ]
     ],
     "JOC": [
@@ -30898,7 +30898,7 @@
             "l2 U l' u l U' l' u' l'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -30941,7 +30941,7 @@
             "Rw' U' l2 U' r U l2 U' r' U2 Rw",
             [
                 "Adrian Dębski",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -30987,7 +30987,7 @@
             "u r' U l2 U' r U l2 Uw'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Daniel Lin",
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
@@ -31038,7 +31038,7 @@
             "D' U l U' r2 U l' U' r2 D",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Dong Zhu (朱栋)",
                 "Kai Yamamoto (山本快)",
@@ -31072,7 +31072,7 @@
         [
             "U Rw' U' r U l2 U' r' U l2 Rw U'",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
@@ -31140,7 +31140,7 @@
             "r' U l2 U' r U l2 U'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -31170,7 +31170,7 @@
             "l2 U l' u' l U' l' u l'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -31231,7 +31231,7 @@
         [
             "D l2 U2 l u l' U2 l u' l D'",
             [
-                "Antonio Kam (甘浩東)"
+                "Anto Kam (甘浩東)"
             ],
             "D l':[l' U2 l,u]"
         ]
@@ -31240,7 +31240,7 @@
         [
             "l2 U l' u2 l U' l' u2 l'",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
@@ -31303,7 +31303,7 @@
             "d r U l2 U' r' U l2 U' d'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -31339,7 +31339,7 @@
             "D' U l' U' r2 U l U' r2 D",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
@@ -31405,16 +31405,9 @@
         [
             "D2 U2 l U r2 U' l' U r2 U D2",
             [
-                "Antonio Kam (甘浩東)"
+                "Anto Kam (甘浩東)"
             ],
             "D2 U':[U' l U,r2]"
-        ],
-        [
-            "U D' r2 U' r' d2 r U r' d2 r' D U'",
-            [
-                "Leonardo Ezequiel Cruz"
-            ],
-            "U D' r:[r U' r',d2]"
         ],
         [
             "4Lw U' l U' r U l' U' r' U2 4Lw'",
@@ -31422,6 +31415,13 @@
                 "Kevin Matthews"
             ],
             "4Lw U':[l,U' r U]"
+        ],
+        [
+            "U D' r2 U' r' d2 r U r' d2 r' D U'",
+            [
+                "Leonardo Ezequiel Cruz"
+            ],
+            "U D' r:[r U' r',d2]"
         ]
     ],
     "JOQ": [
@@ -31429,7 +31429,7 @@
             "l2 U l d l' U' l d' l",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -31480,7 +31480,7 @@
         [
             "U D' r2 U' r' d' r U r' d r' D U'",
             [
-                "Antonio Kam (甘浩東)"
+                "Anto Kam (甘浩東)"
             ],
             "U D' r:[r U' r',d']"
         ],
@@ -31503,7 +31503,7 @@
         [
             "l2 U l d2 l' U' l d2 l",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
@@ -31571,7 +31571,7 @@
             "r U l2 U' r' U l2 U'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -31602,7 +31602,7 @@
             "l2 U l d' l' U' l d l",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
@@ -31645,7 +31645,7 @@
             "U' r' d2 r U r' d2 r",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
@@ -31703,7 +31703,7 @@
         [
             "U' 4Rw' U r U' l2 U r' U' l2 4Rw U",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Daniel Wallin",
                 "Ethan Pan"
             ],
@@ -31721,7 +31721,7 @@
         [
             "Uw' r U' l U r' U' l' U Uw",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Daniel Wallin",
                 "Ethan Pan",
                 "Jonghyun Kim (김종현)",
@@ -31733,20 +31733,20 @@
             "Uw':[r,U' l U]"
         ],
         [
-            "Lw U2 l' d' l U2 l' d L'",
-            [
-                "Chenhao Sun (孙晨皓)",
-                "Leonardo Ezequiel Cruz"
-            ],
-            "Lw:[U2,l' d' l]"
-        ],
-        [
             "4Lw d r U2 r' d' r U2 3Lw'",
             [
                 "Chenhao Sun (孙晨皓)",
                 "Kevin Matthews"
             ],
             "4Lw:[d,r U2 r']"
+        ],
+        [
+            "Lw U2 l' d' l U2 l' d L'",
+            [
+                "Chenhao Sun (孙晨皓)",
+                "Leonardo Ezequiel Cruz"
+            ],
+            "Lw:[U2,l' d' l]"
         ],
         [
             "Uw' r Uw' l Uw r' Uw' l' Uw2",
@@ -31778,7 +31778,7 @@
             "U2 r' d2 r U2 r' d2 r",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
@@ -31828,7 +31828,7 @@
             "l U2 l u' l' U2 l u l2",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
@@ -31900,7 +31900,7 @@
         [
             "U' Rw' l U r U' l' U r' U' Rw U",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Daniel Wallin"
             ],
             "U' Rw':[l,U r U']"
@@ -31952,7 +31952,7 @@
         [
             "R l U2 l' d l U2 l' d' R'",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)"
             ],
             "R:[l U2 l',d]"
@@ -32008,7 +32008,7 @@
         [
             "Lw r u' r' U2 r u r' U2 Lw'",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Dong Zhu (朱栋)"
             ],
             "Lw:[r u' r',U2]"
@@ -32026,7 +32026,7 @@
             "U' r U' l U r' U' l' U2",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -32056,7 +32056,7 @@
             "l U2 l' d' l U2 l' d",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -32106,7 +32106,7 @@
         [
             "4Rw' U2 r U l2 U' r' U l2 U 4Rw",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Wallin",
                 "Ethan Pan"
@@ -32156,16 +32156,9 @@
         [
             "D2 U' r2 U' l U r2 U' l' U2 D2",
             [
-                "Antonio Kam (甘浩東)"
+                "Anto Kam (甘浩東)"
             ],
             "D2 U':[r2,U' l U]"
-        ],
-        [
-            "U D' r d2 r U' r' d2 r U r2 D U'",
-            [
-                "Leonardo Ezequiel Cruz"
-            ],
-            "U D' r:[d2,r U' r']"
         ],
         [
             "4Lw U2 r U l U' r' U l' U 4Lw'",
@@ -32173,13 +32166,20 @@
                 "Kevin Matthews"
             ],
             "4Lw U':[U' r U,l]"
+        ],
+        [
+            "U D' r d2 r U' r' d2 r U r2 D U'",
+            [
+                "Leonardo Ezequiel Cruz"
+            ],
+            "U D' r:[d2,r U' r']"
         ]
     ],
     "JPQ": [
         [
             "L' l U2 l' d' l U2 l' d L",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
@@ -32231,7 +32231,7 @@
             "U' D' r2 U' l U r2 U' l' U2 D",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
@@ -32268,7 +32268,7 @@
             "l U2 l' d l U2 l' d'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -32308,7 +32308,7 @@
             "U' D r2 U' l U r2 U' l' U2 D'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Dong Zhu (朱栋)",
                 "Jonghyun Kim (김종현)",
@@ -32349,7 +32349,7 @@
             "U' r2 U' l U r2 U' l' U2",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -32372,7 +32372,7 @@
             "l U2 l' d2 l U2 l' d2",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
@@ -32417,7 +32417,7 @@
         [
             "R' l U2 l' d l U2 l' d' R",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Jonghyun Kim (김종현)",
                 "Leonardo Ezequiel Cruz",
@@ -32448,7 +32448,7 @@
             "l d l' U l d' l' U'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -32477,7 +32477,7 @@
         [
             "Lw' U2 r' d r U2 r' d' r Lw",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Ethan Pan",
                 "Kai Yamamoto (山本快)",
@@ -32537,7 +32537,7 @@
             [
                 "Adrian Dębski",
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -32600,7 +32600,7 @@
             "l2 d l' U l d' l' U' l'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
@@ -32648,7 +32648,7 @@
             "r d' r' U' r d r' U",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -32674,7 +32674,7 @@
             "Dw r' U l' U' r U l U' Dw'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Wallin",
                 "Ethan Pan",
@@ -32709,7 +32709,7 @@
         [
             "Uw r2 d' r' U2 r d r' U2 r' Uw'",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
@@ -32806,7 +32806,7 @@
         [
             "R' d l' U l d2 l' U' l d R",
             [
-                "Antonio Kam (甘浩東)"
+                "Anto Kam (甘浩東)"
             ],
             "R' d:[l' U l,d2]"
         ]
@@ -32816,7 +32816,7 @@
             "U r2 d' r' U2 r d r' U2 r' U'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
@@ -32882,7 +32882,7 @@
             "d l' U l d' l' U' l",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -32905,7 +32905,7 @@
             "l' d l' U l d' l' U' l2",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -32927,7 +32927,7 @@
         [
             "L' d' l U2 l' d l U2 l' L",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
@@ -33003,7 +33003,7 @@
             "R d l' U l d2 l' U' l d R'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
@@ -33031,18 +33031,18 @@
             "L2 y:[U' r U,l]"
         ],
         [
-            "L' y d2 r U' r' d2 r U r' y' L",
-            [
-                "Leonardo Ezequiel Cruz"
-            ],
-            "L' y:[d2,r U' r']"
-        ],
-        [
             "z' Uw r2 U l U' r2 U l' U' Uw' z",
             [
                 "Kevin Matthews"
             ],
             "z' Uw:[r2,U l U']"
+        ],
+        [
+            "L' y d2 r U' r' d2 r U r' y' L",
+            [
+                "Leonardo Ezequiel Cruz"
+            ],
+            "L' y:[d2,r U' r']"
         ]
     ],
     "JQT": [
@@ -33050,7 +33050,7 @@
             "d l' U l d l' U' l d2",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -33102,7 +33102,7 @@
         [
             "D' l' d l' U l d' l' U' l2 D",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Ethan Pan",
                 "Jonghyun Kim (김종현)",
@@ -33167,7 +33167,7 @@
             "Lw' U d r U' r' d' r U r' U' Lw",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Ethan Pan",
                 "Kai Yamamoto (山本快)",
@@ -33203,18 +33203,18 @@
             "Rw Dw:[U l' U',r']"
         ],
         [
-            "r2 z r' U r d' r' U' r d z' r2",
-            [
-                "Kevin Matthews"
-            ],
-            "r2 z:[r' U r,d']"
-        ],
-        [
             "L' U d r U' r' d' r U r' U' L",
             [
                 "Jonghyun Kim (김종현)"
             ],
             "L' U:[d,r U' r']"
+        ],
+        [
+            "r2 z r' U r d' r' U' r d z' r2",
+            [
+                "Kevin Matthews"
+            ],
+            "r2 z:[r' U r,d']"
         ]
     ],
     "JQZ": [
@@ -33222,7 +33222,7 @@
             "d l' U l d2 l' U' l d",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
@@ -33257,7 +33257,7 @@
         [
             "Lw U l' U' r2 U l U' r2 Lw'",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -33304,7 +33304,7 @@
             "U2 D' l' U r2 U' l U r2 D U",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Daniel Lin",
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
@@ -33339,7 +33339,7 @@
             "Uw l Uw' r2 Uw l' Uw' r2",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -33371,7 +33371,7 @@
         [
             "Lw' D' U2 l U r2 U' l' U r2 D U Lw",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan"
@@ -33450,7 +33450,7 @@
         [
             "U r2 U' r u r' U r u' r U'",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Wallin",
                 "Jonghyun Kim (김종현)",
@@ -33507,7 +33507,7 @@
             "U l U' r2 U l' U' r2",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -33529,7 +33529,7 @@
         [
             "U Lw r2 U l' U' r2 U l U' Lw' U'",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -33584,7 +33584,7 @@
             "D r' U l2 U' r U l2 U' D'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -33606,7 +33606,7 @@
             "u' U l U' r2 U l' U' r2 u",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Wallin",
                 "Ethan Pan",
@@ -33672,7 +33672,7 @@
         [
             "D2 l2 U2 l u l' U2 l u' l D2",
             [
-                "Antonio Kam (甘浩東)"
+                "Anto Kam (甘浩東)"
             ],
             "D2 l':[l' U2 l,u]"
         ]
@@ -33682,7 +33682,7 @@
             "u Uw l Uw' r2 Uw l' Uw' r2 u'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Kai Yamamoto (山本快)",
                 "Ryan Eckersley",
@@ -33764,7 +33764,7 @@
             "U l' U' r2 U l U' r2",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -33798,7 +33798,7 @@
             "U2 D' l U r2 U' l' U r2 D U",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Wallin",
                 "Jonghyun Kim (김종현)",
@@ -33859,7 +33859,7 @@
             "U r2 U' r' d' r U r' d r' U'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -33894,7 +33894,7 @@
         [
             "D l2 U l d2 l' U' l d2 l D'",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan"
@@ -33954,7 +33954,7 @@
             "D r U l2 U' r' U l2 U' D'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -34002,7 +34002,7 @@
         [
             "D l2 U l d' l' U' l d l D'",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Leonardo Ezequiel Cruz"
             ],
             "D l':[l' U l,d']"
@@ -34013,7 +34013,7 @@
             "U' r' d' r U r' d r",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -34037,7 +34037,7 @@
             "l2 d l U2 l' d' l U2 l",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
@@ -34122,7 +34122,7 @@
             "U2 r' d' r U2 r' d r",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -34157,7 +34157,7 @@
             "Uw r2 d' r U' r' d r U r Uw'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
@@ -34216,7 +34216,7 @@
         [
             "R' u' l U l' u l U' l' R",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Leonardo Ezequiel Cruz"
             ],
@@ -34237,7 +34237,7 @@
             "U r' d' r U' r' d r",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Cale Schoon",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
@@ -34264,7 +34264,7 @@
             "U r2 d' r U' r' d r U r U'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Ethan Pan",
                 "Jonghyun Kim (김종현)",
@@ -34348,7 +34348,7 @@
         [
             "U R' u r U2 r' u' r U2 r' R U'",
             [
-                "Antonio Kam (甘浩東)"
+                "Anto Kam (甘浩東)"
             ],
             "U R':[u,r U2 r']"
         ]
@@ -34358,7 +34358,7 @@
             "d l U2 l' d2 l U2 l' d",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
@@ -34414,7 +34414,7 @@
         [
             "R d' l' U l d l' U' l R'",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Leonardo Ezequiel Cruz",
                 "Ziyi Xu (徐梓翼)"
@@ -34454,7 +34454,7 @@
         [
             "U D' r d' r U' r' d r U r2 D U'",
             [
-                "Antonio Kam (甘浩東)"
+                "Anto Kam (甘浩東)"
             ],
             "U D' r:[d',r U' r']"
         ],
@@ -34478,7 +34478,7 @@
             "d l U2 l' d' l U2 l'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -34507,7 +34507,7 @@
             "R d' l' U l d2 l' U' l d' R'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
@@ -34535,18 +34535,18 @@
             "L2 y:[l,U' r U]"
         ],
         [
-            "L' y r U' r' d2 r U r' d2 y' L",
-            [
-                "Leonardo Ezequiel Cruz"
-            ],
-            "L' y:[r U' r',d2]"
-        ],
-        [
             "z' Uw U l U' r2 U l' U' r2 Uw' z",
             [
                 "Kevin Matthews"
             ],
             "z' Uw:[U l U',r2]"
+        ],
+        [
+            "L' y r U' r' d2 r U r' d2 y' L",
+            [
+                "Leonardo Ezequiel Cruz"
+            ],
+            "L' y:[r U' r',d2]"
         ]
     ],
     "JSR": [
@@ -34554,7 +34554,7 @@
             "U r d' r U' r' d r U r2 U'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -34607,11 +34607,25 @@
             "Rw' Uw' U':[l,U' r U]"
         ],
         [
+            "R U2 d r' U r d' r' U' r U2 R'",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "R U2:[d,r' U r]"
+        ],
+        [
             "U R d r' U2 r d' r' U2 r R' U'",
             [
-                "Antonio Kam (甘浩東)"
+                "Anto Kam (甘浩東)"
             ],
             "U R:[d,r' U2 r]"
+        ],
+        [
+            "y R' r U' r' d' r U r' d R y'",
+            [
+                "Jonghyun Kim (김종현)"
+            ],
+            "y R':[r U' r',d']"
         ],
         [
             "r' U2 r U' r' d' r U r' d U2 r",
@@ -34621,25 +34635,11 @@
             "r' U2:[r U' r',d']"
         ],
         [
-            "R U2 d r' U r d' r' U' r U2 R'",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "R U2:[d,r' U r]"
-        ],
-        [
             "Rw' U z' u' r U r' u r U' r' z U' Rw",
             [
                 "Kevin Matthews"
             ],
             "Rw' U z':[u',r U r']"
-        ],
-        [
-            "y R' r U' r' d' r U r' d R y'",
-            [
-                "Jonghyun Kim (김종현)"
-            ],
-            "y R':[r U' r',d']"
         ],
         [
             "B' d l U2 l' d' l U2 l' B",
@@ -34678,7 +34678,7 @@
         [
             "l d l U2 l' d' l U2 l2",
             [
-                "Antonio Kam (甘浩東)"
+                "Anto Kam (甘浩東)"
             ],
             "l:[d,l U2 l']"
         ],
@@ -34707,7 +34707,7 @@
         [
             "U D r d' r U' r' d r U r2 D' U'",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Jonghyun Kim (김종현)"
             ],
@@ -34723,18 +34723,18 @@
             "y D':[l2,U' r U]"
         ],
         [
-            "D' l d l U2 l' d' l U2 l2 D",
-            [
-                "Leonardo Ezequiel Cruz"
-            ],
-            "D' l:[d,l U2 l']"
-        ],
-        [
             "4Uw' r2 U' l U r2 U' l' U 4Uw",
             [
                 "Kevin Matthews"
             ],
             "4Uw':[r2,U' l U]"
+        ],
+        [
+            "D' l d l U2 l' d' l U2 l2 D",
+            [
+                "Leonardo Ezequiel Cruz"
+            ],
+            "D' l:[d,l U2 l']"
         ]
     ],
     "JSY": [
@@ -34742,7 +34742,7 @@
             "U d' r U' r' d r U r' U'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -34780,7 +34780,7 @@
             "l d2 l' U l d2 l' U'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
@@ -34816,7 +34816,7 @@
             "U2 l' U r' U' l U r U",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -34883,7 +34883,7 @@
         [
             "U' Rw' Uw' r U r' u r U' r' U Rw U",
             [
-                "Antonio Kam (甘浩東)"
+                "Anto Kam (甘浩東)"
             ],
             "U' Rw' U':[u',r U r']"
         ],
@@ -34907,7 +34907,7 @@
             "U' l d2 l' U2 l d2 l' U'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Hana Davila",
                 "Jonghyun Kim (김종현)",
@@ -34954,18 +34954,18 @@
             "3Lw' U':[U' l U,r']"
         ],
         [
-            "Lw' U2 l U r' U' l' U r U Lw",
-            [
-                "Ethan Pan"
-            ],
-            "Lw' U':[U' l U,r']"
-        ],
-        [
             "y' U2 r d' r' U2 r d r' y",
             [
                 "Daniel Lin"
             ],
             "y':[U2,r d' r']"
+        ],
+        [
+            "Lw' U2 l U r' U' l' U r U Lw",
+            [
+                "Ethan Pan"
+            ],
+            "Lw' U':[U' l U,r']"
         ],
         [
             "y' l d l' U2 l d' l' U2 y",
@@ -34980,7 +34980,7 @@
             "Uw' U' l' U r' U' l U r Uw",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -35109,7 +35109,7 @@
             "U r' U2 r' u r U2 r' u' r2 U'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Ethan Pan",
                 "Jonghyun Kim (김종현)",
@@ -35187,7 +35187,7 @@
         [
             "U Rw' U2 r d r' U2 r d' R U'",
             [
-                "Antonio Kam (甘浩東)"
+                "Anto Kam (甘浩東)"
             ],
             "U R':[r' U2 r,d]"
         ],
@@ -35226,7 +35226,7 @@
         [
             "U2 4Rw' U' l' U r2 U' l U r2 4Rw U2",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Ethan Pan"
             ],
             "U2 4Rw':[U' l' U,r2]"
@@ -35279,7 +35279,7 @@
         [
             "Rw' U' d r U2 r' d' r U2 r' U Rw",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Ethan Pan"
             ],
             "Rw' U':[d,r U2 r']"
@@ -35318,7 +35318,7 @@
             "d2 l' U l d2 l' U' l",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
@@ -35352,7 +35352,7 @@
         [
             "l' d2 l' U l d2 l' U' l2",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
@@ -35413,7 +35413,7 @@
             "d2 l' U l d' l' U' l d'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -35467,7 +35467,7 @@
         [
             "D l' d2 l' U l d2 l' U' l2 D'",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan"
@@ -35542,9 +35542,16 @@
         [
             "U R r' U2 r d r' U2 r d' R' U'",
             [
-                "Antonio Kam (甘浩東)"
+                "Anto Kam (甘浩東)"
             ],
             "U R:[r' U2 r,d]"
+        ],
+        [
+            "y R' d' r U' r' d r U r' R y'",
+            [
+                "Jonghyun Kim (김종현)"
+            ],
+            "y R':[d',r U' r']"
         ],
         [
             "r' U2 d' r U' r' d r U r' U2 r",
@@ -35561,13 +35568,6 @@
             "Rw' U z':[r U r',u']"
         ],
         [
-            "y R' d' r U' r' d r U r' R y'",
-            [
-                "Jonghyun Kim (김종현)"
-            ],
-            "y R':[d',r U' r']"
-        ],
-        [
             "B' l U2 l' d l U2 l' d' B",
             [
                 "Dong Zhu (朱栋)"
@@ -35580,7 +35580,7 @@
             "U2 l2 U r' U' l2 U r U",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -35603,7 +35603,7 @@
             "U2 D' l2 U r' U' l2 U r D U",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -35632,7 +35632,7 @@
             "F d2 l' U l d2 l' U' l F'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
@@ -35652,20 +35652,20 @@
             "Rw' U D:[r,U l2 U']"
         ],
         [
-            "x Uw' r2 Uw' l' Uw r2 Uw' l Uw2 x'",
-            [
-                "Daniel Lin",
-                "Kevin Matthews"
-            ],
-            "x Uw':[r2,Uw' l' Uw]"
-        ],
-        [
             "U x' U2 l' U' r2 U l U' r2 U' x U'",
             [
                 "Daniel Lin",
                 "Jonghyun Kim (김종현)"
             ],
             "U x' U:[U l' U',r2]"
+        ],
+        [
+            "x Uw' r2 Uw' l' Uw r2 Uw' l Uw2 x'",
+            [
+                "Daniel Lin",
+                "Kevin Matthews"
+            ],
+            "x Uw':[r2,Uw' l' Uw]"
         ],
         [
             "B2 r U l U' r' U l' U' B2",
@@ -35708,7 +35708,7 @@
         [
             "Rw' D' l2 U' r U l2 U' r' U D Rw",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -35757,7 +35757,7 @@
             "U2 D l' U r2 U' l U r2 D' U",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
@@ -35826,7 +35826,7 @@
         [
             "Rw' D' U' l2 U' r U l2 U' r' U2 D Rw",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
@@ -35910,7 +35910,7 @@
             "l2 U2 l u' l' U2 l u l",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
@@ -35960,7 +35960,7 @@
         [
             "D2 U l U' r2 U l' U' r2 D2",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
@@ -36003,30 +36003,21 @@
             "M:[r U' r',d2]"
         ],
         [
-            "U D r2 U2 r' u2 r U2 r' u2 r' D' U'",
-            [
-                "Leonardo Ezequiel Cruz"
-            ],
-            "U D r:[r U2 r',u2]"
-        ],
-        [
             "3Lw U' r' d2 r U r' d2 4Lw'",
             [
                 "Kevin Matthews"
             ],
             "3Lw:[U',r' d2 r]"
+        ],
+        [
+            "U D r2 U2 r' u2 r U2 r' u2 r' D' U'",
+            [
+                "Leonardo Ezequiel Cruz"
+            ],
+            "U D r:[r U2 r',u2]"
         ]
     ],
     "JWG": [
-        [
-            "l' U r u2 r' U' r u2 r' l",
-            [
-                "Kai Yamamoto (山本快)",
-                "Stanley Chapel",
-                "Yuki Tsuneyoshi (恒吉優紀)"
-            ],
-            "l':[U,r u2 r']"
-        ],
         [
             "U' Rw' l2 U r U' l2 U r' U' Rw U",
             [
@@ -36035,6 +36026,15 @@
                 "Jonghyun Kim (김종현)"
             ],
             "U' Rw':[l2,U r U']"
+        ],
+        [
+            "l' U r u2 r' U' r u2 r' l",
+            [
+                "Kai Yamamoto (山本快)",
+                "Stanley Chapel",
+                "Yuki Tsuneyoshi (恒吉優紀)"
+            ],
+            "l':[U,r u2 r']"
         ],
         [
             "x' r U r' d2 r U' r' d2 x",
@@ -36048,7 +36048,7 @@
         [
             "U' Rw l2 U r' U' l2 U r U' Rw' U",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Dong Zhu (朱栋)"
             ],
             "U' Rw:[l2,U r' U']"
@@ -36068,13 +36068,6 @@
             "U':[D r2 D',l2]"
         ],
         [
-            "l U r' d2 r U' r' d2 r l'",
-            [
-                "Andrew Tan Jing Bang"
-            ],
-            "l:[U,r' d2 r]"
-        ],
-        [
             "M' r' U r u2 r' U' r u2 M",
             [
                 "Ziyi Xu (徐梓翼)"
@@ -36082,11 +36075,11 @@
             "M':[r' U r,u2]"
         ],
         [
-            "U' 3Rw l2 U r' U' l2 U r U' 3Rw' U",
+            "l U r' d2 r U' r' d2 r l'",
             [
-                "Leonardo Ezequiel Cruz"
+                "Andrew Tan Jing Bang"
             ],
-            "U' 3Rw:[l2,U r' U']"
+            "l:[U,r' d2 r]"
         ],
         [
             "3Lw U r' d2 r U' r' d2 4Lw'",
@@ -36094,6 +36087,13 @@
                 "Kevin Matthews"
             ],
             "3Lw:[U,r' d2 r]"
+        ],
+        [
+            "U' 3Rw l2 U r' U' l2 U r U' 3Rw' U",
+            [
+                "Leonardo Ezequiel Cruz"
+            ],
+            "U' 3Rw:[l2,U r' U']"
         ],
         [
             "Lw' U r u2 r' U' r u2 r' Lw",
@@ -36108,7 +36108,7 @@
             "D' r' U l2 U' r U l2 U' D",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
@@ -36131,18 +36131,18 @@
             "y:[Uw' r' Uw,l2]"
         ],
         [
-            "l2 U2 l u2 l' U2 l u2 l",
-            [
-                "Leonardo Ezequiel Cruz"
-            ],
-            "l':[l' U2 l,u2]"
-        ],
-        [
             "y' Uw' l' Uw r2 Uw' l Uw r2 y",
             [
                 "Kevin Matthews"
             ],
             "y':[Uw' l' Uw,r2]"
+        ],
+        [
+            "l2 U2 l u2 l' U2 l u2 l",
+            [
+                "Leonardo Ezequiel Cruz"
+            ],
+            "l':[l' U2 l,u2]"
         ]
     ],
     "JWI": [
@@ -36150,7 +36150,7 @@
             "U2 Uw r Uw' l2 Uw r' Uw' l2 U2",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -36193,7 +36193,7 @@
             "l2 U2 l u l' U2 l u' l",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
@@ -36215,7 +36215,7 @@
             "U' r U' l2 U r' U' l2 U2",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -36275,7 +36275,7 @@
         [
             "D2 U l' U' r2 U l U' r2 D2",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan"
@@ -36329,7 +36329,7 @@
             "U2 D l U r2 U' l' U r2 D' U",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Dong Zhu (朱栋)",
                 "Jonghyun Kim (김종현)",
@@ -36380,7 +36380,7 @@
         [
             "D' l2 U l d l' U' l d' l D",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Ethan Pan",
                 "Jonghyun Kim (김종현)",
@@ -36451,7 +36451,7 @@
         [
             "l2 U2 l' d l U2 l' d' l'",
             [
-                "Antonio Kam (甘浩東)"
+                "Anto Kam (甘浩東)"
             ],
             "l:[l U2 l',d]"
         ],
@@ -36468,7 +36468,7 @@
             "U' r' U' l2 U r U' l2 U2",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -36502,7 +36502,7 @@
             "D' r U l2 U' r' U l2 U' D",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -36542,7 +36542,7 @@
         [
             "D' l2 U l d' l' U' l d l D",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Ethan Pan",
                 "Jonghyun Kim (김종현)",
@@ -36567,25 +36567,25 @@
             "R' y':[U' l U,r2]"
         ],
         [
-            "y D' l' U' r2 U l U' r2 U D y'",
-            [
-                "Ethan Pan"
-            ],
-            "y D':[l',U' r2 U]"
-        ],
-        [
             "R' 4Dw' r U l2 U' r' U l2 y' R",
             [
                 "Daniel Lin"
             ],
             "R' y:[U' r U,l2]"
+        ],
+        [
+            "y D' l' U' r2 U l U' r2 U D y'",
+            [
+                "Ethan Pan"
+            ],
+            "y D':[l',U' r2 U]"
         ]
     ],
     "JXA": [
         [
             "Lw D U l' U' r2 U l U' r2 D' Lw'",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -36633,7 +36633,7 @@
             "U2 l' U r2 U' l U r2 U",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -36674,7 +36674,7 @@
         [
             "U r2 U2 r' u' r U2 r' u r' U'",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Leonardo Ezequiel Cruz"
             ],
             "U r:[r U2 r',u']"
@@ -36715,7 +36715,7 @@
             "Lw' U2 l U r2 U' l' U r2 U Lw",
             [
                 "Adrian Dębski",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan"
@@ -36764,7 +36764,7 @@
             "Uw' U' l' U r2 U' l U r2 Uw",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -36793,7 +36793,7 @@
             "D U l U' r2 U l' U' r2 D'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -36832,7 +36832,7 @@
         [
             "U' Lw U' l' U r2 U' l U r2 Lw' U",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Wallin",
                 "Howie Craig",
@@ -36892,7 +36892,7 @@
         [
             "D2 r' U l2 U' r U l2 U' D2",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Dong Zhu (朱栋)",
                 "Ziyi Xu (徐梓翼)"
@@ -36912,7 +36912,7 @@
             "U r2 U2 r' u r U2 r' u' r' U'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -36978,7 +36978,7 @@
         [
             "D' l2 U2 l u l' U2 l u' l D",
             [
-                "Antonio Kam (甘浩東)"
+                "Anto Kam (甘浩東)"
             ],
             "D' l':[l' U2 l,u]"
         ],
@@ -37009,7 +37009,7 @@
             "U' D' r U' l2 U r' U' l2 U2 D",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -37068,7 +37068,7 @@
         [
             "U D Rw r U' r' d r U r' d' Rw' D' U'",
             [
-                "Antonio Kam (甘浩東)"
+                "Anto Kam (甘浩東)"
             ],
             "U D Rw:[r U' r',d]"
         ],
@@ -37085,7 +37085,7 @@
             "D U l' U' r2 U l U' r2 D'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -37123,7 +37123,7 @@
             "U2 l U r2 U' l' U r2 U",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -37194,7 +37194,7 @@
         [
             "U D r2 U' r' d' r U r' d r' D' U'",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Jonghyun Kim (김종현)"
             ],
@@ -37210,18 +37210,18 @@
             "y D':[U' r U,l2]"
         ],
         [
-            "D' l2 U2 l' d l U2 l' d' l' D",
-            [
-                "Leonardo Ezequiel Cruz"
-            ],
-            "D' l:[l U2 l',d]"
-        ],
-        [
             "4Uw' U' l U r2 U' l' U r2 4Uw",
             [
                 "Kevin Matthews"
             ],
             "4Uw':[U' l U,r2]"
+        ],
+        [
+            "D' l2 U2 l' d l U2 l' d' l' D",
+            [
+                "Leonardo Ezequiel Cruz"
+            ],
+            "D' l:[l U2 l',d]"
         ]
     ],
     "JXT": [
@@ -37229,7 +37229,7 @@
             "U' D' r' U' l2 U r U' l2 U2 D",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -37269,7 +37269,7 @@
             "D2 r U l2 U' r' U l2 U' D2",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -37327,18 +37327,18 @@
             "D d':[U l' U',r2]"
         ],
         [
-            "D2 l2 U l d' l' U' l d l D2",
-            [
-                "Antonio Kam (甘浩東)"
-            ],
-            "D2 l':[l' U l,d']"
-        ],
-        [
             "D2 y l' U' r2 U l U' r2 4Dw D2",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "D2 y:[l',U' r2 U]"
+        ],
+        [
+            "D2 l2 U l d' l' U' l d l D2",
+            [
+                "Anto Kam (甘浩東)"
+            ],
+            "D2 l':[l' U l,d']"
         ],
         [
             "y' D2 r' U' l2 U r U' l2 U D2 y",
@@ -37423,7 +37423,7 @@
             "Uw l Uw' r Uw l' Uw' r'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -37446,7 +37446,7 @@
             "l' d2 l U2 l' d2 l U2",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
@@ -37488,18 +37488,18 @@
             "U' Lw' U:[U l U',r]"
         ],
         [
-            "y' U' r' d' r U2 r' d r 4Dw'",
-            [
-                "Graham Siggins"
-            ],
-            "y' U':[r' d' r,U2]"
-        ],
-        [
             "U' l U2 l' U' r U l U' r' U' l' U",
             [
                 "Ryan Eckersley"
             ],
             "U' l U:[U l' U',r]"
+        ],
+        [
+            "y' U' r' d' r U2 r' d r 4Dw'",
+            [
+                "Graham Siggins"
+            ],
+            "y' U':[r' d' r,U2]"
         ],
         [
             "d' U2 r' d r U2 r' d' r d",
@@ -37514,7 +37514,7 @@
             "Lw Uw l Uw' r Uw l' Uw' r' Lw'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Ethan Pan",
@@ -37569,7 +37569,7 @@
             "U l U' r U l' U' r'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -37592,7 +37592,7 @@
             "U' l' d2 l U' l' d2 l U2",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Howie Craig",
                 "Kai Yamamoto (山本快)",
@@ -37734,7 +37734,7 @@
         [
             "U Rw U' r' d' r U r' d R' U'",
             [
-                "Antonio Kam (甘浩東)"
+                "Anto Kam (甘浩東)"
             ],
             "U R:[r U' r',d']"
         ]
@@ -37744,7 +37744,7 @@
             "U r U' r u' r' U r u r2 U'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Wallin",
                 "Ethan Pan",
@@ -37788,7 +37788,7 @@
             "U r U' r' d r U r' d' U'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -37805,18 +37805,18 @@
             "U:[r U' r',d]"
         ],
         [
-            "Lw' Uw l Uw' r Uw l' Uw' r' Lw",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "Lw':[Uw l Uw',r]"
-        ],
-        [
             "x r' Uw l Uw' r Uw l' Uw' x'",
             [
                 "Daniel Lin"
             ],
             "x:[r',Uw l Uw']"
+        ],
+        [
+            "Lw' Uw l Uw' r Uw l' Uw' r' Lw",
+            [
+                "Kai Yamamoto (山本快)"
+            ],
+            "Lw':[Uw l Uw',r]"
         ]
     ],
     "JYN": [
@@ -37835,7 +37835,7 @@
             "U l2 U' r U l2 U' r'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -37866,7 +37866,7 @@
             "d2 l U2 l' d2 l U2 l'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
@@ -37901,7 +37901,7 @@
             "Lw' U r U' r' d r U r' d' U' Lw",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Ethan Pan",
                 "Kai Yamamoto (山本快)",
@@ -37937,18 +37937,18 @@
             "Rw Dw:[r',U l' U']"
         ],
         [
-            "r z r' U r d r' U' r d' z' r'",
-            [
-                "Kevin Matthews"
-            ],
-            "r z:[r' U r,d]"
-        ],
-        [
             "L' U r U' r' d r U r' d' U' L",
             [
                 "Jonghyun Kim (김종현)"
             ],
             "L' U:[r U' r',d]"
+        ],
+        [
+            "r z r' U r d r' U' r d' z' r'",
+            [
+                "Kevin Matthews"
+            ],
+            "r z:[r' U r,d]"
         ]
     ],
     "JYR": [
@@ -37956,7 +37956,7 @@
             "D U l2 U' r U l2 U' r' D'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -37979,7 +37979,7 @@
             "U r U' r' d' r U r' d U'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -38008,7 +38008,7 @@
             "F l' U l d2 l' U' l d2 F'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
@@ -38028,20 +38028,20 @@
             "Rw' D U:[U l2 U',r]"
         ],
         [
-            "x Uw2 l' Uw r2 Uw' l Uw r2 Uw x'",
-            [
-                "Daniel Lin",
-                "Kevin Matthews"
-            ],
-            "x Uw':[Uw' l' Uw,r2]"
-        ],
-        [
             "U x' U r2 U l' U' r2 U l U2 x U'",
             [
                 "Daniel Lin",
                 "Jonghyun Kim (김종현)"
             ],
             "U x' U:[r2,U l' U']"
+        ],
+        [
+            "x Uw2 l' Uw r2 Uw' l Uw r2 Uw x'",
+            [
+                "Daniel Lin",
+                "Kevin Matthews"
+            ],
+            "x Uw':[Uw' l' Uw,r2]"
         ],
         [
             "B2 U l U' r U l' U' r' B2",
@@ -38056,7 +38056,7 @@
             "D' U l2 U' r U l2 U' r' D",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -38085,7 +38085,7 @@
             "D2 U l2 U' r U l2 U' r' D2",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -38125,7 +38125,7 @@
         [
             "U R' r U' r' d' r U r' d R U'",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
@@ -38226,7 +38226,7 @@
         [
             "R u l' U2 l u' l' U2 l R'",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -38296,7 +38296,7 @@
             [
                 "Adrian Dębski",
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
@@ -38370,7 +38370,7 @@
         [
             "4Uw' U' l' U r' U' l U r 4Uw",
             [
-                "Antonio Kam (甘浩東)"
+                "Anto Kam (甘浩東)"
             ],
             "4Uw':[U' l' U,r']"
         ],
@@ -38387,7 +38387,7 @@
             "l2 d' l' U l d l' U' l'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
@@ -38423,7 +38423,7 @@
             "r d r' U' r d' r' U",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
@@ -38522,7 +38522,7 @@
         [
             "Rw U' r' U2 r u' r' U2 r Uw Rw'",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Daniel Wallin",
                 "Ethan Pan"
             ],
@@ -38558,7 +38558,7 @@
             "L d' l' U l d2 l' U' l d' L'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
@@ -38605,7 +38605,7 @@
             "d' l' U l d l' U' l",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -38635,7 +38635,7 @@
             "l' d' l' U l d l' U' l2",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
@@ -38688,7 +38688,7 @@
         [
             "R' d l U2 l' d' l U2 l' R",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Jonghyun Kim (김종현)",
                 "Leonardo Ezequiel Cruz",
@@ -38719,7 +38719,7 @@
             "d' l' U l d2 l' U' l d'",
             [
                 "Andrew Tan Jing Bang",
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
@@ -38780,7 +38780,7 @@
         [
             "D l' d' l' U l d l' U' l2 D'",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Leonardo Ezequiel Cruz"
             ],
             "D l':[d',l' U l]"
@@ -38840,7 +38840,7 @@
         [
             "D' l' d' l' U l d l' U' l2 D",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Ethan Pan",
                 "Jonghyun Kim (김종현)",
@@ -38865,18 +38865,18 @@
             "R' y':[r2,U' l U]"
         ],
         [
-            "y D' U' r2 U l' U' r2 U l D y'",
-            [
-                "Ethan Pan"
-            ],
-            "y D':[U' r2 U,l']"
-        ],
-        [
             "R' y l2 U' r U l2 U' r' 4Dw R",
             [
                 "Daniel Lin"
             ],
             "R' y:[l2,U' r U]"
+        ],
+        [
+            "y D' U' r2 U l' U' r2 U l D y'",
+            [
+                "Ethan Pan"
+            ],
+            "y D':[U' r2 U,l']"
         ]
     ],
     "JZX": [
@@ -38913,18 +38913,18 @@
             "D d':[r2,U l' U']"
         ],
         [
-            "D2 l' d' l' U l d l' U' l2 D2",
-            [
-                "Antonio Kam (甘浩東)"
-            ],
-            "D2 l':[d',l' U l]"
-        ],
-        [
             "D2 4Dw' r2 U l' U' r2 U l y' D2",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "D2 y:[U' r2 U,l']"
+        ],
+        [
+            "D2 l' d' l' U l d l' U' l2 D2",
+            [
+                "Anto Kam (甘浩東)"
+            ],
+            "D2 l':[d',l' U l]"
         ],
         [
             "y' D2 U' l2 U r' U' l2 U r D2 y",
@@ -38950,7 +38950,7 @@
         [
             "U R' d' r U' r' d r U r' R U'",
             [
-                "Antonio Kam (甘浩東)",
+                "Anto Kam (甘浩東)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan"
@@ -39600,18 +39600,18 @@
             "Uw' r':[r' d r,U']"
         ],
         [
-            "x' z' r2 U l' U' r2 U l U' z x",
-            [
-                "Graham Siggins"
-            ],
-            "x' z':[r2,U l' U']"
-        ],
-        [
             "Uw Lw' U r' u' r U' r' u r Lw Uw'",
             [
                 "Michael Tripodi"
             ],
             "Uw Lw':[U,r' u' r]"
+        ],
+        [
+            "x' z' r2 U l' U' r2 U l U' z x",
+            [
+                "Graham Siggins"
+            ],
+            "x' z':[r2,U l' U']"
         ],
         [
             "R y r U' l U r' U' l' 4Dw R'",
@@ -39789,18 +39789,18 @@
             "y:[U' l' U,r2]"
         ],
         [
-            "y' U' r' U l2 U' r U l2 y",
-            [
-                "Timo Norrkniivilä"
-            ],
-            "y':[U' r' U,l2]"
-        ],
-        [
             "Uw D' U' l' U r2 U' l U r2 D Uw'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "Uw D':[U' l' U,r2]"
+        ],
+        [
+            "y' U' r' U l2 U' r U l2 y",
+            [
+                "Timo Norrkniivilä"
+            ],
+            "y':[U' r' U,l2]"
         ]
     ],
     "KDT": [
@@ -39990,7 +39990,7 @@
         [
             "u l' U l u2 l' U' l u",
             [
-                "Antonio Kam (甘浩東)"
+                "Anto Kam (甘浩東)"
             ],
             "u:[l' U l,u2]"
         ]
@@ -40574,18 +40574,18 @@
             "Uw' r':[U',r' d r]"
         ],
         [
-            "x' z' U l' U' r2 U l U' r2 z x",
-            [
-                "Graham Siggins"
-            ],
-            "x' z':[U l' U',r2]"
-        ],
-        [
             "Uw Lw' r' u' r U r' u r U' Lw Uw'",
             [
                 "Michael Tripodi"
             ],
             "Uw Lw':[r' u' r,U]"
+        ],
+        [
+            "x' z' U l' U' r2 U l U' r2 z x",
+            [
+                "Graham Siggins"
+            ],
+            "x' z':[U l' U',r2]"
         ],
         [
             "R 4Dw' l U r U' l' U r' y' R'",
@@ -40683,7 +40683,7 @@
         [
             "u' l' U l u2 l' U' l u'",
             [
-                "Antonio Kam (甘浩東)"
+                "Anto Kam (甘浩東)"
             ],
             "u':[l' U l,u2]"
         ]
@@ -40961,18 +40961,18 @@
             "y:[r2,U' l' U]"
         ],
         [
-            "y' l2 U' r' U l2 U' r U y",
-            [
-                "Timo Norrkniivilä"
-            ],
-            "y':[l2,U' r' U]"
-        ],
-        [
             "Uw D' r2 U' l' U r2 U' l U D Uw'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "Uw D':[r2,U' l' U]"
+        ],
+        [
+            "y' l2 U' r' U l2 U' r U y",
+            [
+                "Timo Norrkniivilä"
+            ],
+            "y':[l2,U' r' U]"
         ]
     ],
     "KRG": [
@@ -42437,18 +42437,18 @@
             "F':[U' l' U,r']"
         ],
         [
-            "U' 4Rw' U' l' U r2 U' l U r2 4Rw U",
-            [
-                "Antonio Kam (甘浩東)"
-            ],
-            "U' 4Rw':[U' l' U,r2]"
-        ],
-        [
             "U' x' U' l' U r2 U' l U r2 x U",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "U' x':[U' l' U,r2]"
+        ],
+        [
+            "U' 4Rw' U' l' U r2 U' l U r2 4Rw U",
+            [
+                "Anto Kam (甘浩東)"
+            ],
+            "U' 4Rw':[U' l' U,r2]"
         ]
     ],
     "LGW": [
@@ -43043,18 +43043,18 @@
             "F':[r',U' l' U]"
         ],
         [
-            "U' 4Rw' r2 U' l' U r2 U' l U 4Rw U",
-            [
-                "Antonio Kam (甘浩東)"
-            ],
-            "U' 4Rw':[r2,U' l' U]"
-        ],
-        [
             "U' x' r2 U' l' U r2 U' l U x U",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "U' x':[r2,U' l' U]"
+        ],
+        [
+            "U' 4Rw' r2 U' l' U r2 U' l U 4Rw U",
+            [
+                "Anto Kam (甘浩東)"
+            ],
+            "U' 4Rw':[r2,U' l' U]"
         ]
     ],
     "LWA": [
@@ -43103,7 +43103,7 @@
         [
             "U' 4Rw r U' l' U r' U' l U 4Rw' U",
             [
-                "Antonio Kam (甘浩東)"
+                "Anto Kam (甘浩東)"
             ],
             "U' 4Rw:[r,U' l' U]"
         ]
@@ -43170,7 +43170,7 @@
         [
             "U' 4Rw U' l' U r U' l U r' 4Rw' U",
             [
-                "Antonio Kam (甘浩東)"
+                "Anto Kam (甘浩東)"
             ],
             "U' 4Rw:[U' l' U,r]"
         ]
