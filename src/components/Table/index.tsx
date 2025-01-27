@@ -73,7 +73,7 @@ const Table = ({
       if (isManmade) {
         item = is3bld ? value[i][0] : [value[i][0]];
         source = value[i][1];
-        comm = is3bld ? "" : value[i][2];
+        comm = isCommutatorNeeded ? value[i][2] : "";
       } else {
         item = [value[i]];
       }
@@ -84,13 +84,13 @@ const Table = ({
       for (let j = 0; j < item.length; j++) {
         let commutatorResult = "";
         if (isCommutatorNeeded) {
-          if (is3bld) {
+          if (is3bld && !isManmade) {
             commutatorResult = commutator.search({
               algorithm: item[j],
               maxDepth: 1,
             })[0];
           } else {
-            commutatorResult = comm;
+            commutatorResult = is3bld ? comm[j] : comm;
           }
         }
         let sourceResult: JSX.Element[] = [];
@@ -185,6 +185,7 @@ const Table = ({
               <th
                 colSpan={5}
                 className="border-b-0 bg-green-300 text-left dark:bg-green-800"
+                style={{ fontFamily: "Inter, sans-serif" }}
               >
                 {codeType === "parity"
                   ? `${t("common.position")} ${`${matchedPosition.slice(0, 2).join("--")} & ${matchedPosition.slice(2, 4).join("--")}`}`
