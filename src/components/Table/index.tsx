@@ -179,7 +179,7 @@ const Table = ({
         codeType,
       );
       tableElements.push(
-        <>
+        <React.Fragment key={key}>
           <thead>
             <tr>
               <th
@@ -202,13 +202,19 @@ const Table = ({
               {isManmade && <th>{t("table.source")}</th>}
             </tr>
           </thead>
-          <tbody>{tableRows}</tbody>
-          <br />
-        </>,
+          <tbody>
+            {tableRows}
+            <tr>
+              <td colSpan={5} style={{ border: "none" }}>
+                &nbsp;
+              </td>
+            </tr>
+          </tbody>
+        </React.Fragment>,
       );
     } else {
       tableElements.push(
-        <>
+        <React.Fragment key={key}>
           <thead>
             <tr>
               <th>{t("table.no")}</th>
@@ -219,14 +225,18 @@ const Table = ({
             </tr>
           </thead>
           <tbody>{tableRows}</tbody>
-        </>,
+        </React.Fragment>,
       );
     }
   }
 
   const tableElements2: JSX.Element[] = [];
   if (tableElements.length !== 0) {
-    tableElements2.push(<table ref={tableRef}>{tableElements}</table>);
+    tableElements2.push(
+      <table ref={tableRef} key="table">
+        {tableElements}
+      </table>,
+    );
   }
   return (
     <div ref={divRef} className="mt-4">
