@@ -229,7 +229,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
         ref={inputRef}
         placeholder=""
         style={{ width: `${inputWidth}rem` }}
-        className="text-transform: ml-2 rounded-sm border-b-[3px] border-gray-500 bg-inherit px-2 py-1 text-base font-medium uppercase text-dark outline-none transition-all duration-300 focus:border-primary dark:border-gray-100 dark:bg-inherit dark:text-white dark:shadow-none dark:focus:border-primary dark:focus:shadow-none"
+        className="rounded-sm border-b-[3px] border-gray-500 bg-inherit px-2 py-1 text-base font-medium uppercase text-dark outline-none transition-all duration-300 focus:border-primary dark:border-gray-100 dark:bg-inherit dark:text-white dark:shadow-none dark:focus:border-primary dark:focus:shadow-none"
         autoComplete="off"
         maxLength={selectValuesLen}
         onChange={handleInputChange}
@@ -247,7 +247,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
           onClick={scrollToTop}
           ref={modeRef}
           value={modeValue}
-          className="text-transform: inline-block rounded-sm border-b-[3px] border-gray-500 bg-inherit py-1 pr-5 text-base font-medium text-dark outline-none transition-all duration-300 focus:border-primary dark:border-gray-100 dark:bg-gray-dark dark:text-white dark:shadow-none dark:focus:border-primary dark:focus:shadow-none"
+          className="inline-block rounded-sm border-b-[3px] border-gray-500 bg-inherit py-1 pr-5 text-base font-medium text-dark outline-none transition-all duration-300 focus:border-primary dark:border-gray-100 dark:bg-gray-dark dark:text-white dark:shadow-none dark:focus:border-primary dark:focus:shadow-none"
         >
           {Object.entries(modeToEmoji).map(([mode, emoji]) => (
             <option key={mode} value={mode}>
@@ -267,7 +267,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
           onChange={(e) => handleSelectChange(e, index)}
           onClick={scrollToTop}
           ref={(ref) => (selectRefs.current[index] = ref as HTMLSelectElement)}
-          className="text-transform: w-[3.5rem] rounded-sm border-b-[3px] border-gray-500 bg-inherit py-1 text-base font-medium text-dark outline-none transition-all duration-300 focus:border-primary dark:border-gray-100 dark:bg-gray-dark dark:text-white dark:shadow-none dark:focus:border-primary dark:focus:shadow-none"
+          className="w-[3.5rem] rounded-sm border-b-[3px] border-gray-500 bg-inherit py-1 text-base font-medium text-dark outline-none transition-all duration-300 focus:border-primary dark:border-gray-100 dark:bg-gray-dark dark:text-white dark:shadow-none dark:focus:border-primary dark:focus:shadow-none"
         >
           <option></option>
           {modeValue === "manmade" && <option>*</option>}
