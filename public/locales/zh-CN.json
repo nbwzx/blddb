@@ -2,6 +2,34 @@
   "Home": "主页",
   "title": "盲拧公式库",
   "description": "盲拧公式库 (blddb.net) 是一个包含了数万条公式的魔方盲拧公式库，有角块三循环、棱块三循环、翻角、翻棱等多种类型的公式。它兼容手机、电脑、平板等多种设备。盲拧公式库提供了多个备选公式，你可以自由地选择公式，从而定制出一套适合自己手法的公式集。",
+  "features": {
+    "title": "更新内容",
+    "paragraph": "在版本 2 中，我们做出了重大更新以改善用户的体验。",
+    "feature1": {
+      "title": "简化导航",
+      "paragraph": "我们优化了导航，使体验更加流畅和直观，确保您能够快速轻松地找到所需内容。"
+    },
+    "feature2": {
+      "title": "黑暗模式支持",
+      "paragraph": "我们增加了黑暗模式选项，以减少眼睛疲劳，提供更舒适的视觉体验，特别是在低光环境中。"
+    },
+    "feature3": {
+      "title": "直接链接到特定三循环",
+      "paragraph": "我们引入了直接链接到特定三循环的功能，使共享和引用变得更加简单。例如：[https://v2.blddb.net/corner?position=UFR-UFL-UBL&mode=manmade]"
+    },
+    "feature4": {
+      "title": "通配符匹配支持",
+      "paragraph": "我们最近推出了通配符匹配的支持，使用户可以一次性查看完整的公式集。例如：[https://v2.blddb.net/corner?position=UFR-UFL-*&mode=manmade]"
+    },
+    "feature5": {
+      "title": "易于维护和扩展",
+      "paragraph": "版本 2 的设计注重易于维护，采用 Next.js 和 Tailwind CSS 构建了干净的代码库。"
+    },
+    "feature6": {
+      "title": "增强和兼容性",
+      "paragraph": "我们解决了多个遗留的错误，并实施了在版本 1 中较为复杂的重大更新，同时确保与之前版本的兼容性。"
+    }
+  },
   "common": {
     "pairs": "公式编码：",
     "position": "位置类：",

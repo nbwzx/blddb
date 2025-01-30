@@ -1,15 +1,19 @@
+"use client";
+
 import SectionTitle from "../Common/SectionTitle";
 import SingleFeature from "./SingleFeature";
 import featuresData from "./featuresData";
+import { useTranslation } from "@/i18n/client";
 
 const Features = () => {
+  const { t } = useTranslation();
   return (
     <>
       <section id="features" className="py-16 md:py-20 lg:py-28">
         <div className="container">
           <SectionTitle
-            title="Main Features"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            title={t("features.title")}
+            paragraph={t("features.paragraph")}
             center
           />
 

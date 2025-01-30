@@ -2,6 +2,37 @@
   "Home": "Home",
   "title": "BLD Algorithm Database",
   "description": "BLDDB (blddb.net) is a comprehensive Rubik’s Cube Blindfolded algorithm database including 3‑style corner (all buffers), 3‑style edge (all buffers), corner twist, edge flip, etc. It provides many options for each case, so the users can select algorithm based on their own preference.",
+  "features": {
+    "title": "What's New?",
+    "paragraph": "In Version 2, we've made significant improvements to enhance users' experience.",
+    "feature1": {
+      "title": "Streamlined Navigation",
+      "paragraph": "We've optimized our navigation for a smoother and more intuitive experience, ensuring that you can find what you need quickly and easily."
+    },
+    "feature2": {
+      "title": "Dark Mode Support",
+      "paragraph": "We've added a dark mode option to reduce eye strain and provide a more comfortable viewing experience, especially in low-light environments."
+    },
+    "feature3": {
+      "title": "Direct Linking to Specific Cases",
+      "paragraph": "We've introduced the ability to link directly to specific cases, making it easy to share and reference with others. For example: [https://v2.blddb.net/corner?position=UFR-UFL-UBL&mode=manmade]"
+    },
+    "feature4": {
+      "title": "Wildcard Matching Support",
+      "paragraph":
+        "We recently launched support for wildcard matching, which allows users to see a complete set of cases at once. For example: [https://v2.blddb.net/corner?position=UFR-UFL-*&mode=manmade]"
+    },
+    "feature5": {
+      "title": "Easy Maintenance and Scalability",
+      "paragraph":
+        "Version 2 is designed for easy maintenance, featuring a clean codebase built with Next.js and Tailwind CSS."
+    },
+    "feature6": {
+      "title": "Enhancements and Compatibility",
+      "paragraph":
+        "We've resolved several legacy bugs and implemented significant updates that were challenging in Version 1, while ensuring compatibility with the previous version."
+    }
+  },
   "common": {
     "pairs": "Letter Pairs:",
     "position": "Position:",
