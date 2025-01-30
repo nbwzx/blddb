@@ -19,18 +19,15 @@
     },
     "feature4": {
       "title": "Wildcard Matching Support",
-      "paragraph":
-        "We recently launched support for wildcard matching, which allows users to see a complete set of cases at once. For example: [https://v2.blddb.net/corner?position=UFR-UFL-*&mode=manmade]"
+      "paragraph": "We recently launched support for wildcard matching, which allows users to see a complete set of cases at once. For example: [https://v2.blddb.net/corner?position=UFR-UFL-*&mode=manmade]"
     },
     "feature5": {
       "title": "Easy Maintenance and Scalability",
-      "paragraph":
-        "Version 2 is designed for easy maintenance, featuring a clean codebase built with Next.js and Tailwind CSS."
+      "paragraph": "Version 2 is designed for easy maintenance, featuring a clean codebase built with Next.js and Tailwind CSS."
     },
     "feature6": {
       "title": "Enhancements and Compatibility",
-      "paragraph":
-        "We've resolved several legacy bugs and implemented significant updates that were challenging in Version 1, while ensuring compatibility with the previous version."
+      "paragraph": "We've resolved several legacy bugs and implemented significant updates that were challenging in Version 1, while ensuring compatibility with the previous version."
     }
   },
   "common": {
@@ -114,5 +111,14 @@
     "parity": "Parity",
     "code": "Code",
     "algorithm": "Algorithm"
+  },
+  "donate": {
+    "title": "Donate",
+    "heading": "Thank you for your willingness to support BLDDB!",
+    "description": "Your donation will be used to support our development and maintenance costs.",
+    "paypalText": "If you would like to offer us a donation through PayPal, please through",
+    "qrText": "You can also fund us by Alipay or Wechat Pay, scan the two-dimensional code below:",
+    "period": ".",
+    "thankYou": "Thank you again for your donation!"
   }
 }

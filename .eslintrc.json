@@ -1,8 +1,5 @@
 {
-  "extends": [
-    "next/core-web-vitals",
-    "eslint:recommended"
-  ],
+  "extends": ["next/core-web-vitals", "eslint:recommended"],
   "rules": {
     "accessor-pairs": 2,
     "array-bracket-newline": 2,
@@ -149,7 +146,7 @@
     "no-mixed-requires": [2, false],
     "no-mixed-spaces-and-tabs": [2, false],
     "no-multi-assign": 2,
-    "no-multiple-empty-lines": [2, {"max": 2}],
+    "no-multiple-empty-lines": [2, { "max": 2 }],
     "no-multi-spaces": 2,
     "no-multi-str": 2,
     "no-native-reassign": 2,
@@ -215,7 +212,7 @@
     "no-unused-expressions": 2,
     "no-unused-labels": 2,
     "no-unused-private-class-members": 2,
-    "no-unused-vars": [2, {"vars": "all", "args": "after-used"}],
+    "no-unused-vars": [2, { "vars": "all", "args": "after-used" }],
     "no-use-before-define": 0,
     "no-useless-backreference": 2,
     "no-useless-call": 2,
@@ -228,7 +225,10 @@
     "no-useless-return": 2,
     "no-var": 2,
     "no-void": 2,
-    "no-warning-comments": [1, { "terms": ["todo", "fixme", "xxx"], "location": "start" }],
+    "no-warning-comments": [
+      1,
+      { "terms": ["todo", "fixme", "xxx"], "location": "start" }
+    ],
     "no-whitespace-before-property": 2,
     "no-with": 2,
     "object-curly-newline": 2,
@@ -265,7 +265,7 @@
     "require-yield": 2,
     "rest-spread-spacing": 2,
     "semi": [2, "always"],
-    "semi-spacing": [0, {"before": false, "after": true}],
+    "semi-spacing": [0, { "before": false, "after": true }],
     "semi-style": 2,
     "sort-imports": 0,
     "sort-keys": 0,

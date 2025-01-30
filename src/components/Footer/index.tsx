@@ -1,5 +1,7 @@
 "use client";
 
+import Link from "next/link";
+
 const Footer = () => {
   return (
     <>
@@ -29,9 +31,9 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a id="donate" href="#">
+                  <Link href="/donate" className="hover:text-primary">
                     Donate me
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
