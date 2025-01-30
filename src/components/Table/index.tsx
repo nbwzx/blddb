@@ -39,16 +39,16 @@ const Table = ({
 }) => {
   const { t } = useTranslation();
   let is3bld = true;
-  let isCommutatorNeeded = true;
+  let isCommutatorNeeded = false;
   let converter = codeConverter;
   const bigbldCodeTypes = ["wing", "xcenter", "tcenter", "midge"];
-  const commutatorNotNeeded = ["parity"];
+  const commutatorNeededList = bigbldCodeTypes.concat(["corner", "edge"]);
   if (bigbldCodeTypes.includes(codeType)) {
     converter = bigbldCodeConverter;
     is3bld = false;
   }
-  if (commutatorNotNeeded.includes(codeType)) {
-    isCommutatorNeeded = false;
+  if (commutatorNeededList.includes(codeType)) {
+    isCommutatorNeeded = true;
   }
   const variantCode = converter.customCodeToVariantCode(inputText, codeType);
   const tableElements: JSX.Element[] = [];

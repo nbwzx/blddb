@@ -286,24 +286,27 @@ const BLD = ({ codeType }: { codeType: string }) => {
       </React.Fragment>
     ));
 
-  const renderParity = () => (
-    <>
-      {positionElement({ positionHint: t(`${codeType}.edgeswap`) })}
-      {groupInputElement({ groupArray: [0, 1], positionType: "edge" })}
-      <br />
-      {positionElement({ positionHint: t(`${codeType}.cornerswap`) })}
-      {groupInputElement({ groupArray: [2, 3], positionType: "corner" })}
-      {inputElement({ inputWidth: 4.5 })}
-    </>
-  );
-
-  const renderBLD = () => (
-    <>
-      {positionElement({ positionHint: t("common.position") })}
-      {groupInputElement({ groupArray: [0, 1, 2], positionType: codeType })}
-      {inputElement({ inputWidth: 4 })}
-    </>
-  );
+  const renderBLD = () => {
+    if (codeType === "parity") {
+      return (
+        <>
+          {positionElement({ positionHint: t(`${codeType}.edgeswap`) })}
+          {groupInputElement({ groupArray: [0, 1], positionType: "edge" })}
+          <br />
+          {positionElement({ positionHint: t(`${codeType}.cornerswap`) })}
+          {groupInputElement({ groupArray: [2, 3], positionType: "corner" })}
+          {inputElement({ inputWidth: 4.5 })}
+        </>
+      );
+    }
+    return (
+      <>
+        {positionElement({ positionHint: t("common.position") })}
+        {groupInputElement({ groupArray: [0, 1, 2], positionType: codeType })}
+        {inputElement({ inputWidth: 4 })}
+      </>
+    );
+  };
 
   return (
     <section className="pb-[120px] pt-[100px]">
@@ -317,7 +320,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
               <p className="text-black dark:text-white">
                 {t(`${codeType}.hint`)}
               </p>
-              {codeType === "parity" ? renderParity() : renderBLD()}
+              {renderBLD()}
               <Table
                 codeType={codeType}
                 inputText={converter.positionToCustomCode(selectValues)}
