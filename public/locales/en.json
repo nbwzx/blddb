@@ -15,11 +15,11 @@
     },
     "feature3": {
       "title": "Direct Linking to Specific Cases",
-      "paragraph": "We've introduced the ability to link directly to specific cases, making it easy to share and reference with others. For example: [https://v2.blddb.net/corner?position=UFR-UFL-UBL&mode=manmade]"
+      "paragraph": "We've introduced the ability to link directly to specific cases, making it easy to share and reference with others. For example: /corner?position=UFR-UFL-UBL&mode=manmade"
     },
     "feature4": {
       "title": "Wildcard Matching Support",
-      "paragraph": "We recently launched support for wildcard matching, which allows users to see a complete set of cases at once. For example: [https://v2.blddb.net/corner?position=UFR-UFL-*&mode=manmade]"
+      "paragraph": "We recently launched support for wildcard matching, which allows users to see a complete set of cases at once. For example: /corner?position=UFR-UFL-*&mode=manmade"
     },
     "feature5": {
       "title": "Easy Maintenance and Scalability",

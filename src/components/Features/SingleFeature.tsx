@@ -2,12 +2,20 @@
 
 import { Feature } from "@/types/feature";
 import { useTranslation } from "@/i18n/client";
-import React from "react";
+import React, { useEffect, useState } from "react";
+import Link from "next/link";
 
 const SingleFeature = ({ feature }: { feature: Feature }) => {
-  const urlRegex = /\[(https?:\/\/[^\s]+)\]/gu;
+  const urlRegex = /(\/[^\s]+)/gu;
+  const [baseUrl, setBaseUrl] = useState("");
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      setBaseUrl(window.location.origin);
+    }
+  }, []);
   const { t } = useTranslation();
   const { icon, title, paragraph } = feature;
+  const parts = t(paragraph).split(urlRegex);
   return (
     <div className="w-full">
       <div className="wow fadeInUp" data-wow-delay=".15s">
@@ -17,16 +25,23 @@ const SingleFeature = ({ feature }: { feature: Feature }) => {
         <h3 className="mb-5 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
           {t(title)}
         </h3>
-        <p
-          className="pr-[10px] text-base font-medium leading-relaxed text-body-color"
-          key={paragraph}
-          dangerouslySetInnerHTML={{
-            __html: t(paragraph).replace(urlRegex, (match, p1) => {
-              return `<a href="${p1}" target="_blank" rel="noopener noreferrer" style="text-decoration: underline;" onmouseover="this.classList.add('text-primary')" 
-                     onmouseout="this.classList.remove('text-primary')">${p1}</a>`;
-            }),
-          }}
-        ></p>
+        <p className="pr-[10px] text-base font-medium leading-relaxed text-body-color">
+          {parts.map((part: string, index: number) => {
+            if (urlRegex.test(part)) {
+              return (
+                <Link
+                  key={index}
+                  href={part}
+                  className="underline hover:text-primary"
+                  passHref
+                >
+                  {baseUrl + part}
+                </Link>
+              );
+            }
+            return part;
+          })}
+        </p>
       </div>
     </div>
   );

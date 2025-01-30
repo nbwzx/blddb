@@ -15,11 +15,11 @@
     },
     "feature3": {
       "title": "特定3-Styleへの直接リンク",
-      "paragraph": "特定の3-Styleに直接リンクする機能を導入し、他の人と共有・参照しやすくしました。例えば：[https://v2.blddb.net/corner?position=UFR-UFL-UBL&mode=manmade]"
+      "paragraph": "特定の3-Styleに直接リンクする機能を導入し、他の人と共有・参照しやすくしました。例えば：/corner?position=UFR-UFL-UBL&mode=manmade"
     },
     "feature4": {
       "title": "ワイルドカードマッチングサポート",
-      "paragraph": "ワイルドカードマッチングのサポートを最近開始しました。これにより、ユーザーは一度に手順をすべて参照できます。例えば：[https://v2.blddb.net/corner?position=UFR-UFL-*&mode=manmade]"
+      "paragraph": "ワイルドカードマッチングのサポートを最近開始しました。これにより、ユーザーは一度に手順をすべて参照できます。例えば：/corner?position=UFR-UFL-*&mode=manmade"
     },
     "feature5": {
       "title": "簡単なメンテナンスと拡張性",

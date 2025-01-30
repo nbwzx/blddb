@@ -15,11 +15,11 @@
     },
     "feature3": {
       "title": "直接链接到特定三循环",
-      "paragraph": "我们引入了直接链接到特定三循环的功能，使共享和引用变得更加简单。例如：[https://v2.blddb.net/corner?position=UFR-UFL-UBL&mode=manmade]"
+      "paragraph": "我们引入了直接链接到特定三循环的功能，使共享和引用变得更加简单。例如：/corner?position=UFR-UFL-UBL&mode=manmade"
     },
     "feature4": {
       "title": "通配符匹配支持",
-      "paragraph": "我们最近推出了通配符匹配的支持，使用户可以一次性查看完整的公式集。例如：[https://v2.blddb.net/corner?position=UFR-UFL-*&mode=manmade]"
+      "paragraph": "我们最近推出了通配符匹配的支持，使用户可以一次性查看完整的公式集。例如：[/corner?position=UFR-UFL-*&mode=manmade"
     },
     "feature5": {
       "title": "易于维护和扩展",
