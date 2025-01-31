@@ -266,6 +266,12 @@ const bigbldCodeConverter = (function () {
     );
   }
 
+  function codeTypeToPositions(codeType: string) {
+    return positionArray.filter(
+      (position) => positionToCodeType(position) === codeType,
+    );
+  }
+
   return {
     positionToCodeType,
     customCodeToInitCode,
@@ -274,6 +280,7 @@ const bigbldCodeConverter = (function () {
     customCodeToVariantCode,
     codeTypeToNumber,
     initCodeToVariantCustomCode,
+    codeTypeToPositions,
     initialInputValues,
     letteringSchemes,
     positionArray,

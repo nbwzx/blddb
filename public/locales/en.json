@@ -70,6 +70,12 @@
     "edgeswap": "Edge Swap: ",
     "cornerswap": "Corner Swap: "
   },
+  "ltct": {
+    "title": "LTCT & T2C",
+    "hint": "Edge swap is always UF-UR.\nFor LTCT inquiry, select first and second drop-down lists.\nFor T2C inquiry, select first and third drop-down lists.",
+    "twist": "Twist: ",
+    "twistHint": "Where U/D sticker is"
+  },
   "wing": {
     "title": "Wing",
     "hint": "Please enter 3 letter pairs (buffer-position1-position2) you want to query (eg. ACG)"

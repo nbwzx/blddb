@@ -37,6 +37,19 @@ const Table = ({
   selected?: { [key: string]: string };
   sourceToUrl?: { [key: string]: string[] };
 }) => {
+  const getPosition = (matchedPosition: string[]) => {
+    let positionText = "";
+
+    if (codeType === "parity") {
+      positionText = `${t("common.position")} ${matchedPosition.slice(0, 2).join("-")} & ${matchedPosition.slice(2, 4).join("-")}`;
+    } else if (codeType === "ltct") {
+      positionText = `${t("common.position")} ${matchedPosition.slice(0, 2).join("-")}[${matchedPosition[2]}]`;
+    } else {
+      positionText = `${t("common.position")} ${matchedPosition.join("-")}`;
+    }
+
+    return positionText;
+  };
   const { t } = useTranslation();
   let is3bld = true;
   let isCommutatorNeeded = false;
@@ -187,11 +200,11 @@ const Table = ({
                 className="border-b-0 bg-green-300 text-left dark:bg-green-800"
                 style={{ fontFamily: "Inter, sans-serif" }}
               >
-                {codeType === "parity"
-                  ? `${t("common.position")} ${`${matchedPosition.slice(0, 2).join("--")} & ${matchedPosition.slice(2, 4).join("--")}`}`
-                  : `${t("common.position")} ${matchedPosition.join("--")}`}
+                {getPosition(matchedPosition)}
                 <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-                {`${t("common.pairs")} ${matchedCode}`}
+                {codeType === "ltct"
+                  ? `${t("common.pairs")} ${matchedCode.slice(0, 2)}[${matchedCode[2]}]`
+                  : `${t("common.pairs")} ${matchedCode}`}
               </th>
             </tr>
             <tr>

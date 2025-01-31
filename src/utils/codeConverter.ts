@@ -83,6 +83,9 @@ const codeConverter = (function () {
         ...customCodeToPosition(code.slice(2, 4), "corner"),
       ];
     }
+    if (codeType === "ltct") {
+      return customCodeToPosition(code, "corner");
+    }
     let storedValues = "";
     if (typeof localStorage !== "undefined") {
       storedValues =
@@ -160,6 +163,11 @@ const codeConverter = (function () {
         customCodeToVariantCode(code.slice(2, 4), "corner"),
       ]);
     }
+    if (codeType === "ltct") {
+      return customCodeToVariantCode(code.slice(0, 2), "corner").map(
+        (codes: string) => codes + code[2],
+      );
+    }
     const result = customCodeToPosition(code, codeType);
     const displacePositions: string[][] = [result];
     for (let i = 1; i < codeTypeToNumber(codeType); i++) {
@@ -180,6 +188,9 @@ const codeConverter = (function () {
         initCodeToCustomCode(code.slice(0, 2), "edge") +
         initCodeToCustomCode(code.slice(2, 4), "corner")
       );
+    }
+    if (codeType === "ltct") {
+      return initCodeToCustomCode(code, "corner");
     }
     let storedValues = "";
     if (typeof localStorage !== "undefined") {
@@ -207,6 +218,12 @@ const codeConverter = (function () {
         customCodeToVariantCustomCode(code.slice(2, 4), "corner"),
       ]);
     }
+    if (codeType === "ltct") {
+      return cartesianProduct([
+        customCodeToVariantCustomCode(code.slice(0, 2), "corner"),
+        customCodeToVariantCustomCode(code[2], "corner"),
+      ]);
+    }
     const result = customCodeToPosition(code, codeType);
     const displacePositions: string[][] = [result];
     for (let i = 1; i < codeTypeToNumber(codeType); i++) {
@@ -228,6 +245,47 @@ const codeConverter = (function () {
     );
   }
 
+  function codeTypeToPositions(codeType: string) {
+    if (codeType === "corner0") {
+      return positionArray.filter(
+        (position) =>
+          positionToCodeType(position) === "corner" &&
+          (position[0] === "U" || position[0] === "D"),
+      );
+    }
+    if (codeType === "corner1") {
+      return positionArray.filter(
+        (position) =>
+          positionToCodeType(position) === "corner" &&
+          position[0] !== "U" &&
+          position[0] !== "D",
+      );
+    }
+    if (codeType === "edge0") {
+      return positionArray.filter(
+        (position) =>
+          positionToCodeType(position) === "edge" &&
+          (position[0] === "U" ||
+            position[0] === "D" ||
+            position[0] === "F" ||
+            position[0] === "B"),
+      );
+    }
+    if (codeType === "edge1") {
+      return positionArray.filter(
+        (position) =>
+          positionToCodeType(position) === "edge" &&
+          position[0] !== "U" &&
+          position[0] !== "D" &&
+          position[0] !== "F" &&
+          position[0] !== "B",
+      );
+    }
+    return positionArray.filter(
+      (position) => positionToCodeType(position) === codeType,
+    );
+  }
+
   return {
     positionToCodeType,
     customCodeToInitCode,
@@ -236,6 +294,7 @@ const codeConverter = (function () {
     customCodeToVariantCode,
     codeTypeToNumber,
     initCodeToVariantCustomCode,
+    codeTypeToPositions,
     initialInputValues,
     letteringSchemes,
     positionArray,

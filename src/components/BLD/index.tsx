@@ -51,9 +51,10 @@ const BLD = ({ codeType }: { codeType: string }) => {
           ? await import(`public/data/${codeType}Nightmare.json`)
           : {};
 
-        const nightmareSelectedData = is3bld
-          ? await import(`public/data/${codeType}NightmareSelected.json`)
-          : {};
+        const nightmareSelectedData =
+          is3bld && codeType !== "ltct"
+            ? await import(`public/data/${codeType}NightmareSelected.json`)
+            : {};
 
         setManmade(manmadeData.default);
         setNightmare(nightmareData.default || {});
@@ -271,17 +272,12 @@ const BLD = ({ codeType }: { codeType: string }) => {
         >
           <option></option>
           {modeValue === "manmade" && <option>*</option>}
-          {converter.positionArray
-            .filter(
-              (position) =>
-                converter.positionToCodeType(position) === positionType,
-            )
-            .map((position) => (
-              <option key={position}>{position}</option>
-            ))}
+          {converter.codeTypeToPositions(positionType).map((position) => (
+            <option key={position}>{position}</option>
+          ))}
         </select>
         {index !== groupArray[groupArray.length - 1] && (
-          <span className="mx-1">--</span>
+          <span className="mx-1">—</span>
         )}
       </React.Fragment>
     ));
@@ -295,6 +291,24 @@ const BLD = ({ codeType }: { codeType: string }) => {
           <br />
           {positionElement({ positionHint: t(`${codeType}.cornerswap`) })}
           {groupInputElement({ groupArray: [2, 3], positionType: "corner" })}
+          {inputElement({ inputWidth: 4.5 })}
+        </>
+      );
+    }
+    if (codeType === "ltct") {
+      return (
+        <>
+          {positionElement({ positionHint: t("common.position") })}
+          {groupInputElement({ groupArray: [0, 1], positionType: "corner" })}
+          <span className="mx-3"></span>
+          {positionElement({ positionHint: t(`${codeType}.twist`) })}
+          <div className="help inline-block">
+            <i className="fas fa-question-circle mr-2 text-blue-600"></i>
+            <span className="help-content whitespace-nowrap">
+              {t(`${codeType}.twistHint`)}
+            </span>
+          </div>
+          {groupInputElement({ groupArray: [2], positionType: "corner1" })}
           {inputElement({ inputWidth: 4.5 })}
         </>
       );

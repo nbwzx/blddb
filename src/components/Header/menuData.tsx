@@ -17,6 +17,10 @@ const menuData: Menu[] = [
         path: "/parity",
       },
       {
+        title: "ltct.title",
+        path: "/ltct",
+      },
+      {
         title: "code.title",
         path: "/code",
       },

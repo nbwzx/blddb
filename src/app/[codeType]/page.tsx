@@ -3,7 +3,7 @@ import BLD from "@/components/BLD";
 export const dynamicParams = false;
 
 export async function generateStaticParams() {
-  const codeTypes = ["corner", "edge", "parity"];
+  const codeTypes = ["corner", "edge", "parity", "ltct"];
   return codeTypes.map((codeType) => ({ codeType }));
 }
 
