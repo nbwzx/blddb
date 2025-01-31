@@ -70,8 +70,21 @@ const Table = ({
     return <div ref={divRef} className="mt-4"></div>;
   }
   const isRegularExpression = variantCode[0].includes("*");
+  const starIndex = inputText.indexOf("*");
   if (isRegularExpression && !isManmade) {
     return <div ref={divRef} className="mt-4"></div>;
+  }
+  let actualCodeType = codeType;
+  if (isRegularExpression) {
+    if (codeType === "parity") {
+      if (starIndex === 0 || starIndex === 1) {
+        actualCodeType = "edge";
+      } else {
+        actualCodeType = "corner";
+      }
+    } else if (codeType === "ltct") {
+      actualCodeType = "corner";
+    }
   }
   for (const [key, value] of Object.entries(data)) {
     if (!matchesPattern(variantCode, key)) {
@@ -188,11 +201,15 @@ const Table = ({
         }
       }
       const matchedPosition = converter.customCodeToPosition(
-        matchedCode.padEnd(3, " "),
+        matchedCode,
         codeType,
       );
+      const matchedCharacterPosition = converter.customCodeToPosition(
+        matchedCode[starIndex],
+        actualCodeType,
+      );
       tableElements.push(
-        <React.Fragment key={key}>
+        <React.Fragment key={matchedCharacterPosition}>
           <thead>
             <tr>
               <th
@@ -243,6 +260,12 @@ const Table = ({
     }
   }
 
+  tableElements.sort((a, b) => {
+    const keyA = a.key as string;
+    const keyB = b.key as string;
+    const order = converter.codeTypeToPositions(actualCodeType);
+    return order.indexOf(keyA) - order.indexOf(keyB);
+  });
   const tableElements2: JSX.Element[] = [];
   if (tableElements.length !== 0) {
     tableElements2.push(
