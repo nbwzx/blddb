@@ -347,7 +347,14 @@ const BLD = ({ codeType }: { codeType: string }) => {
                 {t(`${codeType}.title`)}
               </h2>
               <p className="text-black dark:text-white">
-                {t(`${codeType}.hint`)}
+                {t(`${codeType}.hint`)
+                  .split("\n")
+                  .map((line, index, array) => (
+                    <span key={index}>
+                      {line}
+                      {index < array.length - 1 && <br />}
+                    </span>
+                  ))}
               </p>
               {renderBLD()}
               <Table
