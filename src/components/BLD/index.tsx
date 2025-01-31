@@ -177,6 +177,21 @@ const BLD = ({ codeType }: { codeType: string }) => {
   ) => {
     const newSelectValues = [...selectValues];
     newSelectValues[index] = e.target.value;
+    let blankCount = 0;
+    let starCount = 0;
+    let blankIndex = -1;
+    for (let i = 0; i < newSelectValues.length; i++) {
+      const selectValue = newSelectValues[i].trim();
+      if (selectValue === "") {
+        blankCount++;
+        blankIndex = i;
+      } else if (selectValue === "*") {
+        starCount++;
+      }
+    }
+    if (blankCount === 1 && starCount === 0 && e.target.value.trim() !== "") {
+      newSelectValues[blankIndex] = "*";
+    }
     setSelectValues(newSelectValues);
     if (inputRef.current) {
       inputRef.current.value = converter.positionToCustomCode(newSelectValues);
