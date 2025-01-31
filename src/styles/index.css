@@ -112,13 +112,6 @@
     }
   }
 
-  .flex-wrapper {
-    display: flex;
-    min-height: calc(100vh);
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
   .copyright {
     font-size: 0.8em;
   }

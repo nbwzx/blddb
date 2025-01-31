@@ -28,15 +28,13 @@ export default function RootLayout({
         suppressHydrationWarning
         className={`bg-[#FCFCFC] dark:bg-gray-dark ${inter.className}`}
       >
-        <div className="flex-wrapper ">
-          <Providers>
-            <LocaleProvider value={locale}>
-              <Header />
-              {children}
-              <ScrollToTop />
-            </LocaleProvider>
-          </Providers>
-        </div>
+        <Providers>
+          <LocaleProvider value={locale}>
+            <Header />
+            {children}
+            <ScrollToTop />
+          </LocaleProvider>
+        </Providers>
       </body>
     </html>
   );
