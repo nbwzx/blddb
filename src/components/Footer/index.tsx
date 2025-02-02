@@ -16,6 +16,7 @@ const Footer = () => {
                   Github:{" "}
                   <a
                     href="https://github.com/nbwzx/blddb"
+                    target="_blank"
                     className="hover:text-primary"
                   >
                     blddb
@@ -25,6 +26,7 @@ const Footer = () => {
                   License:{" "}
                   <a
                     href="https://www.gnu.org/licenses"
+                    target="_blank"
                     className="hover:text-primary"
                   >
                     GPL-3.0 license
