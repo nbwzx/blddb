@@ -22,7 +22,7 @@ async function initI18next(lang: Locales) {
 
 // This function will be used in our server components for the translation
 export async function createTranslation() {
-  const lang = getLocale();
+  const lang = await getLocale();
   const i18nextInstance = await initI18next(lang);
 
   return {
@@ -31,6 +31,7 @@ export async function createTranslation() {
 }
 
 // Utility function to get the locale from server components
-export function getLocale() {
-  return cookies().get("i18next")?.value as Locales;
+export async function getLocale() {
+  const cookieStore = cookies();
+  return (await cookieStore).get("i18next")?.value as Locales;
 }

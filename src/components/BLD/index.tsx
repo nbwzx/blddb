@@ -9,8 +9,10 @@ import Loading from "@/app/loading";
 
 const BLD = ({ codeType }: { codeType: string }) => {
   const { t } = useTranslation();
-  const tableRef = useRef<HTMLTableElement>(null);
-  const divRef = useRef<HTMLDivElement>(null);
+  const tableRef = useRef<HTMLTableElement>(
+    null as unknown as HTMLTableElement,
+  );
+  const divRef = useRef<HTMLDivElement>(null as unknown as HTMLDivElement);
   const inputRef = useRef<HTMLInputElement>(null);
   const selectRefs = useRef<HTMLSelectElement[]>([]);
   const modeRef = useRef<HTMLSelectElement>(null);
@@ -282,7 +284,9 @@ const BLD = ({ codeType }: { codeType: string }) => {
           value={selectValues[index]}
           onChange={(e) => handleSelectChange(e, index)}
           onClick={scrollToTop}
-          ref={(ref) => (selectRefs.current[index] = ref as HTMLSelectElement)}
+          ref={(ref) => {
+            selectRefs.current[index] = ref as HTMLSelectElement;
+          }}
           className="w-[3.5rem] rounded-sm border-b-[3px] border-gray-500 bg-inherit py-1 text-base font-medium text-dark outline-none transition-all duration-300 focus:border-primary dark:border-gray-100 dark:bg-gray-dark dark:text-white dark:shadow-none dark:focus:border-primary dark:focus:shadow-none"
         >
           <option></option>

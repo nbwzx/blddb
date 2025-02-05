@@ -9,10 +9,10 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({
   params,
-}: {
-  params: { codeType: string };
-}) {
-  const { codeType } = params;
+}: Readonly<{
+  params: Promise<{ codeType: string }>;
+}>) {
+  const { codeType } = await params;
   return {
     other: {
       title_locales: `${codeType}.title`,
@@ -21,7 +21,11 @@ export async function generateMetadata({
   };
 }
 
-export default function Page({ params }: { params: { codeType: string } }) {
-  const { codeType } = params;
+export default async function Page({
+  params,
+}: Readonly<{
+  params: Promise<{ codeType: string }>;
+}>) {
+  const { codeType } = await params;
   return <BLD codeType={codeType} />;
 }

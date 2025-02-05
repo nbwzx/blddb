@@ -2,7 +2,6 @@ import Header from "@/components/Header";
 import ScrollToTop from "@/components/ScrollToTop";
 import { Inter } from "next/font/google";
 import React from "react";
-import "node_modules/react-modal-video/css/modal-video.css";
 import "../styles/index.css";
 import { Providers } from "./providers";
 import { LocaleProvider } from "./localeProvider";
@@ -10,12 +9,12 @@ import { getLocale } from "../i18n/server";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  const locale = getLocale();
+  const locale = await getLocale();
   return (
     <html suppressHydrationWarning lang={locale}>
       {/*

@@ -21,10 +21,10 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({
   params,
-}: {
-  params: { codeType: string };
-}) {
-  const { codeType } = params;
+}: Readonly<{
+  params: Promise<{ codeType: string }>;
+}>) {
+  const { codeType } = await params;
   return {
     other: {
       title_locales: `nightmare.${codeType}`,
@@ -33,11 +33,11 @@ export async function generateMetadata({
   };
 }
 
-export default function TablePage({
+export default async function TablePage({
   params,
-}: {
-  params: { codeType: string };
-}) {
-  const { codeType } = params;
+}: Readonly<{
+  params: Promise<{ codeType: string }>;
+}>) {
+  const { codeType } = await params;
   return <ArrayTable codeType={codeType} />;
 }
