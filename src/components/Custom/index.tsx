@@ -180,17 +180,17 @@ const Custom = () => {
                       </td>
                       <td
                         className="px-0 py-0"
-                        ref={(ref) =>
-                          (commutatorRefs.current[index] =
-                            ref as HTMLTableCellElement)
-                        }
+                        ref={(ref) => {
+                          commutatorRefs.current[index] =
+                            ref as HTMLTableCellElement;
+                        }}
                       ></td>
                       <td
                         className="px-0 py-0"
-                        ref={(ref) =>
-                          (thumbPositionRefs.current[index] =
-                            ref as HTMLTableCellElement)
-                        }
+                        ref={(ref) => {
+                          thumbPositionRefs.current[index] =
+                            ref as HTMLTableCellElement;
+                        }}
                       ></td>
                     </tr>
                   ))}

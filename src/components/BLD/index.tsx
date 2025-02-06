@@ -44,43 +44,39 @@ const BLD = ({ codeType }: { codeType: string }) => {
 
   useEffect(() => {
     const loadData = async () => {
-      try {
-        const manmadeData = is3bld
-          ? await import(`public/data/${codeType}Manmade.json`)
-          : await import(`public/data/bigbld/${codeType}Manmade.json`);
+      const manmadeData = is3bld
+        ? await import(`public/data/${codeType}Manmade.json`)
+        : await import(`public/data/bigbld/${codeType}Manmade.json`);
 
-        const nightmareData = is3bld
-          ? await import(`public/data/${codeType}Nightmare.json`)
+      const nightmareData = is3bld
+        ? await import(`public/data/${codeType}Nightmare.json`)
+        : {};
+
+      const nightmareSelectedData =
+        is3bld && codeType !== "ltct"
+          ? await import(`public/data/${codeType}NightmareSelected.json`)
           : {};
 
-        const nightmareSelectedData =
-          is3bld && codeType !== "ltct"
-            ? await import(`public/data/${codeType}NightmareSelected.json`)
-            : {};
+      setManmade(manmadeData.default);
+      setNightmare(nightmareData.default || {});
+      setNightmareSelected(nightmareSelectedData.default || {});
 
-        setManmade(manmadeData.default);
-        setNightmare(nightmareData.default || {});
-        setNightmareSelected(nightmareSelectedData.default || {});
+      const params = new URLSearchParams(window.location.search);
+      const positionParam = params.get("position") || "";
+      const modeParam = params.get("mode") || modeValue;
 
-        const params = new URLSearchParams(window.location.search);
-        const positionParam = params.get("position") || "";
-        const modeParam = params.get("mode") || modeValue;
-
-        if (positionParam) {
-          const positions = positionParam.split("-");
-          setSelectValues(positions);
-          if (inputRef.current) {
-            inputRef.current.value = converter.positionToCustomCode(positions);
-          }
+      if (positionParam) {
+        const positions = positionParam.split("-");
+        setSelectValues(positions);
+        if (inputRef.current) {
+          inputRef.current.value = converter.positionToCustomCode(positions);
         }
-
-        if (modeParam) {
-          setModeValue(modeParam);
-        }
-        setLoading(false);
-      } catch (error) {
-        // Handle error
       }
+
+      if (modeParam) {
+        setModeValue(modeParam);
+      }
+      setLoading(false);
     };
     loadData();
   }, [codeType, is3bld, converter, defaultMode, modeValue]);
