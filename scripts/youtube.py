@@ -206,7 +206,7 @@ def main():
             urls = re.findall(r'(https?://[^\s\\\u200b]+)', desc)
 
             for url_name in urls:
-                if "alg.cubing.net" not in url_name and "bit.ly" not in url_name and "tinyurl.com" not in url_name and "tinyurl.com" not in url_name:
+                if not any(x in url_name for x in ["alg.cubing.net", "bit.ly", "tinyurl.com"]):
                     continue
                 while True:
                     try:
