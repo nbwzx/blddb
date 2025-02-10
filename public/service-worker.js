@@ -1,4 +1,8 @@
 async function fetchAndCacheIfOk(event) {
+  if (event.request.method !== "GET") {
+    return fetch(event.request.clone());
+  }
+
   try {
     const response = await fetch(event.request);
 
