@@ -9,7 +9,9 @@ import Script from "next/script";
 
 export default function Home() {
   useLayoutEffect(() => {
-    navigator.serviceWorker.register("/service-worker.js");
+    if (process.env.NODE_ENV === "production") {
+      navigator.serviceWorker.register("/service-worker.js");
+    }
   }, []);
 
   return (
