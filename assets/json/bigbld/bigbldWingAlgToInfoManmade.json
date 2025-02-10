@@ -763,25 +763,25 @@
             "r:[r D r',U2]"
         ],
         [
-            "Rw U' L u L' U2 L u' L' U' Rw'",
-            [
-                "Anto Kam (甘浩東)",
-                "Ethan Pan",
-                "Gavriel Johann Arcilla",
-                "Jonghyun Kim (김종현)",
-                "Michael Tripodi"
-            ],
-            "Rw U':[L u L',U2]"
-        ],
-        [
             "r U R u' R' U2 R u R' U r'",
             [
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Hana Davila",
+                "Michael Tripodi",
                 "Ryan Eckersley"
             ],
             "r U:[R u' R',U2]"
+        ],
+        [
+            "Rw U' L u L' U2 L u' L' U' Rw'",
+            [
+                "Anto Kam (甘浩東)",
+                "Ethan Pan",
+                "Gavriel Johann Arcilla",
+                "Jonghyun Kim (김종현)"
+            ],
+            "Rw U':[L u L',U2]"
         ],
         [
             "Lw U' R2 U' l2 U R2 U' l2 U2 Lw'",
@@ -12998,25 +12998,25 @@
             "r:[U2,r D r']"
         ],
         [
-            "Rw U L u L' U2 L u' L' U Rw'",
-            [
-                "Anto Kam (甘浩東)",
-                "Ethan Pan",
-                "Gavriel Johann Arcilla",
-                "Jonghyun Kim (김종현)",
-                "Michael Tripodi"
-            ],
-            "Rw U:[L u L',U2]"
-        ],
-        [
             "r U' R u' R' U2 R u R' U' r'",
             [
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Hana Davila",
+                "Michael Tripodi",
                 "Ryan Eckersley"
             ],
             "r U':[R u' R',U2]"
+        ],
+        [
+            "Rw U L u L' U2 L u' L' U Rw'",
+            [
+                "Anto Kam (甘浩東)",
+                "Ethan Pan",
+                "Gavriel Johann Arcilla",
+                "Jonghyun Kim (김종현)"
+            ],
+            "Rw U:[L u L',U2]"
         ],
         [
             "Lw U2 l2 U R2 U' l2 U R2 U Lw'",
@@ -31426,7 +31426,6 @@
                 "Daniel Lin",
                 "Ethan Pan",
                 "Jonghyun Kim (김종현)",
-                "Michael Tripodi",
                 "Oliver Fritz",
                 "Ryan Eckersley",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
@@ -31441,6 +31440,7 @@
                 "Christopher Morris",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
+                "Michael Tripodi",
                 "Xi Lu (鲁曦)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -33236,7 +33236,6 @@
                 "Daniel Lin",
                 "Ethan Pan",
                 "Jonghyun Kim (김종현)",
-                "Michael Tripodi",
                 "Oliver Fritz",
                 "Ryan Eckersley",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
@@ -33244,6 +33243,17 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "4Lw':[U,R' d R]"
+        ],
+        [
+            "r2 D' r' U' r D r' U r'",
+            [
+                "Kai Yamamoto (山本快)",
+                "Kevin Matthews",
+                "Michael Tripodi",
+                "Xi Lu (鲁曦)",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "r:[r D' r',U']"
         ],
         [
             "Rw D' r' U R' U' r U R U' D Rw'",
@@ -33254,16 +33264,6 @@
                 "Hana Davila"
             ],
             "Rw D':[r',U R' U']"
-        ],
-        [
-            "r2 D' r' U' r D r' U r'",
-            [
-                "Kai Yamamoto (山本快)",
-                "Kevin Matthews",
-                "Xi Lu (鲁曦)",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "r:[r D' r',U']"
         ],
         [
             "D' R r' U R' U' r2 U R U' Rw' D",
