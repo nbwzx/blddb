@@ -170,10 +170,23 @@ const Table = ({
               style={{
                 borderLeft: j === 0 ? "" : "none",
               }}
+              className="cursor-pointer"
+              onClick={() => {
+                navigator.clipboard.writeText(item[j]);
+              }}
             >
               {item[j]}
             </td>
-            {isCommutatorNeeded && <td>{commutatorResult}</td>}
+            {isCommutatorNeeded && (
+              <td
+                className="cursor-pointer"
+                onClick={() => {
+                  navigator.clipboard.writeText(commutatorResult);
+                }}
+              >
+                {commutatorResult}
+              </td>
+            )}
             {j === 0 && is3bld && <td rowSpan={item.length}>{fingerResult}</td>}
             {isManmade && j === 0 && (
               <td className="help" rowSpan={item.length}>
