@@ -1,4 +1,4 @@
-import React, { JSX } from "react";
+import React, { JSX, useState } from "react";
 import commutator from "@/utils/commutator";
 import finger from "@/utils/finger";
 import codeConverter from "@/utils/codeConverter";
@@ -50,6 +50,17 @@ const Table = ({
 
     return positionText;
   };
+
+  const [copySuccess, setCopySuccess] = useState<boolean>(false);
+  const handleCopy = (text: string) => {
+    navigator.clipboard.writeText(text).then(() => {
+      setCopySuccess(true);
+      setTimeout(() => {
+        setCopySuccess(false);
+      }, 3000);
+    });
+  };
+
   const { t } = useTranslation();
   let is3bld = true;
   let isCommutatorNeeded = false;
@@ -171,18 +182,14 @@ const Table = ({
                 borderLeft: j === 0 ? "" : "none",
               }}
               className="cursor-pointer"
-              onClick={() => {
-                navigator.clipboard.writeText(item[j]);
-              }}
+              onClick={() => handleCopy(item[j])}
             >
               {item[j]}
             </td>
             {isCommutatorNeeded && (
               <td
                 className="cursor-pointer"
-                onClick={() => {
-                  navigator.clipboard.writeText(commutatorResult);
-                }}
+                onClick={() => handleCopy(commutatorResult)}
               >
                 {commutatorResult}
               </td>
@@ -289,6 +296,18 @@ const Table = ({
   }
   return (
     <div ref={divRef} className="mt-4">
+      {copySuccess && (
+        <div
+          id="copypopup"
+          className="fade-in-out fixed bottom-[30px] left-1/2 z-50 -translate-x-1/2 transform rounded-md border-2 bg-gray-100 p-4 text-black shadow-lg dark:bg-gray-700 dark:text-white"
+          style={{
+            animation:
+              "fadein 0.5s ease forwards, fadeout 0.5s ease 1.5s forwards",
+          }}
+        >
+          <span className="text-lg">{t("table.copied")}</span>
+        </div>
+      )}
       {tableElements2}
     </div>
   );
