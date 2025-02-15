@@ -139,7 +139,7 @@ const Table = ({
               if (name in sourceToUrl) {
                 if (codeType in sourceToUrl[name]) {
                   url = sourceToUrl[name][codeType];
-                } else if (is3bld ? "3bld" : "bigbld" in sourceToUrl[name]) {
+                } else if ((is3bld ? "3bld" : "bigbld") in sourceToUrl[name]) {
                   url = sourceToUrl[name][is3bld ? "3bld" : "bigbld"];
                 } else if ("bld" in sourceToUrl[name]) {
                   url = sourceToUrl[name]["bld"];
