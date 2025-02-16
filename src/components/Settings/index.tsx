@@ -15,6 +15,7 @@ const Settings = () => {
       {
         id: "showThumbPosition",
         type: "checkbox",
+        default: true,
       },
       {
         id: "mode",
@@ -47,7 +48,19 @@ const Settings = () => {
   const loadSettings = () => {
     if (typeof window !== "undefined") {
       const savedSettings = localStorage.getItem("settings");
-      return savedSettings ? JSON.parse(savedSettings) : {};
+      let newSettings = {};
+      if (savedSettings) {
+        const parsedSettings = JSON.parse(savedSettings);
+        newSettings = { ...parsedSettings };
+      }
+      Object.keys(settingsGroups).forEach((moduleId) => {
+        settingsGroups[moduleId].forEach((setting) => {
+          if (typeof newSettings[setting.id] === "undefined") {
+            newSettings[setting.id] = setting.default;
+          }
+        });
+      });
+      return newSettings;
     }
     return {};
   };

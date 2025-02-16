@@ -61,6 +61,14 @@ const Table = ({
     });
   };
 
+  const loadSettings = () => {
+    if (typeof window !== "undefined") {
+      const savedSettings = localStorage.getItem("settings");
+      return savedSettings ? JSON.parse(savedSettings) : {};
+    }
+    return {};
+  };
+
   const { t } = useTranslation();
   let is3bld = true;
   let isCommutatorNeeded = false;
@@ -97,6 +105,9 @@ const Table = ({
       actualCodeType = "corner";
     }
   }
+  const trumbPosition = loadSettings().showThumbPosition;
+  const istrumbPositionNeeded =
+    is3bld && (typeof trumbPosition === "undefined" || trumbPosition);
   for (const [key, value] of Object.entries(data)) {
     if (!matchesPattern(variantCode, key)) {
       continue;
@@ -194,7 +205,9 @@ const Table = ({
                 {commutatorResult}
               </td>
             )}
-            {j === 0 && is3bld && <td rowSpan={item.length}>{fingerResult}</td>}
+            {j === 0 && istrumbPositionNeeded && (
+              <td rowSpan={item.length}>{fingerResult}</td>
+            )}
             {isManmade && j === 0 && (
               <td className="help" rowSpan={item.length}>
                 {source.length}
@@ -248,7 +261,7 @@ const Table = ({
               <th>{t("table.no")}</th>
               <th>{t("table.algorithm")}</th>
               {isCommutatorNeeded && <th>{t("table.commutator")}</th>}
-              {is3bld && <th>{t("table.thumbPosition")}</th>}
+              {istrumbPositionNeeded && <th>{t("table.thumbPosition")}</th>}
               {isManmade && <th>{t("table.source")}</th>}
             </tr>
           </thead>
@@ -270,7 +283,7 @@ const Table = ({
               <th>{t("table.no")}</th>
               <th>{t("table.algorithm")}</th>
               {isCommutatorNeeded && <th>{t("table.commutator")}</th>}
-              {is3bld && <th>{t("table.thumbPosition")}</th>}
+              {istrumbPositionNeeded && <th>{t("table.thumbPosition")}</th>}
               {isManmade && <th>{t("table.source")}</th>}
             </tr>
           </thead>
