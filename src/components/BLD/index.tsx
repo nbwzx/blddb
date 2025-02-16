@@ -32,9 +32,18 @@ const BLD = ({ codeType }: { codeType: string }) => {
   const [manmade, setManmade] = useState({});
   const [nightmare, setNightmare] = useState({});
   const [nightmareSelected, setNightmareSelected] = useState({});
+  const loadSettings = () => {
+    if (typeof window !== "undefined") {
+      const savedSettings = localStorage.getItem("settings");
+      return savedSettings ? JSON.parse(savedSettings) : {};
+    }
+    return {};
+  };
+
   const [modeValue, setModeValue] = useState(() => {
     if (typeof window !== "undefined") {
-      const savedMode = localStorage.getItem("mode");
+      const initialSettings = loadSettings();
+      const savedMode = initialSettings.mode;
       return savedMode && availableModes.includes(savedMode)
         ? savedMode
         : defaultMode;
@@ -146,7 +155,9 @@ const BLD = ({ codeType }: { codeType: string }) => {
     if (availableModes.length === 1) {
       return;
     }
-    localStorage.setItem("mode", modeValue);
+    const initialSettings = loadSettings();
+    const newSettings = { ...initialSettings, mode: modeValue };
+    localStorage.setItem("settings", JSON.stringify(newSettings));
   }, [availableModes.length, codeType, modeValue]);
 
   const [selectValues, setSelectValues] = useState(
