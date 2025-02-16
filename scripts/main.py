@@ -22,6 +22,7 @@ MAX_STM = {
     "parity": 30
 }
 MAX_CELL_LEN = 90
+IGNORE_NOTE_NAMES = ["Benjamin Paul"]
 
 
 def is_included(substring: str, main_string: str, pattern_type: str) -> bool:
@@ -61,7 +62,7 @@ def sum_of_kinch(source: list, result_json: dict) -> float:
 
 
 def main():
-    def crawl_spreadsheet(spreadsheet: gs.Spreadsheet, isInverse: bool) -> None:
+    def crawl_spreadsheet(spreadsheet: gs.Spreadsheet, name: str, isInverse: bool) -> None:
         def crawl_cell(cell: str, output_type_from_pattern: str = "", code_from_pattern: list = []) -> None:
             for line in re.split(r'[\n\r]+| if | or | and ', cell.strip("\n\r")):
                 if len(line) > MAX_CELL_LEN:
@@ -167,7 +168,10 @@ def main():
             while True:
                 try:
                     values = worksheet.get_values()
-                    notes = worksheet.get_notes()
+                    if name in IGNORE_NOTE_NAMES:
+                        notes = [[]]
+                    else:
+                        notes = worksheet.get_notes()
                     break
                 except (TransportError, APIError, ConnectionError, ProxyError, ReadTimeout) as e:
                     logger.warning(
@@ -278,9 +282,9 @@ def main():
                 logger.info("Ignored because it is not in the output types.")
                 continue
             logger.info("\tOriginal:")
-            crawl_spreadsheet(spreadsheet, False)
+            crawl_spreadsheet(spreadsheet, name, False)
             logger.info("\tInverse:")
-            crawl_spreadsheet(spreadsheet, True)
+            crawl_spreadsheet(spreadsheet, name, True)
 
         if not url_json_new[name]:
             del url_json_new[name]
