@@ -112,6 +112,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
         manmade: "\u{2009}\u{F2BD}\u{2009}",
       };
   const sourceToUrl = require("public/data/sourceToUrl.json");
+  const sourceToResult = require("public/data/sourceToResult.json");
 
   useEffect(() => {
     const observer = new MutationObserver((mutationsList) => {
@@ -381,6 +382,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
                 tableRef={tableRef}
                 selected={modeToSelected[modeValue]}
                 sourceToUrl={sourceToUrl}
+                sourceToResult={sourceToResult}
               />
             </div>
           </div>

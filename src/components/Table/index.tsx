@@ -24,6 +24,7 @@ const Table = ({
   tableRef,
   selected,
   sourceToUrl,
+  sourceToResult,
 }: {
   codeType: string;
   inputText: string;
@@ -36,6 +37,13 @@ const Table = ({
   tableRef: React.RefObject<HTMLTableElement>;
   selected?: { [key: string]: string };
   sourceToUrl?: { [key: string]: string[] };
+  sourceToResult?: {
+    [name: string]: {
+      wca_id: string;
+      "3bld"?: number;
+      "4bld"?: number;
+    };
+  };
 }) => {
   const getPosition = (matchedPosition: string[]) => {
     let positionText = "";
@@ -113,18 +121,38 @@ const Table = ({
     if (!matchesPattern(variantCode, key)) {
       continue;
     }
+    let processedValue = [...value];
+    if (isManmade && sourceToResult) {
+      const show3BldAlgsUnderSecs = settings.show3BldAlgsUnderSecs;
+      processedValue = processedValue
+        .map((innerArray) => {
+          const filteredNames = innerArray[1].filter((name) => {
+            return (
+              show3BldAlgsUnderSecs === "" ||
+              typeof show3BldAlgsUnderSecs === "undefined" ||
+              (sourceToResult[name] &&
+                (sourceToResult[name]["3bld"] ?? Infinity) <=
+                  100 * parseFloat(show3BldAlgsUnderSecs))
+            );
+          });
+          return [innerArray[0], filteredNames, innerArray[2]];
+        })
+        .filter((innerArray) => innerArray[1].length > 0);
+      processedValue.sort((a, b) => {
+        return b[1].length - a[1].length;
+      });
+    }
     const tableRows: JSX.Element[] = [];
-
-    for (let i = 0; i < value.length; i++) {
+    for (let i = 0; i < processedValue.length; i++) {
       let item: string[] = [];
       let source: string[] = [];
       let comm: string = "";
       if (isManmade) {
-        item = is3bld ? value[i][0] : [value[i][0]];
-        source = value[i][1];
-        comm = isCommutatorNeeded ? value[i][2] : "";
+        item = is3bld ? processedValue[i][0] : [processedValue[i][0]];
+        source = processedValue[i][1];
+        comm = isCommutatorNeeded ? processedValue[i][2] : "";
       } else {
-        item = [value[i]];
+        item = [processedValue[i]];
       }
       const fingerResult = finger
         .fingerbeginfrom(item[0])
