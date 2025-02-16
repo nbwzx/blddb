@@ -50,6 +50,10 @@ const Settings = () => {
         id: "spaceAfterComma",
         type: "checkbox",
       },
+      {
+        id: "outerBrackets",
+        type: "checkbox",
+      },
     ],
   };
 

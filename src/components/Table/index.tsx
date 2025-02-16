@@ -169,6 +169,7 @@ const Table = ({
               noBrackets: settings.noBrackets,
               spaceAfterColon: settings.spaceAfterColon,
               spaceAfterComma: settings.spaceAfterComma,
+              outerBrackets: settings.outerBrackets,
             })[0];
           } else {
             const commutatorResultBefore = is3bld ? comm[j] : comm;
@@ -178,6 +179,7 @@ const Table = ({
               settings.noBrackets,
               settings.spaceAfterColon,
               settings.spaceAfterComma,
+              settings.outerBrackets,
             );
           }
         }

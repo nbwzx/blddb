@@ -17,7 +17,8 @@ const commutator = (function () {
     slashNotaitonInit = false,
     noBracketsInit = false,
     spaceAfterColonInit = false,
-    spaceAfterCommaInit = false;
+    spaceAfterCommaInit = false,
+    outerBracketsInit = false;
   const commuteInit: { [id: string]: { class: number; priority: number } } = {
     U: { class: 1, priority: 1 },
     u: { class: 1, priority: 2 },
@@ -120,7 +121,8 @@ const commutator = (function () {
     slashNotaiton = slashNotaitonInit,
     noBrackets = noBracketsInit,
     spaceAfterColon = spaceAfterColonInit,
-    spaceAfterComma = spaceAfterCommaInit;
+    spaceAfterComma = spaceAfterCommaInit,
+    outerBrackets = outerBracketsInit;
   let commute = commuteInit,
     initialReplace = initialReplaceInit,
     finalReplace = finalReplaceInit;
@@ -391,6 +393,7 @@ const commutator = (function () {
     noBrackets?: boolean;
     spaceAfterColon?: boolean;
     spaceAfterComma?: boolean;
+    outerBrackets?: boolean;
   }): string[] {
     const algorithm = input.algorithm;
     order = input.order ?? orderInit;
@@ -406,6 +409,7 @@ const commutator = (function () {
     noBrackets = input.noBrackets ?? noBracketsInit;
     spaceAfterColon = input.spaceAfterColon ?? spaceAfterColonInit;
     spaceAfterComma = input.spaceAfterComma ?? spaceAfterCommaInit;
+    outerBrackets = input.outerBrackets ?? outerBracketsInit;
     const maxDepth = input.maxDepth ?? maxDepthInit,
       limit = input.limit ?? limitInit;
     result = [];
@@ -497,6 +501,7 @@ const commutator = (function () {
             noBrackets,
             spaceAfterColon,
             spaceAfterComma,
+            outerBrackets,
           ),
         );
         if (limit === 0) {
@@ -514,8 +519,12 @@ const commutator = (function () {
     noBrackets1: boolean,
     spaceAfterColon1: boolean,
     spaceAfterComma1: boolean,
+    outerBrackets1: boolean,
   ): string {
     let alg = algorithm;
+    if (alg.includes(".")) {
+      return alg;
+    }
     if (slashNotation1) {
       alg = applySlash(alg);
     }
@@ -527,6 +536,11 @@ const commutator = (function () {
     }
     if (spaceAfterComma1) {
       alg = alg.replace(",", ", ");
+    }
+    if (outerBrackets1) {
+      if (alg[0] !== "[") {
+        alg = `[${alg}]`;
+      }
     }
     return alg;
   }
