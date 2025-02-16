@@ -127,5 +127,25 @@
     "qrText": "您也可以通过支付宝或微信支付的方式为我们提供资助，请扫描下面的二维码：",
     "period": "。",
     "thankYou": "再次感谢您的捐赠！"
+  },
+  "settings": {
+    "title": "设置",
+    "general": {
+      "title": "通用",
+      "showThumbPosition": "显示起手",
+      "mode": "首选模式",
+      "nightmare": "噩梦",
+      "manmade": "人造"
+    },
+    "manmade": {
+      "title": "人造",
+      "show3BldAlgsUnderSecs": "显示三盲作者的三盲单次在 ... 秒以下的公式",
+      "show4BldAlgsUnderSecs": "显示高盲作者的四盲单次在 ... 秒以下的公式"
+    },
+    "commutator": {
+      "title": "交换子",
+      "noBrackets": "无括号",
+      "slashNotaiton": "首选斜线表示法"
+    }
   }
 }

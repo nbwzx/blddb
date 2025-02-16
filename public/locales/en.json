@@ -40,6 +40,7 @@
     "BigBLD": "BigBLD",
     "Nightmare": "Nightmare",
     "Tools": "Tools",
+    "Settings": "Settings",
     "code": "Lettering Scheme",
     "Readme": "Readme",
     "Star": "Star on GitHub"
@@ -127,5 +128,25 @@
     "qrText": "You can also fund us by Alipay or Wechat Pay, scan the two-dimensional code below:",
     "period": ".",
     "thankYou": "Thank you again for your donation!"
+  },
+  "settings": {
+    "title": "Settings",
+    "general": {
+      "title": "General",
+      "showThumbPosition": "Show thumb position in the table",
+      "mode": "Prefered mode",
+      "nightmare": "nightmare",
+      "manmade": "manmade"
+    },
+    "manmade": {
+      "title": "Manmade",
+      "show3BldAlgsUnderSecs": "Show 3BLD algs by authors with 3BLD single under ... seconds",
+      "show4BldAlgsUnderSecs": "Show BigBLD algs by authors with 4BLD single under ... seconds"
+    },
+    "commutator": {
+      "title": "Commutator",
+      "noBrackets": "No brackets",
+      "slashNotaiton": "Prefer slash notation"
+    }
   }
 }

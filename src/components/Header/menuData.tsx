@@ -110,8 +110,12 @@ const menuData: Menu[] = [
     ],
   },
   {
-    title: "common.code",
+    title: "common.Settings",
     submenu: [
+      {
+        title: "settings.title",
+        path: "/settings",
+      },
       {
         title: "code.3BLD",
         path: "/code",

@@ -40,6 +40,7 @@
     "BigBLD": "BigBLD",
     "Nightmare": "悪夢",
     "Tools": "ツール",
+    "Settings": "設定",
     "code": "ナンバリング",
     "Readme": "Readme",
     "Star": "リポジトリの Star 付け"
@@ -127,5 +128,25 @@
     "qrText": "また、以下のQRコードをスキャンして、AlipayまたはWeChat Payでごスポンサーいただくこともできます：",
     "period": "。",
     "thankYou": "再度、ごスポンサーいただきありがとうございます！"
+  },
+  "settings": {
+    "title": "設定",
+    "general": {
+      "title": "一般",
+      "showThumbPosition": "テーブルにスタートを表示",
+      "mode": "優先モード",
+      "nightmare": "悪夢",
+      "manmade": "人工"
+    },
+    "manmade": {
+      "title": "人工",
+      "show3BldAlgsUnderSecs": "3BLD作者の3BLDで...秒以下の手順を表示します",
+      "show4BldAlgsUnderSecs": "BigBLD作者の4BLDで...秒以下の手順を表示します"
+    },
+    "commutator": {
+      "title": "コミュテーター",
+      "noBrackets": "括弧なし",
+      "slashNotaiton": "スラッシュ表記を優先"
+    }
   }
 }
