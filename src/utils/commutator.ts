@@ -13,7 +13,11 @@ const commutator = (function () {
     addScoreInit = 1,
     maxDepthInit = 0,
     limitInit = 0,
-    fastInit = false;
+    fastInit = false,
+    slashNotaitonInit = false,
+    noBracketsInit = false,
+    spaceAfterColonInit = false,
+    spaceAfterCommaInit = false;
   const commuteInit: { [id: string]: { class: number; priority: number } } = {
     U: { class: 1, priority: 1 },
     u: { class: 1, priority: 2 },
@@ -112,7 +116,11 @@ const commutator = (function () {
     abMaxScore = abMaxScoreInit,
     abMinScore = abMinScoreInit,
     addScore = addScoreInit,
-    fast = false;
+    fast = fastInit,
+    slashNotaiton = slashNotaitonInit,
+    noBrackets = noBracketsInit,
+    spaceAfterColon = spaceAfterColonInit,
+    spaceAfterComma = spaceAfterCommaInit;
   let commute = commuteInit,
     initialReplace = initialReplaceInit,
     finalReplace = finalReplaceInit;
@@ -379,6 +387,10 @@ const commutator = (function () {
     maxDepth?: number;
     limit?: number;
     fast?: boolean;
+    slashNotaiton?: boolean;
+    noBrackets?: boolean;
+    spaceAfterColon?: boolean;
+    spaceAfterComma?: boolean;
   }): string[] {
     const algorithm = input.algorithm;
     order = input.order ?? orderInit;
@@ -390,6 +402,10 @@ const commutator = (function () {
     finalReplace = input.finalReplace ?? finalReplaceInit;
     commute = input.commute ?? commuteInit;
     fast = input.fast ?? fastInit;
+    slashNotaiton = input.slashNotaiton ?? slashNotaitonInit;
+    noBrackets = input.noBrackets ?? noBracketsInit;
+    spaceAfterColon = input.spaceAfterColon ?? spaceAfterColonInit;
+    spaceAfterComma = input.spaceAfterComma ?? spaceAfterCommaInit;
     const maxDepth = input.maxDepth ?? maxDepthInit,
       limit = input.limit ?? limitInit;
     result = [];
@@ -474,6 +490,15 @@ const commutator = (function () {
       }
       if (isFind && (depth === maxDepth || maxDepth === 0)) {
         result.sort(sortRule);
+        result = result.map((alg) =>
+          commutatorPost(
+            alg,
+            slashNotaiton,
+            noBrackets,
+            spaceAfterColon,
+            spaceAfterComma,
+          ),
+        );
         if (limit === 0) {
           return result;
         }
@@ -481,6 +506,71 @@ const commutator = (function () {
       }
     }
     return ["Not found."];
+  }
+
+  function commutatorPost(
+    algorithm: string,
+    slashNotation1: boolean,
+    noBrackets1: boolean,
+    spaceAfterColon1: boolean,
+    spaceAfterComma1: boolean,
+  ): string {
+    let alg = algorithm;
+    if (slashNotation1) {
+      alg = applySlash(alg);
+    }
+    if (noBrackets1) {
+      alg = alg.replace("[", "").replace("]", "");
+    }
+    if (spaceAfterColon1) {
+      alg = alg.replace(":", ": ");
+    }
+    if (spaceAfterComma1) {
+      alg = alg.replace(",", ", ");
+    }
+    return alg;
+  }
+
+  function applySlash(algorithm: string): string {
+    if (!algorithm.includes("[")) {
+      return algorithm;
+    }
+    let part0Output = "";
+    if (algorithm.includes(":")) {
+      part0Output = algorithm.split(":")[0];
+    }
+    const part1Output = algorithm.split("[")[1].split(",")[0];
+    const part2Output = algorithm.split(",")[1].split("]")[0];
+    const part0 = algToArray(part0Output);
+    const part2 = algToArray(part2Output);
+    if (part1Output === "" || part2Output === "") {
+      return "";
+    }
+    if (part0Output === "") {
+      return `[${part1Output},${part2Output}]`;
+    }
+    if (part2.length === 1) {
+      for (const i of [-2, 2]) {
+        if ((part2[0].amount + i) % order === 0) {
+          const halfPart2: Move[] = [
+            {
+              base: part2[0].base,
+              amount: -i / 2,
+            },
+          ];
+          const part0New = simplify(part0.concat(halfPart2));
+          const part0NewOutput = arrayToStr(part0New);
+          const part1NewOutput = arrayToStr(invert(halfPart2));
+          if (part0New.length < part0.length) {
+            if (part0NewOutput === "") {
+              return `[${part1NewOutput}/${part1Output}]`;
+            }
+            return `${part0NewOutput}:[${part1NewOutput}/${part1Output}]`;
+          }
+        }
+      }
+    }
+    return algorithm;
   }
 
   function algToArray(algorithm: string): Move[] {
@@ -936,6 +1026,7 @@ const commutator = (function () {
   return {
     search,
     expand,
+    commutatorPost,
   };
 })();
 

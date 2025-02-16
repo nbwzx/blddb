@@ -105,7 +105,8 @@ const Table = ({
       actualCodeType = "corner";
     }
   }
-  const trumbPosition = loadSettings().showThumbPosition;
+  const settings = loadSettings();
+  const trumbPosition = settings.showThumbPosition;
   const istrumbPositionNeeded =
     is3bld && (typeof trumbPosition === "undefined" || trumbPosition);
   for (const [key, value] of Object.entries(data)) {
@@ -136,9 +137,20 @@ const Table = ({
             commutatorResult = commutator.search({
               algorithm: item[j],
               maxDepth: 1,
+              slashNotaiton: settings.slashNotaiton,
+              noBrackets: settings.noBrackets,
+              spaceAfterColon: settings.spaceAfterColon,
+              spaceAfterComma: settings.spaceAfterComma,
             })[0];
           } else {
-            commutatorResult = is3bld ? comm[j] : comm;
+            const commutatorResultBefore = is3bld ? comm[j] : comm;
+            commutatorResult = commutator.commutatorPost(
+              commutatorResultBefore,
+              settings.slashNotaiton,
+              settings.noBrackets,
+              settings.spaceAfterColon,
+              settings.spaceAfterComma,
+            );
           }
         }
         let sourceResult: JSX.Element[] = [];

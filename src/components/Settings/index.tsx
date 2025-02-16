@@ -42,6 +42,14 @@ const Settings = () => {
         id: "slashNotaiton",
         type: "checkbox",
       },
+      {
+        id: "spaceAfterColon",
+        type: "checkbox",
+      },
+      {
+        id: "spaceAfterComma",
+        type: "checkbox",
+      },
     ],
   };
 
