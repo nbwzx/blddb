@@ -25309,19 +25309,25 @@
             "r':[U' r U,m]"
         ],
         [
-            "Uw m' u' m U' m' u m u'",
-            [
-                "Howie Craig",
-                "Kevin Matthews"
-            ],
-            "Uw:[m' u' m,U']"
-        ],
-        [
             "y U2 m u m' U' m u' m' U' y'",
             [
                 "Cale Schoon"
             ],
             "y U:[U,m u m']"
+        ],
+        [
+            "Uw m' u' m U' m' u m u'",
+            [
+                "Kevin Matthews"
+            ],
+            "Uw:[m' u' m,U']"
+        ],
+        [
+            "x' m' U' r U m U' r' U x",
+            [
+                "Howie Craig"
+            ],
+            "x':[m',U' r U]"
         ]
     ],
     "GAH": [
@@ -27665,19 +27671,25 @@
             "r':[m,U' r U]"
         ],
         [
-            "u m' u' m U m' u m Uw'",
-            [
-                "Howie Craig",
-                "Kevin Matthews"
-            ],
-            "Uw:[U',m' u' m]"
-        ],
-        [
             "y U m u m' U m u' m' U2 y'",
             [
                 "Cale Schoon"
             ],
             "y U:[m u m',U]"
+        ],
+        [
+            "u m' u' m U m' u m Uw'",
+            [
+                "Kevin Matthews"
+            ],
+            "u:[m' u' m,U]"
+        ],
+        [
+            "x' U' r U m' U' r' U m x",
+            [
+                "Howie Craig"
+            ],
+            "x':[U' r U,m']"
         ]
     ],
     "GFB": [
