@@ -6,6 +6,7 @@ import Loading from "@/app/loading";
 
 const Settings = () => {
   const { t } = useTranslation();
+  const floatRegex = /^\d{0,4}(\.\d{0,2})?$/u;
 
   const [loading, setLoading] = useState(true);
   const [settings, setSettings] = useState({});
@@ -27,10 +28,12 @@ const Settings = () => {
       {
         id: "show3BldAlgsUnderSecs",
         type: "text",
+        regex: floatRegex,
       },
       {
         id: "show4BldAlgsUnderSecs",
         type: "text",
+        regex: floatRegex,
       },
     ],
     commutator: [
@@ -84,6 +87,19 @@ const Settings = () => {
   }, []);
 
   const handleChange = (id: string, _type: string, value: string | boolean) => {
+    if (_type === "text") {
+      const setting = Object.values(settingsGroups)
+        .flat()
+        .find((s) => s.id === id);
+      if (
+        setting &&
+        "regex" in setting &&
+        setting.regex &&
+        !setting.regex.test(value as string)
+      ) {
+        return;
+      }
+    }
     const newSettings = { ...settings, [id]: value };
     setSettings(newSettings);
     localStorage.setItem("settings", JSON.stringify(newSettings));
