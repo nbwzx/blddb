@@ -104,8 +104,8 @@ const menuData: Menu[] = [
     title: "common.Tools",
     submenu: [
       {
-        title: "code.title",
-        path: "/code",
+        title: "sheets.title",
+        path: "/sheets",
       },
     ],
   },

@@ -50,6 +50,26 @@
     "thumbup": "上",
     "homegrip": "中"
   },
+  "sheets": {
+    "title": "手順集",
+    "hint": "これらはBLDDBの人造モードで使用されるBLD手順集です名前、3BLDタイム、または4BLDタイムで整理するために、最初の行をクリックして並べ替えることができます。自分のシートをこのコレクションに追加したい場合は、GitHubの関連するjsonファイルにGoogleシートのリンクを追加してください。また、メール（nbwzx@126.com）またはDiscord（nbwzx#4869）で私に連絡することもできます。",
+    "no": "連番",
+    "name": "名前",
+    "wca_id": "WCA ID",
+    "3bld": "3BLD",
+    "4bld": "4BLD",
+    "url": "URL",
+    "key": {
+      "bld": "BLD",
+      "3bld": "3BLD",
+      "bigbld": "BigBLD",
+      "edge": "エッジ",
+      "corner": "コーナー",
+      "parity": "パリティ",
+      "ltct": "LTCT",
+      "twists": "ツイスト"
+    }
+  },
   "table": {
     "no": "連番",
     "source": "出典",

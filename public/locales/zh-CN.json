@@ -50,6 +50,26 @@
     "thumbup": "上",
     "homegrip": "中"
   },
+  "sheets": {
+    "title": "公式集",
+    "hint": "这些是在盲拧公式库的人造模式中所使用的盲拧公式集。您可以点击第一行以便按名字、三盲时间或高盲时间进行排序。如果你想要将自己的公式集添加到此集合中，请将您的公式集的 Google Sheet 链接添加到 GitHub 上相关的 json 文件里。您也可以通过电子邮件 (nbwzx@126.com) ，或者通过 Discord (nbwzx#4869) 与我联系。",
+    "no": "序号",
+    "name": "名字",
+    "wca_id": "WCA ID",
+    "3bld": "三盲",
+    "4bld": "四盲",
+    "url": "链接",
+    "key": {
+      "bld": "盲拧",
+      "3bld": "三盲",
+      "bigbld": "高盲",
+      "edge": "棱块",
+      "corner": "角块",
+      "parity": "奇偶",
+      "ltct": "奇偶带翻",
+      "twists": "翻色"
+    }
+  },
   "table": {
     "no": "序号",
     "source": "来源",

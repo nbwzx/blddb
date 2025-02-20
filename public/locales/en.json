@@ -50,6 +50,26 @@
     "thumbup": "Thumb up",
     "homegrip": "Home grip"
   },
+  "sheets": {
+    "title": "Algorithm Sheets",
+    "hint": "These are BLD algorithm sheets used in the manmade mode of BLDDB. You can sort them by the first line to organize them by name, 3BLD time, or 4BLD time. If you'd like to add your own sheet to this collection, please add the link to the relevant json file on GitHub. You can also reach out to me via email at nbwzx@126.com or on Discord at nbwzx#4869.",
+    "no": "No.",
+    "name": "Name",
+    "wca_id": "WCA ID",
+    "3bld": "3BLD",
+    "4bld": "4BLD",
+    "url": "URL",
+    "key": {
+      "bld": "BLD",
+      "3bld": "3BLD",
+      "bigbld": "BigBLD",
+      "edge": "Edge",
+      "corner": "Corner",
+      "parity": "Parity",
+      "ltct": "LTCT",
+      "twists": "Twists"
+    }
+  },
   "table": {
     "no": "No.",
     "algorithm": "Algorithm",
