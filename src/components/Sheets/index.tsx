@@ -18,7 +18,7 @@ interface Users {
   [key: string]: {
     urls: { [key: string]: string };
     time: UserTime;
-  }; // 用户名映射到 urls 和 time
+  };
 }
 
 const Sheets = () => {
@@ -241,7 +241,7 @@ const Sheets = () => {
                   <tbody>
                     {Object.entries(users).map(([name, { urls, time }]) => {
                       return (
-                        <tr key={name} className="hover:bg-gray-50">
+                        <tr key={name}>
                           <td> {Object.keys(users).indexOf(name) + 1}</td>
                           <td>
                             {name.length > 25
