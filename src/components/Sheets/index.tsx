@@ -46,6 +46,7 @@ const Sheets = () => {
       window.removeEventListener("resize", adjustTableFontSize);
     };
   }, []);
+
   const adjustTableFontSize = () => {
     if (tableRef.current && divRef.current) {
       const width = document.body.clientWidth;
@@ -56,7 +57,7 @@ const Sheets = () => {
       tableRef.current.style.fontSize = "18px";
       const tableWidth = tableRef.current.offsetWidth;
       const divWidth = divRef.current.offsetWidth;
-      if (tableWidth / divWidth > 1) {
+      if (tableWidth > divWidth) {
         const newFontSize =
           (18 * (divWidth - tableWidth0)) / (tableWidth - tableWidth0);
         tableRef.current.style.fontSize = `${newFontSize}px`;
