@@ -204,7 +204,12 @@ const BLD = ({ codeType }: { codeType: string }) => {
         starCount++;
       }
     }
-    if (blankCount === 1 && starCount === 0 && e.target.value.trim() !== "") {
+    if (
+      blankCount === 1 &&
+      starCount === 0 &&
+      e.target.value.trim() !== "" &&
+      modeValue === "manmade"
+    ) {
       newSelectValues[blankIndex] = "*";
     }
     setSelectValues(newSelectValues);
