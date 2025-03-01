@@ -124,16 +124,21 @@ const Table = ({
     let processedValue = [...value];
     if (isManmade && sourceToResult) {
       const show3BldAlgsUnderSecs = settings.show3BldAlgsUnderSecs;
+      const show4BldAlgsUnderSecs = settings.show4BldAlgsUnderSecs;
       processedValue = processedValue
         .map((innerArray) => {
           const filteredNames = innerArray[1].filter((name) => {
-            return (
-              show3BldAlgsUnderSecs === "" ||
-              typeof show3BldAlgsUnderSecs === "undefined" ||
-              (sourceToResult[name] &&
-                (sourceToResult[name]["3bld"] ?? Infinity) <=
-                  100 * parseFloat(show3BldAlgsUnderSecs))
-            );
+            return is3bld
+              ? show3BldAlgsUnderSecs === "" ||
+                  typeof show3BldAlgsUnderSecs === "undefined" ||
+                  (sourceToResult[name] &&
+                    (sourceToResult[name]["3bld"] ?? Infinity) <=
+                      100 * parseFloat(show3BldAlgsUnderSecs))
+              : show4BldAlgsUnderSecs === "" ||
+                  typeof show4BldAlgsUnderSecs === "undefined" ||
+                  (sourceToResult[name] &&
+                    (sourceToResult[name]["4bld"] ?? Infinity) <=
+                      100 * parseFloat(show4BldAlgsUnderSecs));
           });
           return [innerArray[0], filteredNames, innerArray[2]];
         })
