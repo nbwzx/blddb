@@ -555,8 +555,8 @@ const commutator = (function () {
     }
     const part1Output = algorithm.split("[")[1].split(",")[0];
     const part2Output = algorithm.split(",")[1].split("]")[0];
-    const part0 = algToArray(part0Output);
-    const part2 = algToArray(part2Output);
+    const part0 = simplify(algToArray(part0Output));
+    const part2 = simplify(algToArray(part2Output));
     if (part1Output === "" || part2Output === "") {
       return "";
     }
