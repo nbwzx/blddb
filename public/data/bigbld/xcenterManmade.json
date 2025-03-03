@@ -23280,18 +23280,18 @@
             "4Dw':[r' d r,U2]"
         ],
         [
-            "U' Lw' U r U l U' r' U l' U2 Lw U",
-            [
-                "Daniel Wallin"
-            ],
-            "U' Lw' U:[r,U l U']"
-        ],
-        [
             "U' l U r U l' U' r' U l U2 l' U",
             [
                 "Ryan Eckersley"
             ],
             "U' l U:[r,U l' U']"
+        ],
+        [
+            "U' Lw' U r U l U' r' U l' U2 Lw U",
+            [
+                "Daniel Wallin"
+            ],
+            "U' Lw' U:[r,U l U']"
         ],
         [
             "4Dw r' d' r U2 r' d r U y",
@@ -25344,18 +25344,18 @@
             "[U',r d2 r']"
         ],
         [
-            "U Rw l' U' r' U l U' r U Rw' U'",
-            [
-                "Daniel Wallin"
-            ],
-            "U Rw:[l',U' r' U]"
-        ],
-        [
             "U r l' U' r' U l U' r U r' U'",
             [
                 "Ryan Eckersley"
             ],
             "U r:[l',U' r' U]"
+        ],
+        [
+            "U Rw l' U' r' U l U' r U Rw' U'",
+            [
+                "Daniel Wallin"
+            ],
+            "U Rw:[l',U' r' U]"
         ],
         [
             "y' r d r' U r d' r' 4Dw'",
@@ -25597,13 +25597,6 @@
             "y':[r d' r',U]"
         ],
         [
-            "U' Lw r' U' l' U r U' l U Lw' U",
-            [
-                "Daniel Wallin"
-            ],
-            "U' Lw:[r',U' l' U]"
-        ],
-        [
             "U' l r' U' l' U r U' l U l' U",
             [
                 "Ryan Eckersley"
@@ -25616,6 +25609,13 @@
                 "Ryan Eckersley"
             ],
             "U' m l:[r',U' l' U]"
+        ],
+        [
+            "U' Lw r' U' l' U r U' l U Lw' U",
+            [
+                "Daniel Wallin"
+            ],
+            "U' Lw:[r',U' l' U]"
         ],
         [
             "U' x' U' l' U r U' l U r' x U",
@@ -25806,13 +25806,6 @@
             "y:[U',r' d r]"
         ],
         [
-            "U Lw' U l U' r U l' U' r' Lw U'",
-            [
-                "Daniel Wallin"
-            ],
-            "U Lw':[U l U',r]"
-        ],
-        [
             "U l' U l U' r U l' U' r' l U'",
             [
                 "Ryan Eckersley"
@@ -25825,6 +25818,13 @@
                 "Ryan Eckersley"
             ],
             "U m' l':[U l U',r]"
+        ],
+        [
+            "U Lw' U l U' r U l' U' r' Lw U'",
+            [
+                "Daniel Wallin"
+            ],
+            "U Lw':[U l U',r]"
         ],
         [
             "E' r' d r U r' d' r 4Uw'",
@@ -30264,18 +30264,18 @@
             "[r d2 r',U']"
         ],
         [
-            "U Rw U' r' U l' U' r U l Rw' U'",
-            [
-                "Daniel Wallin"
-            ],
-            "U Rw:[U' r' U,l']"
-        ],
-        [
             "U r U' r' U l' U' r U l r' U'",
             [
                 "Ryan Eckersley"
             ],
             "U r:[U' r' U,l']"
+        ],
+        [
+            "U Rw U' r' U l' U' r U l Rw' U'",
+            [
+                "Daniel Wallin"
+            ],
+            "U Rw:[U' r' U,l']"
         ],
         [
             "4Dw r d r' U' r d' r' y",
@@ -30599,16 +30599,6 @@
             "Lw':[r' d' r,U']"
         ],
         [
-            "R l' U l d' l' U' l d R'",
-            [
-                "Anto Kam (甘浩東)",
-                "Chenhao Sun (孙晨皓)",
-                "Leonardo Ezequiel Cruz",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "R:[l' U l,d']"
-        ],
-        [
             "3Lw' r' d' r U' r' d r U 3Lw",
             [
                 "Daniel Lin",
@@ -30617,6 +30607,16 @@
                 "Ryan Eckersley"
             ],
             "3Lw':[r' d' r,U']"
+        ],
+        [
+            "R l' U l d' l' U' l d R'",
+            [
+                "Anto Kam (甘浩東)",
+                "Chenhao Sun (孙晨皓)",
+                "Leonardo Ezequiel Cruz",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "R:[l' U l,d']"
         ]
     ],
     "JNT": [
@@ -34412,16 +34412,6 @@
             "Lw':[U',r' d' r]"
         ],
         [
-            "R d' l' U l d l' U' l R'",
-            [
-                "Anto Kam (甘浩東)",
-                "Chenhao Sun (孙晨皓)",
-                "Leonardo Ezequiel Cruz",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "R:[d',l' U l]"
-        ],
-        [
             "3Lw' U' r' d' r U r' d r 3Lw",
             [
                 "Daniel Lin",
@@ -34430,6 +34420,16 @@
                 "Ryan Eckersley"
             ],
             "3Lw':[U',r' d' r]"
+        ],
+        [
+            "R d' l' U l d l' U' l R'",
+            [
+                "Anto Kam (甘浩東)",
+                "Chenhao Sun (孙晨皓)",
+                "Leonardo Ezequiel Cruz",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "R:[d',l' U l]"
         ]
     ],
     "JSO": [
@@ -35046,13 +35046,6 @@
             "y':[U,r d' r']"
         ],
         [
-            "U' Lw U' l' U r' U' l U r Lw' U",
-            [
-                "Daniel Wallin"
-            ],
-            "U' Lw:[U' l' U,r']"
-        ],
-        [
             "U' l U' l' U r' U' l U r l' U",
             [
                 "Ryan Eckersley"
@@ -35065,6 +35058,13 @@
                 "Ryan Eckersley"
             ],
             "U' m l:[U' l' U,r']"
+        ],
+        [
+            "U' Lw U' l' U r' U' l U r Lw' U",
+            [
+                "Daniel Wallin"
+            ],
+            "U' Lw:[U' l' U,r']"
         ],
         [
             "U' x' r U' l' U r' U' l U x U",
@@ -35989,18 +35989,18 @@
             "x':[r U' r',d2]"
         ],
         [
-            "D' 4Rw' l U' r U l' U' r' U 4Rw D",
-            [
-                "Daniel Wallin"
-            ],
-            "D' 4Rw':[l,U' r U]"
-        ],
-        [
             "M r U' r' d2 r U r' d2 M'",
             [
                 "Ryan Eckersley"
             ],
             "M:[r U' r',d2]"
+        ],
+        [
+            "D' 4Rw' l U' r U l' U' r' U 4Rw D",
+            [
+                "Daniel Wallin"
+            ],
+            "D' 4Rw':[l,U' r U]"
         ],
         [
             "3Lw U' r' d2 r U r' d2 4Lw'",
@@ -37481,18 +37481,18 @@
             "y U:[r' d r,U2]"
         ],
         [
-            "U' Lw' U2 l U' r U l' U' r' U' Lw U",
-            [
-                "Daniel Wallin"
-            ],
-            "U' Lw' U:[U l U',r]"
-        ],
-        [
             "U' l U2 l' U' r U l U' r' U' l' U",
             [
                 "Ryan Eckersley"
             ],
             "U' l U:[U l' U',r]"
+        ],
+        [
+            "U' Lw' U2 l U' r U l' U' r' U' Lw U",
+            [
+                "Daniel Wallin"
+            ],
+            "U' Lw' U:[U l U',r]"
         ],
         [
             "y' U' r' d' r U2 r' d r 4Dw'",
@@ -37613,13 +37613,6 @@
             "y:[r' d r,U']"
         ],
         [
-            "U Lw' r U l U' r' U l' U' Lw U'",
-            [
-                "Daniel Wallin"
-            ],
-            "U Lw':[r,U l U']"
-        ],
-        [
             "U l' r U l U' r' U l' U' l U'",
             [
                 "Ryan Eckersley"
@@ -37632,6 +37625,13 @@
                 "Ryan Eckersley"
             ],
             "U m' l':[r,U l U']"
+        ],
+        [
+            "U Lw' r U l U' r' U l' U' Lw U'",
+            [
+                "Daniel Wallin"
+            ],
+            "U Lw':[r,U l U']"
         ],
         [
             "4Uw r' d r U' r' d' r E",

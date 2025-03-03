@@ -407,18 +407,18 @@
             "Lw' D U':[R' u R,U2]"
         ],
         [
-            "Lw' F' R U R' u' R U' R' u F Lw",
-            [
-                "Daniel Wallin"
-            ],
-            "Lw' F':[R U R',u']"
-        ],
-        [
             "D' Lw' U' R' u' R U2 R' u R U' Lw D",
             [
                 "Ryan Eckersley"
             ],
             "D' Lw' U':[R' u' R,U2]"
+        ],
+        [
+            "Lw' F' R U R' u' R U' R' u F Lw",
+            [
+                "Daniel Wallin"
+            ],
+            "Lw' F':[R U R',u']"
         ],
         [
             "Lw' D' r' D r U2 r' D' r U2 D Lw",
@@ -626,18 +626,18 @@
             "D' Rw U':[L u L',U2]"
         ],
         [
-            "Rw U' R' U r2 U R U' r2 U R' U2 R U Rw'",
-            [
-                "Daniel Wallin"
-            ],
-            "Rw U' R' U:[r2,U R U']"
-        ],
-        [
             "D' r U R u' R' U2 R u R' U r' D",
             [
                 "Ryan Eckersley"
             ],
             "D' r U:[R u' R',U2]"
+        ],
+        [
+            "Rw U' R' U r2 U R U' r2 U R' U2 R U Rw'",
+            [
+                "Daniel Wallin"
+            ],
+            "Rw U' R' U:[r2,U R U']"
         ],
         [
             "D r2 D' r' U2 r D r' U2 r' D'",
@@ -6537,19 +6537,6 @@
     ],
     "AIP": [
         [
-            "D' r U L2 U' r' U L2 U' D",
-            [
-                "Adrian Dębski",
-                "Dong Zhu (朱栋)",
-                "Jonghyun Kim (김종현)",
-                "Oliver Fritz",
-                "Xi Lu (鲁曦)",
-                "Xin Shi (石欣)",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "D':[r,U L2 U']"
-        ],
-        [
             "U' R F' R' b' R F R' b U",
             [
                 "Andrew Tan Jing Bang",
@@ -6561,6 +6548,19 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "U':[R F' R',b']"
+        ],
+        [
+            "D' r U L2 U' r' U L2 U' D",
+            [
+                "Adrian Dębski",
+                "Dong Zhu (朱栋)",
+                "Jonghyun Kim (김종현)",
+                "Oliver Fritz",
+                "Xi Lu (鲁曦)",
+                "Xin Shi (石欣)",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "D':[r,U L2 U']"
         ],
         [
             "Rw U R U l' U' R' U l U2 Rw'",
@@ -7084,18 +7084,18 @@
             "Lw' D U:[R' u R,U2]"
         ],
         [
-            "Lw' F' u' R U R' u R U' R' F Lw",
-            [
-                "Daniel Wallin"
-            ],
-            "Lw' F':[u',R U R']"
-        ],
-        [
             "D' Lw' U R' u' R U2 R' u R U Lw D",
             [
                 "Ryan Eckersley"
             ],
             "D' Lw' U:[R' u' R,U2]"
+        ],
+        [
+            "Lw' F' u' R U R' u R U' R' F Lw",
+            [
+                "Daniel Wallin"
+            ],
+            "Lw' F':[u',R U R']"
         ],
         [
             "Lw' D' U2 r' D r U2 r' D' r D Lw",
@@ -7746,18 +7746,18 @@
             "4Lw' U:[R' F' R,f]"
         ],
         [
-            "Rw D' R U R U' r U R' U' Rw' D Rw'",
-            [
-                "Daniel Wallin"
-            ],
-            "Rw D' R:[U R U',r]"
-        ],
-        [
             "U' D R' u' R D2 R' u R D U",
             [
                 "Ryan Eckersley"
             ],
             "U' D:[R' u' R,D2]"
+        ],
+        [
+            "Rw D' R U R U' r U R' U' Rw' D Rw'",
+            [
+                "Daniel Wallin"
+            ],
+            "Rw D' R:[U R U',r]"
         ],
         [
             "4Bw' U L U' r U L' U' r' 4Bw",
@@ -10640,18 +10640,18 @@
             "D' Rw U:[L u L',U2]"
         ],
         [
-            "Rw U' R' U2 R U' r2 U R' U' r2 U' R U Rw'",
-            [
-                "Daniel Wallin"
-            ],
-            "Rw U' R' U:[U R U',r2]"
-        ],
-        [
             "D' r U' R u' R' U2 R u R' U' r' D",
             [
                 "Ryan Eckersley"
             ],
             "D' r U':[R u' R',U2]"
+        ],
+        [
+            "Rw U' R' U2 R U' r2 U R' U' r2 U' R U Rw'",
+            [
+                "Daniel Wallin"
+            ],
+            "Rw U' R' U:[U R U',r2]"
         ],
         [
             "U2 r' U2 3Lw' U2 3Lw U2 r U2 3Lw' U2 3Lw",
@@ -11157,15 +11157,6 @@
             "4Lw':[U' L' U,r2]"
         ],
         [
-            "4Lw r2 U' L U r2 U' L' U 4Lw'",
-            [
-                "Daniel Wallin",
-                "Dong Zhu (朱栋)",
-                "Jonghyun Kim (김종현)"
-            ],
-            "4Lw:[r2,U' L U]"
-        ],
-        [
             "U L B' L' f' L B L' f U'",
             [
                 "Anto Kam (甘浩東)",
@@ -11173,6 +11164,15 @@
                 "Ryan Eckersley"
             ],
             "U:[L B' L',f']"
+        ],
+        [
+            "4Lw r2 U' L U r2 U' L' U 4Lw'",
+            [
+                "Daniel Wallin",
+                "Dong Zhu (朱栋)",
+                "Jonghyun Kim (김종현)"
+            ],
+            "4Lw:[r2,U' L U]"
         ],
         [
             "x U' L' U r2 U' L U r2 x'",
@@ -12147,18 +12147,18 @@
             "4Lw' U:[f,R' F' R]"
         ],
         [
-            "Rw D' Rw U R U' r' U R' U' R' D Rw'",
-            [
-                "Daniel Wallin"
-            ],
-            "Rw D' R:[r,U R U']"
-        ],
-        [
             "U' D' R' u' R D2 R' u R D' U",
             [
                 "Ryan Eckersley"
             ],
             "U' D':[R' u' R,D2]"
+        ],
+        [
+            "Rw D' Rw U R U' r' U R' U' R' D Rw'",
+            [
+                "Daniel Wallin"
+            ],
+            "Rw D' R:[r,U R U']"
         ],
         [
             "4Bw' r U L U' r' U L' U' 4Bw",
@@ -12483,18 +12483,18 @@
             "U' x':[u,R U R']"
         ],
         [
-            "Lw U' R' u R U2 R' u' R U' Lw'",
-            [
-                "Daniel Wallin"
-            ],
-            "Lw U':[R' u R,U2]"
-        ],
-        [
             "U' D' R' u' R D R' u R U",
             [
                 "Ryan Eckersley"
             ],
             "U':[D',R' u' R]"
+        ],
+        [
+            "Lw U' R' u R U2 R' u' R U' Lw'",
+            [
+                "Daniel Wallin"
+            ],
+            "Lw U':[R' u R,U2]"
         ],
         [
             "U l U l' D l U' l' D' U'",
@@ -12584,16 +12584,6 @@
             "x':[D',r U2 r']"
         ],
         [
-            "z' R2 u' R U' R' u R U R z",
-            [
-                "Daniel Lin",
-                "Hill Pong Yong Feng",
-                "Jonghyun Kim (김종현)",
-                "Xin Shi (石欣)"
-            ],
-            "z' R':[R' u' R,U']"
-        ],
-        [
             "D2 r' D R' D' r D R D",
             [
                 "Anto Kam (甘浩東)",
@@ -12602,6 +12592,16 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "D':[D' r' D,R']"
+        ],
+        [
+            "z' R2 u' R U' R' u R U R z",
+            [
+                "Daniel Lin",
+                "Hill Pong Yong Feng",
+                "Jonghyun Kim (김종현)",
+                "Xin Shi (石欣)"
+            ],
+            "z' R':[R' u' R,U']"
         ],
         [
             "4Lw' U R U l' U' R' U l U2 4Lw",
@@ -13582,18 +13582,18 @@
             "z' f':[U2,R' u' R]"
         ],
         [
-            "D' Rw D R' U' R' U r' U' R U Rw D' Rw' D",
-            [
-                "Daniel Wallin"
-            ],
-            "D' Rw D R':[U' R' U,r']"
-        ],
-        [
             "R u R2 u' R U' R' u2 R U R' u' R2 u' R'",
             [
                 "Ryan Eckersley"
             ],
             "R u R2 u':[R U' R',u2]"
+        ],
+        [
+            "D' Rw D R' U' R' U r' U' R U Rw D' Rw' D",
+            [
+                "Daniel Wallin"
+            ],
+            "D' Rw D R':[U' R' U,r']"
         ],
         [
             "D' Lw l U2 l' D2 l U2 l' D2 Lw' D",
@@ -14639,18 +14639,18 @@
             "U' x':[R U R',u]"
         ],
         [
-            "Lw U R' u R U2 R' u' R U Lw'",
-            [
-                "Daniel Wallin"
-            ],
-            "Lw U:[R' u R,U2]"
-        ],
-        [
             "U' R' u' R D' R' u R D U",
             [
                 "Ryan Eckersley"
             ],
             "U':[R' u' R,D']"
+        ],
+        [
+            "Lw U R' u R U2 R' u' R U Lw'",
+            [
+                "Daniel Wallin"
+            ],
+            "Lw U:[R' u R,U2]"
         ],
         [
             "U D l U l' D' l U' l' U'",
@@ -14738,18 +14738,18 @@
             "z' f':[R' u' R,U2]"
         ],
         [
-            "D' Rw D Rw' U' R' U r U' R U R D' Rw' D",
-            [
-                "Daniel Wallin"
-            ],
-            "D' Rw D R':[r',U' R' U]"
-        ],
-        [
             "R u R2 u R U' R' u2 R U R' u R2 u' R'",
             [
                 "Ryan Eckersley"
             ],
             "R u R2 u:[R U' R',u2]"
+        ],
+        [
+            "D' Rw D Rw' U' R' U r U' R U R D' Rw' D",
+            [
+                "Daniel Wallin"
+            ],
+            "D' Rw D R':[r',U' R' U]"
         ],
         [
             "D' Lw D2 l U2 l' D2 l U2 l' Lw' D",
@@ -16682,16 +16682,6 @@
             "x':[r U2 r',D']"
         ],
         [
-            "z' R' U' R' u' R U R' u R2 z",
-            [
-                "Daniel Lin",
-                "Hill Pong Yong Feng",
-                "Jonghyun Kim (김종현)",
-                "Xin Shi (石欣)"
-            ],
-            "z' R':[U',R' u' R]"
-        ],
-        [
             "D' R' D' r' D R D' r D2",
             [
                 "Anto Kam (甘浩東)",
@@ -16700,6 +16690,16 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "D':[R',D' r' D]"
+        ],
+        [
+            "z' R' U' R' u' R U R' u R2 z",
+            [
+                "Daniel Lin",
+                "Hill Pong Yong Feng",
+                "Jonghyun Kim (김종현)",
+                "Xin Shi (石欣)"
+            ],
+            "z' R':[U',R' u' R]"
         ],
         [
             "4Lw' U2 l' U' R U l U' R' U' 4Lw",
@@ -31480,15 +31480,6 @@
             "D Rw:[U R' U',r]"
         ],
         [
-            "D R' F' u' R U' R' u R U R' F R D'",
-            [
-                "Chenhao Sun (孙晨皓)",
-                "Dong Zhu (朱栋)",
-                "Michael Tripodi"
-            ],
-            "D R' F':[u',R U' R']"
-        ],
-        [
             "U L F' L' f L F L' f' U'",
             [
                 "Anto Kam (甘浩東)",
@@ -31496,6 +31487,15 @@
                 "Ryan Eckersley"
             ],
             "U:[L F' L',f]"
+        ],
+        [
+            "D R' F' u' R U' R' u R U R' F R D'",
+            [
+                "Chenhao Sun (孙晨皓)",
+                "Dong Zhu (朱栋)",
+                "Michael Tripodi"
+            ],
+            "D R' F':[u',R U' R']"
         ],
         [
             "f2 R' F R f2 R' F' R",
@@ -33332,15 +33332,6 @@
             "D Rw:[r,U R' U']"
         ],
         [
-            "D R' F' R U' R' u' R U R' u F R D'",
-            [
-                "Chenhao Sun (孙晨皓)",
-                "Dong Zhu (朱栋)",
-                "Michael Tripodi"
-            ],
-            "D R' F':[R U' R',u']"
-        ],
-        [
             "U f L F' L' f' L F L' U'",
             [
                 "Anto Kam (甘浩東)",
@@ -33348,6 +33339,15 @@
                 "Ryan Eckersley"
             ],
             "U:[f,L F' L']"
+        ],
+        [
+            "D R' F' R U' R' u' R U R' u F R D'",
+            [
+                "Chenhao Sun (孙晨皓)",
+                "Dong Zhu (朱栋)",
+                "Michael Tripodi"
+            ],
+            "D R' F':[R U' R',u']"
         ],
         [
             "R' F R f2 R' F' R f2",
