@@ -17,30 +17,30 @@ jobs:
       - name: setup python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.9"
+          python-version: "pypy3.9"
 
       - name: install python packages
         run: |
-          python -m pip install --upgrade pip
+          pypy -m pip install --upgrade pip
           pip install -r scripts/requirements.txt
 
       - name: execute result.py
-        run: python scripts/result.py
+        run: pypy scripts/result.py
 
       - name: execute youtube.py
         env:
           SERVICE_ACCOUNT: ${{ secrets.SERVICE_ACCOUNT }}
-        run: python scripts/youtube.py
+        run: pypy scripts/youtube.py
 
       - name: execute main.py
         env:
           SERVICE_ACCOUNT: ${{ secrets.SERVICE_ACCOUNT }}
-        run: python scripts/main.py
+        run: pypy scripts/main.py
 
       - name: execute main_555.py
         env:
           SERVICE_ACCOUNT: ${{ secrets.SERVICE_ACCOUNT }}
-        run: python scripts/main_555.py
+        run: pypy scripts/main_555.py
 
       - name: commit files
         run: |
@@ -64,25 +64,25 @@ jobs:
       - name: setup python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.9"
+          python-version: "pypy3.9"
 
       - name: install python packages
         run: |
-          python -m pip install --upgrade pip
+          pypy -m pip install --upgrade pip
           pip install -r scripts/requirements.txt
 
       - name: execute result.py
-        run: python scripts/result.py
+        run: pypy scripts/result.py
 
       - name: execute main.py
         env:
           SERVICE_ACCOUNT: ${{ secrets.SERVICE_ACCOUNT }}
-        run: python scripts/main.py
+        run: pypy scripts/main.py
 
       - name: execute main_555.py
         env:
           SERVICE_ACCOUNT: ${{ secrets.SERVICE_ACCOUNT }}
-        run: python scripts/main_555.py
+        run: pypy scripts/main_555.py
 
       - name: commit files
         run: |
