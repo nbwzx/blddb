@@ -60,6 +60,11 @@ const Settings = () => {
     ],
   };
 
+  const modeToEmoji = {
+    nightmare: "\u{1F480}",
+    manmade: "\u{2009}\u{F2BD}\u{2009}",
+  };
+
   const loadSettings = () => {
     if (typeof window !== "undefined") {
       const savedSettings = localStorage.getItem("settings");
@@ -138,7 +143,7 @@ const Settings = () => {
                         </div>
                         {setting.type === "select" && (
                           <select
-                            className="ml-4 mr-2 w-36 rounded-md border border-gray-300 p-2 focus:outline-none focus:ring focus:ring-primary dark:border-gray-600 dark:bg-gray-800 dark:text-white"
+                            className="ml-4 mr-2 rounded-md border border-2 border-gray-400 p-2 pr-8 focus:border-primary focus:outline-none dark:border-gray-600 dark:bg-gray-800 dark:text-white"
                             value={settings[setting.id] || ""}
                             onChange={(e) =>
                               handleChange(setting.id, "select", e.target.value)
@@ -146,7 +151,7 @@ const Settings = () => {
                           >
                             {setting.options.map((option: { id: string }) => (
                               <option key={option.id} value={option.id}>
-                                {t(`settings.${moduleId}.${option.id}`)}
+                                {`${modeToEmoji[option.id] || ""} ${t(`settings.${moduleId}.${option.id}`)}`}
                               </option>
                             ))}
                           </select>
@@ -175,14 +180,14 @@ const Settings = () => {
                             onChange={(e) =>
                               handleChange(setting.id, "text", e.target.value)
                             }
-                            className="ml-4 mr-2 w-20 rounded-md border border-2 border-gray-300 p-2 text-right focus:outline-none focus:ring focus:ring-primary dark:border-gray-600 dark:bg-gray-800 dark:text-white"
+                            className="ml-4 mr-2 w-20 rounded-md border border-2 border-gray-400 p-2 text-right focus:border-primary focus:outline-none dark:border-gray-600 dark:bg-gray-800 dark:text-white"
                           />
                         )}
                       </div>
                     ))}
                   </div>
                   {index < Object.keys(settingsGroups).length - 1 && (
-                    <hr className="my-8 border-t border-gray-300 dark:border-gray-600" />
+                    <hr className="my-8 border-t-2 border-gray-300 dark:border-gray-600" />
                   )}
                 </div>
               ))}
