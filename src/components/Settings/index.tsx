@@ -42,7 +42,7 @@ const Settings = () => {
         type: "checkbox",
       },
       {
-        id: "slashNotaiton",
+        id: "slashNotation",
         type: "checkbox",
       },
       {

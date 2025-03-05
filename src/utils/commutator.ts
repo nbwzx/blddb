@@ -14,7 +14,7 @@ const commutator = (function () {
     maxDepthInit = 0,
     limitInit = 0,
     fastInit = false,
-    slashNotaitonInit = false,
+    slashNotationInit = false,
     noBracketsInit = false,
     spaceAfterColonInit = false,
     spaceAfterCommaInit = false,
@@ -118,7 +118,7 @@ const commutator = (function () {
     abMinScore = abMinScoreInit,
     addScore = addScoreInit,
     fast = fastInit,
-    slashNotaiton = slashNotaitonInit,
+    slashNotation = slashNotationInit,
     noBrackets = noBracketsInit,
     spaceAfterColon = spaceAfterColonInit,
     spaceAfterComma = spaceAfterCommaInit,
@@ -389,7 +389,7 @@ const commutator = (function () {
     maxDepth?: number;
     limit?: number;
     fast?: boolean;
-    slashNotaiton?: boolean;
+    slashNotation?: boolean;
     noBrackets?: boolean;
     spaceAfterColon?: boolean;
     spaceAfterComma?: boolean;
@@ -405,7 +405,7 @@ const commutator = (function () {
     finalReplace = input.finalReplace ?? finalReplaceInit;
     commute = input.commute ?? commuteInit;
     fast = input.fast ?? fastInit;
-    slashNotaiton = input.slashNotaiton ?? slashNotaitonInit;
+    slashNotation = input.slashNotation ?? slashNotationInit;
     noBrackets = input.noBrackets ?? noBracketsInit;
     spaceAfterColon = input.spaceAfterColon ?? spaceAfterColonInit;
     spaceAfterComma = input.spaceAfterComma ?? spaceAfterCommaInit;
@@ -497,7 +497,7 @@ const commutator = (function () {
         result = result.map((alg) =>
           commutatorPost(
             alg,
-            slashNotaiton,
+            slashNotation,
             noBrackets,
             spaceAfterColon,
             spaceAfterComma,

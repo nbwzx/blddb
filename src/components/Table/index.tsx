@@ -170,7 +170,7 @@ const Table = ({
             commutatorResult = commutator.search({
               algorithm: item[j],
               maxDepth: 1,
-              slashNotaiton: settings.slashNotaiton,
+              slashNotation: settings.slashNotation,
               noBrackets: settings.noBrackets,
               spaceAfterColon: settings.spaceAfterColon,
               spaceAfterComma: settings.spaceAfterComma,
@@ -180,7 +180,7 @@ const Table = ({
             const commutatorResultBefore = is3bld ? comm[j] : comm;
             commutatorResult = commutator.commutatorPost(
               commutatorResultBefore,
-              settings.slashNotaiton,
+              settings.slashNotation,
               settings.noBrackets,
               settings.spaceAfterColon,
               settings.spaceAfterComma,
