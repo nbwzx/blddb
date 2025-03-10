@@ -7756,6 +7756,7 @@
             ],
             [
                 "Abhijeet Ghodgaonkar (अभिजीत घोडगावकर)",
+                "Aleksander Bober",
                 "Andrew Tan Jing Bang",
                 "Bertie Longden",
                 "Chenhao Sun (孙晨皓)",
@@ -7791,7 +7792,6 @@
                 "U L2 U' M U L2 U' M'"
             ],
             [
-                "Aleksander Bober",
                 "Anto Kam (甘浩東)",
                 "Arrik Leman",
                 "Benjamin Paul",
@@ -7892,7 +7892,6 @@
             ],
             [
                 "Abhijeet Ghodgaonkar (अभिजीत घोडगावकर)",
-                "Aleksander Bober",
                 "Anto Kam (甘浩東)",
                 "Arrik Leman",
                 "Bertie Longden",
@@ -7927,6 +7926,7 @@
                 "U' D R' F' R S R' F R S' U D'"
             ],
             [
+                "Aleksander Bober",
                 "Andrew Tan Jing Bang",
                 "Benjamin Paul",
                 "Chenhao Sun (孙晨皓)",
@@ -8318,7 +8318,6 @@
                 "U' R2 U M U' R2 U M'"
             ],
             [
-                "Aleksander Bober",
                 "Anto Kam (甘浩東)",
                 "Arrik Leman",
                 "Benjamin Paul",
@@ -8351,6 +8350,7 @@
                 "U D' S R' F' R S' R' F R U' D"
             ],
             [
+                "Aleksander Bober",
                 "Chenhao Sun (孙晨皓)",
                 "Christopher Morris",
                 "Daniel Wallin",
@@ -8480,7 +8480,6 @@
             ],
             [
                 "Abhijeet Ghodgaonkar (अभिजीत घोडगावकर)",
-                "Aleksander Bober",
                 "Anto Kam (甘浩東)",
                 "Arrik Leman",
                 "Benjamin Paul",
@@ -8543,6 +8542,7 @@
                 "U' D' R' F' R S R' F R S' U D"
             ],
             [
+                "Aleksander Bober",
                 "Chenhao Sun (孙晨皓)",
                 "Christopher Morris",
                 "Dhruv Ambastha",
@@ -9920,7 +9920,8 @@
                 "Martin Vædele Egdal",
                 "Masato Fujiwara (藤原正人)",
                 "Shuto Ueno (上野柊斗)",
-                "Yiwei Liu (刘伊玮)"
+                "Yiwei Liu (刘伊玮)",
+                "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
                 "l' U:[R' E R,U2]",
@@ -10704,7 +10705,6 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Xin Shi (石欣)",
                 "Yiwei Liu (刘伊玮)",
-                "Yuki Tsuneyoshi (恒吉優紀)",
                 "Zhi Qiao (乔智)"
             ],
             [
@@ -10781,6 +10781,17 @@
             ],
             [
                 "U' D:[D' R' D R,U R U' R']"
+            ]
+        ],
+        [
+            [
+                "U R D S R2 S' R2 D' R' U'"
+            ],
+            [
+                "Yuki Tsuneyoshi (恒吉優紀)"
+            ],
+            [
+                "U R D:[S,R2]"
             ]
         ],
         [
@@ -12414,6 +12425,7 @@
             ],
             [
                 "Abhijeet Ghodgaonkar (अभिजीत घोडगावकर)",
+                "Aleksander Bober",
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Dylan Wang",
@@ -12447,7 +12459,6 @@
                 "U L2 U' M' U L2 U' M"
             ],
             [
-                "Aleksander Bober",
                 "Anto Kam (甘浩東)",
                 "Aron Puddy-Mathew",
                 "Arrik Leman",
@@ -12739,6 +12750,7 @@
                 "Yifan Wang (王逸帆)",
                 "Yiwei Liu (刘伊玮)",
                 "Yomie Ko (고현승)",
+                "Yuki Tsuneyoshi (恒吉優紀)",
                 "Zhi Qiao (乔智)",
                 "Zixing Wang (王子兴)",
                 "Ziyi Xu (徐梓翼)"
@@ -12984,10 +12996,47 @@
     "AJO": [
         [
             [
+                "U R' F' R' S R2 S' R' F R U'"
+            ],
+            [
+                "Abhijeet Ghodgaonkar (अभिजीत घोडगावकर)",
+                "Aleksander Bober",
+                "Andrew Tan Jing Bang",
+                "Chenhao Sun (孙晨皓)",
+                "Christopher Morris",
+                "Dhruv Ambastha",
+                "Dylan Wang",
+                "Elliott Kobelansky",
+                "Enoch Gray",
+                "Ethan Pan",
+                "Gavriel Johann Arcilla",
+                "Graham Siggins",
+                "Hongjie Zhang (张鸿杰)",
+                "Ishaan Agrawal",
+                "Keiichiro Taira (平佳一郎)",
+                "Kevin Matthews",
+                "Krzysztof Bober",
+                "Leonardo Ezequiel Cruz",
+                "Masato Fujiwara (藤原正人)",
+                "Max Hilliard",
+                "Michael Tripodi",
+                "Roman Strakhov",
+                "Shuto Ueno (上野柊斗)",
+                "Yangyang Shen (沈炀炀)",
+                "Yifan Wang (王逸帆)",
+                "Yomie Ko (고현승)",
+                "Yuki Tsuneyoshi (恒吉優紀)",
+                "Zixing Wang (王子兴)"
+            ],
+            [
+                "U R' F' R':[S,R2]"
+            ]
+        ],
+        [
+            [
                 "U' R2 U M' U' R2 U M"
             ],
             [
-                "Aleksander Bober",
                 "Anto Kam (甘浩東)",
                 "Aron Puddy-Mathew",
                 "Arrik Leman",
@@ -13019,43 +13068,6 @@
             ],
             [
                 "[U' R2 U,M']"
-            ]
-        ],
-        [
-            [
-                "U R' F' R' S R2 S' R' F R U'"
-            ],
-            [
-                "Abhijeet Ghodgaonkar (अभिजीत घोडगावकर)",
-                "Andrew Tan Jing Bang",
-                "Chenhao Sun (孙晨皓)",
-                "Christopher Morris",
-                "Dhruv Ambastha",
-                "Dylan Wang",
-                "Elliott Kobelansky",
-                "Enoch Gray",
-                "Ethan Pan",
-                "Gavriel Johann Arcilla",
-                "Graham Siggins",
-                "Hongjie Zhang (张鸿杰)",
-                "Ishaan Agrawal",
-                "Keiichiro Taira (平佳一郎)",
-                "Kevin Matthews",
-                "Krzysztof Bober",
-                "Leonardo Ezequiel Cruz",
-                "Masato Fujiwara (藤原正人)",
-                "Max Hilliard",
-                "Michael Tripodi",
-                "Roman Strakhov",
-                "Shuto Ueno (上野柊斗)",
-                "Yangyang Shen (沈炀炀)",
-                "Yifan Wang (王逸帆)",
-                "Yomie Ko (고현승)",
-                "Yuki Tsuneyoshi (恒吉優紀)",
-                "Zixing Wang (王子兴)"
-            ],
-            [
-                "U R' F' R':[S,R2]"
             ]
         ],
         [
@@ -13653,6 +13665,7 @@
                 "Chenhao Sun (孙晨皓)",
                 "Shuto Ueno (上野柊斗)",
                 "Yiwei Liu (刘伊玮)",
+                "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
             [
@@ -14608,7 +14621,6 @@
                 "M U L2 U' M' U L2 U'"
             ],
             [
-                "Aleksander Bober",
                 "Anto Kam (甘浩東)",
                 "Arrik Leman",
                 "Benjamin Paul",
@@ -14644,6 +14656,7 @@
             ],
             [
                 "Abhijeet Ghodgaonkar (अभिजीत घोडगावकर)",
+                "Aleksander Bober",
                 "Andrew Tan Jing Bang",
                 "Bertie Longden",
                 "Chenhao Sun (孙晨皓)",
@@ -14798,7 +14811,8 @@
                 "Martin Vædele Egdal",
                 "Masato Fujiwara (藤原正人)",
                 "Shuto Ueno (上野柊斗)",
-                "Yiwei Liu (刘伊玮)"
+                "Yiwei Liu (刘伊玮)",
+                "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
                 "l' U':[R' E R,U2]",
@@ -14895,6 +14909,7 @@
             ],
             [
                 "Abhijeet Ghodgaonkar (अभिजीत घोडगावकर)",
+                "Aleksander Bober",
                 "Andrew Tan Jing Bang",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -14932,7 +14947,6 @@
                 "M' U L2 U' M U L2 U'"
             ],
             [
-                "Aleksander Bober",
                 "Anto Kam (甘浩東)",
                 "Aron Puddy-Mathew",
                 "Arrik Leman",
@@ -17016,7 +17030,6 @@
             ],
             [
                 "Abhijeet Ghodgaonkar (अभिजीत घोडगावकर)",
-                "Aleksander Bober",
                 "Anto Kam (甘浩東)",
                 "Arrik Leman",
                 "Benjamin Paul",
@@ -17053,6 +17066,7 @@
                 "U' D S R' F' R S' R' F R U D'"
             ],
             [
+                "Aleksander Bober",
                 "Andrew Tan Jing Bang",
                 "Chenhao Sun (孙晨皓)",
                 "Christopher Morris",
@@ -19908,6 +19922,7 @@
                 "Yifan Wang (王逸帆)",
                 "Yiwei Liu (刘伊玮)",
                 "Yomie Ko (고현승)",
+                "Yuki Tsuneyoshi (恒吉優紀)",
                 "Zhi Qiao (乔智)",
                 "Zixing Wang (王子兴)",
                 "Ziyi Xu (徐梓翼)"
@@ -24443,7 +24458,6 @@
                 "M U' R2 U M' U' R2 U"
             ],
             [
-                "Aleksander Bober",
                 "Anto Kam (甘浩東)",
                 "Arrik Leman",
                 "Benjamin Paul",
@@ -24509,6 +24523,7 @@
                 "U D' R' F' R S R' F R S' U' D"
             ],
             [
+                "Aleksander Bober",
                 "Chenhao Sun (孙晨皓)",
                 "Christopher Morris",
                 "Daniel Wallin",
@@ -24761,6 +24776,7 @@
             ],
             [
                 "Abhijeet Ghodgaonkar (अभिजीत घोडगावकर)",
+                "Aleksander Bober",
                 "Andrew Tan Jing Bang",
                 "Chenhao Sun (孙晨皓)",
                 "Christopher Morris",
@@ -24799,7 +24815,6 @@
                 "M' U' R2 U M U' R2 U"
             ],
             [
-                "Aleksander Bober",
                 "Anto Kam (甘浩東)",
                 "Aron Puddy-Mathew",
                 "Arrik Leman",
@@ -26752,7 +26767,6 @@
             ],
             [
                 "Abhijeet Ghodgaonkar (अभिजीत घोडगावकर)",
-                "Aleksander Bober",
                 "Anto Kam (甘浩東)",
                 "Arrik Leman",
                 "Benjamin Paul",
@@ -26817,6 +26831,7 @@
                 "U' D' S R' F' R S' R' F R U D"
             ],
             [
+                "Aleksander Bober",
                 "Chenhao Sun (孙晨皓)",
                 "Christopher Morris",
                 "Dhruv Ambastha",
@@ -31631,6 +31646,7 @@
                 "Graham Siggins",
                 "Roman Strakhov",
                 "Timothy Loh",
+                "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
             [
@@ -36326,6 +36342,21 @@
         ],
         [
             [
+                "U' M' U' R' E R U R' E' R M U"
+            ],
+            [
+                "Chenhao Sun (孙晨皓)",
+                "Shuto Ueno (上野柊斗)",
+                "Yiwei Liu (刘伊玮)",
+                "Yuki Tsuneyoshi (恒吉優紀)",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            [
+                "U' M':[U',R' E R]"
+            ]
+        ],
+        [
+            [
                 "F L' U L E' L' U' L E F'"
             ],
             [
@@ -36336,20 +36367,6 @@
             ],
             [
                 "F:[L' U L,E']"
-            ]
-        ],
-        [
-            [
-                "U' M' U' R' E R U R' E' R M U"
-            ],
-            [
-                "Chenhao Sun (孙晨皓)",
-                "Shuto Ueno (上野柊斗)",
-                "Yiwei Liu (刘伊玮)",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            [
-                "U' M':[U',R' E R]"
             ]
         ],
         [
@@ -65280,6 +65297,7 @@
                 "Elliott Kobelansky",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
+                "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
@@ -65320,7 +65338,6 @@
                 "S' R B' E' R2 E R2 B R' S"
             ],
             [
-                "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -65843,6 +65860,7 @@
                 "Gavriel Johann Arcilla",
                 "Jonghyun Kim (김종현)",
                 "Tommy Cherry",
+                "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -72689,6 +72707,7 @@
                 "Heejun Kim (김희준)",
                 "Jonghyun Kim (김종현)",
                 "Tommy Cherry",
+                "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -77944,6 +77963,7 @@
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Yiwei Liu (刘伊玮)",
+                "Yuki Tsuneyoshi (恒吉優紀)",
                 "Zhi Qiao (乔智)",
                 "Zixing Wang (王子兴)",
                 "Ziyi Xu (徐梓翼)"
@@ -92729,6 +92749,7 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Xin Shi (石欣)",
                 "Yomie Ko (고현승)",
+                "Yuki Tsuneyoshi (恒吉優紀)",
                 "Zhi Qiao (乔智)"
             ],
             [
