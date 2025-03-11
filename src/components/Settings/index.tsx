@@ -89,6 +89,7 @@ const Settings = () => {
     const initialSettings = loadSettings();
     setSettings(initialSettings);
     setLoading(false);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const handleChange = (id: string, _type: string, value: string | boolean) => {
