@@ -98,7 +98,7 @@ const Sheets = () => {
         href={value}
         target="_blank"
         rel="noopener noreferrer"
-        className="text-blue-600 hover:underline"
+        className="dashed-link"
       >
         {key}
       </a>
@@ -259,7 +259,7 @@ const Sheets = () => {
                                 }
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="text-blue-600 hover:underline"
+                                className="dashed-link"
                               >
                                 {time.wca_id}
                               </a>

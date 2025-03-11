@@ -211,7 +211,7 @@ const Table = ({
                 }
               }
               sourceElement = (
-                <a href={url} target="_blank">
+                <a href={url} target="_blank" className="dashed-link">
                   {nameNew}
                 </a>
               );

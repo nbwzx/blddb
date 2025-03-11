@@ -306,12 +306,12 @@
     visibility: visible;
   }
 
-  .help a {
+  .dashed-link {
     border-bottom: 1px dashed #999;
     cursor: pointer;
   }
 
-  .help a:hover {
+  .dashed-link:hover {
     color: #f2849e !important;
   }
 
