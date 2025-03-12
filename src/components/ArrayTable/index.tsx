@@ -89,10 +89,7 @@ const ArrayTable = ({ codeType }: { codeType: string }) => {
 
       if (rowIndex === 0) {
         currentTableHead.push(
-          <tr
-            key={rowIndex}
-            className={`${rowIndex === 0 ? "sticky top-0" : ""}`}
-          >
+          <tr key={rowIndex}>
             {row.map((cell, cellIndex) => (
               <th
                 key={cellIndex}
