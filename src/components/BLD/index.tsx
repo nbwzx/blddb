@@ -181,7 +181,10 @@ const BLD = ({ codeType }: { codeType: string }) => {
         codeType,
       );
       setSelectValues(newSelectValues);
-      const newUrl = `?position=${newSelectValues.join("-")}&mode=${modeValue}`;
+      const newSelectValuesTrim = newSelectValues.map((value) =>
+        value === " " ? "" : value,
+      );
+      const newUrl = `?position=${newSelectValuesTrim.join("-")}&mode=${modeValue}`;
       window.history.pushState({ path: newUrl }, "", newUrl);
     }
   };
