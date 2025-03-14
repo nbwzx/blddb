@@ -165,16 +165,21 @@ def get_code_auto(x: str, edge_ch: str = edge_ch_default, corner_ch: str = corne
         edge_flips = ["ABA", "CDC", "EFE", "GHG", "IJI", "KLK",
                       "MNM", "OPO", "QRQ", "STS", "WXW", "YZY"]
         if code_json["edge"][0:3] in edge_flips and code_json["edge"][3:6] in edge_flips:
-            return ("2flips", code_json["edge"][0] + code_json["edge"][3])
+            return ("flips", code_json["edge"][0] + code_json["edge"][3])
     if len(code_json["edge"]) == 0 and len(code_json["corner"]) == 8:
         corner_twists_cw = ["ABCA", "DEFD", "GHIG", "JKLJ",
                             "WMNW", "OPQO", "RSTR", "XYZX"]
         corner_twists_ccw = ["ACBA", "DFED", "GIHG", "JLKJ",
                              "WNMW", "OQPO", "RTSR", "XZYX"]
-        if code_json["corner"][0:4] in corner_twists_cw and code_json["corner"][4:8] in corner_twists_ccw:
-            return ("2twists", code_json["corner"][4] + code_json["corner"][0])
-        if code_json["corner"][0:4] in corner_twists_ccw and code_json["corner"][4:8] in corner_twists_cw:
-            return ("2twists", code_json["corner"][0] + code_json["corner"][4])
+        if (code_json["corner"][0:4] in corner_twists_cw and code_json["corner"][4:8] in corner_twists_ccw) or (code_json["corner"][0:4] in corner_twists_ccw and code_json["corner"][4:8] in corner_twists_cw):
+            return ("twists", "".join(sorted(code_json["corner"][2] + code_json["corner"][6])))
+    if len(code_json["edge"]) == 0 and len(code_json["corner"]) == 12:
+        corner_twists_cw = ["ABCA", "DEFD", "GHIG", "JKLJ",
+                            "WMNW", "OPQO", "RSTR", "XYZX"]
+        corner_twists_ccw = ["ACBA", "DFED", "GIHG", "JLKJ",
+                             "WNMW", "OQPO", "RTSR", "XZYX"]
+        if (code_json["corner"][0:4] in corner_twists_cw and code_json["corner"][4:8] in corner_twists_cw and code_json["corner"][8:12] in corner_twists_cw) or (code_json["corner"][0:4] in corner_twists_ccw and code_json["corner"][4:8] in corner_twists_ccw and code_json["corner"][8:12] in corner_twists_ccw):
+            return ("twists", "".join(sorted(code_json["corner"][2] + code_json["corner"][6] + code_json["corner"][10])))
     if len(code_json["edge"]) == 3 and len(code_json["corner"]) == 3 and code_json["edge"][0] == code_json["edge"][2] and code_json["corner"][0] == code_json["corner"][2]:
         return ("parity", code_json["edge"][0] + code_json["edge"][1] + code_json["corner"][0] + code_json["corner"][1])
     if len(code_json["edge"]) == 3 and len(code_json["corner"]) == 11 and code_json["edge"][0] == code_json["edge"][2]:

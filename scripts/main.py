@@ -19,7 +19,9 @@ MAX_STM = {
     "edge": 20,
     "corner": 20,
     "ltct": 30,
-    "parity": 30
+    "parity": 30,
+    "twists": 30,
+    "flips": 30
 }
 MAX_CELL_LEN = 90
 IGNORE_NOTE_NAMES = ["Benjamin Paul"]
@@ -129,8 +131,6 @@ def main():
                  "+C", "+-C",
                  "TC", "T-C",
                  "翼棱", "中棱", "角心", "边心",
-                 "twist", "flip",
-                 "2t", "2f", "3f",
                  "2e2e", "2c2c",
                  "Info", "Intro", "Readme", "Read me", "作者", "说明", "前言",
                  "Custom", "Letter", "Scheme", "Setting", "From", "设置", "编码", "参考",
@@ -158,13 +158,7 @@ def main():
                 [x for x in codeConverter.positionArray if len(x) != 1]
             }
 
-            if (not (is_pattern({
-                "ignore_case":
-                ["parity"]
-            }, title) and is_pattern({
-                "ignore_case":
-                ["twist"]
-            }, title))) and is_pattern(patterns, title):
+            if is_pattern(patterns, title):
                 logger.info("\t\t" + worksheet.title + ": " + str(round(time.time() -
                             start_time, 2)) + " seconds." + " Ignored because it contains disallowed word.")
                 continue
@@ -213,7 +207,26 @@ def main():
                             buffer)
                         code_from_pattern = codeConverter.positionToVariantCode(
                             [buffer, left_list[i], top_list[j]], output_type_from_pattern)
-
+                    patterns_twists = {
+                        "ignore_case":
+                        ["twist", "2t", "3t"]
+                    }
+                    if is_pattern(patterns_twists, title):
+                        output_type_from_pattern = "twists"
+                    patterns_flips = {
+                        "ignore_case":
+                        ["flip", "2f"]
+                    }
+                    if is_pattern(patterns_flips, title):
+                        output_type_from_pattern = "flips"
+                    if (is_pattern({
+                        "ignore_case":
+                        ["parity"]
+                    }, title) and is_pattern({
+                        "ignore_case":
+                        ["twist"]
+                    }, title)):
+                        output_type_from_pattern = "ltct"
                     crawl_cell(cell, output_type_from_pattern,
                                code_from_pattern)
                     try:
@@ -241,7 +254,7 @@ def main():
     logger.remove(0)
     # logger.add("scripts/file_main.log", format="{time:HH:mm:ss} | {level} | {message}")
     logger.add(sys.stderr, format="{time:HH:mm:ss} | {level} | {message}")
-    output_types = ["edge", "corner", "ltct", "parity"]
+    output_types = ["edge", "corner", "ltct", "parity", "twists", "flips"]
     algs_json = {output_type: {} for output_type in output_types}
 
     url_file = "public/data/sourceToUrl.json"

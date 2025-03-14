@@ -1,3 +1,4 @@
+from hmac import new
 import json
 import os
 import re
@@ -45,12 +46,21 @@ def main():
                     elif output_type == "corner":
                         position = "-".join([cornerCodeToPos[char]
                                             for char in code])
-                    elif output_type == "2flips":
+                    elif output_type == "flips":
                         position = edgeCodeToPos[code[0]] + \
                             " & " + edgeCodeToPos[code[1]]
-                    elif output_type == "2twists":
-                        position = cornerCodeToPos[code[0]] + \
-                            " & " + cornerCodeToPos[code[1]]
+                    elif output_type == "twists" and len(code) == 2:
+                        newCode = ["", ""]
+                        if corner_ch.index(code[0]) % 3 == 1:
+                            newCode[0] = corner_ch[corner_ch.index(code[0]) - 1]
+                        if corner_ch.index(code[0]) % 3 == 2:
+                            newCode[1] = corner_ch[corner_ch.index(code[0]) - 2]
+                        if corner_ch.index(code[1]) % 3 == 1:
+                            newCode[0] = corner_ch[corner_ch.index(code[1]) - 1]
+                        if corner_ch.index(code[1]) % 3 == 2:
+                            newCode[1] = corner_ch[corner_ch.index(code[1]) - 2]
+                        position = cornerCodeToPos[newCode[0]] + \
+                            " & " + cornerCodeToPos[newCode[1]]
                     elif output_type == "parity":
                         position = "-".join([edgeCodeToPos[char] for char in code[0:2]]) + ", " + "-".join(
                             [cornerCodeToPos[char] for char in code[2:4]])
@@ -76,7 +86,7 @@ def main():
     logger.remove(0)
     # logger.add("scripts/file_main.log", format="{time:HH:mm:ss} | {level} | {message}")
     logger.add(sys.stderr, format="{time:HH:mm:ss} | {level} | {message}")
-    output_types = ["edge", "corner", "2flips", "2twists", "parity", "ltct"]
+    output_types = ["edge", "corner", "flips", "twists", "parity", "ltct"]
     isInverse = False
     edge_ch = "ABEFGHCDQRSTIJMNOPKLYZWX"
     corner_ch = "JKLABCGHIDEFXYZWMNRSTOPQ"
@@ -256,6 +266,8 @@ def main():
                                " when opening the spreadsheet.")
                 time.sleep(10)
             except (SpreadsheetNotFound, PermissionError) as e:
+                logger.error(e.__class__.__name__ +
+                                " when opening the spreadsheet.")
                 break
         if not issuccess:
             logger.error("Failed to open the spreadsheet.")
@@ -292,9 +304,9 @@ def main():
             edge_order_buffer.index(x[0].split("-")[0]), edge_order.index(x[0].split("-")[1]), edge_order.index(x[0].split("-")[2])))
         full_list["corner"] = sorted(full_list["corner"], key=lambda x: (
             corner_order_buffer.index(x[0].split("-")[0]), corner_order.index(x[0].split("-")[1]), corner_order.index(x[0].split("-")[2])))
-        full_list["2flips"] = sorted(full_list["2flips"], key=lambda x: (
+        full_list["flips"] = sorted(full_list["flips"], key=lambda x: (
             edge_order_buffer.index(x[0].split("&")[0].strip()), edge_order.index(x[0].split("&")[1].strip())))
-        full_list["2twists"] = sorted(full_list["2twists"], key=lambda x: (
+        full_list["twists"] = sorted(full_list["twists"], key=lambda x: (
             corner_order_buffer.index(x[0].split("&")[0].strip()), corner_order.index(x[0].split("&")[1].strip())))
         full_list["parity"] = sorted(full_list["parity"], key=lambda x: (
             edge_order_buffer.index(x[0].split(",")[0].strip().split("-")[0]), edge_order.index(x[0].split(",")[0].strip().split("-")[1]), corner_order_buffer.index(x[0].split(",")[1].strip().split("-")[0]), corner_order.index(x[0].split(",")[1].strip().split("-")[1])))
@@ -303,9 +315,9 @@ def main():
             0, ["Position" + " " * 10, "Alg" + " " * 70, "Commutator" + " " * 20, "Reconstruction Link", "Youtube Link"])
         full_list["corner"].insert(
             0, ["Position" + " " * 15, "Alg" + " " * 70, "Commutator" + " " * 20, "Reconstruction Link", "Youtube Link"])
-        full_list["2flips"].insert(
+        full_list["flips"].insert(
             0, ["Position" + " " * 10, "Alg" + " " * 70, "Commutator" + " " * 40, "Reconstruction Link", "Youtube Link"])
-        full_list["2twists"].insert(
+        full_list["twists"].insert(
             0, ["Position (cw & ccw)", "Alg" + " " * 90, "Commutator" + " " * 40, "Reconstruction Link", "Youtube Link"])
         full_list["parity"].insert(
             0, ["Position" + " " * 20, "Alg" + " " * 90, "Commutator", "Reconstruction Link", "Youtube Link"])
