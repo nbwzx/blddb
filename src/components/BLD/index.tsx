@@ -329,7 +329,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
   );
 
   const inputElement = ({ inputWidth }) => (
-    <div className="mb-8">
+    <div className="mb-6">
       {positionElement({ positionHint: t("common.pairs") })}
       <input
         id="inputText"
