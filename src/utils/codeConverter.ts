@@ -91,7 +91,22 @@ const codeConverter = (function () {
       storedValues =
         localStorage.getItem(localStorageKey) ?? initialInputValues;
     }
-    const result: string[] = Array(code.length).fill(" ");
+    const result: string[] =
+      codeType === "twists" ? Array(8).fill(" ") : Array(code.length).fill(" ");
+    if (codeType === "twists") {
+      const indices = [
+        20, 27, 29, 36, 11, 18, 38, 9, 33, 26, 42, 35, 24, 17, 15, 44,
+      ];
+      const positionMap = indices.map((index) => storedValues[index]).join("");
+      const directions = ["cw", "ccw"];
+      for (const letter of code) {
+        const index = positionMap.indexOf(letter);
+        if (index !== -1) {
+          result[Math.floor(index / 2)] = directions[index % 2];
+        }
+      }
+      return result;
+    }
     for (const i in positionArray) {
       if (positionToCodeType(positionArray[i]) !== codeType) {
         continue;
@@ -110,6 +125,17 @@ const codeConverter = (function () {
 
   function positionToInitCode(position: string[]) {
     let result = "";
+    if (position.length === 8) {
+      const positionMap = "LKIHCBFEZYTSNMQP";
+      for (let i = 0; i < position.length; i++) {
+        if (position[i] === "cw") {
+          result += positionMap[i * 2];
+        } else if (position[i] === "ccw") {
+          result += positionMap[i * 2 + 1];
+        }
+      }
+      return result.split("").sort().join("");
+    }
     for (const pos of position) {
       const index = positionArray.indexOf(pos);
       if (index !== -1) {
@@ -129,6 +155,20 @@ const codeConverter = (function () {
         localStorage.getItem(localStorageKey) ?? initialInputValues;
     }
     let result = "";
+    if (position.length === 8) {
+      const indices = [
+        20, 27, 29, 36, 11, 18, 38, 9, 33, 26, 42, 35, 24, 17, 15, 44,
+      ];
+      const positionMap = indices.map((index) => storedValues[index]).join("");
+      for (let i = 0; i < position.length; i++) {
+        if (position[i] === "cw") {
+          result += positionMap[i * 2];
+        } else if (position[i] === "ccw") {
+          result += positionMap[i * 2 + 1];
+        }
+      }
+      return result.split("").sort().join("");
+    }
     for (const pos of position) {
       const index = positionArray.indexOf(pos);
       if (index !== -1) {
@@ -169,6 +209,9 @@ const codeConverter = (function () {
       );
     }
     const result = customCodeToPosition(code, codeType);
+    if (codeType === "twists") {
+      return [positionToInitCode(result)];
+    }
     const displacePositions: string[][] = [result];
     for (let i = 1; i < codeTypeToNumber(codeType); i++) {
       displacePositions.push(
@@ -183,6 +226,9 @@ const codeConverter = (function () {
   }
 
   function initCodeToCustomCode(code: string, codeType: string) {
+    if (codeType === "twists") {
+      return initCodeToCustomCode(code, "corner");
+    }
     if (codeType === "parity") {
       return (
         initCodeToCustomCode(code.slice(0, 2), "edge") +
@@ -212,6 +258,9 @@ const codeConverter = (function () {
   }
 
   function customCodeToVariantCustomCode(code: string, codeType: string) {
+    if (codeType === "twists") {
+      return [code];
+    }
     if (codeType === "parity") {
       return cartesianProduct([
         customCodeToVariantCustomCode(code.slice(0, 2), "edge"),
@@ -246,6 +295,9 @@ const codeConverter = (function () {
   }
 
   function codeTypeToPositions(codeType: string) {
+    if (codeType === "twists") {
+      return ["cw", "ccw"];
+    }
     if (codeType === "corner0") {
       return positionArray.filter(
         (position) =>

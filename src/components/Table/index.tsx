@@ -90,6 +90,9 @@ const Table = ({
   if (commutatorNeededList.includes(codeType)) {
     isCommutatorNeeded = true;
   }
+  if (codeType === "twists" && inputText.length === 2) {
+    isCommutatorNeeded = true;
+  }
   const variantCode = converter.customCodeToVariantCode(inputText, codeType);
   const tableElements: JSX.Element[] = [];
   const isManmade = Object.values(data)[0][0] instanceof Array;
@@ -166,7 +169,7 @@ const Table = ({
       for (let j = 0; j < item.length; j++) {
         let commutatorResult = "";
         if (isCommutatorNeeded) {
-          if (is3bld && !isManmade) {
+          if ((is3bld && !isManmade) || codeType === "twists") {
             commutatorResult = commutator.search({
               algorithm: item[j],
               maxDepth: 1,

@@ -8,7 +8,7 @@ import Table from "@/components/Table";
 import Loading from "@/app/loading";
 
 const BLD = ({ codeType }: { codeType: string }) => {
-  const { t } = useTranslation();
+  const { i18n, t } = useTranslation();
   const tableRef = useRef<HTMLTableElement>(
     null as unknown as HTMLTableElement,
   );
@@ -19,7 +19,11 @@ const BLD = ({ codeType }: { codeType: string }) => {
   const [loading, setLoading] = useState(true);
 
   let is3bld = true;
-  const selectValuesLen = codeType === "parity" ? 4 : 3;
+  const selectValuesLenMap = {
+    parity: 4,
+    twists: 8,
+  };
+  const selectValuesLen = selectValuesLenMap[codeType] || 3;
   let converter = codeConverter;
   const bigbldCodeTypes = ["wing", "xcenter", "tcenter", "midge"];
   if (bigbldCodeTypes.includes(codeType)) {
@@ -51,6 +55,29 @@ const BLD = ({ codeType }: { codeType: string }) => {
     return defaultMode;
   });
 
+  const selectToInput = (positions: string[]) => {
+    return converter.positionToCustomCode(getSelectValuesKey(positions));
+  };
+
+  const getSelectValuesDisplay = (positions: string[]) => {
+    if (codeType !== "twists") {
+      return positions;
+    }
+    const newSelectValues = [...positions];
+    newSelectValues.forEach((value, i) => {
+      if (value === "cw") {
+        newSelectValues[i] = t("twists.cw");
+      } else if (value === "ccw") {
+        newSelectValues[i] = t("twists.ccw");
+      }
+    });
+    return newSelectValues;
+  };
+
+  const setSelectValuesNew = (positions: string[]) => {
+    setSelectValues(getSelectValuesDisplay(positions));
+  };
+
   useEffect(() => {
     const loadData = async () => {
       const manmadeData = is3bld
@@ -62,7 +89,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
         : {};
 
       const nightmareSelectedData =
-        is3bld && codeType !== "ltct"
+        is3bld && codeType !== "ltct" && codeType !== "twists"
           ? await import(`public/data/${codeType}NightmareSelected.json`)
           : {};
 
@@ -76,9 +103,9 @@ const BLD = ({ codeType }: { codeType: string }) => {
 
       if (positionParam) {
         const positions = positionParam.split("-");
-        setSelectValues(positions);
+        setSelectValuesNew(positions);
         if (inputRef.current) {
-          inputRef.current.value = converter.positionToCustomCode(positions);
+          inputRef.current.value = selectToInput(positions);
         }
       }
 
@@ -88,6 +115,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
       setLoading(false);
     };
     loadData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [codeType, is3bld, converter, defaultMode, modeValue]);
 
   const modeToData = is3bld
@@ -161,9 +189,10 @@ const BLD = ({ codeType }: { codeType: string }) => {
     localStorage.setItem("settings", JSON.stringify(newSettings));
   }, [availableModes.length, codeType, modeValue]);
 
-  const [selectValues, setSelectValues] = useState(
+  const [selectValues, setSelectValues] = useState<string[]>(
     Array(selectValuesLen).fill(""),
   );
+  let selectValuesKey = [...selectValues];
   const compositionRef = useRef<boolean>(false);
 
   const scrollToTop = () => {
@@ -173,6 +202,33 @@ const BLD = ({ codeType }: { codeType: string }) => {
     });
   };
 
+  const getSelectValuesKey = (positions: string[]) => {
+    selectValuesKey = [...positions];
+    if (codeType !== "twists") {
+      return selectValues;
+    }
+    for (let i = 0; i < selectValuesKey.length; i++) {
+      if (
+        [
+          t("twists.cw", { lng: "en" }),
+          t("twists.cw", { lng: "zh-CN" }),
+          t("twists.cw", { lng: "ja" }),
+        ].includes(selectValuesKey[i])
+      ) {
+        selectValuesKey[i] = "cw";
+      } else if (
+        [
+          t("twists.ccw", { lng: "en" }),
+          t("twists.ccw", { lng: "zh-CN" }),
+          t("twists.ccw", { lng: "ja" }),
+        ].includes(selectValuesKey[i])
+      ) {
+        selectValuesKey[i] = "ccw";
+      }
+    }
+    return selectValuesKey;
+  };
+
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (!compositionRef.current) {
       const newValue = e.target.value.toUpperCase();
@@ -180,7 +236,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
         newValue.padEnd(selectValuesLen, " "),
         codeType,
       );
-      setSelectValues(newSelectValues);
+      setSelectValuesNew(newSelectValues);
       const newSelectValuesTrim = newSelectValues.map((value) =>
         value === " " ? "" : value,
       );
@@ -193,8 +249,11 @@ const BLD = ({ codeType }: { codeType: string }) => {
     e: React.ChangeEvent<HTMLSelectElement>,
     index: number,
   ) => {
-    const newSelectValues = [...selectValues];
+    let newSelectValues = [...selectValues];
     newSelectValues[index] = e.target.value;
+    if (codeType === "twists") {
+      newSelectValues = getSelectValuesKey(newSelectValues);
+    }
     let blankCount = 0;
     let starCount = 0;
     let blankIndex = -1;
@@ -215,11 +274,14 @@ const BLD = ({ codeType }: { codeType: string }) => {
     ) {
       newSelectValues[blankIndex] = "*";
     }
-    setSelectValues(newSelectValues);
+    setSelectValuesNew(newSelectValues);
     if (inputRef.current) {
-      inputRef.current.value = converter.positionToCustomCode(newSelectValues);
+      inputRef.current.value = selectToInput(newSelectValues);
     }
-    const positionStr = newSelectValues.join("-");
+    const newSelectValuesTrim = newSelectValues.map((value) =>
+      value === " " ? "" : value,
+    );
+    const positionStr = newSelectValuesTrim.join("-");
     const newUrl = `?position=${positionStr}&mode=${modeValue}`;
     window.history.pushState({ path: newUrl }, "", newUrl);
   };
@@ -244,10 +306,17 @@ const BLD = ({ codeType }: { codeType: string }) => {
 
   useEffect(() => {
     if (!loading && inputRef.current) {
-      const positions = selectValues;
-      inputRef.current.value = converter.positionToCustomCode(positions);
+      setSelectValuesNew(selectValuesKey);
     }
-  }, [loading, selectValues, converter]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [loading, converter, i18n.resolvedLanguage]);
+
+  useEffect(() => {
+    if (!loading && inputRef.current) {
+      inputRef.current.value = converter.positionToCustomCode(selectValuesKey);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [loading, selectValues, converter, i18n.resolvedLanguage]);
 
   if (loading) {
     return <Loading />;
@@ -311,10 +380,18 @@ const BLD = ({ codeType }: { codeType: string }) => {
           className="w-[3.5rem] rounded-sm border-b-[3px] border-gray-500 bg-inherit py-1 text-base font-medium text-dark outline-none transition-all duration-300 focus:border-primary dark:border-gray-100 dark:bg-gray-dark dark:text-white dark:shadow-none dark:focus:border-primary dark:focus:shadow-none"
         >
           <option></option>
-          {modeValue === "manmade" && <option>*</option>}
-          {converter.codeTypeToPositions(positionType).map((position) => (
-            <option key={position}>{position}</option>
-          ))}
+          {modeValue === "manmade" && codeType !== "twists" && (
+            <option>*</option>
+          )}
+          {codeType === "twists"
+            ? converter
+                .codeTypeToPositions(positionType)
+                .map((position) => (
+                  <option key={position}>{t(`${codeType}.${position}`)}</option>
+                ))
+            : converter
+                .codeTypeToPositions(positionType)
+                .map((position) => <option key={position}>{position}</option>)}
         </select>
         {index !== groupArray[groupArray.length - 1] && (
           <span className="mx-1">—</span>
@@ -323,6 +400,28 @@ const BLD = ({ codeType }: { codeType: string }) => {
     ));
 
   const renderBLD = () => {
+    if (codeType === "twists") {
+      const labels = ["UFR", "UBR", "UFL", "UBL", "DFR", "DBR", "DFL", "DBL"];
+      return (
+        <>
+          {labels.map((label, index) => (
+            <React.Fragment key={index}>
+              {positionElement({ positionHint: `${label}:` })}
+              {groupInputElement({
+                groupArray: [index],
+                positionType: "twists",
+              })}
+              {index % 2 === 0 ? (
+                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+              ) : (
+                <br />
+              )}{" "}
+            </React.Fragment>
+          ))}
+          {inputElement({ inputWidth: 4.5 })}
+        </>
+      );
+    }
     if (codeType === "parity") {
       return (
         <>
@@ -384,7 +483,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
               {renderBLD()}
               <Table
                 codeType={codeType}
-                inputText={converter.positionToCustomCode(selectValues)}
+                inputText={selectToInput(selectValues)}
                 data={modeToData[modeValue]}
                 divRef={divRef}
                 tableRef={tableRef}
