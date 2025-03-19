@@ -31,7 +31,7 @@ const bigbldCodeConverter = (function () {
     "RUF", "RUf", "RU", "RUb", "RUB",
     "RFu", "Ruf", "Ru", "Rub", "RBu",
     "RF", "Rf", "R", "Rb", "RB",
-    "RFd", "Rfd", "Rd", "Rdb", "RBd",
+    "RFd", "Rdf", "Rd", "Rdb", "RBd",
     "RDF", "RDf", "RD", "RDb", "RDB",
     // B layer
     "BUR", "BUr", "BU", "BUl", "BUL",
