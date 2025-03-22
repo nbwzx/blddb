@@ -111,6 +111,10 @@ const menuData: Menu[] = [
         title: "sheets.title",
         path: "/sheets",
       },
+      {
+        title: "checker.title",
+        path: "/checker",
+      },
     ],
   },
   {

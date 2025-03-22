@@ -1,3 +1,4 @@
+// Revised from the following repository:
 /*!
  * Commutator (https://github.com/nbwzx/commutator)
  * Copyright (c) 2022-2023 Zixing Wang
@@ -37,6 +38,24 @@ const commutator = (function () {
     b: { class: 3, priority: 5 },
   };
   const initialReplaceInit: { [id: string]: string } = {
+    Rw2: "r2",
+    "Rw'": "r'",
+    Rw: "r",
+    Lw2: "l2",
+    "Lw'": "l'",
+    Lw: "l",
+    Fw2: "f2",
+    "Fw'": "f'",
+    Fw: "f",
+    Bw2: "b2",
+    "Bw'": "b'",
+    Bw: "b",
+    Uw2: "u2",
+    "Uw'": "u'",
+    Uw: "u",
+    Dw2: "d2",
+    "Dw'": "d'",
+    Dw: "d",
     r2: "R2 M2",
     "r'": "R' M",
     r: "R M'",
@@ -127,6 +146,57 @@ const commutator = (function () {
     initialReplace = initialReplaceInit,
     finalReplace = finalReplaceInit;
 
+  function clean(input: string): string {
+    // Implements the internationalized string preparation algorithm from RFC 4518
+    let string = input;
+
+    string = string.replace(
+      /[\u00ad\u1806\u034f\u180b-\u180d\ufe0f-\uff00\ufffc]+/gu,
+      "",
+    );
+    string = string.replace(/[\u0009\u000a\u000b\u000c\u000d\u0085]/gu, " ");
+    string = string.replace(
+      /[\u0000-\u0008\u000e-\u001f\u007f-\u0084\u0086-\u009f\u06dd\u070f\u180e\u200c-\u200f\u202a-\u202e\u2060-\u2063\u206a-\u206f\ufeff\ufff9-\ufffb]+/gu,
+      "",
+    );
+    string = string.replace(/\u200b/gu, "");
+    string = string.replace(
+      /[\u00a0\u1680\u2000-\u200a\u2028-\u2029\u202f\u205f\u3000]/gu,
+      " ",
+    );
+    string = string.replace(
+      /[\u061c\u115f\u1160\u17b4\u17b5\u2064\u2800\u3164\uffa0]/gu,
+      " ",
+    );
+
+    // Specifically for this project
+    string = string.replace(/[!！]/gu, " ");
+    string = string.replace(/\s+/gu, " ");
+    string = string.trim();
+
+    const non_standard_characters: { [key: string]: string } = {
+      "'": "｀΄＇ˈˊᑊˋꞌᛌ‘’՚‛՝`′׳´ʹ˴ߴ‵ߵʻʼ᾽ʽ῾ʾ᾿ʿ",
+      ",": "¸ꓹ‚؍٫，",
+      "/": "⁄Ⳇ⟋ノ╱〳∕⧸",
+      ":": "︰∶:᛬⁚܃：ꓽ׃։ː꞉܄˸;",
+      "(": "（{",
+      ")": "）}",
+      "[": "【",
+      "]": "】",
+      "+": "𐊛+᛭",
+      "*": "×",
+    };
+
+    for (const standard_char in non_standard_characters) {
+      const chars = non_standard_characters[standard_char];
+      for (const char of chars) {
+        string = string.replace(char, standard_char);
+      }
+    }
+
+    return string;
+  }
+
   function expand(input: {
     algorithm: string;
     order?: number;
@@ -134,33 +204,59 @@ const commutator = (function () {
     finalReplace?: { [id: string]: string };
     commute?: { [id: string]: { class: number; priority: number } };
   }): string {
-    let algorithm = input.algorithm;
     order = input.order ?? orderInit;
     initialReplace = input.initialReplace ?? initialReplaceInit;
     finalReplace = input.finalReplace ?? finalReplaceInit;
     commute = input.commute ?? commuteInit;
-    algorithm = algorithm.replace(/[‘]/gu, "'");
-    algorithm = algorithm.replace(/[’]/gu, "'");
+    let algorithm = clean(input.algorithm);
+    algorithm = algorithm
+      .replace(/\*\s/gu, "*")
+      .replace(/\s\*/gu, "*")
+      .replace(/:\s/gu, ":")
+      .replace(/\s:/gu, ":")
+      .replace(/\[\s/gu, "[")
+      .replace(/\s\[/gu, "[")
+      .replace(/\]\s/gu, "]")
+      .replace(/\s\]/gu, "]")
+      .replace(/,\s/gu, ",")
+      .replace(/\s,/gu, ",")
+      .replace(/\+\s/gu, "+")
+      .replace(/\s\+/gu, "+")
+      .replace(/\*2/gu, "2");
+    for (let i = algorithm.length - 1; i > 1; i--) {
+      if (algorithm[i] === "2" && algorithm[i - 1] === ")") {
+        let j = i - 1;
+        while (algorithm[j] !== "(" && j >= 0) {
+          j--;
+        }
+        if (j >= 0) {
+          algorithm =
+            algorithm.slice(0, j) +
+            algorithm.slice(j + 1, i - 1) +
+            algorithm.slice(j + 1, i - 1) +
+            algorithm.slice(i + 1);
+          break;
+        }
+      }
+    }
+    for (let i = algorithm.length - 1; i > 1; i--) {
+      if (algorithm[i] === "2" && algorithm[i - 1] === "]") {
+        let j = i - 1;
+        while (algorithm[j] !== "[" && j >= 0) {
+          j--;
+        }
+        if (j >= 0) {
+          algorithm =
+            algorithm.slice(0, j) +
+            algorithm.slice(j + 1, i - 1) +
+            algorithm.slice(j + 1, i - 1) +
+            algorithm.slice(i + 1);
+          break;
+        }
+      }
+    }
     algorithm = algorithm.replace(/\(/gu, "");
     algorithm = algorithm.replace(/\)/gu, "");
-    algorithm = algorithm.replace(/（/gu, "");
-    algorithm = algorithm.replace(/）/gu, "");
-    algorithm = algorithm.replace(/\{/gu, "");
-    algorithm = algorithm.replace(/\}/gu, "");
-    algorithm = algorithm.replace(/\s/gu, "");
-    algorithm = algorithm.split("").join(" ");
-    algorithm = algorithm.replace(/【/gu, "[");
-    algorithm = algorithm.replace(/】/gu, "]");
-    algorithm = algorithm.replace(/：/gu, ":");
-    algorithm = algorithm.replace(/，/gu, ",");
-    algorithm = algorithm.replace(/: /gu, ":");
-    algorithm = algorithm.replace(/, /gu, ",");
-    algorithm = algorithm.replace(/\[ /gu, "[");
-    algorithm = algorithm.replace(/\] /gu, "]");
-    algorithm = algorithm.replace(/ :/gu, ":");
-    algorithm = algorithm.replace(/ ,/gu, ",");
-    algorithm = algorithm.replace(/ \[/gu, "[");
-    algorithm = algorithm.replace(/ \]/gu, "]");
     algorithm = `[${algorithm.replace(/\+/gu, "]+[")}]`;
     algorithm = algorithm.replace(/\]\[/gu, "]+[");
     if (order === 0) {
@@ -588,17 +684,14 @@ const commutator = (function () {
   }
 
   function algToArray(algorithm: string): Move[] {
-    let algTemp = algorithm;
+    let algTemp = clean(algorithm);
+    for (const s in initialReplace) {
+      const re = new RegExp(s, "gu");
+      algTemp = algTemp.replace(re, initialReplace[s]);
+    }
     algTemp = algTemp.replace(/\s+/giu, "");
-    algTemp = algTemp.replace(/[‘]/gu, "'");
-    algTemp = algTemp.replace(/[’]/gu, "'");
     if (algTemp === "") {
       return [];
-    }
-    if (Object.keys(initialReplace).length > 0) {
-      algTemp = algTemp.replace(/[A-Z]w/gu, (match) =>
-        match.charAt(0).toLowerCase(),
-      );
     }
     let alg = "";
     for (let i = 0; i < algTemp.length; i++) {
@@ -609,15 +702,6 @@ const commutator = (function () {
         alg = `${alg + algTemp[i]} `;
       } else {
         alg = alg + algTemp[i];
-      }
-    }
-    for (const i in initialReplace) {
-      const re = new RegExp(i, "gu");
-      const testStr = initialReplace[i].replace(/[^a-zA-Z]/gu, "").split("");
-      for (const testChar of testStr) {
-        if (alg.indexOf(testChar) > -1) {
-          alg = alg.replace(re, initialReplace[i]);
-        }
       }
     }
     const algSplit = alg.split(" ");

@@ -87,6 +87,50 @@
     animation: lds-ellipsis3 0.6s infinite;
   }
 
+  .loader {
+    z-index: 999999999 !important;
+    @apply bg-white dark:bg-gray-dark;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .loader .lds-ellipsis {
+    display: inline-block;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    margin-top: -40px;
+    margin-left: -40px;
+    top: 50%;
+    left: 50%;
+  }
+  .loader .lds-ellipsis div {
+    position: absolute;
+    top: 33px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    @apply bg-gray-dark dark:bg-white;
+    animation-timing-function: cubic-bezier(0, 1, 1, 0);
+  }
+  .loader .lds-ellipsis div:nth-child(1) {
+    left: 8px;
+    animation: lds-ellipsis1 0.6s infinite;
+  }
+  .loader .lds-ellipsis div:nth-child(2) {
+    left: 8px;
+    animation: lds-ellipsis2 0.6s infinite;
+  }
+  .loader .lds-ellipsis div:nth-child(3) {
+    left: 32px;
+    animation: lds-ellipsis2 0.6s infinite;
+  }
+  .loader .lds-ellipsis div:nth-child(4) {
+    left: 56px;
+    animation: lds-ellipsis3 0.6s infinite;
+  }
+
   @keyframes lds-ellipsis1 {
     0% {
       transform: scale(0);

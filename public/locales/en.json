@@ -177,5 +177,9 @@
       "spaceAfterComma": "Space after comma",
       "outerBrackets": "Outer brackets"
     }
+  },
+  "checker": {
+    "title": "Algorithm Checker",
+    "hint": "Please enter your Google Sheet URL for checking"
   }
 }
