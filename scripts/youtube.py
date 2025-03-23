@@ -158,7 +158,7 @@ def main():
     }
 
     url_file = "public/data/sourceToYoutube.json"
-    with open(url_file, "r", encoding="utf8") as file:
+    with open(url_file, "r", encoding="utf-8") as file:
         url_json = json.load(file)
 
     try:

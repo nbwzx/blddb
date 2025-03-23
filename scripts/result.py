@@ -22,11 +22,10 @@ def parse_time(time_str):
 def main():
     logger.remove(0)
     logger.add(sys.stderr, format="{time:HH:mm:ss} | {level} | {message}")
-    with open("public/data/sourceToUrl.json", "r", encoding="utf8") as file:
+    with open("public/data/sourceToUrl.json", "r", encoding="utf-8") as file:
         algs_json = json.load(file)
 
     results = {}
-    results_444 = {}
 
     for name in algs_json:
         search_url = f"https://www.worldcubeassociation.org/api/v0/search?q={name}"
@@ -73,8 +72,8 @@ def main():
         logger.info(f"{name}: {results.get(name)}")
 
     results_json = json.dumps(results, ensure_ascii=False, indent=4)
-    with open("public/data/sourceToResult.json", "w", encoding="utf-8") as f:
-        f.write(results_json)
+    with open("public/data/sourceToResult.json", "w", encoding="utf-8") as file:
+        file.write(results_json)
 
     logger.info("Results written to JSON files successfully.")
 

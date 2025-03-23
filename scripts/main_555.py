@@ -292,7 +292,7 @@ def main():
     algs_json = {output_type: {} for output_type in output_types}
 
     url_file = "public/data/sourceToUrl.json"
-    with open(url_file, "r", encoding="utf8") as file:
+    with open(url_file, "r", encoding="utf-8") as file:
         url_json = json.load(file)
     url_json_new = {}
 
@@ -346,14 +346,14 @@ def main():
 
     url_json_new = dict(sorted(url_json_new.items()))
     url_json_dumps = json.dumps(url_json_new, indent=4, ensure_ascii=False)
-    with open(url_file, "w", encoding="utf8") as file:
+    with open(url_file, "w", encoding="utf-8") as file:
         file.write(url_json_dumps)
 
     algs_json = dict(sorted(algs_json.items()))
 
     result_file = "public/data/sourceToResult.json"
     try:
-        with open(result_file, "r", encoding="utf8") as file:
+        with open(result_file, "r", encoding="utf-8") as file:
             result_json = json.load(file)
     except FileNotFoundError:
         result_json = {}
@@ -382,8 +382,8 @@ def main():
         algs_json[output_type] = dict(sorted(algs_json[output_type].items()))
         algs_json_dumps[output_type] = json.dumps(
             algs_json[output_type], indent=4, ensure_ascii=False)
-        with open(output_file, "w", encoding="utf8") as filef:
-            filef.write(algs_json_dumps[output_type])
+        with open(output_file, "w", encoding="utf-8") as file:
+            file.write(algs_json_dumps[output_type])
 
 
 if __name__ == "__main__":
