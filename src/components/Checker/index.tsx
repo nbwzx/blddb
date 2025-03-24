@@ -313,57 +313,67 @@ const Checker = () => {
     }
 
     return (
-      <div className="mt-8 max-h-[75vh] overflow-auto">
-        <table className="overflow-x-auto">
-          <thead>
-            <tr>
-              {values[0].map(
-                (header, index) =>
-                  (index === 0 || header) && <th key={index}>{header}</th>,
+      <>
+        <div className="mt-4 text-dark dark:text-white">
+          {
+            "Notice: Color Pink means the algorithm is not matched with the case; Color Blue means the algorithm is matched with the inverse case."
+          }
+        </div>
+        <div className="mt-4 max-h-[75vh] overflow-auto">
+          <table className="overflow-x-auto">
+            <thead>
+              <tr>
+                {values[0].map(
+                  (header, index) =>
+                    (index === 0 || header) && <th key={index}>{header}</th>,
+                )}
+              </tr>
+            </thead>
+            <tbody>
+              {values.slice(1).map(
+                (row, rowIndex) =>
+                  values[rowIndex + 1][0] && (
+                    <tr key={rowIndex}>
+                      {row.map(
+                        (cell, cellIndex) =>
+                          (cellIndex === 0 || values[0][cellIndex]) && (
+                            <td
+                              key={cellIndex}
+                              className={(() => {
+                                const positionx = getPosition(
+                                  cell,
+                                  getPattern(
+                                    is3bld ? patterns_3bld : patterns_5bld,
+                                    values[0][cellIndex],
+                                  ),
+                                  getPattern(
+                                    is3bld ? patterns_3bld : patterns_5bld,
+                                    values[rowIndex + 1][0],
+                                  ),
+                                );
+                                if (
+                                  positionx === "matched" ||
+                                  cellIndex === 0
+                                ) {
+                                  return "";
+                                }
+                                if (positionx === "inverse") {
+                                  return "bg-blue-300 dark:bg-blue-500";
+                                }
+                                return "bg-pink-300 dark:bg-pink-500";
+                              })()}
+                            >
+                              {cell}
+                            </td>
+                          ),
+                      )}
+                    </tr>
+                  ),
               )}
-            </tr>
-          </thead>
-          <tbody>
-            {values.slice(1).map(
-              (row, rowIndex) =>
-                values[rowIndex + 1][0] && (
-                  <tr key={rowIndex}>
-                    {row.map(
-                      (cell, cellIndex) =>
-                        (cellIndex === 0 || values[0][cellIndex]) && (
-                          <td
-                            key={cellIndex}
-                            className={(() => {
-                              const positionx = getPosition(
-                                cell,
-                                getPattern(
-                                  is3bld ? patterns_3bld : patterns_5bld,
-                                  values[0][cellIndex],
-                                ),
-                                getPattern(
-                                  is3bld ? patterns_3bld : patterns_5bld,
-                                  values[rowIndex + 1][0],
-                                ),
-                              );
-                              if (positionx === "matched" || cellIndex === 0) {
-                                return "";
-                              }
-                              if (positionx === "inverse") {
-                                return "bg-blue-300 dark:bg-blue-500";
-                              }
-                              return "bg-pink-300 dark:bg-pink-500";
-                            })()}
-                          >
-                            {cell}
-                          </td>
-                        ),
-                    )}
-                  </tr>
-                ),
-            )}
-          </tbody>
-        </table>
-      </div>
+            </tbody>
+          </table>
+        </div>
+      </>
     );
   };
 

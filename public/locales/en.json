@@ -187,6 +187,6 @@
   },
   "checker": {
     "title": "Algorithm Checker",
-    "hint": "Please enter your Google Sheet URL for checking"
+    "hint": "Please enter your Google Sheet URL for checking. It should be a 2D table with the first row and the first column containing position information."
   }
 }
