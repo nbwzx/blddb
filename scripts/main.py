@@ -348,7 +348,7 @@ def main():
                 groupedcomm.append([])
                 for j in groupedValues[singleList[i]]:
                     groupedalg[i].append(j[0])
-                    if output_type in ["edge", "corner"]:
+                    if output_type in ["edge", "corner", "twists", "flips"]:
                         groupedcomm[i].append(commutator.search(algorithm=j[0],maxDepth=1)[0])
             
             groupedsource = []
@@ -361,7 +361,7 @@ def main():
             algs_json_new[output_type][algs] = []
             for i in range(len(singleList)):
                 algs_json_new[output_type][algs].append([])
-                if output_type in ["edge", "corner"]:
+                if output_type in ["edge", "corner", "twists", "flips"]:
                     algs_json_new[output_type][algs][i] = [
                         groupedalg[i], groupedsource[i], groupedcomm[i]]
                 else:
