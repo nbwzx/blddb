@@ -52,6 +52,8 @@ const Table = ({
       positionText = `${t("common.position")} ${matchedPosition.slice(0, 2).join("-")} & ${matchedPosition.slice(2, 4).join("-")}`;
     } else if (codeType === "ltct") {
       positionText = `${t("common.position")} ${matchedPosition.slice(0, 2).join("-")}[${matchedPosition[2]}]`;
+    } else if (codeType === "flips") {
+      positionText = `${t("common.position")} ${matchedPosition[0]} & ${matchedPosition[1]}`;
     } else {
       positionText = `${t("common.position")} ${matchedPosition.join("-")}`;
     }
@@ -82,7 +84,11 @@ const Table = ({
   let isCommutatorNeeded = false;
   let converter = codeConverter;
   const bigbldCodeTypes = ["wing", "xcenter", "tcenter", "midge"];
-  const commutatorNeededList = bigbldCodeTypes.concat(["corner", "edge"]);
+  const commutatorNeededList = bigbldCodeTypes.concat([
+    "corner",
+    "edge",
+    "flips",
+  ]);
   if (bigbldCodeTypes.includes(codeType)) {
     converter = bigbldCodeConverter;
     is3bld = false;
@@ -114,6 +120,8 @@ const Table = ({
       }
     } else if (codeType === "ltct") {
       actualCodeType = "corner";
+    } else if (codeType === "flips") {
+      actualCodeType = "edge";
     }
   }
   const settings = loadSettings();
@@ -169,7 +177,7 @@ const Table = ({
       for (let j = 0; j < item.length; j++) {
         let commutatorResult = "";
         if (isCommutatorNeeded) {
-          if ((is3bld && !isManmade) || codeType === "twists") {
+          if (is3bld && !isManmade) {
             commutatorResult = commutator.search({
               algorithm: item[j],
               maxDepth: 1,

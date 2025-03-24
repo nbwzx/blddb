@@ -17,6 +17,10 @@ const menuData: Menu[] = [
         path: "/twists",
       },
       {
+        title: "flips.title",
+        path: "/flips",
+      },
+      {
         title: "parity.title",
         path: "/parity",
       },

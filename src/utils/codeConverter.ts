@@ -77,6 +77,9 @@ const codeConverter = (function () {
   }
 
   function customCodeToPosition(code: string, codeType: string) {
+    if (codeType === "flips") {
+      return customCodeToPosition(code, "edge");
+    }
     if (codeType === "parity") {
       return [
         ...customCodeToPosition(code.slice(0, 2), "edge"),
@@ -197,6 +200,9 @@ const codeConverter = (function () {
   }
 
   function customCodeToVariantCode(code: string, codeType: string) {
+    if (codeType === "flips") {
+      return customCodeToVariantCode(code, "edge");
+    }
     if (codeType === "parity") {
       return cartesianProduct([
         customCodeToVariantCode(code.slice(0, 2), "edge"),
@@ -226,6 +232,9 @@ const codeConverter = (function () {
   }
 
   function initCodeToCustomCode(code: string, codeType: string) {
+    if (codeType === "flips") {
+      return initCodeToCustomCode(code, "edge");
+    }
     if (codeType === "twists") {
       return initCodeToCustomCode(code, "corner");
     }
@@ -258,6 +267,9 @@ const codeConverter = (function () {
   }
 
   function customCodeToVariantCustomCode(code: string, codeType: string) {
+    if (codeType === "flips") {
+      return cartesianProduct([customCodeToVariantCustomCode(code, "edge")]);
+    }
     if (codeType === "twists") {
       return [code];
     }
@@ -319,8 +331,10 @@ const codeConverter = (function () {
           positionToCodeType(position) === "edge" &&
           (position[0] === "U" ||
             position[0] === "D" ||
-            position[0] === "F" ||
-            position[0] === "B"),
+            position === "FL" ||
+            position === "FR" ||
+            position === "BL" ||
+            position === "BR"),
       );
     }
     if (codeType === "edge1") {
@@ -329,8 +343,10 @@ const codeConverter = (function () {
           positionToCodeType(position) === "edge" &&
           position[0] !== "U" &&
           position[0] !== "D" &&
-          position[0] !== "F" &&
-          position[0] !== "B",
+          position !== "FL" &&
+          position !== "FR" &&
+          position !== "BL" &&
+          position !== "BR",
       );
     }
     return positionArray.filter(

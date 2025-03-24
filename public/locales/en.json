@@ -67,7 +67,8 @@
       "corner": "Corner",
       "parity": "Parity",
       "ltct": "LTCT",
-      "twists": "Twists"
+      "twists": "Twists",
+      "flips": "Flips"
     }
   },
   "table": {
@@ -91,6 +92,12 @@
     "hint": "Please set the corner twist condition (solved if empty)",
     "cw": "CW",
     "ccw": "CCW"
+  },
+  "flips": {
+    "title": "Edge Flip",
+    "hint": "Please enter the 2 positions you want to flip",
+    "first": "Position1:",
+    "second": "Position2:"
   },
   "parity": {
     "title": "3BLD Parity",

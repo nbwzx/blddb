@@ -86,7 +86,7 @@ jobs:
         env:
           SERVICE_ACCOUNT: ${{ secrets.SERVICE_ACCOUNT }}
         run: pypy scripts/main_555.py
-      
+
       - name: commit files
         run: |
           git config --local user.email "action@github.com"

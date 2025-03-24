@@ -20,6 +20,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
 
   let is3bld = true;
   const selectValuesLenMap = {
+    flips: 2,
     parity: 4,
     twists: 8,
   };
@@ -400,6 +401,19 @@ const BLD = ({ codeType }: { codeType: string }) => {
     ));
 
   const renderBLD = () => {
+    if (codeType === "flips") {
+      return (
+        <>
+          {positionElement({ positionHint: t(`${codeType}.first`) })}
+          {groupInputElement({ groupArray: [0], positionType: "edge0" })}
+          <span className="mx-3"></span>
+          {positionElement({ positionHint: t(`${codeType}.second`) })}
+          {groupInputElement({ groupArray: [1], positionType: "edge0" })}
+          <br />
+          {inputElement({ inputWidth: 4.5 })}
+        </>
+      );
+    }
     if (codeType === "twists") {
       const labels = ["UFR", "UBR", "UFL", "UBL", "DFR", "DBR", "DFL", "DBL"];
       return (
