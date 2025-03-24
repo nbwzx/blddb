@@ -129,6 +129,7 @@ const Checker = () => {
     setSelectedSheet("");
     setBuffer("");
     setSelectedTypes("");
+    setSelectedTarget("");
     setLoading(true);
     try {
       const response = await fetch(url);
