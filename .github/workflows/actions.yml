@@ -42,6 +42,9 @@ jobs:
           SERVICE_ACCOUNT: ${{ secrets.SERVICE_ACCOUNT }}
         run: pypy scripts/main_555.py
 
+      - name: execute result_post.py
+        run: pypy scripts/result_post.py
+
       - name: commit files
         run: |
           git config --local user.email "action@github.com"
@@ -83,9 +86,6 @@ jobs:
         env:
           SERVICE_ACCOUNT: ${{ secrets.SERVICE_ACCOUNT }}
         run: pypy scripts/main_555.py
-
-      - name: execute result_post.py
-        run: pypy scripts/result_post.py
       
       - name: commit files
         run: |
