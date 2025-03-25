@@ -1,7 +1,7 @@
 // Revised from the following repository:
 /*!
  * Commutator (https://github.com/nbwzx/commutator)
- * Copyright (c) 2022-2023 Zixing Wang
+ * Copyright (c) 2022-2025 Zixing Wang <zixingwang.cn@gmail.com>
  * Licensed under MIT (https://github.com/nbwzx/commutator/blob/main/LICENSE)
  */
 
@@ -189,7 +189,8 @@ const commutator = (function () {
 
     for (const standard_char in non_standard_characters) {
       const chars = non_standard_characters[standard_char];
-      for (const char of chars) {
+      for (let i = 0; i < chars.length; i++) {
+        const char = chars[i];
         string = string.replace(char, standard_char);
       }
     }
@@ -527,7 +528,7 @@ const commutator = (function () {
       return [expandAlg];
     }
     const arr = algToArray(expandAlg);
-    if (order === 0) {
+    if (order === 0 || isOrderZero) {
       isOrderZero = true;
       order = 2 * (maxAlgAmount + 2);
     } else {

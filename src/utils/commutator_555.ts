@@ -1,7 +1,7 @@
 // Revised from the following repository:
 /*!
  * Commutator (https://github.com/nbwzx/commutator)
- * Copyright (c) 2022-2023 Zixing Wang
+ * Copyright (c) 2022-2025 Zixing Wang <zixingwang.cn@gmail.com>
  * Licensed under MIT (https://github.com/nbwzx/commutator/blob/main/LICENSE)
  */
 
