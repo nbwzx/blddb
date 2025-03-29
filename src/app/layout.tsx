@@ -6,6 +6,7 @@ import "../styles/index.css";
 import { Providers } from "./providers";
 import { LocaleProvider } from "./localeProvider";
 import { getLocale } from "../i18n/server";
+import ErrorBoundary from "./ErrorBoundary";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -29,9 +30,11 @@ export default async function RootLayout({
       >
         <Providers>
           <LocaleProvider value={locale}>
-            <Header />
-            {children}
-            <ScrollToTop />
+            <ErrorBoundary>
+              <Header />
+              {children}
+              <ScrollToTop />
+            </ErrorBoundary>
           </LocaleProvider>
         </Providers>
       </body>
