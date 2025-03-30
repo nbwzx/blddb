@@ -208,18 +208,28 @@ const codeConverter = (function () {
     mirrorLR = false,
   ) {
     if (codeType === "flips") {
-      return customCodeToVariantCode(code, "edge");
+      return customCodeToVariantCode(code, "edge", mirrorLR);
     }
     if (codeType === "parity") {
       return cartesianProduct([
-        customCodeToVariantCode(code.slice(0, 2), "edge"),
-        customCodeToVariantCode(code.slice(2, 4), "corner"),
+        customCodeToVariantCode(code.slice(0, 2), "edge", mirrorLR),
+        customCodeToVariantCode(code.slice(2, 4), "corner", mirrorLR),
       ]);
     }
     if (codeType === "ltct") {
-      return customCodeToVariantCode(code.slice(0, 2), "corner").map(
+      return customCodeToVariantCode(code.slice(0, 2), "corner", mirrorLR).map(
         (codes: string) =>
-          codes + customCodeToInitCode(code[2] ?? "", "corner"),
+          codes +
+          (mirrorLR
+            ? positionToInitCode(
+                customCodeToPosition(code[2] ?? "", "corner").map((pos) => {
+                  return pos
+                    .replace(/L/gu, "_")
+                    .replace(/R/gu, "L")
+                    .replace(/_/gu, "R");
+                }),
+              )
+            : customCodeToInitCode(code[2] ?? "", "corner")),
       );
     }
     let result = customCodeToPosition(code, codeType);
@@ -229,6 +239,13 @@ const codeConverter = (function () {
       });
     }
     if (codeType === "twists") {
+      // prettier-ignore
+      if (mirrorLR) {
+        result = [
+          result[2], result[3], result[0], result[1],
+          result[6], result[7], result[4], result[5],
+        ];
+      }
       return [positionToInitCode(result)];
     }
     const displacePositions: string[][] = [result];
@@ -285,20 +302,37 @@ const codeConverter = (function () {
     mirrorLR = false,
   ) {
     if (codeType === "flips") {
-      return cartesianProduct([customCodeToVariantCustomCode(code, "edge")]);
+      return cartesianProduct([
+        customCodeToVariantCustomCode(code, "edge", mirrorLR),
+      ]);
     }
     if (codeType === "twists") {
       return [code];
     }
     if (codeType === "parity") {
       return cartesianProduct([
-        customCodeToVariantCustomCode(code.slice(0, 2), "edge"),
-        customCodeToVariantCustomCode(code.slice(2, 4), "corner"),
+        customCodeToVariantCustomCode(code.slice(0, 2), "edge", mirrorLR),
+        customCodeToVariantCustomCode(code.slice(2, 4), "corner", mirrorLR),
       ]);
     }
     if (codeType === "ltct") {
-      return customCodeToVariantCustomCode(code.slice(0, 2), "corner").map(
-        (codes: string) => codes + (code[2] ?? ""),
+      return customCodeToVariantCustomCode(
+        code.slice(0, 2),
+        "corner",
+        mirrorLR,
+      ).map(
+        (codes: string) =>
+          codes +
+          (mirrorLR
+            ? positionToCustomCode(
+                customCodeToPosition(code[2] ?? "", "corner").map((pos) => {
+                  return pos
+                    .replace(/L/gu, "_")
+                    .replace(/R/gu, "L")
+                    .replace(/_/gu, "R");
+                }),
+              )
+            : code[2] ?? ""),
       );
     }
     let result = customCodeToPosition(code, codeType);
