@@ -72,6 +72,8 @@ def main():
                 alg = add_rotation(alg)
                 alg = commutator.expand(alg, isInverse=isInverse)
                 output_type, code = get_code_auto(alg)
+                if isInverse and output_type not in ["edge", "corner"]:
+                    continue
                 if output_type_from_pattern and output_type in ["edge", "corner"]:
                     if output_type_from_pattern != output_type or (code not in code_from_pattern and code[0] + code[2] + code[1] not in code_from_pattern):
                         continue
