@@ -14,14 +14,19 @@ const Settings = () => {
   const settingsGroups = {
     general: [
       {
+        id: "mode",
+        type: "select",
+        options: [{ id: "nightmare" }, { id: "manmade" }],
+      },
+      {
         id: "showThumbPosition",
         type: "checkbox",
         default: true,
       },
       {
-        id: "mode",
-        type: "select",
-        options: [{ id: "nightmare" }, { id: "manmade" }],
+        id: "mirrorLR",
+        type: "checkbox",
+        default: false,
       },
     ],
     manmade: [

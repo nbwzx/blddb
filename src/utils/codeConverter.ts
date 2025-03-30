@@ -199,7 +199,11 @@ const codeConverter = (function () {
     return arrays.reduce((a, b) => a.flatMap((x) => b.map((y) => x + y)));
   }
 
-  function customCodeToVariantCode(code: string, codeType: string) {
+  function customCodeToVariantCode(
+    code: string,
+    codeType: string,
+    mirrorLR = false,
+  ) {
     if (codeType === "flips") {
       return customCodeToVariantCode(code, "edge");
     }
@@ -214,7 +218,12 @@ const codeConverter = (function () {
         (codes: string) => codes + code[2],
       );
     }
-    const result = customCodeToPosition(code, codeType);
+    let result = customCodeToPosition(code, codeType);
+    if (mirrorLR) {
+      result = result.map((pos) => {
+        return pos.replace(/L/gu, "_").replace(/R/gu, "L").replace(/_/gu, "R");
+      });
+    }
     if (codeType === "twists") {
       return [positionToInitCode(result)];
     }
@@ -266,7 +275,11 @@ const codeConverter = (function () {
     return result.join("");
   }
 
-  function customCodeToVariantCustomCode(code: string, codeType: string) {
+  function customCodeToVariantCustomCode(
+    code: string,
+    codeType: string,
+    mirrorLR = false,
+  ) {
     if (codeType === "flips") {
       return cartesianProduct([customCodeToVariantCustomCode(code, "edge")]);
     }
@@ -285,7 +298,12 @@ const codeConverter = (function () {
         customCodeToVariantCustomCode(code[2], "corner"),
       ]);
     }
-    const result = customCodeToPosition(code, codeType);
+    let result = customCodeToPosition(code, codeType);
+    if (mirrorLR) {
+      result = result.map((pos) => {
+        return pos.replace(/L/gu, "_").replace(/R/gu, "L").replace(/_/gu, "R");
+      });
+    }
     const displacePositions: string[][] = [result];
     for (let i = 1; i < codeTypeToNumber(codeType); i++) {
       displacePositions.push(
@@ -299,10 +317,15 @@ const codeConverter = (function () {
     return variantCode;
   }
 
-  function initCodeToVariantCustomCode(code: string, codeType: string) {
+  function initCodeToVariantCustomCode(
+    code: string,
+    codeType: string,
+    mirrorLR = false,
+  ) {
     return customCodeToVariantCustomCode(
       initCodeToCustomCode(code, codeType),
       codeType,
+      mirrorLR,
     );
   }
 

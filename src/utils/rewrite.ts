@@ -174,10 +174,18 @@ const rewrite = (function () {
 
   function mirror(alg: string, move: string): string {
     let s = `${alg} `;
+    s = s.replace(/,/gu, " ,");
+    s = s.replace(/:/gu, " :");
+    s = s.replace(/\]/gu, " ]");
+    s = s.replace(/\//gu, " /");
     s = s.replace(new RegExp(`${move}' `, "gu"), "_ ");
     s = s.replace(new RegExp(`${move} `, "gu"), `${move}' `);
     s = s.replace(/_ /gu, `${move} `);
     s = s.replace(new RegExp(`${move}'2 `, "gu"), `${move}2 `);
+    s = s.replace(/ ,/gu, ",");
+    s = s.replace(/ :/gu, ":");
+    s = s.replace(/ \]/gu, "]");
+    s = s.replace(/ \//gu, "/");
     return s.trim();
   }
 

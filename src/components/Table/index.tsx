@@ -5,6 +5,7 @@ import finger from "@/utils/finger";
 import codeConverter from "@/utils/codeConverter";
 import bigbldCodeConverter from "@/utils/bigbldCodeConverter";
 import { useTranslation } from "@/i18n/client";
+import rewrite from "@/utils/rewrite";
 
 function matchesPattern(patterns: string[], str: string): boolean {
   for (const pattern of patterns) {
@@ -100,7 +101,14 @@ const Table = ({
   if (codeType === "twists" && inputText.length === 2) {
     isCommutatorNeeded = true;
   }
-  const variantCode = converter.customCodeToVariantCode(inputText, codeType);
+  const settings = loadSettings();
+  const trumbPosition = settings.showThumbPosition;
+  const mirrorLR = is3bld && settings.mirrorLR;
+  const variantCode = converter.customCodeToVariantCode(
+    inputText,
+    codeType,
+    mirrorLR,
+  );
   const tableElements: JSX.Element[] = [];
   const isManmade = Object.values(data)[0][0] instanceof Array;
   if (variantCode.length === 0 || variantCode[0].split("*").length > 2) {
@@ -125,8 +133,6 @@ const Table = ({
       actualCodeType = "edge";
     }
   }
-  const settings = loadSettings();
-  const trumbPosition = settings.showThumbPosition;
   const istrumbPositionNeeded =
     is3bld && (typeof trumbPosition === "undefined" || trumbPosition);
   for (const [key, value] of Object.entries(data)) {
@@ -171,6 +177,9 @@ const Table = ({
       } else {
         item = [processedValue[i]];
       }
+      if (mirrorLR) {
+        item = item.map((alg) => rewrite.mirrorAxis(alg, "M"));
+      }
       const fingerResult = finger
         .fingerbeginfrom(item[0])
         .map((word) => t(word))
@@ -201,6 +210,9 @@ const Table = ({
               spaceAfterComma: settings.spaceAfterComma,
               outerBrackets: settings.outerBrackets,
             });
+            if (mirrorLR) {
+              commutatorResult = rewrite.mirrorAxis(commutatorResult, "M");
+            }
           }
         }
         let sourceResult: JSX.Element[] = [];
@@ -244,7 +256,10 @@ const Table = ({
           <tr
             key={`${key}-${i}-${j}`}
             className={
-              item[j] === (selected?.[key] ?? "")
+              item[j] ===
+              (mirrorLR
+                ? rewrite.mirrorAxis(selected?.[key] ?? "", "M")
+                : selected?.[key] ?? "")
                 ? "bg-zinc-300 dark:bg-zinc-700"
                 : ""
             }
@@ -285,6 +300,7 @@ const Table = ({
       const variantCodeKey = converter.initCodeToVariantCustomCode(
         key,
         codeType,
+        mirrorLR,
       );
       let matchedCode = "";
       for (const i of variantCodeKey) {
