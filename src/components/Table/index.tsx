@@ -1,5 +1,6 @@
 import React, { JSX, useState } from "react";
 import commutator from "@/utils/commutator";
+import commutator_555 from "@/utils/commutator_555";
 import finger from "@/utils/finger";
 import codeConverter from "@/utils/codeConverter";
 import bigbldCodeConverter from "@/utils/bigbldCodeConverter";
@@ -189,14 +190,17 @@ const Table = ({
             })[0];
           } else {
             const commutatorResultBefore = is3bld ? comm[j] : comm;
-            commutatorResult = commutator.commutatorPost(
-              commutatorResultBefore,
-              settings.slashNotation,
-              settings.noBrackets,
-              settings.spaceAfterColon,
-              settings.spaceAfterComma,
-              settings.outerBrackets,
-            );
+            const commutatorFunction = is3bld
+              ? commutator.commutatorPost
+              : commutator_555.commutatorPost;
+            commutatorResult = commutatorFunction({
+              algorithm: commutatorResultBefore,
+              slashNotation: settings.slashNotation,
+              noBrackets: settings.noBrackets,
+              spaceAfterColon: settings.spaceAfterColon,
+              spaceAfterComma: settings.spaceAfterComma,
+              outerBrackets: settings.outerBrackets,
+            });
           }
         }
         let sourceResult: JSX.Element[] = [];

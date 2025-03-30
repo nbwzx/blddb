@@ -592,14 +592,14 @@ const commutator = (function () {
       if (isFind && (depth === maxDepth || maxDepth === 0)) {
         result.sort(sortRule);
         result = result.map((alg) =>
-          commutatorPost(
-            alg,
+          commutatorPost({
+            algorithm: alg,
             slashNotation,
             noBrackets,
             spaceAfterColon,
             spaceAfterComma,
             outerBrackets,
-          ),
+          }),
         );
         if (limit === 0) {
           return result;
@@ -610,31 +610,39 @@ const commutator = (function () {
     return ["Not found."];
   }
 
-  function commutatorPost(
-    algorithm: string,
-    slashNotation1: boolean,
-    noBrackets1: boolean,
-    spaceAfterColon1: boolean,
-    spaceAfterComma1: boolean,
-    outerBrackets1: boolean,
-  ): string {
-    let alg = algorithm;
+  function commutatorPost(input: {
+    algorithm: string;
+    slashNotation: boolean;
+    noBrackets: boolean;
+    spaceAfterColon: boolean;
+    spaceAfterComma: boolean;
+    outerBrackets: boolean;
+    order?: number;
+    initialReplace?: { [id: string]: string };
+    finalReplace?: { [id: string]: string };
+    commute?: { [id: string]: { class: number; priority: number } };
+  }): string {
+    let alg = input.algorithm;
     if (alg.includes(".")) {
       return alg;
     }
-    if (slashNotation1) {
+    order = input.order ?? orderInit;
+    initialReplace = input.initialReplace ?? initialReplaceInit;
+    finalReplace = input.finalReplace ?? finalReplaceInit;
+    commute = input.commute ?? commuteInit;
+    if (input.slashNotation) {
       alg = applySlash(alg);
     }
-    if (noBrackets1) {
+    if (input.noBrackets) {
       alg = alg.replace("[", "").replace("]", "");
     }
-    if (spaceAfterColon1) {
+    if (input.spaceAfterColon) {
       alg = alg.replace(":", ": ");
     }
-    if (spaceAfterComma1) {
+    if (input.spaceAfterComma) {
       alg = alg.replace(",", ", ");
     }
-    if (outerBrackets1) {
+    if (input.outerBrackets) {
       if (alg[0] !== "[") {
         alg = `[${alg}]`;
       }

@@ -133,8 +133,34 @@ const commutator_555 = (function () {
     });
   }
 
+  function commutatorPost(input: {
+    algorithm: string;
+    slashNotation: boolean;
+    noBrackets: boolean;
+    spaceAfterColon: boolean;
+    spaceAfterComma: boolean;
+    outerBrackets: boolean;
+    order?: number;
+    initialReplace?: { [id: string]: string };
+    finalReplace?: { [id: string]: string };
+    commute?: { [id: string]: { class: number; priority: number } };
+  }): string {
+    return commutator.commutatorPost({
+      algorithm: input.algorithm,
+      slashNotation: input.slashNotation,
+      noBrackets: input.noBrackets,
+      spaceAfterColon: input.spaceAfterColon,
+      spaceAfterComma: input.spaceAfterComma,
+      outerBrackets: input.outerBrackets,
+      initialReplace: initialReplaceInit,
+      finalReplace: finalReplaceInit,
+      commute: commuteInit,
+    });
+  }
+
   return {
     expand,
+    commutatorPost,
   };
 })();
 
