@@ -85,6 +85,7 @@ const finger = (function () {
           arr[i][0] === "F" ||
           arr[i] === "D2" ||
           arr[i] === "S2" ||
+          arr[i] === "E2" ||
           arr[i] === "M2")
       ) {
         return false;
@@ -108,6 +109,7 @@ const finger = (function () {
           arr[i][0] === "F" ||
           arr[i] === "D2" ||
           arr[i] === "S2" ||
+          arr[i] === "E2" ||
           arr[i] === "M2")
       ) {
         return false;
@@ -179,6 +181,14 @@ const finger = (function () {
       }
       if (fingerposition === 3 && arr[i] === "F2") {
         pain = pain + 1;
+      }
+      if (arr[i][0] === "S" && fingerposition !== 2) {
+        if (
+          (i > 0 && arr[i - 1][0] === "U") ||
+          (i < arr.length - 1 && arr[i + 1][0] === "U")
+        ) {
+          pain = pain + 1;
+        }
       }
       if (arr[i] === "R" || arr[i] === "r") {
         fingerposition = fingerposition + 1;
