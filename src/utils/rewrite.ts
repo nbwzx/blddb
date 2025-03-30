@@ -203,7 +203,7 @@ const rewrite = (function () {
       const moves = [
       "U", "D", "F", "B", "L", "R",
       "u", "d", "f", "b", "l", "r",
-      "M", "E", "y", "z",
+      "S", "E", "y", "z",
     ];
       for (const move of moves) {
         s = mirror(s, move);
