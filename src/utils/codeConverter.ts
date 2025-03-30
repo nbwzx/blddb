@@ -71,6 +71,9 @@ const codeConverter = (function () {
         if (storedValues[i] === code[j]) {
           result[j] = initialInputValues[i];
         }
+        if (code[j] === "*") {
+          result[j] = "*";
+        }
       }
     }
     return result.join("");
@@ -215,7 +218,8 @@ const codeConverter = (function () {
     }
     if (codeType === "ltct") {
       return customCodeToVariantCode(code.slice(0, 2), "corner").map(
-        (codes: string) => codes + code[2],
+        (codes: string) =>
+          codes + customCodeToInitCode(code[2] ?? "", "corner"),
       );
     }
     let result = customCodeToPosition(code, codeType);
@@ -293,10 +297,9 @@ const codeConverter = (function () {
       ]);
     }
     if (codeType === "ltct") {
-      return cartesianProduct([
-        customCodeToVariantCustomCode(code.slice(0, 2), "corner"),
-        customCodeToVariantCustomCode(code[2], "corner"),
-      ]);
+      return customCodeToVariantCustomCode(code.slice(0, 2), "corner").map(
+        (codes: string) => codes + (code[2] ?? ""),
+      );
     }
     let result = customCodeToPosition(code, codeType);
     if (mirrorLR) {
