@@ -27,6 +27,10 @@ class ErrorBoundary extends React.Component<
   }
 
   componentDidCatch(error: Error, errorInfo: React.ErrorInfo) {
+    if (error.message.includes("Loading chunk")) {
+      window.location.reload();
+      return;
+    }
     this.setState({ hasError: true, error, errorInfo });
   }
 
