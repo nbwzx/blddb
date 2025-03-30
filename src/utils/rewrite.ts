@@ -172,9 +172,44 @@ const rewrite = (function () {
     return main(alg, ["R", "r", "U", "d", "D", "u", "F", "b", "B", "f", "E", "M", "S"]);
   }
 
+  function mirror(alg: string, move: string): string {
+    let s = `${alg} `;
+    s = s.replace(new RegExp(`${move}' `, "gu"), "_ ");
+    s = s.replace(new RegExp(`${move} `, "gu"), `${move}' `);
+    s = s.replace(/_ /gu, `${move} `);
+    s = s.replace(new RegExp(`${move}'2 `, "gu"), `${move}2 `);
+    return s.trim();
+  }
+
+  function mirrorChange(alg: string, move1: string, move2: string): string {
+    let s = `${alg} `;
+    s = s.replace(new RegExp(move1, "gu"), "_");
+    s = s.replace(new RegExp(move2, "gu"), move1);
+    return s.replace(/_/gu, move2).trim();
+  }
+
+  function mirrorAxis(alg: string, axis: string): string {
+    let s = alg;
+    if (axis === "M") {
+      // prettier-ignore
+      const moves = [
+      "U", "D", "F", "B", "L", "R",
+      "u", "d", "f", "b", "l", "r",
+      "M", "E", "y", "z",
+    ];
+      for (const move of moves) {
+        s = mirror(s, move);
+      }
+      s = mirrorChange(s, "L", "R");
+      s = mirrorChange(s, "l", "r");
+    }
+    return s;
+  }
+
   return {
     single,
     righty,
+    mirrorAxis,
   };
 })();
 

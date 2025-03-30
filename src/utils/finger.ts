@@ -280,7 +280,13 @@ const finger = (function () {
     if (alg === "") {
       return ["finger.homegrip"];
     }
-    const algRighty = rewrite.righty(alg);
+    const isLefty =
+      !alg.includes("R") &&
+      !alg.includes("r") &&
+      (alg.includes("L") || alg.includes("l"));
+    const algRighty = isLefty
+      ? rewrite.mirrorAxis(alg, "M")
+      : rewrite.righty(alg);
     let fingerbegin: string[] = [],
       count = 0;
     for (let i = 0; i <= 10; i++) {
@@ -305,6 +311,11 @@ const finger = (function () {
     }
     if (count === 3) {
       fingerbegin = ["finger.homegrip"];
+    }
+    if (isLefty) {
+      fingerbegin = fingerbegin.map((x) => {
+        return x.replace("finger.", "finger.left");
+      });
     }
     return fingerbegin;
   }
