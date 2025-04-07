@@ -25,6 +25,7 @@
             [
                 "Adrian Dębski",
                 "Hana Davila",
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä"
             ],
             "U Rw:[U r' U',l']"
@@ -238,6 +239,7 @@
             [
                 "Graham Siggins",
                 "Hana Davila",
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä"
             ],
             "U:[r' u' r,U]"
@@ -449,6 +451,13 @@
                 "Graham Siggins"
             ],
             "Uw':[r u' r',U']"
+        ],
+        [
+            "U 4Rw U r' U' l U r U' 3Rw' U'",
+            [
+                "Sebastiano Tronto"
+            ],
+            "U 4Rw:[U r' U',l]"
         ]
     ],
     "ADC": [
@@ -470,6 +479,7 @@
             [
                 "Graham Siggins",
                 "Hana Davila",
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä"
             ],
             "U:[U,r' u' r]"
@@ -484,6 +494,7 @@
                 "Israel Fraga da Silva",
                 "Marcell Endrey",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tim Wong",
                 "Timo Norrkniivilä",
@@ -510,20 +521,21 @@
             "u':[l' u l,U']"
         ],
         [
+            "U' Rw' U' r U l U' r' U l' Rw U",
+            [
+                "Adrian Dębski",
+                "Sebastiano Tronto",
+                "Timo Norrkniivilä"
+            ],
+            "U' Rw':[U' r U,l]"
+        ],
+        [
             "Uw U r' u r U' r' u' r Uw'",
             [
                 "Graham Siggins",
                 "Timo Norrkniivilä"
             ],
             "Uw:[U,r' u r]"
-        ],
-        [
-            "U' Rw' U' r U l U' r' U l' Rw U",
-            [
-                "Adrian Dębski",
-                "Timo Norrkniivilä"
-            ],
-            "U' Rw':[U' r U,l]"
         ],
         [
             "y U r' u r U' r' u' r y'",
@@ -553,12 +565,22 @@
             [
                 "Graham Siggins",
                 "Hana Davila",
-                "Marcell Endrey"
+                "Marcell Endrey",
+                "Sebastiano Tronto"
             ],
             "U':[r' d r,U']"
         ]
     ],
     "ADN": [
+        [
+            "U' Rw U' r' U l' U' r U l Rw' U",
+            [
+                "Adrian Dębski",
+                "Michael Tripodi",
+                "Sebastiano Tronto"
+            ],
+            "U' Rw:[U' r' U,l']"
+        ],
         [
             "U2 r d2 r' U' r d2 r' U'",
             [
@@ -567,14 +589,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "U:[U,r d2 r']"
-        ],
-        [
-            "U' Rw U' r' U l' U' r U l Rw' U",
-            [
-                "Adrian Dębski",
-                "Michael Tripodi"
-            ],
-            "U' Rw:[U' r' U,l']"
         ],
         [
             "U' x l U' r' U l' U' r U x' U",
@@ -595,6 +609,16 @@
     ],
     "ADO": [
         [
+            "U' l2 D' r2 D l2 D' r2 D U",
+            [
+                "Graham Siggins",
+                "Sebastiano Tronto",
+                "Stanley Chapel",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "U':[l2,D' r2 D]"
+        ],
+        [
             "U' Rw' U' r U l2 U' r' U l2 Rw U",
             [
                 "Adrian Dębski",
@@ -603,15 +627,6 @@
                 "Timo Norrkniivilä"
             ],
             "U' Rw':[U' r U,l2]"
-        ],
-        [
-            "U' l2 D' r2 D l2 D' r2 D U",
-            [
-                "Graham Siggins",
-                "Stanley Chapel",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "U':[l2,D' r2 D]"
         ],
         [
             "U' Rw U' r' U l2 U' r U l2 Rw' U",
@@ -647,6 +662,13 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "U':[r' d2 r,U']"
+        ],
+        [
+            "U 4Rw' U r U' l' U r' U' 3Rw U'",
+            [
+                "Sebastiano Tronto"
+            ],
+            "U 4Rw':[U r U',l']"
         ]
     ],
     "ADQ": [
@@ -658,6 +680,7 @@
                 "Israel Fraga da Silva",
                 "Marcell Endrey",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Tim Wong",
@@ -693,6 +716,14 @@
             "r:[U,l' d2 l]"
         ],
         [
+            "U' D l2 D' r2 D l2 D' r2 U",
+            [
+                "Graham Siggins",
+                "Sebastiano Tronto"
+            ],
+            "U':[D l2 D',r2]"
+        ],
+        [
             "U' 3Lw r2 U l' U' r2 U l U' 3Lw' U",
             [
                 "Hill Pong Yong Feng"
@@ -705,13 +736,6 @@
                 "Michael Tripodi"
             ],
             "r':[U,l u2 l']"
-        ],
-        [
-            "U' D l2 D' r2 D l2 D' r2 U",
-            [
-                "Graham Siggins"
-            ],
-            "U':[D l2 D',r2]"
         ],
         [
             "y' l2 D' r2 D l2 D' r2 4Uw",
@@ -740,7 +764,8 @@
             "U' r' d' r U' r' d r U2",
             [
                 "Graham Siggins",
-                "Hana Davila"
+                "Hana Davila",
+                "Sebastiano Tronto"
             ],
             "U':[r' d' r,U']"
         ]
@@ -773,9 +798,26 @@
                 "Adrian Dębski"
             ],
             "U Lw:[U' l' U,r']"
+        ],
+        [
+            "U l U' l' U r' U' l U r l' U'",
+            [
+                "Sebastiano Tronto"
+            ],
+            "U l:[U' l' U,r']"
         ]
     ],
     "ADW": [
+        [
+            "U D r2 D' l2 D r2 D' l2 U'",
+            [
+                "Graham Siggins",
+                "Sebastiano Tronto",
+                "Stanley Chapel",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "U:[D r2 D',l2]"
+        ],
         [
             "U Rw' l2 U r U' l2 U r' U' Rw U'",
             [
@@ -785,15 +827,6 @@
                 "Timo Norrkniivilä"
             ],
             "U Rw':[l2,U r U']"
-        ],
-        [
-            "U D r2 D' l2 D r2 D' l2 U'",
-            [
-                "Graham Siggins",
-                "Stanley Chapel",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "U:[D r2 D',l2]"
         ],
         [
             "U Rw l2 U r' U' l2 U r U' Rw' U'",
@@ -815,6 +848,7 @@
             "U r2 D' l2 D r2 D' l2 D U'",
             [
                 "Graham Siggins",
+                "Sebastiano Tronto",
                 "Ziyi Xu (徐梓翼)"
             ],
             "U:[r2,D' l2 D]"
@@ -882,6 +916,13 @@
             "y':[r' d' r,U']"
         ],
         [
+            "U' M' U l U' r' U l' U' r M U",
+            [
+                "Sebastiano Tronto"
+            ],
+            "U' M':[U l U',r']"
+        ],
+        [
             "U' Lw r U l' U' r' U l U' Lw' U",
             [
                 "Timo Norrkniivilä"
@@ -898,6 +939,7 @@
                 "Israel Fraga da Silva",
                 "Marcell Endrey",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Tim Wong",
@@ -941,6 +983,7 @@
                 "Israel Fraga da Silva",
                 "Marcell Endrey",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tim Wong",
                 "Timo Norrkniivilä",
@@ -1183,6 +1226,13 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "y:[r' u r,U]"
+        ],
+        [
+            "U' 4Rw' U' r U l' U' r' U 3Rw U",
+            [
+                "Sebastiano Tronto"
+            ],
+            "U' 4Rw':[U' r U,l']"
         ]
     ],
     "AFE": [
@@ -1379,7 +1429,8 @@
             [
                 "Graham Siggins",
                 "Hana Davila",
-                "Marcell Endrey"
+                "Marcell Endrey",
+                "Sebastiano Tronto"
             ],
             "U':[U',r' d r]"
         ]
@@ -1622,6 +1673,13 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "y':[l d' l',U]"
+        ],
+        [
+            "U' 4Rw U' r' U l U' r U 3Rw' U",
+            [
+                "Sebastiano Tronto"
+            ],
+            "U' 4Rw:[U' r' U,l]"
         ]
     ],
     "ANE": [
@@ -1843,6 +1901,16 @@
     ],
     "AOD": [
         [
+            "U' D' r2 D l2 D' r2 D l2 U",
+            [
+                "Graham Siggins",
+                "Sebastiano Tronto",
+                "Stanley Chapel",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "U':[D' r2 D,l2]"
+        ],
+        [
             "U' Rw' l2 U' r U l2 U' r' U Rw U",
             [
                 "Adrian Dębski",
@@ -1851,15 +1919,6 @@
                 "Timo Norrkniivilä"
             ],
             "U' Rw':[l2,U' r U]"
-        ],
-        [
-            "U' D' r2 D l2 D' r2 D l2 U",
-            [
-                "Graham Siggins",
-                "Stanley Chapel",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "U':[D' r2 D,l2]"
         ],
         [
             "U' Rw l2 U' r' U l2 U' r U Rw' U",
@@ -2038,6 +2097,7 @@
             [
                 "Adrian Dębski",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä"
             ],
             "U Rw':[U r U',l]"
@@ -2246,6 +2306,7 @@
                 "Israel Fraga da Silva",
                 "Marcell Endrey",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Tim Wong",
@@ -2482,6 +2543,14 @@
             "U' Lw:[U l' U',r2]"
         ],
         [
+            "U' r2 D l2 D' r2 D l2 D' U",
+            [
+                "Graham Siggins",
+                "Sebastiano Tronto"
+            ],
+            "U':[r2,D l2 D']"
+        ],
+        [
             "M' d2 l U l' d2 l U' l' M",
             [
                 "Stanley Chapel"
@@ -2501,13 +2570,6 @@
                 "Michael Tripodi"
             ],
             "r':[l u2 l',U]"
-        ],
-        [
-            "U' r2 D l2 D' r2 D l2 D' U",
-            [
-                "Graham Siggins"
-            ],
-            "U':[r2,D l2 D']"
         ],
         [
             "4Uw' r2 D l2 D' r2 D l2 y",
@@ -2716,7 +2778,8 @@
             "U2 r' d' r U r' d r U",
             [
                 "Graham Siggins",
-                "Hana Davila"
+                "Hana Davila",
+                "Sebastiano Tronto"
             ],
             "U':[U',r' d' r]"
         ]
@@ -2926,6 +2989,13 @@
                 "Adrian Dębski"
             ],
             "U Lw:[r',U' l' U]"
+        ],
+        [
+            "U M U' l' U r U' l U r' M' U'",
+            [
+                "Sebastiano Tronto"
+            ],
+            "U M:[U' l' U,r]"
         ]
     ],
     "ATE": [
@@ -3084,6 +3154,16 @@
     ],
     "AWD": [
         [
+            "U l2 D r2 D' l2 D r2 D' U'",
+            [
+                "Graham Siggins",
+                "Sebastiano Tronto",
+                "Stanley Chapel",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "U:[l2,D r2 D']"
+        ],
+        [
             "U Rw' U r U' l2 U r' U' l2 Rw U'",
             [
                 "Hana Davila",
@@ -3092,15 +3172,6 @@
                 "Timo Norrkniivilä"
             ],
             "U Rw':[U r U',l2]"
-        ],
-        [
-            "U l2 D r2 D' l2 D r2 D' U'",
-            [
-                "Graham Siggins",
-                "Stanley Chapel",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "U:[l2,D r2 D']"
         ],
         [
             "U Rw U r' U' l2 U r U' l2 Rw' U'",
@@ -3297,20 +3368,21 @@
     ],
     "AXD": [
         [
+            "U D' l2 D r2 D' l2 D r2 U'",
+            [
+                "Graham Siggins",
+                "Sebastiano Tronto",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "U:[D' l2 D,r2]"
+        ],
+        [
             "r U' l' u2 l U l' u2 l r'",
             [
                 "Michael Tripodi",
                 "Stanley Chapel"
             ],
             "r:[U',l' u2 l]"
-        ],
-        [
-            "U D' l2 D r2 D' l2 D r2 U'",
-            [
-                "Graham Siggins",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "U:[D' l2 D,r2]"
         ],
         [
             "U Lw' r2 U' l U r2 U' l' U Lw U'",
@@ -3527,6 +3599,13 @@
             "y':[U',r' d' r]"
         ],
         [
+            "U' l' U l U' r U l' U' r' l U",
+            [
+                "Sebastiano Tronto"
+            ],
+            "U' l':[U l U',r]"
+        ],
+        [
             "U' Lw U l' U' r U l U' r' Lw' U",
             [
                 "Timo Norrkniivilä"
@@ -3734,6 +3813,7 @@
                 "Israel Fraga da Silva",
                 "Marcell Endrey",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Tim Wong",
@@ -3918,6 +3998,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
@@ -3948,6 +4029,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
@@ -3970,6 +4052,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
@@ -3984,6 +4067,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
@@ -4006,6 +4090,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Hill Pong Yong Feng",
+                "Sebastiano Tronto",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -4056,6 +4141,7 @@
             "Uw2 r' Uw l2 Uw' r Uw l2 Uw",
             [
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -4069,6 +4155,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
@@ -4111,6 +4198,13 @@
                 "Stanley Chapel"
             ],
             "Dw':[l',U r' U']"
+        ],
+        [
+            "S Uw r Uw' l' Uw r' Uw' l S'",
+            [
+                "Sebastiano Tronto"
+            ],
+            "S:[Uw r Uw',l']"
         ]
     ],
     "BDR": [
@@ -4128,6 +4222,13 @@
             "D':[l',U r2 U']"
         ],
         [
+            "D' 4Rw U r U' l U r' U' 3Rw' D",
+            [
+                "Sebastiano Tronto"
+            ],
+            "D' 4Rw:[U r U',l]"
+        ],
+        [
             "x d2 r U2 r' d2 r U2 r' x'",
             [
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
@@ -4142,6 +4243,7 @@
                 "Adrian Dębski",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä"
             ],
             "Rw':[l',Uw r Uw']"
@@ -4178,6 +4280,7 @@
                 "Hana Davila",
                 "Israel Fraga da Silva",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
@@ -4200,6 +4303,13 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "D:[l',U r2 U']"
+        ],
+        [
+            "D 4Rw U r U' l U r' U' 3Rw' D'",
+            [
+                "Sebastiano Tronto"
+            ],
+            "D 4Rw:[U r U',l]"
         ]
     ],
     "BDX": [
@@ -4217,6 +4327,13 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "[l',U r2 U']"
+        ],
+        [
+            "4Rw U r U' l U r' U' 3Rw'",
+            [
+                "Sebastiano Tronto"
+            ],
+            "4Rw:[U r U',l]"
         ]
     ],
     "BDZ": [
@@ -4233,6 +4350,7 @@
             "R2 l' Uw r Uw' l Uw r' Uw' R2",
             [
                 "Graham Siggins",
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä"
             ],
             "R2:[l',Uw r Uw']"
@@ -4282,6 +4400,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
@@ -4296,6 +4415,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
@@ -4327,6 +4447,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Hill Pong Yong Feng",
+                "Sebastiano Tronto",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -4386,6 +4507,7 @@
             "Uw' l2 Uw' r' Uw l2 Uw' r Uw2",
             [
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -4399,6 +4521,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
@@ -4441,6 +4564,13 @@
                 "Stanley Chapel"
             ],
             "Dw':[U r' U',l']"
+        ],
+        [
+            "S l' Uw r Uw' l Uw r' Uw' S'",
+            [
+                "Sebastiano Tronto"
+            ],
+            "S:[l',Uw r Uw']"
         ]
     ],
     "BQW": [
@@ -4467,6 +4597,13 @@
             "D':[U r2 U',l']"
         ],
         [
+            "D' Rw U r U' l' U r' U' l Rw' D",
+            [
+                "Sebastiano Tronto"
+            ],
+            "D' Rw:[U r U',l']"
+        ],
+        [
             "x r U2 r' d2 r U2 r' d2 x'",
             [
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
@@ -4481,6 +4618,7 @@
                 "Adrian Dębski",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä"
             ],
             "Rw':[Uw r Uw',l']"
@@ -4517,6 +4655,7 @@
                 "Hana Davila",
                 "Israel Fraga da Silva",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
@@ -4539,6 +4678,13 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "D:[U r2 U',l']"
+        ],
+        [
+            "D Rw U r U' l' U r' U' l Rw' D'",
+            [
+                "Sebastiano Tronto"
+            ],
+            "D Rw:[U r U',l']"
         ]
     ],
     "BWN": [
@@ -4583,6 +4729,13 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "[U r2 U',l']"
+        ],
+        [
+            "Rw U r U' l' U r' U' l Rw'",
+            [
+                "Sebastiano Tronto"
+            ],
+            "Rw:[U r U',l']"
         ]
     ],
     "BYW": [
@@ -4609,6 +4762,7 @@
             "R2 Uw r Uw' l' Uw r' Uw' l R2",
             [
                 "Graham Siggins",
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä"
             ],
             "R2:[Uw r Uw',l']"
@@ -4660,6 +4814,7 @@
             "U l U2 l' u l U2 l' Uw'",
             [
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel"
             ],
             "U:[l U2 l',u]"
@@ -4674,6 +4829,16 @@
     ],
     "CDN": [
         [
+            "F2 r U r' u' r U' r' u F2",
+            [
+                "Graham Siggins",
+                "Hana Davila",
+                "Sebastiano Tronto",
+                "Timo Norrkniivilä"
+            ],
+            "F2:[r U r',u']"
+        ],
+        [
             "U l' U2 l' u l U2 l' u' l2 U'",
             [
                 "Michael Tripodi",
@@ -4681,15 +4846,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "U l':[U2,l' u l]"
-        ],
-        [
-            "F2 r U r' u' r U' r' u F2",
-            [
-                "Graham Siggins",
-                "Hana Davila",
-                "Timo Norrkniivilä"
-            ],
-            "F2:[r U r',u']"
         ],
         [
             "L' U2 u r' U l' U' r U l u' U L",
@@ -4732,6 +4888,13 @@
             "y U:[U l U',r2]"
         ],
         [
+            "Uw' F U' r U l2 U' r' U l2 F' Uw",
+            [
+                "Sebastiano Tronto"
+            ],
+            "Uw' F:[U' r U,l2]"
+        ],
+        [
             "u' D U r U' l2 U r' U' l2 D' u",
             [
                 "Ziyi Xu (徐梓翼)"
@@ -4752,6 +4915,7 @@
             [
                 "Adrian Dębski",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
@@ -4781,6 +4945,7 @@
             "D' Rw r U r' u' r U' r' u Rw' D",
             [
                 "Graham Siggins",
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä"
             ],
             "D' Rw:[r U r',u']"
@@ -4819,20 +4984,21 @@
             "4Dw:[U r U',l]"
         ],
         [
+            "R' u r U r' u2 r U' r' u R",
+            [
+                "Hana Davila",
+                "Michael Tripodi",
+                "Sebastiano Tronto"
+            ],
+            "R' u:[r U r',u2]"
+        ],
+        [
             "E U r U' l U r' U' l' E'",
             [
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
             "E:[U r U',l]"
-        ],
-        [
-            "R' u r U r' u2 r U' r' u R",
-            [
-                "Hana Davila",
-                "Michael Tripodi"
-            ],
-            "R' u:[r U r',u2]"
         ],
         [
             "R' Uw' u2 r U2 r' u2 r U2 r' Uw R",
@@ -4865,6 +5031,7 @@
             [
                 "Graham Siggins",
                 "Hana Davila",
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä"
             ],
             "Rw':[U,r' u' r]"
@@ -4877,6 +5044,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
@@ -4916,6 +5084,7 @@
         [
             "Rw r U r' u' r U' r' u Rw'",
             [
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä"
             ],
             "Rw:[r U r',u']"
@@ -4930,6 +5099,16 @@
     ],
     "CDY": [
         [
+            "F' r U r' u' r U' r' u F",
+            [
+                "Graham Siggins",
+                "Hana Davila",
+                "Sebastiano Tronto",
+                "Timo Norrkniivilä"
+            ],
+            "F':[r U r',u']"
+        ],
+        [
             "U2 Uw l Uw' r Uw l' Uw' r' U2",
             [
                 "Michael Tripodi",
@@ -4937,15 +5116,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "U2:[Uw l Uw',r]"
-        ],
-        [
-            "F' r U r' u' r U' r' u F",
-            [
-                "Graham Siggins",
-                "Hana Davila",
-                "Timo Norrkniivilä"
-            ],
-            "F':[r U r',u']"
         ],
         [
             "u U' l U' r U l' U' r' U2 u'",
@@ -4976,6 +5146,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä"
             ],
             "R2 u:[r U r',u2]"
@@ -5033,9 +5204,10 @@
             "Uw l U2 l' u' l U2 l' U'",
             [
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel"
             ],
-            "U:[u,l U2 l']"
+            "Uw:[l U2 l',u']"
         ],
         [
             "Uw' r U2 r' u' r U2 r' u Uw",
@@ -5047,6 +5219,16 @@
     ],
     "CND": [
         [
+            "F2 u' r U r' u r U' r' F2",
+            [
+                "Graham Siggins",
+                "Hana Davila",
+                "Sebastiano Tronto",
+                "Timo Norrkniivilä"
+            ],
+            "F2:[u',r U r']"
+        ],
+        [
             "U l2 u l U2 l' u' l U2 l U'",
             [
                 "Michael Tripodi",
@@ -5054,15 +5236,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "U l':[l' u l,U2]"
-        ],
-        [
-            "F2 u' r U r' u r U' r' F2",
-            [
-                "Graham Siggins",
-                "Hana Davila",
-                "Timo Norrkniivilä"
-            ],
-            "F2:[u',r U r']"
         ],
         [
             "L' U' u l' U' r' U l U' r u' U2 L",
@@ -5105,6 +5278,13 @@
             "y U:[r2,U l U']"
         ],
         [
+            "Uw' F l2 U' r U l2 U' r' U F' Uw",
+            [
+                "Sebastiano Tronto"
+            ],
+            "Uw' F:[l2,U' r U]"
+        ],
+        [
             "u' D l2 U r U' l2 U r' U' D' u",
             [
                 "Ziyi Xu (徐梓翼)"
@@ -5125,6 +5305,7 @@
             [
                 "Adrian Dębski",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
@@ -5154,6 +5335,7 @@
             "D' Rw u' r U r' u r U' r' Rw' D",
             [
                 "Graham Siggins",
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä"
             ],
             "D' Rw:[u',r U r']"
@@ -5191,20 +5373,21 @@
             "4Dw:[l,U r U']"
         ],
         [
+            "R' u' r U r' u2 r U' r' u' R",
+            [
+                "Hana Davila",
+                "Michael Tripodi",
+                "Sebastiano Tronto"
+            ],
+            "R' u':[r U r',u2]"
+        ],
+        [
             "E l U r U' l' U r' U' E'",
             [
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
             "E:[l,U r U']"
-        ],
-        [
-            "R' u' r U r' u2 r U' r' u' R",
-            [
-                "Hana Davila",
-                "Michael Tripodi"
-            ],
-            "R' u':[r U r',u2]"
         ],
         [
             "R' Uw' r U2 r' u2 r U2 r' u2 Uw R",
@@ -5237,6 +5420,7 @@
             [
                 "Graham Siggins",
                 "Hana Davila",
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä"
             ],
             "Rw':[r' u' r,U]"
@@ -5249,6 +5433,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
@@ -5288,6 +5473,7 @@
         [
             "Rw u' r U r' u r U' r' Rw'",
             [
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä"
             ],
             "Rw:[u',r U r']"
@@ -5302,6 +5488,16 @@
     ],
     "CYD": [
         [
+            "F' u' r U r' u r U' r' F",
+            [
+                "Graham Siggins",
+                "Hana Davila",
+                "Sebastiano Tronto",
+                "Timo Norrkniivilä"
+            ],
+            "F':[u',r U r']"
+        ],
+        [
             "U2 r Uw l Uw' r' Uw l' Uw' U2",
             [
                 "Michael Tripodi",
@@ -5309,15 +5505,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "U2:[r,Uw l Uw']"
-        ],
-        [
-            "F' u' r U r' u r U' r' F",
-            [
-                "Graham Siggins",
-                "Hana Davila",
-                "Timo Norrkniivilä"
-            ],
-            "F':[u',r U r']"
         ],
         [
             "r U' r' u' r U2 r' u r U' r'",
@@ -5355,6 +5542,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä"
             ],
             "R2 u':[r U r',u2]"
@@ -5422,6 +5610,13 @@
             "l U2:[l' U' l,u']"
         ],
         [
+            "4Rw' U2 l' U' l u' l' U l u U2 4Rw",
+            [
+                "Sebastiano Tronto"
+            ],
+            "4Rw' U2:[l' U' l,u']"
+        ],
+        [
             "L u' r U r' u' r U' r' u2 L'",
             [
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
@@ -5444,6 +5639,7 @@
             "z u r Uw' l' Uw r' Uw' l U z'",
             [
                 "Graham Siggins",
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä"
             ],
             "z U':[Uw r Uw',l']"
@@ -5462,19 +5658,20 @@
             "U' u:[l2,U' r' U]"
         ],
         [
+            "D' Rw' u r' U2 r u' r' U2 r Rw D",
+            [
+                "Graham Siggins",
+                "Sebastiano Tronto"
+            ],
+            "D' Rw':[u,r' U2 r]"
+        ],
+        [
             "D' r' u r' U2 r u' r' U2 r2 D",
             [
                 "Hana Davila",
                 "Michael Tripodi"
             ],
             "D' r':[u,r' U2 r]"
-        ],
-        [
-            "D' Rw' u r' U2 r u' r' U2 r Rw D",
-            [
-                "Graham Siggins"
-            ],
-            "D' Rw':[u,r' U2 r]"
         ]
     ],
     "DEP": [
@@ -5504,6 +5701,13 @@
             "z:[l U2 l',u']"
         ],
         [
+            "4Rw' U l' U' l u' l' U l u U' 4Rw",
+            [
+                "Sebastiano Tronto"
+            ],
+            "4Rw' U:[l' U' l,u']"
+        ],
+        [
             "L2 d r U2 r' d r U2 r' d2 L2",
             [
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
@@ -5523,18 +5727,19 @@
             "r':[u,r' U2 r]"
         ],
         [
+            "Rw' u r' U2 r u' r' U2 r Rw",
+            [
+                "Sebastiano Tronto",
+                "Timo Norrkniivilä"
+            ],
+            "Rw':[u,r' U2 r]"
+        ],
+        [
             "y' F2 l2 U' r U l2 U' r' U F2 y",
             [
                 "Adrian Dębski"
             ],
             "y' F2:[l2,U' r U]"
-        ],
-        [
-            "Rw' u r' U2 r u' r' U2 r Rw",
-            [
-                "Timo Norrkniivilä"
-            ],
-            "Rw':[u,r' U2 r]"
         ],
         [
             "y' u2 l2 U' r' U l2 U' r U u2 y",
@@ -5554,18 +5759,19 @@
             "U' u r':[U',r' d' r]"
         ],
         [
+            "R2 u r' U2 r u2 r' U2 r u R2",
+            [
+                "Graham Siggins",
+                "Sebastiano Tronto"
+            ],
+            "R2 u:[r' U2 r,u2]"
+        ],
+        [
             "R2 U' u r' U' r u2 r' U r Uw R2",
             [
                 "Michael Tripodi"
             ],
             "R2 U' u:[r' U' r,u2]"
-        ],
-        [
-            "R2 u r' U2 r u2 r' U2 r u R2",
-            [
-                "Graham Siggins"
-            ],
-            "R2 u:[r' U2 r,u2]"
         ],
         [
             "R y' U2 r' U' l' U r U' l 4Dw' R'",
@@ -5603,18 +5809,19 @@
             "U:[r',Uw' l' Uw]"
         ],
         [
+            "Rw' U' l u' l' U l u l' Rw",
+            [
+                "Sebastiano Tronto",
+                "Timo Norrkniivilä"
+            ],
+            "Rw':[U',l u' l']"
+        ],
+        [
             "3Rw' U' l u' l' U l u 4Rw",
             [
                 "Michael Tripodi"
             ],
             "3Rw':[U',l u' l']"
-        ],
-        [
-            "Rw' U' l u' l' U l u l' Rw",
-            [
-                "Timo Norrkniivilä"
-            ],
-            "Rw':[U',l u' l']"
         ],
         [
             "L' d' r' U r d r' U' r L",
@@ -5629,6 +5836,7 @@
             "U l' u' l' U' l u l' U l2 U'",
             [
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
@@ -5671,9 +5879,26 @@
                 "Michael Tripodi"
             ],
             "D r':[u,r' U2 r]"
+        ],
+        [
+            "u' Rw U r U' l' U r' U' l Rw' u",
+            [
+                "Sebastiano Tronto"
+            ],
+            "u' Rw:[U r U',l']"
         ]
     ],
     "DEY": [
+        [
+            "Rw r u r' U2 r u' r' U2 Rw'",
+            [
+                "Graham Siggins",
+                "Hana Davila",
+                "Sebastiano Tronto",
+                "Timo Norrkniivilä"
+            ],
+            "Rw:[r u r',U2]"
+        ],
         [
             "r2 u r' U2 r u' r' U2 r'",
             [
@@ -5682,15 +5907,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "r:[r u r',U2]"
-        ],
-        [
-            "Rw r u r' U2 r u' r' U2 Rw'",
-            [
-                "Graham Siggins",
-                "Hana Davila",
-                "Timo Norrkniivilä"
-            ],
-            "Rw:[r u r',U2]"
         ],
         [
             "Uw' Lw' U' l U' r U l' U' r' U2 Lw Uw",
@@ -5718,20 +5934,21 @@
             "E:[U r' U',l']"
         ],
         [
+            "R u r' U2 r u2 r' U2 r u R'",
+            [
+                "Graham Siggins",
+                "Hana Davila",
+                "Sebastiano Tronto"
+            ],
+            "R u:[r' U2 r,u2]"
+        ],
+        [
             "y' U2 r' U' l' U r U' l 4Dw'",
             [
                 "Adrian Dębski",
                 "Timo Norrkniivilä"
             ],
             "4Dw:[U r' U',l']"
-        ],
-        [
-            "R u r' U2 r u2 r' U2 r u R'",
-            [
-                "Graham Siggins",
-                "Hana Davila"
-            ],
-            "R u:[r' U2 r,u2]"
         ],
         [
             "R U' u r' U' r u2 r' U r Uw R'",
@@ -5775,6 +5992,13 @@
             "l U2:[u',l' U' l]"
         ],
         [
+            "4Rw' U2 u' l' U' l u l' U l U2 4Rw",
+            [
+                "Sebastiano Tronto"
+            ],
+            "4Rw' U2:[u',l' U' l]"
+        ],
+        [
             "L u2 r U r' u r U' r' u L'",
             [
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
@@ -5803,21 +6027,31 @@
             "z R':[u',r' U' r]"
         ],
         [
+            "L' u2 r U r' u r U' r' u L",
+            [
+                "Sebastiano Tronto",
+                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
+            ],
+            "L' u':[u',r U r']"
+        ],
+        [
             "L' U l U2 l' u l U2 l' Uw' L",
             [
                 "Michael Tripodi"
             ],
             "L' U:[l U2 l',u]"
-        ],
-        [
-            "L' u2 r U r' u r U' r' u L",
-            [
-                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
-            ],
-            "L' u':[u',r U r']"
         ]
     ],
     "DFN": [
+        [
+            "F' U2 r U l U' r' U l' U F",
+            [
+                "Adrian Dębski",
+                "Sebastiano Tronto",
+                "Timo Norrkniivilä"
+            ],
+            "F' U':[U' r U,l]"
+        ],
         [
             "F2 u2 r U r' u2 r U' r' F2",
             [
@@ -5836,14 +6070,6 @@
             "Uw l':[l' u' l,U2]"
         ],
         [
-            "F' U2 r U l U' r' U l' U F",
-            [
-                "Adrian Dębski",
-                "Timo Norrkniivilä"
-            ],
-            "F' U':[U' r U,l]"
-        ],
-        [
             "U2 x' U' r U l2 U' r' U l2 x U2",
             [
                 "Ziyi Xu (徐梓翼)"
@@ -5858,6 +6084,7 @@
                 "Adrian Dębski",
                 "Graham Siggins",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
@@ -5898,6 +6125,14 @@
             "U l:[U2,l d l']"
         ],
         [
+            "L2 u2 r U r' u r U' r' u L2",
+            [
+                "Sebastiano Tronto",
+                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
+            ],
+            "L2 u':[u',r U r']"
+        ],
+        [
             "Lw Uw' l' U2 l u l' U2 l U Lw'",
             [
                 "Michael Tripodi"
@@ -5910,13 +6145,6 @@
                 "Adrian Dębski"
             ],
             "x' U2:[u',l' U' l]"
-        ],
-        [
-            "L2 u2 r U r' u r U' r' u L2",
-            [
-                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
-            ],
-            "L2 u':[u',r U r']"
         ]
     ],
     "DFR": [
@@ -5926,6 +6154,7 @@
                 "Adrian Dębski",
                 "Graham Siggins",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
@@ -5964,6 +6193,7 @@
             [
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "R' u:[u,r U r']"
@@ -6003,6 +6233,13 @@
             "U 4Rw' U:[U r U',l]"
         ],
         [
+            "D 4Rw' U l' U r' U' l U r U2 4Rw D'",
+            [
+                "Sebastiano Tronto"
+            ],
+            "D 4Rw' U:[l',U r' U']"
+        ],
+        [
             "U2 x' d2 r U' r' d2 r U r' x U2",
             [
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
@@ -6037,6 +6274,13 @@
             "r:[u2,r U r']"
         ],
         [
+            "4Rw' U l' U r' U' l U r U2 4Rw",
+            [
+                "Sebastiano Tronto"
+            ],
+            "4Rw' U:[l',U r' U']"
+        ],
+        [
             "U' x' r' U2 r d2 r' U2 r d2 x U",
             [
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
@@ -6052,6 +6296,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
@@ -6079,18 +6324,19 @@
             "z' Lw:[l u' l',U2]"
         ],
         [
+            "R2 u2 r U r' u' r U' r' u' R2",
+            [
+                "Sebastiano Tronto",
+                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
+            ],
+            "R2 u:[u,r U r']"
+        ],
+        [
             "Dw l U l' U r' U' l U r U2 l' Dw'",
             [
                 "Adrian Dębski"
             ],
             "Dw l U:[l',U r' U']"
-        ],
-        [
-            "R2 u2 r U r' u' r U' r' u' R2",
-            [
-                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
-            ],
-            "R2 u:[u,r U r']"
         ]
     ],
     "DMF": [
@@ -6114,18 +6360,19 @@
             "z R':[r' U' r,u']"
         ],
         [
+            "L' u' r U r' u' r U' r' u2 L",
+            [
+                "Sebastiano Tronto",
+                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
+            ],
+            "L' u':[r U r',u']"
+        ],
+        [
             "L' Uw l U2 l' u' l U2 l' U' L",
             [
                 "Michael Tripodi"
             ],
             "L' U:[u,l U2 l']"
-        ],
-        [
-            "L' u' r U r' u' r U' r' u2 L",
-            [
-                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
-            ],
-            "L' u':[r U r',u']"
         ]
     ],
     "DMN": [
@@ -6134,6 +6381,7 @@
             [
                 "Adrian Dębski",
                 "Graham Siggins",
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä"
             ],
             "z U:[Uw r Uw',l']"
@@ -6169,6 +6417,7 @@
                 "Adrian Dębski",
                 "Graham Siggins",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä"
             ],
@@ -6210,6 +6459,13 @@
             "y':[r U' r',d]"
         ],
         [
+            "4Uw l U' l' d l U l' 3Uw'",
+            [
+                "Sebastiano Tronto"
+            ],
+            "4Uw:[l U' l',d]"
+        ],
+        [
             "d r U2 r' d r U2 r' d2",
             [
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
@@ -6237,6 +6493,15 @@
             "Dw':[U r2 U',l]"
         ],
         [
+            "Rw d r U2 r' d' r U2 r' Rw'",
+            [
+                "Graham Siggins",
+                "Sebastiano Tronto",
+                "Timo Norrkniivilä"
+            ],
+            "Rw:[d,r U2 r']"
+        ],
+        [
             "y' l2 U' r U l2 U' r' U y",
             [
                 "Adrian Dębski",
@@ -6244,14 +6509,6 @@
                 "Timo Norrkniivilä"
             ],
             "y':[l2,U' r U]"
-        ],
-        [
-            "Rw d r U2 r' d' r U2 r' Rw'",
-            [
-                "Graham Siggins",
-                "Timo Norrkniivilä"
-            ],
-            "Rw:[d,r U2 r']"
         ],
         [
             "r d r U2 r' d' r U2 r2",
@@ -6276,6 +6533,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
@@ -6306,7 +6564,8 @@
             "Rw' U r' d r U r' d' r U2 Rw",
             [
                 "Graham Siggins",
-                "Hana Davila"
+                "Hana Davila",
+                "Sebastiano Tronto"
             ],
             "Rw' U:[r' d r,U]"
         ]
@@ -6335,6 +6594,13 @@
                 "Adrian Dębski"
             ],
             "D d':[U r2 U',l]"
+        ],
+        [
+            "Fw U' l' u l U l' u' l Fw'",
+            [
+                "Sebastiano Tronto"
+            ],
+            "Fw:[U',l' u l]"
         ],
         [
             "L' u' l2 U r U' l2 U r' U' u L",
@@ -6377,6 +6643,13 @@
             "y' D:[l2,U' r U]"
         ],
         [
+            "D Rw d r U2 r' d' r U2 r' Rw' D'",
+            [
+                "Sebastiano Tronto"
+            ],
+            "D Rw:[d,r U2 r']"
+        ],
+        [
             "L y' U' r2 U l' U' r2 U l y L'",
             [
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
@@ -6392,6 +6665,7 @@
                 "Hana Davila",
                 "Israel Fraga da Silva",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
@@ -6420,18 +6694,19 @@
             "z U:[Uw r Uw',l2]"
         ],
         [
+            "R' d r U2 r' d2 r U2 r' d R",
+            [
+                "Hana Davila",
+                "Sebastiano Tronto"
+            ],
+            "R' d:[r U2 r',d2]"
+        ],
+        [
             "R' y' r U' r' d2 r U r' d2 y R",
             [
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "R' y':[r U' r',d2]"
-        ],
-        [
-            "R' d r U2 r' d2 r U2 r' d R",
-            [
-                "Hana Davila"
-            ],
-            "R' d:[r U2 r',d2]"
         ]
     ],
     "DNE": [
@@ -6449,12 +6724,22 @@
             "z U' l' Uw r Uw' l Uw r' u' z'",
             [
                 "Graham Siggins",
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä"
             ],
             "z U':[l',Uw r Uw']"
         ]
     ],
     "DNF": [
+        [
+            "F' U' l U' r U l' U' r' U2 F",
+            [
+                "Adrian Dębski",
+                "Sebastiano Tronto",
+                "Timo Norrkniivilä"
+            ],
+            "F' U':[l,U' r U]"
+        ],
         [
             "F2 r U r' u2 r U' r' u2 F2",
             [
@@ -6473,14 +6758,6 @@
             "Uw l':[U2,l' u' l]"
         ],
         [
-            "F' U' l U' r U l' U' r' U2 F",
-            [
-                "Adrian Dębski",
-                "Timo Norrkniivilä"
-            ],
-            "F' U':[l,U' r U]"
-        ],
-        [
             "U2 x' l2 U' r U l2 U' r' U x U2",
             [
                 "Ziyi Xu (徐梓翼)"
@@ -6494,6 +6771,7 @@
             [
                 "Adrian Dębski",
                 "Graham Siggins",
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä"
             ],
             "z U:[l',Uw r Uw']"
@@ -6535,6 +6813,13 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "U2 D':[r2,U l' U']"
+        ],
+        [
+            "U' D' Rw U' r U l' U' r' U l Rw' D U",
+            [
+                "Sebastiano Tronto"
+            ],
+            "U' D' Rw:[U' r U,l']"
         ]
     ],
     "DNP": [
@@ -6550,6 +6835,7 @@
         [
             "F2 l U r U' l' U r' U' F2",
             [
+                "Sebastiano Tronto",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä"
             ],
@@ -6597,6 +6883,7 @@
             [
                 "Adrian Dębski",
                 "Graham Siggins",
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä"
             ],
             "z:[l',Uw r Uw']"
@@ -6639,9 +6926,26 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "U':[U' r2 U,l']"
+        ],
+        [
+            "U' Rw U' r U l' U' r' U l Rw' U",
+            [
+                "Sebastiano Tronto"
+            ],
+            "U' Rw:[U' r U,l']"
         ]
     ],
     "DNS": [
+        [
+            "F' r U2 r' d' r U2 r' d F",
+            [
+                "Graham Siggins",
+                "Hana Davila",
+                "Sebastiano Tronto",
+                "Timo Norrkniivilä"
+            ],
+            "F':[r U2 r',d']"
+        ],
         [
             "S' d l' U2 l d' l' U2 l S",
             [
@@ -6650,15 +6954,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "S':[d,l' U2 l]"
-        ],
-        [
-            "F' r U2 r' d' r U2 r' d F",
-            [
-                "Graham Siggins",
-                "Hana Davila",
-                "Timo Norrkniivilä"
-            ],
-            "F':[r U2 r',d']"
         ],
         [
             "R d2 r' U r d' r' U' r d' R'",
@@ -6684,6 +6979,7 @@
                 "Hana Davila",
                 "Hill Pong Yong Feng",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Tim Wong",
@@ -6699,6 +6995,7 @@
             [
                 "Graham Siggins",
                 "Hana Davila",
+                "Sebastiano Tronto",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä"
             ],
@@ -6743,6 +7040,13 @@
             "r':[d2,r' U r]"
         ],
         [
+            "4Rw U l U r U' l' U r' U2 4Rw'",
+            [
+                "Sebastiano Tronto"
+            ],
+            "4Rw U:[l,U r U']"
+        ],
+        [
             "F U r2 U' l' U r2 U' l F'",
             [
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
@@ -6784,6 +7088,13 @@
                 "Graham Siggins"
             ],
             "U:[l' U2 l,d']"
+        ],
+        [
+            "R Uw' U' r' U l' U' r U l Uw R'",
+            [
+                "Sebastiano Tronto"
+            ],
+            "R Uw':[U' r' U,l']"
         ]
     ],
     "DOE": [
@@ -6799,19 +7110,20 @@
             "U2 u:[r',U l2 U']"
         ],
         [
+            "D' Rw' r' U2 r u r' U2 r u' Rw D",
+            [
+                "Graham Siggins",
+                "Sebastiano Tronto"
+            ],
+            "D' Rw':[r' U2 r,u]"
+        ],
+        [
             "D' r2 U2 r u r' U2 r u' r D",
             [
                 "Hana Davila",
                 "Michael Tripodi"
             ],
             "D' r':[r' U2 r,u]"
-        ],
-        [
-            "D' Rw' r' U2 r u r' U2 r u' Rw D",
-            [
-                "Graham Siggins"
-            ],
-            "D' Rw':[r' U2 r,u]"
         ]
     ],
     "DOF": [
@@ -6821,6 +7133,7 @@
                 "Adrian Dębski",
                 "Graham Siggins",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
@@ -6848,6 +7161,7 @@
             [
                 "Adrian Dębski",
                 "Graham Siggins",
+                "Sebastiano Tronto",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä"
             ],
@@ -6882,6 +7196,13 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "U' D':[l',U' r2 U]"
+        ],
+        [
+            "U' D' 4Rw U' r U l U' r' U 3Rw' D U",
+            [
+                "Sebastiano Tronto"
+            ],
+            "U' D' 4Rw:[U' r U,l]"
         ]
     ],
     "DOP": [
@@ -6896,6 +7217,13 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "D2:[l,U r2 U']"
+        ],
+        [
+            "D2 4Rw' U r' U' l' U r U' 3Rw D2",
+            [
+                "Sebastiano Tronto"
+            ],
+            "D2 4Rw':[U r' U',l']"
         ],
         [
             "U x' r U r' u2 r U' r' u2 x U'",
@@ -6913,6 +7241,7 @@
                 "Graham Siggins",
                 "Hill Pong Yong Feng",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -6954,6 +7283,7 @@
             "R' D Uw r Uw' l2 Uw r' Uw' l2 D' R",
             [
                 "Adrian Dębski",
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä"
             ],
             "R' D:[Uw r Uw',l2]"
@@ -6989,6 +7319,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
@@ -7004,6 +7335,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
@@ -7019,6 +7351,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
@@ -7067,6 +7400,13 @@
             "z:[u',l U2 l']"
         ],
         [
+            "4Rw' U u' l' U' l u l' U l U' 4Rw",
+            [
+                "Sebastiano Tronto"
+            ],
+            "4Rw' U:[u',l' U' l]"
+        ],
+        [
             "L2 d2 r U2 r' d' r U2 r' d' L2",
             [
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
@@ -7094,6 +7434,13 @@
             "y':[d,r U' r']"
         ],
         [
+            "Uw l U' l' d' l U l' d Uw'",
+            [
+                "Sebastiano Tronto"
+            ],
+            "Uw:[l U' l',d']"
+        ],
+        [
             "d2 r U2 r' d' r U2 r' d'",
             [
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
@@ -7114,6 +7461,7 @@
         [
             "F2 U r U' l U r' U' l' F2",
             [
+                "Sebastiano Tronto",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä"
             ],
@@ -7169,6 +7517,13 @@
             "D2:[U r2 U',l]"
         ],
         [
+            "D2 Rw' U r' U' l U r U' l' Rw D2",
+            [
+                "Sebastiano Tronto"
+            ],
+            "D2 Rw':[U r' U',l]"
+        ],
+        [
             "U x' u2 r U r' u2 r U' r' x U'",
             [
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
@@ -7178,6 +7533,16 @@
     ],
     "DPQ": [
         [
+            "S l Uw r Uw' l' Uw r' Uw' S'",
+            [
+                "Michael Tripodi",
+                "Sebastiano Tronto",
+                "Stanley Chapel",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "S:[l,Uw r Uw']"
+        ],
+        [
             "z u r U r' u r U' r' u2 z'",
             [
                 "Adrian Dębski",
@@ -7186,15 +7551,6 @@
                 "Timo Norrkniivilä"
             ],
             "z u:[r U r',u]"
-        ],
-        [
-            "S l Uw r Uw' l' Uw r' Uw' S'",
-            [
-                "Michael Tripodi",
-                "Stanley Chapel",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "S:[l,Uw r Uw']"
         ],
         [
             "L' d2 r U2 r' d' r U2 r' d' L",
@@ -7216,6 +7572,13 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "D':[U r2 U',l]"
+        ],
+        [
+            "D' Rw' U r' U' l U r U' l' Rw D",
+            [
+                "Sebastiano Tronto"
+            ],
+            "D' Rw':[U r' U',l]"
         ]
     ],
     "DPS": [
@@ -7226,6 +7589,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä"
             ],
             "Rw':[Uw r Uw',l]"
@@ -7260,6 +7624,13 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "D:[U r2 U',l]"
+        ],
+        [
+            "D Rw' U r' U' l U r U' l' Rw D'",
+            [
+                "Sebastiano Tronto"
+            ],
+            "D Rw':[U r' U',l]"
         ]
     ],
     "DPX": [
@@ -7275,6 +7646,13 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "[U r2 U',l]"
+        ],
+        [
+            "Rw' U r' U' l U r U' l' Rw",
+            [
+                "Sebastiano Tronto"
+            ],
+            "Rw':[U r' U',l]"
         ],
         [
             "Rw U r U' l U r' U' l' Rw'",
@@ -7301,6 +7679,7 @@
             [
                 "Graham Siggins",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä"
             ],
             "F':[U r U',l]"
@@ -7312,6 +7691,7 @@
             [
                 "Adrian Dębski",
                 "Graham Siggins",
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä"
             ],
             "R2:[Uw r Uw',l]"
@@ -7359,6 +7739,14 @@
             "U l:[l d l',U2]"
         ],
         [
+            "L2 u' r U r' u' r U' r' u2 L2",
+            [
+                "Sebastiano Tronto",
+                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
+            ],
+            "L2 u':[r U r',u']"
+        ],
+        [
             "Lw U' l' U2 l u' l' U2 l Uw Lw'",
             [
                 "Michael Tripodi"
@@ -7371,13 +7759,6 @@
                 "Adrian Dębski"
             ],
             "x' U2:[l' U' l,u']"
-        ],
-        [
-            "L2 u' r U r' u' r U' r' u2 L2",
-            [
-                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
-            ],
-            "L2 u':[r U r',u']"
         ]
     ],
     "DQM": [
@@ -7395,6 +7776,7 @@
             [
                 "Adrian Dębski",
                 "Graham Siggins",
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä"
             ],
             "z:[Uw r Uw',l']"
@@ -7431,6 +7813,7 @@
                 "Graham Siggins",
                 "Hill Pong Yong Feng",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -7460,6 +7843,16 @@
     ],
     "DQP": [
         [
+            "S Uw r Uw' l Uw r' Uw' l' S'",
+            [
+                "Michael Tripodi",
+                "Sebastiano Tronto",
+                "Stanley Chapel",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "S:[Uw r Uw',l]"
+        ],
+        [
             "z u2 r U r' u' r U' r' u' z'",
             [
                 "Adrian Dębski",
@@ -7468,15 +7861,6 @@
                 "Timo Norrkniivilä"
             ],
             "z u:[u,r U r']"
-        ],
-        [
-            "S Uw r Uw' l Uw r' Uw' l' S'",
-            [
-                "Michael Tripodi",
-                "Stanley Chapel",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "S:[Uw r Uw',l]"
         ],
         [
             "L' d r U2 r' d r U2 r' d2 L",
@@ -7495,6 +7879,7 @@
                 "Hana Davila",
                 "Marcell Endrey",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä"
             ],
             "4Uw':[U' r2 U,l']"
@@ -7522,6 +7907,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -7550,6 +7936,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
@@ -7605,6 +7992,13 @@
             "y' D:[U' r2 U,l']"
         ],
         [
+            "E' l2 U r' U' l2 U r 4Uw'",
+            [
+                "Sebastiano Tronto"
+            ],
+            "4Uw:[U' l2 U,r']"
+        ],
+        [
             "y' x r U2 r' u2 r U2 r' u2 x' y",
             [
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
@@ -7635,12 +8029,22 @@
         [
             "Rw' d' r' U r d r' U' r Rw",
             [
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä"
             ],
             "Rw':[d',r' U r]"
         ]
     ],
     "DQY": [
+        [
+            "Rw U' r d' r' U2 r d r' U' Rw'",
+            [
+                "Hana Davila",
+                "Sebastiano Tronto",
+                "Timo Norrkniivilä"
+            ],
+            "Rw U':[r d' r',U2]"
+        ],
         [
             "r U' r d' r' U2 r d r' U' r'",
             [
@@ -7658,14 +8062,6 @@
             "L':[d,r U2 r']"
         ],
         [
-            "Rw U' r d' r' U2 r d r' U' Rw'",
-            [
-                "Hana Davila",
-                "Timo Norrkniivilä"
-            ],
-            "Rw U':[r d' r',U2]"
-        ],
-        [
             "x l U2 l' d' l U2 l' d x'",
             [
                 "Adrian Dębski"
@@ -7679,6 +8075,7 @@
             [
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -7719,18 +8116,19 @@
             "r':[r' U2 r,u]"
         ],
         [
+            "Rw' r' U2 r u r' U2 r u' Rw",
+            [
+                "Sebastiano Tronto",
+                "Timo Norrkniivilä"
+            ],
+            "Rw':[r' U2 r,u]"
+        ],
+        [
             "y' F2 U' r U l2 U' r' U l2 F2 y",
             [
                 "Adrian Dębski"
             ],
             "y' F2:[U' r U,l2]"
-        ],
-        [
-            "Rw' r' U2 r u r' U2 r u' Rw",
-            [
-                "Timo Norrkniivilä"
-            ],
-            "Rw':[r' U2 r,u]"
         ],
         [
             "y' u2 U' r' U l2 U' r U l2 u2 y",
@@ -7747,6 +8145,7 @@
                 "Adrian Dębski",
                 "Graham Siggins",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
@@ -7779,6 +8178,15 @@
             "Dw':[l,U r2 U']"
         ],
         [
+            "Rw r U2 r' d r U2 r' d' Rw'",
+            [
+                "Graham Siggins",
+                "Sebastiano Tronto",
+                "Timo Norrkniivilä"
+            ],
+            "Rw:[r U2 r',d]"
+        ],
+        [
             "y' U' r U l2 U' r' U l2 y",
             [
                 "Adrian Dębski",
@@ -7786,14 +8194,6 @@
                 "Timo Norrkniivilä"
             ],
             "y':[U' r U,l2]"
-        ],
-        [
-            "Rw r U2 r' d r U2 r' d' Rw'",
-            [
-                "Graham Siggins",
-                "Timo Norrkniivilä"
-            ],
-            "Rw:[r U2 r',d]"
         ],
         [
             "r2 U2 r' d r U2 r' d' r'",
@@ -7824,6 +8224,13 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "U':[l',U' r2 U]"
+        ],
+        [
+            "U' 4Rw U' r U l U' r' U 3Rw' U",
+            [
+                "Sebastiano Tronto"
+            ],
+            "U' 4Rw:[U' r U,l]"
         ]
     ],
     "DRP": [
@@ -7838,6 +8245,13 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "D':[l,U r2 U']"
+        ],
+        [
+            "D' 4Rw' U r' U' l' U r U' 3Rw D",
+            [
+                "Sebastiano Tronto"
+            ],
+            "D' 4Rw':[U r' U',l']"
         ]
     ],
     "DRQ": [
@@ -7849,6 +8263,7 @@
                 "Hana Davila",
                 "Marcell Endrey",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä"
             ],
             "4Uw':[l',U' r2 U]"
@@ -7897,6 +8312,13 @@
             "R' Uw':[l,U' r2 U]"
         ],
         [
+            "R' Uw' l Uw' r2 Uw l' Uw' r2 Uw2 R",
+            [
+                "Sebastiano Tronto"
+            ],
+            "R' Uw':[l,Uw' r2 Uw]"
+        ],
+        [
             "Rw2 l u l' U2 l u' l' U2 Rw2",
             [
                 "Timo Norrkniivilä"
@@ -7918,6 +8340,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä"
             ],
             "D2:[U r' U',l2]"
@@ -7949,6 +8372,13 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "U2 D:[r,U l2 U']"
+        ],
+        [
+            "U' 4Rw r U l U' r' U l' U' 4Rw' U",
+            [
+                "Sebastiano Tronto"
+            ],
+            "U' 4Rw:[r,U l U']"
         ],
         [
             "U' x r U l U' r' U l' U' x' U",
@@ -7991,6 +8421,13 @@
             "D' r':[r' U r,d]"
         ],
         [
+            "R2 Uw' l Uw' r2 Uw l' Uw' r2 Uw2 R2",
+            [
+                "Sebastiano Tronto"
+            ],
+            "R2 Uw':[l,Uw' r2 Uw]"
+        ],
+        [
             "R 4Dw' l' U r2 U' l U r2 y' R'",
             [
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
@@ -8007,20 +8444,21 @@
     ],
     "DSE": [
         [
+            "R2 u' r' U2 r u2 r' U2 r u' R2",
+            [
+                "Graham Siggins",
+                "Hana Davila",
+                "Sebastiano Tronto"
+            ],
+            "R2 u':[r' U2 r,u2]"
+        ],
+        [
             "U' u r2 d' r U' r' d r U r u' U",
             [
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
             "U' u r':[r' d' r,U']"
-        ],
-        [
-            "R2 u' r' U2 r u2 r' U2 r u' R2",
-            [
-                "Graham Siggins",
-                "Hana Davila"
-            ],
-            "R2 u':[r' U2 r,u2]"
         ],
         [
             "R2 Uw' r' U' r u2 r' U r u' U R2",
@@ -8061,6 +8499,7 @@
             [
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "R' u:[r U r',u]"
@@ -8081,6 +8520,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
@@ -8097,6 +8537,16 @@
     ],
     "DSN": [
         [
+            "F' d' r U2 r' d r U2 r' F",
+            [
+                "Graham Siggins",
+                "Hana Davila",
+                "Sebastiano Tronto",
+                "Timo Norrkniivilä"
+            ],
+            "F':[d',r U2 r']"
+        ],
+        [
             "S' l' U2 l d l' U2 l d' S",
             [
                 "Michael Tripodi",
@@ -8104,15 +8554,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "S':[l' U2 l,d]"
-        ],
-        [
-            "F' d' r U2 r' d r U2 r' F",
-            [
-                "Graham Siggins",
-                "Hana Davila",
-                "Timo Norrkniivilä"
-            ],
-            "F':[d',r U2 r']"
         ],
         [
             "R d r' U r d r' U' r d2 R'",
@@ -8143,6 +8584,7 @@
             "R' D l2 Uw r Uw' l2 Uw r' Uw' D' R",
             [
                 "Adrian Dębski",
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä"
             ],
             "R' D:[l2,Uw r Uw']"
@@ -8194,7 +8636,8 @@
         [
             "4Rw' Uw r Uw' l' Uw r' Uw' 3Rw",
             [
-                "Hill Pong Yong Feng"
+                "Hill Pong Yong Feng",
+                "Sebastiano Tronto"
             ],
             "3Rw':[l,Uw r Uw']"
         ]
@@ -8206,6 +8649,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -8254,6 +8698,13 @@
             "R' Uw':[U' r2 U,l]"
         ],
         [
+            "R' Uw2 r2 Uw l Uw' r2 Uw l' Uw R",
+            [
+                "Sebastiano Tronto"
+            ],
+            "R' Uw':[Uw' r2 Uw,l]"
+        ],
+        [
             "Rw2 U2 l u l' U2 l u' l' Rw2",
             [
                 "Timo Norrkniivilä"
@@ -8284,7 +8735,8 @@
             [
                 "Graham Siggins",
                 "Hana Davila",
-                "Michael Tripodi"
+                "Michael Tripodi",
+                "Sebastiano Tronto"
             ],
             "Rw':[r' u r,U]"
         ]
@@ -8305,6 +8757,7 @@
             [
                 "Adrian Dębski",
                 "Graham Siggins",
+                "Sebastiano Tronto",
                 "Ziyi Xu (徐梓翼)"
             ],
             "R':[l2,Uw r Uw']"
@@ -8342,6 +8795,14 @@
             "d:[U r2 U',l]"
         ],
         [
+            "R' D' l2 Uw r Uw' l2 Uw r' Uw' D R",
+            [
+                "Adrian Dębski",
+                "Sebastiano Tronto"
+            ],
+            "R' D':[l2,Uw r Uw']"
+        ],
+        [
             "Rw2 U' l u l' U l u' l' Rw2",
             [
                 "Hana Davila",
@@ -8355,13 +8816,6 @@
                 "Graham Siggins"
             ],
             "R' r:[u,r U r']"
-        ],
-        [
-            "R' D' l2 Uw r Uw' l2 Uw r' Uw' D R",
-            [
-                "Adrian Dębski"
-            ],
-            "R' D':[l2,Uw r Uw']"
         ],
         [
             "R2 Uw r2 U' l' U r2 U' l u' R2",
@@ -8380,6 +8834,7 @@
                 "Hana Davila",
                 "Israel Fraga da Silva",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
@@ -8410,7 +8865,8 @@
         [
             "4Rw' u' l' U' l u l' U 3Rw",
             [
-                "Michael Tripodi"
+                "Michael Tripodi",
+                "Sebastiano Tronto"
             ],
             "3Rw':[l u' l',U']"
         ],
@@ -8445,7 +8901,8 @@
             "Rw' U2 r' d r U' r' d' r U' Rw",
             [
                 "Graham Siggins",
-                "Hana Davila"
+                "Hana Davila",
+                "Sebastiano Tronto"
             ],
             "Rw' U:[U,r' d r]"
         ]
@@ -8459,6 +8916,7 @@
                 "Hana Davila",
                 "Hill Pong Yong Feng",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Tim Wong",
@@ -8476,6 +8934,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
@@ -8492,6 +8951,7 @@
                 "Hana Davila",
                 "Israel Fraga da Silva",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
@@ -8520,6 +8980,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä"
             ],
             "D2:[l2,U r' U']"
@@ -8549,7 +9010,8 @@
             [
                 "Graham Siggins",
                 "Hana Davila",
-                "Michael Tripodi"
+                "Michael Tripodi",
+                "Sebastiano Tronto"
             ],
             "Rw':[U,r' u r]"
         ]
@@ -8563,6 +9025,7 @@
                 "Hana Davila",
                 "Israel Fraga da Silva",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
@@ -8579,6 +9042,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
@@ -8621,6 +9085,13 @@
             "x U':[r2,U' l U]"
         ],
         [
+            "4Rw U' r2 U' l U r2 U' l' U2 4Rw'",
+            [
+                "Sebastiano Tronto"
+            ],
+            "4Rw U':[r2,U' l U]"
+        ],
+        [
             "F r' U r d2 r' U' r d2 F'",
             [
                 "Ziyi Xu (徐梓翼)"
@@ -8637,6 +9108,7 @@
                 "Hana Davila",
                 "Israel Fraga da Silva",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
@@ -8664,6 +9136,7 @@
             "U l2 U' l u' l' U l u l U'",
             [
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
@@ -8707,6 +9180,13 @@
             "U 4Rw' U:[l,U r U']"
         ],
         [
+            "D 4Rw' U2 r' U' l' U r U' l U' 4Rw D'",
+            [
+                "Sebastiano Tronto"
+            ],
+            "D 4Rw' U:[U r' U',l']"
+        ],
+        [
             "U2 x' r U' r' d2 r U r' d2 x U2",
             [
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
@@ -8740,6 +9220,13 @@
             "D d':[l,U r2 U']"
         ],
         [
+            "Fw l' u l U' l' u' l U Fw'",
+            [
+                "Sebastiano Tronto"
+            ],
+            "Fw:[l' u l,U']"
+        ],
+        [
             "L' u' U r U' l2 U r' U' l2 u L",
             [
                 "Ziyi Xu (徐梓翼)"
@@ -8760,6 +9247,7 @@
             [
                 "Graham Siggins",
                 "Hana Davila",
+                "Sebastiano Tronto",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä"
             ],
@@ -8795,6 +9283,13 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "D:[l,U r2 U']"
+        ],
+        [
+            "D 4Rw' U r' U' l' U r U' 3Rw D'",
+            [
+                "Sebastiano Tronto"
+            ],
+            "D 4Rw':[U r' U',l']"
         ]
     ],
     "DWQ": [
@@ -8824,6 +9319,13 @@
             "y' D:[l',U' r2 U]"
         ],
         [
+            "4Uw r' U' l2 U r U' l2 E",
+            [
+                "Sebastiano Tronto"
+            ],
+            "4Uw:[r',U' l2 U]"
+        ],
+        [
             "y' x u2 r U2 r' u2 r U2 r' x' y",
             [
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
@@ -8847,6 +9349,7 @@
             [
                 "Adrian Dębski",
                 "Graham Siggins",
+                "Sebastiano Tronto",
                 "Ziyi Xu (徐梓翼)"
             ],
             "R':[Uw r Uw',l2]"
@@ -8882,6 +9385,7 @@
                 "Hana Davila",
                 "Israel Fraga da Silva",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
@@ -8915,6 +9419,7 @@
             "F' U r U' l2 U r' U' l2 F",
             [
                 "Hana Davila",
+                "Sebastiano Tronto",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä"
             ],
@@ -8932,20 +9437,21 @@
             "d:[U r' U',l2]"
         ],
         [
+            "Rw2 Uw r Uw' l2 Uw r' Uw' l2 Rw2",
+            [
+                "Hana Davila",
+                "Sebastiano Tronto",
+                "Timo Norrkniivilä"
+            ],
+            "Rw2:[Uw r Uw',l2]"
+        ],
+        [
             "R2 Uw r Uw' l2 Uw r' Uw' l2 R2",
             [
                 "Adrian Dębski",
                 "Graham Siggins"
             ],
             "R2:[Uw r Uw',l2]"
-        ],
-        [
-            "Rw2 Uw r Uw' l2 Uw r' Uw' l2 Rw2",
-            [
-                "Hana Davila",
-                "Timo Norrkniivilä"
-            ],
-            "Rw2:[Uw r Uw',l2]"
         ],
         [
             "R2 Uw r U' l2 U r' U' l2 u' R2",
@@ -8981,6 +9487,13 @@
                 "Michael Tripodi"
             ],
             "D r':[r' U2 r,u]"
+        ],
+        [
+            "u' 4Rw U r U' l U r' U' 3Rw' u",
+            [
+                "Sebastiano Tronto"
+            ],
+            "u' 4Rw:[U r U',l]"
         ]
     ],
     "DXF": [
@@ -9008,6 +9521,13 @@
                 "Michael Tripodi"
             ],
             "r:[r U r',u2]"
+        ],
+        [
+            "4Rw' U2 r' U' l' U r U' l U' 4Rw",
+            [
+                "Sebastiano Tronto"
+            ],
+            "4Rw' U:[U r' U',l']"
         ],
         [
             "U' x' d2 r' U2 r d2 r' U2 r x U",
@@ -9043,6 +9563,13 @@
             "y' D:[U' r U,l2]"
         ],
         [
+            "D Rw r U2 r' d r U2 r' d' Rw' D'",
+            [
+                "Sebastiano Tronto"
+            ],
+            "D Rw:[r U2 r',d]"
+        ],
+        [
             "L y' l' U' r2 U l U' r2 U y L'",
             [
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
@@ -9072,6 +9599,13 @@
             "r':[r' U r,d2]"
         ],
         [
+            "4Rw U2 r U' l U r' U' l' U' 4Rw'",
+            [
+                "Sebastiano Tronto"
+            ],
+            "4Rw U:[U r U',l]"
+        ],
+        [
             "F l' U r2 U' l U r2 U' F'",
             [
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
@@ -9092,6 +9626,13 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "[l,U r2 U']"
+        ],
+        [
+            "4Rw' U r' U' l' U r U' 3Rw",
+            [
+                "Sebastiano Tronto"
+            ],
+            "4Rw':[U r' U',l']"
         ],
         [
             "Rw l U r U' l' U r' U' Rw'",
@@ -9124,6 +9665,7 @@
         [
             "Rw' r' U r d' r' U' r d Rw",
             [
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä"
             ],
             "Rw':[r' U r,d']"
@@ -9138,6 +9680,14 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "d:[l,U r2 U']"
+        ],
+        [
+            "R' D' Uw r Uw' l2 Uw r' Uw' l2 D R",
+            [
+                "Adrian Dębski",
+                "Sebastiano Tronto"
+            ],
+            "R' D':[Uw r Uw',l2]"
         ],
         [
             "Rw2 l u l' U' l u' l' U Rw2",
@@ -9155,13 +9705,6 @@
             "R' r:[r U r',u]"
         ],
         [
-            "R' D' Uw r Uw' l2 Uw r' Uw' l2 D R",
-            [
-                "Adrian Dębski"
-            ],
-            "R' D':[Uw r Uw',l2]"
-        ],
-        [
             "R2 u l' U r2 U' l U r2 Uw' R2",
             [
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
@@ -9177,6 +9720,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
@@ -9228,6 +9772,13 @@
             "M' U':[r,U' l U]"
         ],
         [
+            "4Rw U' r U' l U r' U' l' U2 4Rw'",
+            [
+                "Sebastiano Tronto"
+            ],
+            "4Rw U':[r,U' l U]"
+        ],
+        [
             "F2 l' U r2 U' l U r2 U' F2",
             [
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
@@ -9249,21 +9800,32 @@
             "r':[r' U r,d]"
         ],
         [
+            "Rw2 U r' u r U' r' u' r Rw2",
+            [
+                "Hana Davila",
+                "Sebastiano Tronto"
+            ],
+            "Rw2:[U,r' u r]"
+        ],
+        [
             "R u l' U r2 U' l U r2 Uw' R'",
             [
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "R u:[l',U r2 U']"
-        ],
-        [
-            "Rw2 U r' u r U' r' u' r Rw2",
-            [
-                "Hana Davila"
-            ],
-            "Rw2:[U,r' u r]"
         ]
     ],
     "DYE": [
+        [
+            "Rw U2 r u r' U2 r u' r' Rw'",
+            [
+                "Graham Siggins",
+                "Hana Davila",
+                "Sebastiano Tronto",
+                "Timo Norrkniivilä"
+            ],
+            "Rw:[U2,r u r']"
+        ],
         [
             "r U2 r u r' U2 r u' r2",
             [
@@ -9272,15 +9834,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "r:[U2,r u r']"
-        ],
-        [
-            "Rw U2 r u r' U2 r u' r' Rw'",
-            [
-                "Graham Siggins",
-                "Hana Davila",
-                "Timo Norrkniivilä"
-            ],
-            "Rw:[U2,r u r']"
         ],
         [
             "Uw' Lw' U2 r U l U' r' U l' U Lw Uw",
@@ -9305,6 +9858,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
@@ -9321,6 +9875,7 @@
                 "Hana Davila",
                 "Israel Fraga da Silva",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
@@ -9346,6 +9901,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
@@ -9371,12 +9927,22 @@
             [
                 "Graham Siggins",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä"
             ],
             "F':[l,U r U']"
         ]
     ],
     "DYQ": [
+        [
+            "Rw U r d' r' U2 r d r' U Rw'",
+            [
+                "Hana Davila",
+                "Sebastiano Tronto",
+                "Timo Norrkniivilä"
+            ],
+            "Rw U:[r d' r',U2]"
+        ],
         [
             "r U r d' r' U2 r d r' U r'",
             [
@@ -9392,14 +9958,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "L':[r U2 r',d]"
-        ],
-        [
-            "Rw U r d' r' U2 r d r' U Rw'",
-            [
-                "Hana Davila",
-                "Timo Norrkniivilä"
-            ],
-            "Rw U:[r d' r',U2]"
         ],
         [
             "x d' l U2 l' d l U2 l' x'",
@@ -9421,6 +9979,13 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "U' D:[l2,U' r U]"
+        ],
+        [
+            "U' 4Rw U l U' r U l' U' r' 4Rw' U",
+            [
+                "Sebastiano Tronto"
+            ],
+            "U' 4Rw:[U l U',r]"
         ],
         [
             "U' x U l U' r U l' U' r' x' U",
@@ -9446,6 +10011,7 @@
                 "Hana Davila",
                 "Israel Fraga da Silva",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
@@ -9487,6 +10053,13 @@
             "x U':[U' l U,r2]"
         ],
         [
+            "4Rw U2 l U r2 U' l' U r2 U 4Rw'",
+            [
+                "Sebastiano Tronto"
+            ],
+            "4Rw U':[U' l U,r2]"
+        ],
+        [
             "F d2 r' U r d2 r' U' r F'",
             [
                 "Ziyi Xu (徐梓翼)"
@@ -9510,6 +10083,7 @@
             "F' l2 U r U' l2 U r' U' F",
             [
                 "Hana Davila",
+                "Sebastiano Tronto",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä"
             ],
@@ -9543,6 +10117,13 @@
             "M' U':[U' l U,r]"
         ],
         [
+            "4Rw U2 l U r U' l' U r' U 4Rw'",
+            [
+                "Sebastiano Tronto"
+            ],
+            "4Rw U':[U' l U,r]"
+        ],
+        [
             "F2 U r2 U' l' U r2 U' l F2",
             [
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
@@ -9565,7 +10146,8 @@
             "R' r U2 r' d' r U2 r' d R",
             [
                 "Adrian Dębski",
-                "Hana Davila"
+                "Hana Davila",
+                "Sebastiano Tronto"
             ],
             "R':[r U2 r',d']"
         ],
@@ -9588,20 +10170,21 @@
             "E:[l',U r' U']"
         ],
         [
+            "R u' r' U2 r u2 r' U2 r u' R'",
+            [
+                "Graham Siggins",
+                "Hana Davila",
+                "Sebastiano Tronto"
+            ],
+            "R u':[r' U2 r,u2]"
+        ],
+        [
             "4Dw l' U r' U' l U r U2 y",
             [
                 "Adrian Dębski",
                 "Timo Norrkniivilä"
             ],
             "4Dw:[l',U r' U']"
-        ],
-        [
-            "R u' r' U2 r u2 r' U2 r u' R'",
-            [
-                "Graham Siggins",
-                "Hana Davila"
-            ],
-            "R u':[r' U2 r,u2]"
         ],
         [
             "R Uw' r' U' r u2 r' U r u' U R'",
@@ -9637,18 +10220,19 @@
             "z' Lw:[U2,l u' l']"
         ],
         [
+            "R2 u r U r' u r U' r' u2 R2",
+            [
+                "Sebastiano Tronto",
+                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
+            ],
+            "R2 u:[r U r',u]"
+        ],
+        [
             "Dw l U2 r' U' l' U r U' l U' l' Dw'",
             [
                 "Adrian Dębski"
             ],
             "Dw l U:[U r' U',l']"
-        ],
-        [
-            "R2 u r U r' u r U' r' u2 R2",
-            [
-                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
-            ],
-            "R2 u:[r U r',u]"
         ]
     ],
     "DZM": [
@@ -9671,18 +10255,19 @@
             "z U:[l2,Uw r Uw']"
         ],
         [
+            "R' d' r U2 r' d2 r U2 r' d' R",
+            [
+                "Hana Davila",
+                "Sebastiano Tronto"
+            ],
+            "R' d':[r U2 r',d2]"
+        ],
+        [
             "R' y' d2 r U' r' d2 r U r' y R",
             [
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "R' y':[d2,r U' r']"
-        ],
-        [
-            "R' d' r U2 r' d2 r U2 r' d' R",
-            [
-                "Hana Davila"
-            ],
-            "R' d':[r U2 r',d2]"
         ]
     ],
     "DZN": [
@@ -9711,6 +10296,13 @@
             "U:[d',l' U2 l]"
         ],
         [
+            "R Uw' l' U' r' U l U' r U Uw R'",
+            [
+                "Sebastiano Tronto"
+            ],
+            "R Uw':[l',U' r' U]"
+        ],
+        [
             "L2 d r' U r d r' U' r d2 L2",
             [
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
@@ -9725,6 +10317,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
@@ -9752,6 +10345,7 @@
             [
                 "Adrian Dębski",
                 "Graham Siggins",
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä"
             ],
             "R2:[l,Uw r Uw']"
@@ -9786,6 +10380,7 @@
             [
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -9840,6 +10435,13 @@
             "D' r':[d,r' U r]"
         ],
         [
+            "R2 Uw2 r2 Uw l Uw' r2 Uw l' Uw R2",
+            [
+                "Sebastiano Tronto"
+            ],
+            "R2 Uw':[Uw' r2 Uw,l]"
+        ],
+        [
             "R y r2 U' l' U r2 U' l 4Dw R'",
             [
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
@@ -9863,6 +10465,7 @@
                 "Hana Davila",
                 "Israel Fraga da Silva",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
@@ -9912,6 +10515,13 @@
             "Rw2:[l2,Uw r Uw']"
         ],
         [
+            "4Rw2 Uw r Uw' l2 Uw r' Uw' 3Rw2",
+            [
+                "Sebastiano Tronto"
+            ],
+            "4Rw2:[Uw r Uw',l2]"
+        ],
+        [
             "R2 u l2 U r U' l2 U r' Uw' R2",
             [
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
@@ -9933,18 +10543,19 @@
             "r':[d,r' U r]"
         ],
         [
+            "Rw2 r' u r U r' u' r U' Rw2",
+            [
+                "Hana Davila",
+                "Sebastiano Tronto"
+            ],
+            "Rw2:[r' u r,U]"
+        ],
+        [
             "R Uw r2 U' l' U r2 U' l u' R'",
             [
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "R u:[U r2 U',l']"
-        ],
-        [
-            "Rw2 r' u r U r' u' r U' Rw2",
-            [
-                "Hana Davila"
-            ],
-            "Rw2:[r' u r,U]"
         ]
     ],
     "DZY": [
@@ -9962,7 +10573,8 @@
             "R' d' r U2 r' d r U2 r' R",
             [
                 "Adrian Dębski",
-                "Hana Davila"
+                "Hana Davila",
+                "Sebastiano Tronto"
             ],
             "R':[d',r U2 r']"
         ],
@@ -10460,6 +11072,13 @@
                 "Howie Craig"
             ],
             "U:[U,r u2 r']"
+        ],
+        [
+            "4Rw U r' U' l U r U' 3Rw'",
+            [
+                "Sebastiano Tronto"
+            ],
+            "4Rw:[U r' U',l]"
         ]
     ],
     "GBE": [
@@ -10807,6 +11426,7 @@
                 "Michael Tripodi",
                 "Oliver Fritz",
                 "Roman Strakhov",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Tom Nelson",
@@ -11053,20 +11673,21 @@
             "Uw':[l u l',U]"
         ],
         [
+            "Rw U r' U' l' U r U' l Rw'",
+            [
+                "Hana Davila",
+                "Michael Tripodi",
+                "Sebastiano Tronto"
+            ],
+            "Rw:[U r' U',l']"
+        ],
+        [
             "x l U r' U' l' U r U' x'",
             [
                 "Adrian Dębski",
                 "Oliver Fritz"
             ],
             "x:[l,U r' U']"
-        ],
-        [
-            "Rw U r' U' l' U r U' l Rw'",
-            [
-                "Hana Davila",
-                "Michael Tripodi"
-            ],
-            "Rw:[U r' U',l']"
         ],
         [
             "U r u2 r' U r u2 r' U2",
@@ -11096,6 +11717,7 @@
                 "Michael Tripodi",
                 "Oliver Fritz",
                 "Roman Strakhov",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Tom Nelson",
@@ -11117,6 +11739,7 @@
                 "Michael Tripodi",
                 "Oliver Fritz",
                 "Roman Strakhov",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
@@ -11151,6 +11774,13 @@
                 "Adrian Dębski"
             ],
             "U2 Rw':[l,U' r U]"
+        ],
+        [
+            "U2 4Rw' U' r U l' U' r' U 3Rw U2",
+            [
+                "Sebastiano Tronto"
+            ],
+            "U2 4Rw':[U' r U,l']"
         ]
     ],
     "GDH": [
@@ -11162,6 +11792,7 @@
                 "Israel Fraga da Silva",
                 "Michael Tripodi",
                 "Oliver Fritz",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tim Wong",
                 "Timo Norrkniivilä",
@@ -11211,6 +11842,7 @@
                 "Michael Tripodi",
                 "Oliver Fritz",
                 "Roman Strakhov",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
@@ -11239,7 +11871,8 @@
             "U r' d r U r' d' r U2",
             [
                 "Graham Siggins",
-                "Hana Davila"
+                "Hana Davila",
+                "Sebastiano Tronto"
             ],
             "U:[r' d r,U]"
         ]
@@ -11274,6 +11907,13 @@
                 "Adrian Dębski"
             ],
             "U2 Rw:[l',U' r' U]"
+        ],
+        [
+            "U2 4Rw U' r' U l U' r U 3Rw' U2",
+            [
+                "Sebastiano Tronto"
+            ],
+            "U2 4Rw:[U' r' U,l]"
         ]
     ],
     "GDO": [
@@ -11282,6 +11922,7 @@
             [
                 "Marcell Endrey",
                 "Oliver Fritz",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -11311,6 +11952,7 @@
             [
                 "Dong Zhu (朱栋)",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä"
             ],
             "Rw':[U r U',l]"
@@ -11357,6 +11999,7 @@
                 "Michael Tripodi",
                 "Oliver Fritz",
                 "Roman Strakhov",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
@@ -11371,6 +12014,7 @@
             [
                 "Marcell Endrey",
                 "Oliver Fritz",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -11426,6 +12070,7 @@
                 "Michael Tripodi",
                 "Oliver Fritz",
                 "Roman Strakhov",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
@@ -11475,6 +12120,13 @@
             "l:[r',U' l' U]"
         ],
         [
+            "M U' l' U r U' l U r' M'",
+            [
+                "Sebastiano Tronto"
+            ],
+            "M:[U' l' U,r]"
+        ],
+        [
             "U2 l d2 l' U l d2 l' U",
             [
                 "Howie Craig"
@@ -11496,6 +12148,7 @@
                 "Cale Schoon",
                 "Graham Siggins",
                 "Oliver Fritz",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -11534,6 +12187,7 @@
                 "Graham Siggins",
                 "Marcell Endrey",
                 "Oliver Fritz",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -11587,6 +12241,13 @@
             "U2 Lw':[U l U',r]"
         ],
         [
+            "U2 l' U l U' r U l' U' r' l U2",
+            [
+                "Sebastiano Tronto"
+            ],
+            "U2 l':[U l U',r]"
+        ],
+        [
             "y r' d r U r' d' r U' y'",
             [
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
@@ -11606,6 +12267,7 @@
                 "Michael Tripodi",
                 "Oliver Fritz",
                 "Roman Strakhov",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
@@ -11660,6 +12322,7 @@
                 "Michael Tripodi",
                 "Oliver Fritz",
                 "Roman Strakhov",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
@@ -12005,7 +12668,8 @@
         [
             "U2 Rw' U' r U l U' r' U l' Rw U2",
             [
-                "Adrian Dębski"
+                "Adrian Dębski",
+                "Sebastiano Tronto"
             ],
             "U2 Rw':[U' r U,l]"
         ]
@@ -12336,6 +13000,7 @@
                 "Israel Fraga da Silva",
                 "Michael Tripodi",
                 "Oliver Fritz",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tim Wong",
                 "Timo Norrkniivilä",
@@ -12698,6 +13363,7 @@
                 "Michael Tripodi",
                 "Oliver Fritz",
                 "Roman Strakhov",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
@@ -13054,7 +13720,8 @@
             "U2 r' d r U' r' d' r U'",
             [
                 "Graham Siggins",
-                "Hana Davila"
+                "Hana Davila",
+                "Sebastiano Tronto"
             ],
             "U:[U,r' d r]"
         ]
@@ -13380,18 +14047,19 @@
             "[U,r d2 r']"
         ],
         [
+            "U2 Rw U' r' U l' U' r U l Rw' U2",
+            [
+                "Adrian Dębski",
+                "Sebastiano Tronto"
+            ],
+            "U2 Rw:[U' r' U,l']"
+        ],
+        [
             "F Rw l' U r' U' l U r U' Rw' F'",
             [
                 "Graham Siggins"
             ],
             "F Rw:[l',U r' U']"
-        ],
-        [
-            "U2 Rw U' r' U l' U' r U l Rw' U2",
-            [
-                "Adrian Dębski"
-            ],
-            "U2 Rw:[U' r' U,l']"
         ],
         [
             "x U2 r' U' l U r U' l' U' x'",
@@ -13788,6 +14456,7 @@
             [
                 "Marcell Endrey",
                 "Oliver Fritz",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -14173,6 +14842,13 @@
             "M:[U r U',l']"
         ],
         [
+            "4Rw' U r U' l' U r' U' 3Rw",
+            [
+                "Sebastiano Tronto"
+            ],
+            "4Rw':[U r U',l']"
+        ],
+        [
             "U2 r' d2 r U' r' d2 r U'",
             [
                 "Howie Craig"
@@ -14489,6 +15165,7 @@
                 "Michael Tripodi",
                 "Oliver Fritz",
                 "Roman Strakhov",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
@@ -14795,6 +15472,17 @@
     ],
     "GRD": [
         [
+            "D' r2 D' l2 D r2 D' l2 D2",
+            [
+                "Marcell Endrey",
+                "Oliver Fritz",
+                "Sebastiano Tronto",
+                "Stanley Chapel",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "D':[r2,D' l2 D]"
+        ],
+        [
             "Lw D' U' l' U r2 U' l U r2 D Lw'",
             [
                 "Graham Siggins",
@@ -14804,16 +15492,6 @@
                 "Timo Norrkniivilä"
             ],
             "Lw D':[U' l' U,r2]"
-        ],
-        [
-            "D' r2 D' l2 D r2 D' l2 D2",
-            [
-                "Marcell Endrey",
-                "Oliver Fritz",
-                "Stanley Chapel",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "D':[r2,D' l2 D]"
         ],
         [
             "U2 Lw r2 U l' U' r2 U l U' Lw' U2",
@@ -15145,6 +15823,7 @@
                 "Michael Tripodi",
                 "Oliver Fritz",
                 "Roman Strakhov",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
@@ -15513,6 +16192,13 @@
             "l:[U' l' U,r']"
         ],
         [
+            "l' U' l U r' U' l' U r l",
+            [
+                "Sebastiano Tronto"
+            ],
+            "l':[U' l U,r']"
+        ],
+        [
             "U' l d2 l' U' l d2 l' U2",
             [
                 "Howie Craig"
@@ -15864,6 +16550,7 @@
             [
                 "Cale Schoon",
                 "Oliver Fritz",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -16262,6 +16949,7 @@
                 "Cale Schoon",
                 "Marcell Endrey",
                 "Oliver Fritz",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -16618,6 +17306,13 @@
                 "Adrian Dębski"
             ],
             "U2 Lw':[r,U l U']"
+        ],
+        [
+            "U2 M' U l U' r' U l' U' r M U2",
+            [
+                "Sebastiano Tronto"
+            ],
+            "U2 M':[U l U',r']"
         ],
         [
             "y U r' d r U' r' d' r y'",
@@ -17003,6 +17698,7 @@
                 "Michael Tripodi",
                 "Oliver Fritz",
                 "Roman Strakhov",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
@@ -17322,6 +18018,7 @@
                 "Hana Davila",
                 "Marcell Endrey",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
@@ -17511,6 +18208,7 @@
                 "Hana Davila",
                 "Israel Fraga da Silva",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Ziyi Xu (徐梓翼)"
@@ -17542,6 +18240,7 @@
             "U2 Uw l Uw' r' Uw l' Uw' r U2",
             [
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -17586,6 +18285,7 @@
                 "Hana Davila",
                 "Marcell Endrey",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Ziyi Xu (徐梓翼)"
@@ -17609,6 +18309,7 @@
                 "Hana Davila",
                 "Israel Fraga da Silva",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Ziyi Xu (徐梓翼)"
@@ -17629,6 +18330,7 @@
             "U2 r' Uw l Uw' r Uw l' Uw' U2",
             [
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -17674,6 +18376,7 @@
                 "Hill Pong Yong Feng",
                 "Israel Fraga da Silva",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
@@ -17709,9 +18412,26 @@
                 "Adrian Dębski"
             ],
             "R' U':[u',r' U' r]"
+        ],
+        [
+            "Rw' U2 l u l' U2 l u' l' Rw",
+            [
+                "Sebastiano Tronto"
+            ],
+            "Rw':[U2,l u l']"
         ]
     ],
     "HDM": [
+        [
+            "Rw' r' d r U2 r' d' r U2 Rw",
+            [
+                "Graham Siggins",
+                "Hana Davila",
+                "Sebastiano Tronto",
+                "Timo Norrkniivilä"
+            ],
+            "Rw':[r' d r,U2]"
+        ],
         [
             "r2 d r U2 r' d' r U2 r",
             [
@@ -17720,15 +18440,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "r':[r' d r,U2]"
-        ],
-        [
-            "Rw' r' d r U2 r' d' r U2 Rw",
-            [
-                "Graham Siggins",
-                "Hana Davila",
-                "Timo Norrkniivilä"
-            ],
-            "Rw':[r' d r,U2]"
         ],
         [
             "U' r2 d r U' r' d' r U r U",
@@ -17753,6 +18464,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Tim Wong",
@@ -17769,6 +18481,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
@@ -17803,6 +18516,13 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "U2 Dw:[r',U l' U']"
+        ],
+        [
+            "Rw' U' r d' r' U2 r d r' U' Rw",
+            [
+                "Sebastiano Tronto"
+            ],
+            "Rw' U':[r d' r',U2]"
         ]
     ],
     "HDR": [
@@ -17812,11 +18532,12 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "U2 D:[r',U l2 U']"
+            "D U':[U' r' U,l2]"
         ],
         [
             "x' l' U2 l u2 l' U2 l u2 x",
@@ -17842,6 +18563,7 @@
             [
                 "Graham Siggins",
                 "Hana Davila",
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä"
             ],
             "Rw' U':[r' u r,U2]"
@@ -17861,6 +18583,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
@@ -17901,6 +18624,13 @@
                 "Michael Tripodi"
             ],
             "M U':[r',U' l' U]"
+        ],
+        [
+            "4Rw' U' r' U' l' U r U' l U2 4Rw",
+            [
+                "Sebastiano Tronto"
+            ],
+            "4Rw' U':[r',U' l' U]"
         ]
     ],
     "HDY": [
@@ -17929,6 +18659,13 @@
                 "Adrian Dębski"
             ],
             "F U':[U' r' U,l']"
+        ],
+        [
+            "U' 4Rw U l U' r2 U l' U' r2 4Rw' U",
+            [
+                "Sebastiano Tronto"
+            ],
+            "U' 4Rw:[U l U',r2]"
         ]
     ],
     "HDZ": [
@@ -17938,6 +18675,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä"
             ],
@@ -17979,6 +18717,7 @@
                 "Hill Pong Yong Feng",
                 "Israel Fraga da Silva",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
@@ -18024,6 +18763,13 @@
                 "Adrian Dębski"
             ],
             "R' U':[r' U' r,u']"
+        ],
+        [
+            "4Rw' u l' U2 l u' l' U2 3Rw",
+            [
+                "Sebastiano Tronto"
+            ],
+            "4Rw':[u,l' U2 l]"
         ]
     ],
     "HMA": [
@@ -18044,6 +18790,16 @@
     ],
     "HMD": [
         [
+            "Rw' U2 r' d r U2 r' d' r Rw",
+            [
+                "Graham Siggins",
+                "Hana Davila",
+                "Sebastiano Tronto",
+                "Timo Norrkniivilä"
+            ],
+            "Rw':[U2,r' d r]"
+        ],
+        [
             "r' U2 r' d r U2 r' d' r2",
             [
                 "Michael Tripodi",
@@ -18051,15 +18807,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "r':[U2,r' d r]"
-        ],
-        [
-            "Rw' U2 r' d r U2 r' d' r Rw",
-            [
-                "Graham Siggins",
-                "Hana Davila",
-                "Timo Norrkniivilä"
-            ],
-            "Rw':[U2,r' d r]"
         ],
         [
             "U' r' U' r' d r U r' d' r2 U",
@@ -18095,6 +18842,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Tim Wong",
@@ -18138,6 +18886,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
@@ -18200,6 +18949,13 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "U' Dw:[l',U' r' U]"
+        ],
+        [
+            "Rw' U r d' r' U2 r d r' U Rw",
+            [
+                "Sebastiano Tronto"
+            ],
+            "Rw' U:[r d' r',U2]"
         ]
     ],
     "HRA": [
@@ -18219,6 +18975,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
@@ -18284,6 +19041,7 @@
             [
                 "Graham Siggins",
                 "Hana Davila",
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä"
             ],
             "Rw' U:[r' u r,U2]"
@@ -18313,6 +19071,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
@@ -18369,6 +19128,13 @@
                 "Michael Tripodi"
             ],
             "M U':[U' l' U,r']"
+        ],
+        [
+            "4Rw' U2 l' U r' U' l U r U 4Rw",
+            [
+                "Sebastiano Tronto"
+            ],
+            "4Rw' U':[U' l' U,r']"
         ]
     ],
     "HXO": [
@@ -18422,6 +19188,13 @@
                 "Adrian Dębski"
             ],
             "F U':[l',U' r' U]"
+        ],
+        [
+            "U' 4Rw r2 U l U' r2 U l' U' 4Rw' U",
+            [
+                "Sebastiano Tronto"
+            ],
+            "U' 4Rw:[r2,U l U']"
         ]
     ],
     "HZA": [
@@ -18441,6 +19214,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä"
             ],
@@ -18510,6 +19284,7 @@
             [
                 "Graham Siggins",
                 "Hana Davila",
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä"
             ],
             "U:[U,r' u r]"
@@ -18716,6 +19491,7 @@
                 "Graham Siggins",
                 "Israel Fraga da Silva",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
@@ -18756,6 +19532,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
@@ -18790,6 +19567,7 @@
             [
                 "Graham Siggins",
                 "Hana Davila",
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä"
             ],
             "U:[r' u r,U]"
@@ -18803,6 +19581,7 @@
                 "Graham Siggins",
                 "Israel Fraga da Silva",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
@@ -18826,6 +19605,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
@@ -18860,6 +19640,14 @@
             "y' F2:[l,U' r U]"
         ],
         [
+            "R' u r' U2 r u2 r' U2 r u R",
+            [
+                "Hana Davila",
+                "Sebastiano Tronto"
+            ],
+            "R' u:[r' U2 r,u2]"
+        ],
+        [
             "R' U' u r' U' r u2 r' U r Uw R",
             [
                 "Michael Tripodi"
@@ -18872,13 +19660,6 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "R' y':[u2,r' U' r]"
-        ],
-        [
-            "R' u r' U2 r u2 r' U2 r u R",
-            [
-                "Hana Davila"
-            ],
-            "R' u:[r' U2 r,u2]"
         ]
     ],
     "IDF": [
@@ -18889,6 +19670,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä"
             ],
@@ -18905,6 +19687,16 @@
     ],
     "IDM": [
         [
+            "4Uw r U' l U r' U' l' E",
+            [
+                "Michael Tripodi",
+                "Sebastiano Tronto",
+                "Stanley Chapel",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "4Uw:[r,U' l U]"
+        ],
+        [
             "y' l U' r U l' U' r' U y",
             [
                 "Adrian Dębski",
@@ -18913,15 +19705,6 @@
                 "Timo Norrkniivilä"
             ],
             "y':[l,U' r U]"
-        ],
-        [
-            "4Uw r U' l U r' U' l' E",
-            [
-                "Michael Tripodi",
-                "Stanley Chapel",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "4Uw:[r,U' l U]"
         ],
         [
             "L' u' r U r' u2 r U' r' u' L",
@@ -18947,6 +19730,16 @@
     ],
     "IDN": [
         [
+            "F Uw r Uw' l' Uw r' Uw' l F'",
+            [
+                "Graham Siggins",
+                "Hana Davila",
+                "Sebastiano Tronto",
+                "Timo Norrkniivilä"
+            ],
+            "F:[Uw r Uw',l']"
+        ],
+        [
             "U l' U2 l' u' l U2 l' u l2 U'",
             [
                 "Michael Tripodi",
@@ -18954,15 +19747,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "U l':[U2,l' u' l]"
-        ],
-        [
-            "F Uw r Uw' l' Uw r' Uw' l F'",
-            [
-                "Graham Siggins",
-                "Hana Davila",
-                "Timo Norrkniivilä"
-            ],
-            "F:[Uw r Uw',l']"
         ],
         [
             "R' Uw' U' r' U l' U' r U l Uw R",
@@ -18987,6 +19771,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
@@ -19017,6 +19802,7 @@
                 "Hana Davila",
                 "Israel Fraga da Silva",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
@@ -19047,6 +19833,13 @@
                 "Adrian Dębski"
             ],
             "y' F':[l,U' r U]"
+        ],
+        [
+            "R' E' l' U r' U' l U r 4Uw' R",
+            [
+                "Sebastiano Tronto"
+            ],
+            "R' 4Uw:[U' l' U,r']"
         ],
         [
             "R' y' U' r' U l' U' r U l y R",
@@ -19083,6 +19876,7 @@
         [
             "Uw' l Uw' r2 Uw l' Uw' r2 Uw2",
             [
+                "Sebastiano Tronto",
                 "Stanley Chapel"
             ],
             "Uw':[l,Uw' r2 Uw]"
@@ -19150,6 +19944,13 @@
             "Rw':[l u l',U']"
         ],
         [
+            "4Rw' u l' U' l u' l' U 3Rw",
+            [
+                "Sebastiano Tronto"
+            ],
+            "4Rw':[u,l' U' l]"
+        ],
+        [
             "x' u l' U' l u' l' U l x",
             [
                 "Ziyi Xu (徐梓翼)"
@@ -19167,6 +19968,7 @@
                 "Hill Pong Yong Feng",
                 "Israel Fraga da Silva",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
@@ -19197,7 +19999,8 @@
         [
             "D' Uw r Uw' l2 Uw r' Uw' l2 D",
             [
-                "Adrian Dębski"
+                "Adrian Dębski",
+                "Sebastiano Tronto"
             ],
             "D':[Uw r Uw',l2]"
         ],
@@ -19228,6 +20031,7 @@
             "Uw' l Uw' r Uw l' Uw' r' Uw2",
             [
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -19281,6 +20085,14 @@
             "y' F2:[U' r U,l]"
         ],
         [
+            "R' u' r' U2 r u2 r' U2 r u' R",
+            [
+                "Hana Davila",
+                "Sebastiano Tronto"
+            ],
+            "R' u':[r' U2 r,u2]"
+        ],
+        [
             "R' Uw' r' U' r u2 r' U r u' U R",
             [
                 "Michael Tripodi"
@@ -19293,13 +20105,6 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "R' y':[r' U' r,u2]"
-        ],
-        [
-            "R' u' r' U2 r u2 r' U2 r u' R",
-            [
-                "Hana Davila"
-            ],
-            "R' u':[r' U2 r,u2]"
         ]
     ],
     "IEN": [
@@ -19342,6 +20147,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä"
             ],
@@ -19375,6 +20181,16 @@
     ],
     "IMD": [
         [
+            "E' l U r U' l' U r' 4Uw'",
+            [
+                "Michael Tripodi",
+                "Sebastiano Tronto",
+                "Stanley Chapel",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "E':[l,U r U']"
+        ],
+        [
             "y' U' r U l U' r' U l' y",
             [
                 "Adrian Dębski",
@@ -19383,15 +20199,6 @@
                 "Timo Norrkniivilä"
             ],
             "y':[U' r U,l]"
-        ],
-        [
-            "E' l U r U' l' U r' 4Uw'",
-            [
-                "Michael Tripodi",
-                "Stanley Chapel",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "E':[l,U r U']"
         ],
         [
             "L' u r U r' u2 r U' r' u L",
@@ -19440,6 +20247,16 @@
     ],
     "IND": [
         [
+            "F l' Uw r Uw' l Uw r' Uw' F'",
+            [
+                "Graham Siggins",
+                "Hana Davila",
+                "Sebastiano Tronto",
+                "Timo Norrkniivilä"
+            ],
+            "F:[l',Uw r Uw']"
+        ],
+        [
             "U l2 u' l U2 l' u l U2 l U'",
             [
                 "Michael Tripodi",
@@ -19447,15 +20264,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "U l':[l' u' l,U2]"
-        ],
-        [
-            "F l' Uw r Uw' l Uw r' Uw' F'",
-            [
-                "Graham Siggins",
-                "Hana Davila",
-                "Timo Norrkniivilä"
-            ],
-            "F:[l',Uw r Uw']"
         ],
         [
             "R' Uw' l' U' r' U l U' r U Uw R",
@@ -19505,6 +20313,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
@@ -19546,6 +20355,7 @@
                 "Hana Davila",
                 "Israel Fraga da Silva",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
@@ -19594,6 +20404,13 @@
             "y' F':[U' r U,l]"
         ],
         [
+            "R' 4Uw r' U' l' U r U' l E R",
+            [
+                "Sebastiano Tronto"
+            ],
+            "R' 4Uw:[r',U' l' U]"
+        ],
+        [
             "R' y' l' U' r' U l U' r U y R",
             [
                 "Timo Norrkniivilä"
@@ -19628,6 +20445,15 @@
     ],
     "IRD": [
         [
+            "Uw2 r2 Uw l Uw' r2 Uw l' Uw",
+            [
+                "Michael Tripodi",
+                "Sebastiano Tronto",
+                "Stanley Chapel"
+            ],
+            "Uw':[Uw' r2 Uw,l]"
+        ],
+        [
             "Uw' U' r2 U l U' r2 U l' Uw",
             [
                 "Graham Siggins",
@@ -19635,14 +20461,6 @@
                 "Timo Norrkniivilä"
             ],
             "Uw':[U' r2 U,l]"
-        ],
-        [
-            "Uw2 r2 Uw l Uw' r2 Uw l' Uw",
-            [
-                "Michael Tripodi",
-                "Stanley Chapel"
-            ],
-            "Uw':[Uw' r2 Uw,l]"
         ],
         [
             "D' r u r U r' u' r U' r2 D",
@@ -19701,20 +20519,21 @@
             "r':[r' u r,U]"
         ],
         [
+            "Rw' U' l u l' U l u' l' Rw",
+            [
+                "Hana Davila",
+                "Sebastiano Tronto",
+                "Timo Norrkniivilä"
+            ],
+            "Rw':[U',l u l']"
+        ],
+        [
             "R2 d r' U r d' r' U' r R2",
             [
                 "Adrian Dębski",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "R2:[d,r' U r]"
-        ],
-        [
-            "Rw' U' l u l' U l u' l' Rw",
-            [
-                "Hana Davila",
-                "Timo Norrkniivilä"
-            ],
-            "Rw':[U',l u l']"
         ],
         [
             "x' l' U' l u l' U l u' x",
@@ -19745,6 +20564,7 @@
                 "Hill Pong Yong Feng",
                 "Israel Fraga da Silva",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
@@ -19792,7 +20612,8 @@
         [
             "D' l2 Uw r Uw' l2 Uw r' Uw' D",
             [
-                "Adrian Dębski"
+                "Adrian Dębski",
+                "Sebastiano Tronto"
             ],
             "D':[l2,Uw r Uw']"
         ],
@@ -19833,6 +20654,7 @@
             "Uw2 r Uw l Uw' r' Uw l' Uw",
             [
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -20805,6 +21627,7 @@
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
                 "Ryan Eckersley",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Tim Wong",
@@ -21564,6 +22387,7 @@
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
                 "Ryan Eckersley",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tim Wong",
                 "Timo Norrkniivilä",
@@ -22283,6 +23107,7 @@
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
                 "Ryan Eckersley",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Tim Wong",
@@ -22318,6 +23143,7 @@
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
                 "Ryan Eckersley",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tim Wong",
                 "Timo Norrkniivilä",
@@ -22366,6 +23192,7 @@
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
                 "Ryan Eckersley",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
@@ -22410,6 +23237,7 @@
             [
                 "Adrian Dębski",
                 "Daniel Wallin",
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä"
             ],
             "Rw' U':[U' r U,l]"
@@ -22480,6 +23308,7 @@
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
                 "Ryan Eckersley",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
@@ -22523,6 +23352,7 @@
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
                 "Ryan Eckersley",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -22557,6 +23387,7 @@
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
                 "Ryan Eckersley",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Tim Wong",
@@ -22629,6 +23460,13 @@
             "Uw':[r' u r,U2]"
         ],
         [
+            "l' U' r U' l U r' U' l' U2 l",
+            [
+                "Sebastiano Tronto"
+            ],
+            "l' U':[r,U' l U]"
+        ],
+        [
             "y' r' u r U2 r' u' r U2 y",
             [
                 "Daniel Lin"
@@ -22656,6 +23494,7 @@
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
                 "Ryan Eckersley",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Tim Wong",
@@ -22705,6 +23544,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Kevin Matthews",
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä"
             ],
             "Rw' U':[U' r U,l']"
@@ -22749,6 +23589,7 @@
                 "Hana Davila",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä"
             ],
             "Rw' U':[U' r U,l2]"
@@ -22823,6 +23664,13 @@
             "U' r' U:[U r U',l]"
         ],
         [
+            "Rw' F' U r U' l U r' U' l' F Rw",
+            [
+                "Sebastiano Tronto"
+            ],
+            "Rw' F':[U r U',l]"
+        ],
+        [
             "4Dw' r' d' r U2 r' d r U' y'",
             [
                 "Kevin Matthews"
@@ -22849,6 +23697,7 @@
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -22910,7 +23759,8 @@
             "D Rw' U2 r U l2 U' r' U l2 U Rw D'",
             [
                 "Adrian Dębski",
-                "Graham Siggins"
+                "Graham Siggins",
+                "Sebastiano Tronto"
             ],
             "D Rw' U':[U' r U,l2]"
         ],
@@ -22994,6 +23844,7 @@
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
                 "Ryan Eckersley",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -23055,6 +23906,13 @@
             "l U':[r',U' l' U]"
         ],
         [
+            "l' U' r' U' l U r U' l' U2 l",
+            [
+                "Sebastiano Tronto"
+            ],
+            "l' U':[r',U' l U]"
+        ],
+        [
             "3Lw' U' r' U' l U r U' l' U2 3Lw",
             [
                 "Kevin Matthews"
@@ -23110,7 +23968,8 @@
             [
                 "Chenhao Sun (孙晨皓)",
                 "Graham Siggins",
-                "Hana Davila"
+                "Hana Davila",
+                "Sebastiano Tronto"
             ],
             "Rw' F':[U r U',l2]"
         ],
@@ -23206,7 +24065,8 @@
             "l U' r2 U' l' U r2 U' l U2 l'",
             [
                 "Michael Tripodi",
-                "Ryan Eckersley"
+                "Ryan Eckersley",
+                "Sebastiano Tronto"
             ],
             "l U':[r2,U' l' U]"
         ],
@@ -23266,6 +24126,7 @@
             "U' Lw U r U l' U' r' U l U2 Lw' U",
             [
                 "Adrian Dębski",
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä"
             ],
             "U' Lw U:[r,U l' U']"
@@ -23348,6 +24209,13 @@
                 "Daniel Wallin"
             ],
             "R:[r u' r',U2]"
+        ],
+        [
+            "Rw' d' r U2 r' d r U2 R",
+            [
+                "Sebastiano Tronto"
+            ],
+            "Rw':[d',r U2 r']"
         ]
     ],
     "JEA": [
@@ -23437,6 +24305,7 @@
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
                 "Ryan Eckersley",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
@@ -24346,6 +25215,7 @@
             [
                 "Adrian Dębski",
                 "Daniel Wallin",
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä"
             ],
             "Rw' U':[l,U' r U]"
@@ -26032,6 +26902,7 @@
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
                 "Ryan Eckersley",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
@@ -26786,6 +27657,7 @@
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
                 "Ryan Eckersley",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -27614,6 +28486,7 @@
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
                 "Ryan Eckersley",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Tim Wong",
@@ -28424,6 +29297,13 @@
                 "Ryan Eckersley"
             ],
             "Uw':[U2,r' u r]"
+        ],
+        [
+            "l' U2 l U r U' l' U r' U l",
+            [
+                "Sebastiano Tronto"
+            ],
+            "l' U':[U' l U,r]"
         ]
     ],
     "JLE": [
@@ -29208,6 +30088,7 @@
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
                 "Ryan Eckersley",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Tim Wong",
@@ -30102,6 +30983,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Kevin Matthews",
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä"
             ],
             "Rw' U':[l',U' r U]"
@@ -30946,6 +31828,7 @@
                 "Hana Davila",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä"
             ],
             "Rw' U':[l2,U' r U]"
@@ -31811,6 +32694,13 @@
             "U' r' U:[l,U r U']"
         ],
         [
+            "Rw' F' l U r U' l' U r' U' F Rw",
+            [
+                "Sebastiano Tronto"
+            ],
+            "Rw' F':[l,U r U']"
+        ],
+        [
             "y U r' d' r U2 r' d r 4Dw",
             [
                 "Kevin Matthews"
@@ -32545,6 +33435,7 @@
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -33377,7 +34268,8 @@
             "D Rw' U' l2 U' r U l2 U' r' U2 Rw D'",
             [
                 "Adrian Dębski",
-                "Graham Siggins"
+                "Graham Siggins",
+                "Sebastiano Tronto"
             ],
             "D Rw' U':[l2,U' r U]"
         ],
@@ -34132,6 +35024,7 @@
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
                 "Ryan Eckersley",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -34940,6 +35833,13 @@
                 "Ryan Eckersley"
             ],
             "l U':[U' l' U,r']"
+        ],
+        [
+            "l' U2 l U r' U' l' U r U l",
+            [
+                "Sebastiano Tronto"
+            ],
+            "l' U':[U' l U,r']"
         ],
         [
             "3Lw' U2 l U r' U' l' U r U 3Lw",
@@ -35844,7 +36744,8 @@
             [
                 "Chenhao Sun (孙晨皓)",
                 "Graham Siggins",
-                "Hana Davila"
+                "Hana Davila",
+                "Sebastiano Tronto"
             ],
             "Rw' F':[l2,U r U']"
         ],
@@ -36721,7 +37622,8 @@
             "l U2 l' U r2 U' l U r2 U l'",
             [
                 "Michael Tripodi",
-                "Ryan Eckersley"
+                "Ryan Eckersley",
+                "Sebastiano Tronto"
             ],
             "l U':[U' l' U,r2]"
         ],
@@ -37463,6 +38365,7 @@
             "U' Lw U2 l' U' r U l U' r' U' Lw' U",
             [
                 "Adrian Dębski",
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä"
             ],
             "U' Lw U:[U l' U',r]"
@@ -38112,7 +39015,6 @@
                 "Kai Yamamoto (山本快)",
                 "Ryan Eckersley",
                 "Stanley Chapel",
-                "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
             "S':[r,Uw l Uw']"
@@ -38123,7 +39025,8 @@
                 "Anto Kam (甘浩東)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
-                "Ethan Pan"
+                "Ethan Pan",
+                "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "U R':[r U' r',d']"
         ],
@@ -38324,6 +39227,13 @@
                 "Daniel Wallin"
             ],
             "R:[U2,r u' r']"
+        ],
+        [
+            "R' U2 r' d' r U2 r' d Rw",
+            [
+                "Sebastiano Tronto"
+            ],
+            "R':[U2,r' d' r]"
         ]
     ],
     "JZE": [
@@ -38931,7 +39841,6 @@
                 "Kai Yamamoto (山本快)",
                 "Ryan Eckersley",
                 "Stanley Chapel",
-                "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
             "S':[Uw l Uw',r]"
@@ -38942,7 +39851,8 @@
                 "Anto Kam (甘浩東)",
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
-                "Ethan Pan"
+                "Ethan Pan",
+                "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "U R':[d',r U' r']"
         ],
@@ -39021,6 +39931,7 @@
                 "Israel Fraga da Silva",
                 "Marcell Endrey",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Tim Wong",
@@ -39313,6 +40224,13 @@
             "Rw:[l',Uw r Uw']"
         ],
         [
+            "4Rw Uw r Uw' l Uw r' Uw' 3Rw'",
+            [
+                "Sebastiano Tronto"
+            ],
+            "4Rw:[Uw r Uw',l]"
+        ],
+        [
             "y' r' U' r u' r' U r u y",
             [
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
@@ -39352,6 +40270,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
@@ -39387,6 +40306,7 @@
                 "Israel Fraga da Silva",
                 "Marcell Endrey",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Tim Wong",
@@ -39420,7 +40340,8 @@
         [
             "Rw Uw r Uw' l' Uw r' Uw' l Rw'",
             [
-                "Graham Siggins"
+                "Graham Siggins",
+                "Sebastiano Tronto"
             ],
             "Rw:[Uw r Uw',l']"
         ],
@@ -39440,6 +40361,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
@@ -39460,6 +40382,7 @@
             [
                 "Graham Siggins",
                 "Hana Davila",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -39495,6 +40418,7 @@
             [
                 "Graham Siggins",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
@@ -39531,6 +40455,7 @@
                 "Michael Tripodi",
                 "Oliver Fritz",
                 "Roman Strakhov",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Tim Wong",
@@ -39548,6 +40473,7 @@
                 "Graham Siggins",
                 "Israel Fraga da Silva",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
@@ -39570,6 +40496,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
@@ -39616,6 +40543,13 @@
             "x z':[l2,U r' U']"
         ],
         [
+            "R 4Uw r U' l U r' U' l' E R'",
+            [
+                "Sebastiano Tronto"
+            ],
+            "R 4Uw:[r,U' l U]"
+        ],
+        [
             "R y' l U' r U l' U' r' U y R'",
             [
                 "Timo Norrkniivilä"
@@ -39645,6 +40579,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
@@ -39666,6 +40601,7 @@
                 "Adrian Dębski",
                 "Graham Siggins",
                 "Hana Davila",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
@@ -39702,6 +40638,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä"
             ],
             "Rw:[Uw r Uw',l]"
@@ -39725,6 +40662,16 @@
     ],
     "KDQ": [
         [
+            "E' l' U r' U' l U r 4Uw'",
+            [
+                "Michael Tripodi",
+                "Sebastiano Tronto",
+                "Stanley Chapel",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "E':[l',U r' U']"
+        ],
+        [
             "y' U' r' U l' U' r U l y",
             [
                 "Adrian Dębski",
@@ -39733,15 +40680,6 @@
                 "Timo Norrkniivilä"
             ],
             "y':[U' r' U,l']"
-        ],
-        [
-            "E' l' U r' U' l U r 4Uw'",
-            [
-                "Michael Tripodi",
-                "Stanley Chapel",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "E':[l',U r' U']"
         ],
         [
             "L U u' l' U' l u2 l' U l Uw' L'",
@@ -39777,6 +40715,13 @@
             "y:[U' l' U,r2]"
         ],
         [
+            "R Uw' l U' r2 U l' U' r2 U Uw R'",
+            [
+                "Sebastiano Tronto"
+            ],
+            "R Uw':[l,U' r2 U]"
+        ],
+        [
             "Uw D' U' l' U r2 U' l U r2 D Uw'",
             [
                 "Ziyi Xu (徐梓翼)"
@@ -39798,6 +40743,7 @@
                 "Adrian Dębski",
                 "Graham Siggins",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
@@ -39827,7 +40773,8 @@
             "R Uw r Uw' l2 Uw r' Uw' l2 R'",
             [
                 "Adrian Dębski",
-                "Graham Siggins"
+                "Graham Siggins",
+                "Sebastiano Tronto"
             ],
             "R:[Uw r Uw',l2]"
         ],
@@ -39865,6 +40812,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä"
             ],
             "Rw:[r U r',u]"
@@ -39883,6 +40831,7 @@
             [
                 "Graham Siggins",
                 "Hana Davila",
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä"
             ],
             "Rw U:[r' u r,U2]"
@@ -39933,6 +40882,7 @@
             [
                 "Graham Siggins",
                 "Hana Davila",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -40000,6 +40950,7 @@
             [
                 "Graham Siggins",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
@@ -40112,6 +41063,7 @@
                 "Michael Tripodi",
                 "Oliver Fritz",
                 "Roman Strakhov",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Tim Wong",
@@ -40457,6 +41409,7 @@
                 "Graham Siggins",
                 "Israel Fraga da Silva",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
@@ -40521,6 +41474,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
@@ -40590,6 +41544,13 @@
             "x z':[U r' U',l2]"
         ],
         [
+            "R E' l U r U' l' U r' 4Uw' R'",
+            [
+                "Sebastiano Tronto"
+            ],
+            "R 4Uw:[U' l U,r]"
+        ],
+        [
             "R y' U' r U l U' r' U l' y R'",
             [
                 "Timo Norrkniivilä"
@@ -40653,6 +41614,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
@@ -40719,6 +41681,7 @@
                 "Adrian Dębski",
                 "Graham Siggins",
                 "Hana Davila",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
@@ -40797,6 +41760,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä"
             ],
             "Rw:[l,Uw r Uw']"
@@ -40862,6 +41826,16 @@
     ],
     "KQD": [
         [
+            "4Uw r' U' l' U r U' l E",
+            [
+                "Michael Tripodi",
+                "Sebastiano Tronto",
+                "Stanley Chapel",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "4Uw:[r',U' l' U]"
+        ],
+        [
             "y' l' U' r' U l U' r U y",
             [
                 "Adrian Dębski",
@@ -40870,15 +41844,6 @@
                 "Timo Norrkniivilä"
             ],
             "y':[l',U' r' U]"
-        ],
-        [
-            "4Uw r' U' l' U r U' l E",
-            [
-                "Michael Tripodi",
-                "Stanley Chapel",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "E':[U r' U',l']"
         ],
         [
             "L Uw l' U' l u2 l' U l u U' L'",
@@ -40947,6 +41912,13 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "y:[r2,U' l' U]"
+        ],
+        [
+            "R Uw2 r2 Uw l Uw' r2 Uw l' Uw R'",
+            [
+                "Sebastiano Tronto"
+            ],
+            "R Uw':[Uw' r2 Uw,l]"
         ],
         [
             "Uw D' r2 U' l' U r2 U' l U D Uw'",
@@ -41025,6 +41997,7 @@
                 "Adrian Dębski",
                 "Graham Siggins",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
@@ -41089,7 +42062,8 @@
             "R l2 Uw r Uw' l2 Uw r' Uw' R'",
             [
                 "Adrian Dębski",
-                "Graham Siggins"
+                "Graham Siggins",
+                "Sebastiano Tronto"
             ],
             "R:[l2,Uw r Uw']"
         ],
@@ -41172,6 +42146,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä"
             ],
             "Rw:[u,r U r']"
@@ -41248,6 +42223,7 @@
             [
                 "Graham Siggins",
                 "Hana Davila",
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä"
             ],
             "Rw U':[r' u r,U2]"
@@ -41329,7 +42305,8 @@
         [
             "Uw U r' u' r U' r' u r Uw'",
             [
-                "Graham Siggins"
+                "Graham Siggins",
+                "Sebastiano Tronto"
             ],
             "Uw:[U,r' u' r]"
         ],
@@ -41571,6 +42548,7 @@
                 "Hana Davila",
                 "Israel Fraga da Silva",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Tim Wong",
@@ -41616,7 +42594,8 @@
         [
             "Uw r' u' r U r' u r U' Uw'",
             [
-                "Graham Siggins"
+                "Graham Siggins",
+                "Sebastiano Tronto"
             ],
             "Uw:[r' u' r,U]"
         ],
@@ -41637,6 +42616,7 @@
                 "Hana Davila",
                 "Israel Fraga da Silva",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Tim Wong",
@@ -41653,6 +42633,7 @@
                 "Adrian Dębski",
                 "Graham Siggins",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -41676,6 +42657,7 @@
                 "Hana Davila",
                 "Israel Fraga da Silva",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Tim Wong",
@@ -41713,6 +42695,13 @@
             "x:[r',U' l U]"
         ],
         [
+            "l' U' l U r U' l' U r' l",
+            [
+                "Sebastiano Tronto"
+            ],
+            "l':[U' l U,r]"
+        ],
+        [
             "U' l' u2 l U' l' u2 l U2",
             [
                 "Howie Craig"
@@ -41742,7 +42731,8 @@
         [
             "4Rw' U2 l' U r2 U' l U r2 U 4Rw",
             [
-                "Adrian Dębski"
+                "Adrian Dębski",
+                "Sebastiano Tronto"
             ],
             "4Rw' U':[U' l' U,r2]"
         ],
@@ -41763,6 +42753,7 @@
                 "Hana Davila",
                 "Israel Fraga da Silva",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Tim Wong",
@@ -41786,6 +42777,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
@@ -41810,6 +42802,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
@@ -41826,6 +42819,7 @@
                 "Hana Davila",
                 "Israel Fraga da Silva",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
@@ -41857,7 +42851,8 @@
         [
             "Rw r d' r' U r d r' U' Rw'",
             [
-                "Graham Siggins"
+                "Graham Siggins",
+                "Sebastiano Tronto"
             ],
             "Rw:[r d' r',U]"
         ]
@@ -41869,6 +42864,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -41903,6 +42899,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä"
             ],
@@ -41958,6 +42955,13 @@
                 "Adrian Dębski"
             ],
             "4Rw':[U' l' U,r2]"
+        ],
+        [
+            "F' l' U r' U' l U r U' F",
+            [
+                "Sebastiano Tronto"
+            ],
+            "F':[l',U r' U']"
         ]
     ],
     "LDW": [
@@ -41969,6 +42973,7 @@
                 "Hana Davila",
                 "Israel Fraga da Silva",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
@@ -41985,6 +42990,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -42011,6 +43017,7 @@
             [
                 "Graham Siggins",
                 "Hana Davila",
+                "Sebastiano Tronto",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
@@ -42051,6 +43058,7 @@
                 "Adrian Dębski",
                 "Graham Siggins",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -42100,6 +43108,7 @@
                 "Hana Davila",
                 "Israel Fraga da Silva",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Tim Wong",
@@ -42205,6 +43214,13 @@
                 "Graham Siggins"
             ],
             "Lw:[r,U' l' U]"
+        ],
+        [
+            "M' U' l U r' U' l' U r M",
+            [
+                "Sebastiano Tronto"
+            ],
+            "M':[U' l U,r']"
         ],
         [
             "U2 l' u2 l U l' u2 l U",
@@ -42529,7 +43545,8 @@
         [
             "4Rw' U' r2 U' l' U r2 U' l U2 4Rw",
             [
-                "Adrian Dębski"
+                "Adrian Dębski",
+                "Sebastiano Tronto"
             ],
             "4Rw' U':[r2,U' l' U]"
         ],
@@ -42574,6 +43591,7 @@
                 "Hana Davila",
                 "Israel Fraga da Silva",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Tim Wong",
@@ -42626,6 +43644,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
@@ -42678,6 +43697,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
@@ -42718,6 +43738,7 @@
                 "Hana Davila",
                 "Israel Fraga da Silva",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
@@ -42781,7 +43802,8 @@
         [
             "Rw U r d' r' U' r d r' Rw'",
             [
-                "Graham Siggins"
+                "Graham Siggins",
+                "Sebastiano Tronto"
             ],
             "Rw:[U,r d' r']"
         ]
@@ -42840,6 +43862,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -42909,6 +43932,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä"
             ],
@@ -43005,6 +44029,13 @@
                 "Adrian Dębski"
             ],
             "4Rw':[r2,U' l' U]"
+        ],
+        [
+            "F' U r' U' l' U r U' l F",
+            [
+                "Sebastiano Tronto"
+            ],
+            "F':[U r' U',l']"
         ]
     ],
     "LTG": [
@@ -43065,6 +44096,7 @@
                 "Hana Davila",
                 "Israel Fraga da Silva",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
@@ -43121,6 +44153,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -43186,6 +44219,7 @@
             [
                 "Graham Siggins",
                 "Hana Davila",
+                "Sebastiano Tronto",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
                 "Ziyi Xu (徐梓翼)"
