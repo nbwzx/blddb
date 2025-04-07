@@ -31647,6 +31647,7 @@
                 "Roman Strakhov",
                 "Tommy Cherry",
                 "Yomie Ko (고현승)",
+                "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
             [
@@ -46747,8 +46748,7 @@
             ],
             [
                 "Chenhao Sun (孙晨皓)",
-                "Michael Tripodi",
-                "Sebastiano Tronto"
+                "Michael Tripodi"
             ],
             [
                 "[S,R U' R']"
@@ -46976,7 +46976,6 @@
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -49346,7 +49345,6 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Rob Holt",
-                "Sebastiano Tronto",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -51287,8 +51285,7 @@
             ],
             [
                 "Chenhao Sun (孙晨皓)",
-                "Michael Tripodi",
-                "Sebastiano Tronto"
+                "Michael Tripodi"
             ],
             [
                 "[R U' R',S]"
@@ -54252,7 +54249,6 @@
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -56820,21 +56816,18 @@
     "CSY": [
         [
             [
-                "R U2 R' E R2 E' R' U2 R'",
-                "R U2 l' S R2 S' R2 l U2 R'"
+                "R U2 R' E R2 E' R' U2 R'"
             ],
             [
                 "Andrew Tan Jing Bang",
                 "Elliott Kobelansky",
                 "Graham Siggins",
-                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
-                "R U2 R':[E,R2]",
-                "R U2 l':[S,R2]"
+                "R U2 R':[E,R2]"
             ]
         ],
         [
@@ -59086,7 +59079,6 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Rob Holt",
-                "Sebastiano Tronto",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -59471,21 +59463,18 @@
     "CYS": [
         [
             [
-                "R U2 R E R2 E' R U2 R'",
-                "R U2 R2 l' S R2 S' l U2 R'"
+                "R U2 R E R2 E' R U2 R'"
             ],
             [
                 "Andrew Tan Jing Bang",
                 "Elliott Kobelansky",
                 "Graham Siggins",
-                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
-                "R U2 R:[E,R2]",
-                "R U2 l':[R2,S]"
+                "R U2 R:[E,R2]"
             ]
         ],
         [
@@ -74359,23 +74348,6 @@
         ],
         [
             [
-                "S r' F' r S' r' F r",
-                "S L' U' L S' L' U L"
-            ],
-            [
-                "Dhruv Ambastha",
-                "Gianfranco Huanqui",
-                "Ishaan Agrawal",
-                "Kevin Matthews",
-                "Sebastiano Tronto"
-            ],
-            [
-                "[S,r' F' r]",
-                "[S,L' U' L]"
-            ]
-        ],
-        [
-            [
                 "S U' R' E' R U R' E R S'"
             ],
             [
@@ -74390,6 +74362,22 @@
         ],
         [
             [
+                "S r' F' r S' r' F r",
+                "S L' U' L S' L' U L"
+            ],
+            [
+                "Dhruv Ambastha",
+                "Gianfranco Huanqui",
+                "Ishaan Agrawal",
+                "Kevin Matthews"
+            ],
+            [
+                "[S,r' F' r]",
+                "[S,L' U' L]"
+            ]
+        ],
+        [
+            [
                 "U' r U R' U' M U R U' R' U"
             ],
             [
@@ -74399,6 +74387,17 @@
             ],
             [
                 "U' R:[M',U R' U']"
+            ]
+        ],
+        [
+            [
+                "S U' R' U R S' R' U' R U"
+            ],
+            [
+                "Sebastiano Tronto"
+            ],
+            [
+                "[S,U' R' U R]"
             ]
         ]
     ],
@@ -74438,7 +74437,6 @@
                 "Morimichi Kikuchi (菊地守道)",
                 "Neel Gore",
                 "Roman Strakhov",
-                "Sebastiano Tronto",
                 "Shuto Ueno (上野柊斗)",
                 "Timothy Loh",
                 "Tommy Cherry",
@@ -74542,6 +74540,17 @@
             ],
             [
                 "S U':[R E R',U2]"
+            ]
+        ],
+        [
+            [
+                "R' B' R2 E R' U' R E' R' U R' B R"
+            ],
+            [
+                "Sebastiano Tronto"
+            ],
+            [
+                "R' B' R:[R E R',U']"
             ]
         ],
         [
@@ -75090,7 +75099,6 @@
                 "Enoch Gray",
                 "Ishaan Agrawal",
                 "Oliver Fritz",
-                "Sebastiano Tronto",
                 "Zhi Qiao (乔智)"
             ],
             [
@@ -75104,6 +75112,7 @@
             [
                 "Bertie Longden",
                 "Christopher Morris",
+                "Sebastiano Tronto",
                 "Xin Shi (石欣)"
             ],
             [
@@ -75251,7 +75260,6 @@
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Martin Vædele Egdal",
-                "Sebastiano Tronto",
                 "Shuto Ueno (上野柊斗)",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Yomie Ko (고현승)",
@@ -75269,6 +75277,7 @@
                 "Chenhao Sun (孙晨皓)",
                 "Liren Sun (孙立仁)",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Xin Shi (石欣)",
                 "Yiwei Liu (刘伊玮)",
                 "Zhi Qiao (乔智)"
@@ -75414,7 +75423,6 @@
                 "Elliott Kobelansky",
                 "Ishaan Agrawal",
                 "Oliver Fritz",
-                "Sebastiano Tronto",
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Zixing Wang (王子兴)"
             ],
@@ -75459,6 +75467,17 @@
             ],
             [
                 "R' U R U:[M,U2]"
+            ]
+        ],
+        [
+            [
+                "R U R' D' S R2 S' R2 D R U' R'"
+            ],
+            [
+                "Sebastiano Tronto"
+            ],
+            [
+                "R U R' D':[S,R2]"
             ]
         ],
         [
@@ -75909,6 +75928,7 @@
                 "Morimichi Kikuchi (菊地守道)",
                 "Neel Gore",
                 "Roman Strakhov",
+                "Sebastiano Tronto",
                 "Shuto Ueno (上野柊斗)",
                 "Timothy Loh",
                 "Tommy Cherry",
@@ -75925,21 +75945,6 @@
         ],
         [
             [
-                "R M U M' U' R' U M U' M'"
-            ],
-            [
-                "Bertie Longden",
-                "Hongjie Zhang (张鸿杰)",
-                "Ishaan Agrawal",
-                "Oliver Fritz",
-                "Sebastiano Tronto"
-            ],
-            [
-                "M:[R,U M' U']"
-            ]
-        ],
-        [
-            [
                 "U2 L' E2 L U' L' E2 L U'"
             ],
             [
@@ -75950,6 +75955,20 @@
             ],
             [
                 "U:[U,L' E2 L]"
+            ]
+        ],
+        [
+            [
+                "R M U M' U' R' U M U' M'"
+            ],
+            [
+                "Bertie Longden",
+                "Hongjie Zhang (张鸿杰)",
+                "Ishaan Agrawal",
+                "Oliver Fritz"
+            ],
+            [
+                "M:[R,U M' U']"
             ]
         ],
         [
@@ -76114,6 +76133,7 @@
                 "Chenhao Sun (孙晨皓)",
                 "Ishaan Agrawal",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Tommy Cherry",
                 "Xin Shi (石欣)",
                 "Yangyang Shen (沈炀炀)",
@@ -76215,6 +76235,7 @@
             ],
             [
                 "Dhruv Ambastha",
+                "Sebastiano Tronto",
                 "Tommy Cherry",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -76252,18 +76273,6 @@
         ],
         [
             [
-                "M2 L' U' M U2 M' U' M2 L"
-            ],
-            [
-                "Ishaan Agrawal",
-                "Sebastiano Tronto"
-            ],
-            [
-                "M2 L' U':[M,U2]"
-            ]
-        ],
-        [
-            [
                 "L2 U L' U' L' U' L' U L U L'"
             ],
             [
@@ -76283,6 +76292,17 @@
             ],
             [
                 "[L S2 L',U']"
+            ]
+        ],
+        [
+            [
+                "M2 L' U' M U2 M' U' M2 L"
+            ],
+            [
+                "Ishaan Agrawal"
+            ],
+            [
+                "M2 L' U':[M,U2]"
             ]
         ],
         [
@@ -76479,6 +76499,7 @@
                 "R' E' R2 E R' U' R E' R2 E R U"
             ],
             [
+                "Sebastiano Tronto",
                 "Yifan Wang (王逸帆)",
                 "Zixing Wang (王子兴)"
             ],
@@ -76519,17 +76540,6 @@
             ],
             [
                 "[L' S2 L,U']"
-            ]
-        ],
-        [
-            [
-                "M2 L U' M U2 M' U' M2 L'"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "M2 L U':[M,U2]"
             ]
         ],
         [
@@ -76661,6 +76671,7 @@
                 "Morimichi Kikuchi (菊地守道)",
                 "Neel Gore",
                 "Roman Strakhov",
+                "Sebastiano Tronto",
                 "Shuto Ueno (上野柊斗)",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)",
@@ -76685,7 +76696,6 @@
                 "Liren Sun (孙立仁)",
                 "Martin Vædele Egdal",
                 "Oliver Fritz",
-                "Sebastiano Tronto",
                 "Timothy Loh",
                 "Yiwei Liu (刘伊玮)",
                 "Zhi Qiao (乔智)"
@@ -76811,7 +76821,6 @@
                 "Neel Gore",
                 "Oliver Fritz",
                 "Roman Strakhov",
-                "Sebastiano Tronto",
                 "Shuto Ueno (上野柊斗)",
                 "Timothy Loh",
                 "Tommy Cherry",
@@ -76836,6 +76845,7 @@
                 "Ishaan Agrawal",
                 "Liren Sun (孙立仁)",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Xin Shi (石欣)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
@@ -77300,7 +77310,6 @@
                 "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Oliver Fritz",
-                "Sebastiano Tronto",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timothy Loh",
                 "Tommy Cherry",
@@ -77330,6 +77339,7 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Kevin Matthews",
                 "Roman Strakhov",
+                "Sebastiano Tronto",
                 "Shuto Ueno (上野柊斗)",
                 "Xin Shi (石欣)",
                 "Yangyang Shen (沈炀炀)",
@@ -77462,6 +77472,7 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Kevin Matthews",
                 "Oliver Fritz",
+                "Sebastiano Tronto",
                 "Timothy Loh",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -77520,18 +77531,6 @@
         ],
         [
             [
-                "l u' M' u2 M' u' l'"
-            ],
-            [
-                "Sebastiano Tronto",
-                "Xin Shi (石欣)"
-            ],
-            [
-                "Not found."
-            ]
-        ],
-        [
-            [
                 "U M2 L' U' L U M U' L' U l U'"
             ],
             [
@@ -77539,6 +77538,17 @@
             ],
             [
                 "U l':[M',U' L U]"
+            ]
+        ],
+        [
+            [
+                "l u' M' u2 M' u' l'"
+            ],
+            [
+                "Xin Shi (石欣)"
+            ],
+            [
+                "Not found."
             ]
         ],
         [
@@ -77628,7 +77638,6 @@
                 "Neel Gore",
                 "Oliver Fritz",
                 "Roman Strakhov",
-                "Sebastiano Tronto",
                 "Shuto Ueno (上野柊斗)",
                 "Timothy Loh",
                 "Yiwei Liu (刘伊玮)",
@@ -77652,6 +77661,7 @@
                 "Chenhao Sun (孙晨皓)",
                 "Kai Yamamoto (山本快)",
                 "Martin Vædele Egdal",
+                "Sebastiano Tronto",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
@@ -78111,6 +78121,7 @@
                 "Keita Hayakawa (早川慶太)",
                 "Morimichi Kikuchi (菊地守道)",
                 "Roman Strakhov",
+                "Sebastiano Tronto",
                 "Shuto Ueno (上野柊斗)",
                 "Timothy Loh",
                 "Tommy Cherry",
@@ -78144,17 +78155,6 @@
             ],
             [
                 "R U:[B,R' S R]"
-            ]
-        ],
-        [
-            [
-                "r U' R' U' M' U2 M U' R U r'"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "r U' R' U':[M',U2]"
             ]
         ],
         [
@@ -78546,6 +78546,7 @@
                 "Bowen Xiao (肖博文)",
                 "Chenhao Sun (孙晨皓)",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Xin Shi (石欣)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
@@ -78567,17 +78568,6 @@
             [
                 "Not found.",
                 "l:[R,U' M2 U]"
-            ]
-        ],
-        [
-            [
-                "U2 r U M U2 M' U r' U2"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "U2 r U:[M,U2]"
             ]
         ],
         [
@@ -78627,6 +78617,7 @@
                 "Kevin Matthews",
                 "Liren Sun (孙立仁)",
                 "Roman Strakhov",
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä",
                 "Timothy Loh",
                 "Xin Shi (石欣)",
@@ -78671,21 +78662,6 @@
         ],
         [
             [
-                "U R M U M' U2 M U R' M' U'"
-            ],
-            [
-                "Bertie Longden",
-                "Ishaan Agrawal",
-                "Martin Vædele Egdal",
-                "Sebastiano Tronto",
-                "Zhi Qiao (乔智)"
-            ],
-            [
-                "U R M U:[M',U2]"
-            ]
-        ],
-        [
-            [
                 "M' U2 L E' L' U L E L' U M"
             ],
             [
@@ -78696,6 +78672,20 @@
             ],
             [
                 "M' U':[U',L E' L']"
+            ]
+        ],
+        [
+            [
+                "U R M U M' U2 M U R' M' U'"
+            ],
+            [
+                "Bertie Longden",
+                "Ishaan Agrawal",
+                "Martin Vædele Egdal",
+                "Zhi Qiao (乔智)"
+            ],
+            [
+                "U R M U:[M',U2]"
             ]
         ],
         [
@@ -78829,7 +78819,6 @@
                 "Neel Gore",
                 "Oliver Fritz",
                 "Roman Strakhov",
-                "Sebastiano Tronto",
                 "Timothy Loh",
                 "Tommy Cherry",
                 "Xin Shi (石欣)",
@@ -78888,6 +78877,17 @@
             ],
             [
                 "S R' F:[R S' R',F]"
+            ]
+        ],
+        [
+            [
+                "R E R' U' R' E2 R U R' E R"
+            ],
+            [
+                "Sebastiano Tronto"
+            ],
+            [
+                "Not found."
             ]
         ],
         [
@@ -78959,6 +78959,7 @@
                 "Masato Fujiwara (藤原正人)",
                 "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
+                "Sebastiano Tronto",
                 "Shuto Ueno (上野柊斗)",
                 "Timothy Loh",
                 "Yangyang Shen (沈炀炀)",
@@ -79013,21 +79014,6 @@
         ],
         [
             [
-                "F' L' U' M' U2 M U' L F"
-            ],
-            [
-                "Grzegorz Jałocha",
-                "Ishaan Agrawal",
-                "Sebastiano Tronto",
-                "Xin Shi (石欣)",
-                "Zhi Qiao (乔智)"
-            ],
-            [
-                "F' L' U':[M',U2]"
-            ]
-        ],
-        [
-            [
                 "U' l' U M U2 M' U l U"
             ],
             [
@@ -79038,6 +79024,20 @@
             ],
             [
                 "U' l' U:[M,U2]"
+            ]
+        ],
+        [
+            [
+                "F' L' U' M' U2 M U' L F"
+            ],
+            [
+                "Grzegorz Jałocha",
+                "Ishaan Agrawal",
+                "Xin Shi (石欣)",
+                "Zhi Qiao (乔智)"
+            ],
+            [
+                "F' L' U':[M',U2]"
             ]
         ],
         [
@@ -79124,7 +79124,6 @@
                 "Martin Vædele Egdal",
                 "Michael Tripodi",
                 "Oliver Fritz",
-                "Sebastiano Tronto",
                 "Shuto Ueno (上野柊斗)",
                 "Timothy Loh",
                 "Tommy Cherry",
@@ -79152,6 +79151,7 @@
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
                 "Morimichi Kikuchi (菊地守道)",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Zixing Wang (王子兴)"
@@ -79234,6 +79234,7 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Kevin Matthews",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Shuto Ueno (上野柊斗)",
                 "Timothy Loh",
                 "Tommy Cherry",
@@ -79272,7 +79273,6 @@
                 "Morimichi Kikuchi (菊地守道)",
                 "Oliver Fritz",
                 "Roman Strakhov",
-                "Sebastiano Tronto",
                 "Yiwei Liu (刘伊玮)",
                 "Zhi Qiao (乔智)",
                 "Ziyi Xu (徐梓翼)"
@@ -79409,6 +79409,7 @@
                 "Bowen Xiao (肖博文)",
                 "Chenhao Sun (孙晨皓)",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Xin Shi (石欣)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
@@ -79441,17 +79442,6 @@
             ],
             [
                 "Not found."
-            ]
-        ],
-        [
-            [
-                "R' F R U M' U' R' U M U' F' R"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "R' F:[R,U M' U']"
             ]
         ],
         [
@@ -79543,7 +79533,6 @@
                 "Leonardo Ezequiel Cruz",
                 "Liren Sun (孙立仁)",
                 "Oliver Fritz",
-                "Sebastiano Tronto",
                 "Xin Shi (石欣)",
                 "Zhi Qiao (乔智)"
             ],
@@ -79562,6 +79551,18 @@
             ],
             [
                 "S':[L E2 L',U]"
+            ]
+        ],
+        [
+            [
+                "R' U R S' R' U R S R' U2 R"
+            ],
+            [
+                "Ethan Pan",
+                "Sebastiano Tronto"
+            ],
+            [
+                "R' U:[R S' R',U]"
             ]
         ],
         [
@@ -79628,17 +79629,6 @@
             ],
             [
                 "E l U:[M',U2]"
-            ]
-        ],
-        [
-            [
-                "R' U R S' R' U R S R' U2 R"
-            ],
-            [
-                "Ethan Pan"
-            ],
-            [
-                "R' U:[R S' R',U]"
             ]
         ],
         [
@@ -79849,6 +79839,7 @@
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
@@ -79874,17 +79865,6 @@
             [
                 "Daniel White",
                 "Lucas Benito Rolando"
-            ],
-            [
-                "Not found."
-            ]
-        ],
-        [
-            [
-                "L2 U L U L' U' L' U' L' U L'"
-            ],
-            [
-                "Sebastiano Tronto"
             ],
             [
                 "Not found."
@@ -80077,6 +80057,7 @@
                 "Keita Hayakawa (早川慶太)",
                 "Max Hilliard",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -80095,17 +80076,6 @@
             ],
             [
                 "U2:[S',U2 R2]"
-            ]
-        ],
-        [
-            [
-                "U' D M' U2 M U' D'"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "U' D:[M',U2]"
             ]
         ]
     ],
@@ -80136,7 +80106,6 @@
                 "Benjamin Paul",
                 "Elliott Kobelansky",
                 "Kai Yamamoto (山本快)",
-                "Sebastiano Tronto",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
@@ -80153,6 +80122,17 @@
             ],
             [
                 "[U2,R S R']"
+            ]
+        ],
+        [
+            [
+                "U2 R' S R U2 R' S' R"
+            ],
+            [
+                "Sebastiano Tronto"
+            ],
+            [
+                "[U2,R' S R]"
             ]
         ]
     ],
@@ -80272,7 +80252,6 @@
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -80289,7 +80268,8 @@
                 "Anto Kam (甘浩東)",
                 "Graham Siggins",
                 "Keiichiro Taira (平佳一郎)",
-                "Max Hilliard"
+                "Max Hilliard",
+                "Sebastiano Tronto"
             ],
             [
                 "[R E R',U2]"
@@ -80319,26 +80299,17 @@
         ],
         [
             [
-                "R S' R2 S' R' S R2 S"
+                "R S' R2 S' R' S R2 S",
+                "R S' l2 S R' S' l2 S"
             ],
             [
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
             [
-                "[R,S' R2 S']"
-            ]
-        ],
-        [
-            [
-                "U R' U' S R2 S' R2 U R U'"
-            ],
-            [
-                "Jonghyun Kim (김종현)",
-                "Sebastiano Tronto"
-            ],
-            [
-                "U R' U':[S,R2]"
+                "[R,S' R2 S']",
+                "[R,S' l2 S]"
             ]
         ],
         [
@@ -80350,6 +80321,17 @@
             ],
             [
                 "[U2,R' S2 R]"
+            ]
+        ],
+        [
+            [
+                "U R' U' S R2 S' R2 U R U'"
+            ],
+            [
+                "Jonghyun Kim (김종현)"
+            ],
+            [
+                "U R' U':[S,R2]"
             ]
         ]
     ],
@@ -80370,7 +80352,6 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
@@ -80382,6 +80363,7 @@
                 "U2 R S' R' U2 R S R'"
             ],
             [
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -80415,25 +80397,17 @@
         ],
         [
             [
-                "S R2 S' R' E R2 E' R"
+                "S R2 S' R' E R2 E' R",
+                "S R2 S' l' S R2 S' l"
             ],
             [
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
             [
-                "S:[R2,S' R' E]"
-            ]
-        ],
-        [
-            [
-                "U L U S' L2 S L2 U' L' U'"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "U L U:[S',L2]"
+                "S:[R2,S' R' E]",
+                "[S R2 S',l']"
             ]
         ]
     ],
@@ -80499,25 +80473,17 @@
         ],
         [
             [
-                "S R2 S' R E' R2 E R'"
+                "S R2 S' R E' R2 E R'",
+                "S R2 S' l S R2 S' l'"
             ],
             [
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
             [
-                "S:[R2,S' R E']"
-            ]
-        ],
-        [
-            [
-                "U' L' U' S' L2 S L2 U L U"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "U' L' U':[S',L2]"
+                "S:[R2,S' R E']",
+                "[S R2 S',l]"
             ]
         ]
     ],
@@ -80582,14 +80548,16 @@
         ],
         [
             [
-                "U' R U S R2 S' R2 U' R' U"
+                "R' S' l2 S R S' l2 S",
+                "R' S' R2 S' R S R2 S"
             ],
             [
-                "Jonghyun Kim (김종현)",
-                "Sebastiano Tronto"
+                "Sebastiano Tronto",
+                "Yangyang Shen (沈炀炀)"
             ],
             [
-                "U' R U:[S,R2]"
+                "[R',S' l2 S]",
+                "[R',S' R2 S']"
             ]
         ],
         [
@@ -80605,13 +80573,13 @@
         ],
         [
             [
-                "R' S' R2 S' R S R2 S"
+                "U' R U S R2 S' R2 U' R' U"
             ],
             [
-                "Yangyang Shen (沈炀炀)"
+                "Jonghyun Kim (김종현)"
             ],
             [
-                "[R',S' R2 S']"
+                "U' R U:[S,R2]"
             ]
         ]
     ],
@@ -80632,7 +80600,6 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
@@ -80644,6 +80611,7 @@
                 "U2 R' S' R U2 R' S R"
             ],
             [
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -80723,8 +80691,7 @@
                 "Dhruv Ambastha",
                 "Gianfranco Huanqui",
                 "Ishaan Agrawal",
-                "Kevin Matthews",
-                "Sebastiano Tronto"
+                "Kevin Matthews"
             ],
             [
                 "[r' F' r,S]",
@@ -80755,6 +80722,17 @@
             ],
             [
                 "U' R:[U R' U',M']"
+            ]
+        ],
+        [
+            [
+                "U' R' U R S R' U' R U S'"
+            ],
+            [
+                "Sebastiano Tronto"
+            ],
+            [
+                "[U' R' U R,S]"
             ]
         ]
     ],
@@ -80888,19 +80866,18 @@
         ],
         [
             [
-                "S' r' U r S r' U' r",
-                "S' L' B L S L' B' L"
+                "S' L' B L S L' B' L",
+                "S' r' U r S r' U' r"
             ],
             [
                 "Anto Kam (甘浩東)",
                 "Benjamin Paul",
                 "Gavriel Johann Arcilla",
-                "Kai Yamamoto (山本快)",
-                "Sebastiano Tronto"
+                "Kai Yamamoto (山本快)"
             ],
             [
-                "[S',r' U r]",
-                "[S',L' B L]"
+                "[S',L' B L]",
+                "[S',r' U r]"
             ]
         ],
         [
@@ -80912,6 +80889,17 @@
             ],
             [
                 "S:[R' E' R,U]"
+            ]
+        ],
+        [
+            [
+                "U R' U' R S R' U R U' S'"
+            ],
+            [
+                "Sebastiano Tronto"
+            ],
+            [
+                "[U R' U' R,S]"
             ]
         ],
         [
@@ -80953,6 +80941,7 @@
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
@@ -81013,7 +81002,6 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -81040,6 +81028,7 @@
                 "U2 S R' F' R S' R' F R U2"
             ],
             [
+                "Sebastiano Tronto",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -81150,13 +81139,13 @@
         ],
         [
             [
-                "R' S R U' M' U R' U' M U S' R"
+                "R' F' R U R' S R U' R' F S' R"
             ],
             [
                 "Sebastiano Tronto"
             ],
             [
-                "R' S:[R,U' M' U]"
+                "R' F':[R U R',S]"
             ]
         ]
     ],
@@ -81176,6 +81165,7 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -81204,17 +81194,6 @@
             [
                 "[U M' U',L2]"
             ]
-        ],
-        [
-            [
-                "U' M U L2 U' M' U L2"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "[U' M U,L2]"
-            ]
         ]
     ],
     "GDM": [
@@ -81233,7 +81212,6 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -81246,6 +81224,7 @@
                 "U2 S R B R' S' R B' R' U2"
             ],
             [
+                "Sebastiano Tronto",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -81326,14 +81305,17 @@
         ],
         [
             [
-                "R E' R S R2 S' R' E R"
+                "R E' R S R2 S' R' E R",
+                "l S l S' R2 S l' S' R2 l'"
             ],
             [
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
             [
-                "R:[E' R S,R2]"
+                "R:[E' R S,R2]",
+                "l:[S l S',R2]"
             ]
         ],
         [
@@ -81345,17 +81327,6 @@
             ],
             [
                 "[R2,U M U']"
-            ]
-        ],
-        [
-            [
-                "R2 U' M' U R2 U' M U"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "[R2,U' M' U]"
             ]
         ]
     ],
@@ -81376,6 +81347,7 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -81443,17 +81415,6 @@
         ],
         [
             [
-                "D' R U' M' U R' U' M U D"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "D':[R,U' M' U]"
-            ]
-        ],
-        [
-            [
                 "R U' R' U S U' R U R' S'"
             ],
             [
@@ -81492,22 +81453,12 @@
             [
                 "Graham Siggins",
                 "Jonghyun Kim (김종현)",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
             [
                 "[S',R U2 R']"
-            ]
-        ],
-        [
-            [
-                "U' M U' R U M' U' R' U2"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "U':[M,U' R U]"
             ]
         ]
     ],
@@ -81566,6 +81517,7 @@
             [
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -81579,8 +81531,7 @@
                 "U' M U L' U' M' U L"
             ],
             [
-                "Max Hilliard",
-                "Sebastiano Tronto"
+                "Max Hilliard"
             ],
             [
                 "[U' M U,L']"
@@ -81648,30 +81599,30 @@
         ],
         [
             [
-                "U M' U' L U M U' L'"
-            ],
-            [
-                "Benjamin Paul",
-                "Gavriel Johann Arcilla",
-                "Sebastiano Tronto"
-            ],
-            [
-                "[U M' U',L]"
-            ]
-        ],
-        [
-            [
-                "R' S R S' R E' R' E",
-                "l' E' R E l E' R' E"
+                "l' E' R E l E' R' E",
+                "R' S R S' R E' R' E"
             ],
             [
                 "Graham Siggins",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
             [
-                "R' S:[R,S' R E']",
-                "[l',E' R E]"
+                "[l',E' R E]",
+                "R' S:[R,S' R E']"
+            ]
+        ],
+        [
+            [
+                "U M' U' L U M U' L'"
+            ],
+            [
+                "Benjamin Paul",
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "[U M' U',L]"
             ]
         ],
         [
@@ -81773,22 +81724,12 @@
                 "Graham Siggins",
                 "Jonghyun Kim (김종현)",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
             [
                 "[S',R' U2 R]"
-            ]
-        ],
-        [
-            [
-                "U' M U' R' U M' U' R U2"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "U':[M,U' R' U]"
             ]
         ]
     ],
@@ -81823,7 +81764,6 @@
                 "Max Hilliard",
                 "Neel Gore",
                 "Roman Strakhov",
-                "Sebastiano Tronto",
                 "Shuto Ueno (上野柊斗)",
                 "Yangyang Shen (沈炀炀)",
                 "Yomie Ko (고현승)",
@@ -81933,6 +81873,17 @@
             ],
             [
                 "S U:[R E R',U2]"
+            ]
+        ],
+        [
+            [
+                "R' B' R U' R E R' U R E' R2 B R"
+            ],
+            [
+                "Sebastiano Tronto"
+            ],
+            [
+                "R' B' R:[U',R E R']"
             ]
         ],
         [
@@ -82133,6 +82084,7 @@
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
@@ -82158,17 +82110,6 @@
             [
                 "Daniel White",
                 "Lucas Benito Rolando"
-            ],
-            [
-                "Not found."
-            ]
-        ],
-        [
-            [
-                "L U' L U L U L U' L' U' L2"
-            ],
-            [
-                "Sebastiano Tronto"
             ],
             [
                 "Not found."
@@ -82213,19 +82154,18 @@
         ],
         [
             [
-                "r' U r S' r' U' r S",
-                "L' B L S' L' B' L S"
+                "L' B L S' L' B' L S",
+                "r' U r S' r' U' r S"
             ],
             [
                 "Anto Kam (甘浩東)",
                 "Benjamin Paul",
                 "Gavriel Johann Arcilla",
-                "Kai Yamamoto (山本快)",
-                "Sebastiano Tronto"
+                "Kai Yamamoto (山本快)"
             ],
             [
-                "[r' U r,S']",
-                "[L' B L,S']"
+                "[L' B L,S']",
+                "[r' U r,S']"
             ]
         ],
         [
@@ -82237,6 +82177,17 @@
             ],
             [
                 "S:[U,R' E' R]"
+            ]
+        ],
+        [
+            [
+                "S U R' U' R S' R' U R U'"
+            ],
+            [
+                "Sebastiano Tronto"
+            ],
+            [
+                "[S,U R' U' R]"
             ]
         ],
         [
@@ -82324,13 +82275,13 @@
         ],
         [
             [
-                "R U' R' U' M' U2 M U' R U R'"
+                "R U' R' D S R2 S' R2 D' R U R'"
             ],
             [
                 "Sebastiano Tronto"
             ],
             [
-                "R U' R' U':[M',U2]"
+                "R U' R' D:[S,R2]"
             ]
         ],
         [
@@ -82379,12 +82330,23 @@
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Rob Holt",
-                "Sebastiano Tronto",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
                 "Not found."
+            ]
+        ],
+        [
+            [
+                "U r U' R' U M U' R U R' U'"
+            ],
+            [
+                "Gavriel Johann Arcilla",
+                "Sebastiano Tronto"
+            ],
+            [
+                "U R:[M',U' R' U]"
             ]
         ],
         [
@@ -82397,17 +82359,6 @@
             ],
             [
                 "y:[M D M',U]"
-            ]
-        ],
-        [
-            [
-                "U r U' R' U M U' R U R' U'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "U R:[M',U' R' U]"
             ]
         ],
         [
@@ -82505,13 +82456,13 @@
         ],
         [
             [
-                "l2 U M' U2 M U l2"
+                "S R B' R' S R2 S' R' B R' S'"
             ],
             [
                 "Sebastiano Tronto"
             ],
             [
-                "l2 U:[M',U2]"
+                "S R B' R':[S,R2]"
             ]
         ],
         [
@@ -82566,7 +82517,6 @@
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
-                "Sebastiano Tronto",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
@@ -82592,7 +82542,8 @@
             ],
             [
                 "Chenhao Sun (孙晨皓)",
-                "Michael Tripodi"
+                "Michael Tripodi",
+                "Sebastiano Tronto"
             ],
             [
                 "U':[U',R' S R]"
@@ -82806,7 +82757,6 @@
                 "Leonardo Ezequiel Cruz",
                 "Lucas Benito Rolando",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -82826,7 +82776,8 @@
                 "Heejun Kim (김희준)",
                 "Keiichiro Taira (平佳一郎)",
                 "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
+                "Max Hilliard",
+                "Sebastiano Tronto"
             ],
             [
                 "[R E R',U]"
@@ -82863,6 +82814,7 @@
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
@@ -82897,17 +82849,6 @@
         ],
         [
             [
-                "r U' M U R' U' M' U M"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "r:[U' M U,R']"
-            ]
-        ],
-        [
-            [
                 "U' R' U' R' U' R U R U R"
             ],
             [
@@ -82938,7 +82879,6 @@
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Tommy Cherry",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -82953,6 +82893,7 @@
             [
                 "Chenhao Sun (孙晨皓)",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -82993,6 +82934,7 @@
             ],
             [
                 "Chenhao Sun (孙晨皓)",
+                "Sebastiano Tronto",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -83008,17 +82950,6 @@
             ],
             [
                 "[L S2 L',U]"
-            ]
-        ],
-        [
-            [
-                "M2 L' U M' U2 M U M2 L"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "M2 L' U:[M',U2]"
             ]
         ],
         [
@@ -83121,6 +83052,7 @@
                 "R' E' R2 E R' U R E' R2 E R U'"
             ],
             [
+                "Sebastiano Tronto",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -83136,17 +83068,6 @@
             ],
             [
                 "[L' S2 L,U]"
-            ]
-        ],
-        [
-            [
-                "M2 L U M' U2 M U M2 L'"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "M2 L U:[M',U2]"
             ]
         ],
         [
@@ -83233,6 +83154,7 @@
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
@@ -83268,17 +83190,6 @@
         ],
         [
             [
-                "R' M' U' M U R U' M' U M"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "M':[R',U' M U]"
-            ]
-        ],
-        [
-            [
                 "R2 U' R' U' R' U R U R U R"
             ],
             [
@@ -83310,7 +83221,6 @@
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Tommy Cherry",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -83324,6 +83234,7 @@
             ],
             [
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -83618,6 +83529,7 @@
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
@@ -83849,13 +83761,13 @@
         ],
         [
             [
-                "r U R' U' M U2 M' U' R U' r'"
+                "D S' R B' R' S R B R' D'"
             ],
             [
                 "Sebastiano Tronto"
             ],
             [
-                "r U R' U':[M,U2]"
+                "D:[S',R B' R']"
             ]
         ],
         [
@@ -83888,7 +83800,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Leonardo Ezequiel Cruz",
-                "Sebastiano Tronto",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
@@ -83907,6 +83818,7 @@
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -83990,8 +83902,7 @@
                 "Leonardo Ezequiel Cruz",
                 "Lucas Benito Rolando",
                 "Masato Fujiwara (藤原正人)",
-                "Max Hilliard",
-                "Sebastiano Tronto"
+                "Max Hilliard"
             ],
             [
                 "r':[U' R U,M]"
@@ -84007,6 +83918,7 @@
                 "Gavriel Johann Arcilla",
                 "Heejun Kim (김희준)",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -84076,13 +83988,13 @@
         ],
         [
             [
-                "l' u M u2 M u l"
+                "D' S' R B' R' S R B R' D"
             ],
             [
                 "Sebastiano Tronto"
             ],
             [
-                "Not found."
+                "D':[S',R B' R']"
             ]
         ],
         [
@@ -84265,7 +84177,6 @@
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
@@ -84280,6 +84191,7 @@
                 "Chenhao Sun (孙晨皓)",
                 "Israel Fraga da Silva",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -84343,21 +84255,11 @@
                 "R U' R' S' R U' R' S R U2 R'"
             ],
             [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "R U':[R' S' R,U']"
-            ]
-        ],
-        [
-            [
-                "U' r U' M U2 M' U' r' U"
-            ],
-            [
+                "Gavriel Johann Arcilla",
                 "Sebastiano Tronto"
             ],
             [
-                "U' r U':[M,U2]"
+                "R U':[R' S' R,U']"
             ]
         ],
         [
@@ -84389,7 +84291,6 @@
                 "Leonardo Ezequiel Cruz",
                 "Lucas Benito Rolando",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Tommy Cherry",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -84407,6 +84308,7 @@
                 "Kai Yamamoto (山本快)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -84418,8 +84320,7 @@
     "GFT": [
         [
             [
-                "r' E R U' R' E' R U M'",
-                "L' S l U' l' S' l U M'"
+                "r' E R U' R' E' R U M'"
             ],
             [
                 "Andrew Tan Jing Bang",
@@ -84432,12 +84333,10 @@
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
-                "r':[E,R U' R']",
-                "L':[S,l U' l']"
+                "r':[E,R U' R']"
             ]
         ],
         [
@@ -84450,6 +84349,7 @@
                 "Kai Yamamoto (山本快)",
                 "Keiichiro Taira (平佳一郎)",
                 "Leonardo Ezequiel Cruz",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -84487,7 +84387,6 @@
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Tommy Cherry",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -84532,6 +84431,17 @@
         ],
         [
             [
+                "R' E' R U R E2 R' U' R E' R'"
+            ],
+            [
+                "Sebastiano Tronto"
+            ],
+            [
+                "Not found."
+            ]
+        ],
+        [
+            [
                 "R' E' R U R E R2 E' R U' R' E R"
             ],
             [
@@ -84561,6 +84471,7 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -84581,17 +84492,6 @@
             ],
             [
                 "R:[E',r' U' r]"
-            ]
-        ],
-        [
-            [
-                "U l U' M' U2 M U' l' U'"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "U l U':[M',U2]"
             ]
         ],
         [
@@ -84639,6 +84539,7 @@
             ],
             [
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -84702,7 +84603,8 @@
             ],
             [
                 "Gavriel Johann Arcilla",
-                "Michael Tripodi"
+                "Michael Tripodi",
+                "Sebastiano Tronto"
             ],
             [
                 "R' U':[R S' R',U']",
@@ -84718,17 +84620,6 @@
             ],
             [
                 "S':[L E2 L',U']"
-            ]
-        ],
-        [
-            [
-                "U' R' M' U' M U2 M' U' R M U"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "U' R' M' U':[M,U2]"
             ]
         ],
         [
@@ -84943,7 +84834,6 @@
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Oliver Fritz",
-                "Sebastiano Tronto",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timothy Loh",
                 "Tommy Cherry",
@@ -84979,6 +84869,7 @@
                 "Liren Sun (孙立仁)",
                 "Morimichi Kikuchi (菊地守道)",
                 "Roman Strakhov",
+                "Sebastiano Tronto",
                 "Shuto Ueno (上野柊斗)",
                 "Xin Shi (石欣)",
                 "Yangyang Shen (沈炀炀)",
@@ -85099,7 +84990,6 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -85126,6 +85016,7 @@
                 "U2 R' F' R S R' F R S' U2"
             ],
             [
+                "Sebastiano Tronto",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -85196,13 +85087,13 @@
         ],
         [
             [
-                "R U' R' U M' U2 M U R U R'"
+                "R U' R' D R2 S R2 S' D' R U R'"
             ],
             [
                 "Sebastiano Tronto"
             ],
             [
-                "R U' R' U:[M',U2]"
+                "R U' R' D:[R2,S]"
             ]
         ],
         [
@@ -85352,7 +85243,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Sebastiano Tronto",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
@@ -85405,6 +85295,17 @@
             ],
             [
                 "L' D R:[E,R2]"
+            ]
+        ],
+        [
+            [
+                "S R' F' R S R2 S' R F R S'"
+            ],
+            [
+                "Sebastiano Tronto"
+            ],
+            [
+                "S R' F' R:[S,R2]"
             ]
         ]
     ],
@@ -85541,7 +85442,6 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Rob Holt",
-                "Sebastiano Tronto",
                 "Tim Wong",
                 "Tommy Cherry"
             ],
@@ -85556,6 +85456,7 @@
             [
                 "Ishaan Agrawal",
                 "Keiichiro Taira (平佳一郎)",
+                "Sebastiano Tronto",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -85624,8 +85525,7 @@
                 "Andrew Tan Jing Bang",
                 "Kai Yamamoto (山本快)",
                 "Keiichiro Taira (平佳一郎)",
-                "Michael Tripodi",
-                "Sebastiano Tronto"
+                "Michael Tripodi"
             ],
             [
                 "r':[M,U R U']"
@@ -85661,6 +85561,18 @@
         ],
         [
             [
+                "r' U' r U M' U2 M U r' U r"
+            ],
+            [
+                "Diego Meneghetti",
+                "Sebastiano Tronto"
+            ],
+            [
+                "r' U' r U:[M',U2]"
+            ]
+        ],
+        [
+            [
                 "U D S L' F' L S' L' F L U' D'"
             ],
             [
@@ -85668,17 +85580,6 @@
             ],
             [
                 "U D:[S,L' F' L]"
-            ]
-        ],
-        [
-            [
-                "r' U' r U M' U2 M U r' U r"
-            ],
-            [
-                "Diego Meneghetti"
-            ],
-            [
-                "r' U' r U:[M',U2]"
             ]
         ],
         [
@@ -85736,6 +85637,7 @@
                 "Elliott Kobelansky",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
+                "Sebastiano Tronto",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
@@ -85780,8 +85682,7 @@
     "GIP": [
         [
             [
-                "R F' R' S R F R' S'",
-                "l D' l' S l D l' S'"
+                "R F' R' S R F R' S'"
             ],
             [
                 "Andrew Tan Jing Bang",
@@ -85803,8 +85704,7 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
-                "[R F' R',S]",
-                "[l D' l',S]"
+                "[R F' R',S]"
             ]
         ],
         [
@@ -85866,6 +85766,7 @@
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Rob Holt",
+                "Sebastiano Tronto",
                 "Tim Wong",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -85883,17 +85784,6 @@
             ],
             [
                 "D:[D' R' D R,U R U' R']"
-            ]
-        ],
-        [
-            [
-                "U2 R U' M' U2 M U' R' U2"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "U2 R U':[M',U2]"
             ]
         ],
         [
@@ -85998,8 +85888,7 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
-                "Rob Holt",
-                "Sebastiano Tronto"
+                "Rob Holt"
             ],
             [
                 "L' U:[M',U2]"
@@ -86015,6 +85904,7 @@
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
                 "Keiichiro Taira (平佳一郎)",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -86067,6 +85957,7 @@
                 "R F R' U' R' E R U R' E' R2 F' R'"
             ],
             [
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -86079,8 +85970,7 @@
                 "l' S R' F R S' R' F' R l"
             ],
             [
-                "Kai Yamamoto (山本快)",
-                "Sebastiano Tronto"
+                "Kai Yamamoto (山本快)"
             ],
             [
                 "l':[S,R' F R]"
@@ -86131,6 +86021,7 @@
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
                 "Keiichiro Taira (平佳一郎)",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -86195,22 +86086,12 @@
                 "S R' F' R2 E' R2 E F R S'"
             ],
             [
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
             [
                 "S R' F':[R2,E']"
-            ]
-        ],
-        [
-            [
-                "E L' U M' U2 M U L E'"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "E L' U:[M',U2]"
             ]
         ],
         [
@@ -86258,6 +86139,7 @@
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Rob Holt",
+                "Sebastiano Tronto",
                 "Tim Wong",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
@@ -86265,17 +86147,6 @@
             ],
             [
                 "[R',U' M2 U]"
-            ]
-        ],
-        [
-            [
-                "r' U' M U R U' M' U M'"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "r':[U' M U,R]"
             ]
         ],
         [
@@ -86544,6 +86415,7 @@
                 "Kevin Matthews",
                 "Morimichi Kikuchi (菊地守道)",
                 "Oliver Fritz",
+                "Sebastiano Tronto",
                 "Timothy Loh",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -86618,17 +86490,6 @@
             ],
             [
                 "U l':[U' L U,M']"
-            ]
-        ],
-        [
-            [
-                "l u M u2 M u l'"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "Not found."
             ]
         ],
         [
@@ -86934,13 +86795,13 @@
         ],
         [
             [
-                "r U R' U M U2 M' U R U' r'"
+                "D R B' R' S' R B R' S D'"
             ],
             [
                 "Sebastiano Tronto"
             ],
             [
-                "r U R' U:[M,U2]"
+                "D:[R B' R',S']"
             ]
         ],
         [
@@ -86959,8 +86820,7 @@
         [
             [
                 "L F L S' L2 S L F' L'",
-                "r U r' L2 S' L2 S r U' r'",
-                "r U L E L2 E' L U' r'"
+                "r U r' L2 S' L2 S r U' r'"
             ],
             [
                 "Andrew Tan Jing Bang",
@@ -86974,13 +86834,25 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
                 "L F L:[S',L2]",
-                "r U r':[L2,S']",
-                "r U L:[E,L2]"
+                "r U r':[L2,S']"
+            ]
+        ],
+        [
+            [
+                "R F' R' S' R2 S R' F R'"
+            ],
+            [
+                "Kai Yamamoto (山本快)",
+                "Sebastiano Tronto",
+                "Yangyang Shen (沈炀炀)",
+                "Yifan Wang (王逸帆)"
+            ],
+            [
+                "R F' R':[S',R2]"
             ]
         ],
         [
@@ -86995,19 +86867,6 @@
             ],
             [
                 "U:[U L2 U',M']"
-            ]
-        ],
-        [
-            [
-                "R F' R' S' R2 S R' F R'"
-            ],
-            [
-                "Kai Yamamoto (山本快)",
-                "Yangyang Shen (沈炀炀)",
-                "Yifan Wang (王逸帆)"
-            ],
-            [
-                "R F' R':[S',R2]"
             ]
         ]
     ],
@@ -87049,7 +86908,6 @@
                 "Daniel White",
                 "Diego Meneghetti",
                 "Marcell Endrey",
-                "Sebastiano Tronto",
                 "Tim Wong"
             ],
             [
@@ -87066,6 +86924,17 @@
             ],
             [
                 "z' R:[U' M' U,R]"
+            ]
+        ],
+        [
+            [
+                "D R' F' R S' R' F R S D'"
+            ],
+            [
+                "Sebastiano Tronto"
+            ],
+            [
+                "D:[R' F' R,S']"
             ]
         ]
     ],
@@ -87086,7 +86955,6 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Tommy Cherry",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -87135,6 +87003,17 @@
         ],
         [
             [
+                "r U r' U M U2 M' U r U' r'"
+            ],
+            [
+                "Sebastiano Tronto"
+            ],
+            [
+                "r U r' U:[M,U2]"
+            ]
+        ],
+        [
+            [
                 "R' M' U' R U M' U' R' U r M'"
             ],
             [
@@ -87157,7 +87036,6 @@
                 "Graham Siggins",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
-                "Sebastiano Tronto",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
@@ -87218,6 +87096,17 @@
         ],
         [
             [
+                "M' U M d2 M' U' M d2"
+            ],
+            [
+                "Sebastiano Tronto"
+            ],
+            [
+                "[M' U M,d2]"
+            ]
+        ],
+        [
+            [
                 "x' U2 M2 U' R U M2 U' R' U' x"
             ],
             [
@@ -87257,6 +87146,7 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
@@ -87274,7 +87164,6 @@
                 "Grzegorz Pacewicz",
                 "Marcell Endrey",
                 "Rob Holt",
-                "Sebastiano Tronto",
                 "Tim Wong"
             ],
             [
@@ -87488,6 +87377,17 @@
         ],
         [
             [
+                "S' R U' M' U2 M U' R' S"
+            ],
+            [
+                "Sebastiano Tronto"
+            ],
+            [
+                "S' R U':[M',U2]"
+            ]
+        ],
+        [
+            [
                 "F L' U' M' U2 M U' L F'"
             ],
             [
@@ -87581,13 +87481,13 @@
         ],
         [
             [
-                "M L' U' M U2 M' U' M' L"
+                "D R' F2 R S' R' F2 R S D'"
             ],
             [
                 "Sebastiano Tronto"
             ],
             [
-                "M L' U':[M,U2]"
+                "D:[R' F2 R,S']"
             ]
         ],
         [
@@ -87675,13 +87575,13 @@
         ],
         [
             [
-                "l' U' r U R' U' M U R U' R' U l"
+                "D S R F2 R' S' R F2 R' D'"
             ],
             [
                 "Sebastiano Tronto"
             ],
             [
-                "l' U' R:[M',U R' U']"
+                "D:[S,R F2 R']"
             ]
         ],
         [
@@ -87713,7 +87613,6 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Rob Holt",
-                "Sebastiano Tronto",
                 "Tommy Cherry",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -87728,6 +87627,7 @@
             [
                 "Kai Yamamoto (山本快)",
                 "Max Hilliard",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -87800,7 +87700,6 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -87830,6 +87729,17 @@
             ],
             [
                 "R E' R':[R' F' R,S']"
+            ]
+        ],
+        [
+            [
+                "D S R' B2 R S' R' B2 R D'"
+            ],
+            [
+                "Sebastiano Tronto"
+            ],
+            [
+                "D:[S,R' B2 R]"
             ]
         ],
         [
@@ -88066,6 +87976,7 @@
                 "Kai Yamamoto (山本快)",
                 "Keiichiro Taira (平佳一郎)",
                 "Masato Fujiwara (藤原正人)",
+                "Sebastiano Tronto",
                 "Xin Shi (石欣)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
@@ -88086,7 +87997,6 @@
                 "Ishaan Agrawal",
                 "Liren Sun (孙立仁)",
                 "Oliver Fritz",
-                "Sebastiano Tronto",
                 "Zhi Qiao (乔智)"
             ],
             [
@@ -88218,7 +88128,6 @@
                 "Neel Gore",
                 "Oliver Fritz",
                 "Roman Strakhov",
-                "Sebastiano Tronto",
                 "Shuto Ueno (上野柊斗)",
                 "Timothy Loh",
                 "Yiwei Liu (刘伊玮)",
@@ -88243,6 +88152,7 @@
                 "Chenhao Sun (孙晨皓)",
                 "Kai Yamamoto (山本快)",
                 "Martin Vædele Egdal",
+                "Sebastiano Tronto",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
@@ -88355,6 +88265,7 @@
                 "Keita Hayakawa (早川慶太)",
                 "Max Hilliard",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -88373,17 +88284,6 @@
             ],
             [
                 "[S',U2 R2]"
-            ]
-        ],
-        [
-            [
-                "U D M' U2 M U D'"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "U D:[M',U2]"
             ]
         ]
     ],
@@ -88425,13 +88325,13 @@
         ],
         [
             [
-                "R' S U' M' U R U' M U R' S' R"
+                "R' F' S R U R' S' R U' R' F R"
             ],
             [
                 "Sebastiano Tronto"
             ],
             [
-                "R' S:[U' M' U,R]"
+                "R' F':[S,R U R']"
             ]
         ]
     ],
@@ -88459,6 +88359,19 @@
         ],
         [
             [
+                "S' R B' R' S R2 S' R' B R' S"
+            ],
+            [
+                "Kai Yamamoto (山本快)",
+                "Sebastiano Tronto",
+                "Yifan Wang (王逸帆)"
+            ],
+            [
+                "S' R B' R':[S,R2]"
+            ]
+        ],
+        [
+            [
                 "U L U L' U' L' U' L' U L"
             ],
             [
@@ -88468,18 +88381,6 @@
             ],
             [
                 "Not found."
-            ]
-        ],
-        [
-            [
-                "S' R B' R' S R2 S' R' B R' S"
-            ],
-            [
-                "Kai Yamamoto (山本快)",
-                "Yifan Wang (王逸帆)"
-            ],
-            [
-                "S' R B' R':[S,R2]"
             ]
         ],
         [
@@ -88503,17 +88404,6 @@
             ],
             [
                 "R' U' L:[E',L2]"
-            ]
-        ],
-        [
-            [
-                "l2 U' M' U2 M U' l2"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "l2 U':[M',U2]"
             ]
         ],
         [
@@ -88557,7 +88447,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Leonardo Ezequiel Cruz",
-                "Sebastiano Tronto",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
@@ -88576,6 +88465,7 @@
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -88611,7 +88501,6 @@
                 "Ishaan Agrawal",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
-                "Sebastiano Tronto",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
@@ -88625,6 +88514,7 @@
             [
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -88682,8 +88572,7 @@
         [
             [
                 "L F L' S' L2 S L' F' L'",
-                "r U r' S' L2 S r L2 U' r'",
-                "r U L' E L2 E' L' U' r'"
+                "r U r' S' L2 S r L2 U' r'"
             ],
             [
                 "Andrew Tan Jing Bang",
@@ -88697,13 +88586,25 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
                 "L F L':[S',L2]",
-                "r U r':[S',L2]",
-                "r U L':[E,L2]"
+                "r U r':[S',L2]"
+            ]
+        ],
+        [
+            [
+                "R F' R S' R2 S R F R'"
+            ],
+            [
+                "Kai Yamamoto (山本快)",
+                "Sebastiano Tronto",
+                "Yangyang Shen (沈炀炀)",
+                "Yifan Wang (王逸帆)"
+            ],
+            [
+                "R F' R:[S',R2]"
             ]
         ],
         [
@@ -88718,19 +88619,6 @@
             ],
             [
                 "U:[M',U L2 U']"
-            ]
-        ],
-        [
-            [
-                "R F' R S' R2 S R F R'"
-            ],
-            [
-                "Kai Yamamoto (山本快)",
-                "Yangyang Shen (沈炀炀)",
-                "Yifan Wang (王逸帆)"
-            ],
-            [
-                "R F' R:[S',R2]"
             ]
         ]
     ],
@@ -88758,6 +88646,7 @@
             ],
             [
                 "Kai Yamamoto (山本快)",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -88822,6 +88711,7 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -88838,7 +88728,6 @@
                 "Andrew Tan Jing Bang",
                 "Elliott Kobelansky",
                 "Graham Siggins",
-                "Sebastiano Tronto",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
@@ -88890,23 +88779,13 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
                 "U:[S',R F R']"
-            ]
-        ],
-        [
-            [
-                "D' r M' U' R' U M U' R U r' D"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "D' r:[M',U' R' U]"
             ]
         ]
     ],
@@ -88926,7 +88805,6 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
@@ -88943,6 +88821,17 @@
             ],
             [
                 "R':[S R2 S,R']"
+            ]
+        ],
+        [
+            [
+                "U R' U' R2 S' R2 S U R U'"
+            ],
+            [
+                "Sebastiano Tronto"
+            ],
+            [
+                "U R' U':[R2,S']"
             ]
         ]
     ],
@@ -88992,13 +88881,13 @@
         ],
         [
             [
-                "R S R2 U' M' U R U' M U R S' R'"
+                "R S' R2 S' R U2 R' S R U2 R S R'"
             ],
             [
                 "Sebastiano Tronto"
             ],
             [
-                "R S R':[R',U' M' U]"
+                "R S' R':[R' S' R,U2]"
             ]
         ]
     ],
@@ -89024,14 +88913,17 @@
         ],
         [
             [
-                "R2 S' R2 S R E R2 E' R"
+                "R2 S' R2 S R E R2 E' R",
+                "l2 S R2 S' l S R2 S' l"
             ],
             [
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
             [
-                "R2 S':[R2,S R E]"
+                "R2 S':[R2,S R E]",
+                "l2:[S R2 S',l]"
             ]
         ],
         [
@@ -89054,17 +88946,6 @@
             ],
             [
                 "D2 R:[E,R2]"
-            ]
-        ],
-        [
-            [
-                "D L' U M' U2 M U L D'"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "D L' U:[M',U2]"
             ]
         ]
     ],
@@ -89105,13 +88986,13 @@
         ],
         [
             [
-                "L' U' M' U' L' U M U' L U2 L"
+                "S U2 R' E R2 E' R' U2 S'"
             ],
             [
                 "Sebastiano Tronto"
             ],
             [
-                "L' U':[M',U' L' U]"
+                "S U2 R':[E,R2]"
             ]
         ]
     ],
@@ -89137,14 +89018,17 @@
         ],
         [
             [
-                "R2 S' R2 S R' E' R2 E R'"
+                "R2 S' R2 S R' E' R2 E R'",
+                "l2 S R2 S' l' S R2 S' l'"
             ],
             [
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
             [
-                "R2 S':[R2,S R' E']"
+                "R2 S':[R2,S R' E']",
+                "l2:[S R2 S',l']"
             ]
         ],
         [
@@ -89167,17 +89051,6 @@
             ],
             [
                 "D2 R':[E',R2]"
-            ]
-        ],
-        [
-            [
-                "D' L U' M U2 M' U' L' D"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "D' L U':[M,U2]"
             ]
         ]
     ],
@@ -89217,13 +89090,13 @@
         ],
         [
             [
-                "L U' M' U' L U M U' L' U2 L'"
+                "S U2 R E' R2 E R U2 S'"
             ],
             [
                 "Sebastiano Tronto"
             ],
             [
-                "L U':[M',U' L U]"
+                "S U2 R:[E',R2]"
             ]
         ],
         [
@@ -89254,7 +89127,6 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
@@ -89271,6 +89143,17 @@
             ],
             [
                 "R:[S R2 S,R]"
+            ]
+        ],
+        [
+            [
+                "U R U' R2 S' R2 S U R' U'"
+            ],
+            [
+                "Sebastiano Tronto"
+            ],
+            [
+                "U R U':[R2,S']"
             ]
         ]
     ],
@@ -89310,13 +89193,13 @@
         ],
         [
             [
-                "R' S R2 U' M' U R' U' M U R' S' R"
+                "R' S' R2 S' R' U2 R S R' U2 R' S R"
             ],
             [
                 "Sebastiano Tronto"
             ],
             [
-                "R' S R:[R,U' M' U]"
+                "R' S' R:[R S' R',U2]"
             ]
         ]
     ],
@@ -89381,7 +89264,6 @@
                 "Martin Vædele Egdal",
                 "Morimichi Kikuchi (菊地守道)",
                 "Neel Gore",
-                "Sebastiano Tronto",
                 "Shuto Ueno (上野柊斗)",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Yomie Ko (고현승)",
@@ -89399,6 +89281,7 @@
                 "Chenhao Sun (孙晨皓)",
                 "Liren Sun (孙立仁)",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Xin Shi (石欣)",
                 "Yiwei Liu (刘伊玮)",
                 "Zhi Qiao (乔智)"
@@ -89623,7 +89506,6 @@
                 "Benjamin Paul",
                 "Elliott Kobelansky",
                 "Kai Yamamoto (山本快)",
-                "Sebastiano Tronto",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
@@ -89640,6 +89522,17 @@
             ],
             [
                 "[R S R',U2]"
+            ]
+        ],
+        [
+            [
+                "R' S R U2 R' S' R U2"
+            ],
+            [
+                "Sebastiano Tronto"
+            ],
+            [
+                "[R' S R,U2]"
             ]
         ]
     ],
@@ -89659,6 +89552,7 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -89686,17 +89580,6 @@
             ],
             [
                 "[L2,U M' U']"
-            ]
-        ],
-        [
-            [
-                "L2 U' M U L2 U' M' U"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "[L2,U' M U]"
             ]
         ]
     ],
@@ -89729,7 +89612,6 @@
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
-                "Sebastiano Tronto",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
@@ -89755,7 +89637,8 @@
             ],
             [
                 "Chenhao Sun (孙晨皓)",
-                "Michael Tripodi"
+                "Michael Tripodi",
+                "Sebastiano Tronto"
             ],
             [
                 "U':[R' S R,U']"
@@ -89972,7 +89855,6 @@
                 "Daniel White",
                 "Diego Meneghetti",
                 "Marcell Endrey",
-                "Sebastiano Tronto",
                 "Tim Wong"
             ],
             [
@@ -89989,6 +89871,17 @@
             ],
             [
                 "z' R:[R,U' M' U]"
+            ]
+        ],
+        [
+            [
+                "D S' R' F' R S R' F R D'"
+            ],
+            [
+                "Sebastiano Tronto"
+            ],
+            [
+                "D:[S',R' F' R]"
             ]
         ]
     ],
@@ -90098,11 +89991,21 @@
                 "D' M U' M' D M U M'"
             ],
             [
-                "Max Hilliard",
-                "Sebastiano Tronto"
+                "Max Hilliard"
             ],
             [
                 "[D',M U' M']"
+            ]
+        ],
+        [
+            [
+                "D' S' R B R' S R B' R' D"
+            ],
+            [
+                "Sebastiano Tronto"
+            ],
+            [
+                "D':[S',R B R']"
             ]
         ]
     ],
@@ -90130,12 +90033,15 @@
         ],
         [
             [
+                "R' E l E' R2 E l' E' R'",
                 "R' E R S' R2 S R' E' R'"
             ],
             [
+                "Sebastiano Tronto",
                 "Yifan Wang (王逸帆)"
             ],
             [
+                "R':[E l E',R2]",
                 "R':[E R S',R2]"
             ]
         ],
@@ -90148,17 +90054,6 @@
             ],
             [
                 "U':[L B L',S]"
-            ]
-        ],
-        [
-            [
-                "D M D' R2 D M' D' R2"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "[D M D',R2]"
             ]
         ]
     ],
@@ -90178,23 +90073,13 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
                 "U R' F R':[S',R2]"
-            ]
-        ],
-        [
-            [
-                "D M' U M U2 M U' M' U2 D'"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "D M':[U,M U2 M]"
             ]
         ]
     ],
@@ -90220,19 +90105,20 @@
         ],
         [
             [
-                "E' R' S' R' S R E R",
-                "E' l' E R' E' l E R"
+                "E' l' E R' E' l E R",
+                "E' R' S' R' S R E R"
             ],
             [
                 "Max Hilliard",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
             [
-                "[E' R' S',R']",
-                "[E' l' E,R']"
+                "[E' l' E,R']",
+                "[E' R' S',R']"
             ]
         ]
     ],
@@ -90281,13 +90167,13 @@
         ],
         [
             [
-                "S R U' M' U R U' M U R2 S'"
+                "R S R' U2 R S2 R' U2 R S R'"
             ],
             [
                 "Sebastiano Tronto"
             ],
             [
-                "S R:[U' M' U,R]"
+                "R S:[R' U2 R,S2]"
             ]
         ],
         [
@@ -90320,6 +90206,7 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Tommy Cherry",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -90358,6 +90245,7 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -90365,17 +90253,6 @@
             [
                 "[l',E R' E']",
                 "R' S':[R',S R E]"
-            ]
-        ],
-        [
-            [
-                "L2 U' M U L U' M' U L"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "L':[L',U' M U]"
             ]
         ],
         [
@@ -90393,7 +90270,8 @@
     "GLW": [
         [
             [
-                "l U2 R E' R' U2 R E R' l'"
+                "l U2 R E' R' U2 R E R' l'",
+                "R B2 R S' R' B2 R S R2"
             ],
             [
                 "Andrew Tan Jing Bang",
@@ -90404,10 +90282,12 @@
                 "Kai Yamamoto (山本快)",
                 "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
-                "l:[U2,R E' R']"
+                "l:[U2,R E' R']",
+                "R:[B2,R S' R']"
             ]
         ],
         [
@@ -90421,17 +90301,6 @@
             ],
             [
                 "R E' R':[S',R2]"
-            ]
-        ],
-        [
-            [
-                "D l U' M U2 M' U' l' D'"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "D l U':[M,U2]"
             ]
         ]
     ],
@@ -90455,19 +90324,20 @@
         ],
         [
             [
-                "R S' R S R' E' R' E",
-                "l E' R E l' E' R' E"
+                "l E' R E l' E' R' E",
+                "R S' R S R' E' R' E"
             ],
             [
                 "Gavriel Johann Arcilla",
                 "Keiichiro Taira (平佳一郎)",
+                "Sebastiano Tronto",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
             [
-                "R S':[R,S R' E']",
-                "[l,E' R E]"
+                "[l,E' R E]",
+                "R S':[R,S R' E']"
             ]
         ],
         [
@@ -90479,17 +90349,6 @@
             ],
             [
                 "[L,E' r E]"
-            ]
-        ],
-        [
-            [
-                "L2 U' M U L' U' M' U L'"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "L:[L,U' M U]"
             ]
         ],
         [
@@ -90527,14 +90386,17 @@
         ],
         [
             [
-                "E R S' R S R' E' R'"
+                "E R S' R S R' E' R'",
+                "E l E' R E l' E' R'"
             ],
             [
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
             [
-                "[E R S',R]"
+                "[E R S',R]",
+                "[E l E',R]"
             ]
         ],
         [
@@ -90546,17 +90408,6 @@
             ],
             [
                 "[E L E',r]"
-            ]
-        ],
-        [
-            [
-                "D' R' U' M U R U' M' U D"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "D':[R',U' M U]"
             ]
         ]
     ],
@@ -90617,13 +90468,13 @@
         ],
         [
             [
-                "S R' U' M' U R' U' M U R2 S'"
+                "R' S R U2 R' S2 R U2 R' S R"
             ],
             [
                 "Sebastiano Tronto"
             ],
             [
-                "S R':[U' M' U,R']"
+                "R' S:[R U2 R',S2]"
             ]
         ]
     ],
@@ -90704,7 +90555,6 @@
                 "Elliott Kobelansky",
                 "Ishaan Agrawal",
                 "Oliver Fritz",
-                "Sebastiano Tronto",
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Zixing Wang (王子兴)"
             ],
@@ -90749,6 +90599,17 @@
             ],
             [
                 "R' U R U':[M,U2]"
+            ]
+        ],
+        [
+            [
+                "R U R' D' R2 S R2 S' D R U' R'"
+            ],
+            [
+                "Sebastiano Tronto"
+            ],
+            [
+                "R U R' D':[R2,S]"
             ]
         ],
         [
@@ -90850,7 +90711,8 @@
         ],
         [
             [
-                "L F' L' U' M U2 M' U' L F L'"
+                "L F' L' U' M U2 M' U' L F L'",
+                "r U' r' U' M U2 M' U' r U r'"
             ],
             [
                 "Anto Kam (甘浩東)",
@@ -90859,7 +90721,8 @@
                 "Sebastiano Tronto"
             ],
             [
-                "L F' L' U':[M,U2]"
+                "L F' L' U':[M,U2]",
+                "r U' r' U':[M,U2]"
             ]
         ],
         [
@@ -90997,7 +90860,6 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -91010,6 +90872,7 @@
                 "U2 R B R' S R B' R' S' U2"
             ],
             [
+                "Sebastiano Tronto",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -91100,8 +90963,7 @@
                 "Leonardo Ezequiel Cruz",
                 "Lucas Benito Rolando",
                 "Masato Fujiwara (藤原正人)",
-                "Max Hilliard",
-                "Sebastiano Tronto"
+                "Max Hilliard"
             ],
             [
                 "r':[M,U' R U]"
@@ -91117,6 +90979,7 @@
                 "Gavriel Johann Arcilla",
                 "Heejun Kim (김희준)",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -91152,7 +91015,6 @@
                 "Kai Yamamoto (山本快)",
                 "Keiichiro Taira (平佳一郎)",
                 "Rob Holt",
-                "Sebastiano Tronto",
                 "Tim Wong",
                 "Tommy Cherry"
             ],
@@ -91183,6 +91045,7 @@
             ],
             [
                 "Keiichiro Taira (平佳一郎)",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -91217,7 +91080,6 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Tommy Cherry",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -91274,6 +91136,17 @@
             ],
             [
                 "R' M':[M',U' R U]"
+            ]
+        ],
+        [
+            [
+                "r U r' U' M U2 M' U' r U' r'"
+            ],
+            [
+                "Sebastiano Tronto"
+            ],
+            [
+                "r U r' U':[M,U2]"
             ]
         ]
     ],
@@ -91350,6 +91223,17 @@
             ],
             [
                 "S L B' L:[S,L2]"
+            ]
+        ],
+        [
+            [
+                "S R B R' S R2 S' R' B' R' S'"
+            ],
+            [
+                "Sebastiano Tronto"
+            ],
+            [
+                "S R B R':[S,R2]"
             ]
         ]
     ],
@@ -91454,7 +91338,6 @@
                 "Elliott Kobelansky",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
-                "Sebastiano Tronto",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
@@ -91498,8 +91381,7 @@
     "GMP": [
         [
             [
-                "R' B R S R' B' R S'",
-                "l' D l S l' D' l S'"
+                "R' B R S R' B' R S'"
             ],
             [
                 "Andrew Tan Jing Bang",
@@ -91518,8 +91400,7 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
-                "[R' B R,S]",
-                "[l' D l,S]"
+                "[R' B R,S]"
             ]
         ]
     ],
@@ -91539,6 +91420,7 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -91555,17 +91437,6 @@
             ],
             [
                 "[R' D' R D,U R U' R']"
-            ]
-        ],
-        [
-            [
-                "r U M' U' R' U M U' M"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "r:[U M' U',R']"
             ]
         ],
         [
@@ -91668,6 +91539,7 @@
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Keiichiro Taira (平佳一郎)",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -91684,8 +91556,7 @@
                 "Andrew Tan Jing Bang",
                 "Gavriel Johann Arcilla",
                 "Max Hilliard",
-                "Michael Tripodi",
-                "Sebastiano Tronto"
+                "Michael Tripodi"
             ],
             [
                 "L' U':[M,U2]"
@@ -91718,6 +91589,7 @@
                 "S R B R2 E R2 E' B' R' S'"
             ],
             [
+                "Sebastiano Tronto",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -91748,17 +91620,6 @@
         ],
         [
             [
-                "E' L U' M U2 M' U' L' E"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "E' L U':[M,U2]"
-            ]
-        ],
-        [
-            [
                 "U u L U' M2 U L' U' M2 u'"
             ],
             [
@@ -91780,6 +91641,7 @@
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
                 "Keiichiro Taira (平佳一郎)",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -91797,8 +91659,7 @@
                 "Gavriel Johann Arcilla",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
-                "Michael Tripodi",
-                "Sebastiano Tronto"
+                "Michael Tripodi"
             ],
             [
                 "L U':[M,U2]"
@@ -91827,6 +91688,19 @@
         ],
         [
             [
+                "R' B' R U R E' R' U' R E R2 B R"
+            ],
+            [
+                "Sebastiano Tronto",
+                "Yangyang Shen (沈炀炀)",
+                "Yifan Wang (王逸帆)"
+            ],
+            [
+                "R' B' R:[U,R E' R']"
+            ]
+        ],
+        [
+            [
                 "r M' E' R' U' R E R' U M2"
             ],
             [
@@ -91839,28 +91713,13 @@
         ],
         [
             [
-                "B' L S' L' B L S L'",
-                "x' U' L E' L' U L E L' x"
+                "B' L S' L' B L S L'"
             ],
             [
-                "Gavriel Johann Arcilla",
-                "Sebastiano Tronto"
+                "Gavriel Johann Arcilla"
             ],
             [
-                "[B',L S' L']",
-                "x':[U',L E' L']"
-            ]
-        ],
-        [
-            [
-                "R' B' R U R E' R' U' R E R2 B R"
-            ],
-            [
-                "Yangyang Shen (沈炀炀)",
-                "Yifan Wang (王逸帆)"
-            ],
-            [
-                "R' B' R:[U,R E' R']"
+                "[B',L S' L']"
             ]
         ],
         [
@@ -91890,6 +91749,7 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -91906,17 +91766,6 @@
             ],
             [
                 "D':[D R D' R',U' R' U R]"
-            ]
-        ],
-        [
-            [
-                "U2 R' U M U2 M' U R U2"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "U2 R' U:[M,U2]"
             ]
         ],
         [
@@ -92044,7 +91893,6 @@
                 "Oleg Gritsenko",
                 "Oliver Fritz",
                 "Roman Strakhov",
-                "Sebastiano Tronto",
                 "Shuto Ueno (上野柊斗)",
                 "Timo Norrkniivilä",
                 "Timothy Loh",
@@ -92067,7 +91915,8 @@
                 "U' D' R E R' U R E' R' D"
             ],
             [
-                "Anto Kam (甘浩東)"
+                "Anto Kam (甘浩東)",
+                "Sebastiano Tronto"
             ],
             [
                 "D':[U',R E R']"
@@ -92156,6 +92005,7 @@
                 "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Roman Strakhov",
+                "Sebastiano Tronto",
                 "Shuto Ueno (上野柊斗)",
                 "Timothy Loh",
                 "Tommy Cherry",
@@ -92189,17 +92039,6 @@
             ],
             [
                 "R U:[R' S R,B]"
-            ]
-        ],
-        [
-            [
-                "r U' R' U M' U2 M U R U r'"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "r U' R' U:[M',U2]"
             ]
         ],
         [
@@ -92394,7 +92233,8 @@
                 "D' R B' R' S' R B R' S D"
             ],
             [
-                "Gavriel Johann Arcilla"
+                "Gavriel Johann Arcilla",
+                "Sebastiano Tronto"
             ],
             [
                 "D':[R B' R',S']"
@@ -92406,17 +92246,6 @@
             ],
             [
                 "Graham Siggins"
-            ],
-            [
-                "Not found."
-            ]
-        ],
-        [
-            [
-                "l' u' M' u2 M' u' l"
-            ],
-            [
-                "Sebastiano Tronto"
             ],
             [
                 "Not found."
@@ -92462,8 +92291,7 @@
                 "Ishaan Agrawal",
                 "Kai Yamamoto (山本快)",
                 "Keiichiro Taira (平佳一郎)",
-                "Michael Tripodi",
-                "Sebastiano Tronto"
+                "Michael Tripodi"
             ],
             [
                 "r':[U R U',M]"
@@ -92486,6 +92314,18 @@
         ],
         [
             [
+                "r' U' r U' M' U2 M U' r' U r"
+            ],
+            [
+                "Diego Meneghetti",
+                "Sebastiano Tronto"
+            ],
+            [
+                "r' U' r U':[M',U2]"
+            ]
+        ],
+        [
+            [
                 "U D L' F' L S L' F L S' U' D'"
             ],
             [
@@ -92504,17 +92344,6 @@
             ],
             [
                 "R M:[U R' U',M]"
-            ]
-        ],
-        [
-            [
-                "r' U' r U' M' U2 M U' r' U r"
-            ],
-            [
-                "Diego Meneghetti"
-            ],
-            [
-                "r' U' r U':[M',U2]"
             ]
         ],
         [
@@ -92568,8 +92397,7 @@
             [
                 "Anto Kam (甘浩東)",
                 "Jonghyun Kim (김종현)",
-                "Michael Tripodi",
-                "Sebastiano Tronto"
+                "Michael Tripodi"
             ],
             [
                 "U2 M:[U,M' U2 M']"
@@ -92612,6 +92440,17 @@
         ],
         [
             [
+                "M U' M' d2 M U M' d2"
+            ],
+            [
+                "Sebastiano Tronto"
+            ],
+            [
+                "[M U' M',d2]"
+            ]
+        ],
+        [
+            [
                 "x' U R U M2 U' R' U M2 U2 x"
             ],
             [
@@ -92645,6 +92484,7 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -92660,7 +92500,6 @@
                 "Andrew Tan Jing Bang",
                 "Elliott Kobelansky",
                 "Graham Siggins",
-                "Sebastiano Tronto",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
@@ -92709,11 +92548,21 @@
                 "M U' M' D' M U M' D"
             ],
             [
-                "Max Hilliard",
-                "Sebastiano Tronto"
+                "Max Hilliard"
             ],
             [
                 "[M U' M',D']"
+            ]
+        ],
+        [
+            [
+                "D' R B R' S' R B' R' S D"
+            ],
+            [
+                "Sebastiano Tronto"
+            ],
+            [
+                "D':[R B R',S']"
             ]
         ]
     ],
@@ -92733,6 +92582,7 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
@@ -92750,24 +92600,12 @@
             [
                 "D':[S,R F' R']"
             ]
-        ],
-        [
-            [
-                "R2 U' M U R2 U' M' U"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "[R2,U' M U]"
-            ]
         ]
     ],
     "GNP": [
         [
             [
-                "S' R B R' S R B' R'",
-                "S' l U l' S l U' l'"
+                "S' R B R' S R B' R'"
             ],
             [
                 "Andrew Tan Jing Bang",
@@ -92785,8 +92623,7 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
-                "[S',R B R']",
-                "[S',l U l']"
+                "[S',R B R']"
             ]
         ],
         [
@@ -92940,7 +92777,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
@@ -92955,6 +92791,7 @@
                 "Gavriel Johann Arcilla",
                 "Kai Yamamoto (山本快)",
                 "Max Hilliard",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -92966,8 +92803,7 @@
     "GNT": [
         [
             [
-                "r' E R U R' E' R U' M'",
-                "L' S l U l' S' l U' M'"
+                "r' E R U R' E' R U' M'"
             ],
             [
                 "Andrew Tan Jing Bang",
@@ -92980,14 +92816,12 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
-                "r':[E,R U R']",
-                "L':[S,l U l']"
+                "r':[E,R U R']"
             ]
         ],
         [
@@ -92999,6 +92833,17 @@
             ],
             [
                 "R' E R:[R B R',S']"
+            ]
+        ],
+        [
+            [
+                "D' S R F2 R' S' R F2 R' D"
+            ],
+            [
+                "Sebastiano Tronto"
+            ],
+            [
+                "D':[S,R F2 R']"
             ]
         ]
     ],
@@ -93024,14 +92869,14 @@
         ],
         [
             [
-                "M' L U M' U2 M U M L'"
+                "D' R B2 R' S' R B2 R' S D"
             ],
             [
-                "Graham Siggins",
-                "Sebastiano Tronto"
+                "Sebastiano Tronto",
+                "Yangyang Shen (沈炀炀)"
             ],
             [
-                "M' L U:[M',U2]"
+                "D':[R B2 R',S']"
             ]
         ],
         [
@@ -93058,13 +92903,13 @@
         ],
         [
             [
-                "D' R B2 R' S' R B2 R' S D"
+                "M' L U M' U2 M U M L'"
             ],
             [
-                "Yangyang Shen (沈炀炀)"
+                "Graham Siggins"
             ],
             [
-                "D':[R B2 R',S']"
+                "M' L U:[M',U2]"
             ]
         ]
     ],
@@ -93117,13 +92962,13 @@
         ],
         [
             [
-                "l U' l' U' L U M U' L' U L U l'"
+                "D' S R' B2 R S' R' B2 R D"
             ],
             [
                 "Sebastiano Tronto"
             ],
             [
-                "l U' l':[U' L U,M]"
+                "D':[S,R' B2 R]"
             ]
         ],
         [
@@ -93154,6 +92999,7 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
@@ -93232,6 +93078,17 @@
         ],
         [
             [
+                "S' R' U M U2 M' U R S"
+            ],
+            [
+                "Sebastiano Tronto"
+            ],
+            [
+                "S' R' U:[M,U2]"
+            ]
+        ],
+        [
+            [
                 "D' S U' R U S' U' R' U D"
             ],
             [
@@ -93287,6 +93144,7 @@
                 "Morimichi Kikuchi (菊地守道)",
                 "Neel Gore",
                 "Roman Strakhov",
+                "Sebastiano Tronto",
                 "Tommy Cherry",
                 "Xin Shi (石欣)",
                 "Yomie Ko (고현승)",
@@ -93316,7 +93174,6 @@
                 "Keita Hayakawa (早川慶太)",
                 "Michael Tripodi",
                 "Oliver Fritz",
-                "Sebastiano Tronto",
                 "Timothy Loh"
             ],
             [
@@ -93670,14 +93527,17 @@
         ],
         [
             [
-                "R' E' R S R2 S' R' E R'"
+                "R' E' R S R2 S' R' E R'",
+                "l' S' l S R2 S' l' S R2 l"
             ],
             [
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
             [
-                "R':[E' R S,R2]"
+                "R':[E' R S,R2]",
+                "l':[S' l S,R2]"
             ]
         ],
         [
@@ -93689,17 +93549,6 @@
             ],
             [
                 "[U M U',R2]"
-            ]
-        ],
-        [
-            [
-                "U' M' U R2 U' M U R2"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "[U' M' U,R2]"
             ]
         ]
     ],
@@ -93720,23 +93569,11 @@
                 "Leonardo Ezequiel Cruz",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Sebastiano Tronto",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
                 "R' U' R':[S,R2]"
-            ]
-        ],
-        [
-            [
-                "R U' R S R2 S' R U R'"
-            ],
-            [
-                "Benjamin Paul",
-                "Michael Tripodi",
-                "Sebastiano Tronto"
-            ],
-            [
-                "R U' R:[S,R2]"
             ]
         ],
         [
@@ -93750,6 +93587,18 @@
             ],
             [
                 "[U,R' E R2 E' R']"
+            ]
+        ],
+        [
+            [
+                "R U' R S R2 S' R U R'"
+            ],
+            [
+                "Benjamin Paul",
+                "Michael Tripodi"
+            ],
+            [
+                "R U' R:[S,R2]"
             ]
         ],
         [
@@ -93913,6 +93762,7 @@
                 "Elliott Kobelansky",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
+                "Sebastiano Tronto",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
@@ -93971,6 +93821,7 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
@@ -93989,7 +93840,6 @@
                 "Ishaan Agrawal",
                 "Marcell Endrey",
                 "Rob Holt",
-                "Sebastiano Tronto",
                 "Tim Wong"
             ],
             [
@@ -94061,44 +93911,20 @@
         ],
         [
             [
+                "R E l E' R2 E l' E' R",
                 "R E R S' R2 S R' E' R"
             ],
             [
+                "Sebastiano Tronto",
                 "Yifan Wang (王逸帆)"
             ],
             [
+                "R:[E l E',R2]",
                 "R:[E R S',R2]"
-            ]
-        ],
-        [
-            [
-                "R2 D M D' R2 D M' D'"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "[R2,D M D']"
             ]
         ]
     ],
     "GOM": [
-        [
-            [
-                "R D R' S' R2 S R' D' R'"
-            ],
-            [
-                "Elliott Kobelansky",
-                "Jonghyun Kim (김종현)",
-                "Kai Yamamoto (山本快)",
-                "Max Hilliard",
-                "Sebastiano Tronto",
-                "Yuki Tsuneyoshi (恒吉優紀)"
-            ],
-            [
-                "R D R':[S',R2]"
-            ]
-        ],
         [
             [
                 "R' D R S' R2 S R D' R"
@@ -94112,6 +93938,21 @@
             ],
             [
                 "R' D R:[S',R2]"
+            ]
+        ],
+        [
+            [
+                "R D R' S' R2 S R' D' R'"
+            ],
+            [
+                "Elliott Kobelansky",
+                "Jonghyun Kim (김종현)",
+                "Kai Yamamoto (山本快)",
+                "Max Hilliard",
+                "Yuki Tsuneyoshi (恒吉優紀)"
+            ],
+            [
+                "R D R':[S',R2]"
             ]
         ],
         [
@@ -94164,6 +94005,7 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
@@ -94180,17 +94022,6 @@
             ],
             [
                 "D':[R F' R',S]"
-            ]
-        ],
-        [
-            [
-                "U' M U R2 U' M' U R2"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "[U' M U,R2]"
             ]
         ]
     ],
@@ -94217,6 +94048,18 @@
         ],
         [
             [
+                "R U2 R S R2 S' R U2 R'"
+            ],
+            [
+                "Sebastiano Tronto",
+                "Yangyang Shen (沈炀炀)"
+            ],
+            [
+                "R U2 R:[S,R2]"
+            ]
+        ],
+        [
+            [
                 "D' R' D R U R U' R2 D' R D R U R' U'"
             ],
             [
@@ -94236,17 +94079,6 @@
             [
                 "S':[L E' L',U2]"
             ]
-        ],
-        [
-            [
-                "R U2 R S R2 S' R U2 R'"
-            ],
-            [
-                "Yangyang Shen (沈炀炀)"
-            ],
-            [
-                "R U2 R:[S,R2]"
-            ]
         ]
     ],
     "GOR": [
@@ -94265,7 +94097,6 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -94279,6 +94110,7 @@
                 "R S' R S R2 S' R S R'"
             ],
             [
+                "Sebastiano Tronto",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -94328,7 +94160,6 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -94345,6 +94176,17 @@
             ],
             [
                 "[R2,S R E]"
+            ]
+        ],
+        [
+            [
+                "S' l' S R2 S' l S R2"
+            ],
+            [
+                "Sebastiano Tronto"
+            ],
+            [
+                "[S' l' S,R2]"
             ]
         ]
     ],
@@ -94390,7 +94232,6 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -94403,6 +94244,7 @@
                 "R2 S R' E' R2 E R S'"
             ],
             [
+                "Sebastiano Tronto",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -94483,7 +94325,6 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -94496,6 +94337,7 @@
                 "R' S' R' S R2 S' R' S R"
             ],
             [
+                "Sebastiano Tronto",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -94742,7 +94584,6 @@
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -94759,7 +94600,8 @@
                 "Anto Kam (甘浩東)",
                 "Graham Siggins",
                 "Keiichiro Taira (平佳一郎)",
-                "Max Hilliard"
+                "Max Hilliard",
+                "Sebastiano Tronto"
             ],
             [
                 "[U2,R E R']"
@@ -94783,6 +94625,7 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -94818,7 +94661,6 @@
                 "Leonardo Ezequiel Cruz",
                 "Lucas Benito Rolando",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -94838,7 +94680,8 @@
                 "Heejun Kim (김희준)",
                 "Keiichiro Taira (平佳一郎)",
                 "Masato Fujiwara (藤原正人)",
-                "Max Hilliard"
+                "Max Hilliard",
+                "Sebastiano Tronto"
             ],
             [
                 "[U,R E R']"
@@ -95047,6 +94890,7 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -95065,17 +94909,6 @@
             [
                 "U':[R' B' R,S']"
             ]
-        ],
-        [
-            [
-                "D' r U' R' U M' U' R U r' M D"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "D' r:[U' R' U,M']"
-            ]
         ]
     ],
     "GPL": [
@@ -95091,6 +94924,7 @@
                 "Kai Yamamoto (山本快)",
                 "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -95111,24 +94945,12 @@
             [
                 "U L F' L:[S,L2]"
             ]
-        ],
-        [
-            [
-                "U2 D M U M' U2 M' U' M D'"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "U2 D M:[U,M' U2 M']"
-            ]
         ]
     ],
     "GPM": [
         [
             [
-                "S R' B R S' R' B' R",
-                "S l' D l S' l' D' l"
+                "S R' B R S' R' B' R"
             ],
             [
                 "Andrew Tan Jing Bang",
@@ -95147,16 +94969,14 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
-                "[S,R' B R]",
-                "[S,l' D l]"
+                "[S,R' B R]"
             ]
         ]
     ],
     "GPN": [
         [
             [
-                "R B R' S' R B' R' S",
-                "l U l' S' l U' l' S"
+                "R B R' S' R B' R' S"
             ],
             [
                 "Andrew Tan Jing Bang",
@@ -95175,8 +94995,7 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
-                "[R B R',S']",
-                "[l U l',S']"
+                "[R B R',S']"
             ]
         ],
         [
@@ -95230,11 +95049,21 @@
                 "D' R U M' U' R' U M U' D"
             ],
             [
-                "Gavriel Johann Arcilla",
-                "Sebastiano Tronto"
+                "Gavriel Johann Arcilla"
             ],
             [
                 "D':[R,U M' U']"
+            ]
+        ],
+        [
+            [
+                "R U R' U' S' U R U' R' S"
+            ],
+            [
+                "Sebastiano Tronto"
+            ],
+            [
+                "[R U R' U',S']"
             ]
         ],
         [
@@ -95276,6 +95105,7 @@
             [
                 "Anto Kam (甘浩東)",
                 "Max Hilliard",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)"
             ],
             [
@@ -95336,6 +95166,7 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -95352,17 +95183,6 @@
             ],
             [
                 "U' R B':[E,R2]"
-            ]
-        ],
-        [
-            [
-                "S' L' U' M U L U' M' U S"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "S':[L',U' M U]"
             ]
         ]
     ],
@@ -95407,6 +95227,7 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -95424,17 +95245,6 @@
             ],
             [
                 "U R' F:[E',R2]"
-            ]
-        ],
-        [
-            [
-                "S' L U' M U L' U' M' U S"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "S':[L,U' M U]"
             ]
         ]
     ],
@@ -95473,13 +95283,13 @@
         ],
         [
             [
-                "D R' U' M U R U' M' U D'"
+                "R' U R U' S' U R' U' R S"
             ],
             [
                 "Sebastiano Tronto"
             ],
             [
-                "D:[R',U' M U]"
+                "[R' U R U',S']"
             ]
         ],
         [
@@ -95506,6 +95316,7 @@
                 "Graham Siggins",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -95521,8 +95332,7 @@
                 "Gavriel Johann Arcilla",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
-                "Michael Tripodi",
-                "Sebastiano Tronto"
+                "Michael Tripodi"
             ],
             [
                 "[S,U R U']"
@@ -95579,6 +95389,7 @@
                 "Michael Tripodi",
                 "Morimichi Kikuchi (菊地守道)",
                 "Roman Strakhov",
+                "Sebastiano Tronto",
                 "Shuto Ueno (上野柊斗)",
                 "Timothy Loh",
                 "Tommy Cherry",
@@ -95601,8 +95412,7 @@
                 "Hongjie Zhang (张鸿杰)",
                 "Ishaan Agrawal",
                 "Neel Gore",
-                "Oliver Fritz",
-                "Sebastiano Tronto"
+                "Oliver Fritz"
             ],
             [
                 "M:[U M' U',R]"
@@ -95770,6 +95580,7 @@
                 "Bowen Xiao (肖博文)",
                 "Chenhao Sun (孙晨皓)",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Xin Shi (石欣)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
@@ -95791,17 +95602,6 @@
             [
                 "Not found.",
                 "l:[U' M2 U,R]"
-            ]
-        ],
-        [
-            [
-                "U2 r U' M U2 M' U' r' U2"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "U2 r U':[M,U2]"
             ]
         ],
         [
@@ -95850,26 +95650,17 @@
         ],
         [
             [
-                "S' R2 S' R S R2 S R'"
+                "S' R2 S' R S R2 S R'",
+                "S' l2 S R S' l2 S R'"
             ],
             [
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
             [
-                "[S' R2 S',R]"
-            ]
-        ],
-        [
-            [
-                "U R' U' R2 S R2 S' U R U'"
-            ],
-            [
-                "Jonghyun Kim (김종현)",
-                "Sebastiano Tronto"
-            ],
-            [
-                "U R' U':[R2,S]"
+                "[S' R2 S',R]",
+                "[S' l2 S,R]"
             ]
         ],
         [
@@ -95881,6 +95672,17 @@
             ],
             [
                 "[R' S2 R,U2]"
+            ]
+        ],
+        [
+            [
+                "U R' U' R2 S R2 S' U R U'"
+            ],
+            [
+                "Jonghyun Kim (김종현)"
+            ],
+            [
+                "U R' U':[R2,S]"
             ]
         ]
     ],
@@ -95932,17 +95734,6 @@
         ],
         [
             [
-                "U' D' M' U R U' M U R' D"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "D':[U' M' U,R]"
-            ]
-        ],
-        [
-            [
                 "S R U' R' U S' U' R U R'"
             ],
             [
@@ -95972,6 +95763,7 @@
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
@@ -96006,17 +95798,6 @@
         ],
         [
             [
-                "M' U' M U R U' M' U r'"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "M':[U' M U,R]"
-            ]
-        ],
-        [
-            [
                 "R' U' R' U' R' U R U R U"
             ],
             [
@@ -96046,7 +95827,6 @@
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Tommy Cherry",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -96061,6 +95841,7 @@
             [
                 "Chenhao Sun (孙晨皓)",
                 "Israel Fraga da Silva",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -96103,6 +95884,7 @@
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Rob Holt",
+                "Sebastiano Tronto",
                 "Tim Wong",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -96120,17 +95902,6 @@
             ],
             [
                 "D:[U R U' R',D' R' D R]"
-            ]
-        ],
-        [
-            [
-                "U2 R U M' U2 M U R' U2"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "U2 R U:[M',U2]"
             ]
         ],
         [
@@ -96197,7 +95968,6 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
@@ -96214,6 +95984,17 @@
             ],
             [
                 "R':[R',S R2 S]"
+            ]
+        ],
+        [
+            [
+                "U R' U' S' R2 S R2 U R U'"
+            ],
+            [
+                "Sebastiano Tronto"
+            ],
+            [
+                "U R' U':[S',R2]"
             ]
         ]
     ],
@@ -96239,19 +96020,20 @@
         ],
         [
             [
-                "R' E' R' S' R S R E",
-                "R' E' l' E R E' l E"
+                "R' E' l' E R E' l E",
+                "R' E' R' S' R S R E"
             ],
             [
                 "Max Hilliard",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
             [
-                "[R',E' R' S']",
-                "[R',E' l' E]"
+                "[R',E' l' E]",
+                "[R',E' R' S']"
             ]
         ]
     ],
@@ -96271,6 +96053,7 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -96287,17 +96070,6 @@
             ],
             [
                 "[U R U' R',R' D' R D]"
-            ]
-        ],
-        [
-            [
-                "M' U M' U' R U M U' r'"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "M':[U M' U',R]"
             ]
         ],
         [
@@ -96361,6 +96133,18 @@
         ],
         [
             [
+                "R U2 R' S R2 S' R' U2 R'"
+            ],
+            [
+                "Sebastiano Tronto",
+                "Yangyang Shen (沈炀炀)"
+            ],
+            [
+                "R U2 R':[S,R2]"
+            ]
+        ],
+        [
+            [
                 "U R U' R' D' R' D R2 U R' U' R' D' R D"
             ],
             [
@@ -96379,17 +96163,6 @@
             ],
             [
                 "S':[U2,L E' L']"
-            ]
-        ],
-        [
-            [
-                "R U2 R' S R2 S' R' U2 R'"
-            ],
-            [
-                "Yangyang Shen (沈炀炀)"
-            ],
-            [
-                "R U2 R':[S,R2]"
             ]
         ]
     ],
@@ -96419,13 +96192,13 @@
         ],
         [
             [
-                "U D' M' U' R U M U' R' D"
+                "S' R U R' U' S U R U' R'"
             ],
             [
                 "Sebastiano Tronto"
             ],
             [
-                "D':[U M' U',R]"
+                "[S',R U R' U']"
             ]
         ],
         [
@@ -96455,6 +96228,7 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -96468,8 +96242,7 @@
                 "L U2 L E' L2 E L U2 L'"
             ],
             [
-                "Gavriel Johann Arcilla",
-                "Sebastiano Tronto"
+                "Gavriel Johann Arcilla"
             ],
             [
                 "L U2 L:[E',L2]"
@@ -96493,23 +96266,13 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
                 "U':[R U R',E]"
-            ]
-        ],
-        [
-            [
-                "R' F' M' F R F' M F"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "[R',F' M' F]"
             ]
         ]
     ],
@@ -96526,6 +96289,7 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -96545,17 +96309,6 @@
             ],
             [
                 "[E2,L U2 L']"
-            ]
-        ],
-        [
-            [
-                "L' U2 L E' L2 E L U2 L"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "L' U2 L:[E',L2]"
             ]
         ]
     ],
@@ -96586,22 +96339,12 @@
                 "Gavriel Johann Arcilla",
                 "Max Hilliard",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
             [
                 "R U:[E',R' U' R]"
-            ]
-        ],
-        [
-            [
-                "l U' M' U R U' M U R' l'"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "l:[U' M' U,R]"
             ]
         ]
     ],
@@ -96726,6 +96469,7 @@
                 "Chenhao Sun (孙晨皓)",
                 "Ishaan Agrawal",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Xin Shi (石欣)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
@@ -96786,6 +96530,7 @@
                 "Kevin Matthews",
                 "Liren Sun (孙立仁)",
                 "Roman Strakhov",
+                "Sebastiano Tronto",
                 "Timo Norrkniivilä",
                 "Timothy Loh",
                 "Xin Shi (石欣)",
@@ -96830,21 +96575,6 @@
         ],
         [
             [
-                "U R M U' M' U2 M U' R' M' U'"
-            ],
-            [
-                "Bertie Longden",
-                "Ishaan Agrawal",
-                "Martin Vædele Egdal",
-                "Sebastiano Tronto",
-                "Zhi Qiao (乔智)"
-            ],
-            [
-                "U R M U':[M',U2]"
-            ]
-        ],
-        [
-            [
                 "M' U' L E' L' U' L E L' U2 M"
             ],
             [
@@ -96855,6 +96585,20 @@
             ],
             [
                 "M' U':[L E' L',U']"
+            ]
+        ],
+        [
+            [
+                "U R M U' M' U2 M U' R' M' U'"
+            ],
+            [
+                "Bertie Longden",
+                "Ishaan Agrawal",
+                "Martin Vædele Egdal",
+                "Zhi Qiao (乔智)"
+            ],
+            [
+                "U R M U':[M',U2]"
             ]
         ],
         [
@@ -96969,7 +96713,6 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
@@ -96981,6 +96724,7 @@
                 "R S' R' U2 R S R' U2"
             ],
             [
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -97017,22 +96761,12 @@
             [
                 "Graham Siggins",
                 "Jonghyun Kim (김종현)",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
             [
                 "[R U2 R',S']"
-            ]
-        ],
-        [
-            [
-                "U2 R U M U' R' U M' U"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "U':[U' R U,M]"
             ]
         ]
     ],
@@ -97056,7 +96790,6 @@
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Tommy Cherry",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -97071,6 +96804,7 @@
             [
                 "Chenhao Sun (孙晨皓)",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -97112,21 +96846,11 @@
                 "R U2 R' S' R U R' S R U R'"
             ],
             [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "R U':[U',R' S' R]"
-            ]
-        ],
-        [
-            [
-                "U' r U M U2 M' U r' U"
-            ],
-            [
+                "Gavriel Johann Arcilla",
                 "Sebastiano Tronto"
             ],
             [
-                "U' r U:[M,U2]"
+                "R U':[U',R' S' R]"
             ]
         ],
         [
@@ -97308,6 +97032,17 @@
         ],
         [
             [
+                "S' R U M' U2 M U R' S"
+            ],
+            [
+                "Sebastiano Tronto"
+            ],
+            [
+                "S' R U:[M',U2]"
+            ]
+        ],
+        [
+            [
                 "F L' U M' U2 M U L F'"
             ],
             [
@@ -97397,13 +97132,13 @@
         ],
         [
             [
-                "R S R' U' M' U R' U' M U R2 S' R'"
+                "R S' R' U2 R' S' R U2 R' S R2 S R'"
             ],
             [
                 "Sebastiano Tronto"
             ],
             [
-                "R S R':[U' M' U,R']"
+                "R S' R':[U2,R' S' R]"
             ]
         ]
     ],
@@ -97452,13 +97187,13 @@
         ],
         [
             [
-                "S R2 U' M' U R' U' M U R' S'"
+                "R S' R' U2 R S2 R' U2 R S' R'"
             ],
             [
                 "Sebastiano Tronto"
             ],
             [
-                "S R:[R,U' M' U]"
+                "R S':[R' U2 R,S2]"
             ]
         ],
         [
@@ -97643,7 +97378,6 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -97657,6 +97391,7 @@
                 "R S' R' S R2 S' R' S R'"
             ],
             [
+                "Sebastiano Tronto",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -97691,6 +97426,7 @@
             [
                 "Anto Kam (甘浩東)",
                 "Max Hilliard",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)"
             ],
             [
@@ -97723,7 +97459,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -97753,6 +97488,17 @@
             ],
             [
                 "R' S R' S':[R2,S R E]"
+            ]
+        ],
+        [
+            [
+                "E' R' F2 R E R' F2 R"
+            ],
+            [
+                "Sebastiano Tronto"
+            ],
+            [
+                "[E',R' F2 R]"
             ]
         ]
     ],
@@ -97802,13 +97548,13 @@
         ],
         [
             [
-                "U' x U M U2 M' U x' U"
+                "R S' R2 E R U2 R' E' R U2 R S R'"
             ],
             [
                 "Sebastiano Tronto"
             ],
             [
-                "U' x U:[M,U2]"
+                "R S' R':[R' E R,U2]"
             ]
         ]
     ],
@@ -97839,8 +97585,7 @@
             ],
             [
                 "Gavriel Johann Arcilla",
-                "Michael Tripodi",
-                "Sebastiano Tronto"
+                "Michael Tripodi"
             ],
             [
                 "L:[L E' L',U2]"
@@ -97855,6 +97600,17 @@
             ],
             [
                 "U L:[L E' L',U]"
+            ]
+        ],
+        [
+            [
+                "S' R U2 R E' R' U2 R E R2 S"
+            ],
+            [
+                "Sebastiano Tronto"
+            ],
+            [
+                "S' R:[U2,R E' R']"
             ]
         ]
     ],
@@ -97893,13 +97649,13 @@
         ],
         [
             [
-                "L U2 R U M U' R' U M' U L'"
+                "R S' E' R' U2 R E R' U2 R S R'"
             ],
             [
                 "Sebastiano Tronto"
             ],
             [
-                "L U':[U' R U,M]"
+                "R S':[E',R' U2 R]"
             ]
         ],
         [
@@ -97958,7 +97714,6 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -98027,6 +97782,20 @@
         ],
         [
             [
+                "U' R E R2 E' R U R' E R2 E' R'"
+            ],
+            [
+                "Dhruv Ambastha",
+                "Sebastiano Tronto",
+                "Yifan Wang (王逸帆)",
+                "Zixing Wang (王子兴)"
+            ],
+            [
+                "[U',R E R2 E' R]"
+            ]
+        ],
+        [
+            [
                 "R2 U' R E R2 E' R U R2"
             ],
             [
@@ -98055,31 +97824,6 @@
         ],
         [
             [
-                "U' R E R2 E' R U R' E R2 E' R'"
-            ],
-            [
-                "Dhruv Ambastha",
-                "Yifan Wang (王逸帆)",
-                "Zixing Wang (王子兴)"
-            ],
-            [
-                "[U',R E R2 E' R]"
-            ]
-        ],
-        [
-            [
-                "M2 L' U M U2 M' U M2 L"
-            ],
-            [
-                "Ishaan Agrawal",
-                "Sebastiano Tronto"
-            ],
-            [
-                "M2 L' U:[M,U2]"
-            ]
-        ],
-        [
-            [
                 "U' L S2 L' U L S2 L'"
             ],
             [
@@ -98087,6 +97831,17 @@
             ],
             [
                 "[U',L S2 L']"
+            ]
+        ],
+        [
+            [
+                "M2 L' U M U2 M' U M2 L"
+            ],
+            [
+                "Ishaan Agrawal"
+            ],
+            [
+                "M2 L' U:[M,U2]"
             ]
         ],
         [
@@ -98159,7 +97914,6 @@
                 "Neel Gore",
                 "Oliver Fritz",
                 "Roman Strakhov",
-                "Sebastiano Tronto",
                 "Timothy Loh",
                 "Tommy Cherry",
                 "Xin Shi (石欣)",
@@ -98216,6 +97970,17 @@
             ],
             [
                 "S R' F:[F,R S' R']"
+            ]
+        ],
+        [
+            [
+                "R' E' R U' R' E2 R U R E' R'"
+            ],
+            [
+                "Sebastiano Tronto"
+            ],
+            [
+                "Not found."
             ]
         ],
         [
@@ -98277,25 +98042,17 @@
         ],
         [
             [
-                "R' E R2 E' R S R2 S'"
+                "R' E R2 E' R S R2 S'",
+                "l' S R2 S' l S R2 S'"
             ],
             [
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
             [
-                "R' E:[R2,E' R S]"
-            ]
-        ],
-        [
-            [
-                "U L U L2 S' L2 S U' L' U'"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "U L U:[L2,S']"
+                "R' E:[R2,E' R S]",
+                "[l',S R2 S']"
             ]
         ]
     ],
@@ -98360,6 +98117,7 @@
             ],
             [
                 "Chenhao Sun (孙晨皓)",
+                "Sebastiano Tronto",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -98375,17 +98133,6 @@
             ],
             [
                 "[U,L S2 L']"
-            ]
-        ],
-        [
-            [
-                "M2 L' U' M' U2 M U' M2 L"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "M2 L' U':[M',U2]"
             ]
         ],
         [
@@ -98428,7 +98175,6 @@
                 "Leonardo Ezequiel Cruz",
                 "Lucas Benito Rolando",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Tommy Cherry",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -98446,6 +98192,7 @@
                 "Kai Yamamoto (山本快)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -98469,8 +98216,7 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
-                "Rob Holt",
-                "Sebastiano Tronto"
+                "Rob Holt"
             ],
             [
                 "L' U':[M',U2]"
@@ -98486,6 +98232,7 @@
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
                 "Keiichiro Taira (平佳一郎)",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -98545,13 +98292,13 @@
         ],
         [
             [
-                "M L' U M U2 M' U M' L"
+                "D S' R' F2 R S R' F2 R D'"
             ],
             [
                 "Sebastiano Tronto"
             ],
             [
-                "M L' U:[M,U2]"
+                "D:[S',R' F2 R]"
             ]
         ],
         [
@@ -98588,14 +98335,17 @@
         ],
         [
             [
-                "R' E R2 E' R' S' R2 S R2"
+                "R' E R2 E' R' S' R2 S R2",
+                "l' S R2 S' l' S R2 S' l2"
             ],
             [
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
             [
-                "R' E:[R2,E' R' S']"
+                "R' E:[R2,E' R' S']",
+                "l':[S R2 S',l']"
             ]
         ],
         [
@@ -98619,17 +98369,6 @@
             [
                 "D2 R':[E,R2]"
             ]
-        ],
-        [
-            [
-                "D L' U' M' U2 M U' L D'"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "D L' U':[M',U2]"
-            ]
         ]
     ],
     "GSL": [
@@ -98649,6 +98388,7 @@
                 "Kai Yamamoto (山本快)",
                 "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Tommy Cherry",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -98684,6 +98424,7 @@
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Keiichiro Taira (平佳一郎)",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -98700,8 +98441,7 @@
                 "Andrew Tan Jing Bang",
                 "Gavriel Johann Arcilla",
                 "Max Hilliard",
-                "Michael Tripodi",
-                "Sebastiano Tronto"
+                "Michael Tripodi"
             ],
             [
                 "L' U:[M,U2]"
@@ -98721,7 +98461,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
@@ -98736,6 +98475,7 @@
                 "Gavriel Johann Arcilla",
                 "Kai Yamamoto (山本快)",
                 "Max Hilliard",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -98812,23 +98552,13 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
                 "U R' U' R':[E,R2]"
-            ]
-        ],
-        [
-            [
-                "L U2 L' E' L2 E L' U2 L'"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "L U2 L':[E',L2]"
             ]
         ]
     ],
@@ -98846,7 +98576,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -98877,13 +98606,23 @@
             [
                 "R' S E:[R2,E' R' S']"
             ]
+        ],
+        [
+            [
+                "R' F2 R E' R' F2 R E"
+            ],
+            [
+                "Sebastiano Tronto"
+            ],
+            [
+                "[R' F2 R,E']"
+            ]
         ]
     ],
     "GSW": [
         [
             [
-                "L S' L2 S L",
-                "r E r2 E r"
+                "L S' L2 S L"
             ],
             [
                 "Andrew Tan Jing Bang",
@@ -98902,8 +98641,7 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
-                "L:[S',L2]",
-                "Not found."
+                "L:[S',L2]"
             ]
         ],
         [
@@ -98932,7 +98670,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -98962,6 +98699,17 @@
             [
                 "U R E':[E',R' U' R]"
             ]
+        ],
+        [
+            [
+                "R' F2 R E R' F2 R E'"
+            ],
+            [
+                "Sebastiano Tronto"
+            ],
+            [
+                "[R' F2 R,E]"
+            ]
         ]
     ],
     "GSY": [
@@ -98979,6 +98727,7 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -98996,17 +98745,6 @@
             ],
             [
                 "U' R U R':[E,R2]"
-            ]
-        ],
-        [
-            [
-                "L U2 L E L2 E' L U2 L'"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "L U2 L:[E,L2]"
             ]
         ],
         [
@@ -99033,7 +98771,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Tommy Cherry"
             ],
             [
@@ -99066,6 +98803,17 @@
             ],
             [
                 "u' L:[L E' L',U']"
+            ]
+        ],
+        [
+            [
+                "S' R2 E R U2 R' E' R U2 R S"
+            ],
+            [
+                "Sebastiano Tronto"
+            ],
+            [
+                "S' R':[R' E R,U2]"
             ]
         ]
     ],
@@ -99196,6 +98944,7 @@
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Shuto Ueno (上野柊斗)",
                 "Timothy Loh",
                 "Tommy Cherry",
@@ -99258,7 +99007,6 @@
             [
                 "Grzegorz Jałocha",
                 "Ishaan Agrawal",
-                "Sebastiano Tronto",
                 "Xin Shi (石欣)",
                 "Zhi Qiao (乔智)"
             ],
@@ -99383,28 +99131,18 @@
         ],
         [
             [
-                "E R' E' R S R S' R'",
-                "E R' E' l E R E' l'"
+                "E R' E' l E R E' l'",
+                "E R' E' R S R S' R'"
             ],
             [
                 "Graham Siggins",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
             [
-                "E:[R',E' R S]",
-                "[E R' E',l]"
-            ]
-        ],
-        [
-            [
-                "L' U' M U L U' M' U"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "[L',U' M U]"
+                "[E R' E',l]",
+                "E:[R',E' R S]"
             ]
         ],
         [
@@ -99465,28 +99203,6 @@
     "GTF": [
         [
             [
-                "M U' R' E R U R' E' r",
-                "M U' l' S l U l' S' L"
-            ],
-            [
-                "Andrew Tan Jing Bang",
-                "Chenhao Sun (孙晨皓)",
-                "Elliott Kobelansky",
-                "Heejun Kim (김희준)",
-                "Jonghyun Kim (김종현)",
-                "Masato Fujiwara (藤原正人)",
-                "Max Hilliard",
-                "Michael Tripodi",
-                "Sebastiano Tronto",
-                "Yuki Tsuneyoshi (恒吉優紀)"
-            ],
-            [
-                "M:[U',R' E R]",
-                "M:[U',l' S l]"
-            ]
-        ],
-        [
-            [
                 "S U R E R2 E' R U' S'"
             ],
             [
@@ -99497,11 +99213,31 @@
                 "Kai Yamamoto (山本快)",
                 "Keiichiro Taira (平佳一郎)",
                 "Leonardo Ezequiel Cruz",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
             [
                 "S U R:[E,R2]"
+            ]
+        ],
+        [
+            [
+                "M U' R' E R U R' E' r"
+            ],
+            [
+                "Andrew Tan Jing Bang",
+                "Chenhao Sun (孙晨皓)",
+                "Elliott Kobelansky",
+                "Heejun Kim (김희준)",
+                "Jonghyun Kim (김종현)",
+                "Masato Fujiwara (藤原正人)",
+                "Max Hilliard",
+                "Michael Tripodi",
+                "Yuki Tsuneyoshi (恒吉優紀)"
+            ],
+            [
+                "M:[U',R' E R]"
             ]
         ],
         [
@@ -99559,6 +99295,7 @@
                 "R F R2 E R U' R' E' R U R F' R'"
             ],
             [
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -99571,8 +99308,7 @@
                 "R' l' F R S R' F' R S' l"
             ],
             [
-                "Kai Yamamoto (山本快)",
-                "Sebastiano Tronto"
+                "Kai Yamamoto (山本快)"
             ],
             [
                 "l':[R' F R,S]"
@@ -99663,13 +99399,13 @@
         ],
         [
             [
-                "l' U' R U R' U' M' U R U' r' U l"
+                "D R F2 R' S R F2 R' S' D'"
             ],
             [
                 "Sebastiano Tronto"
             ],
             [
-                "l' U' R:[U R' U',M']"
+                "D:[R F2 R',S]"
             ]
         ],
         [
@@ -99721,13 +99457,13 @@
         ],
         [
             [
-                "L' U2 L' U M' U' L U M U L"
+                "S U2 R E R2 E' R U2 S'"
             ],
             [
                 "Sebastiano Tronto"
             ],
             [
-                "L' U':[U' L' U,M']"
+                "S U2 R:[E,R2]"
             ]
         ]
     ],
@@ -99747,6 +99483,7 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -99754,17 +99491,6 @@
             [
                 "[E R' E',l']",
                 "E:[R',E' R' S']"
-            ]
-        ],
-        [
-            [
-                "L' U' M U L' U' M' U L2"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "L':[U' M U,L']"
             ]
         ],
         [
@@ -99805,6 +99531,7 @@
                 "S R B E R2 E' R2 B' R' S'"
             ],
             [
+                "Sebastiano Tronto",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -99835,17 +99562,6 @@
         ],
         [
             [
-                "E' L U M U2 M' U L' E"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "E' L U:[M,U2]"
-            ]
-        ],
-        [
-            [
                 "u M2 U L U' M2 U L' U' u'"
             ],
             [
@@ -99859,8 +99575,7 @@
     "GTN": [
         [
             [
-                "M U R' E R U' R' E' r",
-                "M U l' S l U' l' S' L"
+                "M U R' E R U' R' E' r"
             ],
             [
                 "Andrew Tan Jing Bang",
@@ -99873,14 +99588,12 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
-                "M:[U,R' E R]",
-                "M:[U,l' S l]"
+                "M:[U,R' E R]"
             ]
         ],
         [
@@ -99892,6 +99605,17 @@
             ],
             [
                 "R' E R:[S',R B R']"
+            ]
+        ],
+        [
+            [
+                "D' R F2 R' S R F2 R' S' D"
+            ],
+            [
+                "Sebastiano Tronto"
+            ],
+            [
+                "D':[R F2 R',S]"
             ]
         ]
     ],
@@ -99911,7 +99635,6 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -99928,6 +99651,17 @@
             ],
             [
                 "[S R E,R2]"
+            ]
+        ],
+        [
+            [
+                "R2 S' l' S R2 S' l S"
+            ],
+            [
+                "Sebastiano Tronto"
+            ],
+            [
+                "[R2,S' l' S]"
             ]
         ]
     ],
@@ -99947,6 +99681,7 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -99963,17 +99698,6 @@
             ],
             [
                 "U' R B':[R2,E]"
-            ]
-        ],
-        [
-            [
-                "S' U' M U L' U' M' U L S"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "S':[U' M U,L']"
             ]
         ]
     ],
@@ -99994,23 +99718,13 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
                 "U':[E,R U R']"
-            ]
-        ],
-        [
-            [
-                "F' M' F R' F' M F R"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "[F' M' F,R']"
             ]
         ]
     ],
@@ -100060,13 +99774,13 @@
         ],
         [
             [
-                "U' x U' M U2 M' U' x' U"
+                "R S' R' U2 R' E R U2 R' E' R2 S R'"
             ],
             [
                 "Sebastiano Tronto"
             ],
             [
-                "U' x U':[M,U2]"
+                "R S' R':[U2,R' E R]"
             ]
         ]
     ],
@@ -100084,7 +99798,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -100114,6 +99827,17 @@
             ],
             [
                 "U R' E:[R U' R',E]"
+            ]
+        ],
+        [
+            [
+                "E' R B2 R' E R B2 R'"
+            ],
+            [
+                "Sebastiano Tronto"
+            ],
+            [
+                "[E',R B2 R']"
             ]
         ]
     ],
@@ -100156,13 +99880,13 @@
         ],
         [
             [
-                "L' U' M U L2 U' M' U L'"
+                "R' B' R U R' E R U' R' E' B R"
             ],
             [
                 "Sebastiano Tronto"
             ],
             [
-                "L':[U' M U,L2]"
+                "R' B':[R U R',E]"
             ]
         ]
     ],
@@ -100192,22 +99916,12 @@
             [
                 "Max Hilliard",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
             [
                 "R' U':[R U R',E]"
-            ]
-        ],
-        [
-            [
-                "R' l' U' M' U R U' M U l"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "l':[R',U' M' U]"
             ]
         ],
         [
@@ -100268,13 +99982,13 @@
         ],
         [
             [
-                "L' U M' U R' U' M U R U2 L"
+                "R' S' R U2 R' E R U2 R' E' S R"
             ],
             [
                 "Sebastiano Tronto"
             ],
             [
-                "L' U:[M',U R' U']"
+                "R' S':[R U2 R',E]"
             ]
         ],
         [
@@ -100365,6 +100079,7 @@
                 "U' R' E' R2 E R' U R E' R2 E R"
             ],
             [
+                "Sebastiano Tronto",
                 "Yifan Wang (王逸帆)",
                 "Zixing Wang (王子兴)"
             ],
@@ -100405,17 +100120,6 @@
             ],
             [
                 "[U',L' S2 L]"
-            ]
-        ],
-        [
-            [
-                "M2 L U M U2 M' U M2 L'"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "M2 L U:[M,U2]"
             ]
         ],
         [
@@ -100467,7 +100171,6 @@
                 "Martin Vædele Egdal",
                 "Michael Tripodi",
                 "Oliver Fritz",
-                "Sebastiano Tronto",
                 "Shuto Ueno (上野柊斗)",
                 "Timothy Loh",
                 "Tommy Cherry",
@@ -100498,6 +100201,7 @@
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
                 "Morimichi Kikuchi (菊地守道)",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Zixing Wang (王子兴)"
@@ -100565,25 +100269,17 @@
         ],
         [
             [
-                "R E' R2 E R' S R2 S'"
+                "R E' R2 E R' S R2 S'",
+                "l S R2 S' l' S R2 S'"
             ],
             [
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
             [
-                "R E':[R2,E R' S]"
-            ]
-        ],
-        [
-            [
-                "U' L' U' L2 S' L2 S U L U"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "U' L' U':[L2,S']"
+                "R E':[R2,E R' S]",
+                "[l,S R2 S']"
             ]
         ]
     ],
@@ -100650,6 +100346,7 @@
                 "U R' E' R2 E R' U' R E' R2 E R"
             ],
             [
+                "Sebastiano Tronto",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -100665,17 +100362,6 @@
             ],
             [
                 "[U,L' S2 L]"
-            ]
-        ],
-        [
-            [
-                "M2 L U' M' U2 M U' M2 L'"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "M2 L U':[M',U2]"
             ]
         ],
         [
@@ -100719,7 +100405,6 @@
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Tommy Cherry",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -100760,6 +100445,17 @@
             ],
             [
                 "R U':[R' S R,B2]"
+            ]
+        ],
+        [
+            [
+                "R E R' U R E2 R' U' R' E R"
+            ],
+            [
+                "Sebastiano Tronto"
+            ],
+            [
+                "Not found."
             ]
         ],
         [
@@ -100807,6 +100503,7 @@
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
                 "Keiichiro Taira (平佳一郎)",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -100844,7 +100541,6 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Rob Holt",
-                "Sebastiano Tronto",
                 "Tommy Cherry",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -100860,6 +100556,7 @@
                 "Gavriel Johann Arcilla",
                 "Kai Yamamoto (山本快)",
                 "Max Hilliard",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -100924,14 +100621,17 @@
         ],
         [
             [
-                "R E' R2 E R S' R2 S R2"
+                "R E' R2 E R S' R2 S R2",
+                "l S R2 S' l S R2 S' l2"
             ],
             [
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
             [
-                "R E':[R2,E R S']"
+                "R E':[R2,E R S']",
+                "l:[S R2 S',l]"
             ]
         ],
         [
@@ -100955,23 +100655,13 @@
             [
                 "D2 R:[E',R2]"
             ]
-        ],
-        [
-            [
-                "D' L U M U2 M' U L' D"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "D' L U:[M,U2]"
-            ]
         ]
     ],
     "GWL": [
         [
             [
-                "R l E' R' U2 R E R' U2 l'"
+                "R l E' R' U2 R E R' U2 l'",
+                "R2 S' R' B2 R S R' B2 R'"
             ],
             [
                 "Andrew Tan Jing Bang",
@@ -100982,10 +100672,12 @@
                 "Kai Yamamoto (山本快)",
                 "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
-                "l:[R E' R',U2]"
+                "l:[R E' R',U2]",
+                "R:[R S' R',B2]"
             ]
         ],
         [
@@ -101000,17 +100692,6 @@
             [
                 "R E' R:[S',R2]"
             ]
-        ],
-        [
-            [
-                "D l U M U2 M' U l' D'"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "D l U:[M,U2]"
-            ]
         ]
     ],
     "GWM": [
@@ -101024,6 +100705,7 @@
                 "Graham Siggins",
                 "Kai Yamamoto (山本快)",
                 "Keiichiro Taira (平佳一郎)",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -101041,8 +100723,7 @@
                 "Gavriel Johann Arcilla",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
-                "Michael Tripodi",
-                "Sebastiano Tronto"
+                "Michael Tripodi"
             ],
             [
                 "L U:[M,U2]"
@@ -101071,14 +100752,14 @@
         ],
         [
             [
-                "M' L U' M' U2 M U' M L'"
+                "D' S' R B2 R' S R B2 R' D"
             ],
             [
-                "Graham Siggins",
-                "Sebastiano Tronto"
+                "Sebastiano Tronto",
+                "Yangyang Shen (沈炀炀)"
             ],
             [
-                "M' L U':[M',U2]"
+                "D':[S',R B2 R']"
             ]
         ],
         [
@@ -101105,13 +100786,13 @@
         ],
         [
             [
-                "D' S' R B2 R' S R B2 R' D"
+                "M' L U' M' U2 M U' M L'"
             ],
             [
-                "Yangyang Shen (沈炀炀)"
+                "Graham Siggins"
             ],
             [
-                "D':[S',R B2 R']"
+                "M' L U':[M',U2]"
             ]
         ]
     ],
@@ -101181,6 +100862,7 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -101199,17 +100881,6 @@
             ],
             [
                 "[L U2 L',E2]"
-            ]
-        ],
-        [
-            [
-                "L' U2 L' E' L2 E L' U2 L"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "L' U2 L':[E',L2]"
             ]
         ]
     ],
@@ -101241,19 +100912,28 @@
             ],
             [
                 "Gavriel Johann Arcilla",
-                "Michael Tripodi",
-                "Sebastiano Tronto"
+                "Michael Tripodi"
             ],
             [
                 "L:[U2,L E' L']"
+            ]
+        ],
+        [
+            [
+                "S' R2 E' R' U2 R E R' U2 R' S"
+            ],
+            [
+                "Sebastiano Tronto"
+            ],
+            [
+                "S' R:[R E' R',U2]"
             ]
         ]
     ],
     "GWS": [
         [
             [
-                "L' S' L2 S L'",
-                "r' E' r2 E' r'"
+                "L' S' L2 S L'"
             ],
             [
                 "Andrew Tan Jing Bang",
@@ -101272,8 +100952,7 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
-                "L':[S',L2]",
-                "Not found."
+                "L':[S',L2]"
             ]
         ],
         [
@@ -101302,7 +100981,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -101333,6 +101011,17 @@
             [
                 "U R' E:[E,R U' R']"
             ]
+        ],
+        [
+            [
+                "R B2 R' E' R B2 R' E"
+            ],
+            [
+                "Sebastiano Tronto"
+            ],
+            [
+                "[R B2 R',E']"
+            ]
         ]
     ],
     "GWY": [
@@ -101350,6 +101039,7 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -101384,7 +101074,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -101413,6 +101102,17 @@
             ],
             [
                 "R S E':[R2,E R S']"
+            ]
+        ],
+        [
+            [
+                "R B2 R' E R B2 R' E'"
+            ],
+            [
+                "Sebastiano Tronto"
+            ],
+            [
+                "[R B2 R',E]"
             ]
         ]
     ],
@@ -101530,6 +101230,7 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Kevin Matthews",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Shuto Ueno (上野柊斗)",
                 "Timothy Loh",
                 "Tommy Cherry",
@@ -101569,7 +101270,6 @@
                 "Morimichi Kikuchi (菊地守道)",
                 "Oliver Fritz",
                 "Roman Strakhov",
-                "Sebastiano Tronto",
                 "Xin Shi (石欣)",
                 "Yiwei Liu (刘伊玮)",
                 "Zhi Qiao (乔智)",
@@ -101697,7 +101397,6 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
@@ -101706,17 +101405,18 @@
         ],
         [
             [
-                "E' R E R' S R' S' R",
-                "E' R E l' E' R' E l"
+                "E' R E l' E' R' E l",
+                "E' R E R' S R' S' R"
             ],
             [
                 "Graham Siggins",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
             [
-                "E':[R,E R' S]",
-                "[E' R E,l']"
+                "[E' R E,l']",
+                "E':[R,E R' S]"
             ]
         ],
         [
@@ -101804,6 +101504,7 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -101835,17 +101536,6 @@
             ],
             [
                 "M:[U',R E' R']"
-            ]
-        ],
-        [
-            [
-                "U l U M' U2 M U l' U'"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "U l U:[M',U2]"
             ]
         ],
         [
@@ -101904,22 +101594,12 @@
                 "S R' F' E' R2 E R2 F R S'"
             ],
             [
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
             [
                 "S R' F':[E',R2]"
-            ]
-        ],
-        [
-            [
-                "E L' U' M' U2 M U' L E'"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "E L' U':[M',U2]"
             ]
         ],
         [
@@ -101964,7 +101644,6 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -101994,6 +101673,17 @@
             ],
             [
                 "R E' R':[S',R' F' R]"
+            ]
+        ],
+        [
+            [
+                "D R' B2 R S R' B2 R S' D'"
+            ],
+            [
+                "Sebastiano Tronto"
+            ],
+            [
+                "D:[R' B2 R,S]"
             ]
         ],
         [
@@ -102044,13 +101734,13 @@
         ],
         [
             [
-                "L U2 L U M' U' L' U M U L'"
+                "S U2 R' E' R2 E R' U2 S'"
             ],
             [
                 "Sebastiano Tronto"
             ],
             [
-                "L U':[U' L U,M']"
+                "S U2 R':[E',R2]"
             ]
         ],
         [
@@ -102085,19 +101775,20 @@
         ],
         [
             [
-                "E' R E R S' R' S R'",
-                "E' R E l E' R' E l'"
+                "E' R E l E' R' E l'",
+                "E' R E R S' R' S R'"
             ],
             [
                 "Gavriel Johann Arcilla",
                 "Keiichiro Taira (平佳一郎)",
+                "Sebastiano Tronto",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
             [
-                "E':[R,E R S']",
-                "[E' R E,l]"
+                "[E' R E,l]",
+                "E':[R,E R S']"
             ]
         ],
         [
@@ -102109,17 +101800,6 @@
             ],
             [
                 "[E' r E,L]"
-            ]
-        ],
-        [
-            [
-                "L U' M U L U' M' U L2"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "L:[U' M U,L]"
             ]
         ],
         [
@@ -102156,6 +101836,19 @@
         ],
         [
             [
+                "R' B' R2 E' R' U R E R' U' R' B R"
+            ],
+            [
+                "Sebastiano Tronto",
+                "Yangyang Shen (沈炀炀)",
+                "Yifan Wang (王逸帆)"
+            ],
+            [
+                "R' B' R:[R E' R',U]"
+            ]
+        ],
+        [
+            [
                 "M2 U' R E' R' U R E r' M"
             ],
             [
@@ -102168,28 +101861,13 @@
         ],
         [
             [
-                "L S' L' B' L S L' B",
-                "x' L E' L' U' L E L' U x"
+                "L S' L' B' L S L' B"
             ],
             [
-                "Gavriel Johann Arcilla",
-                "Sebastiano Tronto"
+                "Gavriel Johann Arcilla"
             ],
             [
-                "[L S' L',B']",
-                "x':[L E' L',U']"
-            ]
-        ],
-        [
-            [
-                "R' B' R2 E' R' U R E R' U' R' B R"
-            ],
-            [
-                "Yangyang Shen (沈炀炀)",
-                "Yifan Wang (王逸帆)"
-            ],
-            [
-                "R' B' R:[R E' R',U]"
+                "[L S' L',B']"
             ]
         ],
         [
@@ -102253,13 +101931,13 @@
         ],
         [
             [
-                "l U' L' U' L U M' U' L' U l U l'"
+                "D' R' B2 R S R' B2 R S' D"
             ],
             [
                 "Sebastiano Tronto"
             ],
             [
-                "l U' L':[U' L U,M']"
+                "D':[R' B2 R,S]"
             ]
         ],
         [
@@ -102290,7 +101968,6 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -102307,6 +101984,17 @@
             ],
             [
                 "[S R' E',R2]"
+            ]
+        ],
+        [
+            [
+                "R2 S' l S R2 S' l' S"
+            ],
+            [
+                "Sebastiano Tronto"
+            ],
+            [
+                "[R2,S' l S]"
             ]
         ]
     ],
@@ -102325,6 +102013,7 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -102342,17 +102031,6 @@
             ],
             [
                 "U R' F:[R2,E']"
-            ]
-        ],
-        [
-            [
-                "S' U' M U L U' M' U L' S"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "S':[U' M U,L]"
             ]
         ]
     ],
@@ -102382,6 +102060,7 @@
             [
                 "Gavriel Johann Arcilla",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -102398,17 +102077,6 @@
             ],
             [
                 "[r,S' L S]"
-            ]
-        ],
-        [
-            [
-                "R l U' M' U R' U' M U l'"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "l:[R,U' M' U]"
             ]
         ]
     ],
@@ -102447,13 +102115,13 @@
         ],
         [
             [
-                "L U' M U' R U M' U' R' U2 L'"
+                "R S' R' U2 R E' R' U2 R E S R'"
             ],
             [
                 "Sebastiano Tronto"
             ],
             [
-                "L U':[M,U' R U]"
+                "R S':[R' U2 R,E']"
             ]
         ],
         [
@@ -102482,7 +102150,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -102510,6 +102177,17 @@
             ],
             [
                 "U L':[L' E' L,U]"
+            ]
+        ],
+        [
+            [
+                "E R' F2 R E' R' F2 R"
+            ],
+            [
+                "Sebastiano Tronto"
+            ],
+            [
+                "[E,R' F2 R]"
             ]
         ],
         [
@@ -102563,13 +102241,13 @@
         ],
         [
             [
-                "L U' M U L2 U' M' U L"
+                "R' B' E R U R' E' R U' R' B R"
             ],
             [
                 "Sebastiano Tronto"
             ],
             [
-                "L:[U' M U,L2]"
+                "R' B':[E,R U R']"
             ]
         ]
     ],
@@ -102589,23 +102267,13 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
                 "U:[E',R' U' R]"
-            ]
-        ],
-        [
-            [
-                "B' M' B R B' M B R'"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "[B' M' B,R]"
             ]
         ]
     ],
@@ -102656,13 +102324,13 @@
         ],
         [
             [
-                "U x' U M' U2 M U x U'"
+                "R' S' R U2 R E' R' U2 R E R2 S R"
             ],
             [
                 "Sebastiano Tronto"
             ],
             [
-                "U x' U:[M',U2]"
+                "R' S' R:[U2,R E' R']"
             ]
         ]
     ],
@@ -102697,6 +102365,7 @@
                 "Michael Tripodi",
                 "Neel Gore",
                 "Roman Strakhov",
+                "Sebastiano Tronto",
                 "Shuto Ueno (上野柊斗)",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)",
@@ -102725,7 +102394,6 @@
                 "Martin Vædele Egdal",
                 "Morimichi Kikuchi (菊地守道)",
                 "Oliver Fritz",
-                "Sebastiano Tronto",
                 "Timothy Loh",
                 "Yiwei Liu (刘伊玮)",
                 "Zhi Qiao (乔智)"
@@ -102872,6 +102540,7 @@
             [
                 "Chenhao Sun (孙晨皓)",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Xin Shi (石欣)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
@@ -102904,17 +102573,6 @@
             ],
             [
                 "Not found."
-            ]
-        ],
-        [
-            [
-                "R' F U M' U' R U M U' R' F' R"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "R' F:[U M' U',R]"
             ]
         ],
         [
@@ -102964,14 +102622,17 @@
         ],
         [
             [
-                "S' R2 S' R' S R2 S R"
+                "S' R2 S' R' S R2 S R",
+                "S' l2 S R' S' l2 S R"
             ],
             [
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
             [
-                "[S' R2 S',R']"
+                "[S' R2 S',R']",
+                "[S' l2 S,R']"
             ]
         ],
         [
@@ -102979,8 +102640,7 @@
                 "U' R U R2 S R2 S' U' R' U"
             ],
             [
-                "Jonghyun Kim (김종현)",
-                "Sebastiano Tronto"
+                "Jonghyun Kim (김종현)"
             ],
             [
                 "U' R U:[R2,S]"
@@ -103063,6 +102723,7 @@
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
@@ -103094,17 +102755,6 @@
             ],
             [
                 "E:[U,L S L']"
-            ]
-        ],
-        [
-            [
-                "M' U' M U R' U' M' U R M"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "M':[U' M U,R']"
             ]
         ],
         [
@@ -103152,6 +102802,7 @@
             ],
             [
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -103193,6 +102844,7 @@
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Rob Holt",
+                "Sebastiano Tronto",
                 "Tim Wong",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -103210,17 +102862,6 @@
             ],
             [
                 "[U' R' U R,R D R' D']"
-            ]
-        ],
-        [
-            [
-                "M U' M U R' U' M' U r"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "M:[U' M U,R']"
             ]
         ],
         [
@@ -103287,7 +102928,6 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
@@ -103304,6 +102944,17 @@
             ],
             [
                 "R:[R,S R2 S]"
+            ]
+        ],
+        [
+            [
+                "U R U' S' R2 S R2 U R' U'"
+            ],
+            [
+                "Sebastiano Tronto"
+            ],
+            [
+                "U R U':[S',R2]"
             ]
         ]
     ],
@@ -103330,14 +102981,17 @@
         ],
         [
             [
-                "R E R S' R' S R' E'"
+                "R E R S' R' S R' E'",
+                "R E l E' R' E l' E'"
             ],
             [
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
             [
-                "[R,E R S']"
+                "[R,E R S']",
+                "[R,E l E']"
             ]
         ],
         [
@@ -103349,17 +103003,6 @@
             ],
             [
                 "L E:[E,L' U2 L]"
-            ]
-        ],
-        [
-            [
-                "U' D' M U R' U' M' U R D"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "D':[U' M U,R']"
             ]
         ]
     ],
@@ -103378,6 +103021,7 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -103394,17 +103038,6 @@
             ],
             [
                 "D':[U' R' U R,D R D' R']"
-            ]
-        ],
-        [
-            [
-                "U2 R' U' M U2 M' U' R U2"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "U2 R' U':[M,U2]"
             ]
         ],
         [
@@ -103435,6 +103068,7 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
@@ -103546,13 +103180,13 @@
         ],
         [
             [
-                "U' D M U R' U' M' U R D'"
+                "S' R' U R U' S U R' U' R"
             ],
             [
                 "Sebastiano Tronto"
             ],
             [
-                "D:[U' M U,R']"
+                "[S',R' U R U']"
             ]
         ],
         [
@@ -103583,23 +103217,13 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
                 "U2 R:[S,R2]"
-            ]
-        ],
-        [
-            [
-                "L' U2 L E R2 E' R2 L' U2 L"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "L' U2 L:[E,R2]"
             ]
         ]
     ],
@@ -103645,6 +103269,7 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -103662,17 +103287,6 @@
             ],
             [
                 "U' R U R:[E,R2]"
-            ]
-        ],
-        [
-            [
-                "L U2 L' E L2 E' L' U2 L'"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "L U2 L':[E,L2]"
             ]
         ],
         [
@@ -103713,22 +103327,12 @@
             [
                 "Max Hilliard",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
             [
                 "R' U':[E,R U R']"
-            ]
-        ],
-        [
-            [
-                "l' U' M' U R' U' M U R l"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "l':[U' M' U,R']"
             ]
         ],
         [
@@ -103758,6 +103362,7 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -103794,23 +103399,13 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
                 "U:[R' U' R,E']"
-            ]
-        ],
-        [
-            [
-                "R B' M' B R' B' M B"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "[R,B' M' B]"
             ]
         ]
     ],
@@ -103857,7 +103452,6 @@
                 "Neel Gore",
                 "Oliver Fritz",
                 "Roman Strakhov",
-                "Sebastiano Tronto",
                 "Shuto Ueno (上野柊斗)",
                 "Timothy Loh",
                 "Tommy Cherry",
@@ -103882,6 +103476,7 @@
                 "Ishaan Agrawal",
                 "Liren Sun (孙立仁)",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Xin Shi (石欣)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
@@ -103959,7 +103554,6 @@
                 "Leonardo Ezequiel Cruz",
                 "Liren Sun (孙立仁)",
                 "Oliver Fritz",
-                "Sebastiano Tronto",
                 "Xin Shi (石欣)",
                 "Zhi Qiao (乔智)"
             ],
@@ -103977,6 +103571,18 @@
             ],
             [
                 "U L' F':[L2,E]"
+            ]
+        ],
+        [
+            [
+                "R' U2 R S' R' U' R S R' U' R"
+            ],
+            [
+                "Ethan Pan",
+                "Sebastiano Tronto"
+            ],
+            [
+                "R' U:[U,R S' R']"
             ]
         ],
         [
@@ -104059,17 +103665,6 @@
         ],
         [
             [
-                "R' U2 R S' R' U' R S R' U' R"
-            ],
-            [
-                "Ethan Pan"
-            ],
-            [
-                "R' U:[U,R S' R']"
-            ]
-        ],
-        [
-            [
                 "U M' L E2 L' U' L E2 L' U M U'"
             ],
             [
@@ -104097,7 +103692,6 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
@@ -104109,6 +103703,7 @@
                 "R' S' R U2 R' S R U2"
             ],
             [
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -104127,6 +103722,7 @@
                 "Graham Siggins",
                 "Jonghyun Kim (김종현)",
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -104156,8 +103752,7 @@
             ],
             [
                 "Elliott Kobelansky",
-                "Max Hilliard",
-                "Sebastiano Tronto"
+                "Max Hilliard"
             ],
             [
                 "U':[U' R' U,M]"
@@ -104185,7 +103780,6 @@
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Tommy Cherry",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -104199,6 +103793,7 @@
             ],
             [
                 "Michael Tripodi",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -104251,7 +103846,8 @@
             ],
             [
                 "Gavriel Johann Arcilla",
-                "Michael Tripodi"
+                "Michael Tripodi",
+                "Sebastiano Tronto"
             ],
             [
                 "R' U':[U',R S' R']",
@@ -104267,17 +103863,6 @@
             ],
             [
                 "S':[U',L E2 L']"
-            ]
-        ],
-        [
-            [
-                "U' R' M' U M U2 M' U R M U"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "U' R' M' U:[M,U2]"
             ]
         ],
         [
@@ -104527,13 +104112,13 @@
         ],
         [
             [
-                "R' S R U' M' U R U' M U R2 S' R"
+                "R' S' R U2 R S' R' U2 R S R2 S R"
             ],
             [
                 "Sebastiano Tronto"
             ],
             [
-                "R' S R:[U' M' U,R]"
+                "R' S' R:[U2,R S' R']"
             ]
         ]
     ],
@@ -104594,13 +104179,13 @@
         ],
         [
             [
-                "S R2 U' M' U R U' M U R S'"
+                "R' S' R U2 R' S2 R U2 R' S' R"
             ],
             [
                 "Sebastiano Tronto"
             ],
             [
-                "S R':[R',U' M' U]"
+                "R' S':[R U2 R',S2]"
             ]
         ]
     ],
@@ -104739,6 +104324,17 @@
         ],
         [
             [
+                "S' R' U' M U2 M' U' R S"
+            ],
+            [
+                "Sebastiano Tronto"
+            ],
+            [
+                "S' R' U':[M,U2]"
+            ]
+        ],
+        [
+            [
                 "U' D' R U S U' R' U S' D"
             ],
             [
@@ -104777,7 +104373,6 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -104790,6 +104385,7 @@
                 "R' S' R S R2 S' R S R"
             ],
             [
+                "Sebastiano Tronto",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -104809,6 +104405,7 @@
                 "Graham Siggins",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
+                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -104824,8 +104421,7 @@
                 "Gavriel Johann Arcilla",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
-                "Michael Tripodi",
-                "Sebastiano Tronto"
+                "Michael Tripodi"
             ],
             [
                 "[U R U',S]"
@@ -104888,7 +104484,6 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -104910,7 +104505,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Tommy Cherry"
             ],
             [
@@ -104943,6 +104537,17 @@
             ],
             [
                 "u' L:[U',L E' L']"
+            ]
+        ],
+        [
+            [
+                "S' R' U2 R' E R U2 R' E' R2 S"
+            ],
+            [
+                "Sebastiano Tronto"
+            ],
+            [
+                "S' R':[U2,R' E R]"
             ]
         ]
     ],
@@ -104992,13 +104597,13 @@
         ],
         [
             [
-                "L' U2 R' U' M' U R U' M U' L"
+                "R' S' E R U2 R' E' R U2 R' S R"
             ],
             [
                 "Sebastiano Tronto"
             ],
             [
-                "L' U:[U R' U',M']"
+                "R' S':[E,R U2 R']"
             ]
         ],
         [
@@ -105027,7 +104632,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -105056,6 +104660,17 @@
             ],
             [
                 "R S R S':[R2,S R' E']"
+            ]
+        ],
+        [
+            [
+                "E R B2 R' E' R B2 R'"
+            ],
+            [
+                "Sebastiano Tronto"
+            ],
+            [
+                "[E,R B2 R']"
             ]
         ]
     ],
@@ -105106,13 +104721,13 @@
         ],
         [
             [
-                "U x' U' M' U2 M U' x U'"
+                "R' S' R2 E' R' U2 R E R' U2 R' S R"
             ],
             [
                 "Sebastiano Tronto"
             ],
             [
-                "U x' U':[M',U2]"
+                "R' S' R:[R E' R',U2]"
             ]
         ]
     ],
@@ -108395,17 +108010,6 @@
             ],
             [
                 "r:[R F' R',S']"
-            ]
-        ],
-        [
-            [
-                "S R' U M U2 M' U R S'"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "S R' U:[M,U2]"
             ]
         ]
     ],
@@ -112012,17 +111616,6 @@
             ],
             [
                 "r:[S',R F' R']"
-            ]
-        ],
-        [
-            [
-                "S R' U' M U2 M' U' R S'"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "S R' U':[M,U2]"
             ]
         ]
     ],
