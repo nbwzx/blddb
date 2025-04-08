@@ -317,7 +317,7 @@ const Checker = () => {
       <>
         <div className="mt-4 text-dark dark:text-white">
           {
-            "Notice: Color Pink means the algorithm is not matched with the case; Color Blue means the algorithm is matched with the inverse case."
+            "Notice: Color Pink means the algorithm is not matched with the case; Color Green means the algorithm is matched with the inverse case."
           }
         </div>
         <div className="mt-4 max-h-[75vh] overflow-auto">
@@ -326,7 +326,18 @@ const Checker = () => {
               <tr>
                 {values[0].map(
                   (header, index) =>
-                    (index === 0 || header) && <th key={index}>{header}</th>,
+                    (index === 0 || header) && (
+                      <th
+                        key={index}
+                        className={
+                          index === 0
+                            ? "sticky left-0 top-0 z-20"
+                            : "sticky top-0 z-10"
+                        }
+                      >
+                        {header}
+                      </th>
+                    ),
                 )}
               </tr>
             </thead>
@@ -340,29 +351,34 @@ const Checker = () => {
                           (cellIndex === 0 || values[0][cellIndex]) && (
                             <td
                               key={cellIndex}
-                              className={(() => {
-                                const positionx = getPosition(
-                                  cell,
-                                  getPattern(
-                                    is3bld ? patterns_3bld : patterns_5bld,
-                                    values[0][cellIndex],
-                                  ),
-                                  getPattern(
-                                    is3bld ? patterns_3bld : patterns_5bld,
-                                    values[rowIndex + 1][0],
-                                  ),
-                                );
-                                if (
-                                  positionx === "matched" ||
-                                  cellIndex === 0
-                                ) {
-                                  return "";
-                                }
-                                if (positionx === "inverse") {
-                                  return "bg-blue-300 dark:bg-blue-500";
-                                }
-                                return "bg-pink-300 dark:bg-pink-500";
-                              })()}
+                              className={
+                                (cellIndex === 0
+                                  ? "sticky left-0 z-10 bg-sky-200 font-bold dark:bg-sky-800"
+                                  : "") +
+                                (() => {
+                                  const positionx = getPosition(
+                                    cell,
+                                    getPattern(
+                                      is3bld ? patterns_3bld : patterns_5bld,
+                                      values[0][cellIndex],
+                                    ),
+                                    getPattern(
+                                      is3bld ? patterns_3bld : patterns_5bld,
+                                      values[rowIndex + 1][0],
+                                    ),
+                                  );
+                                  if (
+                                    positionx === "matched" ||
+                                    cellIndex === 0
+                                  ) {
+                                    return "";
+                                  }
+                                  if (positionx === "inverse") {
+                                    return "bg-green-300 dark:bg-green-800";
+                                  }
+                                  return "bg-pink-300 dark:bg-pink-500";
+                                })()
+                              }
                             >
                               {cell}
                             </td>
