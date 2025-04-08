@@ -73,13 +73,6 @@ const Checker = () => {
     return "";
   }
 
-  function isPattern(
-    patterns: { [key: string]: string[] },
-    mainString: string,
-  ): boolean {
-    return getPattern(patterns, mainString) !== "";
-  }
-
   const patterns_3bld: { [key: string]: string[] } = {
     non_alphabetic_strict: codeConverter.positionArray.filter(
       (x) => x.length !== 1,
@@ -90,37 +83,6 @@ const Checker = () => {
     non_alphabetic_strict: bigbldCodeConverter.positionArray.filter(
       (x) => x.length !== 1,
     ),
-  };
-
-  const patterns_midge = {
-    ignore_case: ["midge", "中棱"],
-    non_alphanumeric: ["m", "M"],
-  };
-
-  // prettier-ignore
-  const patterns_wing = {
-    ignore_case: ["wing", "翼棱"],
-    non_alphabetic: [
-        "UFl", "URf", "ULb", "UBr", "RUb", "RFu", "RDf", "RBd", "LUf", "LFd", "LDb", "LBu",
-        "FUr", "FRd", "FLu", "FDl", "DRb", "DLf", "DFr", "DBl", "BUl", "BRu", "BLd", "BDr",
-        "URb", "ULf", "UFr", "UBl", "RUf", "RFd", "RDb", "RBu", "LUb", "LFu", "LDf", "LBd",
-        "FUl", "FRu", "FLd", "FDr", "DRf", "DLb", "DFl", "DBr", "BRr", "BRd", "BLu", "BDl"
-    ],
-    non_alphanumeric: ["w", "W"]
-  };
-
-  // prettier-ignore
-  const patterns_tcenter = {
-    ignore_case: [
-        "+C", "+-C",
-        "TC", "T-C",
-        "边心"
-    ],
-    non_alphabetic: [
-        "Uf", "Ul", "Ub", "Ur", "Df", "Dl", "Db", "Dr", "Fr", "Fl", "Bl", "Br",
-        "Fu", "Lu", "Bu", "Ru", "Fd", "Ld", "Bd", "Rd", "Rf", "Lf", "Lb", "Rb"
-    ],
-    non_alphanumeric: ["t", "T"]
   };
 
   const fetchData = async () => {
@@ -160,12 +122,16 @@ const Checker = () => {
   const handleSheetChange = (event) => {
     const newSheet = event.target.value;
     setSelectedSheet(newSheet);
-
-    const newBuffer = getPattern(
-      selectedTypes === "BigBLD" ? patterns_5bld : patterns_3bld,
-      newSheet,
-    );
+    const newBuffer =
+      getPattern(patterns_3bld, newSheet) ||
+      getPattern(patterns_5bld, newSheet);
     setBuffer(newBuffer);
+    const selectedTypesNew =
+      bigbldCodeConverter.positionArray.includes(newBuffer) &&
+      !codeConverter.positionArray.includes(newBuffer)
+        ? "BigBLD"
+        : "3BLD";
+    setSelectedTypes(selectedTypesNew);
   };
 
   const handleTypesChange = (event) => {
@@ -202,19 +168,27 @@ const Checker = () => {
           (cell.includes("m") || cell.includes("e") || cell.includes("s"))
         )
       ) {
-        if (isPattern(patterns_midge, selectedSheet)) {
+        if (
+          converter.positionToCodeType(firstRow) !==
+            converter.positionToCodeType(buffer) ||
+          converter.positionToCodeType(firstCol) !==
+            converter.positionToCodeType(buffer)
+        ) {
+          return "";
+        }
+        if (converter.positionToCodeType(buffer) === "midge") {
           cell = cell
             .replace(/M/gu, "m")
             .replace(/E/gu, "e")
             .replace(/S/gu, "s");
         }
-        if (isPattern(patterns_tcenter, selectedSheet)) {
+        if (converter.positionToCodeType(buffer) === "tcenter") {
           cell = cell
             .replace(/M/gu, "m")
             .replace(/E/gu, "e")
             .replace(/S/gu, "s");
         }
-        if (isPattern(patterns_wing, selectedSheet)) {
+        if (converter.positionToCodeType(buffer) === "wing") {
           cell = cell
             .replace(/m/gu, "M")
             .replace(/e/gu, "E")
@@ -251,11 +225,7 @@ const Checker = () => {
         ? tracer.getCodeAuto(expanded)
         : tracer_555.getCodeAuto(expanded);
       if (
-        converter.positionToCodeType(firstRow) ===
-          converter.positionToCodeType(firstCol) &&
-        ["xcenter", "tcenter"].includes(
-          converter.positionToCodeType(firstRow),
-        ) &&
+        ["xcenter", "tcenter"].includes(converter.positionToCodeType(buffer)) &&
         firstRow[0] === firstCol[0]
       ) {
         return "matched";
@@ -460,6 +430,7 @@ const Checker = () => {
                     </div>
                     <select
                       id="sheetSelect"
+                      value={selectedTypes}
                       onChange={handleTypesChange}
                       className="inline-block rounded-sm border-b-[3px] border-gray-500 bg-inherit py-1 pr-5 text-base font-medium text-dark outline-none transition-all duration-300 focus:border-primary dark:border-gray-100 dark:bg-gray-dark dark:text-white dark:shadow-none dark:focus:border-primary dark:focus:shadow-none"
                     >
