@@ -112,7 +112,7 @@ const Checker = () => {
   // prettier-ignore
   const patterns_tcenter = {
     ignore_case: [
-        "+", "+C", "+-C",
+        "+C", "+-C",
         "TC", "T-C",
         "边心"
     ],
@@ -196,6 +196,7 @@ const Checker = () => {
         return "";
       }
       if (
+        !is3bld &&
         !(
           (cell.includes("M") || cell.includes("E") || cell.includes("S")) &&
           (cell.includes("m") || cell.includes("e") || cell.includes("s"))
