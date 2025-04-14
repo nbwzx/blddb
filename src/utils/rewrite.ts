@@ -178,6 +178,10 @@ const rewrite = (function () {
     s = s.replace(/:/gu, " :");
     s = s.replace(/\]/gu, " ]");
     s = s.replace(/\//gu, " /");
+    s = s.replace(new RegExp(`${move}w' `, "gu"), "_ ");
+    s = s.replace(new RegExp(`${move}w `, "gu"), `${move}w' `);
+    s = s.replace(/_ /gu, `${move}w `);
+    s = s.replace(new RegExp(`${move}w'2 `, "gu"), `${move}w2 `);
     s = s.replace(new RegExp(`${move}' `, "gu"), "_ ");
     s = s.replace(new RegExp(`${move} `, "gu"), `${move}' `);
     s = s.replace(/_ /gu, `${move} `);
@@ -201,10 +205,11 @@ const rewrite = (function () {
     if (axis === "M") {
       // prettier-ignore
       const moves = [
-      "U", "D", "F", "B", "L", "R",
-      "u", "d", "f", "b", "l", "r",
-      "S", "E", "y", "z",
-    ];
+        "U", "D", "F", "B", "L", "R",
+        "u", "d", "f", "b", "l", "r",
+        "S", "E", "y", "z",
+        "s", "e"
+      ];
       for (const move of moves) {
         s = mirror(s, move);
       }

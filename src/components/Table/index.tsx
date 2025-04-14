@@ -103,7 +103,7 @@ const Table = ({
   }
   const settings = loadSettings();
   const trumbPosition = settings.showThumbPosition;
-  const mirrorLR = is3bld && settings.mirrorLR;
+  const mirrorLR = settings.mirrorLR;
   const variantCode = converter.customCodeToVariantCode(
     inputText,
     codeType,

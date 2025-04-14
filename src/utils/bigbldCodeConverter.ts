@@ -209,8 +209,23 @@ const bigbldCodeConverter = (function () {
     return permutations;
   }
 
-  function customCodeToVariantCode(code: string, codeType: string) {
-    const result = customCodeToPosition(code, codeType);
+  function customCodeToVariantCode(
+    code: string,
+    codeType: string,
+    mirrorLR = false,
+  ) {
+    let result = customCodeToPosition(code, codeType);
+    if (mirrorLR) {
+      result = result.map((pos) => {
+        return pos
+          .replace(/L/gu, "_")
+          .replace(/R/gu, "L")
+          .replace(/_/gu, "R")
+          .replace(/l/gu, "_")
+          .replace(/r/gu, "l")
+          .replace(/_/gu, "r");
+      });
+    }
     const displacePositions: string[][] = [result];
     for (let i = 1; i < codeTypeToNumber(codeType); i++) {
       displacePositions.push(
@@ -244,8 +259,26 @@ const bigbldCodeConverter = (function () {
     return result.join("");
   }
 
-  function customCodeToVariantCustomCode(code: string, codeType: string) {
-    const result = customCodeToPosition(code, codeType);
+  function customCodeToVariantCustomCode(
+    code: string,
+    codeType: string,
+    mirrorLR = false,
+  ) {
+    let result = customCodeToPosition(code, codeType);
+    if (mirrorLR) {
+      result = result.map((pos) => {
+        return pos
+          .replace(/L/gu, "_")
+          .replace(/R/gu, "L")
+          .replace(/_/gu, "R")
+          .replace(/l/gu, "_")
+          .replace(/r/gu, "l")
+          .replace(/_/gu, "r");
+      });
+      if (codeType === "wing") {
+        result = result.map((pos) => pos[1] + pos[0] + pos[2]);
+      }
+    }
     const displacePositions: string[][] = [result];
     for (let i = 1; i < codeTypeToNumber(codeType); i++) {
       displacePositions.push(
@@ -259,10 +292,15 @@ const bigbldCodeConverter = (function () {
     return variantCode;
   }
 
-  function initCodeToVariantCustomCode(code: string, codeType: string) {
+  function initCodeToVariantCustomCode(
+    code: string,
+    codeType: string,
+    mirrorLR = false,
+  ) {
     return customCodeToVariantCustomCode(
       initCodeToCustomCode(code, codeType),
       codeType,
+      mirrorLR,
     );
   }
 
