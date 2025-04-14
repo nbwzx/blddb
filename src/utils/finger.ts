@@ -99,10 +99,6 @@ const finger = (function () {
       ) {
         return false;
       }
-      // R U2 R2 F' R S R' F R S' R U2 R'
-      if (fingerposition === 1 && arr[i] === "B2") {
-        return false;
-      }
       if (
         fingerposition === 0 &&
         (arr[i][0] === "B" ||
