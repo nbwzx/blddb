@@ -4,6 +4,7 @@ import React, { useEffect, useState, useRef } from "react";
 import codeConverter from "@/utils/codeConverter";
 import bigbldCodeConverter from "@/utils/bigbldCodeConverter";
 import { useTranslation } from "@/i18n/client";
+import Loading from "@/app/loading";
 
 const Code = ({ cubeSize }: { cubeSize: 3 | 5 }) => {
   const { t } = useTranslation();
@@ -11,14 +12,63 @@ const Code = ({ cubeSize }: { cubeSize: 3 | 5 }) => {
   const elementRef = useRef<HTMLDivElement>(null);
   const [cellWidth, setWidth] = useState(0);
   const localStorageKey = cubeSize === 3 ? "code" : "bigbldCode";
-  const faces = [
+  const [loading, setLoading] = useState(true);
+  const [faces, setFaces] = useState([
     "face-u white",
     "face-l orange",
     "face-f green",
     "face-r red",
     "face-b blue",
     "face-d yellow",
+  ]);
+  const faceList = ["u", "l", "f", "r", "b", "d"];
+  const colorList = ["white", "orange", "green", "red", "blue", "yellow"];
+  // prettier-ignore
+  const orientations = [
+    "wg", "wr", "wb", "wo",
+    "yg", "yr", "yb", "yo",
+    "ob", "ow", "oy", "og",
+    "rb", "rw", "ry", "rg",
+    "go", "gy", "gw", "gr",
+    "bo", "by", "bw", "br",
   ];
+  const facesMap = [
+    [0, 1, 2, 3, 4, 5],
+    [0, 2, 3, 4, 1, 5],
+    [0, 3, 4, 1, 2, 5],
+    [0, 4, 1, 2, 3, 5],
+    [5, 3, 2, 1, 4, 0],
+    [5, 4, 3, 2, 1, 0],
+    [5, 1, 4, 3, 2, 0],
+    [5, 2, 1, 4, 3, 0],
+    [1, 0, 4, 5, 2, 3],
+    [1, 2, 0, 4, 5, 3],
+    [1, 4, 5, 2, 0, 3],
+    [1, 5, 2, 0, 4, 3],
+    [3, 5, 4, 0, 2, 1],
+    [3, 4, 0, 2, 5, 1],
+    [3, 2, 5, 4, 0, 1],
+    [3, 0, 2, 5, 4, 1],
+    [2, 0, 1, 5, 3, 4],
+    [2, 1, 5, 3, 0, 4],
+    [2, 3, 0, 1, 5, 4],
+    [2, 5, 3, 0, 1, 4],
+    [4, 5, 1, 0, 3, 2],
+    [4, 3, 5, 1, 0, 2],
+    [4, 1, 0, 3, 5, 2],
+    [4, 0, 3, 5, 1, 2],
+  ];
+  const [selectedOrientationIndex, setSelectedOrientationIndex] = useState(0);
+  const handleOrientationChange = (selectedIndex: number) => {
+    const selectedColor = facesMap[selectedIndex].map((key) => colorList[key]);
+    const newFaces = selectedColor.map(
+      (color, i) => `face-${faceList[i]} ${color}`,
+    );
+    setFaces(newFaces);
+    setSelectedOrientationIndex(selectedIndex);
+    localStorage.setItem("orientation", orientations[selectedIndex]);
+  };
+
   const letteringSchemes = {
     3: codeConverter.letteringSchemes,
     5: bigbldCodeConverter.letteringSchemes,
@@ -41,22 +91,15 @@ const Code = ({ cubeSize }: { cubeSize: 3 | 5 }) => {
         );
       }
     };
+    if (loading) {
+      return undefined;
+    }
     handleResize();
     window.addEventListener("resize", handleResize);
     return () => {
       window.removeEventListener("resize", handleResize);
     };
-  }, [cubeSize]);
-
-  useEffect(() => {
-    if (cubeSize === 5) {
-      const storedValues = localStorage.getItem(localStorageKey);
-      // The index 1 is notEditableCells[0][0]
-      if (storedValues && storedValues[1] === " ") {
-        setIsStandard(false);
-      }
-    }
-  }, [cubeSize, localStorageKey]);
+  }, [cubeSize, loading]);
 
   const swapCharacters = (array: string[], index1: number, index2: number) => {
     [array[index1], array[index2]] = [array[index2], array[index1]];
@@ -92,6 +135,13 @@ const Code = ({ cubeSize }: { cubeSize: 3 | 5 }) => {
   };
 
   useEffect(() => {
+    if (cubeSize === 5) {
+      const storedValues = localStorage.getItem(localStorageKey);
+      // The index 1 is notEditableCells[0][0]
+      if (storedValues && storedValues[1] === " ") {
+        setIsStandard(false);
+      }
+    }
     const initialInputValues = {
       3: codeConverter.initialInputValues,
       5: bigbldCodeConverter.initialInputValues,
@@ -99,6 +149,18 @@ const Code = ({ cubeSize }: { cubeSize: 3 | 5 }) => {
     const storedValues =
       localStorage.getItem(localStorageKey) ?? initialInputValues[cubeSize];
     setInputValues(storedValues);
+    const savedOrientation = localStorage.getItem("orientation") ?? "wg";
+    const index = orientations.indexOf(savedOrientation);
+    if (index !== -1) {
+      const selectedColor = facesMap[index].map((key) => colorList[key]);
+      const newFaces = selectedColor.map(
+        (color, i) => `face-${faceList[i]} ${color}`,
+      );
+      setFaces(newFaces);
+      setSelectedOrientationIndex(index);
+    }
+    setLoading(false);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [cubeSize, localStorageKey]);
 
   const handleChange = (index: number, value: string) => {
@@ -110,6 +172,10 @@ const Code = ({ cubeSize }: { cubeSize: 3 | 5 }) => {
     localStorage.setItem(localStorageKey, updatedValues);
   };
 
+  if (loading) {
+    return <Loading />;
+  }
+
   return (
     <section className="pb-[120px] pt-[100px]">
       <div className="container">
@@ -120,7 +186,7 @@ const Code = ({ cubeSize }: { cubeSize: 3 | 5 }) => {
             </h2>
             <div className="mb-5">
               {" "}
-              <div className="inline-block text-black dark:text-white">
+              <div className="inline-block font-bold text-black dark:text-white">
                 {t("code.setting")}
               </div>
               <div className="inline-block">
@@ -143,10 +209,28 @@ const Code = ({ cubeSize }: { cubeSize: 3 | 5 }) => {
                 )}
               </div>
             </div>
+            <div className="mb-5">
+              <div className="mr-2 inline-block font-bold text-dark dark:text-white">
+                {t("code.orientation")}
+              </div>
+              <select
+                className="rounded-sm border-b-[3px] border-gray-500 bg-inherit py-1 pr-4 text-base font-medium text-dark outline-none transition-all duration-300 focus:border-primary dark:border-gray-100 dark:bg-gray-dark dark:text-white dark:shadow-none dark:focus:border-primary dark:focus:shadow-none"
+                onChange={(e) =>
+                  handleOrientationChange(Number(e.target.value))
+                }
+                value={selectedOrientationIndex}
+              >
+                {orientations.map((orientation, index) => (
+                  <option key={index} value={index}>
+                    {t(`code.orientationOptions.${orientation}`)}
+                  </option>
+                ))}
+              </select>
+            </div>
             {cubeSize === 5 && (
               <div className="mb-5 flex">
                 {" "}
-                <div className="inline-block text-black dark:text-white">
+                <div className="inline-block  font-bold text-black dark:text-white">
                   {t("code.wingCodeSetting")}
                 </div>
                 <span
