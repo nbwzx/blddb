@@ -492,7 +492,8 @@ const Table = ({
               src={videoUrl}
               width="100%"
               height="100%"
-              allow="autoplay"
+              allow="autoplay; fullscreen"
+              allowFullScreen
               sandbox="allow-same-origin allow-scripts"
             ></iframe>
           </div>
