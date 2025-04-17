@@ -142,6 +142,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
       };
   const sourceToUrl = require("public/data/sourceToUrl.json");
   const sourceToResult = require("public/data/sourceToResult.json");
+  const algToUrl = require("public/data/algToUrl.json");
 
   useEffect(() => {
     const observer = new MutationObserver((mutationsList) => {
@@ -504,6 +505,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
                 selected={modeToSelected[modeValue]}
                 sourceToUrl={sourceToUrl}
                 sourceToResult={sourceToResult}
+                algToUrl={algToUrl}
               />
             </div>
           </div>

@@ -238,16 +238,19 @@
     border-top: 1px solid;
     border-bottom: 1px solid;
     border-right: 1px solid;
+    @apply border-black dark:border-white;
   }
 
   table td {
     border-bottom: 1px solid;
     border-right: 1px solid;
+    @apply border-black dark:border-white;
   }
 
   table th:first-child,
   table td:first-child {
     border-left: 1px solid;
+    @apply border-black dark:border-white;
   }
 
   table thead th {

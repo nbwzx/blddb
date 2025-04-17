@@ -1,4 +1,4 @@
-import React, { JSX, useState } from "react";
+import React, { JSX, useEffect, useState } from "react";
 import commutator from "@/utils/commutator";
 import commutator_555 from "@/utils/commutator_555";
 import finger from "@/utils/finger";
@@ -27,6 +27,7 @@ const Table = ({
   selected,
   sourceToUrl,
   sourceToResult,
+  algToUrl,
 }: {
   codeType: string;
   inputText: string;
@@ -44,6 +45,13 @@ const Table = ({
       wca_id: string;
       "3bld"?: number;
       "4bld"?: number;
+    };
+  };
+  algToUrl?: {
+    [key: string]: {
+      urlID: string;
+      width: number;
+      height: number;
     };
   };
 }) => {
@@ -101,6 +109,63 @@ const Table = ({
   if (codeType === "twists" && inputText.length === 2) {
     isCommutatorNeeded = true;
   }
+
+  const [isVideoVisible, setIsVideoVisible] = useState(false);
+  const [videoDimensions, setVideoDimensions] = useState({
+    width: 0,
+    height: 0,
+  });
+  const [videoUrl, setVideoUrl] = useState("");
+  const getVideoUrl = (algorithms: string[]) => {
+    for (const algorithm of algorithms) {
+      if (algToUrl?.[algorithm]) {
+        return algToUrl?.[algorithm];
+      }
+    }
+    return {
+      urlID: "",
+      width: 0,
+      height: 0,
+    };
+  };
+  const handleCellClick = (algorithms: string[]) => {
+    const { urlID, width, height } = getVideoUrl(algorithms);
+    if (urlID) {
+      const url = `https://drive.google.com/file/d/${urlID}/preview`;
+      setVideoUrl(url);
+      const widthScale = (Math.min(window.innerWidth, 1000) * 0.8) / width;
+      const heightScale = (Math.min(window.innerHeight, 1000) * 0.8) / height;
+      const scale = Math.min(widthScale, heightScale);
+      setVideoDimensions({
+        width: width * scale,
+        height: height * scale,
+      });
+      setIsVideoVisible(true);
+    }
+  };
+
+  useEffect(() => {
+    const video = document.createElement("video");
+    video.src = videoUrl;
+    if (isVideoVisible) {
+      video.oncanplaythrough = () => {
+        const originalWidth = video.videoWidth;
+        const originalHeight = video.videoHeight;
+        const widthScale = (window.innerWidth * 0.8) / originalWidth;
+        const heightScale = (window.innerHeight * 0.8) / originalHeight;
+        const scale = Math.min(widthScale, heightScale);
+        setVideoDimensions({
+          width: originalWidth * scale,
+          height: originalHeight * scale,
+        });
+      };
+    }
+    return () => {
+      video.src = "";
+      video.load();
+    };
+  }, [isVideoVisible, videoUrl]);
+
   const settings = loadSettings();
   const trumbPosition = settings.showThumbPosition;
   const mirrorLR = settings.mirrorLR;
@@ -283,7 +348,17 @@ const Table = ({
               </td>
             )}
             {j === 0 && istrumbPositionNeeded && (
-              <td rowSpan={item.length}>{fingerResult}</td>
+              <td
+                rowSpan={item.length}
+                onClick={() => handleCellClick(item)}
+                className={
+                  getVideoUrl(item).urlID
+                    ? "cursor-pointer text-primary dark:text-[#00BCD4]"
+                    : ""
+                }
+              >
+                {fingerResult}
+              </td>
             )}
             {isManmade && j === 0 && (
               <td className="help" rowSpan={item.length}>
@@ -400,6 +475,29 @@ const Table = ({
         </div>
       )}
       {tableElements2}
+      {isVideoVisible && (
+        <>
+          <div
+            className="z-999 fixed left-0 top-0 h-full w-full bg-black bg-opacity-50"
+            onClick={() => setIsVideoVisible(false)}
+          />
+          <div
+            className="z-1000 fixed left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transform rounded-lg bg-white shadow-lg"
+            style={{
+              width: videoDimensions.width || "80%",
+              height: videoDimensions.height || "80%",
+            }}
+          >
+            <iframe
+              src={videoUrl}
+              width="100%"
+              height="100%"
+              allow="autoplay"
+              sandbox="allow-same-origin allow-scripts"
+            ></iframe>
+          </div>
+        </>
+      )}
     </div>
   );
 };
