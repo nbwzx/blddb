@@ -329,6 +329,9 @@ const finger = (function () {
         return x.replace("finger.", "finger.left");
       });
     }
+    if (count === 0) {
+      fingerbegin = ["/"];
+    }
     return fingerbegin;
   }
 
