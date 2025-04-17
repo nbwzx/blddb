@@ -286,6 +286,12 @@ const finger = (function () {
     if (alg === "") {
       return ["finger.homegrip"];
     }
+    if (alg === "L2 U S U2 S' U L2" || alg === "L2 U' S U2 S' U' L2") {
+      return ["finger.lefthomegrip"];
+    }
+    if (alg === "R2 U S' U2 S U R2" || alg === "R2 U' S' U2 S U' R2") {
+      return ["finger.homegrip"];
+    }
     const isLefty =
       !alg.includes("R") &&
       !alg.includes("r") &&
