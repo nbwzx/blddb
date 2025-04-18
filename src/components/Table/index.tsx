@@ -49,7 +49,7 @@ const Table = ({
   };
   algToUrl?: {
     [key: string]: {
-      urlID: string;
+      url: string;
       width: number;
       height: number;
     };
@@ -123,15 +123,14 @@ const Table = ({
       }
     }
     return {
-      urlID: "",
+      url: "",
       width: 0,
       height: 0,
     };
   };
   const handleCellClick = (algorithms: string[]) => {
-    const { urlID, width, height } = getVideoUrl(algorithms);
-    if (urlID) {
-      const url = `https://drive.google.com/file/d/${urlID}/preview`;
+    const { url, width, height } = getVideoUrl(algorithms);
+    if (url) {
       setVideoUrl(url);
       const widthScale = (Math.min(window.innerWidth, 1000) * 0.8) / width;
       const heightScale = (Math.min(window.innerHeight, 1000) * 0.8) / height;
@@ -352,7 +351,7 @@ const Table = ({
                 rowSpan={item.length}
                 onClick={() => handleCellClick(item)}
                 className={
-                  getVideoUrl(item).urlID
+                  getVideoUrl(item).url
                     ? "cursor-pointer text-primary dark:text-[#00BCD4]"
                     : ""
                 }
