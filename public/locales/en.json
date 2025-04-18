@@ -218,6 +218,15 @@
   },
   "checker": {
     "title": "Algorithm Checker",
-    "hint": "Please enter your Google Sheet URL for checking. It should be a 2D table with the first row and the first column containing position information."
+    "hint": "Please enter your Google Sheet URL for checking. It should be a 2D table with the first row and the first column containing position information.",
+    "notice": "Notice: Color Pink means the algorithm is not matched with the case; Color Green means the algorithm is matched with the inverse case.",
+    "url": "Google Sheet URL",
+    "fetchData": "Fetch Data",
+    "selectSheet": "Select a Sheet:",
+    "types": "Types:",
+    "buffer": "Buffer:",
+    "firstTarget": "First Target:",
+    "row": "Row",
+    "column": "Column"
   }
 }

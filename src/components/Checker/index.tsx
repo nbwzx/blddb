@@ -129,8 +129,8 @@ const Checker = () => {
     const selectedTypesNew =
       bigbldCodeConverter.positionArray.includes(newBuffer) &&
       !codeConverter.positionArray.includes(newBuffer)
-        ? "BigBLD"
-        : "3BLD";
+        ? t("common.BigBLD")
+        : t("common.3BLD");
     setSelectedTypes(selectedTypesNew);
   };
 
@@ -234,7 +234,7 @@ const Checker = () => {
         converter.positionToCustomCode([buffer, firstRow, firstCol]),
         codeAuto[0],
       );
-      if (selectedTarget === "Column") {
+      if (selectedTarget === t("checker.column")) {
         if (
           codeFromPattern.includes(
             codeAuto[1][0] + codeAuto[1][2] + codeAuto[1][1],
@@ -287,9 +287,7 @@ const Checker = () => {
     return (
       <>
         <div className="mt-4 text-dark dark:text-white">
-          {
-            "Notice: Color Pink means the algorithm is not matched with the case; Color Green means the algorithm is matched with the inverse case."
-          }
+          {t("checker.notice")}
         </div>
         <div className="mt-4 max-h-[75vh] overflow-auto">
           <table className="overflow-x-auto">
@@ -376,7 +374,7 @@ const Checker = () => {
               </h2>
               <p className="text-black dark:text-white">{t("checker.hint")}</p>
               <div className="mb-3 mr-2 mt-4 inline-block font-bold text-dark dark:text-white">
-                Google Sheet URL
+                {t("checker.url")}
               </div>
               <input
                 type="text"
@@ -391,7 +389,7 @@ const Checker = () => {
                 className="mb-1 mt-1 inline-block cursor-pointer rounded-sm border-2 border-black bg-white px-4 py-2 text-base font-semibold text-black duration-300 ease-in-out hover:text-primary dark:border-white dark:bg-dark dark:text-white dark:hover:text-primary"
                 onClick={fetchData}
               >
-                Fetch Data
+                {t("checker.fetchData")}
               </div>
               {loading && (
                 <div className="flex items-center justify-center">
@@ -409,7 +407,7 @@ const Checker = () => {
               {Object.keys(sheetData).length > 0 && (
                 <>
                   <div className="mb-3 mr-2 mt-4 inline-block font-bold text-dark dark:text-white">
-                    Select a Sheet:
+                    {t("checker.selectSheet")}
                   </div>
                   <select
                     id="sheetSelect"
@@ -426,7 +424,7 @@ const Checker = () => {
                   <span className="mx-3"></span>
                   <div className="inline-block">
                     <div className="mb-3 mr-2 mt-4 inline-block font-bold text-dark dark:text-white">
-                      Types:
+                      {t("checker.types")}
                     </div>
                     <select
                       id="sheetSelect"
@@ -434,8 +432,8 @@ const Checker = () => {
                       onChange={handleTypesChange}
                       className="inline-block rounded-sm border-b-[3px] border-gray-500 bg-inherit py-1 pr-5 text-base font-medium text-dark outline-none transition-all duration-300 focus:border-primary dark:border-gray-100 dark:bg-gray-dark dark:text-white dark:shadow-none dark:focus:border-primary dark:focus:shadow-none"
                     >
-                      <option>3BLD</option>
-                      <option>BigBLD</option>
+                      <option>{t("common.3BLD")}</option>
+                      <option>{t("common.BigBLD")}</option>
                     </select>
                   </div>
                 </>
@@ -444,7 +442,7 @@ const Checker = () => {
               {Object.keys(sheetData).length > 0 && (
                 <>
                   <div className="mb-3 mr-2 mt-4 inline-block font-bold text-dark dark:text-white">
-                    Buffer:
+                    {t("checker.buffer")}
                   </div>
                   <input
                     type="text"
@@ -462,15 +460,15 @@ const Checker = () => {
                   <span className="mx-3"></span>
                   <div className="inline-block">
                     <div className="mb-3 mr-2 mt-4 inline-block font-bold text-dark dark:text-white">
-                      First Target:
+                      {t("checker.firstTarget")}
                     </div>
                     <select
                       id="sheetTarget"
                       onChange={handleTargetChange}
                       className="inline-block rounded-sm border-b-[3px] border-gray-500 bg-inherit py-1 pr-5 text-base font-medium text-dark outline-none transition-all duration-300 focus:border-primary dark:border-gray-100 dark:bg-gray-dark dark:text-white dark:shadow-none dark:focus:border-primary dark:focus:shadow-none"
                     >
-                      <option>Row</option>
-                      <option>Column</option>
+                      <option>{t("checker.row")}</option>
+                      <option>{t("checker.column")}</option>
                     </select>
                   </div>
                 </>

@@ -215,5 +215,18 @@
       "spaceAfterComma": "逗号后加空格",
       "outerBrackets": "外部加括号"
     }
+  },
+  "checker": {
+    "title": "公式集检查器",
+    "hint": "请输入您的 Google Sheet 网址来检查公式正确性。它应当是一个二维表，第一行和第一列包含位置信息。",
+    "notice": "注意：粉色表示公式与状态不匹配；绿色表示公式与逆状态匹配。",
+    "url": "Google 表格 URL",
+    "fetchData": "获取数据",
+    "selectSheet": "选择一个表格：",
+    "types": "类型：",
+    "buffer": "缓冲：",
+    "firstTarget": "第一个目标：",
+    "row": "行",
+    "column": "列"
   }
 }
