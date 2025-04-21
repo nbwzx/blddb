@@ -4049,6 +4049,7 @@
             "U u' l' U' l u l' U l U'",
             [
                 "Adrian Dębski",
+                "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
@@ -4397,6 +4398,7 @@
             "U l' U' l u' l' U l u U'",
             [
                 "Adrian Dębski",
+                "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
@@ -4829,6 +4831,16 @@
     ],
     "CDN": [
         [
+            "U l' U2 l' u l U2 l' u' l2 U'",
+            [
+                "Gavriel Johann Arcilla",
+                "Michael Tripodi",
+                "Stanley Chapel",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "U l':[U2,l' u l]"
+        ],
+        [
             "F2 r U r' u' r U' r' u F2",
             [
                 "Graham Siggins",
@@ -4837,15 +4849,6 @@
                 "Timo Norrkniivilä"
             ],
             "F2:[r U r',u']"
-        ],
-        [
-            "U l' U2 l' u l U2 l' u' l2 U'",
-            [
-                "Michael Tripodi",
-                "Stanley Chapel",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "U l':[U2,l' u l]"
         ],
         [
             "L' U2 u r' U l' U' r U l u' U L",
@@ -4975,6 +4978,16 @@
     ],
     "CDS": [
         [
+            "R' u r U r' u2 r U' r' u R",
+            [
+                "Gavriel Johann Arcilla",
+                "Hana Davila",
+                "Michael Tripodi",
+                "Sebastiano Tronto"
+            ],
+            "R' u:[r U r',u2]"
+        ],
+        [
             "y' U2 r U' l U r' U' l' 4Dw'",
             [
                 "Adrian Dębski",
@@ -4982,15 +4995,6 @@
                 "Timo Norrkniivilä"
             ],
             "4Dw:[U r U',l]"
-        ],
-        [
-            "R' u r U r' u2 r U' r' u R",
-            [
-                "Hana Davila",
-                "Michael Tripodi",
-                "Sebastiano Tronto"
-            ],
-            "R' u:[r U r',u2]"
         ],
         [
             "E U r U' l U r' U' l' E'",
@@ -5099,6 +5103,16 @@
     ],
     "CDY": [
         [
+            "U2 Uw l Uw' r Uw l' Uw' r' U2",
+            [
+                "Gavriel Johann Arcilla",
+                "Michael Tripodi",
+                "Stanley Chapel",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "U2:[Uw l Uw',r]"
+        ],
+        [
             "F' r U r' u' r U' r' u F",
             [
                 "Graham Siggins",
@@ -5107,15 +5121,6 @@
                 "Timo Norrkniivilä"
             ],
             "F':[r U r',u']"
-        ],
-        [
-            "U2 Uw l Uw' r Uw l' Uw' r' U2",
-            [
-                "Michael Tripodi",
-                "Stanley Chapel",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "U2:[Uw l Uw',r]"
         ],
         [
             "u U' l U' r U l' U' r' U2 u'",
@@ -5219,6 +5224,16 @@
     ],
     "CND": [
         [
+            "U l2 u l U2 l' u' l U2 l U'",
+            [
+                "Gavriel Johann Arcilla",
+                "Michael Tripodi",
+                "Stanley Chapel",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "U l':[l' u l,U2]"
+        ],
+        [
             "F2 u' r U r' u r U' r' F2",
             [
                 "Graham Siggins",
@@ -5227,15 +5242,6 @@
                 "Timo Norrkniivilä"
             ],
             "F2:[u',r U r']"
-        ],
-        [
-            "U l2 u l U2 l' u' l U2 l U'",
-            [
-                "Michael Tripodi",
-                "Stanley Chapel",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "U l':[l' u l,U2]"
         ],
         [
             "L' U' u l' U' r' U l U' r u' U2 L",
@@ -5364,6 +5370,16 @@
     ],
     "CSD": [
         [
+            "R' u' r U r' u2 r U' r' u' R",
+            [
+                "Gavriel Johann Arcilla",
+                "Hana Davila",
+                "Michael Tripodi",
+                "Sebastiano Tronto"
+            ],
+            "R' u':[r U r',u2]"
+        ],
+        [
             "4Dw l U r U' l' U r' U2 y",
             [
                 "Adrian Dębski",
@@ -5371,15 +5387,6 @@
                 "Timo Norrkniivilä"
             ],
             "4Dw:[l,U r U']"
-        ],
-        [
-            "R' u' r U r' u2 r U' r' u' R",
-            [
-                "Hana Davila",
-                "Michael Tripodi",
-                "Sebastiano Tronto"
-            ],
-            "R' u':[r U r',u2]"
         ],
         [
             "E l U r U' l' U r' U' E'",
@@ -5488,6 +5495,16 @@
     ],
     "CYD": [
         [
+            "U2 r Uw l Uw' r' Uw l' Uw' U2",
+            [
+                "Gavriel Johann Arcilla",
+                "Michael Tripodi",
+                "Stanley Chapel",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "U2:[r,Uw l Uw']"
+        ],
+        [
             "F' u' r U r' u r U' r' F",
             [
                 "Graham Siggins",
@@ -5496,15 +5513,6 @@
                 "Timo Norrkniivilä"
             ],
             "F':[u',r U r']"
-        ],
-        [
-            "U2 r Uw l Uw' r' Uw l' Uw' U2",
-            [
-                "Michael Tripodi",
-                "Stanley Chapel",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "U2:[r,Uw l Uw']"
         ],
         [
             "r U' r' u' r U2 r' u r U' r'",
@@ -5587,6 +5595,7 @@
         [
             "S l U2 l' u' l U2 l' u S'",
             [
+                "Gavriel Johann Arcilla",
                 "Michael Tripodi",
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
@@ -5629,6 +5638,7 @@
             "U' u l' U' r' U l U' r u' U2",
             [
                 "Adrian Dębski",
+                "Gavriel Johann Arcilla",
                 "Michael Tripodi",
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
@@ -5678,6 +5688,7 @@
         [
             "U l2 u' l' U' l u l' U l' U'",
             [
+                "Gavriel Johann Arcilla",
                 "Michael Tripodi",
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
@@ -5719,6 +5730,7 @@
         [
             "r' u r' U2 r u' r' U2 r2",
             [
+                "Gavriel Johann Arcilla",
                 "Hana Davila",
                 "Michael Tripodi",
                 "Stanley Chapel",
@@ -5751,8 +5763,9 @@
     ],
     "DES": [
         [
-            "U' u r' U' r' d' r U r' d r2 u' U",
+            "u U' r' U' r' d' r U r' d r2 U u'",
             [
+                "Gavriel Johann Arcilla",
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -5829,6 +5842,13 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "L':[d',r' U r]"
+        ],
+        [
+            "u' U r' U' l' U r U' l u",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "u':[U r' U',l']"
         ]
     ],
     "DEW": [
@@ -5869,6 +5889,7 @@
             "u' U r2 U' l' U r2 U' l u",
             [
                 "Adrian Dębski",
+                "Gavriel Johann Arcilla",
                 "Timo Norrkniivilä"
             ],
             "u':[U r2 U',l']"
@@ -5890,6 +5911,16 @@
     ],
     "DEY": [
         [
+            "r2 u r' U2 r u' r' U2 r'",
+            [
+                "Gavriel Johann Arcilla",
+                "Michael Tripodi",
+                "Stanley Chapel",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "r:[r u r',U2]"
+        ],
+        [
             "Rw r u r' U2 r u' r' U2 Rw'",
             [
                 "Graham Siggins",
@@ -5898,15 +5929,6 @@
                 "Timo Norrkniivilä"
             ],
             "Rw:[r u r',U2]"
-        ],
-        [
-            "r2 u r' U2 r u' r' U2 r'",
-            [
-                "Michael Tripodi",
-                "Stanley Chapel",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "r:[r u r',U2]"
         ],
         [
             "Uw' Lw' U' l U' r U l' U' r' U2 Lw Uw",
@@ -5927,6 +5949,7 @@
         [
             "E U r' U' l' U r U' l E'",
             [
+                "Gavriel Johann Arcilla",
                 "Michael Tripodi",
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
@@ -5969,6 +5992,7 @@
         [
             "S u' l U2 l' u l U2 l' S'",
             [
+                "Gavriel Johann Arcilla",
                 "Michael Tripodi",
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
@@ -6714,6 +6738,7 @@
             "U2 u r' U l' U' r U l u' U",
             [
                 "Adrian Dębski",
+                "Gavriel Johann Arcilla",
                 "Michael Tripodi",
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
@@ -7377,6 +7402,7 @@
         [
             "U l U' l u' l' U l u l2 U'",
             [
+                "Gavriel Johann Arcilla",
                 "Michael Tripodi",
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
@@ -8108,6 +8134,7 @@
         [
             "r2 U2 r u r' U2 r u' r",
             [
+                "Gavriel Johann Arcilla",
                 "Hana Davila",
                 "Michael Tripodi",
                 "Stanley Chapel",
@@ -8444,6 +8471,15 @@
     ],
     "DSE": [
         [
+            "u U' r2 d' r U' r' d r U r U u'",
+            [
+                "Gavriel Johann Arcilla",
+                "Stanley Chapel",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "U' u r':[r' d' r,U']"
+        ],
+        [
             "R2 u' r' U2 r u2 r' U2 r u' R2",
             [
                 "Graham Siggins",
@@ -8451,14 +8487,6 @@
                 "Sebastiano Tronto"
             ],
             "R2 u':[r' U2 r,u2]"
-        ],
-        [
-            "U' u r2 d' r U' r' d r U r u' U",
-            [
-                "Stanley Chapel",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "U' u r':[r' d' r,U']"
         ],
         [
             "R2 Uw' r' U' r u2 r' U r u' U R2",
@@ -8883,6 +8911,13 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "L':[r' U r,d']"
+        ],
+        [
+            "u' l' U r' U' l U r U' u",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "u':[l',U r' U']"
         ]
     ],
     "DTM": [
@@ -9477,6 +9512,7 @@
             "u' l' U r2 U' l U r2 U' u",
             [
                 "Adrian Dębski",
+                "Gavriel Johann Arcilla",
                 "Timo Norrkniivilä"
             ],
             "u':[l',U r2 U']"
@@ -9817,6 +9853,16 @@
     ],
     "DYE": [
         [
+            "r U2 r u r' U2 r u' r2",
+            [
+                "Gavriel Johann Arcilla",
+                "Michael Tripodi",
+                "Stanley Chapel",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "r:[U2,r u r']"
+        ],
+        [
             "Rw U2 r u r' U2 r u' r' Rw'",
             [
                 "Graham Siggins",
@@ -9825,15 +9871,6 @@
                 "Timo Norrkniivilä"
             ],
             "Rw:[U2,r u r']"
-        ],
-        [
-            "r U2 r u r' U2 r u' r2",
-            [
-                "Michael Tripodi",
-                "Stanley Chapel",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "r:[U2,r u r']"
         ],
         [
             "Uw' Lw' U2 r U l U' r' U l' U Lw Uw",
@@ -10163,6 +10200,7 @@
         [
             "E l' U r' U' l U r U' E'",
             [
+                "Gavriel Johann Arcilla",
                 "Michael Tripodi",
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
@@ -18371,6 +18409,7 @@
         [
             "u r' U2 r u' r' U2 r",
             [
+                "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Hana Davila",
                 "Hill Pong Yong Feng",
@@ -18712,6 +18751,7 @@
         [
             "r' U2 r u r' U2 r u'",
             [
+                "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Hana Davila",
                 "Hill Pong Yong Feng",
@@ -19529,6 +19569,7 @@
             "u r U r' u2 r U' r' u",
             [
                 "Adrian Dębski",
+                "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
@@ -19602,6 +19643,7 @@
             "u' r U r' u2 r U' r' u'",
             [
                 "Adrian Dębski",
+                "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
@@ -40267,6 +40309,7 @@
             "R u r U r' u2 r U' r' u R'",
             [
                 "Adrian Dębski",
+                "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
@@ -40358,6 +40401,7 @@
             "R u' r U r' u2 r U' r' u' R'",
             [
                 "Adrian Dębski",
+                "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Hana Davila",
                 "Michael Tripodi",
@@ -40392,6 +40436,7 @@
             "U u' l' U' l u2 l' U l Uw'",
             [
                 "Adrian Dębski",
+                "Gavriel Johann Arcilla",
                 "Michael Tripodi",
                 "Timo Norrkniivilä"
             ],
@@ -40892,6 +40937,7 @@
             "Uw l' U' l u2 l' U l u U'",
             [
                 "Adrian Dębski",
+                "Gavriel Johann Arcilla",
                 "Michael Tripodi",
                 "Timo Norrkniivilä"
             ],
@@ -42544,6 +42590,7 @@
             "r U r' u' r U' r' u",
             [
                 "Adrian Dębski",
+                "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Hana Davila",
                 "Israel Fraga da Silva",
@@ -42612,6 +42659,7 @@
             "u' r U r' u r U' r'",
             [
                 "Adrian Dębski",
+                "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Hana Davila",
                 "Israel Fraga da Silva",
@@ -42631,6 +42679,7 @@
             "U r Uw' l' Uw r' Uw' l u",
             [
                 "Adrian Dębski",
+                "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -43056,6 +43105,7 @@
             "u' l' Uw r Uw' l Uw r' U'",
             [
                 "Adrian Dębski",
+                "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
