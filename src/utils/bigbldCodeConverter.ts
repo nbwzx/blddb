@@ -2,9 +2,9 @@ const bigbldCodeConverter = (function () {
   const localStorageKey = "bigbldCode";
   const letteringSchemes = {
     Chichu:
-      "DEE G DEGGCC GGCAAJ A AAJEDD C EDCTXX TTXQLM Q LLMBBB L BBLQSS QQSNJY N JJYKHH I KHIZRR ZZRZPS Z PPSHFF F HFFWYY WWYTNP T NNPWII X WIXOKKOOOKOMR O MMR",
+      "DEE G DEGGCC GGCAAJ A AAJEDD C EDCTXX TTXQLM Q LLMBBB L BBLQSS QQSNJY N JJYKHH I KHIZRR ZZRZPS Z PPSHFF F HFFWYY WWYTNP T NNPWII X WIXOKK OOKOMR O MMR",
     Speffz:
-      "AAA B AABBDD BBDDCC D CCCEEE F EEFFHH FFHHGG H GGGIII J IIJJLL JJLLKK L KKKMMM N MMNNPP NNPPOO P OOOQQQ R QQRRTT RRTTSS T SSSUUU V UUVVXXUVVXXWW X WWW",
+      "AAA B AABBDD BBDDCC D CCCEEE F EEFFHH FFHHGG H GGGIII J IIJJLL JJLLKK L KKKMMM N MMNNPP NNPPOO P OOOQQQ R QQRRTT RRTTSS T SSSUUU V UUVVXX VVXXWW X WWW",
   };
   const initialInputValues = letteringSchemes["Chichu"];
   // prettier-ignore
@@ -46,6 +46,103 @@ const bigbldCodeConverter = (function () {
     "DLb", "Dbl", "Db", "Dbr", "DRb",
     "DBL", "DBl", "DB", "DBr", "DBR",
   ];
+
+  // prettier-ignore
+  const positionArrays = {
+    Chichu: [
+      "UFL", "FUL", "LUF",
+      "UBL", "LUB", "BUL",
+      "UBR", "BUR", "RUB",
+      "UFR", "RUF", "FUR",
+      "DFL", "LDF", "FDL",
+      "DBL", "BDL", "LDB",
+      "DBR", "RDB", "BDR",
+      "DFR", "FDR", "RDF",
+      "UF", "FU",
+      "UL", "LU",
+      "UB", "BU",
+      "UR", "RU",
+      "DF", "FD",
+      "DL", "LD",
+      "DB", "BD",
+      "DR", "RD",
+      "FR", "RF",
+      "FL", "LF",
+      "BL", "LB",
+      "BR", "RB",
+      "UFr", "UFl", "FUl", "FUr",
+      "ULf", "ULb", "LUb", "LUf",
+      "UBl", "UBr", "BUr", "BUl",
+      "URb", "URf", "RUf", "RUb",
+      "DFl", "DFr", "FDr", "FDl",
+      "DLb", "DLf", "LDf", "LDb",
+      "DBr", "DBl", "BDl", "BDr",
+      "DRf", "DRb", "RDb", "RDf",
+      "FRu", "FRd", "RFd", "RFu",
+      "FLd", "FLu", "LFu", "LFd",
+      "BLu", "BLd", "LBd", "LBu",
+      "BRd", "BRu", "RBu", "RBd",
+      "Ufl", "Ful", "Luf",
+      "Ubl", "Lub", "Bul",
+      "Ubr", "Bur", "Rub",
+      "Ufr", "Ruf", "Fur",
+      "Dfl", "Ldf", "Fdl",
+      "Dbl", "Bdl", "Ldb",
+      "Dbr", "Rdb", "Bdr",
+      "Dfr", "Fdr", "Rdf",
+      "Uf", "Fu",
+      "Ul", "Lu",
+      "Ub", "Bu",
+      "Ur", "Ru",
+      "Df", "Fd",
+      "Dl", "Ld",
+      "Db", "Bd",
+      "Dr", "Rd",
+      "Fr", "Rf",
+      "Fl", "Lf",
+      "Bl", "Lb",
+      "Br", "Rb",
+      "U", "D", "F", "B", "L", "R",
+    ],
+    Speffz: [
+      // U layer
+      "UBL", "UBl", "UB", "UBr", "UBR",
+      "URb", "Ubl", "Ub", "Ubr", "URf",
+      "UR", "Ur", "U", "Uf", "UF",
+      "UFr", "Ufr", "Ul", "Ufl", "UFl",
+      "UFR", "ULf", "UL", "ULb", "UFL",
+      // L layer
+      "LUB", "LUb", "LU", "LUf", "LUF",
+      "LFu", "Lub", "Lu", "Luf", "LFd",
+      "LF", "Lf", "L", "Ld", "LD",
+      "LDf", "Ldf", "Lb", "Ldb", "LDb",
+      "LDF", "LBd", "LB", "LBu", "LDB",
+      // F layer
+      "FUL", "FUl", "FU", "FUr", "FUR",
+      "FRu", "Ful", "Fu", "Fur", "FRd",
+      "FR", "Fr", "F", "Fd", "FD",
+      "FDr", "Fdr", "Fl", "Fdl", "FDl",
+      "FDR", "FLd", "FL", "FLu", "FDL",
+      // R layer
+      "RUF", "RUf", "RU", "RUb", "RUB",
+      "RBu", "Ruf", "Ru", "Rub", "RBd",
+      "RB", "Rb", "R", "Rd", "RD",
+      "RDb", "Rdb", "Rf", "Rdf", "RDf",
+      "RDB", "RFd", "RF", "RFu", "RDF",
+      // B layer
+      "BUR", "BUr", "BU", "BUl", "BUL",
+      "BLu", "Bur", "Bu", "Bul", "BLd",
+      "BL", "Bl", "B", "Bd", "BD",
+      "BDl", "Bdl", "Br", "Bdr", "BDr",
+      "BDL", "BRd", "BR", "BRu", "BDR",
+      // D layer
+      "DFL", "DFl", "DF", "DFr", "DFR",
+      "DRf", "Dfl", "Df", "Dfr", "DRb",
+      "DR", "Dr", "D", "Db", "DB",
+      "DBr", "Dbr", "Dl", "Dbl", "DBl",
+      "DBR", "DLb", "DL", "DLf", "DBL",
+    ],
+  };
   // prettier-ignore
   const nextPositionsMap = {
     "UBl": "BUl", "BUl": "UBl",
@@ -309,6 +406,27 @@ const bigbldCodeConverter = (function () {
       (position) => positionToCodeType(position) === codeType,
     );
   }
+  function getDefaultOrderOfAlgs() {
+    const scheme = initialInputValues;
+    let storedValues = "";
+    if (typeof localStorage !== "undefined") {
+      storedValues =
+        localStorage.getItem(localStorageKey) ?? initialInputValues;
+    }
+    const allowedDifferences = 10;
+    const minLength = Math.min(storedValues.length, scheme.length);
+    let differences = 0;
+    for (let i = 0; i < minLength; i++) {
+      if (storedValues[i] !== scheme[i]) {
+        differences++;
+        if (differences > allowedDifferences) {
+          return "Speffz";
+        }
+      }
+    }
+    differences += Math.abs(storedValues.length - scheme.length);
+    return differences <= allowedDifferences ? "Chichu" : "Speffz";
+  }
 
   return {
     positionToCodeType,
@@ -319,9 +437,11 @@ const bigbldCodeConverter = (function () {
     codeTypeToNumber,
     initCodeToVariantCustomCode,
     codeTypeToPositions,
+    getDefaultOrderOfAlgs,
     initialInputValues,
     letteringSchemes,
     positionArray,
+    positionArrays,
   };
 })();
 

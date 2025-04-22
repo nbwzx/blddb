@@ -168,6 +168,8 @@ const Table = ({
   const settings = loadSettings();
   const trumbPosition = settings.showThumbPosition;
   const mirrorLR = settings.mirrorLR;
+  const orderOfAlgs =
+    settings.orderOfAlgs ?? codeConverter.getDefaultOrderOfAlgs();
   const variantCode = converter.customCodeToVariantCode(
     inputText,
     codeType,
@@ -448,7 +450,7 @@ const Table = ({
   tableElements.sort((a, b) => {
     const keyA = a.key as string;
     const keyB = b.key as string;
-    const order = converter.codeTypeToPositions(actualCodeType);
+    const order = converter.positionArrays[orderOfAlgs];
     return order.indexOf(keyA) - order.indexOf(keyB);
   });
   const tableElements2: JSX.Element[] = [];

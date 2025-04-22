@@ -197,6 +197,17 @@ const Code = ({ cubeSize }: { cubeSize: 3 | 5 }) => {
                       className="mb-1 ml-4 mt-1 inline-block cursor-pointer rounded-sm border-2 border-black bg-white px-4 py-2 text-base font-semibold text-black duration-300 ease-in-out hover:text-primary dark:border-white dark:bg-dark dark:text-white dark:hover:text-primary"
                       onClick={() => {
                         setInputValues(value);
+                        const settings = JSON.parse(
+                          localStorage.getItem("settings") ?? "{}",
+                        );
+                        const newSettings = {
+                          ...settings,
+                          orderOfAlgs: scheme,
+                        };
+                        localStorage.setItem(
+                          "settings",
+                          JSON.stringify(newSettings),
+                        );
                         if (cubeSize === 5) {
                           setIsStandard(true);
                         }

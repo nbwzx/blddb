@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from "react";
 import { useTranslation } from "@/i18n/client";
 import Loading from "@/app/loading";
+import codeConverter from "@/utils/codeConverter";
 
 const Settings = () => {
   const { t } = useTranslation();
@@ -27,6 +28,12 @@ const Settings = () => {
         id: "mirrorLR",
         type: "checkbox",
         default: false,
+      },
+      {
+        id: "orderOfAlgs",
+        type: "select",
+        options: [{ id: "Chichu" }, { id: "Speffz" }],
+        default: codeConverter.getDefaultOrderOfAlgs(),
       },
     ],
     manmade: [

@@ -15,6 +15,40 @@ const codeConverter = (function () {
     "DFL", "DF", "DFR", "DL", "D", "DR", "DBL", "DB", "DBR",
   ];
   // prettier-ignore
+  const positionArrays = {
+    Chichu: [
+      "UFL", "FUL", "LUF",
+      "UBL", "LUB", "BUL",
+      "UBR", "BUR", "RUB",
+      "UFR", "RUF", "FUR",
+      "DFL", "LDF", "FDL",
+      "DBL", "BDL", "LDB",
+      "DBR", "RDB", "BDR",
+      "DFR", "FDR", "RDF",
+      "UF", "FU",
+      "UL", "LU",
+      "UB", "BU",
+      "UR", "RU",
+      "DF", "FD",
+      "DL", "LD",
+      "DB", "BD",
+      "DR", "RD",
+      "FR", "RF",
+      "FL", "LF",
+      "BL", "LB",
+      "BR", "RB",
+      "U", "D", "F", "B", "L", "R",
+    ],
+    Speffz: [
+      "UBL", "UB", "UBR", "UR", "U", "UF", "UFR", "UL", "UFL",
+      "LUB", "LU", "LUF", "LF", "L", "LD", "LDF", "LB", "LDB",
+      "FUL", "FU", "FUR", "FR", "F", "FD", "FDR", "FL", "FDL",
+      "RUF", "RU", "RUB", "RB", "R", "RD", "RDB", "RF", "RDF",
+      "BUR", "BU", "BUL", "BL", "B", "BD", "BDL", "BR", "BDR",
+      "DFL", "DF", "DFR", "DR", "D", "DB", "DBR", "DL", "DBL",
+    ],
+  };
+  // prettier-ignore
   const nextPositionsMap = {
     "UBL": "LUB", "LUB": "BUL", "BUL": "UBL",
     "UBR": "BUR", "BUR": "RUB", "RUB": "UBR",
@@ -414,6 +448,28 @@ const codeConverter = (function () {
     );
   }
 
+  function getDefaultOrderOfAlgs() {
+    const scheme = initialInputValues;
+    let storedValues = "";
+    if (typeof localStorage !== "undefined") {
+      storedValues =
+        localStorage.getItem(localStorageKey) ?? initialInputValues;
+    }
+    const allowedDifferences = 10;
+    const minLength = Math.min(storedValues.length, scheme.length);
+    let differences = 0;
+    for (let i = 0; i < minLength; i++) {
+      if (storedValues[i] !== scheme[i]) {
+        differences++;
+        if (differences > allowedDifferences) {
+          return "Speffz";
+        }
+      }
+    }
+    differences += Math.abs(storedValues.length - scheme.length);
+    return differences <= allowedDifferences ? "Chichu" : "Speffz";
+  }
+
   return {
     positionToCodeType,
     customCodeToInitCode,
@@ -423,9 +479,11 @@ const codeConverter = (function () {
     codeTypeToNumber,
     initCodeToVariantCustomCode,
     codeTypeToPositions,
+    getDefaultOrderOfAlgs,
     initialInputValues,
     letteringSchemes,
     positionArray,
+    positionArrays,
   };
 })();
 
