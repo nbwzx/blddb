@@ -58,6 +58,9 @@ class ErrorBoundary extends React.Component<
                     Current URL: {window.location.href}
                   </p>
                   <p className="text-black dark:text-white">
+                    User-Agent: {navigator.userAgent}
+                  </p>
+                  <p className="text-black dark:text-white">
                     Error Message: {this.state.error?.message}
                   </p>
                   {this.state.errorInfo && (
