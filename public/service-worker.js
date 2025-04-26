@@ -8,9 +8,13 @@ async function fetchAndCacheIfOk(event) {
 
     // don't cache non-ok responses
     if (response.ok) {
-      const responseClone = response.clone();
-      const cache = await caches.open("v1");
-      await cache.put(event.request, responseClone);
+      const url = new URL(event.request.url);
+      // Only cache requests from HTTP/HTTPS, not chrome-extension or other schemes
+      if (url.protocol === "http:" || url.protocol === "https:") {
+        const responseClone = response.clone();
+        const cache = await caches.open("v1");
+        await cache.put(event.request, responseClone);
+      }
     }
 
     return response;
