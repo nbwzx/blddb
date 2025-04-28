@@ -1,0 +1,96 @@
+name: execute py script
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * 1" # At 00:00 on Monday
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repo content
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: setup python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "pypy3.9"
+
+      - name: install python packages
+        run: |
+          pypy -m pip install --upgrade pip
+          pip install -r scripts/requirements.txt
+
+      - name: execute result.py
+        run: pypy scripts/result.py
+
+      - name: execute main.py
+        env:
+          SERVICE_ACCOUNT: ${{ secrets.SERVICE_ACCOUNT }}
+        run: pypy scripts/main.py
+
+      - name: execute main_555.py
+        env:
+          SERVICE_ACCOUNT: ${{ secrets.SERVICE_ACCOUNT }}
+        run: pypy scripts/main_555.py
+
+      - name: execute result_post.py
+        run: pypy scripts/result_post.py
+
+      - name: commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git diff-index --quiet HEAD || (git commit -a -m "actions: update manmade algs" --allow-empty)
+
+      - name: push changes
+        uses: ad-m/github-push-action@v0.8.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: v2
+
+      - name: copy sourceToUrl.json to main branch
+        run: |
+          git checkout main
+          git checkout v2 -- public/data/sourceToUrl.json
+          mv public/data/sourceToUrl.json assets/json/sourceToUrl.json
+
+      - name: setup python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "pypy3.9"
+
+      - name: install python packages
+        run: |
+          pypy -m pip install --upgrade pip
+          pip install -r scripts/requirements.txt
+
+      - name: execute result.py
+        run: pypy scripts/result.py
+
+      - name: execute main.py
+        env:
+          SERVICE_ACCOUNT: ${{ secrets.SERVICE_ACCOUNT }}
+        run: pypy scripts/main.py
+
+      - name: execute main_555.py
+        env:
+          SERVICE_ACCOUNT: ${{ secrets.SERVICE_ACCOUNT }}
+        run: pypy scripts/main_555.py
+
+      - name: commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git diff-index --quiet HEAD || (git commit -a -m "actions: update manmade algs" --allow-empty)
+
+      - name: push changes
+        uses: ad-m/github-push-action@v0.8.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
