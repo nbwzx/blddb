@@ -118,7 +118,11 @@ const arrLang = {
         "wing": "Wing",
         "midge": "Midge",
         "xcenter": "X-center",
-        "tcenter": "+-center"
+        "tcenter": "+-center",
+        "notice": "Notice",
+        "noticeSentence1": "The next version of BLDDB (",
+        "noticeSentence2": ") is currently in beta. Please visit and provide your feedback to help us improve!",
+        "neverShowAgain": "Never show again"
     },
     "zh": {
         "title": "三盲公式库",
@@ -239,7 +243,11 @@ const arrLang = {
         "wing": "翼棱公式库",
         "midge": "中棱公式库",
         "xcenter": "角心公式库",
-        "tcenter": "边心公式库"
+        "tcenter": "边心公式库",
+        "notice": "通知",
+        "noticeSentence1": "新版盲拧公式库（",
+        "noticeSentence2": "）目前处于公测阶段。请访问并提供您的反馈以帮助我们改进！",
+        "neverShowAgain": "不再显示"
     },
     "ja": {
         "title": "3BLD手順データベース",
@@ -360,7 +368,11 @@ const arrLang = {
         "wing": "Wing",
         "midge": "Midge",
         "xcenter": "X-center",
-        "tcenter": "+-center"
+        "tcenter": "+-center",
+        "notice": "お知らせ",
+        "noticeSentence1": "BLDDBの次のバージョン（",
+        "noticeSentence2": "）は現在ベータ版です。ぜひ訪問して、改善のためにフィードバックをお寄せください！",
+        "neverShowAgain": "再表示しない"
     }
 };
 
