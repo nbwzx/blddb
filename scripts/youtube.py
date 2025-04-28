@@ -216,16 +216,16 @@ def main():
             urls = re.findall(r'(https?://[^\s\\\u200b]+)', desc)
 
             for url_name in urls:
-                if "alg.cubing.net" not in url_name and "bit.ly" not in url_name and "tinyurl.com" not in url_name and "tinyurl.com" not in url_name:
+                if "alg.cubing.net" not in url_name and "bit.ly" not in url_name and "tinyurl.com" not in url_name:
                     continue
                 while True:
                     try:
-                        resp = requests.get(url_name, timeout=10).url
+                        resp = requests.get(url_name, timeout=20).url
                         break
                     except Exception as e:
                         logger.warning(e.__class__.__name__ +
                                        " when opening " + url_name)
-                        time.sleep(10)
+                        time.sleep(20)
                 if resp.startswith("https://alg.cubing.net/") and "&puzzle=4x4x4" not in resp and "&puzzle=5x5x5" not in resp:
                     resp_parsed = urllib.parse.unquote(resp).replace(
                         "_", " ").replace("-", "'")
