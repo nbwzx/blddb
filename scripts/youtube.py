@@ -220,7 +220,9 @@ def main():
                     continue
                 while True:
                     try:
-                        resp = requests.get(url_name, timeout=20).url
+                        response = requests.get(url_name, timeout=20)
+                        response.raise_for_status()
+                        resp = response.url
                         break
                     except Exception as e:
                         logger.warning(e.__class__.__name__ +
