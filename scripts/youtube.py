@@ -1,4 +1,3 @@
-from hmac import new
 import json
 import os
 import re
@@ -16,6 +15,9 @@ from loguru import logger
 from requests.exceptions import ConnectionError, ProxyError, ReadTimeout
 
 from tracer import *
+
+import warnings
+warnings.filterwarnings("ignore")
 
 MAX_STM = 20
 MAX_CELL_LEN = 60
@@ -220,14 +222,19 @@ def main():
                     continue
                 while True:
                     try:
-                        response = requests.get(url_name, timeout=20)
+                        response = requests.get(url_name, verify=False, timeout=10)
                         response.raise_for_status()
+                        resp = response.url
+                        break
+                    except requests.exceptions.HTTPError as e:
+                        logger.warning(e.__class__.__name__ +
+                                       " when opening " + url_name)
                         resp = response.url
                         break
                     except Exception as e:
                         logger.warning(e.__class__.__name__ +
                                        " when opening " + url_name)
-                        time.sleep(20)
+                        time.sleep(10)
                 if resp.startswith("https://alg.cubing.net/") and "&puzzle=4x4x4" not in resp and "&puzzle=5x5x5" not in resp:
                     resp_parsed = urllib.parse.unquote(resp).replace(
                         "_", " ").replace("-", "'")
