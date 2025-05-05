@@ -20850,21 +20850,21 @@
             "Rw':[U' r U,l]"
         ],
         [
-            "Uw l' u' l U' l' u l u'",
-            [
-                "Kai Yamamoto (山本快)",
-                "Stanley Chapel",
-                "Yuki Tsuneyoshi (恒吉優紀)"
-            ],
-            "Uw:[l' u' l,U']"
-        ],
-        [
             "r' U' r U l U' r' U l' r",
             [
                 "Andrew Tan Jing Bang",
-                "Ryan Eckersley"
+                "Ryan Eckersley",
+                "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "r':[U' r U,l]"
+        ],
+        [
+            "Uw l' u' l U' l' u l u'",
+            [
+                "Kai Yamamoto (山本快)",
+                "Stanley Chapel"
+            ],
+            "Uw:[l' u' l,U']"
         ],
         [
             "m r' U' r U l U' r' U M'",
@@ -20929,10 +20929,18 @@
             [
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
-                "Stanley Chapel",
-                "Yuki Tsuneyoshi (恒吉優紀)"
+                "Stanley Chapel"
             ],
             "u':[r u r',U']"
+        ],
+        [
+            "l r' U l' U' r U l U' l'",
+            [
+                "Andrew Tan Jing Bang",
+                "Ryan Eckersley",
+                "Yuki Tsuneyoshi (恒吉優紀)"
+            ],
+            "l:[r',U l' U']"
         ],
         [
             "Lw r' U l' U' r U l U' Lw'",
@@ -20942,14 +20950,6 @@
                 "Ethan Pan"
             ],
             "Lw:[r',U l' U']"
-        ],
-        [
-            "l r' U l' U' r U l U' l'",
-            [
-                "Andrew Tan Jing Bang",
-                "Ryan Eckersley"
-            ],
-            "l:[r',U l' U']"
         ],
         [
             "4Lw U l' U' r U l U' 3Lw'",
@@ -25071,13 +25071,13 @@
             "x':[U' r U,l']"
         ],
         [
-            "u l' u' l U l' u l Uw'",
+            "r' l U' r U l' U' r' U r",
             [
-                "Kai Yamamoto (山本快)",
-                "Stanley Chapel",
+                "Andrew Tan Jing Bang",
+                "Ryan Eckersley",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
-            "u:[l' u' l,U]"
+            "r':[l,U' r U]"
         ],
         [
             "Rw' l U' r U l' U' r' U Rw",
@@ -25089,12 +25089,12 @@
             "Rw':[l,U' r U]"
         ],
         [
-            "r' l U' r U l' U' r' U r",
+            "u l' u' l U l' u l Uw'",
             [
-                "Andrew Tan Jing Bang",
-                "Ryan Eckersley"
+                "Kai Yamamoto (山本快)",
+                "Stanley Chapel"
             ],
-            "r':[l,U' r U]"
+            "u:[l' u' l,U]"
         ],
         [
             "M U' r U l' U' r' U r m'",
@@ -26809,16 +26809,6 @@
             "x':[r,U l' U']"
         ],
         [
-            "Uw' r u r' U r u' r' u",
-            [
-                "Kai Yamamoto (山本快)",
-                "Kevin Matthews",
-                "Stanley Chapel",
-                "Yuki Tsuneyoshi (恒吉優紀)"
-            ],
-            "Uw':[r u r',U]"
-        ],
-        [
             "Lw U l' U' r' U l U' r Lw'",
             [
                 "Chenhao Sun (孙晨皓)",
@@ -26829,10 +26819,20 @@
             "Lw:[U l' U',r']"
         ],
         [
+            "Uw' r u r' U r u' r' u",
+            [
+                "Kai Yamamoto (山本快)",
+                "Kevin Matthews",
+                "Stanley Chapel"
+            ],
+            "Uw':[r u r',U]"
+        ],
+        [
             "l U l' U' r' U l U' r l'",
             [
                 "Andrew Tan Jing Bang",
-                "Ryan Eckersley"
+                "Ryan Eckersley",
+                "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "l:[U l' U',r']"
         ],
