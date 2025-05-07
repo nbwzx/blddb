@@ -1,11 +1,10 @@
 "use client";
 
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import CreatableSelect from "react-select/creatable";
 import commutator from "@/utils/commutator";
 import finger from "@/utils/finger";
 import { useTranslation } from "@/i18n/client";
-import { useTheme } from "next-themes";
 import data from "public/data/cornerNightmare.json";
 
 interface Option {
@@ -28,12 +27,19 @@ for (const [key, value] of Object.entries(defaultDatas)) {
 }
 
 const Custom = () => {
-  const { theme } = useTheme();
   const { t } = useTranslation();
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [options, setOptions] =
     useState<Record<string, Option[]>>(defaultOptions);
   const [values, setValues] = useState<Record<string, Option | null>>({});
+  const [theme, setTheme] = useState("light");
+
+  useEffect(() => {
+    const storedTheme = localStorage.getItem("theme");
+    if (storedTheme) {
+      setTheme(storedTheme);
+    }
+  }, []);
 
   const handleCreate = (inputValue: string, index: string) => {
     setIsLoading(true);
@@ -149,6 +155,7 @@ const Custom = () => {
                       <td className="px-0 py-0">{index}</td>
                       <td className="px-0 py-0">
                         <CreatableSelect
+                          instanceId={index}
                           isClearable={true}
                           isDisabled={isLoading}
                           isLoading={isLoading}
