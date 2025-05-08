@@ -325,7 +325,7 @@ const Checker = () => {
                                   ? "sticky left-0 z-10 bg-sky-200 font-bold dark:bg-sky-800"
                                   : "") +
                                 (() => {
-                                  const positionx = getPosition(
+                                  const positionValue = getPosition(
                                     cell,
                                     getPattern(
                                       is3bld ? patterns_3bld : patterns_5bld,
@@ -337,12 +337,12 @@ const Checker = () => {
                                     ),
                                   );
                                   if (
-                                    positionx === "matched" ||
+                                    positionValue === "matched" ||
                                     cellIndex === 0
                                   ) {
                                     return "";
                                   }
-                                  if (positionx === "inverse") {
+                                  if (positionValue === "inverse") {
                                     return "bg-green-300 dark:bg-green-800";
                                   }
                                   return "bg-pink-300 dark:bg-pink-500";

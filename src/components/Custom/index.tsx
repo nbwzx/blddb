@@ -19,12 +19,12 @@ const createOption = (label: string) => ({
   value: label,
 });
 
-const defaultDatas: Record<string, string[]> = Object.fromEntries(
+const defaultData: Record<string, string[]> = Object.fromEntries(
   Object.entries(data).filter(([key]) => key.startsWith("J")),
 );
 
 const defaultOptions: Record<string, Option[]> = {};
-for (const [key, value] of Object.entries(defaultDatas)) {
+for (const [key, value] of Object.entries(defaultData)) {
   defaultOptions[key] = value.map(createOption);
 }
 
@@ -66,24 +66,23 @@ const Custom = () => {
     }, 100);
   };
 
-  const customisValidNewOption = (
+  const customIsValidNewOption = (
     inputValue: string,
     selectValue: Option[],
     selectOptions: Option[],
   ) => {
-    const expanedValue = commutator.expand({ algorithm: inputValue });
+    const expandValue = commutator.expand({ algorithm: inputValue });
     const hasValue = selectValue.some((option) => option.label === inputValue);
     const hasOption = selectOptions.some(
-      (option) => option.label === expanedValue,
+      (option) => option.label === expandValue,
     );
-    return !(expanedValue === "" || hasValue || hasOption);
+    return !(expandValue === "" || hasValue || hasOption);
   };
 
   const customFilterOption = (option: Option, inputValue: string) => {
-    const expanedValue = commutator.expand({ algorithm: inputValue });
+    const expandValue = commutator.expand({ algorithm: inputValue });
     return (
-      option.label.startsWith(expanedValue) ||
-      option.label.startsWith("Create ")
+      option.label.startsWith(expandValue) || option.label.startsWith("Create ")
     );
   };
 
@@ -201,7 +200,7 @@ const Custom = () => {
                             }
                             options={options[index]}
                             value={values[index]}
-                            isValidNewOption={customisValidNewOption}
+                            isValidNewOption={customIsValidNewOption}
                             filterOption={customFilterOption}
                             styles={customStyles}
                             formatCreateLabel={(inputValue: string) =>

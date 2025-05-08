@@ -166,7 +166,7 @@ const Table = ({
   }, [isVideoVisible, videoUrl]);
 
   const settings = loadSettings();
-  const trumbPosition = settings.showThumbPosition;
+  const thumbPosition = settings.showThumbPosition;
   const mirrorLR = settings.mirrorLR;
   const orderOfAlgs =
     settings.orderOfAlgs ?? codeConverter.getDefaultOrderOfAlgs();
@@ -199,8 +199,8 @@ const Table = ({
       actualCodeType = "edge";
     }
   }
-  const istrumbPositionNeeded =
-    is3bld && (typeof trumbPosition === "undefined" || trumbPosition);
+  const isThumbPositionNeeded =
+    is3bld && (typeof thumbPosition === "undefined" || thumbPosition);
   for (const [key, value] of Object.entries(data)) {
     if (!matchesPattern(variantCode, key)) {
       continue;
@@ -348,7 +348,7 @@ const Table = ({
                 {commutatorResult}
               </td>
             )}
-            {j === 0 && istrumbPositionNeeded && (
+            {j === 0 && isThumbPositionNeeded && (
               <td
                 rowSpan={item.length}
                 onClick={() => handleCellClick(item)}
@@ -415,7 +415,7 @@ const Table = ({
               <th>{t("table.no")}</th>
               <th>{t("table.algorithm")}</th>
               {isCommutatorNeeded && <th>{t("table.commutator")}</th>}
-              {istrumbPositionNeeded && <th>{t("table.thumbPosition")}</th>}
+              {isThumbPositionNeeded && <th>{t("table.thumbPosition")}</th>}
               {isManmade && <th>{t("table.source")}</th>}
             </tr>
           </thead>
@@ -437,7 +437,7 @@ const Table = ({
               <th>{t("table.no")}</th>
               <th>{t("table.algorithm")}</th>
               {isCommutatorNeeded && <th>{t("table.commutator")}</th>}
-              {istrumbPositionNeeded && <th>{t("table.thumbPosition")}</th>}
+              {isThumbPositionNeeded && <th>{t("table.thumbPosition")}</th>}
               {isManmade && <th>{t("table.source")}</th>}
             </tr>
           </thead>

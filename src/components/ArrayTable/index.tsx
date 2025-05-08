@@ -28,9 +28,9 @@ const ArrayTable = ({ codeType }: { codeType: string }) => {
         }
         if (subArray.length > 0) {
           while (
-            subArray.every((subrow) => subrow[subArray[0].length - 1] === "")
+            subArray.every((subRow) => subRow[subArray[0].length - 1] === "")
           ) {
-            subArray.forEach((subrow) => subrow.pop());
+            subArray.forEach((subRow) => subRow.pop());
           }
           subArrays.push(subArray);
           subArray = [];
