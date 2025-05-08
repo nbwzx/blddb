@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from "react";
 import { useTranslation } from "@/i18n/client";
+import useResponsiveTable from "@/utils/useResponsiveTable";
 import Loading from "@/app/loading";
 
 interface UserUrls {
@@ -30,40 +31,9 @@ const Sheets = () => {
   const tableRef = useRef<HTMLTableElement>(
     null as unknown as HTMLTableElement,
   );
-  useEffect(() => {
-    const observer = new MutationObserver((mutationsList) => {
-      if (mutationsList && tableRef.current) {
-        adjustTableFontSize();
-      }
-    });
 
-    observer.observe(document.body, { childList: true, subtree: true });
+  useResponsiveTable(tableRef, divRef);
 
-    window.addEventListener("resize", adjustTableFontSize);
-
-    return () => {
-      observer.disconnect();
-      window.removeEventListener("resize", adjustTableFontSize);
-    };
-  }, []);
-
-  const adjustTableFontSize = () => {
-    if (tableRef.current && divRef.current) {
-      const width = document.body.clientWidth;
-      const tableCols = tableRef.current.rows[0].cells.length;
-      const tableWidth0 = Math.round(
-        tableCols * (width * 0.01) + (tableCols + 1) * (2 / 3),
-      );
-      tableRef.current.style.fontSize = "18px";
-      const tableWidth = tableRef.current.offsetWidth;
-      const divWidth = divRef.current.offsetWidth;
-      if (tableWidth > divWidth) {
-        const newFontSize =
-          (18 * (divWidth - tableWidth0)) / (tableWidth - tableWidth0);
-        tableRef.current.style.fontSize = `${newFontSize}px`;
-      }
-    }
-  };
   useEffect(() => {
     const fetchUsers = async () => {
       setLoading(true);

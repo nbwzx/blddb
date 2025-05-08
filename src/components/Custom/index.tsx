@@ -6,6 +6,8 @@ import commutator from "@/utils/commutator";
 import finger from "@/utils/finger";
 import { useTranslation } from "@/i18n/client";
 import data from "public/data/cornerNightmare.json";
+import useResponsiveTable from "@/utils/useResponsiveTable";
+import Loading from "@/app/loading";
 
 interface Option {
   readonly label: string;
@@ -28,11 +30,16 @@ for (const [key, value] of Object.entries(defaultDatas)) {
 
 const Custom = () => {
   const { t } = useTranslation();
+  const [loading, setLoading] = useState(true);
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [options, setOptions] =
     useState<Record<string, Option[]>>(defaultOptions);
   const [values, setValues] = useState<Record<string, Option | null>>({});
   const [theme, setTheme] = useState("light");
+  const tableRef = useRef<HTMLTableElement>(
+    null as unknown as HTMLTableElement,
+  );
+  const divRef = useRef<HTMLDivElement>(null as unknown as HTMLDivElement);
 
   useEffect(() => {
     const storedTheme = localStorage.getItem("theme");
@@ -40,6 +47,8 @@ const Custom = () => {
       setTheme(storedTheme);
     }
   }, []);
+
+  useResponsiveTable(tableRef, divRef);
 
   const handleCreate = (inputValue: string, index: string) => {
     setIsLoading(true);
@@ -93,22 +102,37 @@ const Custom = () => {
       .join("/");
     thumbPositionRefs.current[index].textContent = value ? fingerResult : "";
   };
-
+  const targetHeight = 30;
   const customStyles = {
     singleValue: (base: any) => ({
       ...base,
-      color: theme === "light" ? "dark" : "white",
+      color: theme === "light" ? "black" : "white",
+      height: `${targetHeight - 1 - 1}px`,
+      lineHeight: `${targetHeight - 1 - 1}px`,
     }),
     input: (base: any) => ({
       ...base,
-      color: theme === "light" ? "dark" : "white",
+      color: theme === "light" ? "black" : "white",
     }),
     control: (base: any) => ({
       ...base,
       border: "0px",
       boxShadow: "none",
-      lineHeight: 1,
       backgroundColor: "transparent",
+      minHeight: "initial",
+    }),
+    clearIndicator: (base: any) => ({
+      ...base,
+      padding: `${(targetHeight - 20 - 1 - 1) / 2}px`,
+    }),
+    valueContainer: (base: any) => ({
+      ...base,
+      height: `${targetHeight - 1 - 1}px`,
+      padding: "0 8px",
+    }),
+    dropdownIndicator: (base: any) => ({
+      ...base,
+      padding: `${(targetHeight - 20 - 1 - 1) / 2}px`,
     }),
     menu: (base: any) => ({
       ...base,
@@ -127,6 +151,14 @@ const Custom = () => {
   const commutatorRefs = useRef<HTMLTableCellElement[]>([]);
   const thumbPositionRefs = useRef<HTMLTableCellElement[]>([]);
 
+  useEffect(() => {
+    setLoading(false);
+  }, []);
+
+  if (loading) {
+    return <Loading />;
+  }
+
   return (
     <>
       <section className="pb-[120px] pt-[100px]">
@@ -136,73 +168,77 @@ const Custom = () => {
               <h2 className="mb-8 text-center text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight">
                 {t("custom.title")}
               </h2>
-              <table>
-                <thead>
-                  <tr>
-                    <th style={{ width: "7.5%" }}>Letters</th>
-                    <th style={{ width: "43%", minWidth: "500px", zIndex: 2 }}>
-                      Algorithm
-                    </th>
-                    <th style={{ width: "27.5%", minWidth: "320px" }}>
-                      Commutator
-                    </th>
-                    <th style={{ width: "22%" }}>Thumb Position</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {Object.entries(defaultOptions).map(([index]) => (
-                    <tr key={index}>
-                      <td className="px-0 py-0">{index}</td>
-                      <td className="px-0 py-0">
-                        <CreatableSelect
-                          instanceId={index}
-                          isClearable={true}
-                          isDisabled={isLoading}
-                          isLoading={isLoading}
-                          onChange={(newValue) => updateValue(newValue, index)}
-                          createOptionPosition="first"
-                          onCreateOption={(newValue) =>
-                            handleCreate(newValue, index)
-                          }
-                          options={options[index]}
-                          value={values[index]}
-                          isValidNewOption={customisValidNewOption}
-                          filterOption={customFilterOption}
-                          styles={customStyles}
-                          formatCreateLabel={(inputValue: string) =>
-                            `Create ${inputValue}`
-                          }
-                          theme={(themeInput) => ({
-                            ...themeInput,
-                            borderRadius: 0,
-                            colors: {
-                              ...themeInput.colors,
-                              primary25:
-                                theme === "light" ? "#B2D4FF" : "#85C1E9",
-                              primary50:
-                                theme === "light" ? "#B2D4FF" : "#85C1E9",
-                            },
-                          })}
-                        />
-                      </td>
-                      <td
-                        className="px-0 py-0"
-                        ref={(ref) => {
-                          commutatorRefs.current[index] =
-                            ref as HTMLTableCellElement;
-                        }}
-                      ></td>
-                      <td
-                        className="px-0 py-0"
-                        ref={(ref) => {
-                          thumbPositionRefs.current[index] =
-                            ref as HTMLTableCellElement;
-                        }}
-                      ></td>
+              <div ref={divRef}>
+                <table ref={tableRef}>
+                  <thead>
+                    <tr>
+                      <th style={{ width: "7.5%" }}>Letters</th>
+                      <th style={{ width: "43%", minWidth: "32em", zIndex: 2 }}>
+                        Algorithm
+                      </th>
+                      <th style={{ width: "27.5%", minWidth: "20em" }}>
+                        Commutator
+                      </th>
+                      <th style={{ width: "22%" }}>Thumb Position</th>
                     </tr>
-                  ))}
-                </tbody>
-              </table>
+                  </thead>
+                  <tbody>
+                    {Object.entries(defaultOptions).map(([index]) => (
+                      <tr key={index}>
+                        <td className="px-0 py-0">{index}</td>
+                        <td className="px-0 py-0">
+                          <CreatableSelect
+                            instanceId={index}
+                            isClearable={true}
+                            isDisabled={isLoading}
+                            isLoading={isLoading}
+                            onChange={(newValue) =>
+                              updateValue(newValue, index)
+                            }
+                            createOptionPosition="first"
+                            onCreateOption={(newValue) =>
+                              handleCreate(newValue, index)
+                            }
+                            options={options[index]}
+                            value={values[index]}
+                            isValidNewOption={customisValidNewOption}
+                            filterOption={customFilterOption}
+                            styles={customStyles}
+                            formatCreateLabel={(inputValue: string) =>
+                              `Create ${inputValue}`
+                            }
+                            theme={(themeInput) => ({
+                              ...themeInput,
+                              borderRadius: 0,
+                              colors: {
+                                ...themeInput.colors,
+                                primary25:
+                                  theme === "light" ? "#B2D4FF" : "#85C1E9",
+                                primary50:
+                                  theme === "light" ? "#B2D4FF" : "#85C1E9",
+                              },
+                            })}
+                          />
+                        </td>
+                        <td
+                          className="px-0 py-0"
+                          ref={(ref) => {
+                            commutatorRefs.current[index] =
+                              ref as HTMLTableCellElement;
+                          }}
+                        ></td>
+                        <td
+                          className="px-0 py-0"
+                          ref={(ref) => {
+                            thumbPositionRefs.current[index] =
+                              ref as HTMLTableCellElement;
+                          }}
+                        ></td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
             </div>
           </div>
         </div>
