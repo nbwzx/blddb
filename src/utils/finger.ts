@@ -54,14 +54,6 @@ const finger = (function () {
           return false;
         }
       }
-      // U E R S' R' U' R S R' E'
-      if (i > 0 && arr[i][0] === "E") {
-        if (arr[i - 1][0] === "U") {
-          if (fingerposition !== 2) {
-            return false;
-          }
-        }
-      }
       if (i > 0 && i < arr.length - 1) {
         if (arr[i][0] === "E" || arr[i][0] === "M" || arr[i][0] === "S") {
           if (
@@ -90,12 +82,12 @@ const finger = (function () {
       ) {
         return false;
       }
+      if (fingerposition === 3 && arr[i] === "f2") {
+        return false;
+      }
       if (
         fingerposition === 2 &&
-        (arr[i][0] === "B" ||
-          arr[i] === "F2" ||
-          arr[i] === "S2" ||
-          arr[i] === "E2")
+        (arr[i][0] === "B" || arr[i] === "F2" || arr[i] === "S2")
       ) {
         return false;
       }
@@ -166,6 +158,9 @@ const finger = (function () {
       if (fingerposition === 2 && (arr[i][0] === "E" || arr[i][0] === "F")) {
         pain = pain + 1;
       }
+      if (fingerposition === 2 && arr[i] === "E2") {
+        pain = pain + 1;
+      }
       if (fingerposition === 1 && (arr[i] === "U2" || arr[i][0] === "M")) {
         pain = pain + 1;
       }
@@ -184,6 +179,14 @@ const finger = (function () {
           (i < arr.length - 1 && arr[i + 1][0] === "U")
         ) {
           pain = pain + 1;
+        }
+      }
+      // U E R S' R' U' R S R' E'
+      if (i > 0 && arr[i][0] === "E") {
+        if (arr[i - 1][0] === "U") {
+          if (fingerposition !== 2) {
+            pain = pain + 2;
+          }
         }
       }
       if (arr[i] === "R" || arr[i] === "r") {
@@ -301,7 +304,7 @@ const finger = (function () {
       : rewrite.righty(alg);
     let fingerbegin: string[] = [],
       count = 0;
-    for (let i = 0; i <= 10; i++) {
+    for (let i = -1; i <= 10; i++) {
       if (
         fingerAvailable(algRighty, 2) &&
         (fingerpain(algRighty, 2) === i || fingerpain(algRighty, 2) === i + 1)
