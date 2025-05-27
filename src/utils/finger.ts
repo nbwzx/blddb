@@ -1,4 +1,5 @@
 import rewrite from "./rewrite";
+import commutator from "./commutator";
 
 const finger = (function () {
   function fingerAvailable(alg: string, position: number) {
@@ -285,7 +286,7 @@ const finger = (function () {
     return sum;
   }
 
-  function fingerbeginfrom(alg: string) {
+  function fingerbeginfrom(alg: string, depth: number = 0) {
     if (alg === "") {
       return ["finger.homegrip"];
     }
@@ -334,6 +335,29 @@ const finger = (function () {
     }
     if (count === 0) {
       fingerbegin = ["/"];
+      if (depth === 0) {
+        let fingerbeginNew: string[] = [];
+        const patterns = [
+          { prefix: "L", suffix: "L'", expected: "leftthumbdown" },
+          { prefix: "l", suffix: "l'", expected: "leftthumbdown" },
+          { prefix: "L'", suffix: "L", expected: "leftthumbup" },
+          { prefix: "l'", suffix: "l", expected: "leftthumbup" },
+        ];
+        for (const { prefix, suffix, expected } of patterns) {
+          const algNew = commutator.expand({
+            algorithm: `${prefix} ${alg} ${suffix}`,
+          });
+          if (!algNew.includes("L") && !algNew.includes("l")) {
+            fingerbeginNew = fingerbeginfrom(algNew, 1);
+            if (
+              fingerbeginNew.includes("finger.homegrip") ||
+              fingerbeginNew.includes("finger.lefthomegrip")
+            ) {
+              return [`finger.${expected}`];
+            }
+          }
+        }
+      }
     }
     return fingerbegin;
   }
