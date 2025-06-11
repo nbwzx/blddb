@@ -444,7 +444,9 @@ const Table = ({
         </React.Fragment>,
       );
     } else if (showInverseAlgs && !matchesPattern(variantCode, key)) {
-      const matchedCode = getInverseCode(variantCode[0]);
+      const matchedCode = getInverseCode(
+        converter.initCodeToCustomCode(variantCode[0], codeType),
+      );
       const matchedPosition = converter.customCodeToPosition(
         matchedCode,
         codeType,

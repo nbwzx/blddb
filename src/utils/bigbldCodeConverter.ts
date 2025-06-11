@@ -438,6 +438,7 @@ const bigbldCodeConverter = (function () {
     initCodeToVariantCustomCode,
     codeTypeToPositions,
     getDefaultOrderOfAlgs,
+    initCodeToCustomCode,
     initialInputValues,
     letteringSchemes,
     positionArray,
