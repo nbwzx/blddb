@@ -25,6 +25,11 @@ const Settings = () => {
         default: true,
       },
       {
+        id: "showInverseAlgs",
+        type: "checkbox",
+        default: false,
+      },
+      {
         id: "mirrorLR",
         type: "checkbox",
         default: false,

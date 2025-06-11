@@ -89,6 +89,10 @@ const Table = ({
     return {};
   };
 
+  const getInverseCode = (code: string): string => {
+    return code[0] + code[2] + code[1];
+  };
+
   const { t } = useTranslation();
   let is3bld = true;
   let isCommutatorNeeded = false;
@@ -181,6 +185,11 @@ const Table = ({
     return <div ref={divRef} className="mt-4"></div>;
   }
   const isRegularExpression = variantCode[0].includes("*");
+  const hasInverseCodeTypes = bigbldCodeTypes.concat(["corner", "edge"]);
+  const showInverseAlgs =
+    settings.showInverseAlgs &&
+    !isRegularExpression &&
+    hasInverseCodeTypes.includes(codeType);
   const starIndex = inputText.indexOf("*");
   if (isRegularExpression && !isManmade) {
     return <div ref={divRef} className="mt-4"></div>;
@@ -202,7 +211,12 @@ const Table = ({
   const isThumbPositionNeeded =
     is3bld && (typeof thumbPosition === "undefined" || thumbPosition);
   for (const [key, value] of Object.entries(data)) {
-    if (!matchesPattern(variantCode, key)) {
+    if (
+      !(
+        matchesPattern(variantCode, key) ||
+        (showInverseAlgs && matchesPattern(variantCode, getInverseCode(key)))
+      )
+    ) {
       continue;
     }
     let processedValue = [...value];
@@ -429,6 +443,44 @@ const Table = ({
           </tbody>
         </React.Fragment>,
       );
+    } else if (showInverseAlgs && !matchesPattern(variantCode, key)) {
+      const matchedCode = getInverseCode(variantCode[0]);
+      const matchedPosition = converter.customCodeToPosition(
+        matchedCode,
+        codeType,
+      );
+      tableElements.push(
+        <React.Fragment key={0}>
+          <thead>
+            <tr>
+              <td colSpan={5} style={{ border: "none" }}>
+                &nbsp;
+              </td>
+            </tr>
+            <tr>
+              <th
+                colSpan={5}
+                className="border-b-0 bg-green-300 text-left dark:bg-green-800"
+                style={{ fontFamily: "Inter, sans-serif" }}
+              >
+                {getPosition(matchedPosition)}
+                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                {codeType === "ltct"
+                  ? `${t("common.pairs")} ${matchedCode.slice(0, 2)}[${matchedCode[2]}]`
+                  : `${t("common.pairs")} ${matchedCode}`}
+              </th>
+            </tr>
+            <tr>
+              <th>{t("table.no")}</th>
+              <th>{t("table.algorithm")}</th>
+              {isCommutatorNeeded && <th>{t("table.commutator")}</th>}
+              {isThumbPositionNeeded && <th>{t("table.thumbPosition")}</th>}
+              {isManmade && <th>{t("table.source")}</th>}
+            </tr>
+          </thead>
+          <tbody>{tableRows}</tbody>
+        </React.Fragment>,
+      );
     } else {
       tableElements.push(
         <React.Fragment key={key}>
@@ -450,6 +502,9 @@ const Table = ({
   tableElements.sort((a, b) => {
     const keyA = a.key as string;
     const keyB = b.key as string;
+    if (keyA === "0" || keyB === "0") {
+      return keyA === "0" ? 1 : -1;
+    }
     const order = converter.positionArrays[orderOfAlgs];
     return order.indexOf(keyA) - order.indexOf(keyB);
   });
