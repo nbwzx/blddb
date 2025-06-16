@@ -99,18 +99,18 @@
             "D:[m D' m',U']"
         ],
         [
-            "m' L U L' U' m U L U' L'",
-            [
-                "Hana Davila"
-            ],
-            "L:[m',U L' U']"
-        ],
-        [
             "D' m D m' U' m D' m' U D",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "D':[m D m',U']"
+        ],
+        [
+            "m' L U L' U' m U L U' L'",
+            [
+                "Hana Davila"
+            ],
+            "L:[m',U L' U']"
         ]
     ],
     "ACK": [
@@ -186,20 +186,20 @@
             "L':[m2,U L U']"
         ],
         [
-            "U' R U' R' U m2 U' R U R' m2 U",
-            [
-                "Graham Siggins",
-                "Yuki Tsuneyoshi (恒吉優紀)"
-            ],
-            "U' R:[U' R' U,m2]"
-        ],
-        [
             "Lw m2 U L' U' m2 U L U' Lw'",
             [
                 "Kevin Matthews",
                 "Ryan Eckersley"
             ],
             "Lw' 3Lw2:[U L' U',m2]"
+        ],
+        [
+            "U' R U' R' U m2 U' R U R' m2 U",
+            [
+                "Graham Siggins",
+                "Yuki Tsuneyoshi (恒吉優紀)"
+            ],
+            "U' R:[U' R' U,m2]"
         ],
         [
             "U' Rw U' R' U m2 U' R U m2 Rw' U",
@@ -476,6 +476,13 @@
             "L' D:[m',U L U']"
         ],
         [
+            "U' Lw' U m D m' U' m D' m' Lw U",
+            [
+                "Ryan Eckersley"
+            ],
+            "U' Lw':[U,m D m']"
+        ],
+        [
             "U' R e' R' U' R e R' U2",
             [
                 "Kai Yamamoto (山本快)"
@@ -488,13 +495,6 @@
                 "Hana Davila"
             ],
             "z' L':[U m U',L']"
-        ],
-        [
-            "U' Lw' U m D m' U' m D' m' Lw U",
-            [
-                "Ryan Eckersley"
-            ],
-            "U' Lw':[U,m D m']"
         ]
     ],
     "ACY": [
@@ -1015,18 +1015,18 @@
             "4Rw':[U m2 U',L']"
         ],
         [
-            "S U' R' e R U R' e' R S'",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "S:[U',R' e R]"
-        ],
-        [
             "l m U m2 U' L' U m2 U' L m' l'",
             [
                 "Ryan Eckersley"
             ],
             "l m:[U m2 U',L']"
+        ],
+        [
+            "S U' R' e R U R' e' R S'",
+            [
+                "Kai Yamamoto (山本快)"
+            ],
+            "S:[U',R' e R]"
         ]
     ],
     "ADW": [
@@ -1247,18 +1247,18 @@
             "U' m U:[m,U2]"
         ],
         [
-            "D m D' m' U2 m D m' U2 D'",
-            [
-                "Leonardo Ezequiel Cruz"
-            ],
-            "D:[m D' m',U2]"
-        ],
-        [
             "D' m D m' U2 m D' m' U2 D",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "D':[m D m',U2]"
+        ],
+        [
+            "D m D' m' U2 m D m' U2 D'",
+            [
+                "Leonardo Ezequiel Cruz"
+            ],
+            "D:[m D' m',U2]"
         ]
     ],
     "AEK": [
@@ -1596,18 +1596,18 @@
             "Rw:[U2,m' D m]"
         ],
         [
-            "Rw m D' m' U2 m D m' U2 Rw'",
-            [
-                "Hana Davila"
-            ],
-            "Rw:[m D' m',U2]"
-        ],
-        [
             "R m D' m' U2 m D m' U2 R'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "R:[m D' m',U2]"
+        ],
+        [
+            "Rw m D' m' U2 m D m' U2 Rw'",
+            [
+                "Hana Davila"
+            ],
+            "Rw:[m D' m',U2]"
         ]
     ],
     "AFC": [
@@ -2271,18 +2271,18 @@
             "U':[D R2 D',m']"
         ],
         [
-            "U' x' m U R U' m' U R' U' x U",
-            [
-                "Kevin Matthews"
-            ],
-            "U' x':[m,U R U']"
-        ],
-        [
             "3Rw' U' m' U' m D2 m' U m D2 U 3Rw",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Rw' U':[m' U' m,D2]"
+        ],
+        [
+            "U' x' m U R U' m' U R' U' x U",
+            [
+                "Kevin Matthews"
+            ],
+            "U' x':[m,U R U']"
         ]
     ],
     "AIO": [
@@ -2314,15 +2314,6 @@
     ],
     "AIP": [
         [
-            "3Lw' D' m' U2 m U2 D 3Lw",
-            [
-                "Daniel Wallin",
-                "Hana Davila",
-                "Jonghyun Kim (김종현)"
-            ],
-            "3Lw' D':[m',U2]"
-        ],
-        [
             "m' D' m' U2 m U2 D m",
             [
                 "Graham Siggins",
@@ -2330,6 +2321,15 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "m' D':[m',U2]"
+        ],
+        [
+            "3Lw' D' m' U2 m U2 D 3Lw",
+            [
+                "Daniel Wallin",
+                "Hana Davila",
+                "Jonghyun Kim (김종현)"
+            ],
+            "3Lw' D':[m',U2]"
         ],
         [
             "m' D U2 m U2 m' D' m",
@@ -2574,14 +2574,6 @@
             "3Rw D':[m',U2]"
         ],
         [
-            "3Rw D U2 m U2 m' D' 3Rw'",
-            [
-                "Andrew Tan Jing Bang",
-                "Michael Tripodi"
-            ],
-            "3Rw D:[U2,m]"
-        ],
-        [
             "B m' U2 m U2 B'",
             [
                 "Graham Siggins",
@@ -2590,11 +2582,12 @@
             "B:[m',U2]"
         ],
         [
-            "4Rw D' m' U2 m U2 D 4Rw'",
+            "3Rw D U2 m U2 m' D' 3Rw'",
             [
-                "Kevin Matthews"
+                "Andrew Tan Jing Bang",
+                "Michael Tripodi"
             ],
-            "4Rw D':[m',U2]"
+            "3Rw D:[U2,m]"
         ],
         [
             "x 4Dw' m' U2 m U' y' x'",
@@ -2602,6 +2595,13 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "x 4Dw':[m',U2]"
+        ],
+        [
+            "4Rw D' m' U2 m U2 D 4Rw'",
+            [
+                "Kevin Matthews"
+            ],
+            "4Rw D':[m',U2]"
         ]
     ],
     "AJC": [
@@ -2633,18 +2633,18 @@
             "D:[U',m D' m']"
         ],
         [
-            "L U L' U' m' U L U' L' m",
-            [
-                "Hana Davila"
-            ],
-            "L:[U L' U',m']"
-        ],
-        [
             "D' U' m D m' U m D' m' D",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "D':[U',m D m']"
+        ],
+        [
+            "L U L' U' m' U L U' L' m",
+            [
+                "Hana Davila"
+            ],
+            "L:[U L' U',m']"
         ]
     ],
     "AJD": [
@@ -2696,18 +2696,18 @@
             "U' m U':[m,U2]"
         ],
         [
-            "D U2 m D' m' U2 m D m' D'",
-            [
-                "Leonardo Ezequiel Cruz"
-            ],
-            "D:[U2,m D' m']"
-        ],
-        [
             "D' U2 m D m' U2 m D' m' D",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "D':[U2,m D m']"
+        ],
+        [
+            "D U2 m D' m' U2 m D m' D'",
+            [
+                "Leonardo Ezequiel Cruz"
+            ],
+            "D:[U2,m D' m']"
         ]
     ],
     "AJF": [
@@ -3357,6 +3357,20 @@
             "x' z':[m,U R U']"
         ],
         [
+            "L2 m D' m' U' m D m' U L2",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "L2:[m D' m',U']"
+        ],
+        [
+            "y x m' U L U' m U L' U' x' y'",
+            [
+                "Yuki Tsuneyoshi (恒吉優紀)"
+            ],
+            "y x:[m',U L U']"
+        ],
+        [
             "L' D' m' U L' U' m U L U' D L",
             [
                 "Jonghyun Kim (김종현)"
@@ -3369,20 +3383,6 @@
                 "Hana Davila"
             ],
             "3Rw D':[U R U',m]"
-        ],
-        [
-            "y x m' U L U' m U L' U' x' y'",
-            [
-                "Yuki Tsuneyoshi (恒吉優紀)"
-            ],
-            "y x:[m',U L U']"
-        ],
-        [
-            "L2 m D' m' U' m D m' U L2",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "L2:[m D' m',U']"
         ]
     ],
     "AKQ": [
@@ -3436,20 +3436,20 @@
             "z U':[U' R U,m']"
         ],
         [
-            "y' R' U' m2 U R U' m2 U y",
-            [
-                "Hana Davila",
-                "Kevin Matthews"
-            ],
-            "y':[R',U' m2 U]"
-        ],
-        [
             "L2 U L e' L' U' L e L",
             [
                 "Kai Yamamoto (山本快)",
                 "Ziyi Xu (徐梓翼)"
             ],
             "L':[L' U L,e']"
+        ],
+        [
+            "y' R' U' m2 U R U' m2 U y",
+            [
+                "Hana Davila",
+                "Kevin Matthews"
+            ],
+            "y':[R',U' m2 U]"
         ],
         [
             "S' D' m D R' D' m' D R S",
@@ -3502,6 +3502,13 @@
             "y:[L,U' m2 U]"
         ],
         [
+            "D2 R2 U' R' e R U R' e' R' D2",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "D2 R:[R U' R',e]"
+        ],
+        [
             "Lw D m' U L U' m U L' U' D' Lw'",
             [
                 "Andrew Tan Jing Bang"
@@ -3514,13 +3521,6 @@
                 "Kai Yamamoto (山本快)"
             ],
             "D' m':[U' L' U,m2]"
-        ],
-        [
-            "D2 R2 U' R' e R U R' e' R' D2",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "D2 R:[R U' R',e]"
         ]
     ],
     "AKW": [
@@ -3559,20 +3559,20 @@
             "L' D:[m',U L' U']"
         ],
         [
-            "z 4Rw U m U2 m' U 4Rw' z'",
-            [
-                "Kevin Matthews",
-                "Michael Tripodi"
-            ],
-            "z 4Rw U:[m,U2]"
-        ],
-        [
             "y R' U m U2 m' U R y'",
             [
                 "Daniel Wallin",
                 "Ryan Eckersley"
             ],
             "y R' U:[m,U2]"
+        ],
+        [
+            "z 4Rw U m U2 m' U 4Rw' z'",
+            [
+                "Kevin Matthews",
+                "Michael Tripodi"
+            ],
+            "z 4Rw U:[m,U2]"
         ],
         [
             "D' m' U' L U m2 U' L' U m' D",
@@ -3876,18 +3876,18 @@
             "3Lw':[m2,U' L' U]"
         ],
         [
-            "U 3Rw D m' U' m D' m' U Rw 3Rw2 U'",
-            [
-                "Kevin Matthews"
-            ],
-            "U 3Rw2 Rw':[m D m',U']"
-        ],
-        [
             "U m' D m' U' m D' m' U m2 U'",
             [
                 "Ryan Eckersley"
             ],
             "U m':[D,m' U' m]"
+        ],
+        [
+            "U 3Rw D m' U' m D' m' U Rw 3Rw2 U'",
+            [
+                "Kevin Matthews"
+            ],
+            "U 3Rw2 Rw':[m D m',U']"
         ]
     ],
     "ALN": [
@@ -4016,6 +4016,13 @@
             "y':[R',U m' U']"
         ],
         [
+            "3Dw U' R' U m' U' R U m 3Dw'",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "3Dw:[U' R' U,m']"
+        ],
+        [
             "D m D R' D' m' D R D2",
             [
                 "Andrew Tan Jing Bang"
@@ -4028,13 +4035,6 @@
                 "Kai Yamamoto (山本快)"
             ],
             "S:[U,L e' L']"
-        ],
-        [
-            "3Dw U' R' U m' U' R U m 3Dw'",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "3Dw:[U' R' U,m']"
         ]
     ],
     "ALS": [
@@ -4224,20 +4224,20 @@
             "L':[U L U',m2]"
         ],
         [
-            "U' m2 R U' R' U m2 U' R U R' U",
-            [
-                "Graham Siggins",
-                "Yuki Tsuneyoshi (恒吉優紀)"
-            ],
-            "U' R:[m2,U' R' U]"
-        ],
-        [
             "Lw U L' U' m2 U L U' m2 Lw'",
             [
                 "Kevin Matthews",
                 "Ryan Eckersley"
             ],
             "Lw:[U L' U',m2]"
+        ],
+        [
+            "U' m2 R U' R' U m2 U' R U R' U",
+            [
+                "Graham Siggins",
+                "Yuki Tsuneyoshi (恒吉優紀)"
+            ],
+            "U' R:[m2,U' R' U]"
         ],
         [
             "U' Rw m2 U' R' U m2 U' R U Rw' U",
@@ -4444,18 +4444,18 @@
             "3Lw:[m2,U' L U]"
         ],
         [
-            "U 3Rw2 Rw' U' m D m' U m D' 3Rw' U'",
-            [
-                "Kevin Matthews"
-            ],
-            "U 3Rw2 Rw':[U',m D m']"
-        ],
-        [
             "U m2 U' m D m' U m D' m U'",
             [
                 "Ryan Eckersley"
             ],
             "U m':[m' U' m,D]"
+        ],
+        [
+            "U 3Rw2 Rw' U' m D m' U m D' 3Rw' U'",
+            [
+                "Kevin Matthews"
+            ],
+            "U 3Rw2 Rw':[U',m D m']"
         ]
     ],
     "AMO": [
@@ -4519,18 +4519,18 @@
             "3Rw:[U R U',m2]"
         ],
         [
-            "3Rw' m2 U R' U' m2 U R U' 3Rw",
-            [
-                "Daniel Wallin"
-            ],
-            "3Rw':[m2,U R' U']"
-        ],
-        [
             "U m2 U' m D' m' U m D m U'",
             [
                 "Ryan Eckersley"
             ],
             "U m':[m' U' m,D']"
+        ],
+        [
+            "3Rw' m2 U R' U' m2 U R U' 3Rw",
+            [
+                "Daniel Wallin"
+            ],
+            "3Rw':[m2,U R' U']"
         ]
     ],
     "AMQ": [
@@ -4868,18 +4868,18 @@
             "U':[m',D R2 D']"
         ],
         [
-            "U' x' U R U' m U R' U' m' x U",
-            [
-                "Kevin Matthews"
-            ],
-            "U' x':[U R U',m]"
-        ],
-        [
             "3Rw' U' D2 m' U' m D2 m' U m U 3Rw",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Rw' U':[D2,m' U' m]"
+        ],
+        [
+            "U' x' U R U' m U R' U' m' x U",
+            [
+                "Kevin Matthews"
+            ],
+            "U' x':[U R U',m]"
         ]
     ],
     "ANJ": [
@@ -5104,15 +5104,6 @@
     ],
     "ANT": [
         [
-            "3Rw U' L' U' m' U L U' m U2 3Rw'",
-            [
-                "Andrew Tan Jing Bang",
-                "Daniel Wallin",
-                "Jonghyun Kim (김종현)"
-            ],
-            "3Rw U':[L',U' m' U]"
-        ],
-        [
             "3Lw U D m' U m D' m' U' m U' 3Lw'",
             [
                 "Graham Siggins",
@@ -5120,6 +5111,15 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Lw U:[D,m' U m]"
+        ],
+        [
+            "3Rw U' L' U' m' U L U' m U2 3Rw'",
+            [
+                "Andrew Tan Jing Bang",
+                "Daniel Wallin",
+                "Jonghyun Kim (김종현)"
+            ],
+            "3Rw U':[L',U' m' U]"
         ],
         [
             "m' U' L' U' m' U L U' m U2 m",
@@ -5574,6 +5574,14 @@
             "Rw' D':[m',U' R' U]"
         ],
         [
+            "R' D' m' U' R' U m U' R U D R",
+            [
+                "Jonghyun Kim (김종현)",
+                "Ryan Eckersley"
+            ],
+            "R' D':[m',U' R' U]"
+        ],
+        [
             "y' R' U m2 U' R U m2 4Dw'",
             [
                 "Graham Siggins",
@@ -5588,14 +5596,6 @@
                 "Hana Davila"
             ],
             "y:[L',U m2 U']"
-        ],
-        [
-            "R' D' m' U' R' U m U' R U D R",
-            [
-                "Jonghyun Kim (김종현)",
-                "Ryan Eckersley"
-            ],
-            "R' D':[m',U' R' U]"
         ],
         [
             "D m' U R U' m2 U R' U' m' D'",
@@ -5656,20 +5656,20 @@
             "z' U:[U L' U',m']"
         ],
         [
-            "y' R U m2 U' R' U m2 4Dw'",
-            [
-                "Hana Davila",
-                "Kevin Matthews"
-            ],
-            "y':[R,U m2 U']"
-        ],
-        [
             "R2 U' R' e R U R' e' R'",
             [
                 "Kai Yamamoto (山本快)",
                 "Ziyi Xu (徐梓翼)"
             ],
             "R:[R U' R',e]"
+        ],
+        [
+            "y' R U m2 U' R' U m2 4Dw'",
+            [
+                "Hana Davila",
+                "Kevin Matthews"
+            ],
+            "y':[R,U m2 U']"
         ],
         [
             "S D m D' L D m' D' L' S'",
@@ -5767,18 +5767,18 @@
             "[D m2 D',R]"
         ],
         [
-            "x' R' U m' U' R U m U' x",
-            [
-                "Hana Davila"
-            ],
-            "x':[R',U m' U']"
-        ],
-        [
             "D U' R' U m2 U' R U m2 D'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "D:[U' R' U,m2]"
+        ],
+        [
+            "x' R' U m' U' R U m U' x",
+            [
+                "Hana Davila"
+            ],
+            "x':[R',U m' U']"
         ]
     ],
     "AOZ": [
@@ -5929,15 +5929,6 @@
     ],
     "API": [
         [
-            "3Lw' D' U2 m' U2 m D 3Lw",
-            [
-                "Daniel Wallin",
-                "Hana Davila",
-                "Jonghyun Kim (김종현)"
-            ],
-            "3Lw' D':[U2,m']"
-        ],
-        [
             "m' D' U2 m' U2 m D m",
             [
                 "Graham Siggins",
@@ -5945,6 +5936,15 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "m' D':[U2,m']"
+        ],
+        [
+            "3Lw' D' U2 m' U2 m D 3Lw",
+            [
+                "Daniel Wallin",
+                "Hana Davila",
+                "Jonghyun Kim (김종현)"
+            ],
+            "3Lw' D':[U2,m']"
         ],
         [
             "m' D m U2 m' U2 D' m",
@@ -6027,6 +6027,20 @@
             "x' z':[U R U',m]"
         ],
         [
+            "L2 U' m D' m' U m D m' L2",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "L2:[U',m D' m']"
+        ],
+        [
+            "y x U L U' m' U L' U' m x' y'",
+            [
+                "Yuki Tsuneyoshi (恒吉優紀)"
+            ],
+            "y x:[U L U',m']"
+        ],
+        [
             "L' D' U L' U' m' U L U' m D L",
             [
                 "Jonghyun Kim (김종현)"
@@ -6039,20 +6053,6 @@
                 "Hana Davila"
             ],
             "3Rw D':[m,U R U']"
-        ],
-        [
-            "y x U L U' m' U L' U' m x' y'",
-            [
-                "Yuki Tsuneyoshi (恒吉優紀)"
-            ],
-            "y x:[U L U',m']"
-        ],
-        [
-            "L2 U' m D' m' U m D m' L2",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "L2:[U',m D' m']"
         ]
     ],
     "APL": [
@@ -6309,6 +6309,13 @@
             "x' R' U':[m',U2]"
         ],
         [
+            "3Dw' U' R' U m' U' R U m 3Dw",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "3Dw':[U' R' U,m']"
+        ],
+        [
             "z' U m' U' L' U m2 U' L U m' U' z",
             [
                 "Jonghyun Kim (김종현)"
@@ -6321,13 +6328,6 @@
                 "Kai Yamamoto (山本快)"
             ],
             "S':[U',R e' R']"
-        ],
-        [
-            "3Dw' U' R' U m' U' R U m 3Dw",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "3Dw':[U' R' U,m']"
         ]
     ],
     "APY": [
@@ -6700,6 +6700,13 @@
             "z' U' L' U:[m',U2]"
         ],
         [
+            "R U' R e2 R' U R e2 R2",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "R:[U',R e2 R']"
+        ],
+        [
             "Rw' D U L' U' m2 U L U' m2 D' Rw",
             [
                 "Andrew Tan Jing Bang"
@@ -6712,13 +6719,6 @@
                 "Kai Yamamoto (山本快)"
             ],
             "R' U' R:[e,R2]"
-        ],
-        [
-            "R U' R e2 R' U R e2 R2",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "R:[U',R e2 R']"
         ]
     ],
     "AQT": [
@@ -6804,18 +6804,18 @@
             "R:[U',R e' R']"
         ],
         [
-            "3Lw U m U' R U m2 U' R' U m U' 3Lw'",
-            [
-                "Andrew Tan Jing Bang"
-            ],
-            "3Lw U m:[U' R U,m2]"
-        ],
-        [
             "x m2 D m' U m D' m' U' m' x'",
             [
                 "Ryan Eckersley"
             ],
             "x m:[m D m',U]"
+        ],
+        [
+            "3Lw U m U' R U m2 U' R' U m U' 3Lw'",
+            [
+                "Andrew Tan Jing Bang"
+            ],
+            "3Lw U m:[U' R U,m2]"
         ]
     ],
     "AQY": [
@@ -7080,20 +7080,20 @@
             "z U':[m',U' R U]"
         ],
         [
-            "y' U' m2 U R' U' m2 U R y",
-            [
-                "Hana Davila",
-                "Kevin Matthews"
-            ],
-            "y':[U' m2 U,R']"
-        ],
-        [
             "L' e' L' U L e L' U' L2",
             [
                 "Kai Yamamoto (山本快)",
                 "Ziyi Xu (徐梓翼)"
             ],
             "L':[e',L' U L]"
+        ],
+        [
+            "y' U' m2 U R' U' m2 U R y",
+            [
+                "Hana Davila",
+                "Kevin Matthews"
+            ],
+            "y':[U' m2 U,R']"
         ],
         [
             "S' R' D' m D R D' m' D S",
@@ -7119,6 +7119,13 @@
             "y':[U m' U',R']"
         ],
         [
+            "3Dw m' U' R' U m U' R U 3Dw'",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "3Dw:[m',U' R' U]"
+        ],
+        [
             "D2 R' D' m D R D' m' D'",
             [
                 "Andrew Tan Jing Bang"
@@ -7131,13 +7138,6 @@
                 "Kai Yamamoto (山本快)"
             ],
             "S:[L e' L',U]"
-        ],
-        [
-            "3Dw m' U' R' U m U' R U 3Dw'",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "3Dw:[m',U' R' U]"
         ]
     ],
     "ARM": [
@@ -7218,6 +7218,14 @@
             "Rw' D':[U' R' U,m']"
         ],
         [
+            "R' D' U' R' U m' U' R U m D R",
+            [
+                "Jonghyun Kim (김종현)",
+                "Ryan Eckersley"
+            ],
+            "R' D':[U' R' U,m']"
+        ],
+        [
             "4Dw m2 U' R' U m2 U' R y",
             [
                 "Graham Siggins",
@@ -7232,14 +7240,6 @@
                 "Hana Davila"
             ],
             "y:[U m2 U',L']"
-        ],
-        [
-            "R' D' U' R' U m' U' R U m D R",
-            [
-                "Jonghyun Kim (김종현)",
-                "Ryan Eckersley"
-            ],
-            "R' D':[U' R' U,m']"
         ],
         [
             "D m U R U' m2 U R' U' m D'",
@@ -7321,6 +7321,13 @@
             "x m2 U':[m',U2]"
         ],
         [
+            "Rw' D' m' U' L' U m' U' L U m2 D Rw",
+            [
+                "Ryan Eckersley"
+            ],
+            "Rw' D' m':[U' L' U,m']"
+        ],
+        [
             "R' y L U' m' U L' U' m 4Dw R",
             [
                 "Michael Tripodi"
@@ -7333,6 +7340,13 @@
                 "Graham Siggins"
             ],
             "z 3Uw':[U' m2 U,R']"
+        ],
+        [
+            "U2 F U2 m' U2 m F' U2",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "U2 F:[U2,m']"
         ],
         [
             "z' U2 m U L' U' m2 U L U' m U2 z",
@@ -7368,20 +7382,6 @@
                 "Hana Davila"
             ],
             "U2 F':[m',U2]"
-        ],
-        [
-            "Rw' D' m' U' L' U m' U' L U m2 D Rw",
-            [
-                "Ryan Eckersley"
-            ],
-            "Rw' D' m':[U' L' U,m']"
-        ],
-        [
-            "U2 F U2 m' U2 m F' U2",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "U2 F:[U2,m']"
         ]
     ],
     "ARW": [
@@ -7822,6 +7822,13 @@
             "z' U' L' U':[m',U2]"
         ],
         [
+            "R2 e2 R' U' R e2 R' U R'",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "R:[R e2 R',U']"
+        ],
+        [
             "Rw' D m2 U L' U' m2 U L U' D' Rw",
             [
                 "Andrew Tan Jing Bang"
@@ -7834,13 +7841,6 @@
                 "Kai Yamamoto (山本快)"
             ],
             "R' U' R':[e,R2]"
-        ],
-        [
-            "R2 e2 R' U' R e2 R' U R'",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "R:[R e2 R',U']"
         ]
     ],
     "ASR": [
@@ -7958,18 +7958,18 @@
             "[e2,R' U' R]"
         ],
         [
-            "z' m2 U' L' U m2 U' L U z",
-            [
-                "Graham Siggins"
-            ],
-            "z':[m2,U' L' U]"
-        ],
-        [
             "L' U L e2 L' U' L e2",
             [
                 "Ryan Eckersley"
             ],
             "[L' U L,e2]"
+        ],
+        [
+            "z' m2 U' L' U m2 U' L U z",
+            [
+                "Graham Siggins"
+            ],
+            "z':[m2,U' L' U]"
         ]
     ],
     "ASZ": [
@@ -8064,18 +8064,18 @@
             "4Rw':[L',U m2 U']"
         ],
         [
-            "S R' e R U' R' e' R U S'",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "S:[R' e R,U']"
-        ],
-        [
             "l m L' U m2 U' L U m2 U' m' l'",
             [
                 "Ryan Eckersley"
             ],
             "l m:[L',U m2 U']"
+        ],
+        [
+            "S R' e R U' R' e' R U S'",
+            [
+                "Kai Yamamoto (山本快)"
+            ],
+            "S:[R' e R,U']"
         ]
     ],
     "ATE": [
@@ -8217,6 +8217,13 @@
             "y:[U' m2 U,L]"
         ],
         [
+            "D2 R e R U' R' e' R U R2 D2",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "D2 R:[e,R U' R']"
+        ],
+        [
             "Lw D U L U' m' U L' U' m D' Lw'",
             [
                 "Andrew Tan Jing Bang"
@@ -8229,13 +8236,6 @@
                 "Kai Yamamoto (山本快)"
             ],
             "D' m:[U' L' U,m2]"
-        ],
-        [
-            "D2 R e R U' R' e' R U R2 D2",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "D2 R:[e,R U' R']"
         ]
     ],
     "ATL": [
@@ -8291,15 +8291,6 @@
     ],
     "ATN": [
         [
-            "3Rw U2 m' U L' U' m U L U 3Rw'",
-            [
-                "Andrew Tan Jing Bang",
-                "Daniel Wallin",
-                "Jonghyun Kim (김종현)"
-            ],
-            "3Rw U':[U' m' U,L']"
-        ],
-        [
             "3Lw U m' U m D m' U' m D' U' 3Lw'",
             [
                 "Graham Siggins",
@@ -8307,6 +8298,15 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Lw U:[m' U m,D]"
+        ],
+        [
+            "3Rw U2 m' U L' U' m U L U 3Rw'",
+            [
+                "Andrew Tan Jing Bang",
+                "Daniel Wallin",
+                "Jonghyun Kim (김종현)"
+            ],
+            "3Rw U':[U' m' U,L']"
         ],
         [
             "m' U2 m' U L' U' m U L U m",
@@ -8344,20 +8344,20 @@
             "z' U:[m',U L' U']"
         ],
         [
-            "4Dw m2 U' R U m2 U' R' y",
-            [
-                "Hana Davila",
-                "Kevin Matthews"
-            ],
-            "y':[U m2 U',R]"
-        ],
-        [
             "R e R U' R' e' R U R2",
             [
                 "Kai Yamamoto (山本快)",
                 "Ziyi Xu (徐梓翼)"
             ],
             "R:[e,R U' R']"
+        ],
+        [
+            "4Dw m2 U' R U m2 U' R' y",
+            [
+                "Hana Davila",
+                "Kevin Matthews"
+            ],
+            "y':[U m2 U',R]"
         ],
         [
             "S L D m D' L' D m' D' S'",
@@ -8448,6 +8448,13 @@
             "U2 F:[m',U2]"
         ],
         [
+            "Rw' D' m2 U' L' U m U' L U m D Rw",
+            [
+                "Ryan Eckersley"
+            ],
+            "Rw' D' m':[m',U' L' U]"
+        ],
+        [
             "R' 4Dw' m' U L U' m U L' y' R",
             [
                 "Michael Tripodi"
@@ -8488,13 +8495,6 @@
                 "Kai Yamamoto (山本快)"
             ],
             "U2 x U':[m,U2]"
-        ],
-        [
-            "Rw' D' m2 U' L' U m U' L U m D Rw",
-            [
-                "Ryan Eckersley"
-            ],
-            "Rw' D' m':[m',U' L' U]"
         ]
     ],
     "ATW": [
@@ -8548,6 +8548,13 @@
             "L:[D m D',L2]"
         ],
         [
+            "U' L' U' m U L2 U' m' U L' U",
+            [
+                "Ryan Eckersley"
+            ],
+            "U' L':[U' m U,L2]"
+        ],
+        [
             "z 3Rw' D' m' U2 m D m' U2 Rw z'",
             [
                 "Kevin Matthews"
@@ -8560,13 +8567,6 @@
                 "Kai Yamamoto (山本快)"
             ],
             "L' M:[U m2 U',L2]"
-        ],
-        [
-            "U' L' U' m U L2 U' m' U L' U",
-            [
-                "Ryan Eckersley"
-            ],
-            "U' L':[U' m U,L2]"
         ]
     ],
     "ATY": [
@@ -9128,6 +9128,13 @@
             "L' D:[U L U',m']"
         ],
         [
+            "U' Lw' m D m' U m D' m' U' Lw U",
+            [
+                "Ryan Eckersley"
+            ],
+            "U' Lw':[m D m',U]"
+        ],
+        [
             "U2 R e' R' U R e R' U",
             [
                 "Kai Yamamoto (山本快)"
@@ -9140,13 +9147,6 @@
                 "Hana Davila"
             ],
             "z' L':[L',U m U']"
-        ],
-        [
-            "U' Lw' m D m' U m D' m' U' Lw U",
-            [
-                "Ryan Eckersley"
-            ],
-            "U' Lw':[m D m',U]"
         ]
     ],
     "AXD": [
@@ -9307,20 +9307,20 @@
             "L' D:[U L' U',m']"
         ],
         [
-            "z 4Rw U' m U2 m' U' 4Rw' z'",
-            [
-                "Kevin Matthews",
-                "Michael Tripodi"
-            ],
-            "z 4Rw U':[m,U2]"
-        ],
-        [
             "y R' U' m U2 m' U' R y'",
             [
                 "Daniel Wallin",
                 "Ryan Eckersley"
             ],
             "y R' U':[m,U2]"
+        ],
+        [
+            "z 4Rw U' m U2 m' U' 4Rw' z'",
+            [
+                "Kevin Matthews",
+                "Michael Tripodi"
+            ],
+            "z 4Rw U':[m,U2]"
         ],
         [
             "D' m U' L U m2 U' L' U m D",
@@ -9502,6 +9502,13 @@
             "x' R' U:[m',U2]"
         ],
         [
+            "3Dw' m' U' R' U m U' R U 3Dw",
+            [
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "3Dw':[m',U' R' U]"
+        ],
+        [
             "z' U m U' L' U m2 U' L U m U' z",
             [
                 "Jonghyun Kim (김종현)"
@@ -9514,13 +9521,6 @@
                 "Kai Yamamoto (山本快)"
             ],
             "S':[R e' R',U']"
-        ],
-        [
-            "3Dw' m' U' R' U m U' R U 3Dw",
-            [
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "3Dw':[m',U' R' U]"
         ]
     ],
     "AXQ": [
@@ -9547,18 +9547,18 @@
             "R:[R e' R',U']"
         ],
         [
-            "3Lw U m' U' R U m2 U' R' U m' U' 3Lw'",
-            [
-                "Andrew Tan Jing Bang"
-            ],
-            "3Lw U m':[U' R U,m2]"
-        ],
-        [
             "x m U m D m' U' m D' m2 x'",
             [
                 "Ryan Eckersley"
             ],
             "x m:[U,m D m']"
+        ],
+        [
+            "3Lw U m' U' R U m2 U' R' U m' U' 3Lw'",
+            [
+                "Andrew Tan Jing Bang"
+            ],
+            "3Lw U m':[U' R U,m2]"
         ]
     ],
     "AXR": [
@@ -9655,6 +9655,13 @@
             "L':[D m D',L2]"
         ],
         [
+            "U' L U' m U L2 U' m' U L U",
+            [
+                "Ryan Eckersley"
+            ],
+            "U' L:[U' m U,L2]"
+        ],
+        [
             "z Rw' U2 m D' m' U2 m D 3Rw z'",
             [
                 "Kevin Matthews"
@@ -9667,13 +9674,6 @@
                 "Kai Yamamoto (山本快)"
             ],
             "4Lw:[U m2 U',L2]"
-        ],
-        [
-            "U' L U' m U L2 U' m' U L U",
-            [
-                "Ryan Eckersley"
-            ],
-            "U' L:[U' m U,L2]"
         ]
     ],
     "AXY": [
@@ -10003,18 +10003,18 @@
             "[R,D m2 D']"
         ],
         [
-            "x' U m' U' R' U m U' R x",
-            [
-                "Hana Davila"
-            ],
-            "x':[U m' U',R']"
-        ],
-        [
             "D m2 U' R' U m2 U' R U D'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "D:[m2,U' R' U]"
+        ],
+        [
+            "x' U m' U' R' U m U' R x",
+            [
+                "Hana Davila"
+            ],
+            "x':[U m' U',R']"
         ]
     ],
     "AYP": [
@@ -10124,18 +10124,18 @@
             "[R' U' R,e2]"
         ],
         [
-            "z' U' L' U m2 U' L U m2 z",
-            [
-                "Graham Siggins"
-            ],
-            "z':[U' L' U,m2]"
-        ],
-        [
             "e2 L' U L e2 L' U' L",
             [
                 "Ryan Eckersley"
             ],
             "[e2,L' U L]"
+        ],
+        [
+            "z' U' L' U m2 U' L U m2 z",
+            [
+                "Graham Siggins"
+            ],
+            "z':[U' L' U,m2]"
         ]
     ],
     "AYT": [
@@ -10297,18 +10297,18 @@
             "Rw:[m' D m,U2]"
         ],
         [
-            "Rw U2 m D' m' U2 m D m' Rw'",
-            [
-                "Hana Davila"
-            ],
-            "Rw:[U2,m D' m']"
-        ],
-        [
             "R U2 m D' m' U2 m D m' R'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "R:[U2,m D' m']"
+        ],
+        [
+            "Rw U2 m D' m' U2 m D m' Rw'",
+            [
+                "Hana Davila"
+            ],
+            "Rw:[U2,m D' m']"
         ]
     ],
     "AZF": [
@@ -10344,14 +10344,6 @@
             "3Rw D':[U2,m']"
         ],
         [
-            "3Rw D m U2 m' U2 D' 3Rw'",
-            [
-                "Andrew Tan Jing Bang",
-                "Michael Tripodi"
-            ],
-            "3Rw D:[m,U2]"
-        ],
-        [
             "B U2 m' U2 m B'",
             [
                 "Graham Siggins",
@@ -10360,11 +10352,12 @@
             "B:[U2,m']"
         ],
         [
-            "4Rw D' U2 m' U2 m D 4Rw'",
+            "3Rw D m U2 m' U2 D' 3Rw'",
             [
-                "Kevin Matthews"
+                "Andrew Tan Jing Bang",
+                "Michael Tripodi"
             ],
-            "4Rw D':[U2,m']"
+            "3Rw D:[m,U2]"
         ],
         [
             "x y U m' U2 m 4Dw x'",
@@ -10372,6 +10365,13 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "x y U:[m',U2]"
+        ],
+        [
+            "4Rw D' U2 m' U2 m D 4Rw'",
+            [
+                "Kevin Matthews"
+            ],
+            "4Rw D':[U2,m']"
         ]
     ],
     "AZJ": [
@@ -10871,18 +10871,18 @@
             "U' Rw:[m',U R' U']"
         ],
         [
-            "U' m' R U R' U' m U R U' R' U",
-            [
-                "Hana Davila"
-            ],
-            "U' R:[m',U R' U']"
-        ],
-        [
             "U' R' m' U R U' m U R' U' R U",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "U' R':[m',U R U']"
+        ],
+        [
+            "U' m' R U R' U' m U R U' R' U",
+            [
+                "Hana Davila"
+            ],
+            "U' R:[m',U R' U']"
         ]
     ],
     "GAE": [
@@ -11112,18 +11112,18 @@
             "D:[U,m D m']"
         ],
         [
-            "U' m R' U R U' m' U R' U' R U",
-            [
-                "Hana Davila"
-            ],
-            "U' R':[m,U R U']"
-        ],
-        [
             "D' R' e' R U' R' e R U D",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "D':[R' e' R,U']"
+        ],
+        [
+            "U' m R' U R U' m' U R' U' R U",
+            [
+                "Hana Davila"
+            ],
+            "U' R':[m,U R U']"
         ]
     ],
     "GAO": [
@@ -11238,18 +11238,18 @@
             "U:[U,L e' L']"
         ],
         [
-            "z R2 U m' U' R' U m U' R' z'",
-            [
-                "Graham Siggins"
-            ],
-            "z R:[R,U m' U']"
-        ],
-        [
             "R' D' U' R U m' U' R' U m D R",
             [
                 "Ryan Eckersley"
             ],
             "R' D':[U' R U,m']"
+        ],
+        [
+            "z R2 U m' U' R' U m U' R' z'",
+            [
+                "Graham Siggins"
+            ],
+            "z R:[R,U m' U']"
         ]
     ],
     "GAS": [
@@ -11559,18 +11559,18 @@
             "3Rw:[U R' U',m']"
         ],
         [
-            "m' R U R' U' m' U R U' R' m2",
-            [
-                "Hana Davila"
-            ],
-            "m' R:[U R' U',m']"
-        ],
-        [
             "x U R' U' m' U R U' m x'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "x:[U R' U',m']"
+        ],
+        [
+            "m' R U R' U' m' U R U' R' m2",
+            [
+                "Hana Davila"
+            ],
+            "m' R:[U R' U',m']"
         ]
     ],
     "GBJ": [
@@ -11584,6 +11584,13 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Lw U:[D2,m]"
+        ],
+        [
+            "m U D2 m D2 m' U' m'",
+            [
+                "Ryan Eckersley"
+            ],
+            "m U:[D2,m]"
         ],
         [
             "m U' m' D2 m D2 U m'",
@@ -11619,13 +11626,6 @@
                 "Hana Davila"
             ],
             "R B:[m',U2]"
-        ],
-        [
-            "m U D2 m D2 m' U' m'",
-            [
-                "Ryan Eckersley"
-            ],
-            "m U:[D2,m]"
         ]
     ],
     "GBK": [
@@ -12144,18 +12144,18 @@
             "U' Rw:[U R' U',m']"
         ],
         [
-            "U' R U R' U' m' U R U' R' m U",
-            [
-                "Hana Davila"
-            ],
-            "U' R:[U R' U',m']"
-        ],
-        [
             "U' R' U R U' m' U R' U' m R U",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "U' R':[U R U',m']"
+        ],
+        [
+            "U' R U R' U' m' U R U' R' m U",
+            [
+                "Hana Davila"
+            ],
+            "U' R:[U R' U',m']"
         ]
     ],
     "GDB": [
@@ -12323,18 +12323,18 @@
             "3Rw:[m',U R' U']"
         ],
         [
-            "m2 R U R' U' m U R U' R' m",
-            [
-                "Hana Davila"
-            ],
-            "m2 R:[U R' U',m]"
-        ],
-        [
             "x m' U R' U' m U R U' x'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "x:[m',U R' U']"
+        ],
+        [
+            "m2 R U R' U' m U R U' R' m",
+            [
+                "Hana Davila"
+            ],
+            "m2 R:[U R' U',m]"
         ]
     ],
     "GJA": [
@@ -12375,6 +12375,13 @@
             "3Lw U:[m,D2]"
         ],
         [
+            "m U m D2 m' D2 U' m'",
+            [
+                "Ryan Eckersley"
+            ],
+            "m U:[m,D2]"
+        ],
+        [
             "m U' D2 m' D2 m U m'",
             [
                 "Michael Tripodi"
@@ -12408,13 +12415,6 @@
                 "Hana Davila"
             ],
             "R B:[U2,m']"
-        ],
-        [
-            "m U m D2 m' D2 U' m'",
-            [
-                "Ryan Eckersley"
-            ],
-            "m U:[m,D2]"
         ]
     ],
     "GKA": [
@@ -12641,18 +12641,18 @@
             "D:[m D m',U]"
         ],
         [
-            "U' R' U R U' m U R' U' R m' U",
-            [
-                "Hana Davila"
-            ],
-            "U' R':[U R U',m]"
-        ],
-        [
             "D' U' R' e' R U R' e R D",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "D':[U',R' e' R]"
+        ],
+        [
+            "U' R' U R U' m U R' U' R m' U",
+            [
+                "Hana Davila"
+            ],
+            "U' R':[U R U',m]"
         ]
     ],
     "GNB": [
@@ -12925,18 +12925,18 @@
             "U:[L e' L',U]"
         ],
         [
-            "z R U m' U' R U m U' R2 z'",
-            [
-                "Graham Siggins"
-            ],
-            "z R:[U m' U',R]"
-        ],
-        [
             "R' D' m' U' R U m U' R' U D R",
             [
                 "Ryan Eckersley"
             ],
             "R' D':[m',U' R U]"
+        ],
+        [
+            "z R U m' U' R U m U' R2 z'",
+            [
+                "Graham Siggins"
+            ],
+            "z R:[U m' U',R]"
         ]
     ],
     "GRB": [
