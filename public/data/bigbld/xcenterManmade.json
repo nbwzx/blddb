@@ -20841,15 +20841,6 @@
             "x':[l',U' r U]"
         ],
         [
-            "Rw' U' r U l U' r' U l' Rw",
-            [
-                "Chenhao Sun (孙晨皓)",
-                "Daniel Wallin",
-                "Ethan Pan"
-            ],
-            "Rw':[U' r U,l]"
-        ],
-        [
             "r' U' r U l U' r' U l' r",
             [
                 "Andrew Tan Jing Bang",
@@ -20857,6 +20848,15 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "r':[U' r U,l]"
+        ],
+        [
+            "Rw' U' r U l U' r' U l' Rw",
+            [
+                "Chenhao Sun (孙晨皓)",
+                "Daniel Wallin",
+                "Ethan Pan"
+            ],
+            "Rw':[U' r U,l]"
         ],
         [
             "Uw l' u' l U' l' u l u'",
@@ -28718,16 +28718,6 @@
             "S':[r U2 r',u']"
         ],
         [
-            "F' u l' U2 l u' l' U2 l F",
-            [
-                "Chenhao Sun (孙晨皓)",
-                "Dong Zhu (朱栋)",
-                "Leonardo Ezequiel Cruz",
-                "Ryan Eckersley"
-            ],
-            "F':[u,l' U2 l]"
-        ],
-        [
             "R Uw r U2 r' u' r U2 r' U' R'",
             [
                 "Daniel Wallin",
@@ -28736,6 +28726,16 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "R Uw:[r U2 r',u']"
+        ],
+        [
+            "F' u l' U2 l u' l' U2 l F",
+            [
+                "Chenhao Sun (孙晨皓)",
+                "Dong Zhu (朱栋)",
+                "Leonardo Ezequiel Cruz",
+                "Ryan Eckersley"
+            ],
+            "F':[u,l' U2 l]"
         ],
         [
             "U R u r U2 r' u' r U2 Rw' U'",
@@ -29554,16 +29554,6 @@
             "S':[u',r U2 r']"
         ],
         [
-            "F' l' U2 l u l' U2 l u' F",
-            [
-                "Chenhao Sun (孙晨皓)",
-                "Dong Zhu (朱栋)",
-                "Leonardo Ezequiel Cruz",
-                "Ryan Eckersley"
-            ],
-            "F':[l' U2 l,u]"
-        ],
-        [
             "R U r U2 r' u r U2 r' Uw' R'",
             [
                 "Daniel Wallin",
@@ -29572,6 +29562,16 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "R U:[r U2 r',u]"
+        ],
+        [
+            "F' l' U2 l u l' U2 l u' F",
+            [
+                "Chenhao Sun (孙晨皓)",
+                "Dong Zhu (朱栋)",
+                "Leonardo Ezequiel Cruz",
+                "Ryan Eckersley"
+            ],
+            "F':[l' U2 l,u]"
         ],
         [
             "U Rw U2 r' u r U2 r' u' R' U'",
@@ -36967,15 +36967,6 @@
     ],
     "JWG": [
         [
-            "U' Rw' l2 U r U' l2 U r' U' Rw U",
-            [
-                "Chenhao Sun (孙晨皓)",
-                "Daniel Wallin",
-                "Jonghyun Kim (김종현)"
-            ],
-            "U' Rw':[l2,U r U']"
-        ],
-        [
             "l' U r u2 r' U' r u2 r' l",
             [
                 "Kai Yamamoto (山本快)",
@@ -36983,6 +36974,15 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "l':[U,r u2 r']"
+        ],
+        [
+            "U' Rw' l2 U r U' l2 U r' U' Rw U",
+            [
+                "Chenhao Sun (孙晨皓)",
+                "Daniel Wallin",
+                "Jonghyun Kim (김종현)"
+            ],
+            "U' Rw':[l2,U r U']"
         ],
         [
             "x' r U r' d2 r U' r' d2 x",

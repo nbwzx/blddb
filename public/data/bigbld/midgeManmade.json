@@ -2590,18 +2590,18 @@
             "3Rw D:[U2,m]"
         ],
         [
-            "4Rw D' m' U2 m U2 D 4Rw'",
-            [
-                "Kevin Matthews"
-            ],
-            "4Rw D':[m',U2]"
-        ],
-        [
             "x 4Dw' m' U2 m U' y' x'",
             [
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "x 4Dw':[m',U2]"
+        ],
+        [
+            "4Rw D' m' U2 m U2 D 4Rw'",
+            [
+                "Kevin Matthews"
+            ],
+            "4Rw D':[m',U2]"
         ]
     ],
     "AJC": [
@@ -3364,6 +3364,13 @@
             "L2:[m D' m',U']"
         ],
         [
+            "y x m' U L U' m U L' U' x' y'",
+            [
+                "Yuki Tsuneyoshi (恒吉優紀)"
+            ],
+            "y x:[m',U L U']"
+        ],
+        [
             "L' D' m' U L' U' m U L U' D L",
             [
                 "Jonghyun Kim (김종현)"
@@ -3376,13 +3383,6 @@
                 "Hana Davila"
             ],
             "3Rw D':[U R U',m]"
-        ],
-        [
-            "y x m' U L U' m U L' U' x' y'",
-            [
-                "Yuki Tsuneyoshi (恒吉優紀)"
-            ],
-            "y x:[m',U L U']"
         ]
     ],
     "AKQ": [
@@ -5728,20 +5728,20 @@
             "y R' U':[m',U2]"
         ],
         [
-            "R2 U' R e' R' U R e R",
-            [
-                "Kai Yamamoto (山本快)",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "R':[R' U' R,e']"
-        ],
-        [
             "D m' U' L U m2 U' L' U m' D'",
             [
                 "Jonghyun Kim (김종현)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "D m':[U' L U,m2]"
+        ],
+        [
+            "R2 U' R e' R' U R e R",
+            [
+                "Kai Yamamoto (山本快)",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "R':[R' U' R,e']"
         ],
         [
             "S D m D' L' D m' D' L S'",
@@ -6034,6 +6034,13 @@
             "L2:[U',m D' m']"
         ],
         [
+            "y x U L U' m' U L' U' m x' y'",
+            [
+                "Yuki Tsuneyoshi (恒吉優紀)"
+            ],
+            "y x:[U L U',m']"
+        ],
+        [
             "L' D' U L' U' m' U L U' m D L",
             [
                 "Jonghyun Kim (김종현)"
@@ -6046,13 +6053,6 @@
                 "Hana Davila"
             ],
             "3Rw D':[m,U R U']"
-        ],
-        [
-            "y x U L U' m' U L' U' m x' y'",
-            [
-                "Yuki Tsuneyoshi (恒吉優紀)"
-            ],
-            "y x:[U L U',m']"
         ]
     ],
     "APL": [
@@ -9458,20 +9458,20 @@
             "y R' U:[m',U2]"
         ],
         [
-            "R' e' R' U' R e R' U R2",
-            [
-                "Kai Yamamoto (山本快)",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "R':[e',R' U' R]"
-        ],
-        [
             "D m U' L U m2 U' L' U m D'",
             [
                 "Jonghyun Kim (김종현)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "D m:[U' L U,m2]"
+        ],
+        [
+            "R' e' R' U' R e R' U R2",
+            [
+                "Kai Yamamoto (山本快)",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "R':[e',R' U' R]"
         ],
         [
             "S L' D m D' L D m' D' S'",
@@ -10360,18 +10360,18 @@
             "3Rw D:[m,U2]"
         ],
         [
-            "4Rw D' U2 m' U2 m D 4Rw'",
-            [
-                "Kevin Matthews"
-            ],
-            "4Rw D':[U2,m']"
-        ],
-        [
             "x y U m' U2 m 4Dw x'",
             [
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "x y U:[m',U2]"
+        ],
+        [
+            "4Rw D' U2 m' U2 m D 4Rw'",
+            [
+                "Kevin Matthews"
+            ],
+            "4Rw D':[U2,m']"
         ]
     ],
     "AZJ": [

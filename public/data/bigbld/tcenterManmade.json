@@ -1239,18 +1239,18 @@
             "U2 Rw':[m,U r U']"
         ],
         [
-            "4Dw m d m' U' m d' m' y",
-            [
-                "Kevin Matthews"
-            ],
-            "y':[U,m d m']"
-        ],
-        [
             "Lw U2 m U' l' U m' U' l U' Lw'",
             [
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "Lw U:[U m U',l']"
+        ],
+        [
+            "4Dw m d m' U' m d' m' y",
+            [
+                "Kevin Matthews"
+            ],
+            "y':[U,m d m']"
         ]
     ],
     "ACO": [
@@ -7784,18 +7784,18 @@
             "U2 Rw':[U r U',m]"
         ],
         [
-            "y' m d m' U m d' m' 4Dw'",
-            [
-                "Kevin Matthews"
-            ],
-            "y':[m d m',U]"
-        ],
-        [
             "Lw U l' U m U' l U m' U2 Lw'",
             [
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "Lw U:[l',U m U']"
+        ],
+        [
+            "y' m d m' U m d' m' 4Dw'",
+            [
+                "Kevin Matthews"
+            ],
+            "y':[m d m',U]"
         ]
     ],
     "AND": [
@@ -25497,6 +25497,13 @@
             "y:[m d' m',U']"
         ],
         [
+            "Rw' U' r U' m U r' U' m' U2 Rw",
+            [
+                "Yuki Tsuneyoshi (恒吉優紀)"
+            ],
+            "Rw' U':[r,U' m U]"
+        ],
+        [
             "Rw U' r' U' m U r U' m' U2 Rw'",
             [
                 "Kevin Matthews"
@@ -25509,13 +25516,6 @@
                 "Howie Craig"
             ],
             "x' U:[U m' U',r]"
-        ],
-        [
-            "Rw' U' r U' m U r' U' m' U2 Rw",
-            [
-                "Yuki Tsuneyoshi (恒吉優紀)"
-            ],
-            "Rw' U':[r,U' m U]"
         ]
     ],
     "GAO": [
@@ -30076,6 +30076,13 @@
             "y:[U',m d' m']"
         ],
         [
+            "Rw' U2 m U r U' m' U r' U Rw",
+            [
+                "Yuki Tsuneyoshi (恒吉優紀)"
+            ],
+            "Rw' U':[U' m U,r]"
+        ],
+        [
             "Rw U2 m U r' U' m' U r U Rw'",
             [
                 "Kevin Matthews"
@@ -30088,13 +30095,6 @@
                 "Howie Craig"
             ],
             "x' U:[r,U m' U']"
-        ],
-        [
-            "Rw' U2 m U r U' m' U r' U Rw",
-            [
-                "Yuki Tsuneyoshi (恒吉優紀)"
-            ],
-            "Rw' U':[U' m U,r]"
         ]
     ],
     "GNB": [
@@ -35974,16 +35974,6 @@
     ],
     "HLA": [
         [
-            "Uw' m U m d m' U' m d' m2 Uw",
-            [
-                "Andrew Tan Jing Bang",
-                "Daniel Lin",
-                "Michael Tripodi",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "Uw' m:[U,m d m']"
-        ],
-        [
             "Uw m' U m' d' m U' m' d m2 Uw'",
             [
                 "Jonghyun Kim (김종현)",
@@ -35992,6 +35982,16 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "Uw m':[U,m' d' m]"
+        ],
+        [
+            "Uw' m U m d m' U' m d' m2 Uw",
+            [
+                "Andrew Tan Jing Bang",
+                "Daniel Lin",
+                "Michael Tripodi",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "Uw' m:[U,m d m']"
         ],
         [
             "x z' U' l U m2 U' l' U m2 z x'",
