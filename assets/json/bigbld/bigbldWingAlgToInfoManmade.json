@@ -966,8 +966,7 @@
                 "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
-                "Tobias Peter",
-                "Yuki Tsuneyoshi (恒吉優紀)"
+                "Tobias Peter"
             ],
             "r' U':[U' r2 U,R]"
         ],
@@ -980,7 +979,8 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Graham Siggins",
-                "Xi Lu (鲁曦)"
+                "Xi Lu (鲁曦)",
+                "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "Rw2 U':[U' r' U,R']"
         ],
@@ -6742,20 +6742,6 @@
     ],
     "AIM": [
         [
-            "D R D' r2 U' R U r2 U' R' U D R' D'",
-            [
-                "Adrian Dębski",
-                "Chenhao Sun (孙晨皓)",
-                "Daniel Wallin",
-                "Jonghyun Kim (김종현)",
-                "Michael Tripodi",
-                "Ryan Eckersley",
-                "Sebastiano Tronto",
-                "Yuki Tsuneyoshi (恒吉優紀)"
-            ],
-            "D R D':[r2,U' R U]"
-        ],
-        [
             "x U' R' U r2 U R U' r2 U R' U2 R U x'",
             [
                 "Dong Zhu (朱栋)",
@@ -6764,9 +6750,23 @@
                 "Kevin Matthews",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Tobias Peter",
-                "Xin Shi (石欣)"
+                "Xin Shi (石欣)",
+                "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "x U' R' U:[r2,U R U']"
+        ],
+        [
+            "D R D' r2 U' R U r2 U' R' U D R' D'",
+            [
+                "Adrian Dębski",
+                "Chenhao Sun (孙晨皓)",
+                "Daniel Wallin",
+                "Jonghyun Kim (김종현)",
+                "Michael Tripodi",
+                "Ryan Eckersley",
+                "Sebastiano Tronto"
+            ],
+            "D R D':[r2,U' R U]"
         ],
         [
             "Lw2 U2 Lw U2 r' U2 Lw' U2 Lw U2 r U2 Lw",
@@ -10738,7 +10738,6 @@
                 "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
-                "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
             "R D:[U' R U,r]"
@@ -10753,7 +10752,8 @@
                 "Gavriel Johann Arcilla",
                 "Jonghyun Kim (김종현)",
                 "Ryan Eckersley",
-                "Timo Norrkniivilä"
+                "Timo Norrkniivilä",
+                "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "[L' F' L,f]"
         ],
@@ -11670,20 +11670,6 @@
     ],
     "AMI": [
         [
-            "D R D' U' R U r2 U' R' U r2 D R' D'",
-            [
-                "Adrian Dębski",
-                "Chenhao Sun (孙晨皓)",
-                "Daniel Wallin",
-                "Jonghyun Kim (김종현)",
-                "Michael Tripodi",
-                "Ryan Eckersley",
-                "Sebastiano Tronto",
-                "Yuki Tsuneyoshi (恒吉優紀)"
-            ],
-            "D R D':[U' R U,r2]"
-        ],
-        [
             "x U' R' U2 R U' r2 U R' U' r2 U' R U x'",
             [
                 "Dong Zhu (朱栋)",
@@ -11692,9 +11678,23 @@
                 "Kevin Matthews",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Tobias Peter",
-                "Xin Shi (石欣)"
+                "Xin Shi (石欣)",
+                "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "x U' R' U:[U R U',r2]"
+        ],
+        [
+            "D R D' U' R U r2 U' R' U r2 D R' D'",
+            [
+                "Adrian Dębski",
+                "Chenhao Sun (孙晨皓)",
+                "Daniel Wallin",
+                "Jonghyun Kim (김종현)",
+                "Michael Tripodi",
+                "Ryan Eckersley",
+                "Sebastiano Tronto"
+            ],
+            "D R D':[U' R U,r2]"
         ],
         [
             "Lw' U2 r' U2 Lw' U2 Lw U2 r U2 Lw' U2 Lw2",
@@ -14307,7 +14307,6 @@
                 "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
-                "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
             "R D:[r,U' R U]"
@@ -14323,7 +14322,8 @@
                 "Jonghyun Kim (김종현)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
-                "Timo Norrkniivilä"
+                "Timo Norrkniivilä",
+                "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "[f,L' F' L]"
         ],
@@ -14838,18 +14838,10 @@
                 "Daniel Lin",
                 "Ethan Pan",
                 "Gavriel Johann Arcilla",
-                "Michael Tripodi"
-            ],
-            "L':[f,L' F' L]"
-        ],
-        [
-            "S D r' D' L' D r D' L S'",
-            [
-                "Andrew Tan Jing Bang",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
-            "S:[D r' D',L']"
+            "L':[f,L' F' L]"
         ],
         [
             "D r U' L U r2 U' L' U r D'",
@@ -14859,6 +14851,14 @@
                 "Graham Siggins"
             ],
             "D r:[U' L U,r2]"
+        ],
+        [
+            "S D r' D' L' D r D' L S'",
+            [
+                "Andrew Tan Jing Bang",
+                "Michael Tripodi"
+            ],
+            "S:[D r' D',L']"
         ],
         [
             "Dw U L' U' r2 U L U' r2 Dw'",
@@ -17253,8 +17253,7 @@
                 "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
-                "Tobias Peter",
-                "Yuki Tsuneyoshi (恒吉優紀)"
+                "Tobias Peter"
             ],
             "r' U':[R,U' r2 U]"
         ],
@@ -17267,7 +17266,8 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Graham Siggins",
-                "Xi Lu (鲁曦)"
+                "Xi Lu (鲁曦)",
+                "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "Rw2 U':[R',U' r' U]"
         ],
@@ -22450,18 +22450,10 @@
                 "Anto Kam (甘浩東)",
                 "Daniel Lin",
                 "Ethan Pan",
-                "Gavriel Johann Arcilla"
-            ],
-            "L':[L' F' L,f]"
-        ],
-        [
-            "S L' D r' D' L D r D' S'",
-            [
-                "Andrew Tan Jing Bang",
-                "Michael Tripodi",
+                "Gavriel Johann Arcilla",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
-            "S:[L',D r' D']"
+            "L':[L' F' L,f]"
         ],
         [
             "D r' U' L U r2 U' L' U r' D'",
@@ -22471,6 +22463,14 @@
                 "Graham Siggins"
             ],
             "D r':[U' L U,r2]"
+        ],
+        [
+            "S L' D r' D' L D r D' S'",
+            [
+                "Andrew Tan Jing Bang",
+                "Michael Tripodi"
+            ],
+            "S:[L',D r' D']"
         ],
         [
             "Dw r2 U L' U' r2 U L U' Dw'",
