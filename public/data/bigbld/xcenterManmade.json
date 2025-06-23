@@ -11200,10 +11200,16 @@
         [
             "u r Uw' l' Uw r' Uw' l U",
             [
-                "Howie Craig",
                 "Stanley Chapel"
             ],
             "u:[r,Uw' l' Uw]"
+        ],
+        [
+            "Lw' r' u r U r' u' r U' Lw",
+            [
+                "Howie Craig"
+            ],
+            "Lw':[r' u r,U]"
         ]
     ],
     "GBM": [
@@ -15130,18 +15136,11 @@
         [
             "Lw r d r' U r d' r' U' Lw'",
             [
+                "Howie Craig",
                 "Stanley Chapel",
                 "Ziyi Xu (徐梓翼)"
             ],
             "Lw:[r d r',U]"
-        ],
-        [
-            "R' l U' l' d l U l' d' R",
-            [
-                "Howie Craig",
-                "Oliver Fritz"
-            ],
-            "R':[l U' l',d]"
         ],
         [
             "y R d' l' U l d l' U' l R' y'",
@@ -15149,6 +15148,13 @@
                 "Cale Schoon"
             ],
             "y R:[d',l' U l]"
+        ],
+        [
+            "R' l U' l' d l U l' d' R",
+            [
+                "Oliver Fritz"
+            ],
+            "R':[l U' l',d]"
         ]
     ],
     "GQA": [
