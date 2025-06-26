@@ -285,6 +285,35 @@ const BLD = ({ codeType }: { codeType: string }) => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [loading, selectValues, converter, i18n.resolvedLanguage]);
 
+  useEffect(() => {
+    const handleGlobalPaste = (e: ClipboardEvent) => {
+      const pasteString =
+        e.clipboardData
+          ?.getData("text/plain")
+          .replace(/[—&]+/gu, "-")
+          .replace(/(\s*)-(\s*)/gu, "-")
+          .replace(/\s+/gu, "-")
+          .trim() || "";
+      if (pasteString.match(/^[A-Za-z]+(?:-+[A-Za-z]*)*$/u)) {
+        const values = pasteString.split(/-/u);
+        const newSelectValues = Array(selectValuesLen).fill("");
+        for (let i = 0; i < selectValuesLen && i < values.length; i++) {
+          newSelectValues[i] = values[i];
+        }
+        setSelectValuesNew(newSelectValues);
+        const newSelectValuesTrim = newSelectValues.map((value) =>
+          value === " " ? "" : value,
+        );
+        const newUrl = `?position=${newSelectValuesTrim.join("-")}&mode=${modeValue}`;
+        window.history.pushState({ path: newUrl }, "", newUrl);
+        e.preventDefault();
+      }
+    };
+    document.addEventListener("paste", handleGlobalPaste);
+    return () => document.removeEventListener("paste", handleGlobalPaste);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   if (loading) {
     return <Loading />;
   }
