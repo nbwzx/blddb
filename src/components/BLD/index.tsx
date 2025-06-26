@@ -294,7 +294,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
           .replace(/(\s*)-(\s*)/gu, "-")
           .replace(/\s+/gu, "-")
           .trim() || "";
-      if (pasteString.match(/^[A-Za-z]+(?:-+[A-Za-z]*)*$/u)) {
+      if (pasteString.match(/^[A-Za-z*]+(?:-+[A-Za-z*]*)*$/u)) {
         const values = pasteString.split(/-/u);
         const newSelectValues = Array(selectValuesLen).fill("");
         for (let i = 0; i < selectValuesLen && i < values.length; i++) {
