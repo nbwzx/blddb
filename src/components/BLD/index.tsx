@@ -314,15 +314,59 @@ const BLD = ({ codeType }: { codeType: string }) => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
+  const getPosition = (matchedPosition: string[]) => {
+    let positionText = "";
+
+    if (codeType === "parity") {
+      positionText = `${matchedPosition.slice(0, 2).join("-")} & ${matchedPosition.slice(2, 4).join("-")}`;
+    } else if (codeType === "ltct") {
+      positionText = `${matchedPosition.slice(0, 2).join("-")}[${matchedPosition[2]}]`;
+    } else if (codeType === "flips") {
+      positionText = `${matchedPosition[0]} & ${matchedPosition[1]}`;
+    } else if (codeType === "twists") {
+      const labels = ["UFR", "UBR", "UFL", "UBL", "DFR", "DBR", "DFL", "DBL"];
+      for (let i = 0; i < labels.length; i++) {
+        if (matchedPosition[i] !== "") {
+          positionText += `${labels[i]}: ${matchedPosition[i]}, `;
+        }
+      }
+      positionText = positionText.slice(0, -2);
+    } else {
+      positionText = `${matchedPosition.join("-")}`;
+    }
+
+    return positionText;
+  };
+
+  const [copySuccess, setCopySuccess] = useState<boolean>(false);
+  const handleCopyPosition = () => {
+    const text = getPosition(selectValues);
+    navigator.clipboard.writeText(text).then(() => {
+      setCopySuccess(true);
+      setTimeout(() => {
+        setCopySuccess(false);
+      }, 3000);
+    });
+  };
+
   if (loading) {
     return <Loading />;
   }
 
-  const positionElement = ({ positionHint }) => (
-    <div className="mb-3 mr-2 mt-4 inline-block font-bold text-dark dark:text-white">
-      {positionHint}
-    </div>
-  );
+  const positionElement = ({ positionHint }) => {
+    const isClickable = !(
+      positionHint === t("common.pairs") || positionHint === t("common.mode")
+    );
+
+    return (
+      <div
+        className={`mb-3 mr-2 mt-4 inline-block font-bold text-dark dark:text-white ${isClickable ? "cursor-pointer" : ""}`}
+        onClick={isClickable ? handleCopyPosition : undefined}
+      >
+        {positionHint}
+      </div>
+    );
+  };
 
   const inputElement = ({ inputWidth }) => (
     <div className="mb-6">
@@ -476,6 +520,18 @@ const BLD = ({ codeType }: { codeType: string }) => {
         <div className="-mx-4 flex flex-wrap justify-center">
           <div className="w-full px-4 lg:w-10/12">
             <div>
+              {copySuccess && (
+                <div
+                  id="copypopup"
+                  className="fade-in-out fixed bottom-[30px] left-1/2 z-50 -translate-x-1/2 transform rounded-md border-2 bg-gray-100 p-4 text-black shadow-lg dark:bg-gray-700 dark:text-white"
+                  style={{
+                    animation:
+                      "fadein 0.5s ease forwards, fadeout 0.5s ease 1.5s forwards",
+                  }}
+                >
+                  <span className="text-lg">{t("table.copied")}</span>
+                </div>
+              )}
               <h2 className="mb-8 text-center text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight">
                 {t(`${codeType}.title`)}
               </h2>
