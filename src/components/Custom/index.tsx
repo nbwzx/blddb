@@ -8,6 +8,7 @@ import { useTranslation } from "@/i18n/client";
 import data from "public/data/cornerNightmare.json";
 import useResponsiveTable from "@/utils/useResponsiveTable";
 import Loading from "@/app/loading";
+import { useTheme } from "next-themes";
 
 interface Option {
   readonly label: string;
@@ -35,18 +36,11 @@ const Custom = () => {
   const [options, setOptions] =
     useState<Record<string, Option[]>>(defaultOptions);
   const [values, setValues] = useState<Record<string, Option | null>>({});
-  const [theme, setTheme] = useState("light");
+  const { theme } = useTheme();
   const tableRef = useRef<HTMLTableElement>(
     null as unknown as HTMLTableElement,
   );
   const divRef = useRef<HTMLDivElement>(null as unknown as HTMLDivElement);
-
-  useEffect(() => {
-    const storedTheme = localStorage.getItem("theme");
-    if (storedTheme) {
-      setTheme(storedTheme);
-    }
-  }, []);
 
   useResponsiveTable(tableRef, divRef);
 
@@ -101,17 +95,23 @@ const Custom = () => {
       .join("/");
     thumbPositionRefs.current[index].textContent = value ? fingerResult : "";
   };
-  const targetHeight = 30;
+  const targetHeight = 22;
   const customStyles = {
     singleValue: (base: any) => ({
       ...base,
       color: theme === "light" ? "black" : "white",
       height: `${targetHeight - 1 - 1}px`,
       lineHeight: `${targetHeight - 1 - 1}px`,
+      paddingBottom: "0px",
+      paddingTop: "0px",
     }),
     input: (base: any) => ({
       ...base,
       color: theme === "light" ? "black" : "white",
+      marginTop: "0px",
+      marginBottom: "0px",
+      paddingTop: "0px",
+      paddingBottom: "0px",
     }),
     control: (base: any) => ({
       ...base,
@@ -126,7 +126,6 @@ const Custom = () => {
     }),
     valueContainer: (base: any) => ({
       ...base,
-      height: `${targetHeight - 1 - 1}px`,
       padding: "0 8px",
     }),
     dropdownIndicator: (base: any) => ({
