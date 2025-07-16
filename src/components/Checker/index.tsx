@@ -87,13 +87,15 @@ const Checker = () => {
 
   const fetchData = async () => {
     const cacheBuster = Date.now();
-    const url = `https://script.google.com/macros/s/AKfycbwdoMWRMNDhx3K9GJIF0mOrsYwioXofhrs-DVAjQyXBIYk0dV0zxyhVcvjZTvT2-cUe9A/exec?spreadsheetId=${extractIdFromURL(GsURL)}&cb=${cacheBuster}`;
+    const url = `https://script.google.com/macros/s/AKfycbzhhIYLfm8LM3q_pKyy5W11WCBOV2rldddn1RURy1Cz8QZ9n2tCAXx5pdLTI25nkfA_5Q/exec?spreadsheetId=${extractIdFromURL(GsURL)}&cb=${cacheBuster}`;
     setSheetData({});
     setSelectedSheet("");
     setBuffer("");
     setSelectedTypes("");
     setSelectedTarget("");
+    setErrorMessage("");
     setLoading(true);
+    let data: any = {};
     try {
       const response = await fetch(url);
 
@@ -101,7 +103,7 @@ const Checker = () => {
         throw new Error(`HTTP error! Status: ${response.status}`);
       }
 
-      let data = await response.json();
+      data = await response.json();
       data = Object.fromEntries(
         Object.entries(data).map(([key, value]) => [
           key,
@@ -113,7 +115,11 @@ const Checker = () => {
       setSheetData(data);
       setErrorMessage("");
     } catch (error) {
-      setErrorMessage(`Error fetching data: ${error.message}`);
+      if (data && data.error) {
+        setErrorMessage(`Error: ${data.error}`);
+      } else {
+        setErrorMessage(`Error: ${error.message}`);
+      }
       setSheetData({});
     } finally {
       setLoading(false);
