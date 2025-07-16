@@ -411,7 +411,7 @@ const Checker = () => {
                     {t("checker.selectSheet")}
                   </div>
                   <select
-                    id="sheetSelect"
+                    id="sheetSelection"
                     onChange={handleSheetChange}
                     className="inline-block rounded-sm border-b-[3px] border-gray-500 bg-inherit py-1 pr-5 text-base font-medium text-dark outline-none transition-all duration-300 focus:border-primary dark:border-gray-100 dark:bg-gray-dark dark:text-white dark:shadow-none dark:focus:border-primary dark:focus:shadow-none"
                   >
@@ -428,7 +428,7 @@ const Checker = () => {
                       {t("checker.types")}
                     </div>
                     <select
-                      id="sheetSelect"
+                      id="typeSelection"
                       value={selectedTypes}
                       onChange={handleTypesChange}
                       className="inline-block rounded-sm border-b-[3px] border-gray-500 bg-inherit py-1 pr-5 text-base font-medium text-dark outline-none transition-all duration-300 focus:border-primary dark:border-gray-100 dark:bg-gray-dark dark:text-white dark:shadow-none dark:focus:border-primary dark:focus:shadow-none"
