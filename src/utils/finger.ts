@@ -98,8 +98,7 @@ const finger = (function () {
           arr[i][0] === "F" ||
           arr[i] === "D2" ||
           arr[i] === "S2" ||
-          arr[i] === "E2" ||
-          arr[i] === "M2")
+          arr[i] === "E2")
       ) {
         return false;
       }
