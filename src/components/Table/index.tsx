@@ -1,4 +1,4 @@
-import React, { JSX, useEffect, useState } from "react";
+import React, { JSX, useState } from "react";
 import commutator from "@/utils/commutator";
 import commutator_555 from "@/utils/commutator_555";
 import finger from "@/utils/finger";
@@ -6,6 +6,12 @@ import codeConverter from "@/utils/codeConverter";
 import bigbldCodeConverter from "@/utils/bigbldCodeConverter";
 import { useTranslation } from "@/i18n/client";
 import rewrite from "@/utils/rewrite";
+
+interface VideoAttributes {
+  url: string;
+  width: number;
+  height: number;
+}
 
 function matchesPattern(patterns: string[], str: string): boolean {
   for (const pattern of patterns) {
@@ -48,11 +54,7 @@ const Table = ({
     };
   };
   algToUrl?: {
-    [key: string]: {
-      url: string;
-      width: number;
-      height: number;
-    };
+    [key: string]: Array<VideoAttributes>;
   };
 }) => {
   const getPosition = (matchedPosition: string[]) => {
@@ -119,56 +121,62 @@ const Table = ({
     width: 0,
     height: 0,
   });
-  const [videoUrl, setVideoUrl] = useState("");
+  const [videoList, setVideoList] = useState<VideoAttributes[]>([]);
+  const [videoIdx, setVideoIdx] = useState(0);
+  const [videoKey, setVideoKey] = useState(0);
+
   const getVideoUrl = (algorithms: string[]) => {
+    const videoUrl: Array<VideoAttributes> = [];
     for (const algorithm of algorithms) {
       if (algToUrl?.[algorithm]) {
-        return algToUrl?.[algorithm];
+        videoUrl.push(...algToUrl[algorithm]);
       }
     }
-    return {
-      url: "",
-      width: 0,
-      height: 0,
-    };
+    return videoUrl;
   };
+
+  const calculateAndSetDimensions = (width: number, height: number) => {
+    const widthScale = (Math.min(window.innerWidth, 1000) * 0.8) / width;
+    const heightScale = (Math.min(window.innerHeight, 1000) * 0.8) / height;
+    const scale = Math.min(widthScale, heightScale);
+    setVideoDimensions({
+      width: width * scale,
+      height: height * scale,
+    });
+  };
+
   const handleCellClick = (algorithms: string[]) => {
-    const { url, width, height } = getVideoUrl(algorithms);
-    if (url) {
-      setVideoUrl(url);
-      const widthScale = (Math.min(window.innerWidth, 1000) * 0.8) / width;
-      const heightScale = (Math.min(window.innerHeight, 1000) * 0.8) / height;
-      const scale = Math.min(widthScale, heightScale);
-      setVideoDimensions({
-        width: width * scale,
-        height: height * scale,
-      });
+    const videos = getVideoUrl(algorithms);
+    if (videos.length > 0) {
+      setVideoList(videos);
+      setVideoIdx(0);
+      const { width, height } = videos[0];
+      calculateAndSetDimensions(width, height);
       setIsVideoVisible(true);
     }
   };
 
-  useEffect(() => {
-    const video = document.createElement("video");
-    video.src = videoUrl;
-    if (isVideoVisible) {
-      video.oncanplaythrough = () => {
-        const originalWidth = video.videoWidth;
-        const originalHeight = video.videoHeight;
-        const widthScale = (window.innerWidth * 0.8) / originalWidth;
-        const heightScale = (window.innerHeight * 0.8) / originalHeight;
-        const scale = Math.min(widthScale, heightScale);
-        setVideoDimensions({
-          width: originalWidth * scale,
-          height: originalHeight * scale,
-        });
-      };
+  const handlePrevVideo = () => {
+    if (videoList.length > 1) {
+      setVideoKey((prev) => prev + 1);
+      const newIdx = (videoIdx - 1 + videoList.length) % videoList.length;
+      setVideoIdx(newIdx);
+      const { width, height } = videoList[newIdx];
+      calculateAndSetDimensions(width, height);
     }
-    return () => {
-      video.src = "";
-      video.load();
-    };
-  }, [isVideoVisible, videoUrl]);
+  };
 
+  const handleNextVideo = () => {
+    if (videoList.length > 1) {
+      setVideoKey((prev) => prev + 1);
+      const newIdx = (videoIdx + 1) % videoList.length;
+      setVideoIdx(newIdx);
+      const { width, height } = videoList[newIdx];
+      calculateAndSetDimensions(width, height);
+    }
+  };
+
+  const currentVideoUrl = videoList[videoIdx]?.url ?? "";
   const settings = loadSettings();
   const thumbPosition = settings.showThumbPosition;
   const mirrorLR = settings.mirrorLR;
@@ -367,7 +375,7 @@ const Table = ({
                 rowSpan={item.length}
                 onClick={() => handleCellClick(item)}
                 className={
-                  getVideoUrl(item).url
+                  getVideoUrl(item).length > 0
                     ? "cursor-pointer text-primary dark:text-[#00BCD4]"
                     : ""
                 }
@@ -540,18 +548,36 @@ const Table = ({
             onClick={() => setIsVideoVisible(false)}
           />
           <div
-            className="z-1000 fixed left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transform rounded-lg bg-white shadow-lg"
+            className="z-1000 fixed left-1/2 top-1/2 flex -translate-x-1/2 -translate-y-1/2 transform flex-col items-center rounded-lg bg-white shadow-lg"
             style={{
               width: videoDimensions.width || "80%",
               height: videoDimensions.height || "80%",
             }}
           >
+            <>
+              {videoIdx > 0 && (
+                <button
+                  className="absolute left-4 top-1/2 -translate-y-1/2 transform rounded-full bg-gray-300 p-2"
+                  onClick={handlePrevVideo}
+                >
+                  ◀
+                </button>
+              )}
+              {videoIdx < videoList.length - 1 && (
+                <button
+                  className="absolute right-4 top-1/2 -translate-y-1/2 transform rounded-full bg-gray-300 p-2"
+                  onClick={handleNextVideo}
+                >
+                  ▶
+                </button>
+              )}
+            </>
             <iframe
-              src={videoUrl}
+              key={videoKey}
+              src={currentVideoUrl}
               width="100%"
               height="100%"
               allow="autoplay; fullscreen"
-              allowFullScreen
               sandbox="allow-same-origin allow-scripts"
             ></iframe>
           </div>
