@@ -156,20 +156,10 @@ const Table = ({
     }
   };
 
-  const handlePrevVideo = () => {
+  const handleVideoChange = (delta: number) => {
     if (videoList.length > 1) {
       setVideoKey((prev) => prev + 1);
-      const newIdx = (videoIdx - 1 + videoList.length) % videoList.length;
-      setVideoIdx(newIdx);
-      const { width, height } = videoList[newIdx];
-      calculateAndSetDimensions(width, height);
-    }
-  };
-
-  const handleNextVideo = () => {
-    if (videoList.length > 1) {
-      setVideoKey((prev) => prev + 1);
-      const newIdx = (videoIdx + 1) % videoList.length;
+      const newIdx = (videoIdx + delta + videoList.length) % videoList.length;
       setVideoIdx(newIdx);
       const { width, height } = videoList[newIdx];
       calculateAndSetDimensions(width, height);
@@ -558,7 +548,7 @@ const Table = ({
               {videoIdx > 0 && (
                 <button
                   className="absolute left-4 top-1/2 -translate-y-1/2 transform rounded-full bg-gray-300 p-2"
-                  onClick={handlePrevVideo}
+                  onClick={() => handleVideoChange(-1)}
                 >
                   ◀
                 </button>
@@ -566,7 +556,7 @@ const Table = ({
               {videoIdx < videoList.length - 1 && (
                 <button
                   className="absolute right-4 top-1/2 -translate-y-1/2 transform rounded-full bg-gray-300 p-2"
-                  onClick={handleNextVideo}
+                  onClick={() => handleVideoChange(1)}
                 >
                   ▶
                 </button>
