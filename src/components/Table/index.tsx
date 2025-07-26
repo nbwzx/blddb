@@ -44,8 +44,8 @@ const Table = ({
     | { [key: string]: [alg: string, source: string[], comm: string][] }; // manmade (bigbld)
   divRef: React.RefObject<HTMLDivElement>;
   tableRef: React.RefObject<HTMLTableElement>;
-  selected?: { [key: string]: string };
-  sourceToUrl?: { [key: string]: string[] };
+  selected?: Record<string, string>;
+  sourceToUrl?: Record<string, Record<string, string>>;
   sourceToResult?: {
     [name: string]: {
       wca_id: string;
@@ -170,7 +170,7 @@ const Table = ({
   const settings = loadSettings();
   const thumbPosition = settings.showThumbPosition;
   const mirrorLR = settings.mirrorLR;
-  const orderOfAlgs =
+  const orderOfAlgs: "Chichu" | "Speffz" =
     settings.orderOfAlgs ?? codeConverter.getDefaultOrderOfAlgs();
   const variantCode = converter.customCodeToVariantCode(
     inputText,
@@ -223,7 +223,7 @@ const Table = ({
       const show4BldAlgsUnderSecs = settings.show4BldAlgsUnderSecs;
       processedValue = processedValue
         .map((innerArray) => {
-          const filteredNames = innerArray[1].filter((name) => {
+          const filteredNames = innerArray[1].filter((name: string) => {
             return is3bld
               ? show3BldAlgsUnderSecs === "" ||
                   typeof show3BldAlgsUnderSecs === "undefined" ||
@@ -408,7 +408,7 @@ const Table = ({
         actualCodeType,
       );
       tableElements.push(
-        <React.Fragment key={matchedCharacterPosition}>
+        <React.Fragment key={matchedCharacterPosition[0]}>
           <thead>
             <tr>
               <th

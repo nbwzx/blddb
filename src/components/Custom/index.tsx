@@ -9,6 +9,7 @@ import data from "public/data/cornerNightmare.json";
 import useResponsiveTable from "@/utils/useResponsiveTable";
 import Loading from "@/app/loading";
 import { useTheme } from "next-themes";
+import type { GroupBase, OptionsOrGroups } from "react-select";
 
 interface Option {
   readonly label: string;
@@ -62,12 +63,20 @@ const Custom = () => {
 
   const customIsValidNewOption = (
     inputValue: string,
-    selectValue: Option[],
-    selectOptions: Option[],
+    value: readonly Option[],
+    optionsInput: OptionsOrGroups<Option, GroupBase<Option>>,
   ) => {
     const expandValue = commutator.expand({ algorithm: inputValue });
-    const hasValue = selectValue.some((option) => option.label === inputValue);
-    const hasOption = selectOptions.some(
+    const hasValue = value.some((option) => option.label === inputValue);
+    const flatOptions: Option[] = [];
+    optionsInput.forEach((opt) => {
+      if ("options" in opt && Array.isArray(opt.options)) {
+        flatOptions.push(...opt.options);
+      } else {
+        flatOptions.push(opt as Option);
+      }
+    });
+    const hasOption = flatOptions.some(
       (option) => option.label === expandValue,
     );
     return !(expandValue === "" || hasValue || hasOption);
@@ -146,8 +155,8 @@ const Custom = () => {
     }),
   };
 
-  const commutatorRefs = useRef<HTMLTableCellElement[]>([]);
-  const thumbPositionRefs = useRef<HTMLTableCellElement[]>([]);
+  const commutatorRefs = useRef<Record<string, HTMLTableCellElement>>({});
+  const thumbPositionRefs = useRef<Record<string, HTMLTableCellElement>>({});
 
   useEffect(() => {
     setLoading(false);

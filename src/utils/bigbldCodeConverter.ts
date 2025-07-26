@@ -185,14 +185,14 @@ const bigbldCodeConverter = (function () {
   };
 
   function codeTypeToNumber(codeType: string) {
-    const codeTypeToNumberMap = {
+    const codeTypeToNumberMap: Record<string, number> = {
       midge: 2,
       wing: 2,
     };
     return codeTypeToNumberMap[codeType] || 1;
   }
 
-  function positionToCodeType(position: string) {
+  function positionToCodeType(position: string): string {
     if (position.length === 1) {
       return "center";
     } else if (position.length === 2) {
@@ -310,7 +310,7 @@ const bigbldCodeConverter = (function () {
     code: string,
     codeType: string,
     mirrorLR = false,
-  ) {
+  ): string[] {
     let result = customCodeToPosition(code, codeType);
     if (mirrorLR) {
       result = result.map((pos) => {
@@ -326,7 +326,9 @@ const bigbldCodeConverter = (function () {
     const displacePositions: string[][] = [result];
     for (let i = 1; i < codeTypeToNumber(codeType); i++) {
       displacePositions.push(
-        displacePositions[i - 1].map((pos) => nextPositionsMap[pos]),
+        displacePositions[i - 1].map(
+          (pos) => nextPositionsMap[pos as keyof typeof nextPositionsMap],
+        ),
       );
     }
     const displaceCode = displacePositions
@@ -379,7 +381,9 @@ const bigbldCodeConverter = (function () {
     const displacePositions: string[][] = [result];
     for (let i = 1; i < codeTypeToNumber(codeType); i++) {
       displacePositions.push(
-        displacePositions[i - 1].map((pos) => nextPositionsMap[pos]),
+        displacePositions[i - 1].map(
+          (pos) => nextPositionsMap[pos as keyof typeof nextPositionsMap],
+        ),
       );
     }
     const displaceCode = displacePositions
@@ -406,6 +410,7 @@ const bigbldCodeConverter = (function () {
       (position) => positionToCodeType(position) === codeType,
     );
   }
+
   function getDefaultOrderOfAlgs() {
     const scheme = initialInputValues;
     let storedValues = "";

@@ -30,7 +30,7 @@ const tracer_555 = (function () {
 
   let cube = `x${solved555}`;
   // prettier-ignore
-  const trackDict = {
+  const trackDict : { [key: string]: number[] } = {
     "wing": [2, 10, 16, 24, 27, 35, 41, 49, 52, 60, 66, 74, 77, 85, 91, 99, 102, 110, 116, 124, 127, 135, 141, 149],
     "midge": [3, 11, 15, 23, 28, 36, 40, 48, 53, 61, 65, 73, 78, 86, 90, 98, 103, 111, 115, 123, 128, 136, 140, 148],
     "xcenter": [7, 9, 17, 19, 32, 34, 42, 44, 57, 59, 67, 69, 82, 84, 92, 94, 107, 109, 117, 119, 132, 134, 142, 144],
@@ -38,13 +38,21 @@ const tracer_555 = (function () {
     "corner": [1, 5, 21, 25, 26, 30, 46, 50, 51, 55, 71, 75, 76, 80, 96, 100, 101, 105, 121, 125, 126, 130, 146, 150]
 };
 
-  const trackMap = Object.keys(trackDict).reduce((acc, key) => {
-    acc[key] = trackDict[key].reduce((innerAcc, x) => {
-      innerAcc[solved555[x - 1]] = x;
-      return innerAcc;
-    }, {});
-    return acc;
-  }, {});
+  const trackMap: { [key: string]: { [key: string]: number } } = Object.keys(
+    trackDict,
+  ).reduce(
+    (acc, key) => {
+      acc[key] = trackDict[key].reduce(
+        (innerAcc: { [x: string]: number }, x: number) => {
+          innerAcc[solved555[x - 1]] = x;
+          return innerAcc;
+        },
+        {},
+      );
+      return acc;
+    },
+    {} as { [key: string]: { [key: string]: number } },
+  );
 
   function track(codeType: string, trackS1: string, a: string): string {
     return a[trackMap[codeType][trackS1]].toString();
@@ -248,7 +256,7 @@ const tracer_555 = (function () {
     };
 
     const codeOrder = codeOrderDict[codeType];
-    const steps = stepsDict[codeType];
+    const steps = stepsDict[codeType as keyof typeof stepsDict];
 
     for (let i = 0; i < 24; i += steps) {
       if (

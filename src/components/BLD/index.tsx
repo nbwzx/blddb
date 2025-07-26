@@ -20,7 +20,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
   const [loading, setLoading] = useState(true);
 
   let is3bld = true;
-  const selectValuesLenMap = {
+  const selectValuesLenMap: Record<string, number> = {
     flips: 2,
     parity: 4,
     twists: 8,
@@ -353,7 +353,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
     return <Loading />;
   }
 
-  const positionElement = ({ positionHint }) => {
+  const positionElement = ({ positionHint }: { positionHint: string }) => {
     const isClickable = !(
       positionHint === t("common.pairs") || positionHint === t("common.mode")
     );
@@ -368,7 +368,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
     );
   };
 
-  const inputElement = ({ inputWidth }) => (
+  const inputElement = ({ inputWidth }: { inputWidth: number }) => (
     <div className="mb-6">
       {positionElement({ positionHint: t("common.pairs") })}
       <input
@@ -407,7 +407,13 @@ const BLD = ({ codeType }: { codeType: string }) => {
     </div>
   );
 
-  const groupInputElement = ({ groupArray, positionType }) =>
+  const groupInputElement = ({
+    groupArray,
+    positionType,
+  }: {
+    groupArray: number[];
+    positionType: string;
+  }) =>
     groupArray.map((index: number) => (
       <React.Fragment key={index}>
         <select
@@ -549,10 +555,12 @@ const BLD = ({ codeType }: { codeType: string }) => {
               <Table
                 codeType={codeType}
                 inputText={selectToInput(selectValues)}
-                data={modeToData[modeValue]}
+                data={modeToData[modeValue as keyof typeof modeToData] || {}}
                 divRef={divRef}
                 tableRef={tableRef}
-                selected={modeToSelected[modeValue]}
+                selected={
+                  modeToSelected[modeValue as keyof typeof modeToSelected]
+                }
                 sourceToUrl={sourceToUrl}
                 sourceToResult={sourceToResult}
                 algToUrl={algToUrl}

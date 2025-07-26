@@ -10,7 +10,7 @@ const Settings = () => {
   const floatRegex = /^\d{0,4}(\.\d{0,2})?$/u;
 
   const [loading, setLoading] = useState(true);
-  const [settings, setSettings] = useState({});
+  const [settings, setSettings] = useState<Record<string, any>>({});
 
   const settingsGroups = {
     general: [
@@ -85,17 +85,22 @@ const Settings = () => {
   const loadSettings = () => {
     if (typeof window !== "undefined") {
       const savedSettings = localStorage.getItem("settings");
-      let newSettings = {};
+      let newSettings: Record<string, any> = {};
       if (savedSettings) {
         const parsedSettings = JSON.parse(savedSettings);
         newSettings = { ...parsedSettings };
       }
       Object.keys(settingsGroups).forEach((moduleId) => {
-        settingsGroups[moduleId].forEach((setting) => {
-          if (typeof newSettings[setting.id] === "undefined") {
-            newSettings[setting.id] = setting.default;
-          }
-        });
+        settingsGroups[moduleId as keyof typeof settingsGroups].forEach(
+          (setting) => {
+            if (
+              "default" in setting &&
+              typeof newSettings[setting.id] === "undefined"
+            ) {
+              newSettings[setting.id] = setting.default;
+            }
+          },
+        );
       });
       return newSettings;
     }
@@ -149,7 +154,9 @@ const Settings = () => {
                     </h3>
                   </div>
                   <div className="flex flex-col">
-                    {settingsGroups[moduleId].map((setting) => (
+                    {settingsGroups[
+                      moduleId as keyof typeof settingsGroups
+                    ].map((setting) => (
                       <div
                         key={setting.id}
                         className="mb-4 flex w-full items-center"
@@ -167,9 +174,11 @@ const Settings = () => {
                               handleChange(setting.id, "select", e.target.value)
                             }
                           >
-                            {setting.options.map((option: { id: string }) => (
+                            {(
+                              setting as { options: { id: string }[] }
+                            ).options.map((option: { id: string }) => (
                               <option key={option.id} value={option.id}>
-                                {`${modeToEmoji[option.id] || ""} ${t(`settings.${moduleId}.${option.id}`)}`}
+                                {`${modeToEmoji[option.id as keyof typeof modeToEmoji] || ""} ${t(`settings.${moduleId}.${option.id}`)}`}
                               </option>
                             ))}
                           </select>

@@ -38,7 +38,11 @@ const Sheets = () => {
     const fetchUsers = async () => {
       setLoading(true);
       const response = await import("public/data/sourceToUrl.json");
-      const timeData = await import("public/data/sourceToResult.json");
+      const timeData = (await import("public/data/sourceToResult.json")) as {
+        default: {
+          [key: string]: { wca_id?: string; "3bld"?: number; "4bld"?: number };
+        };
+      };
 
       const userEntries = Object.entries(response.default).map(
         ([user, urls]) => ({

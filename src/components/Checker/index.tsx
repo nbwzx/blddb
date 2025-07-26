@@ -12,7 +12,7 @@ import bigbldCodeConverter from "@/utils/bigbldCodeConverter";
 const Checker = () => {
   const { t } = useTranslation();
   const [GsURL, setGsURL] = useState("");
-  const [sheetData, setSheetData] = useState({});
+  const [sheetData, setSheetData] = useState<Record<string, string[][]>>({});
   const [selectedSheet, setSelectedSheet] = useState("");
   const [selectedTypes, setSelectedTypes] = useState("");
   const [selectedTarget, setSelectedTarget] = useState("");
@@ -24,11 +24,11 @@ const Checker = () => {
   function extractIdFromURL(url: string): string {
     const m2 = URL_KEY_V2_RE.exec(url);
     if (m2) {
-      return m2[1];
+      return m2[1] ?? "";
     }
     const m1 = URL_KEY_V1_RE.exec(url);
     if (m1) {
-      return m1[1];
+      return m1[1] ?? "";
     }
     return "";
   }
@@ -117,8 +117,10 @@ const Checker = () => {
     } catch (error) {
       if (data && data.error) {
         setErrorMessage(`Error: ${data.error}`);
-      } else {
+      } else if (error instanceof Error) {
         setErrorMessage(`Error: ${error.message}`);
+      } else {
+        setErrorMessage(`Error: ${String(error)}`);
       }
       setSheetData({});
     } finally {
@@ -126,7 +128,7 @@ const Checker = () => {
     }
   };
 
-  const handleSheetChange = (event) => {
+  const handleSheetChange = (event: { target: { value: any } }) => {
     const newSheet = event.target.value;
     setSelectedSheet(newSheet);
     const newBuffer =
@@ -141,7 +143,9 @@ const Checker = () => {
     setSelectedTypes(selectedTypesNew);
   };
 
-  const handleTypesChange = (event) => {
+  const handleTypesChange = (event: {
+    target: { value: React.SetStateAction<string> };
+  }) => {
     setSelectedTypes(event.target.value);
     const newBuffer = getPattern(
       event.target.value === "BigBLD" ? patterns_5bld : patterns_3bld,
@@ -150,7 +154,9 @@ const Checker = () => {
     setBuffer(newBuffer);
   };
 
-  const handleTargetChange = (event) => {
+  const handleTargetChange = (event: {
+    target: { value: React.SetStateAction<string> };
+  }) => {
     setSelectedTarget(event.target.value);
   };
 
@@ -163,7 +169,11 @@ const Checker = () => {
   };
 
   const getTableData = () => {
-    const getPosition = (cellInput, firstRow, firstCol) => {
+    const getPosition = (
+      cellInput: string,
+      firstRow: string,
+      firstCol: string,
+    ) => {
       let cell = cellInput;
       if (cell.length > 60) {
         return "";

@@ -74,20 +74,22 @@ const codeConverter = (function () {
   };
 
   function codeTypeToNumber(codeType: string) {
-    const codeTypeToNumberMap = {
+    const codeTypeToNumberMap: Record<string, number> = {
       edge: 2,
       corner: 3,
     };
     return codeTypeToNumberMap[codeType] || 1;
   }
 
-  function positionToCodeType(position: string) {
-    const positionLengthToCodeType = {
+  function positionToCodeType(position: string): string {
+    const positionLengthToCodeType: Record<number, string> = {
       1: "center",
       2: "edge",
       3: "corner",
     };
-    return positionLengthToCodeType[position.length] || "";
+
+    const len = position.length;
+    return positionLengthToCodeType[len] || "";
   }
 
   function customCodeToInitCode(code: string, codeType: string) {
@@ -113,7 +115,7 @@ const codeConverter = (function () {
     return result.join("");
   }
 
-  function customCodeToPosition(code: string, codeType: string) {
+  function customCodeToPosition(code: string, codeType: string): string[] {
     if (codeType === "flips") {
       return customCodeToPosition(code, "edge");
     }
@@ -240,7 +242,7 @@ const codeConverter = (function () {
     code: string,
     codeType: string,
     mirrorLR = false,
-  ) {
+  ): string[] {
     if (codeType === "flips") {
       return customCodeToVariantCode(code, "edge", mirrorLR);
     }
@@ -285,7 +287,9 @@ const codeConverter = (function () {
     const displacePositions: string[][] = [result];
     for (let i = 1; i < codeTypeToNumber(codeType); i++) {
       displacePositions.push(
-        displacePositions[i - 1].map((pos) => nextPositionsMap[pos]),
+        displacePositions[i - 1].map(
+          (pos) => nextPositionsMap[pos as keyof typeof nextPositionsMap],
+        ),
       );
     }
     const displaceCode = displacePositions
@@ -295,7 +299,7 @@ const codeConverter = (function () {
     return variantCode;
   }
 
-  function initCodeToCustomCode(code: string, codeType: string) {
+  function initCodeToCustomCode(code: string, codeType: string): string {
     if (codeType === "flips") {
       return initCodeToCustomCode(code, "edge");
     }
@@ -334,7 +338,7 @@ const codeConverter = (function () {
     code: string,
     codeType: string,
     mirrorLR = false,
-  ) {
+  ): string[] {
     if (codeType === "flips") {
       return cartesianProduct([
         customCodeToVariantCustomCode(code, "edge", mirrorLR),
@@ -378,7 +382,9 @@ const codeConverter = (function () {
     const displacePositions: string[][] = [result];
     for (let i = 1; i < codeTypeToNumber(codeType); i++) {
       displacePositions.push(
-        displacePositions[i - 1].map((pos) => nextPositionsMap[pos]),
+        displacePositions[i - 1].map(
+          (pos) => nextPositionsMap[pos as keyof typeof nextPositionsMap],
+        ),
       );
     }
     const displaceCode = displacePositions

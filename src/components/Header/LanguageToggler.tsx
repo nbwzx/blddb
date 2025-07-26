@@ -52,7 +52,7 @@ const LanguageToggler: React.FC = () => {
         }}
         onClick={toggleDropdown}
       >
-        {langNames[i18n.resolvedLanguage ?? "en"]}
+        {langNames[(i18n.resolvedLanguage ?? "en") as keyof typeof langNames]}
       </div>
       <div
         className={"dropdown-content"}
@@ -72,7 +72,7 @@ const LanguageToggler: React.FC = () => {
                 key={langOther}
                 onClick={() => updateLanguage(langOther)}
               >
-                {langNames[langOther]}
+                {langNames[langOther as keyof typeof langNames]}
               </div>
             );
           }

@@ -121,7 +121,10 @@ const rewrite = (function () {
           if (!(res[i] in ROTATION_DICT)) {
             return -1;
           }
-          rotationIndexOut = ROTATION_DICT[res[i]][rotationIndexOut];
+          rotationIndexOut =
+            ROTATION_DICT[res[i] as keyof typeof ROTATION_DICT][
+              rotationIndexOut
+            ];
         } else if (
           ROTATION_BASE.includes(res[i][0]) &&
           ALG_ALLOWED.includes(res[i][0])
@@ -133,7 +136,8 @@ const rewrite = (function () {
           }
           const moveNew = MOVE_DICT[rotationIndexOut][MOVE.indexOf(res[i])];
           if (!ALG_ALLOWED.includes(moveNew[0]) && res[i] in ALG_REPLACE) {
-            const moveReplaceList = ALG_REPLACE[res[i]].split(" ");
+            const moveReplaceList =
+              ALG_REPLACE[res[i] as keyof typeof ALG_REPLACE].split(" ");
             rotationIndexOut = processMove(moveReplaceList, rotationIndexOut);
           } else {
             out.push(moveNew);
