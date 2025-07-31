@@ -450,7 +450,14 @@ const commutator = (function () {
         scoreOutput.push(sign);
       }
     }
-    return Number(scoreOutput[0]);
+    // Prefer U l:[E',L' U' L] to U M:[L E' L',U']
+    const algRemoveSign = alg
+      .replace(/[[\],:]/gu, " ")
+      .replace(/\s+/gu, " ")
+      .trim();
+    const moveDelta =
+      algRemoveSign.split(" ").length - algToArray(algRemoveSign).length;
+    return Number(scoreOutput[0]) + moveDelta * 0.001;
   }
 
   function scoreTwo(score1: number, score2: number, sign: string): number {
