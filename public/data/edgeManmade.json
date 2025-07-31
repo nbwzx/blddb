@@ -344,7 +344,7 @@
                 "Leonardo Ezequiel Cruz"
             ],
             [
-                "U2 R:[M',U R' U']"
+                "U2 r:[U R' U',M]"
             ]
         ]
     ],
@@ -1219,7 +1219,7 @@
                 "Kevin Matthews"
             ],
             [
-                "U2 R':[M,U R U']"
+                "U2 r':[U R U',M']"
             ]
         ],
         [
@@ -3036,7 +3036,7 @@
                 "Chenhao Sun (孙晨皓)"
             ],
             [
-                "S R:[M',U' R' U]"
+                "S r:[U' R' U,M]"
             ]
         ],
         [
@@ -3501,7 +3501,7 @@
                 "Liren Sun (孙立仁)"
             ],
             [
-                "D' R2 U' R:[M',U R' U']"
+                "D' R2 U' r:[U R' U',M]"
             ]
         ]
     ],
@@ -3770,7 +3770,7 @@
                 "Zhi Qiao (乔智)"
             ],
             [
-                "R2 U' R:[M',U R' U']"
+                "R2 U' r:[U R' U',M]"
             ]
         ],
         [
@@ -4051,7 +4051,7 @@
                 "Zhi Qiao (乔智)"
             ],
             [
-                "R U' R:[M',U R' U']"
+                "R U' r:[U R' U',M]"
             ]
         ],
         [
@@ -4190,7 +4190,7 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             [
-                "U M:[L E' L',U]"
+                "U l:[E',L' U L]"
             ]
         ],
         [
@@ -4872,7 +4872,7 @@
                 "Zhi Qiao (乔智)"
             ],
             [
-                "R' U' R:[M',U R' U']"
+                "R' U' r:[U R' U',M]"
             ]
         ],
         [
@@ -7323,7 +7323,7 @@
                 "Xin Shi (石欣)"
             ],
             [
-                "S R:[M',U R' U']"
+                "S r:[U R' U',M]"
             ]
         ],
         [
@@ -8213,7 +8213,7 @@
                 "Leonardo Ezequiel Cruz"
             ],
             [
-                "D' R:[M',U R U']"
+                "D' r:[U R U',M]"
             ]
         ],
         [
@@ -8414,7 +8414,7 @@
                 "Ethan Pan"
             ],
             [
-                "S' R:[M',U R' U']"
+                "S' r:[U R' U',M]"
             ]
         ],
         [
@@ -8518,7 +8518,7 @@
                 "Zhi Qiao (乔智)"
             ],
             [
-                "R:[M',U R U']"
+                "r:[U R U',M]"
             ]
         ],
         [
@@ -10302,7 +10302,7 @@
                 "Ishaan Agrawal"
             ],
             [
-                "U' R M:[M,U R' U']"
+                "U' r M':[U R' U',M']"
             ]
         ],
         [
@@ -11819,7 +11819,7 @@
                 "Yifan Wang (王逸帆)"
             ],
             [
-                "U' R:[M',U' R' U]"
+                "U' r:[U' R' U,M]"
             ]
         ],
         [
@@ -13122,7 +13122,7 @@
                 "Timothy Loh"
             ],
             [
-                "R':[M,D R D']"
+                "r':[D R D',M']"
             ]
         ],
         [
@@ -13654,17 +13654,6 @@
         ],
         [
             [
-                "x L U' L' U M' U' L U M L' x'"
-            ],
-            [
-                "Marcell Endrey"
-            ],
-            [
-                "x L:[U' L' U,M']"
-            ]
-        ],
-        [
-            [
                 "F E' L' U L E L' U' L F'"
             ],
             [
@@ -13672,6 +13661,17 @@
             ],
             [
                 "F:[E',L' U L]"
+            ]
+        ],
+        [
+            [
+                "x L U' L' U M' U' L U M L' x'"
+            ],
+            [
+                "Marcell Endrey"
+            ],
+            [
+                "x L:[U' L' U,M']"
             ]
         ],
         [
@@ -13693,7 +13693,7 @@
                 "Kai Yamamoto (山本快)"
             ],
             [
-                "U' M':[L' S L,U']"
+                "U' l':[S,L U' L']"
             ]
         ]
     ],
@@ -14116,7 +14116,7 @@
                 "Kai Yamamoto (山本快)"
             ],
             [
-                "U M':[L' E L,U]"
+                "U l':[E,L U L']"
             ]
         ]
     ],
@@ -14400,7 +14400,7 @@
                 "Liren Sun (孙立仁)"
             ],
             [
-                "S U' R:[M',U R' U']"
+                "S U' r:[U R' U',M]"
             ]
         ]
     ],
@@ -15244,7 +15244,7 @@
                 "Benjamin Paul"
             ],
             [
-                "D2 R:[M',U' R U]"
+                "D2 r:[U' R U,M]"
             ]
         ],
         [
@@ -19581,7 +19581,7 @@
                 "Leonardo Ezequiel Cruz"
             ],
             [
-                "D' R':[M,U' R' U]"
+                "D' r':[U' R' U,M']"
             ]
         ],
         [
@@ -20484,7 +20484,7 @@
                 "Benjamin Paul"
             ],
             [
-                "D' R:[M',U' R U]"
+                "D' r:[U' R U,M]"
             ]
         ],
         [
@@ -22366,19 +22366,6 @@
         ],
         [
             [
-                "U l E L' U' L E' L' U M' U'"
-            ],
-            [
-                "Dylan Wang",
-                "Gavriel Johann Arcilla",
-                "Morimichi Kikuchi (菊地守道)"
-            ],
-            [
-                "U M:[L E L',U']"
-            ]
-        ],
-        [
-            [
                 "S M U M' U M U M' U S'"
             ],
             [
@@ -22388,6 +22375,19 @@
             ],
             [
                 "Not found."
+            ]
+        ],
+        [
+            [
+                "U l E L' U' L E' L' U M' U'"
+            ],
+            [
+                "Dylan Wang",
+                "Gavriel Johann Arcilla",
+                "Morimichi Kikuchi (菊地守道)"
+            ],
+            [
+                "U l:[E,L' U' L]"
             ]
         ],
         [
@@ -22903,7 +22903,7 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             [
-                "U M:[L E' L',U']"
+                "U l:[E',L' U' L]"
             ]
         ],
         [
@@ -23467,7 +23467,7 @@
             ],
             [
                 "U' R:[E',r' U r]",
-                "U' M:[L S L',U]"
+                "U' l:[S,L' U L]"
             ]
         ],
         [
@@ -24380,7 +24380,7 @@
                 "Zhi Qiao (乔智)"
             ],
             [
-                "R':[M,U' R' U]"
+                "r':[U' R' U,M']"
             ]
         ],
         [
@@ -24726,7 +24726,7 @@
                 "Zhi Qiao (乔智)"
             ],
             [
-                "R:[M',U' R U]"
+                "r:[U' R U,M]"
             ]
         ],
         [
@@ -27465,7 +27465,7 @@
                 "Ishaan Agrawal"
             ],
             [
-                "D' R':[M,D R D']"
+                "D' r':[D R D',M']"
             ]
         ],
         [
@@ -27892,7 +27892,7 @@
                 "Ishaan Agrawal"
             ],
             [
-                "M:[L S L',F]"
+                "l:[S,L' F L]"
             ]
         ],
         [
@@ -31521,7 +31521,7 @@
                 "Rob Holt"
             ],
             [
-                "x R:[M',U R' U']"
+                "x r:[U R' U',M]"
             ]
         ],
         [
@@ -37992,7 +37992,7 @@
                 "Zhi Qiao (乔智)"
             ],
             [
-                "M:[L,U' M' U]"
+                "l:[U' M' U,L']"
             ]
         ],
         [
@@ -40195,7 +40195,7 @@
                 "Ishaan Agrawal"
             ],
             [
-                "M:[L,U M2 U']"
+                "l:[U M2 U',L']"
             ]
         ],
         [
@@ -42530,7 +42530,7 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             [
-                "M':[L' E L,U']"
+                "l':[E,L U' L']"
             ]
         ],
         [
@@ -43263,7 +43263,7 @@
                 "Ishaan Agrawal"
             ],
             [
-                "M:[L E L',D']",
+                "l:[E,L' D' L]",
                 "R:[S,r' D' r]"
             ]
         ],
@@ -43297,7 +43297,7 @@
                 "Ishaan Agrawal"
             ],
             [
-                "R':[M D M',U]"
+                "r':[D,M' U M]"
             ]
         ],
         [
@@ -47128,7 +47128,7 @@
                 "Yifan Wang (王逸帆)"
             ],
             [
-                "U R':[M,U R U']"
+                "U r':[U R U',M']"
             ]
         ],
         [
@@ -48310,7 +48310,7 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
-                "M:[L E' L',U]",
+                "l:[E',L' U L]",
                 "R:[S',r' U r]"
             ]
         ],
@@ -49860,7 +49860,7 @@
                 "Jonghyun Kim (김종현)"
             ],
             [
-                "U2 R:[M',U' R' U]"
+                "U2 r:[U' R' U,M]"
             ]
         ],
         [
@@ -50255,7 +50255,7 @@
                 "Grzegorz Pacewicz"
             ],
             [
-                "R:[M' U' M,D2]"
+                "r:[U',M D2 M']"
             ]
         ],
         [
@@ -50647,7 +50647,7 @@
                 "Kai Yamamoto (山本快)"
             ],
             [
-                "U2 M':[L' S L,U']"
+                "U2 l':[S,L U' L']"
             ]
         ],
         [
@@ -50901,7 +50901,7 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
-                "M':[L' E L,U]",
+                "l':[E,L U L']",
                 "R':[S',r U r']"
             ]
         ],
@@ -53810,7 +53810,7 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
-                "M:[L E' L',U']"
+                "l:[E',L' U' L]"
             ]
         ],
         [
@@ -54005,7 +54005,7 @@
                 "Kai Yamamoto (山本快)"
             ],
             [
-                "U2 M:[L S L',U]"
+                "U2 l:[S,L' U L]"
             ]
         ]
     ],
@@ -55323,7 +55323,7 @@
                 "Kai Yamamoto (山本快)"
             ],
             [
-                "D M:[L E' L',U']"
+                "D l:[E',L' U' L]"
             ]
         ]
     ],
@@ -55607,7 +55607,7 @@
                 "Kai Yamamoto (山本快)"
             ],
             [
-                "D' M':[L' E L,U]"
+                "D' l':[E,L U L']"
             ]
         ],
         [
@@ -56801,7 +56801,7 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
-                "U:[E',L' U' L]"
+                "u:[L' U' L,E]"
             ]
         ],
         [
@@ -56886,7 +56886,7 @@
                 "Yifan Wang (王逸帆)"
             ],
             [
-                "S R U:[E',R' U' R]"
+                "S R u:[R' U' R,E]"
             ]
         ],
         [
@@ -57006,7 +57006,7 @@
                 "Max Hilliard"
             ],
             [
-                "U':[E,R' U' R]"
+                "u':[R' U' R,E']"
             ]
         ]
     ],
@@ -57284,7 +57284,7 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
-                "L' U:[E',L U' L']"
+                "L' u:[L U' L',E]"
             ]
         ],
         [
@@ -57697,7 +57697,7 @@
                 "Max Hilliard"
             ],
             [
-                "L' U':[E,L U L']"
+                "L' u':[L U L',E']"
             ]
         ],
         [
@@ -58264,7 +58264,7 @@
                 "Max Hilliard"
             ],
             [
-                "U':[E,R U' R']"
+                "u':[R U' R',E']"
             ]
         ]
     ],
@@ -58319,7 +58319,7 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
-                "U:[E',L U' L']"
+                "u:[L U' L',E]"
             ]
         ],
         [
@@ -58722,7 +58722,7 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
-                "L U':[E,L' U L]"
+                "L u':[L' U L,E']"
             ]
         ],
         [
@@ -58991,7 +58991,7 @@
                 "Max Hilliard"
             ],
             [
-                "L U:[E',L' U' L]"
+                "L u:[L' U' L,E]"
             ]
         ]
     ],
@@ -59801,7 +59801,7 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
-                "U':[E,L' U L]"
+                "u':[L' U L,E']"
             ]
         ],
         [
@@ -59878,7 +59878,7 @@
                 "Max Hilliard"
             ],
             [
-                "U:[E',R' U R]"
+                "u:[R' U R,E]"
             ]
         ]
     ],
@@ -60007,7 +60007,7 @@
                 "Kai Yamamoto (山本快)"
             ],
             [
-                "U' M':[L' E L,U']"
+                "U' l':[E,L U' L']"
             ]
         ]
     ],
@@ -61183,7 +61183,7 @@
                 "Max Hilliard"
             ],
             [
-                "U:[E',R U R']"
+                "u:[R U R',E]"
             ]
         ]
     ],
@@ -61257,7 +61257,7 @@
                 "Yifan Wang (王逸帆)"
             ],
             [
-                "S R' U':[E,R U R']"
+                "S R' u':[R U R',E']"
             ]
         ],
         [
@@ -61355,7 +61355,7 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
-                "U':[E,L U L']"
+                "u':[L U L',E']"
             ]
         ],
         [
@@ -61748,7 +61748,7 @@
                 "Ishaan Agrawal"
             ],
             [
-                "U R M:[M,U R' U']"
+                "U r M':[U R' U',M']"
             ]
         ],
         [
@@ -63450,7 +63450,7 @@
             ],
             [
                 "U R':[E,r U' r']",
-                "U M':[L' S L,U']"
+                "U l':[S,L U' L']"
             ]
         ],
         [
@@ -63798,7 +63798,7 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
-                "U' M':[L' E L,U]"
+                "U' l':[E,L U L']"
             ]
         ],
         [
@@ -65886,7 +65886,7 @@
                 "Grzegorz Pacewicz"
             ],
             [
-                "U R' M':[M',U' R U]"
+                "U r' M:[U' R U,M]"
             ]
         ],
         [
@@ -67104,7 +67104,7 @@
                 "Gavriel Johann Arcilla"
             ],
             [
-                "U' M:[L E L',U']"
+                "U' l:[E,L' U' L]"
             ]
         ]
     ],
@@ -67215,7 +67215,7 @@
                 "Max Hilliard"
             ],
             [
-                "R:[M',D' R' D]"
+                "r:[D' R' D,M]"
             ]
         ],
         [
@@ -67323,7 +67323,7 @@
                 "Michael Tripodi"
             ],
             [
-                "U' M:[L E' L',U']"
+                "U' l:[E',L' U' L]"
             ]
         ],
         [
@@ -69809,7 +69809,7 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
-                "U R U':[E,R' U R]"
+                "U R u':[R' U R,E']"
             ]
         ],
         [
@@ -75709,7 +75709,7 @@
                 "Zhi Qiao (乔智)"
             ],
             [
-                "U' R:[M',U R' U']"
+                "U' r:[U R' U',M]"
             ]
         ],
         [
@@ -76866,7 +76866,7 @@
                 "Kevin Matthews"
             ],
             [
-                "U' R':[M,U R U']"
+                "U' r':[U R U',M']"
             ]
         ],
         [
@@ -78436,7 +78436,7 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             [
-                "R:[M',U R' U']"
+                "r:[U R' U',M]"
             ]
         ],
         [
@@ -80329,7 +80329,7 @@
             ],
             [
                 "R':[E,r U r']",
-                "M':[L' S L,U]"
+                "l':[S,L U L']"
             ]
         ],
         [
@@ -82163,7 +82163,7 @@
                 "Grzegorz Jałocha"
             ],
             [
-                "U' R':[M,U' R U]"
+                "U' r':[U' R U,M']"
             ]
         ],
         [
@@ -82319,7 +82319,7 @@
                 "Leonardo Ezequiel Cruz"
             ],
             [
-                "U R:[M',U R' U']"
+                "U r:[U R' U',M]"
             ]
         ]
     ],
@@ -83541,7 +83541,7 @@
                 "Leonardo Ezequiel Cruz"
             ],
             [
-                "U R':[M,U' R U]"
+                "U r':[U' R U,M']"
             ]
         ],
         [
@@ -83692,7 +83692,7 @@
                 "Sebastiano Tronto"
             ],
             [
-                "U R:[M',U' R' U]"
+                "U r:[U' R' U,M]"
             ]
         ],
         [
@@ -84673,7 +84673,7 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             [
-                "R':[M,U' R U]"
+                "r':[U' R U,M']"
             ]
         ],
         [
@@ -85663,7 +85663,7 @@
                 "Lucas Benito Rolando"
             ],
             [
-                "F' R':[M,U' R U]"
+                "F' r':[U' R U,M']"
             ]
         ]
     ],
@@ -86924,7 +86924,7 @@
                 "Max Hilliard"
             ],
             [
-                "R M:[M,U R' U']"
+                "r M':[U R' U',M']"
             ]
         ],
         [
@@ -87687,7 +87687,7 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             [
-                "R:[M',U' R' U]"
+                "r:[U' R' U,M]"
             ]
         ],
         [
@@ -88869,7 +88869,7 @@
             ],
             [
                 "R':[E,r U' r']",
-                "M':[L' S L,U']"
+                "l':[S,L U' L']"
             ]
         ],
         [
@@ -89227,7 +89227,7 @@
                 "Kai Yamamoto (山本快)"
             ],
             [
-                "U2 M':[L' E L,U]"
+                "U2 l':[E,L U L']"
             ]
         ],
         [
@@ -91067,7 +91067,7 @@
                 "Lucas Benito Rolando"
             ],
             [
-                "L2 U R:[M',U R' U']"
+                "L2 U r:[U R' U',M]"
             ]
         ]
     ],
@@ -92498,7 +92498,7 @@
                 "Grzegorz Pacewicz"
             ],
             [
-                "R' M':[M',U' R U]"
+                "r' M:[U' R U,M]"
             ]
         ],
         [
@@ -93519,7 +93519,7 @@
                 "Yifan Wang (王逸帆)"
             ],
             [
-                "R':[M,U R U']"
+                "r':[U R U',M']"
             ]
         ],
         [
@@ -94119,7 +94119,7 @@
                 "Kai Yamamoto (山本快)"
             ],
             [
-                "U2 M:[L E' L',U']"
+                "U2 l:[E',L' U' L]"
             ]
         ]
     ],
@@ -94291,7 +94291,7 @@
             ],
             [
                 "R:[E',r' U r]",
-                "M:[L S L',U]"
+                "l:[S,L' U L]"
             ]
         ],
         [
@@ -97532,7 +97532,7 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
-                "R U':[E,R' U R]"
+                "R u':[R' U R,E']"
             ]
         ],
         [
@@ -97689,7 +97689,7 @@
                 "Yifan Wang (王逸帆)"
             ],
             [
-                "R U:[E',R' U' R]"
+                "R u:[R' U' R,E]"
             ]
         ]
     ],
@@ -98028,7 +98028,7 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             [
-                "U M':[L' E2 L,U']"
+                "U l':[E2,L U' L']"
             ]
         ],
         [
@@ -98816,7 +98816,7 @@
                 "Max Hilliard"
             ],
             [
-                "U:[E',L' U L]"
+                "u:[L' U L,E]"
             ]
         ],
         [
@@ -99033,7 +99033,7 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
-                "U':[E,R' U R]"
+                "u':[R' U R,E']"
             ]
         ]
     ],
@@ -100598,7 +100598,7 @@
                 "Lucas Benito Rolando"
             ],
             [
-                "L' U R:[M',U R' U']"
+                "L' U r:[U R' U',M]"
             ]
         ]
     ],
@@ -101084,7 +101084,7 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
-                "U':[E,R U R']"
+                "u':[R U R',E']"
             ]
         ]
     ],
@@ -101175,7 +101175,7 @@
                 "Max Hilliard"
             ],
             [
-                "U:[E',L U L']"
+                "u:[L U L',E]"
             ]
         ],
         [
@@ -102697,7 +102697,7 @@
                 "Grzegorz Jałocha"
             ],
             [
-                "L U' R':[M,U' R U]"
+                "L U' r':[U' R U,M']"
             ]
         ],
         [
@@ -102914,7 +102914,7 @@
                 "Lucas Benito Rolando"
             ],
             [
-                "L U R:[M',U R' U']"
+                "L U r:[U R' U',M]"
             ]
         ]
     ],
@@ -103566,7 +103566,7 @@
                 "Kai Yamamoto (山本快)"
             ],
             [
-                "U':[E,L' U' L]"
+                "u':[L' U' L,E']"
             ]
         ]
     ],
@@ -103641,7 +103641,7 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
-                "U:[E',R' U' R]"
+                "u:[R' U' R,E]"
             ]
         ]
     ],
@@ -103974,7 +103974,7 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             [
-                "U M':[L' E L,U']"
+                "U l':[E,L U' L']"
             ]
         ]
     ],
@@ -104545,7 +104545,7 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
-                "R' U:[E',R U' R']"
+                "R' u:[R U' R',E]"
             ]
         ],
         [
@@ -104724,7 +104724,7 @@
                 "Yifan Wang (王逸帆)"
             ],
             [
-                "R' U':[E,R U R']"
+                "R' u':[R U R',E']"
             ]
         ],
         [
@@ -105839,7 +105839,7 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
-                "U:[E',R U' R']"
+                "u:[R U' R',E]"
             ]
         ]
     ],
@@ -106025,7 +106025,7 @@
                 "Max Hilliard"
             ],
             [
-                "U':[E,L U' L']"
+                "u':[L U' L',E']"
             ]
         ],
         [
@@ -107198,7 +107198,7 @@
                 "Max Hilliard"
             ],
             [
-                "M':[L',U S' U']"
+                "l':[U S' U',L]"
             ]
         ],
         [
@@ -108252,7 +108252,7 @@
             ],
             [
                 "R:[S,r' D r]",
-                "M:[L E L',D]"
+                "l:[E,L' D L]"
             ]
         ],
         [
@@ -108587,7 +108587,7 @@
                 "Max Hilliard"
             ],
             [
-                "M:[L,U' S' U]"
+                "l:[U' S' U,L']"
             ]
         ],
         [
@@ -109104,7 +109104,7 @@
                 "Max Hilliard"
             ],
             [
-                "M':[L' E' L,D']"
+                "l':[E',L D' L']"
             ]
         ]
     ],
@@ -110251,7 +110251,7 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
-                "L2 U:[E',L' U' L]"
+                "L2 u:[L' U' L,E]"
             ]
         ],
         [
@@ -111167,7 +111167,7 @@
                 "Jonghyun Kim (김종현)"
             ],
             [
-                "L2 U':[E,L' U L]"
+                "L2 u':[L' U L,E']"
             ]
         ],
         [
@@ -112161,7 +112161,7 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
-                "L2 U:[E',L U' L']"
+                "L2 u:[L U' L',E]"
             ]
         ],
         [
@@ -114392,7 +114392,7 @@
                 "Carter Kucala"
             ],
             [
-                "R':[M,D' R D]"
+                "r':[D' R D,M']"
             ]
         ],
         [
@@ -116869,7 +116869,7 @@
                 "Gavriel Johann Arcilla"
             ],
             [
-                "R:[M',D R' D']"
+                "r:[D R' D',M]"
             ]
         ]
     ],
@@ -118350,7 +118350,7 @@
                 "Yifan Wang (王逸帆)"
             ],
             [
-                "S' R U:[E',R' U' R]"
+                "S' R u:[R' U' R,E]"
             ]
         ],
         [
@@ -118448,7 +118448,7 @@
                 "Yifan Wang (王逸帆)"
             ],
             [
-                "R2 U:[E',R U' R']"
+                "R2 u:[R U' R',E]"
             ]
         ],
         [
@@ -119475,7 +119475,7 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
-                "R2 U':[E,R U R']"
+                "R2 u':[R U R',E']"
             ]
         ],
         [
@@ -120430,7 +120430,7 @@
                 "Yifan Wang (王逸帆)"
             ],
             [
-                "R2 U:[E',R' U' R]"
+                "R2 u:[R' U' R,E]"
             ]
         ],
         [
@@ -121605,7 +121605,7 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
-                "R2 U':[E,R' U R]"
+                "R2 u':[R' U R,E']"
             ]
         ],
         [
@@ -121686,7 +121686,7 @@
                 "Yifan Wang (王逸帆)"
             ],
             [
-                "S' R' U':[E,R U R']"
+                "S' R' u':[R U R',E']"
             ]
         ],
         [
@@ -122556,7 +122556,7 @@
                 "Grzegorz Pacewicz"
             ],
             [
-                "R:[M' U M,D2]"
+                "r:[U,M D2 M']"
             ]
         ],
         [
@@ -123246,7 +123246,7 @@
                 "Rob Holt"
             ],
             [
-                "x R:[M',U' R' U]"
+                "x r:[U' R' U,M]"
             ]
         ],
         [
@@ -130648,7 +130648,7 @@
                 "Carter Kucala"
             ],
             [
-                "R':[M U' M',D2]"
+                "r':[U',M' D2 M]"
             ]
         ],
         [
