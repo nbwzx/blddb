@@ -15,18 +15,18 @@
         ],
         [
             [
-                "U' L' U R' U2 L U' L' U2 R L"
-            ],
-            [
-                "Liren Sun (孙立仁)"
-            ]
-        ],
-        [
-            [
                 "R F' R' U R' U F U' F' U' R2 F R' U'"
             ],
             [
                 "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
+                "U' L' U R' U2 L U' L' U2 R L"
+            ],
+            [
+                "Liren Sun (孙立仁)"
             ]
         ]
     ],
@@ -226,20 +226,20 @@
         ],
         [
             [
-                "U' R U D' R' F' R U R' U' R' F R2 U' R' U' R D R' U"
-            ],
-            [
-                "Chenhao Sun (孙晨皓)",
-                "Graham Siggins"
-            ]
-        ],
-        [
-            [
                 "U D2 R' F R2 U' R' U' R U R' F' R U R' U2 D2"
             ],
             [
                 "Anto Kam (甘浩東)",
                 "Tommy Cherry"
+            ]
+        ],
+        [
+            [
+                "U' R U D' R' F' R U R' U' R' F R2 U' R' U' R D R' U"
+            ],
+            [
+                "Chenhao Sun (孙晨皓)",
+                "Graham Siggins"
             ]
         ]
     ],
@@ -582,18 +582,18 @@
         ],
         [
             [
-                "R' U R U' x' U L' U L U2 R U' R' U x U"
-            ],
-            [
-                "Andrew Tan Jing Bang"
-            ]
-        ],
-        [
-            [
                 "R2 F R D R2 D' R' F' R' U R2 U' R2 U' R"
             ],
             [
                 "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
+                "R' U R U' x' U L' U L U2 R U' R' U x U"
+            ],
+            [
+                "Andrew Tan Jing Bang"
             ]
         ]
     ],
@@ -611,6 +611,14 @@
         ],
         [
             [
+                "D R2 U' R' U R2 D' R2 U R U' R' U' R'"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
                 "U2 L U' R U R' L' U2 R U R'"
             ],
             [
@@ -624,14 +632,6 @@
             [
                 "Hongjie Zhang (张鸿杰)"
             ]
-        ],
-        [
-            [
-                "D R2 U' R' U R2 D' R2 U R U' R' U' R'"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
-            ]
         ]
     ],
     "ACJD": [
@@ -642,6 +642,14 @@
             [
                 "Andrew Tan Jing Bang",
                 "Daniel Lin"
+            ]
+        ],
+        [
+            [
+                "R' U' R U' R U R' D R U' D' R2 D R D' R U R' U R"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
             ]
         ],
         [
@@ -691,14 +699,6 @@
             [
                 "Liren Sun (孙立仁)"
             ]
-        ],
-        [
-            [
-                "R' U' R U' R U R' D R U' D' R2 D R D' R U R' U R"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
-            ]
         ]
     ],
     "ACJE": [
@@ -718,6 +718,14 @@
             [
                 "Benjamin Paul",
                 "Liren Sun (孙立仁)"
+            ]
+        ],
+        [
+            [
+                "U' R' U2 R2 U R U' R2 D R' U R U D' R U"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
             ]
         ],
         [
@@ -742,14 +750,6 @@
             ],
             [
                 "Charlie Harrison"
-            ]
-        ],
-        [
-            [
-                "U' R' U2 R2 U R U' R2 D R' U R U D' R U"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
             ]
         ]
     ],
@@ -808,6 +808,22 @@
     "ACJH": [
         [
             [
+                "R' F R' F' R2 U' R' U' F' U' F R U2"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
+                "U' R U2 R' U' R' F R2 U' R' U' R U R' F' R U' R' U"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
                 "R' F R' F' R2 U' R' U R f R' f'"
             ],
             [
@@ -829,22 +845,6 @@
             [
                 "Hongjie Zhang (张鸿杰)"
             ]
-        ],
-        [
-            [
-                "R' F R' F' R2 U' R' U' F' U' F R U2"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
-            ]
-        ],
-        [
-            [
-                "U' R U2 R' U' R' F R2 U' R' U' R U R' F' R U' R' U"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
-            ]
         ]
     ],
     "ACJI": [
@@ -856,14 +856,6 @@
             [
                 "Daniel Lin",
                 "Hongjie Zhang (张鸿杰)"
-            ]
-        ],
-        [
-            [
-                "U' R l U2 R' U2 R' F R F' r U' r' F l'"
-            ],
-            [
-                "Charlie Harrison"
             ]
         ],
         [
@@ -881,9 +873,25 @@
             [
                 "Yifan Wang (王逸帆)"
             ]
+        ],
+        [
+            [
+                "U' R l U2 R' U2 R' F R F' r U' r' F l'"
+            ],
+            [
+                "Charlie Harrison"
+            ]
         ]
     ],
     "ACJM": [
+        [
+            [
+                "U' R' D R U R' D' R U' R U R' F' R U R' U' R' F R2 U' R'"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
+            ]
+        ],
         [
             [
                 "L' U D L' U' L D' L2 U L' U' L'"
@@ -906,14 +914,6 @@
             ],
             [
                 "Hongjie Zhang (张鸿杰)"
-            ]
-        ],
-        [
-            [
-                "U' R' D R U R' D' R U' R U R' F' R U R' U' R' F R2 U' R'"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
             ]
         ]
     ],
@@ -948,6 +948,14 @@
     "ACJO": [
         [
             [
+                "U2 D' R U R D R2 U' D' R D R' D' R U D R2 U"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
                 "R D' R2 F R' F' R2 U' R' U R f R' f' R D R'"
             ],
             [
@@ -969,17 +977,17 @@
             [
                 "Hongjie Zhang (张鸿杰)"
             ]
-        ],
+        ]
+    ],
+    "ACJP": [
         [
             [
-                "U2 D' R U R D R2 U' D' R D R' D' R U D R2 U"
+                "U2 D' R D R' U R U D' R' F' R U R' U' R' F R2 U' R' D"
             ],
             [
                 "Yifan Wang (王逸帆)"
             ]
-        ]
-    ],
-    "ACJP": [
+        ],
         [
             [
                 "x' U' F U' R' F' R U' R U R2 F R U2 x"
@@ -1011,14 +1019,6 @@
             [
                 "Hongjie Zhang (张鸿杰)"
             ]
-        ],
-        [
-            [
-                "U2 D' R D R' U R U D' R' F' R U R' U' R' F R2 U' R' D"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
-            ]
         ]
     ],
     "ACJQ": [
@@ -1044,6 +1044,14 @@
     "ACJR": [
         [
             [
+                "U2 R U R D R2 U' D' R D R' D' R U D R2 U D'"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
                 "R' U' R U R' F R' F' R2 F U R U' R' F' U'"
             ],
             [
@@ -1065,17 +1073,17 @@
             [
                 "Hongjie Zhang (张鸿杰)"
             ]
-        ],
+        ]
+    ],
+    "ACJS": [
         [
             [
-                "U2 R U R D R2 U' D' R D R' D' R U D R2 U D'"
+                "U2 R D R' U R U D' R' F' R U R' U' R' F R2 U' R'"
             ],
             [
                 "Yifan Wang (王逸帆)"
             ]
-        ]
-    ],
-    "ACJS": [
+        ],
         [
             [
                 "F U R F R' F' R2 U' R' U R U' R2 F' U'"
@@ -1123,14 +1131,6 @@
             [
                 "Hongjie Zhang (张鸿杰)"
             ]
-        ],
-        [
-            [
-                "U2 R D R' U R U D' R' F' R U R' U' R' F R2 U' R'"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
-            ]
         ]
     ],
     "ACJT": [
@@ -1164,6 +1164,14 @@
     "ACJW": [
         [
             [
+                "R D R' D' R U' R' U2 R U' R' U' D R2 U' R' D' R U R2"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
                 "U2 F' U' R U' R' F R' F' R2 U' R' U2 R' F R U2"
             ],
             [
@@ -1177,17 +1185,17 @@
             [
                 "Daniel Lin"
             ]
-        ],
+        ]
+    ],
+    "ACJX": [
         [
             [
-                "R D R' D' R U' R' U2 R U' R' U' D R2 U' R' D' R U R2"
+                "U R' U' R2 U' D' R U2 R' D R' U D' R U R' U D R'"
             ],
             [
                 "Yifan Wang (王逸帆)"
             ]
-        ]
-    ],
-    "ACJX": [
+        ],
         [
             [
                 "R F U R' U' R F' U' R2 D' R U R' D R U R U2 R'"
@@ -1203,14 +1211,6 @@
             [
                 "Daniel Lin"
             ]
-        ],
-        [
-            [
-                "U R' U' R2 U' D' R U2 R' D R' U D' R U R' U D R'"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
-            ]
         ]
     ],
     "ACJY": [
@@ -1225,18 +1225,18 @@
         ],
         [
             [
-                "F R' F' R2 U' R' U R B U' B' R'"
-            ],
-            [
-                "Charlie Harrison"
-            ]
-        ],
-        [
-            [
                 "U' D' R' D R U R' D' R U' D R U R' F' R U R' U' R' F R2 U' R'"
             ],
             [
                 "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
+                "F R' F' R2 U' R' U R B U' B' R'"
+            ],
+            [
+                "Charlie Harrison"
             ]
         ]
     ],
@@ -1549,6 +1549,14 @@
     "ADJH": [
         [
             [
+                "R' U' D' R' F R U R' F U' F U F2 R D R"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
                 "M' F' U' F R U R' F R' F' R2 U' r'"
             ],
             [
@@ -1578,14 +1586,6 @@
             [
                 "Hongjie Zhang (张鸿杰)"
             ]
-        ],
-        [
-            [
-                "R' U' D' R' F R U R' F U' F U F2 R D R"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
-            ]
         ]
     ],
     "ADJI": [
@@ -1596,6 +1596,14 @@
             [
                 "Benjamin Paul",
                 "Daniel Lin"
+            ]
+        ],
+        [
+            [
+                "r U R2 U' F2 U' F2 D R2 D' R2 U' R2 U2 R2 U R M"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
             ]
         ],
         [
@@ -1612,14 +1620,6 @@
             ],
             [
                 "Hongjie Zhang (张鸿杰)"
-            ]
-        ],
-        [
-            [
-                "r U R2 U' F2 U' F2 D R2 D' R2 U' R2 U2 R2 U R M"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
             ]
         ]
     ],
@@ -1831,18 +1831,18 @@
     "AEAD": [
         [
             [
-                "U2 R' U' F' R U R' U' R' F R2 U' R' U' R U R' U R U2"
-            ],
-            [
-                "Liren Sun (孙立仁)"
-            ]
-        ],
-        [
-            [
                 "U2 R' F R f' R' F R2 U R' U' R' F' R2 U R' S U2"
             ],
             [
                 "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
+                "U2 R' U' F' R U R' U' R' F R2 U' R' U' R U R' U R U2"
+            ],
+            [
+                "Liren Sun (孙立仁)"
             ]
         ]
     ],
@@ -1879,18 +1879,18 @@
     "AEGA": [
         [
             [
-                "U2 R' U R U' R' F' U' F R U R' F R' F' R U' R"
-            ],
-            [
-                "Roman Strakhov"
-            ]
-        ],
-        [
-            [
                 "U2 R' U' D R2 U' D' R U R' D R2 U' R U2 D' R"
             ],
             [
                 "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
+                "U2 R' U R U' R' F' U' F R U R' F R' F' R U' R"
+            ],
+            [
+                "Roman Strakhov"
             ]
         ]
     ],
@@ -1989,6 +1989,14 @@
         ],
         [
             [
+                "U2 D R' U R2 D' R U' R' U D R2 U D' R U2 R'"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
                 "R U2 R' U R U' R' F' U' F R U R' F R' F' R U'"
             ],
             [
@@ -2001,14 +2009,6 @@
             ],
             [
                 "Hongjie Zhang (张鸿杰)"
-            ]
-        ],
-        [
-            [
-                "U2 D R' U R2 D' R U' R' U D R2 U D' R U2 R'"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
             ]
         ]
     ],
@@ -2027,18 +2027,18 @@
         ],
         [
             [
-                "l' U l' U2 L F' L' U2 l2 F'"
-            ],
-            [
-                "Daniel Lin"
-            ]
-        ],
-        [
-            [
                 "U' R' F' R U2 R' U' R U' R' F U R U2 R' U' R U2"
             ],
             [
                 "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
+                "l' U l' U2 L F' L' U2 l2 F'"
+            ],
+            [
+                "Daniel Lin"
             ]
         ]
     ],
@@ -2057,6 +2057,14 @@
         ],
         [
             [
+                "U D R2 D' R' D R2 U' R U2 D' R U2 R' U2 R'"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
                 "U2 R F U' R' U R U F' R2 F' R U R U' R' F"
             ],
             [
@@ -2069,14 +2077,6 @@
             ],
             [
                 "Daniel Lin"
-            ]
-        ],
-        [
-            [
-                "U D R2 D' R' D R2 U' R U2 D' R U2 R' U2 R'"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
             ]
         ]
     ],
@@ -2094,6 +2094,14 @@
         ],
         [
             [
+                "R U R2 U R2 U' R2 U' D R2 U' R2 U R2 U' D' R'"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
                 "M' U R' F2 r F' r' F2 R2 U' r'"
             ],
             [
@@ -2107,14 +2115,6 @@
             [
                 "Benjamin Paul"
             ]
-        ],
-        [
-            [
-                "R U R2 U R2 U' R2 U' D R2 U' R2 U R2 U' D' R'"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
-            ]
         ]
     ],
     "AEJF": [
@@ -2125,6 +2125,14 @@
             [
                 "Daniel Lin",
                 "Hongjie Zhang (张鸿杰)"
+            ]
+        ],
+        [
+            [
+                "U R' U R U' R' U' R U' R' U R2 D R' U' R D' R'"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
             ]
         ],
         [
@@ -2150,14 +2158,6 @@
             [
                 "Liren Sun (孙立仁)"
             ]
-        ],
-        [
-            [
-                "U R' U R U' R' U' R U' R' U R2 D R' U' R D' R'"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
-            ]
         ]
     ],
     "AEJG": [
@@ -2176,18 +2176,18 @@
         ],
         [
             [
-                "R' F R f' R' F R2 U R' U' R' F' R2 U R' S"
-            ],
-            [
-                "Charlie Harrison"
-            ]
-        ],
-        [
-            [
                 "S R' F R f' R' F R2 U R' U' R' F' R2 U R'"
             ],
             [
                 "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
+                "R' F R f' R' F R2 U R' U' R' F' R2 U R' S"
+            ],
+            [
+                "Charlie Harrison"
             ]
         ]
     ],
@@ -2200,6 +2200,14 @@
                 "Charlie Harrison",
                 "Daniel Lin",
                 "Hongjie Zhang (张鸿杰)",
+                "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
+                "U2 R' F2 U R D R' U' D' F2 U2 R U R2 U R"
+            ],
+            [
                 "Yifan Wang (王逸帆)"
             ]
         ],
@@ -2226,14 +2234,6 @@
             [
                 "Roman Strakhov"
             ]
-        ],
-        [
-            [
-                "U2 R' F2 U R D R' U' D' F2 U2 R U R2 U R"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
-            ]
         ]
     ],
     "AEJI": [
@@ -2258,22 +2258,6 @@
         ],
         [
             [
-                "U' R U' R' U R U' L U L' U x' U2 R U2 R2 F x"
-            ],
-            [
-                "Daniel Lin"
-            ]
-        ],
-        [
-            [
-                "F2 R2 F' R2 U' B U' B' y' U R' U' R U R' y"
-            ],
-            [
-                "Xin Shi (石欣)"
-            ]
-        ],
-        [
-            [
                 "U2 D R D' R2 U R2 F' U R' U2 R2 U R F U' R2"
             ],
             [
@@ -2286,6 +2270,22 @@
             ],
             [
                 "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
+                "U' R U' R' U R U' L U L' U x' U2 R U2 R2 F x"
+            ],
+            [
+                "Daniel Lin"
+            ]
+        ],
+        [
+            [
+                "F2 R2 F' R2 U' B U' B' y' U R' U' R U R' y"
+            ],
+            [
+                "Xin Shi (石欣)"
             ]
         ]
     ],
@@ -2346,6 +2346,14 @@
         ],
         [
             [
+                "U' R2 D' R2 U' R2 D R2 U D' R2 U R2 U R2 U' R2 U D"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
                 "r2 U' D r2 U r2 D' r2 U' D r2 D' r2 U r2 D' r2"
             ],
             [
@@ -2358,14 +2366,6 @@
             ],
             [
                 "Hongjie Zhang (张鸿杰)"
-            ]
-        ],
-        [
-            [
-                "U' R2 D' R2 U' R2 D R2 U D' R2 U R2 U R2 U' R2 U D"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
             ]
         ]
     ],
@@ -2403,6 +2403,14 @@
         ],
         [
             [
+                "U2 R D' R' U R U D R' U' R' F R2 U' R' U' R U R' F' U"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
                 "r2 B' r2 D2 R' B' R D2 r' D r"
             ],
             [
@@ -2415,14 +2423,6 @@
             ],
             [
                 "Hongjie Zhang (张鸿杰)"
-            ]
-        ],
-        [
-            [
-                "U2 R D' R' U R U D R' U' R' F R2 U' R' U' R U R' F' U"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
             ]
         ]
     ],
@@ -2459,6 +2459,14 @@
         ],
         [
             [
+                "U2 R D R' U R U D' R' U' R' F R2 U' R' U' R U R' F' U"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
                 "U R U2 R U' R2 D R' U R U' D' R2 U' R' U'"
             ],
             [
@@ -2471,14 +2479,6 @@
             ],
             [
                 "Charlie Harrison"
-            ]
-        ],
-        [
-            [
-                "U2 R D R' U R U D' R' U' R' F R2 U' R' U' R U R' F' U"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
             ]
         ]
     ],
@@ -2532,6 +2532,14 @@
         ],
         [
             [
+                "D' R U' D R' U2 R' U R2 D' R U' R' U D R2 U R U D' R' D"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
                 "U2 r U R' F2 r F' r' F2 R2 U' R2 M U2"
             ],
             [
@@ -2553,14 +2561,6 @@
             [
                 "Charlie Harrison"
             ]
-        ],
-        [
-            [
-                "D' R U' D R' U2 R' U R2 D' R U' R' U D R2 U R U D' R' D"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
-            ]
         ]
     ],
     "AEJY": [
@@ -2576,18 +2576,18 @@
         ],
         [
             [
-                "D' F' r F2 R' D R F2 r2 D r D"
-            ],
-            [
-                "Charlie Harrison"
-            ]
-        ],
-        [
-            [
                 "R U R' U' R2 U R' F' R U R' U' R' F R2 U' R' U' R' U R U' R'"
             ],
             [
                 "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
+                "D' F' r F2 R' D R F2 r2 D r D"
+            ],
+            [
+                "Charlie Harrison"
             ]
         ]
     ],
@@ -2920,18 +2920,18 @@
         ],
         [
             [
-                "U r' D' r U r' D r U2 r U' r' U r U r'"
-            ],
-            [
-                "Charlie Harrison"
-            ]
-        ],
-        [
-            [
                 "R' U F U' F' U' R U' R' F R U' R' F' R U2"
             ],
             [
                 "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
+                "U r' D' r U r' D r U2 r U' r' U r U r'"
+            ],
+            [
+                "Charlie Harrison"
             ]
         ]
     ],
@@ -3343,6 +3343,14 @@
     "AIJG": [
         [
             [
+                "D R' U' R2 U R U' D' R2 U R U' R2 D R U R D'"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
                 "D R' U' R U' R2 D R' D' R2 U D R' U D' R D'"
             ],
             [
@@ -3364,17 +3372,17 @@
             [
                 "Hongjie Zhang (张鸿杰)"
             ]
-        ],
+        ]
+    ],
+    "AIJH": [
         [
             [
-                "D R' U' R2 U R U' D' R2 U R U' R2 D R U R D'"
+                "R2 F2 R F' R' F R2 U2 F R' U2 R F' U2 R2 F R2"
             ],
             [
                 "Yifan Wang (王逸帆)"
             ]
-        ]
-    ],
-    "AIJH": [
+        ],
         [
             [
                 "B U r' U2 l U' R' F2 r2 U' r' U' x"
@@ -3398,17 +3406,17 @@
             [
                 "Daniel Lin"
             ]
-        ],
+        ]
+    ],
+    "AIJI": [
         [
             [
-                "R2 F2 R F' R' F R2 U2 F R' U2 R F' U2 R2 F R2"
+                "R' U' F2 D R2 D' R2 U2 F2 U F2 U' F2 R2 U2 R'"
             ],
             [
                 "Yifan Wang (王逸帆)"
             ]
-        ]
-    ],
-    "AIJI": [
+        ],
         [
             [
                 "R U R' U R2 F2 R' U' R' U R U2 R F2 R2 U'"
@@ -3423,14 +3431,6 @@
             ],
             [
                 "Daniel Lin"
-            ]
-        ],
-        [
-            [
-                "R' U' F2 D R2 D' R2 U2 F2 U F2 U' F2 R2 U2 R'"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
             ]
         ]
     ],
@@ -3836,6 +3836,14 @@
     "AJJH": [
         [
             [
+                "R' F D R U R' D' R F' U' R' F' R2 U' R' U"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
                 "U r U' r' U' F R' F' R2 U' R' U"
             ],
             [
@@ -3848,14 +3856,6 @@
             ],
             [
                 "Daniel Lin"
-            ]
-        ],
-        [
-            [
-                "R' F D R U R' D' R F' U' R' F' R2 U' R' U"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
             ]
         ]
     ],
@@ -4262,6 +4262,14 @@
         ],
         [
             [
+                "S2 R2 D' R' D R' f2 R D' R' F2"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
                 "r' U F U' r f R' U R U R' U' f'"
             ],
             [
@@ -4283,17 +4291,17 @@
             [
                 "Hongjie Zhang (张鸿杰)"
             ]
-        ],
+        ]
+    ],
+    "AKJH": [
         [
             [
-                "S2 R2 D' R' D R' f2 R D' R' F2"
+                "S' U' R U R F' R' F R F D' F' U' D R2 U R S"
             ],
             [
                 "Yifan Wang (王逸帆)"
             ]
-        ]
-    ],
-    "AKJH": [
+        ],
         [
             [
                 "U' D' M' U2 r U' r' U' F R' F' R2 U' r' U D"
@@ -4309,17 +4317,17 @@
             [
                 "Daniel Lin"
             ]
-        ],
+        ]
+    ],
+    "AKJI": [
         [
             [
-                "S' U' R U R F' R' F R F D' F' U' D R2 U R S"
+                "S' U R2 U2 F R' F' U' F R F' U2 R' U' R U R2 U' S"
             ],
             [
                 "Yifan Wang (王逸帆)"
             ]
-        ]
-    ],
-    "AKJI": [
+        ],
         [
             [
                 "f U' R U R' U' R U R' F' R U R' U' R' F R2 U2 R' U f'"
@@ -4334,14 +4342,6 @@
             ],
             [
                 "Daniel Lin"
-            ]
-        ],
-        [
-            [
-                "S' U R2 U2 F R' F' U' F R F' U2 R' U' R U R2 U' S"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
             ]
         ]
     ],
@@ -4702,6 +4702,14 @@
     "ALJH": [
         [
             [
+                "R' D F U' D' F D F' R U F U' R' U D' F' R"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
                 "U D r U' r' U' F R' F' R2 U' R' U D'"
             ],
             [
@@ -4714,14 +4722,6 @@
             ],
             [
                 "Daniel Lin"
-            ]
-        ],
-        [
-            [
-                "R' D F U' D' F D F' R U F U' R' U D' F' R"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
             ]
         ]
     ],
@@ -5004,18 +5004,18 @@
         ],
         [
             [
-                "R2 D' R' U' R U R' D R D' R U' D R2 U"
-            ],
-            [
-                "Hongjie Zhang (张鸿杰)"
-            ]
-        ],
-        [
-            [
                 "U2 L U' r U2 R' F R U2 r' L' U'"
             ],
             [
                 "Xin Shi (石欣)"
+            ]
+        ],
+        [
+            [
+                "R2 D' R' U' R U R' D R D' R U' D R2 U"
+            ],
+            [
+                "Hongjie Zhang (张鸿杰)"
             ]
         ]
     ],
@@ -5114,22 +5114,30 @@
         ],
         [
             [
-                "D' R' U' R U' R2 D R' D' R2 U D R' U D' R D"
-            ],
-            [
-                "Charlie Harrison"
-            ]
-        ],
-        [
-            [
                 "D' R' U' R U' R2 D R' U R U' D' R2 U2 R D"
             ],
             [
                 "Yifan Wang (王逸帆)"
             ]
+        ],
+        [
+            [
+                "D' R' U' R U' R2 D R' D' R2 U D R' U D' R D"
+            ],
+            [
+                "Charlie Harrison"
+            ]
         ]
     ],
     "AMJH": [
+        [
+            [
+                "R U' D' R' U' F R' F U' F' R F' U R' D R U"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
+            ]
+        ],
         [
             [
                 "U' M' U2 r U' r' U' F R' F' R2 U' r' U"
@@ -5145,17 +5153,17 @@
             [
                 "Daniel Lin"
             ]
-        ],
+        ]
+    ],
+    "AMJI": [
         [
             [
-                "R U' D' R' U' F R' F U' F' R F' U R' D R U"
+                "U2 D' R' U F2 U R2 D R2 U' D' F2 R' U' R2 U2 R D"
             ],
             [
                 "Yifan Wang (王逸帆)"
             ]
-        ]
-    ],
-    "AMJI": [
+        ],
         [
             [
                 "R U R' U R U' R2 B2 R U2 R U R' U' R' B2 R"
@@ -5170,14 +5178,6 @@
             ],
             [
                 "Daniel Lin"
-            ]
-        ],
-        [
-            [
-                "U2 D' R' U F2 U R2 D R2 U' D' F2 R' U' R2 U2 R D"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
             ]
         ]
     ],
@@ -5497,6 +5497,14 @@
         ],
         [
             [
+                "U' D' R' U D R' U' R D' R U F R' F' D"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
                 "U2 l U' F U' F' U2 R' F R U' l' U"
             ],
             [
@@ -5510,17 +5518,17 @@
             [
                 "Charlie Harrison"
             ]
-        ],
+        ]
+    ],
+    "ANJH": [
         [
             [
-                "U' D' R' U D R' U' R D' R U F R' F' D"
+                "U' M U2 R' F R U R' U' R' F' R2 U' R' U2 r U"
             ],
             [
                 "Yifan Wang (王逸帆)"
             ]
-        ]
-    ],
-    "ANJH": [
+        ],
         [
             [
                 "U' R U R2 F R F' R U2 r' U r U R' U"
@@ -5536,17 +5544,17 @@
             [
                 "Daniel Lin"
             ]
-        ],
+        ]
+    ],
+    "ANJI": [
         [
             [
-                "U' M U2 R' F R U R' U' R' F' R2 U' R' U2 r U"
+                "U D' R2 U2 F R' F' U' F R F' U2 R' U' R U R2 U' D"
             ],
             [
                 "Yifan Wang (王逸帆)"
             ]
-        ]
-    ],
-    "ANJI": [
+        ],
         [
             [
                 "R U' D R D' R2 D R U R' F D2 R' D2 R2 F' D'"
@@ -5561,14 +5569,6 @@
             ],
             [
                 "Daniel Lin"
-            ]
-        ],
-        [
-            [
-                "U D' R2 U2 F R' F' U' F R F' U2 R' U' R U R2 U' D"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
             ]
         ]
     ],
@@ -5980,6 +5980,14 @@
     "AOJI": [
         [
             [
+                "U2 R' U F2 U R2 D R2 U' D' F2 R' U' R2 U2 R"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
                 "R U' D' R' D R' U R D' R2 U' R2 U D R' U' R U R'"
             ],
             [
@@ -5992,14 +6000,6 @@
             ],
             [
                 "Daniel Lin"
-            ]
-        ],
-        [
-            [
-                "U2 R' U F2 U R2 D R2 U' D' F2 R' U' R2 U2 R"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
             ]
         ]
     ],
@@ -6411,6 +6411,14 @@
     "APJH": [
         [
             [
+                "U' R U R F' R' F R F D' F' U' D R2 U R"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
                 "U' R U R2 F R f' U R U R' U' S"
             ],
             [
@@ -6432,31 +6440,23 @@
             [
                 "Daniel Lin"
             ]
-        ],
-        [
-            [
-                "U' R U R F' R' F R F D' F' U' D R2 U R"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
-            ]
         ]
     ],
     "APJI": [
-        [
-            [
-                "S' U R' U R U' x' U L' U L U2 R U' R' U E x"
-            ],
-            [
-                "Charlie Harrison"
-            ]
-        ],
         [
             [
                 "U R2 U2 F R' F' U' F R F' U2 R' U' R U R2 U'"
             ],
             [
                 "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
+                "S' U R' U R U' x' U L' U L U2 R U' R' U E x"
+            ],
+            [
+                "Charlie Harrison"
             ]
         ]
     ],
@@ -6850,22 +6850,30 @@
         ],
         [
             [
-                "M' U' R U R2 M F R F' U r U r' U'"
-            ],
-            [
-                "Charlie Harrison"
-            ]
-        ],
-        [
-            [
                 "U2 R U2 R' F D R U R' U' D' R' F' R2 U' R'"
             ],
             [
                 "Yifan Wang (王逸帆)"
             ]
+        ],
+        [
+            [
+                "M' U' R U R2 M F R F' U r U r' U'"
+            ],
+            [
+                "Charlie Harrison"
+            ]
         ]
     ],
     "AQJI": [
+        [
+            [
+                "R F' R2 F R U' R' F' R2 F U' R2 U2 R U2 R U2"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
+            ]
+        ],
         [
             [
                 "r' U2 r U R' B2 R U' R' B2 R2 U' R2 U2 R"
@@ -6880,14 +6888,6 @@
             ],
             [
                 "Daniel Lin"
-            ]
-        ],
-        [
-            [
-                "R F' R2 F R U' R' F' R2 F U' R2 U2 R U2 R U2"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
             ]
         ]
     ],
@@ -7297,6 +7297,14 @@
         ],
         [
             [
+                "R F' U' F' R2 F R2 U R2 F' R F R F R' F"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
                 "R U' R' U S' U F' U' F U R U' R' U' S"
             ],
             [
@@ -7310,17 +7318,17 @@
             [
                 "Xin Shi (石欣)"
             ]
-        ],
+        ]
+    ],
+    "ARJH": [
         [
             [
-                "R F' U' F' R2 F R2 U R2 F' R F R F R' F"
+                "R' D' R F U F' U' R' F' D R2 U' R' U"
             ],
             [
                 "Yifan Wang (王逸帆)"
             ]
-        ]
-    ],
-    "ARJH": [
+        ],
         [
             [
                 "U' R U R2 E F R F' R' U' R u R"
@@ -7352,31 +7360,23 @@
             [
                 "Hongjie Zhang (张鸿杰)"
             ]
-        ],
-        [
-            [
-                "R' D' R F U F' U' R' F' D R2 U' R' U"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
-            ]
         ]
     ],
     "ARJI": [
-        [
-            [
-                "F2 R' l' U' R2 U R2 D' R2 U R2 U' R2 U D x'"
-            ],
-            [
-                "Charlie Harrison"
-            ]
-        ],
         [
             [
                 "U' R2 U F' R2 F U' R2 F2 U' F U' F' U F2 U"
             ],
             [
                 "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
+                "F2 R' l' U' R2 U R2 D' R2 U R2 U' R2 U D x'"
+            ],
+            [
+                "Charlie Harrison"
             ]
         ]
     ],
@@ -7651,18 +7651,18 @@
         ],
         [
             [
-                "U' x U R' U' R' F R2 U' R' U' R U R' F' l U"
-            ],
-            [
-                "Hongjie Zhang (张鸿杰)"
-            ]
-        ],
-        [
-            [
                 "z U' R' U' y R' F' R2 U' R' U R' F R U2 x y'"
             ],
             [
                 "Xin Shi (石欣)"
+            ]
+        ],
+        [
+            [
+                "U' x U R' U' R' F R2 U' R' U' R U R' F' l U"
+            ],
+            [
+                "Hongjie Zhang (张鸿杰)"
             ]
         ]
     ],
@@ -7814,22 +7814,30 @@
     "ASJH": [
         [
             [
-                "R2 M F' R2 U' R' U R' F R U F' U' r"
-            ],
-            [
-                "Charlie Harrison"
-            ]
-        ],
-        [
-            [
                 "R' F2 U' D F R F' R' D' F U F U' F U R"
             ],
             [
                 "Yifan Wang (王逸帆)"
             ]
+        ],
+        [
+            [
+                "R2 M F' R2 U' R' U R' F R U F' U' r"
+            ],
+            [
+                "Charlie Harrison"
+            ]
         ]
     ],
     "ASJI": [
+        [
+            [
+                "R U2 F U D' F' U R' F R U' F D F' U2 R' F'"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
+            ]
+        ],
         [
             [
                 "F2 R2 U D R' D' R U' R2 D R' D' F2"
@@ -7844,14 +7852,6 @@
             ],
             [
                 "Daniel Lin"
-            ]
-        ],
-        [
-            [
-                "R U2 F U D' F' U R' F R U' F D F' U2 R' F'"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
             ]
         ]
     ],
@@ -8092,18 +8092,18 @@
         ],
         [
             [
-                "r U2 r' F' r2 U' r' U' r' F r F r' F2"
-            ],
-            [
-                "Hongjie Zhang (张鸿杰)"
-            ]
-        ],
-        [
-            [
                 "l' U L' U' R L U2 L' U' L U2 x'"
             ],
             [
                 "Xin Shi (石欣)"
+            ]
+        ],
+        [
+            [
+                "r U2 r' F' r2 U' r' U' r' F r F r' F2"
+            ],
+            [
+                "Hongjie Zhang (张鸿杰)"
             ]
         ]
     ],
@@ -8230,6 +8230,14 @@
         ],
         [
             [
+                "R' E R U' R' E' R U R U R' F' R U R' U' R' F R2 U' R' U'"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
                 "u' R' U2 R' D' R U' R' U' D R' U R2 E'"
             ],
             [
@@ -8242,14 +8250,6 @@
             ],
             [
                 "Charlie Harrison"
-            ]
-        ],
-        [
-            [
-                "R' E R U' R' E' R U R U R' F' R U R' U' R' F R2 U' R' U'"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
             ]
         ]
     ],
@@ -8283,6 +8283,14 @@
     "ATJI": [
         [
             [
+                "R' U2 R2 U R2 U F' U' F D' F D F' U F R"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
                 "U' R2 U D' R' F' R U2 r' U r' F' r2 U D R2 U"
             ],
             [
@@ -8295,14 +8303,6 @@
             ],
             [
                 "Daniel Lin"
-            ]
-        ],
-        [
-            [
-                "R' U2 R2 U R2 U F' U' F D' F D F' U F R"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
             ]
         ]
     ],
@@ -8616,6 +8616,14 @@
     "AWJG": [
         [
             [
+                "B' R2 U' F R' F' U2 R B U' B' R2 B R U' R'"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
                 "F R' F R u' R' U R' F' R2 D R' U' R' y"
             ],
             [
@@ -8637,17 +8645,17 @@
             [
                 "Hongjie Zhang (张鸿杰)"
             ]
-        ],
+        ]
+    ],
+    "AWJH": [
         [
             [
-                "B' R2 U' F R' F' U2 R B U' B' R2 B R U' R'"
+                "u' R U R2 F R F' R' D' F D R E'"
             ],
             [
                 "Yifan Wang (王逸帆)"
             ]
-        ]
-    ],
-    "AWJH": [
+        ],
         [
             [
                 "u' R U R2 F R F' R' u' R u R E'"
@@ -8671,17 +8679,17 @@
             [
                 "Hongjie Zhang (张鸿杰)"
             ]
-        ],
+        ]
+    ],
+    "AWJI": [
         [
             [
-                "u' R U R2 F R F' R' D' F D R E'"
+                "u' R U2 F' U2 R' F' U2 F2 R F' R' F U2 F2 U F' E'"
             ],
             [
                 "Yifan Wang (王逸帆)"
             ]
-        ]
-    ],
-    "AWJI": [
+        ],
         [
             [
                 "L U' R l U2 R' U2 R' F R F' r U' r' F M' L2"
@@ -8704,14 +8712,6 @@
             ],
             [
                 "Daniel Lin"
-            ]
-        ],
-        [
-            [
-                "u' R U2 F' U2 R' F' U2 F2 R F' R' F U2 F2 U F' E'"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
             ]
         ]
     ],
@@ -9115,6 +9115,14 @@
     "AXJH": [
         [
             [
+                "R' U' R2 D B' R' U R D' R' U' f R' f' U2"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
                 "M' L F' U' F R U R' F R' F' R2 U' r' L'"
             ],
             [
@@ -9128,17 +9136,17 @@
             [
                 "Daniel Lin"
             ]
-        ],
+        ]
+    ],
+    "AXJI": [
         [
             [
-                "R' U' R2 D B' R' U R D' R' U' f R' f' U2"
+                "U' E' R U' F R' F' R' F R U R U' F' U R2 U E"
             ],
             [
                 "Yifan Wang (王逸帆)"
             ]
-        ]
-    ],
-    "AXJI": [
+        ],
         [
             [
                 "U' L U' L' U L2 F' L' F L' U B' U2 B U"
@@ -9153,14 +9161,6 @@
             ],
             [
                 "Daniel Lin"
-            ]
-        ],
-        [
-            [
-                "U' E' R U' F R' F' R' F R U R U' F' U R2 U E"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
             ]
         ]
     ],
@@ -9505,22 +9505,30 @@
         ],
         [
             [
-                "R' F R' F' R2 S U' R' U R F R' f'"
-            ],
-            [
-                "Charlie Harrison"
-            ]
-        ],
-        [
-            [
                 "U' R U2 R' D R U' D' R2 D R D' R2 U' R' U"
             ],
             [
                 "Yifan Wang (王逸帆)"
             ]
+        ],
+        [
+            [
+                "R' F R' F' R2 S U' R' U R F R' f'"
+            ],
+            [
+                "Charlie Harrison"
+            ]
         ]
     ],
     "AYJI": [
+        [
+            [
+                "U' R U' F R' F' R' F R U R U' F' U R2 U"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
+            ]
+        ],
         [
             [
                 "R' U2 R2 U R2 U' R2 D R2 U' R2 U R2 U' D' R"
@@ -9543,14 +9551,6 @@
             ],
             [
                 "Hongjie Zhang (张鸿杰)"
-            ]
-        ],
-        [
-            [
-                "U' R U' F R' F' R' F R U R U' F' U R2 U"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
             ]
         ]
     ],
@@ -9851,22 +9851,30 @@
         ],
         [
             [
-                "R U' R' U D R' U' R f' R' U' R f U D'"
-            ],
-            [
-                "Charlie Harrison"
-            ]
-        ],
-        [
-            [
                 "R2 D' F R U R' F U' F U F2 D R U' R"
             ],
             [
                 "Yifan Wang (王逸帆)"
             ]
+        ],
+        [
+            [
+                "R U' R' U D R' U' R f' R' U' R f U D'"
+            ],
+            [
+                "Charlie Harrison"
+            ]
         ]
     ],
     "AZJH": [
+        [
+            [
+                "R2 D' F D F2 D' F R U' R' D R U R' F R2"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
+            ]
+        ],
         [
             [
                 "U R' U' F' U2 R' F R U' R' F' R U' F R U'"
@@ -9890,17 +9898,17 @@
             [
                 "Daniel Lin"
             ]
-        ],
+        ]
+    ],
+    "AZJI": [
         [
             [
-                "R2 D' F D F2 D' F R U' R' D R U R' F R2"
+                "R2 F U F2 U' F D' F' U2 F2 U' D R2 F U' F'"
             ],
             [
                 "Yifan Wang (王逸帆)"
             ]
-        ]
-    ],
-    "AZJI": [
+        ],
         [
             [
                 "F R' U R' D R2 U' R U D' R' D R2 U' R D' F'"
@@ -9915,14 +9923,6 @@
             ],
             [
                 "Daniel Lin"
-            ]
-        ],
-        [
-            [
-                "R2 F U F2 U' F D' F' U2 F2 U' D R2 F U' F'"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
             ]
         ]
     ],
@@ -10613,18 +10613,18 @@
         ],
         [
             [
-                "R D' R U' R' U' R U R' F' R U R' U' R' F R D R'"
-            ],
-            [
-                "Bertie Longden"
-            ]
-        ],
-        [
-            [
                 "U' R F' R' U R' U F U' F' U' R2 F R'"
             ],
             [
                 "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
+                "R D' R U' R' U' R U R' F' R U R' U' R' F R D R'"
+            ],
+            [
+                "Bertie Longden"
             ]
         ]
     ],
@@ -10875,20 +10875,20 @@
     "GAAE": [
         [
             [
-                "U r2 F2 r U2 r U' r' F R' F R F' r"
-            ],
-            [
-                "Andrew Tan Jing Bang",
-                "Jonghyun Kim (김종현)"
-            ]
-        ],
-        [
-            [
                 "U R' U' R U' R D R2 U' D' F2 R2 U' R2 U' F2 U' R"
             ],
             [
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
+                "U r2 F2 r U2 r U' r' F R' F R F' r"
+            ],
+            [
+                "Andrew Tan Jing Bang",
+                "Jonghyun Kim (김종현)"
             ]
         ],
         [
@@ -10958,22 +10958,22 @@
     "GAAN": [
         [
             [
-                "D' R U' R' D2 R' D' R2 D R' U D' R'"
-            ],
-            [
-                "Andrew Tan Jing Bang",
-                "Andy Wong",
-                "Jonghyun Kim (김종현)"
-            ]
-        ],
-        [
-            [
                 "D R U' D' R U R' D R2 U' R U R D'"
             ],
             [
                 "Daniel Wallin",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
+                "D' R U' R' D2 R' D' R2 D R' U D' R'"
+            ],
+            [
+                "Andrew Tan Jing Bang",
+                "Andy Wong",
+                "Jonghyun Kim (김종현)"
             ]
         ]
     ],
@@ -10998,18 +10998,18 @@
         ],
         [
             [
-                "D2 R U' R U R' D R D' R U' R2 D R2 U R2 D"
-            ],
-            [
-                "Daniel Wallin"
-            ]
-        ],
-        [
-            [
                 "D' R U F' U' R' U R F U2 F' U' F U2 R' U' D"
             ],
             [
                 "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
+                "D2 R U' R U R' D R D' R U' R2 D R2 U R2 D"
+            ],
+            [
+                "Daniel Wallin"
             ]
         ]
     ],
@@ -11036,18 +11036,18 @@
         ],
         [
             [
-                "D2 R U' R2 D' R2 U D R' D' R U' R' U R' D'"
-            ],
-            [
-                "Yangyang Shen (沈炀炀)"
-            ]
-        ],
-        [
-            [
                 "U' D' R' U R2 U R' D R U' D' R2 D R U' D' R U D"
             ],
             [
                 "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
+                "D2 R U' R2 D' R2 U D R' D' R U' R' U R' D'"
+            ],
+            [
+                "Yangyang Shen (沈炀炀)"
             ]
         ]
     ],
@@ -11104,18 +11104,18 @@
         ],
         [
             [
-                "R2 U' R2 D' R2 U R' D R' D' R U' R' U R' D"
-            ],
-            [
-                "Andy Wong"
-            ]
-        ],
-        [
-            [
                 "R U F' U' R' U R F U2 F' U' F U2 R' U'"
             ],
             [
                 "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
+                "R2 U' R2 D' R2 U R' D R' D' R U' R' U R' D"
+            ],
+            [
+                "Andy Wong"
             ]
         ]
     ],
@@ -11142,18 +11142,18 @@
         ],
         [
             [
-                "D' R U' R2 D' R2 U D R' D' R U' R' U R' D2"
-            ],
-            [
-                "Yangyang Shen (沈炀炀)"
-            ]
-        ],
-        [
-            [
                 "U' R' U R2 U R' D R U' D' R2 D R U' D' R U"
             ],
             [
                 "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
+                "D' R U' R2 D' R2 U D R' D' R U' R' U R' D2"
+            ],
+            [
+                "Yangyang Shen (沈炀炀)"
             ]
         ]
     ],
@@ -11200,18 +11200,18 @@
         ],
         [
             [
-                "D R U' R U R' D R D' R U' R2 D R2 U R2 D2"
-            ],
-            [
-                "Daniel Wallin"
-            ]
-        ],
-        [
-            [
                 "U R2 F2 U' F2 U2 F2 R2 U R2 U2 F2 U' R2 U"
             ],
             [
                 "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
+                "D R U' R U R' D R D' R U' R2 D R2 U R2 D2"
+            ],
+            [
+                "Daniel Wallin"
             ]
         ]
     ],
@@ -11238,18 +11238,18 @@
         ],
         [
             [
-                "R' D R2 U' D' R U R' D R D' R U' D R2 U R2 D' R' D R2 D' R"
-            ],
-            [
-                "Andrew Tan Jing Bang"
-            ]
-        ],
-        [
-            [
                 "R F' U2 R2 F R2 U2 R2 U' F' U R2 F R' U"
             ],
             [
                 "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
+                "R' D R2 U' D' R U R' D R D' R U' D R2 U R2 D' R' D R2 D' R"
+            ],
+            [
+                "Andrew Tan Jing Bang"
             ]
         ]
     ],
@@ -11312,6 +11312,14 @@
         ],
         [
             [
+                "R2 U2 F' R2 F U' F' R2 F' U' F2 R2 U' R2 D R2 D'"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
                 "R L' U' R' D2 R' D' R2 D R' U D' R' D' L"
             ],
             [
@@ -11333,17 +11341,18 @@
             [
                 "Yangyang Shen (沈炀炀)"
             ]
-        ],
-        [
-            [
-                "R2 U2 F' R2 F U' F' R2 F' U' F2 R2 U' R2 D R2 D'"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
-            ]
         ]
     ],
     "GADN": [
+        [
+            [
+                "R' D R U R' D' R F R U R' U R U2 R' F'"
+            ],
+            [
+                "Yangyang Shen (沈炀炀)",
+                "Yifan Wang (王逸帆)"
+            ]
+        ],
         [
             [
                 "F R U2 R' U' R U' R' F' R' D R U' R' D' R"
@@ -11361,27 +11370,9 @@
                 "Daniel Wallin",
                 "Jonghyun Kim (김종현)"
             ]
-        ],
-        [
-            [
-                "R' D R U R' D' R F R U R' U R U2 R' F'"
-            ],
-            [
-                "Yangyang Shen (沈炀炀)",
-                "Yifan Wang (王逸帆)"
-            ]
         ]
     ],
     "GADO": [
-        [
-            [
-                "L U L' F' U' L U2 L F' L' f L' U' L S' L' F"
-            ],
-            [
-                "Andrew Tan Jing Bang",
-                "Andy Wong"
-            ]
-        ],
         [
             [
                 "D R' U2 R U' F R' U2 R U2 F' U2 R' U R U' D'"
@@ -11389,6 +11380,15 @@
             [
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
+                "L U L' F' U' L U2 L F' L' f L' U' L S' L' F"
+            ],
+            [
+                "Andrew Tan Jing Bang",
+                "Andy Wong"
             ]
         ],
         [
@@ -11412,18 +11412,18 @@
         ],
         [
             [
-                "U D' R' U' R' U2 R' D' R U' R' D R U R U' R' U' R2 U' D"
+                "R' U' B U' D' R U R' D R U2 R' U2 B' U R U'"
             ],
             [
-                "Daniel Wallin"
+                "Yifan Wang (王逸帆)"
             ]
         ],
         [
             [
-                "R U2 D' R' U' R' F R2 U' R' U' R U R' F' R U' D R'"
+                "U D' R' U' R' U2 R' D' R U' R' D R U R U' R' U' R2 U' D"
             ],
             [
-                "Andrew Tan Jing Bang"
+                "Daniel Wallin"
             ]
         ],
         [
@@ -11436,10 +11436,10 @@
         ],
         [
             [
-                "R' U' B U' D' R U R' D R U2 R' U2 B' U R U'"
+                "R U2 D' R' U' R' F R2 U' R' U' R U R' F' R U' D R'"
             ],
             [
-                "Yifan Wang (王逸帆)"
+                "Andrew Tan Jing Bang"
             ]
         ]
     ],
@@ -11451,6 +11451,14 @@
             [
                 "Daniel Wallin",
                 "Jonghyun Kim (김종현)"
+            ]
+        ],
+        [
+            [
+                "R B U' B' U2 B U R2 U' R2 B' R' f R' f' U'"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
             ]
         ],
         [
@@ -11471,14 +11479,6 @@
         ],
         [
             [
-                "L U2 R U R' F' R U2 R' U2 R' F R U R U2 R' U L'"
-            ],
-            [
-                "Andrew Tan Jing Bang"
-            ]
-        ],
-        [
-            [
                 "D R' D R U R' D' R F R U R' U R U2 R' F' D'"
             ],
             [
@@ -11487,14 +11487,22 @@
         ],
         [
             [
-                "R B U' B' U2 B U R2 U' R2 B' R' f R' f' U'"
+                "L U2 R U R' F' R U2 R' U2 R' F R U R U2 R' U L'"
             ],
             [
-                "Yifan Wang (王逸帆)"
+                "Andrew Tan Jing Bang"
             ]
         ]
     ],
     "GADR": [
+        [
+            [
+                "U D' R2 U2 R2 U' R2 U2 F2 U' F2 R2 U2 R2 D R2"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
+            ]
+        ],
         [
             [
                 "R U f' U' f U D R' U' R D' R U' R' f R' f'"
@@ -11513,14 +11521,6 @@
         ],
         [
             [
-                "R U2 D R' U' R' F R2 U' R' U' R U R' F' R U' D' R'"
-            ],
-            [
-                "Andrew Tan Jing Bang"
-            ]
-        ],
-        [
-            [
                 "R U D R2 U' R U R2 D' R U R U R' U' R2 U' R'"
             ],
             [
@@ -11529,10 +11529,10 @@
         ],
         [
             [
-                "U D' R2 U2 R2 U' R2 U2 F2 U' F2 R2 U2 R2 D R2"
+                "R U2 D R' U' R' F R2 U' R' U' R U R' F' R U' D' R'"
             ],
             [
-                "Yifan Wang (王逸帆)"
+                "Andrew Tan Jing Bang"
             ]
         ]
     ],
@@ -11546,6 +11546,14 @@
                 "Andy Wong",
                 "Jonghyun Kim (김종현)",
                 "Yangyang Shen (沈炀炀)"
+            ]
+        ],
+        [
+            [
+                "R' U2 F' R U' F U' F' U2 R' F R U' R' U2 R"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
             ]
         ],
         [
@@ -11579,14 +11587,6 @@
             [
                 "Yangyang Shen (沈炀炀)"
             ]
-        ],
-        [
-            [
-                "R' U2 F' R U' F U' F' U2 R' F R U' R' U2 R"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
-            ]
         ]
     ],
     "GADT": [
@@ -11597,6 +11597,14 @@
             [
                 "Andrew Tan Jing Bang",
                 "Andy Wong"
+            ]
+        ],
+        [
+            [
+                "U2 R' D' R2 U R' U' R D R' D' R2 U' D R' U R U'"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
             ]
         ],
         [
@@ -11622,26 +11630,9 @@
             [
                 "Yangyang Shen (沈炀炀)"
             ]
-        ],
-        [
-            [
-                "U2 R' D' R2 U R' U' R D R' D' R2 U' D R' U R U'"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
-            ]
         ]
     ],
     "GADW": [
-        [
-            [
-                "U' R U2 R' L' U R U2 R' U L U' R U' R' U2"
-            ],
-            [
-                "Andrew Tan Jing Bang",
-                "Andy Wong"
-            ]
-        ],
         [
             [
                 "R' U2 R U' F R' U2 R U2 F' U2 R' U R U'"
@@ -11649,6 +11640,15 @@
             [
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
+                "U' R U2 R' L' U R U2 R' U L U' R U' R' U2"
+            ],
+            [
+                "Andrew Tan Jing Bang",
+                "Andy Wong"
             ]
         ],
         [
@@ -11671,6 +11671,14 @@
     "GADX": [
         [
             [
+                "U R U F R U R' U' F' R2 F R F' R U' R'"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
                 "R U R' U' R2 f' U' f R U f R' f' R2 U'"
             ],
             [
@@ -11687,14 +11695,6 @@
         ],
         [
             [
-                "R U2 R2 U D' R U R U2 R2 D R D' R U2 R2 D"
-            ],
-            [
-                "Andrew Tan Jing Bang"
-            ]
-        ],
-        [
-            [
                 "D' R' U2 R U' F R' U2 R U2 F' U2 R' U R U' D"
             ],
             [
@@ -11703,10 +11703,10 @@
         ],
         [
             [
-                "U R U F R U R' U' F' R2 F R F' R U' R'"
+                "R U2 R2 U D' R U R U2 R2 D R D' R U2 R2 D"
             ],
             [
-                "Yifan Wang (王逸帆)"
+                "Andrew Tan Jing Bang"
             ]
         ]
     ],
@@ -11719,6 +11719,14 @@
                 "Andrew Tan Jing Bang",
                 "Andy Wong",
                 "Jonghyun Kim (김종현)"
+            ]
+        ],
+        [
+            [
+                "R' D' R U' R' F' R U' F U' F' U2 R' F D R"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
             ]
         ],
         [
@@ -11736,14 +11744,6 @@
             [
                 "Yangyang Shen (沈炀炀)"
             ]
-        ],
-        [
-            [
-                "R' D' R U' R' F' R U' F U' F' U2 R' F D R"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
-            ]
         ]
     ],
     "GADZ": [
@@ -11758,18 +11758,18 @@
         ],
         [
             [
-                "D' L U' R' U L' U' R L' U' L U2 L' U' L D"
+                "R U' F R D' R2 D R D' R F' U F D F' R'"
             ],
             [
-                "Daniel Wallin"
+                "Yifan Wang (王逸帆)"
             ]
         ],
         [
             [
-                "R U R2 U' R2 U R' F' R U R' U' R' F R2 U' R' U' R' U R2 U' R'"
+                "D' L U' R' U L' U' R L' U' L U2 L' U' L D"
             ],
             [
-                "Liren Sun (孙立仁)"
+                "Daniel Wallin"
             ]
         ],
         [
@@ -11782,24 +11782,14 @@
         ],
         [
             [
-                "R U' F R D' R2 D R D' R F' U F D F' R'"
+                "R U R2 U' R2 U R' F' R U R' U' R' F R2 U' R' U' R' U R2 U' R'"
             ],
             [
-                "Yifan Wang (王逸帆)"
+                "Liren Sun (孙立仁)"
             ]
         ]
     ],
     "GAGA": [
-        [
-            [
-                "R U' R U R' D R D' R U' D R2 U R2 D' R2"
-            ],
-            [
-                "Andrew Tan Jing Bang",
-                "Gavriel Johann Arcilla",
-                "Max Hilliard"
-            ]
-        ],
         [
             [
                 "R b R' U' R U' R' U2 R U' b' R' U' R U R'"
@@ -11808,6 +11798,16 @@
                 "Andy Wong",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
+                "R U' R U R' D R D' R U' D R2 U R2 D' R2"
+            ],
+            [
+                "Andrew Tan Jing Bang",
+                "Gavriel Johann Arcilla",
+                "Max Hilliard"
             ]
         ],
         [
@@ -11888,6 +11888,14 @@
         ],
         [
             [
+                "R' U2 R2 U R U' R2 D R' U R U D' R"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
                 "U' R U D' R U R' D R2 U' R U R2 U2 R' U"
             ],
             [
@@ -11908,14 +11916,6 @@
             ],
             [
                 "Jonghyun Kim (김종현)"
-            ]
-        ],
-        [
-            [
-                "R' U2 R2 U R U' R2 D R' U R U D' R"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
             ]
         ]
     ],
@@ -12081,22 +12081,31 @@
         ],
         [
             [
-                "r' F' U r U r' F' r2 U' r' F r' U' r"
-            ],
-            [
-                "Andy Wong"
-            ]
-        ],
-        [
-            [
                 "D R U' D' R U' R2 D R' D' R2 U D R' U R' D'"
             ],
             [
                 "Yifan Wang (王逸帆)"
             ]
+        ],
+        [
+            [
+                "r' F' U r U r' F' r2 U' r' F r' U' r"
+            ],
+            [
+                "Andy Wong"
+            ]
         ]
     ],
     "GAGN": [
+        [
+            [
+                "U D R U' R' U2 R' D' R U' R' D R U R U' R' U2 D'"
+            ],
+            [
+                "Max Hilliard",
+                "Yangyang Shen (沈炀炀)"
+            ]
+        ],
         [
             [
                 "U' R D' R D' R' U R' D R D' R U' D R' U R D R'"
@@ -12113,15 +12122,6 @@
             [
                 "Daniel Wallin",
                 "Jonghyun Kim (김종현)"
-            ]
-        ],
-        [
-            [
-                "U D R U' R' U2 R' D' R U' R' D R U R U' R' U2 D'"
-            ],
-            [
-                "Max Hilliard",
-                "Yangyang Shen (沈炀炀)"
             ]
         ],
         [
@@ -12185,20 +12185,20 @@
         ],
         [
             [
-                "R' D2 R2 U R' F' R U R' U' R' F R2 U' R' U' R' D2 R"
-            ],
-            [
-                "Gavriel Johann Arcilla",
-                "Jonghyun Kim (김종현)"
-            ]
-        ],
-        [
-            [
                 "U' D' R U R U' R2 D R' U R U' D' R U D"
             ],
             [
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
+                "R' D2 R2 U R' F' R U R' U' R' F R2 U' R' U' R' D2 R"
+            ],
+            [
+                "Gavriel Johann Arcilla",
+                "Jonghyun Kim (김종현)"
             ]
         ],
         [
@@ -12211,6 +12211,15 @@
         ]
     ],
     "GAGQ": [
+        [
+            [
+                "U' D' R' U R2 D R2 U' D' R D R' U R U' R U"
+            ],
+            [
+                "Yangyang Shen (沈炀炀)",
+                "Yifan Wang (王逸帆)"
+            ]
+        ],
         [
             [
                 "U' L U' L' U' R D' R' U' R D R' L U' L'"
@@ -12227,15 +12236,6 @@
             [
                 "Daniel Wallin",
                 "Jonghyun Kim (김종현)"
-            ]
-        ],
-        [
-            [
-                "U' D' R' U R2 D R2 U' D' R D R' U R U' R U"
-            ],
-            [
-                "Yangyang Shen (沈炀炀)",
-                "Yifan Wang (王逸帆)"
             ]
         ],
         [
@@ -12296,6 +12296,15 @@
     "GAGS": [
         [
             [
+                "U' R U R U' R2 D R' U R U' D' R U"
+            ],
+            [
+                "Yangyang Shen (沈炀炀)",
+                "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
                 "D' R U' R' D R D' R' D R' D' R2 D R' U R'"
             ],
             [
@@ -12310,15 +12319,6 @@
             [
                 "Daniel Wallin",
                 "Jonghyun Kim (김종현)"
-            ]
-        ],
-        [
-            [
-                "U' R U R U' R2 D R' U R U' D' R U"
-            ],
-            [
-                "Yangyang Shen (沈炀炀)",
-                "Yifan Wang (王逸帆)"
             ]
         ],
         [
@@ -12344,24 +12344,33 @@
         ],
         [
             [
-                "D' R' D' R2 U R' F' R U R' U' R' F R2 U' R' U' R' D R D"
-            ],
-            [
-                "Daniel Wallin",
-                "Jonghyun Kim (김종현)"
-            ]
-        ],
-        [
-            [
                 "U' R' U R2 D R2 U' D' R D R' U R U' R U D'"
             ],
             [
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ]
+        ],
+        [
+            [
+                "D' R' D' R2 U R' F' R U R' U' R' F R2 U' R' U' R' D R D"
+            ],
+            [
+                "Daniel Wallin",
+                "Jonghyun Kim (김종현)"
+            ]
         ]
     ],
     "GAGW": [
+        [
+            [
+                "R D R' D' R U' R' U R' F2 R2 U' R2 U F2"
+            ],
+            [
+                "Yangyang Shen (沈炀炀)",
+                "Yifan Wang (王逸帆)"
+            ]
+        ],
         [
             [
                 "R' U2 R D' R' U D' R' D R2 D' R' D2 R' U R"
@@ -12378,15 +12387,6 @@
             [
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard"
-            ]
-        ],
-        [
-            [
-                "R D R' D' R U' R' U R' F2 R2 U' R2 U F2"
-            ],
-            [
-                "Yangyang Shen (沈炀炀)",
-                "Yifan Wang (王逸帆)"
             ]
         ],
         [
@@ -12410,10 +12410,26 @@
         ],
         [
             [
+                "R2 U2 R2 F' U F U' R2 U2 R2 U' F' U' F U"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
                 "R2 D' R2 D R' U R' F' R U R' U' R' F R2 U' R' U' R2 D' R2 D R2"
             ],
             [
                 "Daniel Wallin"
+            ]
+        ],
+        [
+            [
+                "D' R D R' D' R U' R' U R' F2 R2 U' R2 U F2 D"
+            ],
+            [
+                "Yangyang Shen (沈炀炀)"
             ]
         ],
         [
@@ -12431,22 +12447,6 @@
             [
                 "Jonghyun Kim (김종현)"
             ]
-        ],
-        [
-            [
-                "D' R D R' D' R U' R' U R' F2 R2 U' R2 U F2 D"
-            ],
-            [
-                "Yangyang Shen (沈炀炀)"
-            ]
-        ],
-        [
-            [
-                "R2 U2 R2 F' U F U' R2 U2 R2 U' F' U' F U"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
-            ]
         ]
     ],
     "GAGY": [
@@ -12462,20 +12462,20 @@
         ],
         [
             [
-                "R U' R' D R D' R' D R' D' R2 D R' U R' D'"
-            ],
-            [
-                "Andrew Tan Jing Bang",
-                "Andy Wong"
-            ]
-        ],
-        [
-            [
                 "R U' D' R U' R2 D R' D' R2 U D R' U R'"
             ],
             [
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
+                "R U' R' D R D' R' D R' D' R2 D R' U R' D'"
+            ],
+            [
+                "Andrew Tan Jing Bang",
+                "Andy Wong"
             ]
         ]
     ],
@@ -12877,6 +12877,14 @@
         ],
         [
             [
+                "R' U2 R U' R' F2 U' F2 R U' R2 D R' D' R'"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
                 "r2 U' r2 U r2 D' r2 D r2 D' r2 U r2 D r2"
             ],
             [
@@ -12897,14 +12905,6 @@
             ],
             [
                 "Liren Sun (孙立仁)"
-            ]
-        ],
-        [
-            [
-                "R' U2 R U' R' F2 U' F2 R U' R2 D R' D' R'"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
             ]
         ]
     ],
@@ -12952,18 +12952,18 @@
         ],
         [
             [
-                "B' R U R' F' R U R' U' R' F R2 U' R' U' B"
-            ],
-            [
-                "Dong Zhu (朱栋)"
-            ]
-        ],
-        [
-            [
                 "U R' U' R U R2 D' R2 U R' U' R2 D R' U2"
             ],
             [
                 "Yangyang Shen (沈炀炀)"
+            ]
+        ],
+        [
+            [
+                "B' R U R' F' R U R' U' R' F R2 U' R' U' B"
+            ],
+            [
+                "Dong Zhu (朱栋)"
             ]
         ]
     ],
@@ -13013,20 +13013,20 @@
         ],
         [
             [
-                "U r' U2 R U R2 F R F' U r"
-            ],
-            [
-                "Charlie Harrison",
-                "Yomie Ko (고현승)"
-            ]
-        ],
-        [
-            [
                 "R' U2 R U' R' U' R D R D' R' U' R D R' D'"
             ],
             [
                 "Dong Zhu (朱栋)",
                 "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
+                "U r' U2 R U R2 F R F' U r"
+            ],
+            [
+                "Charlie Harrison",
+                "Yomie Ko (고현승)"
             ]
         ],
         [
@@ -13047,18 +13047,18 @@
         ],
         [
             [
-                "z R D' R2 U R' U' R2 U D R' U' z'"
-            ],
-            [
-                "Liren Sun (孙立仁)"
-            ]
-        ],
-        [
-            [
                 "U2 R U R' U' R2 D R2 U' R U R2 D' R U'"
             ],
             [
                 "Yangyang Shen (沈炀炀)"
+            ]
+        ],
+        [
+            [
+                "z R D' R2 U R' U' R2 U D R' U' z'"
+            ],
+            [
+                "Liren Sun (孙立仁)"
             ]
         ]
     ],
@@ -13187,14 +13187,6 @@
         ],
         [
             [
-                "U' L U' R U R' L' U2 R U R' U'"
-            ],
-            [
-                "Kevin Matthews"
-            ]
-        ],
-        [
-            [
                 "U R U' R' z R2 U D R' D' R U' R z'"
             ],
             [
@@ -13207,6 +13199,14 @@
             ],
             [
                 "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
+                "U' L U' R U R' L' U2 R U R' U'"
+            ],
+            [
+                "Kevin Matthews"
             ]
         ]
     ],
@@ -13250,17 +13250,6 @@
         ],
         [
             [
-                "R U R' U R U2 R2 F' R U R' U' R' F R2 U' R' U2 R"
-            ],
-            [
-                "Chenhao Sun (孙晨皓)",
-                "Dhruv Ambastha",
-                "Elliott Kobelansky",
-                "Yomie Ko (고현승)"
-            ]
-        ],
-        [
-            [
                 "U R' U R2 U R2 U' R2 D R2 U' R2 U R2 D' R U'"
             ],
             [
@@ -13272,11 +13261,30 @@
         ],
         [
             [
+                "R U R' U R U2 R2 F' R U R' U' R' F R2 U' R' U2 R"
+            ],
+            [
+                "Chenhao Sun (孙晨皓)",
+                "Dhruv Ambastha",
+                "Elliott Kobelansky",
+                "Yomie Ko (고현승)"
+            ]
+        ],
+        [
+            [
                 "U' D R D' R2 F' R U R' f R f' R' U' F R2 U"
             ],
             [
                 "Andy Wong",
                 "Kai Yamamoto (山本快)"
+            ]
+        ],
+        [
+            [
+                "U R2 F R D R2 D' R' F' R' U R2 U' R2 U' R U'"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
             ]
         ],
         [
@@ -13301,14 +13309,6 @@
             ],
             [
                 "Joey Gouly"
-            ]
-        ],
-        [
-            [
-                "U R2 F R D R2 D' R' F' R' U R2 U' R2 U' R U'"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
             ]
         ]
     ],
@@ -13508,18 +13508,18 @@
         ],
         [
             [
-                "y R2 U' R U R' F' R U R' U' R' F R2 U' R y'"
-            ],
-            [
-                "Andy Wong"
-            ]
-        ],
-        [
-            [
                 "U D' R F' R' U R U F U' F' U' F R' U2 D"
             ],
             [
                 "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
+                "y R2 U' R U R' F' R U R' U' R' F R2 U' R y'"
+            ],
+            [
+                "Andy Wong"
             ]
         ]
     ],
@@ -13661,6 +13661,14 @@
         ],
         [
             [
+                "R' U2 R D' R' U2 R2 U' R' U R' D R2 D' R' D R'"
+            ],
+            [
+                "Oliver Fritz"
+            ]
+        ],
+        [
+            [
                 "L U R' U' R U R' F' R U R' U' R' F R2 U2 L'"
             ],
             [
@@ -13673,14 +13681,6 @@
             ],
             [
                 "Dong Zhu (朱栋)"
-            ]
-        ],
-        [
-            [
-                "R' U2 R D' R' U2 R2 U' R' U R' D R2 D' R' D R'"
-            ],
-            [
-                "Oliver Fritz"
             ]
         ]
     ],
@@ -13733,18 +13733,18 @@
         ],
         [
             [
-                "U2 D' R2 U R2 U' R2 D R2 U' R2 U R2 U'"
-            ],
-            [
-                "Andy Wong"
-            ]
-        ],
-        [
-            [
                 "U R F' R' U R U F U' F' U' F R' U2"
             ],
             [
                 "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
+                "U2 D' R2 U R2 U' R2 D R2 U' R2 U R2 U'"
+            ],
+            [
+                "Andy Wong"
             ]
         ]
     ],
@@ -13795,6 +13795,14 @@
         ],
         [
             [
+                "R D R' U' R D' R' U R U R' F' R U R' U' R' F R2 U' R' U'"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
                 "r' U' r U r' U2 R U R2 F R F' U2 r"
             ],
             [
@@ -13815,14 +13823,6 @@
             ],
             [
                 "Aleksander Bober"
-            ]
-        ],
-        [
-            [
-                "R D R' U' R D' R' U R U R' F' R U R' U' R' F R2 U' R' U'"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
             ]
         ]
     ],
@@ -13931,18 +13931,18 @@
         ],
         [
             [
-                "z R' U' R' D R2 U' R U R2 U' D' R U2 R z'"
+                "U R2 D R U' R2 D' R2 U D R U R U' R' U2 R' D' R"
             ],
             [
-                "Jack Cai"
+                "Yifan Wang (王逸帆)"
             ]
         ],
         [
             [
-                "U D2 R2 U' R U R' F' R U R' U' R' F R2 U' R U' D2"
+                "z R' U' R' D R2 U' R U R2 U' D' R U2 R z'"
             ],
             [
-                "Dong Zhu (朱栋)"
+                "Jack Cai"
             ]
         ],
         [
@@ -13955,10 +13955,10 @@
         ],
         [
             [
-                "U R2 D R U' R2 D' R2 U D R U R U' R' U2 R' D' R"
+                "U D2 R2 U' R U R' F' R U R' U' R' F R2 U' R U' D2"
             ],
             [
-                "Yifan Wang (王逸帆)"
+                "Dong Zhu (朱栋)"
             ]
         ]
     ],
@@ -14026,6 +14026,14 @@
         ],
         [
             [
+                "U R' F R D R2 D' R' F' R' U R2 U' R2 U2"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
                 "U R U R' F' R U R' U' R' F R2 U' R U2 R2 U' R2 U' R2"
             ],
             [
@@ -14046,14 +14054,6 @@
             ],
             [
                 "Charlie Harrison"
-            ]
-        ],
-        [
-            [
-                "U R' F R D R2 D' R' F' R' U R2 U' R2 U2"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
             ]
         ]
     ],
@@ -14191,18 +14191,18 @@
         ],
         [
             [
-                "D2 R U' R F' U R2 U' R2 F R2 U R' U' R U R D2"
-            ],
-            [
-                "Daniel Wallin"
-            ]
-        ],
-        [
-            [
                 "R' U R2 D' R2 U R U' R' F2 U' F2 R' D R U' R"
             ],
             [
                 "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
+                "D2 R U' R F' U R2 U' R2 F R2 U R' U' R U R D2"
+            ],
+            [
+                "Daniel Wallin"
             ]
         ]
     ],
@@ -14255,6 +14255,14 @@
         ],
         [
             [
+                "D R F' D' F' D F' U' R' F R F' R' F' U R' D'"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
                 "D R' U' D R' D' R2 D R' U D' R' D' R U' R' U D R D'"
             ],
             [
@@ -14268,14 +14276,6 @@
             [
                 "Daniel Wallin"
             ]
-        ],
-        [
-            [
-                "D R F' D' F' D F' U' R' F R F' R' F' U R' D'"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
-            ]
         ]
     ],
     "GAWP": [
@@ -14286,6 +14286,14 @@
             [
                 "Andy Wong",
                 "Jonghyun Kim (김종현)"
+            ]
+        ],
+        [
+            [
+                "R F R' F D F D' F2 U R F' R' U' D F D'"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
             ]
         ],
         [
@@ -14311,14 +14319,6 @@
             [
                 "Daniel Wallin"
             ]
-        ],
-        [
-            [
-                "R F R' F D F D' F2 U R F' R' U' D F D'"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
-            ]
         ]
     ],
     "GAWQ": [
@@ -14331,6 +14331,14 @@
                 "Graham Siggins",
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)"
+            ]
+        ],
+        [
+            [
+                "R' F D' F' D F' D' R2 U' R' U R2 F' D F R2"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
             ]
         ],
         [
@@ -14348,14 +14356,6 @@
             [
                 "Daniel Wallin"
             ]
-        ],
-        [
-            [
-                "R' F D' F' D F' D' R2 U' R' U R2 F' D F R2"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
-            ]
         ]
     ],
     "GAWR": [
@@ -14367,6 +14367,14 @@
                 "Andy Wong",
                 "Graham Siggins",
                 "Jonghyun Kim (김종현)"
+            ]
+        ],
+        [
+            [
+                "U' R' U F2 D F' U F U' D' F U F U' F R"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
             ]
         ],
         [
@@ -14392,14 +14400,6 @@
             [
                 "Daniel Wallin"
             ]
-        ],
-        [
-            [
-                "U' R' U F2 D F' U F U' D' F U F U' F R"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
-            ]
         ]
     ],
     "GAWS": [
@@ -14410,6 +14410,14 @@
             [
                 "Graham Siggins",
                 "Jonghyun Kim (김종현)"
+            ]
+        ],
+        [
+            [
+                "R2 F' R' U2 R U R2 U' D' R U2 R' F' D R2 F"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
             ]
         ],
         [
@@ -14443,14 +14451,6 @@
             [
                 "Daniel Wallin"
             ]
-        ],
-        [
-            [
-                "R2 F' R' U2 R U R2 U' D' R U2 R' F' D R2 F"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
-            ]
         ]
     ],
     "GAWT": [
@@ -14462,6 +14462,14 @@
                 "Andy Wong",
                 "Graham Siggins",
                 "Jonghyun Kim (김종현)"
+            ]
+        ],
+        [
+            [
+                "R D F U' R' U R U F' U' R D' R2 D R D'"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
             ]
         ],
         [
@@ -14479,14 +14487,6 @@
             [
                 "Daniel Wallin"
             ]
-        ],
-        [
-            [
-                "R D F U' R' U R U F' U' R D' R2 D R D'"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
-            ]
         ]
     ],
     "GAXM": [
@@ -14497,6 +14497,14 @@
             [
                 "Graham Siggins",
                 "Jonghyun Kim (김종현)"
+            ]
+        ],
+        [
+            [
+                "R2 F' U' R D' R U R' D R D' F' D R2 F"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
             ]
         ],
         [
@@ -14530,14 +14538,6 @@
             [
                 "Yangyang Shen (沈炀炀)"
             ]
-        ],
-        [
-            [
-                "R2 F' U' R D' R U R' D R D' F' D R2 F"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
-            ]
         ]
     ],
     "GAXN": [
@@ -14564,18 +14564,18 @@
         ],
         [
             [
-                "R U' R F' U R2 U' R2 F R2 U R' U' R U R"
-            ],
-            [
-                "Daniel Wallin"
-            ]
-        ],
-        [
-            [
                 "D R2 F' R2 D' F' D R2 U F D' F U' D R2 D' F"
             ],
             [
                 "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
+                "R U' R F' U R2 U' R2 F R2 U R' U' R U R"
+            ],
+            [
+                "Daniel Wallin"
             ]
         ]
     ],
@@ -14624,6 +14624,14 @@
         ],
         [
             [
+                "R D' R' F D F2 D' F2 U F' U' R D R' F"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
                 "D F' D' R' F R U' D R U F' R' D' r F' r' D"
             ],
             [
@@ -14636,14 +14644,6 @@
             ],
             [
                 "Daniel Wallin"
-            ]
-        ],
-        [
-            [
-                "R D' R' F D F2 D' F2 U F' U' R D R' F"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
             ]
         ]
     ],
@@ -14669,18 +14669,18 @@
         ],
         [
             [
-                "D' R D R2 U' R' U2 R' D' R U' R' U' D R' U D' R' D"
-            ],
-            [
-                "Daniel Wallin"
-            ]
-        ],
-        [
-            [
                 "R F' D F U' R' U R2 D' R2 D R F' D' F"
             ],
             [
                 "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
+                "D' R D R2 U' R' U2 R' D' R U' R' U' D R' U D' R' D"
+            ],
+            [
+                "Daniel Wallin"
             ]
         ]
     ],
@@ -14697,18 +14697,18 @@
         ],
         [
             [
-                "U R2 U' R' U2 R U2 R' F R U R' U' R' F' U'"
-            ],
-            [
-                "Daniel Wallin"
-            ]
-        ],
-        [
-            [
                 "R U' R' U R' F2 R2 U' R2 U F2 R D R' D'"
             ],
             [
                 "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
+                "U R2 U' R' U2 R U2 R' F R U R' U' R' F' U'"
+            ],
+            [
+                "Daniel Wallin"
             ]
         ]
     ],
@@ -14726,6 +14726,14 @@
         ],
         [
             [
+                "R2 F' R2 D' F' D R2 U F D' F U' D R2 D' F D"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
                 "U D R2 D' R U R U R' U' R U' R D R' U R' U' R D'"
             ],
             [
@@ -14738,14 +14746,6 @@
             ],
             [
                 "Daniel Wallin"
-            ]
-        ],
-        [
-            [
-                "R2 F' R2 D' F' D R2 U F D' F U' D R2 D' F D"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
             ]
         ]
     ],
@@ -14800,6 +14800,14 @@
         ],
         [
             [
+                "R F' D' F' D F' U' R' F R F' R' F' U R'"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
                 "R' D' R2 U D' R' F' R U R' U' R' F R2 U' R' U' R D R2 D R"
             ],
             [
@@ -14820,14 +14828,6 @@
             ],
             [
                 "Yangyang Shen (沈炀炀)"
-            ]
-        ],
-        [
-            [
-                "R F' D' F' D F' U' R' F R F' R' F' U R'"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
             ]
         ]
     ],
@@ -14915,18 +14915,18 @@
     "GBGE": [
         [
             [
-                "M' U2 R U' R' U2 R L U' R' U M L'"
-            ],
-            [
-                "Liren Sun (孙立仁)"
-            ]
-        ],
-        [
-            [
                 "U2 R U2 R' U' F' U F R U R' U' R U' R'"
             ],
             [
                 "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
+                "M' U2 R U' R' U2 R L U' R' U M L'"
+            ],
+            [
+                "Liren Sun (孙立仁)"
             ]
         ]
     ],
@@ -15095,18 +15095,18 @@
         ],
         [
             [
-                "R' l' U R' U' y R' F' R2 U' R' U R' F R F2 y' x'"
-            ],
-            [
-                "Daniel Lin"
-            ]
-        ],
-        [
-            [
                 "R2 U' R D R D' R D R2 U D' R F R' F' R2"
             ],
             [
                 "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
+                "R' l' U R' U' y R' F' R2 U' R' U R' F R F2 y' x'"
+            ],
+            [
+                "Daniel Lin"
             ]
         ]
     ],
@@ -15118,6 +15118,14 @@
             [
                 "Daniel Lin",
                 "Hongjie Zhang (张鸿杰)"
+            ]
+        ],
+        [
+            [
+                "R' F' D R U' R U R2 F R F' R' D' F2 R"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
             ]
         ],
         [
@@ -15135,14 +15143,6 @@
             [
                 "Daniel Lin"
             ]
-        ],
-        [
-            [
-                "R' F' D R U' R U R2 F R F' R' D' F2 R"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
-            ]
         ]
     ],
     "GBJD": [
@@ -15153,6 +15153,14 @@
             [
                 "Hongjie Zhang (张鸿杰)",
                 "Liren Sun (孙立仁)"
+            ]
+        ],
+        [
+            [
+                "R' M' D R2 D' R U R' U' R' D R' U R2 D' R' U' r'"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
             ]
         ],
         [
@@ -15170,17 +15178,17 @@
             [
                 "Daniel Lin"
             ]
-        ],
+        ]
+    ],
+    "GBJE": [
         [
             [
-                "R' M' D R2 D' R U R' U' R' D R' U R2 D' R' U' r'"
+                "U' R' U' R U' R' F U R U2 R' U' R U R' F' R U'"
             ],
             [
                 "Yifan Wang (王逸帆)"
             ]
-        ]
-    ],
-    "GBJE": [
+        ],
         [
             [
                 "M U R' U' R l U2 r' U' r U2 R' M' x"
@@ -15203,14 +15211,6 @@
             ],
             [
                 "Liren Sun (孙立仁)"
-            ]
-        ],
-        [
-            [
-                "U' R' U' R U' R' F U R U2 R' U' R U R' F' R U'"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
             ]
         ]
     ],
@@ -15236,18 +15236,18 @@
         ],
         [
             [
-                "M' U2 R U R U' R' U' R U R D R' U' R D' R' U2 R' U2 R' U2 M"
-            ],
-            [
-                "Liren Sun (孙立仁)"
-            ]
-        ],
-        [
-            [
                 "U' R' U' F' U F R2 U R2 F D' F D F2 R U"
             ],
             [
                 "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
+                "M' U2 R U R U' R' U' R U R D R' U' R D' R' U2 R' U2 R' U2 M"
+            ],
+            [
+                "Liren Sun (孙立仁)"
             ]
         ]
     ],
@@ -15263,6 +15263,14 @@
                 "Ethan Pan",
                 "Grzegorz Jałocha",
                 "Xin Shi (石欣)"
+            ]
+        ],
+        [
+            [
+                "R D F' D' F' R2 F R2 F R2 D F D' R"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
             ]
         ],
         [
@@ -15287,14 +15295,6 @@
             ],
             [
                 "Hongjie Zhang (张鸿杰)"
-            ]
-        ],
-        [
-            [
-                "R D F' D' F' R2 F R2 F R2 D F D' R"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
             ]
         ]
     ],
@@ -15383,6 +15383,14 @@
     "GBJN": [
         [
             [
+                "R' F D F2 D' F R U' R' D R U R' F D' R"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
                 "r' U' D R D R' U R2 D' R D R2 D2 r"
             ],
             [
@@ -15395,14 +15403,6 @@
             ],
             [
                 "Daniel Lin"
-            ]
-        ],
-        [
-            [
-                "R' F D F2 D' F R U' R' D R U R' F D' R"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
             ]
         ]
     ],
@@ -15418,18 +15418,18 @@
         ],
         [
             [
-                "r L U D R U R' D R2 U' R U R2 E2 R2 y2 x'"
-            ],
-            [
-                "Daniel Lin"
-            ]
-        ],
-        [
-            [
                 "R D' R2 F2 U' F R2 U R2 F2 U' F U F' D R"
             ],
             [
                 "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
+                "r L U D R U R' D R2 U' R U R2 E2 R2 y2 x'"
+            ],
+            [
+                "Daniel Lin"
             ]
         ]
     ],
@@ -15475,22 +15475,30 @@
     "GBJR": [
         [
             [
-                "R' U' F' U F R F' U R' U R U2 F R' U R"
-            ],
-            [
-                "Charlie Harrison"
-            ]
-        ],
-        [
-            [
                 "D R D' R2 F2 U' F R2 U R2 F2 U' F U F' D R D'"
             ],
             [
                 "Yifan Wang (王逸帆)"
             ]
+        ],
+        [
+            [
+                "R' U' F' U F R F' U R' U R U2 F R' U R"
+            ],
+            [
+                "Charlie Harrison"
+            ]
         ]
     ],
     "GBJS": [
+        [
+            [
+                "R2 F U R U' R' F' R U R' U' R2 F R' F'"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
+            ]
+        ],
         [
             [
                 "R' F R D R' F2 R D' R' F R2 D R2 F R2 D' R'"
@@ -15514,17 +15522,17 @@
             [
                 "Daniel Lin"
             ]
-        ],
+        ]
+    ],
+    "GBJT": [
         [
             [
-                "R2 F U R U' R' F' R U R' U' R2 F R' F'"
+                "D R F' D' F' R2 F R2 F R2 D F D' R2 D R' D'"
             ],
             [
                 "Yifan Wang (王逸帆)"
             ]
-        ]
-    ],
-    "GBJT": [
+        ],
         [
             [
                 "M' U' R' F' U' F R U R' F R' F' R2 M"
@@ -15540,17 +15548,17 @@
             [
                 "Daniel Lin"
             ]
-        ],
+        ]
+    ],
+    "GBJW": [
         [
             [
-                "D R F' D' F' R2 F R2 F R2 D F D' R2 D R' D'"
+                "R2 F R' U2 R' U' R2 U R' U' D R' U' R D' F' R2"
             ],
             [
                 "Yifan Wang (王逸帆)"
             ]
-        ]
-    ],
-    "GBJW": [
+        ],
         [
             [
                 "F U R U' R' F' R U' F U' F' U2 R' F U' F'"
@@ -15566,17 +15574,17 @@
             [
                 "Daniel Lin"
             ]
-        ],
+        ]
+    ],
+    "GBJX": [
         [
             [
-                "R2 F R' U2 R' U' R2 U R' U' D R' U' R D' F' R2"
+                "M' U R F' U2 R2 F R2 U2 R2 U' F' U R2 F r'"
             ],
             [
                 "Yifan Wang (王逸帆)"
             ]
-        ]
-    ],
-    "GBJX": [
+        ],
         [
             [
                 "U' F R2 D2 r D' r' D2 R2 F' R' F R F' U"
@@ -15600,17 +15608,17 @@
             [
                 "Daniel Lin"
             ]
-        ],
+        ]
+    ],
+    "GBJY": [
         [
             [
-                "M' U R F' U2 R2 F R2 U2 R2 U' F' U R2 F r'"
+                "R' D' F D F2 D' F R U' R' D R U R' F R"
             ],
             [
                 "Yifan Wang (王逸帆)"
             ]
-        ]
-    ],
-    "GBJY": [
+        ],
         [
             [
                 "F' r' F r F U' R U R2 M F R F' M'"
@@ -15625,14 +15633,6 @@
             ],
             [
                 "Daniel Lin"
-            ]
-        ],
-        [
-            [
-                "R' D' F D F2 D' F R U' R' D R U R' F R"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
             ]
         ]
     ],
@@ -15930,18 +15930,18 @@
     "GDJG": [
         [
             [
-                "x' R2 U' R' U x R' F' U' F R U R' U'"
-            ],
-            [
-                "Diego Meneghetti"
-            ]
-        ],
-        [
-            [
                 "R' U R U2 R' U' F U R U' R' F' U2 R U"
             ],
             [
                 "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
+                "x' R2 U' R' U x R' F' U' F R U R' U'"
+            ],
+            [
+                "Diego Meneghetti"
             ]
         ]
     ],
@@ -16178,20 +16178,20 @@
         ],
         [
             [
-                "D x U2 R2 F R F' R U2 r' U L D'"
-            ],
-            [
-                "Andrew Tan Jing Bang",
-                "Graham Siggins"
-            ]
-        ],
-        [
-            [
                 "D r2 D' r2 U r2 U' r2 U r2 D' r2 U'"
             ],
             [
                 "Anto Kam (甘浩東)",
                 "Yangyang Shen (沈炀炀)"
+            ]
+        ],
+        [
+            [
+                "D x U2 R2 F R F' R U2 r' U L D'"
+            ],
+            [
+                "Andrew Tan Jing Bang",
+                "Graham Siggins"
             ]
         ],
         [
@@ -16217,22 +16217,22 @@
         ],
         [
             [
-                "L U R U R' F' R U R' U' R' F R2 U' R' U2 L'"
-            ],
-            [
-                "Andrew Tan Jing Bang",
-                "Anto Kam (甘浩東)",
-                "Leonardo Ezequiel Cruz"
-            ]
-        ],
-        [
-            [
                 "R' D' R U R' U' D R D' R D R' U R' D' R D R U'"
             ],
             [
                 "Elliott Kobelansky",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
+            ]
+        ],
+        [
+            [
+                "L U R U R' F' R U R' U' R' F R2 U' R' U2 L'"
+            ],
+            [
+                "Andrew Tan Jing Bang",
+                "Anto Kam (甘浩東)",
+                "Leonardo Ezequiel Cruz"
             ]
         ]
     ],
@@ -16507,38 +16507,22 @@
         ],
         [
             [
-                "x R2 F R F' R U2 r' U L F2"
-            ],
-            [
-                "Andrew Tan Jing Bang"
-            ]
-        ],
-        [
-            [
                 "R2 D' R2 U R D R' D' R U' R' U R' U' D"
             ],
             [
                 "Yifan Wang (王逸帆)"
             ]
-        ]
-    ],
-    "GEJH": [
-        [
-            [
-                "U' R' U R U2 R' L' U R U' L U'"
-            ],
-            [
-                "Leonardo Ezequiel Cruz"
-            ]
         ],
         [
             [
-                "U' R' U L' U' R L U2 L' U' L U'"
+                "x R2 F R F' R U2 r' U L F2"
             ],
             [
                 "Andrew Tan Jing Bang"
             ]
-        ],
+        ]
+    ],
+    "GEJH": [
         [
             [
                 "U' R' U R U F' U R' U R U2 F"
@@ -16554,12 +16538,10 @@
             [
                 "Yifan Wang (王逸帆)"
             ]
-        ]
-    ],
-    "GEJI": [
+        ],
         [
             [
-                "U L U' L' U x' U' R U' R' U2 L' U L U' F2 x"
+                "U' R' U R U2 R' L' U R U' L U'"
             ],
             [
                 "Leonardo Ezequiel Cruz"
@@ -16567,12 +16549,14 @@
         ],
         [
             [
-                "U L U' x U2 R2 F R F' R U2 r' U L U L' U'"
+                "U' R' U L' U' R L U2 L' U' L U'"
             ],
             [
                 "Andrew Tan Jing Bang"
             ]
-        ],
+        ]
+    ],
+    "GEJI": [
         [
             [
                 "R' U2 R U' R' F' R U' F U' F' U2 R' F U2 R"
@@ -16587,6 +16571,22 @@
             ],
             [
                 "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
+                "U L U' L' U x' U' R U' R' U2 L' U L U' F2 x"
+            ],
+            [
+                "Leonardo Ezequiel Cruz"
+            ]
+        ],
+        [
+            [
+                "U L U' x U2 R2 F R F' R U2 r' U L U L' U'"
+            ],
+            [
+                "Andrew Tan Jing Bang"
             ]
         ]
     ],
@@ -16623,18 +16623,18 @@
     "GEJP": [
         [
             [
-                "y' z U' R' U' R' F R2 U' R' U' R U R' F' R U2 y x"
-            ],
-            [
-                "Daniel Lin"
-            ]
-        ],
-        [
-            [
                 "D' R' U R2 U R' D R U' D' R2 D R U' D' R D"
             ],
             [
                 "Yifan Wang (王逸帆)"
+            ]
+        ],
+        [
+            [
+                "y' z U' R' U' R' F R2 U' R' U' R U R' F' R U2 y x"
+            ],
+            [
+                "Daniel Lin"
             ]
         ]
     ],
