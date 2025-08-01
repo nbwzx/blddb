@@ -1,6 +1,7 @@
 import json
 import requests
 import sys
+import time
 
 from bs4 import BeautifulSoup
 from loguru import logger
@@ -30,38 +31,56 @@ def main():
 
     for name in algs_json:
         search_url = f"https://www.worldcubeassociation.org/api/v0/search?q={name}"
-        response = requests.get(search_url)
-
-        if response.status_code == 200:
-            search_results = response.json().get("result")
-            for search_result in search_results:
-                if search_result.get("name") != name:
-                    continue
-
-                wca_id_text = search_result.get("wca_id")
-                person_url = (
-                    f"https://www.worldcubeassociation.org/persons/{wca_id_text}"
-                )
-                response = requests.get(person_url)
+        while True:
+            try:
+                response = requests.get(search_url, timeout=10)
 
                 if response.status_code == 200:
-                    soup = BeautifulSoup(response.text, "html.parser")
-                    links = soup.find_all("a")
-                    for link in links:
-                        if link.get("href") == "/results/rankings/333bf/single":
-                            results[name] = parse_time(link.text.strip())
-                        if link.get("href") == "/results/rankings/444bf/single":
-                            results_444[name] = parse_time(link.text.strip())
+                    search_results = response.json().get("result")
+                    break
                 else:
-                    logger.error(
-                        f"Request to {person_url} failed with status code: {response.status_code}"
+                    logger.warning(
+                        f"Request to search URL failed for {name} with status code: {response.status_code}"
                     )
-        else:
-            logger.error(
-                f"Request to search URL failed for {name} with status code: {response.status_code}"
-            )
+                    time.sleep(10)
+            except Exception as e:
+                logger.warning(e.__class__.__name__ +
+                                " when opening " + search_url)
+                time.sleep(10)
 
-        logger.info(f"{name}: 333bf: {results.get(name)}, 444bf: {results_444.get(name)}")
+        for search_result in search_results:
+            if search_result.get("name") != name:
+                continue
+
+            wca_id_text = search_result.get("wca_id")
+            person_url = f"https://www.worldcubeassociation.org/persons/{wca_id_text}"
+
+            while True:
+                try:
+                    response = requests.get(person_url, timeout=10)
+
+                    if response.status_code == 200:
+                        soup = BeautifulSoup(response.text, "html.parser")
+                        links = soup.find_all("a")
+                        for link in links:
+                            if link.get("href") == "/results/rankings/333bf/single":
+                                results[name] = parse_time(link.text.strip())
+                            if link.get("href") == "/results/rankings/444bf/single":
+                                results_444[name] = parse_time(link.text.strip())
+                        break
+                    else:
+                        logger.warning(
+                            f"Request to {person_url} failed with status code: {response.status_code}"
+                        )
+                    time.sleep(10)
+                except Exception as e:
+                    logger.warning(e.__class__.__name__ +
+                                   " when opening " + person_url)
+                    time.sleep(10)
+
+        logger.info(
+            f"{name}: 333bf: {results.get(name)}, 444bf: {results_444.get(name)}"
+        )
 
     results_json = json.dumps(results, ensure_ascii=False, indent=4)
     with open("scripts/sourceToResult.json", "w", encoding="utf-8") as f:
