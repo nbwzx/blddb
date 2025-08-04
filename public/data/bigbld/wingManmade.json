@@ -29909,6 +29909,15 @@
             "D:[D r D',R']"
         ]
     ],
+    "FIR": [
+        [
+            "D2 U R U' r' U R' U' r D2",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "D2:[U R U',r']"
+        ]
+    ],
     "FIS": [
         [
             "4Fw' r2 U R U' r2 U R' U' 4Fw",
@@ -29925,6 +29934,15 @@
                 "Gavriel Johann Arcilla"
             ],
             "U':[L',U' l' U]"
+        ]
+    ],
+    "FIW": [
+        [
+            "R' F' R U R u R' U' R u' R2 F R",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "R' F' R:[U,R u R']"
         ]
     ],
     "FIX": [
@@ -30344,6 +30362,15 @@
             "D':[r,D' R' D]"
         ]
     ],
+    "FKR": [
+        [
+            "D' U R U' r' U R' U' r D",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "D':[U R U',r']"
+        ]
+    ],
     "FKT": [
         [
             "D' U' L' U r' U' L U r D",
@@ -30556,6 +30583,15 @@
             "[r,D' R' D]"
         ]
     ],
+    "FMR": [
+        [
+            "U R U' r' U R' U' r",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "[U R U',r']"
+        ]
+    ],
     "FMT": [
         [
             "U' L' U r' U' L U r",
@@ -30563,6 +30599,15 @@
                 "Gavriel Johann Arcilla"
             ],
             "[U' L' U,r']"
+        ]
+    ],
+    "FMW": [
+        [
+            "Uw R' U' r' U R U' r u'",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "u:[U R' U',r']"
         ]
     ],
     "FMX": [
@@ -30641,6 +30686,15 @@
             "4Lw u U':[R' u' R,U2]"
         ]
     ],
+    "FNR": [
+        [
+            "4Rw' U' R' u R U2 R' u' R U' 4Rw",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "4Rw' U':[R' u R,U2]"
+        ]
+    ],
     "FNS": [
         [
             "Lw l U' L u' L' U2 L u L' U' l' Lw'",
@@ -30657,6 +30711,15 @@
                 "Gavriel Johann Arcilla"
             ],
             "4Lw U:[L' u L,U2]"
+        ]
+    ],
+    "FNW": [
+        [
+            "U' 4Lw U R' u' R U R' u R U2 4Lw' U",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "U' 4Lw U:[R' u' R,U]"
         ]
     ],
     "FNX": [
@@ -30736,6 +30799,15 @@
             "[D r D',R']"
         ]
     ],
+    "FOR": [
+        [
+            "D U R U' r' U R' U' r D'",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "D:[U R U',r']"
+        ]
+    ],
     "FOS": [
         [
             "Dw U R U' r' U R' U' r Dw'",
@@ -30743,6 +30815,15 @@
                 "Gavriel Johann Arcilla"
             ],
             "Dw:[U R U',r']"
+        ]
+    ],
+    "FOW": [
+        [
+            "R u' R' U R u2 R' U' R u' R'",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "R u':[R' U R,u2]"
         ]
     ],
     "FOX": [
@@ -31025,6 +31106,15 @@
             "[u',R' U R]"
         ]
     ],
+    "FRI": [
+        [
+            "D2 r' U R U' r U R' U' D2",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "D2:[r',U R U']"
+        ]
+    ],
     "FRJ": [
         [
             "r2 U R U' r2 U R' U'",
@@ -31038,6 +31128,15 @@
             "[r2,U R U']"
         ]
     ],
+    "FRK": [
+        [
+            "D' r' U R U' r U R' U' D",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "D':[r',U R U']"
+        ]
+    ],
     "FRL": [
         [
             "D r2 U R U' r2 U R' U' D'",
@@ -31045,6 +31144,33 @@
                 "Gavriel Johann Arcilla"
             ],
             "D:[r2,U R U']"
+        ]
+    ],
+    "FRM": [
+        [
+            "r' U R U' r U R' U'",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "[r',U R U']"
+        ]
+    ],
+    "FRN": [
+        [
+            "4Rw' U R' u R U2 R' u' R U 4Rw",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "4Rw' U:[R' u R,U2]"
+        ]
+    ],
+    "FRO": [
+        [
+            "D r' U R U' r U R' U' D'",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "D:[r',U R U']"
         ]
     ],
     "FRQ": [
@@ -31090,6 +31216,15 @@
                 "Gavriel Johann Arcilla"
             ],
             "Rw U':[r',U' L U]"
+        ]
+    ],
+    "FRY": [
+        [
+            "R U R' d' R U' R' d",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "[R U R',d']"
         ]
     ],
     "FSI": [
@@ -31340,6 +31475,15 @@
             "[u2,R' U R]"
         ]
     ],
+    "FWI": [
+        [
+            "R' F' R2 u R' U R u' R' U' R' F R",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "R' F' R:[R u R',U]"
+        ]
+    ],
     "FWJ": [
         [
             "r U L U' r2 U L' U' r",
@@ -31372,6 +31516,33 @@
                 "Gavriel Johann Arcilla"
             ],
             "D' U' 4Lw U:[U,R' u' R]"
+        ]
+    ],
+    "FWM": [
+        [
+            "u r' U R' U' r U R Uw'",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "u:[r',U R' U']"
+        ]
+    ],
+    "FWN": [
+        [
+            "U' 4Lw U2 R' u' R U' R' u R U' 4Lw' U",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "U' 4Lw U:[U,R' u' R]"
+        ]
+    ],
+    "FWO": [
+        [
+            "R u R' U R u2 R' U' R u R'",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "R u:[R' U R,u2]"
         ]
     ],
     "FWP": [
@@ -31633,6 +31804,15 @@
                 "Gavriel Johann Arcilla"
             ],
             "F' R U':[R u' R',U2]"
+        ]
+    ],
+    "FYR": [
+        [
+            "d' R U R' d R U' R'",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "[d',R U R']"
         ]
     ],
     "FYS": [
