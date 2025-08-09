@@ -64,9 +64,9 @@ const Header = () => {
   return (
     <>
       <header
-        className={`header left-0 top-0 z-40 flex w-[100vw] items-center ${
+        className={`header top-0 left-0 z-40 flex w-[100vw] items-center ${
           sticky
-            ? "fixed z-[41] bg-white !bg-opacity-80 shadow-sticky backdrop-blur-sm transition dark:bg-gray-dark dark:shadow-sticky-dark"
+            ? "shadow-sticky dark:bg-gray-dark dark:shadow-sticky-dark fixed z-[41] bg-white bg-white/80 backdrop-blur-sm transition"
             : "absolute bg-transparent"
         }`}
       >
@@ -103,27 +103,27 @@ const Header = () => {
                   onClick={navbarToggleHandler}
                   id="navbarToggler"
                   aria-label="Mobile Menu"
-                  className="absolute right-4 top-1/2 block translate-y-[-50%] rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden"
+                  className="ring-primary absolute top-1/2 right-4 block translate-y-[-50%] rounded-lg px-3 py-[6px] focus:ring-2 lg:hidden"
                 >
                   <span
                     className={`relative my-1.5 block h-0.5 w-[30px] bg-black transition-all duration-300 dark:bg-white ${
-                      navbarOpen ? " top-[7px] rotate-45" : " "
+                      navbarOpen ? "top-[7px] rotate-45" : " "
                     }`}
                   />
                   <span
                     className={`relative my-1.5 block h-0.5 w-[30px] bg-black transition-all duration-300 dark:bg-white ${
-                      navbarOpen ? "opacity-0 " : " "
+                      navbarOpen ? "opacity-0" : " "
                     }`}
                   />
                   <span
                     className={`relative my-1.5 block h-0.5 w-[30px] bg-black transition-all duration-300 dark:bg-white ${
-                      navbarOpen ? " top-[-8px] -rotate-45" : " "
+                      navbarOpen ? "top-[-8px] -rotate-45" : " "
                     }`}
                   />
                 </button>
                 <nav
                   id="navbarCollapse"
-                  className={`navbar absolute right-0 z-30 w-[210px] rounded border-[.5px] border-body-color/50 bg-white px-6 py-4 duration-300 dark:border-body-color/20 dark:bg-dark lg:visible lg:static lg:w-auto lg:border-none lg:!bg-transparent lg:p-0 lg:opacity-100 ${
+                  className={`navbar border-body-color/50 dark:border-body-color/20 dark:bg-dark absolute right-0 z-30 w-[210px] rounded border-[.5px] bg-white px-6 py-4 duration-300 lg:visible lg:static lg:w-auto lg:border-none lg:!bg-transparent lg:p-0 lg:opacity-100 ${
                     navbarOpen
                       ? "visibility top-full opacity-100"
                       : "invisible top-[120%] opacity-0"
@@ -141,10 +141,10 @@ const Header = () => {
                                 : "_self"
                             }
                             onClick={() => setNavbarOpen(false)}
-                            className={`flex whitespace-nowrap py-2 text-base font-bold lg:mr-0 lg:inline-flex lg:px-1 lg:font-medium ${
+                            className={`flex py-2 text-base font-bold whitespace-nowrap lg:mr-0 lg:inline-flex lg:px-1 lg:font-medium ${
                               usePathName === menuItem.path
                                 ? "text-primary dark:text-white"
-                                : "text-dark hover:text-primary dark:text-white dark:hover:text-primary"
+                                : "text-dark hover:text-primary dark:hover:text-primary dark:text-white"
                             }`}
                           >
                             {t(menuItem.title)}
@@ -160,7 +160,7 @@ const Header = () => {
                                 }
                               }}
                               className={
-                                "flex cursor-pointer items-center justify-between whitespace-nowrap py-2 text-base font-bold text-dark group-hover:text-primary dark:text-white dark:group-hover:text-primary lg:mr-0 lg:inline-flex lg:px-1 lg:font-medium"
+                                "text-dark group-hover:text-primary dark:group-hover:text-primary flex cursor-pointer items-center justify-between py-2 text-base font-bold whitespace-nowrap lg:mr-0 lg:inline-flex lg:px-1 lg:font-medium dark:text-white"
                               }
                             >
                               {t(menuItem.title)}
@@ -176,7 +176,7 @@ const Header = () => {
                               </span>
                             </p>
                             <div
-                              className={`submenu relative left-0 top-full rounded-sm bg-white transition-[top] duration-300 dark:bg-dark lg:invisible lg:absolute lg:top-[110%] lg:block lg:bg-gray-100 lg:p-2 lg:opacity-0 lg:shadow-[1px_1px_3px_1px_rgba(0,0,0,0.2)] lg:dark:bg-gray-700 ${
+                              className={`submenu dark:bg-dark relative top-full left-0 rounded-sm bg-white transition-[top] duration-300 lg:invisible lg:absolute lg:top-[110%] lg:block lg:bg-gray-100 lg:p-2 lg:opacity-0 lg:shadow-[1px_1px_3px_1px_rgba(0,0,0,0.2)] lg:dark:bg-gray-700 ${
                                 openIndex === menuIndex && navbarOpen
                                   ? "block group-hover:opacity-100 lg:group-hover:visible lg:group-hover:top-full"
                                   : "hidden"
@@ -198,7 +198,7 @@ const Header = () => {
                                         setNavbarOpen(false);
                                       }}
                                       key={submenuIndex}
-                                      className="block min-w-20 whitespace-nowrap rounded py-1.5 pr-3 text-sm text-dark hover:text-primary dark:text-white dark:hover:text-primary"
+                                      className="text-dark hover:text-primary dark:hover:text-primary block min-w-20 rounded py-1.5 pr-3 text-sm whitespace-nowrap dark:text-white"
                                     >
                                       {t(submenuItem.title)}
                                     </Link>

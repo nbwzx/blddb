@@ -360,7 +360,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
 
     return (
       <div
-        className={`mb-3 mr-2 mt-4 inline-block font-bold text-dark dark:text-white ${isClickable ? "cursor-pointer" : ""}`}
+        className={`text-dark mt-4 mr-2 mb-3 inline-block font-bold dark:text-white ${isClickable ? "cursor-pointer" : ""}`}
         onClick={isClickable ? handleCopyPosition : undefined}
       >
         {positionHint}
@@ -377,7 +377,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
         ref={inputRef}
         placeholder=""
         style={{ width: `${inputWidth}rem` }}
-        className="rounded-sm border-b-[3px] border-gray-500 bg-inherit px-2 py-1 text-base font-medium uppercase text-dark outline-none transition-all duration-300 focus:border-primary dark:border-gray-100 dark:bg-inherit dark:text-white dark:shadow-none dark:focus:border-primary dark:focus:shadow-none"
+        className="text-dark focus:border-primary dark:focus:border-primary rounded-sm border-b-[3px] border-gray-500 bg-inherit px-2 py-1 text-base font-medium uppercase outline-hidden transition-all duration-300 dark:border-gray-100 dark:bg-inherit dark:text-white dark:shadow-none dark:focus:shadow-none"
         autoComplete="off"
         maxLength={selectValuesLen}
         onChange={handleInputChange}
@@ -395,7 +395,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
           onClick={scrollToTop}
           ref={modeRef}
           value={modeValue}
-          className="inline-block rounded-sm border-b-[3px] border-gray-500 bg-inherit py-1 pr-5 text-base font-medium text-dark outline-none transition-all duration-300 focus:border-primary dark:border-gray-100 dark:bg-gray-dark dark:text-white dark:shadow-none dark:focus:border-primary dark:focus:shadow-none"
+          className="text-dark focus:border-primary dark:bg-gray-dark dark:focus:border-primary inline-block rounded-sm border-b-[3px] border-gray-500 bg-inherit py-1 pr-5 text-base font-medium outline-hidden transition-all duration-300 dark:border-gray-100 dark:text-white dark:shadow-none dark:focus:shadow-none"
         >
           {Object.entries(modeToEmoji).map(([mode, emoji]) => (
             <option key={mode} value={mode}>
@@ -423,7 +423,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
           ref={(ref) => {
             selectRefs.current[index] = ref as HTMLSelectElement;
           }}
-          className="w-[3.5rem] rounded-sm border-b-[3px] border-gray-500 bg-inherit py-1 text-base font-medium text-dark outline-none transition-all duration-300 focus:border-primary dark:border-gray-100 dark:bg-gray-dark dark:text-white dark:shadow-none dark:focus:border-primary dark:focus:shadow-none"
+          className="text-dark focus:border-primary dark:bg-gray-dark dark:focus:border-primary w-[3.5rem] rounded-sm border-b-[3px] border-gray-500 bg-inherit py-1 text-base font-medium outline-hidden transition-all duration-300 dark:border-gray-100 dark:text-white dark:shadow-none dark:focus:shadow-none"
         >
           <option></option>
           {modeValue === "manmade" && codeType !== "twists" && (
@@ -521,7 +521,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
   };
 
   return (
-    <section className="pb-[120px] pt-[100px]">
+    <section className="pt-[100px] pb-[120px]">
       <div className="container">
         <div className="-mx-4 flex flex-wrap justify-center">
           <div className="w-full px-4 lg:w-10/12">
@@ -538,7 +538,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
                   <span className="text-lg">{t("table.copied")}</span>
                 </div>
               )}
-              <h2 className="mb-8 text-center text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight">
+              <h2 className="mb-8 text-center text-3xl leading-tight font-bold text-black sm:text-4xl sm:leading-tight dark:text-white">
                 {t(`${codeType}.title`)}
               </h2>
               <p className="text-black dark:text-white">

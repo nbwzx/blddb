@@ -366,7 +366,7 @@ const Table = ({
                 onClick={() => handleCellClick(item)}
                 className={
                   getVideoUrl(item).length > 0
-                    ? "cursor-pointer text-primary dark:text-[#00BCD4]"
+                    ? "text-primary cursor-pointer dark:text-[#00BCD4]"
                     : ""
                 }
               >
@@ -534,11 +534,11 @@ const Table = ({
       {isVideoVisible && (
         <>
           <div
-            className="z-999 fixed left-0 top-0 h-full w-full bg-black bg-opacity-50"
+            className="fixed top-0 left-0 z-999 h-full w-full bg-black/50"
             onClick={() => setIsVideoVisible(false)}
           />
           <div
-            className="z-1000 fixed left-1/2 top-1/2 flex -translate-x-1/2 -translate-y-1/2 transform flex-col items-center rounded-lg bg-white shadow-lg"
+            className="fixed top-1/2 left-1/2 z-1000 flex -translate-x-1/2 -translate-y-1/2 transform flex-col items-center rounded-lg bg-white shadow-lg"
             style={{
               width: videoDimensions.width || "80%",
               height: videoDimensions.height || "80%",
@@ -547,7 +547,7 @@ const Table = ({
             <>
               {videoIdx > 0 && (
                 <button
-                  className="absolute left-4 top-1/2 -translate-y-1/2 transform rounded-full bg-gray-300 p-2"
+                  className="absolute top-1/2 left-4 -translate-y-1/2 transform rounded-full bg-gray-300 p-2"
                   onClick={() => handleVideoChange(-1)}
                 >
                   ◀
@@ -555,7 +555,7 @@ const Table = ({
               )}
               {videoIdx < videoList.length - 1 && (
                 <button
-                  className="absolute right-4 top-1/2 -translate-y-1/2 transform rounded-full bg-gray-300 p-2"
+                  className="absolute top-1/2 right-4 -translate-y-1/2 transform rounded-full bg-gray-300 p-2"
                   onClick={() => handleVideoChange(1)}
                 >
                   ▶

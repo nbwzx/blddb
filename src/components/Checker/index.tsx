@@ -303,7 +303,7 @@ const Checker = () => {
 
     return (
       <>
-        <div className="mt-4 text-dark dark:text-white">
+        <div className="text-dark mt-4 dark:text-white">
           {t("checker.notice")}
         </div>
         <div className="mt-4 max-h-[75vh] overflow-auto">
@@ -317,7 +317,7 @@ const Checker = () => {
                         key={index}
                         className={
                           index === 0
-                            ? "sticky left-0 top-0 z-20"
+                            ? "sticky top-0 left-0 z-20"
                             : "sticky top-0 z-10"
                         }
                       >
@@ -381,16 +381,16 @@ const Checker = () => {
   };
 
   return (
-    <section className="pb-[120px] pt-[100px]">
+    <section className="pt-[100px] pb-[120px]">
       <div className="container">
         <div className="-mx-4 flex flex-wrap justify-center">
           <div className="w-full px-4 lg:w-10/12">
             <div>
-              <h2 className="mb-8 text-center text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight">
+              <h2 className="mb-8 text-center text-3xl leading-tight font-bold text-black sm:text-4xl sm:leading-tight dark:text-white">
                 {t("checker.title")}
               </h2>
               <p className="text-black dark:text-white">{t("checker.hint")}</p>
-              <div className="mb-3 mr-2 mt-4 inline-block font-bold text-dark dark:text-white">
+              <div className="text-dark mt-4 mr-2 mb-3 inline-block font-bold dark:text-white">
                 {t("checker.url")}
               </div>
               <input
@@ -399,11 +399,11 @@ const Checker = () => {
                 value={GsURL}
                 onChange={(e) => setGsURL(e.target.value)}
                 style={{ width: "100%", maxWidth: "500px" }}
-                className="mr-4 rounded-sm border-b-[3px] border-gray-500 bg-inherit px-2 py-1 text-base font-medium text-dark outline-none transition-all duration-300 focus:border-primary dark:border-gray-100 dark:bg-inherit dark:text-white dark:shadow-none dark:focus:border-primary dark:focus:shadow-none"
+                className="text-dark focus:border-primary dark:focus:border-primary mr-4 rounded-sm border-b-[3px] border-gray-500 bg-inherit px-2 py-1 text-base font-medium outline-hidden transition-all duration-300 dark:border-gray-100 dark:bg-inherit dark:text-white dark:shadow-none dark:focus:shadow-none"
                 autoComplete="off"
               />
               <div
-                className="mb-1 mt-1 inline-block cursor-pointer rounded-sm border-2 border-black bg-white px-4 py-2 text-base font-semibold text-black duration-300 ease-in-out hover:text-primary dark:border-white dark:bg-dark dark:text-white dark:hover:text-primary"
+                className="hover:text-primary dark:bg-dark dark:hover:text-primary mt-1 mb-1 inline-block cursor-pointer rounded-sm border-2 border-black bg-white px-4 py-2 text-base font-semibold text-black duration-300 ease-in-out dark:border-white dark:text-white"
                 onClick={fetchData}
               >
                 {t("checker.fetchData")}
@@ -423,13 +423,13 @@ const Checker = () => {
               <br />
               {Object.keys(sheetData).length > 0 && (
                 <>
-                  <div className="mb-3 mr-2 mt-4 inline-block font-bold text-dark dark:text-white">
+                  <div className="text-dark mt-4 mr-2 mb-3 inline-block font-bold dark:text-white">
                     {t("checker.selectSheet")}
                   </div>
                   <select
                     id="sheetSelection"
                     onChange={handleSheetChange}
-                    className="inline-block rounded-sm border-b-[3px] border-gray-500 bg-inherit py-1 pr-5 text-base font-medium text-dark outline-none transition-all duration-300 focus:border-primary dark:border-gray-100 dark:bg-gray-dark dark:text-white dark:shadow-none dark:focus:border-primary dark:focus:shadow-none"
+                    className="text-dark focus:border-primary dark:bg-gray-dark dark:focus:border-primary inline-block rounded-sm border-b-[3px] border-gray-500 bg-inherit py-1 pr-5 text-base font-medium outline-hidden transition-all duration-300 dark:border-gray-100 dark:text-white dark:shadow-none dark:focus:shadow-none"
                   >
                     <option value=""></option>
                     {getSheetOptions()}
@@ -440,14 +440,14 @@ const Checker = () => {
                 <>
                   <span className="mx-3"></span>
                   <div className="inline-block">
-                    <div className="mb-3 mr-2 mt-4 inline-block font-bold text-dark dark:text-white">
+                    <div className="text-dark mt-4 mr-2 mb-3 inline-block font-bold dark:text-white">
                       {t("checker.types")}
                     </div>
                     <select
                       id="typeSelection"
                       value={selectedTypes}
                       onChange={handleTypesChange}
-                      className="inline-block rounded-sm border-b-[3px] border-gray-500 bg-inherit py-1 pr-5 text-base font-medium text-dark outline-none transition-all duration-300 focus:border-primary dark:border-gray-100 dark:bg-gray-dark dark:text-white dark:shadow-none dark:focus:border-primary dark:focus:shadow-none"
+                      className="text-dark focus:border-primary dark:bg-gray-dark dark:focus:border-primary inline-block rounded-sm border-b-[3px] border-gray-500 bg-inherit py-1 pr-5 text-base font-medium outline-hidden transition-all duration-300 dark:border-gray-100 dark:text-white dark:shadow-none dark:focus:shadow-none"
                     >
                       <option>{t("common.3BLD")}</option>
                       <option>{t("common.BigBLD")}</option>
@@ -458,7 +458,7 @@ const Checker = () => {
               <br />
               {Object.keys(sheetData).length > 0 && (
                 <>
-                  <div className="mb-3 mr-2 mt-4 inline-block font-bold text-dark dark:text-white">
+                  <div className="text-dark mt-4 mr-2 mb-3 inline-block font-bold dark:text-white">
                     {t("checker.buffer")}
                   </div>
                   <input
@@ -467,7 +467,7 @@ const Checker = () => {
                     value={buffer}
                     onChange={(e) => setBuffer(e.target.value)}
                     style={{ width: "100px" }}
-                    className="inline-block rounded-sm border-b-[3px] border-gray-500 bg-inherit px-2 py-1 text-base font-medium text-dark outline-none transition-all duration-300 focus:border-primary dark:border-gray-100 dark:bg-inherit dark:text-white dark:shadow-none dark:focus:border-primary dark:focus:shadow-none"
+                    className="text-dark focus:border-primary dark:focus:border-primary inline-block rounded-sm border-b-[3px] border-gray-500 bg-inherit px-2 py-1 text-base font-medium outline-hidden transition-all duration-300 dark:border-gray-100 dark:bg-inherit dark:text-white dark:shadow-none dark:focus:shadow-none"
                     autoComplete="off"
                   />
                 </>
@@ -476,13 +476,13 @@ const Checker = () => {
                 <>
                   <span className="mx-3"></span>
                   <div className="inline-block">
-                    <div className="mb-3 mr-2 mt-4 inline-block font-bold text-dark dark:text-white">
+                    <div className="text-dark mt-4 mr-2 mb-3 inline-block font-bold dark:text-white">
                       {t("checker.firstTarget")}
                     </div>
                     <select
                       id="sheetTarget"
                       onChange={handleTargetChange}
-                      className="inline-block rounded-sm border-b-[3px] border-gray-500 bg-inherit py-1 pr-5 text-base font-medium text-dark outline-none transition-all duration-300 focus:border-primary dark:border-gray-100 dark:bg-gray-dark dark:text-white dark:shadow-none dark:focus:border-primary dark:focus:shadow-none"
+                      className="text-dark focus:border-primary dark:bg-gray-dark dark:focus:border-primary inline-block rounded-sm border-b-[3px] border-gray-500 bg-inherit py-1 pr-5 text-base font-medium outline-hidden transition-all duration-300 dark:border-gray-100 dark:text-white dark:shadow-none dark:focus:shadow-none"
                     >
                       <option>{t("checker.row")}</option>
                       <option>{t("checker.column")}</option>

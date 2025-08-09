@@ -1,11 +1,86 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap")
+layer(base);
 @import url("fontawesome-all.min.css");
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --breakpoint-*: initial;
+  --breakpoint-xs: 450px;
+  --breakpoint-sm: 575px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --breakpoint-2xl: 1400px;
+
+  --color-current: currentColor;
+  --color-transparent: transparent;
+  --color-white: #ffffff;
+  --color-black: #121723;
+  --color-dark: #1d2430;
+  --color-primary: #4a6cf7;
+  --color-yellow: #fbb040;
+  --color-bg-color-dark: #171c28;
+
+  --color-body-color: #788293;
+  --color-body-color-dark: #959cb1;
+
+  --color-stroke-stroke: #e3e8ef;
+  --color-stroke-dark: #353943;
+
+  --color-gray-50: #f9fafb;
+  --color-gray-100: #f3f4f6;
+  --color-gray-200: #e5e7eb;
+  --color-gray-300: #d1d5db;
+  --color-gray-400: #9ca3af;
+  --color-gray-500: #6b7280;
+  --color-gray-600: #4b5563;
+  --color-gray-700: #374151;
+  --color-gray-800: #1f2937;
+  --color-gray-900: #111827;
+  --color-gray-950: #030712;
+  --color-gray-dark: #1e232e;
+  --color-gray-light: #f0f2f9;
+
+  --shadow-sign-up: 0px 5px 10px rgba(4, 10, 34, 0.2);
+  --shadow-one: 0px 2px 3px rgba(7, 7, 77, 0.05);
+  --shadow-two: 0px 5px 10px rgba(6, 8, 15, 0.1);
+  --shadow-three: 0px 5px 15px rgba(6, 8, 15, 0.05);
+  --shadow-sticky: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1);
+  --shadow-sticky-dark: inset 0 -1px 0 0 rgba(255, 255, 255, 0.1);
+  --shadow-feature-2: 0px 10px 40px rgba(48, 86, 211, 0.12);
+  --shadow-submit: 0px 5px 20px rgba(4, 10, 34, 0.1);
+  --shadow-submit-dark: 0px 5px 20px rgba(4, 10, 34, 0.1);
+  --shadow-btn: 0px 1px 2px rgba(4, 10, 34, 0.15);
+  --shadow-btn-hover: 0px 1px 2px rgba(0, 0, 0, 0.15);
+  --shadow-btn-light: 0px 1px 2px rgba(0, 0, 0, 0.1);
+
+  --drop-shadow-three: 0px 5px 15px rgba(6, 8, 15, 0.05);
+}
+
+@utility container {
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+
+/*
+  The default border color has changed to `currentcolor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
 @layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentcolor);
+  }
   :root {
     overflow-x: hidden;
     overflow-y: auto;
@@ -45,7 +120,7 @@
     width: 100%;
     height: 100%;
     z-index: 999999999 !important;
-    @apply bg-white dark:bg-gray-dark;
+    @apply dark:bg-gray-dark bg-white;
     top: 0;
     left: 0;
     right: 0;
@@ -89,7 +164,7 @@
 
   .loader {
     z-index: 999999999 !important;
-    @apply bg-white dark:bg-gray-dark;
+    @apply dark:bg-gray-dark bg-white;
     top: 0;
     left: 0;
     right: 0;
@@ -198,13 +273,13 @@
   }
 
   .language {
-    @apply px-3 py-3 text-base font-medium text-dark hover:opacity-90 dark:text-white md:block;
+    @apply text-dark px-3 py-3 text-base font-medium hover:opacity-90 md:block dark:text-white;
     width: 110px;
     cursor: pointer;
   }
 
   .status_circle {
-    @apply hidden text-base font-medium text-dark hover:opacity-90 dark:text-white md:block;
+    @apply text-dark hidden text-base font-medium hover:opacity-90 md:block dark:text-white;
     display: block;
     padding-left: 30px;
     background-size: 24px 16px;
@@ -223,7 +298,7 @@
   }
 
   table {
-    @apply border-separate border-spacing-0 whitespace-nowrap text-center text-lg font-medium leading-loose text-black dark:text-white;
+    @apply border-separate border-spacing-0 text-center text-lg leading-loose font-medium whitespace-nowrap text-black dark:text-white;
   }
 
   th {
@@ -331,7 +406,7 @@
 
   .help .help-content {
     display: inline-block;
-    @apply bg-gray-100 text-dark dark:bg-gray-700 dark:text-white;
+    @apply text-dark bg-gray-100 dark:bg-gray-700 dark:text-white;
     left: 0;
     padding: 5px 10px;
     line-height: 1.5;

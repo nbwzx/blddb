@@ -7,9 +7,9 @@ const Footer = () => {
     <>
       <footer className="relative z-10 md:pt-8 lg:pt-12">
         <div className="container">
-          <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
+          <div className="h-px w-full bg-linear-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
           <div className="py-4">
-            <div className="dark:text-gray text-center text-base text-body-color">
+            <div className="dark:text-gray text-body-color text-center text-base">
               <ul className="copyright">
                 <li>© 2022-2025 Zixing Wang. All rights reserved.</li>
                 <li>

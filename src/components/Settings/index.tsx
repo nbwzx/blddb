@@ -138,12 +138,12 @@ const Settings = () => {
   }
 
   return (
-    <section className="pb-[120px] pt-[100px]">
+    <section className="pt-[100px] pb-[120px]">
       <div className="container">
         <div className="-mx-4 flex flex-wrap justify-center">
           <div className="w-full px-4 lg:w-6/12">
             <div>
-              <h2 className="mb-8 text-center text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight">
+              <h2 className="mb-8 text-center text-3xl leading-tight font-bold text-black sm:text-4xl sm:leading-tight dark:text-white">
                 {t("settings.title")}
               </h2>
               {Object.keys(settingsGroups).map((moduleId, index) => (
@@ -168,7 +168,7 @@ const Settings = () => {
                         </div>
                         {setting.type === "select" && (
                           <select
-                            className="ml-4 mr-2 rounded-md border border-2 border-gray-400 p-2 pr-8 focus:border-primary focus:outline-none dark:border-gray-600 dark:bg-gray-800 dark:text-white"
+                            className="focus:border-primary mr-2 ml-4 rounded-md border border-2 border-gray-400 p-2 pr-8 focus:outline-hidden dark:border-gray-600 dark:bg-gray-800 dark:text-white"
                             value={settings[setting.id] || ""}
                             onChange={(e) =>
                               handleChange(setting.id, "select", e.target.value)
@@ -195,7 +195,7 @@ const Settings = () => {
                                 e.target.checked,
                               )
                             }
-                            className="ml-4 mr-2 h-5 w-5 text-gray-400 dark:text-white"
+                            className="mr-2 ml-4 h-5 w-5 text-gray-400 dark:text-white"
                           />
                         )}
                         {setting.type === "text" && (
@@ -207,7 +207,7 @@ const Settings = () => {
                             onChange={(e) =>
                               handleChange(setting.id, "text", e.target.value)
                             }
-                            className="ml-4 mr-2 w-20 rounded-md border border-2 border-gray-400 p-2 text-right focus:border-primary focus:outline-none dark:border-gray-600 dark:bg-gray-800 dark:text-white"
+                            className="focus:border-primary mr-2 ml-4 w-20 rounded-md border border-2 border-gray-400 p-2 text-right focus:outline-hidden dark:border-gray-600 dark:bg-gray-800 dark:text-white"
                           />
                         )}
                       </div>

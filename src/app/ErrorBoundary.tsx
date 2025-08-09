@@ -37,12 +37,12 @@ class ErrorBoundary extends React.Component<
   render() {
     if (this.state.hasError) {
       return (
-        <section className="pb-[120px] pt-[100px]">
+        <section className="pt-[100px] pb-[120px]">
           <div className="container">
             <div className="-mx-4 flex flex-wrap justify-center">
               <div className="w-full px-4 lg:w-10/12">
                 <div>
-                  <h2 className="mb-8 text-center text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight">
+                  <h2 className="mb-8 text-center text-3xl leading-tight font-bold text-black sm:text-4xl sm:leading-tight dark:text-white">
                     Oops, there is an error!
                   </h2>
                   <p className="mb-8 text-center text-lg font-normal text-black dark:text-white">

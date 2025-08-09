@@ -26,7 +26,7 @@ export default async function RootLayout({
 
       <body
         suppressHydrationWarning
-        className={`bg-[#FCFCFC] dark:bg-gray-dark ${inter.className}`}
+        className={`dark:bg-gray-dark bg-[#FCFCFC] ${inter.className}`}
       >
         <Providers>
           <LocaleProvider value={locale}>

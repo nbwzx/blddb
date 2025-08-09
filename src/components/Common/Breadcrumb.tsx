@@ -14,10 +14,10 @@ const Breadcrumb = ({
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 md:w-8/12 lg:w-7/12">
               <div className="mb-8 max-w-[570px] md:mb-0 lg:mb-12">
-                <h1 className="mb-5 text-2xl font-bold text-black dark:text-white sm:text-3xl">
+                <h1 className="mb-5 text-2xl font-bold text-black sm:text-3xl dark:text-white">
                   {pageName}
                 </h1>
-                <p className="text-base font-medium leading-relaxed text-body-color">
+                <p className="text-body-color text-base leading-relaxed font-medium">
                   {description}
                 </p>
               </div>
@@ -28,13 +28,13 @@ const Breadcrumb = ({
                   <li className="flex items-center">
                     <Link
                       href="/"
-                      className="pr-1 text-base font-medium text-body-color hover:text-primary"
+                      className="text-body-color hover:text-primary pr-1 text-base font-medium"
                     >
                       Home
                     </Link>
-                    <span className="mr-3 block h-2 w-2 rotate-45 border-r-2 border-t-2 border-body-color"></span>
+                    <span className="border-body-color mr-3 block h-2 w-2 rotate-45 border-t-2 border-r-2"></span>
                   </li>
-                  <li className="text-base font-medium text-primary">
+                  <li className="text-primary text-base font-medium">
                     {pageName}
                   </li>
                 </ul>
@@ -44,7 +44,7 @@ const Breadcrumb = ({
         </div>
 
         <div>
-          <span className="absolute left-0 top-0 z-[-1]">
+          <span className="absolute top-0 left-0 z-[-1]">
             <svg
               width="287"
               height="254"
@@ -72,7 +72,7 @@ const Breadcrumb = ({
               </defs>
             </svg>
           </span>
-          <span className="absolute right-0 top-0 z-[-1]">
+          <span className="absolute top-0 right-0 z-[-1]">
             <svg
               width="628"
               height="258"

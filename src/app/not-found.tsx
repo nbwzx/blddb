@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 const ErrorPage = () => {
   return (
     <>
-      <section className="relative z-10 pb-16 pt-36 md:pb-20 lg:pb-28 lg:pt-[180px]">
+      <section className="relative z-10 pt-36 pb-16 md:pb-20 lg:pt-[180px] lg:pb-28">
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
@@ -141,16 +141,16 @@ const ErrorPage = () => {
                     </defs>
                   </svg>
                 </div>
-                <h3 className="mb-4 text-3xl font-bold text-black dark:text-white sm:text-4xl">
+                <h3 className="mb-4 text-3xl font-bold text-black sm:text-4xl dark:text-white">
                   Sorry, the page can’t be found
                 </h3>
-                <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                <p className="text-body-color mb-10 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed">
                   The page you were looking for appears to have been moved,
                   deleted or does not exist.
                 </p>
                 <Link
                   href="/"
-                  className="rounded-md bg-primary px-8 py-3 text-base font-bold text-white shadow-signUp duration-300 hover:bg-white hover:text-primary md:px-9 lg:px-8 xl:px-9"
+                  className="bg-primary shadow-signUp hover:text-primary rounded-md px-8 py-3 text-base font-bold text-white duration-300 hover:bg-white md:px-9 lg:px-8 xl:px-9"
                 >
                   Back to Homepage
                 </Link>
@@ -344,7 +344,7 @@ const ErrorPage = () => {
             </defs>
           </svg>
         </div>
-        <div className="absolute right-0 top-0 z-[-1] hidden sm:block">
+        <div className="absolute top-0 right-0 z-[-1] hidden sm:block">
           <svg
             width="406"
             height="286"

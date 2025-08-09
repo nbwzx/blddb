@@ -177,11 +177,11 @@ const Code = ({ cubeSize }: { cubeSize: 3 | 5 }) => {
   }
 
   return (
-    <section className="pb-[120px] pt-[100px]">
+    <section className="pt-[100px] pb-[120px]">
       <div className="container">
         <div className="-mx-4 flex flex-wrap justify-center">
           <div className="w-full px-4 lg:w-10/12">
-            <h2 className="mb-8 text-center text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight">
+            <h2 className="mb-8 text-center text-3xl leading-tight font-bold text-black sm:text-4xl sm:leading-tight dark:text-white">
               {cubeSize === 3 ? t("code.3BLD") : t("code.BigBLD")}
             </h2>
             <div className="mb-5">
@@ -194,7 +194,7 @@ const Code = ({ cubeSize }: { cubeSize: 3 | 5 }) => {
                   ([scheme, value]) => (
                     <div
                       key={scheme}
-                      className="mb-1 ml-4 mt-1 inline-block cursor-pointer rounded-sm border-2 border-black bg-white px-4 py-2 text-base font-semibold text-black duration-300 ease-in-out hover:text-primary dark:border-white dark:bg-dark dark:text-white dark:hover:text-primary"
+                      className="hover:text-primary dark:bg-dark dark:hover:text-primary mt-1 mb-1 ml-4 inline-block cursor-pointer rounded-sm border-2 border-black bg-white px-4 py-2 text-base font-semibold text-black duration-300 ease-in-out dark:border-white dark:text-white"
                       onClick={() => {
                         setInputValues(value);
                         const settings = JSON.parse(
@@ -221,11 +221,11 @@ const Code = ({ cubeSize }: { cubeSize: 3 | 5 }) => {
               </div>
             </div>
             <div className="mb-5">
-              <div className="mr-2 inline-block font-bold text-dark dark:text-white">
+              <div className="text-dark mr-2 inline-block font-bold dark:text-white">
                 {t("code.orientation")}
               </div>
               <select
-                className="rounded-sm border-b-[3px] border-gray-500 bg-inherit py-1 pr-4 text-base font-medium text-dark outline-none transition-all duration-300 focus:border-primary dark:border-gray-100 dark:bg-gray-dark dark:text-white dark:shadow-none dark:focus:border-primary dark:focus:shadow-none"
+                className="text-dark focus:border-primary dark:bg-gray-dark dark:focus:border-primary rounded-sm border-b-[3px] border-gray-500 bg-inherit py-1 pr-4 text-base font-medium outline-hidden transition-all duration-300 dark:border-gray-100 dark:text-white dark:shadow-none dark:focus:shadow-none"
                 onChange={(e) =>
                   handleOrientationChange(Number(e.target.value))
                 }
@@ -241,16 +241,16 @@ const Code = ({ cubeSize }: { cubeSize: 3 | 5 }) => {
             {cubeSize === 5 && (
               <div className="mb-5 flex">
                 {" "}
-                <div className="inline-block  font-bold text-black dark:text-white">
+                <div className="inline-block font-bold text-black dark:text-white">
                   {t("code.wingCodeSetting")}
                 </div>
                 <span
                   onClick={() => handleWingCoding(true)}
                   className={`${
                     isStandard
-                      ? "pointer-events-none text-primary"
+                      ? "text-primary pointer-events-none"
                       : "text-dark dark:text-white"
-                  } ml-4 mr-4 cursor-pointer text-base font-semibold`}
+                  } mr-4 ml-4 cursor-pointer text-base font-semibold`}
                 >
                   {t("code.wingCode1")}
                 </span>
@@ -263,7 +263,7 @@ const Code = ({ cubeSize }: { cubeSize: 3 | 5 }) => {
                     <div
                       className={`${
                         isStandard ? "" : "translate-x-full"
-                      } shadow-switch-1 absolute left-0 top-[-4px] flex h-7 w-7 items-center justify-center rounded-full bg-primary transition`}
+                      } shadow-switch-1 bg-primary absolute top-[-4px] left-0 flex h-7 w-7 items-center justify-center rounded-full transition`}
                     >
                       <span className="active h-4 w-4 rounded-full bg-white"></span>
                     </div>
@@ -274,7 +274,7 @@ const Code = ({ cubeSize }: { cubeSize: 3 | 5 }) => {
                   className={`${
                     isStandard
                       ? "text-dark dark:text-white"
-                      : "pointer-events-none text-primary"
+                      : "text-primary pointer-events-none"
                   } ml-4 cursor-pointer text-base font-semibold`}
                 >
                   {t("code.wingCode2")}
@@ -306,7 +306,7 @@ const Code = ({ cubeSize }: { cubeSize: 3 | 5 }) => {
                             cellIndex,
                           )) ? (
                           <div
-                            className="rounded-none border-l-2 border-t-2 border-black"
+                            className="rounded-none border-t-2 border-l-2 border-black"
                             key={faceIndex * faceSize + cellIndex}
                           ></div>
                         ) : (
@@ -314,7 +314,7 @@ const Code = ({ cubeSize }: { cubeSize: 3 | 5 }) => {
                             key={faceIndex * faceSize + cellIndex}
                             type="text"
                             className={
-                              "relative h-full w-full rounded-none border-l-2  border-t-2 border-black bg-transparent p-0 text-center uppercase leading-normal text-dark outline-none hover:cursor-pointer hover:bg-black/40"
+                              "text-dark relative h-full w-full rounded-none border-t-2 border-l-2 border-black bg-transparent p-0 text-center leading-normal uppercase outline-hidden hover:cursor-pointer hover:bg-black/40"
                             }
                             style={{ fontSize: `${0.75 * cellWidth}px` }}
                             onFocus={(e) => e.target.select()}
