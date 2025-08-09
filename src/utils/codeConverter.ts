@@ -370,7 +370,7 @@ const codeConverter = (function () {
                     .replace(/_/gu, "R");
                 }),
               )
-            : code[2] ?? ""),
+            : (code[2] ?? "")),
       );
     }
     let result = customCodeToPosition(code, codeType);

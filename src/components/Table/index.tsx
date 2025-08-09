@@ -337,7 +337,7 @@ const Table = ({
               item[j] ===
               (mirrorLR
                 ? rewrite.mirrorAxis(selected?.[key] ?? "", "M")
-                : selected?.[key] ?? "")
+                : (selected?.[key] ?? ""))
                 ? "bg-zinc-300 dark:bg-zinc-700"
                 : ""
             }

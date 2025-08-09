@@ -1,4 +1,5 @@
 import BLD from "@/components/BLD";
+import { Metadata } from "next";
 import { notFound } from "next/navigation";
 export const dynamicParams = false;
 const bigbldCodeTypes = ["wing", "xcenter", "tcenter", "midge"];
@@ -11,7 +12,7 @@ export async function generateMetadata({
   params,
 }: Readonly<{
   params: Promise<{ codeType: string }>;
-}>) {
+}>): Promise<Metadata> {
   const { codeType } = await params;
   if (!bigbldCodeTypes.includes(codeType)) {
     return {
