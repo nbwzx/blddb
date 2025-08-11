@@ -16842,6 +16842,7 @@
                 "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Wallin",
+                "Gavriel Johann Arcilla",
                 "Jonghyun Kim (김종현)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
@@ -16925,13 +16926,6 @@
                 "Kai Yamamoto (山本快)"
             ],
             "Uw2 L:[U',L d' L']"
-        ],
-        [
-            "Uw F2 R f R' F2 R f' R' Uw'",
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            "Uw:[F2,R f R']"
         ]
     ],
     "AQS": [
@@ -18066,6 +18060,14 @@
             "R b Rw' U:[U R U',r2]"
         ],
         [
+            "u' R' D' r' D R2 D' r D R' u",
+            [
+                "Gavriel Johann Arcilla",
+                "Oliver Fritz"
+            ],
+            "u' R':[D' r' D,R2]"
+        ],
+        [
             "z' l' U' R' u' R U2 R' u R U' l z",
             [
                 "Daniel Lin",
@@ -18087,13 +18089,6 @@
                 "Adrian Dębski"
             ],
             "d x':[U r U',R2]"
-        ],
-        [
-            "u' R' D' r' D R2 D' r D R' u",
-            [
-                "Oliver Fritz"
-            ],
-            "u' R':[D' r' D,R2]"
         ],
         [
             "Uw R Uw' U' R U r' U' R' U r Uw R' Uw'",
@@ -18122,13 +18117,6 @@
                 "Kai Yamamoto (山本快)"
             ],
             "Uw2 L:[L d' L',U']"
-        ],
-        [
-            "Uw R f R' F2 R f' R' F2 Uw'",
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            "Uw:[R f R',F2]"
         ]
     ],
     "ARS": [
@@ -28214,6 +28202,15 @@
             "U:[U,R' d R]"
         ]
     ],
+    "DFT": [
+        [
+            "4Lw' U r' U' L U r U' M",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "M':[L',U r' U']"
+        ]
+    ],
     "DFW": [
         [
             "U2 R u R' U' R u' R' U'",
@@ -28872,6 +28869,15 @@
                 "Cale Schoon"
             ],
             "U d:[r2,U R U']"
+        ]
+    ],
+    "DTF": [
+        [
+            "M' U r' U' L' U r U' 4Lw",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "M':[U r' U',L']"
         ]
     ],
     "DTJ": [
@@ -29900,6 +29906,33 @@
             "U' r':[D2,r' U r]"
         ]
     ],
+    "FIK": [
+        [
+            "U' D' L u L' D L u' L' U",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "U':[D',L u L']"
+        ]
+    ],
+    "FIM": [
+        [
+            "U D R u R' D2 R u' R' D U'",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "U D:[R u R',D2]"
+        ]
+    ],
+    "FIO": [
+        [
+            "U D R u R' D' R u' R' U'",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "U:[D,R u R']"
+        ]
+    ],
     "FIQ": [
         [
             "D2 r D' R' D r' D' R D'",
@@ -29968,6 +30001,13 @@
                 "Anto Kam (甘浩東)"
             ],
             "Lw' U':[L' d L,U2]"
+        ],
+        [
+            "D2 r D' R D r' D' R' D'",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "D:[D r D',R]"
         ]
     ],
     "FJI": [
@@ -30310,6 +30350,15 @@
             "[U R' U',r2]"
         ]
     ],
+    "FKI": [
+        [
+            "U' L u L' D' L u' L' D U",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "U':[L u L',D']"
+        ]
+    ],
     "FKJ": [
         [
             "r U L2 U' r2 U L2 U' r",
@@ -30342,6 +30391,15 @@
                 "Gavriel Johann Arcilla"
             ],
             "f' U:[D2,R u R']"
+        ]
+    ],
+    "FKN": [
+        [
+            "D' R' U R' U' r' U R U' Rw D",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "D' R':[U R' U',r']"
         ]
     ],
     "FKP": [
@@ -30380,6 +30438,15 @@
             "D':[U' L' U,r']"
         ]
     ],
+    "FKW": [
+        [
+            "D' r D L' D' r' D L",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "[D' r D,L']"
+        ]
+    ],
     "FKX": [
         [
             "D' U' L U r' U' L' U r D",
@@ -30387,6 +30454,15 @@
                 "Gavriel Johann Arcilla"
             ],
             "D':[U' L U,r']"
+        ]
+    ],
+    "FKY": [
+        [
+            "D' r D' R D r' D' R' D2",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "D':[r,D' R D]"
         ]
     ],
     "FLJ": [
@@ -30517,6 +30593,15 @@
             "D:[U R' U',r2]"
         ]
     ],
+    "FMI": [
+        [
+            "U D' R u R' D2 R u' R' D' U'",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "U D':[R u R',D2]"
+        ]
+    ],
     "FMJ": [
         [
             "U r D R2 D' r' D R2 D' U'",
@@ -30556,6 +30641,15 @@
                 "Gavriel Johann Arcilla"
             ],
             "S' U:[D',R u R']"
+        ]
+    ],
+    "FMN": [
+        [
+            "Lw' U D' R u R' D2 R u' R' D' U' Lw",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "Lw' U D':[R u R',D2]"
         ]
     ],
     "FMP": [
@@ -30626,6 +30720,13 @@
                 "Marcell Endrey"
             ],
             "r':[U' R' U,r']"
+        ],
+        [
+            "r D' R D r' D' R' D",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "[r,D' R D]"
         ]
     ],
     "FNJ": [
@@ -30659,6 +30760,15 @@
             "D R D:[U R U',r2]"
         ]
     ],
+    "FNK": [
+        [
+            "D' Rw' U R' U' r U R U' R D",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "D' R':[r',U R' U']"
+        ]
+    ],
     "FNL": [
         [
             "4Rw' U L' u L U2 L' u' L U 4Rw",
@@ -30666,6 +30776,24 @@
                 "Gavriel Johann Arcilla"
             ],
             "4Rw' U:[L' u L,U2]"
+        ]
+    ],
+    "FNM": [
+        [
+            "Lw' U D R u R' D2 R u' R' D U' Lw",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "Lw' U D:[R u R',D2]"
+        ]
+    ],
+    "FNO": [
+        [
+            "U R' B R f R' B' R f' U'",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "U:[R' B R,f]"
         ]
     ],
     "FNP": [
@@ -30731,6 +30859,15 @@
             "U':[L,U' l2 U]"
         ]
     ],
+    "FNY": [
+        [
+            "Dw' D' r2 D R' D' r2 D R Dw",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "Dw':[D' r2 D,R']"
+        ]
+    ],
     "FNZ": [
         [
             "4Lw U L' u' L U2 L' u L U 4Lw'",
@@ -30738,6 +30875,15 @@
                 "Gavriel Johann Arcilla"
             ],
             "4Lw U:[L' u' L,U2]"
+        ]
+    ],
+    "FOI": [
+        [
+            "U R u R' D R u' R' D' U'",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "U:[R u R',D]"
         ]
     ],
     "FOJ": [
@@ -30779,6 +30925,15 @@
                 "Gavriel Johann Arcilla"
             ],
             "Rw' D:[r,U' R' U]"
+        ]
+    ],
+    "FON": [
+        [
+            "U f R' B R f' R' B' R U'",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "U:[f,R' B R]"
         ]
     ],
     "FOP": [
@@ -30833,6 +30988,15 @@
                 "Gavriel Johann Arcilla"
             ],
             "D:[U' L U,r']"
+        ]
+    ],
+    "FOY": [
+        [
+            "D r D' R D r' D' R'",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "[D r D',R]"
         ]
     ],
     "FPJ": [
@@ -31509,6 +31673,15 @@
             "u:[r2,U R' U']"
         ]
     ],
+    "FWK": [
+        [
+            "L' D' r D L D' r' D",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "[L',D' r D]"
+        ]
+    ],
     "FWL": [
         [
             "D' U' 4Lw U2 R' u' R U' R' u R U' 4Lw' U D",
@@ -31744,6 +31917,13 @@
                 "Anto Kam (甘浩東)"
             ],
             "Lw' U:[L' d L,U2]"
+        ],
+        [
+            "D R D r D' R' D r' D2",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "D:[R,D r D']"
         ]
     ],
     "FYJ": [
@@ -31779,6 +31959,15 @@
             "x:[U' R2 U,r2]"
         ]
     ],
+    "FYK": [
+        [
+            "D2 R D r D' R' D r' D",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "D':[D' R D,r]"
+        ]
+    ],
     "FYM": [
         [
             "r2 U' R' U r U' R U r",
@@ -31786,6 +31975,31 @@
                 "Marcell Endrey"
             ],
             "r':[r',U' R' U]"
+        ],
+        [
+            "D' R D r D' R' D r'",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "[D' R D,r]"
+        ]
+    ],
+    "FYN": [
+        [
+            "Dw' R' D' r2 D R D' r2 D Dw",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "Dw':[R',D' r2 D]"
+        ]
+    ],
+    "FYO": [
+        [
+            "R D r D' R' D r' D'",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "[R,D r D']"
         ]
     ],
     "FYP": [
