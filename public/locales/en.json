@@ -224,6 +224,7 @@
     "title": "Algorithm Checker",
     "hint": "Please enter your Google Sheet URL for checking. It should be a 2D table with the first row and the first column containing position information.",
     "notice": "Notice: Color Pink means the algorithm is not matched with the case; Color Green means the algorithm is matched with the inverse case.",
+    "inconsistent": "Please review the following inconsistent algorithms. Ignore them if this was intentional.",
     "url": "Google Sheet URL",
     "fetchData": "Fetch Data",
     "selectSheet": "Select a Sheet:",

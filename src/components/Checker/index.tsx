@@ -247,8 +247,13 @@ const Checker = () => {
       ) {
         return "matched";
       }
+      const codeFromUser = converter.positionToCustomCode([
+        buffer,
+        firstRow,
+        firstCol,
+      ]);
       const codeFromPattern = converter.customCodeToVariantCode(
-        converter.positionToCustomCode([buffer, firstRow, firstCol]),
+        codeFromUser,
         codeAuto[0],
       );
       if (selectedTarget === t("checker.column")) {
@@ -257,6 +262,10 @@ const Checker = () => {
             codeAuto[1][0] + codeAuto[1][2] + codeAuto[1][1],
           )
         ) {
+          if (!(codeFromUser in sheetJson)) {
+            sheetJson[codeFromUser[0] + codeFromUser[2] + codeFromUser[1]] =
+              cell;
+          }
           return "matched";
         }
         if (codeFromPattern.includes(codeAuto[1])) {
@@ -264,6 +273,9 @@ const Checker = () => {
         }
       } else {
         if (codeFromPattern.includes(codeAuto[1])) {
+          if (!(codeFromUser in sheetJson)) {
+            sheetJson[codeFromUser] = cell;
+          }
           return "matched";
         }
         if (
@@ -300,6 +312,25 @@ const Checker = () => {
       converter = bigbldCodeConverter;
       is3bld = false;
     }
+    const sheetJson: Record<string, string> = {};
+
+    const getInconsistentAlgs = () => {
+      const inconsistentKeys: string[][] = [];
+      for (const [key, value] of Object.entries(sheetJson)) {
+        const keyInverse = key[0] + key[2] + key[1];
+        if (key[1] < key[2] && keyInverse in sheetJson) {
+          const valueInverse = sheetJson[keyInverse];
+          const combined = `${value}+${valueInverse}`;
+          const expanded = is3bld
+            ? commutator.expand({ algorithm: combined })
+            : commutator_555.expand(combined);
+          if (expanded !== "") {
+            inconsistentKeys.push([key, value, keyInverse, valueInverse]);
+          }
+        }
+      }
+      return inconsistentKeys;
+    };
 
     return (
       <>
@@ -375,6 +406,37 @@ const Checker = () => {
               )}
             </tbody>
           </table>
+        </div>
+        <div>
+          {getInconsistentAlgs().length > 0 && (
+            <>
+              <div className="text-dark mt-12 dark:text-white">
+                {t("checker.inconsistent")}
+              </div>
+              <div className="mt-4 max-h-[75vh] overflow-auto">
+                <table className="overflow-x-auto">
+                  <thead>
+                    <tr>
+                      <th>{t("nightmare.code")}</th>
+                      <th>{t("nightmare.algorithm")}</th>
+                      <th>{t("nightmare.code")}</th>
+                      <th>{t("nightmare.algorithm")}</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {getInconsistentAlgs().map((item, idx) => (
+                      <tr key={idx}>
+                        <td>{item[0]}</td>
+                        <td>{item[1]}</td>
+                        <td>{item[2]}</td>
+                        <td>{item[3]}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </>
+          )}
         </div>
       </>
     );
