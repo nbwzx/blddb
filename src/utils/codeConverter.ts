@@ -3,6 +3,7 @@ const codeConverter = (function () {
   const letteringSchemes = {
     Chichu: "DEGC GAAJEDCX TQLMBBLS QNJYKHIR ZZPSHFFY WTNPWIXK OOMR",
     Speffz: "AABD BDCCEEFH FHGGIIJL JLKKMMNP NPOOQQRT RTSSUUVX VXWW",
+    Clear: " ".repeat(54),
   };
   const initialInputValues = letteringSchemes["Chichu"];
   // prettier-ignore
