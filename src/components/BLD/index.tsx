@@ -423,7 +423,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
           ref={(ref) => {
             selectRefs.current[index] = ref as HTMLSelectElement;
           }}
-          className="text-dark focus:border-primary dark:bg-gray-dark dark:focus:border-primary w-[3.5rem] rounded-sm border-b-[3px] border-gray-500 bg-inherit py-1 text-base font-medium outline-hidden transition-all duration-300 dark:border-gray-100 dark:text-white dark:shadow-none dark:focus:shadow-none"
+          className="text-dark focus:border-primary dark:bg-gray-dark dark:focus:border-primary group-array rounded-sm border-b-[3px] border-gray-500 bg-inherit py-1 text-base font-medium outline-hidden transition-all duration-300 dark:border-gray-100 dark:text-white dark:shadow-none dark:focus:shadow-none"
         >
           <option></option>
           {modeValue === "manmade" && codeType !== "twists" && (

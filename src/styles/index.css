@@ -284,6 +284,17 @@ layer(base);
     background-repeat: no-repeat;
     background-position: calc(100%) center;
     text-overflow: ellipsis;
+    scrollbar-width: thin; /* For Firefox */
+  }
+
+  .group-array {
+    width: 3.5rem;
+  }
+
+  @-moz-document url-prefix() {
+    .group-array {
+      width: 4rem;
+    }
   }
 
   .language {
