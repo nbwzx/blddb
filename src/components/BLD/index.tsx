@@ -501,7 +501,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
           <span className="mx-3"></span>
           {positionElement({ positionHint: t(`${codeType}.twist`) })}
           <div className="help inline-block">
-            <i className="fas fa-question-circle mr-2 text-blue-600"></i>
+            <i className="fas fa-question-circle mr-2 text-blue-600 dark:text-blue-400"></i>
             <span className="help-content whitespace-nowrap">
               {t(`${codeType}.twistHint`)}
             </span>

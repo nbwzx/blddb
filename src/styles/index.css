@@ -7,6 +7,15 @@ layer(base);
   src: url(../webfonts/fa-minimal.woff2) format("woff2");
 }
 
+.fas {
+  font-style: normal;
+  font-family: "FontAwesome";
+}
+
+.fa-question-circle::before {
+  content: "\f059";
+}
+
 @import "tailwindcss";
 
 @custom-variant dark (&:is(.dark *));
