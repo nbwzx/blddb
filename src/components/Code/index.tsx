@@ -3,6 +3,8 @@
 import React, { useEffect, useState, useRef } from "react";
 import codeConverter from "@/utils/codeConverter";
 import bigbldCodeConverter from "@/utils/bigbldCodeConverter";
+import tracer from "@/utils/tracer";
+import tracer_555 from "@/utils/tracer_555";
 import { useTranslation } from "@/i18n/client";
 import Loading from "@/app/loading";
 
@@ -172,6 +174,39 @@ const Code = ({ cubeSize }: { cubeSize: 3 | 5 }) => {
     localStorage.setItem(localStorageKey, updatedValues);
   };
 
+  const [matchingIndices, setMatchingIndices] = useState<number[]>([]);
+  const getMatchingGroups = (
+    inputStr: string,
+    groups: Record<string, number[]>,
+  ) => {
+    const highlightIndices: number[] = [];
+    Object.entries(groups).forEach(([key, group]: [string, number[]]) => {
+      if (isStandard && key === "wingOpposite") {
+        return;
+      }
+      if (!isStandard && key === "wing") {
+        return;
+      }
+      const values = group.map((idx) => inputStr[idx - 1] ?? " ");
+      for (let i = 0; i < values.length; i++) {
+        if (
+          values.filter((v) => v === values[i]).length >= 2 ||
+          values[i] === " "
+        ) {
+          highlightIndices.push(group[i] - 1);
+        }
+      }
+    });
+    return highlightIndices;
+  };
+
+  useEffect(() => {
+    const groups = cubeSize === 3 ? tracer.trackDict : tracer_555.trackDict;
+    const newMatchingIndices = getMatchingGroups(inputValues, groups);
+    setMatchingIndices(newMatchingIndices);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [cubeSize, inputValues]);
+
   if (loading) {
     return <Loading />;
   }
@@ -313,9 +348,13 @@ const Code = ({ cubeSize }: { cubeSize: 3 | 5 }) => {
                           <input
                             key={faceIndex * faceSize + cellIndex}
                             type="text"
-                            className={
-                              "text-dark relative h-full w-full rounded-none border-t-2 border-l-2 border-black bg-transparent p-0 text-center leading-normal uppercase outline-hidden hover:cursor-pointer hover:bg-black/40"
-                            }
+                            className={`text-dark relative h-full w-full rounded-none border-t-2 border-l-2 border-black p-0 text-center leading-normal uppercase outline-hidden hover:cursor-pointer ${
+                              matchingIndices.includes(
+                                faceIndex * faceSize + cellIndex,
+                              )
+                                ? "bg-pink-300 hover:bg-pink-400"
+                                : "bg-transparent hover:bg-black/40"
+                            }`}
                             style={{ fontSize: `${0.75 * cellWidth}px` }}
                             onFocus={(e) => e.target.select()}
                             maxLength={1}

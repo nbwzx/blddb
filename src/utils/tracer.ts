@@ -309,6 +309,7 @@ const tracer = (function () {
   return {
     sequenceToState,
     getCodeAuto,
+    trackDict,
   };
 })();
 
