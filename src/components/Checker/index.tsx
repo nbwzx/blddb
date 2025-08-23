@@ -8,6 +8,7 @@ import commutator_555 from "@/utils/commutator_555";
 import codeConverter from "@/utils/codeConverter";
 import tracer_555 from "@/utils/tracer_555";
 import bigbldCodeConverter from "@/utils/bigbldCodeConverter";
+import PageSection from "@/components/PageSection";
 
 const Checker = () => {
   const { t } = useTranslation();
@@ -443,122 +444,111 @@ const Checker = () => {
   };
 
   return (
-    <section className="pt-[100px] pb-[120px]">
-      <div className="container">
-        <div className="-mx-4 flex flex-wrap justify-center">
-          <div className="w-full px-4 lg:w-10/12">
-            <div>
-              <h2 className="mb-8 text-center text-3xl leading-tight font-bold text-black sm:text-4xl sm:leading-tight dark:text-white">
-                {t("checker.title")}
-              </h2>
-              <p className="text-black dark:text-white">{t("checker.hint")}</p>
-              <div className="text-dark mt-4 mr-2 mb-3 inline-block font-bold dark:text-white">
-                {t("checker.url")}
-              </div>
-              <input
-                type="text"
-                id="GsURLInput"
-                value={GsURL}
-                onChange={(e) => setGsURL(e.target.value)}
-                style={{ width: "100%", maxWidth: "500px" }}
-                className="text-dark focus:border-primary dark:focus:border-primary mr-4 border-b-[3px] border-gray-500 bg-inherit px-2 py-1 text-base font-medium outline-hidden transition-all duration-300 dark:border-gray-100 dark:bg-inherit dark:text-white dark:shadow-none dark:focus:shadow-none"
-                autoComplete="off"
-              />
-              <div
-                className="hover:text-primary dark:bg-dark dark:hover:text-primary mt-1 mb-1 inline-block cursor-pointer rounded-sm border-2 border-black bg-white px-4 py-2 text-base font-semibold text-black duration-300 ease-in-out dark:border-white dark:text-white"
-                onClick={fetchData}
-              >
-                {t("checker.fetchData")}
-              </div>
-              {loading && (
-                <div className="flex items-center justify-center">
-                  <div className="loader">
-                    <div className="lds-ellipsis">
-                      <div></div>
-                      <div></div>
-                      <div></div>
-                      <div></div>
-                    </div>
-                  </div>
-                </div>
-              )}
-              <br />
-              {Object.keys(sheetData).length > 0 && (
-                <>
-                  <div className="text-dark mt-4 mr-2 mb-3 inline-block font-bold dark:text-white">
-                    {t("checker.selectSheet")}
-                  </div>
-                  <select
-                    id="sheetSelection"
-                    onChange={handleSheetChange}
-                    className="text-dark focus:border-primary dark:bg-gray-dark dark:focus:border-primary inline-block border-b-[3px] border-gray-500 bg-inherit py-1 pr-5 text-base font-medium outline-hidden transition-all duration-300 dark:border-gray-100 dark:text-white dark:shadow-none dark:focus:shadow-none"
-                  >
-                    <option value=""></option>
-                    {getSheetOptions()}
-                  </select>
-                </>
-              )}
-              {Object.keys(sheetData).length > 0 && (
-                <>
-                  <span className="mx-3"></span>
-                  <div className="inline-block">
-                    <div className="text-dark mt-4 mr-2 mb-3 inline-block font-bold dark:text-white">
-                      {t("checker.types")}
-                    </div>
-                    <select
-                      id="typeSelection"
-                      value={selectedTypes}
-                      onChange={handleTypesChange}
-                      className="text-dark focus:border-primary dark:bg-gray-dark dark:focus:border-primary inline-block border-b-[3px] border-gray-500 bg-inherit py-1 pr-5 text-base font-medium outline-hidden transition-all duration-300 dark:border-gray-100 dark:text-white dark:shadow-none dark:focus:shadow-none"
-                    >
-                      <option>{t("common.3BLD")}</option>
-                      <option>{t("common.BigBLD")}</option>
-                    </select>
-                  </div>
-                </>
-              )}
-              <br />
-              {Object.keys(sheetData).length > 0 && (
-                <>
-                  <div className="text-dark mt-4 mr-2 mb-3 inline-block font-bold dark:text-white">
-                    {t("checker.buffer")}
-                  </div>
-                  <input
-                    type="text"
-                    id="bufferInput"
-                    value={buffer}
-                    onChange={(e) => setBuffer(e.target.value)}
-                    style={{ width: "100px" }}
-                    className="text-dark focus:border-primary dark:focus:border-primary inline-block border-b-[3px] border-gray-500 bg-inherit px-2 py-1 text-base font-medium outline-hidden transition-all duration-300 dark:border-gray-100 dark:bg-inherit dark:text-white dark:shadow-none dark:focus:shadow-none"
-                    autoComplete="off"
-                  />
-                </>
-              )}
-              {Object.keys(sheetData).length > 0 && (
-                <>
-                  <span className="mx-3"></span>
-                  <div className="inline-block">
-                    <div className="text-dark mt-4 mr-2 mb-3 inline-block font-bold dark:text-white">
-                      {t("checker.firstTarget")}
-                    </div>
-                    <select
-                      id="sheetTarget"
-                      onChange={handleTargetChange}
-                      className="text-dark focus:border-primary dark:bg-gray-dark dark:focus:border-primary inline-block border-b-[3px] border-gray-500 bg-inherit py-1 pr-5 text-base font-medium outline-hidden transition-all duration-300 dark:border-gray-100 dark:text-white dark:shadow-none dark:focus:shadow-none"
-                    >
-                      <option>{t("checker.row")}</option>
-                      <option>{t("checker.column")}</option>
-                    </select>
-                  </div>
-                </>
-              )}
-              {errorMessage && <div>{errorMessage}</div>}
-              <div id="result">{getTableData()}</div>
+    <PageSection title={t("checker.title")}>
+      <p className="text-black dark:text-white">{t("checker.hint")}</p>
+      <div className="text-dark mt-4 mr-2 mb-3 inline-block font-bold dark:text-white">
+        {t("checker.url")}
+      </div>
+      <input
+        type="text"
+        id="GsURLInput"
+        value={GsURL}
+        onChange={(e) => setGsURL(e.target.value)}
+        style={{ width: "100%", maxWidth: "500px" }}
+        className="text-dark focus:border-primary dark:focus:border-primary mr-4 border-b-[3px] border-gray-500 bg-inherit px-2 py-1 text-base font-medium outline-hidden transition-all duration-300 dark:border-gray-100 dark:bg-inherit dark:text-white dark:shadow-none dark:focus:shadow-none"
+        autoComplete="off"
+      />
+      <div
+        className="hover:text-primary dark:bg-dark dark:hover:text-primary mt-1 mb-1 inline-block cursor-pointer rounded-sm border-2 border-black bg-white px-4 py-2 text-base font-semibold text-black duration-300 ease-in-out dark:border-white dark:text-white"
+        onClick={fetchData}
+      >
+        {t("checker.fetchData")}
+      </div>
+      {loading && (
+        <div className="flex items-center justify-center">
+          <div className="loader">
+            <div className="lds-ellipsis">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      )}
+      <br />
+      {Object.keys(sheetData).length > 0 && (
+        <>
+          <div className="text-dark mt-4 mr-2 mb-3 inline-block font-bold dark:text-white">
+            {t("checker.selectSheet")}
+          </div>
+          <select
+            id="sheetSelection"
+            onChange={handleSheetChange}
+            className="text-dark focus:border-primary dark:bg-gray-dark dark:focus:border-primary inline-block border-b-[3px] border-gray-500 bg-inherit py-1 pr-5 text-base font-medium outline-hidden transition-all duration-300 dark:border-gray-100 dark:text-white dark:shadow-none dark:focus:shadow-none"
+          >
+            <option value=""></option>
+            {getSheetOptions()}
+          </select>
+        </>
+      )}
+      {Object.keys(sheetData).length > 0 && (
+        <>
+          <span className="mx-3"></span>
+          <div className="inline-block">
+            <div className="text-dark mt-4 mr-2 mb-3 inline-block font-bold dark:text-white">
+              {t("checker.types")}
+            </div>
+            <select
+              id="typeSelection"
+              value={selectedTypes}
+              onChange={handleTypesChange}
+              className="text-dark focus:border-primary dark:bg-gray-dark dark:focus:border-primary inline-block border-b-[3px] border-gray-500 bg-inherit py-1 pr-5 text-base font-medium outline-hidden transition-all duration-300 dark:border-gray-100 dark:text-white dark:shadow-none dark:focus:shadow-none"
+            >
+              <option>{t("common.3BLD")}</option>
+              <option>{t("common.BigBLD")}</option>
+            </select>
+          </div>
+        </>
+      )}
+      <br />
+      {Object.keys(sheetData).length > 0 && (
+        <>
+          <div className="text-dark mt-4 mr-2 mb-3 inline-block font-bold dark:text-white">
+            {t("checker.buffer")}
+          </div>
+          <input
+            type="text"
+            id="bufferInput"
+            value={buffer}
+            onChange={(e) => setBuffer(e.target.value)}
+            style={{ width: "100px" }}
+            className="text-dark focus:border-primary dark:focus:border-primary inline-block border-b-[3px] border-gray-500 bg-inherit px-2 py-1 text-base font-medium outline-hidden transition-all duration-300 dark:border-gray-100 dark:bg-inherit dark:text-white dark:shadow-none dark:focus:shadow-none"
+            autoComplete="off"
+          />
+        </>
+      )}
+      {Object.keys(sheetData).length > 0 && (
+        <>
+          <span className="mx-3"></span>
+          <div className="inline-block">
+            <div className="text-dark mt-4 mr-2 mb-3 inline-block font-bold dark:text-white">
+              {t("checker.firstTarget")}
+            </div>
+            <select
+              id="sheetTarget"
+              onChange={handleTargetChange}
+              className="text-dark focus:border-primary dark:bg-gray-dark dark:focus:border-primary inline-block border-b-[3px] border-gray-500 bg-inherit py-1 pr-5 text-base font-medium outline-hidden transition-all duration-300 dark:border-gray-100 dark:text-white dark:shadow-none dark:focus:shadow-none"
+            >
+              <option>{t("checker.row")}</option>
+              <option>{t("checker.column")}</option>
+            </select>
+          </div>
+        </>
+      )}
+      {errorMessage && <div>{errorMessage}</div>}
+      <div id="result">{getTableData()}</div>
+    </PageSection>
   );
 };
 

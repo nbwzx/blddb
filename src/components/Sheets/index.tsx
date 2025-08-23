@@ -4,6 +4,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { useTranslation } from "@/i18n/client";
 import useResponsiveTable from "@/utils/useResponsiveTable";
 import Loading from "@/app/loading";
+import PageSection from "@/components/PageSection";
 
 interface UserUrls {
   [key: string]: string;
@@ -163,110 +164,97 @@ const Sheets = () => {
   }
 
   return (
-    <section className="pt-[100px] pb-[120px]">
-      <div className="container">
-        <div className="-mx-4 flex flex-wrap justify-center">
-          <div className="w-full px-4 lg:w-10/12">
-            <div>
-              <h2 className="mb-8 text-center text-3xl leading-tight font-bold text-black sm:text-4xl sm:leading-tight dark:text-white">
-                {t("sheets.title")}
-              </h2>
-              <p className="mb-8 text-black dark:text-white">
-                {t("sheets.hint")
-                  .split("\n")
-                  .map((line, index, array) => (
-                    <span key={index}>
-                      {line}
-                      {index < array.length - 1 && <br />}
-                    </span>
-                  ))}
-              </p>
-              <div ref={divRef} className="overflow-x-auto">
-                <table ref={tableRef}>
-                  <thead className="bg-gray-100">
-                    <tr>
-                      <th>{t("sheets.no")}</th>
-                      <th
-                        onClick={() => requestSort("name")}
-                        style={{ cursor: "pointer" }}
+    <PageSection title={t("sheets.title")}>
+      <p className="mb-8 text-black dark:text-white">
+        {t("sheets.hint")
+          .split("\n")
+          .map((line, index, array) => (
+            <span key={index}>
+              {line}
+              {index < array.length - 1 && <br />}
+            </span>
+          ))}
+      </p>
+      <div ref={divRef} className="overflow-x-auto">
+        <table ref={tableRef}>
+          <thead className="bg-gray-100">
+            <tr>
+              <th>{t("sheets.no")}</th>
+              <th
+                onClick={() => requestSort("name")}
+                style={{ cursor: "pointer" }}
+              >
+                {t("sheets.name")}
+              </th>
+              <th
+                onClick={() => requestSort("wca_id")}
+                style={{ cursor: "pointer" }}
+              >
+                {t("sheets.wca_id")}
+              </th>
+              <th
+                onClick={() => requestSort("3bld")}
+                style={{ cursor: "pointer" }}
+              >
+                {t("sheets.3bld")}
+              </th>
+              <th
+                onClick={() => requestSort("4bld")}
+                style={{ cursor: "pointer" }}
+              >
+                {t("sheets.4bld")}
+              </th>
+              <th>{t("sheets.url")}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {Object.entries(users).map(([name, { urls, time }]) => {
+              return (
+                <tr key={name}>
+                  <td> {Object.keys(users).indexOf(name) + 1}</td>
+                  <td>
+                    {name.length > 25 ? `${name.split("(")[0].trim()}` : name}
+                  </td>
+                  <td>
+                    {time.wca_id ? (
+                      <a
+                        href={
+                          time.wca_id
+                            ? `https://www.worldcubeassociation.org/persons/${time.wca_id}`
+                            : "#"
+                        }
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="dashed-link"
                       >
-                        {t("sheets.name")}
-                      </th>
-                      <th
-                        onClick={() => requestSort("wca_id")}
-                        style={{ cursor: "pointer" }}
-                      >
-                        {t("sheets.wca_id")}
-                      </th>
-                      <th
-                        onClick={() => requestSort("3bld")}
-                        style={{ cursor: "pointer" }}
-                      >
-                        {t("sheets.3bld")}
-                      </th>
-                      <th
-                        onClick={() => requestSort("4bld")}
-                        style={{ cursor: "pointer" }}
-                      >
-                        {t("sheets.4bld")}
-                      </th>
-                      <th>{t("sheets.url")}</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {Object.entries(users).map(([name, { urls, time }]) => {
-                      return (
-                        <tr key={name}>
-                          <td> {Object.keys(users).indexOf(name) + 1}</td>
-                          <td>
-                            {name.length > 25
-                              ? `${name.split("(")[0].trim()}`
-                              : name}
-                          </td>
-                          <td>
-                            {time.wca_id ? (
-                              <a
-                                href={
-                                  time.wca_id
-                                    ? `https://www.worldcubeassociation.org/persons/${time.wca_id}`
-                                    : "#"
-                                }
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="dashed-link"
-                              >
-                                {time.wca_id}
-                              </a>
-                            ) : (
-                              <span className="text-gray-500"></span>
-                            )}
-                          </td>
-                          <td>
-                            {time["3bld"] > 0 ? (
-                              formatTime(time["3bld"])
-                            ) : (
-                              <span className="text-gray-500"></span>
-                            )}
-                          </td>
-                          <td>
-                            {time["4bld"] > 0 ? (
-                              formatTime(time["4bld"])
-                            ) : (
-                              <span className="text-gray-500"></span>
-                            )}
-                          </td>
-                          {renderLinks(urls)}
-                        </tr>
-                      );
-                    })}
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          </div>
-        </div>
+                        {time.wca_id}
+                      </a>
+                    ) : (
+                      <span className="text-gray-500"></span>
+                    )}
+                  </td>
+                  <td>
+                    {time["3bld"] > 0 ? (
+                      formatTime(time["3bld"])
+                    ) : (
+                      <span className="text-gray-500"></span>
+                    )}
+                  </td>
+                  <td>
+                    {time["4bld"] > 0 ? (
+                      formatTime(time["4bld"])
+                    ) : (
+                      <span className="text-gray-500"></span>
+                    )}
+                  </td>
+                  {renderLinks(urls)}
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
       </div>
-    </section>
+    </PageSection>
   );
 };
 

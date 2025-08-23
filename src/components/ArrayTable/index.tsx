@@ -3,6 +3,7 @@
 import { useTranslation } from "@/i18n/client";
 import React, { JSX } from "react";
 import codeConverter from "@/utils/codeConverter";
+import PageSection from "@/components/PageSection";
 
 const ArrayTable = ({ codeType }: { codeType: string }) => {
   const { t } = useTranslation();
@@ -135,7 +136,7 @@ const ArrayTable = ({ codeType }: { codeType: string }) => {
         key={tables.length}
         className={`mt-8 overflow-auto ${isCornerEdge ? "" : "max-h-[75vh]"}`}
       >
-        <table>
+        <table className="mx-auto">
           <thead>{currentTableHead}</thead>
           <tbody>{currentTable}</tbody>
         </table>
@@ -144,18 +145,9 @@ const ArrayTable = ({ codeType }: { codeType: string }) => {
   });
 
   return (
-    <section className="pt-[100px] pb-[120px]">
-      <div className="container">
-        <div className="-mx-4 flex flex-wrap justify-center">
-          <div className="w-full px-4 lg:w-10/12">
-            <h2 className="mb-8 text-center text-3xl leading-tight font-bold text-black sm:text-4xl sm:leading-tight dark:text-white">
-              {t(`nightmare.${codeType}`)}
-            </h2>
-            {tables}
-          </div>
-        </div>
-      </div>
-    </section>
+    <PageSection title={t(`nightmare.${codeType}`)} widthClass="lg:w-11/12">
+      {tables}
+    </PageSection>
   );
 };
 

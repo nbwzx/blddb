@@ -7,6 +7,7 @@ import bigbldCodeConverter from "@/utils/bigbldCodeConverter";
 import Table from "@/components/Table";
 import useResponsiveTable from "@/utils/useResponsiveTable";
 import Loading from "@/app/loading";
+import PageSection from "@/components/PageSection";
 
 const BLD = ({ codeType }: { codeType: string }) => {
   const { i18n, t } = useTranslation();
@@ -521,55 +522,42 @@ const BLD = ({ codeType }: { codeType: string }) => {
   };
 
   return (
-    <section className="pt-[100px] pb-[120px]">
-      <div className="container">
-        <div className="-mx-4 flex flex-wrap justify-center">
-          <div className="w-full px-4 lg:w-10/12">
-            <div>
-              {copySuccess && (
-                <div
-                  id="copypopup"
-                  className="fade-in-out fixed bottom-[30px] left-1/2 z-50 -translate-x-1/2 transform rounded-md border-2 bg-gray-100 p-4 text-black shadow-lg dark:bg-gray-700 dark:text-white"
-                  style={{
-                    animation:
-                      "fadein 0.5s ease forwards, fadeout 0.5s ease 1.5s forwards",
-                  }}
-                >
-                  <span className="text-lg">{t("table.copied")}</span>
-                </div>
-              )}
-              <h2 className="mb-8 text-center text-3xl leading-tight font-bold text-black sm:text-4xl sm:leading-tight dark:text-white">
-                {t(`${codeType}.title`)}
-              </h2>
-              <p className="text-black dark:text-white">
-                {t(`${codeType}.hint`)
-                  .split("\n")
-                  .map((line, index, array) => (
-                    <span key={index}>
-                      {line}
-                      {index < array.length - 1 && <br />}
-                    </span>
-                  ))}
-              </p>
-              {renderBLD()}
-              <Table
-                codeType={codeType}
-                inputText={selectToInput(selectValues)}
-                data={modeToData[modeValue as keyof typeof modeToData] || {}}
-                divRef={divRef}
-                tableRef={tableRef}
-                selected={
-                  modeToSelected[modeValue as keyof typeof modeToSelected]
-                }
-                sourceToUrl={sourceToUrl}
-                sourceToResult={sourceToResult}
-                algToUrl={algToUrl}
-              />
-            </div>
-          </div>
+    <PageSection title={t(`${codeType}.title`)}>
+      {copySuccess && (
+        <div
+          id="copypopup"
+          className="fade-in-out fixed bottom-[30px] left-1/2 z-50 -translate-x-1/2 transform rounded-md border-2 bg-gray-100 p-4 text-black shadow-lg dark:bg-gray-700 dark:text-white"
+          style={{
+            animation:
+              "fadein 0.5s ease forwards, fadeout 0.5s ease 1.5s forwards",
+          }}
+        >
+          <span className="text-lg">{t("table.copied")}</span>
         </div>
-      </div>
-    </section>
+      )}
+      <p className="text-black dark:text-white">
+        {t(`${codeType}.hint`)
+          .split("\n")
+          .map((line, index, array) => (
+            <span key={index}>
+              {line}
+              {index < array.length - 1 && <br />}
+            </span>
+          ))}
+      </p>
+      {renderBLD()}
+      <Table
+        codeType={codeType}
+        inputText={selectToInput(selectValues)}
+        data={modeToData[modeValue as keyof typeof modeToData] || {}}
+        divRef={divRef}
+        tableRef={tableRef}
+        selected={modeToSelected[modeValue as keyof typeof modeToSelected]}
+        sourceToUrl={sourceToUrl}
+        sourceToResult={sourceToResult}
+        algToUrl={algToUrl}
+      />
+    </PageSection>
   );
 };
 

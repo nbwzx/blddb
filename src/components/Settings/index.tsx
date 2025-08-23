@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import { useTranslation } from "@/i18n/client";
 import Loading from "@/app/loading";
 import codeConverter from "@/utils/codeConverter";
+import PageSection from "@/components/PageSection";
 
 const Settings = () => {
   const { t } = useTranslation();
@@ -138,91 +139,73 @@ const Settings = () => {
   }
 
   return (
-    <section className="pt-[100px] pb-[120px]">
-      <div className="container">
-        <div className="-mx-4 flex flex-wrap justify-center">
-          <div className="w-full px-4 lg:w-6/12">
-            <div>
-              <h2 className="mb-8 text-center text-3xl leading-tight font-bold text-black sm:text-4xl sm:leading-tight dark:text-white">
-                {t("settings.title")}
-              </h2>
-              {Object.keys(settingsGroups).map((moduleId, index) => (
-                <div key={moduleId} className="mb-8">
-                  <div className="mb-4 text-lg text-black dark:text-white">
-                    <h3 className="text-2xl font-semibold">
-                      {t(`settings.${moduleId}.title`)}
-                    </h3>
+    <PageSection title={t("settings.title")} widthClass="lg:w-6/12">
+      {Object.keys(settingsGroups).map((moduleId, index) => (
+        <div key={moduleId} className="mb-8">
+          <div className="mb-4 text-lg text-black dark:text-white">
+            <h3 className="text-2xl font-semibold">
+              {t(`settings.${moduleId}.title`)}
+            </h3>
+          </div>
+          <div className="flex flex-col">
+            {settingsGroups[moduleId as keyof typeof settingsGroups].map(
+              (setting) => (
+                <div key={setting.id} className="mb-4 flex w-full items-center">
+                  <div className="flex-1">
+                    <div className="text-lg text-black dark:text-white">
+                      {t(`settings.${moduleId}.${setting.id}`)}
+                    </div>
                   </div>
-                  <div className="flex flex-col">
-                    {settingsGroups[
-                      moduleId as keyof typeof settingsGroups
-                    ].map((setting) => (
-                      <div
-                        key={setting.id}
-                        className="mb-4 flex w-full items-center"
-                      >
-                        <div className="flex-1">
-                          <div className="text-lg text-black dark:text-white">
-                            {t(`settings.${moduleId}.${setting.id}`)}
-                          </div>
-                        </div>
-                        {setting.type === "select" && (
-                          <select
-                            className="focus:border-primary mr-2 ml-4 rounded-md border border-2 border-gray-400 p-2 pr-8 focus:outline-hidden dark:border-gray-600 dark:bg-gray-800 dark:text-white"
-                            value={settings[setting.id] || ""}
-                            onChange={(e) =>
-                              handleChange(setting.id, "select", e.target.value)
-                            }
-                          >
-                            {(
-                              setting as { options: { id: string }[] }
-                            ).options.map((option: { id: string }) => (
-                              <option key={option.id} value={option.id}>
-                                {`${modeToEmoji[option.id as keyof typeof modeToEmoji] || ""} ${t(`settings.${moduleId}.${option.id}`)}`}
-                              </option>
-                            ))}
-                          </select>
-                        )}
-                        {setting.type === "checkbox" && (
-                          <input
-                            type="checkbox"
-                            id={setting.id}
-                            checked={settings[setting.id] || false}
-                            onChange={(e) =>
-                              handleChange(
-                                setting.id,
-                                "checkbox",
-                                e.target.checked,
-                              )
-                            }
-                            className="mr-2 ml-4 h-5 w-5 text-gray-400 dark:text-white"
-                          />
-                        )}
-                        {setting.type === "text" && (
-                          <input
-                            type="text"
-                            id={setting.id}
-                            autoComplete="off"
-                            value={settings[setting.id] || ""}
-                            onChange={(e) =>
-                              handleChange(setting.id, "text", e.target.value)
-                            }
-                            className="focus:border-primary mr-2 ml-4 w-20 rounded-md border border-2 border-gray-400 p-2 text-right focus:outline-hidden dark:border-gray-600 dark:bg-gray-800 dark:text-white"
-                          />
-                        )}
-                      </div>
-                    ))}
-                  </div>
-                  {index < Object.keys(settingsGroups).length - 1 && (
-                    <hr className="my-8 border-t-2 border-gray-300 dark:border-gray-600" />
+                  {setting.type === "select" && (
+                    <select
+                      className="focus:border-primary mr-2 ml-4 rounded-md border border-2 border-gray-400 p-2 pr-8 focus:outline-hidden dark:border-gray-600 dark:bg-gray-800 dark:text-white"
+                      value={settings[setting.id] || ""}
+                      onChange={(e) =>
+                        handleChange(setting.id, "select", e.target.value)
+                      }
+                    >
+                      {(setting as { options: { id: string }[] }).options.map(
+                        (option: { id: string }) => (
+                          <option key={option.id} value={option.id}>
+                            {`${modeToEmoji[option.id as keyof typeof modeToEmoji] || ""} ${t(`settings.${moduleId}.${option.id}`)}`}
+                          </option>
+                        ),
+                      )}
+                    </select>
+                  )}
+                  {setting.type === "checkbox" && (
+                    <input
+                      type="checkbox"
+                      id={setting.id}
+                      checked={settings[setting.id] || false}
+                      onChange={(e) =>
+                        handleChange(setting.id, "checkbox", e.target.checked)
+                      }
+                      className="mr-2 ml-4 h-5 w-5 text-gray-400 dark:text-white"
+                    />
+                  )}
+                  {setting.type === "text" && (
+                    <input
+                      type="text"
+                      id={setting.id}
+                      autoComplete="off"
+                      value={settings[setting.id] || ""}
+                      onChange={(e) =>
+                        handleChange(setting.id, "text", e.target.value)
+                      }
+                      className="focus:border-primary mr-2 ml-4 w-20 rounded-md border border-2 border-gray-400 p-2 text-right focus:outline-hidden dark:border-gray-600 dark:bg-gray-800 dark:text-white"
+                    />
                   )}
                 </div>
-              ))}
-            </div>
+              ),
+            )}
           </div>
+          {index < Object.keys(settingsGroups).length - 1 && (
+            <hr className="my-8 border-t-2 border-gray-300 dark:border-gray-600" />
+          )}
         </div>
-      </div>
-    </section>
+      ))}
+    </PageSection>
   );
 };
 
