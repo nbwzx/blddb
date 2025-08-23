@@ -260,7 +260,7 @@ const Code = ({ cubeSize }: { cubeSize: 3 | 5 }) => {
                 {t("code.orientation")}
               </div>
               <select
-                className="text-dark focus:border-primary dark:bg-gray-dark dark:focus:border-primary rounded-sm border-b-[3px] border-gray-500 bg-inherit py-1 pr-4 text-base font-medium outline-hidden transition-all duration-300 dark:border-gray-100 dark:text-white dark:shadow-none dark:focus:shadow-none"
+                className="text-dark focus:border-primary dark:bg-gray-dark dark:focus:border-primary border-b-[3px] border-gray-500 bg-inherit py-1 pr-4 text-base font-medium outline-hidden transition-all duration-300 dark:border-gray-100 dark:text-white dark:shadow-none dark:focus:shadow-none"
                 onChange={(e) =>
                   handleOrientationChange(Number(e.target.value))
                 }

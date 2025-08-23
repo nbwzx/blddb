@@ -377,7 +377,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
         ref={inputRef}
         placeholder=""
         style={{ width: `${inputWidth}rem` }}
-        className="text-dark focus:border-primary dark:focus:border-primary rounded-sm border-b-[3px] border-gray-500 bg-inherit px-2 py-1 text-base font-medium uppercase outline-hidden transition-all duration-300 dark:border-gray-100 dark:bg-inherit dark:text-white dark:shadow-none dark:focus:shadow-none"
+        className="text-dark focus:border-primary dark:focus:border-primary border-b-[3px] border-gray-500 bg-inherit px-2 py-1 text-base font-medium uppercase outline-hidden transition-all duration-300 dark:border-gray-100 dark:bg-inherit dark:text-white dark:shadow-none dark:focus:shadow-none"
         autoComplete="off"
         maxLength={selectValuesLen}
         onChange={handleInputChange}
@@ -395,7 +395,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
           onClick={scrollToTop}
           ref={modeRef}
           value={modeValue}
-          className="text-dark focus:border-primary dark:bg-gray-dark dark:focus:border-primary inline-block rounded-sm border-b-[3px] border-gray-500 bg-inherit py-1 pr-5 text-base font-medium outline-hidden transition-all duration-300 dark:border-gray-100 dark:text-white dark:shadow-none dark:focus:shadow-none"
+          className="text-dark focus:border-primary dark:bg-gray-dark dark:focus:border-primary inline-block border-b-[3px] border-gray-500 bg-inherit py-1 pr-5 text-base font-medium outline-hidden transition-all duration-300 dark:border-gray-100 dark:text-white dark:shadow-none dark:focus:shadow-none"
         >
           {Object.entries(modeToEmoji).map(([mode, emoji]) => (
             <option key={mode} value={mode}>
@@ -423,7 +423,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
           ref={(ref) => {
             selectRefs.current[index] = ref as HTMLSelectElement;
           }}
-          className="text-dark focus:border-primary dark:bg-gray-dark dark:focus:border-primary group-array rounded-sm border-b-[3px] border-gray-500 bg-inherit py-1 text-base font-medium outline-hidden transition-all duration-300 dark:border-gray-100 dark:text-white dark:shadow-none dark:focus:shadow-none"
+          className="text-dark focus:border-primary dark:bg-gray-dark dark:focus:border-primary group-array border-b-[3px] border-gray-500 bg-inherit py-1 text-base font-medium outline-hidden transition-all duration-300 dark:border-gray-100 dark:text-white dark:shadow-none dark:focus:shadow-none"
         >
           <option></option>
           {modeValue === "manmade" && codeType !== "twists" && (
