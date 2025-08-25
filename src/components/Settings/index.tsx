@@ -158,7 +158,7 @@ const Settings = () => {
                   </div>
                   {setting.type === "select" && (
                     <select
-                      className="focus:border-primary mr-2 ml-4 rounded-md border border-2 border-gray-400 p-2 pr-8 focus:outline-hidden dark:border-gray-600 dark:bg-gray-800 dark:text-white"
+                      className="focus:border-primary dark:focus:border-primary mr-2 ml-4 rounded-md border border-2 border-gray-400 p-2 pr-8 text-black transition-all duration-300 focus:outline-hidden dark:border-gray-600 dark:bg-gray-800 dark:text-white"
                       value={settings[setting.id] || ""}
                       onChange={(e) =>
                         handleChange(setting.id, "select", e.target.value)
@@ -193,7 +193,7 @@ const Settings = () => {
                       onChange={(e) =>
                         handleChange(setting.id, "text", e.target.value)
                       }
-                      className="focus:border-primary mr-2 ml-4 w-20 rounded-md border border-2 border-gray-400 p-2 text-right focus:outline-hidden dark:border-gray-600 dark:bg-gray-800 dark:text-white"
+                      className="focus:border-primary dark:focus:border-primary mr-2 ml-4 w-20 rounded-md border border-2 border-gray-400 p-2 text-right text-black transition-all duration-300 focus:outline-hidden dark:border-gray-600 dark:bg-gray-800 dark:text-white"
                     />
                   )}
                 </div>
