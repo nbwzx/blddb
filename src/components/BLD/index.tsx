@@ -173,7 +173,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
   const getSelectValuesKey = (positions: string[]) => {
     selectValuesKey = [...positions];
     if (codeType !== "twists") {
-      return selectValues;
+      return selectValuesKey;
     }
     for (let i = 0; i < selectValuesKey.length; i++) {
       if (
