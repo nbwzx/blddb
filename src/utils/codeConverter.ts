@@ -118,7 +118,7 @@ const codeConverter = (function () {
 
   function customCodeToPosition(code: string, codeType: string): string[] {
     if (codeType === "flips") {
-      return customCodeToPosition(code, "edge");
+      return customCodeToPosition(code, "edge0");
     }
     if (codeType === "parity") {
       return [
@@ -127,7 +127,10 @@ const codeConverter = (function () {
       ];
     }
     if (codeType === "ltct") {
-      return customCodeToPosition(code, "corner");
+      return [
+        ...customCodeToPosition(code.slice(0, 2), "corner"),
+        ...customCodeToPosition(code.slice(2, 3), "corner1"),
+      ];
     }
     let storedValues = "";
     if (typeof localStorage !== "undefined") {
@@ -150,8 +153,9 @@ const codeConverter = (function () {
       }
       return result;
     }
+    const validPositions = codeTypeToPositions(codeType);
     for (const i in positionArray) {
-      if (positionToCodeType(positionArray[i]) !== codeType) {
+      if (!validPositions.includes(positionArray[i])) {
         continue;
       }
       for (let j = 0; j < code.length; j++) {
