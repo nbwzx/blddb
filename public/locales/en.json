@@ -234,5 +234,13 @@
     "firstTarget": "First Target:",
     "row": "Row",
     "column": "Column"
+  },
+  "error": {
+    "prefix": "Error: ",
+    "multiplePositions": "Multiple positions on the same piece are not allowed.",
+    "starNightmare": "* is not allowed in nightmare mode.",
+    "starManmade": "Multiple * are not allowed in manmade mode.",
+    "invalidLetter": "This letter is invalid.",
+    "invalidCode": "Your lettering scheme in settings is invalid."
   }
 }

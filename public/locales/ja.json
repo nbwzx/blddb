@@ -234,5 +234,13 @@
     "firstTarget": "最初のターゲット：",
     "row": "行",
     "column": "列"
+  },
+  "error": {
+    "prefix": "エラー：",
+    "multiplePositions": "同一ピースに複数のナンバリングを設定したい場合のエラー。",
+    "starNightmare": "ナイトメアモードでは * は許可されていません。",
+    "starManmade": "マニュメイドモードでは * を複数使用できません。",
+    "invalidLetter": "ナンバリングは無効です。",
+    "invalidCode": "設定のナンバリングスキームが無効です。"
   }
 }

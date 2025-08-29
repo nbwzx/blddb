@@ -8,6 +8,8 @@ import Table from "@/components/Table";
 import useResponsiveTable from "@/utils/useResponsiveTable";
 import Loading from "@/app/loading";
 import PageSection from "@/components/PageSection";
+import tracer from "@/utils/tracer";
+import tracer_555 from "@/utils/tracer_555";
 
 const BLD = ({ codeType }: { codeType: string }) => {
   const { i18n, t } = useTranslation();
@@ -19,6 +21,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
   const selectRefs = useRef<HTMLSelectElement[]>([]);
   const modeRef = useRef<HTMLSelectElement>(null);
   const [loading, setLoading] = useState(true);
+  const [errorKey, setErrorKey] = useState("");
 
   let is3bld = true;
   const selectValuesLenMap: Record<string, number> = {
@@ -107,13 +110,52 @@ const BLD = ({ codeType }: { codeType: string }) => {
       if (positionParam) {
         const positions = positionParam.split("-");
         setSelectValuesNew(positions);
+        const newInputValue = selectToInput(positions);
         if (inputRef.current) {
-          inputRef.current.value = selectToInput(positions);
+          inputRef.current.value = newInputValue;
         }
+        checkForDuplicates(positions, modeParam);
       }
 
       if (modeParam) {
         setModeValue(modeParam);
+      }
+
+      let isStandard = true;
+      const localStorageKey = is3bld ? "code" : "bigbldCode";
+      let storedValues = "";
+      if (typeof localStorage !== "undefined") {
+        storedValues =
+          localStorage.getItem(localStorageKey) ?? converter.initialInputValues;
+      }
+      if (!is3bld) {
+        // The index 1 is notEditableCells[0][0]
+        if (storedValues && storedValues[1] === " ") {
+          isStandard = false;
+        }
+      }
+      const groups = is3bld ? tracer.trackDict : tracer_555.trackDict;
+      let isValidCode = true;
+      Object.entries(groups).forEach(([key, group]: [string, number[]]) => {
+        if (isStandard && key === "wingOpposite") {
+          return;
+        }
+        if (!isStandard && key === "wing") {
+          return;
+        }
+        const values = group.map((idx) => storedValues[idx - 1] ?? " ");
+        for (let i = 0; i < values.length; i++) {
+          if (
+            values.filter((v) => v === values[i]).length >= 2 ||
+            values[i] === " "
+          ) {
+            isValidCode = false;
+            return;
+          }
+        }
+      });
+      if (!isValidCode) {
+        setErrorKey("invalidCode");
       }
       setLoading(false);
     };
@@ -197,14 +239,58 @@ const BLD = ({ codeType }: { codeType: string }) => {
     return selectValuesKey;
   };
 
+  const checkForDuplicates = (
+    newSelectValues: string[],
+    newModeValue: string,
+  ) => {
+    if (codeType !== "twists") {
+      const filteredValues = newSelectValues.filter(
+        (value) => value !== " " && value !== "" && value !== "*",
+      );
+      const sortedValues = filteredValues.map((value) =>
+        value.split("").sort().join(""),
+      );
+      const uniqueValues = new Set(sortedValues);
+      if (uniqueValues.size !== sortedValues.length) {
+        setErrorKey("multiplePositions");
+      }
+      const newValue = selectToInput(newSelectValues);
+      if (newModeValue === "nightmare" && newValue.includes("*")) {
+        setErrorKey("starNightmare");
+      }
+      if (newModeValue === "manmade" && newValue.split("*").length > 2) {
+        setErrorKey("starManmade");
+      }
+    }
+  };
+
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (!compositionRef.current) {
+      setErrorKey("");
       const newValue = e.target.value.toUpperCase();
       const newSelectValues = converter.customCodeToPosition(
         newValue.padEnd(selectValuesLen, " "),
         codeType,
       );
       setSelectValuesNew(newSelectValues);
+      if (codeType === "twists") {
+        const positions = converter.customCodeToPosition(newValue, "corner");
+        const corner1Positions = converter.codeTypeToPositions("corner1");
+        for (let i = 0; i < newValue.length; i++) {
+          if (!corner1Positions.includes(positions[i])) {
+            setErrorKey("invalidLetter");
+            break;
+          }
+        }
+      } else {
+        for (let i = 0; i < newValue.length; i++) {
+          if (newValue[i] !== selectToInput(newSelectValues)[i]) {
+            setErrorKey("invalidLetter");
+            break;
+          }
+        }
+      }
+      checkForDuplicates(newSelectValues, modeValue);
       const newSelectValuesTrim = newSelectValues.map((value) =>
         value === " " ? "" : value,
       );
@@ -217,11 +303,13 @@ const BLD = ({ codeType }: { codeType: string }) => {
     e: React.ChangeEvent<HTMLSelectElement>,
     index: number,
   ) => {
+    setErrorKey("");
     let newSelectValues = [...selectValues];
     newSelectValues[index] = e.target.value;
     if (codeType === "twists") {
       newSelectValues = getSelectValuesKey(newSelectValues);
     }
+    checkForDuplicates(newSelectValues, modeValue);
     let blankCount = 0;
     let starCount = 0;
     let blankIndex = -1;
@@ -255,8 +343,10 @@ const BLD = ({ codeType }: { codeType: string }) => {
   };
 
   const handleModeChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    setErrorKey("");
     const newModeValue = e.target.value;
     setModeValue(newModeValue);
+    checkForDuplicates(selectValues, newModeValue);
     const positionStr = selectValues.join("-");
     const newUrl = `?position=${positionStr}&mode=${newModeValue}`;
     window.history.pushState({ path: newUrl }, "", newUrl);
@@ -301,6 +391,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
         for (let i = 0; i < selectValuesLen && i < values.length; i++) {
           newSelectValues[i] = values[i];
         }
+        checkForDuplicates(newSelectValues, modeValue);
         setSelectValuesNew(newSelectValues);
         const newSelectValuesTrim = newSelectValues.map((value) =>
           value === " " ? "" : value,
@@ -546,6 +637,11 @@ const BLD = ({ codeType }: { codeType: string }) => {
           ))}
       </p>
       {renderBLD()}
+      <div ref={divRef}>
+        <p className="text-black dark:text-white">
+          {errorKey && t("error.prefix") + t(`error.${errorKey}`)}
+        </p>
+      </div>
       <Table
         codeType={codeType}
         inputText={selectToInput(selectValues)}

@@ -234,5 +234,13 @@
     "firstTarget": "第一个目标：",
     "row": "行",
     "column": "列"
+  },
+  "error": {
+    "prefix": "错误：",
+    "multiplePositions": "编码位于同一块上是不允许的。",
+    "starNightmare": "在噩梦模式下不允许使用 *.",
+    "starManmade": "在人造模式下不允许使用多个 *.",
+    "invalidLetter": "该编码无效。",
+    "invalidCode": "设置中的编码无效。"
   }
 }
