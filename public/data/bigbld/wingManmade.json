@@ -236,6 +236,17 @@
             "[r',U2 Lw U2 Lw' U2]"
         ],
         [
+            "Lw U R' F' R f R' F R f' U' Lw'",
+            [
+                "Anto Kam (甘浩東)",
+                "Daniel Lin",
+                "Gavriel Johann Arcilla",
+                "Jonghyun Kim (김종현)",
+                "Yomie Ko (고현승)"
+            ],
+            "Lw U:[R' F' R,f]"
+        ],
+        [
             "U2 l' U2 Rw U2 Rw' U2 l U2 Rw U2 Rw'",
             [
                 "Hana Davila",
@@ -244,16 +255,6 @@
                 "Xin Shi (石欣)"
             ],
             "U2:[l',U2 Rw U2 Rw' U2]"
-        ],
-        [
-            "Lw U R' F' R f R' F R f' U' Lw'",
-            [
-                "Anto Kam (甘浩東)",
-                "Daniel Lin",
-                "Gavriel Johann Arcilla",
-                "Jonghyun Kim (김종현)"
-            ],
-            "Lw U:[R' F' R,f]"
         ],
         [
             "Rw U2 l D2 l' U2 l D2 l' Rw'",
@@ -728,18 +729,10 @@
             [
                 "Christopher Morris",
                 "Daniel Wallin",
-                "Graham Siggins"
-            ],
-            "D' Rw' U':[U' r2 U,R']"
-        ],
-        [
-            "D' Lw' U' R' u R U2 R' u' R U' Lw D",
-            [
-                "Anto Kam (甘浩東)",
-                "Gavriel Johann Arcilla",
+                "Graham Siggins",
                 "Jonghyun Kim (김종현)"
             ],
-            "D' Lw' U':[R' u R,U2]"
+            "D' Rw' U':[U' r2 U,R']"
         ],
         [
             "D Lw' U' R' u' R U2 R' u R U' Lw D'",
@@ -756,6 +749,14 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "D' l':[U2,l' D l]"
+        ],
+        [
+            "D' Lw' U' R' u R U2 R' u' R U' Lw D",
+            [
+                "Anto Kam (甘浩東)",
+                "Gavriel Johann Arcilla"
+            ],
+            "D' Lw' U':[R' u R,U2]"
         ],
         [
             "D l' U2 l' D' l U2 l' D l2 D'",
@@ -1282,7 +1283,6 @@
                 "Ethan Pan",
                 "Gavriel Johann Arcilla",
                 "Howie Craig",
-                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
@@ -1297,6 +1297,7 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
@@ -1624,6 +1625,7 @@
                 "Timo Norrkniivilä",
                 "Tobias Peter",
                 "Xi Lu (鲁曦)",
+                "Yomie Ko (고현승)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "Lw:[r',U L' U']"
@@ -2915,6 +2917,7 @@
                 "Timo Norrkniivilä",
                 "Tobias Peter",
                 "Xi Lu (鲁曦)",
+                "Yomie Ko (고현승)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "Lw':[U' L U,r]"
@@ -3096,25 +3099,25 @@
             "[L F' L',b']"
         ],
         [
-            "Rw r D' r' U r D r' U' Rw'",
-            [
-                "Christopher Morris",
-                "Hana Davila",
-                "Jonghyun Kim (김종현)",
-                "Kevin Matthews",
-                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
-            ],
-            "Rw:[r D' r',U]"
-        ],
-        [
             "r2 D' r' U r D r' U' r'",
             [
                 "Chenhao Sun (孙晨皓)",
                 "Dong Zhu (朱栋)",
+                "Jonghyun Kim (김종현)",
                 "Tobias Peter",
                 "Xi Lu (鲁曦)"
             ],
             "r:[r D' r',U]"
+        ],
+        [
+            "Rw r D' r' U r D r' U' Rw'",
+            [
+                "Christopher Morris",
+                "Hana Davila",
+                "Kevin Matthews",
+                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
+            ],
+            "Rw:[r D' r',U]"
         ],
         [
             "4Rw U' L u' L' U L u L' 4Rw'",
@@ -4260,6 +4263,7 @@
                 "Michael Tripodi",
                 "Ryan Eckersley",
                 "Tobias Peter",
+                "Yomie Ko (고현승)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -5250,6 +5254,17 @@
             "[U2 Lw U2 Lw' U2,r']"
         ],
         [
+            "Lw U f R' F' R f' R' F R U' Lw'",
+            [
+                "Anto Kam (甘浩東)",
+                "Daniel Lin",
+                "Gavriel Johann Arcilla",
+                "Jonghyun Kim (김종현)",
+                "Yomie Ko (고현승)"
+            ],
+            "Lw U:[f,R' F' R]"
+        ],
+        [
             "Rw U2 Rw' U2 l' U2 Rw U2 Rw' U2 l U2",
             [
                 "Hana Davila",
@@ -5258,16 +5273,6 @@
                 "Xin Shi (石欣)"
             ],
             "Rw:[U2,Rw' U2 l' U2 Rw]"
-        ],
-        [
-            "Lw U f R' F' R f' R' F R U' Lw'",
-            [
-                "Anto Kam (甘浩東)",
-                "Daniel Lin",
-                "Gavriel Johann Arcilla",
-                "Jonghyun Kim (김종현)"
-            ],
-            "Lw U:[f,R' F' R]"
         ],
         [
             "Rw l D2 l' U2 l D2 l' U2 Rw'",
@@ -5342,6 +5347,7 @@
                 "Timo Norrkniivilä",
                 "Tobias Peter",
                 "Xi Lu (鲁曦)",
+                "Yomie Ko (고현승)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "Lw:[U L' U',r']"
@@ -5418,6 +5424,7 @@
                 "Ryan Eckersley",
                 "Timo Norrkniivilä",
                 "Xi Lu (鲁曦)",
+                "Yomie Ko (고현승)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "Lw':[r,U' L U]"
@@ -5468,6 +5475,7 @@
                 "Michael Tripodi",
                 "Ryan Eckersley",
                 "Tobias Peter",
+                "Yomie Ko (고현승)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -5535,6 +5543,23 @@
     ],
     "AFI": [
         [
+            "U f R' F' R f' R' F R U'",
+            [
+                "Andrew Tan Jing Bang",
+                "Anto Kam (甘浩東)",
+                "Chenhao Sun (孙晨皓)",
+                "Daniel Lin",
+                "Ethan Pan",
+                "Gavriel Johann Arcilla",
+                "Howie Craig",
+                "Jonghyun Kim (김종현)",
+                "Michael Tripodi",
+                "Yomie Ko (고현승)",
+                "Yuki Tsuneyoshi (恒吉優紀)"
+            ],
+            "U:[f,R' F' R]"
+        ],
+        [
             "D U' R2 U r' U' R2 U r D'",
             [
                 "Adrian Dębski",
@@ -5549,22 +5574,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "D:[U' R2 U,r']"
-        ],
-        [
-            "U f R' F' R f' R' F R U'",
-            [
-                "Andrew Tan Jing Bang",
-                "Anto Kam (甘浩東)",
-                "Chenhao Sun (孙晨皓)",
-                "Daniel Lin",
-                "Ethan Pan",
-                "Gavriel Johann Arcilla",
-                "Howie Craig",
-                "Jonghyun Kim (김종현)",
-                "Michael Tripodi",
-                "Yuki Tsuneyoshi (恒吉優紀)"
-            ],
-            "U:[f,R' F' R]"
         ],
         [
             "D R' U' R' U r' U' R U Rw D'",
@@ -5628,7 +5637,8 @@
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
-                "Sebastiano Tronto"
+                "Sebastiano Tronto",
+                "Yomie Ko (고현승)"
             ],
             "D R:[r,U R U']"
         ],
@@ -5700,7 +5710,8 @@
             "U D f R' F' R f' R' F R D' U'",
             [
                 "Chenhao Sun (孙晨皓)",
-                "Ryan Eckersley"
+                "Ryan Eckersley",
+                "Yomie Ko (고현승)"
             ],
             "U D:[f,R' F' R]"
         ],
@@ -5724,7 +5735,6 @@
                 "Gavriel Johann Arcilla",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Oliver Fritz",
@@ -5734,6 +5744,7 @@
                 "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
+                "Yomie Ko (고현승)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -5747,6 +5758,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Howie Craig",
+                "Jonghyun Kim (김종현)",
                 "Michael Tripodi"
             ],
             "Lw':[r,U' L' U]"
@@ -5795,7 +5807,8 @@
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
-                "Sebastiano Tronto"
+                "Sebastiano Tronto",
+                "Yomie Ko (고현승)"
             ],
             "D' R':[U' R' U,r']"
         ],
@@ -5855,6 +5868,19 @@
             "D':[r,U R2 U']"
         ],
         [
+            "D' Rw U R U' r' U R' U' R' D",
+            [
+                "Graham Siggins",
+                "Hana Davila",
+                "Kai Yamamoto (山本快)",
+                "Kevin Matthews",
+                "Sebastiano Tronto",
+                "Tobias Peter",
+                "Yomie Ko (고현승)"
+            ],
+            "D' R:[r,U R U']"
+        ],
+        [
             "U' R B R' b' R B' R' b U",
             [
                 "Andrew Tan Jing Bang",
@@ -5865,18 +5891,6 @@
                 "Ryan Eckersley"
             ],
             "U':[R B R',b']"
-        ],
-        [
-            "D' Rw U R U' r' U R' U' R' D",
-            [
-                "Graham Siggins",
-                "Hana Davila",
-                "Kai Yamamoto (山本快)",
-                "Kevin Matthews",
-                "Sebastiano Tronto",
-                "Tobias Peter"
-            ],
-            "D' R:[r,U R U']"
         ],
         [
             "U' 4Lw U R' u' R U' R' u x U",
@@ -5936,6 +5950,7 @@
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
+                "Yomie Ko (고현승)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "R':[U' R' U,r']"
@@ -5982,6 +5997,7 @@
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
+                "Yomie Ko (고현승)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "R:[r,U R U']"
@@ -6039,6 +6055,7 @@
                 "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
+                "Yomie Ko (고현승)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -6077,6 +6094,7 @@
                 "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
+                "Yomie Ko (고현승)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -6114,6 +6132,7 @@
                 "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
+                "Yomie Ko (고현승)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -6152,6 +6171,7 @@
                 "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
+                "Yomie Ko (고현승)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -6189,6 +6209,7 @@
                 "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
+                "Yomie Ko (고현승)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -6227,6 +6248,7 @@
                 "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
+                "Yomie Ko (고현승)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -6264,6 +6286,7 @@
                 "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
+                "Yomie Ko (고현승)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -6301,6 +6324,7 @@
                 "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
+                "Yomie Ko (고현승)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -6613,6 +6637,7 @@
                 "Jonghyun Kim (김종현)",
                 "Michael Tripodi",
                 "Xin Shi (石欣)",
+                "Yomie Ko (고현승)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "U:[R' F' R,f]"
@@ -8074,7 +8099,8 @@
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
-                "Sebastiano Tronto"
+                "Sebastiano Tronto",
+                "Yomie Ko (고현승)"
             ],
             "D R:[U R U',r]"
         ],
@@ -9179,7 +9205,6 @@
             [
                 "Christopher Morris",
                 "Hana Davila",
-                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Tobias Peter"
@@ -9191,6 +9216,7 @@
             [
                 "Chenhao Sun (孙晨皓)",
                 "Dong Zhu (朱栋)",
+                "Jonghyun Kim (김종현)",
                 "Xi Lu (鲁曦)"
             ],
             "r:[U,r D' r']"
@@ -9314,7 +9340,8 @@
             "U D R' F' R f R' F R f' D' U'",
             [
                 "Chenhao Sun (孙晨皓)",
-                "Ryan Eckersley"
+                "Ryan Eckersley",
+                "Yomie Ko (고현승)"
             ],
             "U D:[R' F' R,f]"
         ],
@@ -9716,18 +9743,19 @@
             "R D':[U' R U,r2]"
         ],
         [
+            "R' D' U' R' U r2 U' R U r2 D R",
+            [
+                "Anto Kam (甘浩東)",
+                "Jonghyun Kim (김종현)"
+            ],
+            "R' D':[U' R' U,r2]"
+        ],
+        [
             "r D l' U2 l D2 l' U2 l D r'",
             [
                 "Oliver Fritz"
             ],
             "r D:[l' U2 l,D2]"
-        ],
-        [
-            "R' D' U' R' U r2 U' R U r2 D R",
-            [
-                "Anto Kam (甘浩東)"
-            ],
-            "R' D':[U' R' U,r2]"
         ],
         [
             "r U' D' r' U r D2 r' U' r D' U r'",
@@ -10541,7 +10569,6 @@
                 "Gavriel Johann Arcilla",
                 "Hana Davila",
                 "Israel Fraga da Silva",
-                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Oliver Fritz",
@@ -10551,6 +10578,7 @@
                 "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
+                "Yomie Ko (고현승)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -10564,6 +10592,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Howie Craig",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Sebastiano Tronto"
@@ -11917,7 +11946,8 @@
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
-                "Sebastiano Tronto"
+                "Sebastiano Tronto",
+                "Yomie Ko (고현승)"
             ],
             "D' R':[r',U' R' U]"
         ],
@@ -12833,18 +12863,10 @@
             [
                 "Christopher Morris",
                 "Daniel Wallin",
-                "Graham Siggins"
-            ],
-            "D' Rw' U':[R',U' r2 U]"
-        ],
-        [
-            "D' Lw' U R' u R U2 R' u' R U Lw D",
-            [
-                "Anto Kam (甘浩東)",
-                "Gavriel Johann Arcilla",
+                "Graham Siggins",
                 "Jonghyun Kim (김종현)"
             ],
-            "D' Lw' U:[R' u R,U2]"
+            "D' Rw' U':[R',U' r2 U]"
         ],
         [
             "D Lw' U R' u' R U2 R' u R U Lw D'",
@@ -12861,6 +12883,14 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "D' l':[l' D l,U2]"
+        ],
+        [
+            "D' Lw' U R' u R U2 R' u' R U Lw D",
+            [
+                "Anto Kam (甘浩東)",
+                "Gavriel Johann Arcilla"
+            ],
+            "D' Lw' U:[R' u R,U2]"
         ],
         [
             "D l2 D' l U2 l' D l U2 l D'",
@@ -13112,7 +13142,8 @@
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Sebastiano Tronto",
-                "Tobias Peter"
+                "Tobias Peter",
+                "Yomie Ko (고현승)"
             ],
             "D' R:[U R U',r]"
         ],
@@ -14437,6 +14468,7 @@
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
+                "Yomie Ko (고현승)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "R':[r',U' R' U]"
@@ -14616,18 +14648,19 @@
             "R D':[r2,U' R U]"
         ],
         [
+            "R' D' r2 U' R' U r2 U' R U D R",
+            [
+                "Anto Kam (甘浩東)",
+                "Jonghyun Kim (김종현)"
+            ],
+            "R' D':[r2,U' R' U]"
+        ],
+        [
             "r D' l' U2 l D2 l' U2 l D' r'",
             [
                 "Oliver Fritz"
             ],
             "r D':[l' U2 l,D2]"
-        ],
-        [
-            "R' D' r2 U' R' U r2 U' R U D R",
-            [
-                "Anto Kam (甘浩東)"
-            ],
-            "R' D':[r2,U' R' U]"
         ],
         [
             "r U' D r' U r D2 r' U' r D U r'",
@@ -15593,6 +15626,7 @@
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
+                "Yomie Ko (고현승)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "R:[U R U',r]"
@@ -16928,6 +16962,7 @@
                 "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
+                "Yomie Ko (고현승)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -17273,7 +17308,6 @@
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Wallin",
                 "Gavriel Johann Arcilla",
-                "Jonghyun Kim (김종현)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -17285,6 +17319,7 @@
             [
                 "Dong Zhu (朱栋)",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Xi Lu (鲁曦)",
                 "Ziyi Xu (徐梓翼)"
@@ -17954,6 +17989,7 @@
                 "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
+                "Yomie Ko (고현승)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -18504,7 +18540,6 @@
                 "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Wallin",
-                "Jonghyun Kim (김종현)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -18516,6 +18551,7 @@
             [
                 "Dong Zhu (朱栋)",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Xi Lu (鲁曦)",
                 "Ziyi Xu (徐梓翼)"
@@ -19310,6 +19346,7 @@
                 "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
+                "Yomie Ko (고현승)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -20284,6 +20321,7 @@
                 "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
+                "Yomie Ko (고현승)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -21576,6 +21614,7 @@
                 "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
+                "Yomie Ko (고현승)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -22161,6 +22200,19 @@
     ],
     "AWX": [
         [
+            "z Rw' r' D' r U2 r' D r U2 Rw z'",
+            [
+                "Ethan Pan",
+                "Graham Siggins",
+                "Hana Davila",
+                "Jonghyun Kim (김종현)",
+                "Kevin Matthews",
+                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
+                "Tobias Peter"
+            ],
+            "z Rw':[r' D' r,U2]"
+        ],
+        [
             "Uw' L' U r U' L2 U r' U' L' Uw",
             [
                 "Andrew Tan Jing Bang",
@@ -22171,18 +22223,6 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "Uw' L':[U r U',L2]"
-        ],
-        [
-            "z Rw' r' D' r U2 r' D r U2 Rw z'",
-            [
-                "Ethan Pan",
-                "Graham Siggins",
-                "Hana Davila",
-                "Kevin Matthews",
-                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
-                "Tobias Peter"
-            ],
-            "z Rw':[r' D' r,U2]"
         ],
         [
             "Uw' L' U' l U L2 U' l' U L' Uw",
@@ -22223,13 +22263,6 @@
                 "Xin Shi (石欣)"
             ],
             "Dw' R':[R' u2 R,U']"
-        ],
-        [
-            "z Rw' U' R' u R U2 R' u' R U' Rw z'",
-            [
-                "Jonghyun Kim (김종현)"
-            ],
-            "z Rw' U':[R' u R,U2]"
         ],
         [
             "z Rw' U' R d R' U2 R d' R' U' Rw z'",
@@ -22612,6 +22645,7 @@
                 "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
+                "Yomie Ko (고현승)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -23407,6 +23441,19 @@
     ],
     "AXW": [
         [
+            "z Rw' U2 r' D' r U2 r' D r Rw z'",
+            [
+                "Ethan Pan",
+                "Graham Siggins",
+                "Hana Davila",
+                "Jonghyun Kim (김종현)",
+                "Kevin Matthews",
+                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
+                "Tobias Peter"
+            ],
+            "z Rw':[U2,r' D' r]"
+        ],
+        [
             "Uw' L U r U' L2 U r' U' L Uw",
             [
                 "Andrew Tan Jing Bang",
@@ -23417,18 +23464,6 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "Uw' L:[U r U',L2]"
-        ],
-        [
-            "z Rw' U2 r' D' r U2 r' D r Rw z'",
-            [
-                "Ethan Pan",
-                "Graham Siggins",
-                "Hana Davila",
-                "Kevin Matthews",
-                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
-                "Tobias Peter"
-            ],
-            "z Rw':[U2,r' D' r]"
         ],
         [
             "Uw' L U' l U L2 U' l' U L Uw",
@@ -23469,13 +23504,6 @@
                 "Xin Shi (石欣)"
             ],
             "Dw' R':[U',R' u2 R]"
-        ],
-        [
-            "z Rw' U R' u R U2 R' u' R U Rw z'",
-            [
-                "Jonghyun Kim (김종현)"
-            ],
-            "z Rw' U:[R' u R,U2]"
         ],
         [
             "z Rw' U R d R' U2 R d' R' U Rw z'",
@@ -23610,7 +23638,6 @@
                 "Ethan Pan",
                 "Gavriel Johann Arcilla",
                 "Howie Craig",
-                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
@@ -23625,6 +23652,7 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Davila",
+                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Tobias Peter",
@@ -23881,6 +23909,7 @@
                 "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
+                "Yomie Ko (고현승)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -24846,6 +24875,7 @@
                 "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
+                "Yomie Ko (고현승)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -30470,6 +30500,7 @@
                 "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
+                "Yomie Ko (고현승)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -30678,7 +30709,6 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Howie Craig",
-                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -31804,6 +31834,7 @@
                 "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
+                "Yomie Ko (고현승)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -32484,7 +32515,6 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Howie Craig",
-                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -33719,6 +33749,7 @@
                 "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
+                "Yomie Ko (고현승)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -34041,11 +34072,19 @@
             [
                 "Graham Siggins",
                 "Hana Davila",
-                "Jonghyun Kim (김종현)",
                 "Tobias Peter",
                 "Xi Lu (鲁曦)"
             ],
             "x U:[R',U l' U']"
+        ],
+        [
+            "4Rw U R' U l' U' R U l U2 4Rw'",
+            [
+                "Andrew Tan Jing Bang",
+                "Jonghyun Kim (김종현)",
+                "Sebastiano Tronto"
+            ],
+            "4Rw U:[R',U l' U']"
         ],
         [
             "U Lw U' L' U l2 U' L U l L' U'",
@@ -34054,14 +34093,6 @@
                 "Oliver Fritz"
             ],
             "U Lw:[U' L' U,l2]"
-        ],
-        [
-            "4Rw U R' U l' U' R U l U2 4Rw'",
-            [
-                "Andrew Tan Jing Bang",
-                "Sebastiano Tronto"
-            ],
-            "4Rw U:[R',U l' U']"
         ],
         [
             "D2 R' F' u' R U' R' u R U R' F R D2",
@@ -35185,6 +35216,7 @@
                 "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
+                "Yomie Ko (고현승)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -36029,7 +36061,6 @@
             [
                 "Graham Siggins",
                 "Hana Davila",
-                "Jonghyun Kim (김종현)",
                 "Tobias Peter",
                 "Xi Lu (鲁曦)"
             ],
@@ -36039,6 +36070,7 @@
             "4Rw U2 l' U' R' U l U' R U' 4Rw'",
             [
                 "Andrew Tan Jing Bang",
+                "Jonghyun Kim (김종현)",
                 "Sebastiano Tronto"
             ],
             "4Rw U:[U l' U',R']"
