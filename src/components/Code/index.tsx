@@ -202,6 +202,19 @@ const Code = ({ cubeSize }: { cubeSize: 3 | 5 }) => {
   };
 
   useEffect(() => {
+    const handleBeforeUnload = (e: BeforeUnloadEvent) => {
+      if (matchingIndices.length > 0) {
+        e.preventDefault();
+      }
+    };
+
+    window.addEventListener("beforeunload", handleBeforeUnload);
+    return () => {
+      window.removeEventListener("beforeunload", handleBeforeUnload);
+    };
+  }, [matchingIndices]);
+
+  useEffect(() => {
     const groups = cubeSize === 3 ? tracer.trackDict : tracer_555.trackDict;
     const newMatchingIndices = getMatchingGroups(inputValues, groups);
     setMatchingIndices(newMatchingIndices);
