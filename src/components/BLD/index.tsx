@@ -591,14 +591,16 @@ const BLD = ({ codeType }: { codeType: string }) => {
           {positionElement({ positionHint: t("common.position") })}
           {groupInputElement({ groupArray: [0, 1], positionType: "corner" })}
           <span className="mx-3"></span>
-          {positionElement({ positionHint: t(`${codeType}.twist`) })}
-          <div className="help inline-block">
-            <i className="fas fa-question-circle mr-2 text-blue-600 dark:text-blue-400"></i>
-            <span className="help-content whitespace-nowrap">
-              {t(`${codeType}.twistHint`)}
-            </span>
+          <div className="inline-block">
+            {positionElement({ positionHint: t(`${codeType}.twist`) })}
+            <div className="help inline-block">
+              <i className="fas fa-question-circle mr-2 text-blue-600 dark:text-blue-400"></i>
+              <span className="help-content whitespace-nowrap">
+                {t(`${codeType}.twistHint`)}
+              </span>
+            </div>
+            {groupInputElement({ groupArray: [2], positionType: "corner1" })}
           </div>
-          {groupInputElement({ groupArray: [2], positionType: "corner1" })}
           {inputElement({ inputWidth: 4.5 })}
         </>
       );
