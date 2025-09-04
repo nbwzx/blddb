@@ -26,15 +26,14 @@ async function fetchAndCacheIfOk(event) {
 async function fetchWithCache(event) {
   const cache = await caches.open("v1");
   const response = await cache.match(event.request);
-  if (!!response) {
+  if (response) {
     // it is cached but we want to update it so request but not await
     fetchAndCacheIfOk(event);
     // return the cached response
     return response;
-  } else {
-    // it was not cached yet so request and cache
-    return fetchAndCacheIfOk(event);
   }
+  // it was not cached yet so request and cache
+  return fetchAndCacheIfOk(event);
 }
 
 function handleFetch(event) {
