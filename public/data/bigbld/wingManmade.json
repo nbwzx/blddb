@@ -34354,16 +34354,6 @@
             "r':[R,U' r2 U]"
         ],
         [
-            "4Lw R U' r2 U R' U' r2 U 4Lw'",
-            [
-                "Adrian Dębski",
-                "Daniel Wallin",
-                "Howie Craig",
-                "Xin Shi (石欣)"
-            ],
-            "4Lw:[R,U' r2 U]"
-        ],
-        [
             "z' U' R' u' R U' R' u R U2 z",
             [
                 "Daniel Lin",
@@ -34372,6 +34362,15 @@
                 "Tobias Peter"
             ],
             "z' U':[R' u' R,U']"
+        ],
+        [
+            "4Lw R U' r2 U R' U' r2 U 4Lw'",
+            [
+                "Adrian Dębski",
+                "Daniel Wallin",
+                "Xin Shi (石欣)"
+            ],
+            "4Lw:[R,U' r2 U]"
         ],
         [
             "S' L d' L' U L d L' U' S",
@@ -34401,6 +34400,13 @@
                 "Anto Kam (甘浩東)"
             ],
             "R S':[U,L' u' L]"
+        ],
+        [
+            "4Fw' U' R' u' R U' R' u R U2 4Fw",
+            [
+                "Howie Craig"
+            ],
+            "4Fw' U':[R' u' R,U']"
         ]
     ],
     "HAS": [
@@ -36445,16 +36451,6 @@
             "r':[U' r2 U,R]"
         ],
         [
-            "4Lw U' r2 U R U' r2 U R' 4Lw'",
-            [
-                "Adrian Dębski",
-                "Daniel Wallin",
-                "Howie Craig",
-                "Xin Shi (石欣)"
-            ],
-            "4Lw:[U' r2 U,R]"
-        ],
-        [
             "z' U2 R' u' R U R' u R U z",
             [
                 "Daniel Lin",
@@ -36463,6 +36459,15 @@
                 "Tobias Peter"
             ],
             "z' U':[U',R' u' R]"
+        ],
+        [
+            "4Lw U' r2 U R U' r2 U R' 4Lw'",
+            [
+                "Adrian Dębski",
+                "Daniel Wallin",
+                "Xin Shi (石欣)"
+            ],
+            "4Lw:[U' r2 U,R]"
         ],
         [
             "S' U L d' L' U' L d L' S",
@@ -36492,6 +36497,13 @@
                 "Anto Kam (甘浩東)"
             ],
             "R S':[L' u' L,U]"
+        ],
+        [
+            "4Fw' U2 R' u' R U R' u R U 4Fw",
+            [
+                "Howie Craig"
+            ],
+            "4Fw' U':[U',R' u' R]"
         ]
     ],
     "HRJ": [
