@@ -11610,11 +11610,11 @@
             "y':[l,U r U']"
         ],
         [
-            "R' u l U2 l' u2 l U2 l' u R",
+            "4Uw r U l U' r' U l' U' 4Uw'",
             [
                 "Howie Craig"
             ],
-            "R' u:[l U2 l',u2]"
+            "4Uw:[r,U l U']"
         ]
     ],
     "GCT": [
@@ -13488,10 +13488,16 @@
         [
             "L' u' l U2 l' u2 l U2 l' u' L",
             [
-                "Howie Craig",
                 "Oliver Fritz"
             ],
             "L' u':[l U2 l',u2]"
+        ],
+        [
+            "4Dw' U' l U r U' l' U r' 4Dw",
+            [
+                "Howie Craig"
+            ],
+            "4Dw':[U' l U,r]"
         ]
     ],
     "GIN": [
@@ -13599,7 +13605,8 @@
         [
             "U' D' r u r U r' u' r U' r2 D U",
             [
-                "Cale Schoon"
+                "Cale Schoon",
+                "Howie Craig"
             ],
             "U' D' r:[u,r U r']"
         ],
@@ -13609,13 +13616,6 @@
                 "Oliver Fritz"
             ],
             "y U2 x:[U' l U,r]"
-        ],
-        [
-            "u Uw r2 Uw l Uw' r2 Uw l' Uw2 u'",
-            [
-                "Howie Craig"
-            ],
-            "u Uw:[r2,Uw l Uw']"
         ]
     ],
     "GIT": [
@@ -13835,10 +13835,16 @@
         [
             "L' u l U2 l' u2 l U2 l' u L",
             [
-                "Howie Craig",
                 "Oliver Fritz"
             ],
             "L' u:[l U2 l',u2]"
+        ],
+        [
+            "4Dw' r U' l U r' U' l' U 4Dw",
+            [
+                "Howie Craig"
+            ],
+            "4Dw':[r,U' l U]"
         ]
     ],
     "GMN": [
@@ -15629,9 +15635,10 @@
         [
             "U' D' r2 U r' u r U' r' u' r' D U",
             [
-                "Cale Schoon"
+                "Cale Schoon",
+                "Howie Craig"
             ],
-            "U' D' r:[r U r',u]"
+            "D' U' r:[r U r',u]"
         ],
         [
             "y U2 x r U' l U r' U' l' U x' U2 y'",
@@ -15639,13 +15646,6 @@
                 "Oliver Fritz"
             ],
             "y U2 x:[r,U' l U]"
-        ],
-        [
-            "u Uw2 l Uw' r2 Uw l' Uw' r2 Uw' u'",
-            [
-                "Howie Craig"
-            ],
-            "u Uw:[Uw l Uw',r2]"
         ]
     ],
     "GRM": [
@@ -15866,11 +15866,11 @@
             "y':[U r U',l]"
         ],
         [
-            "R' u' l U2 l' u2 l U2 l' u' R",
+            "4Uw U l U' r U l' U' r' 4Uw'",
             [
                 "Howie Craig"
             ],
-            "R' u':[l U2 l',u2]"
+            "4Uw:[U l U',r]"
         ]
     ],
     "GSD": [
