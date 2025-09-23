@@ -43,8 +43,7 @@ def main():
                     )
                     time.sleep(10)
             except Exception as e:
-                logger.warning(e.__class__.__name__ +
-                                " when opening " + search_url)
+                logger.warning(str(e) + " when opening " + search_url)
                 time.sleep(10)
 
         for search_result in search_results:
@@ -75,8 +74,7 @@ def main():
                         )
                         time.sleep(10)
                 except Exception as e:
-                    logger.warning(e.__class__.__name__ +
-                                   " when opening " + person_url)
+                    logger.warning(str(e) + " when opening " + person_url)
                     time.sleep(10)
 
             if name not in results:

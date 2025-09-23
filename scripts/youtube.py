@@ -192,8 +192,7 @@ def main():
                     full_html = requests.get(video[1], timeout=10).text
                     break
                 except Exception as e:
-                    logger.warning(e.__class__.__name__ +
-                                   " when opening " + video[1])
+                    logger.warning(str(e) + " when opening " + video[1])
                     time.sleep(10)
             y = re.search(r'attributedDescription":{"content":"', full_html)
             desc = ""
@@ -227,13 +226,11 @@ def main():
                         resp = response.url
                         break
                     except requests.exceptions.HTTPError as e:
-                        logger.warning(e.__class__.__name__ +
-                                       " when opening " + url_name)
+                        logger.warning(str(e) + " when opening " + url_name)
                         resp = response.url
                         break
                     except Exception as e:
-                        logger.warning(e.__class__.__name__ +
-                                       " when opening " + url_name)
+                        logger.warning(str(e) + " when opening " + url_name)
                         time.sleep(10)
                 if resp.startswith("https://alg.cubing.net/") and "&puzzle=4x4x4" not in resp and "&puzzle=5x5x5" not in resp:
                     resp_parsed = urllib.parse.unquote(resp).replace(
@@ -271,12 +268,10 @@ def main():
                 issuccess = True
                 break
             except (TransportError, APIError, ConnectionError, ProxyError, ReadTimeout) as e:
-                logger.warning(e.__class__.__name__ +
-                               " when opening the spreadsheet.")
+                logger.warning(str(e) + " when opening the spreadsheet.")
                 time.sleep(10)
             except (SpreadsheetNotFound, PermissionError) as e:
-                logger.error(e.__class__.__name__ +
-                                " when opening the spreadsheet.")
+                logger.error(e + " when opening the spreadsheet.")
                 break
         if not issuccess:
             logger.error("Failed to open the spreadsheet.")
@@ -291,8 +286,7 @@ def main():
                     spreadsheet.del_worksheet(sheet)
                 break
             except (TransportError, APIError, ConnectionError, ProxyError, ReadTimeout) as e:
-                logger.warning(e.__class__.__name__ +
-                               " when getting the worksheets. (1)")
+                logger.warning(str(e) + " when getting the worksheets. (1)")
                 time.sleep(10)
         for title_x in output_types:
             try:
@@ -305,8 +299,7 @@ def main():
                 worksheets = spreadsheet.worksheets()
                 break
             except (TransportError, APIError, ConnectionError, ProxyError, ReadTimeout) as e:
-                logger.warning(e.__class__.__name__ +
-                               " when getting the worksheets. (2)")
+                logger.warning(str(e) + " when getting the worksheets. (2)")
                 time.sleep(10)
 
         full_list["edge"] = sorted(full_list["edge"], key=lambda x: (
@@ -341,8 +334,7 @@ def main():
                         worksheet = worksheet.columns_auto_resize(0, 5)
                         break
                     except (TransportError, APIError, ConnectionError, ProxyError, ReadTimeout) as e:
-                        logger.warning(e.__class__.__name__ +
-                                    " when updating the worksheet.")
+                        logger.warning(str(e) + " when updating the worksheet.")
                         time.sleep(10)
 
 

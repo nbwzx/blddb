@@ -134,8 +134,7 @@ def main():
                 worksheets = spreadsheet.worksheets()
                 break
             except (TransportError, APIError, ConnectionError, ProxyError, ReadTimeout) as e:
-                logger.warning(e.__class__.__name__ +
-                               " when getting the worksheets.")
+                logger.warning(str(e) + " when getting the worksheets.")
                 time.sleep(10)
 
         for worksheet in worksheets:
@@ -226,8 +225,7 @@ def main():
                         notes = worksheet.get_notes()
                     break
                 except (TransportError, APIError, ConnectionError, ProxyError, ReadTimeout) as e:
-                    logger.warning(
-                        e.__class__.__name__ + " when trying to get values from the spreadsheet.")
+                    logger.warning(str(e) + " when trying to get values from the spreadsheet.")
                     time.sleep(10)
             is5bld = False
             if (is_pattern(patterns_midge, title)) or (is_pattern(patterns_tcenter, title)):
@@ -320,8 +318,7 @@ def main():
                     issuccess = True
                     break
                 except (TransportError, APIError, ConnectionError, ProxyError, ReadTimeout) as e:
-                    logger.warning(e.__class__.__name__ +
-                                   " when opening the spreadsheet.")
+                    logger.warning(str(e) + " when opening the spreadsheet.")
                     time.sleep(10)
                 except (SpreadsheetNotFound, PermissionError) as e:
                     break
