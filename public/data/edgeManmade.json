@@ -17699,6 +17699,7 @@
                 "Roman Strakhov",
                 "Timo Norrkniivilä",
                 "Xin Shi (石欣)",
+                "Yomie Ko (고현승)",
                 "Zhi Qiao (乔智)"
             ],
             [
@@ -17719,7 +17720,6 @@
                 "Max Hilliard",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Tommy Cherry",
-                "Yomie Ko (고현승)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
@@ -22484,6 +22484,7 @@
                 "Roman Strakhov",
                 "Timo Norrkniivilä",
                 "Xin Shi (石欣)",
+                "Yomie Ko (고현승)",
                 "Zhi Qiao (乔智)"
             ],
             [
@@ -22503,7 +22504,6 @@
                 "Max Hilliard",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Tommy Cherry",
-                "Yomie Ko (고현승)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
@@ -64022,8 +64022,7 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
-                "Tommy Cherry",
-                "Yuki Tsuneyoshi (恒吉優紀)"
+                "Tommy Cherry"
             ],
             [
                 "Not found."
@@ -64051,7 +64050,8 @@
             [
                 "Benjamin Paul",
                 "Yangyang Shen (沈炀炀)",
-                "Yifan Wang (王逸帆)"
+                "Yifan Wang (王逸帆)",
+                "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
                 "U R2 S':[R2,S R E]",
@@ -70424,8 +70424,7 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
-                "Tommy Cherry",
-                "Yuki Tsuneyoshi (恒吉優紀)"
+                "Tommy Cherry"
             ],
             [
                 "Not found."
@@ -70453,7 +70452,8 @@
             [
                 "Benjamin Paul",
                 "Yangyang Shen (沈炀炀)",
-                "Yifan Wang (王逸帆)"
+                "Yifan Wang (王逸帆)",
+                "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
                 "U R' E:[R2,E' R' S']",
@@ -74619,7 +74619,8 @@
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
                 "Michael Tripodi",
-                "Tommy Cherry"
+                "Tommy Cherry",
+                "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
                 "l U L':[E,L2]"
@@ -74632,8 +74633,7 @@
             [
                 "Chenhao Sun (孙晨皓)",
                 "Elliott Kobelansky",
-                "Yifan Wang (王逸帆)",
-                "Yuki Tsuneyoshi (恒吉優紀)"
+                "Yifan Wang (王逸帆)"
             ],
             [
                 "E R' U R:[E',R2]"
@@ -74837,6 +74837,21 @@
         ],
         [
             [
+                "R' E R U' R' E' R U' R' E R U2 R' E' R"
+            ],
+            [
+                "Guoqiao Wang (王国桥)",
+                "Sebastiano Tronto",
+                "Yangyang Shen (沈炀炀)",
+                "Yifan Wang (王逸帆)",
+                "Zixing Wang (王子兴)"
+            ],
+            [
+                "R' E R U':[R' E' R,U']"
+            ]
+        ],
+        [
+            [
                 "R2 U R U R' U' R' U' R' U R'"
             ],
             [
@@ -74848,20 +74863,6 @@
             ],
             [
                 "Not found."
-            ]
-        ],
-        [
-            [
-                "R' E R U' R' E' R U' R' E R U2 R' E' R"
-            ],
-            [
-                "Sebastiano Tronto",
-                "Yangyang Shen (沈炀炀)",
-                "Yifan Wang (王逸帆)",
-                "Zixing Wang (王子兴)"
-            ],
-            [
-                "R' E R U':[R' E' R,U']"
             ]
         ]
     ],
@@ -74931,6 +74932,21 @@
         ],
         [
             [
+                "S U' R' E' R U R' E R S'"
+            ],
+            [
+                "Chenhao Sun (孙晨皓)",
+                "Guoqiao Wang (王国桥)",
+                "Xin Shi (石欣)",
+                "Yifan Wang (王逸帆)",
+                "Zixing Wang (王子兴)"
+            ],
+            [
+                "S:[U',R' E' R]"
+            ]
+        ],
+        [
+            [
                 "S r' F' r S' r' F r",
                 "S L' U' L S' L' U L"
             ],
@@ -74943,20 +74959,6 @@
             [
                 "[S,r' F' r]",
                 "[S,L' U' L]"
-            ]
-        ],
-        [
-            [
-                "S U' R' E' R U R' E R S'"
-            ],
-            [
-                "Chenhao Sun (孙晨皓)",
-                "Xin Shi (石欣)",
-                "Yifan Wang (王逸帆)",
-                "Zixing Wang (王子兴)"
-            ],
-            [
-                "S:[U',R' E' R]"
             ]
         ],
         [
@@ -75068,6 +75070,20 @@
         ],
         [
             [
+                "R' E R U' R' E' R U2 R' E R U' R' E' R"
+            ],
+            [
+                "Guoqiao Wang (王国桥)",
+                "Sebastiano Tronto",
+                "Yifan Wang (王逸帆)",
+                "Zixing Wang (王子兴)"
+            ],
+            [
+                "R' E R U':[R' E' R,U2]"
+            ]
+        ],
+        [
+            [
                 "U R2 U R U R' U' R' U' R' U R' U'"
             ],
             [
@@ -75091,19 +75107,6 @@
             ],
             [
                 "R2 U:[S',U2]"
-            ]
-        ],
-        [
-            [
-                "R' E R U' R' E' R U2 R' E R U' R' E' R"
-            ],
-            [
-                "Sebastiano Tronto",
-                "Yifan Wang (王逸帆)",
-                "Zixing Wang (王子兴)"
-            ],
-            [
-                "R' E R U':[R' E' R,U2]"
             ]
         ],
         [
@@ -75289,6 +75292,7 @@
             ],
             [
                 "Christopher Morris",
+                "Guoqiao Wang (王国桥)",
                 "Ishaan Agrawal",
                 "Masato Fujiwara (藤原正人)",
                 "Yangyang Shen (沈炀炀)",
@@ -75390,6 +75394,19 @@
         ],
         [
             [
+                "S R' F E R2 E' R2 F' R S'"
+            ],
+            [
+                "Guoqiao Wang (王国桥)",
+                "Yifan Wang (王逸帆)",
+                "Zixing Wang (王子兴)"
+            ],
+            [
+                "S R' F:[E,R2]"
+            ]
+        ],
+        [
+            [
                 "U R2 f2 R2 U R2 f2 R2"
             ],
             [
@@ -75399,18 +75416,6 @@
             ],
             [
                 "Not found."
-            ]
-        ],
-        [
-            [
-                "S R' F E R2 E' R2 F' R S'"
-            ],
-            [
-                "Yifan Wang (王逸帆)",
-                "Zixing Wang (王子兴)"
-            ],
-            [
-                "S R' F:[E,R2]"
             ]
         ],
         [
@@ -75569,6 +75574,17 @@
             [
                 "D:[R E R',U']"
             ]
+        ],
+        [
+            [
+                "D R F R' S R F' R' S' D'"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "D:[R F R',S]"
+            ]
         ]
     ],
     "GAK": [
@@ -75638,6 +75654,7 @@
             [
                 "Chenhao Sun (孙晨皓)",
                 "Dong Zhu (朱栋)",
+                "Guoqiao Wang (王国桥)",
                 "Hongjie Zhang (张鸿杰)",
                 "Ishaan Agrawal",
                 "Kai Yamamoto (山本快)",
@@ -75856,6 +75873,7 @@
             ],
             [
                 "Bowen Xiao (肖博文)",
+                "Guoqiao Wang (王国桥)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Zixing Wang (王子兴)"
@@ -76015,6 +76033,18 @@
         ],
         [
             [
+                "R' B E' R U' R' E R U R' B' R"
+            ],
+            [
+                "Guoqiao Wang (王国桥)",
+                "Yifan Wang (王逸帆)"
+            ],
+            [
+                "R' B:[E',R U' R']"
+            ]
+        ],
+        [
+            [
                 "R' U R U M U2 M' U R' U' R"
             ],
             [
@@ -76023,17 +76053,6 @@
             ],
             [
                 "R' U R U:[M,U2]"
-            ]
-        ],
-        [
-            [
-                "R' B E' R U' R' E R U R' B' R"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
-            ],
-            [
-                "R' B:[E',R U' R']"
             ]
         ],
         [
@@ -76126,6 +76145,18 @@
         ],
         [
             [
+                "D' R F R' S R F' R' S' D"
+            ],
+            [
+                "Daniel Lin",
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "D':[R F R',S]"
+            ]
+        ],
+        [
+            [
                 "U' r' U R U' M' U R' U' R U"
             ],
             [
@@ -76134,17 +76165,6 @@
             ],
             [
                 "U' r':[U R U',M']"
-            ]
-        ],
-        [
-            [
-                "D' R F R' S R F' R' S' D"
-            ],
-            [
-                "Daniel Lin"
-            ],
-            [
-                "D':[R F R',S]"
             ]
         ]
     ],
@@ -76247,6 +76267,7 @@
             ],
             [
                 "Benjamin Paul",
+                "Guoqiao Wang (王国桥)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Zixing Wang (王子兴)"
@@ -76328,6 +76349,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Grzegorz Jałocha",
+                "Guoqiao Wang (王国桥)",
                 "Hana Davila",
                 "Hongjie Zhang (张鸿杰)",
                 "Joey Gouly",
@@ -76473,6 +76495,7 @@
                 "Ethan Pan",
                 "Gianfranco Huanqui",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Hana Davila",
                 "Ishaan Agrawal",
                 "Jack Cai",
@@ -76706,6 +76729,7 @@
             [
                 "Bowen Xiao (肖博文)",
                 "Chenhao Sun (孙晨皓)",
+                "Guoqiao Wang (王国桥)",
                 "Ishaan Agrawal",
                 "Jacob Tucker",
                 "Michael Tripodi",
@@ -76814,6 +76838,7 @@
             ],
             [
                 "Dhruv Ambastha",
+                "Guoqiao Wang (王国桥)",
                 "Tommy Cherry",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -76935,6 +76960,7 @@
                 "Gianfranco Huanqui",
                 "Graham Siggins",
                 "Grzegorz Jałocha",
+                "Guoqiao Wang (王国桥)",
                 "Hana Davila",
                 "Hongjie Zhang (张鸿杰)",
                 "Ishaan Agrawal",
@@ -77082,6 +77108,7 @@
                 "R' E' R2 E R' U' R E' R2 E R U"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)",
                 "Zixing Wang (王子兴)"
             ],
@@ -77165,6 +77192,7 @@
                 "Gianfranco Huanqui",
                 "Graham Siggins",
                 "Grzegorz Jałocha",
+                "Guoqiao Wang (王国桥)",
                 "Hana Davila",
                 "Hongjie Zhang (张鸿杰)",
                 "Ishaan Agrawal",
@@ -77242,6 +77270,7 @@
                 "Elliott Kobelansky",
                 "Ethan Pan",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Hana Davila",
                 "Jacob Tucker",
                 "Joey Gouly",
@@ -77439,6 +77468,7 @@
                 "Bowen Xiao (肖博文)",
                 "Chenhao Sun (孙晨皓)",
                 "Enoch Gray",
+                "Guoqiao Wang (王国桥)",
                 "Ishaan Agrawal",
                 "Jacob Tucker",
                 "Liren Sun (孙立仁)",
@@ -77538,6 +77568,7 @@
                 "R F R S R2 S' R F' R'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Ishaan Agrawal",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -77573,6 +77604,7 @@
                 "Gavriel Johann Arcilla",
                 "Gianfranco Huanqui",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Hana Davila",
                 "Hongjie Zhang (张鸿杰)",
                 "Ishaan Agrawal",
@@ -77742,6 +77774,17 @@
             [
                 "U:[S,r' F' r]"
             ]
+        ],
+        [
+            [
+                "U' R B' R' S R B R' S' U"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "U':[R B' R',S]"
+            ]
         ]
     ],
     "GBF": [
@@ -77762,6 +77805,7 @@
                 "Ethan Pan",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Hana Davila",
                 "Jack Cai",
                 "Jacob Tucker",
@@ -77942,6 +77986,7 @@
                 "Dhruv Ambastha",
                 "Dong Zhu (朱栋)",
                 "Elliott Kobelansky",
+                "Guoqiao Wang (王国桥)",
                 "Hongjie Zhang (张鸿杰)",
                 "Joey Gouly",
                 "Keiichiro Taira (平佳一郎)",
@@ -78042,6 +78087,7 @@
                 "Dylan Wang",
                 "Ethan Pan",
                 "Gianfranco Huanqui",
+                "Guoqiao Wang (王国桥)",
                 "Hongjie Zhang (张鸿杰)",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
@@ -78271,6 +78317,7 @@
             ],
             [
                 "Chenhao Sun (孙晨皓)",
+                "Guoqiao Wang (王国桥)",
                 "Kai Yamamoto (山本快)",
                 "Martin Vædele Egdal",
                 "Sebastiano Tronto",
@@ -78395,6 +78442,7 @@
                 "Gianfranco Huanqui",
                 "Graham Siggins",
                 "Grzegorz Jałocha",
+                "Guoqiao Wang (王国桥)",
                 "Hongjie Zhang (张鸿杰)",
                 "Ishaan Agrawal",
                 "Jack Cai",
@@ -78611,6 +78659,18 @@
         ],
         [
             [
+                "U' R' B' R2 E' R2 E B R U"
+            ],
+            [
+                "Guoqiao Wang (王国桥)",
+                "Yifan Wang (王逸帆)"
+            ],
+            [
+                "U' R' B':[R2,E']"
+            ]
+        ],
+        [
+            [
                 "F' L' U M U2 M' U L F"
             ],
             [
@@ -78619,17 +78679,6 @@
             ],
             [
                 "F' L' U:[M,U2]"
-            ]
-        ],
-        [
-            [
-                "U' R' B' R2 E' R2 E B R U"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
-            ],
-            [
-                "U' R' B':[R2,E']"
             ]
         ],
         [
@@ -78770,6 +78819,7 @@
                 "R U B R' S R B' R' S' R U' R'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -78941,6 +78991,7 @@
                 "U' R B' R' S' R B R' S U"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -79042,6 +79093,7 @@
                 "Gavriel Johann Arcilla",
                 "Gianfranco Huanqui",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Hana Davila",
                 "Hongjie Zhang (张鸿杰)",
                 "Ishaan Agrawal",
@@ -79169,6 +79221,7 @@
             [
                 "Bowen Xiao (肖博文)",
                 "Chenhao Sun (孙晨皓)",
+                "Guoqiao Wang (王国桥)",
                 "Jacob Tucker",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -79320,6 +79373,7 @@
                 "R U R2 F R S R' F' R S' R U' R'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Kai Yamamoto (山本快)",
                 "Yangyang Shen (沈炀炀)",
                 "Zixing Wang (王子兴)"
@@ -79501,6 +79555,7 @@
                 "S R' F R S' R' F R S R' F2 R S'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -79574,6 +79629,7 @@
                 "Ethan Pan",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Heejun Kim (김희준)",
                 "Hongjie Zhang (张鸿杰)",
                 "Ishaan Agrawal",
@@ -79778,6 +79834,7 @@
                 "Chenhao Sun (孙晨皓)",
                 "Dylan Wang",
                 "Gianfranco Huanqui",
+                "Guoqiao Wang (王国桥)",
                 "Ishaan Agrawal",
                 "Jacob Tucker",
                 "Kai Yamamoto (山本快)",
@@ -79857,6 +79914,7 @@
                 "Enoch Gray",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Hana Davila",
                 "Heejun Kim (김희준)",
                 "Hongjie Zhang (张鸿杰)",
@@ -80044,6 +80102,7 @@
             [
                 "Bowen Xiao (肖博文)",
                 "Chenhao Sun (孙晨皓)",
+                "Guoqiao Wang (王国桥)",
                 "Jacob Tucker",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -80290,6 +80349,17 @@
             [
                 "U M':[U',L E2 L']"
             ]
+        ],
+        [
+            [
+                "R' U F R S R' F' R S' R' U' R"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "R' U:[F,R S R']"
+            ]
         ]
     ],
     "GCA": [
@@ -80353,6 +80423,21 @@
         ],
         [
             [
+                "R' E R U2 R' E' R U R' E R U R' E' R"
+            ],
+            [
+                "Guoqiao Wang (王国桥)",
+                "Sebastiano Tronto",
+                "Yangyang Shen (沈炀炀)",
+                "Yifan Wang (王逸帆)",
+                "Zixing Wang (王子兴)"
+            ],
+            [
+                "R' E R U':[U',R' E' R]"
+            ]
+        ],
+        [
+            [
                 "R U' R U R U R U' R' U' R2"
             ],
             [
@@ -80364,20 +80449,6 @@
             ],
             [
                 "Not found."
-            ]
-        ],
-        [
-            [
-                "R' E R U2 R' E' R U R' E R U R' E' R"
-            ],
-            [
-                "Sebastiano Tronto",
-                "Yangyang Shen (沈炀炀)",
-                "Yifan Wang (王逸帆)",
-                "Zixing Wang (王子兴)"
-            ],
-            [
-                "R' E R U':[U',R' E' R]"
             ]
         ],
         [
@@ -80463,6 +80534,7 @@
                 "R F R' S R2 S' R' F' R'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Ishaan Agrawal",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -80503,6 +80575,7 @@
                 "R' E R U2 R' E' R U' R' E R U' R' E' R"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -80570,6 +80643,7 @@
                 "R' B' R S R2 S' R B R"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -80615,6 +80689,7 @@
                 "D S R2 S' R2 D'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -80669,6 +80744,7 @@
                 "R F' R' S R2 S' R' F R'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -80722,6 +80798,7 @@
                 "U2 S' U2 R2 S R2"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -80766,6 +80843,7 @@
                 "U2 R S R' U2 R S' R'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -80813,6 +80891,7 @@
                 "D' S R2 S' R2 D"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -80850,6 +80929,7 @@
             ],
             [
                 "Gavriel Johann Arcilla",
+                "Guoqiao Wang (王国桥)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -80870,6 +80950,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Keita Hayakawa (早川慶太)",
@@ -80895,6 +80976,7 @@
                 "Benjamin Paul",
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
+                "Guoqiao Wang (王国桥)",
                 "Jonghyun Kim (김종현)",
                 "Michael Tripodi",
                 "Yangyang Shen (沈炀炀)",
@@ -80943,6 +81025,19 @@
         ],
         [
             [
+                "R S' R2 S' R' S R2 S"
+            ],
+            [
+                "Guoqiao Wang (王国桥)",
+                "Yangyang Shen (沈炀炀)",
+                "Yifan Wang (王逸帆)"
+            ],
+            [
+                "[R,S' R2 S']"
+            ]
+        ],
+        [
+            [
                 "U2 R' S2 R U2 R' S2 R"
             ],
             [
@@ -80951,18 +81046,6 @@
             ],
             [
                 "[U2,R' S2 R]"
-            ]
-        ],
-        [
-            [
-                "R S' R2 S' R' S R2 S"
-            ],
-            [
-                "Yangyang Shen (沈炀炀)",
-                "Yifan Wang (王逸帆)"
-            ],
-            [
-                "[R,S' R2 S']"
             ]
         ],
         [
@@ -81004,6 +81087,7 @@
                 "U2 R S' R' U2 R S R'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -81041,6 +81125,7 @@
                 "S R2 S' R' E R2 E' R"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -81077,6 +81162,7 @@
                 "S R' E R2 E' R' S'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -81113,6 +81199,7 @@
                 "S R2 S' R E' R2 E R'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -81149,6 +81236,7 @@
                 "S R E' R2 E R S'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -81195,6 +81283,7 @@
                 "R' S' R2 S' R S R2 S"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yangyang Shen (沈炀炀)"
             ],
             [
@@ -81240,6 +81329,7 @@
                 "U2 R' S' R U2 R' S R"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -81335,6 +81425,7 @@
             ],
             [
                 "Chenhao Sun (孙晨皓)",
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)",
                 "Zixing Wang (王子兴)"
             ],
@@ -81394,6 +81485,7 @@
                 "Gavriel Johann Arcilla",
                 "Gianfranco Huanqui",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Hana Davila",
                 "Hongjie Zhang (张鸿杰)",
                 "Ishaan Agrawal",
@@ -81518,6 +81610,7 @@
                 "S R' E' R U R' E R U' S'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -81592,6 +81685,7 @@
                 "Benjamin Paul",
                 "Dhruv Ambastha",
                 "Gavriel Johann Arcilla",
+                "Guoqiao Wang (王国桥)",
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
                 "Tommy Cherry",
@@ -81645,6 +81739,19 @@
         ],
         [
             [
+                "U2 S R' F' R S' R' F R U2"
+            ],
+            [
+                "Guoqiao Wang (王国桥)",
+                "Sebastiano Tronto",
+                "Yifan Wang (王逸帆)"
+            ],
+            [
+                "U2:[S,R' F' R]"
+            ]
+        ],
+        [
+            [
                 "y' U R2 U' M' U R2 U' M y"
             ],
             [
@@ -81654,18 +81761,6 @@
             ],
             [
                 "y':[U R2 U',M']"
-            ]
-        ],
-        [
-            [
-                "U2 S R' F' R S' R' F R U2"
-            ],
-            [
-                "Sebastiano Tronto",
-                "Yifan Wang (王逸帆)"
-            ],
-            [
-                "U2:[S,R' F' R]"
             ]
         ],
         [
@@ -81694,6 +81789,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Ishaan Agrawal",
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
@@ -81764,6 +81860,7 @@
                 "R' F' R2 U R' S R U' R' S' R' F R"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -81811,6 +81908,7 @@
                 "R S R' S' R2 S' R S R"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -81857,6 +81955,7 @@
                 "U2 S R B R' S' R B' R' U2"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Sebastiano Tronto",
                 "Yifan Wang (王逸帆)"
             ],
@@ -81887,6 +81986,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
@@ -81939,16 +82039,17 @@
         ],
         [
             [
-                "l S l S' R2 S l' S' R2 l'",
-                "R E' R S R2 S' R' E R"
+                "R E' R S R2 S' R' E R",
+                "l S l S' R2 S l' S' R2 l'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Sebastiano Tronto",
                 "Yifan Wang (王逸帆)"
             ],
             [
-                "l:[S l S',R2]",
-                "R:[E' R S,R2]"
+                "R:[E' R S,R2]",
+                "l:[S l S',R2]"
             ]
         ],
         [
@@ -81993,6 +82094,7 @@
                 "U2 R E R' U2 R E' R S R2 S'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -82047,6 +82149,17 @@
             [
                 "[E' L E,r']"
             ]
+        ],
+        [
+            [
+                "E' R S R' S' R' E R"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "[E' R S,R']"
+            ]
         ]
     ],
     "GDR": [
@@ -82076,6 +82189,7 @@
             ],
             [
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Israel Fraga da Silva",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
@@ -82099,6 +82213,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
@@ -82142,6 +82257,7 @@
             [
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -82175,6 +82291,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
@@ -82220,6 +82337,7 @@
             [
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -82288,6 +82406,17 @@
             [
                 "r':[U M U',R]"
             ]
+        ],
+        [
+            [
+                "E R' S R S' R E' R'"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "[E R' S,R]"
+            ]
         ]
     ],
     "GDZ": [
@@ -82317,6 +82446,7 @@
             [
                 "Chenhao Sun (孙晨皓)",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Israel Fraga da Silva",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -82443,6 +82573,7 @@
                 "R' E R U R' E' R U2 R' E R U R' E' R"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Sebastiano Tronto",
                 "Yifan Wang (王逸帆)",
                 "Zixing Wang (王子兴)"
@@ -82641,6 +82772,17 @@
             [
                 "U:[r' F' r,S]"
             ]
+        ],
+        [
+            [
+                "U' S R B' R' S' R B R' U"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "U':[S,R B' R']"
+            ]
         ]
     ],
     "GEC": [
@@ -82674,6 +82816,7 @@
                 "R' E R U R' E' R U R' E R U2 R' E' R"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -82752,6 +82895,7 @@
                 "S U R' E' R U' R' E R S'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -82846,6 +82990,7 @@
                 "R F' E R' U R E' R' U' R F R'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -82951,6 +83096,17 @@
             [
                 "D:[R E R',U]"
             ]
+        ],
+        [
+            [
+                "D R' B' R S R' B R S' D'"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "D:[R' B' R,S]"
+            ]
         ]
     ],
     "GEK": [
@@ -82991,6 +83147,18 @@
         ],
         [
             [
+                "S' R B' R S R2 S' R B R' S"
+            ],
+            [
+                "Guoqiao Wang (王国桥)",
+                "Yifan Wang (王逸帆)"
+            ],
+            [
+                "S' R B' R:[S,R2]"
+            ]
+        ],
+        [
+            [
                 "S' R2 S R2 U R2 S' R2 S U'"
             ],
             [
@@ -82999,17 +83167,6 @@
             ],
             [
                 "[S' R2 S R2,U]"
-            ]
-        ],
-        [
-            [
-                "S' R B' R S R2 S' R B R' S"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
-            ],
-            [
-                "S' R B' R:[S,R2]"
             ]
         ],
         [
@@ -83097,6 +83254,7 @@
                 "U2 R S R' U R S' R' U"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Israel Fraga da Silva",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -83178,6 +83336,7 @@
                 "S R B' E' R2 E R2 B R' S'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -83235,6 +83394,17 @@
             [
                 "D':[R E R',U]"
             ]
+        ],
+        [
+            [
+                "D' R' B' R S R' B R S' D"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "D':[R' B' R,S]"
+            ]
         ]
     ],
     "GEO": [
@@ -83290,6 +83460,7 @@
                 "R' E R2 E' R' U R E R2 E' R U'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Keiichiro Taira (平佳一郎)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -83322,6 +83493,7 @@
                 "Elliott Kobelansky",
                 "Enoch Gray",
                 "Gavriel Johann Arcilla",
+                "Guoqiao Wang (王国桥)",
                 "Jonghyun Kim (김종현)",
                 "Leonardo Ezequiel Cruz",
                 "Lucas Benito Rolando",
@@ -83376,6 +83548,7 @@
                 "Dhruv Ambastha",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Heejun Kim (김희준)",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
@@ -83471,6 +83644,7 @@
             ],
             [
                 "Chenhao Sun (孙晨皓)",
+                "Guoqiao Wang (王国桥)",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
@@ -83515,6 +83689,7 @@
             [
                 "Chenhao Sun (孙晨皓)",
                 "Dhruv Ambastha",
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -83558,6 +83733,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Heejun Kim (김희준)",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
@@ -83623,6 +83799,7 @@
                 "R' E' R2 E R' U R E' R2 E R U'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -83666,6 +83843,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Heejun Kim (김희준)",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
@@ -83707,6 +83885,7 @@
                 "Dhruv Ambastha",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Heejun Kim (김희준)",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
@@ -83802,6 +83981,7 @@
                 "U2 R' S' R U R' S R U"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
@@ -83883,6 +84063,7 @@
             ],
             [
                 "Christopher Morris",
+                "Guoqiao Wang (王国桥)",
                 "Ishaan Agrawal",
                 "Masato Fujiwara (藤原正人)",
                 "Yangyang Shen (沈炀炀)",
@@ -83920,6 +84101,7 @@
                 "Daniel Wallin",
                 "Dhruv Ambastha",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Hana Davila",
                 "Ishaan Agrawal",
                 "Jack Cai",
@@ -84077,6 +84259,7 @@
                 "R' B' R' S R2 S' R' B R"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -84119,6 +84302,7 @@
                 "Benjamin Paul",
                 "Dhruv Ambastha",
                 "Gavriel Johann Arcilla",
+                "Guoqiao Wang (王国桥)",
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
                 "Tommy Cherry",
@@ -84185,6 +84369,7 @@
                 "U R F R2 E R2 E' F' R' U'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -84314,6 +84499,7 @@
                 "R' U' F' R S R' F R S' R' U R"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -84374,6 +84560,7 @@
                 "R' B' R S' R2 S R B R"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Heejun Kim (김희준)",
                 "Israel Fraga da Silva",
                 "Masato Fujiwara (藤原正人)",
@@ -84426,6 +84613,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Heejun Kim (김희준)",
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
@@ -84503,6 +84691,7 @@
                 "R B E' R' U R E R' U' R B' R'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -84540,6 +84729,7 @@
                 "Andrew Tan Jing Bang",
                 "Anto Kam (甘浩東)",
                 "Gavriel Johann Arcilla",
+                "Guoqiao Wang (王国桥)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -84584,6 +84774,23 @@
     "GFO": [
         [
             [
+                "U R' F R S' R' F' R S U'"
+            ],
+            [
+                "Dhruv Ambastha",
+                "Gavriel Johann Arcilla",
+                "Guoqiao Wang (王国桥)",
+                "Heejun Kim (김희준)",
+                "Israel Fraga da Silva",
+                "Yangyang Shen (沈炀炀)",
+                "Yifan Wang (王逸帆)"
+            ],
+            [
+                "U:[R' F R,S']"
+            ]
+        ],
+        [
+            [
                 "r' U R S R2 S' R U' r"
             ],
             [
@@ -84597,22 +84804,6 @@
             ],
             [
                 "r' U R:[S,R2]"
-            ]
-        ],
-        [
-            [
-                "U R' F R S' R' F' R S U'"
-            ],
-            [
-                "Dhruv Ambastha",
-                "Gavriel Johann Arcilla",
-                "Heejun Kim (김희준)",
-                "Israel Fraga da Silva",
-                "Yangyang Shen (沈炀炀)",
-                "Yifan Wang (王逸帆)"
-            ],
-            [
-                "U:[R' F R,S']"
             ]
         ],
         [
@@ -84700,6 +84891,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Heejun Kim (김희준)",
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
@@ -84761,6 +84953,7 @@
             ],
             [
                 "Chenhao Sun (孙晨皓)",
+                "Guoqiao Wang (王国桥)",
                 "Israel Fraga da Silva",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -84844,6 +85037,17 @@
             [
                 "F' r':[U' R U,M']"
             ]
+        ],
+        [
+            [
+                "R U' B' R' S R B R' S' R U R'"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "R U':[B',R' S R]"
+            ]
         ]
     ],
     "GFS": [
@@ -84877,6 +85081,7 @@
             ],
             [
                 "Benjamin Paul",
+                "Guoqiao Wang (王国桥)",
                 "Heejun Kim (김희준)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
@@ -84918,6 +85123,7 @@
             ],
             [
                 "Gavriel Johann Arcilla",
+                "Guoqiao Wang (王国桥)",
                 "Israel Fraga da Silva",
                 "Keiichiro Taira (平佳一郎)",
                 "Leonardo Ezequiel Cruz",
@@ -84984,6 +85190,7 @@
                 "S R B' R' S' R B' R' S R B2 R' S'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -85036,6 +85243,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Heejun Kim (김희준)",
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
@@ -85110,6 +85318,7 @@
                 "S' R' S' R U' R' S R U S"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
@@ -85193,6 +85402,17 @@
             ],
             [
                 "U M:[U' M2 U,R']"
+            ]
+        ],
+        [
+            [
+                "R' U' R2 B' R' S R B R' S' R' U R"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "R' U' R:[R B' R',S]"
             ]
         ]
     ],
@@ -85294,6 +85514,7 @@
                 "S R' F R2 E R2 E' F' R S'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)",
                 "Zixing Wang (王子兴)"
             ],
@@ -85416,6 +85637,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Hongjie Zhang (张鸿杰)",
                 "Joey Gouly",
                 "Keiichiro Taira (平佳一郎)",
@@ -85516,6 +85738,7 @@
                 "D R2 S R2 S' D'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -85554,6 +85777,19 @@
         ],
         [
             [
+                "U2 R' F' R S R' F R S' U2"
+            ],
+            [
+                "Guoqiao Wang (王国桥)",
+                "Sebastiano Tronto",
+                "Yifan Wang (王逸帆)"
+            ],
+            [
+                "U2:[R' F' R,S]"
+            ]
+        ],
+        [
+            [
                 "y' M' U R2 U' M U R2 U' y"
             ],
             [
@@ -85563,18 +85799,6 @@
             ],
             [
                 "y':[M',U R2 U']"
-            ]
-        ],
-        [
-            [
-                "U2 R' F' R S R' F R S' U2"
-            ],
-            [
-                "Sebastiano Tronto",
-                "Yifan Wang (王逸帆)"
-            ],
-            [
-                "U2:[R' F' R,S]"
             ]
         ],
         [
@@ -85643,6 +85867,7 @@
                 "R F' R' U R E R' U' R E' F R'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -85699,6 +85924,7 @@
                 "U R F E R2 E' R2 F' R' U'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Heejun Kim (김희준)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
@@ -85809,6 +86035,7 @@
                 "S' R' F' R' S R2 S' R' F R S"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Michael Tripodi",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -85921,6 +86148,18 @@
         ],
         [
             [
+                "D' R' B R' S' R2 S R' B' R D"
+            ],
+            [
+                "Guoqiao Wang (王国桥)",
+                "Yifan Wang (王逸帆)"
+            ],
+            [
+                "D' R' B R':[S',R2]"
+            ]
+        ],
+        [
+            [
                 "U2 r' D r S' r' D' r S U2"
             ],
             [
@@ -85929,17 +86168,6 @@
             ],
             [
                 "U2:[r' D r,S']"
-            ]
-        ],
-        [
-            [
-                "D' R' B R' S' R2 S R' B' R D"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
-            ],
-            [
-                "D' R' B R':[S',R2]"
             ]
         ],
         [
@@ -86005,6 +86233,7 @@
                 "D' R2 S' R2 S D"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Ishaan Agrawal",
                 "Keiichiro Taira (平佳一郎)",
                 "Sebastiano Tronto",
@@ -86060,6 +86289,7 @@
                 "Anto Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Jonghyun Kim (김종현)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
@@ -86217,6 +86447,17 @@
             [
                 "D R' D R:[S',R2]"
             ]
+        ],
+        [
+            [
+                "S' R F' R' S R2 S' R' F R' S"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "S' R F' R':[S,R2]"
+            ]
         ]
     ],
     "GIP": [
@@ -86232,6 +86473,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Ishaan Agrawal",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
@@ -86319,6 +86561,7 @@
                 "R' D R U R U' R2 D' R D R U R' U' D'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -86390,6 +86633,17 @@
         ],
         [
             [
+                "R' D' R2 F' R S' R2 S R F R2 D R"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "R' D' R2 F' R:[S',R2]"
+            ]
+        ],
+        [
+            [
                 "y' D' M2 D R D' M2 D R' y"
             ],
             [
@@ -86429,6 +86683,7 @@
                 "Anto Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Keiichiro Taira (平佳一郎)",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
@@ -86466,6 +86721,20 @@
         ],
         [
             [
+                "R F R' U' R' E R U R' E' R2 F' R'"
+            ],
+            [
+                "Guoqiao Wang (王国桥)",
+                "Sebastiano Tronto",
+                "Yangyang Shen (沈炀炀)",
+                "Yifan Wang (王逸帆)"
+            ],
+            [
+                "R F R':[U',R' E R]"
+            ]
+        ],
+        [
+            [
                 "E R U' M2 U R' U' M2 u"
             ],
             [
@@ -86476,19 +86745,6 @@
             ],
             [
                 "E:[R,U' M2 U]"
-            ]
-        ],
-        [
-            [
-                "R F R' U' R' E R U R' E' R2 F' R'"
-            ],
-            [
-                "Sebastiano Tronto",
-                "Yangyang Shen (沈炀炀)",
-                "Yifan Wang (王逸帆)"
-            ],
-            [
-                "R F R':[U',R' E R]"
             ]
         ],
         [
@@ -86534,6 +86790,7 @@
                 "Anto Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Keiichiro Taira (平佳一郎)",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
@@ -86583,6 +86840,20 @@
         ],
         [
             [
+                "S R' F' R2 E' R2 E F R S'"
+            ],
+            [
+                "Guoqiao Wang (王国桥)",
+                "Sebastiano Tronto",
+                "Yangyang Shen (沈炀炀)",
+                "Yifan Wang (王逸帆)"
+            ],
+            [
+                "S R' F':[R2,E']"
+            ]
+        ],
+        [
+            [
                 "U' u' L' U M2 U' L U M2 u"
             ],
             [
@@ -86593,19 +86864,6 @@
             ],
             [
                 "u':[U' L' U,M2]"
-            ]
-        ],
-        [
-            [
-                "S R' F' R2 E' R2 E F R S'"
-            ],
-            [
-                "Sebastiano Tronto",
-                "Yangyang Shen (沈炀炀)",
-                "Yifan Wang (王逸帆)"
-            ],
-            [
-                "S R' F':[R2,E']"
             ]
         ],
         [
@@ -86650,6 +86908,17 @@
             ],
             [
                 "[R',U' M2 U]"
+            ]
+        ],
+        [
+            [
+                "R D R' U' D' R' U R D R D' R2 U' R U"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "[R D R' D',U' R' U R]"
             ]
         ]
     ],
@@ -86733,6 +87002,17 @@
             ],
             [
                 "E':[R,u' M2 u]"
+            ]
+        ],
+        [
+            [
+                "R D' F' R S' R2 S R F D R'"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "R D' F' R:[S',R2]"
             ]
         ]
     ],
@@ -86834,6 +87114,17 @@
             [
                 "D:[U',R E R']"
             ]
+        ],
+        [
+            [
+                "D S R F R' S' R F' R' D'"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "D:[S,R F R']"
+            ]
         ]
     ],
     "GJB": [
@@ -86855,6 +87146,7 @@
                 "Dylan Wang",
                 "Ethan Pan",
                 "Gianfranco Huanqui",
+                "Guoqiao Wang (王国桥)",
                 "Hongjie Zhang (张鸿杰)",
                 "Joey Gouly",
                 "Jonghyun Kim (김종현)",
@@ -87023,6 +87315,7 @@
                 "R F' R S R2 S' R F R'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -87078,6 +87371,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Ishaan Agrawal",
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
@@ -87193,6 +87487,17 @@
             [
                 "D:[U,R E R']"
             ]
+        ],
+        [
+            [
+                "D S R' B' R S' R' B R D'"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "D:[S,R' B' R]"
+            ]
         ]
     ],
     "GJF": [
@@ -87260,6 +87565,7 @@
                 "R' U' R S R' F' R S' R' F U R"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -87317,6 +87623,20 @@
         ],
         [
             [
+                "R F' R' S' R2 S R' F R'"
+            ],
+            [
+                "Guoqiao Wang (王国桥)",
+                "Sebastiano Tronto",
+                "Yangyang Shen (沈炀炀)",
+                "Yifan Wang (王逸帆)"
+            ],
+            [
+                "R F' R':[S',R2]"
+            ]
+        ],
+        [
+            [
                 "U2 L2 U' M' U L2 U' M U'"
             ],
             [
@@ -87328,26 +87648,13 @@
             [
                 "U:[U L2 U',M']"
             ]
-        ],
-        [
-            [
-                "R F' R' S' R2 S R' F R'"
-            ],
-            [
-                "Sebastiano Tronto",
-                "Yangyang Shen (沈炀炀)",
-                "Yifan Wang (王逸帆)"
-            ],
-            [
-                "R F' R':[S',R2]"
-            ]
         ]
     ],
     "GJL": [
         [
             [
-                "R' l' E R U' R' E' R U l",
                 "R2 S' R F' R' S R F R",
+                "R' l' E R U' R' E' R U l",
                 "l2 S l U' l' S' l U l"
             ],
             [
@@ -87356,6 +87663,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Ishaan Agrawal",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
@@ -87367,8 +87675,8 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
-                "l':[R' E R,U']",
                 "R':[R' S' R,F']",
+                "l':[R' E R,U']",
                 "l2:[S,l U' l']"
             ]
         ],
@@ -87440,6 +87748,7 @@
             [
                 "Anto Kam (甘浩東)",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -87514,6 +87823,21 @@
         ],
         [
             [
+                "U D' R' F R' S' R2 S R' F' R U' D"
+            ],
+            [
+                "Gavriel Johann Arcilla",
+                "Guoqiao Wang (王国桥)",
+                "Jonghyun Kim (김종현)",
+                "Yangyang Shen (沈炀炀)",
+                "Yifan Wang (王逸帆)"
+            ],
+            [
+                "U D' R' F R':[S',R2]"
+            ]
+        ],
+        [
+            [
                 "M' U M D2 M' U' M D2"
             ],
             [
@@ -87525,20 +87849,6 @@
             ],
             [
                 "[M' U M,D2]"
-            ]
-        ],
-        [
-            [
-                "U D' R' F R' S' R2 S R' F' R U' D"
-            ],
-            [
-                "Gavriel Johann Arcilla",
-                "Jonghyun Kim (김종현)",
-                "Yangyang Shen (沈炀炀)",
-                "Yifan Wang (王逸帆)"
-            ],
-            [
-                "U D' R' F R':[S',R2]"
             ]
         ],
         [
@@ -87644,6 +87954,7 @@
                 "D S R' B R S' R' B' R D'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -87665,6 +87976,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Ishaan Agrawal",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
@@ -87748,6 +88060,17 @@
             [
                 "[R,U M' U']"
             ]
+        ],
+        [
+            [
+                "R S' R' S R' F' R S' R' F R2 S R'"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "R S' R':[S,R' F' R]"
+            ]
         ]
     ],
     "GJR": [
@@ -87804,6 +88127,7 @@
                 "R U2 R' S R' F' R S' R' F R2 U2 R'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -87906,6 +88230,7 @@
                 "S R' F' R S' R' F' R S R' F2 R S'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -87983,6 +88308,18 @@
         ],
         [
             [
+                "R' E F' R S' R' F R S R' E' R"
+            ],
+            [
+                "Guoqiao Wang (王国桥)",
+                "Yifan Wang (王逸帆)"
+            ],
+            [
+                "R' E:[F',R S' R']"
+            ]
+        ],
+        [
+            [
                 "U u L U' M' U L' U' M u'"
             ],
             [
@@ -87991,17 +88328,6 @@
             ],
             [
                 "u:[U L U',M']"
-            ]
-        ],
-        [
-            [
-                "R' E F' R S' R' F R S R' E' R"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
-            ],
-            [
-                "R' E:[F',R S' R']"
             ]
         ],
         [
@@ -88068,6 +88394,7 @@
                 "R F' R2 E' R2 E F R'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Max Hilliard",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
@@ -88155,6 +88482,7 @@
                 "R E' R2 F' R S' R' F R S R E R'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -88217,6 +88545,17 @@
             [
                 "[R',U M' U']"
             ]
+        ],
+        [
+            [
+                "R' S' R S R' F' R S' R' f R"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "R' S':[R S R',F']"
+            ]
         ]
     ],
     "GJZ": [
@@ -88260,6 +88599,7 @@
                 "R' U2 R S R' F' R S' R' F U2 R"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -88390,6 +88730,7 @@
                 "Chenhao Sun (孙晨皓)",
                 "Christopher Morris",
                 "Dong Zhu (朱栋)",
+                "Guoqiao Wang (王国桥)",
                 "Hongjie Zhang (张鸿杰)",
                 "Ishaan Agrawal",
                 "Joey Gouly",
@@ -88572,6 +88913,7 @@
             ],
             [
                 "Chenhao Sun (孙晨皓)",
+                "Guoqiao Wang (王国桥)",
                 "Kai Yamamoto (山本快)",
                 "Martin Vædele Egdal",
                 "Sebastiano Tronto",
@@ -88701,6 +89043,7 @@
                 "S' U2 R2 S R2 U2"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -88738,6 +89081,7 @@
                 "R' F' R S R U R' S' R U' R2 F R"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -88781,6 +89125,19 @@
         ],
         [
             [
+                "S' R B' R' S R2 S' R' B R' S"
+            ],
+            [
+                "Guoqiao Wang (王国桥)",
+                "Sebastiano Tronto",
+                "Yifan Wang (王逸帆)"
+            ],
+            [
+                "S' R B' R':[S,R2]"
+            ]
+        ],
+        [
+            [
                 "U L U L' U' L' U' L' U L"
             ],
             [
@@ -88790,18 +89147,6 @@
             ],
             [
                 "Not found."
-            ]
-        ],
-        [
-            [
-                "S' R B' R' S R2 S' R' B R' S"
-            ],
-            [
-                "Sebastiano Tronto",
-                "Yifan Wang (王逸帆)"
-            ],
-            [
-                "S' R B' R':[S,R2]"
             ]
         ],
         [
@@ -88880,6 +89225,7 @@
                 "R' B' R' S' R2 S R' B R"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Heejun Kim (김희준)",
                 "Israel Fraga da Silva",
                 "Masato Fujiwara (藤原正人)",
@@ -88943,6 +89289,7 @@
                 "S' R' F' R S R2 S' R F R S"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
@@ -89025,6 +89372,20 @@
         ],
         [
             [
+                "R F' R S' R2 S R F R'"
+            ],
+            [
+                "Guoqiao Wang (王国桥)",
+                "Sebastiano Tronto",
+                "Yangyang Shen (沈炀炀)",
+                "Yifan Wang (王逸帆)"
+            ],
+            [
+                "R F' R:[S',R2]"
+            ]
+        ],
+        [
+            [
                 "U M' U L2 U' M U L2 U2"
             ],
             [
@@ -89035,19 +89396,6 @@
             ],
             [
                 "U:[M',U L2 U']"
-            ]
-        ],
-        [
-            [
-                "R F' R S' R2 S R F R'"
-            ],
-            [
-                "Sebastiano Tronto",
-                "Yangyang Shen (沈炀炀)",
-                "Yifan Wang (王逸帆)"
-            ],
-            [
-                "R F' R:[S',R2]"
             ]
         ]
     ],
@@ -89074,6 +89422,7 @@
                 "S' R B R' S R2 S' R' B' R' S"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Sebastiano Tronto",
                 "Yifan Wang (王逸帆)"
             ],
@@ -89144,6 +89493,7 @@
             ],
             [
                 "Gavriel Johann Arcilla",
+                "Guoqiao Wang (王国桥)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
@@ -89183,6 +89533,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Keita Hayakawa (早川慶太)",
@@ -89210,6 +89561,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -89250,6 +89602,7 @@
                 "R' S R2 S R' S' R2 S' R2"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -89295,6 +89648,7 @@
                 "S R S' R2 S' R S R2 S R2 S'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -89349,6 +89703,7 @@
                 "l2 S R2 S' l S R2 S' l"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -89409,6 +89764,7 @@
                 "U2 S U2 R' E R2 E' R' S'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -89452,6 +89808,7 @@
                 "l2 S R2 S' l' S R2 S' l'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -89511,6 +89868,7 @@
                 "U2 S U2 R E' R2 E R S'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -89566,6 +89924,7 @@
                 "R S R2 S R S' R2 S' R2"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -89612,6 +89971,7 @@
                 "S R' S' R2 S' R' S R2 S R2 S'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -89725,6 +90085,7 @@
             ],
             [
                 "Bowen Xiao (肖博文)",
+                "Guoqiao Wang (王国桥)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Zixing Wang (王子兴)"
@@ -89810,6 +90171,7 @@
                 "Gianfranco Huanqui",
                 "Graham Siggins",
                 "Grzegorz Jałocha",
+                "Guoqiao Wang (王国桥)",
                 "Hongjie Zhang (张鸿杰)",
                 "Ishaan Agrawal",
                 "Jack Cai",
@@ -89948,6 +90310,7 @@
                 "R S R' U2 R S' R' U2"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -89996,6 +90359,7 @@
                 "R' S' R' S R2 S R S' R'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -90054,6 +90418,7 @@
                 "U' R S R' U' R S' R' U2"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Israel Fraga da Silva",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -90103,6 +90468,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Heejun Kim (김희준)",
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
@@ -90196,6 +90562,7 @@
                 "D' R' B R S' R2 S R B' R D"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -90250,8 +90617,8 @@
     "GLJ": [
         [
             [
-                "l' U' R' E R U R' E' R l",
                 "R' F' R' S' R F R' S R2",
+                "l' U' R' E R U R' E' R l",
                 "l' U' l' S l U l' S' l2"
             ],
             [
@@ -90260,6 +90627,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Ishaan Agrawal",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
@@ -90271,8 +90639,8 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
-                "l':[U',R' E R]",
                 "R':[F',R' S' R]",
+                "l':[U',R' E R]",
                 "l':[U',l' S l]"
             ]
         ],
@@ -90338,6 +90706,7 @@
                 "D R F' R' S' R2 S R' F R' D'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -90391,6 +90760,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
@@ -90449,16 +90819,17 @@
         ],
         [
             [
-                "R' E l E' R2 E l' E' R'",
-                "R' E R S' R2 S R' E' R'"
+                "R' E R S' R2 S R' E' R'",
+                "R' E l E' R2 E l' E' R'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Sebastiano Tronto",
                 "Yifan Wang (王逸帆)"
             ],
             [
-                "R':[E l E',R2]",
-                "R':[E R S',R2]"
+                "R':[E R S',R2]",
+                "R':[E l E',R2]"
             ]
         ],
         [
@@ -90484,6 +90855,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -90519,10 +90891,11 @@
         ],
         [
             [
-                "E' l' E R' E' l E R",
-                "E' R' S' R' S R E R"
+                "E' R' S' R' S R E R",
+                "E' l' E R' E' l E R"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -90531,8 +90904,8 @@
                 "Yifan Wang (王逸帆)"
             ],
             [
-                "[E' l' E,R']",
-                "[E' R' S',R']"
+                "[E' R' S',R']",
+                "[E' l' E,R']"
             ]
         ]
     ],
@@ -90573,6 +90946,7 @@
                 "S' R S R2 S' R S R S' R2 S R"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -90623,6 +90997,7 @@
                 "R' E R S' R2 S R E' R"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -90643,6 +91018,7 @@
                 "Benjamin Paul",
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
+                "Guoqiao Wang (王国桥)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
@@ -90695,6 +91071,7 @@
                 "R E' R' S' R2 S R' E R'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Max Hilliard",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -90707,11 +91084,12 @@
     "GLX": [
         [
             [
-                "l E' R E l' E' R' E",
-                "R S' R S R' E' R' E"
+                "R S' R S R' E' R' E",
+                "l E' R E l' E' R' E"
             ],
             [
                 "Gavriel Johann Arcilla",
+                "Guoqiao Wang (王国桥)",
                 "Keiichiro Taira (平佳一郎)",
                 "Sebastiano Tronto",
                 "Tommy Cherry",
@@ -90719,8 +91097,8 @@
                 "Yifan Wang (王逸帆)"
             ],
             [
-                "[l,E' R E]",
-                "R S':[R,S R' E']"
+                "R S':[R,S R' E']",
+                "[l,E' R E]"
             ]
         ],
         [
@@ -90788,6 +91166,7 @@
                 "E l E' R E l' E' R'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -90857,6 +91236,7 @@
                 "S' R' S R2 S' R' S R' S' R2 S R'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -90980,6 +91360,18 @@
         ],
         [
             [
+                "R' B R U' R' E' R U R' E B' R"
+            ],
+            [
+                "Guoqiao Wang (王国桥)",
+                "Yifan Wang (王逸帆)"
+            ],
+            [
+                "R' B:[R U' R',E']"
+            ]
+        ],
+        [
+            [
                 "R' U R U' M U2 M' U' R' U' R"
             ],
             [
@@ -90988,17 +91380,6 @@
             ],
             [
                 "R' U R U':[M,U2]"
-            ]
-        ],
-        [
-            [
-                "R' B R U' R' E' R U R' E B' R"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
-            ],
-            [
-                "R' B:[R U' R',E']"
             ]
         ],
         [
@@ -91119,6 +91500,19 @@
         ],
         [
             [
+                "U' R' B' E' R2 E R2 B R U"
+            ],
+            [
+                "Guoqiao Wang (王国桥)",
+                "Kai Yamamoto (山本快)",
+                "Yifan Wang (王逸帆)"
+            ],
+            [
+                "U' R' B':[E',R2]"
+            ]
+        ],
+        [
+            [
                 "D R F R S' R2 S R F' R' D'"
             ],
             [
@@ -91127,18 +91521,6 @@
             ],
             [
                 "D R F R:[S',R2]"
-            ]
-        ],
-        [
-            [
-                "U' R' B' E' R2 E R2 B R U"
-            ],
-            [
-                "Kai Yamamoto (山本快)",
-                "Yifan Wang (王逸帆)"
-            ],
-            [
-                "U' R' B':[E',R2]"
             ]
         ],
         [
@@ -91226,6 +91608,7 @@
                 "D' R2 S R2 S' D"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -91262,6 +91645,7 @@
                 "U2 R B R' S R B' R' S' U2"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Sebastiano Tronto",
                 "Yifan Wang (王逸帆)"
             ],
@@ -91329,6 +91713,7 @@
                 "S R B' R2 E' R2 E B R' S'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -91382,6 +91767,7 @@
                 "R B R' U R E' R' U' R E B' R'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -91434,6 +91820,7 @@
                 "D' S' R2 S R2 D"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Keiichiro Taira (平佳一郎)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -91482,6 +91869,7 @@
             [
                 "Anto Kam (甘浩東)",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -91572,6 +91960,7 @@
                 "S' R B R S R2 S' R B' R' S"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -91658,6 +92047,7 @@
                 "D R F' R S' R2 S R F R' D'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -91752,6 +92142,17 @@
             [
                 "[R2,U M2 U']"
             ]
+        ],
+        [
+            [
+                "S' R' B R S R2 S' R B' R S"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "S' R' B R:[S,R2]"
+            ]
         ]
     ],
     "GMP": [
@@ -91765,6 +92166,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -91808,6 +92210,7 @@
                 "R' D' R U D R U' R' D' R' D R2 U R' U'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -91888,6 +92291,17 @@
             [
                 "R S' R' U':[M,U2]"
             ]
+        ],
+        [
+            [
+                "R' D B R' S' R2 S R' B' D' R"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "R' D B R':[S',R2]"
+            ]
         ]
     ],
     "GMS": [
@@ -91899,6 +92313,7 @@
                 "Anto Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Keiichiro Taira (平佳一郎)",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
@@ -91950,6 +92365,7 @@
                 "S R B R2 E R2 E' B' R' S'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Sebastiano Tronto",
                 "Yifan Wang (王逸帆)"
             ],
@@ -92000,6 +92416,7 @@
                 "Anto Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Keiichiro Taira (平佳一郎)",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
@@ -92050,6 +92467,7 @@
                 "R' B' R U R E' R' U' R E R2 B R"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -92121,6 +92539,7 @@
                 "R D' R' U' R' U R2 D R' D' R' U' R U D"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -92191,6 +92610,17 @@
             ],
             [
                 "E':[R,U M2 U']"
+            ]
+        ],
+        [
+            [
+                "R D R2 B R' S' R2 S R' B' R2 D' R'"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "R D R2 B R':[S',R2]"
             ]
         ]
     ],
@@ -92281,6 +92711,17 @@
             ],
             [
                 "U' R':[U R U',M]"
+            ]
+        ],
+        [
+            [
+                "D' S R F R' S' R F' R' D"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "D':[S,R F R']"
             ]
         ]
     ],
@@ -92376,6 +92817,7 @@
                 "R U R' S R B R' S' R B' U' R'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -92434,6 +92876,7 @@
             ],
             [
                 "Gavriel Johann Arcilla",
+                "Guoqiao Wang (王国桥)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -92453,6 +92896,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
@@ -92530,6 +92974,17 @@
             [
                 "D':[U,R E R']"
             ]
+        ],
+        [
+            [
+                "D' S R' B' R S' R' B R D"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "D':[S,R' B' R]"
+            ]
         ]
     ],
     "GNF": [
@@ -92561,6 +93016,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Anto Kam (甘浩東)",
+                "Guoqiao Wang (王国桥)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -92612,6 +93068,7 @@
                 "Anto Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Yangyang Shen (沈炀炀)",
@@ -92734,6 +93191,7 @@
                 "U D' R' F R S' R2 S R F' R U' D"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Jonghyun Kim (김종현)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -92817,6 +93275,7 @@
             ],
             [
                 "Gavriel Johann Arcilla",
+                "Guoqiao Wang (王国桥)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
@@ -92867,6 +93326,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
@@ -92929,6 +93389,7 @@
                 "D' S R F' R' S' R F R' D"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -92947,6 +93408,7 @@
                 "Anto Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -93017,6 +93479,17 @@
             [
                 "[R,U' M U]"
             ]
+        ],
+        [
+            [
+                "R S' R' S R B R' S' R b' R'"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "R S':[R' S R,B]"
+            ]
         ]
     ],
     "GNR": [
@@ -93046,6 +93519,7 @@
                 "R U2 R' S R B R' S' R B' U2 R'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -93111,6 +93585,7 @@
             ],
             [
                 "Gavriel Johann Arcilla",
+                "Guoqiao Wang (王国桥)",
                 "Max Hilliard",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
@@ -93149,6 +93624,7 @@
                 "R' E R2 B R' S' R B' R' S R' E' R"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -93203,6 +93679,7 @@
                 "S R B R' S' R B R' S R B2 R' S'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -93270,6 +93747,7 @@
                 "R E' B R' S' R B' R' S R E R'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -93323,6 +93801,17 @@
             [
                 "[R',U' M U]"
             ]
+        ],
+        [
+            [
+                "R' S' R S R B R' S' R B' R2 S R"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "R' S' R:[S,R B R']"
+            ]
         ]
     ],
     "GNZ": [
@@ -93352,6 +93841,7 @@
                 "R' U2 R S R B R' S' R B' R2 U2 R"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -93511,6 +94001,7 @@
             ],
             [
                 "Benjamin Paul",
+                "Guoqiao Wang (王国桥)",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
@@ -93721,6 +94212,7 @@
                 "U' S' R B' R' S R B R' U"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -93795,6 +94287,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Keita Hayakawa (早川慶太)",
@@ -93835,16 +94328,17 @@
         ],
         [
             [
-                "l' S' l S R2 S' l' S R2 l",
-                "R' E' R S R2 S' R' E R'"
+                "R' E' R S R2 S' R' E R'",
+                "l' S' l S R2 S' l' S R2 l"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Sebastiano Tronto",
                 "Yifan Wang (王逸帆)"
             ],
             [
-                "l':[S' l S,R2]",
-                "R':[E' R S,R2]"
+                "R':[E' R S,R2]",
+                "l':[S' l S,R2]"
             ]
         ],
         [
@@ -93883,6 +94377,20 @@
         ],
         [
             [
+                "U R' E R2 E' R' U' R E R2 E' R"
+            ],
+            [
+                "Guoqiao Wang (王国桥)",
+                "Keiichiro Taira (平佳一郎)",
+                "Yangyang Shen (沈炀炀)",
+                "Yifan Wang (王逸帆)"
+            ],
+            [
+                "[U,R' E R2 E' R']"
+            ]
+        ],
+        [
+            [
                 "R U' R S R2 S' R U R'"
             ],
             [
@@ -93892,19 +94400,6 @@
             ],
             [
                 "R U' R:[S,R2]"
-            ]
-        ],
-        [
-            [
-                "U R' E R2 E' R' U' R E R2 E' R"
-            ],
-            [
-                "Keiichiro Taira (平佳一郎)",
-                "Yangyang Shen (沈炀炀)",
-                "Yifan Wang (王逸帆)"
-            ],
-            [
-                "[U,R' E R2 E' R']"
             ]
         ],
         [
@@ -93959,6 +94454,7 @@
             [
                 "Dhruv Ambastha",
                 "Gavriel Johann Arcilla",
+                "Guoqiao Wang (王国桥)",
                 "Heejun Kim (김희준)",
                 "Israel Fraga da Silva",
                 "Yangyang Shen (沈炀炀)",
@@ -94098,6 +94594,17 @@
             [
                 "D R' D R':[S',R2]"
             ]
+        ],
+        [
+            [
+                "S' R F' R S R2 S' R F R' S"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "S' R F' R:[S,R2]"
+            ]
         ]
     ],
     "GOJ": [
@@ -94146,6 +94653,7 @@
                 "D R' B R S R' B' R S' D'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -94165,6 +94673,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Keita Hayakawa (早川慶太)",
@@ -94204,16 +94713,17 @@
         ],
         [
             [
-                "R E l E' R2 E l' E' R",
-                "R E R S' R2 S R' E' R"
+                "R E R S' R2 S R' E' R",
+                "R E l E' R2 E l' E' R"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Sebastiano Tronto",
                 "Yifan Wang (王逸帆)"
             ],
             [
-                "R:[E l E',R2]",
-                "R:[E R S',R2]"
+                "R:[E R S',R2]",
+                "R:[E l E',R2]"
             ]
         ]
     ],
@@ -94270,6 +94780,17 @@
             [
                 "[U M2 U',R2]"
             ]
+        ],
+        [
+            [
+                "S' R' B R' S R2 S' R' B' R S"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "S' R' B R':[S,R2]"
+            ]
         ]
     ],
     "GON": [
@@ -94299,6 +94820,7 @@
                 "D' R F' R' S R F R' S' D"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -94334,6 +94856,7 @@
                 "D' R' D R U R U' R2 D' R D R U R' U'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -94380,6 +94903,7 @@
                 "R S' R S R2 S' R S R'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Sebastiano Tronto",
                 "Yifan Wang (王逸帆)"
             ],
@@ -94399,6 +94923,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -94440,6 +94965,7 @@
                 "R2 S R E R2 E' R' S'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -94469,6 +94995,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -94510,6 +95037,7 @@
                 "R2 S R' E' R2 E R S'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Sebastiano Tronto",
                 "Yifan Wang (王逸帆)"
             ],
@@ -94545,6 +95073,7 @@
                 "D R D' R' U' R' U R2 D R' D' R' U' R U"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -94591,6 +95120,7 @@
                 "R' S' R' S R2 S' R' S R"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Sebastiano Tronto",
                 "Yifan Wang (王逸帆)"
             ],
@@ -94615,6 +95145,7 @@
                 "Ethan Pan",
                 "Gavriel Johann Arcilla",
                 "Grzegorz Jałocha",
+                "Guoqiao Wang (王国桥)",
                 "Hana Davila",
                 "Hongjie Zhang (张鸿杰)",
                 "Ishaan Agrawal",
@@ -94765,6 +95296,7 @@
                 "Gavriel Johann Arcilla",
                 "Gianfranco Huanqui",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Hana Davila",
                 "Hongjie Zhang (张鸿杰)",
                 "Ishaan Agrawal",
@@ -94839,6 +95371,7 @@
                 "Benjamin Paul",
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
+                "Guoqiao Wang (王国桥)",
                 "Jonghyun Kim (김종현)",
                 "Michael Tripodi",
                 "Yangyang Shen (沈炀炀)",
@@ -94895,6 +95428,7 @@
                 "S R2 S' R' E R' U2 R E' R' U2"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -94914,6 +95448,7 @@
                 "Elliott Kobelansky",
                 "Enoch Gray",
                 "Gavriel Johann Arcilla",
+                "Guoqiao Wang (王国桥)",
                 "Jonghyun Kim (김종현)",
                 "Leonardo Ezequiel Cruz",
                 "Lucas Benito Rolando",
@@ -94970,6 +95505,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Heejun Kim (김희준)",
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
@@ -95015,6 +95551,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Ishaan Agrawal",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
@@ -95079,6 +95616,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Ishaan Agrawal",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
@@ -95140,6 +95678,7 @@
                 "Chenhao Sun (孙晨皓)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -95174,6 +95713,7 @@
                 "Andrew Tan Jing Bang",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
@@ -95211,6 +95751,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -95236,6 +95777,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -95283,6 +95825,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -95351,6 +95894,17 @@
             [
                 "S:[R',S' U M U']"
             ]
+        ],
+        [
+            [
+                "R U' B' R' S' R B R' S R U R'"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "R U':[B',R' S' R]"
+            ]
         ]
     ],
     "GPS": [
@@ -95365,6 +95919,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -95406,6 +95961,7 @@
                 "U' R B' E R2 E' R2 B R' U"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -95435,6 +95991,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -95476,6 +96033,7 @@
                 "U R' F E' R2 E R2 F' R U'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Jonghyun Kim (김종현)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -95492,6 +96050,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Gavriel Johann Arcilla",
+                "Guoqiao Wang (王国桥)",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
@@ -95572,6 +96131,17 @@
             [
                 "S:[R,S' U M U']"
             ]
+        ],
+        [
+            [
+                "R' U F R S' R' F' R S R' U' R"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "R' U:[F,R S' R']"
+            ]
         ]
     ],
     "GQA": [
@@ -95597,6 +96167,7 @@
                 "Ethan Pan",
                 "Gianfranco Huanqui",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Hana Davila",
                 "Ishaan Agrawal",
                 "Jack Cai",
@@ -95816,6 +96387,7 @@
             [
                 "Bowen Xiao (肖博文)",
                 "Chenhao Sun (孙晨皓)",
+                "Guoqiao Wang (王国桥)",
                 "Jacob Tucker",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -95887,6 +96459,19 @@
         ],
         [
             [
+                "S' R2 S' R S R2 S R'"
+            ],
+            [
+                "Guoqiao Wang (王国桥)",
+                "Yangyang Shen (沈炀炀)",
+                "Yifan Wang (王逸帆)"
+            ],
+            [
+                "[S' R2 S',R]"
+            ]
+        ],
+        [
+            [
                 "R' S2 R U2 R' S2 R U2"
             ],
             [
@@ -95895,18 +96480,6 @@
             ],
             [
                 "[R' S2 R,U2]"
-            ]
-        ],
-        [
-            [
-                "S' R2 S' R S R2 S R'"
-            ],
-            [
-                "Yangyang Shen (沈炀炀)",
-                "Yifan Wang (王逸帆)"
-            ],
-            [
-                "[S' R2 S',R]"
             ]
         ],
         [
@@ -95968,6 +96541,17 @@
             [
                 "[r',E' L E]"
             ]
+        ],
+        [
+            [
+                "R' E' R S R S' R' E"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "[R',E' R S]"
+            ]
         ]
     ],
     "GQE": [
@@ -95982,6 +96566,7 @@
                 "Dhruv Ambastha",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Heejun Kim (김희준)",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
@@ -96076,6 +96661,7 @@
             ],
             [
                 "Chenhao Sun (孙晨皓)",
+                "Guoqiao Wang (王国桥)",
                 "Israel Fraga da Silva",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
@@ -96134,6 +96720,7 @@
                 "U D R U' R' D' R' D R2 U R' U' R' D' R"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -96174,6 +96761,17 @@
             [
                 "[U M' U',R]"
             ]
+        ],
+        [
+            [
+                "R S' R2 F' R S R' F R S' R S R'"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "R S' R':[R' F' R,S]"
+            ]
         ]
     ],
     "GQK": [
@@ -96202,6 +96800,7 @@
                 "R2 S R2 S R S' R2 S' R"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -96242,10 +96841,11 @@
         ],
         [
             [
-                "R' E' l' E R E' l E",
-                "R' E' R' S' R S R E"
+                "R' E' R' S' R S R E",
+                "R' E' l' E R E' l E"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -96254,8 +96854,8 @@
                 "Yifan Wang (王逸帆)"
             ],
             [
-                "[R',E' l' E]",
-                "[R',E' R' S']"
+                "[R',E' R' S']",
+                "[R',E' l' E]"
             ]
         ]
     ],
@@ -96288,6 +96888,7 @@
                 "U R U' R2 D' R D R U R' U' D' R' D R"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -96318,6 +96919,17 @@
             [
                 "[U' M U,R]"
             ]
+        ],
+        [
+            [
+                "R b R' S R B' R' S' R S R'"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "R b:[R' S R,B']"
+            ]
         ]
     ],
     "GQO": [
@@ -96347,6 +96959,7 @@
                 "U R U' R' D' R' D R2 U R' U' R' D' R D"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -96376,6 +96989,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -96434,6 +97048,17 @@
             [
                 "L U2 L:[E',L2]"
             ]
+        ],
+        [
+            [
+                "R' E' R2 E' R E R2 E"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "[R',E' R2 E']"
+            ]
         ]
     ],
     "GQT": [
@@ -96459,6 +97084,17 @@
             ],
             [
                 "U':[R U R',E]"
+            ]
+        ],
+        [
+            [
+                "S' R' E R E' R S R'"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "[S' R' E,R]"
             ]
         ]
     ],
@@ -96495,6 +97131,17 @@
             [
                 "[E2,L U2 L']"
             ]
+        ],
+        [
+            [
+                "R E R2 E R E' R2 E' R2"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "R:[E R2 E,R]"
+            ]
         ]
     ],
     "GQX": [
@@ -96521,6 +97168,7 @@
             ],
             [
                 "Gavriel Johann Arcilla",
+                "Guoqiao Wang (王国桥)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -96543,6 +97191,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -96581,6 +97230,17 @@
             ],
             [
                 "U:[R U' R',E']"
+            ]
+        ],
+        [
+            [
+                "U' R U S' U' R' U R S R'"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "R:[R' U' R U,S']"
             ]
         ]
     ],
@@ -96650,6 +97310,7 @@
             [
                 "Bowen Xiao (肖博文)",
                 "Chenhao Sun (孙晨皓)",
+                "Guoqiao Wang (王国桥)",
                 "Ishaan Agrawal",
                 "Jacob Tucker",
                 "Michael Tripodi",
@@ -96792,6 +97453,7 @@
                 "R U R' S R' F R S' R' F' R2 U' R'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Kai Yamamoto (山本快)",
                 "Yangyang Shen (沈炀炀)",
                 "Zixing Wang (王子兴)"
@@ -96909,6 +97571,7 @@
                 "R S' R' U2 R S R' U2"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -96945,6 +97608,7 @@
             ],
             [
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Israel Fraga da Silva",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
@@ -96988,6 +97652,7 @@
             ],
             [
                 "Chenhao Sun (孙晨皓)",
+                "Guoqiao Wang (王国桥)",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
@@ -97047,6 +97712,17 @@
             ],
             [
                 "F' R':[U' R U,M]"
+            ]
+        ],
+        [
+            [
+                "R U' R' S R B' R' S' R B U R'"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "R U':[R' S R,B']"
             ]
         ]
     ],
@@ -97108,6 +97784,17 @@
             ],
             [
                 "R S' R' U':[M',U2]"
+            ]
+        ],
+        [
+            [
+                "R' D' R2 F' R' S' R2 S R' F R2 D R"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "R' D' R2 F' R':[S',R2]"
             ]
         ],
         [
@@ -97176,6 +97863,7 @@
                 "R U2 R2 F' R S R' F R S' R U2 R'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -97275,6 +97963,7 @@
                 "S R2 S' R2 S' R' S R2 S R' S'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -97341,6 +98030,7 @@
                 "R' S' R2 S R' S' R' S R2 S' R' S"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -97432,6 +98122,17 @@
             [
                 "R S' R' U:[M,U2]"
             ]
+        ],
+        [
+            [
+                "R' D B R S' R2 S R B' D' R"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "R' D B R:[S',R2]"
+            ]
         ]
     ],
     "GRN": [
@@ -97461,6 +98162,7 @@
                 "R U2 B R' S R B' R' S' R U2 R'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -97529,6 +98231,7 @@
                 "R S' R' S R2 S' R' S R'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Sebastiano Tronto",
                 "Yifan Wang (王逸帆)"
             ],
@@ -97580,6 +98283,17 @@
             [
                 "S:[S' U M U',R']"
             ]
+        ],
+        [
+            [
+                "R U' R' S' R B' R' S R B U R'"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "R U':[R' S' R,B']"
+            ]
         ]
     ],
     "GRS": [
@@ -97609,6 +98323,7 @@
                 "R' S R' S' R2 S R E R2 E' S' R"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -97664,6 +98379,7 @@
                 "R S' R' S R' E R2 E' R' S' R S R'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -97746,6 +98462,17 @@
             [
                 "R U F:[R2,E']"
             ]
+        ],
+        [
+            [
+                "R S' R' S R2 S' R E' R2 E S R'"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "R S' R' S:[R2,S' R E']"
+            ]
         ]
     ],
     "GRX": [
@@ -97791,6 +98518,17 @@
             [
                 "R S':[E',R' U2 R]"
             ]
+        ],
+        [
+            [
+                "R S' R' S R E' R2 E R S' R S R'"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "R S' R' S R:[E',R2]"
+            ]
         ]
     ],
     "GRY": [
@@ -97817,6 +98555,17 @@
             [
                 "u':[R' U R,E']"
             ]
+        ],
+        [
+            [
+                "R' S' R U R' U' S U R U'"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "R':[S',R U R' U']"
+            ]
         ]
     ],
     "GRZ": [
@@ -97831,6 +98580,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -97907,6 +98657,20 @@
         ],
         [
             [
+                "U' R E R2 E' R U R' E R2 E' R'"
+            ],
+            [
+                "Dhruv Ambastha",
+                "Guoqiao Wang (王国桥)",
+                "Yifan Wang (王逸帆)",
+                "Zixing Wang (王子兴)"
+            ],
+            [
+                "[U',R E R2 E' R]"
+            ]
+        ],
+        [
+            [
                 "R2 U' R E R2 E' R U R2"
             ],
             [
@@ -97931,19 +98695,6 @@
             ],
             [
                 "E':[U',R E' R']"
-            ]
-        ],
-        [
-            [
-                "U' R E R2 E' R U R' E R2 E' R'"
-            ],
-            [
-                "Dhruv Ambastha",
-                "Yifan Wang (王逸帆)",
-                "Zixing Wang (王子兴)"
-            ],
-            [
-                "[U',R E R2 E' R]"
             ]
         ],
         [
@@ -98091,6 +98842,7 @@
                 "S R' F2 R S' R' F' R S R' F' R S'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -98171,6 +98923,7 @@
                 "R' E R2 E' R S R2 S'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -98192,6 +98945,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
@@ -98242,6 +98996,7 @@
             [
                 "Chenhao Sun (孙晨皓)",
                 "Dhruv Ambastha",
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -98302,6 +99057,7 @@
             ],
             [
                 "Benjamin Paul",
+                "Guoqiao Wang (王国桥)",
                 "Heejun Kim (김희준)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
@@ -98343,6 +99099,7 @@
                 "Anto Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Keiichiro Taira (平佳一郎)",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
@@ -98383,6 +99140,7 @@
                 "S R' F2 R S' R' F R S R' F R S'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -98449,6 +99207,7 @@
                 "l' S R2 S' l' S R2 S' l2"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -98512,6 +99271,7 @@
                 "R' E R' S' R2 S R' E' R"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Max Hilliard",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -98530,6 +99290,7 @@
                 "Anto Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Keiichiro Taira (平佳一郎)",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
@@ -98581,6 +99342,7 @@
             ],
             [
                 "Gavriel Johann Arcilla",
+                "Guoqiao Wang (王国桥)",
                 "Max Hilliard",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
@@ -98602,6 +99364,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -98628,6 +99391,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -98665,6 +99429,17 @@
             [
                 "U R' U' R':[E,R2]"
             ]
+        ],
+        [
+            [
+                "E' R2 E' R' E R2 E R"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "[E' R2 E',R']"
+            ]
         ]
     ],
     "GSR": [
@@ -98694,6 +99469,7 @@
                 "R' S E R2 E' R' S' R2 S R S' R"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -98752,6 +99528,7 @@
                 "R' E R2 E' R2 E' R2 E R'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -98812,6 +99589,17 @@
             [
                 "[R' F2 R,E]"
             ]
+        ],
+        [
+            [
+                "R' E R2 E' R S R' E' R2 E R S'"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "R' E:[R2,E' R S R' E']"
+            ]
         ]
     ],
     "GSY": [
@@ -98847,6 +99635,17 @@
             ],
             [
                 "U' R U R':[E,R2]"
+            ]
+        ],
+        [
+            [
+                "R2 E' R2 E' R E R2 E R"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "R':[R',E' R2 E']"
             ]
         ]
     ],
@@ -98905,6 +99704,17 @@
             [
                 "R' U' B':[E,R2]"
             ]
+        ],
+        [
+            [
+                "R' S' E R2 E' R S R2 S' R' S R"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "R' S' E:[R2,E' R S]"
+            ]
         ]
     ],
     "GTA": [
@@ -98936,6 +99746,7 @@
                 "Gianfranco Huanqui",
                 "Graham Siggins",
                 "Grzegorz Jałocha",
+                "Guoqiao Wang (王国桥)",
                 "Hana Davila",
                 "Hongjie Zhang (张鸿杰)",
                 "Ishaan Agrawal",
@@ -99024,6 +99835,7 @@
                 "Ethan Pan",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Heejun Kim (김희준)",
                 "Hongjie Zhang (张鸿杰)",
                 "Ishaan Agrawal",
@@ -99194,6 +100006,7 @@
                 "S R E R2 E' R S'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -99230,6 +100043,7 @@
             [
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -99254,6 +100068,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Heejun Kim (김희준)",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
@@ -99312,6 +100127,7 @@
                 "Anto Kam (甘浩東)",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Israel Fraga da Silva",
                 "Keiichiro Taira (平佳一郎)",
                 "Leonardo Ezequiel Cruz",
@@ -99361,6 +100177,20 @@
         ],
         [
             [
+                "R F R2 E R U' R' E' R U R F' R'"
+            ],
+            [
+                "Guoqiao Wang (王国桥)",
+                "Sebastiano Tronto",
+                "Yangyang Shen (沈炀炀)",
+                "Yifan Wang (王逸帆)"
+            ],
+            [
+                "R F R':[R' E R,U']"
+            ]
+        ],
+        [
+            [
                 "u' M2 U R U' M2 U R' E'"
             ],
             [
@@ -99371,19 +100201,6 @@
             ],
             [
                 "u':[M2,U R U']"
-            ]
-        ],
-        [
-            [
-                "R F R2 E R U' R' E' R U R F' R'"
-            ],
-            [
-                "Sebastiano Tronto",
-                "Yangyang Shen (沈炀炀)",
-                "Yifan Wang (王逸帆)"
-            ],
-            [
-                "R F R':[R' E R,U']"
             ]
         ],
         [
@@ -99434,6 +100251,18 @@
         ],
         [
             [
+                "R' E R S' R' F' R S R' F E' R"
+            ],
+            [
+                "Guoqiao Wang (王国桥)",
+                "Yifan Wang (王逸帆)"
+            ],
+            [
+                "R' E:[R S' R',F']"
+            ]
+        ],
+        [
+            [
                 "u M' U L U' M U L' U' u'"
             ],
             [
@@ -99442,17 +100271,6 @@
             ],
             [
                 "u:[M',U L U']"
-            ]
-        ],
-        [
-            [
-                "R' E R S' R' F' R S R' F E' R"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
-            ],
-            [
-                "R' E:[R S' R',F']"
             ]
         ],
         [
@@ -99517,6 +100335,7 @@
                 "S R E R2 E' R U2 S' U2"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -99547,6 +100366,7 @@
                 "Benjamin Paul",
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
+                "Guoqiao Wang (王国桥)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
@@ -99597,6 +100417,7 @@
                 "S R B E R2 E' R2 B' R' S'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Sebastiano Tronto",
                 "Yifan Wang (王逸帆)"
             ],
@@ -99666,6 +100487,7 @@
                 "R' E R S' R B R' S R B' R2 E' R"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -99711,6 +100533,7 @@
                 "S R E R2 E' R' S' R2"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -99756,6 +100579,7 @@
                 "U' R B' R2 E R2 E' B R' U"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -99798,6 +100622,17 @@
             [
                 "u':[R U R',E']"
             ]
+        ],
+        [
+            [
+                "R S' R' E R' E' R S"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "[R,S' R' E]"
+            ]
         ]
     ],
     "GTR": [
@@ -99826,6 +100661,7 @@
                 "R S' R' S R E R2 E' R S' R S R'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -99909,6 +100745,17 @@
             [
                 "[E',R B2 R']"
             ]
+        ],
+        [
+            [
+                "S R E R2 E' R' S' R E' R2 E R'"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "S R E:[R2,E' R' S' R E']"
+            ]
         ]
     ],
     "GTX": [
@@ -99940,6 +100787,7 @@
                 "R F E' R' U' R E R' U R F' R'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Jonghyun Kim (김종현)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -99983,6 +100831,7 @@
             ],
             [
                 "Gavriel Johann Arcilla",
+                "Guoqiao Wang (王国桥)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -100047,6 +100896,17 @@
             ],
             [
                 "R' S':[R U2 R',E]"
+            ]
+        ],
+        [
+            [
+                "R' S' R S R E R2 E' R S' R' S R"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "R' S' R S R:[E,R2]"
             ]
         ]
     ],
@@ -100129,6 +100989,7 @@
                 "U' R' E' R2 E R' U R E' R2 E R"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)",
                 "Zixing Wang (王子兴)"
             ],
@@ -100246,6 +101107,7 @@
                 "Dylan Wang",
                 "Ethan Pan",
                 "Gianfranco Huanqui",
+                "Guoqiao Wang (王国桥)",
                 "Ishaan Agrawal",
                 "Jacob Tucker",
                 "Kai Yamamoto (山本快)",
@@ -100323,6 +101185,7 @@
                 "R E' R2 E R' S R2 S'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -100343,6 +101206,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
@@ -100396,6 +101260,7 @@
                 "U R' E' R2 E R' U' R E' R2 E R"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -100468,6 +101333,7 @@
                 "S R B2 R' S' R B R' S R B R' S'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -100539,6 +101405,7 @@
                 "Anto Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Keiichiro Taira (平佳一郎)",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
@@ -100591,6 +101458,7 @@
                 "R F' E' R2 E R2 F R'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Max Hilliard",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
@@ -100660,6 +101528,7 @@
                 "l S R2 S' l S R2 S' l2"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -100719,6 +101588,7 @@
                 "R E' R S' R2 S R E R'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Max Hilliard",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -100737,6 +101607,7 @@
                 "Anto Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Keiichiro Taira (平佳一郎)",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
@@ -100799,6 +101670,7 @@
                 "S R B2 R' S' R B' R' S R B' R' S'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -100839,6 +101711,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -100864,6 +101737,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -100911,6 +101785,17 @@
             [
                 "[L U2 L',E2]"
             ]
+        ],
+        [
+            [
+                "R2 E R2 E R' E' R2 E' R'"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "R:[R,E R2 E]"
+            ]
         ]
     ],
     "GWR": [
@@ -100956,6 +101841,17 @@
             [
                 "R U F:[E',R2]"
             ]
+        ],
+        [
+            [
+                "R S' E' R2 E R' S R2 S' R S R'"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "R S' E':[R2,E R' S]"
+            ]
         ]
     ],
     "GWS": [
@@ -100987,6 +101883,7 @@
                 "R E' R2 E R2 E R2 E' R"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -101048,6 +101945,17 @@
             [
                 "[R B2 R',E']"
             ]
+        ],
+        [
+            [
+                "R E' R2 E R' S R E R2 E' R' S'"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "R E':[R2,E R' S R E]"
+            ]
         ]
     ],
     "GWY": [
@@ -101083,6 +101991,17 @@
             [
                 "L' U2 L:[E,L2]"
             ]
+        ],
+        [
+            [
+                "E R2 E R E' R2 E' R'"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "[E R2 E,R]"
+            ]
         ]
     ],
     "GWZ": [
@@ -101111,6 +102030,7 @@
                 "R S E' R2 E R S' R2 S R' S' R'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -101169,6 +102089,7 @@
                 "Gianfranco Huanqui",
                 "Graham Siggins",
                 "Grzegorz Jałocha",
+                "Guoqiao Wang (王国桥)",
                 "Hana Davila",
                 "Hongjie Zhang (张鸿杰)",
                 "Ishaan Agrawal",
@@ -101247,6 +102168,7 @@
                 "Ethan Pan",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Hana Davila",
                 "Heejun Kim (김희준)",
                 "Ishaan Agrawal",
@@ -101403,6 +102325,7 @@
                 "S R' E' R2 E R' S'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -101439,6 +102362,7 @@
             [
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -101474,6 +102398,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Heejun Kim (김희준)",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
@@ -101514,6 +102439,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Heejun Kim (김희준)",
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
@@ -101594,6 +102520,20 @@
         ],
         [
             [
+                "S R' F' E' R2 E R2 F R S'"
+            ],
+            [
+                "Guoqiao Wang (王国桥)",
+                "Sebastiano Tronto",
+                "Yangyang Shen (沈炀炀)",
+                "Yifan Wang (王逸帆)"
+            ],
+            [
+                "S R' F':[E',R2]"
+            ]
+        ],
+        [
+            [
                 "u' M2 U' L' U M2 U' L U u"
             ],
             [
@@ -101604,19 +102544,6 @@
             ],
             [
                 "u':[M2,U' L' U]"
-            ]
-        ],
-        [
-            [
-                "S R' F' E' R2 E R2 F R S'"
-            ],
-            [
-                "Sebastiano Tronto",
-                "Yangyang Shen (沈炀炀)",
-                "Yifan Wang (王逸帆)"
-            ],
-            [
-                "S R' F':[E',R2]"
             ]
         ],
         [
@@ -101674,6 +102601,7 @@
                 "R E' R' S' R' F' R S R' F R2 E R'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -101730,6 +102658,7 @@
                 "S R' E' R2 E R' U2 S' U2"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -101762,11 +102691,12 @@
     "GXL": [
         [
             [
-                "E' R E l E' R' E l'",
-                "E' R E R S' R' S R'"
+                "E' R E R S' R' S R'",
+                "E' R E l E' R' E l'"
             ],
             [
                 "Gavriel Johann Arcilla",
+                "Guoqiao Wang (王国桥)",
                 "Keiichiro Taira (平佳一郎)",
                 "Sebastiano Tronto",
                 "Tommy Cherry",
@@ -101774,8 +102704,8 @@
                 "Yifan Wang (王逸帆)"
             ],
             [
-                "[E' R E,l]",
-                "E':[R,E R S']"
+                "E':[R,E R S']",
+                "[E' R E,l]"
             ]
         ],
         [
@@ -101841,6 +102771,7 @@
                 "R' B' R2 E' R' U R E R' U' R' B R"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -101922,6 +102853,7 @@
                 "R E' R' S' R B R' S R B' E R'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -101978,6 +102910,7 @@
                 "S R' E' R2 E R S' R2"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -102023,6 +102956,7 @@
                 "U R' F R2 E' R2 E F' R U'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Jonghyun Kim (김종현)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -102055,6 +102989,7 @@
             ],
             [
                 "Gavriel Johann Arcilla",
+                "Guoqiao Wang (王国桥)",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
@@ -102119,6 +103054,17 @@
             [
                 "R S':[R' U2 R,E']"
             ]
+        ],
+        [
+            [
+                "R S' R' S R' E' R2 E R' S' R S R'"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "R S' R' S R':[E',R2]"
+            ]
         ]
     ],
     "GXS": [
@@ -102174,6 +103120,17 @@
             [
                 "[E,R' F2 R]"
             ]
+        ],
+        [
+            [
+                "S R' E' R2 E R S' R' E R2 E' R"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "S R' E':[R2,E R S' R' E]"
+            ]
         ]
     ],
     "GXT": [
@@ -102205,6 +103162,7 @@
                 "R F R' U' R E' R' U R E F' R'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Jonghyun Kim (김종현)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -102247,6 +103205,17 @@
             [
                 "u:[R' U' R,E]"
             ]
+        ],
+        [
+            [
+                "R' S' R E' R E R' S"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "[R',S' R E']"
+            ]
         ]
     ],
     "GXZ": [
@@ -102276,6 +103245,7 @@
                 "R' S' R S R' E' R2 E R' S' R' S R"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -102323,6 +103293,7 @@
                 "Elliott Kobelansky",
                 "Ethan Pan",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Hana Davila",
                 "Ishaan Agrawal",
                 "Jacob Tucker",
@@ -102523,6 +103494,7 @@
             ],
             [
                 "Chenhao Sun (孙晨皓)",
+                "Guoqiao Wang (王国桥)",
                 "Jacob Tucker",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -102609,6 +103581,7 @@
                 "S' R2 S' R' S R2 S R"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -102686,6 +103659,17 @@
             [
                 "M:[U M U',R']"
             ]
+        ],
+        [
+            [
+                "R E R' S R' S' R E'"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "[R,E R' S]"
+            ]
         ]
     ],
     "GYE": [
@@ -102700,6 +103684,7 @@
                 "Dhruv Ambastha",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Heejun Kim (김희준)",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
@@ -102794,6 +103779,7 @@
                 "S' U' R' S' R U R' S R S"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
@@ -102851,6 +103837,7 @@
                 "U' R' U R2 D R' D' R' U' R U D R D' R'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -102891,6 +103878,17 @@
             [
                 "[U M' U',R']"
             ]
+        ],
+        [
+            [
+                "R' f' R S R' F R S' R' S R"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "R' f':[R S R',F]"
+            ]
         ]
     ],
     "GYK": [
@@ -102919,6 +103917,7 @@
                 "R2 S R2 S R' S' R2 S' R'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -102964,6 +103963,7 @@
                 "R E l E' R' E l' E'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -103013,6 +104013,7 @@
                 "U' D' R' U R D R D' R2 U' R U R D R'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -103044,6 +104045,17 @@
             [
                 "[U' M U,R']"
             ]
+        ],
+        [
+            [
+                "R' S' R2 B R' S R B' R' S' R' S R"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "R' S' R:[R B R',S]"
+            ]
         ]
     ],
     "GYO": [
@@ -103073,6 +104085,7 @@
                 "U' R' U R D R D' R2 U' R U R D R' D'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -103100,6 +104113,7 @@
                 "Andrew Tan Jing Bang",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -103157,6 +104171,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -103195,6 +104210,17 @@
             [
                 "U':[R' U R,E]"
             ]
+        ],
+        [
+            [
+                "U R' U' S' U R U' R' S R"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "R':[R U R' U',S']"
+            ]
         ]
     ],
     "GYS": [
@@ -103231,6 +104257,17 @@
             [
                 "U' R U R:[E,R2]"
             ]
+        ],
+        [
+            [
+                "R' E' R2 E' R' E R2 E R2"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "R':[E' R2 E',R']"
+            ]
         ]
     ],
     "GYT": [
@@ -103257,6 +104294,7 @@
             ],
             [
                 "Gavriel Johann Arcilla",
+                "Guoqiao Wang (王国桥)",
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -103301,6 +104339,17 @@
             [
                 "L' U2 L':[E,L2]"
             ]
+        ],
+        [
+            [
+                "R E R2 E R' E' R2 E'"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "[R,E R2 E]"
+            ]
         ]
     ],
     "GYX": [
@@ -103325,6 +104374,17 @@
             ],
             [
                 "U:[R' U' R,E']"
+            ]
+        ],
+        [
+            [
+                "S' R E' R' E R' S R"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "[S' R E',R']"
             ]
         ]
     ],
@@ -103393,6 +104453,7 @@
                 "Bowen Xiao (肖博文)",
                 "Chenhao Sun (孙晨皓)",
                 "Enoch Gray",
+                "Guoqiao Wang (王国桥)",
                 "Ishaan Agrawal",
                 "Jacob Tucker",
                 "Liren Sun (孙立仁)",
@@ -103596,6 +104657,17 @@
             [
                 "U M':[L E2 L',U']"
             ]
+        ],
+        [
+            [
+                "R' U R S R' F R S' R' F' U' R"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "R' U:[R S R',F]"
+            ]
         ]
     ],
     "GZC": [
@@ -103625,6 +104697,7 @@
                 "R' S' R U2 R' S R U2"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -103642,6 +104715,7 @@
             [
                 "Chenhao Sun (孙晨皓)",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Israel Fraga da Silva",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -103714,6 +104788,7 @@
                 "U' R' S' R U' R' S R U2"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
@@ -103786,6 +104861,17 @@
             ],
             [
                 "U r':[U' M2 U,R]"
+            ]
+        ],
+        [
+            [
+                "R' U' R S R B' R' S' R B R2 U R"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "R' U' R:[S,R B' R']"
             ]
         ]
     ],
@@ -103870,6 +104956,17 @@
             [
                 "U':[M2,u R u']"
             ]
+        ],
+        [
+            [
+                "R D' F' R' S' R2 S R' F D R'"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "R D' F' R':[S',R2]"
+            ]
         ]
     ],
     "GZJ": [
@@ -103921,6 +105018,18 @@
         ],
         [
             [
+                "R' U2 F' R S R' F R S' R' U2 R"
+            ],
+            [
+                "Guoqiao Wang (王国桥)",
+                "Yifan Wang (王逸帆)"
+            ],
+            [
+                "R' U2:[F',R S R']"
+            ]
+        ],
+        [
+            [
                 "u M' U' R U M U' R' E"
             ],
             [
@@ -103929,17 +105038,6 @@
             ],
             [
                 "u:[M',U' R U]"
-            ]
-        ],
-        [
-            [
-                "R' U2 F' R S R' F R S' R' U2 R"
-            ],
-            [
-                "Yifan Wang (王逸帆)"
-            ],
-            [
-                "R' U2:[F',R S R']"
             ]
         ],
         [
@@ -103992,6 +105090,7 @@
                 "S R2 S' R2 S' R S R2 S R S'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -104058,6 +105157,7 @@
                 "R S' R2 S R S' R S R2 S' R S"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -104140,6 +105240,17 @@
             [
                 "u:[M2,U' R U]"
             ]
+        ],
+        [
+            [
+                "R D R2 B R S' R2 S R B' R2 D' R'"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "R D R2 B R:[S',R2]"
+            ]
         ]
     ],
     "GZN": [
@@ -104169,6 +105280,7 @@
                 "R' U2 R2 B R' S R B' R' S' R' U2 R"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -104259,6 +105371,7 @@
                 "R' S' R S R2 S' R S R"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Sebastiano Tronto",
                 "Yifan Wang (王逸帆)"
             ],
@@ -104310,6 +105423,17 @@
             [
                 "S:[S' U M U',R]"
             ]
+        ],
+        [
+            [
+                "R' U R S' R' F R S R' F' U' R"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "R' U:[R S' R',F]"
+            ]
         ]
     ],
     "GZQ": [
@@ -104337,6 +105461,17 @@
             [
                 "u:[R U' R',E]"
             ]
+        ],
+        [
+            [
+                "R S' R' U' R U S U' R' U"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "R:[S',R' U' R U]"
+            ]
         ]
     ],
     "GZR": [
@@ -104351,6 +105486,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Guoqiao Wang (王国桥)",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -104420,6 +105556,17 @@
             [
                 "R' U' B':[R2,E]"
             ]
+        ],
+        [
+            [
+                "R' S' R S R2 S' R' E R2 E' S R"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "R' S' R S:[R2,S' R' E]"
+            ]
         ]
     ],
     "GZT": [
@@ -104476,6 +105623,17 @@
             [
                 "R' S':[E,R U2 R']"
             ]
+        ],
+        [
+            [
+                "R' S' R S R' E R2 E' R' S' R' S R"
+            ],
+            [
+                "Guoqiao Wang (王国桥)"
+            ],
+            [
+                "R' S' R S R':[E,R2]"
+            ]
         ]
     ],
     "GZW": [
@@ -104504,6 +105662,7 @@
                 "R S R S' R2 S R' E' R2 E S' R'"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -104560,6 +105719,7 @@
                 "R' S' R S R E' R2 E R S' R' S R"
             ],
             [
+                "Guoqiao Wang (王国桥)",
                 "Yifan Wang (王逸帆)"
             ],
             [
