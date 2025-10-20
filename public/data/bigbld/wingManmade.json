@@ -10244,24 +10244,10 @@
     ],
     "AKZ": [
         [
-            "D' r U R' U' r2 U R U' r D",
-            [
-                "Anto Kam (甘浩東)",
-                "Chenhao Sun (孙晨皓)",
-                "Christopher Morris",
-                "Daniel Wallin",
-                "Gavriel Johann Arcilla",
-                "Jonghyun Kim (김종현)",
-                "Michael Tripodi",
-                "Ryan Eckersley",
-                "Sebastiano Tronto"
-            ],
-            "D' r:[U R' U',r2]"
-        ],
-        [
             "L2 U L' u' L U' L' u L'",
             [
                 "Adrian Dębski",
+                "Daniel Wallin",
                 "Ethan Pan",
                 "Kai Yamamoto (山本快)",
                 "Oliver Fritz",
@@ -10271,6 +10257,20 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "L:[L U L',u']"
+        ],
+        [
+            "D' r U R' U' r2 U R U' r D",
+            [
+                "Anto Kam (甘浩東)",
+                "Chenhao Sun (孙晨皓)",
+                "Christopher Morris",
+                "Gavriel Johann Arcilla",
+                "Jonghyun Kim (김종현)",
+                "Michael Tripodi",
+                "Ryan Eckersley",
+                "Sebastiano Tronto"
+            ],
+            "D' r:[U R' U',r2]"
         ],
         [
             "z U2 R U' r' U R' U' r U' z'",
@@ -25001,24 +25001,10 @@
     ],
     "AZK": [
         [
-            "D' r' U R' U' r2 U R U' r' D",
-            [
-                "Anto Kam (甘浩東)",
-                "Chenhao Sun (孙晨皓)",
-                "Christopher Morris",
-                "Daniel Wallin",
-                "Gavriel Johann Arcilla",
-                "Jonghyun Kim (김종현)",
-                "Michael Tripodi",
-                "Ryan Eckersley",
-                "Sebastiano Tronto"
-            ],
-            "D' r':[U R' U',r2]"
-        ],
-        [
             "L u' L U L' u L U' L2",
             [
                 "Adrian Dębski",
+                "Daniel Wallin",
                 "Ethan Pan",
                 "Kai Yamamoto (山本快)",
                 "Oliver Fritz",
@@ -25028,6 +25014,20 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "L:[u',L U L']"
+        ],
+        [
+            "D' r' U R' U' r2 U R U' r' D",
+            [
+                "Anto Kam (甘浩東)",
+                "Chenhao Sun (孙晨皓)",
+                "Christopher Morris",
+                "Gavriel Johann Arcilla",
+                "Jonghyun Kim (김종현)",
+                "Michael Tripodi",
+                "Ryan Eckersley",
+                "Sebastiano Tronto"
+            ],
+            "D' r':[U R' U',r2]"
         ],
         [
             "z U r' U R U' r U R' U2 z'",
