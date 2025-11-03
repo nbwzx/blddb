@@ -14157,6 +14157,18 @@
         ],
         [
             [
+                "U' D' R2 U' R' D R U R' D' R' U D"
+            ],
+            [
+                "Benjamin Paul",
+                "Morimichi Kikuchi (菊地守道)"
+            ],
+            [
+                "U' D' R:[R U' R',D]"
+            ]
+        ],
+        [
+            [
                 "R' U' R' U' R U R D' R' U' R D R2 U R U R"
             ],
             [
@@ -14197,17 +14209,6 @@
             ],
             [
                 "R D' R D' R':[R' D R,U2]"
-            ]
-        ],
-        [
-            [
-                "U' D' R2 U' R' D R U R' D' R' U D"
-            ],
-            [
-                "Morimichi Kikuchi (菊地守道)"
-            ],
-            [
-                "U' D' R:[R U' R',D]"
             ]
         ]
     ],
@@ -19813,6 +19814,18 @@
         ],
         [
             [
+                "U' D' R D R U' R' D' R U R2 U D"
+            ],
+            [
+                "Benjamin Paul",
+                "Morimichi Kikuchi (菊地守道)"
+            ],
+            [
+                "U' D' R:[D,R U' R']"
+            ]
+        ],
+        [
+            [
                 "R' U' R' U' R2 D' R' U R D R' U' R' U R U R"
             ],
             [
@@ -19842,17 +19855,6 @@
             ],
             [
                 "z R':[U2,R' D R]"
-            ]
-        ],
-        [
-            [
-                "U' D' R D R U' R' D' R U R2 U D"
-            ],
-            [
-                "Morimichi Kikuchi (菊地守道)"
-            ],
-            [
-                "U' D' R:[D,R U' R']"
             ]
         ]
     ],
@@ -38798,7 +38800,6 @@
                 "Aleksander Bober",
                 "Andrew Tan Jing Bang",
                 "Anto Kam (甘浩東)",
-                "Benjamin Paul",
                 "Bertie Longden",
                 "Chenhao Sun (孙晨皓)",
                 "Christopher Morris",
@@ -38855,10 +38856,11 @@
         [
             [
                 "x' L' U' R U L U' R' U x",
-                "r' U' R U L U' R' U x",
-                "L' B' R B L B' R' B"
+                "L' B' R B L B' R' B",
+                "r' U' R U L U' R' U x"
             ],
             [
+                "Benjamin Paul",
                 "Daniel White",
                 "Grzegorz Pacewicz",
                 "Jacob Tucker",
@@ -38868,8 +38870,8 @@
             ],
             [
                 "x':[L',U' R U]",
-                "Not found.",
-                "[L',B' R B]"
+                "[L',B' R B]",
+                "Not found."
             ]
         ],
         [
@@ -39507,7 +39509,6 @@
                 "Jonghyun Kim (김종현)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
-                "Yomie Ko (고현승)",
                 "Zhi Qiao (乔智)"
             ],
             [
@@ -39560,6 +39561,19 @@
             ],
             [
                 "z':[D2,R' U2 R]"
+            ]
+        ],
+        [
+            [
+                "R' U' R U r2 D' R' D r' M",
+                "l' B' R B L2 B' R' B M L'"
+            ],
+            [
+                "Yomie Ko (고현승)"
+            ],
+            [
+                "R' U':[R,U r2 D']",
+                "l':[B' R B,L2]"
             ]
         ]
     ],
@@ -40156,6 +40170,7 @@
                 "Aleksander Bober",
                 "Andrew Tan Jing Bang",
                 "Benjamin Paul",
+                "Charlie Eggins",
                 "Deni Mintsaev",
                 "Dhruv Ambastha",
                 "Dylan Wang",
@@ -40723,6 +40738,7 @@
                 "Aleksander Bober",
                 "Andrew Tan Jing Bang",
                 "Bertie Longden",
+                "Charlie Eggins",
                 "Daniel Lin",
                 "Daniel Wallin",
                 "Dhruv Ambastha",
@@ -42435,6 +42451,7 @@
                 "Andrew Tan Jing Bang",
                 "Anto Kam (甘浩東)",
                 "Benjamin Paul",
+                "Charlie Eggins",
                 "Daniel Lin",
                 "Dhruv Ambastha",
                 "Ethan Pan",
@@ -44957,6 +44974,7 @@
                 "Andrew Tan Jing Bang",
                 "Anto Kam (甘浩東)",
                 "Benjamin Paul",
+                "Charlie Eggins",
                 "Dhruv Ambastha",
                 "Ethan Pan",
                 "Gavriel Johann Arcilla",
@@ -45198,6 +45216,7 @@
                 "Anto Kam (甘浩東)",
                 "Benjamin Paul",
                 "Bertie Longden",
+                "Charlie Eggins",
                 "Chenhao Sun (孙晨皓)",
                 "Christopher Morris",
                 "Dhruv Ambastha",
@@ -49495,7 +49514,6 @@
                 "Aleksander Bober",
                 "Andrew Tan Jing Bang",
                 "Anto Kam (甘浩東)",
-                "Benjamin Paul",
                 "Bertie Longden",
                 "Chenhao Sun (孙晨皓)",
                 "Christopher Morris",
@@ -49552,10 +49570,11 @@
         [
             [
                 "x' U' R U L' U' R' U L x",
-                "x' U' R U L' U' R' U r",
-                "B' R B L' B' R' B L"
+                "B' R B L' B' R' B L",
+                "x' U' R U L' U' R' U r"
             ],
             [
+                "Benjamin Paul",
                 "Daniel White",
                 "Grzegorz Pacewicz",
                 "Jacob Tucker",
@@ -49565,8 +49584,8 @@
             ],
             [
                 "x':[U' R U,L']",
-                "Not found.",
-                "[B' R B,L']"
+                "[B' R B,L']",
+                "Not found."
             ]
         ],
         [
@@ -49650,6 +49669,7 @@
                 "Aleksander Bober",
                 "Andrew Tan Jing Bang",
                 "Bertie Longden",
+                "Charlie Eggins",
                 "Daniel Lin",
                 "Daniel Wallin",
                 "Dhruv Ambastha",
@@ -51453,6 +51473,7 @@
                 "Aleksander Bober",
                 "Andrew Tan Jing Bang",
                 "Benjamin Paul",
+                "Charlie Eggins",
                 "Christopher Morris",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -53025,8 +53046,7 @@
                 "Chenhao Sun (孙晨皓)",
                 "Dong Zhu (朱栋)",
                 "Grzegorz Jałocha",
-                "Mengfei Shen (沈梦非)",
-                "Yomie Ko (고현승)"
+                "Mengfei Shen (沈梦非)"
             ],
             [
                 "[U',R D2 R']"
@@ -54394,6 +54414,7 @@
             [
                 "Anto Kam (甘浩東)",
                 "Bertie Longden",
+                "Charlie Eggins",
                 "Chenhao Sun (孙晨皓)",
                 "Christopher Morris",
                 "Dhruv Ambastha",
@@ -57470,6 +57491,7 @@
                 "Aleksander Bober",
                 "Andrew Tan Jing Bang",
                 "Anto Kam (甘浩東)",
+                "Benjamin Paul",
                 "Daniel Lin",
                 "Dhruv Ambastha",
                 "Ethan Pan",
@@ -57523,19 +57545,6 @@
         ],
         [
             [
-                "R2 D R U' R D' R' U R D R' U R' D' R U' R"
-            ],
-            [
-                "Benjamin Paul",
-                "Sebastiano Tronto",
-                "Yiwei Liu (刘伊玮)"
-            ],
-            [
-                "R':[R' D R U' R D' R',U]"
-            ]
-        ],
-        [
-            [
                 "R B R' U R D R' U2 R D' R' U R B' R'"
             ],
             [
@@ -57545,6 +57554,18 @@
             ],
             [
                 "R B R' U:[R D R',U2]"
+            ]
+        ],
+        [
+            [
+                "R2 D R U' R D' R' U R D R' U R' D' R U' R"
+            ],
+            [
+                "Sebastiano Tronto",
+                "Yiwei Liu (刘伊玮)"
+            ],
+            [
+                "R':[R' D R U' R D' R',U]"
             ]
         ],
         [
@@ -57626,6 +57647,8 @@
                 "Aleksander Bober",
                 "Andrew Tan Jing Bang",
                 "Anto Kam (甘浩東)",
+                "Benjamin Paul",
+                "Charlie Eggins",
                 "Chenhao Sun (孙晨皓)",
                 "Christopher Morris",
                 "Daniel Lin",
@@ -57680,7 +57703,6 @@
                 "R' F' R2 D R' U2 R D' R' U2 R' F R"
             ],
             [
-                "Benjamin Paul",
                 "Guoqiao Wang (王国桥)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -60979,8 +61001,7 @@
                 "Chenhao Sun (孙晨皓)",
                 "Dong Zhu (朱栋)",
                 "Grzegorz Jałocha",
-                "Mengfei Shen (沈梦非)",
-                "Yomie Ko (고현승)"
+                "Mengfei Shen (沈梦非)"
             ],
             [
                 "[R D2 R',U']"
@@ -61447,6 +61468,7 @@
                 "Andrew Tan Jing Bang",
                 "Anto Kam (甘浩東)",
                 "Benjamin Paul",
+                "Charlie Eggins",
                 "Christopher Morris",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -61591,6 +61613,7 @@
                 "Abhijeet Ghodgaonkar (अभिजीत घोडगावकर)",
                 "Aleksander Bober",
                 "Anto Kam (甘浩東)",
+                "Charlie Eggins",
                 "Chenhao Sun (孙晨皓)",
                 "Christopher Morris",
                 "Daniel Wallin",
@@ -62339,7 +62362,6 @@
                 "Jonghyun Kim (김종현)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
-                "Yomie Ko (고현승)",
                 "Zhi Qiao (乔智)"
             ],
             [
@@ -62391,6 +62413,19 @@
             ],
             [
                 "z':[R' U2 R,D2]"
+            ]
+        ],
+        [
+            [
+                "R D' R D r2 U' R' U r M'",
+                "l B' R B L2 B' R' B M' L"
+            ],
+            [
+                "Yomie Ko (고현승)"
+            ],
+            [
+                "R D':[R,D r2 U']",
+                "l:[B' R B,L2]"
             ]
         ]
     ],
@@ -63095,8 +63130,7 @@
                 "Michael Tripodi",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Vishwanath Jeyaraman",
-                "Yiwei Liu (刘伊玮)",
-                "Yomie Ko (고현승)"
+                "Yiwei Liu (刘伊玮)"
             ],
             [
                 "[B2,R' F' R]",
@@ -65705,6 +65739,7 @@
                 "Andrew Tan Jing Bang",
                 "Anto Kam (甘浩東)",
                 "Benjamin Paul",
+                "Charlie Eggins",
                 "Daniel Lin",
                 "Daniel Wallin",
                 "Dhruv Ambastha",
@@ -67780,6 +67815,7 @@
                 "Abhijeet Ghodgaonkar (अभिजीत घोडगावकर)",
                 "Aleksander Bober",
                 "Anto Kam (甘浩東)",
+                "Charlie Eggins",
                 "Chenhao Sun (孙晨皓)",
                 "Christopher Morris",
                 "Daniel Wallin",
@@ -68276,6 +68312,7 @@
                 "Aleksander Bober",
                 "Andrew Tan Jing Bang",
                 "Anto Kam (甘浩東)",
+                "Charlie Eggins",
                 "Daniel Wallin",
                 "Dhruv Ambastha",
                 "Dong Zhu (朱栋)",
@@ -71514,6 +71551,8 @@
                 "Aleksander Bober",
                 "Andrew Tan Jing Bang",
                 "Anto Kam (甘浩東)",
+                "Benjamin Paul",
+                "Charlie Eggins",
                 "Chenhao Sun (孙晨皓)",
                 "Christopher Morris",
                 "Daniel Lin",
@@ -71567,7 +71606,6 @@
                 "R' F' R U2 R D R' U2 R D' R2 F R"
             ],
             [
-                "Benjamin Paul",
                 "Guoqiao Wang (王国桥)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -73101,6 +73139,7 @@
                 "Aleksander Bober",
                 "Andrew Tan Jing Bang",
                 "Benjamin Paul",
+                "Charlie Eggins",
                 "Christopher Morris",
                 "Daniel Lin",
                 "Daniel Wallin",
@@ -74158,6 +74197,7 @@
                 "Andrew Tan Jing Bang",
                 "Anto Kam (甘浩東)",
                 "Benjamin Paul",
+                "Charlie Eggins",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Wallin",
                 "Dhruv Ambastha",
@@ -76400,6 +76440,7 @@
                 "Andrew Tan Jing Bang",
                 "Anto Kam (甘浩東)",
                 "Benjamin Paul",
+                "Charlie Eggins",
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Wallin",
                 "Dhruv Ambastha",
@@ -76873,6 +76914,7 @@
                 "Aleksander Bober",
                 "Andrew Tan Jing Bang",
                 "Benjamin Paul",
+                "Charlie Eggins",
                 "Deni Mintsaev",
                 "Dhruv Ambastha",
                 "Dylan Wang",
@@ -78518,6 +78560,7 @@
                 "Aleksander Bober",
                 "Andrew Tan Jing Bang",
                 "Anto Kam (甘浩東)",
+                "Charlie Eggins",
                 "Daniel Wallin",
                 "Dhruv Ambastha",
                 "Dong Zhu (朱栋)",
@@ -85356,16 +85399,13 @@
         ],
         [
             [
-                "L' F' R' F L F' R F",
-                "x L' U' R' U L U' R U x'"
+                "D F' D' R U R' D R U' R' F D'"
             ],
             [
-                "Benjamin Paul",
-                "Marcell Endrey"
+                "Benjamin Paul"
             ],
             [
-                "[L',F' R' F]",
-                "x:[L',U' R' U]"
+                "D F':[D',R U R']"
             ]
         ],
         [
@@ -85377,6 +85417,17 @@
             ],
             [
                 "D2 R' U':[D',R' U R]"
+            ]
+        ],
+        [
+            [
+                "x L' U' R' U L U' R U x'"
+            ],
+            [
+                "Marcell Endrey"
+            ],
+            [
+                "x:[L',U' R' U]"
             ]
         ]
     ],
@@ -86818,16 +86869,13 @@
         ],
         [
             [
-                "F' R' F L' F' R F L",
-                "x U' R' U L' U' R U L x'"
+                "D F' R U R' D' R U' R' D F D'"
             ],
             [
-                "Benjamin Paul",
-                "Marcell Endrey"
+                "Benjamin Paul"
             ],
             [
-                "[F' R' F,L']",
-                "x:[U' R' U,L']"
+                "D F':[R U R',D']"
             ]
         ],
         [
@@ -86839,6 +86887,17 @@
             ],
             [
                 "D2 R' U':[R' U R,D']"
+            ]
+        ],
+        [
+            [
+                "x U' R' U L' U' R U L x'"
+            ],
+            [
+                "Marcell Endrey"
+            ],
+            [
+                "x:[U' R' U,L']"
             ]
         ]
     ],
