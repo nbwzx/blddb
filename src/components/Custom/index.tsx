@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect } from "react";
 import CreatableSelect from "react-select/creatable";
 import commutator from "@/utils/commutator";
 import finger from "@/utils/finger";
@@ -160,7 +160,9 @@ const Custom = () => {
   const thumbPositionRefs = useRef<Record<string, HTMLTableCellElement>>({});
 
   useEffect(() => {
-    setLoading(false);
+    setTimeout(() => {
+      setLoading(false);
+    }, 1000);
   }, []);
 
   if (loading) {

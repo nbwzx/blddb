@@ -1,4 +1,8 @@
+// @ts-expect-error -- ts can't find types for eslint-config-next
+import nextTypescript from "eslint-config-next/typescript";
 import { defineConfig } from "eslint/config";
+// @ts-expect-error -- ts can't find types for eslint-config-next
+import nextCoreWebVitals from "eslint-config-next/core-web-vitals";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import js from "@eslint/js";
@@ -13,9 +17,10 @@ const compat = new FlatCompat({
 });
 
 const eslintConfig = defineConfig([
+  ...nextTypescript,
   { ignores: ["node_modules", "dist", "build", ".next", "out", "public/data"] },
   {
-    extends: compat.extends("next/core-web-vitals", "eslint:recommended"),
+    extends: [...nextCoreWebVitals, ...compat.extends("eslint:recommended")],
 
     rules: {
       "accessor-pairs": 2,
@@ -350,6 +355,8 @@ const eslintConfig = defineConfig([
       "symbol-description": 2,
       "template-curly-spacing": 2,
       "template-tag-spacing": 2,
+      "@typescript-eslint/no-explicit-any": 0,
+      "@typescript-eslint/no-require-imports": 0,
       "unicode-bom": 2,
       "use-isnan": 2,
       "valid-typeof": 2,

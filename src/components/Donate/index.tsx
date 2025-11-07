@@ -1,6 +1,5 @@
 "use client";
 
-import React from "react";
 import Image from "next/image";
 import { useTranslation } from "@/i18n/client";
 import PageSection from "@/components/PageSection";

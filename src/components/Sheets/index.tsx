@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 import { useTranslation } from "@/i18n/client";
 import useResponsiveTable from "@/utils/useResponsiveTable";
 import Loading from "@/app/loading";

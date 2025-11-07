@@ -2,17 +2,11 @@
 
 import { Feature } from "@/types/feature";
 import { useTranslation } from "@/i18n/client";
-import React, { useEffect, useState } from "react";
 import Link from "next/link";
 
 const SingleFeature = ({ feature }: { feature: Feature }) => {
   const urlRegex = /(\/[^\s]+)/gu;
-  const [baseUrl, setBaseUrl] = useState("");
-  useEffect(() => {
-    if (typeof window !== "undefined") {
-      setBaseUrl(window.location.origin);
-    }
-  }, []);
+  const baseUrl = typeof window === "undefined" ? "" : window.location.origin;
   const { t } = useTranslation();
   const { icon, title, paragraph } = feature;
   const parts = t(paragraph).split(urlRegex);

@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useTranslation } from "@/i18n/client";
 import Loading from "@/app/loading";
 import codeConverter from "@/utils/codeConverter";

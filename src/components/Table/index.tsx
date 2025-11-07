@@ -38,7 +38,6 @@ const Table = ({
   codeType: string;
   inputText: string;
   data:
-    | {}
     | { [key: string]: string[] } // nightmare
     | { [key: string]: [alg: string[], source: string[]][] } // manmade (3bld)
     | { [key: string]: [alg: string, source: string[], comm: string][] }; // manmade (bigbld)

@@ -1,7 +1,7 @@
 "use client";
 
 import { useTranslation } from "@/i18n/client";
-import React, { JSX } from "react";
+import { JSX } from "react";
 import codeConverter from "@/utils/codeConverter";
 import PageSection from "@/components/PageSection";
 
