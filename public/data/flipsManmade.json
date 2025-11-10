@@ -700,7 +700,6 @@
                 "Shuto Ueno (上野柊斗)",
                 "Tobias Peter",
                 "Tommy Cherry",
-                "Yomie Ko (고현승)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
@@ -730,7 +729,8 @@
                 "Jacob Tucker",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
-                "Yifan Wang (王逸帆)"
+                "Yifan Wang (王逸帆)",
+                "Yomie Ko (고현승)"
             ],
             [
                 "R S' R':[U,R S R2 S2 R]"
@@ -1057,7 +1057,6 @@
                 "Shuto Ueno (上野柊斗)",
                 "Tobias Peter",
                 "Tommy Cherry",
-                "Yomie Ko (고현승)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
@@ -1089,7 +1088,8 @@
                 "Neel Gore",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
-                "Yifan Wang (王逸帆)"
+                "Yifan Wang (王逸帆)",
+                "Yomie Ko (고현승)"
             ],
             [
                 "R' S' R:[U,R' S R2 S2 R']"
@@ -1217,7 +1217,6 @@
                 "Deni Mintsaev",
                 "Elliott Kobelansky",
                 "Ethan Pan",
-                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
@@ -1232,6 +1231,19 @@
         ],
         [
             [
+                "L E2 L2 E L U' L' E' L2 E2 L' U"
+            ],
+            [
+                "Graham Siggins",
+                "Jonghyun Kim (김종현)",
+                "Shuto Ueno (上野柊斗)"
+            ],
+            [
+                "[L E2 L2 E L,U']"
+            ]
+        ],
+        [
+            [
                 "U' R' S R2 S2 R' U R S2 R2 S' R"
             ],
             [
@@ -1240,18 +1252,6 @@
             ],
             [
                 "[U',R' S R2 S2 R']"
-            ]
-        ],
-        [
-            [
-                "L E2 L2 E L U' L' E' L2 E2 L' U"
-            ],
-            [
-                "Graham Siggins",
-                "Shuto Ueno (上野柊斗)"
-            ],
-            [
-                "[L E2 L2 E L,U']"
             ]
         ],
         [
@@ -1560,6 +1560,7 @@
                 "Benjamin Paul",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Sebastiano Tronto",
@@ -1579,7 +1580,6 @@
             [
                 "Andrew Tan Jing Bang",
                 "Elliott Kobelansky",
-                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Neel Gore",
@@ -1675,6 +1675,18 @@
         ],
         [
             [
+                "R U2 R' E R S R2 S' R2 U2 R' E'"
+            ],
+            [
+                "Neel Gore",
+                "Yomie Ko (고현승)"
+            ],
+            [
+                "Not found."
+            ]
+        ],
+        [
+            [
                 "R U2 R' S' R U2 S2 R2 S' R2 S' R' S"
             ],
             [
@@ -1693,17 +1705,6 @@
             ],
             [
                 "U L E' L':[U',L E L2 E2 L]"
-            ]
-        ],
-        [
-            [
-                "R U2 R' E R S R2 S' R2 U2 R' E'"
-            ],
-            [
-                "Neel Gore"
-            ],
-            [
-                "Not found."
             ]
         ],
         [
@@ -1923,10 +1924,11 @@
         ],
         [
             [
-                "R' U2 R S' R' U2 S2 R2 S' R2 S' R S"
+                "E' R U2 R' E R S R2 S' R2 U2 R'"
             ],
             [
-                "Yifan Wang (王逸帆)"
+                "Neel Gore",
+                "Yomie Ko (고현승)"
             ],
             [
                 "Not found."
@@ -1934,10 +1936,10 @@
         ],
         [
             [
-                "E' R U2 R' E R S R2 S' R2 U2 R'"
+                "R' U2 R S' R' U2 S2 R2 S' R2 S' R S"
             ],
             [
-                "Neel Gore"
+                "Yifan Wang (王逸帆)"
             ],
             [
                 "Not found."
@@ -2024,6 +2026,7 @@
                 "Andrew Tan Jing Bang",
                 "Graham Siggins",
                 "Jacob Tucker",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
@@ -2041,7 +2044,6 @@
             [
                 "Daniel Wallin",
                 "Elliott Kobelansky",
-                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Shuto Ueno (上野柊斗)",
                 "Yangyang Shen (沈炀炀)",
@@ -2186,7 +2188,6 @@
                 "Daniel Wallin",
                 "Elliott Kobelansky",
                 "Israel Fraga da Silva",
-                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Neel Gore",
@@ -2205,6 +2206,7 @@
             [
                 "Graham Siggins",
                 "Jacob Tucker",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -2272,8 +2274,7 @@
                 "Graham Siggins",
                 "Jonghyun Kim (김종현)",
                 "Michael Tripodi",
-                "Tobias Peter",
-                "Yomie Ko (고현승)"
+                "Tobias Peter"
             ],
             [
                 "L E' L':[U',L E L2 E2 L]"
@@ -2288,7 +2289,8 @@
                 "Jacob Tucker",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
-                "Yifan Wang (王逸帆)"
+                "Yifan Wang (王逸帆)",
+                "Yomie Ko (고현승)"
             ],
             [
                 "R S' R':[U',R S R2 S2 R]"
@@ -2445,8 +2447,7 @@
                 "Graham Siggins",
                 "Jonghyun Kim (김종현)",
                 "Shuto Ueno (上野柊斗)",
-                "Tobias Peter",
-                "Yomie Ko (고현승)"
+                "Tobias Peter"
             ],
             [
                 "L' E L:[U',L' E' L2 E2 L']"
@@ -2461,7 +2462,8 @@
                 "Jacob Tucker",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
-                "Yifan Wang (王逸帆)"
+                "Yifan Wang (王逸帆)",
+                "Yomie Ko (고현승)"
             ],
             [
                 "R' S' R:[U',R' S R2 S2 R']"
@@ -2847,6 +2849,7 @@
                 "Ishaan Agrawal",
                 "Israel Fraga da Silva",
                 "Jacob Tucker",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Yangyang Shen (沈炀炀)",
@@ -2863,7 +2866,6 @@
             ],
             [
                 "Elliott Kobelansky",
-                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Shuto Ueno (上野柊斗)"
             ],
@@ -3112,8 +3114,7 @@
             ],
             [
                 "Dylan Wang",
-                "Michael Tripodi",
-                "Yomie Ko (고현승)"
+                "Michael Tripodi"
             ],
             [
                 "L E' L':[U2,L E L2 E2 L]"
@@ -3393,18 +3394,6 @@
         ],
         [
             [
-                "L' E L U2 L' E' L2 E2 L' U2 L E2 L'"
-            ],
-            [
-                "Dylan Wang",
-                "Yomie Ko (고현승)"
-            ],
-            [
-                "L' E L:[U2,L' E' L2 E2 L']"
-            ]
-        ],
-        [
-            [
                 "U' L' E L U' L' E' L2 E2 L' U L E2 L' U"
             ],
             [
@@ -3445,6 +3434,17 @@
             ],
             [
                 "U' L E2 L':[U',L E2 L2 E L]"
+            ]
+        ],
+        [
+            [
+                "L' E L U2 L' E' L2 E2 L' U2 L E2 L'"
+            ],
+            [
+                "Dylan Wang"
+            ],
+            [
+                "L' E L:[U2,L' E' L2 E2 L']"
             ]
         ],
         [
@@ -3566,6 +3566,7 @@
                 "Diego Meneghetti",
                 "Graham Siggins",
                 "Ishaan Agrawal",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Tobias Peter",
@@ -3585,7 +3586,6 @@
                 "Elliott Kobelansky",
                 "Ethan Pan",
                 "Jacob Tucker",
-                "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Shuto Ueno (上野柊斗)",
                 "Yangyang Shen (沈炀炀)",
@@ -3631,6 +3631,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Jacob Tucker",
+                "Jonghyun Kim (김종현)",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -3842,6 +3843,7 @@
             [
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Tobias Peter"
             ],
             [
@@ -3952,17 +3954,6 @@
             [
                 "E:[L' E' L E',E L E L']"
             ]
-        ],
-        [
-            [
-                "u' E L E L2 E' L E' L E' L2 E L u"
-            ],
-            [
-                "Jonghyun Kim (김종현)"
-            ],
-            [
-                "u':[E L E L',L' E' L E']"
-            ]
         ]
     ],
     "KW": [
@@ -3973,6 +3964,7 @@
             [
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Shuto Ueno (上野柊斗)",
                 "Tobias Peter"
             ],
@@ -4009,18 +4001,6 @@
         ],
         [
             [
-                "u E' L' E' L2 E L' E L' E L2 E' L' u'"
-            ],
-            [
-                "Elliott Kobelansky",
-                "Jonghyun Kim (김종현)"
-            ],
-            [
-                "u:[E' L' E' L,L E L' E]"
-            ]
-        ],
-        [
-            [
                 "u L' E L2 E' L2 B2 L S L' B2 L S' u'"
             ],
             [
@@ -4029,6 +4009,17 @@
             ],
             [
                 "Not found."
+            ]
+        ],
+        [
+            [
+                "u E' L' E' L2 E L' E L' E L2 E' L' u'"
+            ],
+            [
+                "Elliott Kobelansky"
+            ],
+            [
+                "u:[E' L' E' L,L E L' E]"
             ]
         ],
         [
@@ -4091,6 +4082,7 @@
                 "Graham Siggins",
                 "Israel Fraga da Silva",
                 "Jacob Tucker",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
@@ -4112,7 +4104,6 @@
             [
                 "Andrew Tan Jing Bang",
                 "Elliott Kobelansky",
-                "Jonghyun Kim (김종현)",
                 "Shuto Ueno (上野柊斗)"
             ],
             [
@@ -4395,6 +4386,7 @@
                 "Benjamin Paul",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Tobias Peter"
             ],
             [
@@ -4495,17 +4487,6 @@
             [
                 "E':[R E R' E,E' R' E' R]"
             ]
-        ],
-        [
-            [
-                "u E' R' E' R2 E R' E R' E R2 E' R' u'"
-            ],
-            [
-                "Jonghyun Kim (김종현)"
-            ],
-            [
-                "u:[E' R' E' R,R E R' E]"
-            ]
         ]
     ],
     "OS": [
@@ -4568,6 +4549,7 @@
                 "Graham Siggins",
                 "Israel Fraga da Silva",
                 "Jacob Tucker",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
@@ -4575,7 +4557,6 @@
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yifan Wang (王逸帆)",
-                "Yomie Ko (고현승)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
@@ -4592,8 +4573,8 @@
             [
                 "Andrew Tan Jing Bang",
                 "Elliott Kobelansky",
-                "Jonghyun Kim (김종현)",
-                "Shuto Ueno (上野柊斗)"
+                "Shuto Ueno (上野柊斗)",
+                "Yomie Ko (고현승)"
             ],
             [
                 "Not found.",
@@ -4632,24 +4613,12 @@
                 "Benjamin Paul",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Shuto Ueno (上野柊斗)",
                 "Tobias Peter"
             ],
             [
                 "S' U L' E L:[U,L' E' L2 E2 L']"
-            ]
-        ],
-        [
-            [
-                "u' E R E R2 E' R E' R E' R2 E R u"
-            ],
-            [
-                "Elliott Kobelansky",
-                "Israel Fraga da Silva",
-                "Jonghyun Kim (김종현)"
-            ],
-            [
-                "u':[E R E R',R' E' R E']"
             ]
         ],
         [
@@ -4665,6 +4634,18 @@
             [
                 "Not found.",
                 "Not found."
+            ]
+        ],
+        [
+            [
+                "u' E R E R2 E' R E' R E' R2 E R u"
+            ],
+            [
+                "Elliott Kobelansky",
+                "Israel Fraga da Silva"
+            ],
+            [
+                "u':[E R E R',R' E' R E']"
             ]
         ],
         [
@@ -4733,6 +4714,17 @@
             [
                 "Not found."
             ]
+        ],
+        [
+            [
+                "S' U R' S' R U R' S R2 S2 R' U' R S2 R' U' S"
+            ],
+            [
+                "Yomie Ko (고현승)"
+            ],
+            [
+                "S' U R' S' R:[U,R' S R2 S2 R']"
+            ]
         ]
     ],
     "QI": [
@@ -4749,7 +4741,6 @@
                 "Ethan Pan",
                 "Ishaan Agrawal",
                 "Israel Fraga da Silva",
-                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
@@ -4769,7 +4760,8 @@
             [
                 "Daniel Wallin",
                 "Liren Sun (孙立仁)",
-                "Yangyang Shen (沈炀炀)"
+                "Yangyang Shen (沈炀炀)",
+                "Yomie Ko (고현승)"
             ],
             [
                 "Not found."
@@ -4782,7 +4774,7 @@
             [
                 "Dylan Wang",
                 "Graham Siggins",
-                "Yomie Ko (고현승)"
+                "Jonghyun Kim (김종현)"
             ],
             [
                 "M' L E' L':[U,L E L2 E2 L]"
@@ -4904,7 +4896,6 @@
                 "Elliott Kobelansky",
                 "Ishaan Agrawal",
                 "Israel Fraga da Silva",
-                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Shuto Ueno (上野柊斗)",
                 "Tobias Peter",
@@ -4920,6 +4911,7 @@
             ],
             [
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Michael Tripodi",
                 "Neel Gore",
                 "Yangyang Shen (沈炀炀)",
@@ -5020,7 +5012,6 @@
                 "Ethan Pan",
                 "Israel Fraga da Silva",
                 "Jacob Tucker",
-                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Shuto Ueno (上野柊斗)",
@@ -5040,6 +5031,7 @@
                 "Benjamin Paul",
                 "Graham Siggins",
                 "Ishaan Agrawal",
+                "Jonghyun Kim (김종현)",
                 "Michael Tripodi",
                 "Tobias Peter"
             ],
@@ -5232,7 +5224,6 @@
                 "Elliott Kobelansky",
                 "Ethan Pan",
                 "Jacob Tucker",
-                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Shuto Ueno (上野柊斗)",
@@ -5264,6 +5255,7 @@
             ],
             [
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Michael Tripodi",
                 "Tobias Peter"
             ],
@@ -5347,7 +5339,6 @@
             [
                 "Elliott Kobelansky",
                 "Ethan Pan",
-                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
@@ -5368,6 +5359,7 @@
                 "Dylan Wang",
                 "Graham Siggins",
                 "Jacob Tucker",
+                "Jonghyun Kim (김종현)",
                 "Shuto Ueno (上野柊斗)",
                 "Yomie Ko (고현승)"
             ],
@@ -5484,7 +5476,6 @@
             [
                 "Elliott Kobelansky",
                 "Ethan Pan",
-                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
@@ -5502,6 +5493,7 @@
                 "Benjamin Paul",
                 "Dylan Wang",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Shuto Ueno (上野柊斗)",
                 "Yomie Ko (고현승)"
             ],
@@ -5566,7 +5558,6 @@
             [
                 "Andrew Tan Jing Bang",
                 "Elliott Kobelansky",
-                "Jonghyun Kim (김종현)",
                 "Michael Tripodi",
                 "Shuto Ueno (上野柊斗)",
                 "Tobias Peter",
@@ -5598,7 +5589,8 @@
             ],
             [
                 "Benjamin Paul",
-                "Graham Siggins"
+                "Graham Siggins",
+                "Jonghyun Kim (김종현)"
             ],
             [
                 "Not found."
