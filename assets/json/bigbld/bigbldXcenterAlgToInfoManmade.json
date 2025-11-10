@@ -30809,7 +30809,6 @@
             "U' d' r2 U' l U r2 U' l' U2 d",
             [
                 "Andrew Tan Jing Bang",
-                "Daniel Wallin",
                 "Kai Yamamoto (山本快)",
                 "Ryan Eckersley",
                 "Stanley Chapel",
@@ -30822,6 +30821,7 @@
             "D U r d r U' r' d' r U r2 U' D'",
             [
                 "Chenhao Sun (孙晨皓)",
+                "Daniel Wallin",
                 "Ethan Pan",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
@@ -34083,26 +34083,26 @@
     ],
     "JQW": [
         [
-            "U2 d' l2 U r' U' l2 U r d U",
-            [
-                "Andrew Tan Jing Bang",
-                "Daniel Wallin",
-                "Kai Yamamoto (山本快)",
-                "Stanley Chapel",
-                "Yuki Tsuneyoshi (恒吉優紀)"
-            ],
-            "U2 d':[l2,U r' U']"
-        ],
-        [
             "D' l' d l' U l d' l' U' l2 D",
             [
                 "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
+                "Daniel Wallin",
                 "Ethan Pan",
                 "Jonghyun Kim (김종현)",
                 "Ryan Eckersley"
             ],
             "D' l':[d,l' U l]"
+        ],
+        [
+            "U2 d' l2 U r' U' l2 U r d U",
+            [
+                "Andrew Tan Jing Bang",
+                "Kai Yamamoto (山本快)",
+                "Stanley Chapel",
+                "Yuki Tsuneyoshi (恒吉優紀)"
+            ],
+            "U2 d':[l2,U r' U']"
         ],
         [
             "L l' u' l' U2 l u l' U2 l2 L'",
@@ -35691,7 +35691,6 @@
             "U' d r2 U' l U r2 U' l' U2 d'",
             [
                 "Andrew Tan Jing Bang",
-                "Daniel Wallin",
                 "Kai Yamamoto (山本快)",
                 "Ryan Eckersley",
                 "Stanley Chapel",
@@ -35705,6 +35704,7 @@
             [
                 "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
+                "Daniel Wallin",
                 "Jonghyun Kim (김종현)"
             ],
             "U D r:[d',r U' r']"
@@ -37379,26 +37379,26 @@
     ],
     "JWQ": [
         [
-            "U' d' r' U' l2 U r U' l2 U2 d",
-            [
-                "Andrew Tan Jing Bang",
-                "Daniel Wallin",
-                "Kai Yamamoto (山本快)",
-                "Stanley Chapel",
-                "Yuki Tsuneyoshi (恒吉優紀)"
-            ],
-            "U' d':[r',U' l2 U]"
-        ],
-        [
             "D' l2 U l d l' U' l d' l D",
             [
                 "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
+                "Daniel Wallin",
                 "Ethan Pan",
                 "Jonghyun Kim (김종현)",
                 "Ryan Eckersley"
             ],
             "D' l':[l' U l,d]"
+        ],
+        [
+            "U' d' r' U' l2 U r U' l2 U2 d",
+            [
+                "Andrew Tan Jing Bang",
+                "Kai Yamamoto (山本快)",
+                "Stanley Chapel",
+                "Yuki Tsuneyoshi (恒吉優紀)"
+            ],
+            "U' d':[r',U' l2 U]"
         ],
         [
             "L l2 U2 l u' l' U2 l u l L'",
@@ -37543,7 +37543,6 @@
             "U' d r' U' l2 U r U' l2 U2 d'",
             [
                 "Andrew Tan Jing Bang",
-                "Daniel Wallin",
                 "Kai Yamamoto (山本快)",
                 "Stanley Chapel",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -37570,6 +37569,13 @@
                 "Ryan Eckersley"
             ],
             "4Uw':[r',U' l2 U]"
+        ],
+        [
+            "Rw u' r D2 r' u r D2 r' Rw'",
+            [
+                "Daniel Wallin"
+            ],
+            "Rw:[u',r D2 r']"
         ],
         [
             "R' y' U' l U r2 U' l' U r2 y R",
@@ -38058,7 +38064,6 @@
             "U2 d' l U r2 U' l' U r2 d U",
             [
                 "Andrew Tan Jing Bang",
-                "Daniel Wallin",
                 "Kai Yamamoto (山本快)",
                 "Ryan Eckersley",
                 "Stanley Chapel",
@@ -38071,6 +38076,7 @@
             "D U r2 U' r' d r U r' d' r' U' D'",
             [
                 "Chenhao Sun (孙晨皓)",
+                "Daniel Wallin",
                 "Ethan Pan",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
@@ -38195,7 +38201,6 @@
             "U2 d l U r2 U' l' U r2 d' U",
             [
                 "Andrew Tan Jing Bang",
-                "Daniel Wallin",
                 "Kai Yamamoto (山本快)",
                 "Ryan Eckersley",
                 "Stanley Chapel",
@@ -38209,6 +38214,7 @@
             [
                 "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
+                "Daniel Wallin",
                 "Jonghyun Kim (김종현)"
             ],
             "U D r:[r U' r',d']"
@@ -39844,7 +39850,6 @@
             "U2 d l2 U r' U' l2 U r d' U",
             [
                 "Andrew Tan Jing Bang",
-                "Daniel Wallin",
                 "Kai Yamamoto (山本快)",
                 "Stanley Chapel",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -39871,6 +39876,13 @@
                 "Ryan Eckersley"
             ],
             "4Uw':[U' l2 U,r']"
+        ],
+        [
+            "Rw r D2 r' u' r D2 r' u Rw'",
+            [
+                "Daniel Wallin"
+            ],
+            "Rw:[r D2 r',u']"
         ],
         [
             "R' y' r2 U' l U r2 U' l' U y R",
