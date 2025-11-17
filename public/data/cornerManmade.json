@@ -34585,17 +34585,6 @@
         ],
         [
             [
-                "y R2 D2 R' U' R D2 R' U R' y'"
-            ],
-            [
-                "Marcell Endrey"
-            ],
-            [
-                "y R:[R D2 R',U']"
-            ]
-        ],
-        [
-            [
                 "U D' R U D R' D' R U' R' D R D' R' U' D"
             ],
             [
@@ -34603,6 +34592,17 @@
             ],
             [
                 "U D' R D:[U,R' D' R]"
+            ]
+        ],
+        [
+            [
+                "y R2 D2 R' U' R D2 R' U R' y'"
+            ],
+            [
+                "Marcell Endrey"
+            ],
+            [
+                "y R:[R D2 R',U']"
             ]
         ]
     ],
@@ -36552,17 +36552,6 @@
         ],
         [
             [
-                "y R U' R D2 R' U R D2 R2 y'"
-            ],
-            [
-                "Marcell Endrey"
-            ],
-            [
-                "y R:[U',R D2 R']"
-            ]
-        ],
-        [
-            [
                 "U D' R D R' D' R U R' D R U' D' R' U' D"
             ],
             [
@@ -36570,6 +36559,17 @@
             ],
             [
                 "U D' R D:[R' D' R,U]"
+            ]
+        ],
+        [
+            [
+                "y R U' R D2 R' U R D2 R2 y'"
+            ],
+            [
+                "Marcell Endrey"
+            ],
+            [
+                "y R:[U',R D2 R']"
             ]
         ]
     ],
@@ -43012,6 +43012,7 @@
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Yiwei Liu (刘伊玮)",
+                "Yomie Ko (고현승)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Zhi Qiao (乔智)",
                 "Ziyi Xu (徐梓翼)"
@@ -49425,7 +49426,6 @@
                 "Tobias Peter",
                 "Tommy Cherry",
                 "Xin Shi (石欣)",
-                "Yomie Ko (고현승)",
                 "Ziyi Xu (徐梓翼)"
             ],
             [
@@ -54315,6 +54315,7 @@
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Yiwei Liu (刘伊玮)",
+                "Yomie Ko (고현승)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Zhi Qiao (乔智)",
                 "Ziyi Xu (徐梓翼)"
@@ -56999,7 +57000,6 @@
                 "Leonardo Ezequiel Cruz",
                 "Oliver Fritz",
                 "Roman Strakhov",
-                "Sebastiano Tronto",
                 "Shuto Ueno (上野柊斗)",
                 "Tobias Peter",
                 "Tommy Cherry",
@@ -57027,6 +57027,7 @@
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Neel Gore",
+                "Sebastiano Tronto",
                 "Vishwanath Jeyaraman",
                 "Yiwei Liu (刘伊玮)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -61187,7 +61188,6 @@
                 "Leonardo Ezequiel Cruz",
                 "Oliver Fritz",
                 "Roman Strakhov",
-                "Sebastiano Tronto",
                 "Shuto Ueno (上野柊斗)",
                 "Timothy Loh",
                 "Tobias Peter",
@@ -61213,6 +61213,7 @@
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Neel Gore",
+                "Sebastiano Tronto",
                 "Vishwanath Jeyaraman",
                 "Yiwei Liu (刘伊玮)"
             ],
@@ -83268,7 +83269,6 @@
                 "Anto Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Israel Fraga da Silva",
-                "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -83317,8 +83317,8 @@
         [
             [
                 "B l D' l' B' l D l'",
-                "x D R U' R' D' R U R' x'",
-                "B R F' R' B' R F R'"
+                "B R F' R' B' R F R'",
+                "x D R U' R' D' R U R' x'"
             ],
             [
                 "Anto Kam (甘浩東)",
@@ -83326,7 +83326,6 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
-                "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Morimichi Kikuchi (菊地守道)",
                 "Tobias Peter",
@@ -83335,8 +83334,8 @@
             ],
             [
                 "[B,l D' l']",
-                "x:[D,R U' R']",
-                "[B,R F' R']"
+                "[B,R F' R']",
+                "x:[D,R U' R']"
             ]
         ],
         [
@@ -83362,7 +83361,6 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
-                "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -83407,7 +83405,6 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
-                "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -83440,7 +83437,6 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
-                "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -83493,7 +83489,6 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
-                "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -83584,8 +83579,7 @@
                 "R' U D' R D' R' U' R D2 R' U R D' R' U' D R"
             ],
             [
-                "Graham Siggins",
-                "Jonghyun Kim (김종현)"
+                "Graham Siggins"
             ],
             [
                 "R' U D' R D':[R' U' R,D2]"
@@ -83600,7 +83594,6 @@
             [
                 "Elliott Kobelansky",
                 "Israel Fraga da Silva",
-                "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -83655,7 +83648,6 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
-                "Jonghyun Kim (김종현)",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -83706,7 +83698,6 @@
             [
                 "Elliott Kobelansky",
                 "Israel Fraga da Silva",
-                "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -83774,7 +83765,6 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
-                "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -83843,8 +83833,7 @@
                 "R' U D' R D R' U' R D2 R' U R D R' U' D R"
             ],
             [
-                "Graham Siggins",
-                "Jonghyun Kim (김종현)"
+                "Graham Siggins"
             ],
             [
                 "R' U D' R D:[R' U' R,D2]"
@@ -83855,8 +83844,8 @@
         [
             [
                 "l D' l' B l D l' B'",
-                "x R U' R' D R U R' D' x'",
-                "R F' R' B R F R' B'"
+                "R F' R' B R F R' B'",
+                "x R U' R' D R U R' D' x'"
             ],
             [
                 "Anto Kam (甘浩東)",
@@ -83864,7 +83853,6 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
-                "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Morimichi Kikuchi (菊地守道)",
                 "Tobias Peter",
@@ -83873,8 +83861,8 @@
             ],
             [
                 "[l D' l',B]",
-                "x:[R U' R',D]",
-                "[R F' R',B]"
+                "[R F' R',B]",
+                "x:[R U' R',D]"
             ]
         ],
         [
@@ -83899,7 +83887,6 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
-                "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -83951,7 +83938,6 @@
             [
                 "Elliott Kobelansky",
                 "Israel Fraga da Silva",
-                "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -84007,7 +83993,6 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
-                "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -84049,7 +84034,6 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
-                "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -84106,7 +84090,6 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
-                "Jonghyun Kim (김종현)",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
