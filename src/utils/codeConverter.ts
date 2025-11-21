@@ -247,6 +247,7 @@ const codeConverter = (function () {
     code: string,
     codeType: string,
     mirrorLR = false,
+    cycle = 0,
   ): string[] {
     if (codeType === "flips") {
       return customCodeToVariantCode(code, "edge", mirrorLR);
@@ -258,7 +259,18 @@ const codeConverter = (function () {
       ]);
     }
     if (codeType === "ltct") {
-      return customCodeToVariantCode(code.slice(0, 2), "corner", mirrorLR).map(
+      const ltctCycle = ["B", "E", "H", "K", "M", "P", "S", "Y"].includes(
+        customCodeToInitCode(code[2] ?? "", "corner"),
+      )
+        ? 1
+        : 2;
+      const cornerCode = customCodeToVariantCode(
+        code.slice(0, 2),
+        "corner",
+        mirrorLR,
+        ltctCycle,
+      );
+      return cornerCode.map(
         (codes: string) =>
           codes +
           (mirrorLR
@@ -300,6 +312,17 @@ const codeConverter = (function () {
     const displaceCode = displacePositions
       .map((pos) => positionToInitCode(pos))
       .filter((initCode) => initCode.trim() !== "");
+    if (cycle > 0) {
+      if (code.length < 2) {
+        return [];
+      }
+      displaceCode.push(
+        displaceCode[0][1] + displaceCode[cycle % 3][0],
+        displaceCode[1][1] + displaceCode[(cycle + 1) % 3][0],
+        displaceCode[2][1] + displaceCode[(cycle + 2) % 3][0],
+      );
+      return displaceCode;
+    }
     const variantCode = generateCyclicPermutations(displaceCode);
     return variantCode;
   }
