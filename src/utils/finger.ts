@@ -295,6 +295,41 @@ const finger = (function () {
     if (alg === "R2 U S' U2 S U R2" || alg === "R2 U' S' U2 S U' R2") {
       return ["finger.homegrip"];
     }
+    if (depth === 0) {
+      let fingerbeginNew: string[] = [];
+      const patterns = [
+        { prefix: "L", suffix: "L'", expected: "leftthumbdown" },
+        { prefix: "l", suffix: "l'", expected: "leftthumbdown" },
+        { prefix: "L'", suffix: "L", expected: "leftthumbup" },
+        { prefix: "l'", suffix: "l", expected: "leftthumbup" },
+        { prefix: "L U", suffix: "U' L'", expected: "leftthumbdown" },
+        { prefix: "l U", suffix: "U' l'", expected: "leftthumbdown" },
+        { prefix: "L' U", suffix: "U' L", expected: "leftthumbup" },
+        { prefix: "l' U", suffix: "U' l", expected: "leftthumbup" },
+        { prefix: "L U'", suffix: "U L'", expected: "leftthumbdown" },
+        { prefix: "l U'", suffix: "U l'", expected: "leftthumbdown" },
+        { prefix: "L' U'", suffix: "U L", expected: "leftthumbup" },
+        { prefix: "l' U'", suffix: "U l", expected: "leftthumbup" },
+        { prefix: "L U2", suffix: "U2 L'", expected: "leftthumbdown" },
+        { prefix: "l U2", suffix: "U2 l'", expected: "leftthumbdown" },
+        { prefix: "L' U2", suffix: "U2 L", expected: "leftthumbup" },
+        { prefix: "l' U2", suffix: "U2 l", expected: "leftthumbup" },
+      ];
+      for (const { prefix, suffix, expected } of patterns) {
+        const algNew = commutator.expand({
+          algorithm: `${prefix} ${alg} ${suffix}`,
+        });
+        if (!algNew.includes("L") && !algNew.includes("l")) {
+          fingerbeginNew = fingerbeginfrom(algNew, 1);
+          if (
+            fingerbeginNew.includes("finger.homegrip") ||
+            fingerbeginNew.includes("finger.lefthomegrip")
+          ) {
+            return [`finger.${expected}`];
+          }
+        }
+      }
+    }
     const isLefty =
       !alg.includes("R") &&
       !alg.includes("r") &&
@@ -334,29 +369,6 @@ const finger = (function () {
     }
     if (count === 0) {
       fingerbegin = ["/"];
-      if (depth === 0) {
-        let fingerbeginNew: string[] = [];
-        const patterns = [
-          { prefix: "L", suffix: "L'", expected: "leftthumbdown" },
-          { prefix: "l", suffix: "l'", expected: "leftthumbdown" },
-          { prefix: "L'", suffix: "L", expected: "leftthumbup" },
-          { prefix: "l'", suffix: "l", expected: "leftthumbup" },
-        ];
-        for (const { prefix, suffix, expected } of patterns) {
-          const algNew = commutator.expand({
-            algorithm: `${prefix} ${alg} ${suffix}`,
-          });
-          if (!algNew.includes("L") && !algNew.includes("l")) {
-            fingerbeginNew = fingerbeginfrom(algNew, 1);
-            if (
-              fingerbeginNew.includes("finger.homegrip") ||
-              fingerbeginNew.includes("finger.lefthomegrip")
-            ) {
-              return [`finger.${expected}`];
-            }
-          }
-        }
-      }
     }
     return fingerbegin;
   }
