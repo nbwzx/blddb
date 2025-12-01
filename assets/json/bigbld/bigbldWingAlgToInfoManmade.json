@@ -928,15 +928,6 @@
             "r U':[L u L',U2]"
         ],
         [
-            "Lw2 U' R U' l U R' U' l' U2 Lw2",
-            [
-                "Adrian Dębski",
-                "Christopher Morris",
-                "Xi Lu (鲁曦)"
-            ],
-            "Lw2 U':[R,U' l U]"
-        ],
-        [
             "Lw' u U' R' u' R U2 R' u R Uw' Lw",
             [
                 "Chenhao Sun (孙晨皓)",
@@ -944,6 +935,15 @@
                 "Gavriel Johann Arcilla"
             ],
             "Lw' u U':[R' u' R,U2]"
+        ],
+        [
+            "Lw2 U' R U' l U R' U' l' U2 Lw2",
+            [
+                "Adrian Dębski",
+                "Christopher Morris",
+                "Xi Lu (鲁曦)"
+            ],
+            "Lw2 U':[R,U' l U]"
         ],
         [
             "U' R Uw' R' U R' u2 R U' R' u2 R2 Uw R' U",
@@ -10885,15 +10885,6 @@
             "r':[U' L2 U,r2]"
         ],
         [
-            "U f' L B' L' f L B L' U'",
-            [
-                "Anto Kam (甘浩東)",
-                "Gavriel Johann Arcilla",
-                "Ryan Eckersley"
-            ],
-            "U:[f',L B' L']"
-        ],
-        [
             "4Lw U' L U r2 U' L' U r2 4Lw'",
             [
                 "Daniel Wallin",
@@ -10901,6 +10892,15 @@
                 "Xi Lu (鲁曦)"
             ],
             "4Lw:[U' L U,r2]"
+        ],
+        [
+            "U f' L B' L' f L B L' U'",
+            [
+                "Anto Kam (甘浩東)",
+                "Gavriel Johann Arcilla",
+                "Ryan Eckersley"
+            ],
+            "U:[f',L B' L']"
         ],
         [
             "x r2 U' L' U r2 U' L U x'",
@@ -15145,6 +15145,13 @@
                 "Ryan Eckersley"
             ],
             "R':[R' U' R,d2]"
+        ],
+        [
+            "R' F R U' R u' R' U R u R2 F' R",
+            [
+                "Israel Fraga da Silva"
+            ],
+            "R' F R:[U',R u' R']"
         ]
     ],
     "AOT": [
@@ -16761,15 +16768,6 @@
             "r U:[L u L',U2]"
         ],
         [
-            "Lw2 U2 l U R U' l' U R' U Lw2",
-            [
-                "Adrian Dębski",
-                "Christopher Morris",
-                "Xi Lu (鲁曦)"
-            ],
-            "Lw2 U':[U' l U,R]"
-        ],
-        [
             "Lw' Uw R' u' R U2 R' u R U u' Lw",
             [
                 "Chenhao Sun (孙晨皓)",
@@ -16777,6 +16775,15 @@
                 "Gavriel Johann Arcilla"
             ],
             "Lw' Uw:[R' u' R,U2]"
+        ],
+        [
+            "Lw2 U2 l U R U' l' U R' U Lw2",
+            [
+                "Adrian Dębski",
+                "Christopher Morris",
+                "Xi Lu (鲁曦)"
+            ],
+            "Lw2 U':[U' l U,R]"
         ],
         [
             "U' R Uw' R2 u2 R U R' u2 R U' R Uw R' U",
@@ -19672,6 +19679,13 @@
                 "Xin Shi (石欣)"
             ],
             "R':[d2,R' U' R]"
+        ],
+        [
+            "R' F R2 u' R' U' R u R' U R' F' R",
+            [
+                "Israel Fraga da Silva"
+            ],
+            "R' F R:[R u' R',U']"
         ]
     ],
     "ASP": [
