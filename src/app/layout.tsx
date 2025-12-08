@@ -1,14 +1,11 @@
 import Header from "@/components/Header";
 import ScrollToTop from "@/components/ScrollToTop";
-import { Inter } from "next/font/google";
 import React from "react";
 import "../styles/index.css";
 import { Providers } from "./providers";
 import { LocaleProvider } from "./localeProvider";
 import { getLocale } from "../i18n/server";
 import ErrorBoundary from "./ErrorBoundary";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export default async function RootLayout({
   children,
@@ -26,7 +23,7 @@ export default async function RootLayout({
 
       <body
         suppressHydrationWarning
-        className={`dark:bg-gray-dark bg-[#FCFCFC] ${inter.className}`}
+        className={"dark:bg-gray-dark bg-[#FCFCFC]"}
       >
         <Providers>
           <LocaleProvider value={locale}>
