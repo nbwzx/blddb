@@ -9600,6 +9600,13 @@
             "D' U' r:[r U r',D2]"
         ],
         [
+            "Fw' D2 R u' R' D2 R u R' Fw",
+            [
+                "Howie Craig"
+            ],
+            "Fw':[D2,R u' R']"
+        ],
+        [
             "Fw R L2 U' r' U L2 U' r U R' Fw'",
             [
                 "Christopher Morris"
@@ -10866,6 +10873,13 @@
             "D' U' r:[D2,r U r']"
         ],
         [
+            "Fw' R u' R' D2 R u R' D2 Fw",
+            [
+                "Howie Craig"
+            ],
+            "Fw':[R u' R',D2]"
+        ],
+        [
             "Fw R U' r' U L2 U' r U L2 R' Fw'",
             [
                 "Christopher Morris"
@@ -10964,6 +10978,13 @@
                 "Howie Craig"
             ],
             "4Fw':[R u' R',D']"
+        ],
+        [
+            "U' r D r U r' D' r U' r2 U",
+            [
+                "Howie Craig"
+            ],
+            "U' r:[D,r U r']"
         ]
     ],
     "ALN": [
@@ -12318,6 +12339,13 @@
                 "Howie Craig"
             ],
             "4Fw':[D',R u' R']"
+        ],
+        [
+            "U' r2 U r' D r U' r' D' r' U",
+            [
+                "Howie Craig"
+            ],
+            "U' r:[r U r',D]"
         ]
     ],
     "AMN": [
@@ -14926,6 +14954,7 @@
             "R u R2 u' R U' R' u2 R U R' u' R2 u' R'",
             [
                 "Gavriel Johann Arcilla",
+                "Howie Craig",
                 "Ryan Eckersley"
             ],
             "R u R2 u':[R U' R',u2]"
@@ -16215,6 +16244,7 @@
             "R u R2 u R U' R' u2 R U R' u R2 u' R'",
             [
                 "Gavriel Johann Arcilla",
+                "Howie Craig",
                 "Ryan Eckersley"
             ],
             "R u R2 u:[R U' R',u2]"
