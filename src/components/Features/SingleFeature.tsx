@@ -1,12 +1,20 @@
 "use client";
 
+import { useState, useEffect } from "react";
 import { Feature } from "@/types/feature";
 import { useTranslation } from "@/i18n/client";
 import Link from "next/link";
 
 const SingleFeature = ({ feature }: { feature: Feature }) => {
   const urlRegex = /(\/[^\s]+)/gu;
-  const baseUrl = typeof window === "undefined" ? "" : window.location.origin;
+  const [baseUrl, setBaseUrl] = useState("");
+  useEffect(() => {
+    setTimeout(() => {
+      if (typeof window !== "undefined") {
+        setBaseUrl(window.location.origin);
+      }
+    }, 1);
+  }, []);
   const { t } = useTranslation();
   const { icon, title, paragraph } = feature;
   const parts = t(paragraph).split(urlRegex);
