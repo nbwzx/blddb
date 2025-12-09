@@ -1,14 +1,14 @@
 "use client";
 
-import { useEffect } from "react";
-import i18next, { i18n } from "i18next";
+import { useEffect, useState } from "react";
+import i18next from "i18next";
 import {
   initReactI18next,
   useTranslation as useTransAlias,
 } from "react-i18next";
 import resourcesToBackend from "i18next-resources-to-backend";
 import LanguageDetector from "i18next-browser-languagedetector";
-import { Locales, getOptions, supportedLocales } from "./settings";
+import { getOptions, supportedLocales } from "./settings";
 import { useLocale } from "../app/localeProvider";
 
 const runsOnServerSide = typeof window === "undefined";
@@ -45,26 +45,28 @@ i18next
 export function useTranslation() {
   const lng = useLocale();
 
-  const translator = useTransAlias();
-  const { i18n: i18nTranslator } = translator;
-
   // Run content is being rendered on server side
-  if (runsOnServerSide && lng && i18nTranslator.resolvedLanguage !== lng) {
-    i18nTranslator.changeLanguage(lng);
+  if (runsOnServerSide && lng && i18next.resolvedLanguage !== lng) {
+    i18next.changeLanguage(lng);
   } else {
-    // Use our custom implementation when running on client side
     // eslint-disable-next-line react-hooks/rules-of-hooks
-    useCustomTranslationImplem(i18nTranslator, lng);
+    const [activeLng, setActiveLng] = useState(i18next.resolvedLanguage);
+    // eslint-disable-next-line react-hooks/rules-of-hooks
+    useEffect(() => {
+      if (activeLng === i18next.resolvedLanguage) {
+        return;
+      }
+      setActiveLng(i18next.resolvedLanguage);
+      // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [activeLng, i18next.resolvedLanguage]);
+    // eslint-disable-next-line react-hooks/rules-of-hooks
+    useEffect(() => {
+      if (!lng || i18next.resolvedLanguage === lng) {
+        return;
+      }
+      i18next.changeLanguage(lng);
+      // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [lng, i18next]);
   }
-  return translator;
-}
-
-function useCustomTranslationImplem(i18nInput: i18n, lng: Locales) {
-  // This effect changes the language of the application when the lng prop changes.
-  useEffect(() => {
-    if (!lng || i18nInput.resolvedLanguage === lng) {
-      return;
-    }
-    i18nInput.changeLanguage(lng);
-  }, [lng, i18nInput]);
+  return useTransAlias();
 }
