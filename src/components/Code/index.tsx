@@ -295,7 +295,7 @@ const Code = ({ cubeSize }: { cubeSize: 3 | 5 }) => {
             className="flex cursor-pointer items-center"
           >
             <div className="relative">
-              <div className="h-5 w-14 rounded-full bg-[#1D2144] shadow-inner"></div>
+              <div className="h-5 w-14 rounded-full bg-[#1D2144] shadow-inner dark:bg-[#b4b4b4]"></div>
               <div
                 className={`${
                   isStandard ? "" : "translate-x-full"
