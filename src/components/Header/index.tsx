@@ -72,7 +72,7 @@ const Header = () => {
       >
         <div className="container">
           <div className="relative -mx-4 flex items-center justify-between">
-            <div className="w-52 max-w-full px-2 xl:mr-12">
+            <div className="w-52 max-w-full min-w-[140px] px-2 xl:mr-12">
               <Link
                 href="/"
                 className={`header-logo block w-full ${
@@ -103,7 +103,7 @@ const Header = () => {
                   onClick={navbarToggleHandler}
                   id="navbarToggler"
                   aria-label="Mobile Menu"
-                  className="ring-primary absolute top-1/2 right-4 block translate-y-[-50%] rounded-lg px-3 py-[6px] focus:ring-2 lg:hidden"
+                  className="ring-primary absolute top-1/2 right-4 z-1 block translate-y-[-50%] rounded-lg px-3 py-[6px] focus:ring-2 lg:hidden"
                 >
                   <span
                     className={`relative my-1.5 block h-0.5 w-[30px] bg-black transition-all duration-300 dark:bg-white ${
