@@ -5236,7 +5236,6 @@
                 "Roman Strakhov",
                 "Shuto Ueno (上野柊斗)",
                 "Timothy Loh",
-                "Tobias Peter",
                 "Yomie Ko (고현승)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Zhi Qiao (乔智)",
@@ -5262,6 +5261,7 @@
                 "Keita Hayakawa (早川慶太)",
                 "Martin Vædele Egdal",
                 "Timo Norrkniivilä",
+                "Tobias Peter",
                 "Xin Shi (石欣)",
                 "Zhi Qiao (乔智)"
             ],
@@ -10108,6 +10108,7 @@
                 "Enoch Gray",
                 "Graham Siggins",
                 "Hongjie Zhang (张鸿杰)",
+                "Israel Fraga da Silva",
                 "Jack Cai",
                 "Joey Gouly",
                 "Keiichiro Taira (平佳一郎)",
@@ -10361,6 +10362,7 @@
                 "Graham Siggins",
                 "Grzegorz Jałocha",
                 "Hongjie Zhang (张鸿杰)",
+                "Israel Fraga da Silva",
                 "Jacob Tucker",
                 "Joey Gouly",
                 "Jonghyun Kim (김종현)",
@@ -10642,6 +10644,7 @@
                 "Ethan Pan",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Israel Fraga da Silva",
                 "Jack Cai",
                 "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
@@ -11040,6 +11043,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Hongjie Zhang (张鸿杰)",
+                "Israel Fraga da Silva",
                 "Jacob Tucker",
                 "Joey Gouly",
                 "Jonghyun Kim (김종현)",
@@ -11602,6 +11606,7 @@
                 "Enoch Gray",
                 "Ethan Pan",
                 "Ishaan Agrawal",
+                "Israel Fraga da Silva",
                 "Keiichiro Taira (平佳一郎)",
                 "Keita Hayakawa (早川慶太)",
                 "Leonardo Ezequiel Cruz",
@@ -11657,7 +11662,6 @@
                 "Dylan Wang",
                 "Gavriel Johann Arcilla",
                 "Heejun Kim (김희준)",
-                "Israel Fraga da Silva",
                 "Jacob Tucker",
                 "Keita Hayakawa (早川慶太)",
                 "Masato Fujiwara (藤原正人)",
@@ -11908,6 +11912,7 @@
                 "Hana Davila",
                 "Hongjie Zhang (张鸿杰)",
                 "Ishaan Agrawal",
+                "Israel Fraga da Silva",
                 "Joey Gouly",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
@@ -14785,7 +14790,6 @@
                 "Ethan Pan",
                 "Graham Siggins",
                 "Ishaan Agrawal",
-                "Israel Fraga da Silva",
                 "Jack Cai",
                 "Joey Gouly",
                 "Jonghyun Kim (김종현)",
@@ -14823,6 +14827,7 @@
                 "Gavriel Johann Arcilla",
                 "Hongjie Zhang (张鸿杰)",
                 "Ishaan Agrawal",
+                "Israel Fraga da Silva",
                 "Jacob Tucker",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
@@ -15079,8 +15084,8 @@
         ],
         [
             [
-                "l' U' R' E R U2 R' E' R U' l",
-                "R' F' R' S' R F2 R' S R F' R"
+                "R' F' R' S' R F2 R' S R F' R",
+                "l' U' R' E R U2 R' E' R U' l"
             ],
             [
                 "Abhijeet Ghodgaonkar (अभिजीत घोडगावकर)",
@@ -15091,6 +15096,7 @@
                 "Enoch Gray",
                 "Graham Siggins",
                 "Hongjie Zhang (张鸿杰)",
+                "Israel Fraga da Silva",
                 "Jack Cai",
                 "Joey Gouly",
                 "Keiichiro Taira (平佳一郎)",
@@ -15104,8 +15110,8 @@
                 "Yiwei Liu (刘伊玮)"
             ],
             [
-                "l' U':[R' E R,U2]",
-                "R' F':[R' S' R,F2]"
+                "R' F':[R' S' R,F2]",
+                "l' U':[R' E R,U2]"
             ]
         ],
         [
@@ -15369,6 +15375,7 @@
                 "Daniel Wallin",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Israel Fraga da Silva",
                 "Keiichiro Taira (平佳一郎)",
                 "Keita Hayakawa (早川慶太)",
                 "Masato Fujiwara (藤原正人)",
@@ -15507,6 +15514,35 @@
     "AKN": [
         [
             [
+                "D L F L2 E' L2 E F' L' D'",
+                "D r U L2 S' L2 S U' r' D'"
+            ],
+            [
+                "Bertie Longden",
+                "Christopher Morris",
+                "Daniel Wallin",
+                "Dhruv Ambastha",
+                "Elliott Kobelansky",
+                "Ethan Pan",
+                "Israel Fraga da Silva",
+                "Keiichiro Taira (平佳一郎)",
+                "Kevin Matthews",
+                "Leonardo Ezequiel Cruz",
+                "Michael Tripodi",
+                "Shuto Ueno (上野柊斗)",
+                "Timothy Loh",
+                "Tobias Peter",
+                "Tommy Cherry",
+                "Yuki Tsuneyoshi (恒吉優紀)",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            [
+                "D L F:[L2,E']",
+                "D r U:[L2,S']"
+            ]
+        ],
+        [
+            [
                 "D L F' E' L2 E L2 F L' D'"
             ],
             [
@@ -15530,34 +15566,6 @@
             ],
             [
                 "D L F':[E',L2]"
-            ]
-        ],
-        [
-            [
-                "D L F L2 E' L2 E F' L' D'",
-                "D r U L2 S' L2 S U' r' D'"
-            ],
-            [
-                "Bertie Longden",
-                "Christopher Morris",
-                "Daniel Wallin",
-                "Dhruv Ambastha",
-                "Elliott Kobelansky",
-                "Ethan Pan",
-                "Keiichiro Taira (平佳一郎)",
-                "Kevin Matthews",
-                "Leonardo Ezequiel Cruz",
-                "Michael Tripodi",
-                "Shuto Ueno (上野柊斗)",
-                "Timothy Loh",
-                "Tobias Peter",
-                "Tommy Cherry",
-                "Yuki Tsuneyoshi (恒吉優紀)",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            [
-                "D L F:[L2,E']",
-                "D r U:[L2,S']"
             ]
         ],
         [
@@ -15589,7 +15597,6 @@
                 "Bowen Xiao (肖博文)",
                 "Grzegorz Jałocha",
                 "Hana Davila",
-                "Israel Fraga da Silva",
                 "Jack Cai",
                 "Oliver Fritz",
                 "Roman Strakhov",
@@ -15700,6 +15707,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Hongjie Zhang (张鸿杰)",
+                "Israel Fraga da Silva",
                 "Jacob Tucker",
                 "Joey Gouly",
                 "Jonghyun Kim (김종현)",
@@ -15973,6 +15981,7 @@
                 "Graham Siggins",
                 "Hongjie Zhang (张鸿杰)",
                 "Ishaan Agrawal",
+                "Israel Fraga da Silva",
                 "Jacob Tucker",
                 "Joey Gouly",
                 "Jonghyun Kim (김종현)",
@@ -16784,6 +16793,7 @@
                 "Hana Davila",
                 "Hongjie Zhang (张鸿杰)",
                 "Ishaan Agrawal",
+                "Israel Fraga da Silva",
                 "Jack Cai",
                 "Jacob Tucker",
                 "Joey Gouly",
@@ -20215,6 +20225,7 @@
                 "Gavriel Johann Arcilla",
                 "Hongjie Zhang (张鸿杰)",
                 "Ishaan Agrawal",
+                "Israel Fraga da Silva",
                 "Jacob Tucker",
                 "Keiichiro Taira (平佳一郎)",
                 "Keita Hayakawa (早川慶太)",
@@ -20494,6 +20505,7 @@
                 "Dong Zhu (朱栋)",
                 "Elliott Kobelansky",
                 "Ishaan Agrawal",
+                "Israel Fraga da Silva",
                 "Keiichiro Taira (平佳一郎)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
@@ -20869,6 +20881,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Daniel Lin",
+                "Israel Fraga da Silva",
                 "Max Hilliard",
                 "Morimichi Kikuchi (菊地守道)",
                 "Tommy Cherry",
@@ -21103,6 +21116,7 @@
                 "Grzegorz Jałocha",
                 "Hana Davila",
                 "Ishaan Agrawal",
+                "Israel Fraga da Silva",
                 "Jacob Tucker",
                 "Joey Gouly",
                 "Keiichiro Taira (平佳一郎)",
@@ -21146,7 +21160,6 @@
                 "Graham Siggins",
                 "Hongjie Zhang (张鸿杰)",
                 "Ishaan Agrawal",
-                "Israel Fraga da Silva",
                 "Jack Cai",
                 "Joey Gouly",
                 "Jonghyun Kim (김종현)",
@@ -21216,6 +21229,7 @@
                 "Hana Davila",
                 "Hongjie Zhang (张鸿杰)",
                 "Ishaan Agrawal",
+                "Israel Fraga da Silva",
                 "Jack Cai",
                 "Jacob Tucker",
                 "Joey Gouly",
@@ -21735,7 +21749,6 @@
                 "Graham Siggins",
                 "Hongjie Zhang (张鸿杰)",
                 "Ishaan Agrawal",
-                "Israel Fraga da Silva",
                 "Jack Cai",
                 "Joey Gouly",
                 "Jonghyun Kim (김종현)",
@@ -21814,6 +21827,7 @@
                 "Hana Davila",
                 "Hongjie Zhang (张鸿杰)",
                 "Ishaan Agrawal",
+                "Israel Fraga da Silva",
                 "Jack Cai",
                 "Jacob Tucker",
                 "Joey Gouly",
@@ -24924,7 +24938,6 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Ishaan Agrawal",
-                "Israel Fraga da Silva",
                 "Jack Cai",
                 "Joey Gouly",
                 "Jonghyun Kim (김종현)",
@@ -24961,6 +24974,7 @@
                 "Gavriel Johann Arcilla",
                 "Hongjie Zhang (张鸿杰)",
                 "Ishaan Agrawal",
+                "Israel Fraga da Silva",
                 "Jacob Tucker",
                 "Joey Gouly",
                 "Kai Yamamoto (山本快)",
@@ -25214,6 +25228,7 @@
                 "Ethan Pan",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Israel Fraga da Silva",
                 "Jack Cai",
                 "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
@@ -25369,6 +25384,7 @@
                 "Graham Siggins",
                 "Hongjie Zhang (张鸿杰)",
                 "Ishaan Agrawal",
+                "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Kevin Matthews",
@@ -25408,7 +25424,6 @@
                 "Grzegorz Jałocha",
                 "Grzegorz Pacewicz",
                 "Ishaan Agrawal",
-                "Israel Fraga da Silva",
                 "Jack Cai",
                 "Jacob Tucker",
                 "Joey Gouly",
@@ -25492,6 +25507,7 @@
                 "Hana Davila",
                 "Hongjie Zhang (张鸿杰)",
                 "Ishaan Agrawal",
+                "Israel Fraga da Silva",
                 "Jacob Tucker",
                 "Joey Gouly",
                 "Jonghyun Kim (김종현)",
@@ -25684,6 +25700,7 @@
                 "Dylan Wang",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Israel Fraga da Silva",
                 "Jacob Tucker",
                 "Kai Yamamoto (山本快)",
                 "Keiichiro Taira (平佳一郎)",
@@ -25882,6 +25899,7 @@
                 "Dhruv Ambastha",
                 "Elliott Kobelansky",
                 "Ethan Pan",
+                "Israel Fraga da Silva",
                 "Keiichiro Taira (平佳一郎)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -25905,7 +25923,6 @@
                 "Bowen Xiao (肖博文)",
                 "Grzegorz Jałocha",
                 "Hana Davila",
-                "Israel Fraga da Silva",
                 "Jack Cai",
                 "Oliver Fritz",
                 "Roman Strakhov",
@@ -26232,6 +26249,7 @@
                 "Hana Davila",
                 "Hongjie Zhang (张鸿杰)",
                 "Ishaan Agrawal",
+                "Israel Fraga da Silva",
                 "Jack Cai",
                 "Jacob Tucker",
                 "Joey Gouly",
@@ -26959,6 +26977,7 @@
                 "Graham Siggins",
                 "Hongjie Zhang (张鸿杰)",
                 "Ishaan Agrawal",
+                "Israel Fraga da Silva",
                 "Jack Cai",
                 "Jacob Tucker",
                 "Joey Gouly",
@@ -32230,6 +32249,7 @@
                 "Graham Siggins",
                 "Hongjie Zhang (张鸿杰)",
                 "Ishaan Agrawal",
+                "Israel Fraga da Silva",
                 "Jacob Tucker",
                 "Joey Gouly",
                 "Jonghyun Kim (김종현)",
@@ -32514,6 +32534,7 @@
                 "Graham Siggins",
                 "Hongjie Zhang (张鸿杰)",
                 "Ishaan Agrawal",
+                "Israel Fraga da Silva",
                 "Jacob Tucker",
                 "Joey Gouly",
                 "Jonghyun Kim (김종현)",
@@ -32668,7 +32689,6 @@
                 "Ethan Pan",
                 "Gavriel Johann Arcilla",
                 "Ishaan Agrawal",
-                "Israel Fraga da Silva",
                 "Jack Cai",
                 "Joey Gouly",
                 "Jonghyun Kim (김종현)",
@@ -32701,6 +32721,7 @@
                 "Graham Siggins",
                 "Hana Davila",
                 "Ishaan Agrawal",
+                "Israel Fraga da Silva",
                 "Joey Gouly",
                 "Kai Yamamoto (山本快)",
                 "Keita Hayakawa (早川慶太)",
@@ -32840,6 +32861,7 @@
                 "Hana Davila",
                 "Hongjie Zhang (张鸿杰)",
                 "Ishaan Agrawal",
+                "Israel Fraga da Silva",
                 "Jack Cai",
                 "Jacob Tucker",
                 "Joey Gouly",
@@ -33089,6 +33111,7 @@
                 "Hana Davila",
                 "Hongjie Zhang (张鸿杰)",
                 "Ishaan Agrawal",
+                "Israel Fraga da Silva",
                 "Jack Cai",
                 "Jacob Tucker",
                 "Joey Gouly",
@@ -33248,7 +33271,6 @@
                 "Graham Siggins",
                 "Hongjie Zhang (张鸿杰)",
                 "Ishaan Agrawal",
-                "Israel Fraga da Silva",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Martin Vædele Egdal",
@@ -33781,7 +33803,6 @@
                 "Dylan Wang",
                 "Gavriel Johann Arcilla",
                 "Ishaan Agrawal",
-                "Israel Fraga da Silva",
                 "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
@@ -33804,6 +33825,7 @@
                 "Elliott Kobelansky",
                 "Hongjie Zhang (张鸿杰)",
                 "Ishaan Agrawal",
+                "Israel Fraga da Silva",
                 "Joey Gouly",
                 "Keita Hayakawa (早川慶太)",
                 "Liren Sun (孙立仁)",
@@ -34144,6 +34166,7 @@
                 "Ethan Pan",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Israel Fraga da Silva",
                 "Jacob Tucker",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
@@ -45943,6 +45966,7 @@
                 "Hana Davila",
                 "Hongjie Zhang (张鸿杰)",
                 "Ishaan Agrawal",
+                "Israel Fraga da Silva",
                 "Joey Gouly",
                 "Jonghyun Kim (김종현)",
                 "Keita Hayakawa (早川慶太)",
@@ -45996,7 +46020,6 @@
             [
                 "Dylan Wang",
                 "Ishaan Agrawal",
-                "Israel Fraga da Silva",
                 "Jacob Tucker",
                 "Kai Yamamoto (山本快)",
                 "Roman Strakhov"
@@ -46227,6 +46250,7 @@
                 "Hana Davila",
                 "Hongjie Zhang (张鸿杰)",
                 "Ishaan Agrawal",
+                "Israel Fraga da Silva",
                 "Joey Gouly",
                 "Jonghyun Kim (김종현)",
                 "Sebastiano Tronto",
@@ -46280,6 +46304,7 @@
                 "Daniel Lin",
                 "Dhruv Ambastha",
                 "Dylan Wang",
+                "Israel Fraga da Silva",
                 "Jacob Tucker",
                 "Kai Yamamoto (山本快)",
                 "Keita Hayakawa (早川慶太)",
@@ -46501,6 +46526,7 @@
                 "Hana Davila",
                 "Hongjie Zhang (张鸿杰)",
                 "Ishaan Agrawal",
+                "Israel Fraga da Silva",
                 "Jack Cai",
                 "Jacob Tucker",
                 "Joey Gouly",
@@ -46807,6 +46833,7 @@
                 "Hana Davila",
                 "Hongjie Zhang (张鸿杰)",
                 "Ishaan Agrawal",
+                "Israel Fraga da Silva",
                 "Jack Cai",
                 "Jacob Tucker",
                 "Joey Gouly",
@@ -47096,6 +47123,7 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Ishaan Agrawal",
+                "Israel Fraga da Silva",
                 "Jack Cai",
                 "Jacob Tucker",
                 "Joey Gouly",
@@ -47470,6 +47498,7 @@
                 "Ethan Pan",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Israel Fraga da Silva",
                 "Jacob Tucker",
                 "Oliver Fritz",
                 "Sebastiano Tronto",
@@ -49180,6 +49209,7 @@
                 "Heejun Kim (김희준)",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
+                "Michael Tripodi",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -49200,8 +49230,7 @@
                 "Ishaan Agrawal",
                 "Keiichiro Taira (平佳一郎)",
                 "Masato Fujiwara (藤原正人)",
-                "Max Hilliard",
-                "Michael Tripodi"
+                "Max Hilliard"
             ],
             [
                 "Not found."
@@ -50170,7 +50199,6 @@
                 "Heejun Kim (김희준)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tommy Cherry",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -50190,6 +50218,7 @@
                 "Graham Siggins",
                 "Keiichiro Taira (平佳一郎)",
                 "Leonardo Ezequiel Cruz",
+                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -53812,7 +53841,8 @@
     "CLR": [
         [
             [
-                "S' L' F2 L S L' F2 L"
+                "S' L' F2 L S L' F2 L",
+                "S' r' D2 r S r' D2 r"
             ],
             [
                 "Anto Kam (甘浩東)",
@@ -53824,7 +53854,8 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
-                "[S',L' F2 L]"
+                "[S',L' F2 L]",
+                "[S',r' D2 r]"
             ]
         ],
         [
@@ -55859,7 +55890,6 @@
                 "Graham Siggins",
                 "Max Hilliard",
                 "Sebastiano Tronto",
-                "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -55874,7 +55904,8 @@
             ],
             [
                 "Gavriel Johann Arcilla",
-                "Jonghyun Kim (김종현)"
+                "Jonghyun Kim (김종현)",
+                "Tobias Peter"
             ],
             [
                 "M:[L' E L,U']"
@@ -57213,7 +57244,6 @@
             [
                 "Andrew Tan Jing Bang",
                 "Elliott Kobelansky",
-                "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -57221,6 +57251,18 @@
             [
                 "[E R E',l]",
                 "E:[R,E' R S]"
+            ]
+        ],
+        [
+            [
+                "D' L' U' M' U L U' M U D"
+            ],
+            [
+                "Anto Kam (甘浩東)",
+                "Tobias Peter"
+            ],
+            [
+                "D':[L',U' M' U]"
             ]
         ],
         [
@@ -57233,17 +57275,6 @@
             ],
             [
                 "R u' R':[U',R' E' R]"
-            ]
-        ],
-        [
-            [
-                "D' L' U' M' U L U' M U D"
-            ],
-            [
-                "Anto Kam (甘浩東)"
-            ],
-            [
-                "D':[L',U' M' U]"
             ]
         ],
         [
@@ -59420,7 +59451,6 @@
             [
                 "Andrew Tan Jing Bang",
                 "Elliott Kobelansky",
-                "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -59428,6 +59458,18 @@
             [
                 "[l,E R E']",
                 "R S:[R,S' R' E]"
+            ]
+        ],
+        [
+            [
+                "U' D' M' U L' U' M U L D"
+            ],
+            [
+                "Anto Kam (甘浩東)",
+                "Tobias Peter"
+            ],
+            [
+                "D':[U' M' U,L']"
             ]
         ],
         [
@@ -59440,17 +59482,6 @@
             ],
             [
                 "R u' R':[R' E' R,U']"
-            ]
-        ],
-        [
-            [
-                "U' D' M' U L' U' M U L D"
-            ],
-            [
-                "Anto Kam (甘浩東)"
-            ],
-            [
-                "D':[U' M' U,L']"
             ]
         ],
         [
@@ -62748,7 +62779,6 @@
                 "Heejun Kim (김희준)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tommy Cherry",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -62768,6 +62798,7 @@
                 "Graham Siggins",
                 "Keiichiro Taira (平佳一郎)",
                 "Leonardo Ezequiel Cruz",
+                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -63091,7 +63122,6 @@
                 "Graham Siggins",
                 "Max Hilliard",
                 "Sebastiano Tronto",
-                "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -63106,7 +63136,8 @@
             ],
             [
                 "Gavriel Johann Arcilla",
-                "Jonghyun Kim (김종현)"
+                "Jonghyun Kim (김종현)",
+                "Tobias Peter"
             ],
             [
                 "M:[U',L' E L]"
@@ -71279,6 +71310,7 @@
                 "Jonghyun Kim (김종현)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -71295,7 +71327,6 @@
                 "Dhruv Ambastha",
                 "Gavriel Johann Arcilla",
                 "Keiichiro Taira (平佳一郎)",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -73680,8 +73711,7 @@
     "ETJ": [
         [
             [
-                "U M' U' r' E r U r' E' R U'",
-                "U M' U' L' S L U L' S' l U'"
+                "U M' U' r' E r U r' E' R U'"
             ],
             [
                 "Andrew Tan Jing Bang",
@@ -73700,8 +73730,7 @@
                 "Tommy Cherry"
             ],
             [
-                "U M':[U',r' E r]",
-                "U M':[U',L' S L]"
+                "U M':[U',r' E r]"
             ]
         ],
         [
@@ -76399,6 +76428,7 @@
                 "Jonghyun Kim (김종현)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -76415,7 +76445,6 @@
                 "Dhruv Ambastha",
                 "Gavriel Johann Arcilla",
                 "Keiichiro Taira (平佳一郎)",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -78327,6 +78356,7 @@
                 "Graham Siggins",
                 "Grzegorz Jałocha",
                 "Ishaan Agrawal",
+                "Israel Fraga da Silva",
                 "Jack Cai",
                 "Jacob Tucker",
                 "Joey Gouly",
@@ -78426,8 +78456,7 @@
             ],
             [
                 "Dhruv Ambastha",
-                "Gavriel Johann Arcilla",
-                "Israel Fraga da Silva"
+                "Gavriel Johann Arcilla"
             ],
             [
                 "R2 U':[R2,S']"
@@ -80155,7 +80184,6 @@
                 "Hana Davila",
                 "Hongjie Zhang (张鸿杰)",
                 "Ishaan Agrawal",
-                "Israel Fraga da Silva",
                 "Jack Cai",
                 "Joey Gouly",
                 "Jonghyun Kim (김종현)",
@@ -80196,6 +80224,7 @@
                 "Enoch Gray",
                 "Guoqiao Wang (王国桥)",
                 "Ishaan Agrawal",
+                "Israel Fraga da Silva",
                 "Jacob Tucker",
                 "Liren Sun (孙立仁)",
                 "Michael Tripodi",
@@ -81504,6 +81533,7 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Hongjie Zhang (张鸿杰)",
+                "Israel Fraga da Silva",
                 "Jack Cai",
                 "Jacob Tucker",
                 "Keita Hayakawa (早川慶太)",
@@ -81537,7 +81567,6 @@
                 "Elliott Kobelansky",
                 "Hana Davila",
                 "Ishaan Agrawal",
-                "Israel Fraga da Silva",
                 "Joey Gouly",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
@@ -82823,7 +82852,6 @@
                 "Hana Davila",
                 "Hongjie Zhang (张鸿杰)",
                 "Ishaan Agrawal",
-                "Israel Fraga da Silva",
                 "Jack Cai",
                 "Joey Gouly",
                 "Jonghyun Kim (김종현)",
@@ -82859,6 +82887,7 @@
                 "Bowen Xiao (肖博文)",
                 "Chenhao Sun (孙晨皓)",
                 "Guoqiao Wang (王国桥)",
+                "Israel Fraga da Silva",
                 "Jacob Tucker",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
@@ -83426,7 +83455,6 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Keita Hayakawa (早川慶太)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Rob Holt",
                 "Sebastiano Tronto",
                 "Tim Wong",
@@ -83482,7 +83510,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Rob Holt",
                 "Tim Wong",
                 "Tobias Peter",
@@ -83535,7 +83562,6 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Keita Hayakawa (早川慶太)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Tommy Cherry",
@@ -83572,7 +83598,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter"
             ],
             [
@@ -83632,7 +83657,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Keita Hayakawa (早川慶太)",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -83670,7 +83694,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -83711,7 +83734,6 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Keita Hayakawa (早川慶太)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -83735,7 +83757,6 @@
                 "Gavriel Johann Arcilla",
                 "Guoqiao Wang (王国桥)",
                 "Jonghyun Kim (김종현)",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
@@ -83774,7 +83795,6 @@
                 "Gavriel Johann Arcilla",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -83834,7 +83854,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -83872,7 +83891,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -83910,7 +83928,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -83948,7 +83965,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -83986,7 +84002,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -84023,7 +84038,6 @@
                 "Graham Siggins",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -84082,7 +84096,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -84500,7 +84513,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -84568,7 +84580,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -84620,7 +84631,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)",
@@ -84669,7 +84679,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -84719,7 +84728,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -84770,7 +84778,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Tommy Cherry",
@@ -84809,7 +84816,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -84861,7 +84867,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -84898,7 +84903,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -84959,7 +84963,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -85002,7 +85005,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -85027,7 +85029,6 @@
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -85082,7 +85083,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Tommy Cherry",
@@ -85109,7 +85109,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -85161,7 +85160,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -85221,7 +85219,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -85238,7 +85235,6 @@
                 "Graham Siggins",
                 "Guoqiao Wang (王国桥)",
                 "Israel Fraga da Silva",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -87173,6 +87169,7 @@
                 "Heejun Kim (김희준)",
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
+                "Michael Tripodi",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -87191,8 +87188,7 @@
                 "Ishaan Agrawal",
                 "Keiichiro Taira (平佳一郎)",
                 "Masato Fujiwara (藤原正人)",
-                "Max Hilliard",
-                "Michael Tripodi"
+                "Max Hilliard"
             ],
             [
                 "Not found."
@@ -88565,7 +88561,6 @@
                 "Keita Hayakawa (早川慶太)",
                 "Marcell Endrey",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Rob Holt",
                 "Sebastiano Tronto",
                 "Tim Wong",
@@ -88609,7 +88604,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -88884,7 +88878,6 @@
             ],
             [
                 "Guoqiao Wang (王国桥)",
-                "Michael Tripodi",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -88959,19 +88952,6 @@
         ],
         [
             [
-                "L f L' S L2 S' L' f' L'"
-            ],
-            [
-                "Ishaan Agrawal",
-                "Max Hilliard",
-                "Michael Tripodi"
-            ],
-            [
-                "L f L':[S,L2]"
-            ]
-        ],
-        [
-            [
                 "y' U2 M' U' R2 U M U' R2 U' y"
             ],
             [
@@ -88993,6 +88973,18 @@
             ],
             [
                 "U L F:[L2,E']"
+            ]
+        ],
+        [
+            [
+                "L f L' S L2 S' L' f' L'"
+            ],
+            [
+                "Ishaan Agrawal",
+                "Max Hilliard"
+            ],
+            [
+                "L f L':[S,L2]"
             ]
         ],
         [
@@ -89068,7 +89060,6 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Keiichiro Taira (平佳一郎)",
-                "Michael Tripodi",
                 "Rob Holt",
                 "Tim Wong",
                 "Tobias Peter",
@@ -89165,19 +89156,6 @@
         ],
         [
             [
-                "r' M U R U' M' U R' U' r"
-            ],
-            [
-                "Andrew Tan Jing Bang",
-                "Keiichiro Taira (平佳一郎)",
-                "Michael Tripodi"
-            ],
-            [
-                "r':[M,U R U']"
-            ]
-        ],
-        [
-            [
                 "x' M U R U' M' U R' U' x",
                 "M B R B' M' B R' B'"
             ],
@@ -89201,6 +89179,18 @@
             ],
             [
                 "r' U' r U:[M',U2]"
+            ]
+        ],
+        [
+            [
+                "r' M U R U' M' U R' U' r"
+            ],
+            [
+                "Andrew Tan Jing Bang",
+                "Keiichiro Taira (平佳一郎)"
+            ],
+            [
+                "r':[M,U R U']"
             ]
         ],
         [
@@ -89238,7 +89228,6 @@
                 "Graham Siggins",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -89330,7 +89319,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -89398,7 +89386,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Rob Holt",
                 "Sebastiano Tronto",
                 "Tim Wong",
@@ -89441,7 +89428,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -89543,7 +89529,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Rob Holt"
             ],
             [
@@ -89568,7 +89553,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -89642,7 +89626,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Rob Holt"
             ],
             [
@@ -89698,7 +89681,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Tommy Cherry",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -89767,7 +89749,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Rob Holt",
                 "Sebastiano Tronto",
                 "Tim Wong",
@@ -89807,7 +89788,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -90173,7 +90153,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Rob Holt",
                 "Tim Wong",
                 "Tobias Peter",
@@ -90251,7 +90230,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -90491,7 +90469,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -90547,7 +90524,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)",
@@ -90613,7 +90589,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Tommy Cherry",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -90735,18 +90710,6 @@
         ],
         [
             [
-                "U2 M' U' M U2 M U M'"
-            ],
-            [
-                "Diego Meneghetti",
-                "Michael Tripodi"
-            ],
-            [
-                "U2 M':[U',M U2 M]"
-            ]
-        ],
-        [
-            [
                 "d2 M U' M' d2 M U M'"
             ],
             [
@@ -90765,6 +90728,17 @@
             ],
             [
                 "U D R' F R:[S',R2]"
+            ]
+        ],
+        [
+            [
+                "U2 M' U' M U2 M U M'"
+            ],
+            [
+                "Diego Meneghetti"
+            ],
+            [
+                "U2 M':[U',M U2 M]"
             ]
         ],
         [
@@ -90806,7 +90780,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -90864,7 +90837,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -90932,7 +90904,6 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Marcell Endrey",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Rob Holt",
                 "Sebastiano Tronto",
                 "Tim Wong",
@@ -90970,7 +90941,6 @@
                 "Graham Siggins",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)",
@@ -91104,7 +91074,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -91171,7 +91140,6 @@
                 "Ishaan Agrawal",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -91258,7 +91226,6 @@
                 "Ishaan Agrawal",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
-                "Michael Tripodi",
                 "Rob Holt",
                 "Tobias Peter",
                 "Tommy Cherry",
@@ -91335,7 +91302,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -91404,7 +91370,6 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Marcell Endrey",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Rob Holt",
                 "Sebastiano Tronto",
                 "Tim Wong",
@@ -91444,7 +91409,6 @@
                 "Ishaan Agrawal",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -91900,7 +91864,6 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Keita Hayakawa (早川慶太)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Tommy Cherry",
@@ -91940,7 +91903,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)",
@@ -92168,7 +92130,6 @@
             ],
             [
                 "Guoqiao Wang (王国桥)",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -92240,7 +92201,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -92345,17 +92305,6 @@
         ],
         [
             [
-                "S L B' L' S L2 S' L' B L' S'"
-            ],
-            [
-                "Michael Tripodi"
-            ],
-            [
-                "S L B' L':[S,L2]"
-            ]
-        ],
-        [
-            [
                 "r F' R S' R2 S R F r'"
             ],
             [
@@ -92376,7 +92325,6 @@
                 "Guoqiao Wang (王国桥)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Tommy Cherry",
@@ -92419,7 +92367,6 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Keita Hayakawa (早川慶太)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -92447,7 +92394,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -92473,7 +92419,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -92519,7 +92464,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -92575,7 +92519,6 @@
                 "Graham Siggins",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -92636,7 +92579,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)",
@@ -92682,7 +92624,6 @@
                 "Graham Siggins",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -92743,7 +92684,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -92801,7 +92741,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -92848,7 +92787,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -93170,7 +93108,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter"
             ],
             [
@@ -93230,7 +93167,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -93415,8 +93351,7 @@
             [
                 "Diego Meneghetti",
                 "Ishaan Agrawal",
-                "Max Hilliard",
-                "Michael Tripodi"
+                "Max Hilliard"
             ],
             [
                 "L f L:[S,L2]"
@@ -93522,7 +93457,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)",
@@ -93585,7 +93519,6 @@
                 "Graham Siggins",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -93655,7 +93588,6 @@
                 "Guoqiao Wang (王国桥)",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
@@ -93702,7 +93634,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -93753,7 +93684,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -93793,7 +93723,6 @@
             [
                 "Guoqiao Wang (王国桥)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)",
@@ -93817,7 +93746,6 @@
                 "Gavriel Johann Arcilla",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -93878,7 +93806,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Tommy Cherry",
@@ -93919,7 +93846,6 @@
                 "Guoqiao Wang (王国桥)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -93956,7 +93882,6 @@
                 "Graham Siggins",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -94011,7 +93936,6 @@
                 "Anto Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Jonghyun Kim (김종현)",
-                "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
@@ -94054,7 +93978,6 @@
                 "Graham Siggins",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -94110,19 +94033,6 @@
         ],
         [
             [
-                "L E L S' L2 S L E' L'"
-            ],
-            [
-                "Graham Siggins",
-                "Max Hilliard",
-                "Michael Tripodi"
-            ],
-            [
-                "L E L:[S',L2]"
-            ]
-        ],
-        [
-            [
                 "U M' U' L E L2 E' L U M U'"
             ],
             [
@@ -94132,6 +94042,18 @@
             ],
             [
                 "U M' U' L:[E,L2]"
+            ]
+        ],
+        [
+            [
+                "L E L S' L2 S L E' L'"
+            ],
+            [
+                "Graham Siggins",
+                "Max Hilliard"
+            ],
+            [
+                "L E L:[S',L2]"
             ]
         ],
         [
@@ -94500,7 +94422,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Keita Hayakawa (早川慶太)",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -94539,7 +94460,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -94721,7 +94641,6 @@
                 "Ishaan Agrawal",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -94768,7 +94687,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Tommy Cherry",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -94907,17 +94825,6 @@
         ],
         [
             [
-                "S L B' L S L2 S' L B L' S'"
-            ],
-            [
-                "Michael Tripodi"
-            ],
-            [
-                "S L B' L:[S,L2]"
-            ]
-        ],
-        [
-            [
                 "S R B R' S R2 S' R' B' R' S'"
             ],
             [
@@ -94951,7 +94858,6 @@
                 "Graham Siggins",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -95017,7 +94923,6 @@
                 "Graham Siggins",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -95088,7 +94993,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -95115,7 +95019,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -95193,17 +95096,6 @@
         ],
         [
             [
-                "L E' L' U' M U2 M' U' L E L'"
-            ],
-            [
-                "Michael Tripodi"
-            ],
-            [
-                "L E' L' U':[M,U2]"
-            ]
-        ],
-        [
-            [
                 "R S' R' U' M U2 M' U' R S R'"
             ],
             [
@@ -95254,8 +95146,7 @@
                 "Andrew Tan Jing Bang",
                 "Gavriel Johann Arcilla",
                 "Jonghyun Kim (김종현)",
-                "Max Hilliard",
-                "Michael Tripodi"
+                "Max Hilliard"
             ],
             [
                 "L' U':[M,U2]"
@@ -95274,7 +95165,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -95359,8 +95249,7 @@
                 "Andrew Tan Jing Bang",
                 "Gavriel Johann Arcilla",
                 "Jonghyun Kim (김종현)",
-                "Max Hilliard",
-                "Michael Tripodi"
+                "Max Hilliard"
             ],
             [
                 "L U':[M,U2]"
@@ -95378,7 +95267,6 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Keiichiro Taira (平佳一郎)",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -95450,7 +95338,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -95486,7 +95373,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -95791,7 +95677,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -95831,7 +95716,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Tommy Cherry",
@@ -96021,8 +95905,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Ishaan Agrawal",
-                "Keiichiro Taira (平佳一郎)",
-                "Michael Tripodi"
+                "Keiichiro Taira (平佳一郎)"
             ],
             [
                 "r':[U R U',M]"
@@ -96142,8 +96025,7 @@
                 "U2 M U M' U2 M' U' M"
             ],
             [
-                "Anto Kam (甘浩東)",
-                "Michael Tripodi"
+                "Anto Kam (甘浩東)"
             ],
             [
                 "U2 M:[U,M' U2 M']"
@@ -96204,7 +96086,6 @@
                 "Guoqiao Wang (王国桥)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -96256,7 +96137,6 @@
                 "Guoqiao Wang (王国桥)",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
@@ -96304,7 +96184,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -96341,7 +96220,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -96400,7 +96278,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -96426,8 +96303,7 @@
     "GNR": [
         [
             [
-                "l U2 l E' l' U l E l' U l'",
-                "l U2 R S' R' U R S R' U l'"
+                "l U2 l E' l' U l E l' U l'"
             ],
             [
                 "Andrew Tan Jing Bang",
@@ -96436,14 +96312,12 @@
                 "Graham Siggins",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
-                "l U':[U',l E' l']",
-                "l U':[U',R S' R']"
+                "l U':[U',l E' l']"
             ]
         ],
         [
@@ -96504,7 +96378,6 @@
                 "Graham Siggins",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
-                "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
@@ -96543,7 +96416,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Tommy Cherry",
@@ -96579,7 +96451,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -96645,7 +96516,6 @@
                 "Graham Siggins",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)"
@@ -96707,7 +96577,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Tommy Cherry",
@@ -96744,7 +96613,6 @@
                 "Graham Siggins",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Tommy Cherry",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -97213,7 +97081,6 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Keita Hayakawa (早川慶太)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -97240,7 +97107,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -97460,7 +97326,6 @@
                 "Graham Siggins",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -97549,7 +97414,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -97606,7 +97470,6 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Keita Hayakawa (早川慶太)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -97632,7 +97495,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -97667,7 +97529,6 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Keiichiro Taira (平佳一郎)",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -97738,7 +97599,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -97775,7 +97635,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -97822,7 +97681,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)",
@@ -97861,7 +97719,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -97887,7 +97744,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -97935,7 +97791,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -97961,7 +97816,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -97998,7 +97852,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -98046,7 +97899,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -98315,7 +98167,6 @@
                 "Gavriel Johann Arcilla",
                 "Guoqiao Wang (王国桥)",
                 "Jonghyun Kim (김종현)",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
@@ -98357,7 +98208,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -98503,7 +98353,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -98569,7 +98418,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -98631,7 +98479,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -98666,7 +98513,6 @@
                 "Guoqiao Wang (王国桥)",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -98706,7 +98552,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -98733,7 +98578,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -98782,7 +98626,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)",
@@ -98817,7 +98660,6 @@
                 "Graham Siggins",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -98878,7 +98720,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -98903,7 +98744,6 @@
                 "Graham Siggins",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -98952,7 +98792,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -98977,7 +98816,6 @@
                 "Graham Siggins",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -99012,7 +98850,6 @@
                 "Guoqiao Wang (王国桥)",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -99075,8 +98912,7 @@
             ],
             [
                 "Gavriel Johann Arcilla",
-                "Jonghyun Kim (김종현)",
-                "Michael Tripodi"
+                "Jonghyun Kim (김종현)"
             ],
             [
                 "[S,U R U']"
@@ -99413,7 +99249,6 @@
                 "Gavriel Johann Arcilla",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -99461,25 +99296,6 @@
     "GQD": [
         [
             [
-                "U' M' U R U' M U R'"
-            ],
-            [
-                "Andrew Tan Jing Bang",
-                "Anto Kam (甘浩東)",
-                "Gavriel Johann Arcilla",
-                "Israel Fraga da Silva",
-                "Jonghyun Kim (김종현)",
-                "Keiichiro Taira (平佳一郎)",
-                "Michael Tripodi",
-                "Sebastiano Tronto",
-                "Tobias Peter"
-            ],
-            [
-                "[U' M' U,R]"
-            ]
-        ],
-        [
-            [
                 "U M U' R U M' U' R'"
             ],
             [
@@ -99494,6 +99310,24 @@
             ],
             [
                 "[U M U',R]"
+            ]
+        ],
+        [
+            [
+                "U' M' U R U' M U R'"
+            ],
+            [
+                "Andrew Tan Jing Bang",
+                "Anto Kam (甘浩東)",
+                "Gavriel Johann Arcilla",
+                "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
+                "Keiichiro Taira (平佳一郎)",
+                "Sebastiano Tronto",
+                "Tobias Peter"
+            ],
+            [
+                "[U' M' U,R]"
             ]
         ],
         [
@@ -99662,7 +99496,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Rob Holt",
                 "Sebastiano Tronto",
                 "Tim Wong",
@@ -99708,7 +99541,6 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Marcell Endrey",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Rob Holt",
                 "Sebastiano Tronto",
                 "Tim Wong",
@@ -99748,7 +99580,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -99809,7 +99640,6 @@
             [
                 "Guoqiao Wang (王国桥)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)",
@@ -99836,7 +99666,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -99873,7 +99702,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -99910,7 +99738,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -99958,7 +99785,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)",
@@ -99994,7 +99820,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -100043,7 +99868,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -100094,8 +99918,7 @@
                 "E2 L U2 L' E2 L U2 L'"
             ],
             [
-                "Gavriel Johann Arcilla",
-                "Michael Tripodi"
+                "Gavriel Johann Arcilla"
             ],
             [
                 "[E2,L U2 L']"
@@ -100116,24 +99939,6 @@
     "GQX": [
         [
             [
-                "R u R' U' R E R' U R U' R'"
-            ],
-            [
-                "Gavriel Johann Arcilla",
-                "Guoqiao Wang (王国桥)",
-                "Max Hilliard",
-                "Michael Tripodi",
-                "Sebastiano Tronto",
-                "Tobias Peter",
-                "Yangyang Shen (沈炀炀)",
-                "Yifan Wang (王逸帆)"
-            ],
-            [
-                "R u:[R' U' R,E]"
-            ]
-        ],
-        [
-            [
                 "u R2 E R U' R' E' R U R u'"
             ],
             [
@@ -100147,6 +99952,23 @@
             ],
             [
                 "u R':[R' E R,U']"
+            ]
+        ],
+        [
+            [
+                "R u R' U' R E R' U R U' R'"
+            ],
+            [
+                "Gavriel Johann Arcilla",
+                "Guoqiao Wang (王国桥)",
+                "Max Hilliard",
+                "Sebastiano Tronto",
+                "Tobias Peter",
+                "Yangyang Shen (沈炀炀)",
+                "Yifan Wang (王逸帆)"
+            ],
+            [
+                "R u:[R' U' R,E]"
             ]
         ]
     ],
@@ -100165,7 +99987,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -100192,7 +100013,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Tommy Cherry",
@@ -100533,7 +100353,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -100570,7 +100389,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -100722,7 +100540,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -100801,7 +100618,6 @@
                 "Graham Siggins",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)",
@@ -100931,7 +100747,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -100987,7 +100802,6 @@
                 "Gavriel Johann Arcilla",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -101087,17 +100901,6 @@
         ],
         [
             [
-                "L E' L' U M U2 M' U L E L'"
-            ],
-            [
-                "Michael Tripodi"
-            ],
-            [
-                "L E' L' U:[M,U2]"
-            ]
-        ],
-        [
-            [
                 "R S' R' U M U2 M' U R S R'"
             ],
             [
@@ -101132,7 +100935,6 @@
                 "Graham Siggins",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -101202,7 +101004,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)",
@@ -101238,7 +101039,6 @@
                 "Graham Siggins",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -101296,7 +101096,6 @@
                 "Graham Siggins",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)",
@@ -101354,7 +101153,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -101424,8 +101222,7 @@
                 "L2 E' L' U2 L E L' U2 L'"
             ],
             [
-                "Gavriel Johann Arcilla",
-                "Michael Tripodi"
+                "Gavriel Johann Arcilla"
             ],
             [
                 "L:[L E' L',U2]"
@@ -101478,7 +101275,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
@@ -101536,7 +101332,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Tommy Cherry",
@@ -101576,7 +101371,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -101905,7 +101699,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -101946,7 +101739,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -102104,7 +101896,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Rob Holt"
             ],
             [
@@ -102129,7 +101920,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -102196,7 +101986,6 @@
                 "Graham Siggins",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -102258,7 +102047,6 @@
                 "Graham Siggins",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Tommy Cherry",
@@ -102314,8 +102102,7 @@
                 "Andrew Tan Jing Bang",
                 "Gavriel Johann Arcilla",
                 "Jonghyun Kim (김종현)",
-                "Max Hilliard",
-                "Michael Tripodi"
+                "Max Hilliard"
             ],
             [
                 "L' U:[M,U2]"
@@ -102334,7 +102121,6 @@
                 "Graham Siggins",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
-                "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
@@ -102374,7 +102160,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -102402,7 +102187,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -102428,7 +102212,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -102464,7 +102247,6 @@
                 "Graham Siggins",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)",
@@ -102523,7 +102305,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Tommy Cherry",
@@ -102560,7 +102341,6 @@
                 "Graham Siggins",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -102628,7 +102408,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -102673,7 +102452,6 @@
                 "Graham Siggins",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Tommy Cherry"
             ],
@@ -103009,7 +102787,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -103045,7 +102822,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -103189,7 +102965,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -103259,7 +103034,6 @@
                 "Ishaan Agrawal",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -103344,7 +103118,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)",
@@ -103393,7 +103166,6 @@
                 "Guoqiao Wang (王国桥)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -103429,7 +103201,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -103499,7 +103270,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Tommy Cherry",
@@ -103537,7 +103307,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -103583,7 +103352,6 @@
                 "Graham Siggins",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -103632,7 +103400,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -103668,7 +103435,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -103725,7 +103491,6 @@
                 "Graham Siggins",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)",
@@ -103795,7 +103560,6 @@
                 "Graham Siggins",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -103832,24 +103596,6 @@
     "GTY": [
         [
             [
-                "R' U' R U R' E R U' R' u R"
-            ],
-            [
-                "Gavriel Johann Arcilla",
-                "Guoqiao Wang (王国桥)",
-                "Max Hilliard",
-                "Michael Tripodi",
-                "Sebastiano Tronto",
-                "Tobias Peter",
-                "Yangyang Shen (沈炀炀)",
-                "Yifan Wang (王逸帆)"
-            ],
-            [
-                "R' U':[R U R',E]"
-            ]
-        ],
-        [
-            [
                 "U R2 E R U' R' E' R U R U'"
             ],
             [
@@ -103863,6 +103609,23 @@
             ],
             [
                 "U R':[R' E R,U']"
+            ]
+        ],
+        [
+            [
+                "R' U' R U R' E R U' R' u R"
+            ],
+            [
+                "Gavriel Johann Arcilla",
+                "Guoqiao Wang (王国桥)",
+                "Max Hilliard",
+                "Sebastiano Tronto",
+                "Tobias Peter",
+                "Yangyang Shen (沈炀炀)",
+                "Yifan Wang (王逸帆)"
+            ],
+            [
+                "R' U':[R U R',E]"
             ]
         ]
     ],
@@ -103878,7 +103641,6 @@
                 "Elliott Kobelansky",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
@@ -104198,7 +103960,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -104238,7 +103999,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Tommy Cherry",
@@ -104421,7 +104181,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Rob Holt"
             ],
             [
@@ -104476,7 +104235,6 @@
                 "Ishaan Agrawal",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
-                "Michael Tripodi",
                 "Rob Holt",
                 "Tobias Peter",
                 "Tommy Cherry",
@@ -104548,7 +104306,6 @@
                 "Graham Siggins",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -104608,7 +104365,6 @@
                 "Graham Siggins",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -104662,8 +104418,7 @@
                 "Andrew Tan Jing Bang",
                 "Gavriel Johann Arcilla",
                 "Jonghyun Kim (김종현)",
-                "Max Hilliard",
-                "Michael Tripodi"
+                "Max Hilliard"
             ],
             [
                 "L U:[M,U2]"
@@ -104682,7 +104437,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -104752,7 +104506,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -104779,7 +104532,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -104813,17 +104565,6 @@
             ],
             [
                 "U R' U' R:[E',R2]"
-            ]
-        ],
-        [
-            [
-                "L U2 L' E2 L U2 L' E2"
-            ],
-            [
-                "Michael Tripodi"
-            ],
-            [
-                "[L U2 L',E2]"
             ]
         ],
         [
@@ -104865,8 +104606,7 @@
                 "L U2 L E' L' U2 L E L2"
             ],
             [
-                "Gavriel Johann Arcilla",
-                "Michael Tripodi"
+                "Gavriel Johann Arcilla"
             ],
             [
                 "L:[U2,L E' L']"
@@ -104909,7 +104649,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Tommy Cherry",
@@ -104946,7 +104685,6 @@
                 "Graham Siggins",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)",
@@ -105014,7 +104752,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -105061,7 +104798,6 @@
                 "Graham Siggins",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -105358,7 +105094,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -105394,7 +105129,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -105561,7 +105295,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Tommy Cherry",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -105627,7 +105360,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -105688,7 +105420,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -105762,7 +105493,6 @@
                 "Anto Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Jonghyun Kim (김종현)",
-                "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
@@ -105803,7 +105533,6 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Keiichiro Taira (平佳一郎)",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -105872,7 +105601,6 @@
                 "Graham Siggins",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)"
@@ -105934,7 +105662,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -105980,7 +105707,6 @@
                 "Graham Siggins",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -106029,7 +105755,6 @@
             [
                 "Gavriel Johann Arcilla",
                 "Guoqiao Wang (王国桥)",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -106064,7 +105789,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
@@ -106121,7 +105845,6 @@
                 "Graham Siggins",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -106190,7 +105913,6 @@
                 "Graham Siggins",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -106238,7 +105960,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -106275,7 +105996,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -106604,7 +106324,6 @@
                 "Graham Siggins",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -106663,7 +106382,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -106861,7 +106579,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Rob Holt",
                 "Sebastiano Tronto",
                 "Tim Wong",
@@ -106908,7 +106625,6 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Marcell Endrey",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Rob Holt",
                 "Sebastiano Tronto",
                 "Tim Wong",
@@ -106947,7 +106663,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -106993,7 +106708,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -107043,7 +106757,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -107080,7 +106793,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Tommy Cherry",
@@ -107118,7 +106830,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -107164,7 +106875,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
@@ -107223,7 +106933,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -107249,7 +106958,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Tommy Cherry",
@@ -107287,7 +106995,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -107324,24 +107031,6 @@
     "GYT": [
         [
             [
-                "R' u' R U R' E' R U' R' U R"
-            ],
-            [
-                "Gavriel Johann Arcilla",
-                "Guoqiao Wang (王国桥)",
-                "Max Hilliard",
-                "Michael Tripodi",
-                "Sebastiano Tronto",
-                "Tobias Peter",
-                "Yangyang Shen (沈炀炀)",
-                "Yifan Wang (王逸帆)"
-            ],
-            [
-                "R' u':[R U R',E']"
-            ]
-        ],
-        [
-            [
                 "U R' U' R' E R U R' E' R2 U'"
             ],
             [
@@ -107355,6 +107044,23 @@
             ],
             [
                 "U R':[U',R' E R]"
+            ]
+        ],
+        [
+            [
+                "R' u' R U R' E' R U' R' U R"
+            ],
+            [
+                "Gavriel Johann Arcilla",
+                "Guoqiao Wang (王国桥)",
+                "Max Hilliard",
+                "Sebastiano Tronto",
+                "Tobias Peter",
+                "Yangyang Shen (沈炀炀)",
+                "Yifan Wang (王逸帆)"
+            ],
+            [
+                "R' u':[R U R',E']"
             ]
         ]
     ],
@@ -107371,7 +107077,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -107419,7 +107124,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -107731,7 +107435,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -107764,7 +107467,6 @@
                 "Graham Siggins",
                 "Guoqiao Wang (王国桥)",
                 "Israel Fraga da Silva",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -107941,7 +107643,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -108036,7 +107737,6 @@
                 "Ishaan Agrawal",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -108130,7 +107830,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -108183,19 +107882,6 @@
         ],
         [
             [
-                "L E L' S' L2 S L' E' L'"
-            ],
-            [
-                "Graham Siggins",
-                "Max Hilliard",
-                "Michael Tripodi"
-            ],
-            [
-                "L E L':[S',L2]"
-            ]
-        ],
-        [
-            [
                 "U M' U' L' E L2 E' L' U M U'"
             ],
             [
@@ -108205,6 +107891,18 @@
             ],
             [
                 "U M' U' L':[E,L2]"
+            ]
+        ],
+        [
+            [
+                "L E L' S' L2 S L' E' L'"
+            ],
+            [
+                "Graham Siggins",
+                "Max Hilliard"
+            ],
+            [
+                "L E L':[S',L2]"
             ]
         ],
         [
@@ -108244,7 +107942,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -108322,7 +108019,6 @@
                 "Graham Siggins",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Tommy Cherry",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -108415,7 +108111,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -108465,8 +108160,7 @@
             ],
             [
                 "Gavriel Johann Arcilla",
-                "Jonghyun Kim (김종현)",
-                "Michael Tripodi"
+                "Jonghyun Kim (김종현)"
             ],
             [
                 "[U R U',S]"
@@ -108510,7 +108204,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Tommy Cherry",
@@ -108550,7 +108243,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -108573,7 +108265,6 @@
                 "Graham Siggins",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Tommy Cherry"
             ],
@@ -108642,7 +108333,6 @@
                 "Chenhao Sun (孙晨皓)",
                 "Elliott Kobelansky",
                 "Keiichiro Taira (平佳一郎)",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
@@ -108712,7 +108402,6 @@
                 "Graham Siggins",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -108770,7 +108459,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Michael Tripodi",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"

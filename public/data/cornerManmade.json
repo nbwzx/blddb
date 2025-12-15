@@ -647,28 +647,13 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Masato Fujiwara (藤原正人)",
+                "Michael Tripodi",
                 "Shinji Mochizuki (望月真司)",
                 "Tommy Cherry",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
                 "U R D R':[D',R' U R]"
-            ]
-        ],
-        [
-            [
-                "U D R2 D' L2 D R2 D' L2 U'",
-                "U D R2 D' r2 U R2 U' r2 U'"
-            ],
-            [
-                "Anto Kam (甘浩東)",
-                "Daniel White",
-                "Michael Tripodi",
-                "Ryota Futagami (二神亮太)"
-            ],
-            [
-                "U:[D R2 D',L2]",
-                "U D:[R2,D' r2 U]"
             ]
         ],
         [
@@ -682,6 +667,19 @@
             ],
             [
                 "U R F':[R' U R,D]"
+            ]
+        ],
+        [
+            [
+                "U D R2 D' L2 D R2 D' L2 U'"
+            ],
+            [
+                "Anto Kam (甘浩東)",
+                "Daniel White",
+                "Ryota Futagami (二神亮太)"
+            ],
+            [
+                "U:[D R2 D',L2]"
             ]
         ],
         [
@@ -841,16 +839,15 @@
         ],
         [
             [
-                "U R2 D' L2 D R2 D' L2 U' D",
-                "U R2 D' r2 U R2 U' r2 U' D"
+                "R' D R U2 R D' R' U' R D R' U' R' D' R"
             ],
             [
-                "Anto Kam (甘浩東)",
+                "Christopher Morris",
+                "Mark Rivers",
                 "Michael Tripodi"
             ],
             [
-                "U:[R2,D' L2 D]",
-                "U:[R2,D' r2 U]"
+                "R' D R U:[U,R D' R']"
             ]
         ],
         [
@@ -867,14 +864,13 @@
         ],
         [
             [
-                "R' D R U2 R D' R' U' R D R' U' R' D' R"
+                "U R2 D' L2 D R2 D' L2 U' D"
             ],
             [
-                "Christopher Morris",
-                "Mark Rivers"
+                "Anto Kam (甘浩東)"
             ],
             [
-                "R' D R U:[U,R D' R']"
+                "U:[R2,D' L2 D]"
             ]
         ],
         [
@@ -8993,28 +8989,13 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
+                "Michael Tripodi",
                 "Shinji Mochizuki (望月真司)",
                 "Tommy Cherry",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
                 "U R D R':[R' U R,D']"
-            ]
-        ],
-        [
-            [
-                "U L2 D R2 D' L2 D R2 U' D'",
-                "U r2 U R2 U' r2 D R2 U' D'"
-            ],
-            [
-                "Anto Kam (甘浩東)",
-                "Daniel White",
-                "Michael Tripodi",
-                "Ryota Futagami (二神亮太)"
-            ],
-            [
-                "U:[L2,D R2 D']",
-                "U D:[D' r2 U,R2]"
             ]
         ],
         [
@@ -9028,6 +9009,19 @@
             ],
             [
                 "U R F':[D,R' U R]"
+            ]
+        ],
+        [
+            [
+                "U L2 D R2 D' L2 D R2 U' D'"
+            ],
+            [
+                "Anto Kam (甘浩東)",
+                "Daniel White",
+                "Ryota Futagami (二神亮太)"
+            ],
+            [
+                "U:[L2,D R2 D']"
             ]
         ],
         [
@@ -9847,20 +9841,6 @@
         ],
         [
             [
-                "U D' L2 D R2 D' L2 D R2 U'",
-                "U D' r2 U R2 U' r2 D R2 U'"
-            ],
-            [
-                "Anto Kam (甘浩東)",
-                "Michael Tripodi"
-            ],
-            [
-                "U:[D' L2 D,R2]",
-                "U:[D' r2 U,R2]"
-            ]
-        ],
-        [
-            [
                 "R' U2 D' R' D' R U R' D R U D R"
             ],
             [
@@ -9869,6 +9849,29 @@
             ],
             [
                 "R' U2 D':[R' D' R,U]"
+            ]
+        ],
+        [
+            [
+                "R' D R U R D' R' U R D R' U2 R' D' R"
+            ],
+            [
+                "Mark Rivers",
+                "Michael Tripodi"
+            ],
+            [
+                "R' D R U:[R D' R',U]"
+            ]
+        ],
+        [
+            [
+                "U D' L2 D R2 D' L2 D R2 U'"
+            ],
+            [
+                "Anto Kam (甘浩東)"
+            ],
+            [
+                "U:[D' L2 D,R2]"
             ]
         ],
         [
@@ -9891,17 +9894,6 @@
             ],
             [
                 "y' x:[U' L' U,R2]"
-            ]
-        ],
-        [
-            [
-                "R' D R U R D' R' U R D R' U2 R' D' R"
-            ],
-            [
-                "Mark Rivers"
-            ],
-            [
-                "R' D R U:[R D' R',U]"
             ]
         ]
     ],
@@ -40031,7 +40023,6 @@
                 "Jonghyun Kim (김종현)",
                 "Masato Fujiwara (藤原正人)",
                 "Mengfei Shen (沈梦非)",
-                "Michael Tripodi",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Yomie Ko (고현승)"
             ],
@@ -40051,7 +40042,6 @@
                 "Guoqiao Wang (王国桥)",
                 "Keiichiro Taira (平佳一郎)",
                 "Kevin Matthews",
-                "Michael Tripodi",
                 "Oliver Fritz",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
@@ -42472,7 +42462,6 @@
                 "Ethan Pan",
                 "Gavriel Johann Arcilla",
                 "Jacob Tucker",
-                "Michael Tripodi",
                 "Shuto Ueno (上野柊斗)",
                 "Yangyang Shen (沈炀炀)",
                 "Yomie Ko (고현승)",
@@ -45006,7 +44995,6 @@
                 "Ethan Pan",
                 "Gavriel Johann Arcilla",
                 "Jacob Tucker",
-                "Michael Tripodi",
                 "Shuto Ueno (上野柊斗)",
                 "Yangyang Shen (沈炀炀)",
                 "Yomie Ko (고현승)",
@@ -45398,7 +45386,6 @@
                 "Leonardo Ezequiel Cruz",
                 "Max Hilliard",
                 "Mengfei Shen (沈梦非)",
-                "Michael Tripodi",
                 "Neel Gore",
                 "Roman Strakhov",
                 "Shuto Ueno (上野柊斗)",
@@ -52185,7 +52172,6 @@
                 "Vishwanath Jeyaraman",
                 "Xin Shi (石欣)",
                 "Yiwei Liu (刘伊玮)",
-                "Yomie Ko (고현승)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -59315,7 +59301,6 @@
                 "Shuto Ueno (上野柊斗)",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Xin Shi (石欣)",
-                "Yomie Ko (고현승)",
                 "Ziyi Xu (徐梓翼)"
             ],
             [
@@ -63471,7 +63456,6 @@
                 "Shuto Ueno (上野柊斗)",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Xin Shi (石欣)",
-                "Yomie Ko (고현승)",
                 "Ziyi Xu (徐梓翼)"
             ],
             [
@@ -64357,7 +64341,8 @@
                 "Tommy Cherry",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
-                "Yangyang Shen (沈炀炀)"
+                "Yangyang Shen (沈炀炀)",
+                "Yomie Ko (고현승)"
             ],
             [
                 "U' D R':[U,R' D R]"
@@ -64388,28 +64373,6 @@
         ],
         [
             [
-                "R2 U' R' U R D' R' U' R U D R2",
-                "l2 D' R' D R U' R' D' R U D l2"
-            ],
-            [
-                "Chenhao Sun (孙晨皓)",
-                "Gavriel Johann Arcilla",
-                "Hana Davila",
-                "Heejun Kim (김희준)",
-                "Jonghyun Kim (김종현)",
-                "Kevin Matthews",
-                "Yifan Wang (王逸帆)",
-                "Yiwei Liu (刘伊玮)",
-                "Yomie Ko (고현승)",
-                "Zhi Qiao (乔智)"
-            ],
-            [
-                "R2 U':[R' U R,D']",
-                "l2 D':[R' D R,U']"
-            ]
-        ],
-        [
-            [
                 "R U L2 U' R' U L2 U'",
                 "R U r2 D' R' D r2 U'"
             ],
@@ -64427,6 +64390,27 @@
             [
                 "[R,U L2 U']",
                 "[R,U r2 D']"
+            ]
+        ],
+        [
+            [
+                "R2 U' R' U R D' R' U' R U D R2",
+                "l2 D' R' D R U' R' D' R U D l2"
+            ],
+            [
+                "Chenhao Sun (孙晨皓)",
+                "Gavriel Johann Arcilla",
+                "Hana Davila",
+                "Heejun Kim (김희준)",
+                "Jonghyun Kim (김종현)",
+                "Kevin Matthews",
+                "Yifan Wang (王逸帆)",
+                "Yiwei Liu (刘伊玮)",
+                "Zhi Qiao (乔智)"
+            ],
+            [
+                "R2 U':[R' U R,D']",
+                "l2 D':[R' D R,U']"
             ]
         ],
         [
@@ -66164,8 +66148,7 @@
                 "Vishwanath Jeyaraman",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
-                "Yiwei Liu (刘伊玮)",
-                "Yomie Ko (고현승)"
+                "Yiwei Liu (刘伊玮)"
             ],
             [
                 "R' D:[R' U' R,D2]"
@@ -66180,6 +66163,7 @@
                 "Gavriel Johann Arcilla",
                 "Guoqiao Wang (王国桥)",
                 "Yangyang Shen (沈炀炀)",
+                "Yomie Ko (고현승)",
                 "Zhi Qiao (乔智)"
             ],
             [
@@ -70571,7 +70555,6 @@
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Yiwei Liu (刘伊玮)",
-                "Yomie Ko (고현승)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Zhi Qiao (乔智)",
                 "Ziyi Xu (徐梓翼)"
@@ -70586,6 +70569,7 @@
             ],
             [
                 "Hana Davila",
+                "Yomie Ko (고현승)",
                 "Zhi Qiao (乔智)"
             ],
             [
@@ -70653,7 +70637,6 @@
                 "Xin Shi (石欣)",
                 "Yifan Wang (王逸帆)",
                 "Yiwei Liu (刘伊玮)",
-                "Yomie Ko (고현승)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
@@ -70680,6 +70663,7 @@
                 "Leonardo Ezequiel Cruz",
                 "Mengfei Shen (沈梦非)",
                 "Yangyang Shen (沈炀炀)",
+                "Yomie Ko (고현승)",
                 "Zhi Qiao (乔智)"
             ],
             [
@@ -74058,8 +74042,7 @@
                 "Vishwanath Jeyaraman",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
-                "Yiwei Liu (刘伊玮)",
-                "Yomie Ko (고현승)"
+                "Yiwei Liu (刘伊玮)"
             ],
             [
                 "R' D':[R' U' R,D2]"
@@ -74074,6 +74057,7 @@
                 "Gavriel Johann Arcilla",
                 "Guoqiao Wang (王国桥)",
                 "Yangyang Shen (沈炀炀)",
+                "Yomie Ko (고현승)",
                 "Zhi Qiao (乔智)"
             ],
             [
@@ -74713,7 +74697,6 @@
                 "Jonghyun Kim (김종현)",
                 "Masato Fujiwara (藤原正人)",
                 "Mengfei Shen (沈梦非)",
-                "Michael Tripodi",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Yomie Ko (고현승)"
             ],
@@ -74733,7 +74716,6 @@
                 "Guoqiao Wang (王国桥)",
                 "Keiichiro Taira (平佳一郎)",
                 "Kevin Matthews",
-                "Michael Tripodi",
                 "Oliver Fritz",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
@@ -80610,6 +80592,7 @@
                 "Tobias Peter",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)",
+                "Yomie Ko (고현승)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
@@ -80676,7 +80659,6 @@
                 "Xi Lu (鲁曦)",
                 "Yifan Wang (王逸帆)",
                 "Yiwei Liu (刘伊玮)",
-                "Yomie Ko (고현승)",
                 "Zhi Qiao (乔智)"
             ],
             [
@@ -81027,7 +81009,6 @@
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Yiwei Liu (刘伊玮)",
-                "Yomie Ko (고현승)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Zhi Qiao (乔智)",
                 "Ziyi Xu (徐梓翼)"
@@ -81042,6 +81023,7 @@
             ],
             [
                 "Hana Davila",
+                "Yomie Ko (고현승)",
                 "Zhi Qiao (乔智)"
             ],
             [
@@ -81994,7 +81976,6 @@
                 "Vishwanath Jeyaraman",
                 "Xin Shi (石欣)",
                 "Yiwei Liu (刘伊玮)",
-                "Yomie Ko (고현승)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -82923,7 +82904,6 @@
                 "Xin Shi (石欣)",
                 "Yifan Wang (王逸帆)",
                 "Yiwei Liu (刘伊玮)",
-                "Yomie Ko (고현승)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
@@ -82950,6 +82930,7 @@
                 "Leonardo Ezequiel Cruz",
                 "Mengfei Shen (沈梦非)",
                 "Yangyang Shen (沈炀炀)",
+                "Yomie Ko (고현승)",
                 "Zhi Qiao (乔智)"
             ],
             [
