@@ -17,6 +17,7 @@ const Checker = () => {
   const [selectedSheet, setSelectedSheet] = useState("");
   const [selectedTypes, setSelectedTypes] = useState("");
   const [selectedTarget, setSelectedTarget] = useState("");
+  const [selectedInverseFilled, setSelectedInverseFilled] = useState("");
   const [buffer, setBuffer] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
   const [loading, setLoading] = useState(false);
@@ -149,7 +150,7 @@ const Checker = () => {
   }) => {
     setSelectedTypes(event.target.value);
     const newBuffer = getPattern(
-      event.target.value === "BigBLD" ? patterns_5bld : patterns_3bld,
+      event.target.value === t("common.BigBLD") ? patterns_5bld : patterns_3bld,
       selectedSheet,
     );
     setBuffer(newBuffer);
@@ -237,7 +238,7 @@ const Checker = () => {
           firstCol.split("").sort().join("") &&
         expanded === ""
       ) {
-        return "matched";
+        return "empty";
       }
       const codeAuto = is3bld
         ? tracer.getCodeAuto(expanded)
@@ -246,7 +247,7 @@ const Checker = () => {
         ["xcenter", "tcenter"].includes(converter.positionToCodeType(buffer)) &&
         firstRow[0] === firstCol[0]
       ) {
-        return "matched";
+        return "empty";
       }
       const codeFromUser = converter.positionToCustomCode([
         buffer,
@@ -309,7 +310,7 @@ const Checker = () => {
 
     let is3bld = true;
     let converter = codeConverter;
-    if (selectedTypes === "BigBLD") {
+    if (selectedTypes === t("common.BigBLD")) {
       converter = bigbldCodeConverter;
       is3bld = false;
     }
@@ -375,7 +376,10 @@ const Checker = () => {
                                   : "") +
                                 (() => {
                                   const positionValue = getPosition(
-                                    cell,
+                                    cell === "" &&
+                                      selectedInverseFilled === t("checker.no")
+                                      ? (values[cellIndex][rowIndex + 1] ?? "")
+                                      : cell,
                                     getPattern(
                                       is3bld ? patterns_3bld : patterns_5bld,
                                       values[0][cellIndex],
@@ -386,12 +390,20 @@ const Checker = () => {
                                     ),
                                   );
                                   if (
-                                    positionValue === "matched" ||
+                                    (cell !== "" &&
+                                      positionValue === "matched") ||
+                                    (cell === "" &&
+                                      positionValue === "inverse") ||
+                                    positionValue === "empty" ||
                                     cellIndex === 0
                                   ) {
                                     return "";
                                   }
-                                  if (positionValue === "inverse") {
+                                  if (
+                                    (cell !== "" &&
+                                      positionValue === "inverse") ||
+                                    (cell === "" && positionValue === "matched")
+                                  ) {
                                     return "bg-green-300 dark:bg-green-800";
                                   }
                                   return "bg-pink-300 dark:bg-pink-500";
@@ -542,6 +554,24 @@ const Checker = () => {
             >
               <option>{t("checker.row")}</option>
               <option>{t("checker.column")}</option>
+            </select>
+          </div>
+        </>
+      )}
+      {Object.keys(sheetData).length > 0 && (
+        <>
+          <span className="mx-3"></span>
+          <div className="inline-block">
+            <div className="text-dark mt-4 mr-2 mb-3 inline-block font-bold dark:text-white">
+              {t("checker.inverseFilled")}
+            </div>
+            <select
+              id="sheetInverseFilled"
+              onChange={(e) => setSelectedInverseFilled(e.target.value)}
+              className="text-dark focus:border-primary dark:bg-gray-dark dark:focus:border-primary inline-block border-b-[3px] border-gray-500 bg-inherit py-1 pr-5 text-base font-medium outline-hidden transition-all duration-300 dark:border-gray-100 dark:text-white dark:shadow-none dark:focus:shadow-none"
+            >
+              <option>{t("checker.yes")}</option>
+              <option>{t("checker.no")}</option>
             </select>
           </div>
         </>
