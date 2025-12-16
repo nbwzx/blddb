@@ -119,6 +119,10 @@ const menuData: Menu[] = [
         title: "checker.title",
         path: "/checker",
       },
+      {
+        title: "commutator.title",
+        path: "/commutator",
+      },
     ],
   },
   {

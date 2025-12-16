@@ -218,7 +218,17 @@
       "slashNotation": "首选斜线表示法",
       "spaceAfterColon": "冒号后加空格",
       "spaceAfterComma": "逗号后加空格",
-      "outerBrackets": "外部加括号"
+      "outerBrackets": "外部加括号",
+      "order": "Order",
+      "outerBracket": "用括号连接叠加交换子",
+      "initialReplace": "初始替换",
+      "finalReplace": "结束替换",
+      "commute": "交换性",
+      "maxDepth": "最大深度",
+      "sortingRules": "排序规则",
+      "scoreHint": "C:[A,B] 的分数是",
+      "addScore": "叠加惩罚值",
+      "fast": "快速"
     }
   },
   "checker": {
@@ -234,6 +244,31 @@
     "firstTarget": "第一个目标：",
     "row": "行",
     "column": "列"
+  },
+  "commutator": {
+    "title": "交换子",
+    "heading": "将公式分解为交换子表示法或展开交换子。",
+    "single": "单个公式",
+    "excel": "Excel表格",
+    "singleHint": "输入一条公式",
+    "excelHint": "导入Excel/CSV文件，",
+    "excelHint1": "批量处理多个公式。",
+    "openSettings": "打开设置",
+    "settings": "设置",
+    "decompose": "分解",
+    "expand": "展开",
+    "output": "输出结果",
+    "current": "当前",
+    "processing": "处理中",
+    "time": "时间",
+    "orderTip": "order = 4（例如：正阶魔方）\norder = 5（例如：五魔方）\norder = 3（例如：金字塔魔方）\norder = 0 表示自由群",
+    "initialReplaceTip": "替换双层转动\n（例如：r → R M'）",
+    "finalReplaceTip": "替换双层转动\n（例如：R M' → r）",
+    "commuteTip": "处理可交换的转动\n（例如：R 和 L）",
+    "maxDepthTip": "搜索深度的上限，\n0 表示首次可解深度",
+    "addScoreTip": "交换子叠加的分数",
+    "fastTip": "仅显示一个结果",
+    "for": "对于"
   },
   "error": {
     "prefix": "错误：",

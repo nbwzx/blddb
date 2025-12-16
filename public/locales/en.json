@@ -218,7 +218,17 @@
       "slashNotation": "Prefer slash notation",
       "spaceAfterColon": "Space after colon",
       "spaceAfterComma": "Space after comma",
-      "outerBrackets": "Outer brackets"
+      "outerBrackets": "Outer brackets",
+      "order": "Order",
+      "outerBracket": "Outer bracket for combo",
+      "initialReplace": "Initial Replace",
+      "finalReplace": "Final Replace",
+      "commute": "Commute",
+      "maxDepth": "Max Depth",
+      "sortingRules": "Sorting Rules",
+      "scoreHint": "The score of C:[A,B] is",
+      "addScore": "Combo penalty",
+      "fast": "Fast"
     }
   },
   "checker": {
@@ -234,6 +244,31 @@
     "firstTarget": "First Target:",
     "row": "Row",
     "column": "Column"
+  },
+  "commutator": {
+    "title": "Commutator",
+    "heading": "Decompose an algorithm in commutator notation or expand a commutator.",
+    "single": "Single Algorithm",
+    "excel": "Excel",
+    "singleHint": "Enter an algorithm",
+    "excelHint": "Import an Excel/CSV file,",
+    "excelHint1": "Batch process multiple algorithms.",
+    "openSettings": "Open Settings",
+    "settings": "Settings",
+    "decompose": "Decompose",
+    "expand": "Expand",
+    "output": "Output",
+    "current": "Current",
+    "processing": "Processing",
+    "time": "Time",
+    "orderTip": "order = 4 (e.g. cube)\norder = 5 (e.g. Megaminx)\norder = 3 (e.g. Pyraminx)\norder = 0 means free group",
+    "initialReplaceTip": "Replace double layer turns\n(e.g., r → R M')",
+    "finalReplaceTip": "Replace double layer turns\n(e.g., R M' → r)",
+    "commuteTip": "Handle commute moves\n(e.g., R and L)",
+    "maxDepthTip": "Upper bound of search depth,\n0 means first solvable depth",
+    "addScoreTip": "Score for commutator combo",
+    "fastTip": "Show one result only",
+    "for": "for"
   },
   "error": {
     "prefix": "Error: ",

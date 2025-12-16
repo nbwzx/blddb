@@ -607,6 +607,11 @@ const commutator = (function () {
             spaceAfterColon,
             spaceAfterComma,
             outerBrackets,
+            depth,
+            order,
+            initialReplace,
+            finalReplace,
+            commute,
           }),
         );
         if (limit === 0) {
@@ -625,6 +630,7 @@ const commutator = (function () {
     spaceAfterColon: boolean;
     spaceAfterComma: boolean;
     outerBrackets: boolean;
+    depth?: number;
     order?: number;
     initialReplace?: { [id: string]: string };
     finalReplace?: { [id: string]: string };
@@ -638,10 +644,11 @@ const commutator = (function () {
     initialReplace = input.initialReplace ?? initialReplaceInit;
     finalReplace = input.finalReplace ?? finalReplaceInit;
     commute = input.commute ?? commuteInit;
-    if (input.slashNotation) {
+    const depth = input.depth ?? 1;
+    if (depth === 1 && input.slashNotation) {
       alg = applySlash(alg);
     }
-    if (input.noBrackets) {
+    if (depth === 1 && input.noBrackets) {
       alg = alg.replace(/\[/gu, "").replace(/\]/gu, "");
     }
     if (input.spaceAfterColon) {
@@ -650,7 +657,7 @@ const commutator = (function () {
     if (input.spaceAfterComma) {
       alg = alg.replace(/,/gu, ", ");
     }
-    if (input.outerBrackets) {
+    if (depth === 1 && input.outerBrackets) {
       if (alg[0] !== "[") {
         alg = `[${alg}]`;
       }
@@ -748,6 +755,7 @@ const commutator = (function () {
   ): string[] {
     let commuteCount = 0;
     const commuteIndex: number[] = [];
+    let commutatorOutput = "";
     for (let i = 0; i < array.length - 1; i++) {
       if (isSameClass(array[i], array[i + 1])) {
         commuteIndex[commuteCount] = i;
@@ -769,8 +777,16 @@ const commutator = (function () {
       }
       commutatorResult = commutatorMain(commuteArr, depth, maxSubDepth);
       if (commutatorResult[0] !== "Not found.") {
-        return commutatorResult;
+        if (
+          score(commutatorResult[0]) < score(commutatorOutput) ||
+          commutatorOutput === ""
+        ) {
+          commutatorOutput = commutatorResult[0];
+        }
       }
+    }
+    if (commutatorOutput.length > 0) {
+      return [commutatorOutput];
     }
     return ["Not found."];
   }
@@ -780,14 +796,13 @@ const commutator = (function () {
     depth: number,
     maxSubDepth: number,
   ): string[] {
-    let arr = simplify(array),
-      commutatorOutput = "";
-    const arrBak = arr.concat(),
+    let commutatorOutput = "";
+    const arr = simplify(array),
       arrLen = arr.length;
     if (arr.length < 3 * depth + 1) {
       return ["Not found."];
     }
-    for (let d = 0; d <= (arrLen + arr.length + 1) / 2 - 1; d++) {
+    for (let d = 0; d <= arrLen / 2; d++) {
       for (let drKey = 1; drKey < order; drKey++) {
         // 1, -1, 2, -2...
         const dr = ((drKey % 2) * 2 - 1) * Math.floor((drKey + 1) / 2);
@@ -796,59 +811,68 @@ const commutator = (function () {
             break;
           }
         } else {
-          if (Math.abs(dr) > Math.abs(arrBak[d - 1].amount)) {
+          if (Math.abs(dr) > Math.abs(arr[d - 1].amount)) {
             break;
           }
-          if (
-            order % 2 === 1 ||
-            arrBak[d - 1].amount !== Math.floor(order / 2)
-          ) {
+          if (order % 2 === 1 || arr[d - 1].amount !== Math.floor(order / 2)) {
             if (
-              (arrBak[d - 1].amount < 0 && dr > 0) ||
-              (arrBak[d - 1].amount > 0 && dr < 0)
+              (arr[d - 1].amount < 0 && dr > 0) ||
+              (arr[d - 1].amount > 0 && dr < 0)
             ) {
               continue;
             }
           }
         }
-        arr = displace(arrBak, d, dr);
+        let part0 = simplify(repeatEnd(arr.slice(0, d), dr));
         // For a b c b' a' d c' d' = a b:[c,b' a' d]
-        for (let i = 1; i <= arr.length / 2 - 1; i++) {
-          let minj = 0;
+        for (let i = d + 1; i <= d + arr.length / 2 - 1; i++) {
+          let minj = i + 1;
           if (depth === 1) {
-            minj = Math.max(1, Math.floor((arr.length + 1) / 2 - i));
-          } else {
-            minj = 1;
+            minj = Math.max(i + 1, Math.floor((arr.length + 1) / 2));
           }
-          for (let j = minj; j <= arr.length / 2 - 1; j++) {
+          for (
+            let j = minj;
+            j <= Math.min(i + arr.length / 2 - 1, arr.length - 1);
+            j++
+          ) {
             let part1x: Move[] = [],
               part2x: Move[] = [];
             const commuteAdd1: [Move[]] = [[]],
               commuteAdd2: [Move[]] = [[]];
-            if (arr[i - 1].base === arr[i + j - 1].base) {
+            if (arr[i - 1].base === arr[j - 1].base) {
               // For [a bx,by c bz]
               for (let ir = minAmount; ir <= maxAmount; ir++) {
                 if (ir === 0) {
                   continue;
                 }
-                const jr = normalize(arr[i + j - 1].amount + ir);
-                part1x = simplify(repeatEnd(arr.slice(0, i), ir));
+                const jr = normalize(arr[j - 1].amount + ir);
+                if (d > 0) {
+                  part1x = simplify(
+                    repeatEnd([arr[d - 1]], arr[d - 1].amount - dr).concat(
+                      repeatEnd(arr.slice(d, i), ir),
+                    ),
+                  );
+                } else {
+                  part1x = simplify(repeatEnd(arr.slice(d, i), ir));
+                }
                 commuteAdd1.push(part1x);
                 part2x = simplify(
-                  invert(part1x).concat(repeatEnd(arr.slice(0, i + j), jr)),
+                  [
+                    {
+                      base: arr[i - 1].base,
+                      amount: arr[i - 1].amount - ir,
+                    } as Move,
+                  ].concat(repeatEnd(arr.slice(i, j), jr)),
                 );
                 commuteAdd2.push(part2x);
               }
             } else {
-              if (depth === 1 && arr[i].base !== arr[arr.length - 1].base) {
-                continue;
-              }
-              part1x = simplify(arr.slice(0, i));
+              part1x = simplify(arr.slice(d, i));
               commuteAdd1.push(part1x);
-              part2x = simplify(arr.slice(i, i + j));
+              part2x = simplify(arr.slice(i, j));
               commuteAdd2.push(part2x);
               let commuteCase: Move[] = [];
-              if (isSameClass(arr[i - 1], arr[i + j - 1])) {
+              if (isSameClass(arr[i - 1], arr[j - 1])) {
                 // For L a R b L' a' R' b' = [L a R,b L' R]
                 commuteAdd1.push(part1x);
                 commuteCase = simplify(part2x.concat([arr[i - 1]]));
@@ -862,22 +886,20 @@ const commutator = (function () {
                   }
                 }
               }
-              if (isSameClass(arr[i], arr[i + j])) {
+              if (isSameClass(arr[i], arr[j])) {
                 // For a R b L a' R' b' L' = [a R b R,R' L a'] = [a R L',L b R]
-                commuteCase = simplify(part1x.concat(invert([arr[i + j]])));
+                commuteCase = simplify(part1x.concat(invert([arr[j]])));
                 commuteAdd1.push(commuteCase);
-                commuteCase = simplify([arr[i + j]].concat(part2x));
+                commuteCase = simplify([arr[j]].concat(part2x));
                 commuteAdd2.push(commuteCase);
                 // For a R2 b R' L2 a' R' L' b' L' = [a R2 b L R,R2' L a'] = [a R2 L',L b R L]
-                if (arr.length >= i + j + 2) {
-                  if (isSameClass(arr[i + j], arr[i + j + 1])) {
+                if (arr.length >= j + 2) {
+                  if (isSameClass(arr[j], arr[j + 1])) {
                     commuteCase = simplify(
-                      part1x.concat(invert(arr.slice(i + j, i + j + 2))),
+                      part1x.concat(invert(arr.slice(j, j + 2))),
                     );
                     commuteAdd1.push(commuteCase);
-                    commuteCase = simplify(
-                      arr.slice(i + j, i + j + 2).concat(part2x),
-                    );
+                    commuteCase = simplify(arr.slice(j, j + 2).concat(part2x));
                     commuteAdd2.push(commuteCase);
                   }
                 }
@@ -891,8 +913,16 @@ const commutator = (function () {
               part1x = commuteAdd1[commuteAddKey];
               part2x = commuteAdd2[commuteAddKey];
               const subArr = simplify(
-                part2x.concat(part1x, invert(part2x), invert(part1x), arr),
+                part2x.concat(
+                  part1x,
+                  invert(part0.concat(part1x, part2x)),
+                  arr,
+                  part0,
+                ),
               );
+              if (subArr.length > arr.length) {
+                continue;
+              }
               let subPart = "";
               if (depth > 1) {
                 subPart = commutatorPre(subArr, depth - 1, maxSubDepth)[0];
@@ -916,8 +946,7 @@ const commutator = (function () {
                   }
                 }
                 // For a b c b' a' d c' d' = a b:[c,b' a' d] = d:[d' a b,c]
-                let part0 = simplify(repeatEnd(arrBak.slice(0, d), dr)),
-                  part1 = part1y,
+                let part1 = part1y,
                   part2 = part2y;
                 if (part0.length > 0 && maxSubDepth === 1) {
                   const partz = simplify(part0.concat(part2y));
@@ -1006,12 +1035,6 @@ const commutator = (function () {
       return `[${part1},${part2}]${subPart}`;
     }
     return `[${part0}:[${part1},${part2}]${subPart}]`;
-  }
-
-  function displace(array: Move[], d: number, dr: number): Move[] {
-    const arr = array.concat(),
-      arrEnd = repeatEnd(arr.slice(0, d), dr);
-    return simplify(invert(arrEnd).concat(arr, arrEnd));
   }
 
   function invert(array: Move[]): Move[] {
