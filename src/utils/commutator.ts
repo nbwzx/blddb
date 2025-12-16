@@ -957,6 +957,22 @@ const commutator = (function () {
                     part2 = part1y;
                   }
                 }
+                // [L,R a]=R:[L,a]
+                if (areMovesSameClass(part1.concat(part2[0]))) {
+                  continue;
+                }
+                // [L,a R]=[L,a]
+                if (areMovesSameClass(part1.concat(part2[part2.length - 1]))) {
+                  continue;
+                }
+                // [R a,L]=R:[a,L]
+                if (areMovesSameClass(part2.concat(part1[0]))) {
+                  continue;
+                }
+                // [a R,L]=[a,L]
+                if (areMovesSameClass(part2.concat(part1[part1.length - 1]))) {
+                  continue;
+                }
                 const part1Output = arrayToStr(part1),
                   part2Output = arrayToStr(part2),
                   part0Output = arrayToStr(part0);
@@ -1147,6 +1163,14 @@ const commutator = (function () {
       }
     }
     return false;
+  }
+
+  function areMovesSameClass(moves: Move[]): boolean {
+    if (moves.length < 2) {
+      return true;
+    }
+    const firstClass = commute[moves[0].base]?.class;
+    return moves.every((move) => commute[move.base]?.class === firstClass);
   }
 
   function swapArray(array: Move[], index1: number, index2: number): Move[] {
