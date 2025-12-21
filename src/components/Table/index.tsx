@@ -150,7 +150,7 @@ const Table = ({
       setVideoList(videos);
       setVideoIdx(0);
       const { width, height } = videos[0];
-      calculateAndSetDimensions(width, height);
+      calculateAndSetDimensions(Number(width), Number(height));
       setIsVideoVisible(true);
     }
   };
@@ -161,7 +161,7 @@ const Table = ({
       const newIdx = (videoIdx + delta + videoList.length) % videoList.length;
       setVideoIdx(newIdx);
       const { width, height } = videoList[newIdx];
-      calculateAndSetDimensions(width, height);
+      calculateAndSetDimensions(Number(width), Number(height));
     }
   };
 
