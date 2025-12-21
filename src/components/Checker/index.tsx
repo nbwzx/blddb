@@ -89,7 +89,7 @@ const Checker = () => {
 
   const fetchData = async () => {
     const cacheBuster = Date.now();
-    const url = `https://script.google.com/macros/s/AKfycbxfs10HxZnBhXJCB8migjEn9BVyHPk-VgZXS2HlJYMdPxPZMijgYBkHcMyhGpH82k7Udw/exec?spreadsheetId=${extractIdFromURL(GsURL)}&cb=${cacheBuster}`;
+    const url = `https://script.google.com/macros/s/AKfycbzMtytuPmS-bvlQYfruCTQMsJHjDjaeEXF0dsDUeHVoqfVCZwVH1sBbqt_wyi-51PEwBg/exec?spreadsheetId=${extractIdFromURL(GsURL)}&cb=${cacheBuster}`;
     setSheetData({});
     setSelectedSheet("");
     setBuffer("");
