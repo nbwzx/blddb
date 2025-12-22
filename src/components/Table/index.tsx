@@ -9,8 +9,8 @@ import rewrite from "@/utils/rewrite";
 
 interface VideoAttributes {
   url: string;
-  width: number;
-  height: number;
+  width: string;
+  height: string;
 }
 
 function matchesPattern(patterns: string[], str: string): boolean {
