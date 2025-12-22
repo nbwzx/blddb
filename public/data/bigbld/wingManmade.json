@@ -184,6 +184,13 @@
             "Rw' D U':[R2,U' r U]"
         ],
         [
+            "Rw' U b' R' F' R b R' F R U' Rw",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "Rw' U:[b',R' F' R]"
+        ],
+        [
             "Rw' D U' R2 U l U' R2 U l' D' Rw",
             [
                 "Sebastiano Tronto"
@@ -203,13 +210,6 @@
                 "Dong Zhu (朱栋)"
             ],
             "[U2 r' U2 r U2,l]"
-        ],
-        [
-            "Rw' U b' R' F' R b R' F R U' Rw",
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            "Rw' U:[b',R' F' R]"
         ]
     ],
     "ABF": [
@@ -744,20 +744,20 @@
             "D Lw' U':[R' u' R,U2]"
         ],
         [
-            "D' l' U2 l' D l U2 l' D' l2 D",
-            [
-                "Sebastiano Tronto",
-                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
-            ],
-            "D' l':[U2,l' D l]"
-        ],
-        [
             "D' Lw' U' R' u R U2 R' u' R U' Lw D",
             [
                 "Anto Kam (甘浩東)",
                 "Gavriel Johann Arcilla"
             ],
             "D' Lw' U':[R' u R,U2]"
+        ],
+        [
+            "D' l' U2 l' D l U2 l' D' l2 D",
+            [
+                "Sebastiano Tronto",
+                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
+            ],
+            "D' l':[U2,l' D l]"
         ],
         [
             "D l' U2 l' D' l U2 l' D l2 D'",
@@ -1586,20 +1586,20 @@
             "S' U':[L' u L,U2]"
         ],
         [
-            "Rw' U2 R U' R' U r U' R U Rw' U2 Rw",
-            [
-                "Howie Craig",
-                "Sebastiano Tronto"
-            ],
-            "Rw' U2 R:[U' R' U,r]"
-        ],
-        [
             "F' U2 R' u' R U' R' u R U' F",
             [
                 "Gavriel Johann Arcilla",
                 "Xin Shi (石欣)"
             ],
             "F' U:[U,R' u' R]"
+        ],
+        [
+            "Rw' U2 R U' R' U r U' R U Rw' U2 Rw",
+            [
+                "Howie Craig",
+                "Sebastiano Tronto"
+            ],
+            "Rw' U2 R:[U' R' U,r]"
         ],
         [
             "L' Uw' U2 R' u' R U2 R' u R Uw L",
@@ -2033,6 +2033,13 @@
             "U' R':[U' R U,r2]"
         ],
         [
+            "4Fw R U' r' U R' U' r U 4Fw'",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "4Fw:[R,U' r' U]"
+        ],
+        [
             "D 4Rw2 U' r2 U 4Rw2 D' r2",
             [
                 "Timo Norrkniivilä"
@@ -2045,13 +2052,6 @@
                 "Kevin Matthews"
             ],
             "3Lw' 4Lw2:[U L' U',r2]"
-        ],
-        [
-            "4Fw R U' r' U R' U' r U 4Fw'",
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            "4Fw:[R,U' r' U]"
         ]
     ],
     "ACN": [
@@ -3295,20 +3295,20 @@
             "Lw' r':[U' L U,r2]"
         ],
         [
-            "D L F' L' b' L F L' b D'",
-            [
-                "Andrew Tan Jing Bang",
-                "Anto Kam (甘浩東)"
-            ],
-            "D:[L F' L',b']"
-        ],
-        [
             "S r2 R U' R' U r2 U' R U R' S'",
             [
                 "Gavriel Johann Arcilla",
                 "Howie Craig"
             ],
             "S R:[r2,U' R' U]"
+        ],
+        [
+            "D L F' L' b' L F L' b D'",
+            [
+                "Andrew Tan Jing Bang",
+                "Anto Kam (甘浩東)"
+            ],
+            "D:[L F' L',b']"
         ],
         [
             "Lw r' U' L' U r2 U' L U r' Lw'",
@@ -3813,15 +3813,6 @@
             "L U':[U',R' u' R]"
         ],
         [
-            "x D' r' U' L U r U' L' U D x'",
-            [
-                "Adrian Dębski",
-                "Dong Zhu (朱栋)",
-                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
-            ],
-            "x D':[r',U' L U]"
-        ],
-        [
             "Rw U R u R' U R u' R' U2 Rw'",
             [
                 "Andrew Tan Jing Bang",
@@ -3829,6 +3820,15 @@
                 "Kai Yamamoto (山本快)"
             ],
             "Rw U:[R u R',U]"
+        ],
+        [
+            "x D' r' U' L U r U' L' U D x'",
+            [
+                "Adrian Dębski",
+                "Dong Zhu (朱栋)",
+                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
+            ],
+            "x D':[r',U' L U]"
         ],
         [
             "r U R u R' U R u' R' U2 r'",
@@ -4096,6 +4096,13 @@
             "Rw' D U':[U' r U,R2]"
         ],
         [
+            "Rw' U R' F' R b' R' F R b U' Rw",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "Rw' U:[R' F' R,b']"
+        ],
+        [
             "Rw' D l U' R2 U l' U' R2 U D' Rw",
             [
                 "Sebastiano Tronto"
@@ -4115,13 +4122,6 @@
                 "Dong Zhu (朱栋)"
             ],
             "[l,U2 r' U2 r U2]"
-        ],
-        [
-            "Rw' U R' F' R b' R' F R b U' Rw",
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            "Rw' U:[R' F' R,b']"
         ]
     ],
     "AEC": [
@@ -4161,20 +4161,20 @@
             "S' U:[L' u L,U2]"
         ],
         [
-            "Rw' U2 Rw U' R' U r' U' R U R' U2 Rw",
-            [
-                "Howie Craig",
-                "Sebastiano Tronto"
-            ],
-            "Rw' U2 R:[r,U' R' U]"
-        ],
-        [
             "F' U R' u' R U R' u R U2 F",
             [
                 "Gavriel Johann Arcilla",
                 "Xin Shi (石欣)"
             ],
             "F' U:[R' u' R,U]"
+        ],
+        [
+            "Rw' U2 Rw U' R' U r' U' R U R' U2 Rw",
+            [
+                "Howie Craig",
+                "Sebastiano Tronto"
+            ],
+            "Rw' U2 R:[r,U' R' U]"
         ],
         [
             "L' Uw' R' u' R U2 R' u R U2 Uw L",
@@ -4385,18 +4385,18 @@
             "Rw F Rw' U':[R' u' R,U2]"
         ],
         [
-            "D' S' U' R' u R U2 R' u' R U' S D",
-            [
-                "Anto Kam (甘浩東)"
-            ],
-            "D' S' U':[R' u R,U2]"
-        ],
-        [
             "Rw F' Rw' U' R' u R U2 R' u' R U' Rw F Rw'",
             [
                 "Gavriel Johann Arcilla"
             ],
             "Rw F' Rw' U':[R' u R,U2]"
+        ],
+        [
+            "D' S' U' R' u R U2 R' u' R U' S D",
+            [
+                "Anto Kam (甘浩東)"
+            ],
+            "D' S' U':[R' u R,U2]"
         ]
     ],
     "AEJ": [
@@ -4599,6 +4599,13 @@
             "[U2,Lw U2 r' U2 Lw']"
         ],
         [
+            "U R U' r2 U' R' U r2 U' R U2 R' U'",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "U R U':[r2,U' R' U]"
+        ],
+        [
             "D' Rw' U2 r U' R' U r' U' R U' Rw D",
             [
                 "Sebastiano Tronto"
@@ -4625,13 +4632,6 @@
                 "Ethan Pan"
             ],
             "x':[Lw' U2 r U2 Lw,U2]"
-        ],
-        [
-            "U R U' r2 U' R' U r2 U' R U2 R' U'",
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            "U R U':[r2,U' R' U]"
         ]
     ],
     "AEN": [
@@ -5748,7 +5748,6 @@
                 "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
-                "Yomie Ko (고현승)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -5834,6 +5833,13 @@
             "U':[b,L' B' L]"
         ],
         [
+            "4Fw U R U' r' U R' U' r 4Fw'",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "4Fw:[U R U',r']"
+        ],
+        [
             "F U R U' r' U R' U' r F'",
             [
                 "Xi Lu (鲁曦)"
@@ -5853,13 +5859,6 @@
                 "Ethan Pan"
             ],
             "U' x':[u,L' U' L]"
-        ],
-        [
-            "4Fw U R U' r' U R' U' r 4Fw'",
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            "4Fw:[U R U',r']"
         ]
     ],
     "AFN": [
@@ -6620,18 +6619,18 @@
             "[U2,3Rw U2 l' U2 3Rw']"
         ],
         [
-            "D' S' U R' u R U2 R' u' R U S D",
-            [
-                "Anto Kam (甘浩東)"
-            ],
-            "D' S' U:[R' u R,U2]"
-        ],
-        [
             "Rw F' Rw' U R' u R U2 R' u' R U Rw F Rw'",
             [
                 "Gavriel Johann Arcilla"
             ],
             "Rw F' Rw' U:[R' u R,U2]"
+        ],
+        [
+            "D' S' U R' u R U2 R' u' R U S D",
+            [
+                "Anto Kam (甘浩東)"
+            ],
+            "D' S' U:[R' u R,U2]"
         ]
     ],
     "AIF": [
@@ -6846,6 +6845,13 @@
             "4Rw:[U2,l D l']"
         ],
         [
+            "D R' F' R f' R' F2 R f R' F' R D'",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "D R' F':[R f' R',F2]"
+        ],
+        [
             "Rw U l' U l D l' U' l D' U' Rw'",
             [
                 "Dong Zhu (朱栋)"
@@ -6858,13 +6864,6 @@
                 "Dong Zhu (朱栋)"
             ],
             "r U:[l' U l,D]"
-        ],
-        [
-            "D R' F' R f' R' F2 R f R' F' R D'",
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            "D R' F':[R f' R',F2]"
         ]
     ],
     "AIL": [
@@ -6987,6 +6986,13 @@
             "Rw U' Rw':[l' U' l,D2]"
         ],
         [
+            "D' R D' U' R U r2 U' R' U r2 D R' D",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "D' R D':[U' R U,r2]"
+        ],
+        [
             "x U2 Lw' U2 r U2 Lw U2 Lw' U2 r' U2 Lw x'",
             [
                 "Xi Lu (鲁曦)"
@@ -6999,13 +7005,6 @@
                 "Anto Kam (甘浩東)"
             ],
             "D' R' D':[U' R' U,r2]"
-        ],
-        [
-            "D' R D' U' R U r2 U' R' U r2 D R' D",
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            "D' R D':[U' R U,r2]"
         ]
     ],
     "AIN": [
@@ -7073,6 +7072,13 @@
             "x':[r U2 r',D2]"
         ],
         [
+            "U' x' l U R U' l' U R' U' x U",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "U' x':[l,U R U']"
+        ],
+        [
             "4Rw' r U2 r' D2 r U2 r' D2 4Rw",
             [
                 "Xi Lu (鲁曦)"
@@ -7092,13 +7098,6 @@
                 "Christopher Morris"
             ],
             "l:[U2,r' D2 r]"
-        ],
-        [
-            "U' x' l U R U' l' U R' U' x U",
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            "U' x':[l,U R U']"
         ]
     ],
     "AIO": [
@@ -7290,18 +7289,18 @@
             "D:[D r2 D',R']"
         ],
         [
-            "R2 F R f' R' F2 R f R' F R2",
-            [
-                "Daniel Lin"
-            ],
-            "R2 F:[R f' R',F2]"
-        ],
-        [
             "D2 U' R U r2 U' R' U r2 D2",
             [
                 "Gavriel Johann Arcilla"
             ],
             "D2:[U' R U,r2]"
+        ],
+        [
+            "R2 F R f' R' F2 R f R' F R2",
+            [
+                "Daniel Lin"
+            ],
+            "R2 F:[R f' R',F2]"
         ]
     ],
     "AIR": [
@@ -7338,20 +7337,20 @@
             "R D:[f',R' F R]"
         ],
         [
-            "Rw D' U' r D' r' U r D r' D Rw'",
-            [
-                "Dong Zhu (朱栋)",
-                "Graham Siggins"
-            ],
-            "Rw D':[U',r D' r']"
-        ],
-        [
             "D2 r U R U' r2 U R' U' r D2",
             [
                 "Gavriel Johann Arcilla",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "D2 r:[U R U',r2]"
+        ],
+        [
+            "Rw D' U' r D' r' U r D r' D Rw'",
+            [
+                "Dong Zhu (朱栋)",
+                "Graham Siggins"
+            ],
+            "Rw D':[U',r D' r']"
         ],
         [
             "D R' D' r U' R' U r' U' R U D R D'",
@@ -7607,18 +7606,18 @@
             "U2 l:[U L U',l2]"
         ],
         [
-            "L' D r U' R2 U r' U' R2 U D' L",
-            [
-                "Xin Shi (石欣)"
-            ],
-            "L' D:[r,U' R2 U]"
-        ],
-        [
             "Lw' l' U L' u L U2 L' u' L U l Lw",
             [
                 "Gavriel Johann Arcilla"
             ],
             "Lw' l' U:[L' u L,U2]"
+        ],
+        [
+            "L' D r U' R2 U r' U' R2 U D' L",
+            [
+                "Xin Shi (石欣)"
+            ],
+            "L' D:[r,U' R2 U]"
         ]
     ],
     "AIY": [
@@ -8277,18 +8276,18 @@
             "Lw':[U L' U',r]"
         ],
         [
-            "3Lw' U L' U' r U L U' 4Lw",
-            [
-                "Kevin Matthews"
-            ],
-            "3Lw':[U L' U',r]"
-        ],
-        [
             "S' Rw' D R D' r D R' D' R S",
             [
                 "Gavriel Johann Arcilla"
             ],
             "S' R':[r',D R D']"
+        ],
+        [
+            "3Lw' U L' U' r U L U' 4Lw",
+            [
+                "Kevin Matthews"
+            ],
+            "3Lw':[U L' U',r]"
         ]
     ],
     "AJL": [
@@ -8491,20 +8490,20 @@
             "U:[r U' r',D2]"
         ],
         [
-            "4Lw' U R' F' R f R' F R f' U' 4Lw",
-            [
-                "Anto Kam (甘浩東)",
-                "Michael Tripodi"
-            ],
-            "4Lw' U:[R' F' R,f]"
-        ],
-        [
             "U' D R' u' R D2 R' u R D U",
             [
                 "Gavriel Johann Arcilla",
                 "Ryan Eckersley"
             ],
             "U' D:[R' u' R,D2]"
+        ],
+        [
+            "4Lw' U R' F' R f R' F R f' U' 4Lw",
+            [
+                "Anto Kam (甘浩東)",
+                "Michael Tripodi"
+            ],
+            "4Lw' U:[R' F' R,f]"
         ],
         [
             "Rw D' R U R U' r U R' U' Rw' D Rw'",
@@ -9442,18 +9441,18 @@
             "4Lw' U':[R' d R,U2]"
         ],
         [
-            "Rw U D l' U l D' l' U' l U' Rw'",
-            [
-                "Dong Zhu (朱栋)"
-            ],
-            "Rw U:[D,l' U l]"
-        ],
-        [
             "D R' F R f' R' F2 R f R' F R D'",
             [
                 "Gavriel Johann Arcilla"
             ],
             "D R' F:[R f' R',F2]"
+        ],
+        [
+            "Rw U D l' U l D' l' U' l U' Rw'",
+            [
+                "Dong Zhu (朱栋)"
+            ],
+            "Rw U:[D,l' U l]"
         ]
     ],
     "AKJ": [
@@ -9843,20 +9842,20 @@
             "L2:[r' D' r,U']"
         ],
         [
-            "x d R U R' d' R U' R' x'",
-            [
-                "Oliver Fritz",
-                "Tobias Peter"
-            ],
-            "x:[d,R U R']"
-        ],
-        [
             "S' R' u R U' R' u' R U S",
             [
                 "Chenhao Sun (孙晨皓)",
                 "Gavriel Johann Arcilla"
             ],
             "S':[R' u R,U']"
+        ],
+        [
+            "x d R U R' d' R U' R' x'",
+            [
+                "Oliver Fritz",
+                "Tobias Peter"
+            ],
+            "x:[d,R U R']"
         ],
         [
             "Lw2 r' D' r U' r' D r U Lw2",
@@ -10605,7 +10604,6 @@
                 "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
-                "Yomie Ko (고현승)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -10794,16 +10792,6 @@
             "y Rw:[D2,r U' r']"
         ],
         [
-            "y r D2 r U' r' D2 r U r2 y'",
-            [
-                "Adrian Dębski",
-                "Ethan Pan",
-                "Oliver Fritz",
-                "Tobias Peter"
-            ],
-            "y r:[D2,r U' r']"
-        ],
-        [
             "D' U r D2 r U' r' D2 r U r2 U' D",
             [
                 "Gavriel Johann Arcilla",
@@ -10812,6 +10800,16 @@
                 "Ryan Eckersley"
             ],
             "U D' r:[D2,r U' r']"
+        ],
+        [
+            "y r D2 r U' r' D2 r U r2 y'",
+            [
+                "Adrian Dębski",
+                "Ethan Pan",
+                "Oliver Fritz",
+                "Tobias Peter"
+            ],
+            "y r:[D2,r U' r']"
         ],
         [
             "U D' Rw D2 r U' r' D2 r U r' Rw' D U'",
@@ -10893,15 +10891,6 @@
             "r':[U' L2 U,r2]"
         ],
         [
-            "4Lw U' L U r2 U' L' U r2 4Lw'",
-            [
-                "Daniel Wallin",
-                "Dong Zhu (朱栋)",
-                "Xi Lu (鲁曦)"
-            ],
-            "4Lw:[U' L U,r2]"
-        ],
-        [
             "U f' L B' L' f L B L' U'",
             [
                 "Anto Kam (甘浩東)",
@@ -10909,6 +10898,15 @@
                 "Ryan Eckersley"
             ],
             "U:[f',L B' L']"
+        ],
+        [
+            "4Lw U' L U r2 U' L' U r2 4Lw'",
+            [
+                "Daniel Wallin",
+                "Dong Zhu (朱栋)",
+                "Xi Lu (鲁曦)"
+            ],
+            "4Lw:[U' L U,r2]"
         ],
         [
             "x r2 U' L' U r2 U' L U x'",
@@ -11785,6 +11783,13 @@
             "3Lw':[U L U',r2]"
         ],
         [
+            "4Fw U' r' U R U' r U R' 4Fw'",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "4Fw:[U' r' U,R]"
+        ],
+        [
             "r2 D 4Rw2 U' r2 U 4Rw2 D'",
             [
                 "Timo Norrkniivilä"
@@ -11797,13 +11802,6 @@
                 "Kevin Matthews"
             ],
             "3Lw:[U L' U',r2]"
-        ],
-        [
-            "4Fw U' r' U R U' r U R' 4Fw'",
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            "4Fw:[U' r' U,R]"
         ]
     ],
     "AMD": [
@@ -11857,20 +11855,20 @@
             "Lw' r:[U' L U,r2]"
         ],
         [
-            "D b' L F' L' b L F L' D'",
-            [
-                "Andrew Tan Jing Bang",
-                "Anto Kam (甘浩東)"
-            ],
-            "D:[b',L F' L']"
-        ],
-        [
             "S R U' R' U r2 U' R U R' r2 S'",
             [
                 "Gavriel Johann Arcilla",
                 "Howie Craig"
             ],
             "S R:[U' R' U,r2]"
+        ],
+        [
+            "D b' L F' L' b L F L' D'",
+            [
+                "Andrew Tan Jing Bang",
+                "Anto Kam (甘浩東)"
+            ],
+            "D:[b',L F' L']"
         ],
         [
             "x U' L U r2 U' L' U r2 x'",
@@ -11931,6 +11929,13 @@
             "[3Lw U2 r' U2 3Lw',U2]"
         ],
         [
+            "U R U2 R' U r2 U' R U r2 U R' U'",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "U R U':[U' R' U,r2]"
+        ],
+        [
             "D' Rw' U R' U r U' R U r' U2 Rw D",
             [
                 "Sebastiano Tronto"
@@ -11957,13 +11962,6 @@
                 "Ethan Pan"
             ],
             "x':[U2,Lw' U2 r U2 Lw]"
-        ],
-        [
-            "U R U2 R' U r2 U' R U r2 U R' U'",
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            "U R U':[U' R' U,r2]"
         ]
     ],
     "AMF": [
@@ -12011,6 +12009,13 @@
             "U':[L' B' L,b]"
         ],
         [
+            "4Fw r' U R U' r U R' U' 4Fw'",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "4Fw:[r',U R U']"
+        ],
+        [
             "U 4Lw U R' d R U' R' d' x U'",
             [
                 "Jonghyun Kim (김종현)"
@@ -12023,13 +12028,6 @@
                 "Ethan Pan"
             ],
             "U' x':[L' U' L,u]"
-        ],
-        [
-            "4Fw r' U R U' r U R' U' 4Fw'",
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            "4Fw:[r',U R U']"
         ]
     ],
     "AMI": [
@@ -12094,6 +12092,13 @@
             "Rw U' Rw':[D2,l' U' l]"
         ],
         [
+            "D' R D' r2 U' R U r2 U' R' U D R' D",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "D' R D':[r2,U' R U]"
+        ],
+        [
             "x Lw' U2 r U2 Lw U2 Lw' U2 r' U2 Lw U2 x'",
             [
                 "Xi Lu (鲁曦)"
@@ -12106,13 +12111,6 @@
                 "Anto Kam (甘浩東)"
             ],
             "D' R' D':[r2,U' R' U]"
-        ],
-        [
-            "D' R D' r2 U' R U r2 U' R' U D R' D",
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            "D' R D':[r2,U' R U]"
         ]
     ],
     "AMJ": [
@@ -12509,6 +12507,13 @@
             "Rw:[r2,D R' D']"
         ],
         [
+            "D' r U' R2 U r' U' R2 U D",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "D':[r,U' R2 U]"
+        ],
+        [
             "U r2 U' r' D' r U r' D r' U'",
             [
                 "Ziyi Xu (徐梓翼)"
@@ -12535,13 +12540,6 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "x':[r2,U R' U']"
-        ],
-        [
-            "D' r U' R2 U r' U' R2 U D",
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            "D':[r,U' R2 U]"
         ]
     ],
     "AMQ": [
@@ -12933,20 +12931,20 @@
             "D Lw' U:[R' u' R,U2]"
         ],
         [
-            "D' l2 D l U2 l' D' l U2 l D",
-            [
-                "Sebastiano Tronto",
-                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
-            ],
-            "D' l':[l' D l,U2]"
-        ],
-        [
             "D' Lw' U R' u R U2 R' u' R U Lw D",
             [
                 "Anto Kam (甘浩東)",
                 "Gavriel Johann Arcilla"
             ],
             "D' Lw' U:[R' u R,U2]"
+        ],
+        [
+            "D' l2 D l U2 l' D' l U2 l D",
+            [
+                "Sebastiano Tronto",
+                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
+            ],
+            "D' l':[l' D l,U2]"
         ],
         [
             "D l2 D' l U2 l' D l U2 l D'",
@@ -13305,6 +13303,13 @@
             "x':[D2,r U2 r']"
         ],
         [
+            "U' x' U R U' l U R' U' l' x U",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "U' x':[U R U',l]"
+        ],
+        [
             "4Rw' D2 r U2 r' D2 r U2 r' 4Rw",
             [
                 "Xi Lu (鲁曦)"
@@ -13324,13 +13329,6 @@
                 "Christopher Morris"
             ],
             "l:[r' D2 r,U2]"
-        ],
-        [
-            "U' x' U R U' l U R' U' l' x U",
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            "U' x':[U R U',l]"
         ]
     ],
     "ANJ": [
@@ -13377,20 +13375,20 @@
             "U:[D2,r U' r']"
         ],
         [
-            "4Lw' U f R' F' R f' R' F R U' 4Lw",
-            [
-                "Anto Kam (甘浩東)",
-                "Michael Tripodi"
-            ],
-            "4Lw' U:[f,R' F' R]"
-        ],
-        [
             "U' D' R' u' R D2 R' u R D' U",
             [
                 "Gavriel Johann Arcilla",
                 "Ryan Eckersley"
             ],
             "U' D':[R' u' R,D2]"
+        ],
+        [
+            "4Lw' U f R' F' R f' R' F R U' 4Lw",
+            [
+                "Anto Kam (甘浩東)",
+                "Michael Tripodi"
+            ],
+            "4Lw' U:[f,R' F' R]"
         ],
         [
             "Rw D' Rw U R U' r' U R' U' R' D Rw'",
@@ -13703,6 +13701,13 @@
             "4Lw' U:[f',R' F' R]"
         ],
         [
+            "S U D L' u' L D' L' u L U' S'",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "S U:[D,L' u' L]"
+        ],
+        [
             "R U' R U' l U R' U' l' U2 R'",
             [
                 "Kai Yamamoto (山本快)"
@@ -13715,13 +13720,6 @@
                 "Howie Craig"
             ],
             "D' U':[b',R F' R']"
-        ],
-        [
-            "S U D L' u' L D' L' u L U' S'",
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            "S U:[D,L' u' L]"
         ]
     ],
     "ANP": [
@@ -14898,6 +14896,13 @@
             "4Lw' U:[R' F' R,f']"
         ],
         [
+            "S U L' u' L D L' u L D' U' S'",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "S U:[L' u' L,D]"
+        ],
+        [
             "R U2 l U R U' l' U R' U R'",
             [
                 "Kai Yamamoto (山本快)"
@@ -14910,13 +14915,6 @@
                 "Howie Craig"
             ],
             "D' U':[R F' R',b']"
-        ],
-        [
-            "S U L' u' L D L' u L D' U' S'",
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            "S U:[L' u' L,D]"
         ]
     ],
     "AOP": [
@@ -15110,6 +15108,13 @@
             "D2 L':[L' U L,d']"
         ],
         [
+            "Dw U' R' U r2 U' R U r2 Dw'",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "Dw:[U' R' U,r2]"
+        ],
+        [
             "D' R D f' R' F R f R' F' R D' R' D",
             [
                 "Anto Kam (甘浩東)"
@@ -15122,13 +15127,6 @@
                 "Daniel Lin"
             ],
             "Rw U':[U',L u L']"
-        ],
-        [
-            "Dw U' R' U r2 U' R U r2 Dw'",
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            "Dw:[U' R' U,r2]"
         ]
     ],
     "AOS": [
@@ -15919,20 +15917,20 @@
             "L2:[U',r' D' r]"
         ],
         [
-            "x R U R' d R U' R' d' x'",
-            [
-                "Oliver Fritz",
-                "Tobias Peter"
-            ],
-            "x:[R U R',d]"
-        ],
-        [
             "S' U' R' u R U R' u' R S",
             [
                 "Chenhao Sun (孙晨皓)",
                 "Gavriel Johann Arcilla"
             ],
             "S':[U',R' u R]"
+        ],
+        [
+            "x R U R' d R U' R' d' x'",
+            [
+                "Oliver Fritz",
+                "Tobias Peter"
+            ],
+            "x:[R U R',d]"
         ],
         [
             "Lw2 U' r' D' r U r' D r Lw2",
@@ -16079,6 +16077,13 @@
             "Rw:[D R' D',r2]"
         ],
         [
+            "D' U' R2 U r U' R2 U r' D",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "D':[U' R2 U,r]"
+        ],
+        [
             "U r D' r U' r' D r U r2 U'",
             [
                 "Ziyi Xu (徐梓翼)"
@@ -16105,13 +16110,6 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "x':[U R' U',r2]"
-        ],
-        [
-            "D' U' R2 U r U' R2 U r' D",
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            "D':[U' R2 U,r]"
         ]
     ],
     "APN": [
@@ -17074,18 +17072,18 @@
             "D:[R',D r2 D']"
         ],
         [
-            "R2 F' R f' R' F2 R f R' F' R2",
-            [
-                "Daniel Lin"
-            ],
-            "R2 F':[R f' R',F2]"
-        ],
-        [
             "D2 r2 U' R U r2 U' R' U D2",
             [
                 "Gavriel Johann Arcilla"
             ],
             "D2:[r2,U' R U]"
+        ],
+        [
+            "R2 F' R f' R' F2 R f R' F' R2",
+            [
+                "Daniel Lin"
+            ],
+            "R2 F':[R f' R',F2]"
         ]
     ],
     "AQJ": [
@@ -18098,20 +18096,20 @@
             "R D:[R' F R,f']"
         ],
         [
-            "Rw D' r D' r' U' r D r' U D Rw'",
-            [
-                "Dong Zhu (朱栋)",
-                "Graham Siggins"
-            ],
-            "Rw D':[r D' r',U']"
-        ],
-        [
             "D2 r' U R U' r2 U R' U' r' D2",
             [
                 "Gavriel Johann Arcilla",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "D2 r':[U R U',r2]"
+        ],
+        [
+            "Rw D' r D' r' U' r D r' U D Rw'",
+            [
+                "Dong Zhu (朱栋)",
+                "Graham Siggins"
+            ],
+            "Rw D':[r D' r',U']"
         ],
         [
             "D R' D' U' R' U r U' R U r' D R D'",
@@ -18521,6 +18519,13 @@
             "D2 L':[d',L' U L]"
         ],
         [
+            "Dw r2 U' R' U r2 U' R U Dw'",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "Dw:[r2,U' R' U]"
+        ],
+        [
             "D' R D R' F R f' R' F' R f D' R' D",
             [
                 "Anto Kam (甘浩東)"
@@ -18533,13 +18538,6 @@
                 "Daniel Lin"
             ],
             "Rw U':[L u L',U']"
-        ],
-        [
-            "Dw r2 U' R' U r2 U' R U Dw'",
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            "Dw:[r2,U' R' U]"
         ]
     ],
     "ARP": [
@@ -18805,6 +18803,13 @@
             "R' D':[r',D' L D]"
         ],
         [
+            "U R f R' F2 R f' R' F2 U'",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "U:[R f R',F2]"
+        ],
+        [
             "L D r2 U R U' r' U R' U' r' D' L'",
             [
                 "Xi Lu (鲁曦)"
@@ -18845,13 +18850,6 @@
                 "Dong Zhu (朱栋)"
             ],
             "R' y:[L,U' r U]"
-        ],
-        [
-            "U R f R' F2 R f' R' F2 U'",
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            "U:[R f R',F2]"
         ]
     ],
     "ARW": [
@@ -19896,20 +19894,20 @@
             "u x':[L2,U' r U]"
         ],
         [
-            "Dw' L' D r' D' L2 D r D' L' Dw",
-            [
-                "Oliver Fritz",
-                "Tobias Peter"
-            ],
-            "Dw' L':[D r' D',L2]"
-        ],
-        [
             "u2 L' U L' u' L U' L' u L2 u2",
             [
                 "Gavriel Johann Arcilla",
                 "Jonghyun Kim (김종현)"
             ],
             "u2 L':[U,L' u' L]"
+        ],
+        [
+            "Dw' L' D r' D' L2 D r D' L' Dw",
+            [
+                "Oliver Fritz",
+                "Tobias Peter"
+            ],
+            "Dw' L':[D r' D',L2]"
         ],
         [
             "u F R2 u R' U' R u' R' U R' F' u'",
@@ -20059,20 +20057,6 @@
     ],
     "ASY": [
         [
-            "Rw' U2 L' U' r U L U' r' U' Rw",
-            [
-                "Andrew Tan Jing Bang",
-                "Chenhao Sun (孙晨皓)",
-                "Christopher Morris",
-                "Daniel Wallin",
-                "Howie Craig",
-                "Jonghyun Kim (김종현)",
-                "Sebastiano Tronto",
-                "Xi Lu (鲁曦)"
-            ],
-            "Rw' U:[U L' U',r]"
-        ],
-        [
             "d2 R' U' R d2 R' U R",
             [
                 "Daniel Lin",
@@ -20085,6 +20069,20 @@
                 "Xin Shi (石欣)"
             ],
             "[d2,R' U' R]"
+        ],
+        [
+            "Rw' U2 L' U' r U L U' r' U' Rw",
+            [
+                "Andrew Tan Jing Bang",
+                "Chenhao Sun (孙晨皓)",
+                "Christopher Morris",
+                "Daniel Wallin",
+                "Howie Craig",
+                "Jonghyun Kim (김종현)",
+                "Sebastiano Tronto",
+                "Xi Lu (鲁曦)"
+            ],
+            "Rw' U:[U L' U',r]"
         ],
         [
             "z' r2 U' L' U r2 U' L U z",
@@ -21043,6 +21041,13 @@
             "R' D':[D' L D,r']"
         ],
         [
+            "U F2 R f R' F2 R f' R' U'",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "U:[F2,R f R']"
+        ],
+        [
             "L D r U R U' r U R' U' r2 D' L'",
             [
                 "Xi Lu (鲁曦)"
@@ -21083,13 +21088,6 @@
                 "Dong Zhu (朱栋)"
             ],
             "R' y:[U' r U,L]"
-        ],
-        [
-            "U F2 R f R' F2 R f' R' U'",
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            "U:[F2,R f R']"
         ]
     ],
     "ATS": [
@@ -21130,20 +21128,20 @@
             "u x':[U' r U,L2]"
         ],
         [
-            "Dw' L D r' D' L2 D r D' L Dw",
-            [
-                "Oliver Fritz",
-                "Tobias Peter"
-            ],
-            "Dw' L:[D r' D',L2]"
-        ],
-        [
             "u2 L2 u' L U L' u L U' L u2",
             [
                 "Gavriel Johann Arcilla",
                 "Jonghyun Kim (김종현)"
             ],
             "u2 L':[L' u' L,U]"
+        ],
+        [
+            "Dw' L D r' D' L2 D r D' L Dw",
+            [
+                "Oliver Fritz",
+                "Tobias Peter"
+            ],
+            "Dw' L:[D r' D',L2]"
         ],
         [
             "u F R U' R u R' U R u' R2 F' u'",
@@ -21266,20 +21264,20 @@
             "L:[D r' D',L2]"
         ],
         [
-            "Dw' R2 u' R U' R' u R U R Dw",
-            [
-                "Kai Yamamoto (山本快)",
-                "Xin Shi (石欣)"
-            ],
-            "Dw' R':[R' u' R,U']"
-        ],
-        [
             "Rw B' R' U R' u' R U' R' u R2 B Rw'",
             [
                 "Gavriel Johann Arcilla",
                 "Howie Craig"
             ],
             "Rw B' R':[U,R' u' R]"
+        ],
+        [
+            "Dw' R2 u' R U' R' u R U R Dw",
+            [
+                "Kai Yamamoto (山本快)",
+                "Xin Shi (石欣)"
+            ],
+            "Dw' R':[R' u' R,U']"
         ],
         [
             "F' L U' l' U L2 U' l U L F",
@@ -21554,15 +21552,6 @@
             "L U':[R' u' R,U']"
         ],
         [
-            "x D' U' L U r' U' L' U r D x'",
-            [
-                "Adrian Dębski",
-                "Dong Zhu (朱栋)",
-                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
-            ],
-            "x D':[U' L U,r']"
-        ],
-        [
             "Rw U2 R u R' U' R u' R' U' Rw'",
             [
                 "Andrew Tan Jing Bang",
@@ -21570,6 +21559,15 @@
                 "Kai Yamamoto (山本快)"
             ],
             "Rw U:[U,R u R']"
+        ],
+        [
+            "x D' U' L U r' U' L' U r D x'",
+            [
+                "Adrian Dębski",
+                "Dong Zhu (朱栋)",
+                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
+            ],
+            "x D':[U' L U,r']"
         ],
         [
             "r U2 R u R' U' R u' R' U' r'",
@@ -22331,6 +22329,13 @@
             "u' L:[D r' D',L2]"
         ],
         [
+            "Uw R' f R B2 R' f' R B2 Uw'",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "Uw:[R' f R,B2]"
+        ],
+        [
             "Dw' R2 u2 R U' R' u2 R U R Dw",
             [
                 "Xin Shi (石欣)"
@@ -22357,13 +22362,6 @@
                 "Howie Craig"
             ],
             "L2 Uw2 L':[U',L' u' L]"
-        ],
-        [
-            "Uw R' f R B2 R' f' R B2 Uw'",
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            "Uw:[R' f R,B2]"
         ]
     ],
     "AWY": [
@@ -22782,18 +22780,18 @@
             "U2 l':[U L U',l2]"
         ],
         [
-            "L' D U' R2 U r U' R2 U r' D' L",
-            [
-                "Xin Shi (石欣)"
-            ],
-            "L' D:[U' R2 U,r]"
-        ],
-        [
             "Lw' l' U' L' u L U2 L' u' L U' l Lw",
             [
                 "Gavriel Johann Arcilla"
             ],
             "Lw' l' U':[L' u L,U2]"
+        ],
+        [
+            "L' D U' R2 U r U' R2 U r' D' L",
+            [
+                "Xin Shi (石欣)"
+            ],
+            "L' D:[U' R2 U,r]"
         ]
     ],
     "AXJ": [
@@ -23471,6 +23469,13 @@
             "Dw' R':[U',R' u' R]"
         ],
         [
+            "Rw B' Rw' R' u' R U R' u R U' Rw B Rw'",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "Rw B' Rw':[R' u' R,U]"
+        ],
+        [
             "F' L' U' l' U L2 U' l U L' F",
             [
                 "Xi Lu (鲁曦)"
@@ -23504,13 +23509,6 @@
                 "Christopher Morris"
             ],
             "4Lw:[U r2 U',L2]"
-        ],
-        [
-            "Rw B' Rw' R' u' R U R' u R U' Rw B Rw'",
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            "Rw B' Rw':[R' u' R,U]"
         ]
     ],
     "AXW": [
@@ -23573,6 +23571,13 @@
             "u' L':[D r' D',L2]"
         ],
         [
+            "Uw B2 R' f R B2 R' f' R Uw'",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "Uw:[B2,R' f R]"
+        ],
+        [
             "Dw' R' U' R' u2 R U R' u2 R2 Dw",
             [
                 "Xin Shi (石欣)"
@@ -23599,13 +23604,6 @@
                 "Howie Craig"
             ],
             "L2 Uw2 L':[L' u' L,U']"
-        ],
-        [
-            "Uw B2 R' f R B2 R' f' R Uw'",
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            "Uw:[B2,R' f R]"
         ]
     ],
     "AXY": [
@@ -23686,18 +23684,18 @@
             "4Lw U:[r2,U R' U']"
         ],
         [
-            "Dw L' U L' u' L U' L' u L2 Dw'",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "Dw L':[U,L' u' L]"
-        ],
-        [
             "U B2 R' f R B2 R' f' R U'",
             [
                 "Gavriel Johann Arcilla"
             ],
             "U:[B2,R' f R]"
+        ],
+        [
+            "Dw L' U L' u' L U' L' u L2 Dw'",
+            [
+                "Kai Yamamoto (山本快)"
+            ],
+            "Dw L':[U,L' u' L]"
         ]
     ],
     "AYB": [
@@ -24454,20 +24452,6 @@
     ],
     "AYS": [
         [
-            "Rw' U r U L' U' r' U L U2 Rw",
-            [
-                "Andrew Tan Jing Bang",
-                "Chenhao Sun (孙晨皓)",
-                "Christopher Morris",
-                "Daniel Wallin",
-                "Howie Craig",
-                "Jonghyun Kim (김종현)",
-                "Sebastiano Tronto",
-                "Xi Lu (鲁曦)"
-            ],
-            "Rw' U:[r,U L' U']"
-        ],
-        [
             "R' U' R d2 R' U R d2",
             [
                 "Daniel Lin",
@@ -24480,6 +24464,20 @@
                 "Xin Shi (石欣)"
             ],
             "[R' U' R,d2]"
+        ],
+        [
+            "Rw' U r U L' U' r' U L U2 Rw",
+            [
+                "Andrew Tan Jing Bang",
+                "Chenhao Sun (孙晨皓)",
+                "Christopher Morris",
+                "Daniel Wallin",
+                "Howie Craig",
+                "Jonghyun Kim (김종현)",
+                "Sebastiano Tronto",
+                "Xi Lu (鲁曦)"
+            ],
+            "Rw' U:[r,U L' U']"
         ],
         [
             "z' U' L' U r2 U' L U r2 z",
@@ -25766,18 +25764,18 @@
             "4Lw U:[U R' U',r2]"
         ],
         [
-            "Dw L2 u' L U L' u L U' L Dw'",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "Dw L':[L' u' L,U]"
-        ],
-        [
             "U R' f R B2 R' f' R B2 U'",
             [
                 "Gavriel Johann Arcilla"
             ],
             "U:[R' f R,B2]"
+        ],
+        [
+            "Dw L2 u' L U L' u L U' L Dw'",
+            [
+                "Kai Yamamoto (山本快)"
+            ],
+            "Dw L':[L' u' L,U]"
         ]
     ],
     "AZY": [
@@ -33645,18 +33643,18 @@
             "r2:[l D2 l',U]"
         ],
         [
-            "Rw U' L u2 L' U2 L u2 L' U' Rw'",
-            [
-                "Anto Kam (甘浩東)"
-            ],
-            "Rw U':[L u2 L',U2]"
-        ],
-        [
             "Rw u' U R u R' U2 R u' R' Uw Rw'",
             [
                 "Gavriel Johann Arcilla"
             ],
             "Rw u' U:[R u R',U2]"
+        ],
+        [
+            "Rw U' L u2 L' U2 L u2 L' U' Rw'",
+            [
+                "Anto Kam (甘浩東)"
+            ],
+            "Rw U':[L u2 L',U2]"
         ]
     ],
     "HAC": [
@@ -33792,6 +33790,13 @@
             "x' U':[U' r2 U,R]"
         ],
         [
+            "4Fw' U R' u' R U R' u R U2 4Fw",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "4Fw' U:[R' u' R,U]"
+        ],
+        [
             "R2 r' D' r U2 r' D r U2 R2",
             [
                 "Ziyi Xu (徐梓翼)"
@@ -33804,13 +33809,6 @@
                 "Christopher Morris"
             ],
             "Rw' U2 r:[r,U R U']"
-        ],
-        [
-            "4Fw' U R' u' R U R' u R U2 4Fw",
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            "4Fw' U:[R' u' R,U]"
         ]
     ],
     "HAF": [
@@ -34330,6 +34328,13 @@
             "x' R':[U' r2 U,R2]"
         ],
         [
+            "4Fw' R' u' R U2 R' u R U2 4Fw",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "4Fw':[R' u' R,U2]"
+        ],
+        [
             "D' R' F' u' R U' R' u R U R' F R D",
             [
                 "Chenhao Sun (孙晨皓)"
@@ -34349,13 +34354,6 @@
                 "Christopher Morris"
             ],
             "Rw2:[U' r' U,R2]"
-        ],
-        [
-            "4Fw' R' u' R U2 R' u R U2 4Fw",
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            "4Fw':[R' u' R,U2]"
         ]
     ],
     "HAQ": [
@@ -34400,6 +34398,13 @@
             "r U':[U',L u L']"
         ],
         [
+            "S R' D r2 D' R D r2 D' S'",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "S:[R',D r2 D']"
+        ],
+        [
             "S' L' u2 L U L' u2 L U' S",
             [
                 "Anto Kam (甘浩東)"
@@ -34412,13 +34417,6 @@
                 "Andrew Tan Jing Bang"
             ],
             "R U:[L' u' L,U]"
-        ],
-        [
-            "S R' D r2 D' R D r2 D' S'",
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            "S:[R',D r2 D']"
         ]
     ],
     "HAR": [
@@ -34945,18 +34943,18 @@
             "r2:[U,l D2 l']"
         ],
         [
-            "Rw U L u2 L' U2 L u2 L' U Rw'",
-            [
-                "Anto Kam (甘浩東)"
-            ],
-            "Rw U:[L u2 L',U2]"
-        ],
-        [
             "Rw Uw' R u R' U2 R u' R' U' u Rw'",
             [
                 "Gavriel Johann Arcilla"
             ],
             "Rw Uw':[R u R',U2]"
+        ],
+        [
+            "Rw U L u2 L' U2 L u2 L' U Rw'",
+            [
+                "Anto Kam (甘浩東)"
+            ],
+            "Rw U:[L u2 L',U2]"
         ]
     ],
     "HBJ": [
@@ -35236,18 +35234,18 @@
             "R2:[U2,r' D' r]"
         ],
         [
-            "Rw' U2 r U R U' r U R' U' r2 U2 Rw",
-            [
-                "Christopher Morris"
-            ],
-            "Rw' U2 r:[U R U',r]"
-        ],
-        [
             "4Fw' U2 R' u' R U' R' u R U' 4Fw",
             [
                 "Gavriel Johann Arcilla"
             ],
             "4Fw' U:[U,R' u' R]"
+        ],
+        [
+            "Rw' U2 r U R U' r U R' U' r2 U2 Rw",
+            [
+                "Christopher Morris"
+            ],
+            "Rw' U2 r:[U R U',r]"
         ]
     ],
     "HEJ": [
@@ -35365,18 +35363,6 @@
             "D:[R' F R,f']"
         ],
         [
-            "Rw U2 l' U' R' U l U' R U' Rw'",
-            [
-                "Dong Zhu (朱栋)",
-                "Graham Siggins",
-                "Hana Davila",
-                "Kevin Matthews",
-                "Sebastiano Tronto",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "Rw U:[U l' U',R']"
-        ],
-        [
             "r2 D2 r' U' r D2 r' U r'",
             [
                 "Gavriel Johann Arcilla",
@@ -35387,6 +35373,18 @@
                 "Xi Lu (鲁曦)"
             ],
             "r:[r D2 r',U']"
+        ],
+        [
+            "Rw U2 l' U' R' U l U' R U' Rw'",
+            [
+                "Dong Zhu (朱栋)",
+                "Graham Siggins",
+                "Hana Davila",
+                "Kevin Matthews",
+                "Sebastiano Tronto",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "Rw U:[U l' U',R']"
         ],
         [
             "U Lw' U' L U l' U' L' U l Lw U'",
@@ -36399,6 +36397,13 @@
             "4Lw:[U' r2 U,R2]"
         ],
         [
+            "4Fw' U2 R' u' R U2 R' u R 4Fw",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "4Fw':[U2,R' u' R]"
+        ],
+        [
             "D' R' F' R U' R' u' R U R' u F R D",
             [
                 "Chenhao Sun (孙晨皓)"
@@ -36411,13 +36416,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "U' Rw':[u,R U' R']"
-        ],
-        [
-            "4Fw' U2 R' u' R U2 R' u R 4Fw",
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            "4Fw':[U2,R' u' R]"
         ]
     ],
     "HPJ": [
@@ -36474,6 +36472,13 @@
             "r U':[L u L',U']"
         ],
         [
+            "S D r2 D' R' D r2 D' R S'",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "S:[D r2 D',R']"
+        ],
+        [
             "S' U L' u2 L U' L' u2 L S",
             [
                 "Anto Kam (甘浩東)"
@@ -36486,13 +36491,6 @@
                 "Andrew Tan Jing Bang"
             ],
             "R U:[U,L' u' L]"
-        ],
-        [
-            "S D r2 D' R' D r2 D' R S'",
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            "S:[D r2 D',R']"
         ]
     ],
     "HQJ": [
