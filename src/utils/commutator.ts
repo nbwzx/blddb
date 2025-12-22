@@ -1166,11 +1166,16 @@ const commutator = (function () {
   }
 
   function areMovesSameClass(moves: Move[]): boolean {
-    if (moves.length < 2) {
+    if (moves.length === 0) {
       return true;
     }
-    const firstClass = commute[moves[0].base]?.class;
-    return moves.every((move) => commute[move.base]?.class === firstClass);
+    const firstMove = moves[0];
+    for (let i = 1; i < moves.length; i++) {
+      if (!isSameClass(firstMove, moves[i])) {
+        return false;
+      }
+    }
+    return true;
   }
 
   function swapArray(array: Move[], index1: number, index2: number): Move[] {
