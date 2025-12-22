@@ -12,7 +12,9 @@ const Commutator = () => {
   const intRegex = /^\d{0,4}$/u;
   const floatRegex = /^\d{0,4}(\.\d{0,2})?$/u;
   const [loading, setLoading] = useState(false);
-  const [settings, setSettings] = useState<Record<string, any>>({});
+  const [settings, setSettings] = useState<Record<string, string | boolean>>(
+    {},
+  );
   const settingsGroups = {
     commutator: [
       {
@@ -109,17 +111,17 @@ const Commutator = () => {
     if (type === "search") {
       return {
         ...baseConfig,
-        noBrackets: settings.noBrackets,
-        outerBracket: settings.outerBracket,
-        slashNotation: settings.slashNotation,
-        spaceAfterColon: settings.spaceAfterColon,
-        spaceAfterComma: settings.spaceAfterComma,
-        outerBrackets: settings.outerBrackets,
+        noBrackets: Boolean(settings.noBrackets),
+        outerBracket: Boolean(settings.outerBracket),
+        slashNotation: Boolean(settings.slashNotation),
+        spaceAfterColon: Boolean(settings.spaceAfterColon),
+        spaceAfterComma: Boolean(settings.spaceAfterComma),
+        outerBrackets: Boolean(settings.outerBrackets),
         maxDepth: Number(settings.maxDepth),
         abMaxScore: Number(settings.abMaxScore),
         abMinScore: Number(settings.abMinScore),
         addScore: Number(settings.addScore),
-        fast: settings.fast,
+        fast: Boolean(settings.fast),
       };
     }
     return {
@@ -139,7 +141,7 @@ const Commutator = () => {
     timeTaken: 0,
   });
 
-  const handleChange = (id: any, value: any) => {
+  const handleChange = (id: string, value: string | boolean) => {
     const newSettings = { ...settings, [id]: value };
     setSettings(newSettings);
     localStorage.setItem("settings", JSON.stringify(newSettings));
@@ -185,7 +187,7 @@ const Commutator = () => {
   const loadSettings = () => {
     if (typeof window !== "undefined") {
       const savedSettings = localStorage.getItem("settings");
-      let newSettings: Record<string, any> = {};
+      let newSettings: Record<string, string | boolean> = {};
       if (savedSettings) {
         const parsedSettings = JSON.parse(savedSettings);
         newSettings = { ...parsedSettings };
@@ -195,7 +197,8 @@ const Commutator = () => {
           (setting) => {
             if (
               "default" in setting &&
-              typeof newSettings[setting.id] === "undefined"
+              typeof newSettings[setting.id] === "undefined" &&
+              typeof setting.default !== "undefined"
             ) {
               newSettings[setting.id] = setting.default;
             }
@@ -292,7 +295,7 @@ const Commutator = () => {
             <input
               type="text"
               placeholder="2.5"
-              value={settings.abMaxScore}
+              value={String(settings.abMaxScore || "")}
               onChange={(e) => handleInputChange("abMaxScore", e.target.value)}
               style={{ textAlign: "center", width: "2.5em" }}
               className="mx-2 rounded border border-gray-400 p-1"
@@ -303,7 +306,7 @@ const Commutator = () => {
             <input
               type="text"
               placeholder="5"
-              value={settings.abMinScore}
+              value={String(settings.abMinScore || "")}
               onChange={(e) => handleInputChange("abMinScore", e.target.value)}
               style={{ textAlign: "center", width: "2.5em" }}
               className="mx-2 rounded border border-gray-400 p-1"
@@ -502,7 +505,7 @@ const Commutator = () => {
                     {item.type === "checkbox" && (
                       <input
                         type="checkbox"
-                        checked={settings[item.id] || false}
+                        checked={Boolean(settings[item.id] || false)}
                         onChange={(e) =>
                           handleChange(item.id, e.target.checked)
                         }

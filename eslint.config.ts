@@ -355,7 +355,7 @@ const eslintConfig = defineConfig([
       "symbol-description": 2,
       "template-curly-spacing": 2,
       "template-tag-spacing": 2,
-      "@typescript-eslint/no-explicit-any": 0,
+      "@typescript-eslint/no-explicit-any": 2,
       "@typescript-eslint/no-require-imports": 0,
       "unicode-bom": 2,
       "use-isnan": 2,

@@ -11,9 +11,19 @@ const Settings = () => {
   const floatRegex = /^\d{0,4}(\.\d{0,2})?$/u;
 
   const [loading, setLoading] = useState(true);
-  const [settings, setSettings] = useState<Record<string, any>>({});
+  const [settings, setSettings] = useState<Record<string, string | boolean>>(
+    {},
+  );
 
-  const settingsGroups = {
+  interface SettingItem {
+    id: string;
+    type: "select" | "checkbox" | "text";
+    options?: { id: string }[];
+    default?: string | boolean;
+    regex?: RegExp;
+  }
+
+  const settingsGroups: Record<string, SettingItem[]> = {
     general: [
       {
         id: "mode",
@@ -86,7 +96,7 @@ const Settings = () => {
   const loadSettings = () => {
     if (typeof window !== "undefined") {
       const savedSettings = localStorage.getItem("settings");
-      let newSettings: Record<string, any> = {};
+      let newSettings: Record<string, string | boolean> = {};
       if (savedSettings) {
         const parsedSettings = JSON.parse(savedSettings);
         newSettings = { ...parsedSettings };
@@ -96,7 +106,8 @@ const Settings = () => {
           (setting) => {
             if (
               "default" in setting &&
-              typeof newSettings[setting.id] === "undefined"
+              typeof newSettings[setting.id] === "undefined" &&
+              typeof setting.default !== "undefined"
             ) {
               newSettings[setting.id] = setting.default;
             }
@@ -159,7 +170,7 @@ const Settings = () => {
                   {setting.type === "select" && (
                     <select
                       className="focus:border-primary dark:focus:border-primary mr-2 ml-4 rounded-md border border-2 border-gray-400 p-2 pr-8 text-black transition-all duration-300 focus:outline-hidden dark:border-gray-600 dark:bg-gray-800 dark:text-white"
-                      value={settings[setting.id] || ""}
+                      value={String(settings[setting.id] || "")}
                       onChange={(e) =>
                         handleChange(setting.id, "select", e.target.value)
                       }
@@ -177,7 +188,7 @@ const Settings = () => {
                     <input
                       type="checkbox"
                       id={setting.id}
-                      checked={settings[setting.id] || false}
+                      checked={Boolean(settings[setting.id] || false)}
                       onChange={(e) =>
                         handleChange(setting.id, "checkbox", e.target.checked)
                       }
@@ -189,7 +200,7 @@ const Settings = () => {
                       type="text"
                       id={setting.id}
                       autoComplete="off"
-                      value={settings[setting.id] || ""}
+                      value={String(settings[setting.id] || "")}
                       onChange={(e) =>
                         handleChange(setting.id, "text", e.target.value)
                       }

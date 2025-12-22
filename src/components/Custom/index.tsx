@@ -9,7 +9,7 @@ import data from "public/data/cornerNightmare.json";
 import useResponsiveTable from "@/utils/useResponsiveTable";
 import Loading from "@/app/loading";
 import { useTheme } from "next-themes";
-import type { GroupBase, OptionsOrGroups } from "react-select";
+import type { GroupBase, OptionsOrGroups, StylesConfig } from "react-select";
 import PageSection from "@/components/PageSection";
 
 interface Option {
@@ -106,8 +106,8 @@ const Custom = () => {
     thumbPositionRefs.current[index].textContent = value ? fingerResult : "";
   };
   const targetHeight = 22;
-  const customStyles = {
-    singleValue: (base: any) => ({
+  const customStyles: StylesConfig<Option, false> = {
+    singleValue: (base) => ({
       ...base,
       color: theme === "light" ? "black" : "white",
       height: `${targetHeight - 1 - 1}px`,
@@ -115,7 +115,7 @@ const Custom = () => {
       paddingBottom: "0px",
       paddingTop: "0px",
     }),
-    input: (base: any) => ({
+    input: (base) => ({
       ...base,
       color: theme === "light" ? "black" : "white",
       marginTop: "0px",
@@ -123,26 +123,26 @@ const Custom = () => {
       paddingTop: "0px",
       paddingBottom: "0px",
     }),
-    control: (base: any) => ({
+    control: (base) => ({
       ...base,
       border: "0px",
       boxShadow: "none",
       backgroundColor: "transparent",
       minHeight: "initial",
     }),
-    clearIndicator: (base: any) => ({
+    clearIndicator: (base) => ({
       ...base,
       padding: `${(targetHeight - 20 - 1 - 1) / 2}px`,
     }),
-    valueContainer: (base: any) => ({
+    valueContainer: (base) => ({
       ...base,
       padding: "0 8px",
     }),
-    dropdownIndicator: (base: any) => ({
+    dropdownIndicator: (base) => ({
       ...base,
       padding: `${(targetHeight - 20 - 1 - 1) / 2}px`,
     }),
-    menu: (base: any) => ({
+    menu: (base) => ({
       ...base,
       padding: 0,
       margin: "1px",
@@ -150,7 +150,7 @@ const Custom = () => {
       backgroundColor: theme === "light" ? "#EEEEEE" : "#616161",
       lineHeight: 1,
     }),
-    menuList: (base: any) => ({
+    menuList: (base) => ({
       ...base,
       padding: 0,
     }),

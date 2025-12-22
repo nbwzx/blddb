@@ -97,7 +97,7 @@ const Checker = () => {
     setSelectedTarget("");
     setErrorMessage("");
     setLoading(true);
-    let data: any = {};
+    let data: Record<string, string[][]> = {};
     try {
       const response = await fetch(url);
 
@@ -130,7 +130,7 @@ const Checker = () => {
     }
   };
 
-  const handleSheetChange = (event: { target: { value: any } }) => {
+  const handleSheetChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
     const newSheet = event.target.value;
     setSelectedSheet(newSheet);
     const newBuffer =
