@@ -169,7 +169,7 @@ const Table = ({
   const settings = loadSettings();
   const thumbPosition = settings.showThumbPosition;
   const mirrorLR = settings.mirrorLR;
-  const orderOfAlgs: "Chichu" | "Speffz" =
+  const orderOfAlgs: "Chichu" | "Speffz" | "Alphabetical" =
     settings.orderOfAlgs ?? codeConverter.getDefaultOrderOfAlgs();
   const variantCode = converter.customCodeToVariantCode(
     inputText,
@@ -503,6 +503,11 @@ const Table = ({
     const keyB = b.key as string;
     if (keyA === "0" || keyB === "0") {
       return keyA === "0" ? 1 : -1;
+    }
+    if (orderOfAlgs === "Alphabetical") {
+      const codeA = converter.positionToCustomCode([keyA]);
+      const codeB = converter.positionToCustomCode([keyB]);
+      return codeA.charCodeAt(0) - codeB.charCodeAt(0);
     }
     const order = converter.positionArrays[orderOfAlgs];
     return order.indexOf(keyA) - order.indexOf(keyB);

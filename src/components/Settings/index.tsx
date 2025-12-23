@@ -48,7 +48,7 @@ const Settings = () => {
       {
         id: "orderOfAlgs",
         type: "select",
-        options: [{ id: "Chichu" }, { id: "Speffz" }],
+        options: [{ id: "Chichu" }, { id: "Speffz" }, { id: "Alphabetical" }],
         default: codeConverter.getDefaultOrderOfAlgs(),
       },
     ],
