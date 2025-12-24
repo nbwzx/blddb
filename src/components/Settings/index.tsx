@@ -170,6 +170,9 @@ const Settings = () => {
                   {setting.type === "select" && (
                     <select
                       className="focus:border-primary dark:focus:border-primary mr-2 ml-4 rounded-md border border-2 border-gray-400 p-2 pr-8 text-black transition-all duration-300 focus:outline-hidden dark:border-gray-600 dark:bg-gray-800 dark:text-white"
+                      style={{
+                        backgroundPosition: "calc(100% - 4px) center",
+                      }}
                       value={String(settings[setting.id] || "")}
                       onChange={(e) =>
                         handleChange(setting.id, "select", e.target.value)
