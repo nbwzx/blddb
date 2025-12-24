@@ -38,6 +38,7 @@ i18next
       convertDetectedLanguage,
       // This will automatically update the cookie
       caches: ["cookie"],
+      cookieMinutes: 576000,
     },
     preload: runsOnServerSide ? supportedLocales : [],
   });
