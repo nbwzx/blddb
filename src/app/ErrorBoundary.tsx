@@ -57,6 +57,9 @@ class ErrorBoundary extends React.Component<
           <p className="text-black dark:text-white">
             Error Message: {this.state.error?.message}
           </p>
+          <p className="text-black dark:text-white">
+            Local Storage Data: {JSON.stringify(localStorage, null, 2)}
+          </p>
           {this.state.errorInfo && (
             <>
               <p className="text-black dark:text-white">Error Stack:</p>
