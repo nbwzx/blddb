@@ -169,8 +169,14 @@ const Table = ({
   const settings = loadSettings();
   const thumbPosition = settings.showThumbPosition;
   const mirrorLR = settings.mirrorLR;
-  const orderOfAlgs: "Chichu" | "Speffz" | "Alphabetical" =
+  const allowedOrders = ["Chichu", "Speffz", "Alphabetical"] as const;
+  type OrderOfAlgsType = (typeof allowedOrders)[number];
+  let orderOfAlgs: OrderOfAlgsType =
     settings.orderOfAlgs ?? codeConverter.getDefaultOrderOfAlgs();
+  // Usually won't happen; this check is only for safety
+  if (!allowedOrders.includes(orderOfAlgs)) {
+    orderOfAlgs = "Chichu";
+  }
   const variantCode = converter.customCodeToVariantCode(
     inputText,
     codeType,
@@ -499,10 +505,14 @@ const Table = ({
   }
 
   tableElements.sort((a, b) => {
-    const keyA = a.key as string;
-    const keyB = b.key as string;
+    const keyA = (a.key ?? "") as string;
+    const keyB = (b.key ?? "") as string;
     if (keyA === "0" || keyB === "0") {
       return keyA === "0" ? 1 : -1;
+    }
+    // Usually won't happen; this check is only for safety
+    if (!allowedOrders.includes(orderOfAlgs)) {
+      orderOfAlgs = "Chichu";
     }
     if (orderOfAlgs === "Alphabetical") {
       const codeA = converter.positionToCustomCode([keyA]);
