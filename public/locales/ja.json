@@ -4,7 +4,7 @@
   "description": "BLDDB (blddb.net) は、ルービックキューブの目隠しのための手順集です。このデータベースは、3-Styleコーナー（すべてのバッファ）、3-Styleエッジ（すべてのバッファ）、コーナーツイスト、エッジフリップなどを含んでいます。それぞれのケースに対して多くのオプションを提供しており、ユーザーは自分の好みに基づいて手順を選択できます。",
   "features": {
     "title": "新機能",
-    "paragraph": "バージョン 2 では、ユーザーエクスペリエンスを向上させるための大幅な改善を行いました。",
+    "paragraph": "バージョン 2 では、ユーザーの体験を向上させるための大幅な改善を行いました。",
     "feature1": {
       "title": "簡素化されたナビゲーション",
       "paragraph": "よりスムーズで直感的な体験のためにナビゲーションを最適化し、必要な情報を迅速かつ簡単に見つけられるようにしました。"
@@ -18,7 +18,7 @@
       "paragraph": "特定の3-Styleに直接リンクする機能を導入し、他の人と共有・参照しやすくしました。例えば：/corner?position=UFR-UFL-UBL&mode=manmade"
     },
     "feature4": {
-      "title": "ワイルドカードマッチングサポート",
+      "title": "ワイルドカード検索に対応",
       "paragraph": "ワイルドカードマッチングのサポートを最近開始しました。これにより、ユーザーは一度に手順をすべて参照できます。例えば：/corner?position=UFR-UFL-*&mode=manmade"
     },
     "feature5": {
@@ -34,11 +34,11 @@
     "pairs": "エンコーディング：",
     "position": "ステッカー：",
     "mode": "モード：",
-    "nightmare": "悪夢",
+    "nightmare": "ナイトメア",
     "manmade": "人工",
     "3BLD": "3BLD",
     "BigBLD": "BigBLD",
-    "Nightmare": "悪夢",
+    "Nightmare": "ナイトメア",
     "Tools": "ツール",
     "Settings": "設定",
     "code": "エンコーディング",
@@ -199,7 +199,7 @@
       "title": "一般",
       "showThumbPosition": "テーブルにスタートを表示",
       "mode": "優先モード",
-      "nightmare": "悪夢",
+      "nightmare": "ナイトメア",
       "manmade": "人工",
       "mirrorLR": "LRミラーすべての手順",
       "orderOfAlgs": "手順の表示順",
