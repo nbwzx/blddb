@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="py-4">
             <div className="dark:text-gray text-body-color text-center text-base">
               <ul className="copyright">
-                <li>© 2022-2025 Zixing Wang. All rights reserved.</li>
+                <li>© 2022-2026 Zixing Wang. All rights reserved.</li>
                 <li>
                   Github:{" "}
                   <a
