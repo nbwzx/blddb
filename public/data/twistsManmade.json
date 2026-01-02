@@ -6890,24 +6890,13 @@
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Shuto Ueno (上野柊斗)",
+                "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
                 "D:[R U' R' U R U' R',D]"
-            ]
-        ],
-        [
-            [
-                "D2 R' U' R U R' U' R D R' U R U' R' U R D"
-            ],
-            [
-                "Bernhard Brodowsky",
-                "Tobias Peter"
-            ],
-            [
-                "D':[D',R' U' R U R' U' R]"
             ]
         ],
         [
@@ -6919,6 +6908,17 @@
             ],
             [
                 "D:[D,R U R' U' R U R']"
+            ]
+        ],
+        [
+            [
+                "D2 R' U' R U R' U' R D R' U R U' R' U R D"
+            ],
+            [
+                "Bernhard Brodowsky"
+            ],
+            [
+                "D':[D',R' U' R U R' U' R]"
             ]
         ]
     ],
@@ -7062,6 +7062,7 @@
                 "Benjamin Paul",
                 "Dong Zhu (朱栋)",
                 "Kai Yamamoto (山本快)",
+                "Tobias Peter",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -7076,8 +7077,7 @@
             ],
             [
                 "Bernhard Brodowsky",
-                "Deni Mintsaev",
-                "Tobias Peter"
+                "Deni Mintsaev"
             ],
             [
                 "D':[R' U' R U R' U' R,D']"
@@ -7118,6 +7118,19 @@
         ],
         [
             [
+                "D R U R' U' R U R' D2 R U' R' U R U' R' D"
+            ],
+            [
+                "Dong Zhu (朱栋)",
+                "Tobias Peter",
+                "Yangyang Shen (沈炀炀)"
+            ],
+            [
+                "D:[R U R' U' R U R',D2]"
+            ]
+        ],
+        [
+            [
                 "D2 R' U R U' R' U R D2 R' U' R U R' U' R"
             ],
             [
@@ -7126,18 +7139,6 @@
             ],
             [
                 "[D2,R' U R U' R' U R]"
-            ]
-        ],
-        [
-            [
-                "D R U R' U' R U R' D2 R U' R' U R U' R' D"
-            ],
-            [
-                "Dong Zhu (朱栋)",
-                "Yangyang Shen (沈炀炀)"
-            ],
-            [
-                "D:[R U R' U' R U R',D2]"
             ]
         ]
     ],
@@ -7195,23 +7196,6 @@
     "PT": [
         [
             [
-                "D' R' U' R U R' U' R D R' U R U' R' U R"
-            ],
-            [
-                "Andrew Tan Jing Bang",
-                "Benjamin Paul",
-                "Bernhard Brodowsky",
-                "James Macdiarmid",
-                "Jonghyun Kim (김종현)",
-                "Michael Tripodi",
-                "Tobias Peter"
-            ],
-            [
-                "[D',R' U' R U R' U' R]"
-            ]
-        ],
-        [
-            [
                 "R' U R U' R' U R D' R' U' R U R' U' R D"
             ],
             [
@@ -7224,6 +7208,22 @@
             ],
             [
                 "[R' U R U' R' U R,D']"
+            ]
+        ],
+        [
+            [
+                "D' R' U' R U R' U' R D R' U R U' R' U R"
+            ],
+            [
+                "Andrew Tan Jing Bang",
+                "Benjamin Paul",
+                "Bernhard Brodowsky",
+                "James Macdiarmid",
+                "Jonghyun Kim (김종현)",
+                "Michael Tripodi"
+            ],
+            [
+                "[D',R' U' R U R' U' R]"
             ]
         ],
         [
