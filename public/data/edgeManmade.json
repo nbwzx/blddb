@@ -154,17 +154,6 @@
         ],
         [
             [
-                "S' U' L' E' L U2 L' E L U' S"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "S' U':[L' E' L,U2]"
-            ]
-        ],
-        [
-            [
                 "L' U' E' L' E L U2 L' E' L u' L"
             ],
             [
@@ -227,6 +216,17 @@
             ],
             [
                 "L' F':[E',L U' L']"
+            ]
+        ],
+        [
+            [
+                "S' U' L' E' L U2 L' E L U' S"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "S' U':[L' E' L,U2]"
             ]
         ]
     ],
@@ -2595,6 +2595,19 @@
         ],
         [
             [
+                "S' U' S' L2 S L2 U S"
+            ],
+            [
+                "Ishaan Agrawal",
+                "Jacob Tucker",
+                "Yiwei Liu (刘伊玮)"
+            ],
+            [
+                "S' U':[S',L2]"
+            ]
+        ],
+        [
+            [
                 "r' F r S r' F2 r S' r' F r",
                 "L' U L S L' U2 L S' L' U L"
             ],
@@ -2606,19 +2619,6 @@
             [
                 "r' F:[r S r',F2]",
                 "L' U:[L S L',U2]"
-            ]
-        ],
-        [
-            [
-                "S' U' S' L2 S L2 U S"
-            ],
-            [
-                "Ishaan Agrawal",
-                "Jacob Tucker",
-                "Yiwei Liu (刘伊玮)"
-            ],
-            [
-                "S' U':[S',L2]"
             ]
         ],
         [
@@ -5352,17 +5352,6 @@
         ],
         [
             [
-                "S' U L' E' L U2 L' E L U S"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "S' U:[L' E' L,U2]"
-            ]
-        ],
-        [
-            [
                 "L2 U' S U2 S' U' L2"
             ],
             [
@@ -5436,6 +5425,17 @@
             ],
             [
                 "L' F':[L U' L',E']"
+            ]
+        ],
+        [
+            [
+                "S' U L' E' L U2 L' E L U S"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "S' U:[L' E' L,U2]"
             ]
         ]
     ],
@@ -6552,19 +6552,6 @@
         ],
         [
             [
-                "U L' E2 L U2 L' E2 L U"
-            ],
-            [
-                "Gavriel Johann Arcilla",
-                "Grzegorz Jałocha",
-                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
-            ],
-            [
-                "U:[L' E2 L,U2]"
-            ]
-        ],
-        [
-            [
                 "R' U R2 S R2 S' U' R"
             ],
             [
@@ -6574,6 +6561,19 @@
             ],
             [
                 "R' U:[R2,S]"
+            ]
+        ],
+        [
+            [
+                "U L' E2 L U2 L' E2 L U"
+            ],
+            [
+                "Gavriel Johann Arcilla",
+                "Grzegorz Jałocha",
+                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
+            ],
+            [
+                "U:[L' E2 L,U2]"
             ]
         ],
         [
@@ -8478,7 +8478,6 @@
                 "Roman Strakhov",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timothy Loh",
-                "Tobias Peter",
                 "Tommy Cherry",
                 "Yiwei Liu (刘伊玮)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -8511,6 +8510,7 @@
                 "Michael Tripodi",
                 "Sebastiano Tronto",
                 "Shuto Ueno (上野柊斗)",
+                "Tobias Peter",
                 "Xin Shi (石欣)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
@@ -9592,17 +9592,6 @@
         ],
         [
             [
-                "R F R S R' F2 R S' R' F R'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "R F:[R S R',F2]"
-            ]
-        ],
-        [
-            [
                 "L' U' L U M' U2 M U L' U L"
             ],
             [
@@ -9643,6 +9632,17 @@
             ],
             [
                 "L U' L' U:[M',U2]"
+            ]
+        ],
+        [
+            [
+                "R F R S R' F2 R S' R' F R'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "R F:[R S R',F2]"
             ]
         ]
     ],
@@ -16038,23 +16038,6 @@
         ],
         [
             [
-                "L F2 L' S L F L' S' L F L'",
-                "r U2 L' E' L U L' E L U r'"
-            ],
-            [
-                "Daniel Wallin",
-                "Gavriel Johann Arcilla",
-                "Ishaan Agrawal",
-                "Oliver Fritz",
-                "Roman Strakhov"
-            ],
-            [
-                "L F':[F',L' S L]",
-                "r U':[U',L' E' L]"
-            ]
-        ],
-        [
-            [
                 "L2 U L E' L' U' L E L",
                 "r' L' F L S L' F' L S' r"
             ],
@@ -16068,6 +16051,23 @@
             [
                 "L':[L' U L,E']",
                 "r':[L' F L,S]"
+            ]
+        ],
+        [
+            [
+                "L F2 L' S L F L' S' L F L'",
+                "r U2 L' E' L U L' E L U r'"
+            ],
+            [
+                "Daniel Wallin",
+                "Gavriel Johann Arcilla",
+                "Ishaan Agrawal",
+                "Oliver Fritz",
+                "Roman Strakhov"
+            ],
+            [
+                "L F':[F',L' S L]",
+                "r U':[U',L' E' L]"
             ]
         ],
         [
@@ -24057,17 +24057,6 @@
         ],
         [
             [
-                "U' r' E2 R U R' E2 R U' M' U"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "U' r':[E2,R U R']"
-            ]
-        ],
-        [
-            [
                 "U D2 L U' M' U L' U' M D2"
             ],
             [
@@ -24097,6 +24086,17 @@
             ],
             [
                 "M U R F':[E',R2]"
+            ]
+        ],
+        [
+            [
+                "U' r' E2 R U R' E2 R U' M' U"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "U' r':[E2,R U R']"
             ]
         ]
     ],
@@ -24646,17 +24646,6 @@
         ],
         [
             [
-                "L' U' R2 L S R2 S' L' U L"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "L' U' L:[R2,S]"
-            ]
-        ],
-        [
-            [
                 "U2 R E' R2 E R U R' E' R2 E R' U"
             ],
             [
@@ -24752,6 +24741,17 @@
             ],
             [
                 "S' R F R:[S',R2]"
+            ]
+        ],
+        [
+            [
+                "L' U' R2 L S R2 S' L' U L"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "L' U' L:[R2,S]"
             ]
         ]
     ],
@@ -25066,7 +25066,6 @@
                 "Roman Strakhov",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timothy Loh",
-                "Tobias Peter",
                 "Tommy Cherry",
                 "Xin Shi (石欣)",
                 "Yiwei Liu (刘伊玮)",
@@ -25076,6 +25075,37 @@
             ],
             [
                 "[M,U' R2 U]"
+            ]
+        ],
+        [
+            [
+                "U D' R' F' R S R' F R S' U' D"
+            ],
+            [
+                "Aleksander Bober",
+                "Chenhao Sun (孙晨皓)",
+                "Christopher Morris",
+                "Daniel Wallin",
+                "Dong Zhu (朱栋)",
+                "Elliott Kobelansky",
+                "Heejun Kim (김희준)",
+                "Hyunseung Ko (고현승)",
+                "Ishaan Agrawal",
+                "Jonghyun Kim (김종현)",
+                "Kai Yamamoto (山本快)",
+                "Keita Hayakawa (早川慶太)",
+                "Leonardo Ezequiel Cruz",
+                "Michael Tripodi",
+                "Sebastiano Tronto",
+                "Shuto Ueno (上野柊斗)",
+                "Tobias Peter",
+                "Yangyang Shen (沈炀炀)",
+                "Yifan Wang (王逸帆)",
+                "Yuki Tsuneyoshi (恒吉優紀)",
+                "Zixing Wang (王子兴)"
+            ],
+            [
+                "U D':[R' F' R,S]"
             ]
         ],
         [
@@ -25107,36 +25137,6 @@
             ],
             [
                 "r':[U' R' U,M']"
-            ]
-        ],
-        [
-            [
-                "U D' R' F' R S R' F R S' U' D"
-            ],
-            [
-                "Aleksander Bober",
-                "Chenhao Sun (孙晨皓)",
-                "Christopher Morris",
-                "Daniel Wallin",
-                "Dong Zhu (朱栋)",
-                "Elliott Kobelansky",
-                "Heejun Kim (김희준)",
-                "Hyunseung Ko (고현승)",
-                "Ishaan Agrawal",
-                "Jonghyun Kim (김종현)",
-                "Kai Yamamoto (山本快)",
-                "Keita Hayakawa (早川慶太)",
-                "Leonardo Ezequiel Cruz",
-                "Michael Tripodi",
-                "Sebastiano Tronto",
-                "Shuto Ueno (上野柊斗)",
-                "Yangyang Shen (沈炀炀)",
-                "Yifan Wang (王逸帆)",
-                "Yuki Tsuneyoshi (恒吉優紀)",
-                "Zixing Wang (王子兴)"
-            ],
-            [
-                "U D':[R' F' R,S]"
             ]
         ],
         [
@@ -26469,6 +26469,7 @@
                 "Neel Gore",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timothy Loh",
+                "Tobias Peter",
                 "Tommy Cherry",
                 "Xin Shi (石欣)",
                 "Yiwei Liu (刘伊玮)",
@@ -26496,7 +26497,6 @@
                 "Oliver Fritz",
                 "Sebastiano Tronto",
                 "Shuto Ueno (上野柊斗)",
-                "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Zixing Wang (王子兴)",
@@ -28804,44 +28804,6 @@
     "APT": [
         [
             [
-                "M' U R E R2 E' R U' M"
-            ],
-            [
-                "Abhijeet Ghodgaonkar (अभिजीत घोडगावकर)",
-                "Aleksander Bober",
-                "Andrew Tan Jing Bang",
-                "Anto Kam (甘浩東)",
-                "Bertie Longden",
-                "Dhruv Ambastha",
-                "Dong Zhu (朱栋)",
-                "Dylan Wang",
-                "Elliott Kobelansky",
-                "Enoch Gray",
-                "Gavriel Johann Arcilla",
-                "Ishaan Agrawal",
-                "Jack Cai",
-                "Joey Gouly",
-                "Keiichiro Taira (平佳一郎)",
-                "Kevin Matthews",
-                "Liren Sun (孙立仁)",
-                "Martin Vædele Egdal",
-                "Masato Fujiwara (藤原正人)",
-                "Max Hilliard",
-                "Morimichi Kikuchi (菊地守道)",
-                "Oliver Fritz",
-                "Shuto Ueno (上野柊斗)",
-                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
-                "Timothy Loh",
-                "Yiwei Liu (刘伊玮)",
-                "Yuki Tsuneyoshi (恒吉優紀)",
-                "Zhi Qiao (乔智)"
-            ],
-            [
-                "M' U R:[E,R2]"
-            ]
-        ],
-        [
-            [
                 "S' U' R' E R U R' E' R S"
             ],
             [
@@ -28876,6 +28838,44 @@
             ],
             [
                 "S':[U',R' E R]"
+            ]
+        ],
+        [
+            [
+                "M' U R E R2 E' R U' M"
+            ],
+            [
+                "Abhijeet Ghodgaonkar (अभिजीत घोडगावकर)",
+                "Aleksander Bober",
+                "Andrew Tan Jing Bang",
+                "Anto Kam (甘浩東)",
+                "Bertie Longden",
+                "Dhruv Ambastha",
+                "Dong Zhu (朱栋)",
+                "Dylan Wang",
+                "Elliott Kobelansky",
+                "Enoch Gray",
+                "Gavriel Johann Arcilla",
+                "Ishaan Agrawal",
+                "Jack Cai",
+                "Joey Gouly",
+                "Keiichiro Taira (平佳一郎)",
+                "Kevin Matthews",
+                "Liren Sun (孙立仁)",
+                "Martin Vædele Egdal",
+                "Masato Fujiwara (藤原正人)",
+                "Max Hilliard",
+                "Morimichi Kikuchi (菊地守道)",
+                "Oliver Fritz",
+                "Shuto Ueno (上野柊斗)",
+                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
+                "Timothy Loh",
+                "Yiwei Liu (刘伊玮)",
+                "Yuki Tsuneyoshi (恒吉優紀)",
+                "Zhi Qiao (乔智)"
+            ],
+            [
+                "M' U R:[E,R2]"
             ]
         ],
         [
@@ -32589,23 +32589,6 @@
         ],
         [
             [
-                "L F' L' S L F' L' S' L F2 L'",
-                "r U' L' E' L U' L' E L U2 r'"
-            ],
-            [
-                "Daniel Wallin",
-                "Gavriel Johann Arcilla",
-                "Ishaan Agrawal",
-                "Oliver Fritz",
-                "Roman Strakhov"
-            ],
-            [
-                "L F':[L' S L,F']",
-                "r U':[L' E' L,U']"
-            ]
-        ],
-        [
-            [
                 "L' E' L' U L E L' U' L2",
                 "r' S L' F L S' L' F' r L"
             ],
@@ -32619,6 +32602,23 @@
             [
                 "L':[E',L' U L]",
                 "r':[S,L' F L]"
+            ]
+        ],
+        [
+            [
+                "L F' L' S L F' L' S' L F2 L'",
+                "r U' L' E' L U' L' E L U2 r'"
+            ],
+            [
+                "Daniel Wallin",
+                "Gavriel Johann Arcilla",
+                "Ishaan Agrawal",
+                "Oliver Fritz",
+                "Roman Strakhov"
+            ],
+            [
+                "L F':[L' S L,F']",
+                "r U':[L' E' L,U']"
             ]
         ],
         [
@@ -36374,17 +36374,6 @@
         ],
         [
             [
-                "L' U L' E' L U' L' E L2"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "L':[U,L' E' L]"
-            ]
-        ],
-        [
-            [
                 "U' R' F2 R E R' F2 R u"
             ],
             [
@@ -36436,6 +36425,17 @@
             ],
             [
                 "z:[U' R U,M]"
+            ]
+        ],
+        [
+            [
+                "L' U L' E' L U' L' E L2"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "L':[U,L' E' L]"
             ]
         ]
     ],
@@ -37146,17 +37146,6 @@
         ],
         [
             [
-                "U R F2 R S R' F R S' R' F R' U'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "U R F':[F',R S R']"
-            ]
-        ],
-        [
-            [
                 "L2 x' u' M u2 M u' x L2"
             ],
             [
@@ -37208,6 +37197,17 @@
             ],
             [
                 "Not found."
+            ]
+        ],
+        [
+            [
+                "U R F2 R S R' F R S' R' F R' U'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "U R F':[F',R S R']"
             ]
         ]
     ],
@@ -37971,6 +37971,7 @@
                 "Neel Gore",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timothy Loh",
+                "Tobias Peter",
                 "Tommy Cherry",
                 "Xin Shi (石欣)",
                 "Yiwei Liu (刘伊玮)",
@@ -38001,7 +38002,6 @@
                 "Oliver Fritz",
                 "Sebastiano Tronto",
                 "Shuto Ueno (上野柊斗)",
-                "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Zixing Wang (王子兴)",
@@ -39143,26 +39143,6 @@
         ],
         [
             [
-                "U2 R' E2 R U R' E2 R U"
-            ],
-            [
-                "Anto Kam (甘浩東)",
-                "Bowen Xiao (肖博文)",
-                "Dylan Wang",
-                "Gavriel Johann Arcilla",
-                "Hana Nakano",
-                "Hyunseung Ko (고현승)",
-                "Ishaan Agrawal",
-                "Israel Fraga da Silva",
-                "Martin Vædele Egdal",
-                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
-            ],
-            [
-                "U':[U',R' E2 R]"
-            ]
-        ],
-        [
-            [
                 "l U' M' U L' U' M U M'"
             ],
             [
@@ -39179,6 +39159,26 @@
             ],
             [
                 "l:[U' M' U,L']"
+            ]
+        ],
+        [
+            [
+                "U2 R' E2 R U R' E2 R U"
+            ],
+            [
+                "Anto Kam (甘浩東)",
+                "Bowen Xiao (肖博文)",
+                "Dylan Wang",
+                "Gavriel Johann Arcilla",
+                "Hana Nakano",
+                "Hyunseung Ko (고현승)",
+                "Ishaan Agrawal",
+                "Israel Fraga da Silva",
+                "Martin Vædele Egdal",
+                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
+            ],
+            [
+                "U':[U',R' E2 R]"
             ]
         ],
         [
@@ -40279,17 +40279,6 @@
         ],
         [
             [
-                "U' M U R' E2 R U' R' E2 r U"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "U' M:[U,R' E2 R]"
-            ]
-        ],
-        [
-            [
                 "D2 M' U L U' M U L' U' D2"
             ],
             [
@@ -40319,6 +40308,17 @@
             ],
             [
                 "M U R F':[R2,E']"
+            ]
+        ],
+        [
+            [
+                "U' M U R' E2 R U' R' E2 r U"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "U' M:[U,R' E2 R]"
             ]
         ]
     ],
@@ -41773,6 +41773,18 @@
         ],
         [
             [
+                "x y' U' M' U2 M U' y x'"
+            ],
+            [
+                "Aron Puddy-Mathew",
+                "Rob Holt"
+            ],
+            [
+                "x y' U':[M',U2]"
+            ]
+        ],
+        [
+            [
                 "l' U' L2 S' L2 S U l",
                 "R' F' r2 E r2 E F R"
             ],
@@ -41783,18 +41795,6 @@
             [
                 "l' U':[L2,S']",
                 "Not found."
-            ]
-        ],
-        [
-            [
-                "x y' U' M' U2 M U' y x'"
-            ],
-            [
-                "Aron Puddy-Mathew",
-                "Rob Holt"
-            ],
-            [
-                "x y' U':[M',U2]"
             ]
         ],
         [
@@ -43155,17 +43155,6 @@
         ],
         [
             [
-                "L2 E' L U L' E L U' L"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "L':[L' E' L,U]"
-            ]
-        ],
-        [
-            [
                 "u' R' F2 R E' R' F2 R U"
             ],
             [
@@ -43217,6 +43206,17 @@
             ],
             [
                 "z:[M,U' R U]"
+            ]
+        ],
+        [
+            [
+                "L2 E' L U L' E L U' L"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "L':[L' E' L,U]"
             ]
         ]
     ],
@@ -46686,23 +46686,6 @@
         ],
         [
             [
-                "S L' E L U L' E' L U' S'"
-            ],
-            [
-                "Gavriel Johann Arcilla",
-                "Hana Nakano",
-                "Ishaan Agrawal",
-                "Martin Vædele Egdal",
-                "Tommy Cherry",
-                "Yuki Tsuneyoshi (恒吉優紀)",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            [
-                "S:[L' E L,U]"
-            ]
-        ],
-        [
-            [
                 "F R S' R2 S R F'"
             ],
             [
@@ -46716,6 +46699,23 @@
             ],
             [
                 "F R:[S',R2]"
+            ]
+        ],
+        [
+            [
+                "S L' E L U L' E' L U' S'"
+            ],
+            [
+                "Gavriel Johann Arcilla",
+                "Hana Nakano",
+                "Ishaan Agrawal",
+                "Martin Vædele Egdal",
+                "Tommy Cherry",
+                "Yuki Tsuneyoshi (恒吉優紀)",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            [
+                "S:[L' E L,U]"
             ]
         ],
         [
@@ -48302,18 +48302,6 @@
         ],
         [
             [
-                "U' l' U L U' M U L' U' L U"
-            ],
-            [
-                "Gavriel Johann Arcilla",
-                "Jonghyun Kim (김종현)"
-            ],
-            [
-                "U' l':[U L U',M]"
-            ]
-        ],
-        [
-            [
                 "x U2 M U' L U M' U' L' U' x'"
             ],
             [
@@ -48326,13 +48314,14 @@
         ],
         [
             [
-                "U2 R U' R' U M' U' R U r' U2"
+                "U' l' U L U' M U L' U' L U"
             ],
             [
-                "Gavriel Johann Arcilla"
+                "Gavriel Johann Arcilla",
+                "Jonghyun Kim (김종현)"
             ],
             [
-                "U2 R:[U' R' U,M']"
+                "U' l':[U L U',M]"
             ]
         ],
         [
@@ -48355,6 +48344,17 @@
             ],
             [
                 "y':[M D' M',U']"
+            ]
+        ],
+        [
+            [
+                "U2 R U' R' U M' U' R U r' U2"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "U2 R:[U' R' U,M']"
             ]
         ]
     ],
@@ -48618,17 +48618,6 @@
         ],
         [
             [
-                "D L' E' L U' L' E L U D'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "D:[L' E' L,U']"
-            ]
-        ],
-        [
-            [
                 "U D' S R' B' R S' R' B R U' D"
             ],
             [
@@ -48647,6 +48636,17 @@
             ],
             [
                 "U R:[M,U R' U']"
+            ]
+        ],
+        [
+            [
+                "D L' E' L U' L' E L U D'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "D:[L' E' L,U']"
             ]
         ]
     ],
@@ -48702,17 +48702,6 @@
         ],
         [
             [
-                "L' U R2 L S R2 S' L' U' L"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "L' U L:[R2,S]"
-            ]
-        ],
-        [
-            [
                 "r B R S R2 S' R B' r'"
             ],
             [
@@ -48742,6 +48731,17 @@
             ],
             [
                 "[S2,R' U' R]"
+            ]
+        ],
+        [
+            [
+                "L' U R2 L S R2 S' L' U' L"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "L' U L:[R2,S]"
             ]
         ]
     ],
@@ -49652,17 +49652,6 @@
         ],
         [
             [
-                "D r2 S r U r' S' r U' r D'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "D r2:[S,r U r']"
-            ]
-        ],
-        [
-            [
                 "D' r2 S' r U r' S r U' r D"
             ],
             [
@@ -49681,6 +49670,17 @@
             ],
             [
                 "D:[S,r' U r]"
+            ]
+        ],
+        [
+            [
+                "D r2 S r U r' S' r U' r D'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "D r2:[S,r U r']"
             ]
         ]
     ],
@@ -50537,17 +50537,6 @@
         ],
         [
             [
-                "U' L F' L' S L F2 L' S' L F' L' U"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "U' L F':[L' S L,F2]"
-            ]
-        ],
-        [
-            [
                 "L F L' U L E L' U' L E' F' L'"
             ],
             [
@@ -50577,6 +50566,17 @@
             ],
             [
                 "L' D L':[S,L2]"
+            ]
+        ],
+        [
+            [
+                "U' L F' L' S L F2 L' S' L F' L' U"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "U' L F':[L' S L,F2]"
             ]
         ]
     ],
@@ -50930,17 +50930,6 @@
         ],
         [
             [
-                "R F' R S R' F R S' R2"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "R:[F',R S R']"
-            ]
-        ],
-        [
-            [
                 "U2 l D' l' S l D l' S' U2"
             ],
             [
@@ -50959,6 +50948,17 @@
             ],
             [
                 "R' E' R U':[M',U2]"
+            ]
+        ],
+        [
+            [
+                "R F' R S R' F R S' R2"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "R:[F',R S R']"
             ]
         ]
     ],
@@ -51436,17 +51436,6 @@
         ],
         [
             [
-                "U2 r U' R' U M U' R U R' U2"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "U2 r:[U' R' U,M]"
-            ]
-        ],
-        [
-            [
                 "U' D' R' S R U R' S' R D"
             ],
             [
@@ -51476,6 +51465,17 @@
             ],
             [
                 "y':[U',M D' M']"
+            ]
+        ],
+        [
+            [
+                "U2 r U' R' U M U' R U R' U2"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "U2 r:[U' R' U,M]"
             ]
         ]
     ],
@@ -52814,17 +52814,6 @@
         ],
         [
             [
-                "U' L F L' S L F2 L' S' L F L' U"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "U' L F:[L' S L,F2]"
-            ]
-        ],
-        [
-            [
                 "L F E L' U L E' L' U' L F' L'"
             ],
             [
@@ -52854,6 +52843,17 @@
             ],
             [
                 "L' D L:[S,L2]"
+            ]
+        ],
+        [
+            [
+                "U' L F L' S L F2 L' S' L F L' U"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "U' L F:[L' S L,F2]"
             ]
         ]
     ],
@@ -54069,17 +54069,6 @@
         ],
         [
             [
-                "S' U' L' U S U' L U"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "[S',U' L' U]"
-            ]
-        ],
-        [
-            [
                 "R B' R' U' R S R' U R b R'"
             ],
             [
@@ -54087,6 +54076,17 @@
             ],
             [
                 "R B':[R' U' R,S]"
+            ]
+        ],
+        [
+            [
+                "S' U' L' U S U' L U"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "[S',U' L' U]"
             ]
         ]
     ],
@@ -55088,17 +55088,6 @@
         ],
         [
             [
-                "U' D L' E' L U L' E L D'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "D:[U',L' E' L]"
-            ]
-        ],
-        [
-            [
                 "U D' R' B' R S R' B R S' U' D"
             ],
             [
@@ -55117,6 +55106,17 @@
             ],
             [
                 "U R:[U R' U',M]"
+            ]
+        ],
+        [
+            [
+                "U' D L' E' L U L' E L D'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "D:[U',L' E' L]"
             ]
         ]
     ],
@@ -55180,17 +55180,6 @@
         ],
         [
             [
-                "D r' U r' S r U' r' S' r2 D'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "D r':[U,r' S r]"
-            ]
-        ],
-        [
-            [
                 "D' r' U r' S' r U' r' S r2 D"
             ],
             [
@@ -55209,6 +55198,17 @@
             ],
             [
                 "D:[r' U r,S]"
+            ]
+        ],
+        [
+            [
+                "D r' U r' S r U' r' S' r2 D'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "D r':[U,r' S r]"
             ]
         ]
     ],
@@ -55723,17 +55723,6 @@
         ],
         [
             [
-                "U2 r' E R U R' E' R U' M' U2"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "U2 r':[E,R U R']"
-            ]
-        ],
-        [
-            [
                 "M U2 R' E R U' R' E' R U' M'"
             ],
             [
@@ -55741,6 +55730,17 @@
             ],
             [
                 "M U:[U,R' E R]"
+            ]
+        ],
+        [
+            [
+                "U2 r' E R U R' E' R U' M' U2"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "U2 r':[E,R U R']"
             ]
         ]
     ],
@@ -55975,17 +55975,6 @@
         ],
         [
             [
-                "L' U L S R2 S' R2 L' U' L"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "L' U L:[S,R2]"
-            ]
-        ],
-        [
-            [
                 "r B R' S R2 S' R' B' r'"
             ],
             [
@@ -56015,6 +56004,17 @@
             ],
             [
                 "[R' U' R,S2]"
+            ]
+        ],
+        [
+            [
+                "L' U L S R2 S' R2 L' U' L"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "L' U L:[S,R2]"
             ]
         ]
     ],
@@ -56515,17 +56515,6 @@
         ],
         [
             [
-                "U' R' F2 R S' R' F' R S R' F' R U"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "U' R' F:[F,R S' R']"
-            ]
-        ],
-        [
-            [
                 "S R2 S' R2 U2 R' E R U2 R' E' R"
             ],
             [
@@ -56533,6 +56522,17 @@
             ],
             [
                 "Not found."
+            ]
+        ],
+        [
+            [
+                "U' R' F2 R S' R' F' R S R' F' R U"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "U' R' F:[F,R S' R']"
             ]
         ]
     ],
@@ -56860,17 +56860,6 @@
         ],
         [
             [
-                "R2 S R' F' R S' R' F R'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "R:[R S R',F']"
-            ]
-        ],
-        [
-            [
                 "U2 S l D' l' S' l D l' U2"
             ],
             [
@@ -56878,6 +56867,17 @@
             ],
             [
                 "U2:[S,l D' l']"
+            ]
+        ],
+        [
+            [
+                "R2 S R' F' R S' R' F R'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "R:[R S R',F']"
             ]
         ]
     ],
@@ -57532,18 +57532,6 @@
         ],
         [
             [
-                "U2 S U R U' S' U R' U"
-            ],
-            [
-                "Gavriel Johann Arcilla",
-                "Tobias Peter"
-            ],
-            [
-                "U':[U' S U,R]"
-            ]
-        ],
-        [
-            [
                 "R2 U' M' U R U' M U R"
             ],
             [
@@ -57552,6 +57540,18 @@
             ],
             [
                 "R':[R',U' M' U]"
+            ]
+        ],
+        [
+            [
+                "U2 S U R U' S' U R' U"
+            ],
+            [
+                "Gavriel Johann Arcilla",
+                "Tobias Peter"
+            ],
+            [
+                "U':[U' S U,R]"
             ]
         ],
         [
@@ -58955,17 +58955,6 @@
         ],
         [
             [
-                "U' l' U' L E' L2 E L U l U"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "U' l' U' L:[E',L2]"
-            ]
-        ],
-        [
-            [
                 "L u L U' L' E' L U L' u' E L'"
             ],
             [
@@ -58984,6 +58973,17 @@
             ],
             [
                 "R:[S,R B2 R']"
+            ]
+        ],
+        [
+            [
+                "U' l' U' L E' L2 E L U l U"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "U' l' U' L:[E',L2]"
             ]
         ]
     ],
@@ -60189,17 +60189,6 @@
         ],
         [
             [
-                "U2 M U R' E R U' R' E' r U2"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "U2 M:[U,R' E R]"
-            ]
-        ],
-        [
-            [
                 "M U R' E R U R' E' R U2 M'"
             ],
             [
@@ -60207,6 +60196,17 @@
             ],
             [
                 "M U:[R' E R,U]"
+            ]
+        ],
+        [
+            [
+                "U2 M U R' E R U' R' E' r U2"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "U2 M:[U,R' E R]"
             ]
         ]
     ],
@@ -60243,17 +60243,6 @@
         ],
         [
             [
-                "U' R' F R S' R' F R S R' F2 R U"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "U' R' F:[R S' R',F]"
-            ]
-        ],
-        [
-            [
                 "R' E R U2 R' E' R U2 R2 S R2 S'"
             ],
             [
@@ -60261,6 +60250,17 @@
             ],
             [
                 "Not found."
+            ]
+        ],
+        [
+            [
+                "U' R' F R S' R' F R S R' F2 R U"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "U' R' F:[R S' R',F]"
             ]
         ]
     ],
@@ -61575,17 +61575,6 @@
         ],
         [
             [
-                "U' L' U S' U' L U S"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "[U' L' U,S']"
-            ]
-        ],
-        [
-            [
                 "R b' R' U' R S' R' U R B R'"
             ],
             [
@@ -61593,6 +61582,17 @@
             ],
             [
                 "R b':[R' U' R,S']"
+            ]
+        ],
+        [
+            [
+                "U' L' U S' U' L U S"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "[U' L' U,S']"
             ]
         ]
     ],
@@ -61852,17 +61852,6 @@
         ],
         [
             [
-                "U' l' U' L' E' L2 E L' U l U"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "U' l' U' L':[E',L2]"
-            ]
-        ],
-        [
-            [
                 "L u E' L U' L' E L U L' u' L'"
             ],
             [
@@ -61881,6 +61870,17 @@
             ],
             [
                 "R:[R B2 R',S]"
+            ]
+        ],
+        [
+            [
+                "U' l' U' L' E' L2 E L' U l U"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "U' l' U' L':[E',L2]"
             ]
         ]
     ],
@@ -63242,18 +63242,6 @@
         ],
         [
             [
-                "U' R U' S U R' U' S' U2"
-            ],
-            [
-                "Gavriel Johann Arcilla",
-                "Tobias Peter"
-            ],
-            [
-                "U':[R,U' S U]"
-            ]
-        ],
-        [
-            [
                 "R' U' M' U R' U' M U R2"
             ],
             [
@@ -63262,6 +63250,18 @@
             ],
             [
                 "R':[U' M' U,R']"
+            ]
+        ],
+        [
+            [
+                "U' R U' S U R' U' S' U2"
+            ],
+            [
+                "Gavriel Johann Arcilla",
+                "Tobias Peter"
+            ],
+            [
+                "U':[R,U' S U]"
             ]
         ],
         [
@@ -63581,17 +63581,6 @@
         ],
         [
             [
-                "D' r' U' r' S r U2 r' S' r U' r D"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "D' r' U':[r' S r,U2]"
-            ]
-        ],
-        [
-            [
                 "U' L D L S L2 S' L D' L' U"
             ],
             [
@@ -63621,6 +63610,17 @@
             ],
             [
                 "L':[U' L' U,M2]"
+            ]
+        ],
+        [
+            [
+                "D' r' U' r' S r U2 r' S' r U' r D"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "D' r' U':[r' S r,U2]"
             ]
         ]
     ],
@@ -64579,13 +64579,24 @@
                 "Michael Tripodi",
                 "Rob Holt",
                 "Tim Wong",
-                "Tobias Peter",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
                 "[U R' U',M2]"
+            ]
+        ],
+        [
+            [
+                "U' D' L E L2 E' L U D"
+            ],
+            [
+                "Jonghyun Kim (김종현)",
+                "Tobias Peter"
+            ],
+            [
+                "U' D' L:[E,L2]"
             ]
         ],
         [
@@ -64608,17 +64619,6 @@
             ],
             [
                 "U' R' U':[M',U2]"
-            ]
-        ],
-        [
-            [
-                "U' D' L E L2 E' L U D"
-            ],
-            [
-                "Jonghyun Kim (김종현)"
-            ],
-            [
-                "U' D' L:[E,L2]"
             ]
         ]
     ],
@@ -65513,17 +65513,6 @@
         ],
         [
             [
-                "U r E2 R' U' R E2 R' U M U'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "U r:[E2,R' U' R]"
-            ]
-        ],
-        [
-            [
                 "l' U' M U' M' U' M U' L"
             ],
             [
@@ -65531,6 +65520,17 @@
             ],
             [
                 "Not found."
+            ]
+        ],
+        [
+            [
+                "U r E2 R' U' R E2 R' U M U'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "U r:[E2,R' U' R]"
             ]
         ]
     ],
@@ -65692,17 +65692,6 @@
         ],
         [
             [
-                "U R' M' E2 R U' R' E2 R U M U'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "U M':[R' E2 R,U']"
-            ]
-        ],
-        [
-            [
                 "U R x' U' M U2 M' U' x R' U'"
             ],
             [
@@ -65710,6 +65699,17 @@
             ],
             [
                 "U R x' U':[M,U2]"
+            ]
+        ],
+        [
+            [
+                "U R' M' E2 R U' R' E2 R U M U'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "U M':[R' E2 R,U']"
             ]
         ]
     ],
@@ -66040,17 +66040,6 @@
         ],
         [
             [
-                "D' r' U r' S r U2 r' S' r U r D"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "D' r' U:[r' S r,U2]"
-            ]
-        ],
-        [
-            [
                 "U' L D L' S L2 S' L' D' L' U"
             ],
             [
@@ -66080,6 +66069,17 @@
             ],
             [
                 "L':[M2,U' L' U]"
+            ]
+        ],
+        [
+            [
+                "D' r' U r' S r U2 r' S' r U r D"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "D' r' U:[r' S r,U2]"
             ]
         ]
     ],
@@ -67792,17 +67792,6 @@
         ],
         [
             [
-                "U D R2 S' R2 S U' D'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "U D:[R2,S']"
-            ]
-        ],
-        [
-            [
                 "x' M U2 M' U2 x"
             ],
             [
@@ -67832,6 +67821,17 @@
             ],
             [
                 "[D2,M']"
+            ]
+        ],
+        [
+            [
+                "U D R2 S' R2 S U' D'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "U D:[R2,S']"
             ]
         ]
     ],
@@ -67864,21 +67864,6 @@
         ],
         [
             [
-                "D' S L B L' S' L B' L' D",
-                "D' S r D r' S' r D' r' D"
-            ],
-            [
-                "Gavriel Johann Arcilla",
-                "Heejun Kim (김희준)",
-                "Keiichiro Taira (平佳一郎)"
-            ],
-            [
-                "D':[S,L B L']",
-                "D':[S,r D r']"
-            ]
-        ],
-        [
-            [
                 "U r M' U' R' U M U' R U r' U'"
             ],
             [
@@ -67901,6 +67886,21 @@
             ],
             [
                 "M' U M:[U,M' U2 M']"
+            ]
+        ],
+        [
+            [
+                "D' S L B L' S' L B' L' D",
+                "D' S r D r' S' r D' r' D"
+            ],
+            [
+                "Gavriel Johann Arcilla",
+                "Heejun Kim (김희준)",
+                "Keiichiro Taira (平佳一郎)"
+            ],
+            [
+                "D':[S,L B L']",
+                "D':[S,r D r']"
             ]
         ],
         [
@@ -68712,17 +68712,6 @@
         ],
         [
             [
-                "U' B R' S R B' R' S' R U"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "U':[B,R' S R]"
-            ]
-        ],
-        [
-            [
                 "R2 B R2 E' R2 E B' R2"
             ],
             [
@@ -68752,6 +68741,17 @@
             ],
             [
                 "R2 F':[M,U2]"
+            ]
+        ],
+        [
+            [
+                "U' B R' S R B' R' S' R U"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "U':[B,R' S R]"
             ]
         ]
     ],
@@ -68910,21 +68910,6 @@
         ],
         [
             [
-                "D l U' R E' R2 E R U l' D'",
-                "D R B' R S' R2 S R B R' D'"
-            ],
-            [
-                "Dhruv Ambastha",
-                "Gavriel Johann Arcilla",
-                "Heejun Kim (김희준)"
-            ],
-            [
-                "D l U' R:[E',R2]",
-                "D R B' R:[S',R2]"
-            ]
-        ],
-        [
-            [
                 "D' R B' R' S' R2 S R' B R' D"
             ],
             [
@@ -68947,6 +68932,21 @@
             ],
             [
                 "U:[D2,M' U M]"
+            ]
+        ],
+        [
+            [
+                "D l U' R E' R2 E R U l' D'",
+                "D R B' R S' R2 S R B R' D'"
+            ],
+            [
+                "Dhruv Ambastha",
+                "Gavriel Johann Arcilla",
+                "Heejun Kim (김희준)"
+            ],
+            [
+                "D l U' R:[E',R2]",
+                "D R B' R:[S',R2]"
             ]
         ],
         [
@@ -69295,17 +69295,6 @@
         ],
         [
             [
-                "U r' E' R U R' E R U' M' U'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "U r':[E',R U R']"
-            ]
-        ],
-        [
-            [
                 "M U' R2 U M U' R2 U M2"
             ],
             [
@@ -69324,6 +69313,17 @@
             ],
             [
                 "R M:[U' R U,M]"
+            ]
+        ],
+        [
+            [
+                "U r' E' R U R' E R U' M' U'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "U r':[E',R U R']"
             ]
         ]
     ],
@@ -70028,17 +70028,6 @@
         ],
         [
             [
-                "r' U' r' S' r U2 r' S r U' r"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "r' U':[r' S' r,U2]"
-            ]
-        ],
-        [
-            [
                 "U R' D R S' R2 S R D' R U'"
             ],
             [
@@ -70046,6 +70035,17 @@
             ],
             [
                 "U R' D R:[S',R2]"
+            ]
+        ],
+        [
+            [
+                "r' U' r' S' r U2 r' S r U' r"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "r' U':[r' S' r,U2]"
             ]
         ]
     ],
@@ -70432,20 +70432,6 @@
         ],
         [
             [
-                "U' D2 L E L2 E' L U D2"
-            ],
-            [
-                "Anto Kam (甘浩東)",
-                "Dhruv Ambastha",
-                "Gavriel Johann Arcilla",
-                "Tobias Peter"
-            ],
-            [
-                "U' D2 L:[E,L2]"
-            ]
-        ],
-        [
-            [
                 "R U' R' U' R' U R U R U R2"
             ],
             [
@@ -70456,6 +70442,20 @@
             ],
             [
                 "Not found."
+            ]
+        ],
+        [
+            [
+                "U' D2 L E L2 E' L U D2"
+            ],
+            [
+                "Anto Kam (甘浩東)",
+                "Dhruv Ambastha",
+                "Gavriel Johann Arcilla",
+                "Tobias Peter"
+            ],
+            [
+                "U' D2 L:[E,L2]"
             ]
         ],
         [
@@ -73970,17 +73970,6 @@
         ],
         [
             [
-                "l U' S' L2 S L2 U l'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "l U':[S',L2]"
-            ]
-        ],
-        [
-            [
                 "F U2 M U2 M' F'"
             ],
             [
@@ -73988,6 +73977,17 @@
             ],
             [
                 "F:[U2,M]"
+            ]
+        ],
+        [
+            [
+                "l U' S' L2 S L2 U l'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "l U':[S',L2]"
             ]
         ]
     ],
@@ -76043,13 +76043,24 @@
                 "Michael Tripodi",
                 "Rob Holt",
                 "Tim Wong",
-                "Tobias Peter",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
                 "[M2,U R' U']"
+            ]
+        ],
+        [
+            [
+                "U' D' L' E L2 E' L' U D"
+            ],
+            [
+                "Jonghyun Kim (김종현)",
+                "Tobias Peter"
+            ],
+            [
+                "U' D' L':[E,L2]"
             ]
         ],
         [
@@ -76072,17 +76083,6 @@
             ],
             [
                 "U' R' U:[M',U2]"
-            ]
-        ],
-        [
-            [
-                "U' D' L' E L2 E' L' U D"
-            ],
-            [
-                "Jonghyun Kim (김종현)"
-            ],
-            [
-                "U' D' L':[E,L2]"
             ]
         ]
     ],
@@ -76342,20 +76342,6 @@
         ],
         [
             [
-                "U' D2 L' E L2 E' L' U D2"
-            ],
-            [
-                "Anto Kam (甘浩東)",
-                "Dhruv Ambastha",
-                "Gavriel Johann Arcilla",
-                "Tobias Peter"
-            ],
-            [
-                "U' D2 L':[E,L2]"
-            ]
-        ],
-        [
-            [
                 "R2 U' R' U' R' U' R U R U R'"
             ],
             [
@@ -76366,6 +76352,20 @@
             ],
             [
                 "Not found."
+            ]
+        ],
+        [
+            [
+                "U' D2 L' E L2 E' L' U D2"
+            ],
+            [
+                "Anto Kam (甘浩東)",
+                "Dhruv Ambastha",
+                "Gavriel Johann Arcilla",
+                "Tobias Peter"
+            ],
+            [
+                "U' D2 L':[E,L2]"
             ]
         ],
         [
@@ -77020,17 +77020,6 @@
         ],
         [
             [
-                "U' R' S R B R' S' R B' U"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "U':[R' S R,B]"
-            ]
-        ],
-        [
-            [
                 "R M U' R2 S R2 S' U R' M'"
             ],
             [
@@ -77049,6 +77038,17 @@
             ],
             [
                 "R2 F':[U2,M]"
+            ]
+        ],
+        [
+            [
+                "U' R' S R B R' S' R B' U"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "U':[R' S R,B]"
             ]
         ]
     ],
@@ -78899,18 +78899,6 @@
         ],
         [
             [
-                "D' R E R' U' R E' R' U D"
-            ],
-            [
-                "Anto Kam (甘浩東)",
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "D':[R E R',U']"
-            ]
-        ],
-        [
-            [
                 "D' R F R' S R F' R' S' D"
             ],
             [
@@ -78919,6 +78907,18 @@
             ],
             [
                 "D':[R F R',S]"
+            ]
+        ],
+        [
+            [
+                "D' R E R' U' R E' R' U D"
+            ],
+            [
+                "Anto Kam (甘浩東)",
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "D':[R E R',U']"
             ]
         ],
         [
@@ -79300,20 +79300,6 @@
         ],
         [
             [
-                "U2 L' E2 L U' L' E2 L U'"
-            ],
-            [
-                "Anto Kam (甘浩東)",
-                "Gavriel Johann Arcilla",
-                "Ishaan Agrawal",
-                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
-            ],
-            [
-                "U:[U,L' E2 L]"
-            ]
-        ],
-        [
-            [
                 "R M U M' U' R' U M U' M'"
             ],
             [
@@ -79324,6 +79310,20 @@
             ],
             [
                 "M:[R,U M' U']"
+            ]
+        ],
+        [
+            [
+                "U2 L' E2 L U' L' E2 L U'"
+            ],
+            [
+                "Anto Kam (甘浩東)",
+                "Gavriel Johann Arcilla",
+                "Ishaan Agrawal",
+                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
+            ],
+            [
+                "U:[U,L' E2 L]"
             ]
         ],
         [
@@ -82339,20 +82339,6 @@
         ],
         [
             [
-                "S R' F R S' R' F R S R' F2 R S'"
-            ],
-            [
-                "Gavriel Johann Arcilla",
-                "Guoqiao Wang (王国桥)",
-                "Yangyang Shen (沈炀炀)",
-                "Yifan Wang (王逸帆)"
-            ],
-            [
-                "S R' F:[R S' R',F]"
-            ]
-        ],
-        [
-            [
                 "S' U2 R' E R U R' E' R U S"
             ],
             [
@@ -82363,6 +82349,20 @@
             ],
             [
                 "S' U':[U',R' E R]"
+            ]
+        ],
+        [
+            [
+                "S R' F R S' R' F R S R' F2 R S'"
+            ],
+            [
+                "Gavriel Johann Arcilla",
+                "Guoqiao Wang (王国桥)",
+                "Yangyang Shen (沈炀炀)",
+                "Yifan Wang (王逸帆)"
+            ],
+            [
+                "S R' F:[R S' R',F]"
             ]
         ],
         [
@@ -86014,17 +86014,6 @@
         ],
         [
             [
-                "R U' R' L2 S' L2 S R U R'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "R U' R':[L2,S']"
-            ]
-        ],
-        [
-            [
                 "S R B' R' S R2 S' R' B R' S'"
             ],
             [
@@ -86054,6 +86043,17 @@
             ],
             [
                 "R' U' R:[L2,S']"
+            ]
+        ],
+        [
+            [
+                "R U' R' L2 S' L2 S R U R'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "R U' R':[L2,S']"
             ]
         ]
     ],
@@ -86235,17 +86235,6 @@
         ],
         [
             [
-                "D' R E R' U R E' R' U' D"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "D':[R E R',U]"
-            ]
-        ],
-        [
-            [
                 "D' R' B' R S R' B R S' D"
             ],
             [
@@ -86253,6 +86242,17 @@
             ],
             [
                 "D':[R' B' R,S]"
+            ]
+        ],
+        [
+            [
+                "D' R E R' U R E' R' U' D"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "D':[R E R',U]"
             ]
         ]
     ],
@@ -88077,17 +88077,6 @@
         ],
         [
             [
-                "R U' B2 R' S R B2 R' S' R U R'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "R U':[B2,R' S R]"
-            ]
-        ],
-        [
-            [
                 "R' E' R U R E2 R' U' R E' R'"
             ],
             [
@@ -88106,6 +88095,17 @@
             ],
             [
                 "R' E' R U R:[E,R2]"
+            ]
+        ],
+        [
+            [
+                "R U' B2 R' S R B2 R' S' R U R'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "R U':[B2,R' S R]"
             ]
         ]
     ],
@@ -88946,17 +88946,6 @@
         ],
         [
             [
-                "U L F' L' S L F2 L' S' L F' L' U'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "U L F':[L' S L,F2]"
-            ]
-        ],
-        [
-            [
                 "L' D R E R2 E' R D' L"
             ],
             [
@@ -88975,6 +88964,17 @@
             ],
             [
                 "S R' F' R:[S,R2]"
+            ]
+        ],
+        [
+            [
+                "U L F' L' S L F2 L' S' L F' L' U'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "U L F':[L' S L,F2]"
             ]
         ]
     ],
@@ -89242,17 +89242,6 @@
         ],
         [
             [
-                "U D S L' F' L S' L' F L U' D'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "U D:[S,L' F' L]"
-            ]
-        ],
-        [
-            [
                 "D R2 D' M' D R2 D' M"
             ],
             [
@@ -89260,6 +89249,17 @@
             ],
             [
                 "[D R2 D',M']"
+            ]
+        ],
+        [
+            [
+                "U D S L' F' L S' L' F L U' D'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "U D:[S,L' F' L]"
             ]
         ]
     ],
@@ -89882,17 +89882,6 @@
         ],
         [
             [
-                "U r U' R2 S R2 S' U r' U'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "U r U':[R2,S]"
-            ]
-        ],
-        [
-            [
                 "E' R u' M2 u R' u' M2 U"
             ],
             [
@@ -89911,6 +89900,17 @@
             ],
             [
                 "R D' F' R:[S',R2]"
+            ]
+        ],
+        [
+            [
+                "U r U' R2 S R2 S' U r' U'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "U r U':[R2,S]"
             ]
         ]
     ],
@@ -90347,18 +90347,6 @@
         ],
         [
             [
-                "U R U' R' U M' U' R U r' U'"
-            ],
-            [
-                "Gavriel Johann Arcilla",
-                "Jonghyun Kim (김종현)"
-            ],
-            [
-                "U R:[U' R' U,M']"
-            ]
-        ],
-        [
-            [
                 "y U M D M' U' M D' M' y'"
             ],
             [
@@ -90379,6 +90367,18 @@
             ],
             [
                 "x U':[R',U' M U]"
+            ]
+        ],
+        [
+            [
+                "U R U' R' U M' U' R U r' U'"
+            ],
+            [
+                "Gavriel Johann Arcilla",
+                "Jonghyun Kim (김종현)"
+            ],
+            [
+                "U R:[U' R' U,M']"
             ]
         ],
         [
@@ -91041,17 +91041,6 @@
         ],
         [
             [
-                "M' U2 R S' R' U' R S R' U' M"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "M' U:[U,R S' R']"
-            ]
-        ],
-        [
-            [
                 "U M' U R U' M' U R' U' M2 U'"
             ],
             [
@@ -91104,6 +91093,17 @@
             [
                 "U:[M,D R' D']"
             ]
+        ],
+        [
+            [
+                "M' U2 R S' R' U' R S R' U' M"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "M' U:[U,R S' R']"
+            ]
         ]
     ],
     "GJS": [
@@ -91145,17 +91145,6 @@
         ],
         [
             [
-                "r E2 R' U' R E2 R' U M"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "r:[E2,R' U' R]"
-            ]
-        ],
-        [
-            [
                 "D R' F2 R S' R' F2 R S D'"
             ],
             [
@@ -91174,6 +91163,17 @@
             ],
             [
                 "Not found."
+            ]
+        ],
+        [
+            [
+                "r E2 R' U' R E2 R' U M"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "r:[E2,R' U' R]"
             ]
         ]
     ],
@@ -91493,17 +91493,6 @@
         ],
         [
             [
-                "M' U2 L' E L U' L' E' L U' M"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "M' U:[U,L' E L]"
-            ]
-        ],
-        [
-            [
                 "U M' U R' U' M' U R U' M2 U'"
             ],
             [
@@ -91544,6 +91533,17 @@
             ],
             [
                 "U:[M,D R D']"
+            ]
+        ],
+        [
+            [
+                "M' U2 L' E L U' L' E' L U' M"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "M' U:[U,L' E L]"
             ]
         ]
     ],
@@ -92054,17 +92054,6 @@
         ],
         [
             [
-                "R' U' L E' L2 E L U R"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "R' U' L:[E',L2]"
-            ]
-        ],
-        [
-            [
                 "D' r' U' L E' L' U2 L E L' U' r D"
             ],
             [
@@ -92083,6 +92072,17 @@
             ],
             [
                 "R' U' R:[S',L2]"
+            ]
+        ],
+        [
+            [
+                "R' U' L E' L2 E L U R"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "R' U' L:[E',L2]"
             ]
         ]
     ],
@@ -92205,17 +92205,6 @@
         ],
         [
             [
-                "U L F L' S L F2 L' S' L F L' U'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "U L F:[L' S L,F2]"
-            ]
-        ],
-        [
-            [
                 "R D R' D' R' D' R' D R D"
             ],
             [
@@ -92234,6 +92223,17 @@
             ],
             [
                 "L' D R':[E,R2]"
+            ]
+        ],
+        [
+            [
+                "U L F L' S L F2 L' S' L F L' U'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "U L F:[L' S L,F2]"
             ]
         ]
     ],
@@ -92336,17 +92336,6 @@
         ],
         [
             [
-                "S' L2 S L2 D L2 S' L2 S D'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "[S' L2 S L2,D]"
-            ]
-        ],
-        [
-            [
                 "L' D' R' E R2 E' R' D L"
             ],
             [
@@ -92365,6 +92354,17 @@
             ],
             [
                 "r F' R:[S',R2]"
+            ]
+        ],
+        [
+            [
+                "S' L2 S L2 D L2 S' L2 S D'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "[S' L2 S L2,D]"
             ]
         ]
     ],
@@ -92539,17 +92539,6 @@
         ],
         [
             [
-                "U L F2 L' S L F L' S' L F L' U'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "U L F':[F',L' S L]"
-            ]
-        ],
-        [
-            [
                 "R S' R2 S' R U2 R' S R U2 R S R'"
             ],
             [
@@ -92557,6 +92546,17 @@
             ],
             [
                 "R S' R':[R' S' R,U2]"
+            ]
+        ],
+        [
+            [
+                "U L F2 L' S L F L' S' L F L' U'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "U L F':[F',L' S L]"
             ]
         ]
     ],
@@ -93596,17 +93596,6 @@
         ],
         [
             [
-                "U2 S' L B' L' S L B L' U2"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "U2:[S',L B' L']"
-            ]
-        ],
-        [
-            [
                 "L2 S' L' B' L S L' B L'"
             ],
             [
@@ -93625,6 +93614,17 @@
             ],
             [
                 "R' S R U:[M,U2]"
+            ]
+        ],
+        [
+            [
+                "U2 S' L B' L' S L B L' U2"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "U2:[S',L B' L']"
             ]
         ]
     ],
@@ -94859,17 +94859,6 @@
         ],
         [
             [
-                "D S' L2 S L2 D' L2 S' L2 S"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "[D,S' L2 S L2]"
-            ]
-        ],
-        [
-            [
                 "L' D' R E R2 E' R D L"
             ],
             [
@@ -94899,6 +94888,17 @@
             ],
             [
                 "r F' R':[S',R2]"
+            ]
+        ],
+        [
+            [
+                "D S' L2 S L2 D' L2 S' L2 S"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "[D,S' L2 S L2]"
             ]
         ]
     ],
@@ -94936,17 +94936,6 @@
         ],
         [
             [
-                "U2 L B' L' S' L B L' S U2"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "U2:[L B' L',S']"
-            ]
-        ],
-        [
-            [
                 "L B' L S' L' B L S L2"
             ],
             [
@@ -94965,6 +94954,17 @@
             ],
             [
                 "R' S R U':[M,U2]"
+            ]
+        ],
+        [
+            [
+                "U2 L B' L' S' L B L' S U2"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "U2:[L B' L',S']"
             ]
         ]
     ],
@@ -95130,17 +95130,6 @@
         ],
         [
             [
-                "U M' U R U' M2 U R' U' M' U'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "U M':[U R U',M2]"
-            ]
-        ],
-        [
-            [
                 "U' r' U' S R2 S' R2 U r U"
             ],
             [
@@ -95170,6 +95159,17 @@
             ],
             [
                 "R' D B R':[S',R2]"
+            ]
+        ],
+        [
+            [
+                "U M' U R U' M2 U R' U' M' U'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "U M':[U R U',M2]"
             ]
         ]
     ],
@@ -95244,17 +95244,6 @@
         ],
         [
             [
-                "U M' U' L' U M2 U' L U M' U'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "U M':[U' L' U,M2]"
-            ]
-        ],
-        [
-            [
                 "r' M E R U' R' E' R U M2"
             ],
             [
@@ -95273,6 +95262,17 @@
             ],
             [
                 "u:[U L U',M2]"
+            ]
+        ],
+        [
+            [
+                "U M' U' L' U M2 U' L U M' U'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "U M':[U' L' U,M2]"
             ]
         ]
     ],
@@ -95359,17 +95359,6 @@
         ],
         [
             [
-                "B' L S' L' B L S L'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "[B',L S' L']"
-            ]
-        ],
-        [
-            [
                 "l S R B' R' S' R B R' l'"
             ],
             [
@@ -95377,6 +95366,17 @@
             ],
             [
                 "l:[S,R B' R']"
+            ]
+        ],
+        [
+            [
+                "B' L S' L' B L S L'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "[B',L S' L']"
             ]
         ]
     ],
@@ -95450,17 +95450,6 @@
         ],
         [
             [
-                "U M' U R' U' M2 U R U' M' U'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "U M':[U R' U',M2]"
-            ]
-        ],
-        [
-            [
                 "R' S' R U' M U2 M' U' R' S R"
             ],
             [
@@ -95490,6 +95479,17 @@
             ],
             [
                 "E':[R,U M2 U']"
+            ]
+        ],
+        [
+            [
+                "U M' U R' U' M2 U R U' M' U'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "U M':[U R' U',M2]"
             ]
         ]
     ],
@@ -95841,17 +95841,6 @@
         ],
         [
             [
-                "U D' R E R' U' R E' R' D"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "D':[U,R E R']"
-            ]
-        ],
-        [
-            [
                 "D' S R' B' R S' R' B R D"
             ],
             [
@@ -95859,6 +95848,17 @@
             ],
             [
                 "D':[S,R' B' R]"
+            ]
+        ],
+        [
+            [
+                "U D' R E R' U' R E' R' D"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "D':[U,R E R']"
             ]
         ]
     ],
@@ -95903,17 +95903,6 @@
         ],
         [
             [
-                "D' R B' R' S' R B R' S D"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "D':[R B' R',S']"
-            ]
-        ],
-        [
-            [
                 "M' u' M' u2 M' u' M"
             ],
             [
@@ -95932,6 +95921,17 @@
             ],
             [
                 "R' F':[U2,M]"
+            ]
+        ],
+        [
+            [
+                "D' R B' R' S' R B R' S D"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "D':[R B' R',S']"
             ]
         ]
     ],
@@ -95998,6 +95998,17 @@
         ],
         [
             [
+                "M' D R2 D' M D R2 D'"
+            ],
+            [
+                "Daniel White"
+            ],
+            [
+                "[M',D R2 D']"
+            ]
+        ],
+        [
+            [
                 "U D L' F' L S L' F L S' U' D'"
             ],
             [
@@ -96016,17 +96027,6 @@
             ],
             [
                 "R M:[U R' U',M]"
-            ]
-        ],
-        [
-            [
-                "M' D R2 D' M D R2 D'"
-            ],
-            [
-                "Daniel White"
-            ],
-            [
-                "[M',D R2 D']"
             ]
         ]
     ],
@@ -96080,17 +96080,6 @@
         ],
         [
             [
-                "U D R' F R' S' R2 S R' F' R U' D'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "U D R' F R':[S',R2]"
-            ]
-        ],
-        [
-            [
                 "U2 M U M' U2 M' U' M"
             ],
             [
@@ -96131,6 +96120,17 @@
             ],
             [
                 "z' R':[U' M' U,R2]"
+            ]
+        ],
+        [
+            [
+                "U D R' F R' S' R2 S R' F' R U' D'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "U D R' F R':[S',R2]"
             ]
         ]
     ],
@@ -96290,17 +96290,6 @@
         ],
         [
             [
-                "r' E' R U R' E R U' M'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "r':[E',R U R']"
-            ]
-        ],
-        [
-            [
                 "D' R' E R D R' E' R"
             ],
             [
@@ -96319,6 +96308,17 @@
             ],
             [
                 "D':[R' F' R,S']"
+            ]
+        ],
+        [
+            [
+                "r' E' R U R' E R U' M'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "r':[E',R U R']"
             ]
         ]
     ],
@@ -96392,17 +96392,6 @@
         ],
         [
             [
-                "l U2 L E' L' U L E L' U l'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "l U':[U',L E' L']"
-            ]
-        ],
-        [
-            [
                 "M U2 L E' L' U L E L' U M'"
             ],
             [
@@ -96421,6 +96410,17 @@
             ],
             [
                 "S' R U:[M,U2]"
+            ]
+        ],
+        [
+            [
+                "l U2 L E' L' U L E L' U l'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "l U':[U',L E' L']"
             ]
         ]
     ],
@@ -96542,17 +96542,6 @@
         ],
         [
             [
-                "r' E2 R U R' E2 R U' M'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "r':[E2,R U R']"
-            ]
-        ],
-        [
-            [
                 "M' L U M' U2 M U M L'"
             ],
             [
@@ -96560,6 +96549,17 @@
             ],
             [
                 "M' L U:[M',U2]"
+            ]
+        ],
+        [
+            [
+                "r' E2 R U R' E2 R U' M'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "r':[E2,R U R']"
             ]
         ]
     ],
@@ -96694,17 +96694,6 @@
         ],
         [
             [
-                "M U2 L' E L U L' E' L U M'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "M U':[U',L' E L]"
-            ]
-        ],
-        [
-            [
                 "U D L F' E L2 E' L2 F L' U' D'"
             ],
             [
@@ -96745,6 +96734,17 @@
             ],
             [
                 "D':[S,U' R U]"
+            ]
+        ],
+        [
+            [
+                "M U2 L' E L U L' E' L U M'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "M U':[U',L' E L]"
             ]
         ]
     ],
@@ -99898,17 +99898,6 @@
         ],
         [
             [
-                "L U2 L E' L2 E L U2 L'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "L U2 L:[E',L2]"
-            ]
-        ],
-        [
-            [
                 "R' E' R2 E' R E R2 E"
             ],
             [
@@ -99916,6 +99905,17 @@
             ],
             [
                 "[R',E' R2 E']"
+            ]
+        ],
+        [
+            [
+                "L U2 L E' L2 E L U2 L'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "L U2 L:[E',L2]"
             ]
         ]
     ],
@@ -99981,17 +99981,6 @@
         ],
         [
             [
-                "E2 L U2 L' E2 L U2 L'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "[E2,L U2 L']"
-            ]
-        ],
-        [
-            [
                 "R E R2 E R E' R2 E' R2"
             ],
             [
@@ -99999,6 +99988,17 @@
             ],
             [
                 "R:[E R2 E,R]"
+            ]
+        ],
+        [
+            [
+                "E2 L U2 L' E2 L U2 L'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "[E2,L U2 L']"
             ]
         ]
     ],
@@ -100747,17 +100747,6 @@
         ],
         [
             [
-                "M' U R S' R' U R S R' U2 M"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "M' U:[R S' R',U]"
-            ]
-        ],
-        [
-            [
                 "M' U L E' L' U L E L' U2 M"
             ],
             [
@@ -100810,6 +100799,17 @@
             [
                 "U:[D R' D',M]"
             ]
+        ],
+        [
+            [
+                "M' U R S' R' U R S R' U2 M"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "M' U:[R S' R',U]"
+            ]
         ]
     ],
     "GRK": [
@@ -100847,17 +100847,6 @@
         ],
         [
             [
-                "U L F' L' S L F' L' S' L F2 L' U'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "U L F':[L' S L,F']"
-            ]
-        ],
-        [
-            [
                 "R S' R' U2 R' S' R U2 R' S R2 S R'"
             ],
             [
@@ -100865,6 +100854,17 @@
             ],
             [
                 "R S' R':[U2,R' S' R]"
+            ]
+        ],
+        [
+            [
+                "U L F' L' S L F' L' S' L F2 L' U'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "U L F':[L' S L,F']"
             ]
         ]
     ],
@@ -100957,17 +100957,6 @@
         ],
         [
             [
-                "U M U R U' M2 U R' U' M U'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "U M:[U R U',M2]"
-            ]
-        ],
-        [
-            [
                 "U' r' U' R2 S R2 S' U r U"
             ],
             [
@@ -100997,6 +100986,17 @@
             ],
             [
                 "R' D B R:[S',R2]"
+            ]
+        ],
+        [
+            [
+                "U M U R U' M2 U R' U' M U'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "U M:[U R U',M2]"
             ]
         ]
     ],
@@ -101036,17 +101036,6 @@
         ],
         [
             [
-                "l U' L E' L' U' L E L' U2 l'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "l U':[L E' L',U']"
-            ]
-        ],
-        [
-            [
                 "M U' L E' L' U' L E L' U2 M'"
             ],
             [
@@ -101065,6 +101054,17 @@
             ],
             [
                 "S' R U':[M,U2]"
+            ]
+        ],
+        [
+            [
+                "l U' L E' L' U' L E L' U2 l'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "l U':[L E' L',U']"
             ]
         ]
     ],
@@ -101253,17 +101253,6 @@
         ],
         [
             [
-                "F2 L' S' L F2 L' S L"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "[F2,L' S' L]"
-            ]
-        ],
-        [
-            [
                 "R S' R2 E R U2 R' E' R U2 R S R'"
             ],
             [
@@ -101271,6 +101260,17 @@
             ],
             [
                 "R S' R':[R' E R,U2]"
+            ]
+        ],
+        [
+            [
+                "F2 L' S' L F2 L' S L"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "[F2,L' S' L]"
             ]
         ]
     ],
@@ -101364,17 +101364,6 @@
         ],
         [
             [
-                "L2 F2 L' S' L F2 L' S L'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "L:[L F2 L',S']"
-            ]
-        ],
-        [
-            [
                 "R S' E' R' U2 R E R' U2 R S R'"
             ],
             [
@@ -101393,6 +101382,17 @@
             ],
             [
                 "R S' R' S R:[E',R2]"
+            ]
+        ],
+        [
+            [
+                "L2 F2 L' S' L F2 L' S L'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "L:[L F2 L',S']"
             ]
         ]
     ],
@@ -101423,13 +101423,13 @@
         ],
         [
             [
-                "R' S' R U R' U' S U R U'"
+                "R' S' R U' R' U S U' R U"
             ],
             [
                 "Guoqiao Wang (王国桥)"
             ],
             [
-                "R':[S',R U R' U']"
+                "R':[S',R U' R' U]"
             ]
         ]
     ],
@@ -102022,17 +102022,6 @@
         ],
         [
             [
-                "M' U' R E2 R' U R E2 r'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "M':[U',R E2 R']"
-            ]
-        ],
-        [
-            [
                 "D S' R' F2 R S R' F2 R D'"
             ],
             [
@@ -102051,6 +102040,17 @@
             ],
             [
                 "Not found."
+            ]
+        ],
+        [
+            [
+                "M' U' R E2 R' U R E2 r'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "M':[U',R E2 R']"
             ]
         ]
     ],
@@ -103306,17 +103306,6 @@
         ],
         [
             [
-                "U M U' L' U M2 U' L U M U'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "U M:[U' L' U,M2]"
-            ]
-        ],
-        [
-            [
                 "M2 U' R' E R U R' E' r M'"
             ],
             [
@@ -103335,6 +103324,17 @@
             ],
             [
                 "u:[M2,U L U']"
+            ]
+        ],
+        [
+            [
+                "U M U' L' U M2 U' L U M U'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "U M:[U' L' U,M2]"
             ]
         ]
     ],
@@ -103539,17 +103539,6 @@
         ],
         [
             [
-                "L' S' L F2 L' S L F2"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "[L' S' L,F2]"
-            ]
-        ],
-        [
-            [
                 "R S' R' U2 R' E R U2 R' E' R2 S R'"
             ],
             [
@@ -103557,6 +103546,17 @@
             ],
             [
                 "R S' R':[U2,R' E R]"
+            ]
+        ],
+        [
+            [
+                "L' S' L F2 L' S L F2"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "[L' S' L,F2]"
             ]
         ]
     ],
@@ -103746,17 +103746,6 @@
         ],
         [
             [
-                "U r U R' E R2 E' R' U' r' U'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "U r U R':[E,R2]"
-            ]
-        ],
-        [
-            [
                 "R' S' R U2 R' E R U2 R' E' S R"
             ],
             [
@@ -103775,6 +103764,17 @@
             ],
             [
                 "R' S' R S R:[E,R2]"
+            ]
+        ],
+        [
+            [
+                "U r U R' E R2 E' R' U' r' U'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "U r U R':[E,R2]"
             ]
         ]
     ],
@@ -104217,17 +104217,6 @@
         ],
         [
             [
-                "R U' R' S R B2 R' S' R B2 U R'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "R U':[R' S R,B2]"
-            ]
-        ],
-        [
-            [
                 "R E R' U R E2 R' U' R' E R"
             ],
             [
@@ -104246,6 +104235,17 @@
             ],
             [
                 "R' E' R U R':[E,R2]"
+            ]
+        ],
+        [
+            [
+                "R U' R' S R B2 R' S' R B2 U R'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "R U':[R' S R,B2]"
             ]
         ]
     ],
@@ -104554,17 +104554,6 @@
         ],
         [
             [
-                "M U R' E2 R U' R' E2 r"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "M:[U,R' E2 R]"
-            ]
-        ],
-        [
-            [
                 "M' L U' M' U2 M U' M L'"
             ],
             [
@@ -104572,6 +104561,17 @@
             ],
             [
                 "M' L U':[M',U2]"
+            ]
+        ],
+        [
+            [
+                "M U R' E2 R U' R' E2 r"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "M:[U,R' E2 R]"
             ]
         ]
     ],
@@ -104848,17 +104848,6 @@
         ],
         [
             [
-                "L' U2 L E L2 E' L U2 L"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "L' U2 L:[E,L2]"
-            ]
-        ],
-        [
-            [
                 "E R2 E R E' R2 E' R'"
             ],
             [
@@ -104866,6 +104855,17 @@
             ],
             [
                 "[E R2 E,R]"
+            ]
+        ],
+        [
+            [
+                "L' U2 L E L2 E' L U2 L"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "L' U2 L:[E,L2]"
             ]
         ]
     ],
@@ -105655,17 +105655,6 @@
         ],
         [
             [
-                "L S' L' B' L S L' B"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "[L S' L',B']"
-            ]
-        ],
-        [
-            [
                 "R l B' R' S R B R' S' l'"
             ],
             [
@@ -105673,6 +105662,17 @@
             ],
             [
                 "l:[R B' R',S]"
+            ]
+        ],
+        [
+            [
+                "L S' L' B' L S L' B"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "[L S' L',B']"
             ]
         ]
     ],
@@ -105896,17 +105896,6 @@
         ],
         [
             [
-                "L S' L F2 L' S L F2 L2"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "L:[S',L F2 L']"
-            ]
-        ],
-        [
-            [
                 "R S' R' U2 R E' R' U2 R E S R'"
             ],
             [
@@ -105925,6 +105914,17 @@
             ],
             [
                 "R S' R' S R':[E',R2]"
+            ]
+        ],
+        [
+            [
+                "L S' L F2 L' S L F2 L2"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "L:[S',L F2 L']"
             ]
         ]
     ],
@@ -106114,17 +106114,6 @@
         ],
         [
             [
-                "L S' L' B2 L S L' B2"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "[L S' L',B2]"
-            ]
-        ],
-        [
-            [
                 "R' S' R U2 R E' R' U2 R E R2 S R"
             ],
             [
@@ -106132,6 +106121,17 @@
             ],
             [
                 "R' S' R:[U2,R E' R']"
+            ]
+        ],
+        [
+            [
+                "L S' L' B2 L S L' B2"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "[L S' L',B2]"
             ]
         ]
     ],
@@ -106984,17 +106984,6 @@
         ],
         [
             [
-                "U D' M' U' R' U M U' R D"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "D':[U M' U',R']"
-            ]
-        ],
-        [
-            [
                 "R' U' E' R U R' E R U' R' U R"
             ],
             [
@@ -107013,6 +107002,17 @@
             ],
             [
                 "[S',R' U R U']"
+            ]
+        ],
+        [
+            [
+                "U D' M' U' R' U M U' R D"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "D':[U M' U',R']"
             ]
         ]
     ],
@@ -107069,13 +107069,13 @@
         ],
         [
             [
-                "U R' U' S' U R U' R' S R"
+                "U' R' U S' U' R U R' S R"
             ],
             [
                 "Guoqiao Wang (王国桥)"
             ],
             [
-                "R':[R U R' U',S']"
+                "R':[R U' R' U,S']"
             ]
         ]
     ],
@@ -107187,17 +107187,6 @@
         ],
         [
             [
-                "L' U2 L' E L2 E' L' U2 L"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "L' U2 L':[E,L2]"
-            ]
-        ],
-        [
-            [
                 "R E R2 E R' E' R2 E'"
             ],
             [
@@ -107205,6 +107194,17 @@
             ],
             [
                 "[R,E R2 E]"
+            ]
+        ],
+        [
+            [
+                "L' U2 L' E L2 E' L' U2 L"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "L' U2 L':[E,L2]"
             ]
         ]
     ],
@@ -107789,17 +107789,6 @@
         ],
         [
             [
-                "U r U R2 S R2 S' U' r' U'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "U r U:[R2,S]"
-            ]
-        ],
-        [
-            [
                 "U' M2 u R u' M2 u R' E"
             ],
             [
@@ -107818,6 +107807,17 @@
             ],
             [
                 "R D' F' R':[S',R2]"
+            ]
+        ],
+        [
+            [
+                "U r U R2 S R2 S' U' r' U'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "U r U:[R2,S]"
             ]
         ]
     ],
@@ -107846,18 +107846,6 @@
         ],
         [
             [
-                "M' U L' E L U L' E' L U2 M"
-            ],
-            [
-                "Gavriel Johann Arcilla",
-                "Max Hilliard"
-            ],
-            [
-                "M' U:[L' E L,U]"
-            ]
-        ],
-        [
-            [
                 "S' R' U M' U2 M U R S"
             ],
             [
@@ -107878,6 +107866,18 @@
             ],
             [
                 "R' U2:[F',R S R']"
+            ]
+        ],
+        [
+            [
+                "M' U L' E L U L' E' L U2 M"
+            ],
+            [
+                "Gavriel Johann Arcilla",
+                "Max Hilliard"
+            ],
+            [
+                "M' U:[L' E L,U]"
             ]
         ],
         [
@@ -108062,17 +108062,6 @@
         ],
         [
             [
-                "B2 L S' L' B L S L' B"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "B':[B',L S' L']"
-            ]
-        ],
-        [
-            [
                 "R' S' R U M U2 M' U R' S R"
             ],
             [
@@ -108102,6 +108091,17 @@
             ],
             [
                 "u:[M2,U' R U]"
+            ]
+        ],
+        [
+            [
+                "B2 L S' L' B L S L' B"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "B':[B',L S' L']"
             ]
         ]
     ],
@@ -108137,17 +108137,6 @@
             ],
             [
                 "R' U2 R:[R B R',S]"
-            ]
-        ],
-        [
-            [
-                "M U' L' E L U' L' E' L U2 M'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "M U':[L' E L,U']"
             ]
         ],
         [
@@ -108192,6 +108181,17 @@
             ],
             [
                 "D':[U' R U,S]"
+            ]
+        ],
+        [
+            [
+                "M U' L' E L U' L' E' L U2 M'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "M U':[L' E L,U']"
             ]
         ]
     ],
@@ -108456,17 +108456,6 @@
         ],
         [
             [
-                "U r U R E R2 E' R U' r' U'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "U r U R:[E,R2]"
-            ]
-        ],
-        [
-            [
                 "R' S' E R U2 R' E' R U2 R' S R"
             ],
             [
@@ -108485,6 +108474,17 @@
             ],
             [
                 "R' S' R S R':[E,R2]"
+            ]
+        ],
+        [
+            [
+                "U r U R E R2 E' R U' r' U'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "U r U R:[E,R2]"
             ]
         ]
     ],
@@ -108580,17 +108580,6 @@
         ],
         [
             [
-                "B2 L S' L' B2 L S L'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "[B2,L S' L']"
-            ]
-        ],
-        [
-            [
                 "R' S' R2 E' R' U2 R E R' U2 R' S R"
             ],
             [
@@ -108598,6 +108587,17 @@
             ],
             [
                 "R' S' R:[R E' R',U2]"
+            ]
+        ],
+        [
+            [
+                "B2 L S' L' B2 L S L'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "[B2,L S' L']"
             ]
         ]
     ],
@@ -108635,6 +108635,18 @@
         ],
         [
             [
+                "L D' S L2 S' L2 D L'"
+            ],
+            [
+                "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)"
+            ],
+            [
+                "L D':[S,L2]"
+            ]
+        ],
+        [
+            [
                 "z' R U M2 U' R2 U M2 U' R z"
             ],
             [
@@ -108665,17 +108677,6 @@
             ],
             [
                 "L u:[M',D2]"
-            ]
-        ],
-        [
-            [
-                "L D' S L2 S' L2 D L'"
-            ],
-            [
-                "Israel Fraga da Silva"
-            ],
-            [
-                "L D':[S,L2]"
             ]
         ],
         [
@@ -108759,17 +108760,6 @@
         ],
         [
             [
-                "M' U' D R' E' R2 E R' U D' M"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "M' U' D R':[E',R2]"
-            ]
-        ],
-        [
-            [
                 "x M' U2 M D M' U2 M D' x'"
             ],
             [
@@ -108789,6 +108779,17 @@
             [
                 "z' R:[U' M U,R2]"
             ]
+        ],
+        [
+            [
+                "M' U' D R' E' R2 E R' U D' M"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "M' U' D R':[E',R2]"
+            ]
         ]
     ],
     "INW": [
@@ -108804,6 +108805,7 @@
                 "Graham Siggins",
                 "Ishaan Agrawal",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Marcell Endrey",
                 "Max Hilliard",
@@ -108917,21 +108919,6 @@
     "IWM": [
         [
             [
-                "L D' L2 S L2 S' D L'"
-            ],
-            [
-                "Elliott Kobelansky",
-                "Gavriel Johann Arcilla",
-                "Max Hilliard",
-                "Tobias Peter",
-                "Yuki Tsuneyoshi (恒吉優紀)"
-            ],
-            [
-                "L D':[L2,S]"
-            ]
-        ],
-        [
-            [
                 "L D S L2 S' L2 D' L'"
             ],
             [
@@ -108939,10 +108926,26 @@
                 "Graham Siggins",
                 "Israel Fraga da Silva",
                 "Keiichiro Taira (平佳一郎)",
+                "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
             [
                 "L D:[S,L2]"
+            ]
+        ],
+        [
+            [
+                "L D' L2 S L2 S' D L'"
+            ],
+            [
+                "Elliott Kobelansky",
+                "Gavriel Johann Arcilla",
+                "Jonghyun Kim (김종현)",
+                "Max Hilliard",
+                "Yuki Tsuneyoshi (恒吉優紀)"
+            ],
+            [
+                "L D':[L2,S]"
             ]
         ],
         [
@@ -109004,6 +109007,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Ishaan Agrawal",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Marcell Endrey",
                 "Max Hilliard",
@@ -109215,6 +109219,20 @@
         ],
         [
             [
+                "M2 U L2 S' L2 S U' M2"
+            ],
+            [
+                "Anto Kam (甘浩東)",
+                "Graham Siggins",
+                "Jonghyun Kim (김종현)",
+                "Keiichiro Taira (平佳一郎)"
+            ],
+            [
+                "M2 U:[L2,S']"
+            ]
+        ],
+        [
+            [
                 "L2 u M' u2 M' u L2"
             ],
             [
@@ -109225,19 +109243,6 @@
             ],
             [
                 "Not found."
-            ]
-        ],
-        [
-            [
-                "M2 U L2 S' L2 S U' M2"
-            ],
-            [
-                "Anto Kam (甘浩東)",
-                "Graham Siggins",
-                "Keiichiro Taira (平佳一郎)"
-            ],
-            [
-                "M2 U:[L2,S']"
             ]
         ],
         [
@@ -109277,6 +109282,7 @@
                 "Graham Siggins",
                 "Ishaan Agrawal",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Tobias Peter",
@@ -109317,17 +109323,6 @@
         ],
         [
             [
-                "M' U S L F L' S' L F' L' U' M"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "M' U:[S,L F L']"
-            ]
-        ],
-        [
-            [
                 "L' D' L D M' D' L' D l"
             ],
             [
@@ -109357,6 +109352,17 @@
             ],
             [
                 "M':[F' L' F,M']"
+            ]
+        ],
+        [
+            [
+                "M' U S L F L' S' L F' L' U' M"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "M' U:[S,L F L']"
             ]
         ]
     ],
@@ -109617,6 +109623,7 @@
                 "Grzegorz Pacewicz",
                 "Ishaan Agrawal",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Marcell Endrey",
                 "Rob Holt",
@@ -109770,6 +109777,7 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -109837,6 +109845,7 @@
                 "Graham Siggins",
                 "Ishaan Agrawal",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Tobias Peter",
@@ -109874,17 +109883,6 @@
         ],
         [
             [
-                "R2 F' R' S' R F R' S R'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "R:[R F' R',S']"
-            ]
-        ],
-        [
-            [
                 "x y L U M2 U' L' U M2 U' y' x'"
             ],
             [
@@ -109904,6 +109902,17 @@
             [
                 "u' L:[U M2 U',L]"
             ]
+        ],
+        [
+            [
+                "R2 F' R' S' R F R' S R'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "R:[R F' R',S']"
+            ]
         ]
     ],
     "KJM": [
@@ -109920,12 +109929,24 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
                 "D:[R F' R',S']"
+            ]
+        ],
+        [
+            [
+                "D S R' D' R S' R' D R D'"
+            ],
+            [
+                "Israel Fraga da Silva",
+                "Tobias Peter",
+                "Yifan Wang (王逸帆)"
+            ],
+            [
+                "D:[S,R' D' R]"
             ]
         ],
         [
@@ -109939,29 +109960,6 @@
             ],
             [
                 "x:[U L' U',M']"
-            ]
-        ],
-        [
-            [
-                "D S R' D' R S' R' D R D'"
-            ],
-            [
-                "Israel Fraga da Silva",
-                "Yifan Wang (王逸帆)"
-            ],
-            [
-                "D:[S,R' D' R]"
-            ]
-        ],
-        [
-            [
-                "l' U L' U' M' U L U' M2 L"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "l':[U L' U',M']"
             ]
         ],
         [
@@ -109985,6 +109983,17 @@
             [
                 "M':[U L2 U',M']"
             ]
+        ],
+        [
+            [
+                "l' U L' U' M' U L U' M2 L"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "l':[U L' U',M']"
+            ]
         ]
     ],
     "KJN": [
@@ -109995,6 +110004,7 @@
             [
                 "Graham Siggins",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Tobias Peter",
@@ -110018,18 +110028,6 @@
         ],
         [
             [
-                "S D L2 S L2 S' D' S'"
-            ],
-            [
-                "Gavriel Johann Arcilla",
-                "Ishaan Agrawal"
-            ],
-            [
-                "S D:[L2,S]"
-            ]
-        ],
-        [
-            [
                 "M' L2 U' M D2 M' U M D2 L2"
             ],
             [
@@ -110038,6 +110036,18 @@
             ],
             [
                 "L2:[M' U' M,D2]"
+            ]
+        ],
+        [
+            [
+                "S D L2 S L2 S' D' S'"
+            ],
+            [
+                "Gavriel Johann Arcilla",
+                "Ishaan Agrawal"
+            ],
+            [
+                "S D:[L2,S]"
             ]
         ],
         [
@@ -110432,7 +110442,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -110466,6 +110475,18 @@
         ],
         [
             [
+                "M' u L' E L2 E' L' u' M"
+            ],
+            [
+                "Gavriel Johann Arcilla",
+                "Tobias Peter"
+            ],
+            [
+                "M' u L':[E,L2]"
+            ]
+        ],
+        [
+            [
                 "R E' F' R S' R2 S R F E R'"
             ],
             [
@@ -110473,17 +110494,6 @@
             ],
             [
                 "R E' F' R:[S',R2]"
-            ]
-        ],
-        [
-            [
-                "M' u L' E L2 E' L' u' M"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "M' u L':[E,L2]"
             ]
         ],
         [
@@ -110520,19 +110530,6 @@
         ],
         [
             [
-                "M' U L' E L2 E' L' U' M"
-            ],
-            [
-                "Anto Kam (甘浩東)",
-                "Gavriel Johann Arcilla",
-                "Graham Siggins"
-            ],
-            [
-                "M' U L':[E,L2]"
-            ]
-        ],
-        [
-            [
                 "F' R S' R2 S R F"
             ],
             [
@@ -110542,6 +110539,19 @@
             ],
             [
                 "F' R:[S',R2]"
+            ]
+        ],
+        [
+            [
+                "M' U L' E L2 E' L' U' M"
+            ],
+            [
+                "Anto Kam (甘浩東)",
+                "Gavriel Johann Arcilla",
+                "Graham Siggins"
+            ],
+            [
+                "M' U L':[E,L2]"
             ]
         ],
         [
@@ -110678,6 +110688,20 @@
     "KMI": [
         [
             [
+                "M2 U S' L2 S L2 U' M2"
+            ],
+            [
+                "Anto Kam (甘浩東)",
+                "Graham Siggins",
+                "Jonghyun Kim (김종현)",
+                "Keiichiro Taira (平佳一郎)"
+            ],
+            [
+                "M2 U:[S',L2]"
+            ]
+        ],
+        [
+            [
                 "L2 D' L2 S L2 S' D L2",
                 "r L F' L2 E' L2 E F r' L'"
             ],
@@ -110685,25 +110709,11 @@
                 "Gavriel Johann Arcilla",
                 "Israel Fraga da Silva",
                 "Max Hilliard",
-                "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
             [
                 "L2 D':[L2,S]",
                 "r L F':[L2,E']"
-            ]
-        ],
-        [
-            [
-                "M2 U S' L2 S L2 U' M2"
-            ],
-            [
-                "Anto Kam (甘浩東)",
-                "Graham Siggins",
-                "Keiichiro Taira (平佳一郎)"
-            ],
-            [
-                "M2 U:[S',L2]"
             ]
         ],
         [
@@ -110744,6 +110754,17 @@
         ],
         [
             [
+                "L2 D S L2 S' L2 D' L2"
+            ],
+            [
+                "Tobias Peter"
+            ],
+            [
+                "L2 D:[S,L2]"
+            ]
+        ],
+        [
+            [
                 "L2 U' M' U2 M' U2 M2 U L2"
             ],
             [
@@ -110779,12 +110800,24 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
                 "D:[S',R F' R']"
+            ]
+        ],
+        [
+            [
+                "D R' D' R S R' D R S' D'"
+            ],
+            [
+                "Israel Fraga da Silva",
+                "Tobias Peter",
+                "Yifan Wang (王逸帆)"
+            ],
+            [
+                "D:[R' D' R,S]"
             ]
         ],
         [
@@ -110798,29 +110831,6 @@
             ],
             [
                 "x:[M',U L' U']"
-            ]
-        ],
-        [
-            [
-                "D R' D' R S R' D R S' D'"
-            ],
-            [
-                "Israel Fraga da Silva",
-                "Yifan Wang (王逸帆)"
-            ],
-            [
-                "D:[R' D' R,S]"
-            ]
-        ],
-        [
-            [
-                "M2 L' U L' U' M U L U' l"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "l':[M',U L' U']"
             ]
         ],
         [
@@ -110843,6 +110853,17 @@
             ],
             [
                 "M':[M',U L2 U']"
+            ]
+        ],
+        [
+            [
+                "M2 L' U L' U' M U L U' l"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "l':[M',U L' U']"
             ]
         ]
     ],
@@ -111012,6 +111033,7 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -111044,6 +111066,7 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -111085,6 +111108,7 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
                 "Tommy Cherry",
@@ -111117,8 +111141,8 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Max Hilliard",
-                "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -111131,6 +111155,7 @@
                 "R S R' D R S' R' D'"
             ],
             [
+                "Tobias Peter",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -111162,6 +111187,7 @@
                 "Graham Siggins",
                 "Ishaan Agrawal",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Tobias Peter",
@@ -111205,17 +111231,6 @@
         ],
         [
             [
-                "M' U L F L' S L F' L' S' U' M"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "M' U:[L F L',S]"
-            ]
-        ],
-        [
-            [
                 "l' D' L D M D' L' D L"
             ],
             [
@@ -111235,6 +111250,17 @@
             [
                 "M:[U' L2 U,M]"
             ]
+        ],
+        [
+            [
+                "M' U L F L' S L F' L' S' U' M"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "M' U:[L F L',S]"
+            ]
         ]
     ],
     "KNJ": [
@@ -111246,6 +111272,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Tobias Peter",
@@ -111305,17 +111332,6 @@
         ],
         [
             [
-                "S D' L2 S L2 S' D S'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "S D':[L2,S]"
-            ]
-        ],
-        [
-            [
                 "S u' M u2 M u' S'"
             ],
             [
@@ -111323,6 +111339,17 @@
             ],
             [
                 "Not found."
+            ]
+        ],
+        [
+            [
+                "S D' L2 S L2 S' D S'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "S D':[L2,S]"
             ]
         ]
     ],
@@ -111510,6 +111537,7 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -111545,6 +111573,21 @@
     "KNX": [
         [
             [
+                "r' U' E' L' E L2 E' L' U E r"
+            ],
+            [
+                "Elliott Kobelansky",
+                "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
+                "Yangyang Shen (沈炀炀)",
+                "Yuki Tsuneyoshi (恒吉優紀)"
+            ],
+            [
+                "r' U' E' L':[E,L2]"
+            ]
+        ],
+        [
+            [
                 "M U' E' L' E L2 E' L' U E M'"
             ],
             [
@@ -111555,20 +111598,6 @@
             ],
             [
                 "M U' E' L':[E,L2]"
-            ]
-        ],
-        [
-            [
-                "r' U' E' L' E L2 E' L' U E r"
-            ],
-            [
-                "Elliott Kobelansky",
-                "Israel Fraga da Silva",
-                "Yangyang Shen (沈炀炀)",
-                "Yuki Tsuneyoshi (恒吉優紀)"
-            ],
-            [
-                "r' U' E' L':[E,L2]"
             ]
         ],
         [
@@ -111593,6 +111622,7 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -111622,6 +111652,7 @@
             [
                 "Elliott Kobelansky",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -111639,17 +111670,6 @@
             ],
             [
                 "E' B R':[S',R2]"
-            ]
-        ],
-        [
-            [
-                "M U' E' L E' L2 E L U E M'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "M U' E' L:[E',L2]"
             ]
         ],
         [
@@ -111672,6 +111692,17 @@
             ],
             [
                 "S D L:[E,L2]"
+            ]
+        ],
+        [
+            [
+                "M U' E' L E' L2 E L U E M'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "M U' E' L:[E',L2]"
             ]
         ]
     ],
@@ -113331,6 +113362,7 @@
                 "Grzegorz Pacewicz",
                 "Ishaan Agrawal",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Marcell Endrey",
                 "Rob Holt",
@@ -113444,6 +113476,7 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -113485,6 +113518,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -113507,17 +113541,6 @@
         ],
         [
             [
-                "M U D2 R' E' R2 E R' U' D2 M'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "M U D2 R':[E',R2]"
-            ]
-        ],
-        [
-            [
                 "x2 r' U M2 U' L' U M2 U' r' L'"
             ],
             [
@@ -113525,6 +113548,17 @@
             ],
             [
                 "Not found."
+            ]
+        ],
+        [
+            [
+                "M U D2 R' E' R2 E R' U' D2 M'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "M U D2 R':[E',R2]"
             ]
         ]
     ],
@@ -113731,7 +113765,6 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
-                "Tobias Peter",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -113745,6 +113778,8 @@
             ],
             [
                 "Elliott Kobelansky",
+                "Jonghyun Kim (김종현)",
+                "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -113761,17 +113796,6 @@
             ],
             [
                 "[S' r S,L']"
-            ]
-        ],
-        [
-            [
-                "S E' R' U2 R E R' U2 R S'"
-            ],
-            [
-                "Jonghyun Kim (김종현)"
-            ],
-            [
-                "S:[E',R' U2 R]"
             ]
         ]
     ],
@@ -113850,7 +113874,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -113884,6 +113907,18 @@
         ],
         [
             [
+                "M' u L E L2 E' L u' M"
+            ],
+            [
+                "Gavriel Johann Arcilla",
+                "Tobias Peter"
+            ],
+            [
+                "M' u L:[E,L2]"
+            ]
+        ],
+        [
+            [
                 "R E' F' R' S' R2 S R' F E R'"
             ],
             [
@@ -113891,17 +113926,6 @@
             ],
             [
                 "R E' F' R':[S',R2]"
-            ]
-        ],
-        [
-            [
-                "M' u L E L2 E' L u' M"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "M' u L:[E,L2]"
             ]
         ],
         [
@@ -113927,6 +113951,7 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -113967,6 +113992,7 @@
                 "Anto Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -114061,21 +114087,6 @@
     "KXS": [
         [
             [
-                "L2 u L U' L' E L U L' U' L2"
-            ],
-            [
-                "Elliott Kobelansky",
-                "Jonghyun Kim (김종현)",
-                "Max Hilliard",
-                "Yangyang Shen (沈炀炀)",
-                "Yuki Tsuneyoshi (恒吉優紀)"
-            ],
-            [
-                "L2 u:[L U' L',E]"
-            ]
-        ],
-        [
-            [
                 "L S' U L' U' S U L U' L'"
             ],
             [
@@ -114087,6 +114098,21 @@
             ],
             [
                 "L:[S',U L' U']"
+            ]
+        ],
+        [
+            [
+                "L2 u L U' L' E L U L' U' L2"
+            ],
+            [
+                "Elliott Kobelansky",
+                "Jonghyun Kim (김종현)",
+                "Max Hilliard",
+                "Yangyang Shen (沈炀炀)",
+                "Yuki Tsuneyoshi (恒吉優紀)"
+            ],
+            [
+                "L2 u:[L U' L',E]"
             ]
         ],
         [
@@ -114180,17 +114206,6 @@
         ],
         [
             [
-                "B2 R S' R' B2 R S R'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "[B2,R S' R']"
-            ]
-        ],
-        [
-            [
                 "E' R' S' R2 S R' E"
             ],
             [
@@ -114198,6 +114213,17 @@
             ],
             [
                 "E' R':[S',R2]"
+            ]
+        ],
+        [
+            [
+                "B2 R S' R' B2 R S R'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "[B2,R S' R']"
             ]
         ]
     ],
@@ -114212,6 +114238,7 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -114373,6 +114400,7 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
                 "Tommy Cherry",
@@ -114405,6 +114433,7 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -114629,6 +114658,7 @@
                 "Graham Siggins",
                 "Ishaan Agrawal",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Tobias Peter",
@@ -114666,17 +114696,6 @@
         ],
         [
             [
-                "R S' R F' R' S R F R2"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "R:[S',R F' R']"
-            ]
-        ],
-        [
-            [
                 "x y U M2 U' L U M2 U' L' y' x'"
             ],
             [
@@ -114695,6 +114714,17 @@
             ],
             [
                 "L z:[U' L' U,M]"
+            ]
+        ],
+        [
+            [
+                "R S' R F' R' S R F R2"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "R:[S',R F' R']"
             ]
         ]
     ],
@@ -114790,8 +114820,8 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Max Hilliard",
-                "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -114804,6 +114834,7 @@
                 "D R S R' D' R S' R'"
             ],
             [
+                "Tobias Peter",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -114830,6 +114861,7 @@
             [
                 "Elliott Kobelansky",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -114847,17 +114879,6 @@
             ],
             [
                 "E' B R:[S',R2]"
-            ]
-        ],
-        [
-            [
-                "M U' E' L' E' L2 E L' U E M'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "M U' E' L':[E',L2]"
             ]
         ],
         [
@@ -114880,6 +114901,17 @@
             ],
             [
                 "S D L':[E,L2]"
+            ]
+        ],
+        [
+            [
+                "M U' E' L' E' L2 E L' U E M'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "M U' E' L':[E',L2]"
             ]
         ]
     ],
@@ -115043,7 +115075,6 @@
                 "Graham Siggins",
                 "Israel Fraga da Silva",
                 "Max Hilliard",
-                "Tobias Peter",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -115057,22 +115088,13 @@
             ],
             [
                 "Elliott Kobelansky",
+                "Jonghyun Kim (김종현)",
+                "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
                 "L2 U' L':[L' E L,U]"
-            ]
-        ],
-        [
-            [
-                "S R' U2 R E' R' U2 R E S'"
-            ],
-            [
-                "Jonghyun Kim (김종현)"
-            ],
-            [
-                "S:[R' U2 R,E']"
             ]
         ]
     ],
@@ -115119,6 +115141,7 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Tobias Peter"
             ],
@@ -115273,17 +115296,6 @@
         ],
         [
             [
-                "S' r F r' S r F' r'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "[S',r F r']"
-            ]
-        ],
-        [
-            [
                 "y' M' U' R2 U M' U' R2 U M2 y"
             ],
             [
@@ -115292,21 +115304,32 @@
             [
                 "y' M':[U' R2 U,M']"
             ]
+        ],
+        [
+            [
+                "S' r F r' S r F' r'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "[S',r F r']"
+            ]
         ]
     ],
     "OIM": [
         [
             [
-                "R2 D' R2 S' R2 S D R2"
+                "M2 U' R2 S R2 S' U M2"
             ],
             [
-                "Gavriel Johann Arcilla",
-                "Israel Fraga da Silva",
-                "Tobias Peter",
-                "Yangyang Shen (沈炀炀)"
+                "Anto Kam (甘浩東)",
+                "Graham Siggins",
+                "Jonghyun Kim (김종현)",
+                "Keiichiro Taira (平佳一郎)"
             ],
             [
-                "R2 D':[R2,S']"
+                "M2 U':[R2,S]"
             ]
         ],
         [
@@ -115325,15 +115348,15 @@
         ],
         [
             [
-                "M2 U' R2 S R2 S' U M2"
+                "R2 D' R2 S' R2 S D R2"
             ],
             [
-                "Anto Kam (甘浩東)",
-                "Graham Siggins",
-                "Keiichiro Taira (平佳一郎)"
+                "Gavriel Johann Arcilla",
+                "Israel Fraga da Silva",
+                "Yangyang Shen (沈炀炀)"
             ],
             [
-                "M2 U':[R2,S]"
+                "R2 D':[R2,S']"
             ]
         ],
         [
@@ -115350,6 +115373,18 @@
         ],
         [
             [
+                "R2 D S' R2 S R2 D' R2"
+            ],
+            [
+                "Max Hilliard",
+                "Tobias Peter"
+            ],
+            [
+                "R2 D:[S',R2]"
+            ]
+        ],
+        [
+            [
                 "R' F' R S' R B R' S R B' R2 F R"
             ],
             [
@@ -115357,17 +115392,6 @@
             ],
             [
                 "R' F' R:[S',R B R']"
-            ]
-        ],
-        [
-            [
-                "R2 D S' R2 S R2 D' R2"
-            ],
-            [
-                "Max Hilliard"
-            ],
-            [
-                "R2 D:[S',R2]"
             ]
         ],
         [
@@ -115404,9 +115428,9 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Ishaan Agrawal",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -115432,6 +115456,18 @@
         ],
         [
             [
+                "D' R' D' R S R' D R S' D"
+            ],
+            [
+                "Israel Fraga da Silva",
+                "Tobias Peter"
+            ],
+            [
+                "D':[R' D' R,S]"
+            ]
+        ],
+        [
+            [
                 "R D R' D' M' D R D' r'"
             ],
             [
@@ -115440,17 +115476,6 @@
             ],
             [
                 "R:[D R' D',M']"
-            ]
-        ],
-        [
-            [
-                "D' R' D' R S R' D R S' D"
-            ],
-            [
-                "Israel Fraga da Silva"
-            ],
-            [
-                "D':[R' D' R,S]"
             ]
         ],
         [
@@ -115731,6 +115756,7 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Tobias Peter",
@@ -115874,6 +115900,7 @@
                 "Grzegorz Pacewicz",
                 "Ishaan Agrawal",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Rob Holt",
                 "Tim Wong",
@@ -115933,6 +115960,7 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
@@ -116099,9 +116127,9 @@
                 "Graham Siggins",
                 "Ishaan Agrawal",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -116111,16 +116139,17 @@
         ],
         [
             [
-                "l' F' l S l' F l S'",
-                "R' D' R S R' D R S'"
+                "R' D' R S R' D R S'",
+                "l' F' l S l' F l S'"
             ],
             [
                 "Gavriel Johann Arcilla",
+                "Tobias Peter",
                 "Yifan Wang (王逸帆)"
             ],
             [
-                "[l' F' l,S]",
-                "[R' D' R,S]"
+                "[R' D' R,S]",
+                "[l' F' l,S]"
             ]
         ],
         [
@@ -116160,6 +116189,7 @@
                 "Graham Siggins",
                 "Ishaan Agrawal",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Tobias Peter",
@@ -116241,6 +116271,7 @@
             [
                 "Graham Siggins",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Tobias Peter",
@@ -116265,18 +116296,6 @@
         ],
         [
             [
-                "S' D' R2 S' R2 S D S"
-            ],
-            [
-                "Gavriel Johann Arcilla",
-                "Ishaan Agrawal"
-            ],
-            [
-                "S' D':[R2,S']"
-            ]
-        ],
-        [
-            [
                 "R2 M' U M D2 M' U' M D2 R2"
             ],
             [
@@ -116285,6 +116304,18 @@
             ],
             [
                 "R2:[M' U M,D2]"
+            ]
+        ],
+        [
+            [
+                "S' D' R2 S' R2 S D S"
+            ],
+            [
+                "Gavriel Johann Arcilla",
+                "Ishaan Agrawal"
+            ],
+            [
+                "S' D':[R2,S']"
             ]
         ],
         [
@@ -116380,18 +116411,6 @@
         ],
         [
             [
-                "S' R U' M2 U R' U' M2 U S"
-            ],
-            [
-                "Gavriel Johann Arcilla",
-                "Graham Siggins"
-            ],
-            [
-                "S':[R,U' M2 U]"
-            ]
-        ],
-        [
-            [
                 "R U R2 F R2 E R2 E' F' R2 U' R'"
             ],
             [
@@ -116400,6 +116419,18 @@
             ],
             [
                 "R U R2 F:[R2,E]"
+            ]
+        ],
+        [
+            [
+                "S' R U' M2 U R' U' M2 U S"
+            ],
+            [
+                "Gavriel Johann Arcilla",
+                "Graham Siggins"
+            ],
+            [
+                "S':[R,U' M2 U]"
             ]
         ],
         [
@@ -116658,6 +116689,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -116761,6 +116793,7 @@
                 "Grzegorz Pacewicz",
                 "Ishaan Agrawal",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Rob Holt",
@@ -116786,14 +116819,26 @@
                 "Graham Siggins",
                 "Ishaan Agrawal",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
                 "R' f' R:[S,R2]"
+            ]
+        ],
+        [
+            [
+                "M' u' R E' R2 E R u M"
+            ],
+            [
+                "Gavriel Johann Arcilla",
+                "Tobias Peter"
+            ],
+            [
+                "M' u' R:[E',R2]"
             ]
         ],
         [
@@ -116805,17 +116850,6 @@
             ],
             [
                 "R' U F:[R2,E]"
-            ]
-        ],
-        [
-            [
-                "M' u' R E' R2 E R u M"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "M' u' R:[E',R2]"
             ]
         ],
         [
@@ -116861,6 +116895,7 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Tobias Peter"
             ],
@@ -117041,6 +117076,7 @@
             [
                 "Graham Siggins",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -117073,17 +117109,6 @@
         ],
         [
             [
-                "R M B' R' S' R2 S R' B R' M'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "R M B' R':[S',R2]"
-            ]
-        ],
-        [
-            [
                 "D' R2 D S' R2 S R2 D' R2 D"
             ],
             [
@@ -117091,6 +117116,17 @@
             ],
             [
                 "D' R2 D:[S',R2]"
+            ]
+        ],
+        [
+            [
+                "R M B' R' S' R2 S R' B R' M'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "R M B' R':[S',R2]"
             ]
         ]
     ],
@@ -117104,6 +117140,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
@@ -117459,17 +117496,6 @@
         ],
         [
             [
-                "r F r' S' r F' r' S"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "[r F r',S']"
-            ]
-        ],
-        [
-            [
                 "y M2 U' L2 U M' U' L2 U M' y'"
             ],
             [
@@ -117477,6 +117503,17 @@
             ],
             [
                 "y M:[M,U' L2 U]"
+            ]
+        ],
+        [
+            [
+                "r F r' S' r F' r' S"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "[r F r',S']"
             ]
         ]
     ],
@@ -117494,6 +117531,7 @@
                 "Graham Siggins",
                 "Ishaan Agrawal",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Tobias Peter",
@@ -117510,6 +117548,7 @@
             ],
             [
                 "Gavriel Johann Arcilla",
+                "Tobias Peter",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -117552,6 +117591,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -117595,6 +117635,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -117617,17 +117658,6 @@
         ],
         [
             [
-                "S R D R' S' R D' R'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "[S,R D R']"
-            ]
-        ],
-        [
-            [
                 "y F' R F M' F' R' F M y'"
             ],
             [
@@ -117635,6 +117665,17 @@
             ],
             [
                 "y:[F' R F,M']"
+            ]
+        ],
+        [
+            [
+                "S R D R' S' R D' R'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "[S,R D R']"
             ]
         ]
     ],
@@ -117912,17 +117953,6 @@
         ],
         [
             [
-                "U R U' S' U R' U' S"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "[U R U',S']"
-            ]
-        ],
-        [
-            [
                 "R D M D' R' D M' D'"
             ],
             [
@@ -117930,6 +117960,17 @@
             ],
             [
                 "[R,D M D']"
+            ]
+        ],
+        [
+            [
+                "U R U' S' U R' U' S"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "[U R U',S']"
             ]
         ]
     ],
@@ -117979,28 +118020,30 @@
     "OMI": [
         [
             [
-                "M2 U' S R2 S' R2 U M2"
-            ],
-            [
-                "Anto Kam (甘浩東)",
-                "Graham Siggins",
-                "Keiichiro Taira (平佳一郎)"
-            ],
-            [
-                "M2 U':[S,R2]"
-            ]
-        ],
-        [
-            [
                 "R2 D' S' R2 S R2 D R2"
             ],
             [
                 "Israel Fraga da Silva",
                 "Max Hilliard",
+                "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
             [
                 "R2 D':[S',R2]"
+            ]
+        ],
+        [
+            [
+                "M2 U' S R2 S' R2 U M2"
+            ],
+            [
+                "Anto Kam (甘浩東)",
+                "Graham Siggins",
+                "Jonghyun Kim (김종현)",
+                "Keiichiro Taira (平佳一郎)"
+            ],
+            [
+                "M2 U':[S,R2]"
             ]
         ],
         [
@@ -118026,18 +118069,6 @@
             ],
             [
                 "S' M:[U',M' U2 M']"
-            ]
-        ],
-        [
-            [
-                "R2 D R2 S' R2 S D' R2"
-            ],
-            [
-                "Gavriel Johann Arcilla",
-                "Tobias Peter"
-            ],
-            [
-                "R2 D:[R2,S']"
             ]
         ],
         [
@@ -118094,6 +118125,17 @@
             [
                 "Not found."
             ]
+        ],
+        [
+            [
+                "R2 D R2 S' R2 S D' R2"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "R2 D:[R2,S']"
+            ]
         ]
     ],
     "OMJ": [
@@ -118108,6 +118150,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Tobias Peter",
@@ -118191,6 +118234,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -118212,17 +118256,6 @@
         ],
         [
             [
-                "R M B' R S' R2 S R B R' M'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "R M B' R:[S',R2]"
-            ]
-        ],
-        [
-            [
                 "D L2 D' S L2 S' L2 D L2 D'"
             ],
             [
@@ -118230,6 +118263,17 @@
             ],
             [
                 "D L2 D':[S,L2]"
+            ]
+        ],
+        [
+            [
+                "R M B' R S' R2 S R B R' M'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "R M B' R:[S',R2]"
             ]
         ]
     ],
@@ -118245,6 +118289,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -118432,6 +118477,7 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -118463,6 +118509,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
                 "Tommy Cherry",
@@ -118508,6 +118555,7 @@
                 "Graham Siggins",
                 "Grzegorz Pacewicz",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -118551,6 +118599,7 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
@@ -118584,9 +118633,9 @@
                 "Graham Siggins",
                 "Ishaan Agrawal",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -118624,6 +118673,17 @@
             [
                 "r:[D R' D',M]"
             ]
+        ],
+        [
+            [
+                "D' S R' D' R S' R' D R D"
+            ],
+            [
+                "Tobias Peter"
+            ],
+            [
+                "D':[S,R' D' R]"
+            ]
         ]
     ],
     "ONJ": [
@@ -118634,6 +118694,7 @@
             [
                 "Graham Siggins",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Tobias Peter",
@@ -118658,18 +118719,6 @@
         ],
         [
             [
-                "S' D R2 S' R2 S D' S"
-            ],
-            [
-                "Gavriel Johann Arcilla",
-                "Ishaan Agrawal"
-            ],
-            [
-                "S' D:[R2,S']"
-            ]
-        ],
-        [
-            [
                 "R2 D2 M' U M D2 M' U' R2 M"
             ],
             [
@@ -118678,6 +118727,18 @@
             ],
             [
                 "R2:[D2,M' U M]"
+            ]
+        ],
+        [
+            [
+                "S' D R2 S' R2 S D' S"
+            ],
+            [
+                "Gavriel Johann Arcilla",
+                "Ishaan Agrawal"
+            ],
+            [
+                "S' D:[R2,S']"
             ]
         ],
         [
@@ -118724,6 +118785,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
@@ -118767,6 +118829,7 @@
                 "Anto Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -118790,17 +118853,6 @@
         ],
         [
             [
-                "R D R' S R D' R' S'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "[R D R',S]"
-            ]
-        ],
-        [
-            [
                 "y M' F' R F M F' R' F y'"
             ],
             [
@@ -118808,6 +118860,17 @@
             ],
             [
                 "y:[M',F' R F]"
+            ]
+        ],
+        [
+            [
+                "R D R' S R D' R' S'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "[R D R',S]"
             ]
         ]
     ],
@@ -118868,17 +118931,6 @@
         ],
         [
             [
-                "S' R U M2 U' R' U M2 U' S"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "S':[R,U M2 U']"
-            ]
-        ],
-        [
-            [
                 "M u R' E R2 E' R' u' M'"
             ],
             [
@@ -118886,6 +118938,17 @@
             ],
             [
                 "M u R':[E,R2]"
+            ]
+        ],
+        [
+            [
+                "S' R U M2 U' R' U M2 U' S"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "S':[R,U M2 U']"
             ]
         ]
     ],
@@ -118976,6 +119039,7 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -119005,6 +119069,7 @@
             [
                 "Elliott Kobelansky",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -119070,6 +119135,7 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -119091,6 +119157,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -119692,18 +119759,6 @@
         ],
         [
             [
-                "S' U' M2 U R U' M2 U R' S"
-            ],
-            [
-                "Gavriel Johann Arcilla",
-                "Graham Siggins"
-            ],
-            [
-                "S':[U' M2 U,R]"
-            ]
-        ],
-        [
-            [
                 "R U R2 F E R2 E' R2 F' R2 U' R'"
             ],
             [
@@ -119724,6 +119779,18 @@
             ],
             [
                 "u' R':[R',U M' U']"
+            ]
+        ],
+        [
+            [
+                "S' U' M2 U R U' M2 U R' S"
+            ],
+            [
+                "Gavriel Johann Arcilla",
+                "Graham Siggins"
+            ],
+            [
+                "S':[U' M2 U,R]"
             ]
         ],
         [
@@ -119874,17 +119941,6 @@
         ],
         [
             [
-                "S' U M2 U' R U M2 U' R' S"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "S':[U M2 U',R]"
-            ]
-        ],
-        [
-            [
                 "M u R E R2 E' R u' M'"
             ],
             [
@@ -119892,6 +119948,17 @@
             ],
             [
                 "M u R:[E,R2]"
+            ]
+        ],
+        [
+            [
+                "S' U M2 U' R U M2 U' R' S"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "S':[U M2 U',R]"
             ]
         ]
     ],
@@ -121162,6 +121229,7 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Tobias Peter",
@@ -121374,6 +121442,7 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -121406,6 +121475,7 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -121708,6 +121778,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -121884,6 +121955,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
                 "Tommy Cherry",
@@ -121926,6 +121998,7 @@
             [
                 "Elliott Kobelansky",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -122247,6 +122320,7 @@
                 "Grzegorz Pacewicz",
                 "Ishaan Agrawal",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Rob Holt",
                 "Tim Wong",
@@ -122310,6 +122384,7 @@
                 "Grzegorz Pacewicz",
                 "Ishaan Agrawal",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Rob Holt",
@@ -122447,6 +122522,7 @@
                 "Graham Siggins",
                 "Grzegorz Pacewicz",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -122468,17 +122544,6 @@
         ],
         [
             [
-                "r' S' L' E L U' L' E' L U S r"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "r' S':[L' E L,U']"
-            ]
-        ],
-        [
-            [
                 "M U S U' R U S' U' R' M'"
             ],
             [
@@ -122486,6 +122551,17 @@
             ],
             [
                 "M:[U S U',R]"
+            ]
+        ],
+        [
+            [
+                "r' S' L' E L U' L' E' L U S r"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "r' S':[L' E L,U']"
             ]
         ]
     ],
@@ -122500,6 +122576,7 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -122725,19 +122802,6 @@
         ],
         [
             [
-                "R2 U' R U R E' R' U' R E R2 U R2"
-            ],
-            [
-                "Gavriel Johann Arcilla",
-                "Tobias Peter",
-                "Yifan Wang (王逸帆)"
-            ],
-            [
-                "R2 U' R:[U,R E' R']"
-            ]
-        ],
-        [
-            [
                 "S l' S' R S l S' R'"
             ],
             [
@@ -122747,6 +122811,19 @@
             ],
             [
                 "[S l' S',R]"
+            ]
+        ],
+        [
+            [
+                "R2 U' R U R E' R' U' R E R2 U R2"
+            ],
+            [
+                "Gavriel Johann Arcilla",
+                "Tobias Peter",
+                "Yifan Wang (王逸帆)"
+            ],
+            [
+                "R2 U' R:[U,R E' R']"
             ]
         ],
         [
@@ -122775,6 +122852,7 @@
                 "Graham Siggins",
                 "Ishaan Agrawal",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -122853,14 +122931,26 @@
                 "Graham Siggins",
                 "Ishaan Agrawal",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
                 "R' f' R':[S,R2]"
+            ]
+        ],
+        [
+            [
+                "M' u' R' E' R2 E R' u M"
+            ],
+            [
+                "Gavriel Johann Arcilla",
+                "Tobias Peter"
+            ],
+            [
+                "M' u' R':[E',R2]"
             ]
         ],
         [
@@ -122872,17 +122962,6 @@
             ],
             [
                 "R' U F:[E,R2]"
-            ]
-        ],
-        [
-            [
-                "M' u' R' E' R2 E R' u M"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "M' u' R':[E',R2]"
             ]
         ],
         [
@@ -123007,6 +123086,7 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
@@ -123038,6 +123118,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -123756,17 +123837,6 @@
         ],
         [
             [
-                "F' R U' R' E2 R U R' E2 F"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "F':[R U' R',E2]"
-            ]
-        ],
-        [
-            [
                 "M' L U l E' l' U' l E L2"
             ],
             [
@@ -123774,6 +123844,17 @@
             ],
             [
                 "L2:[l' U l,E']"
+            ]
+        ],
+        [
+            [
+                "F' R U' R' E2 R U R' E2 F"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "F':[R U' R',E2]"
             ]
         ]
     ],
@@ -123869,17 +123950,6 @@
         ],
         [
             [
-                "f' U R' S R2 S' R' U' f"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "f' U R':[S,R2]"
-            ]
-        ],
-        [
-            [
                 "R2 F' R' S R F R' S' R'"
             ],
             [
@@ -123898,6 +123968,17 @@
             ],
             [
                 "z:[M',D' L D]"
+            ]
+        ],
+        [
+            [
+                "f' U R' S R2 S' R' U' f"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "f' U R':[S,R2]"
             ]
         ]
     ],
@@ -124070,17 +124151,6 @@
         ],
         [
             [
-                "F R2 d2 R2 F R2 d2 R2"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "Not found."
-            ]
-        ],
-        [
-            [
                 "D' R' S R D2 R' S' R D'"
             ],
             [
@@ -124099,6 +124169,17 @@
             ],
             [
                 "D' S L':[E',L2]"
+            ]
+        ],
+        [
+            [
+                "F R2 d2 R2 F R2 d2 R2"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "Not found."
             ]
         ]
     ],
@@ -124302,18 +124383,6 @@
         ],
         [
             [
-                "E2 r U' r' E2 r U r'"
-            ],
-            [
-                "Gavriel Johann Arcilla",
-                "Keiichiro Taira (平佳一郎)"
-            ],
-            [
-                "[E2,r U' r']"
-            ]
-        ],
-        [
-            [
                 "z' l U R U' M2 U R' U' M L' z"
             ],
             [
@@ -124322,6 +124391,18 @@
             ],
             [
                 "z' l:[U R U',M2]"
+            ]
+        ],
+        [
+            [
+                "E2 r U' r' E2 r U r'"
+            ],
+            [
+                "Gavriel Johann Arcilla",
+                "Keiichiro Taira (平佳一郎)"
+            ],
+            [
+                "[E2,r U' r']"
             ]
         ],
         [
@@ -124444,21 +124525,6 @@
         ],
         [
             [
-                "M' U R S R2 S' R U' M"
-            ],
-            [
-                "Anto Kam (甘浩東)",
-                "Gavriel Johann Arcilla",
-                "Graham Siggins",
-                "Israel Fraga da Silva",
-                "Tobias Peter"
-            ],
-            [
-                "M' U R:[S,R2]"
-            ]
-        ],
-        [
-            [
                 "l' U R S R2 S' R U' l"
             ],
             [
@@ -124470,6 +124536,21 @@
             ],
             [
                 "l' U R:[S,R2]"
+            ]
+        ],
+        [
+            [
+                "M' U R S R2 S' R U' M"
+            ],
+            [
+                "Anto Kam (甘浩東)",
+                "Gavriel Johann Arcilla",
+                "Graham Siggins",
+                "Israel Fraga da Silva",
+                "Tobias Peter"
+            ],
+            [
+                "M' U R:[S,R2]"
             ]
         ],
         [
@@ -124916,17 +124997,6 @@
         ],
         [
             [
-                "M2 U R S R2 S' R U' M2"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "M2 U R:[S,R2]"
-            ]
-        ],
-        [
-            [
                 "x R2 U M' U' R2 U M U' x'"
             ],
             [
@@ -124934,6 +125004,17 @@
             ],
             [
                 "x:[R2,U M' U']"
+            ]
+        ],
+        [
+            [
+                "M2 U R S R2 S' R U' M2"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "M2 U R:[S,R2]"
             ]
         ]
     ],
@@ -125148,17 +125229,6 @@
         ],
         [
             [
-                "R2 d2 R2 F' R2 d2 R2 F'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "Not found."
-            ]
-        ],
-        [
-            [
                 "D R' S R D2 R' S' R D"
             ],
             [
@@ -125199,6 +125269,17 @@
             ],
             [
                 "z L:[U' M' U,L2]"
+            ]
+        ],
+        [
+            [
+                "R2 d2 R2 F' R2 d2 R2 F'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "Not found."
             ]
         ]
     ],
@@ -125401,22 +125482,6 @@
     "QNY": [
         [
             [
-                "M U' R S R2 S' R U M'"
-            ],
-            [
-                "Anto Kam (甘浩東)",
-                "Benjamin Paul",
-                "Gavriel Johann Arcilla",
-                "Israel Fraga da Silva",
-                "Max Hilliard",
-                "Tobias Peter"
-            ],
-            [
-                "M U' R:[S,R2]"
-            ]
-        ],
-        [
-            [
                 "l U' R S R2 S' R U l'"
             ],
             [
@@ -125429,6 +125494,22 @@
             ],
             [
                 "l U' R:[S,R2]"
+            ]
+        ],
+        [
+            [
+                "M U' R S R2 S' R U M'"
+            ],
+            [
+                "Anto Kam (甘浩東)",
+                "Benjamin Paul",
+                "Gavriel Johann Arcilla",
+                "Israel Fraga da Silva",
+                "Max Hilliard",
+                "Tobias Peter"
+            ],
+            [
+                "M U' R:[S,R2]"
             ]
         ],
         [
@@ -126215,17 +126296,6 @@
         ],
         [
             [
-                "E' F2 L' S L F2 L' S' L E"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "E':[F2,L' S L]"
-            ]
-        ],
-        [
-            [
                 "L' E L' E' r2 E L E' r2 L"
             ],
             [
@@ -126233,6 +126303,17 @@
             ],
             [
                 "L':[E L' E',r2]"
+            ]
+        ],
+        [
+            [
+                "E' F2 L' S L F2 L' S' L E"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "E':[F2,L' S L]"
             ]
         ]
     ],
@@ -126401,18 +126482,6 @@
         ],
         [
             [
-                "r U' r' E2 r U r' E2"
-            ],
-            [
-                "Gavriel Johann Arcilla",
-                "Keiichiro Taira (平佳一郎)"
-            ],
-            [
-                "[r U' r',E2]"
-            ]
-        ],
-        [
-            [
                 "z' l' U R U' M2 U R' U' M' L z"
             ],
             [
@@ -126421,6 +126490,18 @@
             ],
             [
                 "z' l':[U R U',M2]"
+            ]
+        ],
+        [
+            [
+                "r U' r' E2 r U r' E2"
+            ],
+            [
+                "Gavriel Johann Arcilla",
+                "Keiichiro Taira (平佳一郎)"
+            ],
+            [
+                "[r U' r',E2]"
             ]
         ],
         [
@@ -126745,17 +126826,6 @@
         ],
         [
             [
-                "F' E2 R U' R' E2 R U R' F"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "F':[E2,R U' R']"
-            ]
-        ],
-        [
-            [
                 "L2 E' l' U l E l' U' M L'"
             ],
             [
@@ -126763,6 +126833,17 @@
             ],
             [
                 "L2:[E',l' U l]"
+            ]
+        ],
+        [
+            [
+                "F' E2 R U' R' E2 R U R' F"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "F':[E2,R U' R']"
             ]
         ]
     ],
@@ -126916,17 +126997,6 @@
         ],
         [
             [
-                "B' L U' L' E2 L U L' E2 B"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "B':[L U' L',E2]"
-            ]
-        ],
-        [
-            [
                 "R M U r E' r' U' r E R2"
             ],
             [
@@ -126934,6 +127004,17 @@
             ],
             [
                 "R2:[r' U r,E']"
+            ]
+        ],
+        [
+            [
+                "B' L U' L' E2 L U L' E2 B"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "B':[L U' L',E2]"
             ]
         ]
     ],
@@ -127274,22 +127355,6 @@
     "QYN": [
         [
             [
-                "M U' R' S R2 S' R' U M'"
-            ],
-            [
-                "Anto Kam (甘浩東)",
-                "Benjamin Paul",
-                "Gavriel Johann Arcilla",
-                "Israel Fraga da Silva",
-                "Max Hilliard",
-                "Tobias Peter"
-            ],
-            [
-                "M U' R':[S,R2]"
-            ]
-        ],
-        [
-            [
                 "l U' R' S R2 S' R' U l'"
             ],
             [
@@ -127302,6 +127367,22 @@
             ],
             [
                 "l U' R':[S,R2]"
+            ]
+        ],
+        [
+            [
+                "M U' R' S R2 S' R' U M'"
+            ],
+            [
+                "Anto Kam (甘浩東)",
+                "Benjamin Paul",
+                "Gavriel Johann Arcilla",
+                "Israel Fraga da Silva",
+                "Max Hilliard",
+                "Tobias Peter"
+            ],
+            [
+                "M U' R':[S,R2]"
             ]
         ],
         [
@@ -127386,17 +127467,6 @@
         ],
         [
             [
-                "E' L' S L F2 L' S' L F2 E"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "E':[L' S L,F2]"
-            ]
-        ],
-        [
-            [
                 "L E' L' E r2 E' L E r2 L'"
             ],
             [
@@ -127404,6 +127474,17 @@
             ],
             [
                 "L:[E' L' E,r2]"
+            ]
+        ],
+        [
+            [
+                "E' L' S L F2 L' S' L F2 E"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "E':[L' S L,F2]"
             ]
         ]
     ],
@@ -127881,23 +127962,6 @@
     "SIM": [
         [
             [
-                "L' D L2 S L2 S' D' L"
-            ],
-            [
-                "Graham Siggins",
-                "Ishaan Agrawal",
-                "Israel Fraga da Silva",
-                "Jonghyun Kim (김종현)",
-                "Keiichiro Taira (平佳一郎)",
-                "Tobias Peter",
-                "Yangyang Shen (沈炀炀)"
-            ],
-            [
-                "L' D:[L2,S]"
-            ]
-        ],
-        [
-            [
                 "L' u M' u2 M' u L"
             ],
             [
@@ -127910,6 +127974,22 @@
             ],
             [
                 "Not found."
+            ]
+        ],
+        [
+            [
+                "L' D L2 S L2 S' D' L"
+            ],
+            [
+                "Graham Siggins",
+                "Ishaan Agrawal",
+                "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
+                "Keiichiro Taira (平佳一郎)",
+                "Yangyang Shen (沈炀炀)"
+            ],
+            [
+                "L' D:[L2,S]"
             ]
         ],
         [
@@ -128931,7 +129011,6 @@
                 "Elliott Kobelansky",
                 "Ishaan Agrawal",
                 "Max Hilliard",
-                "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -130935,6 +131014,18 @@
         ],
         [
             [
+                "R' D S' R2 S R2 D' R"
+            ],
+            [
+                "Jonghyun Kim (김종현)",
+                "Yangyang Shen (沈炀炀)"
+            ],
+            [
+                "R' D:[S',R2]"
+            ]
+        ],
+        [
+            [
                 "z L' U' M2 U L2 U' M2 U L' z'"
             ],
             [
@@ -130955,17 +131046,6 @@
             [
                 "R' u':[M',D2]"
             ]
-        ],
-        [
-            [
-                "R' D S' R2 S R2 D' R"
-            ],
-            [
-                "Yangyang Shen (沈炀炀)"
-            ],
-            [
-                "R' D:[S',R2]"
-            ]
         ]
     ],
     "YIN": [
@@ -130981,6 +131061,7 @@
                 "Graham Siggins",
                 "Ishaan Agrawal",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Rob Holt",
@@ -131049,27 +131130,15 @@
                 "Diego Meneghetti",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
+                "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
             [
                 "R' D R':[E',R2]",
                 "l' F R':[S',R2]"
-            ]
-        ],
-        [
-            [
-                "M' u R S R2 S' R u' M"
-            ],
-            [
-                "Elliott Kobelansky",
-                "Gavriel Johann Arcilla",
-                "Tobias Peter",
-                "Yuki Tsuneyoshi (恒吉優紀)"
-            ],
-            [
-                "M' u R:[S,R2]"
             ]
         ],
         [
@@ -131084,6 +131153,19 @@
             ],
             [
                 "R' L U:[M',U2]"
+            ]
+        ],
+        [
+            [
+                "M' u R S R2 S' R u' M"
+            ],
+            [
+                "Elliott Kobelansky",
+                "Gavriel Johann Arcilla",
+                "Yuki Tsuneyoshi (恒吉優紀)"
+            ],
+            [
+                "M' u R:[S,R2]"
             ]
         ],
         [
@@ -131193,6 +131275,7 @@
                 "Grzegorz Pacewicz",
                 "Ishaan Agrawal",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Marcell Endrey",
                 "Max Hilliard",
@@ -131251,8 +131334,10 @@
                 "Anto Kam (甘浩東)",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
-                "Max Hilliard"
+                "Max Hilliard",
+                "Tobias Peter"
             ],
             [
                 "D':[L E L',D2]",
@@ -131282,18 +131367,6 @@
             ],
             [
                 "R' M':[U,M U2 M]"
-            ]
-        ],
-        [
-            [
-                "M' U D' L E L2 E' L U' D M"
-            ],
-            [
-                "Gavriel Johann Arcilla",
-                "Tobias Peter"
-            ],
-            [
-                "M' U D' L:[E,L2]"
             ]
         ],
         [
@@ -131361,6 +131434,17 @@
             [
                 "z L':[U M U',L2]"
             ]
+        ],
+        [
+            [
+                "M' U D' L E L2 E' L U' D M"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "M' U D' L:[E,L2]"
+            ]
         ]
     ],
     "YJW": [
@@ -131417,8 +131501,8 @@
         [
             [
                 "L' D' L E L' D L E'",
-                "x L' F' L S L' F L S' x'",
-                "x r' D' r S r' D r S' x'"
+                "x r' D' r S r' D r S' x'",
+                "x L' F' L S L' F L S' x'"
             ],
             [
                 "Carter Kucala",
@@ -131427,6 +131511,7 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Tobias Peter",
@@ -131435,8 +131520,8 @@
             ],
             [
                 "[L' D' L,E]",
-                "x:[L' F' L,S]",
-                "x:[r' D' r,S]"
+                "x:[r' D' r,S]",
+                "x:[L' F' L,S]"
             ]
         ],
         [
@@ -131524,6 +131609,7 @@
             [
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
+                "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -131571,6 +131657,7 @@
                 "Grzegorz Pacewicz",
                 "Ishaan Agrawal",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Marcell Endrey",
                 "Max Hilliard",
@@ -131628,6 +131715,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -131640,17 +131728,6 @@
         ],
         [
             [
-                "M U' E' R S R2 S' R U E M'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "M U' E' R:[S,R2]"
-            ]
-        ],
-        [
-            [
                 "r M' U' R E' R2 E R U r' M"
             ],
             [
@@ -131658,6 +131735,17 @@
             ],
             [
                 "r M' U' R:[E',R2]"
+            ]
+        ],
+        [
+            [
+                "M U' E' R S R2 S' R U E M'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "M U' E' R:[S,R2]"
             ]
         ]
     ],
@@ -131671,6 +131759,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
                 "Tommy Cherry",
@@ -131717,6 +131806,7 @@
                 "Graham Siggins",
                 "Ishaan Agrawal",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Rob Holt",
@@ -131785,8 +131875,10 @@
                 "Anto Kam (甘浩東)",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
-                "Max Hilliard"
+                "Max Hilliard",
+                "Tobias Peter"
             ],
             [
                 "D:[L E L',D2]",
@@ -131808,19 +131900,6 @@
         ],
         [
             [
-                "M' U D' L' E L2 E' L' U' D M"
-            ],
-            [
-                "Gavriel Johann Arcilla",
-                "Tobias Peter",
-                "Yangyang Shen (沈炀炀)"
-            ],
-            [
-                "M' U D' L':[E,L2]"
-            ]
-        ],
-        [
-            [
                 "x D' M' U2 M D M' U2 M x'"
             ],
             [
@@ -131830,6 +131909,18 @@
             ],
             [
                 "x:[D',M' U2 M]"
+            ]
+        ],
+        [
+            [
+                "M' U D' L' E L2 E' L' U' D M"
+            ],
+            [
+                "Gavriel Johann Arcilla",
+                "Yangyang Shen (沈炀炀)"
+            ],
+            [
+                "M' U D' L':[E,L2]"
             ]
         ],
         [
@@ -131900,6 +131991,7 @@
             ],
             [
                 "Elliott Kobelansky",
+                "Jonghyun Kim (김종현)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
@@ -131939,6 +132031,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -131981,7 +132074,9 @@
                 "Diego Meneghetti",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
+                "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -131998,7 +132093,6 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Max Hilliard",
-                "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
@@ -132122,6 +132216,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -132134,17 +132229,6 @@
         ],
         [
             [
-                "M U' E' R' S R2 S' R' U E M'"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "M U' E' R':[S,R2]"
-            ]
-        ],
-        [
-            [
                 "r M' U' R' E' R2 E R' U r' M"
             ],
             [
@@ -132152,6 +132236,17 @@
             ],
             [
                 "r M' U' R':[E',R2]"
+            ]
+        ],
+        [
+            [
+                "M U' E' R' S R2 S' R' U E M'"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "M U' E' R':[S,R2]"
             ]
         ]
     ],
@@ -132178,6 +132273,7 @@
             ],
             [
                 "Elliott Kobelansky",
+                "Jonghyun Kim (김종현)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
@@ -132259,8 +132355,8 @@
         [
             [
                 "E L' D' L E' L' D L",
-                "x S L' F' L S' L' F L x'",
-                "x S r' D' r S' r' D r x'"
+                "x S r' D' r S' r' D r x'",
+                "x S L' F' L S' L' F L x'"
             ],
             [
                 "Carter Kucala",
@@ -132268,6 +132364,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Tobias Peter",
@@ -132276,8 +132373,8 @@
             ],
             [
                 "[E,L' D' L]",
-                "x:[S,L' F' L]",
-                "x:[S,r' D' r]"
+                "x:[S,r' D' r]",
+                "x:[S,L' F' L]"
             ]
         ],
         [
@@ -132303,17 +132400,6 @@
             ],
             [
                 "E' R':[S',R' F' R]"
-            ]
-        ],
-        [
-            [
-                "R' M' U' R E' R' U R E M"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "M':[R' U' R,E']"
             ]
         ],
         [
@@ -132348,6 +132434,17 @@
             [
                 "y z':[U' R2 U,M]"
             ]
+        ],
+        [
+            [
+                "R' M' U' R E' R' U R E M"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "M':[R' U' R,E']"
+            ]
         ]
     ],
     "YXM": [
@@ -132360,6 +132457,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
                 "Tommy Cherry",
@@ -132403,6 +132501,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",

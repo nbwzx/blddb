@@ -2486,6 +2486,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Nakano",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -2493,13 +2494,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "U' L U:[m',U2]"
-        ],
-        [
-            "U L U m2 U' L' U m2 U2",
-            [
-                "Jonghyun Kim (김종현)"
-            ],
-            "U:[L,U m2 U']"
         ]
     ],
     "AIX": [
@@ -2539,6 +2533,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Nakano",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -2546,13 +2541,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "U R' U':[m',U2]"
-        ],
-        [
-            "U' R' U' m2 U R U' m2 U2",
-            [
-                "Jonghyun Kim (김종현)"
-            ],
-            "U':[R',U' m2 U]"
         ]
     ],
     "AIZ": [
@@ -3487,7 +3475,6 @@
             [
                 "Graham Siggins",
                 "Hana Nakano",
-                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Ryan Eckersley"
             ],
@@ -3507,6 +3494,13 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "D2 R:[R U' R',e]"
+        ],
+        [
+            "L D m' U L U' m U L' U' D' L'",
+            [
+                "Jonghyun Kim (김종현)"
+            ],
+            "L D:[m',U L U']"
         ],
         [
             "Lw D m' U L U' m U L' U' D' Lw'",
@@ -4182,11 +4176,11 @@
             "x' L U:[m',U2]"
         ],
         [
-            "z U' m' U R U' m2 U R' U' m' U z'",
+            "D m' U R' U' m' U R U' m2 D'",
             [
                 "Jonghyun Kim (김종현)"
             ],
-            "z U' m':[U R U',m2]"
+            "D m':[U R' U',m']"
         ],
         [
             "S U L' e L U' L' e' L S'",
@@ -8202,7 +8196,6 @@
             [
                 "Graham Siggins",
                 "Hana Nakano",
-                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Ryan Eckersley"
             ],
@@ -8222,6 +8215,13 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "D2 R:[e,R U' R']"
+        ],
+        [
+            "L D U L U' m' U L' U' m D' L'",
+            [
+                "Jonghyun Kim (김종현)"
+            ],
+            "L D:[U L U',m']"
         ],
         [
             "Lw D U L U' m' U L' U' m D' Lw'",
@@ -8740,6 +8740,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Nakano",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -8747,13 +8748,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "U' L U':[m',U2]"
-        ],
-        [
-            "U2 m2 U' L U m2 U' L' U'",
-            [
-                "Jonghyun Kim (김종현)"
-            ],
-            "U:[U m2 U',L]"
         ]
     ],
     "AWJ": [
@@ -9045,6 +9039,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Nakano",
+                "Jonghyun Kim (김종현)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -9054,7 +9049,6 @@
         [
             "3Rw' U2 L U' m' U L' U' m U' 3Rw",
             [
-                "Jonghyun Kim (김종현)",
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Rw' U:[U L U',m']"
@@ -9852,6 +9846,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Nakano",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -9859,13 +9854,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "U R' U:[m',U2]"
-        ],
-        [
-            "U2 m2 U R' U' m2 U R U",
-            [
-                "Jonghyun Kim (김종현)"
-            ],
-            "U':[U' m2 U,R']"
         ]
     ],
     "AYJ": [
@@ -10171,6 +10159,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Nakano",
+                "Jonghyun Kim (김종현)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -10180,7 +10169,6 @@
         [
             "3Rw' U m' U L U' m U L' U2 3Rw",
             [
-                "Jonghyun Kim (김종현)",
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Rw' U:[m',U L U']"
@@ -10469,11 +10457,11 @@
             "x' L U':[m',U2]"
         ],
         [
-            "z U' m U R U' m2 U R' U' m U z'",
+            "D m2 U R' U' m U R U' m D'",
             [
                 "Jonghyun Kim (김종현)"
             ],
-            "z U' m:[U R U',m2]"
+            "D m':[m',U R' U']"
         ],
         [
             "S L' e L U L' e' L U' S'",
