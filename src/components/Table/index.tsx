@@ -134,10 +134,14 @@ const Table = ({
     return videoUrl;
   };
 
-  const calculateAndSetDimensions = (width: number, height: number) => {
+  const calculateAndSetDimensions = (
+    width: number,
+    height: number,
+    isScale: boolean,
+  ) => {
     const widthScale = (Math.min(window.innerWidth, 1000) * 0.8) / width;
     const heightScale = (Math.min(window.innerHeight, 1000) * 0.8) / height;
-    const scale = Math.min(widthScale, heightScale);
+    const scale = isScale ? Math.min(widthScale, heightScale) : 1;
     setVideoDimensions({
       width: width * scale,
       height: height * scale,
@@ -149,8 +153,12 @@ const Table = ({
     if (videos.length > 0) {
       setVideoList(videos);
       setVideoIdx(0);
-      const { width, height } = videos[0];
-      calculateAndSetDimensions(Number(width), Number(height));
+      const { url, width, height } = videos[0];
+      calculateAndSetDimensions(
+        Number(width),
+        Number(height),
+        !url.includes("douyin"),
+      );
       setIsVideoVisible(true);
     }
   };
@@ -160,8 +168,12 @@ const Table = ({
       setVideoKey((prev) => prev + 1);
       const newIdx = (videoIdx + delta + videoList.length) % videoList.length;
       setVideoIdx(newIdx);
-      const { width, height } = videoList[newIdx];
-      calculateAndSetDimensions(Number(width), Number(height));
+      const { url, width, height } = videoList[newIdx];
+      calculateAndSetDimensions(
+        Number(width),
+        Number(height),
+        !url.includes("douyin"),
+      );
     }
   };
 
