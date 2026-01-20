@@ -155,6 +155,13 @@ const finger = (function () {
       if (fingerposition === 3 && (arr[i] === "U2" || arr[i][0] === "M")) {
         pain = pain + 1;
       }
+      if (fingerposition === 3 && arr[i] === "U2") {
+        if (i > 0 && i < arr.length - 1) {
+          if (arr[i - 1][0] === "R" && arr[i + 1][0] === "R") {
+            pain = pain - 1;
+          }
+        }
+      }
       if (fingerposition === 2 && (arr[i][0] === "E" || arr[i][0] === "F")) {
         pain = pain + 1;
       }
@@ -171,7 +178,7 @@ const finger = (function () {
         pain = pain + 1;
       }
       if (fingerposition === 3 && arr[i] === "F2") {
-        pain = pain + 1;
+        pain = pain + 0.5;
       }
       if (arr[i][0] === "S" && fingerposition !== 2) {
         if (
@@ -218,7 +225,7 @@ const finger = (function () {
         }
       }
     }
-    return pain;
+    return Math.ceil(pain);
   }
 
   function fingerback(alg: string, position: number) {
@@ -339,7 +346,11 @@ const finger = (function () {
       : rewrite.righty(alg);
     let fingerbegin: string[] = [],
       count = 0;
-    for (let i = -1; i <= 10; i++) {
+    let start_i = 0;
+    if (alg.includes("E") || alg.includes("M") || alg.includes("S")) {
+      start_i = -1;
+    }
+    for (let i = start_i; i <= 10; i++) {
       if (
         fingerAvailable(algRighty, 2) &&
         (fingerpain(algRighty, 2) === i || fingerpain(algRighty, 2) === i + 1)
