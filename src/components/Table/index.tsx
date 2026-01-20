@@ -1,4 +1,4 @@
-import React, { JSX, useState } from "react";
+import React, { JSX, useState, useEffect } from "react";
 import commutator from "@/utils/commutator";
 import commutator_555 from "@/utils/commutator_555";
 import finger from "@/utils/finger";
@@ -22,6 +22,22 @@ function matchesPattern(patterns: string[], str: string): boolean {
     }
   }
   return false;
+}
+
+async function isInChina(): Promise<boolean> {
+  return new Promise((resolve) => {
+    const img = new Image();
+    const timeout = setTimeout(() => resolve(true), 500);
+    img.onload = () => {
+      clearTimeout(timeout);
+      resolve(false);
+    };
+    img.onerror = () => {
+      clearTimeout(timeout);
+      resolve(true);
+    };
+    img.src = `https://www.google.com/favicon.ico?_=${Date.now()}`;
+  });
 }
 
 const Table = ({
@@ -56,6 +72,17 @@ const Table = ({
     [key: string]: Array<VideoAttributes>;
   };
 }) => {
+  const [inChina, setInChina] = useState<boolean>(false);
+  const [isLocationChecked, setIsLocationChecked] = useState<boolean>(false);
+  useEffect(() => {
+    const checkLocation = async () => {
+      const china = await isInChina();
+      setInChina(china);
+      setIsLocationChecked(true);
+    };
+    checkLocation();
+  }, []);
+
   const getPosition = (matchedPosition: string[]) => {
     let positionText = "";
 
@@ -126,12 +153,37 @@ const Table = ({
 
   const getVideoUrl = (algorithms: string[]) => {
     const videoUrl: Array<VideoAttributes> = [];
+    if (!isLocationChecked) {
+      return videoUrl;
+    }
     for (const algorithm of algorithms) {
       if (algToUrl?.[algorithm]) {
-        videoUrl.push(...algToUrl[algorithm]);
+        let videos = algToUrl[algorithm];
+        if (inChina) {
+          videos = videos.filter((video) => video.url.includes("douyin"));
+        }
+        videoUrl.push(...videos);
       }
     }
     return videoUrl;
+  };
+
+  const hasVideo = (algorithms: string[]) => {
+    if (!isLocationChecked) {
+      return false;
+    }
+    for (const algorithm of algorithms) {
+      if (algToUrl?.[algorithm]) {
+        let videos = algToUrl[algorithm];
+        if (inChina) {
+          videos = videos.filter((video) => video.url.includes("douyin"));
+        }
+        if (videos.length > 0) {
+          return true;
+        }
+      }
+    }
+    return false;
   };
 
   const calculateAndSetDimensions = (
@@ -380,9 +432,9 @@ const Table = ({
             {j === 0 && isThumbPositionNeeded && (
               <td
                 rowSpan={item.length}
-                onClick={() => handleCellClick(item)}
+                onClick={() => hasVideo(item) && handleCellClick(item)}
                 className={
-                  getVideoUrl(item).length > 0
+                  hasVideo(item)
                     ? "text-primary cursor-pointer dark:text-[#00BCD4]"
                     : ""
                 }
