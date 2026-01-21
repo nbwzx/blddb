@@ -17,6 +17,7 @@ def main():
         if key not in algs_json:
             results.pop(key)
 
+    results = dict(sorted(results.items()))
     results_json = json.dumps(results, ensure_ascii=False, indent=4)
     with open("public/data/sourceToResult.json", "w", encoding="utf-8") as file:
         file.write(results_json)
