@@ -1,12 +1,8 @@
-"use server";
-
-import { cookies } from "next/headers";
+"use client";
 
 export async function switchLocaleAction(value: string) {
-  (await cookies()).set("i18next", value);
-
-  // It does not matter what we return here
-  return {
-    status: "success",
-  };
+  // Set cookie directly in browser
+  document.cookie = `i18next=${value}; path=/; max-age=34560000`;
+  // Refresh the page
+  window.location.reload();
 }
