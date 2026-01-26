@@ -184,13 +184,6 @@
             "Rw' D U':[R2,U' r U]"
         ],
         [
-            "Rw' U b' R' F' R b R' F R U' Rw",
-            [
-                "Nicole Arcilla"
-            ],
-            "Rw' U:[b',R' F' R]"
-        ],
-        [
             "Rw' D U' R2 U l U' R2 U l' D' Rw",
             [
                 "Sebastiano Tronto"
@@ -210,6 +203,13 @@
                 "Dong Zhu (朱栋)"
             ],
             "[U2 r' U2 r U2,l]"
+        ],
+        [
+            "Rw' U b' R' F' R b R' F R U' Rw",
+            [
+                "Nicole Arcilla"
+            ],
+            "Rw' U:[b',R' F' R]"
         ]
     ],
     "ABF": [
@@ -742,20 +742,20 @@
             "D Lw' U':[R' u' R,U2]"
         ],
         [
-            "D' Lw' U' R' u R U2 R' u' R U' Lw D",
-            [
-                "Anto Kam (甘浩東)",
-                "Nicole Arcilla"
-            ],
-            "D' Lw' U':[R' u R,U2]"
-        ],
-        [
             "D' l' U2 l' D l U2 l' D' l2 D",
             [
                 "Sebastiano Tronto",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "D' l':[U2,l' D l]"
+        ],
+        [
+            "D' Lw' U' R' u R U2 R' u' R U' Lw D",
+            [
+                "Anto Kam (甘浩東)",
+                "Nicole Arcilla"
+            ],
+            "D' Lw' U':[R' u R,U2]"
         ],
         [
             "D l' U2 l' D' l U2 l' D l2 D'",
@@ -1585,20 +1585,20 @@
             "S' U':[L' u L,U2]"
         ],
         [
-            "F' U2 R' u' R U' R' u R U' F",
-            [
-                "Nicole Arcilla",
-                "Xin Shi (石欣)"
-            ],
-            "F' U:[U,R' u' R]"
-        ],
-        [
             "Rw' U2 R U' R' U r U' R U Rw' U2 Rw",
             [
                 "Howie Craig",
                 "Sebastiano Tronto"
             ],
             "Rw' U2 R:[U' R' U,r]"
+        ],
+        [
+            "F' U2 R' u' R U' R' u R U' F",
+            [
+                "Nicole Arcilla",
+                "Xin Shi (石欣)"
+            ],
+            "F' U:[U,R' u' R]"
         ],
         [
             "L' Uw' U2 R' u' R U2 R' u R Uw L",
@@ -2030,13 +2030,6 @@
             "U' R':[U' R U,r2]"
         ],
         [
-            "4Fw R U' r' U R' U' r U 4Fw'",
-            [
-                "Nicole Arcilla"
-            ],
-            "4Fw:[R,U' r' U]"
-        ],
-        [
             "D 4Rw2 U' r2 U 4Rw2 D' r2",
             [
                 "Timo Norrkniivilä"
@@ -2049,6 +2042,13 @@
                 "Kevin Matthews"
             ],
             "3Lw' 4Lw2:[U L' U',r2]"
+        ],
+        [
+            "4Fw R U' r' U R' U' r U 4Fw'",
+            [
+                "Nicole Arcilla"
+            ],
+            "4Fw:[R,U' r' U]"
         ]
     ],
     "ACN": [
@@ -3285,20 +3285,20 @@
             "4Lw':[r2,U' L U]"
         ],
         [
-            "S R r2 U' R' U r2 U' R U R' S'",
-            [
-                "Howie Craig",
-                "Nicole Arcilla"
-            ],
-            "S R:[r2,U' R' U]"
-        ],
-        [
             "D L F' L' b' L F L' b D'",
             [
                 "Andrew Tan Jing Bang",
                 "Anto Kam (甘浩東)"
             ],
             "D:[L F' L',b']"
+        ],
+        [
+            "S R r2 U' R' U r2 U' R U R' S'",
+            [
+                "Howie Craig",
+                "Nicole Arcilla"
+            ],
+            "S R:[r2,U' R' U]"
         ],
         [
             "Lw r' U' L' U r2 U' L U r' Lw'",
@@ -4087,13 +4087,6 @@
             "Rw' D U':[U' r U,R2]"
         ],
         [
-            "Rw' U R' F' R b' R' F R b U' Rw",
-            [
-                "Nicole Arcilla"
-            ],
-            "Rw' U:[R' F' R,b']"
-        ],
-        [
             "Rw' D l U' R2 U l' U' R2 U D' Rw",
             [
                 "Sebastiano Tronto"
@@ -4113,6 +4106,13 @@
                 "Dong Zhu (朱栋)"
             ],
             "[l,U2 r' U2 r U2]"
+        ],
+        [
+            "Rw' U R' F' R b' R' F R b U' Rw",
+            [
+                "Nicole Arcilla"
+            ],
+            "Rw' U:[R' F' R,b']"
         ]
     ],
     "AEC": [
@@ -4152,20 +4152,20 @@
             "S' U:[L' u L,U2]"
         ],
         [
-            "F' U R' u' R U R' u R U2 F",
-            [
-                "Nicole Arcilla",
-                "Xin Shi (石欣)"
-            ],
-            "F' U:[R' u' R,U]"
-        ],
-        [
             "Rw' U2 Rw U' R' U r' U' R U R' U2 Rw",
             [
                 "Howie Craig",
                 "Sebastiano Tronto"
             ],
             "Rw' U2 R:[r,U' R' U]"
+        ],
+        [
+            "F' U R' u' R U R' u R U2 F",
+            [
+                "Nicole Arcilla",
+                "Xin Shi (石欣)"
+            ],
+            "F' U:[R' u' R,U]"
         ],
         [
             "L' Uw' R' u' R U2 R' u R U2 Uw L",
@@ -4375,18 +4375,18 @@
             "Rw F Rw' U':[R' u' R,U2]"
         ],
         [
-            "Rw F' Rw' U' R' u R U2 R' u' R U' Rw F Rw'",
-            [
-                "Nicole Arcilla"
-            ],
-            "Rw F' Rw' U':[R' u R,U2]"
-        ],
-        [
             "D' S' U' R' u R U2 R' u' R U' S D",
             [
                 "Anto Kam (甘浩東)"
             ],
             "D' S' U':[R' u R,U2]"
+        ],
+        [
+            "Rw F' Rw' U' R' u R U2 R' u' R U' Rw F Rw'",
+            [
+                "Nicole Arcilla"
+            ],
+            "Rw F' Rw' U':[R' u R,U2]"
         ]
     ],
     "AEJ": [
@@ -5814,13 +5814,6 @@
             "U':[b,L' B' L]"
         ],
         [
-            "4Fw U R U' r' U R' U' r 4Fw'",
-            [
-                "Nicole Arcilla"
-            ],
-            "4Fw:[U R U',r']"
-        ],
-        [
             "F U R U' r' U R' U' r F'",
             [
                 "Xi Lu (鲁曦)"
@@ -5840,6 +5833,13 @@
                 "Ethan Pan"
             ],
             "U' x':[u,L' U' L]"
+        ],
+        [
+            "4Fw U R U' r' U R' U' r 4Fw'",
+            [
+                "Nicole Arcilla"
+            ],
+            "4Fw:[U R U',r']"
         ]
     ],
     "AFN": [
@@ -6590,18 +6590,18 @@
             "[U2,3Rw U2 l' U2 3Rw']"
         ],
         [
-            "Rw F' Rw' U R' u R U2 R' u' R U Rw F Rw'",
-            [
-                "Nicole Arcilla"
-            ],
-            "Rw F' Rw' U:[R' u R,U2]"
-        ],
-        [
             "D' S' U R' u R U2 R' u' R U S D",
             [
                 "Anto Kam (甘浩東)"
             ],
             "D' S' U:[R' u R,U2]"
+        ],
+        [
+            "Rw F' Rw' U R' u R U2 R' u' R U Rw F Rw'",
+            [
+                "Nicole Arcilla"
+            ],
+            "Rw F' Rw' U:[R' u R,U2]"
         ]
     ],
     "AIF": [
@@ -6821,13 +6821,6 @@
             "4Rw:[U2,l D l']"
         ],
         [
-            "D R' F' R f' R' F2 R f R' F' R D'",
-            [
-                "Nicole Arcilla"
-            ],
-            "D R' F':[R f' R',F2]"
-        ],
-        [
             "Rw U l' U l D l' U' l D' U' Rw'",
             [
                 "Dong Zhu (朱栋)"
@@ -6840,6 +6833,13 @@
                 "Dong Zhu (朱栋)"
             ],
             "r U:[l' U l,D]"
+        ],
+        [
+            "D R' F' R f' R' F2 R f R' F' R D'",
+            [
+                "Nicole Arcilla"
+            ],
+            "D R' F':[R f' R',F2]"
         ]
     ],
     "AIL": [
@@ -6962,13 +6962,6 @@
             "Lw':[r2,U2 Lw U2 Lw' U2]"
         ],
         [
-            "D' R D' U' R U r2 U' R' U r2 D R' D",
-            [
-                "Nicole Arcilla"
-            ],
-            "D' R D':[U' R U,r2]"
-        ],
-        [
             "x U2 Lw' U2 r U2 Lw U2 Lw' U2 r' U2 Lw x'",
             [
                 "Xi Lu (鲁曦)"
@@ -6981,6 +6974,13 @@
                 "Anto Kam (甘浩東)"
             ],
             "D' R' D':[U' R' U,r2]"
+        ],
+        [
+            "D' R D' U' R U r2 U' R' U r2 D R' D",
+            [
+                "Nicole Arcilla"
+            ],
+            "D' R D':[U' R U,r2]"
         ]
     ],
     "AIN": [
@@ -7048,13 +7048,6 @@
             "x':[r U2 r',D2]"
         ],
         [
-            "U' x' l U R U' l' U R' U' x U",
-            [
-                "Nicole Arcilla"
-            ],
-            "U' x':[l,U R U']"
-        ],
-        [
             "4Rw' r U2 r' D2 r U2 r' D2 4Rw",
             [
                 "Xi Lu (鲁曦)"
@@ -7074,6 +7067,13 @@
                 "Christopher Morris"
             ],
             "l:[U2,r' D2 r]"
+        ],
+        [
+            "U' x' l U R U' l' U R' U' x U",
+            [
+                "Nicole Arcilla"
+            ],
+            "U' x':[l,U R U']"
         ]
     ],
     "AIO": [
@@ -7265,18 +7265,18 @@
             "D:[D r2 D',R']"
         ],
         [
-            "D2 U' R U r2 U' R' U r2 D2",
-            [
-                "Nicole Arcilla"
-            ],
-            "D2:[U' R U,r2]"
-        ],
-        [
             "R2 F R f' R' F2 R f R' F R2",
             [
                 "Daniel Lin"
             ],
             "R2 F:[R f' R',F2]"
+        ],
+        [
+            "D2 U' R U r2 U' R' U r2 D2",
+            [
+                "Nicole Arcilla"
+            ],
+            "D2:[U' R U,r2]"
         ]
     ],
     "AIR": [
@@ -7314,20 +7314,20 @@
             "R D:[f',R' F R]"
         ],
         [
-            "D2 r U R U' r2 U R' U' r D2",
-            [
-                "Nicole Arcilla",
-                "Yuki Tsuneyoshi (恒吉優紀)"
-            ],
-            "D2 r:[U R U',r2]"
-        ],
-        [
             "Rw D' U' r D' r' U r D r' D Rw'",
             [
                 "Dong Zhu (朱栋)",
                 "Graham Siggins"
             ],
             "Rw D':[U',r D' r']"
+        ],
+        [
+            "D2 r U R U' r2 U R' U' r D2",
+            [
+                "Nicole Arcilla",
+                "Yuki Tsuneyoshi (恒吉優紀)"
+            ],
+            "D2 r:[U R U',r2]"
         ],
         [
             "D R' D' r U' R' U r' U' R U D R D'",
@@ -7583,18 +7583,18 @@
             "U2 l:[U L U',l2]"
         ],
         [
-            "Lw' l' U L' u L U2 L' u' L U l Lw",
-            [
-                "Nicole Arcilla"
-            ],
-            "Lw' l' U:[L' u L,U2]"
-        ],
-        [
             "L' D r U' R2 U r' U' R2 U D' L",
             [
                 "Xin Shi (石欣)"
             ],
             "L' D:[r,U' R2 U]"
+        ],
+        [
+            "Lw' l' U L' u L U2 L' u' L U l Lw",
+            [
+                "Nicole Arcilla"
+            ],
+            "Lw' l' U:[L' u L,U2]"
         ]
     ],
     "AIY": [
@@ -8466,20 +8466,20 @@
             "U:[r U' r',D2]"
         ],
         [
-            "U' D R' u' R D2 R' u R D U",
-            [
-                "Nicole Arcilla",
-                "Ryan Eckersley"
-            ],
-            "U' D:[R' u' R,D2]"
-        ],
-        [
             "4Lw' U R' F' R f R' F R f' U' 4Lw",
             [
                 "Anto Kam (甘浩東)",
                 "Michael Tripodi"
             ],
             "4Lw' U:[R' F' R,f]"
+        ],
+        [
+            "U' D R' u' R D2 R' u R D U",
+            [
+                "Nicole Arcilla",
+                "Ryan Eckersley"
+            ],
+            "U' D:[R' u' R,D2]"
         ],
         [
             "Rw D' R U R U' r U R' U' Rw' D Rw'",
@@ -9408,18 +9408,18 @@
             "4Lw' U':[R' d R,U2]"
         ],
         [
-            "D R' F R f' R' F2 R f R' F R D'",
-            [
-                "Nicole Arcilla"
-            ],
-            "D R' F:[R f' R',F2]"
-        ],
-        [
             "Rw U D l' U l D' l' U' l U' Rw'",
             [
                 "Dong Zhu (朱栋)"
             ],
             "Rw U:[D,l' U l]"
+        ],
+        [
+            "D R' F R f' R' F2 R f R' F R D'",
+            [
+                "Nicole Arcilla"
+            ],
+            "D R' F:[R f' R',F2]"
         ]
     ],
     "AKJ": [
@@ -11743,13 +11743,6 @@
             "3Lw':[U L U',r2]"
         ],
         [
-            "4Fw U' r' U R U' r U R' 4Fw'",
-            [
-                "Nicole Arcilla"
-            ],
-            "4Fw:[U' r' U,R]"
-        ],
-        [
             "r2 D 4Rw2 U' r2 U 4Rw2 D'",
             [
                 "Timo Norrkniivilä"
@@ -11762,6 +11755,13 @@
                 "Kevin Matthews"
             ],
             "3Lw:[U L' U',r2]"
+        ],
+        [
+            "4Fw U' r' U R U' r U R' 4Fw'",
+            [
+                "Nicole Arcilla"
+            ],
+            "4Fw:[U' r' U,R]"
         ]
     ],
     "AMD": [
@@ -11816,20 +11816,20 @@
             "D r:[U,r D' r']"
         ],
         [
-            "S R U' R' U r2 U' R U r2 R' S'",
-            [
-                "Howie Craig",
-                "Nicole Arcilla"
-            ],
-            "S R:[U' R' U,r2]"
-        ],
-        [
             "D b' L F' L' b L F L' D'",
             [
                 "Andrew Tan Jing Bang",
                 "Anto Kam (甘浩東)"
             ],
             "D:[b',L F' L']"
+        ],
+        [
+            "S R U' R' U r2 U' R U r2 R' S'",
+            [
+                "Howie Craig",
+                "Nicole Arcilla"
+            ],
+            "S R:[U' R' U,r2]"
         ],
         [
             "x U' L U r2 U' L' U r2 x'",
@@ -11969,13 +11969,6 @@
             "U':[L' B' L,b]"
         ],
         [
-            "4Fw r' U R U' r U R' U' 4Fw'",
-            [
-                "Nicole Arcilla"
-            ],
-            "4Fw:[r',U R U']"
-        ],
-        [
             "U 4Lw U R' d R U' R' d' x U'",
             [
                 "Jonghyun Kim (김종현)"
@@ -11988,6 +11981,13 @@
                 "Ethan Pan"
             ],
             "U' x':[L' U' L,u]"
+        ],
+        [
+            "4Fw r' U R U' r U R' U' 4Fw'",
+            [
+                "Nicole Arcilla"
+            ],
+            "4Fw:[r',U R U']"
         ]
     ],
     "AMI": [
@@ -12052,13 +12052,6 @@
             "3Lw2:[3Lw U2 r' U2 3Lw',U2]"
         ],
         [
-            "D' R D' r2 U' R U r2 U' R' U D R' D",
-            [
-                "Nicole Arcilla"
-            ],
-            "D' R D':[r2,U' R U]"
-        ],
-        [
             "x Lw' U2 r U2 Lw U2 Lw' U2 r' U2 Lw U2 x'",
             [
                 "Xi Lu (鲁曦)"
@@ -12071,6 +12064,13 @@
                 "Anto Kam (甘浩東)"
             ],
             "D' R' D':[r2,U' R' U]"
+        ],
+        [
+            "D' R D' r2 U' R U r2 U' R' U D R' D",
+            [
+                "Nicole Arcilla"
+            ],
+            "D' R D':[r2,U' R U]"
         ]
     ],
     "AMJ": [
@@ -12460,13 +12460,6 @@
             "Rw:[r2,D R' D']"
         ],
         [
-            "D' r U' R2 U r' U' R2 U D",
-            [
-                "Nicole Arcilla"
-            ],
-            "D':[r,U' R2 U]"
-        ],
-        [
             "U r2 U' r' D' r U r' D r' U'",
             [
                 "Ziyi Xu (徐梓翼)"
@@ -12493,6 +12486,13 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "x':[r2,U R' U']"
+        ],
+        [
+            "D' r U' R2 U r' U' R2 U D",
+            [
+                "Nicole Arcilla"
+            ],
+            "D':[r,U' R2 U]"
         ]
     ],
     "AMQ": [
@@ -12885,20 +12885,20 @@
             "D Lw' U:[R' u' R,U2]"
         ],
         [
-            "D' Lw' U R' u R U2 R' u' R U Lw D",
-            [
-                "Anto Kam (甘浩東)",
-                "Nicole Arcilla"
-            ],
-            "D' Lw' U:[R' u R,U2]"
-        ],
-        [
             "D' l2 D l U2 l' D' l U2 l D",
             [
                 "Sebastiano Tronto",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "D' l':[l' D l,U2]"
+        ],
+        [
+            "D' Lw' U R' u R U2 R' u' R U Lw D",
+            [
+                "Anto Kam (甘浩東)",
+                "Nicole Arcilla"
+            ],
+            "D' Lw' U:[R' u R,U2]"
         ],
         [
             "D l2 D' l U2 l' D l U2 l D'",
@@ -13256,13 +13256,6 @@
             "x':[D2,r U2 r']"
         ],
         [
-            "U' x' U R U' l U R' U' l' x U",
-            [
-                "Nicole Arcilla"
-            ],
-            "U' x':[U R U',l]"
-        ],
-        [
             "4Rw' D2 r U2 r' D2 r U2 r' 4Rw",
             [
                 "Xi Lu (鲁曦)"
@@ -13282,6 +13275,13 @@
                 "Christopher Morris"
             ],
             "l:[r' D2 r,U2]"
+        ],
+        [
+            "U' x' U R U' l U R' U' l' x U",
+            [
+                "Nicole Arcilla"
+            ],
+            "U' x':[U R U',l]"
         ]
     ],
     "ANJ": [
@@ -13327,20 +13327,20 @@
             "U:[D2,r U' r']"
         ],
         [
-            "U' D' R' u' R D2 R' u R D' U",
-            [
-                "Nicole Arcilla",
-                "Ryan Eckersley"
-            ],
-            "U' D':[R' u' R,D2]"
-        ],
-        [
             "4Lw' U f R' F' R f' R' F R U' 4Lw",
             [
                 "Anto Kam (甘浩東)",
                 "Michael Tripodi"
             ],
             "4Lw' U:[f,R' F' R]"
+        ],
+        [
+            "U' D' R' u' R D2 R' u R D' U",
+            [
+                "Nicole Arcilla",
+                "Ryan Eckersley"
+            ],
+            "U' D':[R' u' R,D2]"
         ],
         [
             "Rw D' Rw U R U' r' U R' U' R' D Rw'",
@@ -13653,13 +13653,6 @@
             "4Lw' U:[f',R' F' R]"
         ],
         [
-            "S U D L' u' L D' L' u L U' S'",
-            [
-                "Nicole Arcilla"
-            ],
-            "S U:[D,L' u' L]"
-        ],
-        [
             "R U' R U' l U R' U' l' U2 R'",
             [
                 "Kai Yamamoto (山本快)"
@@ -13672,6 +13665,13 @@
                 "Howie Craig"
             ],
             "D' U':[b',R F' R']"
+        ],
+        [
+            "S U D L' u' L D' L' u L U' S'",
+            [
+                "Nicole Arcilla"
+            ],
+            "S U:[D,L' u' L]"
         ]
     ],
     "ANP": [
@@ -14848,13 +14848,6 @@
             "4Lw' U:[R' F' R,f']"
         ],
         [
-            "S U L' u' L D L' u L D' U' S'",
-            [
-                "Nicole Arcilla"
-            ],
-            "S U:[L' u' L,D]"
-        ],
-        [
             "R U2 l U R U' l' U R' U R'",
             [
                 "Kai Yamamoto (山本快)"
@@ -14867,6 +14860,13 @@
                 "Howie Craig"
             ],
             "D' U':[R F' R',b']"
+        ],
+        [
+            "S U L' u' L D L' u L D' U' S'",
+            [
+                "Nicole Arcilla"
+            ],
+            "S U:[L' u' L,D]"
         ]
     ],
     "AOP": [
@@ -15061,13 +15061,6 @@
             "D2 L':[L' U L,d']"
         ],
         [
-            "Dw U' R' U r2 U' R U r2 Dw'",
-            [
-                "Nicole Arcilla"
-            ],
-            "Dw:[U' R' U,r2]"
-        ],
-        [
             "D' R D f' R' F R f R' F' R D' R' D",
             [
                 "Anto Kam (甘浩東)"
@@ -15080,6 +15073,13 @@
                 "Daniel Lin"
             ],
             "Rw U':[U',L u L']"
+        ],
+        [
+            "Dw U' R' U r2 U' R U r2 Dw'",
+            [
+                "Nicole Arcilla"
+            ],
+            "Dw:[U' R' U,r2]"
         ]
     ],
     "AOS": [
@@ -16028,13 +16028,6 @@
             "Rw:[D R' D',r2]"
         ],
         [
-            "D' U' R2 U r U' R2 U r' D",
-            [
-                "Nicole Arcilla"
-            ],
-            "D':[U' R2 U,r]"
-        ],
-        [
             "U r D' r U' r' D r U r2 U'",
             [
                 "Ziyi Xu (徐梓翼)"
@@ -16061,6 +16054,13 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "x':[U R' U',r2]"
+        ],
+        [
+            "D' U' R2 U r U' R2 U r' D",
+            [
+                "Nicole Arcilla"
+            ],
+            "D':[U' R2 U,r]"
         ]
     ],
     "APN": [
@@ -17023,18 +17023,18 @@
             "D:[R',D r2 D']"
         ],
         [
-            "D2 r2 U' R U r2 U' R' U D2",
-            [
-                "Nicole Arcilla"
-            ],
-            "D2:[r2,U' R U]"
-        ],
-        [
             "R2 F' R f' R' F2 R f R' F' R2",
             [
                 "Daniel Lin"
             ],
             "R2 F':[R f' R',F2]"
+        ],
+        [
+            "D2 r2 U' R U r2 U' R' U D2",
+            [
+                "Nicole Arcilla"
+            ],
+            "D2:[r2,U' R U]"
         ]
     ],
     "AQJ": [
@@ -18052,20 +18052,20 @@
             "R D:[R' F R,f']"
         ],
         [
-            "D2 r' U R U' r2 U R' U' r' D2",
-            [
-                "Nicole Arcilla",
-                "Yuki Tsuneyoshi (恒吉優紀)"
-            ],
-            "D2 r':[U R U',r2]"
-        ],
-        [
             "Rw D' r D' r' U' r D r' U D Rw'",
             [
                 "Dong Zhu (朱栋)",
                 "Graham Siggins"
             ],
             "Rw D':[r D' r',U']"
+        ],
+        [
+            "D2 r' U R U' r2 U R' U' r' D2",
+            [
+                "Nicole Arcilla",
+                "Yuki Tsuneyoshi (恒吉優紀)"
+            ],
+            "D2 r':[U R U',r2]"
         ],
         [
             "D R' D' U' R' U r U' R U r' D R D'",
@@ -18480,13 +18480,6 @@
             "D2 L':[d',L' U L]"
         ],
         [
-            "Dw r2 U' R' U r2 U' R U Dw'",
-            [
-                "Nicole Arcilla"
-            ],
-            "Dw:[r2,U' R' U]"
-        ],
-        [
             "D' R D R' F R f' R' F' R f D' R' D",
             [
                 "Anto Kam (甘浩東)"
@@ -18499,6 +18492,13 @@
                 "Daniel Lin"
             ],
             "Rw U':[L u L',U']"
+        ],
+        [
+            "Dw r2 U' R' U r2 U' R U Dw'",
+            [
+                "Nicole Arcilla"
+            ],
+            "Dw:[r2,U' R' U]"
         ]
     ],
     "ARP": [
@@ -18768,13 +18768,6 @@
             "R' D':[r',D' L D]"
         ],
         [
-            "U R f R' F2 R f' R' F2 U'",
-            [
-                "Nicole Arcilla"
-            ],
-            "U:[R f R',F2]"
-        ],
-        [
             "L D r2 U R U' r' U R' U' r' D' L'",
             [
                 "Xi Lu (鲁曦)"
@@ -18815,6 +18808,13 @@
                 "Dong Zhu (朱栋)"
             ],
             "R' y:[L,U' r U]"
+        ],
+        [
+            "U R f R' F2 R f' R' F2 U'",
+            [
+                "Nicole Arcilla"
+            ],
+            "U:[R f R',F2]"
         ]
     ],
     "ARW": [
@@ -19878,13 +19878,6 @@
             "Dw' L':[D r' D',L2]"
         ],
         [
-            "u2 L' U L' u' L U' L' u L2 u2",
-            [
-                "Nicole Arcilla"
-            ],
-            "u2 L':[U,L' u' L]"
-        ],
-        [
             "Uw2 z U' R' U' r' U R U' r U2 z' Uw2",
             [
                 "Kevin Matthews"
@@ -19904,6 +19897,13 @@
                 "Christopher Morris"
             ],
             "Rw' Uw L':[U' r U,L2]"
+        ],
+        [
+            "u2 L' U L' u' L U' L' u L2 u2",
+            [
+                "Nicole Arcilla"
+            ],
+            "u2 L':[U,L' u' L]"
         ]
     ],
     "ASW": [
@@ -20025,20 +20025,6 @@
     ],
     "ASY": [
         [
-            "d2 R' U' R d2 R' U R",
-            [
-                "Daniel Lin",
-                "Hyunseung Ko (고현승)",
-                "Kai Yamamoto (山本快)",
-                "Nicole Arcilla",
-                "Oliver Fritz",
-                "Ryan Eckersley",
-                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
-                "Xin Shi (石欣)"
-            ],
-            "[d2,R' U' R]"
-        ],
-        [
             "Rw' U2 L' U' r U L U' r' U' Rw",
             [
                 "Andrew Tan Jing Bang",
@@ -20051,6 +20037,20 @@
                 "Xi Lu (鲁曦)"
             ],
             "Rw' U:[U L' U',r]"
+        ],
+        [
+            "d2 R' U' R d2 R' U R",
+            [
+                "Daniel Lin",
+                "Hyunseung Ko (고현승)",
+                "Kai Yamamoto (山本快)",
+                "Nicole Arcilla",
+                "Oliver Fritz",
+                "Ryan Eckersley",
+                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
+                "Xin Shi (石欣)"
+            ],
+            "[d2,R' U' R]"
         ],
         [
             "z' r2 U' L' U r2 U' L U z",
@@ -21008,13 +21008,6 @@
             "R' D':[D' L D,r']"
         ],
         [
-            "U F2 R f R' F2 R f' R' U'",
-            [
-                "Nicole Arcilla"
-            ],
-            "U:[F2,R f R']"
-        ],
-        [
             "L D r U R U' r U R' U' r2 D' L'",
             [
                 "Xi Lu (鲁曦)"
@@ -21055,6 +21048,13 @@
                 "Dong Zhu (朱栋)"
             ],
             "R' y:[U' r U,L]"
+        ],
+        [
+            "U F2 R f R' F2 R f' R' U'",
+            [
+                "Nicole Arcilla"
+            ],
+            "U:[F2,R f R']"
         ]
     ],
     "ATS": [
@@ -21111,13 +21111,6 @@
             "Dw' L:[D r' D',L2]"
         ],
         [
-            "u2 L2 u' L U L' u L U' L u2",
-            [
-                "Nicole Arcilla"
-            ],
-            "u2 L':[L' u' L,U]"
-        ],
-        [
             "Uw2 z U2 r' U R' U' r U R U z' Uw2",
             [
                 "Kevin Matthews"
@@ -21144,6 +21137,13 @@
                 "Christopher Morris"
             ],
             "Rw' Uw L:[U' r U,L2]"
+        ],
+        [
+            "u2 L2 u' L U L' u L U' L u2",
+            [
+                "Nicole Arcilla"
+            ],
+            "u2 L':[L' u' L,U]"
         ]
     ],
     "ATW": [
@@ -21231,20 +21231,20 @@
             "L:[D r' D',L2]"
         ],
         [
-            "Rw B' R' U R' u' R U' R' u R2 B Rw'",
-            [
-                "Howie Craig",
-                "Nicole Arcilla"
-            ],
-            "Rw B' R':[U,R' u' R]"
-        ],
-        [
             "Dw' R2 u' R U' R' u R U R Dw",
             [
                 "Kai Yamamoto (山本快)",
                 "Xin Shi (石欣)"
             ],
             "Dw' R':[R' u' R,U']"
+        ],
+        [
+            "Rw B' R' U R' u' R U' R' u R2 B Rw'",
+            [
+                "Howie Craig",
+                "Nicole Arcilla"
+            ],
+            "Rw B' R':[U,R' u' R]"
         ],
         [
             "F' L U' l' U L2 U' l U L F",
@@ -22289,13 +22289,6 @@
             "u' L:[D r' D',L2]"
         ],
         [
-            "Uw R' f R B2 R' f' R B2 Uw'",
-            [
-                "Nicole Arcilla"
-            ],
-            "Uw:[R' f R,B2]"
-        ],
-        [
             "Dw' R2 u2 R U' R' u2 R U R Dw",
             [
                 "Xin Shi (石欣)"
@@ -22322,6 +22315,13 @@
                 "Howie Craig"
             ],
             "L2 Uw2 L':[U',L' u' L]"
+        ],
+        [
+            "Uw R' f R B2 R' f' R B2 Uw'",
+            [
+                "Nicole Arcilla"
+            ],
+            "Uw:[R' f R,B2]"
         ]
     ],
     "AWY": [
@@ -22739,18 +22739,18 @@
             "U2 l':[U L U',l2]"
         ],
         [
-            "Lw' l' U' L' u L U2 L' u' L U' l Lw",
-            [
-                "Nicole Arcilla"
-            ],
-            "Lw' l' U':[L' u L,U2]"
-        ],
-        [
             "L' D U' R2 U r U' R2 U r' D' L",
             [
                 "Xin Shi (石欣)"
             ],
             "L' D:[U' R2 U,r]"
+        ],
+        [
+            "Lw' l' U' L' u L U2 L' u' L U' l Lw",
+            [
+                "Nicole Arcilla"
+            ],
+            "Lw' l' U':[L' u L,U2]"
         ]
     ],
     "AXJ": [
@@ -23428,13 +23428,6 @@
             "Dw' R':[U',R' u' R]"
         ],
         [
-            "Rw B' Rw' R' u' R U R' u R U' Rw B Rw'",
-            [
-                "Nicole Arcilla"
-            ],
-            "Rw B' Rw':[R' u' R,U]"
-        ],
-        [
             "F' L' U' l' U L2 U' l U L' F",
             [
                 "Xi Lu (鲁曦)"
@@ -23468,6 +23461,13 @@
                 "Christopher Morris"
             ],
             "4Lw:[U r2 U',L2]"
+        ],
+        [
+            "Rw B' Rw' R' u' R U R' u R U' Rw B Rw'",
+            [
+                "Nicole Arcilla"
+            ],
+            "Rw B' Rw':[R' u' R,U]"
         ]
     ],
     "AXW": [
@@ -23530,13 +23530,6 @@
             "u' L':[D r' D',L2]"
         ],
         [
-            "Uw B2 R' f R B2 R' f' R Uw'",
-            [
-                "Nicole Arcilla"
-            ],
-            "Uw:[B2,R' f R]"
-        ],
-        [
             "Dw' R' U' R' u2 R U R' u2 R2 Dw",
             [
                 "Xin Shi (石欣)"
@@ -23563,6 +23556,13 @@
                 "Howie Craig"
             ],
             "L2 Uw2 L':[L' u' L,U']"
+        ],
+        [
+            "Uw B2 R' f R B2 R' f' R Uw'",
+            [
+                "Nicole Arcilla"
+            ],
+            "Uw:[B2,R' f R]"
         ]
     ],
     "AXY": [
@@ -23643,18 +23643,18 @@
             "4Lw U:[r2,U R' U']"
         ],
         [
-            "U B2 R' f R B2 R' f' R U'",
-            [
-                "Nicole Arcilla"
-            ],
-            "U:[B2,R' f R]"
-        ],
-        [
             "Dw L' U L' u' L U' L' u L2 Dw'",
             [
                 "Kai Yamamoto (山本快)"
             ],
             "Dw L':[U,L' u' L]"
+        ],
+        [
+            "U B2 R' f R B2 R' f' R U'",
+            [
+                "Nicole Arcilla"
+            ],
+            "U:[B2,R' f R]"
         ]
     ],
     "AYB": [
@@ -24410,20 +24410,6 @@
     ],
     "AYS": [
         [
-            "R' U' R d2 R' U R d2",
-            [
-                "Daniel Lin",
-                "Hyunseung Ko (고현승)",
-                "Kai Yamamoto (山本快)",
-                "Nicole Arcilla",
-                "Oliver Fritz",
-                "Ryan Eckersley",
-                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
-                "Xin Shi (石欣)"
-            ],
-            "[R' U' R,d2]"
-        ],
-        [
             "Rw' U r U L' U' r' U L U2 Rw",
             [
                 "Andrew Tan Jing Bang",
@@ -24436,6 +24422,20 @@
                 "Xi Lu (鲁曦)"
             ],
             "Rw' U:[r,U L' U']"
+        ],
+        [
+            "R' U' R d2 R' U R d2",
+            [
+                "Daniel Lin",
+                "Hyunseung Ko (고현승)",
+                "Kai Yamamoto (山本快)",
+                "Nicole Arcilla",
+                "Oliver Fritz",
+                "Ryan Eckersley",
+                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
+                "Xin Shi (石欣)"
+            ],
+            "[R' U' R,d2]"
         ],
         [
             "z' U' L' U r2 U' L U r2 z",
@@ -25721,18 +25721,18 @@
             "4Lw U:[U R' U',r2]"
         ],
         [
-            "U R' f R B2 R' f' R B2 U'",
-            [
-                "Nicole Arcilla"
-            ],
-            "U:[R' f R,B2]"
-        ],
-        [
             "Dw L2 u' L U L' u L U' L Dw'",
             [
                 "Kai Yamamoto (山本快)"
             ],
             "Dw L':[L' u' L,U]"
+        ],
+        [
+            "U R' f R B2 R' f' R B2 U'",
+            [
+                "Nicole Arcilla"
+            ],
+            "U:[R' f R,B2]"
         ]
     ],
     "AZY": [
@@ -31393,16 +31393,6 @@
             "r':[R',U r U']"
         ],
         [
-            "Dw R d' R' U' R d R' U Dw'",
-            [
-                "Hyunseung Ko (고현승)",
-                "Jonghyun Kim (김종현)",
-                "Nicole Arcilla",
-                "Ryan Eckersley"
-            ],
-            "Dw:[R d' R',U']"
-        ],
-        [
             "x' U r U' R U r' U' 4Lw'",
             [
                 "Adrian Dębski",
@@ -31411,6 +31401,16 @@
                 "Xi Lu (鲁曦)"
             ],
             "x':[U r U',R]"
+        ],
+        [
+            "Dw R d' R' U' R d R' U Dw'",
+            [
+                "Hyunseung Ko (고현승)",
+                "Jonghyun Kim (김종현)",
+                "Nicole Arcilla",
+                "Ryan Eckersley"
+            ],
+            "Dw:[R d' R',U']"
         ],
         [
             "R' U' u R' u' R U R' u R u' R",
@@ -33451,16 +33451,6 @@
             "r':[U r U',R']"
         ],
         [
-            "Dw U' R d' R' U R d R' Dw'",
-            [
-                "Hyunseung Ko (고현승)",
-                "Jonghyun Kim (김종현)",
-                "Nicole Arcilla",
-                "Ryan Eckersley"
-            ],
-            "Dw:[U',R d' R']"
-        ],
-        [
             "4Lw U r U' R' U r' U' x",
             [
                 "Adrian Dębski",
@@ -33469,6 +33459,16 @@
                 "Xi Lu (鲁曦)"
             ],
             "x':[R,U r U']"
+        ],
+        [
+            "Dw U' R d' R' U R d R' Dw'",
+            [
+                "Hyunseung Ko (고현승)",
+                "Jonghyun Kim (김종현)",
+                "Nicole Arcilla",
+                "Ryan Eckersley"
+            ],
+            "Dw:[U',R d' R']"
         ],
         [
             "R' u R' u' R U' R' u R u' U R",
@@ -33600,18 +33600,18 @@
             "r2:[l D2 l',U]"
         ],
         [
-            "Rw u' U R u R' U2 R u' R' Uw Rw'",
-            [
-                "Nicole Arcilla"
-            ],
-            "Rw u' U:[R u R',U2]"
-        ],
-        [
             "Rw U' L u2 L' U2 L u2 L' U' Rw'",
             [
                 "Anto Kam (甘浩東)"
             ],
             "Rw U':[L u2 L',U2]"
+        ],
+        [
+            "Rw u' U R u R' U2 R u' R' Uw Rw'",
+            [
+                "Nicole Arcilla"
+            ],
+            "Rw u' U:[R u R',U2]"
         ]
     ],
     "HAC": [
@@ -33747,13 +33747,6 @@
             "x' U':[U' r2 U,R]"
         ],
         [
-            "4Fw' U R' u' R U R' u R U2 4Fw",
-            [
-                "Nicole Arcilla"
-            ],
-            "4Fw' U:[R' u' R,U]"
-        ],
-        [
             "R2 r' D' r U2 r' D r U2 R2",
             [
                 "Ziyi Xu (徐梓翼)"
@@ -33766,6 +33759,13 @@
                 "Christopher Morris"
             ],
             "Rw' U2 r:[r,U R U']"
+        ],
+        [
+            "4Fw' U R' u' R U R' u R U2 4Fw",
+            [
+                "Nicole Arcilla"
+            ],
+            "4Fw' U:[R' u' R,U]"
         ]
     ],
     "HAF": [
@@ -33828,18 +33828,6 @@
             "D:[f',R' F R]"
         ],
         [
-            "r U' r D2 r' U r D2 r2",
-            [
-                "Christopher Morris",
-                "Jonghyun Kim (김종현)",
-                "Kai Yamamoto (山本快)",
-                "Kevin Matthews",
-                "Nicole Arcilla",
-                "Xi Lu (鲁曦)"
-            ],
-            "r:[U',r D2 r']"
-        ],
-        [
             "Rw U R' U l' U' R U l U2 Rw'",
             [
                 "Dong Zhu (朱栋)",
@@ -33850,6 +33838,18 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "Rw U:[R',U l' U']"
+        ],
+        [
+            "r U' r D2 r' U r D2 r2",
+            [
+                "Christopher Morris",
+                "Jonghyun Kim (김종현)",
+                "Kai Yamamoto (山本快)",
+                "Kevin Matthews",
+                "Nicole Arcilla",
+                "Xi Lu (鲁曦)"
+            ],
+            "r:[U',r D2 r']"
         ],
         [
             "U Lw' l' U' L U l U' L' U Lw U'",
@@ -34289,13 +34289,6 @@
             "x' R':[U' r2 U,R2]"
         ],
         [
-            "4Fw' R' u' R U2 R' u R U2 4Fw",
-            [
-                "Nicole Arcilla"
-            ],
-            "4Fw':[R' u' R,U2]"
-        ],
-        [
             "D' R' F' u' R U' R' u R U R' F R D",
             [
                 "Chenhao Sun (孙晨皓)"
@@ -34315,6 +34308,13 @@
                 "Christopher Morris"
             ],
             "Rw2:[U' r' U,R2]"
+        ],
+        [
+            "4Fw' R' u' R U2 R' u R U2 4Fw",
+            [
+                "Nicole Arcilla"
+            ],
+            "4Fw':[R' u' R,U2]"
         ]
     ],
     "HAQ": [
@@ -34343,20 +34343,20 @@
             "F:[U' r2 U,R]"
         ],
         [
-            "S R' D r2 D' R D r2 D' S'",
-            [
-                "Hyunseung Ko (고현승)",
-                "Nicole Arcilla"
-            ],
-            "S:[R',D r2 D']"
-        ],
-        [
             "U' r U r2 U' R U r2 U' Rw' U",
             [
                 "Daniel Lin",
                 "Ethan Pan"
             ],
             "U' r:[U r2 U',R]"
+        ],
+        [
+            "S R' D r2 D' R D r2 D' S'",
+            [
+                "Hyunseung Ko (고현승)",
+                "Nicole Arcilla"
+            ],
+            "S:[R',D r2 D']"
         ],
         [
             "r U2 L u L' U L u' L' U r'",
@@ -34917,18 +34917,18 @@
             "r2:[U,l D2 l']"
         ],
         [
-            "Rw Uw' R u R' U2 R u' R' U' u Rw'",
-            [
-                "Nicole Arcilla"
-            ],
-            "Rw Uw':[R u R',U2]"
-        ],
-        [
             "Rw U L u2 L' U2 L u2 L' U Rw'",
             [
                 "Anto Kam (甘浩東)"
             ],
             "Rw U:[L u2 L',U2]"
+        ],
+        [
+            "Rw Uw' R u R' U2 R u' R' U' u Rw'",
+            [
+                "Nicole Arcilla"
+            ],
+            "Rw Uw':[R u R',U2]"
         ]
     ],
     "HBJ": [
@@ -35208,18 +35208,18 @@
             "R2:[U2,r' D' r]"
         ],
         [
-            "4Fw' U2 R' u' R U' R' u R U' 4Fw",
-            [
-                "Nicole Arcilla"
-            ],
-            "4Fw' U:[U,R' u' R]"
-        ],
-        [
             "Rw' U2 r U R U' r U R' U' r2 U2 Rw",
             [
                 "Christopher Morris"
             ],
             "Rw' U2 r:[U R U',r]"
+        ],
+        [
+            "4Fw' U2 R' u' R U' R' u R U' 4Fw",
+            [
+                "Nicole Arcilla"
+            ],
+            "4Fw' U:[U,R' u' R]"
         ]
     ],
     "HEJ": [
@@ -36375,13 +36375,6 @@
             "4Lw:[U' r2 U,R2]"
         ],
         [
-            "4Fw' U2 R' u' R U2 R' u R 4Fw",
-            [
-                "Nicole Arcilla"
-            ],
-            "4Fw':[U2,R' u' R]"
-        ],
-        [
             "D' R' F' R U' R' u' R U R' u F R D",
             [
                 "Chenhao Sun (孙晨皓)"
@@ -36394,6 +36387,13 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "U' Rw':[u,R U' R']"
+        ],
+        [
+            "4Fw' U2 R' u' R U2 R' u R 4Fw",
+            [
+                "Nicole Arcilla"
+            ],
+            "4Fw':[U2,R' u' R]"
         ]
     ],
     "HPJ": [
@@ -36434,20 +36434,20 @@
             "F:[R,U' r2 U]"
         ],
         [
-            "S D r2 D' R' D r2 D' R S'",
-            [
-                "Hyunseung Ko (고현승)",
-                "Nicole Arcilla"
-            ],
-            "S:[D r2 D',R']"
-        ],
-        [
             "U' Rw U r2 U' R' U r2 U' r' U",
             [
                 "Daniel Lin",
                 "Ethan Pan"
             ],
             "U' Rw:[U r2 U',R']"
+        ],
+        [
+            "S D r2 D' R' D r2 D' R S'",
+            [
+                "Hyunseung Ko (고현승)",
+                "Nicole Arcilla"
+            ],
+            "S:[D r2 D',R']"
         ],
         [
             "r U' L u L' U' L u' L' U2 r'",
