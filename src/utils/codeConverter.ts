@@ -259,11 +259,18 @@ const codeConverter = (function () {
       ]);
     }
     if (codeType === "ltct") {
-      const ltctCycle = ["B", "E", "H", "K", "M", "P", "S", "Y"].includes(
-        customCodeToInitCode(code[2] ?? "", "corner"),
-      )
-        ? 1
-        : 2;
+      let ltctCycle = 0;
+      if (code[2] !== "*") {
+        if (
+          ["B", "E", "H", "K", "M", "P", "S", "Y"].includes(
+            customCodeToInitCode(code[2] ?? "", "corner"),
+          )
+        ) {
+          ltctCycle = 1;
+        } else {
+          ltctCycle = 2;
+        }
+      }
       const cornerCode = customCodeToVariantCode(
         code.slice(0, 2),
         "corner",
