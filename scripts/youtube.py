@@ -276,6 +276,9 @@ def main():
         if not issuccess:
             logger.error("Failed to open the spreadsheet.")
             continue
+        if len(full_list["edge"]) == 0 and len(full_list["corner"]) == 0:
+            logger.error("No algorithms found in the spreadsheet.")
+            continue
 
         while True:
             try:
