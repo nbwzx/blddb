@@ -25,11 +25,22 @@ def main():
     logger.add(sys.stderr, format="{time:HH:mm:ss} | {level} | {message}")
     with open("public/data/sourceToUrl.json", "r", encoding="utf-8") as file:
         algs_json = json.load(file)
+    result_file = "public/data/sourceToResult.json"
+    try:
+        with open(result_file, "r", encoding="utf-8") as file:
+            result_json = json.load(file)
+    except FileNotFoundError:
+        result_json = {}
 
     results = {}
+    algs_new = {}
 
     for name in algs_json:
-        search_url = f"https://www.worldcubeassociation.org/api/v0/search?q={name}"
+        search_param = name
+        # Use name in result_json first.
+        if name in result_json:
+            search_param = result_json[name].get("wca_id")
+        search_url = f"https://www.worldcubeassociation.org/api/v0/search?q={search_param}"
 
         while True:
             try:
@@ -46,10 +57,12 @@ def main():
                 logger.warning(str(e) + " when opening " + search_url)
                 time.sleep(10)
 
+        new_name = name
         for search_result in search_results:
-            if search_result.get("name") != name:
+            if search_result.get("name") != name and search_param == name:
                 continue
 
+            new_name = search_result.get("name")
             result_name = {}
             wca_id_text = search_result.get("wca_id")
             result_name["wca_id"] = wca_id_text
@@ -77,22 +90,28 @@ def main():
                     logger.warning(str(e) + " when opening " + person_url)
                     time.sleep(10)
 
-            if name not in results:
-                results[name] = result_name
+            if new_name not in results:
+                results[new_name] = result_name
             else:
                 if "3bld" in result_name and (
-                    "3bld" not in results[name]
-                    or result_name["3bld"] < results[name]["3bld"]
+                    "3bld" not in results[new_name]
+                    or result_name["3bld"] < results[new_name]["3bld"]
                 ):
-                    results[name]["wca_id"] = result_name["wca_id"]
-                    results[name]["3bld"] = result_name["3bld"]
-                    results[name]["4bld"] = result_name["4bld"]
+                    results[new_name]["wca_id"] = result_name["wca_id"]
+                    results[new_name]["3bld"] = result_name["3bld"]
+                    results[new_name]["4bld"] = result_name["4bld"]
 
-        logger.info(f"{name}: {results.get(name)}")
+        logger.info(f"{new_name}: {results.get(new_name)}")
+        algs_new[new_name] = algs_json[name]
 
+    results = dict(sorted(results.items()))
     results_json = json.dumps(results, ensure_ascii=False, indent=4)
     with open("public/data/sourceToResult.json", "w", encoding="utf-8") as file:
         file.write(results_json)
+    algs_new = dict(sorted(algs_new.items()))
+    algs_json_new = json.dumps(algs_new, ensure_ascii=False, indent=4)
+    with open("public/data/sourceToUrl.json", "w", encoding="utf-8") as file:
+        file.write(algs_json_new)
 
     logger.info("Results written to JSON files successfully.")
 
