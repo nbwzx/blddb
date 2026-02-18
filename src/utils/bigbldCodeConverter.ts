@@ -240,9 +240,13 @@ const bigbldCodeConverter = (function () {
     return result.join("");
   }
 
-  function customCodeToPosition(code: string, codeType: string) {
-    let storedValues = "";
-    if (typeof localStorage !== "undefined") {
+  function customCodeToPosition(
+    code: string,
+    codeType: string,
+    isCustom: boolean = true,
+  ) {
+    let storedValues = initialInputValues;
+    if (typeof localStorage !== "undefined" && isCustom) {
       storedValues =
         localStorage.getItem(localStorageKey) ?? initialInputValues;
     }

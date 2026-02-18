@@ -61,6 +61,8 @@ const BLD = ({ codeType }: { codeType: string }) => {
     return defaultMode;
   });
 
+  const [highlightValue, setHighlightValue] = useState("");
+
   const selectToInput = (positions: string[]) => {
     return converter.positionToCustomCode(getSelectValuesKey(positions));
   };
@@ -106,6 +108,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
       const params = new URLSearchParams(window.location.search);
       const positionParam = params.get("position") || "";
       const modeParam = params.get("mode") || modeValue;
+      const highlightParam = params.get("highlight") || "";
 
       if (positionParam) {
         const positions = positionParam.split("-");
@@ -119,6 +122,10 @@ const BLD = ({ codeType }: { codeType: string }) => {
 
       if (modeParam) {
         setModeValue(modeParam);
+      }
+
+      if (highlightParam) {
+        setHighlightValue(highlightParam);
       }
 
       let isStandard = true;
@@ -654,6 +661,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
         sourceToUrl={sourceToUrl}
         sourceToResult={sourceToResult}
         algToUrl={algToUrl}
+        highlight={highlightValue}
       />
     </PageSection>
   );

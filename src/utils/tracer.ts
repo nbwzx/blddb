@@ -1,5 +1,5 @@
 const tracer = (function () {
-  const edgeChDefault = "GHABCDEFOPKLQRSTYZIJWXMN";
+  const edgeChDefault = "ABGHCDEFOPKLQRSTYZIJWXMN";
   const cornerChDefault = "JKLGHIABCDEFXYZWMNRSTOPQ";
   // prettier-ignore
   const moves333: string[] = [
@@ -223,26 +223,34 @@ const tracer = (function () {
         edgeFlips.includes(codeJson.edge.substring(0, 3)) &&
         edgeFlips.includes(codeJson.edge.substring(3, 6))
       ) {
-        return ["2flips", codeJson.edge[0] + codeJson.edge[3]];
+        return ["flips", codeJson.edge[0] + codeJson.edge[3]];
       }
     }
     if (codeJson.edge.length === 0 && codeJson.corner.length === 8) {
-      // prettier-ignore
-      const cornerTwistsCW = ["ABCA", "DEFD", "GHIG", "JKLJ", "WMNW", "OPQO", "RSTR", "XYZX"];
-      // prettier-ignore
-      const cornerTwistsCCW = ["ACBA", "DFED", "GIHG", "JLKJ", "WNMW", "OQPO", "RTSR", "XZYX"];
-      if (
-        cornerTwistsCW.includes(codeJson.corner.substring(0, 4)) &&
-        cornerTwistsCCW.includes(codeJson.corner.substring(4, 8))
-      ) {
-        return ["2twists", codeJson.corner[4] + codeJson.corner[0]];
-      }
-      if (
-        cornerTwistsCCW.includes(codeJson.corner.substring(0, 4)) &&
-        cornerTwistsCW.includes(codeJson.corner.substring(4, 8))
-      ) {
-        return ["2twists", codeJson.corner[0] + codeJson.corner[4]];
-      }
+      return [
+        "twists",
+        (codeJson.corner[1] + codeJson.corner[5]).padEnd(8, " "),
+      ];
+    }
+    if (codeJson.edge.length === 0 && codeJson.corner.length === 12) {
+      return [
+        "twists",
+        (codeJson.corner[1] + codeJson.corner[5] + codeJson.corner[9]).padEnd(
+          8,
+          " ",
+        ),
+      ];
+    }
+    if (codeJson.edge.length === 0 && codeJson.corner.length === 16) {
+      return [
+        "twists",
+        (
+          codeJson.corner[1] +
+          codeJson.corner[5] +
+          codeJson.corner[9] +
+          codeJson.corner[12]
+        ).padEnd(8, " "),
+      ];
     }
     if (
       codeJson.edge.length === 3 &&
@@ -267,20 +275,11 @@ const tracer = (function () {
       const cornerTwists = ["ABCA", "ACBA", "DEFD", "DFED", "GHIG", "GIHG", "JKLJ", "JLKJ", "WMNW", "WNMW", "OPQO", "OQPO", "RSTR", "RTSR", "XYZX", "XZYX"];
       if (
         cornerTwists.includes(codeJson.corner.substring(7, 11)) &&
-        cornerTwists.includes(
-          codeJson.corner[0] +
-            codeJson.corner[2] +
-            codeJson.corner[4] +
-            codeJson.corner[0],
-        )
+        cornerTwists.includes(codeJson.corner[4] + codeJson.corner[0])
       ) {
         return [
           "ltct",
-          codeJson.edge[0] +
-            codeJson.edge[1] +
-            codeJson.corner[0] +
-            codeJson.corner[5] +
-            codeJson.corner[8],
+          codeJson.corner[0] + codeJson.corner[5] + codeJson.corner[8],
         ];
       }
       if (
@@ -294,11 +293,7 @@ const tracer = (function () {
       ) {
         return [
           "ltct",
-          codeJson.edge[0] +
-            codeJson.edge[1] +
-            codeJson.corner[4] +
-            codeJson.corner[9] +
-            codeJson.corner[1],
+          codeJson.corner[4] + codeJson.corner[9] + codeJson.corner[1],
         ];
       }
     }

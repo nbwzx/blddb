@@ -116,24 +116,28 @@ const codeConverter = (function () {
     return result.join("");
   }
 
-  function customCodeToPosition(code: string, codeType: string): string[] {
+  function customCodeToPosition(
+    code: string,
+    codeType: string,
+    isCustom: boolean = true,
+  ): string[] {
     if (codeType === "flips") {
-      return customCodeToPosition(code, "edge0");
+      return customCodeToPosition(code, "edge0", isCustom);
     }
     if (codeType === "parity") {
       return [
-        ...customCodeToPosition(code.slice(0, 2), "edge"),
-        ...customCodeToPosition(code.slice(2, 4), "corner"),
+        ...customCodeToPosition(code.slice(0, 2), "edge", isCustom),
+        ...customCodeToPosition(code.slice(2, 4), "corner", isCustom),
       ];
     }
     if (codeType === "ltct") {
       return [
-        ...customCodeToPosition(code.slice(0, 2), "corner"),
-        ...customCodeToPosition(code.slice(2, 3), "corner1"),
+        ...customCodeToPosition(code.slice(0, 2), "corner", isCustom),
+        ...customCodeToPosition(code.slice(2, 3), "corner1", isCustom),
       ];
     }
-    let storedValues = "";
-    if (typeof localStorage !== "undefined") {
+    let storedValues = initialInputValues;
+    if (typeof localStorage !== "undefined" && isCustom) {
       storedValues =
         localStorage.getItem(localStorageKey) ?? initialInputValues;
     }

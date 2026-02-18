@@ -2,14 +2,61 @@
 
 import Link from "next/link";
 import { useTranslation } from "@/i18n/client";
+import React, { useState } from "react";
+import { useRouter } from "next/navigation";
+import tracer from "@/utils/tracer";
+import tracer_555 from "@/utils/tracer_555";
+import commutator from "@/utils/commutator";
+import commutator_555 from "@/utils/commutator_555";
+import commutator_555_final from "@/utils/commutator_555_final";
+import codeConverter from "@/utils/codeConverter";
+import bigbldCodeConverter from "@/utils/bigbldCodeConverter";
 
 const Hero = () => {
   const { i18n, t } = useTranslation();
+  const [searchTerm, setSearchTerm] = useState("");
+  const router = useRouter();
+
+  const handleSearch = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (searchTerm.trim()) {
+      let expanded = commutator.expand({ algorithm: searchTerm });
+      let codeAuto = tracer.getCodeAuto(expanded);
+      let position = codeConverter
+        .customCodeToPosition(codeAuto[1], codeAuto[0], false)
+        .join("-");
+      if (codeAuto[0] === "") {
+        expanded = commutator_555_final.finalReplaceAlg(
+          commutator_555.expand(searchTerm),
+        );
+        codeAuto = tracer_555.getCodeAuto(expanded);
+        if (codeAuto[0] !== "") {
+          position = bigbldCodeConverter
+            .customCodeToPosition(codeAuto[1], codeAuto[0], false)
+            .join("-");
+          router.push(
+            `/bigbld/${codeAuto[0]}?position=${position}&highlight=${encodeURIComponent(expanded)}`,
+          );
+        }
+      } else {
+        router.push(
+          `/${codeAuto[0]}?position=${position}&highlight=${encodeURIComponent(expanded)}`,
+        );
+      }
+    }
+  };
+
+  const handleKeyDown = (e: React.KeyboardEvent) => {
+    if (e.key === "Enter") {
+      handleSearch(e);
+    }
+  };
+
   return (
     <>
       <section
         id="home"
-        className="dark:bg-gray-dark relative z-10 overflow-hidden bg-white pt-[120px] pb-16 md:pt-[150px] md:pb-[120px] xl:pt-[180px] xl:pb-[160px] 2xl:pt-[260px] 2xl:pb-[230px]"
+        className="dark:bg-gray-dark relative z-10 overflow-hidden bg-white pt-[120px] pb-16 md:pt-[150px] md:pb-[120px] xl:pt-[180px] xl:pb-[160px] 2xl:pt-[230px] 2xl:pb-[260px]"
       >
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
@@ -31,6 +78,44 @@ const Hero = () => {
                 <p className="text-body-color dark:text-body-color-dark mb-12 text-base leading-relaxed! sm:text-lg md:text-xl">
                   {t("description")}
                 </p>
+                <div className="mx-auto mb-8 max-w-2xl">
+                  <div className="relative">
+                    <div className="flex items-stretch">
+                      <input
+                        type="text"
+                        value={searchTerm}
+                        onChange={(e) => setSearchTerm(e.target.value)}
+                        onKeyDown={handleKeyDown}
+                        placeholder={t("common.searchHint")}
+                        className="flex-1 rounded-l-lg border border-r-0 border-gray-300 bg-white px-4 py-3 text-base text-black focus:border-transparent focus:ring-2 focus:ring-blue-500 focus:outline-none sm:px-5 sm:py-4 dark:border-gray-600 dark:bg-gray-800 dark:text-white"
+                      />
+                      <button
+                        onClick={handleSearch}
+                        disabled={!searchTerm.trim()}
+                        className="bg-primary hover:bg-primary/90 flex cursor-pointer items-center justify-center rounded-r-lg px-6 py-3 font-semibold text-white transition duration-300 ease-in-out disabled:cursor-not-allowed disabled:opacity-50 sm:px-8 sm:py-4"
+                      >
+                        <svg
+                          className="h-5 w-5"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={2}
+                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                          />
+                        </svg>
+                        <span className="ml-2 hidden sm:inline">
+                          {t("common.search")}
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
                   <Link
                     href="https://docs.blddb.net"

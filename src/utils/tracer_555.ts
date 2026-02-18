@@ -1,5 +1,5 @@
 const tracer_555 = (function () {
-  const edgeChDefault = "GHABCDEFOPKLQRSTYZIJWXMN";
+  const edgeChDefault = "ABGHCDEFOPKLQRSTYZIJWXMN";
   const cornerChDefault = "JKLGHIABCDEFXYZWMNRSTOPQ";
   // prettier-ignore
   const moves555 = [

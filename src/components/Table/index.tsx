@@ -50,6 +50,7 @@ const Table = ({
   sourceToUrl,
   sourceToResult,
   algToUrl,
+  highlight,
 }: {
   codeType: string;
   inputText: string;
@@ -71,6 +72,7 @@ const Table = ({
   algToUrl?: {
     [key: string]: Array<VideoAttributes>;
   };
+  highlight?: string;
 }) => {
   const [inChina, setInChina] = useState<boolean>(false);
   const [isLocationChecked, setIsLocationChecked] = useState<boolean>(false);
@@ -331,6 +333,12 @@ const Table = ({
         .fingerbeginfrom(item[0])
         .map((word) => t(word))
         .join("/");
+      let hasHighlight = false;
+      for (let j = 0; j < item.length; j++) {
+        if (item[j] === highlight) {
+          hasHighlight = true;
+        }
+      }
       for (let j = 0; j < item.length; j++) {
         let commutatorResult = "";
         if (isCommutatorNeeded) {
@@ -398,19 +406,19 @@ const Table = ({
             );
           });
         }
+        const getClassName = () => {
+          if (hasHighlight) {
+            return "bg-orange-300 dark:bg-yellow-700";
+          }
+          const selectedValue = selected?.[key] ?? "";
+          const compareValue = mirrorLR
+            ? rewrite.mirrorAxis(selectedValue, "M")
+            : selectedValue;
+          return item[j] === compareValue ? "bg-zinc-300 dark:bg-zinc-700" : "";
+        };
 
         tableRows.push(
-          <tr
-            key={`${key}-${i}-${j}`}
-            className={
-              item[j] ===
-              (mirrorLR
-                ? rewrite.mirrorAxis(selected?.[key] ?? "", "M")
-                : (selected?.[key] ?? ""))
-                ? "bg-zinc-300 dark:bg-zinc-700"
-                : ""
-            }
-          >
+          <tr key={`${key}-${i}-${j}`} className={getClassName()}>
             {j === 0 && <td rowSpan={item.length}>{i + 1}</td>}
             <td
               style={{
