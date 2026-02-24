@@ -275,7 +275,12 @@ const tracer = (function () {
       const cornerTwists = ["ABCA", "ACBA", "DEFD", "DFED", "GHIG", "GIHG", "JKLJ", "JLKJ", "WMNW", "WNMW", "OPQO", "OQPO", "RSTR", "RTSR", "XYZX", "XZYX"];
       if (
         cornerTwists.includes(codeJson.corner.substring(7, 11)) &&
-        cornerTwists.includes(codeJson.corner[4] + codeJson.corner[0])
+        cornerTwists.includes(
+          codeJson.corner[0] +
+            codeJson.corner[2] +
+            codeJson.corner[4] +
+            codeJson.corner[0],
+        )
       ) {
         return [
           "ltct",
