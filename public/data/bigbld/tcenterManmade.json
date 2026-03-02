@@ -4654,8 +4654,7 @@
         [
             "3Uw l' U m2 U' l U m2 U' 3Uw'",
             [
-                "Daniel Wallin",
-                "Hyunseung Ko (고현승)"
+                "Daniel Wallin"
             ],
             "3Uw:[l',U m2 U']"
         ],
@@ -4679,6 +4678,13 @@
                 "Ethan Pan"
             ],
             "y D':[l',U' m2 U]"
+        ],
+        [
+            "3Uw' r' U' m2 U r U' m2 U 3Uw",
+            [
+                "Hyunseung Ko (고현승)"
+            ],
+            "3Uw':[r',U' m2 U]"
         ]
     ],
     "AIS": [
@@ -11024,8 +11030,7 @@
         [
             "3Uw U m2 U' l' U m2 U' l 3Uw'",
             [
-                "Daniel Wallin",
-                "Hyunseung Ko (고현승)"
+                "Daniel Wallin"
             ],
             "3Uw:[U m2 U',l']"
         ],
@@ -11049,6 +11054,13 @@
                 "Ethan Pan"
             ],
             "y D':[U' m2 U,l']"
+        ],
+        [
+            "3Uw' U' m2 U r' U' m2 U r 3Uw",
+            [
+                "Hyunseung Ko (고현승)"
+            ],
+            "3Uw':[U' m2 U,r']"
         ]
     ],
     "ARJ": [
@@ -25955,25 +25967,25 @@
             "3Lw:[r2,U m' U']"
         ],
         [
-            "D m2 D' r2 D m2 D' r2",
-            [
-                "Cale Schoon",
-                "Daniel Lin",
-                "Hyunseung Ko (고현승)",
-                "Sebastiano Tronto",
-                "Tim Wong"
-            ],
-            "[D m2 D',r2]"
-        ],
-        [
             "D' U m' u2 m U' m' u2 m D",
             [
+                "Hyunseung Ko (고현승)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "D':[U,m' u2 m]"
+        ],
+        [
+            "D m2 D' r2 D m2 D' r2",
+            [
+                "Cale Schoon",
+                "Daniel Lin",
+                "Sebastiano Tronto",
+                "Tim Wong"
+            ],
+            "[D m2 D',r2]"
         ],
         [
             "m r2 U m' U' r2 U m U' m'",
