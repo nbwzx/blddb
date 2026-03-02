@@ -6923,17 +6923,6 @@
     "GAJOB": [
         [
             [
-                "L U' L' U' L U2 L2 D' L U' L' D L",
-                "r B' r' U' r B2 r2 B' r U' r' B r"
-            ],
-            [
-                "Chenhao Sun (孙晨皓)",
-                "James Macdiarmid",
-                "Jonghyun Kim (김종현)"
-            ]
-        ],
-        [
-            [
                 "y U D' R U' R' U' R U2 R2 D' R U' R' D R U' D y'"
             ],
             [
@@ -6943,10 +6932,27 @@
         ],
         [
             [
+                "L U' L' U' L U2 L2 D' L U' L' D L"
+            ],
+            [
+                "James Macdiarmid",
+                "Jonghyun Kim (김종현)"
+            ]
+        ],
+        [
+            [
                 "U2 D2 R U' R' U' R U2 R2 D' R U' R' D R U2 D2"
             ],
             [
                 "Andrew Tan Jing Bang"
+            ]
+        ],
+        [
+            [
+                "U' r' F' D r U2 r' F2 D' F r"
+            ],
+            [
+                "Chenhao Sun (孙晨皓)"
             ]
         ]
     ],
@@ -7683,7 +7689,7 @@
         ],
         [
             [
-                "U2 R' U R D' R U' R' D R U' R2 U R2 U R' U2"
+                "U' D r' F' D r U2 r' F2 D' F r D'"
             ],
             [
                 "Chenhao Sun (孙晨皓)"
@@ -7741,7 +7747,6 @@
             ],
             [
                 "Andrew Tan Jing Bang",
-                "Chenhao Sun (孙晨皓)",
                 "James Macdiarmid",
                 "Jonghyun Kim (김종현)"
             ]
@@ -7753,6 +7758,14 @@
             [
                 "James Macdiarmid",
                 "Phillip Maxwell"
+            ]
+        ],
+        [
+            [
+                "U R' U R U R' U r' F R F' r U"
+            ],
+            [
+                "Chenhao Sun (孙晨皓)"
             ]
         ]
     ],
@@ -7778,7 +7791,7 @@
         ],
         [
             [
-                "R' D' R U2 R' U' D R U2 R2 U R U2 R' U R2"
+                "D r' F2 r D R' F2 R D' r2 D r2 D'"
             ],
             [
                 "Chenhao Sun (孙晨皓)"
@@ -8479,6 +8492,17 @@
     "GAJWC": [
         [
             [
+                "L2 U L U2 L' U L2 D L' U L D'",
+                "r2 D r F2 r' D r2 D r' F r D'"
+            ],
+            [
+                "Chenhao Sun (孙晨皓)",
+                "James Macdiarmid",
+                "Jonghyun Kim (김종현)"
+            ]
+        ],
+        [
+            [
                 "y U D' R2 U R U2 R' U R2 D R' U R U' y'"
             ],
             [
@@ -8488,27 +8512,10 @@
         ],
         [
             [
-                "L2 U L U2 L' U L2 D L' U L D'"
-            ],
-            [
-                "James Macdiarmid",
-                "Jonghyun Kim (김종현)"
-            ]
-        ],
-        [
-            [
                 "U2 D2 R2 U R U2 R' U R2 D R' U R U2 D"
             ],
             [
                 "Andrew Tan Jing Bang"
-            ]
-        ],
-        [
-            [
-                "U' R2 D' F D R2 U R' F R U' R2 F' R U R"
-            ],
-            [
-                "Chenhao Sun (孙晨皓)"
             ]
         ]
     ],
@@ -8530,17 +8537,6 @@
     "GAJWF": [
         [
             [
-                "D L D' L2 U L U2 L' U L2 D L' U D'",
-                "D r F' r2 F r U2 r' F r2 F r' U D'"
-            ],
-            [
-                "Chenhao Sun (孙晨皓)",
-                "James Macdiarmid",
-                "Jonghyun Kim (김종현)"
-            ]
-        ],
-        [
-            [
                 "y U R D' R2 U R U2 R' U R2 D R' y'"
             ],
             [
@@ -8550,11 +8546,28 @@
         ],
         [
             [
+                "D L D' L2 U L U2 L' U L2 D L' U D'"
+            ],
+            [
+                "James Macdiarmid",
+                "Jonghyun Kim (김종현)"
+            ]
+        ],
+        [
+            [
                 "U2 D' R D' R2 U R U2 R' U R2 D R' U' D"
             ],
             [
                 "Andrew Tan Jing Bang",
                 "James Macdiarmid"
+            ]
+        ],
+        [
+            [
+                "U' r' F r U r' F R' F r U' R U'"
+            ],
+            [
+                "Chenhao Sun (孙晨皓)"
             ]
         ]
     ],
@@ -8783,6 +8796,17 @@
     "GAJXF": [
         [
             [
+                "L D' L2 U L U2 L' U L2 D L' U",
+                "r F' r2 F r U2 r' F r2 F r' U"
+            ],
+            [
+                "Chenhao Sun (孙晨皓)",
+                "James Macdiarmid",
+                "Jonghyun Kim (김종현)"
+            ]
+        ],
+        [
+            [
                 "y U D' R D' R2 U R U2 R' U R2 D R' D y'"
             ],
             [
@@ -8792,20 +8816,10 @@
         ],
         [
             [
-                "L D' L2 U L U2 L' U L2 D L' U"
-            ],
-            [
-                "James Macdiarmid",
-                "Jonghyun Kim (김종현)"
-            ]
-        ],
-        [
-            [
                 "U D R2 D' R U' R' D R U2 R U R' U2 R D'"
             ],
             [
-                "Andrew Tan Jing Bang",
-                "Chenhao Sun (孙晨皓)"
+                "Andrew Tan Jing Bang"
             ]
         ]
     ],
@@ -8851,7 +8865,7 @@
         ],
         [
             [
-                "U' f R' F' R S' U F' U2 F U'"
+                "R' S2 R U R' S2 R F R U R' U' R' F' R"
             ],
             [
                 "Chenhao Sun (孙晨皓)"

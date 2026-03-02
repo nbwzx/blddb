@@ -11511,14 +11511,14 @@
             "S:[U,L' u' L]"
         ],
         [
-            "D r U R' U' r U R U' r2 D'",
+            "D r' D R D' r D R' D2",
             [
-                "Christopher Morris",
+                "Hana Nakano",
+                "Howie Craig",
                 "Hyunseung Ko (고현승)",
-                "Sebastiano Tronto",
-                "Xi Lu (鲁曦)"
+                "Oliver Fritz"
             ],
-            "D r:[U R' U',r]"
+            "D:[r',D R D']"
         ],
         [
             "L' u L U L' u2 L U' L' u L",
@@ -11530,13 +11530,13 @@
             "L' u:[L U L',u2]"
         ],
         [
-            "D r' D R D' r D R' D2",
+            "D r U R' U' r U R U' r2 D'",
             [
-                "Hana Nakano",
-                "Howie Craig",
-                "Oliver Fritz"
+                "Christopher Morris",
+                "Sebastiano Tronto",
+                "Xi Lu (鲁曦)"
             ],
-            "D:[r',D R D']"
+            "D r:[U R' U',r]"
         ],
         [
             "Rw' U2 L2 U r2 U' L2 U r2 U Rw",
@@ -25096,14 +25096,14 @@
             "S:[L' u' L,U]"
         ],
         [
-            "D r2 U R' U' r' U R U' r' D'",
+            "D2 R D' r' D R' D' r D'",
             [
-                "Christopher Morris",
+                "Hana Nakano",
+                "Howie Craig",
                 "Hyunseung Ko (고현승)",
-                "Sebastiano Tronto",
-                "Xi Lu (鲁曦)"
+                "Oliver Fritz"
             ],
-            "D r:[r,U R' U']"
+            "D:[D R D',r']"
         ],
         [
             "L' u' L U L' u2 L U' L' u' L",
@@ -25115,13 +25115,13 @@
             "L' u':[L U L',u2]"
         ],
         [
-            "D2 R D' r' D R' D' r D'",
+            "D r2 U R' U' r' U R U' r' D'",
             [
-                "Hana Nakano",
-                "Howie Craig",
-                "Oliver Fritz"
+                "Christopher Morris",
+                "Sebastiano Tronto",
+                "Xi Lu (鲁曦)"
             ],
-            "D:[D R D',r']"
+            "D r:[r,U R' U']"
         ],
         [
             "Rw' U' r2 U' L2 U r2 U' L2 U2 Rw",
