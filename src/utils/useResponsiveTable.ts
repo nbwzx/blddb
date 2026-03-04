@@ -1,4 +1,4 @@
-import { useEffect, RefObject } from "react";
+import { useEffect, RefObject, useState } from "react";
 
 interface OptionalRefs {
   inputRef?: RefObject<HTMLInputElement | null>;
@@ -11,6 +11,8 @@ function useResponsiveTable(
   divRef: RefObject<HTMLDivElement | null>,
   { inputRef, selectRefs, modeRef }: OptionalRefs = {},
 ) {
+  const [fontSize, setFontSize] = useState<number>(18); // default
+
   const adjustTableFontSize = () => {
     if (tableRef.current && divRef.current) {
       const width = document.body.clientWidth;
@@ -25,6 +27,9 @@ function useResponsiveTable(
         const newFontSize =
           (18 * (divWidth - tableWidth0)) / (tableWidth - tableWidth0);
         tableRef.current.style.fontSize = `${newFontSize}px`;
+        setFontSize(newFontSize);
+      } else {
+        setFontSize(18);
       }
     }
   };
@@ -50,7 +55,7 @@ function useResponsiveTable(
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [tableRef, divRef, inputRef, selectRefs, modeRef]);
 
-  return { adjustTableFontSize };
+  return { adjustTableFontSize, fontSize };
 }
 
 export default useResponsiveTable;
