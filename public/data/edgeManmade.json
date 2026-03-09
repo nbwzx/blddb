@@ -16209,6 +16209,7 @@
                 "Roman Strakhov",
                 "Shuto Ueno (上野柊斗)",
                 "Timothy Loh",
+                "Tobias Peter",
                 "Tommy Cherry",
                 "Yiwei Liu (刘伊玮)",
                 "Ziyi Xu (徐梓翼)"
@@ -16242,24 +16243,6 @@
         ],
         [
             [
-                "U' D L' U M' U2 M U L U D'"
-            ],
-            [
-                "Enoch Gray",
-                "Hana Nakano",
-                "Ishaan Agrawal",
-                "Leonardo Ezequiel Cruz",
-                "Liren Sun (孙立仁)",
-                "Oliver Fritz",
-                "Tobias Peter",
-                "Zhi Qiao (乔智)"
-            ],
-            [
-                "U' D L' U:[M',U2]"
-            ]
-        ],
-        [
-            [
                 "U' R2 S' R2 S R E R2 E' R U",
                 "U' l2 S R2 S' l S R2 S' l U"
             ],
@@ -16275,6 +16258,23 @@
             [
                 "U' R2 S':[R2,S R E]",
                 "U' l2:[S R2 S',l]"
+            ]
+        ],
+        [
+            [
+                "U' D L' U M' U2 M U L U D'"
+            ],
+            [
+                "Enoch Gray",
+                "Hana Nakano",
+                "Ishaan Agrawal",
+                "Leonardo Ezequiel Cruz",
+                "Liren Sun (孙立仁)",
+                "Oliver Fritz",
+                "Zhi Qiao (乔智)"
+            ],
+            [
+                "U' D L' U:[M',U2]"
             ]
         ],
         [
@@ -35280,6 +35280,7 @@
                 "Roman Strakhov",
                 "Shuto Ueno (上野柊斗)",
                 "Timothy Loh",
+                "Tobias Peter",
                 "Tommy Cherry",
                 "Yiwei Liu (刘伊玮)",
                 "Ziyi Xu (徐梓翼)"
@@ -35339,7 +35340,6 @@
                 "Liren Sun (孙立仁)",
                 "Masato Fujiwara (藤原正人)",
                 "Oliver Fritz",
-                "Tobias Peter",
                 "Zhi Qiao (乔智)"
             ],
             [
@@ -63521,6 +63521,17 @@
             ],
             [
                 "u:[R U R',E]"
+            ]
+        ],
+        [
+            [
+                "B U B' E B U' B' E'"
+            ],
+            [
+                "Tobias Peter"
+            ],
+            [
+                "[B U B',E]"
             ]
         ]
     ],
