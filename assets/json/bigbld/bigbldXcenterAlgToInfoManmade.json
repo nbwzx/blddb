@@ -23382,24 +23382,24 @@
             "M' U':[U' r' U,l2]"
         ],
         [
-            "x U2 r' U l2 U' r U l2 U x'",
-            [
-                "Daniel Lin",
-                "Dong Zhu (朱栋)",
-                "Hyunseung Ko (고현승)",
-                "Jonghyun Kim (김종현)",
-                "Yuki Tsuneyoshi (恒吉優紀)"
-            ],
-            "x U':[U' r' U,l2]"
-        ],
-        [
             "F u2 l U l' u2 l U' l' F'",
             [
                 "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
+                "Hyunseung Ko (고현승)",
                 "Leonardo Ezequiel Cruz"
             ],
             "F:[u2,l U l']"
+        ],
+        [
+            "x U2 r' U l2 U' r U l2 U x'",
+            [
+                "Daniel Lin",
+                "Dong Zhu (朱栋)",
+                "Jonghyun Kim (김종현)",
+                "Yuki Tsuneyoshi (恒吉優紀)"
+            ],
+            "x U':[U' r' U,l2]"
         ],
         [
             "x' D' l2 U' r U l2 U' r' U D x",
@@ -26977,23 +26977,23 @@
             "M' U':[l2,U' r' U]"
         ],
         [
-            "x U' l2 U' r' U l2 U' r U2 x'",
-            [
-                "Daniel Lin",
-                "Dong Zhu (朱栋)",
-                "Hyunseung Ko (고현승)",
-                "Jonghyun Kim (김종현)"
-            ],
-            "x U':[l2,U' r' U]"
-        ],
-        [
             "F l U l' u2 l U' l' u2 F'",
             [
                 "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
+                "Hyunseung Ko (고현승)",
                 "Leonardo Ezequiel Cruz"
             ],
             "F:[l U l',u2]"
+        ],
+        [
+            "x U' l2 U' r' U l2 U' r U2 x'",
+            [
+                "Daniel Lin",
+                "Dong Zhu (朱栋)",
+                "Jonghyun Kim (김종현)"
+            ],
+            "x U':[l2,U' r' U]"
         ],
         [
             "x' D' U' r U l2 U' r' U l2 D x",
@@ -29951,18 +29951,10 @@
             "z' r:[r U r',u']"
         ],
         [
-            "4Dw r U l U' r' U l' U' 4Dw'",
-            [
-                "Daniel Lin",
-                "Dong Zhu (朱栋)",
-                "Hyunseung Ko (고현승)"
-            ],
-            "4Dw:[r,U l U']"
-        ],
-        [
             "y U l U r U' l' U r' U2 y'",
             [
                 "Daniel Wallin",
+                "Hyunseung Ko (고현승)",
                 "Leonardo Ezequiel Cruz"
             ],
             "y U:[l,U r U']"
@@ -29974,6 +29966,14 @@
                 "Chenhao Sun (孙晨皓)"
             ],
             "L' u':[l U l',u2]"
+        ],
+        [
+            "4Dw r U l U' r' U l' U2 y",
+            [
+                "Daniel Lin",
+                "Dong Zhu (朱栋)"
+            ],
+            "4Dw:[r,U l U']"
         ],
         [
             "R y r U' r' d2 r U r' d2 y' R'",
@@ -31024,17 +31024,17 @@
             "y U2 r' U' l' U r U' l U' y'",
             [
                 "Daniel Wallin",
+                "Hyunseung Ko (고현승)",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews"
             ],
             "y U:[U r' U',l']"
         ],
         [
-            "4Dw U l' U' r' U l U' r 4Dw'",
+            "y' U2 l' U' r' U l U' r 4Dw'",
             [
                 "Daniel Lin",
-                "Dong Zhu (朱栋)",
-                "Hyunseung Ko (고현승)"
+                "Dong Zhu (朱栋)"
             ],
             "4Dw:[U l' U',r']"
         ],
@@ -31757,6 +31757,7 @@
             [
                 "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
+                "Hyunseung Ko (고현승)",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
@@ -31770,7 +31771,6 @@
             [
                 "Andrew Tan Jing Bang",
                 "Dong Zhu (朱栋)",
-                "Hyunseung Ko (고현승)",
                 "Simon Praschl",
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
@@ -32468,18 +32468,10 @@
             "z' r:[u',r U r']"
         ],
         [
-            "4Dw U l U' r U l' U' r' 4Dw'",
-            [
-                "Daniel Lin",
-                "Dong Zhu (朱栋)",
-                "Hyunseung Ko (고현승)"
-            ],
-            "4Dw:[U l U',r]"
-        ],
-        [
             "y U2 r U' l U r' U' l' U' y'",
             [
                 "Daniel Wallin",
+                "Hyunseung Ko (고현승)",
                 "Leonardo Ezequiel Cruz"
             ],
             "y U:[U r U',l]"
@@ -32491,6 +32483,14 @@
                 "Chenhao Sun (孙晨皓)"
             ],
             "L' u:[l U l',u2]"
+        ],
+        [
+            "y' U2 l U' r U l' U' r' 4Dw'",
+            [
+                "Daniel Lin",
+                "Dong Zhu (朱栋)"
+            ],
+            "4Dw:[U l U',r]"
         ],
         [
             "R y d2 r U' r' d2 r U r' y' R'",
@@ -33315,19 +33315,11 @@
             "x' l2 U' r U l2 U' r' U x",
             [
                 "Dong Zhu (朱栋)",
+                "Hyunseung Ko (고현승)",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews"
             ],
             "x':[l2,U' r U]"
-        ],
-        [
-            "x U' r' U l2 U' r U l2 x'",
-            [
-                "Daniel Lin",
-                "Dong Zhu (朱栋)",
-                "Hyunseung Ko (고현승)"
-            ],
-            "x:[U' r' U,l2]"
         ],
         [
             "F' U l U' r U l' U' r' F",
@@ -33336,6 +33328,14 @@
                 "Simon Praschl"
             ],
             "F':[U l U',r]"
+        ],
+        [
+            "x U' r' U l2 U' r U l2 x'",
+            [
+                "Daniel Lin",
+                "Dong Zhu (朱栋)"
+            ],
+            "x:[U' r' U,l2]"
         ],
         [
             "M' U' r' U l2 U' r U l2 M",
@@ -34424,6 +34424,7 @@
             [
                 "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
+                "Hyunseung Ko (고현승)",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
@@ -34437,7 +34438,6 @@
             [
                 "Andrew Tan Jing Bang",
                 "Dong Zhu (朱栋)",
-                "Hyunseung Ko (고현승)",
                 "Simon Praschl",
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
@@ -34660,6 +34660,7 @@
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
+                "Hyunseung Ko (고현승)",
                 "Kai Yamamoto (山本快)",
                 "Ryan Eckersley",
                 "Simon Praschl",
@@ -34673,7 +34674,6 @@
             "U D' r2 U' r' d' r U r' d r' D U'",
             [
                 "Anto Kam (甘浩東)",
-                "Hyunseung Ko (고현승)",
                 "Jonghyun Kim (김종현)"
             ],
             "U D' r:[r U' r',d']"
@@ -36050,17 +36050,17 @@
             "y U l' U r' U' l U r U2 y'",
             [
                 "Daniel Wallin",
+                "Hyunseung Ko (고현승)",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews"
             ],
             "y U:[l',U r' U']"
         ],
         [
-            "4Dw r' U l' U' r U l U' 4Dw'",
+            "4Dw r' U l' U' r U l U2 y",
             [
                 "Daniel Lin",
-                "Dong Zhu (朱栋)",
-                "Hyunseung Ko (고현승)"
+                "Dong Zhu (朱栋)"
             ],
             "4Dw:[r',U l' U']"
         ],
@@ -37824,6 +37824,7 @@
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
+                "Hyunseung Ko (고현승)",
                 "Kai Yamamoto (山本快)",
                 "Ryan Eckersley",
                 "Simon Praschl",
@@ -37837,7 +37838,6 @@
             "U D' r d' r U' r' d r U r2 D U'",
             [
                 "Anto Kam (甘浩東)",
-                "Hyunseung Ko (고현승)",
                 "Jonghyun Kim (김종현)"
             ],
             "U D' r:[d',r U' r']"
