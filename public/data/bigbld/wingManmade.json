@@ -15368,7 +15368,6 @@
             [
                 "Adrian Dębski",
                 "Hana Nakano",
-                "Hyunseung Ko (고현승)",
                 "Kai Yamamoto (山本快)",
                 "Oliver Fritz",
                 "Ryan Eckersley",
@@ -15404,20 +15403,21 @@
             "D r:[U' L U,r2]"
         ],
         [
+            "Dw U L' U' r2 U L U' r2 Dw'",
+            [
+                "Chenhao Sun (孙晨皓)",
+                "Hyunseung Ko (고현승)",
+                "Jonghyun Kim (김종현)"
+            ],
+            "Dw:[U L' U',r2]"
+        ],
+        [
             "S D r' D' L' D r D' L S'",
             [
                 "Andrew Tan Jing Bang",
                 "Michael Tripodi"
             ],
             "S:[D r' D',L']"
-        ],
-        [
-            "Dw U L' U' r2 U L U' r2 Dw'",
-            [
-                "Chenhao Sun (孙晨皓)",
-                "Jonghyun Kim (김종현)"
-            ],
-            "Dw:[U L' U',r2]"
         ],
         [
             "Lw r U2 R u' R' U' R u R' U' r' Lw'",
@@ -23219,7 +23219,6 @@
             [
                 "Adrian Dębski",
                 "Hana Nakano",
-                "Hyunseung Ko (고현승)",
                 "Kai Yamamoto (山本快)",
                 "Oliver Fritz",
                 "Ryan Eckersley",
@@ -23254,20 +23253,21 @@
             "D r':[U' L U,r2]"
         ],
         [
+            "Dw r2 U L' U' r2 U L U' Dw'",
+            [
+                "Chenhao Sun (孙晨皓)",
+                "Hyunseung Ko (고현승)",
+                "Jonghyun Kim (김종현)"
+            ],
+            "Dw:[r2,U L' U']"
+        ],
+        [
             "S L' D r' D' L D r D' S'",
             [
                 "Andrew Tan Jing Bang",
                 "Michael Tripodi"
             ],
             "S:[L',D r' D']"
-        ],
-        [
-            "Dw r2 U L' U' r2 U L U' Dw'",
-            [
-                "Chenhao Sun (孙晨皓)",
-                "Jonghyun Kim (김종현)"
-            ],
-            "Dw:[r2,U L' U']"
         ],
         [
             "Lw r U R u' R' U R u R' U2 r' Lw'",
