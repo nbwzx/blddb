@@ -1243,6 +1243,7 @@
             "x' U' l' U' m' U l U' m U2 x",
             [
                 "Hill Pong Yong Feng",
+                "Hyunseung Ko (고현승)",
                 "Marcell Endrey"
             ],
             "x' U':[l',U' m' U]"
@@ -1276,13 +1277,6 @@
                 "Kevin Matthews"
             ],
             "y':[U,m d m']"
-        ],
-        [
-            "y U m' d m U' m' d' m y'",
-            [
-                "Hyunseung Ko (고현승)"
-            ],
-            "y:[U,m' d m]"
         ]
     ],
     "ACO": [
@@ -7952,6 +7946,7 @@
             "x' U2 m' U l' U' m U l U x",
             [
                 "Hill Pong Yong Feng",
+                "Hyunseung Ko (고현승)",
                 "Marcell Endrey"
             ],
             "x' U':[U' m' U,l']"
@@ -7985,13 +7980,6 @@
                 "Kevin Matthews"
             ],
             "y':[m d m',U]"
-        ],
-        [
-            "y m' d m U m' d' m U' y'",
-            [
-                "Hyunseung Ko (고현승)"
-            ],
-            "y:[m' d m,U]"
         ]
     ],
     "AND": [
@@ -8148,6 +8136,7 @@
                 "Andrew Tan Jing Bang",
                 "Dong Zhu (朱栋)",
                 "Hana Nakano",
+                "Hyunseung Ko (고현승)",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
@@ -8188,13 +8177,6 @@
                 "Ethan Pan"
             ],
             "B:[m',U' r' U]"
-        ],
-        [
-            "U m U m' d2 m U' m' d2 U'",
-            [
-                "Hyunseung Ko (고현승)"
-            ],
-            "U:[m U m',d2]"
         ]
     ],
     "ANK": [
@@ -8500,6 +8482,14 @@
             "3Uw':[r,3Uw' m 3Uw]"
         ],
         [
+            "z x' m' U' m d' m' U m d x z'",
+            [
+                "Daniel Lin",
+                "Hyunseung Ko (고현승)"
+            ],
+            "z x':[m' U' m,d']"
+        ],
+        [
             "3Uw l 3Uw m 3Uw' l' 3Uw m' 3Uw2",
             [
                 "Andrew Tan Jing Bang"
@@ -8512,13 +8502,6 @@
                 "Daniel Lin"
             ],
             "z l:[l e' l',U]"
-        ],
-        [
-            "z x' m' U' m d' m' U m d x z'",
-            [
-                "Daniel Lin"
-            ],
-            "z x':[m' U' m,d']"
         ]
     ],
     "ANW": [
@@ -8532,6 +8515,15 @@
     ],
     "ANX": [
         [
+            "U 4Rw' e l' U' l e' l' U 3Rw U'",
+            [
+                "Andrew Tan Jing Bang",
+                "Hyunseung Ko (고현승)",
+                "Michael Tripodi"
+            ],
+            "U 3Rw':[l e l',U']"
+        ],
+        [
             "z l2 e' l' U' l e l' U l' z'",
             [
                 "Daniel Lin",
@@ -8539,14 +8531,6 @@
                 "Jonghyun Kim (김종현)"
             ],
             "z l:[l e' l',U']"
-        ],
-        [
-            "U 4Rw' e l' U' l e' l' U 3Rw U'",
-            [
-                "Andrew Tan Jing Bang",
-                "Michael Tripodi"
-            ],
-            "U 3Rw':[l e l',U']"
         ],
         [
             "U' 3Lw U' m u' m' U m u m' 3Lw' U",
@@ -8563,14 +8547,6 @@
                 "Leonardo Ezequiel Cruz"
             ],
             "U2:[3Uw r' 3Uw',m]"
-        ],
-        [
-            "3Uw U2 r' U' m U r U' m' U' 3Uw'",
-            [
-                "Hyunseung Ko (고현승)",
-                "Kevin Matthews"
-            ],
-            "3Uw U:[U r' U',m]"
         ],
         [
             "U2 3Uw' l' 3Uw m 3Uw' l 3Uw m' U2",
@@ -8592,6 +8568,13 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "U2:[4Uw' l' 4Uw,m]"
+        ],
+        [
+            "3Uw U2 r' U' m U r U' m' U' 3Uw'",
+            [
+                "Kevin Matthews"
+            ],
+            "3Uw U:[U r' U',m]"
         ]
     ],
     "ANY": [
@@ -8624,18 +8607,11 @@
             [
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
+                "Hyunseung Ko (고현승)",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews"
             ],
             "z' r':[r' e r,U]"
-        ],
-        [
-            "3Uw U2 r U' m U r' U' m' U' 3Uw'",
-            [
-                "Daniel Wallin",
-                "Hyunseung Ko (고현승)"
-            ],
-            "3Uw U:[U r U',m]"
         ],
         [
             "U 3Rw' U m u m' U' m u' m' 3Rw U'",
@@ -8644,6 +8620,13 @@
                 "Sebastiano Tronto"
             ],
             "U 3Rw':[U,m u m']"
+        ],
+        [
+            "3Uw U2 r U' m U r' U' m' U' 3Uw'",
+            [
+                "Daniel Wallin"
+            ],
+            "3Uw U:[U r U',m]"
         ],
         [
             "U' 4Lw e' r U r' e r U' 3Lw' U",
@@ -12637,6 +12620,14 @@
             "3Uw':[3Uw' m 3Uw,r]"
         ],
         [
+            "z x' d' m' U' m d m' U m x z'",
+            [
+                "Daniel Lin",
+                "Hyunseung Ko (고현승)"
+            ],
+            "z x':[d',m' U' m]"
+        ],
+        [
             "3Uw2 m 3Uw' l 3Uw m' 3Uw' l' 3Uw'",
             [
                 "Andrew Tan Jing Bang"
@@ -12649,13 +12640,6 @@
                 "Daniel Lin"
             ],
             "z l:[U,l e' l']"
-        ],
-        [
-            "z x' d' m' U' m d m' U m x z'",
-            [
-                "Daniel Lin"
-            ],
-            "z x':[d',m' U' m]"
         ]
     ],
     "ATO": [
@@ -14007,6 +13991,15 @@
     ],
     "AXN": [
         [
+            "U 3Rw' U' l e l' U l e' 4Rw U'",
+            [
+                "Andrew Tan Jing Bang",
+                "Hyunseung Ko (고현승)",
+                "Michael Tripodi"
+            ],
+            "U 3Rw':[U',l e l']"
+        ],
+        [
             "z l U' l e' l' U l e l2 z'",
             [
                 "Daniel Lin",
@@ -14014,14 +14007,6 @@
                 "Jonghyun Kim (김종현)"
             ],
             "z l:[U',l e' l']"
-        ],
-        [
-            "U 3Rw' U' l e l' U l e' 4Rw U'",
-            [
-                "Andrew Tan Jing Bang",
-                "Michael Tripodi"
-            ],
-            "U 3Rw':[U',l e l']"
         ],
         [
             "U' 3Lw m u' m' U' m u m' U 3Lw' U",
@@ -14038,14 +14023,6 @@
                 "Leonardo Ezequiel Cruz"
             ],
             "U2:[m,3Uw r' 3Uw']"
-        ],
-        [
-            "3Uw U m U r' U' m' U r U2 3Uw'",
-            [
-                "Hyunseung Ko (고현승)",
-                "Kevin Matthews"
-            ],
-            "3Uw U:[m,U r' U']"
         ],
         [
             "U2 m 3Uw' l' 3Uw m' 3Uw' l 3Uw U2",
@@ -14067,6 +14044,13 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "U2:[m,4Uw' l' 4Uw]"
+        ],
+        [
+            "3Uw U m U r' U' m' U r U2 3Uw'",
+            [
+                "Kevin Matthews"
+            ],
+            "3Uw U:[m,U r' U']"
         ]
     ],
     "AXO": [
@@ -15499,18 +15483,11 @@
             [
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
+                "Hyunseung Ko (고현승)",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews"
             ],
             "z' r':[U,r' e r]"
-        ],
-        [
-            "3Uw U m U r U' m' U r' U2 3Uw'",
-            [
-                "Daniel Wallin",
-                "Hyunseung Ko (고현승)"
-            ],
-            "3Uw U:[m,U r U']"
         ],
         [
             "U 3Rw' m u m' U m u' m' U' 3Rw U'",
@@ -15519,6 +15496,13 @@
                 "Sebastiano Tronto"
             ],
             "U 3Rw':[m u m',U]"
+        ],
+        [
+            "3Uw U m U r U' m' U r' U2 3Uw'",
+            [
+                "Daniel Wallin"
+            ],
+            "3Uw U:[m,U r U']"
         ],
         [
             "U' 3Lw U r' e' r U' r' e 4Lw' U",
@@ -17097,13 +17081,6 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "y':[m d m',U']"
-        ],
-        [
-            "y m' d m U' m' d' m 4Dw",
-            [
-                "Hyunseung Ko (고현승)"
-            ],
-            "y:[m' d m,U']"
         ]
     ],
     "CEO": [
@@ -18513,13 +18490,6 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "y':[U',m d m']"
-        ],
-        [
-            "4Dw' m' d m U m' d' m y'",
-            [
-                "Hyunseung Ko (고현승)"
-            ],
-            "y:[U',m' d m]"
         ]
     ],
     "CNI": [
@@ -25484,6 +25454,7 @@
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
+                "Howie Craig",
                 "Hyunseung Ko (고현승)",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
@@ -25529,13 +25500,6 @@
                 "Andrew Tan Jing Bang"
             ],
             "r U':[r',U' m' U]"
-        ],
-        [
-            "3Lw D r2 U m' U' r2 U m U' D' 3Lw'",
-            [
-                "Howie Craig"
-            ],
-            "3Lw D:[r2,U m' U']"
         ]
     ],
     "GAC": [
@@ -25744,6 +25708,7 @@
             "y m d m' U' m d' m' 4Dw",
             [
                 "Cale Schoon",
+                "Howie Craig",
                 "Hyunseung Ko (고현승)"
             ],
             "y:[m d m',U']"
@@ -25763,13 +25728,6 @@
                 "Hyunseung Ko (고현승)"
             ],
             "Rw':[U' r U,m']"
-        ],
-        [
-            "3Lw D' r2 U m' U' r2 U m U' D 3Lw'",
-            [
-                "Howie Craig"
-            ],
-            "3Lw D':[r2,U m' U']"
         ]
     ],
     "GAK": [
@@ -25906,7 +25864,6 @@
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
-                "Hyunseung Ko (고현승)",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
@@ -25923,6 +25880,14 @@
                 "Ryan Eckersley"
             ],
             "r' U':[r,U' m U]"
+        ],
+        [
+            "x' U2 m' U' r U m U' r' U' x",
+            [
+                "Howie Craig",
+                "Hyunseung Ko (고현승)"
+            ],
+            "x' U:[U m' U',r]"
         ],
         [
             "y m d' m' U' m d m' 4Dw",
@@ -25944,13 +25909,6 @@
                 "Kevin Matthews"
             ],
             "Rw U':[r',U' m U]"
-        ],
-        [
-            "x' U2 m' U' r U m U' r' U' x",
-            [
-                "Howie Craig"
-            ],
-            "x' U:[U m' U',r]"
         ]
     ],
     "GAO": [
@@ -26334,6 +26292,7 @@
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
+                "Howie Craig",
                 "Hyunseung Ko (고현승)",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
@@ -26379,13 +26338,6 @@
                 "Andrew Tan Jing Bang"
             ],
             "r U':[U' m' U,r']"
-        ],
-        [
-            "3Lw D U m' U' r2 U m U' r2 D' 3Lw'",
-            [
-                "Howie Craig"
-            ],
-            "3Lw D:[U m' U',r2]"
         ]
     ],
     "GBC": [
@@ -26441,11 +26393,11 @@
             "4Dw':[m u' m',U']"
         ],
         [
-            "3Lw D U' m' U r2 U' m U r2 D' 3Lw'",
+            "y U m' u m U' m' u' m y'",
             [
                 "Howie Craig"
             ],
-            "3Lw D:[U' m' U,r2]"
+            "y:[U,m' u m]"
         ],
         [
             "u m u' m' U' m u m' U u'",
@@ -27492,11 +27444,11 @@
             "4Dw':[U',m u' m']"
         ],
         [
-            "3Lw D r2 U' m' U r2 U' m U D' 3Lw'",
+            "y m' u m U m' u' m U' y'",
             [
                 "Howie Craig"
             ],
-            "3Lw D:[r2,U' m' U]"
+            "y:[m' u m,U]"
         ],
         [
             "u U' m u' m' U m u m' u'",
@@ -27543,11 +27495,11 @@
             "Rw' U:[r,U m U']"
         ],
         [
-            "3Lw' D' r2 U' m U r2 U' m' U D 3Lw",
+            "x' U2 m' U r U' m U r' U x",
             [
                 "Howie Craig"
             ],
-            "3Lw' D':[r2,U' m U]"
+            "x' U':[U' m' U,r]"
         ],
         [
             "y' m u' m' U m u m' 4Dw'",
@@ -27608,6 +27560,15 @@
     ],
     "GEJ": [
         [
+            "Rw' U r U m' U' r' U m U2 Rw",
+            [
+                "Hana Nakano",
+                "Howie Craig",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "Rw' U:[r,U m' U']"
+        ],
+        [
             "y m d m' U m d' m' U' y'",
             [
                 "Cale Schoon",
@@ -27616,26 +27577,11 @@
             "y:[m d m',U]"
         ],
         [
-            "Rw' U r U m' U' r' U m U2 Rw",
-            [
-                "Hana Nakano",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "Rw' U:[r,U m' U']"
-        ],
-        [
             "r' U r U m' U' r' U m U2 r",
             [
                 "Ryan Eckersley"
             ],
             "r' U:[r,U m' U']"
-        ],
-        [
-            "3Lw D' r2 U' m' U r2 U' m U D 3Lw'",
-            [
-                "Howie Craig"
-            ],
-            "3Lw D':[r2,U' m' U]"
         ]
     ],
     "GEK": [
@@ -27734,6 +27680,14 @@
             "Rw':[U r U',m]"
         ],
         [
+            "y m d' m' U m d m' U' y'",
+            [
+                "Cale Schoon",
+                "Howie Craig"
+            ],
+            "y:[m d' m',U]"
+        ],
+        [
             "r' U r U' m U r' U' m' r",
             [
                 "Ryan Eckersley"
@@ -27741,25 +27695,11 @@
             "r':[U r U',m]"
         ],
         [
-            "y m d' m' U m d m' U' y'",
-            [
-                "Cale Schoon"
-            ],
-            "y:[m d' m',U]"
-        ],
-        [
             "U' 3Lw U' l' U m' U' l U Lw' U",
             [
                 "Ethan Pan"
             ],
             "U' 3Lw:[U' l' U,m']"
-        ],
-        [
-            "3Lw' D r2 U' m U r2 U' m' U D' 3Lw",
-            [
-                "Howie Craig"
-            ],
-            "3Lw' D:[r2,U' m U]"
         ]
     ],
     "GEO": [
@@ -28099,11 +28039,11 @@
             "Rw' U:[U m U',r]"
         ],
         [
-            "3Lw' D' U' m U r2 U' m' U r2 D 3Lw",
+            "x' U' r U' m' U r' U' m U2 x",
             [
                 "Howie Craig"
             ],
-            "3Lw' D':[U' m U,r2]"
+            "x' U':[r,U' m' U]"
         ],
         [
             "4Dw m u' m' U' m u m' y",
@@ -29039,6 +28979,7 @@
             "4Dw' m d m' U m d' m' y'",
             [
                 "Cale Schoon",
+                "Howie Craig",
                 "Hyunseung Ko (고현승)"
             ],
             "y:[U',m d m']"
@@ -29058,13 +28999,6 @@
                 "Hyunseung Ko (고현승)"
             ],
             "Rw':[m',U' r U]"
-        ],
-        [
-            "3Lw D' U m' U' r2 U m U' r2 D 3Lw'",
-            [
-                "Howie Craig"
-            ],
-            "3Lw D':[U m' U',r2]"
         ]
     ],
     "GJC": [
@@ -29116,6 +29050,15 @@
     ],
     "GJE": [
         [
+            "Rw' U2 m' U' r U m U' r' U' Rw",
+            [
+                "Hana Nakano",
+                "Howie Craig",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "Rw' U:[U m' U',r]"
+        ],
+        [
             "y U m d m' U' m d' m' y'",
             [
                 "Cale Schoon",
@@ -29124,26 +29067,11 @@
             "y:[U,m d m']"
         ],
         [
-            "Rw' U2 m' U' r U m U' r' U' Rw",
-            [
-                "Hana Nakano",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "Rw' U:[U m' U',r]"
-        ],
-        [
             "r' U2 m' U' r U m U' r' U' r",
             [
                 "Ryan Eckersley"
             ],
             "r' U:[U m' U',r]"
-        ],
-        [
-            "3Lw D' U' m' U r2 U' m U r2 D 3Lw'",
-            [
-                "Howie Craig"
-            ],
-            "3Lw D':[U' m' U,r2]"
         ]
     ],
     "GJF": [
@@ -30512,7 +30440,6 @@
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
-                "Hyunseung Ko (고현승)",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
@@ -30529,6 +30456,14 @@
                 "Ryan Eckersley"
             ],
             "r' U':[U' m U,r]"
+        ],
+        [
+            "x' U r U m' U' r' U m U2 x",
+            [
+                "Howie Craig",
+                "Hyunseung Ko (고현승)"
+            ],
+            "x' U:[r,U m' U']"
         ],
         [
             "4Dw' m d' m' U m d m' y'",
@@ -30550,13 +30485,6 @@
                 "Kevin Matthews"
             ],
             "Rw U':[U' m U,r']"
-        ],
-        [
-            "x' U r U m' U' r' U m U2 x",
-            [
-                "Howie Craig"
-            ],
-            "x' U:[r,U m' U']"
         ]
     ],
     "GNB": [
@@ -30627,6 +30555,14 @@
             "Rw':[m,U r U']"
         ],
         [
+            "y U m d' m' U' m d m' y'",
+            [
+                "Cale Schoon",
+                "Howie Craig"
+            ],
+            "y:[U,m d' m']"
+        ],
+        [
             "r' m U r U' m' U r' U' r",
             [
                 "Ryan Eckersley"
@@ -30634,25 +30570,11 @@
             "r':[m,U r U']"
         ],
         [
-            "y U m d' m' U' m d m' y'",
-            [
-                "Cale Schoon"
-            ],
-            "y:[U,m d' m']"
-        ],
-        [
             "U' Lw U' l' U m U' l U 3Lw' U",
             [
                 "Ethan Pan"
             ],
             "U' 3Lw:[m',U' l' U]"
-        ],
-        [
-            "3Lw' D U' m U r2 U' m' U r2 D' 3Lw",
-            [
-                "Howie Craig"
-            ],
-            "3Lw' D:[U' m U,r2]"
         ]
     ],
     "GNH": [
