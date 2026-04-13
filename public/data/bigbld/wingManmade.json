@@ -2292,6 +2292,7 @@
                 "Ryan Eckersley",
                 "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
+                "Tobias Peter",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
@@ -2309,7 +2310,6 @@
                 "Hana Nakano",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
-                "Tobias Peter",
                 "Xi Lu (鲁曦)"
             ],
             "R':[r' D' r,U']"
@@ -3655,6 +3655,7 @@
                 "Michael Tripodi",
                 "Ryan Eckersley",
                 "Simon Praschl",
+                "Tobias Peter",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -3678,8 +3679,7 @@
             "Rw' U r2 U R2 U' r2 U R2 U2 Rw",
             [
                 "Christopher Morris",
-                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
-                "Tobias Peter"
+                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "Rw' U:[r2,U R2 U']"
         ],
@@ -3722,6 +3722,7 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Nakano",
+                "Hyunseung Ko (고현승)",
                 "Kevin Matthews",
                 "Sebastiano Tronto",
                 "Simon Praschl",
@@ -3752,7 +3753,6 @@
         [
             "r U R' d R U R' d' R U2 r'",
             [
-                "Hyunseung Ko (고현승)",
                 "Oliver Fritz"
             ],
             "r U:[R' d R,U]"
@@ -17939,6 +17939,7 @@
                 "Ryan Eckersley",
                 "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
+                "Tobias Peter",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
@@ -17955,7 +17956,6 @@
                 "Hana Nakano",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
-                "Tobias Peter",
                 "Xi Lu (鲁曦)"
             ],
             "R':[U',r' D' r]"
@@ -17994,6 +17994,7 @@
                 "Michael Tripodi",
                 "Ryan Eckersley",
                 "Simon Praschl",
+                "Tobias Peter",
                 "Xi Lu (鲁曦)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
@@ -18017,7 +18018,6 @@
             [
                 "Christopher Morris",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
-                "Tobias Peter",
                 "Xin Shi (石欣)"
             ],
             "Rw' U:[U R2 U',r2]"
@@ -19366,6 +19366,7 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Hana Nakano",
+                "Hyunseung Ko (고현승)",
                 "Kevin Matthews",
                 "Sebastiano Tronto",
                 "Simon Praschl",
@@ -19396,7 +19397,6 @@
         [
             "r U2 R' d R U' R' d' R U' r'",
             [
-                "Hyunseung Ko (고현승)",
                 "Oliver Fritz"
             ],
             "r U:[U,R' d R]"
@@ -34540,6 +34540,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Howie Craig",
+                "Hyunseung Ko (고현승)",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -34555,14 +34556,6 @@
             "F:[U' r2 U,R]"
         ],
         [
-            "S R' D r2 D' R D r2 D' S'",
-            [
-                "Gavriel Johann Arcilla",
-                "Hyunseung Ko (고현승)"
-            ],
-            "S:[R',D r2 D']"
-        ],
-        [
             "U' r U r2 U' R U r2 U' Rw' U",
             [
                 "Daniel Lin",
@@ -34576,6 +34569,13 @@
                 "Oliver Fritz"
             ],
             "r U':[U',L u L']"
+        ],
+        [
+            "S R' D r2 D' R D r2 D' S'",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "S:[R',D r2 D']"
         ],
         [
             "S' L' u2 L U L' u2 L U' S",
@@ -36627,6 +36627,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Howie Craig",
+                "Hyunseung Ko (고현승)",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -36642,14 +36643,6 @@
             "F:[R,U' r2 U]"
         ],
         [
-            "S D r2 D' R' D r2 D' R S'",
-            [
-                "Gavriel Johann Arcilla",
-                "Hyunseung Ko (고현승)"
-            ],
-            "S:[D r2 D',R']"
-        ],
-        [
             "U' Rw U r2 U' R' U r2 U' r' U",
             [
                 "Daniel Lin",
@@ -36663,6 +36656,13 @@
                 "Oliver Fritz"
             ],
             "r U':[L u L',U']"
+        ],
+        [
+            "S D r2 D' R' D r2 D' R S'",
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            "S:[D r2 D',R']"
         ],
         [
             "S' U L' u2 L U' L' u2 L S",
