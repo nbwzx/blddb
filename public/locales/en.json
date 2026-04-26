@@ -283,5 +283,19 @@
     "starManmade": "Multiple * are not allowed in manmade mode.",
     "invalidLetter": "This letter is invalid.",
     "invalidCode": "Your lettering scheme in settings is invalid."
+  },
+  "tour": {
+    "title": "Start the tour",
+    "back": "Back",
+    "last": "Last",
+    "next": "Next",
+    "welcome": "Welcome to BLDDB",
+    "start": "Now let us start the tour.",
+    "chooseScheme": "Choose your lettering scheme.",
+    "chooseOrientation": "Choose your orientation.",
+    "chooseMode": "Choose your preferred mode.",
+    "enterLetterPairs": "Enter letter pairs to query.",
+    "copyAlgs": "Click here to copy algs.",
+    "watchVideo": "Click here to watch fingertrick video."
   }
 }

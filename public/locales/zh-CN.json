@@ -283,5 +283,19 @@
     "starManmade": "在人造模式下不允许使用多个 *.",
     "invalidLetter": "该编码无效。",
     "invalidCode": "设置中的编码无效。"
+  },
+  "tour": {
+    "title": "导览",
+    "back": "上一步",
+    "last": "结束",
+    "next": "下一步",
+    "welcome": "欢迎使用盲拧公式库",
+    "start": "现在开始导览。",
+    "chooseScheme": "选择您的编码体系。",
+    "chooseOrientation": "选择您的坐标朝向。",
+    "chooseMode": "选择您偏好的模式。",
+    "enterLetterPairs": "输入你要查询的公式编码。",
+    "copyAlgs": "点击此处复制公式。",
+    "watchVideo": "点击此处观看指法视频。"
   }
 }

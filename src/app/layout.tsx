@@ -6,6 +6,8 @@ import { Providers } from "./providers";
 import { LocaleProvider } from "./localeProvider";
 import { getLocale } from "../i18n/server";
 import ErrorBoundary from "./ErrorBoundary";
+import { AppProvider } from "../components/context";
+import MultiRouteWrapper from "../components/Wrapper";
 
 export default async function RootLayout({
   children,
@@ -28,9 +30,13 @@ export default async function RootLayout({
         <Providers>
           <LocaleProvider value={locale}>
             <ErrorBoundary>
-              <Header />
-              {children}
-              <ScrollToTop />
+              <AppProvider>
+                <MultiRouteWrapper>
+                  {children}
+                  <Header />
+                  <ScrollToTop />
+                </MultiRouteWrapper>
+              </AppProvider>
             </ErrorBoundary>
           </LocaleProvider>
         </Providers>

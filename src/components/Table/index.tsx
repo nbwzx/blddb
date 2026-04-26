@@ -425,6 +425,7 @@ const Table = ({
                 borderLeft: j === 0 ? "" : "none",
               }}
               className="cursor-pointer"
+              id="alg"
               onClick={() => handleCopy(item[j])}
             >
               {item[j]}
@@ -446,6 +447,7 @@ const Table = ({
                     ? "text-primary cursor-pointer dark:text-[#00BCD4]"
                     : ""
                 }
+                id={hasVideo(item) ? "video" : ""}
               >
                 {fingerResult}
               </td>

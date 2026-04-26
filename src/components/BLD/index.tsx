@@ -10,6 +10,8 @@ import Loading from "@/app/loading";
 import PageSection from "@/components/PageSection";
 import tracer from "@/utils/tracer";
 import tracer_555 from "@/utils/tracer_555";
+import { useMount } from "react-use";
+import { useAppContext } from "../context";
 
 const BLD = ({ codeType }: { codeType: string }) => {
   const { i18n, t } = useTranslation();
@@ -448,6 +450,19 @@ const BLD = ({ codeType }: { codeType: string }) => {
     });
   };
 
+  const {
+    setState,
+    state: { tourActive },
+  } = useAppContext();
+
+  useMount(() => {
+    if (tourActive) {
+      setTimeout(() => {
+        setState({ run: true, stepIndex: 3 });
+      }, 1000);
+    }
+  });
+
   if (loading) {
     return <Loading />;
   }
@@ -486,7 +501,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
         onClick={scrollToTop}
       />
       <span className="mx-3"></span>
-      <div className="inline-block">
+      <div className="inline-block" id="mode">
         {positionElement({ positionHint: t("common.mode") })}
         <select
           id="modeValue"

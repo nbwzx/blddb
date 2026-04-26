@@ -251,5 +251,19 @@
     "starManmade": "マニュメイドモードでは * を複数使用できません。",
     "invalidLetter": "エンコーディングは無効です。",
     "invalidCode": "設定のエンコーディングスキームが無効です。"
+  },
+  "tour": {
+    "title": "ツアーを始める",
+    "back": "戻る",
+    "last": "終了",
+    "next": "次へ",
+    "welcome": "BLDDBへようこそ",
+    "start": "それではツアーを始めましょう。",
+    "chooseScheme": "レタリングスキームを選択してください。",
+    "chooseOrientation": "向きを選択してください。",
+    "chooseMode": "お好みのモードを選択してください。",
+    "enterLetterPairs": "検索したい3エンコーディングを入力してください。",
+    "copyAlgs": "ここをクリックして手順をコピー。",
+    "watchVideo": "ここをクリックしてフィンガートリック動画を視聴。"
   }
 }
