@@ -1,4 +1,3 @@
-import Header from "@/components/Header";
 import ScrollToTop from "@/components/ScrollToTop";
 import React from "react";
 import "../styles/index.css";
@@ -33,7 +32,6 @@ export default async function RootLayout({
               <AppProvider>
                 <MultiRouteWrapper>
                   {children}
-                  <Header />
                   <ScrollToTop />
                 </MultiRouteWrapper>
               </AppProvider>

@@ -163,6 +163,7 @@ layer(base);
   margin-inline: auto;
   padding-inline: 1rem;
   width: 100vw;
+  max-width: unset;
 }
 
 /*
