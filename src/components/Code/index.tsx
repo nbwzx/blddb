@@ -8,6 +8,8 @@ import tracer_555 from "@/utils/tracer_555";
 import { useTranslation } from "@/i18n/client";
 import Loading from "@/app/loading";
 import PageSection from "@/components/PageSection";
+import { useMount } from "react-use";
+import { useAppContext } from "../context";
 
 const Code = ({ cubeSize }: { cubeSize: 3 | 5 }) => {
   const { t } = useTranslation();
@@ -221,13 +223,26 @@ const Code = ({ cubeSize }: { cubeSize: 3 | 5 }) => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [cubeSize, inputValues]);
 
+  const {
+    setState,
+    state: { tourActive },
+  } = useAppContext();
+
+  useMount(() => {
+    if (tourActive) {
+      setTimeout(() => {
+        setState({ run: true, stepIndex: 1 });
+      }, 1000);
+    }
+  });
+
   if (loading) {
     return <Loading />;
   }
 
   return (
     <PageSection title={cubeSize === 3 ? t("code.3BLD") : t("code.BigBLD")}>
-      <div className="mb-5">
+      <div className="mb-5" id="scheme">
         {" "}
         <div className="inline-block font-bold text-black dark:text-white">
           {t("code.setting")}
@@ -258,7 +273,7 @@ const Code = ({ cubeSize }: { cubeSize: 3 | 5 }) => {
           ))}
         </div>
       </div>
-      <div className="mb-5">
+      <div className="mb-5" id="orientation">
         <div className="text-dark mr-2 inline-block font-bold dark:text-white">
           {t("code.orientation")}
         </div>
