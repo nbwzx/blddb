@@ -571,6 +571,7 @@
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
+                "Simon Praschl",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "Lw' U':[R' u' R,U2]"
@@ -1338,6 +1339,7 @@
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Oliver Fritz",
+                "Simon Praschl",
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -3851,10 +3853,20 @@
                 "Jonghyun Kim (김종현)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
-                "Simon Praschl",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "Lw U':[U',R' u' R]"
+        ],
+        [
+            "Rw U R u R' U R u' R' U2 Rw'",
+            [
+                "Andrew Tan Jing Bang",
+                "Gavriel Johann Arcilla",
+                "Hyunseung Ko (고현승)",
+                "Kai Yamamoto (山本快)",
+                "Simon Praschl"
+            ],
+            "Rw U:[R u R',U]"
         ],
         [
             "L U2 R' u' R U R' u R U L'",
@@ -3865,16 +3877,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "L U':[U',R' u' R]"
-        ],
-        [
-            "Rw U R u R' U R u' R' U2 Rw'",
-            [
-                "Andrew Tan Jing Bang",
-                "Gavriel Johann Arcilla",
-                "Hyunseung Ko (고현승)",
-                "Kai Yamamoto (山本快)"
-            ],
-            "Rw U:[R u R',U]"
         ],
         [
             "x D' r' U' L U r U' L' U D x'",
@@ -5832,7 +5834,8 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Howie Craig",
-                "Michael Tripodi"
+                "Michael Tripodi",
+                "Simon Praschl"
             ],
             "Lw':[r,U' L' U]"
         ],
@@ -6316,6 +6319,7 @@
                 "Oliver Fritz",
                 "Ryan Eckersley",
                 "Sebastiano Tronto",
+                "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
                 "Tom Nelson",
@@ -6968,7 +6972,8 @@
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi",
-                "Sebastiano Tronto"
+                "Sebastiano Tronto",
+                "Simon Praschl"
             ],
             "D R:[r,U' R U]"
         ],
@@ -7648,6 +7653,16 @@
             "Rw U':[L,U' l' U]"
         ],
         [
+            "Lw2 U' R' u' R U2 R' u R U' Lw2",
+            [
+                "Daniel Wallin",
+                "Howie Craig",
+                "Ryan Eckersley",
+                "Simon Praschl"
+            ],
+            "Lw2 U':[R' u' R,U2]"
+        ],
+        [
             "D L' f L' F' L f' L' F L2 D'",
             [
                 "Andrew Tan Jing Bang",
@@ -7656,15 +7671,6 @@
                 "Hyunseung Ko (고현승)"
             ],
             "D L':[f,L' F' L]"
-        ],
-        [
-            "Lw2 U' R' u' R U2 R' u R U' Lw2",
-            [
-                "Daniel Wallin",
-                "Howie Craig",
-                "Ryan Eckersley"
-            ],
-            "Lw2 U':[R' u' R,U2]"
         ],
         [
             "r U' L U' l' U L' U' l U2 r'",
@@ -8421,6 +8427,14 @@
             "x:[U' L' U,r]"
         ],
         [
+            "U D' L' u' L D L' u L U'",
+            [
+                "Ryan Eckersley",
+                "Simon Praschl"
+            ],
+            "U:[D',L' u' L]"
+        ],
+        [
             "U f L F L' f' L F' L' U'",
             [
                 "Anto Kam (甘浩東)",
@@ -8435,13 +8449,6 @@
                 "Daniel Lin"
             ],
             "4Lw':[U' L' U,r]"
-        ],
-        [
-            "U D' L' u' L D L' u L U'",
-            [
-                "Ryan Eckersley"
-            ],
-            "U:[D',L' u' L]"
         ],
         [
             "4Uw' r U r' D r U' r' y",
@@ -9011,6 +9018,14 @@
             "[r',D' L' D]"
         ],
         [
+            "d' U' R' U r U' R U r' d",
+            [
+                "Ethan Pan",
+                "Simon Praschl"
+            ],
+            "d':[U' R' U,r]"
+        ],
+        [
             "U' Rw d' R' U' R d R' U r' U",
             [
                 "Howie Craig",
@@ -9039,13 +9054,6 @@
                 "Marcell Endrey"
             ],
             "x:[U' L2 U,r]"
-        ],
-        [
-            "d' U' R' U r U' R U r' d",
-            [
-                "Ethan Pan"
-            ],
-            "d':[U' R' U,r]"
         ]
     ],
     "AJY": [
@@ -9625,6 +9633,15 @@
             "y r:[r U' r',D2]"
         ],
         [
+            "D Rw U f R' F' R f' R' F R U' Rw' D'",
+            [
+                "Anto Kam (甘浩東)",
+                "Chenhao Sun (孙晨皓)",
+                "Simon Praschl"
+            ],
+            "D Rw U:[f,R' F' R]"
+        ],
+        [
             "U D' Rw r U' r' D2 r U r' D2 Rw' D U'",
             [
                 "Andrew Tan Jing Bang",
@@ -9640,14 +9657,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "D Lw:[l U2 l',D2]"
-        ],
-        [
-            "D Rw U f R' F' R f' R' F R U' Rw' D'",
-            [
-                "Anto Kam (甘浩東)",
-                "Chenhao Sun (孙晨皓)"
-            ],
-            "D Rw U:[f,R' F' R]"
         ],
         [
             "D Rw D R' U' R' U r' U' R U Rw D' Rw' D'",
@@ -10250,6 +10259,7 @@
                 "Hyunseung Ko (고현승)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
+                "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -10429,6 +10439,7 @@
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
+                "Simon Praschl",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "Lw' U:[R' u' R,U2]"
@@ -10702,7 +10713,8 @@
                 "Howie Craig",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
-                "Sebastiano Tronto"
+                "Sebastiano Tronto",
+                "Simon Praschl"
             ],
             "Lw':[U' L' U,r]"
         ],
@@ -10750,6 +10762,7 @@
                 "Kevin Matthews",
                 "Michael Tripodi",
                 "Sebastiano Tronto",
+                "Simon Praschl",
                 "Xi Lu (鲁曦)"
             ],
             "D R:[U' R U,r]"
@@ -10830,19 +10843,20 @@
             "x:[r,U' L' U]"
         ],
         [
+            "U L' u' L D' L' u L D U'",
+            [
+                "Ryan Eckersley",
+                "Simon Praschl"
+            ],
+            "U:[L' u' L,D']"
+        ],
+        [
             "4Lw' r U' L' U r' U' L U 4Lw",
             [
                 "Christopher Morris",
                 "Xi Lu (鲁曦)"
             ],
             "4Lw':[r,U' L' U]"
-        ],
-        [
-            "U L' u' L D' L' u L D U'",
-            [
-                "Ryan Eckersley"
-            ],
-            "U:[L' u' L,D']"
         ],
         [
             "y' r U r' D' r U' r' 4Uw",
@@ -10893,6 +10907,15 @@
             "y r:[D2,r U' r']"
         ],
         [
+            "D Rw U R' F' R f R' F R f' U' Rw' D'",
+            [
+                "Anto Kam (甘浩東)",
+                "Chenhao Sun (孙晨皓)",
+                "Simon Praschl"
+            ],
+            "D Rw U:[R' F' R,f]"
+        ],
+        [
             "U D' Rw D2 r U' r' D2 r U r' Rw' D U'",
             [
                 "Andrew Tan Jing Bang",
@@ -10908,14 +10931,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "D Lw:[D2,l U2 l']"
-        ],
-        [
-            "D Rw U R' F' R f R' F R f' U' Rw' D'",
-            [
-                "Anto Kam (甘浩東)",
-                "Chenhao Sun (孙晨皓)"
-            ],
-            "D Rw U:[R' F' R,f]"
         ],
         [
             "D Rw D Rw' U' R' U r U' R U R D' Rw' D'",
@@ -11008,6 +11023,14 @@
             "Lw' r':[U' L' U,r2]"
         ],
         [
+            "4Fw' R u' R' D' R u R' D 4Fw",
+            [
+                "Howie Craig",
+                "Simon Praschl"
+            ],
+            "4Fw':[R u' R',D']"
+        ],
+        [
             "U r D r U' r' D' r U r2 U'",
             [
                 "Andrew Tan Jing Bang",
@@ -11044,13 +11067,6 @@
                 "Adrian Dębski"
             ],
             "D:[U L2 U',r]"
-        ],
-        [
-            "4Fw' R u' R' D' R u R' D 4Fw",
-            [
-                "Howie Craig"
-            ],
-            "4Fw':[R u' R',D']"
         ]
     ],
     "ALN": [
@@ -11074,6 +11090,15 @@
             "[D',l U2 l']"
         ],
         [
+            "U L' u' L D L' u L D' U'",
+            [
+                "Daniel Lin",
+                "Michael Tripodi",
+                "Simon Praschl"
+            ],
+            "U:[L' u' L,D]"
+        ],
+        [
             "U' D' l U' l' D l U l' U",
             [
                 "Andrew Tan Jing Bang",
@@ -11081,14 +11106,6 @@
                 "Graham Siggins"
             ],
             "U':[D',l U' l']"
-        ],
-        [
-            "U L' u' L D L' u L D' U'",
-            [
-                "Daniel Lin",
-                "Michael Tripodi"
-            ],
-            "U:[L' u' L,D]"
         ],
         [
             "U D' l U l' D l U' l' U'",
@@ -11239,6 +11256,14 @@
             "U D:[r U' r',D2]"
         ],
         [
+            "U' D2 R' u' R D2 R' u R U",
+            [
+                "Ryan Eckersley",
+                "Simon Praschl"
+            ],
+            "U':[D2,R' u' R]"
+        ],
+        [
             "Rw D U R U' r2 U R' U' r2 D' Rw'",
             [
                 "Daniel Lin",
@@ -11271,13 +11296,6 @@
             "y:[D2,r U' r']"
         ],
         [
-            "U' D2 R' u' R D2 R' u R U",
-            [
-                "Ryan Eckersley"
-            ],
-            "U':[D2,R' u' R]"
-        ],
-        [
             "R' S U L' u' L U' L' u L S' R",
             [
                 "Anto Kam (甘浩東)"
@@ -11307,6 +11325,7 @@
                 "Oliver Fritz",
                 "Ryan Eckersley",
                 "Sebastiano Tronto",
+                "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
@@ -11349,7 +11368,8 @@
                 "Howie Craig",
                 "Hyunseung Ko (고현승)",
                 "Michael Tripodi",
-                "Oliver Fritz"
+                "Oliver Fritz",
+                "Simon Praschl"
             ],
             "D:[r',D R' D']"
         ],
@@ -11411,6 +11431,7 @@
                 "Oliver Fritz",
                 "Ryan Eckersley",
                 "Sebastiano Tronto",
+                "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
@@ -11519,6 +11540,7 @@
                 "Oliver Fritz",
                 "Ryan Eckersley",
                 "Sebastiano Tronto",
+                "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
@@ -11552,6 +11574,7 @@
                 "Oliver Fritz",
                 "Ryan Eckersley",
                 "Sebastiano Tronto",
+                "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
                 "Xin Shi (石欣)",
@@ -11606,6 +11629,7 @@
                 "Oliver Fritz",
                 "Ryan Eckersley",
                 "Sebastiano Tronto",
+                "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
@@ -11635,6 +11659,7 @@
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
+                "Simon Praschl",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "S:[U,L' u' L]"
@@ -12378,6 +12403,14 @@
             "r:[U' L2 U,r2]"
         ],
         [
+            "4Fw' D' R u' R' D R u R' 4Fw",
+            [
+                "Howie Craig",
+                "Simon Praschl"
+            ],
+            "4Fw':[D',R u' R']"
+        ],
+        [
             "Lw' r U' L' U r2 U' L U r Lw",
             [
                 "Daniel Lin",
@@ -12415,13 +12448,6 @@
                 "Adrian Dębski"
             ],
             "D:[r,U L2 U']"
-        ],
-        [
-            "4Fw' D' R u' R' D R u R' 4Fw",
-            [
-                "Howie Craig"
-            ],
-            "4Fw':[D',R u' R']"
         ]
     ],
     "AMN": [
@@ -12875,7 +12901,8 @@
         [
             "d' U' R' U r2 U' R U r2 d",
             [
-                "Ryan Eckersley"
+                "Ryan Eckersley",
+                "Simon Praschl"
             ],
             "d':[U' R' U,r2]"
         ],
@@ -13605,6 +13632,15 @@
             "[l U2 l',D']"
         ],
         [
+            "U D L' u' L D' L' u L U'",
+            [
+                "Daniel Lin",
+                "Michael Tripodi",
+                "Simon Praschl"
+            ],
+            "U:[D,L' u' L]"
+        ],
+        [
             "U' l U' l' D' l U l' D U",
             [
                 "Andrew Tan Jing Bang",
@@ -13612,14 +13648,6 @@
                 "Graham Siggins"
             ],
             "U':[l U' l',D']"
-        ],
-        [
-            "U D L' u' L D' L' u L U'",
-            [
-                "Daniel Lin",
-                "Michael Tripodi"
-            ],
-            "U:[D,L' u' L]"
         ],
         [
             "U l U l' D' l U' l' D U'",
@@ -14212,6 +14240,15 @@
             "D:[D r' D',L']"
         ],
         [
+            "R B r2 U' R' U r2 U' R U B' R'",
+            [
+                "Gavriel Johann Arcilla",
+                "Howie Craig",
+                "Simon Praschl"
+            ],
+            "R B:[r2,U' R' U]"
+        ],
+        [
             "L' l U2 l' D' l U2 l' D L",
             [
                 "Dong Zhu (朱栋)",
@@ -14219,14 +14256,6 @@
                 "Xi Lu (鲁曦)"
             ],
             "L':[l U2 l',D']"
-        ],
-        [
-            "R B r2 U' R' U r2 U' R U B' R'",
-            [
-                "Gavriel Johann Arcilla",
-                "Howie Craig"
-            ],
-            "R B:[r2,U' R' U]"
         ],
         [
             "D2 Rw U' L U r U' L' U r' Rw' D2",
@@ -15402,6 +15431,7 @@
                 "Gavriel Johann Arcilla",
                 "Howie Craig",
                 "Michael Tripodi",
+                "Simon Praschl",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "L':[f,L' F' L]"
@@ -16072,6 +16102,14 @@
             "U D':[r U' r',D2]"
         ],
         [
+            "U' R' u' R D2 R' u R D2 U",
+            [
+                "Ryan Eckersley",
+                "Simon Praschl"
+            ],
+            "U':[R' u' R,D2]"
+        ],
+        [
             "Rw D r2 U R U' r2 U R' U' D' Rw'",
             [
                 "Daniel Lin",
@@ -16102,13 +16140,6 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
             "y:[r U' r',D2]"
-        ],
-        [
-            "U' R' u' R D2 R' u R D2 U",
-            [
-                "Ryan Eckersley"
-            ],
-            "U':[R' u' R,D2]"
         ],
         [
             "R' S L' u' L U L' u L U' S' R",
@@ -16695,6 +16726,7 @@
                 "Howie Craig",
                 "Michael Tripodi",
                 "Ryan Eckersley",
+                "Simon Praschl",
                 "Ziyi Xu (徐梓翼)"
             ],
             "Dw':[U' R' U,r]"
@@ -17287,6 +17319,7 @@
                 "Oliver Fritz",
                 "Ryan Eckersley",
                 "Sebastiano Tronto",
+                "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
@@ -17753,6 +17786,7 @@
                 "Oliver Fritz",
                 "Ryan Eckersley",
                 "Sebastiano Tronto",
+                "Simon Praschl",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -18406,7 +18440,8 @@
                 "Howie Craig",
                 "Hyunseung Ko (고현승)",
                 "Michael Tripodi",
-                "Oliver Fritz"
+                "Oliver Fritz",
+                "Simon Praschl"
             ],
             "D:[D R' D',r']"
         ],
@@ -19076,6 +19111,13 @@
             "d':[L' U L,d2]"
         ],
         [
+            "R' Dw' U' R' U r U' R U r' Dw R",
+            [
+                "Simon Praschl"
+            ],
+            "R' Dw':[U' R' U,r]"
+        ],
+        [
             "z' r U' L' U r2 U' L U r z",
             [
                 "Adrian Dębski"
@@ -19686,6 +19728,7 @@
                 "Oliver Fritz",
                 "Ryan Eckersley",
                 "Sebastiano Tronto",
+                "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
@@ -20133,6 +20176,7 @@
                 "Oliver Fritz",
                 "Ryan Eckersley",
                 "Sebastiano Tronto",
+                "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
@@ -21686,10 +21730,20 @@
                 "Jonghyun Kim (김종현)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
-                "Simon Praschl",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "Lw U':[R' u' R,U']"
+        ],
+        [
+            "Rw U2 R u R' U' R u' R' U' Rw'",
+            [
+                "Andrew Tan Jing Bang",
+                "Gavriel Johann Arcilla",
+                "Hyunseung Ko (고현승)",
+                "Kai Yamamoto (山本快)",
+                "Simon Praschl"
+            ],
+            "Rw U:[U,R u R']"
         ],
         [
             "L U' R' u' R U' R' u R U2 L'",
@@ -21700,16 +21754,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "L U':[R' u' R,U']"
-        ],
-        [
-            "Rw U2 R u R' U' R u' R' U' Rw'",
-            [
-                "Andrew Tan Jing Bang",
-                "Gavriel Johann Arcilla",
-                "Hyunseung Ko (고현승)",
-                "Kai Yamamoto (山本快)"
-            ],
-            "Rw U:[U,R u R']"
         ],
         [
             "x D' U' L U r' U' L' U r D x'",
@@ -21996,6 +22040,7 @@
                 "Oliver Fritz",
                 "Ryan Eckersley",
                 "Sebastiano Tronto",
+                "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
@@ -22466,6 +22511,13 @@
             "d x':[U' r U,L2]"
         ],
         [
+            "Uw' R' B' R U R' u' R U' R' u B R Uw",
+            [
+                "Simon Praschl"
+            ],
+            "Uw' R' B':[R U R',u']"
+        ],
+        [
             "u' L D r' D' L2 D r D' L u",
             [
                 "Oliver Fritz"
@@ -22858,6 +22910,7 @@
                 "Oliver Fritz",
                 "Ryan Eckersley",
                 "Sebastiano Tronto",
+                "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
                 "Tom Nelson",
@@ -22893,6 +22946,16 @@
             "Rw U':[U' l' U,L]"
         ],
         [
+            "Lw2 U R' u' R U2 R' u R U Lw2",
+            [
+                "Daniel Wallin",
+                "Howie Craig",
+                "Ryan Eckersley",
+                "Simon Praschl"
+            ],
+            "Lw2 U:[R' u' R,U2]"
+        ],
+        [
             "D L2 F' L f L' F L f' L D'",
             [
                 "Andrew Tan Jing Bang",
@@ -22901,15 +22964,6 @@
                 "Hyunseung Ko (고현승)"
             ],
             "D L':[L' F' L,f]"
-        ],
-        [
-            "Lw2 U R' u' R U2 R' u R U Lw2",
-            [
-                "Daniel Wallin",
-                "Howie Craig",
-                "Ryan Eckersley"
-            ],
-            "Lw2 U:[R' u' R,U2]"
         ],
         [
             "r U2 l' U L U' l U L' U r'",
@@ -22976,6 +23030,14 @@
             "[D' L' D,r']"
         ],
         [
+            "d' r U' R' U r' U' R U d",
+            [
+                "Ethan Pan",
+                "Simon Praschl"
+            ],
+            "d':[r,U' R' U]"
+        ],
+        [
             "U' r U' R d' R' U R d Rw' U",
             [
                 "Howie Craig",
@@ -23004,13 +23066,6 @@
                 "Marcell Endrey"
             ],
             "x:[r,U' L2 U]"
-        ],
-        [
-            "d' r U' R' U r' U' R U d",
-            [
-                "Ethan Pan"
-            ],
-            "d':[r,U' R' U]"
         ]
     ],
     "AXK": [
@@ -23025,6 +23080,7 @@
                 "Hyunseung Ko (고현승)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
+                "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -23108,6 +23164,7 @@
                 "Oliver Fritz",
                 "Ryan Eckersley",
                 "Sebastiano Tronto",
+                "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
                 "Xin Shi (石欣)",
@@ -23172,7 +23229,8 @@
         [
             "d' r2 U' R' U r2 U' R U d",
             [
-                "Ryan Eckersley"
+                "Ryan Eckersley",
+                "Simon Praschl"
             ],
             "d':[r2,U' R' U]"
         ],
@@ -23215,6 +23273,15 @@
             "D:[L',D r' D']"
         ],
         [
+            "R B U' R' U r2 U' R U r2 B' R'",
+            [
+                "Gavriel Johann Arcilla",
+                "Howie Craig",
+                "Simon Praschl"
+            ],
+            "R B:[U' R' U,r2]"
+        ],
+        [
             "L' D' l U2 l' D l U2 l' L",
             [
                 "Dong Zhu (朱栋)",
@@ -23222,14 +23289,6 @@
                 "Xi Lu (鲁曦)"
             ],
             "L':[D',l U2 l']"
-        ],
-        [
-            "R B U' R' U r2 U' R U r2 B' R'",
-            [
-                "Gavriel Johann Arcilla",
-                "Howie Craig"
-            ],
-            "R B:[U' R' U,r2]"
         ],
         [
             "D2 Rw r U' L U r' U' L' U Rw' D2",
@@ -23285,6 +23344,7 @@
                 "Ethan Pan",
                 "Gavriel Johann Arcilla",
                 "Howie Craig",
+                "Simon Praschl",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "L':[L' F' L,f]"
@@ -23355,6 +23415,7 @@
                 "Howie Craig",
                 "Michael Tripodi",
                 "Ryan Eckersley",
+                "Simon Praschl",
                 "Ziyi Xu (徐梓翼)"
             ],
             "Dw':[r,U' R' U]"
@@ -23433,6 +23494,7 @@
                 "Oliver Fritz",
                 "Ryan Eckersley",
                 "Sebastiano Tronto",
+                "Simon Praschl",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -23501,6 +23563,13 @@
             "d:[L' U L,d2]"
         ],
         [
+            "R' Dw' r U' R' U r' U' R U Dw R",
+            [
+                "Simon Praschl"
+            ],
+            "R' Dw':[r,U' R' U]"
+        ],
+        [
             "z' r' U' L' U r2 U' L U r' z",
             [
                 "Adrian Dębski"
@@ -23531,6 +23600,7 @@
                 "Oliver Fritz",
                 "Ryan Eckersley",
                 "Sebastiano Tronto",
+                "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
@@ -23717,6 +23787,13 @@
             "d x':[L2,U' r U]"
         ],
         [
+            "Uw' R' B' u' R U R' u R U' R' B R Uw",
+            [
+                "Simon Praschl"
+            ],
+            "Uw' R' B':[u',R U R']"
+        ],
+        [
             "u' L' D r' D' L2 D r D' L' u",
             [
                 "Oliver Fritz"
@@ -23781,6 +23858,7 @@
                 "Oliver Fritz",
                 "Ryan Eckersley",
                 "Sebastiano Tronto",
+                "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
@@ -23835,6 +23913,13 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "Rw' U':[U' L U,r2]"
+        ],
+        [
+            "R Dw' r U' R' U r' U' R U Dw R'",
+            [
+                "Simon Praschl"
+            ],
+            "R Dw':[r,U' R' U]"
         ],
         [
             "U B2 R' f R B2 R' f' R U'",
@@ -24292,6 +24377,7 @@
                 "Oliver Fritz",
                 "Ryan Eckersley",
                 "Sebastiano Tronto",
+                "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
@@ -24780,6 +24866,7 @@
                 "Oliver Fritz",
                 "Ryan Eckersley",
                 "Sebastiano Tronto",
+                "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
@@ -24880,6 +24967,7 @@
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Oliver Fritz",
+                "Simon Praschl",
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -25305,6 +25393,7 @@
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
+                "Simon Praschl",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "S:[L' u' L,U]"
@@ -25922,6 +26011,13 @@
             "Rw' U':[r2,U' L U]"
         ],
         [
+            "R Dw' U' R' U r U' R U r' Dw R'",
+            [
+                "Simon Praschl"
+            ],
+            "R Dw':[U' R' U,r]"
+        ],
+        [
             "U R' f R B2 R' f' R B2 U'",
             [
                 "Gavriel Johann Arcilla"
@@ -26051,6 +26147,15 @@
                 "Roman Strakhov"
             ],
             "[L2,D l D']"
+        ]
+    ],
+    "BCL": [
+        [
+            "L F' L' f L F L' f'",
+            [
+                "Simon Praschl"
+            ],
+            "[L F' L',f]"
         ]
     ],
     "BDE": [
@@ -27042,6 +27147,15 @@
                 "Roman Strakhov"
             ],
             "[D l D',L]"
+        ]
+    ],
+    "BLC": [
+        [
+            "f L F' L' f' L F L'",
+            [
+                "Simon Praschl"
+            ],
+            "[f,L F' L']"
         ]
     ],
     "BLD": [
@@ -30858,8 +30972,7 @@
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
-                "Simon Praschl"
+                "Sebastiano Tronto"
             ],
             "Lw:[U,r' D2 r]"
         ],
@@ -30941,6 +31054,13 @@
                 "Hana Nakano"
             ],
             "R':[U' R U,r]"
+        ],
+        [
+            "Rw F' Rw' R' u' R U' R' u R U Rw F Rw'",
+            [
+                "Simon Praschl"
+            ],
+            "Rw F' Rw':[R' u' R,U']"
         ],
         [
             "r' F' R' F r F' R F",
@@ -32319,8 +32439,7 @@
                 "Gavriel Johann Arcilla",
                 "Hyunseung Ko (고현승)",
                 "Leonardo Ezequiel Cruz",
-                "Michael Tripodi",
-                "Simon Praschl"
+                "Michael Tripodi"
             ],
             "Lw:[r' D2 r,U]"
         ],
@@ -32429,6 +32548,13 @@
                 "Hana Nakano"
             ],
             "R':[r,U' R U]"
+        ],
+        [
+            "Rw F' Rw' U' R' u' R U R' u R Rw F Rw'",
+            [
+                "Simon Praschl"
+            ],
+            "Rw F' Rw':[U',R' u' R]"
         ],
         [
             "F' R' F r' F' R F r",
@@ -34267,6 +34393,7 @@
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Sebastiano Tronto",
+                "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -34988,6 +35115,13 @@
                 "Ryan Eckersley"
             ],
             "L' U:[L F' L',f]"
+        ],
+        [
+            "U' r' U' R d' R' U R d R' r U",
+            [
+                "Simon Praschl"
+            ],
+            "U' r':[U',R d' R']"
         ],
         [
             "B F R' F' r2 F R F' r2 B'",
@@ -36245,6 +36379,7 @@
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Sebastiano Tronto",
+                "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
@@ -36597,6 +36732,15 @@
                 "Mark Rivers"
             ],
             "U' r:[U' R2 U,r2]"
+        ]
+    ],
+    "HOS": [
+        [
+            "Rw' F' r U' R' U r' U' R U F Rw",
+            [
+                "Simon Praschl"
+            ],
+            "Rw' F':[r,U' R' U]"
         ]
     ],
     "HPA": [
@@ -36994,6 +37138,15 @@
             "U' r:[U L' U',r2]"
         ]
     ],
+    "HSO": [
+        [
+            "Rw' F' U' R' U r U' R U r' F Rw",
+            [
+                "Simon Praschl"
+            ],
+            "Rw' F':[U' R' U,r]"
+        ]
+    ],
     "HSR": [
         [
             "U D r d R U' R' d' R U Rw' D' U'",
@@ -37226,6 +37379,13 @@
                 "Ryan Eckersley"
             ],
             "L' U:[f,L F' L']"
+        ],
+        [
+            "U' r' R d' R' U' R d R' U r U",
+            [
+                "Simon Praschl"
+            ],
+            "U' r':[R d' R',U']"
         ],
         [
             "B r2 F R' F' r2 F R F' B'",
