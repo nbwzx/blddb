@@ -108,6 +108,17 @@
         ],
         [
             [
+                "U' R' U' R' D' R U R' D R2 U' R2 D' R U2 R' D R U2 R U2"
+            ],
+            [
+                "Jonghyun Kim (김종현)"
+            ],
+            [
+                "Not found."
+            ]
+        ],
+        [
+            [
                 "U' R' U' R2 U R2 U2 R S R2 S' R U R' U2"
             ],
             [
@@ -511,15 +522,15 @@
         ],
         [
             [
-                "U' D R' D' R U R' D R U' D' R' U R U' R' D R U R' U' D' R U"
+                "D R' U' D' R U R' D R U' R' U R U' D' R' D R U R' D' R"
             ],
             [
-                "Andrew Tan Jing Bang",
+                "James Macdiarmid",
                 "Jonghyun Kim (김종현)",
-                "Keiichiro Taira (平佳一郎)"
+                "Shuto Ueno (上野柊斗)"
             ],
             [
-                "U':[D R' D' R U R' U' R,R' U D R U' D']"
+                "[D R' U' D' R U,R' D R U' R' U R D']"
             ]
         ],
         [
@@ -536,14 +547,14 @@
         ],
         [
             [
-                "D R' U' D' R U R' D R U' R' U R U' D' R' D R U R' D' R"
+                "U' D R' D' R U R' D R U' D' R' U R U' R' D R U R' U' D' R U"
             ],
             [
-                "James Macdiarmid",
-                "Shuto Ueno (上野柊斗)"
+                "Andrew Tan Jing Bang",
+                "Keiichiro Taira (平佳一郎)"
             ],
             [
-                "[D R' U' D' R U,R' D R U' R' U R D']"
+                "U':[D R' D' R U R' U' R,R' U D R U' D']"
             ]
         ]
     ],
@@ -648,14 +659,14 @@
         ],
         [
             [
-                "U' R' D' R U R' D R U' D' R' U R U' R' D R U R' U' D' R U D"
+                "R' U' D' R U R' D R U' R' U R U' D' R' D R U R' D' R D"
             ],
             [
-                "Andrew Tan Jing Bang",
+                "James Macdiarmid",
                 "Jonghyun Kim (김종현)"
             ],
             [
-                "[U' R' D' R U R' D R,U' D' R' U D R]"
+                "R':[U' D' R U D R',R D' R' D R U' R' U]"
             ]
         ],
         [
@@ -671,13 +682,13 @@
         ],
         [
             [
-                "R' U' D' R U R' D R U' R' U R U' D' R' D R U R' D' R D"
+                "U' R' D' R U R' D R U' D' R' U R U' R' D R U R' U' D' R U D"
             ],
             [
-                "James Macdiarmid"
+                "Andrew Tan Jing Bang"
             ],
             [
-                "R':[U' D' R U D R',R D' R' D R U' R' U]"
+                "[U' R' D' R U R' D R,U' D' R' U D R]"
             ]
         ]
     ],
@@ -789,6 +800,7 @@
             [
                 "Dylan Wang",
                 "Ethan Pan",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Shuto Ueno (上野柊斗)",
@@ -808,7 +820,6 @@
                 "Andrew Tan Jing Bang",
                 "Bernhard Brodowsky",
                 "James Macdiarmid",
-                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard"
             ],
@@ -858,19 +869,6 @@
     "BQ": [
         [
             [
-                "U' D R' D R U R' U' R U R' D' R U' R' U R D'"
-            ],
-            [
-                "Andrew Tan Jing Bang",
-                "James Macdiarmid",
-                "Jonghyun Kim (김종현)"
-            ],
-            [
-                "U' D R':[D,R U R' U' R U R']"
-            ]
-        ],
-        [
-            [
                 "D' R D R' U2 R D' R' D R D' R' U2 R D R'"
             ],
             [
@@ -879,6 +877,30 @@
             ],
             [
                 "D' R D R':[U2,R D' R' D R D' R']"
+            ]
+        ],
+        [
+            [
+                "U D' R D R' U R D' R' D R D' R' U' R D R' U'"
+            ],
+            [
+                "Bpaul Paul",
+                "Jonghyun Kim (김종현)"
+            ],
+            [
+                "U D' R D R':[U,R D' R' D R D' R']"
+            ]
+        ],
+        [
+            [
+                "U' D R' D R U R' U' R U R' D' R U' R' U R D'"
+            ],
+            [
+                "Andrew Tan Jing Bang",
+                "James Macdiarmid"
+            ],
+            [
+                "U' D R':[D,R U R' U' R U R']"
             ]
         ],
         [
@@ -914,17 +936,6 @@
             ],
             [
                 "U2 R:[R' U' R U R' U' R,D']"
-            ]
-        ],
-        [
-            [
-                "U D' R D R' U R D' R' D R D' R' U' R D R' U'"
-            ],
-            [
-                "Bpaul Paul"
-            ],
-            [
-                "U D' R D R':[U,R D' R' D R D' R']"
             ]
         ],
         [
@@ -972,7 +983,6 @@
                 "Andrew Tan Jing Bang",
                 "Bernhard Brodowsky",
                 "James Macdiarmid",
-                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Tobias Peter",
@@ -989,6 +999,7 @@
             ],
             [
                 "Bpaul Paul",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Tommy Cherry",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -1039,6 +1050,7 @@
             [
                 "Bpaul Paul",
                 "Dylan Wang",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Shuto Ueno (上野柊斗)",
@@ -1057,7 +1069,6 @@
                 "Andrew Tan Jing Bang",
                 "Bernhard Brodowsky",
                 "James Macdiarmid",
-                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Yangyang Shen (沈炀炀)"
@@ -1251,6 +1262,17 @@
             ],
             [
                 "Deni Mintsaev"
+            ],
+            [
+                "Not found."
+            ]
+        ],
+        [
+            [
+                "U2 R' U2 R' D' R U2 R' D R2 U R2 D' R U' R' D R U R U"
+            ],
+            [
+                "Jonghyun Kim (김종현)"
             ],
             [
                 "Not found."
@@ -1671,6 +1693,7 @@
                 "Ethan Pan",
                 "Heejun Kim (김희준)",
                 "James Macdiarmid",
+                "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Shuto Ueno (上野柊斗)"
             ],
@@ -1693,18 +1716,6 @@
         ],
         [
             [
-                "U' R' U D R U' R' D' R U R' U' R U D R' D' R U' R' D R U D'"
-            ],
-            [
-                "Andrew Tan Jing Bang",
-                "Jonghyun Kim (김종현)"
-            ],
-            [
-                "D:[U' D' R' U D R,U' R' D' R U R' D R]"
-            ]
-        ],
-        [
-            [
                 "D R' U' R U R' D' R U' R' U D R D' R' D R U' R' D' R U"
             ],
             [
@@ -1712,6 +1723,17 @@
             ],
             [
                 "[D R' U' R U R' D' R,U' R' U D R D']"
+            ]
+        ],
+        [
+            [
+                "U' R' U D R U' R' D' R U R' U' R U D R' D' R U' R' D R U D'"
+            ],
+            [
+                "Andrew Tan Jing Bang"
+            ],
+            [
+                "D:[U' D' R' U D R,U' R' D' R U R' D R]"
             ]
         ]
     ],
@@ -1828,6 +1850,7 @@
                 "Ethan Pan",
                 "Heejun Kim (김희준)",
                 "James Macdiarmid",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard"
             ],
@@ -1850,18 +1873,6 @@
         ],
         [
             [
-                "U' D' R' U D R U' R' D' R U R' U' R U D R' D' R U' R' D R U"
-            ],
-            [
-                "Andrew Tan Jing Bang",
-                "Jonghyun Kim (김종현)"
-            ],
-            [
-                "[U' D' R' U D R,U' R' D' R U R' D R]"
-            ]
-        ],
-        [
-            [
                 "R U' R' U2 R' D' R U2 R' D R2 U R2 D' R U' R' D R U"
             ],
             [
@@ -1869,6 +1880,17 @@
             ],
             [
                 "Not found."
+            ]
+        ],
+        [
+            [
+                "U' D' R' U D R U' R' D' R U R' U' R U D R' D' R U' R' D R U"
+            ],
+            [
+                "Andrew Tan Jing Bang"
+            ],
+            [
+                "[U' D' R' U D R,U' R' D' R U R' D R]"
             ]
         ]
     ],
@@ -1881,6 +1903,7 @@
                 "Bpaul Paul",
                 "Dylan Wang",
                 "Ethan Pan",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
@@ -1900,7 +1923,6 @@
                 "Andrew Tan Jing Bang",
                 "Bernhard Brodowsky",
                 "James Macdiarmid",
-                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -1978,6 +2000,7 @@
             ],
             [
                 "Bpaul Paul",
+                "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Michael Tripodi"
             ],
@@ -2000,19 +2023,6 @@
         ],
         [
             [
-                "D R' U' R U R' D R U' R' U R U' R' D' R U D'"
-            ],
-            [
-                "Andrew Tan Jing Bang",
-                "James Macdiarmid",
-                "Jonghyun Kim (김종현)"
-            ],
-            [
-                "U' D R':[R U R' U' R U R',D]"
-            ]
-        ],
-        [
-            [
                 "R D' R' U2 R D R' D' R D R' U2 R D' R' D"
             ],
             [
@@ -2021,6 +2031,18 @@
             ],
             [
                 "R D' R':[U2,R D R' D' R D R']"
+            ]
+        ],
+        [
+            [
+                "D R' U' R U R' D R U' R' U R U' R' D' R U D'"
+            ],
+            [
+                "Andrew Tan Jing Bang",
+                "James Macdiarmid"
+            ],
+            [
+                "U' D R':[R U R' U' R U R',D]"
             ]
         ],
         [
@@ -2107,7 +2129,6 @@
                 "Daniel Wallin",
                 "Deni Mintsaev",
                 "James Macdiarmid",
-                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Tobias Peter",
@@ -2124,6 +2145,7 @@
             ],
             [
                 "Bpaul Paul",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -2186,6 +2208,7 @@
             [
                 "Bpaul Paul",
                 "Dylan Wang",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
@@ -2206,7 +2229,6 @@
                 "Bernhard Brodowsky",
                 "Deni Mintsaev",
                 "James Macdiarmid",
-                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
@@ -2273,7 +2295,8 @@
             ],
             [
                 "Bpaul Paul",
-                "Israel Fraga da Silva"
+                "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)"
             ],
             [
                 "Not found."
@@ -2955,7 +2978,6 @@
                 "Bpaul Paul",
                 "Ethan Pan",
                 "James Macdiarmid",
-                "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Michael Tripodi"
             ],
@@ -2970,6 +2992,7 @@
             [
                 "Christopher Morris",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Shuto Ueno (上野柊斗)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -3089,28 +3112,12 @@
     "EQ": [
         [
             [
-                "R U R' U' R D' R' U R U' R' U R D R' U'"
-            ],
-            [
-                "Andrew Tan Jing Bang",
-                "Bernhard Brodowsky",
-                "Bpaul Paul",
-                "James Macdiarmid",
-                "Jonghyun Kim (김종현)",
-                "Max Hilliard",
-                "Yangyang Shen (沈炀炀)"
-            ],
-            [
-                "U R:[R' U' R U R' U' R,D']"
-            ]
-        ],
-        [
-            [
                 "D' R D R' U R D' R' D R D' R' U' R D R'"
             ],
             [
                 "Dylan Wang",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Tobias Peter",
                 "Yifan Wang (王逸帆)",
@@ -3118,6 +3125,22 @@
             ],
             [
                 "D' R D R':[U,R D' R' D R D' R']"
+            ]
+        ],
+        [
+            [
+                "R U R' U' R D' R' U R U' R' U R D R' U'"
+            ],
+            [
+                "Andrew Tan Jing Bang",
+                "Bernhard Brodowsky",
+                "Bpaul Paul",
+                "James Macdiarmid",
+                "Max Hilliard",
+                "Yangyang Shen (沈炀炀)"
+            ],
+            [
+                "U R:[R' U' R U R' U' R,D']"
             ]
         ],
         [
@@ -3200,6 +3223,7 @@
                 "Christopher Morris",
                 "Dylan Wang",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Yifan Wang (王逸帆)",
@@ -3219,7 +3243,6 @@
                 "Deni Mintsaev",
                 "Ishaan Agrawal",
                 "James Macdiarmid",
-                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Yangyang Shen (沈炀炀)"
@@ -3265,30 +3288,12 @@
     "EZ": [
         [
             [
-                "U R' U' R D R' U R U' R' U R D' R' U' R"
-            ],
-            [
-                "Andrew Tan Jing Bang",
-                "Bernhard Brodowsky",
-                "Deni Mintsaev",
-                "Ishaan Agrawal",
-                "James Macdiarmid",
-                "Jonghyun Kim (김종현)",
-                "Keiichiro Taira (平佳一郎)",
-                "Yangyang Shen (沈炀炀)",
-                "Yifan Wang (王逸帆)"
-            ],
-            [
-                "U R' U' R:[D,R' U R U' R' U R]"
-            ]
-        ],
-        [
-            [
                 "U D' R' D R U R' D' R D R' D' R U' R' D R U'"
             ],
             [
                 "Ethan Pan",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
@@ -3297,6 +3302,24 @@
             ],
             [
                 "U D' R' D R:[U,R' D' R D R' D' R]"
+            ]
+        ],
+        [
+            [
+                "U R' U' R D R' U R U' R' U R D' R' U' R"
+            ],
+            [
+                "Andrew Tan Jing Bang",
+                "Bernhard Brodowsky",
+                "Deni Mintsaev",
+                "Ishaan Agrawal",
+                "James Macdiarmid",
+                "Keiichiro Taira (平佳一郎)",
+                "Yangyang Shen (沈炀炀)",
+                "Yifan Wang (王逸帆)"
+            ],
+            [
+                "U R' U' R:[D,R' U R U' R' U R]"
             ]
         ],
         [
@@ -3476,6 +3499,17 @@
             ],
             [
                 "Israel Fraga da Silva"
+            ],
+            [
+                "Not found."
+            ]
+        ],
+        [
+            [
+                "R' U2 R' D' R U2 R' D R2 U R2 D' R U' R' D R U R U'"
+            ],
+            [
+                "Jonghyun Kim (김종현)"
             ],
             [
                 "Not found."
@@ -3976,33 +4010,33 @@
     "FM": [
         [
             [
-                "U' D R' D' R U' R' D R D' R' D R U R' D' R U"
-            ],
-            [
-                "Andrew Tan Jing Bang",
-                "Ethan Pan",
-                "James Macdiarmid",
-                "Jonghyun Kim (김종현)",
-                "Max Hilliard",
-                "Michael Tripodi"
-            ],
-            [
-                "U' D R' D' R:[U',R' D R D' R' D R]"
-            ]
-        ],
-        [
-            [
                 "U D R' D' R U R' D R D' R' D R U' R' D' R U'"
             ],
             [
                 "Bpaul Paul",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Shuto Ueno (上野柊斗)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
                 "U D R' D' R:[U,R' D R D' R' D R]"
+            ]
+        ],
+        [
+            [
+                "U' D R' D' R U' R' D R D' R' D R U R' D' R U"
+            ],
+            [
+                "Andrew Tan Jing Bang",
+                "Ethan Pan",
+                "James Macdiarmid",
+                "Max Hilliard",
+                "Michael Tripodi"
+            ],
+            [
+                "U' D R' D' R:[U',R' D R D' R' D R]"
             ]
         ],
         [
@@ -4156,6 +4190,7 @@
                 "Bpaul Paul",
                 "Dylan Wang",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Tobias Peter",
@@ -4175,7 +4210,6 @@
                 "Bernhard Brodowsky",
                 "Ishaan Agrawal",
                 "James Macdiarmid",
-                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Yangyang Shen (沈炀炀)"
@@ -4277,6 +4311,7 @@
                 "Bpaul Paul",
                 "Dylan Wang",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Yifan Wang (王逸帆)",
@@ -4295,7 +4330,6 @@
                 "Bernhard Brodowsky",
                 "Ishaan Agrawal",
                 "James Macdiarmid",
-                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Yangyang Shen (沈炀炀)"
@@ -4376,28 +4410,12 @@
     "FY": [
         [
             [
-                "R' U R D R' U' R U R' U' R D' R' U R U'"
-            ],
-            [
-                "Andrew Tan Jing Bang",
-                "Ishaan Agrawal",
-                "James Macdiarmid",
-                "Jonghyun Kim (김종현)",
-                "Keiichiro Taira (平佳一郎)",
-                "Yangyang Shen (沈炀炀)",
-                "Yifan Wang (王逸帆)"
-            ],
-            [
-                "R' U R:[D,R' U' R U R' U' R]"
-            ]
-        ],
-        [
-            [
                 "U R' D' R U R' D R D' R' D R U' R' D' R U' D"
             ],
             [
                 "Bpaul Paul",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Shuto Ueno (上野柊斗)",
@@ -4405,6 +4423,22 @@
             ],
             [
                 "U R' D' R:[U,R' D R D' R' D R]"
+            ]
+        ],
+        [
+            [
+                "R' U R D R' U' R U R' U' R D' R' U R U'"
+            ],
+            [
+                "Andrew Tan Jing Bang",
+                "Ishaan Agrawal",
+                "James Macdiarmid",
+                "Keiichiro Taira (平佳一郎)",
+                "Yangyang Shen (沈炀炀)",
+                "Yifan Wang (王逸帆)"
+            ],
+            [
+                "R' U R:[D,R' U' R U R' U' R]"
             ]
         ],
         [
@@ -4730,30 +4764,12 @@
     "HN": [
         [
             [
-                "R' U R U' R' D R U R' U' R U R' D' R U'"
-            ],
-            [
-                "Andrew Tan Jing Bang",
-                "Bernhard Brodowsky",
-                "Ethan Pan",
-                "James Macdiarmid",
-                "Jonghyun Kim (김종현)",
-                "Keiichiro Taira (平佳一郎)",
-                "Tobias Peter",
-                "Yangyang Shen (沈炀炀)",
-                "Yifan Wang (王逸帆)"
-            ],
-            [
-                "U R':[R U' R' U R U' R',D]"
-            ]
-        ],
-        [
-            [
                 "R' D R U R' D' R D R' D' R U' R' D R D'"
             ],
             [
                 "Bpaul Paul",
                 "Dylan Wang",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
@@ -4762,6 +4778,24 @@
             ],
             [
                 "R' D R:[U,R' D' R D R' D' R]"
+            ]
+        ],
+        [
+            [
+                "R' U R U' R' D R U R' U' R U R' D' R U'"
+            ],
+            [
+                "Andrew Tan Jing Bang",
+                "Bernhard Brodowsky",
+                "Ethan Pan",
+                "James Macdiarmid",
+                "Keiichiro Taira (平佳一郎)",
+                "Tobias Peter",
+                "Yangyang Shen (沈炀炀)",
+                "Yifan Wang (王逸帆)"
+            ],
+            [
+                "U R':[R U' R' U R U' R',D]"
             ]
         ],
         [
@@ -4843,7 +4877,6 @@
             [
                 "Andrew Tan Jing Bang",
                 "James Macdiarmid",
-                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
@@ -4852,6 +4885,19 @@
             ],
             [
                 "R:[D',R' U R U' R' U R]"
+            ]
+        ],
+        [
+            [
+                "U D' R D R' U' R D' R' D R D' R' U R D R' U'"
+            ],
+            [
+                "Jonghyun Kim (김종현)",
+                "Keiichiro Taira (平佳一郎)",
+                "Yuki Tsuneyoshi (恒吉優紀)"
+            ],
+            [
+                "U D' R D R':[U',R D' R' D R D' R']"
             ]
         ],
         [
@@ -4876,18 +4922,6 @@
             ],
             [
                 "U' D' R D R':[U,R D' R' D R D' R']"
-            ]
-        ],
-        [
-            [
-                "U D' R D R' U' R D' R' D R D' R' U R D R' U'"
-            ],
-            [
-                "Keiichiro Taira (平佳一郎)",
-                "Yuki Tsuneyoshi (恒吉優紀)"
-            ],
-            [
-                "U D' R D R':[U',R D' R' D R D' R']"
             ]
         ],
         [
@@ -4937,7 +4971,6 @@
                 "Andrew Tan Jing Bang",
                 "Bernhard Brodowsky",
                 "James Macdiarmid",
-                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Shuto Ueno (上野柊斗)",
                 "Tobias Peter",
@@ -4962,6 +4995,19 @@
         ],
         [
             [
+                "U R D R' U' R D' R' D R D' R' U R D R' U' D'"
+            ],
+            [
+                "Jonghyun Kim (김종현)",
+                "Keiichiro Taira (平佳一郎)",
+                "Yuki Tsuneyoshi (恒吉優紀)"
+            ],
+            [
+                "U R D R':[U',R D' R' D R D' R']"
+            ]
+        ],
+        [
+            [
                 "U' R D R' U R D' R' D R D' R' U' R D R' U D'"
             ],
             [
@@ -4970,18 +5016,6 @@
             ],
             [
                 "U' R D R':[U,R D' R' D R D' R']"
-            ]
-        ],
-        [
-            [
-                "U R D R' U' R D' R' D R D' R' U R D R' U' D'"
-            ],
-            [
-                "Keiichiro Taira (平佳一郎)",
-                "Yuki Tsuneyoshi (恒吉優紀)"
-            ],
-            [
-                "U R D R':[U',R D' R' D R D' R']"
             ]
         ],
         [
@@ -5004,6 +5038,7 @@
             [
                 "Bpaul Paul",
                 "Dylan Wang",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
@@ -5024,7 +5059,6 @@
                 "Deni Mintsaev",
                 "Ethan Pan",
                 "James Macdiarmid",
-                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -5284,7 +5318,6 @@
                 "Deni Mintsaev",
                 "Ethan Pan",
                 "James Macdiarmid",
-                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -5301,6 +5334,7 @@
             [
                 "Bpaul Paul",
                 "Dylan Wang",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
@@ -5415,7 +5449,6 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "James Macdiarmid",
-                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -5442,6 +5475,19 @@
         ],
         [
             [
+                "U R D' R' U' R D R' D' R D R' U R D' R' U' D"
+            ],
+            [
+                "Jonghyun Kim (김종현)",
+                "Keiichiro Taira (平佳一郎)",
+                "Yuki Tsuneyoshi (恒吉優紀)"
+            ],
+            [
+                "U R D' R':[U',R D R' D' R D R']"
+            ]
+        ],
+        [
+            [
                 "U' R D' R' U R D R' D' R D R' U' R D' R' U D"
             ],
             [
@@ -5450,18 +5496,6 @@
             ],
             [
                 "U' R D' R':[U,R D R' D' R D R']"
-            ]
-        ],
-        [
-            [
-                "U R D' R' U' R D R' D' R D R' U R D' R' U' D"
-            ],
-            [
-                "Keiichiro Taira (平佳一郎)",
-                "Yuki Tsuneyoshi (恒吉優紀)"
-            ],
-            [
-                "U R D' R':[U',R D R' D' R D R']"
             ]
         ],
         [
@@ -5545,7 +5579,6 @@
                 "Andrew Tan Jing Bang",
                 "Bernhard Brodowsky",
                 "James Macdiarmid",
-                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Keiichiro Taira (平佳一郎)",
                 "Shuto Ueno (上野柊斗)",
@@ -5571,6 +5604,19 @@
         ],
         [
             [
+                "U D R D' R' U' R D R' D' R D R' U R D' R' U'"
+            ],
+            [
+                "Jonghyun Kim (김종현)",
+                "Keiichiro Taira (平佳一郎)",
+                "Yuki Tsuneyoshi (恒吉優紀)"
+            ],
+            [
+                "U D R D' R':[U',R D R' D' R D R']"
+            ]
+        ],
+        [
+            [
                 "U R U R' D' R U' R' U R U' R' D R U R' U2"
             ],
             [
@@ -5591,18 +5637,6 @@
             ],
             [
                 "U' D R D' R':[U,R D R' D' R D R']"
-            ]
-        ],
-        [
-            [
-                "U D R D' R' U' R D R' D' R D R' U R D' R' U'"
-            ],
-            [
-                "Keiichiro Taira (平佳一郎)",
-                "Yuki Tsuneyoshi (恒吉優紀)"
-            ],
-            [
-                "U D R D' R':[U',R D R' D' R D R']"
             ]
         ],
         [
@@ -5651,6 +5685,7 @@
                 "Bpaul Paul",
                 "Charlie Eggins",
                 "Dylan Wang",
+                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
@@ -5670,7 +5705,6 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "James Macdiarmid",
-                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -5732,6 +5766,7 @@
             [
                 "Ethan Pan",
                 "Heejun Kim (김희준)",
+                "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Michael Tripodi"
             ],
@@ -5746,7 +5781,6 @@
             [
                 "Andrew Tan Jing Bang",
                 "James Macdiarmid",
-                "Jonghyun Kim (김종현)",
                 "Shuto Ueno (上野柊斗)"
             ],
             [
@@ -5831,7 +5865,6 @@
                 "Bpaul Paul",
                 "Daniel Lin",
                 "James Macdiarmid",
-                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Xin Shi (石欣)",
@@ -5870,6 +5903,7 @@
                 "Daniel Lin",
                 "Deni Mintsaev",
                 "Ethan Pan",
+                "Jonghyun Kim (김종현)",
                 "Leonardo Ezequiel Cruz"
             ],
             [
@@ -6032,7 +6066,6 @@
                 "Ethan Pan",
                 "Jack Cai",
                 "James Macdiarmid",
-                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
@@ -6055,6 +6088,7 @@
                 "Bernhard Brodowsky",
                 "Christopher Morris",
                 "Daniel Lin",
+                "Jonghyun Kim (김종현)",
                 "Leonardo Ezequiel Cruz",
                 "Tommy Cherry"
             ],
@@ -6131,29 +6165,6 @@
     "KT": [
         [
             [
-                "U' R D R' U R U' R' U R D' R' U' R U R'"
-            ],
-            [
-                "Andrew Tan Jing Bang",
-                "Bernhard Brodowsky",
-                "Chenhao Sun (孙晨皓)",
-                "Daniel Lin",
-                "Ethan Pan",
-                "James Macdiarmid",
-                "Jonghyun Kim (김종현)",
-                "Kai Yamamoto (山本快)",
-                "Keiichiro Taira (平佳一郎)",
-                "Shuto Ueno (上野柊斗)",
-                "Yangyang Shen (沈炀炀)",
-                "Yifan Wang (王逸帆)",
-                "Yuki Tsuneyoshi (恒吉優紀)"
-            ],
-            [
-                "U' R:[D,R' U R U' R' U R]"
-            ]
-        ],
-        [
-            [
                 "U R U' R' D' R U R' U' R U R' D R U' R'"
             ],
             [
@@ -6165,12 +6176,35 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Jack Cai",
+                "Jonghyun Kim (김종현)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
                 "Xin Shi (石欣)"
             ],
             [
                 "U R U' R':[D',R U R' U' R U R']"
+            ]
+        ],
+        [
+            [
+                "U' R D R' U R U' R' U R D' R' U' R U R'"
+            ],
+            [
+                "Andrew Tan Jing Bang",
+                "Bernhard Brodowsky",
+                "Chenhao Sun (孙晨皓)",
+                "Daniel Lin",
+                "Ethan Pan",
+                "James Macdiarmid",
+                "Kai Yamamoto (山本快)",
+                "Keiichiro Taira (平佳一郎)",
+                "Shuto Ueno (上野柊斗)",
+                "Yangyang Shen (沈炀炀)",
+                "Yifan Wang (王逸帆)",
+                "Yuki Tsuneyoshi (恒吉優紀)"
+            ],
+            [
+                "U' R:[D,R' U R U' R' U R]"
             ]
         ],
         [
@@ -6211,7 +6245,6 @@
                 "Deni Mintsaev",
                 "Jack Cai",
                 "James Macdiarmid",
-                "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Tobias Peter",
@@ -6247,7 +6280,8 @@
             ],
             [
                 "Christopher Morris",
-                "Graham Siggins"
+                "Graham Siggins",
+                "Jonghyun Kim (김종현)"
             ],
             [
                 "U' D' R' D R:[U,R' D' R D R' D' R]"
@@ -6313,7 +6347,6 @@
                 "Daniel Lin",
                 "Dong Zhu (朱栋)",
                 "James Macdiarmid",
-                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Keiichiro Taira (平佳一郎)",
                 "Xin Shi (石欣)",
@@ -6334,6 +6367,7 @@
                 "Daniel Lin",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Leonardo Ezequiel Cruz"
             ],
             [
@@ -6439,13 +6473,13 @@
     "LNT": [
         [
             [
-                "U D' R U' R' D2 R U R' U' R2 D' R' U' R D R' U R' D'"
+                "U' R' U R' D R U' R' D' R2 U D' R U R' D2 R U' R' D'"
             ],
             [
-                "Andrew Tan Jing Bang",
-                "James Macdiarmid",
+                "Daniel Wallin",
                 "Jonghyun Kim (김종현)",
-                "Shuto Ueno (上野柊斗)"
+                "Keiichiro Taira (平佳一郎)",
+                "Michael Tripodi"
             ],
             [
                 "Not found."
@@ -6466,12 +6500,12 @@
         ],
         [
             [
-                "U' R' U R' D R U' R' D' R2 U D' R U R' D2 R U' R' D'"
+                "U D' R U' R' D2 R U R' U' R2 D' R' U' R D R' U R' D'"
             ],
             [
-                "Daniel Wallin",
-                "Keiichiro Taira (平佳一郎)",
-                "Michael Tripodi"
+                "Andrew Tan Jing Bang",
+                "James Macdiarmid",
+                "Shuto Ueno (上野柊斗)"
             ],
             [
                 "Not found."
@@ -6550,7 +6584,6 @@
                 "Ethan Pan",
                 "Jack Cai",
                 "James Macdiarmid",
-                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
@@ -6574,6 +6607,7 @@
                 "Christopher Morris",
                 "Daniel Lin",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Leonardo Ezequiel Cruz",
                 "Tommy Cherry"
             ],
@@ -6713,7 +6747,6 @@
                 "Daniel Lin",
                 "Ethan Pan",
                 "James Macdiarmid",
-                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Keiichiro Taira (平佳一郎)",
                 "Shuto Ueno (上野柊斗)",
@@ -6738,6 +6771,7 @@
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
                 "Jack Cai",
+                "Jonghyun Kim (김종현)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi"
             ],
@@ -6819,7 +6853,6 @@
                 "Dong Zhu (朱栋)",
                 "Jack Cai",
                 "James Macdiarmid",
-                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Keiichiro Taira (平佳一郎)",
                 "Yifan Wang (王逸帆)",
@@ -6853,6 +6886,7 @@
             [
                 "Christopher Morris",
                 "Graham Siggins",
+                "Jonghyun Kim (김종현)",
                 "Leonardo Ezequiel Cruz",
                 "Tommy Cherry"
             ],
