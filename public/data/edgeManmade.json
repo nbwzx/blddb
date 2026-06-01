@@ -278,7 +278,6 @@
                 "Ishaan Agrawal",
                 "Israel Fraga da Silva",
                 "Jack Cai",
-                "Jacob Tucker",
                 "Joey Gouly",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
@@ -311,6 +310,7 @@
             ],
             [
                 "Chenhao Sun (孙晨皓)",
+                "Jacob Tucker",
                 "Sebastiano Tronto",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -2672,17 +2672,6 @@
             [
                 "S' U:[S,U2]"
             ]
-        ],
-        [
-            [
-                "S R2 U' S' U2 S U' R2 S'"
-            ],
-            [
-                "Jacob Tucker"
-            ],
-            [
-                "S R2 U':[S',U2]"
-            ]
         ]
     ],
     "ADF": [
@@ -3321,7 +3310,6 @@
                 "Ethan Pan",
                 "Gavriel Johann Arcilla",
                 "Ishaan Agrawal",
-                "Jacob Tucker",
                 "Kai Yamamoto (山本快)",
                 "Keita Hayakawa (早川慶太)",
                 "Max Hilliard",
@@ -3476,6 +3464,17 @@
             ],
             [
                 "Not found."
+            ]
+        ],
+        [
+            [
+                "f U2 R S' R' U2 R S R' f'"
+            ],
+            [
+                "Jacob Tucker"
+            ],
+            [
+                "f:[U2,R S' R']"
             ]
         ]
     ],
@@ -5253,7 +5252,6 @@
                 "Hana Nakano",
                 "Ishaan Agrawal",
                 "Israel Fraga da Silva",
-                "Jacob Tucker",
                 "Kai Yamamoto (山本快)",
                 "Keiichiro Taira (平佳一郎)",
                 "Keita Hayakawa (早川慶太)",
@@ -5356,18 +5354,6 @@
         ],
         [
             [
-                "S' U L' E' L U2 L' E L U S"
-            ],
-            [
-                "Gavriel Johann Arcilla",
-                "Jacob Tucker"
-            ],
-            [
-                "S' U:[L' E' L,U2]"
-            ]
-        ],
-        [
-            [
                 "M2 u' M u2 M u' M2"
             ],
             [
@@ -5380,6 +5366,18 @@
         ],
         [
             [
+                "U R U R' U R' U' R2 U' R' U R' U R U"
+            ],
+            [
+                "Hyunseung Ko (고현승)",
+                "Jacob Tucker"
+            ],
+            [
+                "U2:[U' R U R',U R' U' R]"
+            ]
+        ],
+        [
+            [
                 "U2 R2 U' S' U2 S U' R2 U2"
             ],
             [
@@ -5387,6 +5385,17 @@
             ],
             [
                 "U2 R2 U':[S',U2]"
+            ]
+        ],
+        [
+            [
+                "S' U L' E' L U2 L' E L U S"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "S' U:[L' E' L,U2]"
             ]
         ],
         [
@@ -5464,28 +5473,6 @@
             ],
             [
                 "L' F':[L U' L',E']"
-            ]
-        ],
-        [
-            [
-                "S' U R' S R U2 R' S' R U S"
-            ],
-            [
-                "Jacob Tucker"
-            ],
-            [
-                "S' U:[R' S R,U2]"
-            ]
-        ],
-        [
-            [
-                "U R U R' U R' U' R2 U' R' U R' U R U"
-            ],
-            [
-                "Hyunseung Ko (고현승)"
-            ],
-            [
-                "U2:[U' R U R',U R' U' R]"
             ]
         ]
     ],
@@ -7480,7 +7467,6 @@
                 "Ishaan Agrawal",
                 "Israel Fraga da Silva",
                 "Jack Cai",
-                "Jacob Tucker",
                 "Joey Gouly",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
@@ -7513,6 +7499,7 @@
             [
                 "Chenhao Sun (孙晨皓)",
                 "Ethan Pan",
+                "Jacob Tucker",
                 "Sebastiano Tronto",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -15514,6 +15501,7 @@
                 "Jacob Tucker",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
+                "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
             [
@@ -15536,20 +15524,6 @@
         ],
         [
             [
-                "L' U' D' R' E R2 E' R' U D L"
-            ],
-            [
-                "Abhijeet Ghodgaonkar (अभिजीत घोडगावकर)",
-                "Joey Gouly",
-                "Martin Vædele Egdal",
-                "Tobias Peter"
-            ],
-            [
-                "L' U' D' R':[E,R2]"
-            ]
-        ],
-        [
-            [
                 "S M L' U' L U M2 U' L' U l S'"
             ],
             [
@@ -15559,6 +15533,19 @@
             ],
             [
                 "S M L':[U' L U,M2]"
+            ]
+        ],
+        [
+            [
+                "L' U' D' R' E R2 E' R' U D L"
+            ],
+            [
+                "Abhijeet Ghodgaonkar (अभिजीत घोडगावकर)",
+                "Joey Gouly",
+                "Martin Vædele Egdal"
+            ],
+            [
+                "L' U' D' R':[E,R2]"
             ]
         ],
         [
@@ -17202,7 +17189,6 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Ishaan Agrawal",
-                "Jacob Tucker",
                 "Kai Yamamoto (山本快)",
                 "Keita Hayakawa (早川慶太)",
                 "Max Hilliard",
@@ -17356,6 +17342,17 @@
             ],
             [
                 "Not found."
+            ]
+        ],
+        [
+            [
+                "f R S' R' U2 R S R' U2 f'"
+            ],
+            [
+                "Jacob Tucker"
+            ],
+            [
+                "f:[R S' R',U2]"
             ]
         ]
     ],
@@ -20683,6 +20680,7 @@
                 "Jacob Tucker",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
+                "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
             [
@@ -20703,20 +20701,6 @@
             ],
             [
                 "S l':[U' L U,M2]"
-            ]
-        ],
-        [
-            [
-                "L' U' D' R E R2 E' R U D L"
-            ],
-            [
-                "Abhijeet Ghodgaonkar (अभिजीत घोडगावकर)",
-                "Joey Gouly",
-                "Martin Vædele Egdal",
-                "Tobias Peter"
-            ],
-            [
-                "L' U' D' R:[E,R2]"
             ]
         ],
         [
@@ -20744,6 +20728,19 @@
             ],
             [
                 "R F:[D,R' S R]"
+            ]
+        ],
+        [
+            [
+                "L' U' D' R E R2 E' R U D L"
+            ],
+            [
+                "Abhijeet Ghodgaonkar (अभिजीत घोडगावकर)",
+                "Joey Gouly",
+                "Martin Vædele Egdal"
+            ],
+            [
+                "L' U' D' R:[E,R2]"
             ]
         ],
         [
@@ -48912,17 +48909,6 @@
             [
                 "U D':[S,R' B' R]"
             ]
-        ],
-        [
-            [
-                "U R M U R' U' M' U R U' R' U'"
-            ],
-            [
-                "Hyunseung Ko (고현승)"
-            ],
-            [
-                "U R:[M,U R' U']"
-            ]
         ]
     ],
     "CEO": [
@@ -55424,17 +55410,6 @@
             ],
             [
                 "U D':[R' B' R,S]"
-            ]
-        ],
-        [
-            [
-                "U R U R' U' M U R U' R' M' U'"
-            ],
-            [
-                "Hyunseung Ko (고현승)"
-            ],
-            [
-                "U R:[U R' U',M]"
             ]
         ]
     ],
@@ -78307,7 +78282,6 @@
                 "Ishaan Agrawal",
                 "Israel Fraga da Silva",
                 "Jack Cai",
-                "Jacob Tucker",
                 "Joey Gouly",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
@@ -79599,21 +79573,6 @@
         ],
         [
             [
-                "R E' R2 E R U' R' E' R2 E R' U"
-            ],
-            [
-                "Anto Kam (甘浩東)",
-                "Keiichiro Taira (平佳一郎)",
-                "Masato Fujiwara (藤原正人)",
-                "Sebastiano Tronto",
-                "Shuto Ueno (上野柊斗)"
-            ],
-            [
-                "[R E' R2 E R,U']"
-            ]
-        ],
-        [
-            [
                 "R' E R2 E' R' U' R E R2 E' R U"
             ],
             [
@@ -79625,6 +79584,21 @@
             ],
             [
                 "[R' E R2 E' R',U']"
+            ]
+        ],
+        [
+            [
+                "R E' R2 E R U' R' E' R2 E R' U"
+            ],
+            [
+                "Anto Kam (甘浩東)",
+                "Keiichiro Taira (平佳一郎)",
+                "Masato Fujiwara (藤原正人)",
+                "Sebastiano Tronto",
+                "Shuto Ueno (上野柊斗)"
+            ],
+            [
+                "[R E' R2 E R,U']"
             ]
         ],
         [
@@ -86942,7 +86916,6 @@
                 "Chenhao Sun (孙晨皓)",
                 "Dhruv Ambastha",
                 "Graham Siggins",
-                "Hyunseung Ko (고현승)",
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
@@ -86983,6 +86956,17 @@
             ],
             [
                 "D':[R E R',U]"
+            ]
+        ],
+        [
+            [
+                "D' R' E' R U R' E R U' D"
+            ],
+            [
+                "Hyunseung Ko (고현승)"
+            ],
+            [
+                "D':[R' E' R,U]"
             ]
         ],
         [
@@ -96573,7 +96557,6 @@
                 "Chenhao Sun (孙晨皓)",
                 "Dhruv Ambastha",
                 "Graham Siggins",
-                "Hyunseung Ko (고현승)",
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
@@ -96614,6 +96597,17 @@
             ],
             [
                 "D':[U,R E R']"
+            ]
+        ],
+        [
+            [
+                "U D' R' E' R U' R' E R D"
+            ],
+            [
+                "Hyunseung Ko (고현승)"
+            ],
+            [
+                "D':[U,R' E' R]"
             ]
         ],
         [
@@ -97193,23 +97187,6 @@
     "GNS": [
         [
             [
-                "l' U M' U2 M U l"
-            ],
-            [
-                "Andrew Tan Jing Bang",
-                "Anto Kam (甘浩東)",
-                "Elliott Kobelansky",
-                "Graham Siggins",
-                "Jonghyun Kim (김종현)",
-                "Keiichiro Taira (平佳一郎)",
-                "Yuki Tsuneyoshi (恒吉優紀)"
-            ],
-            [
-                "l' U:[M',U2]"
-            ]
-        ],
-        [
-            [
                 "R' B R2 E R2 E' B' R"
             ],
             [
@@ -97223,6 +97200,23 @@
             ],
             [
                 "R' B:[R2,E]"
+            ]
+        ],
+        [
+            [
+                "l' U M' U2 M U l"
+            ],
+            [
+                "Andrew Tan Jing Bang",
+                "Anto Kam (甘浩東)",
+                "Elliott Kobelansky",
+                "Graham Siggins",
+                "Jonghyun Kim (김종현)",
+                "Keiichiro Taira (平佳一郎)",
+                "Yuki Tsuneyoshi (恒吉優紀)"
+            ],
+            [
+                "l' U:[M',U2]"
             ]
         ]
     ],
@@ -102983,23 +102977,6 @@
     "GSN": [
         [
             [
-                "l' U' M' U2 M U' l"
-            ],
-            [
-                "Andrew Tan Jing Bang",
-                "Anto Kam (甘浩東)",
-                "Elliott Kobelansky",
-                "Graham Siggins",
-                "Jonghyun Kim (김종현)",
-                "Keiichiro Taira (平佳一郎)",
-                "Yuki Tsuneyoshi (恒吉優紀)"
-            ],
-            [
-                "l' U':[M',U2]"
-            ]
-        ],
-        [
-            [
                 "R' B E R2 E' R2 B' R"
             ],
             [
@@ -103013,6 +102990,23 @@
             ],
             [
                 "R' B:[E,R2]"
+            ]
+        ],
+        [
+            [
+                "l' U' M' U2 M U' l"
+            ],
+            [
+                "Andrew Tan Jing Bang",
+                "Anto Kam (甘浩東)",
+                "Elliott Kobelansky",
+                "Graham Siggins",
+                "Jonghyun Kim (김종현)",
+                "Keiichiro Taira (平佳一郎)",
+                "Yuki Tsuneyoshi (恒吉優紀)"
+            ],
+            [
+                "l' U':[M',U2]"
             ]
         ]
     ],
@@ -107957,23 +107951,6 @@
     "GYT": [
         [
             [
-                "U R' U' R' E R U R' E' R2 U'"
-            ],
-            [
-                "Andrew Tan Jing Bang",
-                "Anto Kam (甘浩東)",
-                "Elliott Kobelansky",
-                "Graham Siggins",
-                "Jonghyun Kim (김종현)",
-                "Keiichiro Taira (平佳一郎)",
-                "Yuki Tsuneyoshi (恒吉優紀)"
-            ],
-            [
-                "U R':[U',R' E R]"
-            ]
-        ],
-        [
-            [
                 "R' u' R U R' E' R U' R' U R"
             ],
             [
@@ -107987,6 +107964,23 @@
             ],
             [
                 "R' u':[R U R',E']"
+            ]
+        ],
+        [
+            [
+                "U R' U' R' E R U R' E' R2 U'"
+            ],
+            [
+                "Andrew Tan Jing Bang",
+                "Anto Kam (甘浩東)",
+                "Elliott Kobelansky",
+                "Graham Siggins",
+                "Jonghyun Kim (김종현)",
+                "Keiichiro Taira (平佳一郎)",
+                "Yuki Tsuneyoshi (恒吉優紀)"
+            ],
+            [
+                "U R':[U',R' E R]"
             ]
         ]
     ],
