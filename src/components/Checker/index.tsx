@@ -215,6 +215,12 @@ const Checker = () => {
         }
         // xcenter is complex, m and M are both used.
       }
+      if (
+        converter.positionToCodeType(buffer) === "tcenter" ||
+        converter.positionToCodeType(buffer) === "midge"
+      ) {
+        is5bld = true;
+      }
       if (!is5bld) {
         const replacements: [string, string][] = [
           ["3Rw", "4Rw"],
