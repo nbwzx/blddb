@@ -254,6 +254,17 @@
             [
                 "Not found."
             ]
+        ],
+        [
+            [
+                "R' F U' R S R' U F' R U' S' U"
+            ],
+            [
+                "Jacob Tucker"
+            ],
+            [
+                "U':[U R' F U' R,S]"
+            ]
         ]
     ],
     "AI": [
@@ -2715,6 +2726,17 @@
             [
                 "Not found."
             ]
+        ],
+        [
+            [
+                "U R' F U' R S R' U F' R U' S'"
+            ],
+            [
+                "Jacob Tucker"
+            ],
+            [
+                "[U R' F U' R,S]"
+            ]
         ]
     ],
     "GE": [
@@ -3835,17 +3857,6 @@
             [
                 "L' E':[L2,E L' S' L' E']"
             ]
-        ],
-        [
-            [
-                "f' U R E R' U2 R E' R' S R2 S' R2 U f"
-            ],
-            [
-                "Jacob Tucker"
-            ],
-            [
-                "Not found."
-            ]
         ]
     ],
     "KS": [
@@ -4774,6 +4785,7 @@
                 "Ethan Pan",
                 "Ishaan Agrawal",
                 "Israel Fraga da Silva",
+                "Jacob Tucker",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Michael Tripodi",
@@ -4822,17 +4834,6 @@
             ],
             [
                 "R' M' S2 R:[U,R' S2 R2 S' R']"
-            ]
-        ],
-        [
-            [
-                "r S' R' U R S R2 S2 R U' R' S2 R M"
-            ],
-            [
-                "Jacob Tucker"
-            ],
-            [
-                "r S' R':[U,R S R2 S2 R]"
             ]
         ]
     ],
@@ -5470,6 +5471,7 @@
                 "Graham Siggins",
                 "Ishaan Agrawal",
                 "Israel Fraga da Silva",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -5498,18 +5500,6 @@
         ],
         [
             [
-                "R' M' S' R U R' S R2 S2 R' U' R S2 r'"
-            ],
-            [
-                "Jacob Tucker",
-                "Yifan Wang (王逸帆)"
-            ],
-            [
-                "R' M' S' R:[U,R' S R2 S2 R']"
-            ]
-        ],
-        [
-            [
                 "l' E L U L' E' L2 E2 L' U' L E2 M L'"
             ],
             [
@@ -5518,6 +5508,17 @@
             ],
             [
                 "l' E L:[U,L' E' L2 E2 L']"
+            ]
+        ],
+        [
+            [
+                "R' M' S' R U R' S R2 S2 R' U' R S2 r'"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
+            ],
+            [
+                "R' M' S' R:[U,R' S R2 S2 R']"
             ]
         ],
         [
