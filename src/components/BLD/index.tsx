@@ -39,7 +39,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
     is3bld = false;
   }
 
-  const availableModes = is3bld ? ["nightmare", "manmade"] : ["manmade"];
+  const availableModes = is3bld ? ["manmade", "nightmare"] : ["manmade"];
   const defaultMode = availableModes[0];
   const [manmade, setManmade] = useState({});
   const [nightmare, setNightmare] = useState({});

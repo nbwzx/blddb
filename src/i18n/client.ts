@@ -10,6 +10,8 @@ import resourcesToBackend from "i18next-resources-to-backend";
 import LanguageDetector from "i18next-browser-languagedetector";
 import { getOptions, supportedLocales } from "./settings";
 import { useLocale } from "../app/localeProvider";
+import codeConverter from "@/utils/codeConverter";
+import bigbldCodeConverter from "@/utils/bigbldCodeConverter";
 
 const runsOnServerSide = typeof window === "undefined";
 const convertDetectedLanguage = (lng: string) => {
@@ -42,6 +44,20 @@ i18next
     },
     preload: runsOnServerSide ? supportedLocales : [],
   });
+
+if (!runsOnServerSide) {
+  if (localStorage.getItem("code") === null) {
+    const browserLanguage = navigator.language;
+    const isChinese = browserLanguage.startsWith("zh");
+    if (!isChinese) {
+      localStorage.setItem("code", codeConverter.letteringSchemes["Speffz"]);
+      localStorage.setItem(
+        "bigbldCode",
+        bigbldCodeConverter.letteringSchemes["Speffz"],
+      );
+    }
+  }
+}
 
 export function useTranslation() {
   const lng = useLocale();
