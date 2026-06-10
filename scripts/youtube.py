@@ -179,8 +179,12 @@ def main():
 
         video_list = []
         for video in videos:
-            video_list.append([video['title']['runs'][0]['text'],
-                               "https://www.youtube.com/watch?v=" + video['videoId']])
+            video_list.append(
+                [
+                    video["metadata"]["lockupMetadataViewModel"]["title"]["content"],
+                    f"https://www.youtube.com/watch?v={video['contentId']}",
+                ]
+            )
 
         logger.info(name)
         logger.info("Total videos: " + str(len(video_list)))
