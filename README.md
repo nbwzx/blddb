@@ -15,6 +15,34 @@ Version 2 ([v2 branch](https://github.com/nbwzx/blddb/tree/v2)): The in-developm
 Version 1 ([main branch](https://github.com/nbwzx/blddb/tree/main)): The original version of BLDDB, which is the stable version. It is built with pure HTML5 and CSS3. It is currently deployed on [blddb.net](https://blddb.net).
 
 
+## Local Development
+
+### Prerequisites
+- Node.js and npm
+
+### Quick start
+```bash
+# Clone the repository
+git clone https://github.com/nbwzx/blddb.git
+
+# Navigate to project directory
+cd blddb
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+Then open http://localhost:3000
+
+### Commands
+- `npm run dev` – Start development server
+- `npm run build` – Production build
+- `npm run start` – Run production build
+- `npm run lint` – ESLint + Prettier
+
+
 ## License GPL-3.0
 
     Copyright (C) 2022-2026 Zixing Wang
