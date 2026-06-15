@@ -12527,15 +12527,6 @@
     ],
     "GAW": [
         [
-            "r U2 r' U' l2 U r U' l2 U' r'",
-            [
-                "Stanley Chapel",
-                "Yuki Tsuneyoshi (恒吉優紀)",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "r U:[U r' U',l2]"
-        ],
-        [
             "Rw' U2 r U' l2 U r' U' l2 U' Rw",
             [
                 "Marcell Endrey",
@@ -12543,6 +12534,15 @@
                 "Simon Praschl"
             ],
             "Rw' U:[U r U',l2]"
+        ],
+        [
+            "r U2 r' U' l2 U r U' l2 U' r'",
+            [
+                "Stanley Chapel",
+                "Yuki Tsuneyoshi (恒吉優紀)",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "r U:[U r' U',l2]"
         ],
         [
             "r' U2 r U' l2 U r' U' l2 U' r",
@@ -18932,15 +18932,6 @@
     ],
     "GWA": [
         [
-            "r U l2 U r' U' l2 U r U2 r'",
-            [
-                "Stanley Chapel",
-                "Yuki Tsuneyoshi (恒吉優紀)",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "r U:[l2,U r' U']"
-        ],
-        [
             "Rw' U l2 U r U' l2 U r' U2 Rw",
             [
                 "Marcell Endrey",
@@ -18948,6 +18939,15 @@
                 "Simon Praschl"
             ],
             "Rw' U:[l2,U r U']"
+        ],
+        [
+            "r U l2 U r' U' l2 U r U2 r'",
+            [
+                "Stanley Chapel",
+                "Yuki Tsuneyoshi (恒吉優紀)",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "r U:[l2,U r' U']"
         ],
         [
             "r' U l2 U r U' l2 U r' U2 r",
