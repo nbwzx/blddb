@@ -147,6 +147,7 @@
             [
                 "Christopher Morris",
                 "Howie Craig",
+                "Jacob Tucker",
                 "Leonardo Ezequiel Cruz",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
@@ -159,7 +160,6 @@
             [
                 "Daniel Lin",
                 "Daniel Wallin",
-                "Jacob Tucker",
                 "Ryan Eckersley",
                 "Simon Praschl"
             ],
@@ -1001,6 +1001,7 @@
                 "Hana Nakano",
                 "Howie Craig",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -1032,7 +1033,6 @@
                 "Anto Kam (甘浩東)",
                 "Daniel Lin",
                 "Gavriel Johann Arcilla",
-                "Jacob Tucker",
                 "Kai Yamamoto (山本快)",
                 "Oliver Fritz",
                 "Ziyi Xu (徐梓翼)"
@@ -1196,7 +1196,6 @@
                 "Ethan Pan",
                 "Gavriel Johann Arcilla",
                 "Hyunseung Ko (고현승)",
-                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -1225,6 +1224,7 @@
             "r U R u R' U2 R u' R' U r'",
             [
                 "Howie Craig",
+                "Jacob Tucker",
                 "Michael Tripodi"
             ],
             "r U:[R u R',U2]"
@@ -4212,6 +4212,7 @@
             [
                 "Christopher Morris",
                 "Howie Craig",
+                "Jacob Tucker",
                 "Leonardo Ezequiel Cruz",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
@@ -4224,7 +4225,6 @@
             [
                 "Daniel Lin",
                 "Daniel Wallin",
-                "Jacob Tucker",
                 "Ryan Eckersley",
                 "Simon Praschl"
             ],
@@ -6167,7 +6167,6 @@
                 "Dong Zhu (朱栋)",
                 "Hyunseung Ko (고현승)",
                 "Israel Fraga da Silva",
-                "Jacob Tucker",
                 "Oliver Fritz",
                 "Ryan Eckersley",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
@@ -6197,6 +6196,15 @@
             "R':[U' R' U,r']"
         ],
         [
+            "S' Rw U R' U' r' U R U' R' S",
+            [
+                "Gavriel Johann Arcilla",
+                "Howie Craig",
+                "Jacob Tucker"
+            ],
+            "S' R:[r,U R' U']"
+        ],
+        [
             "R U' R U r' U' R' U r R'",
             [
                 "Christopher Morris",
@@ -6204,14 +6212,6 @@
                 "Ethan Pan"
             ],
             "R:[U' R U,r']"
-        ],
-        [
-            "S' Rw U R' U' r' U R U' R' S",
-            [
-                "Gavriel Johann Arcilla",
-                "Howie Craig"
-            ],
-            "S' R:[r,U R' U']"
         ],
         [
             "U D' f R' F' R f' R' F R D U'",
@@ -7756,14 +7756,6 @@
             "U R' F':[R f R',F']"
         ],
         [
-            "l2 U' R' u' R U2 R' u R U' l2",
-            [
-                "Anto Kam (甘浩東)",
-                "Jacob Tucker"
-            ],
-            "l2 U':[R' u' R,U2]"
-        ],
-        [
             "Lw U D L' u' L D' L' u L U' Lw'",
             [
                 "Michael Tripodi"
@@ -7783,6 +7775,13 @@
                 "Xin Shi (石欣)"
             ],
             "L D:[r,U' R2 U]"
+        ],
+        [
+            "l2 U' R' u' R U2 R' u R U' l2",
+            [
+                "Anto Kam (甘浩東)"
+            ],
+            "l2 U':[R' u' R,U2]"
         ],
         [
             "Uw L U l2 U' L' U l2 U' Uw'",
@@ -13176,7 +13175,6 @@
                 "Hana Nakano",
                 "Howie Craig",
                 "Hyunseung Ko (고현승)",
-                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Oliver Fritz",
@@ -13191,6 +13189,7 @@
             "Uw' R U r2 U' R' U r2 u",
             [
                 "Gavriel Johann Arcilla",
+                "Jacob Tucker",
                 "Michael Tripodi",
                 "Ryan Eckersley",
                 "Simon Praschl"
@@ -14552,7 +14551,6 @@
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
-                "Simon Praschl",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "U' M:[R' u' R,U]"
@@ -14593,6 +14591,13 @@
                 "Xin Shi (石欣)"
             ],
             "L:[l U2 l',D']"
+        ],
+        [
+            "Lw U L' u L U2 L' u' L U Lw'",
+            [
+                "Simon Praschl"
+            ],
+            "Lw U:[L' u L,U2]"
         ],
         [
             "4Rw U' L' U' l' U L U' l U2 4Rw'",
@@ -15080,7 +15085,6 @@
                 "Dong Zhu (朱栋)",
                 "Hyunseung Ko (고현승)",
                 "Israel Fraga da Silva",
-                "Jacob Tucker",
                 "Oliver Fritz",
                 "Ryan Eckersley",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
@@ -15114,7 +15118,8 @@
             [
                 "Ethan Pan",
                 "Gavriel Johann Arcilla",
-                "Howie Craig"
+                "Howie Craig",
+                "Jacob Tucker"
             ],
             "S' R:[U R' U',r]"
         ],
@@ -15777,20 +15782,20 @@
             "D:[U L' U',r2]"
         ],
         [
-            "R2 U' R d2 R' U R d2 R",
-            [
-                "Oliver Fritz",
-                "Ryan Eckersley"
-            ],
-            "R':[R' U' R,d2]"
-        ],
-        [
             "R' F R U' R u' R' U R u R2 F' R",
             [
                 "Israel Fraga da Silva",
                 "Simon Praschl"
             ],
             "R' F R:[U',R u' R']"
+        ],
+        [
+            "R2 U' R d2 R' U R d2 R",
+            [
+                "Oliver Fritz",
+                "Ryan Eckersley"
+            ],
+            "R':[R' U' R,d2]"
         ],
         [
             "Dw r U R U' r2 U R' U' r Dw'",
@@ -18529,6 +18534,7 @@
                 "Hana Nakano",
                 "Howie Craig",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Leonardo Ezequiel Cruz",
@@ -18560,7 +18566,6 @@
                 "Anto Kam (甘浩東)",
                 "Daniel Lin",
                 "Gavriel Johann Arcilla",
-                "Jacob Tucker",
                 "Kai Yamamoto (山本快)",
                 "Oliver Fritz",
                 "Ziyi Xu (徐梓翼)"
@@ -21307,14 +21312,6 @@
             "U R' F':[F',R f R']"
         ],
         [
-            "l2 U R' u' R U2 R' u R U l2",
-            [
-                "Anto Kam (甘浩東)",
-                "Jacob Tucker"
-            ],
-            "l2 U:[R' u' R,U2]"
-        ],
-        [
             "Lw U L' u' L D L' u L D' U' Lw'",
             [
                 "Michael Tripodi"
@@ -21334,6 +21331,13 @@
                 "Xin Shi (石欣)"
             ],
             "L D:[U' R2 U,r]"
+        ],
+        [
+            "l2 U R' u' R U2 R' u R U l2",
+            [
+                "Anto Kam (甘浩東)"
+            ],
+            "l2 U:[R' u' R,U2]"
         ],
         [
             "Uw U l2 U' L U l2 U' L' Uw'",
@@ -21628,7 +21632,6 @@
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
-                "Simon Praschl",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "U' M:[U,R' u' R]"
@@ -21661,6 +21664,13 @@
                 "Sebastiano Tronto"
             ],
             "Uw':[U' l U,R]"
+        ],
+        [
+            "Lw U' L' u L U2 L' u' L U' Lw'",
+            [
+                "Simon Praschl"
+            ],
+            "Lw U':[L' u L,U2]"
         ],
         [
             "Uw U l U' L U l' U' L' Uw'",
@@ -22317,7 +22327,6 @@
                 "Ethan Pan",
                 "Gavriel Johann Arcilla",
                 "Hyunseung Ko (고현승)",
-                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -22346,6 +22355,7 @@
             "r U' R u R' U2 R u' R' U' r'",
             [
                 "Howie Craig",
+                "Jacob Tucker",
                 "Michael Tripodi"
             ],
             "r U':[R u R',U2]"
@@ -24296,6 +24306,7 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Howie Craig",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -24313,7 +24324,6 @@
                 "Gavriel Johann Arcilla",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
-                "Jacob Tucker",
                 "Kai Yamamoto (山本快)",
                 "Oliver Fritz",
                 "Ryan Eckersley",
