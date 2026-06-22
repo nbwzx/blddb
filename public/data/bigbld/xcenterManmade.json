@@ -6595,21 +6595,20 @@
             "U' u:[l2,U' r' U]"
         ],
         [
-            "D' r' u r' U2 r u' r' U2 r2 D",
-            [
-                "Hana Nakano",
-                "Jacob Tucker",
-                "Michael Tripodi"
-            ],
-            "D' r':[u,r' U2 r]"
-        ],
-        [
             "D' Rw' u r' U2 r u' r' U2 r Rw D",
             [
                 "Graham Siggins",
                 "Sebastiano Tronto"
             ],
             "D' Rw':[u,r' U2 r]"
+        ],
+        [
+            "D' r' u r' U2 r u' r' U2 r2 D",
+            [
+                "Hana Nakano",
+                "Michael Tripodi"
+            ],
+            "D' r':[u,r' U2 r]"
         ],
         [
             "U D l' u' l' U' l u l' U l2 D' U'",
@@ -7496,13 +7495,6 @@
                 "Michael Tripodi"
             ],
             "U D l:[d',l U' l']"
-        ],
-        [
-            "D' r d r U2 r' d' r U2 r2 D",
-            [
-                "Jacob Tucker"
-            ],
-            "D' r:[d,r U2 r']"
         ]
     ],
     "DMP": [
@@ -7588,13 +7580,6 @@
                 "Kevin Matthews"
             ],
             "R y:[r2,U' l U]"
-        ],
-        [
-            "r d r U2 r' d' r U2 r2",
-            [
-                "Jacob Tucker"
-            ],
-            "r:[d,r U2 r']"
         ]
     ],
     "DMS": [
@@ -7766,13 +7751,20 @@
             "L d' r' U r d2 r' U' r d' L'",
             [
                 "Adrian Dębski",
-                "Jacob Tucker",
                 "Michael Tripodi",
                 "Stanley Chapel",
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
             "L d':[r' U r,d2]"
+        ],
+        [
+            "Rw Uw' Rw' r' d r U' r' d' r U Rw Uw Rw'",
+            [
+                "Jacob Tucker",
+                "Simon Praschl"
+            ],
+            "Rw Uw' Rw':[r' d r,U']"
         ],
         [
             "z U Uw r Uw' l2 Uw r' Uw' l2 U' z'",
@@ -7789,13 +7781,6 @@
                 "Sebastiano Tronto"
             ],
             "R' d:[r U2 r',d2]"
-        ],
-        [
-            "Rw Uw' Rw' r' d r U' r' d' r U Rw Uw Rw'",
-            [
-                "Simon Praschl"
-            ],
-            "Rw Uw' Rw':[r' d r,U']"
         ],
         [
             "R' y' r U' r' d2 r U r' d2 y R",
@@ -8269,21 +8254,20 @@
             "U2 u:[r',U l2 U']"
         ],
         [
-            "D' r2 U2 r u r' U2 r u' r D",
-            [
-                "Hana Nakano",
-                "Jacob Tucker",
-                "Michael Tripodi"
-            ],
-            "D' r':[r' U2 r,u]"
-        ],
-        [
             "D' Rw' r' U2 r u r' U2 r u' Rw D",
             [
                 "Graham Siggins",
                 "Sebastiano Tronto"
             ],
             "D' Rw':[r' U2 r,u]"
+        ],
+        [
+            "D' r2 U2 r u r' U2 r u' r D",
+            [
+                "Hana Nakano",
+                "Michael Tripodi"
+            ],
+            "D' r':[r' U2 r,u]"
         ],
         [
             "U D l2 U' l u' l' U l u l D' U'",
@@ -8339,7 +8323,7 @@
             "4Uw':[U' r U,l2]"
         ],
         [
-            "d U2 r U l2 U' r' U l2 d' U",
+            "U2 d r U l2 U' r' U l2 d' U",
             [
                 "Jacob Tucker",
                 "Stanley Chapel",
@@ -8354,13 +8338,6 @@
                 "Michael Tripodi"
             ],
             "U D l:[l U' l',d']"
-        ],
-        [
-            "D' r2 U2 r' d r U2 r' d' r' D",
-            [
-                "Jacob Tucker"
-            ],
-            "D' r:[r U2 r',d]"
         ]
     ],
     "DON": [
@@ -8460,7 +8437,7 @@
     ],
     "DOS": [
         [
-            "d' U2 r U l2 U' r' U l2 d U",
+            "U2 d' r U l2 U' r' U l2 U d",
             [
                 "Jacob Tucker",
                 "Michael Tripodi",
@@ -8929,7 +8906,7 @@
     ],
     "DPZ": [
         [
-            "Rw' U l U' l' d l U l' d' U' Rw",
+            "Rw' U l U' l' d l U l' U' d' Rw",
             [
                 "Jacob Tucker",
                 "Simon Praschl",
@@ -9501,13 +9478,6 @@
                 "Kevin Matthews"
             ],
             "R y:[U' l U,r2]"
-        ],
-        [
-            "r2 U2 r' d r U2 r' d' r'",
-            [
-                "Jacob Tucker"
-            ],
-            "r:[r U2 r',d]"
         ]
     ],
     "DRN": [
@@ -9576,7 +9546,7 @@
             "4Uw':[l',U' r2 U]"
         ],
         [
-            "d U' l' U' r2 U l U' r2 d' U2",
+            "U' d l' U' r2 U l U' r2 U2 d'",
             [
                 "Jacob Tucker",
                 "Stanley Chapel",
@@ -9715,7 +9685,7 @@
     ],
     "DRZ": [
         [
-            "d' U' l' U' r2 U l U' r2 d U2",
+            "U' d' l' U' r2 U l U' r2 U2 d",
             [
                 "Jacob Tucker",
                 "Michael Tripodi",
@@ -11792,13 +11762,20 @@
             "L d r' U r d2 r' U' r d L'",
             [
                 "Adrian Dębski",
-                "Jacob Tucker",
                 "Michael Tripodi",
                 "Stanley Chapel",
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
             "L d:[r' U r,d2]"
+        ],
+        [
+            "Rw Uw' Rw' U' r' d r U r' d' r Rw Uw Rw'",
+            [
+                "Jacob Tucker",
+                "Simon Praschl"
+            ],
+            "Rw Uw' Rw':[U',r' d r]"
         ],
         [
             "z U l2 Uw r Uw' l2 Uw r' Uw' U' z'",
@@ -11815,13 +11792,6 @@
                 "Sebastiano Tronto"
             ],
             "R' d':[r U2 r',d2]"
-        ],
-        [
-            "Rw Uw' Rw' U' r' d r U r' d' r Rw Uw Rw'",
-            [
-                "Simon Praschl"
-            ],
-            "Rw Uw' Rw':[U',r' d r]"
         ],
         [
             "R' y' d2 r U' r' d2 r U r' y R",
@@ -11908,7 +11878,7 @@
     ],
     "DZP": [
         [
-            "Rw' U d l U' l' d' l U l' U' Rw",
+            "Rw' d U l U' l' d' l U l' U' Rw",
             [
                 "Jacob Tucker",
                 "Simon Praschl",
@@ -21734,7 +21704,7 @@
     ],
     "HQD": [
         [
-            "Dw U' l' U' r' U l U' r Dw' U2",
+            "U' Dw l' U' r' U l U' r U2 Dw'",
             [
                 "Jacob Tucker",
                 "Michael Tripodi",
@@ -22845,7 +22815,6 @@
         [
             "D' r2 U r' u r U' r' u' r' D",
             [
-                "Jacob Tucker",
                 "Michael Tripodi"
             ],
             "D' r:[r U r',u]"
@@ -23015,7 +22984,6 @@
             [
                 "Adrian Dębski",
                 "Graham Siggins",
-                "Jacob Tucker",
                 "Simon Praschl",
                 "Timo Norrkniivilä"
             ],
@@ -23521,13 +23489,6 @@
             "D2:[l2,Uw r Uw']"
         ],
         [
-            "D' r u r U r' u' r U' r2 D",
-            [
-                "Jacob Tucker"
-            ],
-            "D' r:[u,r U r']"
-        ],
-        [
             "R' y r2 U' l' U r2 U' l 4Dw R",
             [
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
@@ -23728,7 +23689,6 @@
             [
                 "Adrian Dębski",
                 "Graham Siggins",
-                "Jacob Tucker",
                 "Simon Praschl",
                 "Timo Norrkniivilä"
             ],
@@ -46856,7 +46816,7 @@
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
-            "4Uw:[r',U' l' U]"
+            "E':[U r' U',l']"
         ],
         [
             "y' l' U' r' U l U' r U y",
