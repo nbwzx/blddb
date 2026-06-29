@@ -7,6 +7,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
@@ -50,6 +51,13 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "L:[m,U L' U']"
+        ],
+        [
+            "S Rw U R' U' m' U R U' 3Rw' S'",
+            [
+                "Jacob Tucker"
+            ],
+            "S Rw:[U R' U',m']"
         ]
     ],
     "ACI": [
@@ -61,6 +69,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -91,7 +100,8 @@
             "U' Rw U' R' U m' U' R U 3Rw' U",
             [
                 "Daniel Wallin",
-                "Hyunseung Ko (고현승)"
+                "Hyunseung Ko (고현승)",
+                "Jacob Tucker"
             ],
             "U' Rw:[U' R' U,m']"
         ],
@@ -141,6 +151,13 @@
                 "Graham Siggins"
             ],
             "4Rw':[U' m' U,L2]"
+        ],
+        [
+            "S m U' m' U2 m U' m' S'",
+            [
+                "Jacob Tucker"
+            ],
+            "S m U':[m',U2]"
         ]
     ],
     "ACL": [
@@ -152,6 +169,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -214,6 +232,13 @@
                 "Hyunseung Ko (고현승)"
             ],
             "U' Rw:[U' R' U,m2]"
+        ],
+        [
+            "4Fw R U' m U R' U' m' U 4Fw'",
+            [
+                "Jacob Tucker"
+            ],
+            "4Fw:[R,U' m U]"
         ]
     ],
     "ACN": [
@@ -224,6 +249,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -254,6 +280,7 @@
             [
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Ryan Eckersley",
@@ -295,6 +322,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -315,6 +343,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -363,6 +392,13 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "[U,L e' L']"
+        ],
+        [
+            "4Fw R U m' U' R' U m U' 4Fw'",
+            [
+                "Jacob Tucker"
+            ],
+            "4Fw:[R,U m' U']"
         ]
     ],
     "ACS": [
@@ -383,6 +419,7 @@
         [
             "l m U' m' U L' U' m U L m' l'",
             [
+                "Jacob Tucker",
                 "Michael Tripodi",
                 "Ryan Eckersley"
             ],
@@ -420,20 +457,21 @@
             "U' Lw:[U,m D m']"
         ],
         [
+            "U' R' e R U' R' e' R U2",
+            [
+                "Jacob Tucker",
+                "Kai Yamamoto (山本快)",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "U':[R' e R,U']"
+        ],
+        [
             "z' L' U' m' U L' U' m U L2 z",
             [
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)"
             ],
             "z' L':[U' m' U,L']"
-        ],
-        [
-            "U' R' e R U' R' e' R U2",
-            [
-                "Kai Yamamoto (山本快)",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "U':[R' e R,U']"
         ]
     ],
     "ACW": [
@@ -451,6 +489,15 @@
             "4Rw':[U' m' U,L]"
         ],
         [
+            "l m U' m' U L U' m U 3Lw'",
+            [
+                "Jacob Tucker",
+                "Michael Tripodi",
+                "Ryan Eckersley"
+            ],
+            "l m:[U' m' U,L]"
+        ],
+        [
             "M U' m' U L U' m U 4Lw'",
             [
                 "Jonghyun Kim (김종현)",
@@ -458,14 +505,6 @@
                 "Kevin Matthews"
             ],
             "M:[U' m' U,L]"
-        ],
-        [
-            "l m U' m' U L U' m U 3Lw'",
-            [
-                "Michael Tripodi",
-                "Ryan Eckersley"
-            ],
-            "l m:[U' m' U,L]"
         ]
     ],
     "ACX": [
@@ -491,6 +530,14 @@
             "L' D:[m',U L U']"
         ],
         [
+            "U' R e' R' U' R e R' U2",
+            [
+                "Jacob Tucker",
+                "Kai Yamamoto (山本快)"
+            ],
+            "U':[R e' R',U']"
+        ],
+        [
             "z' L' U m U' L' U m' U' L2 z",
             [
                 "Hana Nakano",
@@ -504,13 +551,6 @@
                 "Ryan Eckersley"
             ],
             "U' Lw':[U,m D m']"
-        ],
-        [
-            "U' R e' R' U' R e R' U2",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "U':[R e' R',U']"
         ]
     ],
     "ACY": [
@@ -519,6 +559,7 @@
             [
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -559,6 +600,7 @@
                 "Hana Nakano",
                 "Hill Pong Yong Feng",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -592,6 +634,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -618,6 +661,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -650,6 +694,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
@@ -702,6 +747,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -727,6 +773,7 @@
                 "Daniel Wallin",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
@@ -747,6 +794,16 @@
     ],
     "ADL": [
         [
+            "S' D' m D2 m' D' S",
+            [
+                "Jacob Tucker",
+                "Michael Tripodi",
+                "Ryan Eckersley",
+                "Yuki Tsuneyoshi (恒吉優紀)"
+            ],
+            "S' D':[m,D2]"
+        ],
+        [
             "4Rw' U m2 U' L2 U m2 U' L2 4Rw",
             [
                 "Andrew Tan Jing Bang",
@@ -755,15 +812,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "4Rw':[U m2 U',L2]"
-        ],
-        [
-            "S' D' m D2 m' D' S",
-            [
-                "Michael Tripodi",
-                "Ryan Eckersley",
-                "Yuki Tsuneyoshi (恒吉優紀)"
-            ],
-            "S' D':[m,D2]"
         ],
         [
             "L2 D m D' L2 D m' D'",
@@ -797,6 +845,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -847,6 +896,7 @@
             [
                 "Daniel Wallin",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Kai Yamamoto (山本快)"
             ],
             "U' 3Rw:[U R' U',m2]"
@@ -874,6 +924,7 @@
                 "Daniel Wallin",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -899,6 +950,7 @@
                 "Andrew Tan Jing Bang",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -931,6 +983,17 @@
     ],
     "ADQ": [
         [
+            "z' D m' U L' U' m U L U' D' z",
+            [
+                "Graham Siggins",
+                "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
+                "Jonghyun Kim (김종현)",
+                "Kevin Matthews"
+            ],
+            "z' D:[m',U L' U']"
+        ],
+        [
             "Rw U' 3Rw U R' U' m U R U' Rw' U Rw'",
             [
                 "Andrew Tan Jing Bang",
@@ -939,16 +1002,6 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "Rw U' Rw:[m',U R' U']"
-        ],
-        [
-            "z' D m' U L' U' m U L U' D' z",
-            [
-                "Graham Siggins",
-                "Hyunseung Ko (고현승)",
-                "Jonghyun Kim (김종현)",
-                "Kevin Matthews"
-            ],
-            "z' D:[m',U L' U']"
         ],
         [
             "L e R U' R' e' R U R' L'",
@@ -973,6 +1026,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -1013,6 +1067,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -1043,6 +1098,7 @@
         [
             "l m U m2 U' L' U m2 U' L m' l'",
             [
+                "Jacob Tucker",
                 "Ryan Eckersley"
             ],
             "l m:[U m2 U',L']"
@@ -1064,6 +1120,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -1091,6 +1148,7 @@
             "3Lw L' U m2 U' L U m2 U' 3Lw'",
             [
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Michael Tripodi",
                 "Ryan Eckersley"
             ],
@@ -1117,6 +1175,7 @@
             "3Rw m' D m U m' D' m U' 3Rw'",
             [
                 "Andrew Tan Jing Bang",
+                "Jacob Tucker",
                 "Kevin Matthews",
                 "Michael Tripodi",
                 "Ryan Eckersley",
@@ -1164,6 +1223,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -1182,6 +1242,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
@@ -1210,6 +1271,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -1237,6 +1299,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -1269,6 +1332,7 @@
             [
                 "Graham Siggins",
                 "Hana Nakano",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews"
             ],
@@ -1298,6 +1362,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -1319,6 +1384,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -1340,6 +1406,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -1362,6 +1429,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Kevin Matthews",
                 "Ryan Eckersley",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -1395,6 +1463,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -1416,6 +1485,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -1438,6 +1508,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -1465,6 +1536,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -1491,6 +1563,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -1518,6 +1591,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -1543,6 +1617,7 @@
                 "Daniel Wallin",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -1570,6 +1645,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -1602,6 +1678,7 @@
                 "Daniel Wallin",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -1629,6 +1706,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -1676,6 +1754,13 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "L:[U L' U',m]"
+        ],
+        [
+            "S 3Rw U R' U' m U R U' Rw' S'",
+            [
+                "Jacob Tucker"
+            ],
+            "S Rw:[m',U R' U']"
         ]
     ],
     "AFD": [
@@ -1686,6 +1771,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -1731,6 +1817,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Michael Tripodi",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -1744,6 +1831,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews"
@@ -1784,6 +1872,7 @@
                 "Hana Nakano",
                 "Hill Pong Yong Feng",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Kevin Matthews",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -1809,6 +1898,7 @@
             [
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Roman Strakhov",
@@ -1842,6 +1932,13 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "D':[U' R2 U,m]"
+        ],
+        [
+            "4Fw U R U' m U R' U' m' 4Fw'",
+            [
+                "Jacob Tucker"
+            ],
+            "4Fw:[U R U',m]"
         ]
     ],
     "AFN": [
@@ -1851,6 +1948,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -1901,6 +1999,13 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "[U' R2 U,m]"
+        ],
+        [
+            "S' 3Rw U R' U' m U R U' Rw' S",
+            [
+                "Jacob Tucker"
+            ],
+            "S' Rw:[m',U R' U']"
         ]
     ],
     "AFP": [
@@ -1910,6 +2015,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -1939,6 +2045,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -1960,6 +2067,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -1981,6 +2089,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -2002,6 +2111,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -2023,6 +2133,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -2044,6 +2155,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -2065,6 +2177,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -2086,6 +2199,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -2107,6 +2221,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -2126,6 +2241,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
@@ -2178,6 +2294,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -2211,6 +2328,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Michael Tripodi",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -2225,6 +2343,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -2251,6 +2370,7 @@
                 "Daniel Wallin",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -2296,6 +2416,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -2322,6 +2443,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Hana Nakano",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
@@ -2361,6 +2483,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -2388,6 +2511,7 @@
                 "Daniel Wallin",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)"
             ],
             "3Lw' D':[m',U2]"
@@ -2438,6 +2562,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Nakano",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -2458,6 +2583,17 @@
     ],
     "AIR": [
         [
+            "3Uw' R' 3Uw' m2 3Uw R 3Uw' m2 3Uw2",
+            [
+                "Jacob Tucker",
+                "Kai Yamamoto (山本快)",
+                "Kevin Matthews",
+                "Michael Tripodi",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "3Uw':[R',3Uw' m2 3Uw]"
+        ],
+        [
             "3Uw' R' U' m2 U R U' m2 U 3Uw",
             [
                 "Graham Siggins",
@@ -2466,16 +2602,6 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "3Uw':[R',U' m2 U]"
-        ],
-        [
-            "3Uw' R' 3Uw' m2 3Uw R 3Uw' m2 3Uw2",
-            [
-                "Kai Yamamoto (山本快)",
-                "Kevin Matthews",
-                "Michael Tripodi",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "3Uw':[R',3Uw' m2 3Uw]"
         ],
         [
             "U2 m U' R U m2 U' R' U m U2",
@@ -2508,6 +2634,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Nakano",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -2532,6 +2659,7 @@
             [
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Ryan Eckersley",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -2578,6 +2706,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Nakano",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -2601,6 +2730,7 @@
             [
                 "Daniel Wallin",
                 "Hana Nakano",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
@@ -2623,6 +2753,13 @@
                 "Andrew Tan Jing Bang"
             ],
             "3Lw' D':[U2,m]"
+        ],
+        [
+            "Rw B' Rw' m' U2 m U2 Rw B Rw'",
+            [
+                "Jacob Tucker"
+            ],
+            "Rw B' Rw':[m',U2]"
         ]
     ],
     "AIY": [
@@ -2633,6 +2770,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Nakano",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -2656,6 +2794,7 @@
             [
                 "Daniel Wallin",
                 "Hana Nakano",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Ryan Eckersley"
@@ -2712,7 +2851,8 @@
             "U' 3Rw U' R' U m U' R U Rw' U",
             [
                 "Daniel Wallin",
-                "Hyunseung Ko (고현승)"
+                "Hyunseung Ko (고현승)",
+                "Jacob Tucker"
             ],
             "U' Rw:[m',U' R' U]"
         ],
@@ -2747,6 +2887,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -2772,6 +2913,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Kevin Matthews",
                 "Ryan Eckersley",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -2810,6 +2952,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews"
@@ -2837,6 +2980,19 @@
     ],
     "AJK": [
         [
+            "U L2 U' m' U L2 U' m",
+            [
+                "Graham Siggins",
+                "Hana Nakano",
+                "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
+                "Jonghyun Kim (김종현)",
+                "Roman Strakhov",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "[U L2 U',m']"
+        ],
+        [
             "Lw' U L' U' m' U L U' 3Lw",
             [
                 "Andrew Tan Jing Bang",
@@ -2847,18 +3003,6 @@
                 "Ryan Eckersley"
             ],
             "Lw':[U L' U',m']"
-        ],
-        [
-            "U L2 U' m' U L2 U' m",
-            [
-                "Graham Siggins",
-                "Hana Nakano",
-                "Hyunseung Ko (고현승)",
-                "Jonghyun Kim (김종현)",
-                "Roman Strakhov",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "[U L2 U',m']"
         ]
     ],
     "AJL": [
@@ -2869,6 +3013,7 @@
                 "Daniel Wallin",
                 "Ethan Pan",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -2897,6 +3042,7 @@
                 "Daniel Wallin",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -2922,6 +3068,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -2950,6 +3097,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Roman Strakhov",
                 "Ziyi Xu (徐梓翼)"
@@ -2976,6 +3124,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -3005,6 +3154,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -3036,6 +3186,7 @@
             "m D R' D' m' D R D'",
             [
                 "Andrew Tan Jing Bang",
+                "Jacob Tucker",
                 "Kai Yamamoto (山本快)"
             ],
             "[m,D R' D']"
@@ -3057,6 +3208,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -3077,6 +3229,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
@@ -3109,6 +3262,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -3150,6 +3304,13 @@
                 "Kevin Matthews"
             ],
             "3Rw:[U' L U,m']"
+        ],
+        [
+            "m D' 4Rw' B m' B' 4Rw D",
+            [
+                "Jacob Tucker"
+            ],
+            "[m,D' 4Rw' B]"
         ]
     ],
     "AJY": [
@@ -3161,6 +3322,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -3193,6 +3355,7 @@
             "m D R D' m' D R' D'",
             [
                 "Andrew Tan Jing Bang",
+                "Jacob Tucker",
                 "Kai Yamamoto (山本快)"
             ],
             "[m,D R D']"
@@ -3229,6 +3392,13 @@
                 "Graham Siggins"
             ],
             "4Rw':[L2,U' m' U]"
+        ],
+        [
+            "S m U m' U2 m U m' S'",
+            [
+                "Jacob Tucker"
+            ],
+            "S m U:[m',U2]"
         ]
     ],
     "AKD": [
@@ -3239,6 +3409,7 @@
                 "Daniel Wallin",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
@@ -3266,6 +3437,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -3299,6 +3471,7 @@
                 "Hana Nakano",
                 "Hill Pong Yong Feng",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Kevin Matthews",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -3313,6 +3486,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -3334,6 +3508,19 @@
     ],
     "AKJ": [
         [
+            "m' U L2 U' m U L2 U'",
+            [
+                "Graham Siggins",
+                "Hana Nakano",
+                "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
+                "Jonghyun Kim (김종현)",
+                "Roman Strakhov",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "[m',U L2 U']"
+        ],
+        [
             "3Lw' U L' U' m U L U' Lw",
             [
                 "Andrew Tan Jing Bang",
@@ -3344,18 +3531,6 @@
                 "Ryan Eckersley"
             ],
             "Lw':[m',U L' U']"
-        ],
-        [
-            "m' U L2 U' m U L2 U'",
-            [
-                "Graham Siggins",
-                "Hana Nakano",
-                "Hyunseung Ko (고현승)",
-                "Jonghyun Kim (김종현)",
-                "Roman Strakhov",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "[m',U L2 U']"
         ]
     ],
     "AKM": [
@@ -3390,6 +3565,13 @@
             "U' L2 U:[m,U2]"
         ],
         [
+            "4Fw U2 R U' m U R' U' m' U' 4Fw'",
+            [
+                "Jacob Tucker"
+            ],
+            "4Fw U:[U R U',m]"
+        ],
+        [
             "D m' U2 m D m' U2 m D2",
             [
                 "Hana Nakano"
@@ -3405,6 +3587,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -3437,6 +3620,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -3455,6 +3639,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi"
             ],
@@ -3511,6 +3696,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Michael Tripodi",
                 "Ryan Eckersley",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -3548,20 +3734,21 @@
             "3Rw:[U',m' D' m]"
         ],
         [
+            "y' R' U' m2 U R U' m2 U y",
+            [
+                "Hana Nakano",
+                "Jacob Tucker",
+                "Kevin Matthews"
+            ],
+            "y':[R',U' m2 U]"
+        ],
+        [
             "L2 U L e' L' U' L e L",
             [
                 "Kai Yamamoto (山本快)",
                 "Ziyi Xu (徐梓翼)"
             ],
             "L':[L' U L,e']"
-        ],
-        [
-            "y' R' U' m2 U R U' m2 U y",
-            [
-                "Hana Nakano",
-                "Kevin Matthews"
-            ],
-            "y':[R',U' m2 U]"
         ],
         [
             "z U2 R U m' U' R' U m U z'",
@@ -3592,6 +3779,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -3614,6 +3802,7 @@
             [
                 "Graham Siggins",
                 "Hana Nakano",
+                "Jacob Tucker",
                 "Kevin Matthews",
                 "Ryan Eckersley"
             ],
@@ -3665,6 +3854,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -3724,6 +3914,13 @@
                 "Andrew Tan Jing Bang"
             ],
             "Lw' D:[m',U L' U']"
+        ],
+        [
+            "y' L' U m' U2 m U L y",
+            [
+                "Jacob Tucker"
+            ],
+            "y' L' U:[m',U2]"
         ]
     ],
     "AKY": [
@@ -3734,6 +3931,7 @@
                 "Daniel Wallin",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Michael Tripodi",
                 "Ryan Eckersley"
             ],
@@ -3788,6 +3986,7 @@
         [
             "D' m' U R' U' m2 U R U' m' D",
             [
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)"
             ],
             "D' m':[U R' U',m2]"
@@ -3816,6 +4015,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -3830,6 +4030,16 @@
     ],
     "ALD": [
         [
+            "S' D m D2 m' D S",
+            [
+                "Jacob Tucker",
+                "Michael Tripodi",
+                "Ryan Eckersley",
+                "Yuki Tsuneyoshi (恒吉優紀)"
+            ],
+            "S' D:[m,D2]"
+        ],
+        [
             "4Rw' L2 U m2 U' L2 U m2 U' 4Rw",
             [
                 "Andrew Tan Jing Bang",
@@ -3838,15 +4048,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "4Rw':[L2,U m2 U']"
-        ],
-        [
-            "S' D m D2 m' D S",
-            [
-                "Michael Tripodi",
-                "Ryan Eckersley",
-                "Yuki Tsuneyoshi (恒吉優紀)"
-            ],
-            "S' D:[m,D2]"
         ],
         [
             "D m D' L2 D m' D' L2",
@@ -3881,6 +4082,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -3913,6 +4115,7 @@
             [
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Roman Strakhov",
@@ -3928,6 +4131,7 @@
                 "Daniel Wallin",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -3972,6 +4176,7 @@
                 "Daniel Wallin",
                 "Ethan Pan",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -3999,6 +4204,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Leonardo Ezequiel Cruz"
             ],
@@ -4044,6 +4250,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Ryan Eckersley",
@@ -4067,6 +4274,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley"
@@ -4104,6 +4312,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Hana Nakano",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -4139,6 +4348,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -4166,18 +4376,19 @@
             "y':[R',U m' U']"
         ],
         [
+            "D m D R' D' m' D R D2",
+            [
+                "Andrew Tan Jing Bang",
+                "Jacob Tucker"
+            ],
+            "D:[m,D R' D']"
+        ],
+        [
             "3Dw U' R' U m' U' R U m 3Dw'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Dw:[U' R' U,m']"
-        ],
-        [
-            "D m D R' D' m' D R D2",
-            [
-                "Andrew Tan Jing Bang"
-            ],
-            "D:[m,D R' D']"
         ],
         [
             "S U L e' L' U' L e L' S'",
@@ -4203,6 +4414,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -4221,6 +4433,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
@@ -4248,6 +4461,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -4266,6 +4480,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
@@ -4306,6 +4521,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
@@ -4356,6 +4572,13 @@
                 "Kai Yamamoto (山本快)"
             ],
             "S:[U,L' e L]"
+        ],
+        [
+            "D m D R D' m' D R' D2",
+            [
+                "Jacob Tucker"
+            ],
+            "D:[m,D R D']"
         ],
         [
             "y U2 R U' m U R' U' m' U' y'",
@@ -4415,6 +4638,13 @@
                 "Hyunseung Ko (고현승)"
             ],
             "U' Rw:[m2,U' R' U]"
+        ],
+        [
+            "4Fw U' m U R U' m' U R' 4Fw'",
+            [
+                "Jacob Tucker"
+            ],
+            "4Fw:[U' m U,R]"
         ]
     ],
     "AMD": [
@@ -4425,6 +4655,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -4458,6 +4689,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -4496,6 +4728,13 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "D':[m,U' R2 U]"
+        ],
+        [
+            "4Fw m U R U' m' U R' U' 4Fw'",
+            [
+                "Jacob Tucker"
+            ],
+            "4Fw:[m,U R U']"
         ]
     ],
     "AMI": [
@@ -4507,6 +4746,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
@@ -4534,6 +4774,7 @@
                 "Daniel Wallin",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -4584,6 +4825,13 @@
             "U' L2 U':[m,U2]"
         ],
         [
+            "4Fw U m U R U' m' U R' U2 4Fw'",
+            [
+                "Jacob Tucker"
+            ],
+            "4Fw U:[m,U R U']"
+        ],
+        [
             "D2 m' U2 m D' m' U2 m D'",
             [
                 "Hana Nakano"
@@ -4598,6 +4846,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Leonardo Ezequiel Cruz"
             ],
@@ -4667,6 +4916,13 @@
             "U R2 U:[m,U2]"
         ],
         [
+            "S' 3Rw U R' U' m2 U R U' m' Rw' S",
+            [
+                "Jacob Tucker"
+            ],
+            "S' 3Rw:[U R' U',m2]"
+        ],
+        [
             "D2 m' U2 m D m' U2 m D",
             [
                 "Hana Nakano"
@@ -4691,6 +4947,7 @@
             "3Rw U R U' m2 U R' U' m2 3Rw'",
             [
                 "Andrew Tan Jing Bang",
+                "Jacob Tucker",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi"
@@ -4721,6 +4978,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -4743,6 +5001,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
@@ -4770,6 +5029,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -4792,6 +5052,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
@@ -4819,6 +5080,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -4841,6 +5103,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
@@ -4868,6 +5131,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -4890,6 +5154,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
@@ -4908,6 +5173,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -4951,6 +5217,7 @@
             [
                 "Daniel Wallin",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Kai Yamamoto (山本快)"
             ],
             "U' 3Rw:[m2,U R' U']"
@@ -4989,6 +5256,7 @@
             [
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews"
             ],
@@ -5010,6 +5278,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -5043,6 +5312,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Hana Nakano",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
@@ -5081,6 +5351,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
@@ -5110,6 +5381,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -5141,6 +5413,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Ryan Eckersley",
@@ -5166,6 +5439,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -5196,6 +5470,7 @@
                 "Andrew Tan Jing Bang",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -5230,6 +5505,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -5281,6 +5557,13 @@
                 "Kai Yamamoto (山本快)"
             ],
             "U 4Lw:[e',L' U' L]"
+        ],
+        [
+            "D2 m D R' D' m' D R D",
+            [
+                "Jacob Tucker"
+            ],
+            "D':[D' m D,R']"
         ]
     ],
     "ANS": [
@@ -5292,6 +5575,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -5336,6 +5620,13 @@
                 "Kai Yamamoto (山本快)"
             ],
             "U' 4Rw':[e,R U R']"
+        ],
+        [
+            "3Uw' R U' m U R' U' m' U 3Uw",
+            [
+                "Jacob Tucker"
+            ],
+            "3Uw':[R,U' m U]"
         ]
     ],
     "ANW": [
@@ -5347,6 +5638,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -5380,18 +5672,19 @@
             "m' U':[L,U' m' U]"
         ],
         [
+            "D2 m D' L' D m' D' L D'",
+            [
+                "Jacob Tucker",
+                "Kai Yamamoto (山本快)"
+            ],
+            "D:[D m D',L']"
+        ],
+        [
             "3Lw' U' L2 U' m' U L2 U' m U2 3Lw",
             [
                 "Graham Siggins"
             ],
             "3Lw' U':[L2,U' m' U]"
-        ],
-        [
-            "D2 m D' L' D m' D' L D'",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "D:[D m D',L']"
         ]
     ],
     "ANY": [
@@ -5403,6 +5696,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -5440,18 +5734,19 @@
             "3Lw' U:[R',U m' U']"
         ],
         [
+            "D2 m D R D' m' D R' D",
+            [
+                "Jacob Tucker",
+                "Kai Yamamoto (山本快)"
+            ],
+            "D':[D' m D,R]"
+        ],
+        [
             "D' U R2 U' m' U R U' m U R U' D",
             [
                 "Daniel Wallin"
             ],
             "D' U R':[R',U' m' U]"
-        ],
-        [
-            "D2 m D R D' m' D R' D",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "D':[D' m D,R]"
         ],
         [
             "x U R2 U m' U' R2 U m U2 x'",
@@ -5467,6 +5762,7 @@
             [
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Ryan Eckersley",
@@ -5507,6 +5803,7 @@
                 "Daniel Wallin",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -5534,6 +5831,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -5570,6 +5868,13 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "[m,U' R2 U]"
+        ],
+        [
+            "S' Rw U R' U' m' U R U' 3Rw' S",
+            [
+                "Jacob Tucker"
+            ],
+            "S' Rw:[U R' U',m']"
         ]
     ],
     "AOI": [
@@ -5580,6 +5885,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -5607,6 +5913,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Roman Strakhov",
                 "Ziyi Xu (徐梓翼)"
@@ -5634,6 +5941,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -5652,6 +5960,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
                 "Ryan Eckersley"
@@ -5715,6 +6024,13 @@
             "U R2 U':[m,U2]"
         ],
         [
+            "S' Rw m U R' U' m2 U R U' 3Rw' S",
+            [
+                "Jacob Tucker"
+            ],
+            "S' Rw m:[U R' U',m2]"
+        ],
+        [
             "D' m' U2 m D' m' U2 m D2",
             [
                 "Hana Nakano"
@@ -5730,6 +6046,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -5761,6 +6078,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -5817,6 +6135,7 @@
         [
             "D m' U R U' m2 U R' U' m' D'",
             [
+                "Jacob Tucker",
                 "Kai Yamamoto (山本快)"
             ],
             "D m':[U R U',m2]"
@@ -5829,6 +6148,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Michael Tripodi",
                 "Ryan Eckersley",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -5867,6 +6187,15 @@
             "3Lw':[U,m' D m]"
         ],
         [
+            "y' R U m2 U' R' U m2 4Dw'",
+            [
+                "Hana Nakano",
+                "Jacob Tucker",
+                "Kevin Matthews"
+            ],
+            "y':[R,U m2 U']"
+        ],
+        [
             "z' U2 L' U' m' U L U' m U' z",
             [
                 "Graham Siggins",
@@ -5883,14 +6212,6 @@
             "R:[R U' R',e]"
         ],
         [
-            "y' R U m2 U' R' U m2 4Dw'",
-            [
-                "Hana Nakano",
-                "Kevin Matthews"
-            ],
-            "y':[R,U m2 U']"
-        ],
-        [
             "S D m D' L D m' D' L' S'",
             [
                 "Andrew Tan Jing Bang"
@@ -5905,6 +6226,7 @@
                 "Andrew Tan Jing Bang",
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Michael Tripodi",
                 "Ryan Eckersley"
             ],
@@ -5951,6 +6273,7 @@
         [
             "D m' U' L U m2 U' L' U m' D'",
             [
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -5980,6 +6303,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -6035,7 +6359,8 @@
         [
             "Rw D' m' U' R U m U' R' U D Rw'",
             [
-                "Andrew Tan Jing Bang"
+                "Andrew Tan Jing Bang",
+                "Jacob Tucker"
             ],
             "Rw D':[m',U' R U]"
         ],
@@ -6056,6 +6381,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -6075,6 +6401,7 @@
                 "Andrew Tan Jing Bang",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -6114,6 +6441,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -6134,6 +6462,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -6161,6 +6490,7 @@
                 "Daniel Wallin",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)"
             ],
             "3Lw' D':[U2,m']"
@@ -6211,6 +6541,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -6237,6 +6568,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi"
             ],
@@ -6291,6 +6623,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Hana Nakano",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -6342,6 +6675,7 @@
         [
             "Rw m U R U' m2 U R' U' 3Rw'",
             [
+                "Jacob Tucker",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews"
             ],
@@ -6362,6 +6696,7 @@
                 "Andrew Tan Jing Bang",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -6396,6 +6731,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -6414,6 +6750,7 @@
                 "Andrew Tan Jing Bang",
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
@@ -6454,6 +6791,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -6471,6 +6809,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Nakano",
+                "Jacob Tucker",
                 "Kevin Matthews",
                 "Michael Tripodi",
                 "Ryan Eckersley"
@@ -6510,6 +6849,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
@@ -6568,6 +6908,13 @@
             "S':[U',R e' R']"
         ],
         [
+            "4Fw' L U m' U' L2 U m U' L 4Fw",
+            [
+                "Jacob Tucker"
+            ],
+            "4Fw' L:[U m' U',L2]"
+        ],
+        [
             "y U2 R' U m' U' R U m 4Dw",
             [
                 "Hyunseung Ko (고현승)"
@@ -6584,6 +6931,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -6601,6 +6949,7 @@
                 "Andrew Tan Jing Bang",
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
@@ -6640,6 +6989,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -6666,6 +7016,17 @@
     ],
     "AQD": [
         [
+            "z' D U L' U' m' U L U' m D' z",
+            [
+                "Graham Siggins",
+                "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
+                "Jonghyun Kim (김종현)",
+                "Kevin Matthews"
+            ],
+            "z' D:[U L' U',m']"
+        ],
+        [
             "Rw U' Rw U R' U' m' U R U' 3Rw' U Rw'",
             [
                 "Andrew Tan Jing Bang",
@@ -6674,16 +7035,6 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "Rw U' Rw:[U R' U',m']"
-        ],
-        [
-            "z' D U L' U' m' U L U' m D' z",
-            [
-                "Graham Siggins",
-                "Hyunseung Ko (고현승)",
-                "Jonghyun Kim (김종현)",
-                "Kevin Matthews"
-            ],
-            "z' D:[U L' U',m']"
         ],
         [
             "L R U' R' e R U R' e' L'",
@@ -6711,6 +7062,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -6738,6 +7090,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -6758,6 +7111,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Nakano",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -6785,6 +7139,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -6805,6 +7160,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Michael Tripodi",
                 "Ryan Eckersley",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -6838,6 +7194,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -6858,6 +7215,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -6880,6 +7238,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -6899,6 +7258,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -6926,6 +7286,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -6943,6 +7304,7 @@
             [
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi"
@@ -6995,6 +7357,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -7022,6 +7385,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -7056,6 +7420,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -7096,6 +7461,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Kevin Matthews",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -7126,6 +7492,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -7176,6 +7543,13 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "[L e' L',U]"
+        ],
+        [
+            "4Fw U m' U' R U m U' R' 4Fw'",
+            [
+                "Jacob Tucker"
+            ],
+            "4Fw:[U m' U',R]"
         ]
     ],
     "ARD": [
@@ -7184,6 +7558,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -7224,6 +7599,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -7250,6 +7626,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -7264,6 +7641,17 @@
     ],
     "ARI": [
         [
+            "3Uw2 m2 3Uw R' 3Uw' m2 3Uw R 3Uw",
+            [
+                "Jacob Tucker",
+                "Kai Yamamoto (山本快)",
+                "Kevin Matthews",
+                "Michael Tripodi",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "3Uw':[3Uw' m2 3Uw,R']"
+        ],
+        [
             "3Uw' U' m2 U R' U' m2 U R 3Uw",
             [
                 "Graham Siggins",
@@ -7272,16 +7660,6 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "3Uw':[U' m2 U,R']"
-        ],
-        [
-            "3Uw2 m2 3Uw R' 3Uw' m2 3Uw R 3Uw",
-            [
-                "Kai Yamamoto (山本快)",
-                "Kevin Matthews",
-                "Michael Tripodi",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "3Uw':[3Uw' m2 3Uw,R']"
         ],
         [
             "U2 m' U' R U m2 U' R' U m' U2",
@@ -7325,6 +7703,7 @@
             "D R' D' m D R D' m'",
             [
                 "Andrew Tan Jing Bang",
+                "Jacob Tucker",
                 "Kai Yamamoto (山本快)"
             ],
             "[D R' D',m]"
@@ -7350,20 +7729,21 @@
             "3Rw:[m' D' m,U']"
         ],
         [
+            "y' U' m2 U R' U' m2 U R y",
+            [
+                "Hana Nakano",
+                "Jacob Tucker",
+                "Kevin Matthews"
+            ],
+            "y':[U' m2 U,R']"
+        ],
+        [
             "L' e' L' U L e L' U' L2",
             [
                 "Kai Yamamoto (山本快)",
                 "Ziyi Xu (徐梓翼)"
             ],
             "L':[e',L' U L]"
-        ],
-        [
-            "y' U' m2 U R' U' m2 U R y",
-            [
-                "Hana Nakano",
-                "Kevin Matthews"
-            ],
-            "y':[U' m2 U,R']"
         ],
         [
             "z U' m' U' R U m U' R' U2 z'",
@@ -7403,18 +7783,19 @@
             "y':[U m' U',R']"
         ],
         [
+            "D2 R' D' m D R D' m' D'",
+            [
+                "Andrew Tan Jing Bang",
+                "Jacob Tucker"
+            ],
+            "D:[D R' D',m]"
+        ],
+        [
             "3Dw m' U' R' U m U' R U 3Dw'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "3Dw:[m',U' R' U]"
-        ],
-        [
-            "D2 R' D' m D R D' m' D'",
-            [
-                "Andrew Tan Jing Bang"
-            ],
-            "D:[D R' D',m]"
         ],
         [
             "S L e' L' U L e L' U' S'",
@@ -7440,6 +7821,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
@@ -7498,6 +7880,13 @@
                 "Kai Yamamoto (山本快)"
             ],
             "U M:[U',L e' L']"
+        ],
+        [
+            "D' R' D' m D R D' m' D2",
+            [
+                "Jacob Tucker"
+            ],
+            "D':[R',D' m D]"
         ]
     ],
     "ARO": [
@@ -7538,6 +7927,7 @@
         [
             "D m U R U' m2 U R' U' m D'",
             [
+                "Jacob Tucker",
                 "Kai Yamamoto (山本快)"
             ],
             "D m:[U R U',m2]"
@@ -7550,6 +7940,7 @@
                 "Andrew Tan Jing Bang",
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
@@ -7589,6 +7980,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi"
@@ -7674,6 +8066,13 @@
             "U2 x U:[m,U2]"
         ],
         [
+            "U2 4Fw U2 m' U2 m 4Fw' U2",
+            [
+                "Jacob Tucker"
+            ],
+            "U2 4Fw:[U2,m']"
+        ],
+        [
             "U2 F' m' U2 m U2 F U2",
             [
                 "Hana Nakano"
@@ -7689,6 +8088,7 @@
                 "Daniel Wallin",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Kevin Matthews",
                 "Michael Tripodi",
                 "Ryan Eckersley",
@@ -7755,6 +8155,13 @@
                 "Kai Yamamoto (山本快)"
             ],
             "e:[R' U' R,e2]"
+        ],
+        [
+            "z m' U' R U m2 U' R' U m' z'",
+            [
+                "Jacob Tucker"
+            ],
+            "z m':[U' R U,m2]"
         ]
     ],
     "ARY": [
@@ -7774,6 +8181,7 @@
             [
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Kai Yamamoto (山本快)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -7790,6 +8198,16 @@
     ],
     "ARZ": [
         [
+            "U R U' m' U R2 U' m U R U'",
+            [
+                "Daniel Wallin",
+                "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
+                "Ryan Eckersley"
+            ],
+            "U R:[U' m' U,R2]"
+        ],
+        [
             "x' R2 U' m2 U R2 U' m2 U x",
             [
                 "Andrew Tan Jing Bang",
@@ -7798,15 +8216,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "x':[R2,U' m2 U]"
-        ],
-        [
-            "U R U' m' U R2 U' m U R U'",
-            [
-                "Daniel Wallin",
-                "Hyunseung Ko (고현승)",
-                "Ryan Eckersley"
-            ],
-            "U R:[U' m' U,R2]"
         ],
         [
             "R' D' m D R2 D' m' D R'",
@@ -7850,6 +8259,7 @@
         [
             "l m L' U' m' U L U' m U m' l'",
             [
+                "Jacob Tucker",
                 "Michael Tripodi",
                 "Ryan Eckersley"
             ],
@@ -7873,6 +8283,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -7893,6 +8304,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -7920,6 +8332,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -7940,6 +8353,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Nakano",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -7967,6 +8381,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -7986,6 +8401,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -8011,6 +8427,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -8030,6 +8447,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -8052,6 +8470,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -8069,6 +8488,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Michael Tripodi",
                 "Ryan Eckersley",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -8103,6 +8523,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -8119,6 +8540,7 @@
             [
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi"
@@ -8171,6 +8593,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi"
@@ -8219,6 +8642,13 @@
                 "Kai Yamamoto (山本快)"
             ],
             "L' M:[U' m' U,L2]"
+        ],
+        [
+            "z D Rw' D' U2 m' U2 m D Rw D' z'",
+            [
+                "Jacob Tucker"
+            ],
+            "z D Rw' D':[U2,m']"
         ]
     ],
     "ASX": [
@@ -8228,6 +8658,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -8259,6 +8690,7 @@
             [
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi"
@@ -8304,6 +8736,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi"
@@ -8358,20 +8791,21 @@
             "U' Lw:[m D m',U]"
         ],
         [
+            "U2 R' e R U R' e' R U",
+            [
+                "Jacob Tucker",
+                "Kai Yamamoto (山本快)",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "U':[U',R' e R]"
+        ],
+        [
             "z' L2 U' m' U L U' m U L z",
             [
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)"
             ],
             "z' L':[L',U' m' U]"
-        ],
-        [
-            "U2 R' e R U R' e' R U",
-            [
-                "Kai Yamamoto (山本快)",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "U':[U',R' e R]"
         ]
     ],
     "ATD": [
@@ -8393,6 +8827,7 @@
         [
             "l m L' U m2 U' L U m2 U' m' l'",
             [
+                "Jacob Tucker",
                 "Ryan Eckersley"
             ],
             "l m:[L',U m2 U']"
@@ -8414,6 +8849,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -8440,6 +8876,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -8458,6 +8895,7 @@
             [
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Ryan Eckersley",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -8504,6 +8942,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
@@ -8533,6 +8972,7 @@
             [
                 "Graham Siggins",
                 "Hana Nakano",
+                "Jacob Tucker",
                 "Kevin Matthews",
                 "Ryan Eckersley"
             ],
@@ -8584,6 +9024,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
@@ -8611,6 +9052,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
@@ -8663,6 +9105,13 @@
                 "Kai Yamamoto (山本快)"
             ],
             "U' M:[U,R' e R]"
+        ],
+        [
+            "3Uw' U' m U R U' m' U R' 3Uw",
+            [
+                "Jacob Tucker"
+            ],
+            "3Uw':[U' m U,R]"
         ]
     ],
     "ATO": [
@@ -8676,6 +9125,15 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "3Lw':[m' D m,U]"
+        ],
+        [
+            "4Dw m2 U' R U m2 U' R' y",
+            [
+                "Hana Nakano",
+                "Jacob Tucker",
+                "Kevin Matthews"
+            ],
+            "y':[U m2 U',R]"
         ],
         [
             "z' U m' U L' U' m U L U2 z",
@@ -8694,14 +9152,6 @@
             "R:[e,R U' R']"
         ],
         [
-            "4Dw m2 U' R U m2 U' R' y",
-            [
-                "Hana Nakano",
-                "Kevin Matthews"
-            ],
-            "y':[U m2 U',R]"
-        ],
-        [
             "S L D m D' L' D m' D' S'",
             [
                 "Andrew Tan Jing Bang"
@@ -8716,6 +9166,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Nakano",
+                "Jacob Tucker",
                 "Kevin Matthews",
                 "Michael Tripodi",
                 "Ryan Eckersley"
@@ -8754,6 +9205,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -8840,6 +9292,13 @@
                 "Kai Yamamoto (山本快)"
             ],
             "U2 x U':[m,U2]"
+        ],
+        [
+            "U2 4Fw m' U2 m U2 4Fw' U2",
+            [
+                "Jacob Tucker"
+            ],
+            "U2 4Fw:[m',U2]"
         ]
     ],
     "ATW": [
@@ -8860,6 +9319,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)"
             ],
             "z:[m',U R U']"
@@ -8894,6 +9354,14 @@
             "L:[D m D',L2]"
         ],
         [
+            "U' L' U m' U' L2 U m U' L' U",
+            [
+                "Hyunseung Ko (고현승)",
+                "Jacob Tucker"
+            ],
+            "U' L':[U m' U',L2]"
+        ],
+        [
             "U' L' U' m U L2 U' m' U L' U",
             [
                 "Ryan Eckersley"
@@ -8913,13 +9381,6 @@
                 "Kai Yamamoto (山本快)"
             ],
             "L' M:[U m2 U',L2]"
-        ],
-        [
-            "U' L' U m' U' L2 U m U' L' U",
-            [
-                "Hyunseung Ko (고현승)"
-            ],
-            "U' L':[U m' U',L2]"
         ]
     ],
     "ATY": [
@@ -8930,6 +9391,7 @@
                 "Daniel Wallin",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Michael Tripodi",
                 "Ryan Eckersley",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -8976,19 +9438,20 @@
             "e:[R U' R',e2]"
         ],
         [
+            "z m' U R U' m2 U R' U' m' z'",
+            [
+                "Graham Siggins",
+                "Jacob Tucker"
+            ],
+            "z m':[U R U',m2]"
+        ],
+        [
             "3Rw' U2 L' U m2 U' L U m2 U 3Rw",
             [
                 "Andrew Tan Jing Bang",
                 "Jonghyun Kim (김종현)"
             ],
             "3Rw' U':[U' L' U,m2]"
-        ],
-        [
-            "z m' U R U' m2 U R' U' m' z'",
-            [
-                "Graham Siggins"
-            ],
-            "z m':[U R U',m2]"
         ],
         [
             "4Rw' U2 L' U m2 U' L U m2 U 4Rw",
@@ -9013,6 +9476,15 @@
             "x':[U' m' U,L']"
         ],
         [
+            "3Lw U' m' U L' U' m U m' l'",
+            [
+                "Jacob Tucker",
+                "Michael Tripodi",
+                "Ryan Eckersley"
+            ],
+            "l m:[L,U' m' U]"
+        ],
+        [
             "4Lw U' m' U L' U' m U M'",
             [
                 "Jonghyun Kim (김종현)",
@@ -9020,14 +9492,6 @@
                 "Kevin Matthews"
             ],
             "4Lw:[U' m' U,L']"
-        ],
-        [
-            "3Lw U' m' U L' U' m U m' l'",
-            [
-                "Michael Tripodi",
-                "Ryan Eckersley"
-            ],
-            "l m:[L,U' m' U]"
         ]
     ],
     "AWD": [
@@ -9039,6 +9503,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -9057,6 +9522,7 @@
                 "Daniel Wallin",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -9085,6 +9551,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -9105,6 +9572,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Nakano",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -9131,6 +9599,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -9151,6 +9620,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -9178,6 +9648,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -9197,6 +9668,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -9219,6 +9691,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -9236,6 +9709,7 @@
                 "Andrew Tan Jing Bang",
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Kevin Matthews",
                 "Michael Tripodi",
                 "Ryan Eckersley"
@@ -9269,6 +9743,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
@@ -9292,6 +9767,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -9326,6 +9802,7 @@
                 "Daniel Wallin",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Kevin Matthews",
                 "Michael Tripodi",
                 "Ryan Eckersley",
@@ -9381,6 +9858,13 @@
                 "Kai Yamamoto (山本快)"
             ],
             "4Lw:[U' m' U,L2]"
+        ],
+        [
+            "z D Rw' D' m' U2 m U2 D Rw D' z'",
+            [
+                "Jacob Tucker"
+            ],
+            "z D Rw' D':[m',U2]"
         ]
     ],
     "AWT": [
@@ -9401,6 +9885,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)"
             ],
             "z:[U R U',m']"
@@ -9423,6 +9908,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
@@ -9460,6 +9946,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -9501,6 +9988,14 @@
             "L' D:[U L U',m']"
         ],
         [
+            "U2 R e' R' U R e R' U",
+            [
+                "Jacob Tucker",
+                "Kai Yamamoto (山本快)"
+            ],
+            "U':[U',R e' R']"
+        ],
+        [
             "z' L2 U m U' L U m' U' L z",
             [
                 "Hana Nakano",
@@ -9514,13 +10009,6 @@
                 "Ryan Eckersley"
             ],
             "U' Lw':[m D m',U]"
-        ],
-        [
-            "U2 R e' R' U R e R' U",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "U':[U',R e' R']"
         ]
     ],
     "AXD": [
@@ -9540,6 +10028,7 @@
             "3Lw U m2 U' L' U m2 U' L 3Lw'",
             [
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Michael Tripodi",
                 "Ryan Eckersley"
             ],
@@ -9569,6 +10058,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -9602,6 +10092,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -9620,6 +10111,7 @@
             [
                 "Daniel Wallin",
                 "Hana Nakano",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
@@ -9642,6 +10134,13 @@
                 "Andrew Tan Jing Bang"
             ],
             "3Lw' D':[m,U2]"
+        ],
+        [
+            "Rw B' Rw' U2 m' U2 m Rw B Rw'",
+            [
+                "Jacob Tucker"
+            ],
+            "Rw B' Rw':[U2,m']"
         ]
     ],
     "AXJ": [
@@ -9673,6 +10172,13 @@
                 "Kevin Matthews"
             ],
             "3Rw2 Rw':[U' L U,m]"
+        ],
+        [
+            "D' 4Rw' B m B' 4Rw D m'",
+            [
+                "Jacob Tucker"
+            ],
+            "[D' 4Rw' B,m]"
         ]
     ],
     "AXK": [
@@ -9716,6 +10222,13 @@
                 "Andrew Tan Jing Bang"
             ],
             "Lw' D:[U L' U',m']"
+        ],
+        [
+            "y' L' U' m' U2 m U' L y",
+            [
+                "Jacob Tucker"
+            ],
+            "y' L' U':[m',U2]"
         ]
     ],
     "AXL": [
@@ -9726,6 +10239,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
@@ -9766,6 +10280,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
@@ -9807,18 +10322,19 @@
             "m' U':[U' m' U,L]"
         ],
         [
+            "D L' D m D' L D m' D2",
+            [
+                "Jacob Tucker",
+                "Kai Yamamoto (山本快)"
+            ],
+            "D:[L',D m D']"
+        ],
+        [
             "3Lw' U2 m' U L2 U' m U L2 U 3Lw",
             [
                 "Graham Siggins"
             ],
             "3Lw' U':[U' m' U,L2]"
-        ],
-        [
-            "D L' D m D' L D m' D2",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "D:[L',D m D']"
         ]
     ],
     "AXO": [
@@ -9844,6 +10360,7 @@
         [
             "D m U' L U m2 U' L' U m D'",
             [
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -9907,6 +10424,13 @@
             "S':[R e' R',U']"
         ],
         [
+            "4Fw' L' U m' U' L2 U m U' L' 4Fw",
+            [
+                "Jacob Tucker"
+            ],
+            "4Fw' L':[U m' U',L2]"
+        ],
+        [
             "4Dw' m' U' R' U m U' R U2 y'",
             [
                 "Hyunseung Ko (고현승)"
@@ -9922,6 +10446,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -9994,6 +10519,13 @@
                 "Kai Yamamoto (山本快)"
             ],
             "e':[R' U' R,e2]"
+        ],
+        [
+            "z m U' R U m2 U' R' U m z'",
+            [
+                "Jacob Tucker"
+            ],
+            "z m:[U' R U,m2]"
         ]
     ],
     "AXS": [
@@ -10003,6 +10535,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -10049,6 +10582,14 @@
             "L':[D m D',L2]"
         ],
         [
+            "U' L U m' U' L2 U m U' L U",
+            [
+                "Hyunseung Ko (고현승)",
+                "Jacob Tucker"
+            ],
+            "U' L:[U m' U',L2]"
+        ],
+        [
             "U' L U' m U L2 U' m' U L U",
             [
                 "Ryan Eckersley"
@@ -10068,13 +10609,6 @@
                 "Kai Yamamoto (山本快)"
             ],
             "4Lw:[U m2 U',L2]"
-        ],
-        [
-            "U' L U m' U' L2 U m U' L U",
-            [
-                "Hyunseung Ko (고현승)"
-            ],
-            "U' L:[U m' U',L2]"
         ]
     ],
     "AXY": [
@@ -10097,6 +10631,7 @@
             [
                 "Daniel Wallin",
                 "Hana Nakano",
+                "Jacob Tucker",
                 "Kai Yamamoto (山本快)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -10112,6 +10647,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -10129,6 +10665,7 @@
             [
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -10165,6 +10702,7 @@
             "3Rw U m' D m U' m' D' m 3Rw'",
             [
                 "Andrew Tan Jing Bang",
+                "Jacob Tucker",
                 "Kevin Matthews",
                 "Michael Tripodi",
                 "Ryan Eckersley",
@@ -10211,6 +10749,7 @@
                 "Daniel Wallin",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -10239,6 +10778,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -10259,6 +10799,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hana Nakano",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -10285,6 +10826,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -10305,6 +10847,7 @@
                 "Daniel Wallin",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Michael Tripodi",
                 "Ryan Eckersley"
             ],
@@ -10337,6 +10880,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
@@ -10362,6 +10906,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -10384,6 +10929,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -10402,6 +10948,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -10434,6 +10981,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -10453,6 +11001,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Kevin Matthews",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -10493,6 +11042,7 @@
             [
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Kai Yamamoto (山本快)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -10513,6 +11063,7 @@
             [
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi"
@@ -10558,6 +11109,7 @@
                 "Daniel Wallin",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Michael Tripodi",
                 "Ryan Eckersley",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -10591,6 +11143,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Michael Tripodi",
                 "Ryan Eckersley",
@@ -10640,6 +11193,7 @@
             [
                 "Daniel Wallin",
                 "Hana Nakano",
+                "Jacob Tucker",
                 "Kai Yamamoto (山本快)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -10655,6 +11209,7 @@
                 "Hana Nakano",
                 "Hill Pong Yong Feng",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -10688,6 +11243,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -10706,6 +11262,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -10738,6 +11295,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -10756,6 +11314,7 @@
             [
                 "Daniel Wallin",
                 "Hana Nakano",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Ryan Eckersley"
@@ -10814,6 +11373,7 @@
             "D R D' m D R' D' m'",
             [
                 "Andrew Tan Jing Bang",
+                "Jacob Tucker",
                 "Kai Yamamoto (山本快)"
             ],
             "[D R D',m]"
@@ -10857,6 +11417,7 @@
         [
             "D' m U R' U' m2 U R U' m D",
             [
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)"
             ],
             "D' m:[U R' U',m2]"
@@ -10912,6 +11473,13 @@
             "S:[L' e L,U]"
         ],
         [
+            "D2 R D' m D R' D' m' D'",
+            [
+                "Jacob Tucker"
+            ],
+            "D:[D R D',m]"
+        ],
+        [
             "y U m U R U' m' U R' U2 y'",
             [
                 "Hyunseung Ko (고현승)"
@@ -10928,6 +11496,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
@@ -10965,18 +11534,19 @@
             "3Lw' U:[U m' U',R']"
         ],
         [
+            "D' R D' m D R' D' m' D2",
+            [
+                "Jacob Tucker",
+                "Kai Yamamoto (山本快)"
+            ],
+            "D':[R,D' m D]"
+        ],
+        [
             "D' U R' U' m' U R' U' m U R2 U' D",
             [
                 "Daniel Wallin"
             ],
             "D' U R':[U' m' U,R']"
-        ],
-        [
-            "D' R D' m D R' D' m' D2",
-            [
-                "Kai Yamamoto (山本快)"
-            ],
-            "D':[R,D' m D]"
         ],
         [
             "x U2 m' U' R2 U m U' R2 U' x'",
@@ -11018,7 +11588,8 @@
         [
             "Rw D' U' R U m' U' R' U m D Rw'",
             [
-                "Andrew Tan Jing Bang"
+                "Andrew Tan Jing Bang",
+                "Jacob Tucker"
             ],
             "Rw D':[U' R U,m']"
         ],
@@ -11037,6 +11608,7 @@
                 "Andrew Tan Jing Bang",
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
@@ -11075,6 +11647,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
@@ -11103,6 +11676,16 @@
     ],
     "AZR": [
         [
+            "U R' U' m' U R2 U' m U R' U'",
+            [
+                "Daniel Wallin",
+                "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
+                "Ryan Eckersley"
+            ],
+            "U R':[U' m' U,R2]"
+        ],
+        [
             "x' U' m2 U R2 U' m2 U R2 x",
             [
                 "Andrew Tan Jing Bang",
@@ -11111,15 +11694,6 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "x':[U' m2 U,R2]"
-        ],
-        [
-            "U R' U' m' U R2 U' m U R' U'",
-            [
-                "Daniel Wallin",
-                "Hyunseung Ko (고현승)",
-                "Ryan Eckersley"
-            ],
-            "U R':[U' m' U,R2]"
         ],
         [
             "R D' m D R2 D' m' D R",
@@ -11153,6 +11727,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi"
@@ -11206,19 +11781,20 @@
             "3Rw' U':[m2,U' L' U]"
         ],
         [
+            "z m U R U' m2 U R' U' m z'",
+            [
+                "Graham Siggins",
+                "Jacob Tucker"
+            ],
+            "z m:[U R U',m2]"
+        ],
+        [
             "e' R U' R' e2 R U R' e'",
             [
                 "Kai Yamamoto (山本快)",
                 "Ziyi Xu (徐梓翼)"
             ],
             "e':[R U' R',e2]"
-        ],
-        [
-            "z m U R U' m2 U R' U' m z'",
-            [
-                "Graham Siggins"
-            ],
-            "z m:[U R U',m2]"
         ],
         [
             "4Rw' U' m2 U' L' U m2 U' L U2 4Rw",
@@ -11236,6 +11812,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -11263,6 +11840,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -11283,6 +11861,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -11303,6 +11882,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -11335,6 +11915,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
@@ -11362,6 +11943,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -11389,6 +11971,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -11409,6 +11992,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -11433,6 +12017,7 @@
             [
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Ryan Eckersley",
@@ -11474,6 +12059,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -11529,6 +12115,13 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "R:[U' R' U,m2]"
+        ],
+        [
+            "Rw U Rw' U m U2 m' U Rw U' Rw'",
+            [
+                "Jacob Tucker"
+            ],
+            "Rw U Rw' U:[m,U2]"
         ]
     ],
     "GAN": [
@@ -11537,6 +12130,7 @@
             [
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Ryan Eckersley",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -11600,6 +12194,13 @@
                 "Graham Siggins"
             ],
             "4Lw:[R2,U m' U']"
+        ],
+        [
+            "S' m U' m' U2 m U' m' S",
+            [
+                "Jacob Tucker"
+            ],
+            "S' m U':[m',U2]"
         ]
     ],
     "GAP": [
@@ -11612,6 +12213,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -11648,6 +12250,7 @@
         [
             "m r' R U m' U' R' U m U' r m'",
             [
+                "Jacob Tucker",
                 "Michael Tripodi",
                 "Ryan Eckersley"
             ],
@@ -11684,6 +12287,14 @@
             "U Rw':[m D' m',U']"
         ],
         [
+            "z R2 U m' U' R' U m U' R' z'",
+            [
+                "Graham Siggins",
+                "Jacob Tucker"
+            ],
+            "z R:[R,U m' U']"
+        ],
+        [
             "U2 L e' L' U' L e L' U'",
             [
                 "Kai Yamamoto (山本快)",
@@ -11697,13 +12308,6 @@
                 "Ryan Eckersley"
             ],
             "R' D':[U' R U,m']"
-        ],
-        [
-            "z R2 U m' U' R' U m U' R' z'",
-            [
-                "Graham Siggins"
-            ],
-            "z R:[R,U m' U']"
         ]
     ],
     "GAS": [
@@ -11713,6 +12317,7 @@
                 "Daniel Wallin",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -11757,6 +12362,7 @@
         [
             "R' e R U' R' e' R U",
             [
+                "Jacob Tucker",
                 "Kai Yamamoto (山本快)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -11769,12 +12375,22 @@
             [
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "z':[U' m2 U,L']"
+        ],
+        [
+            "R' e2 R U' R' e2 R U",
+            [
+                "Jacob Tucker",
+                "Kai Yamamoto (山本快)",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "[R' e2 R,U']"
         ],
         [
             "m U2 L U' m' U L' U' m U' m'",
@@ -11785,19 +12401,18 @@
             "m U:[U L U',m']"
         ],
         [
-            "R' e2 R U' R' e2 R U",
-            [
-                "Kai Yamamoto (山本快)",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "[R' e2 R,U']"
-        ],
-        [
             "U 4Rw' U' m' U L U' m U x U'",
             [
                 "Daniel Wallin"
             ],
             "U 4Rw':[U' m' U,L]"
+        ],
+        [
+            "z D' m2 D R' D' m2 D R z'",
+            [
+                "Jacob Tucker"
+            ],
+            "z:[D' m2 D,R']"
         ],
         [
             "x' U' m' U' R U m U' R' U2 x",
@@ -11833,6 +12448,7 @@
         [
             "R e' R' U' R e R' U",
             [
+                "Jacob Tucker",
                 "Kai Yamamoto (山本快)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -11864,6 +12480,7 @@
         [
             "3Rw' U m' U' R U m U' r m'",
             [
+                "Jacob Tucker",
                 "Michael Tripodi"
             ],
             "m r':[R',U m' U']"
@@ -11894,18 +12511,19 @@
             "R D':[U' R' U,m']"
         ],
         [
+            "z R2 U' m U R' U' m' U R' z'",
+            [
+                "Hana Nakano",
+                "Jacob Tucker"
+            ],
+            "z R:[R,U' m U]"
+        ],
+        [
             "U2 L' e L U' L' e' L U'",
             [
                 "Kai Yamamoto (山本快)"
             ],
             "U:[U,L' e L]"
-        ],
-        [
-            "z R2 U' m U R' U' m' U R' z'",
-            [
-                "Hana Nakano"
-            ],
-            "z R:[R,U' m U]"
         ]
     ],
     "GBC": [
@@ -11916,6 +12534,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
@@ -11934,6 +12553,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -11960,6 +12580,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -11994,6 +12615,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -12014,6 +12636,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -12087,6 +12710,13 @@
             "M U:[D2,m]"
         ],
         [
+            "Rw B Rw' m' U2 m U2 Rw B' Rw'",
+            [
+                "Jacob Tucker"
+            ],
+            "Rw B Rw':[m',U2]"
+        ],
+        [
             "R B m' U2 m U2 B' R'",
             [
                 "Hana Nakano"
@@ -12112,6 +12742,7 @@
             "D 3Rw U R' U' m' U R U' m 3Rw' D'",
             [
                 "Daniel Wallin",
+                "Jacob Tucker",
                 "Kai Yamamoto (山本快)",
                 "Ryan Eckersley",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -12134,6 +12765,7 @@
                 "Daniel Wallin",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -12170,6 +12802,7 @@
             [
                 "Daniel Wallin",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Kai Yamamoto (山本快)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -12198,6 +12831,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -12245,19 +12879,20 @@
             "D' 3Rw:[U R' U',m']"
         ],
         [
+            "S D' m D2 m' D' S'",
+            [
+                "Jacob Tucker",
+                "Michael Tripodi"
+            ],
+            "S D':[m,D2]"
+        ],
+        [
             "4Lw R2 U' m2 U R2 U' m2 U 4Lw'",
             [
                 "Andrew Tan Jing Bang",
                 "Ziyi Xu (徐梓翼)"
             ],
             "4Lw:[R2,U' m2 U]"
-        ],
-        [
-            "S D' m D2 m' D' S'",
-            [
-                "Michael Tripodi"
-            ],
-            "S D':[m,D2]"
         ],
         [
             "s D' m D2 m' D' s'",
@@ -12274,6 +12909,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
@@ -12325,8 +12961,9 @@
             "4Lw:[R,U' m2 U]"
         ],
         [
-            "m r' R U' m2 U R' U' m2 U r m'",
+            "r' m R U' m2 U R' U' m2 U m' r",
             [
+                "Jacob Tucker",
                 "Michael Tripodi"
             ],
             "m r':[R,U' m2 U]"
@@ -12355,6 +12992,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -12373,6 +13011,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Ryan Eckersley"
             ],
             "L' m U:[m',U2]"
@@ -12409,6 +13048,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews"
             ],
@@ -12454,6 +13094,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -12470,6 +13111,7 @@
             [
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -12539,7 +13181,8 @@
         [
             "3Rw' U' m2 U R U' m2 U R' 3Rw",
             [
-                "Graham Siggins"
+                "Graham Siggins",
+                "Jacob Tucker"
             ],
             "3Rw':[U' m2 U,R]"
         ],
@@ -12560,6 +13203,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -12579,6 +13223,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -12599,6 +13244,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
@@ -12617,6 +13263,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -12649,6 +13296,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -12675,6 +13323,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
@@ -12702,6 +13351,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -12735,6 +13385,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -12762,6 +13413,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -12783,6 +13435,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -12803,6 +13456,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -12835,6 +13489,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -12902,6 +13557,13 @@
             "M U:[m,D2]"
         ],
         [
+            "Rw B Rw' U2 m' U2 m Rw B' Rw'",
+            [
+                "Jacob Tucker"
+            ],
+            "Rw B Rw':[U2,m']"
+        ],
+        [
             "R B U2 m' U2 m B' R'",
             [
                 "Hana Nakano"
@@ -12915,6 +13577,7 @@
             [
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Ryan Eckersley",
@@ -12965,6 +13628,7 @@
             "D 3Rw m' U R' U' m U R U' 3Rw' D'",
             [
                 "Daniel Wallin",
+                "Jacob Tucker",
                 "Kai Yamamoto (山本快)",
                 "Ryan Eckersley",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -12988,6 +13652,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -13008,6 +13673,7 @@
                 "Daniel Wallin",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -13069,6 +13735,13 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "R:[m2,U' R' U]"
+        ],
+        [
+            "Rw U Rw' U' m U2 m' U' Rw U' Rw'",
+            [
+                "Jacob Tucker"
+            ],
+            "Rw U Rw' U':[m,U2]"
         ]
     ],
     "GMB": [
@@ -13089,6 +13762,7 @@
             [
                 "Daniel Wallin",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Kai Yamamoto (山本快)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -13115,6 +13789,7 @@
             [
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Ryan Eckersley",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -13162,6 +13837,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -13217,6 +13893,13 @@
                 "Graham Siggins"
             ],
             "4Lw:[U m' U',R2]"
+        ],
+        [
+            "S' m U m' U2 m U m' S",
+            [
+                "Jacob Tucker"
+            ],
+            "S' m U:[m',U2]"
         ]
     ],
     "GOB": [
@@ -13241,19 +13924,20 @@
             "D' 3Rw:[m',U R' U']"
         ],
         [
+            "S D m D2 m' D S'",
+            [
+                "Jacob Tucker",
+                "Michael Tripodi"
+            ],
+            "S D:[m,D2]"
+        ],
+        [
             "4Lw U' m2 U R2 U' m2 U R2 4Lw'",
             [
                 "Andrew Tan Jing Bang",
                 "Ziyi Xu (徐梓翼)"
             ],
             "4Lw:[U' m2 U,R2]"
-        ],
-        [
-            "S D m D2 m' D S'",
-            [
-                "Michael Tripodi"
-            ],
-            "S D:[m,D2]"
         ],
         [
             "s D m D2 m' D s'",
@@ -13273,6 +13957,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -13298,6 +13983,7 @@
                 "Andrew Tan Jing Bang",
                 "Daniel Wallin",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Michael Tripodi",
@@ -13349,6 +14035,7 @@
         [
             "m r' U m' U' R U m U' R' r m'",
             [
+                "Jacob Tucker",
                 "Michael Tripodi",
                 "Ryan Eckersley"
             ],
@@ -13381,11 +14068,12 @@
             "4Lw:[U' m2 U,R]"
         ],
         [
-            "m r' U' m2 U R U' m2 U R' r m'",
+            "r' m U' m2 U R U' m2 U R' m' r",
             [
+                "Jacob Tucker",
                 "Michael Tripodi"
             ],
-            "m r':[U' m2 U,R]"
+            "r' m:[U' m2 U,R]"
         ],
         [
             "M U' m2 U R U' m2 U R' M'",
@@ -13424,6 +14112,14 @@
             "U Rw':[U',m D' m']"
         ],
         [
+            "z R U m' U' R U m U' R2 z'",
+            [
+                "Graham Siggins",
+                "Jacob Tucker"
+            ],
+            "z R:[U m' U',R]"
+        ],
+        [
             "U L e' L' U L e L' U2",
             [
                 "Kai Yamamoto (山本快)",
@@ -13437,13 +14133,6 @@
                 "Ryan Eckersley"
             ],
             "R' D':[m',U' R U]"
-        ],
-        [
-            "z R U m' U' R U m U' R2 z'",
-            [
-                "Graham Siggins"
-            ],
-            "z R:[U m' U',R]"
         ]
     ],
     "GRB": [
@@ -13455,6 +14144,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -13473,6 +14163,7 @@
                 "Daniel Wallin",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -13504,6 +14195,7 @@
                 "Daniel Wallin",
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Ryan Eckersley"
             ],
             "L' m U':[m',U2]"
@@ -13553,6 +14245,7 @@
         [
             "U' R' e R U R' e' R",
             [
+                "Jacob Tucker",
                 "Kai Yamamoto (山本快)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -13566,6 +14259,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews"
             ],
@@ -13608,12 +14302,22 @@
             [
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Michael Tripodi",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "z':[L',U' m2 U]"
+        ],
+        [
+            "U' R' e2 R U R' e2 R",
+            [
+                "Jacob Tucker",
+                "Kai Yamamoto (山本快)",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "[U',R' e2 R]"
         ],
         [
             "m U m' U L U' m U L' U2 m'",
@@ -13624,19 +14328,18 @@
             "m U:[m',U L U']"
         ],
         [
-            "U' R' e2 R U R' e2 R",
-            [
-                "Kai Yamamoto (山本快)",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "[U',R' e2 R]"
-        ],
-        [
             "U x' U' m' U L' U' m U 4Rw U'",
             [
                 "Daniel Wallin"
             ],
             "U 4Rw':[L,U' m' U]"
+        ],
+        [
+            "z R' D' m2 D R D' m2 D z'",
+            [
+                "Jacob Tucker"
+            ],
+            "z:[R',D' m2 D]"
         ],
         [
             "x' U2 R U m' U' R' U m U x",
@@ -13655,6 +14358,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -13691,6 +14395,7 @@
         [
             "U' R e' R' U R e R'",
             [
+                "Jacob Tucker",
                 "Kai Yamamoto (山本快)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -13703,6 +14408,7 @@
             [
                 "Graham Siggins",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -13772,6 +14478,7 @@
         [
             "m r' U m' U' R' U m U' 3Rw",
             [
+                "Jacob Tucker",
                 "Michael Tripodi"
             ],
             "m r':[U m' U',R']"
@@ -13794,6 +14501,7 @@
             "3Rw' R U' m2 U R' U' m2 U 3Rw",
             [
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Michael Tripodi"
             ],
             "3Rw':[R,U' m2 U]"
@@ -13839,18 +14547,19 @@
             "R D':[m',U' R' U]"
         ],
         [
+            "z R U' m U R U' m' U R2 z'",
+            [
+                "Hana Nakano",
+                "Jacob Tucker"
+            ],
+            "z R:[U' m U,R]"
+        ],
+        [
             "U L' e L U L' e' L U2",
             [
                 "Kai Yamamoto (山本快)"
             ],
             "U:[L' e L,U]"
-        ],
-        [
-            "z R U' m U R U' m' U R2 z'",
-            [
-                "Hana Nakano"
-            ],
-            "z R:[U' m U,R]"
         ]
     ],
     "GZB": [
@@ -13862,6 +14571,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
