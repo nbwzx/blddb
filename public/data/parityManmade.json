@@ -2,7 +2,8 @@
     "ACAD": [
         [
             [
-                "L' U' L F L' U' L U L F' L2 U L U"
+                "L' U' L F L' U' L U L F' L2 U L U",
+                "r' F' r F r' F' r U r U' r2 F r U"
             ],
             [
                 "Andrew Tan Jing Bang",
@@ -180,6 +181,7 @@
                 "Gavriel Johann Arcilla",
                 "Heejun Kim (김희준)",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -191,8 +193,7 @@
             ],
             [
                 "Graham Siggins",
-                "Howie Craig",
-                "Jacob Tucker"
+                "Howie Craig"
             ]
         ]
     ],
@@ -381,6 +382,7 @@
                 "Elliott Kobelansky",
                 "Heejun Kim (김희준)",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -393,14 +395,6 @@
             [
                 "Graham Siggins",
                 "Howie Craig"
-            ]
-        ],
-        [
-            [
-                "U' f R D R' U R U' D' R2 U R U' R f' U"
-            ],
-            [
-                "Jacob Tucker"
             ]
         ]
     ],
@@ -506,6 +500,7 @@
                 "Gavriel Johann Arcilla",
                 "Heejun Kim (김희준)",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -519,7 +514,6 @@
                 "Andrew Tan Jing Bang",
                 "Graham Siggins",
                 "Howie Craig",
-                "Jacob Tucker",
                 "Masato Fujiwara (藤原正人)"
             ]
         ]
@@ -581,7 +575,8 @@
     "ACGB": [
         [
             [
-                "U' L U L' U' L F L' U' L U L F' L2 U2"
+                "U' L U L' U' L F L' U' L U L F' L2 U2",
+                "U' r B r' U' r U r' U' L U r U' r' L' U2"
             ],
             [
                 "Chenhao Sun (孙晨皓)",
@@ -10486,7 +10481,7 @@
         ],
         [
             [
-                "U L F' L2 U L U L' U' L F L' U' L"
+                "U r U' r2 F r U L' U' L F L' U' L"
             ],
             [
                 "Jacob Tucker"
@@ -12832,7 +12827,8 @@
     "GAJA": [
         [
             [
-                "U L' U' L F L' U' L U L F' L2 U L"
+                "U L' U' L F L' U' L U L F' L2 U L",
+                "U r' F' r F r' F' r U r U' r2 F r"
             ],
             [
                 "Andrew Tan Jing Bang",
@@ -13096,19 +13092,20 @@
         ],
         [
             [
+                "f U' R U R2 U' D' R U R' D R2 B' z'"
+            ],
+            [
+                "Dhruv Ambastha",
+                "Jacob Tucker"
+            ]
+        ],
+        [
+            [
                 "f U' R U R2 U' D' R U R' D R2 f'"
             ],
             [
                 "Chenhao Sun (孙晨皓)",
                 "Kai Yamamoto (山本快)"
-            ]
-        ],
-        [
-            [
-                "f U' R U R2 U' D' R U R' D R2 B' z'"
-            ],
-            [
-                "Dhruv Ambastha"
             ]
         ],
         [
@@ -13362,7 +13359,6 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Howie Craig",
-                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Oliver Fritz"
@@ -13375,7 +13371,8 @@
             [
                 "Aleksander Bober",
                 "Andy Wong",
-                "Anto Kam (甘浩東)"
+                "Anto Kam (甘浩東)",
+                "Jacob Tucker"
             ]
         ],
         [
@@ -13645,6 +13642,18 @@
         ],
         [
             [
+                "R U R' U R U2 R2 F' R U R' U' R' F R2 U' R' U2 R"
+            ],
+            [
+                "Chenhao Sun (孙晨皓)",
+                "Dhruv Ambastha",
+                "Elliott Kobelansky",
+                "Hyunseung Ko (고현승)",
+                "Jacob Tucker"
+            ]
+        ],
+        [
+            [
                 "U R' U R2 U R2 U' R2 D R2 U' R2 U R2 D' R U'"
             ],
             [
@@ -13652,17 +13661,6 @@
                 "Ethan Pan",
                 "Michael Tripodi",
                 "Yangyang Shen (沈炀炀)"
-            ]
-        ],
-        [
-            [
-                "R U R' U R U2 R2 F' R U R' U' R' F R2 U' R' U2 R"
-            ],
-            [
-                "Chenhao Sun (孙晨皓)",
-                "Dhruv Ambastha",
-                "Elliott Kobelansky",
-                "Hyunseung Ko (고현승)"
             ]
         ],
         [
@@ -13791,7 +13789,7 @@
         ],
         [
             [
-                "f U2 R U R2 U' D' R U R' D R2 U f'"
+                "f U2 R U R2 U' D' R U R' D R2 U B' z'"
             ],
             [
                 "Jacob Tucker"
@@ -14401,7 +14399,14 @@
             [
                 "Aleksander Bober",
                 "Charlie Harrison",
-                "Hyunseung Ko (고현승)",
+                "Hyunseung Ko (고현승)"
+            ]
+        ],
+        [
+            [
+                "f R D R' U R U' D' R2 U R U' R B' z'"
+            ],
+            [
                 "Jacob Tucker"
             ]
         ],
@@ -16844,7 +16849,7 @@
         ],
         [
             [
-                "L F' L2 U L U L' U' L F L' U' L U"
+                "r U' r2 F r U L' U' L F L' U' L U"
             ],
             [
                 "Jacob Tucker"
