@@ -8003,6 +8003,14 @@
             "U' u:[R,U' l2 U]"
         ],
         [
+            "D R D' r U' R U r' U' R' U D R' D'",
+            [
+                "Daniel Wallin",
+                "Jacob Tucker"
+            ],
+            "D R D':[r,U' R U]"
+        ],
+        [
             "R D' r U L2 U' r' U L2 U' D R'",
             [
                 "Xin Shi (石欣)",
@@ -8019,25 +8027,11 @@
             "Rw U:[R2,U l' U']"
         ],
         [
-            "D R D' r U' R U r' U' R' U D R' D'",
-            [
-                "Daniel Wallin"
-            ],
-            "D R D':[r,U' R U]"
-        ],
-        [
             "U2 l U' R' U l2 U' R U l U2",
             [
                 "Oliver Fritz"
             ],
             "U2 l:[U' R' U,l2]"
-        ],
-        [
-            "D2 r U R' U' r2 U R U' r D2",
-            [
-                "Jacob Tucker"
-            ],
-            "D2 r:[U R' U',r2]"
         ]
     ],
     "AJB": [
@@ -14272,7 +14266,6 @@
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
                 "Israel Fraga da Silva",
-                "Jacob Tucker",
                 "Kai Yamamoto (山本快)",
                 "Oliver Fritz",
                 "Sebastiano Tronto",
@@ -14287,6 +14280,7 @@
             "U' D' R' u' R D R' u R U",
             [
                 "Gavriel Johann Arcilla",
+                "Jacob Tucker",
                 "Ryan Eckersley",
                 "Simon Praschl"
             ],
@@ -16797,7 +16791,6 @@
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
                 "Israel Fraga da Silva",
-                "Jacob Tucker",
                 "Kai Yamamoto (山本快)",
                 "Oliver Fritz",
                 "Sebastiano Tronto",
@@ -16812,6 +16805,7 @@
             "U' R' u' R D' R' u R D U",
             [
                 "Gavriel Johann Arcilla",
+                "Jacob Tucker",
                 "Ryan Eckersley",
                 "Simon Praschl"
             ],
@@ -26086,6 +26080,14 @@
             "U2 u:[l2,U R U']"
         ],
         [
+            "D R D' U' R U r U' R' U r' D R' D'",
+            [
+                "Daniel Wallin",
+                "Jacob Tucker"
+            ],
+            "D R D':[U' R U,r]"
+        ],
+        [
             "R D' U L2 U' r U L2 U' r' D R'",
             [
                 "Xin Shi (石欣)",
@@ -26102,25 +26104,11 @@
             "Rw U:[U l' U',R2]"
         ],
         [
-            "D R D' U' R U r U' R' U r' D R' D'",
-            [
-                "Daniel Wallin"
-            ],
-            "D R D':[U' R U,r]"
-        ],
-        [
             "U2 l' U' R' U l2 U' R U l' U2",
             [
                 "Oliver Fritz"
             ],
             "U2 l':[U' R' U,l2]"
-        ],
-        [
-            "D2 r' U R' U' r2 U R U' r' D2",
-            [
-                "Jacob Tucker"
-            ],
-            "D2 r':[U R' U',r2]"
         ]
     ],
     "AZJ": [
