@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useLayoutEffect } from "react";
-import ScrollUp from "@/components/Common/ScrollUp";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import Footer from "@/components/Footer";
@@ -35,7 +34,6 @@ export default function Home() {
           </Script>
         </React.Fragment>
       )}
-      <ScrollUp />
       <Hero />
       <Features />
       <Footer />
