@@ -1630,6 +1630,7 @@
             [
                 "Gavriel Johann Arcilla",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Michael Tripodi",
                 "Ryan Eckersley"
             ],
@@ -1639,7 +1640,6 @@
             "F' U2 R' u' R U' R' u R U' F",
             [
                 "Gavriel Johann Arcilla",
-                "Jacob Tucker",
                 "Xin Shi (石欣)"
             ],
             "F' U:[U,R' u' R]"
@@ -4310,6 +4310,7 @@
             [
                 "Gavriel Johann Arcilla",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Michael Tripodi",
                 "Ryan Eckersley"
             ],
@@ -4319,7 +4320,6 @@
             "F' U R' u' R U R' u R U2 F",
             [
                 "Gavriel Johann Arcilla",
-                "Jacob Tucker",
                 "Xin Shi (石欣)"
             ],
             "F' U:[R' u' R,U]"
@@ -6103,6 +6103,19 @@
             "D':[r,U R2 U']"
         ],
         [
+            "D' Rw U R U' r' U R' U' R' D",
+            [
+                "Graham Siggins",
+                "Hana Nakano",
+                "Jacob Tucker",
+                "Kai Yamamoto (山本快)",
+                "Kevin Matthews",
+                "Sebastiano Tronto",
+                "Simon Praschl"
+            ],
+            "D' R:[r,U R U']"
+        ],
+        [
             "U' R B R' b' R B' R' b U",
             [
                 "Andrew Tan Jing Bang",
@@ -6113,18 +6126,6 @@
                 "Ryan Eckersley"
             ],
             "U':[R B R',b']"
-        ],
-        [
-            "D' Rw U R U' r' U R' U' R' D",
-            [
-                "Graham Siggins",
-                "Hana Nakano",
-                "Kai Yamamoto (山本快)",
-                "Kevin Matthews",
-                "Sebastiano Tronto",
-                "Simon Praschl"
-            ],
-            "D' R:[r,U R U']"
         ],
         [
             "U' 4Lw U R' u' R U' R' u x U",
@@ -13706,6 +13707,7 @@
                 "Christopher Morris",
                 "Graham Siggins",
                 "Hana Nakano",
+                "Jacob Tucker",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Sebastiano Tronto",
@@ -18102,7 +18104,6 @@
                 "Daniel Wallin",
                 "Gavriel Johann Arcilla",
                 "Hyunseung Ko (고현승)",
-                "Jacob Tucker",
                 "Michael Tripodi",
                 "Ryan Eckersley",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -18195,6 +18196,13 @@
                 "Kai Yamamoto (山本快)"
             ],
             "Uw2 L:[U',L d' L']"
+        ],
+        [
+            "4Fw' l' U R' u' R U2 R' u R U l 4Fw",
+            [
+                "Jacob Tucker"
+            ],
+            "4Fw' l' U:[R' u' R,U2]"
         ]
     ],
     "AQS": [
@@ -19386,7 +19394,6 @@
                 "Chenhao Sun (孙晨皓)",
                 "Daniel Wallin",
                 "Hyunseung Ko (고현승)",
-                "Jacob Tucker",
                 "Michael Tripodi",
                 "Ryan Eckersley",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -19480,6 +19487,13 @@
                 "Kai Yamamoto (山本快)"
             ],
             "Uw2 L:[L d' L',U']"
+        ],
+        [
+            "4Fw' l' U' R' u' R U2 R' u R U' l 4Fw",
+            [
+                "Jacob Tucker"
+            ],
+            "4Fw' l' U':[R' u' R,U2]"
         ]
     ],
     "ARS": [
@@ -31858,15 +31872,15 @@
                 "Kai Yamamoto (山本快)",
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
-                "Sebastiano Tronto"
+                "Sebastiano Tronto",
+                "Simon Praschl"
             ],
             "Lw:[U,r' D2 r]"
         ],
         [
             "4Lw D R' u' R D2 R' u R D 4Lw'",
             [
-                "Ryan Eckersley",
-                "Simon Praschl"
+                "Ryan Eckersley"
             ],
             "4Lw D:[R' u' R,D2]"
         ],
@@ -32382,7 +32396,6 @@
             [
                 "Adrian Dębski",
                 "Daniel Lin",
-                "Jacob Tucker",
                 "Kai Yamamoto (山本快)",
                 "Oliver Fritz",
                 "Ryan Eckersley",
@@ -32398,7 +32411,8 @@
                 "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Ethan Pan",
-                "Gavriel Johann Arcilla"
+                "Gavriel Johann Arcilla",
+                "Jacob Tucker"
             ],
             "F':[U',R' u' R]"
         ],
@@ -33340,15 +33354,15 @@
                 "Gavriel Johann Arcilla",
                 "Hyunseung Ko (고현승)",
                 "Leonardo Ezequiel Cruz",
-                "Michael Tripodi"
+                "Michael Tripodi",
+                "Simon Praschl"
             ],
             "Lw:[r' D2 r,U]"
         ],
         [
             "4Lw D' R' u' R D2 R' u R D' 4Lw'",
             [
-                "Ryan Eckersley",
-                "Simon Praschl"
+                "Ryan Eckersley"
             ],
             "4Lw D':[R' u' R,D2]"
         ],
@@ -34413,7 +34427,6 @@
             [
                 "Adrian Dębski",
                 "Daniel Lin",
-                "Jacob Tucker",
                 "Kai Yamamoto (山本快)",
                 "Oliver Fritz",
                 "Ryan Eckersley",
@@ -34429,7 +34442,8 @@
                 "Anto Kam (甘浩東)",
                 "Chenhao Sun (孙晨皓)",
                 "Ethan Pan",
-                "Gavriel Johann Arcilla"
+                "Gavriel Johann Arcilla",
+                "Jacob Tucker"
             ],
             "F':[R' u' R,U']"
         ],
@@ -35453,7 +35467,6 @@
                 "Ethan Pan",
                 "Gavriel Johann Arcilla",
                 "Howie Craig",
-                "Jacob Tucker",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Ryan Eckersley",
@@ -35518,13 +35531,6 @@
                 "Anto Kam (甘浩東)"
             ],
             "U' D':[R B' R',b]"
-        ],
-        [
-            "U l2 F' 4Rw U l2 U' 4Rw' F U'",
-            [
-                "Jacob Tucker"
-            ],
-            "U:[l2,F' 4Rw U]"
         ],
         [
             "R2 y D' r U' r' D r U r' y' R2",
@@ -37532,7 +37538,6 @@
                 "Ethan Pan",
                 "Gavriel Johann Arcilla",
                 "Howie Craig",
-                "Jacob Tucker",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Michael Tripodi",
@@ -37597,13 +37602,6 @@
                 "Anto Kam (甘浩東)"
             ],
             "U' D':[b,R B' R']"
-        ],
-        [
-            "U F' 4Rw U l2 U' 4Rw' F l2 U'",
-            [
-                "Jacob Tucker"
-            ],
-            "U:[F' 4Rw U,l2]"
         ],
         [
             "R2 y r U' r' D' r U r' D y' R2",
