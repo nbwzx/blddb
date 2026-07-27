@@ -54,7 +54,6 @@
                 "Heejun Kim (김희준)",
                 "Howie Craig",
                 "Hyunseung Ko (고현승)",
-                "Jacob Tucker",
                 "Liren Sun (孙立仁)",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -62,11 +61,13 @@
         ],
         [
             [
-                "U' L U' x U2 R2 F R F' R U2 r' U L U L' U"
+                "U' L U' x U2 R2 F R F' R U2 r' U L U L' U",
+                "U' r B' U2 R2 F R F' R U2 r' U L U L' U"
             ],
             [
                 "Andrew Tan Jing Bang",
-                "Graham Siggins"
+                "Graham Siggins",
+                "Jacob Tucker"
             ]
         ],
         [
@@ -575,17 +576,6 @@
     "ACGB": [
         [
             [
-                "U' L U L' U' L F L' U' L U L F' L2 U2",
-                "U' r B r' U' r U r' U' L U r U' r' L' U2"
-            ],
-            [
-                "Chenhao Sun (孙晨皓)",
-                "Graham Siggins",
-                "Jacob Tucker"
-            ]
-        ],
-        [
-            [
                 "U2 L' U2 R U' R' U2 R L U' R' U'"
             ],
             [
@@ -595,10 +585,11 @@
         ],
         [
             [
-                "U' R' U2 R L U' R' U L' U2 R"
+                "U' L U L' U' L F L' U' L U L F' L2 U2"
             ],
             [
-                "Andrew Tan Jing Bang"
+                "Chenhao Sun (孙晨皓)",
+                "Graham Siggins"
             ]
         ],
         [
@@ -606,7 +597,16 @@
                 "U' r' U' F R' F' R2 U' R' U2 r"
             ],
             [
-                "Hyunseung Ko (고현승)"
+                "Hyunseung Ko (고현승)",
+                "Jacob Tucker"
+            ]
+        ],
+        [
+            [
+                "U' R' U2 R L U' R' U L' U2 R"
+            ],
+            [
+                "Andrew Tan Jing Bang"
             ]
         ],
         [
@@ -10481,7 +10481,7 @@
         ],
         [
             [
-                "U r U' r2 F r U r' F' r F L' U' L"
+                "U r U' r2 F r U r' F' r F r' F' r"
             ],
             [
                 "Jacob Tucker"
@@ -12827,8 +12827,7 @@
     "GAJA": [
         [
             [
-                "U L' U' L F L' U' L U L F' L2 U L",
-                "U r' F' r F r' F' r U r U' r2 F r"
+                "U L' U' L F L' U' L U L F' L2 U L"
             ],
             [
                 "Andrew Tan Jing Bang",
@@ -12843,7 +12842,6 @@
                 "Hana Nakano",
                 "Howie Craig",
                 "Hyunseung Ko (고현승)",
-                "Jacob Tucker",
                 "Joey Gouly",
                 "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
@@ -12887,10 +12885,12 @@
         ],
         [
             [
-                "U' x R2 F R F' R U2 r' U r U2 B x'"
+                "U' x R2 F R F' R U2 r' U r U2 B x'",
+                "U' l2 U l F' R U2 r' U r U2 B x'"
             ],
             [
-                "Andy Wong"
+                "Andy Wong",
+                "Jacob Tucker"
             ]
         ],
         [
@@ -16695,7 +16695,6 @@
                 "Graham Siggins",
                 "Heejun Kim (김희준)",
                 "Howie Craig",
-                "Jacob Tucker",
                 "Morimichi Kikuchi (菊地守道)",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -16849,7 +16848,7 @@
         ],
         [
             [
-                "r U' r2 F r U r' F' r F L' U' L U"
+                "r U' r2 F r U r' F' r F r' F' r U"
             ],
             [
                 "Jacob Tucker"
