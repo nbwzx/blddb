@@ -28259,7 +28259,6 @@
             "Rw U r' U' r u r' U r Uw' Rw'",
             [
                 "Daniel Wallin",
-                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Simon Praschl"
             ],
@@ -28269,6 +28268,7 @@
             "U r2 u r' U' r u' r' U r' U'",
             [
                 "Hyunseung Ko (고현승)",
+                "Jonghyun Kim (김종현)",
                 "Ryan Eckersley"
             ],
             "U r:[r u r',U']"
@@ -34268,6 +34268,7 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Hyunseung Ko (고현승)",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Ryan Eckersley",
@@ -34282,7 +34283,6 @@
         [
             "U D' r d r U' r' d' r U r2 D U'",
             [
-                "Jonghyun Kim (김종현)",
                 "Leonardo Ezequiel Cruz"
             ],
             "U D' r:[d,r U' r']"
@@ -36136,6 +36136,7 @@
                 "Dong Zhu (朱栋)",
                 "Ethan Pan",
                 "Hyunseung Ko (고현승)",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
                 "Ryan Eckersley",
@@ -36150,7 +36151,6 @@
         [
             "U D' r2 U' r' d r U r' d' r' D U'",
             [
-                "Jonghyun Kim (김종현)",
                 "Leonardo Ezequiel Cruz"
             ],
             "U D' r:[r U' r',d]"
@@ -39048,6 +39048,7 @@
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
                 "Hyunseung Ko (고현승)",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Ryan Eckersley",
                 "Simon Praschl",
@@ -39059,15 +39060,6 @@
             "d':[U l' U',r2]"
         ],
         [
-            "D l2 U l d' l' U' l d l D'",
-            [
-                "Anto Kam (甘浩東)",
-                "Jonghyun Kim (김종현)",
-                "Leonardo Ezequiel Cruz"
-            ],
-            "D l':[l' U l,d']"
-        ],
-        [
             "4Uw l' U' r2 U l U' r2 E",
             [
                 "Daniel Lin",
@@ -39075,6 +39067,14 @@
                 "Kevin Matthews"
             ],
             "4Uw:[l',U' r2 U]"
+        ],
+        [
+            "D l2 U l d' l' U' l d l D'",
+            [
+                "Anto Kam (甘浩東)",
+                "Leonardo Ezequiel Cruz"
+            ],
+            "D l':[l' U l,d']"
         ]
     ],
     "JSA": [
@@ -42938,7 +42938,6 @@
             "Rw Uw r' U' r u' r' U r U' Rw'",
             [
                 "Daniel Wallin",
-                "Jonghyun Kim (김종현)",
                 "Kevin Matthews",
                 "Simon Praschl"
             ],
@@ -42948,6 +42947,7 @@
             "U r U' r u r' U r u' r2 U'",
             [
                 "Hyunseung Ko (고현승)",
+                "Jonghyun Kim (김종현)",
                 "Ryan Eckersley"
             ],
             "U r:[U',r u r']"
@@ -44290,6 +44290,7 @@
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
                 "Hyunseung Ko (고현승)",
+                "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Ryan Eckersley",
                 "Simon Praschl",
@@ -44301,15 +44302,6 @@
             "d':[r2,U l' U']"
         ],
         [
-            "D l' d' l' U l d l' U' l2 D'",
-            [
-                "Anto Kam (甘浩東)",
-                "Jonghyun Kim (김종현)",
-                "Leonardo Ezequiel Cruz"
-            ],
-            "D l':[d',l' U l]"
-        ],
-        [
             "E' r2 U l' U' r2 U l 4Uw'",
             [
                 "Daniel Lin",
@@ -44317,6 +44309,14 @@
                 "Kevin Matthews"
             ],
             "4Uw:[U' r2 U,l']"
+        ],
+        [
+            "D l' d' l' U l d l' U' l2 D'",
+            [
+                "Anto Kam (甘浩東)",
+                "Leonardo Ezequiel Cruz"
+            ],
+            "D l':[d',l' U l]"
         ]
     ],
     "JZS": [
