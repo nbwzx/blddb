@@ -228,6 +228,46 @@ const finger = (function () {
     return Math.ceil(pain);
   }
 
+  function fingersmallpain(alg: string, position: number) {
+    let pain = 0;
+    let fingerposition = position;
+    const arr = alg.split(" ");
+    for (let i = 0; i <= arr.length - 1; i++) {
+      if (fingerposition === 3 && arr[i][0] === "U") {
+        pain = pain + 1;
+      }
+      if (arr[i] === "R" || arr[i] === "r") {
+        fingerposition = fingerposition + 1;
+      }
+      if (arr[i] === "R'" || arr[i] === "r'") {
+        fingerposition = fingerposition - 1;
+      }
+      if (arr[i] === "R2" || arr[i] === "r2") {
+        if (fingerposition === 2) {
+          fingerposition = 0;
+          for (let j = i + 1; j <= arr.length - 1; j++) {
+            if (
+              arr[j] === "R" ||
+              arr[j] === "r" ||
+              arr[j] === "R2" ||
+              arr[j] === "r2"
+            ) {
+              fingerposition = 0;
+              break;
+            }
+            if (arr[j] === "R'" || arr[j] === "r'") {
+              fingerposition = 4;
+              break;
+            }
+          }
+        } else {
+          fingerposition = (fingerposition + 2) % 4;
+        }
+      }
+    }
+    return pain;
+  }
+
   function fingerback(alg: string, position: number) {
     let fingerposition = position;
     const arr = alg.split(" ");
@@ -372,6 +412,14 @@ const finger = (function () {
     }
     if (count === 3) {
       fingerbegin = ["finger.homegrip"];
+    }
+    if (count === 2 && fingerbegin.includes("finger.homegrip")) {
+      if (
+        fingerpain(algRighty, 2) === 0 &&
+        fingersmallpain(algRighty, 2) === 0
+      ) {
+        fingerbegin = ["finger.homegrip"];
+      }
     }
     if (isLefty) {
       fingerbegin = fingerbegin.map((x) => {
