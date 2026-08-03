@@ -3734,15 +3734,6 @@
             "3Rw:[U',m' D' m]"
         ],
         [
-            "y' R' U' m2 U R U' m2 U y",
-            [
-                "Hana Nakano",
-                "Jacob Tucker",
-                "Kevin Matthews"
-            ],
-            "y':[R',U' m2 U]"
-        ],
-        [
             "L2 U L e' L' U' L e L",
             [
                 "Kai Yamamoto (山本快)",
@@ -3751,18 +3742,27 @@
             "L':[L' U L,e']"
         ],
         [
+            "D' m' U R U' m2 U R' U' m' D",
+            [
+                "Jacob Tucker",
+                "Jonghyun Kim (김종현)"
+            ],
+            "D' m':[U R U',m2]"
+        ],
+        [
+            "y' R' U' m2 U R U' m2 U y",
+            [
+                "Hana Nakano",
+                "Kevin Matthews"
+            ],
+            "y':[R',U' m2 U]"
+        ],
+        [
             "z U2 R U m' U' R' U m U z'",
             [
                 "Graham Siggins"
             ],
             "z U':[U' R U,m']"
-        ],
-        [
-            "D' m' U R U' m2 U R' U' m' D",
-            [
-                "Jonghyun Kim (김종현)"
-            ],
-            "D' m':[U R U',m2]"
         ],
         [
             "S' D' m D R' D' m' D R S",
@@ -7729,15 +7729,6 @@
             "3Rw:[m' D' m,U']"
         ],
         [
-            "y' U' m2 U R' U' m2 U R y",
-            [
-                "Hana Nakano",
-                "Jacob Tucker",
-                "Kevin Matthews"
-            ],
-            "y':[U' m2 U,R']"
-        ],
-        [
             "L' e' L' U L e L' U' L2",
             [
                 "Kai Yamamoto (山本快)",
@@ -7746,18 +7737,27 @@
             "L':[e',L' U L]"
         ],
         [
+            "D' m U R U' m2 U R' U' m D",
+            [
+                "Jacob Tucker",
+                "Jonghyun Kim (김종현)"
+            ],
+            "D' m:[U R U',m2]"
+        ],
+        [
+            "y' U' m2 U R' U' m2 U R y",
+            [
+                "Hana Nakano",
+                "Kevin Matthews"
+            ],
+            "y':[U' m2 U,R']"
+        ],
+        [
             "z U' m' U' R U m U' R' U2 z'",
             [
                 "Graham Siggins"
             ],
             "z U':[m',U' R U]"
-        ],
-        [
-            "D' m U R U' m2 U R' U' m D",
-            [
-                "Jonghyun Kim (김종현)"
-            ],
-            "D' m:[U R U',m2]"
         ],
         [
             "S' R' D' m D R D' m' D S",

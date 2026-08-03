@@ -12861,41 +12861,6 @@
     "AJL": [
         [
             [
-                "U R' D' R S' R' D R S U'"
-            ],
-            [
-                "Aleksander Bober",
-                "Andrew Tan Jing Bang",
-                "Bpaul Paul",
-                "Chenhao Sun (孙晨皓)",
-                "Daniel Lin",
-                "Daniel Wallin",
-                "Dhruv Ambastha",
-                "Diego Meneghetti",
-                "Ethan Pan",
-                "Graham Siggins",
-                "Hongjie Zhang (张鸿杰)",
-                "Israel Fraga da Silva",
-                "Jack Cai",
-                "Jacob Tucker",
-                "Joey Gouly",
-                "Jonghyun Kim (김종현)",
-                "Keita Hayakawa (早川慶太)",
-                "Kevin Matthews",
-                "Masato Fujiwara (藤原正人)",
-                "Morimichi Kikuchi (菊地守道)",
-                "Roman Strakhov",
-                "Tobias Peter",
-                "Yangyang Shen (沈炀炀)",
-                "Yifan Wang (王逸帆)",
-                "Zixing Wang (王子兴)"
-            ],
-            [
-                "U:[R' D' R,S']"
-            ]
-        ],
-        [
-            [
                 "U S L F L' S' L F' L' U'",
                 "U S r U r' S' r U' r' U'"
             ],
@@ -12911,6 +12876,7 @@
                 "Gavriel Johann Arcilla",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Kai Yamamoto (山本快)",
                 "Keiichiro Taira (平佳一郎)",
                 "Leonardo Ezequiel Cruz",
@@ -12928,6 +12894,40 @@
             [
                 "U:[S,L F L']",
                 "U:[S,r U r']"
+            ]
+        ],
+        [
+            [
+                "U R' D' R S' R' D R S U'"
+            ],
+            [
+                "Aleksander Bober",
+                "Andrew Tan Jing Bang",
+                "Bpaul Paul",
+                "Chenhao Sun (孙晨皓)",
+                "Daniel Lin",
+                "Daniel Wallin",
+                "Dhruv Ambastha",
+                "Diego Meneghetti",
+                "Ethan Pan",
+                "Graham Siggins",
+                "Hongjie Zhang (张鸿杰)",
+                "Israel Fraga da Silva",
+                "Jack Cai",
+                "Joey Gouly",
+                "Jonghyun Kim (김종현)",
+                "Keita Hayakawa (早川慶太)",
+                "Kevin Matthews",
+                "Masato Fujiwara (藤原正人)",
+                "Morimichi Kikuchi (菊地守道)",
+                "Roman Strakhov",
+                "Tobias Peter",
+                "Yangyang Shen (沈炀炀)",
+                "Yifan Wang (王逸帆)",
+                "Zixing Wang (王子兴)"
+            ],
+            [
+                "U:[R' D' R,S']"
             ]
         ],
         [
@@ -17792,6 +17792,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Kai Yamamoto (山本快)",
                 "Keiichiro Taira (平佳一郎)",
                 "Leonardo Ezequiel Cruz",
@@ -17828,7 +17829,6 @@
                 "Hongjie Zhang (张鸿杰)",
                 "Israel Fraga da Silva",
                 "Jack Cai",
-                "Jacob Tucker",
                 "Joey Gouly",
                 "Jonghyun Kim (김종현)",
                 "Keita Hayakawa (早川慶太)",
@@ -33996,6 +33996,7 @@
                 "Gavriel Johann Arcilla",
                 "Hyunseung Ko (고현승)",
                 "Ishaan Agrawal",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -43167,6 +43168,7 @@
                 "Hyunseung Ko (고현승)",
                 "Ishaan Agrawal",
                 "Israel Fraga da Silva",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Kai Yamamoto (山本快)",
                 "Kevin Matthews",
@@ -50912,13 +50914,16 @@
         ],
         [
             [
-                "U' L F' L' S L F2 L' S' L F' L' U"
+                "U' L F' L' S L F2 L' S' L F' L' U",
+                "U' r U' r' S r U2 r' S' r U' r' U"
             ],
             [
-                "Gavriel Johann Arcilla"
+                "Gavriel Johann Arcilla",
+                "Jacob Tucker"
             ],
             [
-                "U' L F':[L' S L,F2]"
+                "U' L F':[L' S L,F2]",
+                "U' r U':[r' S r,U2]"
             ]
         ],
         [
@@ -50970,6 +50975,7 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Ishaan Agrawal",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -51033,6 +51039,7 @@
                 "Diego Meneghetti",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Marcell Endrey",
                 "Rob Holt",
                 "Tim Wong",
@@ -51117,6 +51124,7 @@
                 "Andrew Tan Jing Bang",
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
+                "Jacob Tucker",
                 "Tobias Peter"
             ],
             [
@@ -51213,6 +51221,18 @@
         ],
         [
             [
+                "U' R' F R S' R' F2 R S R' F R U"
+            ],
+            [
+                "Jacob Tucker",
+                "Sebastiano Tronto"
+            ],
+            [
+                "U' R' F:[R S' R',F2]"
+            ]
+        ],
+        [
+            [
                 "y' M2 U' R2 U M2 U' R2 U y"
             ],
             [
@@ -51233,17 +51253,6 @@
             [
                 "S R F' R':[S',R2]"
             ]
-        ],
-        [
-            [
-                "U' R' F R S' R' F2 R S R' F R U"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "U' R' F:[R S' R',F2]"
-            ]
         ]
     ],
     "CIP": [
@@ -51255,6 +51264,7 @@
                 "Andrew Tan Jing Bang",
                 "Anto Kam (甘浩東)",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Sebastiano Tronto",
                 "Tobias Peter",
@@ -51369,6 +51379,7 @@
                 "Anto Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -51403,6 +51414,7 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Ishaan Agrawal",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -51458,6 +51470,7 @@
                 "Graham Siggins",
                 "Grzegorz Pacewicz",
                 "Ishaan Agrawal",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Marcell Endrey",
@@ -51509,6 +51522,7 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Ishaan Agrawal",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -51554,6 +51568,7 @@
                 "Graham Siggins",
                 "Grzegorz Pacewicz",
                 "Ishaan Agrawal",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Marcell Endrey",
@@ -51601,6 +51616,7 @@
                 "Anto Kam (甘浩東)",
                 "Graham Siggins",
                 "Ishaan Agrawal",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -51697,6 +51713,7 @@
             [
                 "Anto Kam (甘浩東)",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Yangyang Shen (沈炀炀)"
             ],
             [
@@ -51728,6 +51745,7 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Ishaan Agrawal",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -51976,6 +51994,7 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Ishaan Agrawal",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -52019,6 +52038,7 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Ishaan Agrawal",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -52101,6 +52121,7 @@
                 "Diego Meneghetti",
                 "Graham Siggins",
                 "Ishaan Agrawal",
+                "Jacob Tucker",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Tobias Peter"
@@ -52195,6 +52216,7 @@
                 "Aron Puddy-Mathew",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Keiichiro Taira (平佳一郎)",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -52291,6 +52313,7 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Ishaan Agrawal",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -52342,6 +52365,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -52412,6 +52436,7 @@
                 "Graham Siggins",
                 "Grzegorz Pacewicz",
                 "Ishaan Agrawal",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -52449,6 +52474,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -52559,6 +52585,7 @@
                 "Graham Siggins",
                 "Grzegorz Pacewicz",
                 "Ishaan Agrawal",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -52606,6 +52633,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -52694,6 +52722,7 @@
                 "Graham Siggins",
                 "Grzegorz Pacewicz",
                 "Ishaan Agrawal",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -52744,6 +52773,7 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Ishaan Agrawal",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Tobias Peter",
@@ -52836,6 +52866,7 @@
                 "Daniel White",
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -52901,6 +52932,7 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Ishaan Agrawal",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
@@ -53209,13 +53241,16 @@
         ],
         [
             [
-                "U' L F L' S L F2 L' S' L F L' U"
+                "U' L F L' S L F2 L' S' L F L' U",
+                "U' r U r' S r U2 r' S' r U r' U"
             ],
             [
-                "Gavriel Johann Arcilla"
+                "Gavriel Johann Arcilla",
+                "Jacob Tucker"
             ],
             [
-                "U' L F:[L' S L,F2]"
+                "U' L F:[L' S L,F2]",
+                "U' r U:[r' S r,U2]"
             ]
         ],
         [
@@ -53265,6 +53300,7 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Ishaan Agrawal",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -53304,6 +53340,7 @@
                 "Andrew Tan Jing Bang",
                 "Anto Kam (甘浩東)",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Tobias Peter"
             ],
             [
@@ -53379,6 +53416,7 @@
                 "Anto Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Sebastiano Tronto",
@@ -53404,6 +53442,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Keita Hayakawa (早川慶太)",
                 "Max Hilliard",
@@ -53450,6 +53489,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Sebastiano Tronto",
@@ -53484,6 +53524,7 @@
                 "Anto Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Sebastiano Tronto",
@@ -53518,6 +53559,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Sebastiano Tronto",
@@ -53552,6 +53594,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
@@ -53598,6 +53641,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Sebastiano Tronto",
@@ -53632,6 +53676,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
@@ -53665,6 +53710,7 @@
                 "Anto Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Sebastiano Tronto",
@@ -53699,6 +53745,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Sebastiano Tronto",
@@ -53733,6 +53780,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Sebastiano Tronto",
@@ -53904,6 +53952,7 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Ishaan Agrawal",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -53967,6 +54016,7 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Ishaan Agrawal",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -54061,6 +54111,7 @@
                 "Bpaul Paul",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Sebastiano Tronto",
@@ -54094,6 +54145,7 @@
                 "Andrew Tan Jing Bang",
                 "Anto Kam (甘浩東)",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -54152,6 +54204,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Sebastiano Tronto",
@@ -54188,6 +54241,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Sebastiano Tronto",
@@ -54227,6 +54281,7 @@
             [
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -54264,6 +54319,7 @@
                 "Andrew Tan Jing Bang",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Sebastiano Tronto"
             ],
             [
@@ -54323,6 +54379,17 @@
             [
                 "R' F:[r U' r',S]"
             ]
+        ],
+        [
+            [
+                "F r U' r' S r U r' f'"
+            ],
+            [
+                "Jacob Tucker"
+            ],
+            [
+                "F:[r U' r',S]"
+            ]
         ]
     ],
     "CLT": [
@@ -54336,6 +54403,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -54391,6 +54459,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -54456,6 +54525,18 @@
         ],
         [
             [
+                "S' U' L' U S U' L U"
+            ],
+            [
+                "Gavriel Johann Arcilla",
+                "Jacob Tucker"
+            ],
+            [
+                "[S',U' L' U]"
+            ]
+        ],
+        [
+            [
                 "U2 S R' E' R U2 R E R' S'"
             ],
             [
@@ -54463,17 +54544,6 @@
             ],
             [
                 "Not found."
-            ]
-        ],
-        [
-            [
-                "S' U' L' U S U' L U"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "[S',U' L' U]"
             ]
         ],
         [
@@ -54513,6 +54583,7 @@
             [
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -54547,6 +54618,7 @@
                 "Andrew Tan Jing Bang",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Sebastiano Tronto"
             ],
             [
@@ -54701,6 +54773,7 @@
                 "Daniel White",
                 "Diego Meneghetti",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Marcell Endrey",
                 "Rob Holt",
                 "Tim Wong",
@@ -54793,6 +54866,7 @@
             ],
             [
                 "Ishaan Agrawal",
+                "Jacob Tucker",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Tobias Peter"
@@ -54881,6 +54955,7 @@
                 "Andrew Tan Jing Bang",
                 "Anto Kam (甘浩東)",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Max Hilliard",
                 "Tobias Peter"
             ],
@@ -54958,6 +55033,7 @@
                 "Bpaul Paul",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Sebastiano Tronto",
@@ -55033,6 +55109,17 @@
             [
                 "U' D' R' F':[R S' R',F2]"
             ]
+        ],
+        [
+            [
+                "D' S R2 S' R2 D R2 S R2 S'"
+            ],
+            [
+                "Jacob Tucker"
+            ],
+            [
+                "[D',S R2 S' R2]"
+            ]
         ]
     ],
     "CMP": [
@@ -55045,6 +55132,7 @@
                 "Anto Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -55108,6 +55196,7 @@
                 "Anto Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -55135,19 +55224,22 @@
     "CMR": [
         [
             [
-                "r S' L F L' S L F' r' L'"
+                "r S' L F L' S L F' r' L'",
+                "r S' r U r' S r U' r2"
             ],
             [
                 "Andrew Tan Jing Bang",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
-                "r:[S',L F L']"
+                "r:[S',L F L']",
+                "r:[S',r U r']"
             ]
         ],
         [
@@ -55185,6 +55277,7 @@
                 "Anto Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
@@ -55260,6 +55353,18 @@
         ],
         [
             [
+                "U l U S' L2 S L2 U' l' U'"
+            ],
+            [
+                "Anto Kam (甘浩東)",
+                "Jacob Tucker"
+            ],
+            [
+                "U l U:[S',L2]"
+            ]
+        ],
+        [
+            [
                 "R' E R U M U2 M' U R' E' R"
             ],
             [
@@ -55267,17 +55372,6 @@
             ],
             [
                 "R' E R U:[M,U2]"
-            ]
-        ],
-        [
-            [
-                "U l U S' L2 S L2 U' l' U'"
-            ],
-            [
-                "Anto Kam (甘浩東)"
-            ],
-            [
-                "U l U:[S',L2]"
             ]
         ]
     ],
@@ -55291,6 +55385,7 @@
                 "Anto Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
@@ -55334,6 +55429,7 @@
                 "Andrew Tan Jing Bang",
                 "Anto Kam (甘浩東)",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Sebastiano Tronto",
@@ -55385,6 +55481,7 @@
             [
                 "Anto Kam (甘浩東)",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -55403,6 +55500,7 @@
                 "Andrew Tan Jing Bang",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -55634,6 +55732,7 @@
                 "Andrew Tan Jing Bang",
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
+                "Jacob Tucker",
                 "Max Hilliard",
                 "Tobias Peter"
             ],
@@ -55713,6 +55812,7 @@
                 "Diego Meneghetti",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Keiichiro Taira (平佳一郎)",
                 "Sebastiano Tronto",
                 "Tobias Peter",
@@ -55806,6 +55906,7 @@
                 "Anto Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Sebastiano Tronto",
@@ -55828,6 +55929,7 @@
                 "Andrew Tan Jing Bang",
                 "Anto Kam (甘浩東)",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -55884,6 +55986,7 @@
                 "Andrew Tan Jing Bang",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Sebastiano Tronto",
                 "Tobias Peter",
@@ -55920,6 +56023,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -55961,6 +56065,7 @@
             [
                 "Anto Kam (甘浩東)",
                 "Elliott Kobelansky",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -56018,6 +56123,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
@@ -56062,6 +56168,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Sebastiano Tronto",
@@ -56095,6 +56202,7 @@
                 "Anto Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Sebastiano Tronto",
                 "Tobias Peter",
@@ -56151,6 +56259,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Sebastiano Tronto",
@@ -56184,6 +56293,7 @@
                 "Anto Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Sebastiano Tronto",
                 "Tobias Peter",
@@ -56238,6 +56348,7 @@
                 "Andrew Tan Jing Bang",
                 "Anto Kam (甘浩東)",
                 "Elliott Kobelansky",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Sebastiano Tronto",
@@ -56284,6 +56395,7 @@
                 "Anto Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Max Hilliard",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
@@ -56492,6 +56604,18 @@
         ],
         [
             [
+                "U' R' F' R S' R' F2 R S R' F' R U"
+            ],
+            [
+                "Jacob Tucker",
+                "Sebastiano Tronto"
+            ],
+            [
+                "U' R' F':[R S' R',F2]"
+            ]
+        ],
+        [
+            [
                 "y' U' R2 U M2 U' R2 U M2 y"
             ],
             [
@@ -56523,17 +56647,6 @@
             [
                 "D' L D L:[S,L2]"
             ]
-        ],
-        [
-            [
-                "U' R' F' R S' R' F2 R S R' F' R U"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "U' R' F':[R S' R',F2]"
-            ]
         ]
     ],
     "COJ": [
@@ -56549,6 +56662,7 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Ishaan Agrawal",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -56600,6 +56714,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Keita Hayakawa (早川慶太)",
                 "Max Hilliard",
@@ -56647,6 +56762,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Sebastiano Tronto",
@@ -56713,6 +56829,17 @@
             [
                 "U' D' R' F:[R S' R',F2]"
             ]
+        ],
+        [
+            [
+                "S R2 S' R2 D' R2 S R2 S' D"
+            ],
+            [
+                "Jacob Tucker"
+            ],
+            [
+                "[S R2 S' R2,D']"
+            ]
         ]
     ],
     "CON": [
@@ -56725,6 +56852,7 @@
                 "Andrew Tan Jing Bang",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Sebastiano Tronto",
                 "Tobias Peter",
@@ -56760,6 +56888,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -56825,6 +56954,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
@@ -56869,6 +56999,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Sebastiano Tronto",
@@ -56893,6 +57024,7 @@
                 "Anto Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
@@ -56948,6 +57080,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Sebastiano Tronto",
@@ -56972,6 +57105,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
@@ -57015,6 +57149,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Sebastiano Tronto",
                 "Tobias Peter",
@@ -57070,6 +57205,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
@@ -57214,6 +57350,7 @@
                 "Andrew Tan Jing Bang",
                 "Anto Kam (甘浩東)",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Sebastiano Tronto",
                 "Tobias Peter",
@@ -57298,6 +57435,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -57362,6 +57500,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Sebastiano Tronto",
@@ -57396,6 +57535,7 @@
                 "Anto Kam (甘浩東)",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Sebastiano Tronto",
@@ -57431,6 +57571,7 @@
                 "Anto Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -57496,6 +57637,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -57553,6 +57695,18 @@
         ],
         [
             [
+                "R U2 R S' R' U2 R S R2"
+            ],
+            [
+                "Jacob Tucker",
+                "Sebastiano Tronto"
+            ],
+            [
+                "R:[U2,R S' R']"
+            ]
+        ],
+        [
+            [
                 "R S R2 S' R S R S' R2 S R S'"
             ],
             [
@@ -57571,17 +57725,6 @@
             ],
             [
                 "L E' L':[S,L2]"
-            ]
-        ],
-        [
-            [
-                "R U2 R S' R' U2 R S R2"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "R:[U2,R S' R']"
             ]
         ]
     ],
@@ -57633,7 +57776,8 @@
                 "U2 S U R' U' S' U R U"
             ],
             [
-                "Gavriel Johann Arcilla"
+                "Gavriel Johann Arcilla",
+                "Jacob Tucker"
             ],
             [
                 "U':[U' S U,R']"
@@ -57684,6 +57828,18 @@
         ],
         [
             [
+                "R E R' U2 R E R' U2 R E2 R'"
+            ],
+            [
+                "Jacob Tucker",
+                "Sebastiano Tronto"
+            ],
+            [
+                "R E:[R' U2 R,E]"
+            ]
+        ],
+        [
+            [
                 "E r E' L E r' E' L'"
             ],
             [
@@ -57691,17 +57847,6 @@
             ],
             [
                 "[E r E',L]"
-            ]
-        ],
-        [
-            [
-                "R E R' U2 R E R' U2 R E2 R'"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "R E:[R' U2 R,E]"
             ]
         ]
     ],
@@ -57728,6 +57873,7 @@
                 "U R B' E R2 E' R2 B R' U'"
             ],
             [
+                "Jacob Tucker",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -57797,6 +57943,7 @@
                 "R' E' R U2 R' E' R U2 R' E2 R"
             ],
             [
+                "Jacob Tucker",
                 "Sebastiano Tronto"
             ],
             [
@@ -57813,6 +57960,7 @@
                 "Andrew Tan Jing Bang",
                 "Anto Kam (甘浩東)",
                 "Elliott Kobelansky",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Sebastiano Tronto",
                 "Tobias Peter",
@@ -57860,6 +58008,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -57953,7 +58102,8 @@
                 "U2 S U R U' S' U R' U"
             ],
             [
-                "Gavriel Johann Arcilla"
+                "Gavriel Johann Arcilla",
+                "Jacob Tucker"
             ],
             [
                 "U':[U' S U,R]"
@@ -58118,6 +58268,7 @@
             [
                 "Anto Kam (甘浩東)",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Yangyang Shen (沈炀炀)"
             ],
             [
@@ -58154,6 +58305,7 @@
                 "Graham Siggins",
                 "Grzegorz Pacewicz",
                 "Ishaan Agrawal",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -58189,6 +58341,7 @@
                 "Anto Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Sebastiano Tronto",
@@ -58237,6 +58390,7 @@
             [
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -58271,6 +58425,7 @@
             [
                 "Anto Kam (甘浩東)",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -58287,6 +58442,7 @@
             [
                 "Anto Kam (甘浩東)",
                 "Elliott Kobelansky",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -58343,6 +58499,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -58421,6 +58578,18 @@
         ],
         [
             [
+                "R2 S' R' U2 R S R' U2 R'"
+            ],
+            [
+                "Jacob Tucker",
+                "Sebastiano Tronto"
+            ],
+            [
+                "R:[R S' R',U2]"
+            ]
+        ],
+        [
+            [
                 "S R' S' R2 S R' S' R' S R2 S' R'"
             ],
             [
@@ -58440,17 +58609,6 @@
             [
                 "L E' L:[S,L2]"
             ]
-        ],
-        [
-            [
-                "R2 S' R' U2 R S R' U2 R'"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "R:[R S' R',U2]"
-            ]
         ]
     ],
     "CQS": [
@@ -58464,6 +58622,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Sebastiano Tronto",
                 "Tobias Peter",
@@ -58499,6 +58658,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Sebastiano Tronto",
                 "Tobias Peter",
@@ -58532,6 +58692,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Sebastiano Tronto",
                 "Tobias Peter",
@@ -58564,6 +58725,7 @@
                 "Anto Kam (甘浩東)",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Sebastiano Tronto",
                 "Tobias Peter",
@@ -58620,6 +58782,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Sebastiano Tronto",
@@ -58644,6 +58807,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Sebastiano Tronto",
                 "Tobias Peter",
@@ -58796,6 +58960,7 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Ishaan Agrawal",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -58847,6 +59012,7 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Ishaan Agrawal",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -58950,6 +59116,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Sebastiano Tronto",
@@ -58999,6 +59166,7 @@
                 "Andrew Tan Jing Bang",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Sebastiano Tronto"
             ],
             [
@@ -59020,19 +59188,22 @@
     "CRM": [
         [
             [
-                "r L F L' S' L F' L' S r'"
+                "r L F L' S' L F' L' S r'",
+                "r2 U r' S' r U' r' S r'"
             ],
             [
                 "Andrew Tan Jing Bang",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
-                "r:[L F L',S']"
+                "r:[L F L',S']",
+                "r2:[U,r' S' r]"
             ]
         ],
         [
@@ -59071,6 +59242,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
@@ -59115,6 +59287,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
@@ -59196,7 +59369,8 @@
                 "U' R' U' S U R U' S' U2"
             ],
             [
-                "Gavriel Johann Arcilla"
+                "Gavriel Johann Arcilla",
+                "Jacob Tucker"
             ],
             [
                 "U':[R',U' S U]"
@@ -59237,6 +59411,17 @@
                 "[l',S R S']",
                 "R' E:[R,E' R S]"
             ]
+        ],
+        [
+            [
+                "U' r U r' E r U' r' u"
+            ],
+            [
+                "Jacob Tucker"
+            ],
+            [
+                "U':[r U r',E]"
+            ]
         ]
     ],
     "CRT": [
@@ -59249,6 +59434,7 @@
                 "Anto Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Sebastiano Tronto",
@@ -59281,6 +59467,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -59346,6 +59533,7 @@
                 "Anto Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
@@ -59413,6 +59601,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Sebastiano Tronto",
                 "Tobias Peter",
@@ -59447,6 +59636,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Sebastiano Tronto",
@@ -59580,6 +59770,7 @@
                 "Graham Siggins",
                 "Grzegorz Pacewicz",
                 "Ishaan Agrawal",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Marcell Endrey",
@@ -59635,6 +59826,7 @@
                 "Graham Siggins",
                 "Grzegorz Pacewicz",
                 "Ishaan Agrawal",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -59682,6 +59874,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
@@ -59758,6 +59951,17 @@
             [
                 "R' f:[r U' r',S']"
             ]
+        ],
+        [
+            [
+                "f r U' r' S' r U r' F'"
+            ],
+            [
+                "Jacob Tucker"
+            ],
+            [
+                "f:[r U' r',S']"
+            ]
         ]
     ],
     "CSM": [
@@ -59770,6 +59974,7 @@
                 "Anto Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
@@ -59824,6 +60029,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Sebastiano Tronto",
@@ -59858,6 +60064,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Sebastiano Tronto",
@@ -59916,6 +60123,18 @@
         ],
         [
             [
+                "R E2 R' U2 R E' R' U2 R E' R'"
+            ],
+            [
+                "Jacob Tucker",
+                "Sebastiano Tronto"
+            ],
+            [
+                "R E:[E,R' U2 R]"
+            ]
+        ],
+        [
+            [
                 "L E r E' L' E r' E'"
             ],
             [
@@ -59923,17 +60142,6 @@
             ],
             [
                 "[L,E r E']"
-            ]
-        ],
-        [
-            [
-                "R E2 R' U2 R E' R' U2 R E' R'"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "R E:[E,R' U2 R]"
             ]
         ]
     ],
@@ -59948,6 +60156,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Sebastiano Tronto",
                 "Tobias Peter",
@@ -60016,6 +60225,17 @@
                 "[S R S',l']",
                 "S:[R,S' R' E]"
             ]
+        ],
+        [
+            [
+                "u' r U r' E' r U' r' U"
+            ],
+            [
+                "Jacob Tucker"
+            ],
+            [
+                "u':[r U r',E']"
+            ]
         ]
     ],
     "CSW": [
@@ -60029,6 +60249,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Sebastiano Tronto",
@@ -60063,6 +60284,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
@@ -60096,6 +60318,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Sebastiano Tronto",
                 "Tobias Peter",
@@ -60151,6 +60374,7 @@
                 "u R2 E' R' U R E R' U' R' u'"
             ],
             [
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -60338,6 +60562,7 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Ishaan Agrawal",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -60376,6 +60601,7 @@
                 "Anto Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -60458,6 +60684,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Sebastiano Tronto",
@@ -60492,6 +60719,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -60587,6 +60815,17 @@
             [
                 "U l U:[L2,S']"
             ]
+        ],
+        [
+            [
+                "U l U' S' L2 S L2 U l' U'"
+            ],
+            [
+                "Jacob Tucker"
+            ],
+            [
+                "U l U':[S',L2]"
+            ]
         ]
     ],
     "CTN": [
@@ -60599,6 +60838,7 @@
                 "Anto Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Sebastiano Tronto",
                 "Tobias Peter",
@@ -60654,6 +60894,7 @@
                 "Anto Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
@@ -60721,6 +60962,7 @@
                 "U R B' R2 E R2 E' B R' U'"
             ],
             [
+                "Jacob Tucker",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -60753,6 +60995,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Sebastiano Tronto",
                 "Tobias Peter",
@@ -60786,6 +61029,7 @@
                 "Anto Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Sebastiano Tronto",
@@ -60821,6 +61065,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
@@ -60855,6 +61100,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Sebastiano Tronto",
@@ -60887,6 +61133,7 @@
                 "Andrew Tan Jing Bang",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Sebastiano Tronto",
                 "Tobias Peter",
@@ -60959,6 +61206,7 @@
             ],
             [
                 "Gavriel Johann Arcilla",
+                "Jacob Tucker",
                 "Sebastiano Tronto"
             ],
             [
@@ -61083,6 +61331,7 @@
                 "Graham Siggins",
                 "Grzegorz Pacewicz",
                 "Ishaan Agrawal",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Marcell Endrey",
@@ -61137,6 +61386,7 @@
                 "Graham Siggins",
                 "Grzegorz Pacewicz",
                 "Ishaan Agrawal",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -61185,6 +61435,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
@@ -61219,6 +61470,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
@@ -61262,6 +61514,7 @@
                 "Anto Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
@@ -61306,6 +61559,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Sebastiano Tronto",
@@ -61340,6 +61594,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Sebastiano Tronto",
@@ -61401,6 +61656,7 @@
                 "R' E2 R U2 R' E R U2 R' E R"
             ],
             [
+                "Jacob Tucker",
                 "Sebastiano Tronto"
             ],
             [
@@ -61418,6 +61674,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Sebastiano Tronto",
                 "Tobias Peter",
@@ -61449,6 +61706,7 @@
             [
                 "Andrew Tan Jing Bang",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -61516,6 +61774,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Sebastiano Tronto",
@@ -61550,6 +61809,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
@@ -61583,6 +61843,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Sebastiano Tronto",
                 "Tobias Peter",
@@ -61628,6 +61889,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
@@ -61806,6 +62068,7 @@
                 "Anto Kam (甘浩東)",
                 "Graham Siggins",
                 "Ishaan Agrawal",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -61881,6 +62144,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Ishaan Agrawal",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Sebastiano Tronto",
@@ -61972,6 +62236,7 @@
                 "Anto Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Sebastiano Tronto",
@@ -62017,6 +62282,18 @@
         ],
         [
             [
+                "U' L' U S' U' L U S"
+            ],
+            [
+                "Gavriel Johann Arcilla",
+                "Jacob Tucker"
+            ],
+            [
+                "[U' L' U,S']"
+            ]
+        ],
+        [
+            [
                 "S R E' R' U2 R' E R S' U2"
             ],
             [
@@ -62024,17 +62301,6 @@
             ],
             [
                 "Not found."
-            ]
-        ],
-        [
-            [
-                "U' L' U S' U' L U S"
-            ],
-            [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "[U' L' U,S']"
             ]
         ],
         [
@@ -62060,6 +62326,7 @@
                 "Anto Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Sebastiano Tronto",
@@ -62085,6 +62352,7 @@
                 "Anto Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Sebastiano Tronto",
                 "Tobias Peter",
@@ -62141,6 +62409,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
@@ -62183,6 +62452,7 @@
                 "Andrew Tan Jing Bang",
                 "Anto Kam (甘浩東)",
                 "Elliott Kobelansky",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Sebastiano Tronto",
                 "Tobias Peter",
@@ -62227,6 +62497,7 @@
                 "Anto Kam (甘浩東)",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Sebastiano Tronto",
                 "Tobias Peter",
@@ -62296,6 +62567,7 @@
             [
                 "Anto Kam (甘浩東)",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard"
             ],
@@ -62348,6 +62620,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
@@ -62382,6 +62655,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Sebastiano Tronto",
@@ -62416,6 +62690,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Sebastiano Tronto",
                 "Tobias Peter",
@@ -62450,6 +62725,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Sebastiano Tronto",
@@ -62610,6 +62886,7 @@
             [
                 "Anto Kam (甘浩東)",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Yangyang Shen (沈炀炀)"
             ],
             [
@@ -62639,6 +62916,7 @@
                 "Daniel White",
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -62700,6 +62978,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Sebastiano Tronto",
@@ -62748,6 +63027,7 @@
             [
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -62782,6 +63062,7 @@
             [
                 "Anto Kam (甘浩東)",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -62799,6 +63080,7 @@
                 "Andrew Tan Jing Bang",
                 "Anto Kam (甘浩東)",
                 "Elliott Kobelansky",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Sebastiano Tronto",
@@ -62844,6 +63126,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Sebastiano Tronto",
                 "Tobias Peter",
@@ -62900,6 +63183,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -62955,6 +63239,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Sebastiano Tronto",
@@ -62979,6 +63264,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Sebastiano Tronto",
                 "Tobias Peter",
@@ -63013,6 +63299,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Sebastiano Tronto",
                 "Tobias Peter",
@@ -63056,6 +63343,7 @@
                 "Andrew Tan Jing Bang",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Sebastiano Tronto",
                 "Tobias Peter",
@@ -63121,6 +63409,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Sebastiano Tronto",
                 "Tobias Peter",
@@ -63166,6 +63455,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Sebastiano Tronto",
                 "Tobias Peter",
@@ -63316,6 +63606,7 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Ishaan Agrawal",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -63369,6 +63660,7 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Ishaan Agrawal",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
@@ -63460,6 +63752,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Sebastiano Tronto",
@@ -63508,6 +63801,7 @@
                 "Andrew Tan Jing Bang",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Sebastiano Tronto"
             ],
             [
@@ -63547,6 +63841,7 @@
                 "Andrew Tan Jing Bang",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -63593,6 +63888,7 @@
                 "Anto Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Max Hilliard",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
@@ -63639,6 +63935,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
@@ -63721,7 +64018,8 @@
                 "U' R U' S U R' U' S' U2"
             ],
             [
-                "Gavriel Johann Arcilla"
+                "Gavriel Johann Arcilla",
+                "Jacob Tucker"
             ],
             [
                 "U':[R,U' S U]"
@@ -63750,6 +64048,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Sebastiano Tronto",
                 "Tobias Peter",
@@ -63795,6 +64094,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Sebastiano Tronto",
@@ -63840,6 +64140,7 @@
                 "u R U R E' R' U' R E R2 u'"
             ],
             [
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Yangyang Shen (沈炀炀)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -63921,6 +64222,7 @@
             ],
             [
                 "Gavriel Johann Arcilla",
+                "Jacob Tucker",
                 "Sebastiano Tronto"
             ],
             [
@@ -63939,6 +64241,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
@@ -63975,6 +64278,7 @@
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Sebastiano Tronto",
@@ -65315,6 +65619,7 @@
                 "Graham Siggins",
                 "Heejun Kim (김희준)",
                 "Ishaan Agrawal",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Leonardo Ezequiel Cruz",
@@ -65340,7 +65645,6 @@
                 "Dhruv Ambastha",
                 "Heejun Kim (김희준)",
                 "Israel Fraga da Silva",
-                "Jacob Tucker",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -67484,6 +67788,7 @@
                 "Graham Siggins",
                 "Heejun Kim (김희준)",
                 "Ishaan Agrawal",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Leonardo Ezequiel Cruz",
@@ -67509,7 +67814,6 @@
                 "Dhruv Ambastha",
                 "Heejun Kim (김희준)",
                 "Israel Fraga da Silva",
-                "Jacob Tucker",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -71816,6 +72120,7 @@
             ],
             [
                 "Bpaul Paul",
+                "Jacob Tucker",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -74870,6 +75175,7 @@
             ],
             [
                 "Bpaul Paul",
+                "Jacob Tucker",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -84810,6 +85116,7 @@
                 "Chenhao Sun (孙晨皓)",
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -84839,7 +85146,6 @@
             ],
             [
                 "Graham Siggins",
-                "Jacob Tucker",
                 "Sebastiano Tronto"
             ],
             [
@@ -85857,7 +86163,6 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
-                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -85905,6 +86210,17 @@
             ],
             [
                 "[R2,U M U']"
+            ]
+        ],
+        [
+            [
+                "R2 U' M' U R2 U' M U"
+            ],
+            [
+                "Jacob Tucker"
+            ],
+            [
+                "[R2,U' M' U]"
             ]
         ]
     ],
@@ -90159,14 +90475,16 @@
         ],
         [
             [
-                "U L F' L' S L F2 L' S' L F' L' U'"
+                "U L F' L' S L F2 L' S' L F' L' U'",
+                "U r U' r' S r U2 r' S' r U' r' U'"
             ],
             [
                 "Gavriel Johann Arcilla",
                 "Jacob Tucker"
             ],
             [
-                "U L F':[L' S L,F2]"
+                "U L F':[L' S L,F2]",
+                "U r U':[r' S r,U2]"
             ]
         ],
         [
@@ -90406,6 +90724,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Guoqiao Wang (王国桥)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -90423,7 +90742,6 @@
             [
                 "Gavriel Johann Arcilla",
                 "Ishaan Agrawal",
-                "Jacob Tucker",
                 "Max Hilliard"
             ],
             [
@@ -90950,7 +91268,8 @@
     "GIX": [
         [
             [
-                "L2 F L' S' L F' L' S L'"
+                "L2 F L' S' L F' L' S L'",
+                "r L U r' S' r U' r' S L'"
             ],
             [
                 "Andrew Tan Jing Bang",
@@ -90970,7 +91289,8 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
-                "L:[L F L',S']"
+                "L:[L F L',S']",
+                "L:[r U r',S']"
             ]
         ],
         [
@@ -91812,6 +92132,7 @@
                 "Graham Siggins",
                 "Guoqiao Wang (王国桥)",
                 "Ishaan Agrawal",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -91843,18 +92164,6 @@
         ],
         [
             [
-                "D R' F' R S' R' F R S D'"
-            ],
-            [
-                "Jacob Tucker",
-                "Sebastiano Tronto"
-            ],
-            [
-                "D:[R' F' R,S']"
-            ]
-        ],
-        [
-            [
                 "z' R U' M' U R U' M U R2 z"
             ],
             [
@@ -91863,6 +92172,17 @@
             ],
             [
                 "z' R:[U' M' U,R]"
+            ]
+        ],
+        [
+            [
+                "D R' F' R S' R' F R S D'"
+            ],
+            [
+                "Sebastiano Tronto"
+            ],
+            [
+                "D:[R' F' R,S']"
             ]
         ]
     ],
@@ -93464,14 +93784,16 @@
         ],
         [
             [
-                "U L F L' S L F2 L' S' L F L' U'"
+                "U L F L' S L F2 L' S' L F L' U'",
+                "U r U r' S r U2 r' S' r U r' U'"
             ],
             [
                 "Gavriel Johann Arcilla",
                 "Jacob Tucker"
             ],
             [
-                "U L F:[L' S L,F2]"
+                "U L F:[L' S L,F2]",
+                "U r U:[r' S r,U2]"
             ]
         ],
         [
@@ -94813,6 +95135,7 @@
                 "Graham Siggins",
                 "Guoqiao Wang (王国桥)",
                 "Ishaan Agrawal",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -94844,18 +95167,6 @@
         ],
         [
             [
-                "D S' R' F' R S R' F R D'"
-            ],
-            [
-                "Jacob Tucker",
-                "Sebastiano Tronto"
-            ],
-            [
-                "D:[S',R' F' R]"
-            ]
-        ],
-        [
-            [
                 "z' R2 U' M' U R' U' M U R' z"
             ],
             [
@@ -94864,6 +95175,17 @@
             ],
             [
                 "z' R:[R,U' M' U]"
+            ]
+        ],
+        [
+            [
+                "D S' R' F' R S R' F R D'"
+            ],
+            [
+                "Sebastiano Tronto"
+            ],
+            [
+                "D:[S',R' F' R]"
             ]
         ]
     ],
@@ -95075,7 +95397,6 @@
             ],
             [
                 "Guoqiao Wang (王国桥)",
-                "Jacob Tucker",
                 "Max Hilliard",
                 "Sebastiano Tronto",
                 "Tommy Cherry",
@@ -95092,21 +95413,11 @@
                 "L' E' L U2 L' E' L U2 L' E2 L"
             ],
             [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "L' E':[L U2 L',E']"
-            ]
-        ],
-        [
-            [
-                "U2 R U2 R' S R U2 R' S' U2"
-            ],
-            [
+                "Gavriel Johann Arcilla",
                 "Jacob Tucker"
             ],
             [
-                "U2:[R U2 R',S]"
+                "L' E':[L U2 L',E']"
             ]
         ]
     ],
@@ -97357,6 +97668,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Guoqiao Wang (王国桥)",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Tobias Peter",
@@ -97398,18 +97710,6 @@
         ],
         [
             [
-                "R M U R' U' M U R U' r' M"
-            ],
-            [
-                "Gavriel Johann Arcilla",
-                "Jacob Tucker"
-            ],
-            [
-                "R M:[U R' U',M]"
-            ]
-        ],
-        [
-            [
                 "r' U' r U' M' U2 M U' r' U r"
             ],
             [
@@ -97429,6 +97729,17 @@
             ],
             [
                 "U D:[L' F' L,S]"
+            ]
+        ],
+        [
+            [
+                "R M U R' U' M U R U' r' M"
+            ],
+            [
+                "Gavriel Johann Arcilla"
+            ],
+            [
+                "R M:[U R' U',M]"
             ]
         ],
         [
@@ -98620,7 +98931,6 @@
                 "Gavriel Johann Arcilla",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
-                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -98653,7 +98963,8 @@
                 "U M U' R2 U M' U' R2"
             ],
             [
-                "Bpaul Paul"
+                "Bpaul Paul",
+                "Jacob Tucker"
             ],
             [
                 "[U M U',R2]"
@@ -100839,6 +101150,7 @@
                 "Chenhao Sun (孙晨皓)",
                 "Elliott Kobelansky",
                 "Gavriel Johann Arcilla",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -100868,7 +101180,6 @@
             ],
             [
                 "Graham Siggins",
-                "Jacob Tucker",
                 "Sebastiano Tronto"
             ],
             [
@@ -101227,7 +101538,6 @@
             ],
             [
                 "Guoqiao Wang (王国桥)",
-                "Jacob Tucker",
                 "Max Hilliard",
                 "Sebastiano Tronto",
                 "Tommy Cherry",
@@ -101244,21 +101554,11 @@
                 "L' E2 L U2 L' E L U2 L' E L"
             ],
             [
-                "Gavriel Johann Arcilla"
-            ],
-            [
-                "L' E':[E',L U2 L']"
-            ]
-        ],
-        [
-            [
-                "U2 S R U2 R' S' R U2 R' U2"
-            ],
-            [
+                "Gavriel Johann Arcilla",
                 "Jacob Tucker"
             ],
             [
-                "U2:[S,R U2 R']"
+                "L' E':[E',L U2 L']"
             ]
         ]
     ],
@@ -102972,6 +103272,7 @@
                 "Anto Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -103004,17 +103305,6 @@
             ],
             [
                 "R S':[E',R' U2 R]"
-            ]
-        ],
-        [
-            [
-                "R l U2 R' S' R U2 R' S l'"
-            ],
-            [
-                "Jacob Tucker"
-            ],
-            [
-                "l:[R U2 R',S']"
             ]
         ],
         [
@@ -107097,7 +107387,8 @@
     "GXI": [
         [
             [
-                "L S' L F L' S L F' L2"
+                "L S' L F L' S L F' L2",
+                "L S' r U r' S r U' r' L'"
             ],
             [
                 "Andrew Tan Jing Bang",
@@ -107117,7 +107408,8 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
-                "L:[S',L F L']"
+                "L:[S',L F L']",
+                "L:[S',r U r']"
             ]
         ],
         [
@@ -107634,6 +107926,7 @@
                 "Anto Kam (甘浩東)",
                 "Elliott Kobelansky",
                 "Graham Siggins",
+                "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
@@ -107666,17 +107959,6 @@
             ],
             [
                 "R S':[R' U2 R,E']"
-            ]
-        ],
-        [
-            [
-                "l S' R U2 R' S R U2 R' l'"
-            ],
-            [
-                "Jacob Tucker"
-            ],
-            [
-                "l:[S',R U2 R']"
             ]
         ],
         [
