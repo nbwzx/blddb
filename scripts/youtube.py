@@ -229,7 +229,7 @@ def main():
                         response.raise_for_status()
                         resp = response.url
                         break
-                    except requests.exceptions.HTTPError as e:
+                    except (requests.exceptions.HTTPError, requests.exceptions.ConnectionError) as e:
                         logger.warning(str(e) + " when opening " + url_name)
                         resp = response.url
                         break
