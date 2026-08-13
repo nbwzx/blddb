@@ -161,6 +161,9 @@ const finger = (function () {
             pain = pain - 1;
           }
         }
+        if (i === 0 || i === arr.length - 1) {
+          pain = pain - 1;
+        }
       }
       if (fingerposition === 2 && (arr[i][0] === "E" || arr[i][0] === "F")) {
         pain = pain + 1;
