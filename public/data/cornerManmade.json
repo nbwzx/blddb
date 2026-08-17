@@ -9924,7 +9924,6 @@
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Michael Tripodi",
-                "Tom Nelson",
                 "Yangyang Shen (沈炀炀)",
                 "Yiwei Liu (刘伊玮)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -10903,7 +10902,6 @@
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
                 "Michael Tripodi",
-                "Tom Nelson",
                 "Yangyang Shen (沈炀炀)",
                 "Yiwei Liu (刘伊玮)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -21845,19 +21843,6 @@
         ],
         [
             [
-                "R U R' F' r U R' U' r' F R2 U' R'"
-            ],
-            [
-                "Liren Sun (孙立仁)",
-                "Tim Wong",
-                "Tom Nelson"
-            ],
-            [
-                "R U R':[F' r U,R']"
-            ]
-        ],
-        [
-            [
                 "U l' U R' D2 R U' R' D2 R l U'",
                 "U l' U R' D2 R U' R' D2 R2 x' U'"
             ],
@@ -21868,6 +21853,18 @@
             [
                 "U l':[U,R' D2 R]",
                 "Not found."
+            ]
+        ],
+        [
+            [
+                "R U R' F' r U R' U' r' F R2 U' R'"
+            ],
+            [
+                "Liren Sun (孙立仁)",
+                "Tim Wong"
+            ],
+            [
+                "R U R':[F' r U,R']"
             ]
         ],
         [
@@ -24400,25 +24397,6 @@
     "GCT": [
         [
             [
-                "R' U' R2 D R' U R D' R' U' R' U R"
-            ],
-            [
-                "Andrew Tan Jing Bang",
-                "Chenhao Sun (孙晨皓)",
-                "Elliott Kobelansky",
-                "Graham Siggins",
-                "Jacob Tucker",
-                "Yangyang Shen (沈炀炀)",
-                "Yifan Wang (王逸帆)",
-                "Yiwei Liu (刘伊玮)",
-                "Yuki Tsuneyoshi (恒吉優紀)"
-            ],
-            [
-                "R' U' R:[R D R',U]"
-            ]
-        ],
-        [
-            [
                 "U' D R U R D' R' U' R D R2 U D'"
             ],
             [
@@ -24434,6 +24412,25 @@
             ],
             [
                 "U' D R:[U,R D' R']"
+            ]
+        ],
+        [
+            [
+                "R' U' R2 D R' U R D' R' U' R' U R"
+            ],
+            [
+                "Andrew Tan Jing Bang",
+                "Chenhao Sun (孙晨皓)",
+                "Elliott Kobelansky",
+                "Graham Siggins",
+                "Jacob Tucker",
+                "Yangyang Shen (沈炀炀)",
+                "Yifan Wang (王逸帆)",
+                "Yiwei Liu (刘伊玮)",
+                "Yuki Tsuneyoshi (恒吉優紀)"
+            ],
+            [
+                "R' U' R:[R D R',U]"
             ]
         ],
         [
@@ -24726,20 +24723,6 @@
         ],
         [
             [
-                "R U R2 F' L F R F' L' F R U' R'",
-                "R U R2 F' r U R U' r' F R U' R'"
-            ],
-            [
-                "Tim Wong",
-                "Tom Nelson"
-            ],
-            [
-                "R U R':[R',F' L F]",
-                "R U R':[R',F' r U]"
-            ]
-        ],
-        [
-            [
                 "f' U R' D R U R' D' R U2 f"
             ],
             [
@@ -24769,6 +24752,17 @@
             ],
             [
                 "R' B' R:[U2,R D R']"
+            ]
+        ],
+        [
+            [
+                "R U R2 F' L F R F' L' F R U' R'"
+            ],
+            [
+                "Tim Wong"
+            ],
+            [
+                "R U R':[R',F' L F]"
             ]
         ]
     ],
@@ -32013,17 +32007,6 @@
             [
                 "[L',D R2 D']"
             ]
-        ],
-        [
-            [
-                "D R' D R2 D' R' U' R D R' U R' D' R D'"
-            ],
-            [
-                "Jacob Tucker"
-            ],
-            [
-                "D R' D R:[R D' R',U']"
-            ]
         ]
     ],
     "GPX": [
@@ -34996,25 +34979,6 @@
     "GTC": [
         [
             [
-                "R' U' R U R D R' U' R D' R2 U R"
-            ],
-            [
-                "Andrew Tan Jing Bang",
-                "Chenhao Sun (孙晨皓)",
-                "Elliott Kobelansky",
-                "Graham Siggins",
-                "Jacob Tucker",
-                "Yangyang Shen (沈炀炀)",
-                "Yifan Wang (王逸帆)",
-                "Yiwei Liu (刘伊玮)",
-                "Yuki Tsuneyoshi (恒吉優紀)"
-            ],
-            [
-                "R' U' R:[U,R D R']"
-            ]
-        ],
-        [
-            [
                 "U' D R2 D' R' U R D R' U' R' U D'"
             ],
             [
@@ -35030,6 +34994,25 @@
             ],
             [
                 "U' D R:[R D' R',U]"
+            ]
+        ],
+        [
+            [
+                "R' U' R U R D R' U' R D' R2 U R"
+            ],
+            [
+                "Andrew Tan Jing Bang",
+                "Chenhao Sun (孙晨皓)",
+                "Elliott Kobelansky",
+                "Graham Siggins",
+                "Jacob Tucker",
+                "Yangyang Shen (沈炀炀)",
+                "Yifan Wang (王逸帆)",
+                "Yiwei Liu (刘伊玮)",
+                "Yuki Tsuneyoshi (恒吉優紀)"
+            ],
+            [
+                "R' U' R:[U,R D R']"
             ]
         ],
         [
@@ -36348,17 +36331,6 @@
             ],
             [
                 "[D R2 D',L']"
-            ]
-        ],
-        [
-            [
-                "D R' D R U' R D' R' U R D R2 D' R D'"
-            ],
-            [
-                "Jacob Tucker"
-            ],
-            [
-                "D R' D R:[U',R D' R']"
             ]
         ]
     ],
@@ -43268,7 +43240,6 @@
             ],
             [
                 "Dong Zhu (朱栋)",
-                "Jacob Tucker",
                 "Mengfei Shen (沈梦非)",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
@@ -43281,7 +43252,8 @@
                 "D' R2 D' R' U2 R D R' U2 R' D"
             ],
             [
-                "Dylan Wang"
+                "Dylan Wang",
+                "Jacob Tucker"
             ],
             [
                 "D' R:[R D' R',U2]"
@@ -43944,6 +43916,20 @@
         ],
         [
             [
+                "U L' U l F' L F l' U2",
+                "U L' U R U' L U R' U2"
+            ],
+            [
+                "Jacob Tucker",
+                "Michael Tripodi"
+            ],
+            [
+                "U:[L',U l F']",
+                "U:[L',U R U']"
+            ]
+        ],
+        [
+            [
                 "x L F R' F' r U R U' r2",
                 "r F R' F' r U R U' r2"
             ],
@@ -43953,17 +43939,6 @@
             [
                 "Not found.",
                 "r F:[R',F' r U]"
-            ]
-        ],
-        [
-            [
-                "U L' U R U' L U R' U2"
-            ],
-            [
-                "Michael Tripodi"
-            ],
-            [
-                "U:[L',U R U']"
             ]
         ]
     ],
@@ -44057,18 +44032,6 @@
         ],
         [
             [
-                "R U R' U' R' F R U R U' R' F'"
-            ],
-            [
-                "Jacob Tucker",
-                "Liren Sun (孙立仁)"
-            ],
-            [
-                "[R U R' U' R',F]"
-            ]
-        ],
-        [
-            [
                 "R' L D' L' U' L D L' U R"
             ],
             [
@@ -44080,6 +44043,17 @@
         ],
         [
             [
+                "R U R' U' R' F R U R U' R' F'"
+            ],
+            [
+                "Liren Sun (孙立仁)"
+            ],
+            [
+                "[R U R' U' R',F]"
+            ]
+        ],
+        [
+            [
                 "R B R' U R D' R' U R D R' U2 R B' R'"
             ],
             [
@@ -44087,6 +44061,17 @@
             ],
             [
                 "R B R' U:[R D' R',U]"
+            ]
+        ],
+        [
+            [
+                "S R U R' U' R' F R U R U' R' f'"
+            ],
+            [
+                "Jacob Tucker"
+            ],
+            [
+                "S:[R U R' U' R',F]"
             ]
         ],
         [
@@ -44396,7 +44381,6 @@
                 "Timothy Loh",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)",
-                "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
             [
@@ -44475,7 +44459,8 @@
             [
                 "Keiichiro Taira (平佳一郎)",
                 "Leonardo Ezequiel Cruz",
-                "Vishwanath Jeyaraman"
+                "Vishwanath Jeyaraman",
+                "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
                 "U' R' U D:[R D R',U2]"
@@ -46837,8 +46822,7 @@
                 "R' U2 R U' R' F R U R' U' R' F' R U' R"
             ],
             [
-                "Grzegorz Jałocha",
-                "Tom Nelson"
+                "Grzegorz Jałocha"
             ],
             [
                 "R' U2:[R,U' R' F R U]"
@@ -48662,6 +48646,20 @@
         ],
         [
             [
+                "U2 l F' L' F l' U' L U'",
+                "U2 R U' L' U R' U' L U'"
+            ],
+            [
+                "Jacob Tucker",
+                "Michael Tripodi"
+            ],
+            [
+                "U:[U l F',L']",
+                "U:[U R U',L']"
+            ]
+        ],
+        [
+            [
                 "r2 U R' U' r' F R F' L' x'",
                 "r2 U R' U' r' F R F' r'"
             ],
@@ -48682,17 +48680,6 @@
             ],
             [
                 "l:[U' R' U,L']"
-            ]
-        ],
-        [
-            [
-                "U2 R U' L' U R' U' L U'"
-            ],
-            [
-                "Michael Tripodi"
-            ],
-            [
-                "U:[U R U',L']"
             ]
         ],
         [
@@ -49578,7 +49565,6 @@
                 "Hongjie Zhang (张鸿杰)",
                 "Israel Fraga da Silva",
                 "Jack Cai",
-                "Jacob Tucker",
                 "Joey Gouly",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
@@ -49615,6 +49601,7 @@
                 "Ethan Pan",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Liren Sun (孙立仁)",
                 "Mark Rivers",
                 "Mengfei Shen (沈梦非)",
@@ -51323,18 +51310,6 @@
         ],
         [
             [
-                "F R U R' U' R' F' R U R U' R'"
-            ],
-            [
-                "Bpaul Paul",
-                "Jacob Tucker"
-            ],
-            [
-                "[F,R U R' U' R']"
-            ]
-        ],
-        [
-            [
                 "R' U' L D' L' U L D R L'"
             ],
             [
@@ -51346,6 +51321,17 @@
         ],
         [
             [
+                "F R U R' U' R' F' R U R U' R'"
+            ],
+            [
+                "Bpaul Paul"
+            ],
+            [
+                "[F,R U R' U' R']"
+            ]
+        ],
+        [
+            [
                 "R B R' U2 R D' R' U' R D R' U' R B' R'"
             ],
             [
@@ -51353,6 +51339,17 @@
             ],
             [
                 "R B R' U:[U,R D' R']"
+            ]
+        ],
+        [
+            [
+                "f R U R' U' R' F' R U R U' R' S'"
+            ],
+            [
+                "Jacob Tucker"
+            ],
+            [
+                "f:[R U R' U' R',F']"
             ]
         ],
         [
@@ -52180,6 +52177,7 @@
                 "Vishwanath Jeyaraman",
                 "Xi Lu (鲁曦)",
                 "Yiwei Liu (刘伊玮)",
+                "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
             [
@@ -52203,8 +52201,7 @@
                 "Mengfei Shen (沈梦非)",
                 "Oliver Fritz",
                 "Tommy Cherry",
-                "Yangyang Shen (沈炀炀)",
-                "Yuki Tsuneyoshi (恒吉優紀)"
+                "Yangyang Shen (沈炀炀)"
             ],
             [
                 "R2 U:[D',R' U' R]"
@@ -54761,6 +54758,7 @@
                 "Xi Lu (鲁曦)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
+                "Yuki Tsuneyoshi (恒吉優紀)",
                 "Zhi Qiao (乔智)"
             ],
             [
@@ -54787,8 +54785,7 @@
                 "Neel Gore",
                 "Roman Strakhov",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
-                "Xin Shi (石欣)",
-                "Yuki Tsuneyoshi (恒吉優紀)"
+                "Xin Shi (石欣)"
             ],
             [
                 "[R' D2 R,U]"
@@ -57824,7 +57821,6 @@
                 "Timothy Loh",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)",
-                "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
             [
@@ -57884,6 +57880,21 @@
         ],
         [
             [
+                "U' R' U' D R D R' U2 R D' R' U' D' R U"
+            ],
+            [
+                "Gavriel Johann Arcilla",
+                "Keiichiro Taira (平佳一郎)",
+                "Leonardo Ezequiel Cruz",
+                "Vishwanath Jeyaraman",
+                "Yuki Tsuneyoshi (恒吉優紀)"
+            ],
+            [
+                "U' R' U' D:[R D R',U2]"
+            ]
+        ],
+        [
+            [
                 "U' R' D' R' D R U2 R' D' R U2 D R U"
             ],
             [
@@ -57895,20 +57906,6 @@
             ],
             [
                 "U' R' D':[R' D R,U2]"
-            ]
-        ],
-        [
-            [
-                "U' R' U' D R D R' U2 R D' R' U' D' R U"
-            ],
-            [
-                "Gavriel Johann Arcilla",
-                "Keiichiro Taira (平佳一郎)",
-                "Leonardo Ezequiel Cruz",
-                "Vishwanath Jeyaraman"
-            ],
-            [
-                "U' R' U' D:[R D R',U2]"
             ]
         ],
         [
@@ -58074,18 +58071,6 @@
         ],
         [
             [
-                "R' U R' F R U R U' R' F' R U R' U2 R"
-            ],
-            [
-                "Grzegorz Jałocha",
-                "Tom Nelson"
-            ],
-            [
-                "R' U2:[U' R' F R U,R]"
-            ]
-        ],
-        [
-            [
                 "R' U' R2 U R B' R' U' R2 U R B"
             ],
             [
@@ -58093,6 +58078,17 @@
             ],
             [
                 "[R' U' R2 U R,B']"
+            ]
+        ],
+        [
+            [
+                "R' U R' F R U R U' R' F' R U R' U2 R"
+            ],
+            [
+                "Grzegorz Jałocha"
+            ],
+            [
+                "R' U2:[U' R' F R U,R]"
             ]
         ],
         [
@@ -59826,32 +59822,11 @@
                 "Tobias Peter",
                 "Tommy Cherry",
                 "Vishwanath Jeyaraman",
-                "Xi Lu (鲁曦)"
+                "Xi Lu (鲁曦)",
+                "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
                 "U' R' U' D:[R D' R',U2]"
-            ]
-        ],
-        [
-            [
-                "R' D' R2 U R2 U' R2 D R2 U R2 U' R'"
-            ],
-            [
-                "Elliott Kobelansky",
-                "Ethan Pan",
-                "Graham Siggins",
-                "Heejun Kim (김희준)",
-                "Israel Fraga da Silva",
-                "Kai Yamamoto (山本快)",
-                "Keita Hayakawa (早川慶太)",
-                "Leonardo Ezequiel Cruz",
-                "Michael Tripodi",
-                "Neel Gore",
-                "Yuki Tsuneyoshi (恒吉優紀)",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            [
-                "R':[D',R2 U R2 U' R2]"
             ]
         ],
         [
@@ -59874,6 +59849,27 @@
             ],
             [
                 "R' F' R U:[R' D' R,U2]"
+            ]
+        ],
+        [
+            [
+                "R' D' R2 U R2 U' R2 D R2 U R2 U' R'"
+            ],
+            [
+                "Elliott Kobelansky",
+                "Ethan Pan",
+                "Graham Siggins",
+                "Heejun Kim (김희준)",
+                "Israel Fraga da Silva",
+                "Kai Yamamoto (山本快)",
+                "Keita Hayakawa (早川慶太)",
+                "Leonardo Ezequiel Cruz",
+                "Michael Tripodi",
+                "Neel Gore",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            [
+                "R':[D',R2 U R2 U' R2]"
             ]
         ],
         [
@@ -61488,6 +61484,7 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timothy Loh",
                 "Vishwanath Jeyaraman",
+                "Yuki Tsuneyoshi (恒吉優紀)",
                 "Zhi Qiao (乔智)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -61521,23 +61518,6 @@
         ],
         [
             [
-                "U R' U R' D R U2 R' D' R U R U'"
-            ],
-            [
-                "Daniel Wallin",
-                "Elliott Kobelansky",
-                "Heejun Kim (김희준)",
-                "Michael Tripodi",
-                "Tobias Peter",
-                "Tommy Cherry",
-                "Yuki Tsuneyoshi (恒吉優紀)"
-            ],
-            [
-                "U R' U:[R' D R,U2]"
-            ]
-        ],
-        [
-            [
                 "R F R2 D R U' R' D' R U R F' R'"
             ],
             [
@@ -61551,6 +61531,22 @@
             ],
             [
                 "R F R':[R' D R,U']"
+            ]
+        ],
+        [
+            [
+                "U R' U R' D R U2 R' D' R U R U'"
+            ],
+            [
+                "Daniel Wallin",
+                "Elliott Kobelansky",
+                "Heejun Kim (김희준)",
+                "Michael Tripodi",
+                "Tobias Peter",
+                "Tommy Cherry"
+            ],
+            [
+                "U R' U:[R' D R,U2]"
             ]
         ],
         [
@@ -64667,6 +64663,7 @@
                 "Vishwanath Jeyaraman",
                 "Xi Lu (鲁曦)",
                 "Yiwei Liu (刘伊玮)",
+                "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
             [
@@ -64689,8 +64686,7 @@
                 "Max Hilliard",
                 "Oliver Fritz",
                 "Tommy Cherry",
-                "Yangyang Shen (沈炀炀)",
-                "Yuki Tsuneyoshi (恒吉優紀)"
+                "Yangyang Shen (沈炀炀)"
             ],
             [
                 "R2 U:[R' U' R,D']"
@@ -66035,7 +66031,8 @@
                 "Tommy Cherry",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
-                "Yangyang Shen (沈炀炀)"
+                "Yangyang Shen (沈炀炀)",
+                "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
                 "U' D R':[U,R' D R]"
@@ -66057,7 +66054,6 @@
                 "Kai Yamamoto (山本快)",
                 "Keiichiro Taira (平佳一郎)",
                 "Sebastiano Tronto",
-                "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
             [
@@ -66748,7 +66744,6 @@
                 "Hongjie Zhang (张鸿杰)",
                 "Israel Fraga da Silva",
                 "Jack Cai",
-                "Jacob Tucker",
                 "Joey Gouly",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
@@ -66785,6 +66780,7 @@
                 "Ethan Pan",
                 "Hana Nakano",
                 "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
                 "Liren Sun (孙立仁)",
                 "Mark Rivers",
                 "Mengfei Shen (沈梦非)",
@@ -67080,6 +67076,7 @@
                 "Xi Lu (鲁曦)",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
+                "Yuki Tsuneyoshi (恒吉優紀)",
                 "Zhi Qiao (乔智)"
             ],
             [
@@ -67106,8 +67103,7 @@
                 "Neel Gore",
                 "Roman Strakhov",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
-                "Xin Shi (石欣)",
-                "Yuki Tsuneyoshi (恒吉優紀)"
+                "Xin Shi (石欣)"
             ],
             [
                 "[U,R' D2 R]"
@@ -68322,6 +68318,7 @@
                 "Hyunseung Ko (고현승)",
                 "Israel Fraga da Silva",
                 "Jack Cai",
+                "Jacob Tucker",
                 "Joey Gouly",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
@@ -68355,7 +68352,6 @@
                 "Daniel Lin",
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
-                "Jacob Tucker",
                 "Joey Gouly",
                 "Marcell Endrey",
                 "Mengfei Shen (沈梦非)",
@@ -75542,6 +75538,7 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timothy Loh",
                 "Vishwanath Jeyaraman",
+                "Yuki Tsuneyoshi (恒吉優紀)",
                 "Zhi Qiao (乔智)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -75600,8 +75597,7 @@
                 "Elliott Kobelansky",
                 "Heejun Kim (김희준)",
                 "Tobias Peter",
-                "Tommy Cherry",
-                "Yuki Tsuneyoshi (恒吉優紀)"
+                "Tommy Cherry"
             ],
             [
                 "U R' U':[R' D R,U2]"
@@ -76767,7 +76763,6 @@
             ],
             [
                 "Dong Zhu (朱栋)",
-                "Jacob Tucker",
                 "Mengfei Shen (沈梦非)",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)"
             ],
@@ -76780,7 +76775,8 @@
                 "D' R U2 R D' R' U2 R D R2 D"
             ],
             [
-                "Gavriel Johann Arcilla"
+                "Gavriel Johann Arcilla",
+                "Jacob Tucker"
             ],
             [
                 "D' R:[U2,R D' R']"
@@ -82538,7 +82534,8 @@
                 "Shuto Ueno (上野柊斗)",
                 "Tobias Peter",
                 "Tommy Cherry",
-                "Yangyang Shen (沈炀炀)"
+                "Yangyang Shen (沈炀炀)",
+                "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
                 "U' D R':[R' D R,U]"
@@ -82560,7 +82557,6 @@
                 "Kai Yamamoto (山本快)",
                 "Keiichiro Taira (平佳一郎)",
                 "Sebastiano Tronto",
-                "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
             [
@@ -84234,7 +84230,8 @@
                 "Tobias Peter",
                 "Tommy Cherry",
                 "Vishwanath Jeyaraman",
-                "Xi Lu (鲁曦)"
+                "Xi Lu (鲁曦)",
+                "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
                 "U' R' U D:[R D' R',U2]"
@@ -84277,7 +84274,6 @@
                 "Leonardo Ezequiel Cruz",
                 "Michael Tripodi",
                 "Neel Gore",
-                "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
             [
@@ -84683,6 +84679,7 @@
                 "Hyunseung Ko (고현승)",
                 "Israel Fraga da Silva",
                 "Jack Cai",
+                "Jacob Tucker",
                 "Joey Gouly",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
@@ -84717,7 +84714,6 @@
                 "Daniel Wallin",
                 "Dong Zhu (朱栋)",
                 "Graham Siggins",
-                "Jacob Tucker",
                 "Marcell Endrey",
                 "Mengfei Shen (沈梦非)",
                 "Neel Gore",
@@ -86860,18 +86856,6 @@
         ],
         [
             [
-                "L2 F2 L U' L' U F2 U' L U L"
-            ],
-            [
-                "Elliott Kobelansky",
-                "Yuki Tsuneyoshi (恒吉優紀)"
-            ],
-            [
-                "L2:[F2,L U' L' U]"
-            ]
-        ],
-        [
-            [
                 "R' F R U' R U R' D2 R U' R' U D2 R' F' R"
             ],
             [
@@ -86880,6 +86864,18 @@
             ],
             [
                 "R' F R U':[R U R',D2]"
+            ]
+        ],
+        [
+            [
+                "L2 F2 L U' L' U F2 U' L U L"
+            ],
+            [
+                "Elliott Kobelansky",
+                "Yuki Tsuneyoshi (恒吉優紀)"
+            ],
+            [
+                "L2:[F2,L U' L' U]"
             ]
         ],
         [

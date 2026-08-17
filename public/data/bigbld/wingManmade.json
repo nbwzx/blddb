@@ -1700,7 +1700,6 @@
                 "Dong Zhu (朱栋)",
                 "Hana Nakano",
                 "Hill Pong Yong Feng",
-                "Tom Nelson",
                 "Ziyi Xu (徐梓翼)"
             ],
             "L:[r',U L' U']"
@@ -1852,14 +1851,6 @@
             "Lw':[r,U L U']"
         ],
         [
-            "D r' D' r U' r' D r U D'",
-            [
-                "Adrian Dębski",
-                "Tom Nelson"
-            ],
-            "D:[r' D' r,U']"
-        ],
-        [
             "r L' U L U' r' U L' U' L",
             [
                 "Marcell Endrey",
@@ -1882,6 +1873,13 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "L:[r,U L' U']"
+        ],
+        [
+            "D r' D' r U' r' D r U D'",
+            [
+                "Adrian Dębski"
+            ],
+            "D:[r' D' r,U']"
         ],
         [
             "F L F' r' F L' F' r",
@@ -2027,7 +2025,6 @@
                 "Leonardo Ezequiel Cruz",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)"
             ],
@@ -3038,7 +3035,6 @@
             "L' U' L U r U' L' U L r'",
             [
                 "Dong Zhu (朱栋)",
-                "Tom Nelson",
                 "Xin Shi (石欣)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -4631,13 +4627,6 @@
             "Rw F' Rw' U':[R' u' R,U2]"
         ],
         [
-            "D r' D' r U2 r' D r D' U2",
-            [
-                "Tom Nelson"
-            ],
-            "D:[r' D' r,U2]"
-        ],
-        [
             "F' R U R' u' R U' R' u F",
             [
                 "Xin Shi (石欣)"
@@ -4732,7 +4721,6 @@
                 "Sebastiano Tronto",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Ziyi Xu (徐梓翼)"
@@ -4829,7 +4817,6 @@
                 "Oliver Fritz",
                 "Sebastiano Tronto",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -5565,7 +5552,6 @@
                 "Dong Zhu (朱栋)",
                 "Hana Nakano",
                 "Hill Pong Yong Feng",
-                "Tom Nelson",
                 "Ziyi Xu (徐梓翼)"
             ],
             "L:[U L' U',r']"
@@ -5647,16 +5633,6 @@
             "Lw':[r,U' L U]"
         ],
         [
-            "r L' U' L U r' U' L' U L",
-            [
-                "Dong Zhu (朱栋)",
-                "Tom Nelson",
-                "Xin Shi (石欣)",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "L':[r,U' L U]"
-        ],
-        [
             "4Lw' U' L U r' U' L' U 3Lw",
             [
                 "Chenhao Sun (孙晨皓)",
@@ -5665,6 +5641,15 @@
                 "Sebastiano Tronto"
             ],
             "4Lw':[U' L U,r']"
+        ],
+        [
+            "r L' U' L U r' U' L' U L",
+            [
+                "Dong Zhu (朱栋)",
+                "Xin Shi (石欣)",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "L':[r,U' L U]"
         ],
         [
             "r L U' L' U r' U' L U L'",
@@ -5909,7 +5894,6 @@
                 "Oliver Fritz",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -5974,7 +5958,6 @@
                 "Oliver Fritz",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -6161,25 +6144,6 @@
     ],
     "AFO": [
         [
-            "U' R2 U r' U' R2 U r",
-            [
-                "Adrian Dębski",
-                "Anto Kam (甘浩東)",
-                "Christopher Morris",
-                "Dong Zhu (朱栋)",
-                "Hyunseung Ko (고현승)",
-                "Israel Fraga da Silva",
-                "Oliver Fritz",
-                "Ryan Eckersley",
-                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
-                "Tom Nelson",
-                "Xi Lu (鲁曦)",
-                "Xin Shi (石欣)",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "[U' R2 U,r']"
-        ],
-        [
             "R' U' R' U r' U' R U Rw",
             [
                 "Andrew Tan Jing Bang",
@@ -6196,6 +6160,24 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "R':[U' R' U,r']"
+        ],
+        [
+            "U' R2 U r' U' R2 U r",
+            [
+                "Adrian Dębski",
+                "Anto Kam (甘浩東)",
+                "Christopher Morris",
+                "Dong Zhu (朱栋)",
+                "Hyunseung Ko (고현승)",
+                "Israel Fraga da Silva",
+                "Oliver Fritz",
+                "Ryan Eckersley",
+                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
+                "Xi Lu (鲁曦)",
+                "Xin Shi (石欣)",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "[U' R2 U,r']"
         ],
         [
             "S' Rw U R' U' r' U R U' R' S",
@@ -6298,7 +6280,6 @@
                 "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -6339,7 +6320,6 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
                 "Tobias Peter",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -6378,7 +6358,6 @@
                 "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -6418,7 +6397,6 @@
                 "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -6457,7 +6435,6 @@
                 "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -6497,7 +6474,6 @@
                 "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -6536,7 +6512,6 @@
                 "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -6575,7 +6550,6 @@
                 "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -8203,14 +8177,6 @@
             "3Lw':[U L U',r]"
         ],
         [
-            "D U' r' D' r U r' D r D'",
-            [
-                "Adrian Dębski",
-                "Tom Nelson"
-            ],
-            "D:[U',r' D' r]"
-        ],
-        [
             "L' U L U' r U L' U' L r'",
             [
                 "Marcell Endrey",
@@ -8225,6 +8191,13 @@
                 "Ziyi Xu (徐梓翼)"
             ],
             "L:[U L' U',r]"
+        ],
+        [
+            "D U' r' D' r U r' D r D'",
+            [
+                "Adrian Dębski"
+            ],
+            "D:[U',r' D' r]"
         ],
         [
             "y' r' D' r U r' D r 4Dw'",
@@ -8381,13 +8354,6 @@
                 "Simon Praschl"
             ],
             "Rw F' Rw' U:[R' u' R,U2]"
-        ],
-        [
-            "U2 D r' D' r U2 r' D r D'",
-            [
-                "Tom Nelson"
-            ],
-            "D:[U2,r' D' r]"
         ],
         [
             "F' u' R U R' u R U' R' F",
@@ -8586,7 +8552,6 @@
                 "Oliver Fritz",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Ziyi Xu (徐梓翼)"
@@ -8646,7 +8611,6 @@
                 "Michael Tripodi",
                 "Oliver Fritz",
                 "Sebastiano Tronto",
-                "Tom Nelson",
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -8812,8 +8776,7 @@
                 "Graham Siggins",
                 "Hana Nakano",
                 "Howie Craig",
-                "Mark Rivers",
-                "Tom Nelson"
+                "Mark Rivers"
             ],
             "U':[r U r',D2]"
         ],
@@ -9045,7 +9008,6 @@
                 "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -9138,7 +9100,6 @@
                 "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -9243,7 +9204,6 @@
                 "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -9360,7 +9320,6 @@
                 "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -9709,7 +9668,6 @@
                 "Oliver Fritz",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -9849,7 +9807,6 @@
                 "Oliver Fritz",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Ziyi Xu (徐梓翼)"
@@ -10008,7 +9965,6 @@
                 "Kevin Matthews",
                 "Oliver Fritz",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -10848,7 +10804,6 @@
                 "Leonardo Ezequiel Cruz",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)"
             ],
             "[U',r' D r]"
@@ -11000,7 +10955,6 @@
                 "Sebastiano Tronto",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Ziyi Xu (徐梓翼)"
@@ -11027,7 +10981,6 @@
                 "Oliver Fritz",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -11150,7 +11103,6 @@
                 "Michael Tripodi",
                 "Oliver Fritz",
                 "Sebastiano Tronto",
-                "Tom Nelson",
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
             ],
@@ -12681,7 +12633,6 @@
                 "Kevin Matthews",
                 "Oliver Fritz",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -13059,7 +13010,6 @@
                 "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -13144,7 +13094,6 @@
                 "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -13244,7 +13193,6 @@
                 "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -13337,7 +13285,6 @@
                 "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -13642,7 +13589,6 @@
                 "Oliver Fritz",
                 "Sebastiano Tronto",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -13886,8 +13832,7 @@
                 "Hana Nakano",
                 "Howie Craig",
                 "Kevin Matthews",
-                "Mark Rivers",
-                "Tom Nelson"
+                "Mark Rivers"
             ],
             "U':[D2,r U r']"
         ],
@@ -15080,25 +15025,6 @@
     ],
     "AOF": [
         [
-            "r' U' R2 U r U' R2 U",
-            [
-                "Adrian Dębski",
-                "Anto Kam (甘浩東)",
-                "Christopher Morris",
-                "Dong Zhu (朱栋)",
-                "Hyunseung Ko (고현승)",
-                "Israel Fraga da Silva",
-                "Oliver Fritz",
-                "Ryan Eckersley",
-                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
-                "Tom Nelson",
-                "Xi Lu (鲁曦)",
-                "Xin Shi (石欣)",
-                "Ziyi Xu (徐梓翼)"
-            ],
-            "[r',U' R2 U]"
-        ],
-        [
             "Rw' U' R' U r U' R U R",
             [
                 "Andrew Tan Jing Bang",
@@ -15115,6 +15041,24 @@
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             "R':[r',U' R' U]"
+        ],
+        [
+            "r' U' R2 U r U' R2 U",
+            [
+                "Adrian Dębski",
+                "Anto Kam (甘浩東)",
+                "Christopher Morris",
+                "Dong Zhu (朱栋)",
+                "Hyunseung Ko (고현승)",
+                "Israel Fraga da Silva",
+                "Oliver Fritz",
+                "Ryan Eckersley",
+                "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
+                "Xi Lu (鲁曦)",
+                "Xin Shi (石欣)",
+                "Ziyi Xu (徐梓翼)"
+            ],
+            "[r',U' R2 U]"
         ],
         [
             "S' R U R' U' r U R U' Rw' S",
@@ -17727,7 +17671,6 @@
                 "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -17823,7 +17766,6 @@
                 "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -17950,7 +17892,6 @@
                 "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -18307,7 +18248,6 @@
                 "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -18346,7 +18286,6 @@
                 "Sebastiano Tronto",
                 "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
-                "Tom Nelson",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
@@ -18512,7 +18451,6 @@
                 "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -18817,7 +18755,6 @@
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
                 "Tobias Peter",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -20244,7 +20181,6 @@
                 "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -20321,7 +20257,6 @@
                 "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -20455,7 +20390,6 @@
                 "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -21278,7 +21212,6 @@
                 "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -21890,7 +21823,6 @@
                 "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -22615,7 +22547,6 @@
                 "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -22703,7 +22634,6 @@
                 "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -22833,7 +22763,6 @@
                 "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -23033,7 +22962,6 @@
                 "Sebastiano Tronto",
                 "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
-                "Tom Nelson",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
@@ -23698,7 +23626,6 @@
                 "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -25031,7 +24958,6 @@
                 "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -25122,7 +25048,6 @@
                 "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -25243,7 +25168,6 @@
                 "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -26043,7 +25967,6 @@
                 "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -26607,7 +26530,6 @@
                 "Sebastiano Tronto",
                 "Simon Praschl",
                 "Timo Norrkniivilä",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -31751,7 +31673,6 @@
                 "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -32045,7 +31966,6 @@
                 "Leonardo Ezequiel Cruz",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Ziyi Xu (徐梓翼)"
@@ -32155,7 +32075,6 @@
                 "Kevin Matthews",
                 "Oliver Fritz",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)"
             ],
@@ -32300,7 +32219,6 @@
                 "Leonardo Ezequiel Cruz",
                 "Oliver Fritz",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)"
             ],
@@ -32518,7 +32436,6 @@
                 "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -32546,7 +32463,6 @@
                 "Ryan Eckersley",
                 "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
-                "Tom Nelson",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
@@ -33146,7 +33062,6 @@
                 "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -33943,7 +33858,6 @@
                 "Leonardo Ezequiel Cruz",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Ziyi Xu (徐梓翼)"
@@ -34089,7 +34003,6 @@
                 "Kevin Matthews",
                 "Oliver Fritz",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)"
             ],
@@ -34289,7 +34202,6 @@
                 "Leonardo Ezequiel Cruz",
                 "Oliver Fritz",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)"
             ],
@@ -34583,7 +34495,6 @@
                 "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -34635,7 +34546,6 @@
                 "Ryan Eckersley",
                 "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
-                "Tom Nelson",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
                 "Ziyi Xu (徐梓翼)"
@@ -35146,7 +35056,6 @@
                 "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
@@ -36696,7 +36605,6 @@
                 "Simon Praschl",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
                 "Timo Norrkniivilä",
-                "Tom Nelson",
                 "Xi Lu (鲁曦)",
                 "Xin Shi (石欣)",
                 "Yuki Tsuneyoshi (恒吉優紀)",
