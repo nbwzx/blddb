@@ -138,12 +138,9 @@ const Table = ({
     converter = bigbldCodeConverter;
     is3bld = false;
   }
-  if (commutatorNeededList.includes(codeType)) {
-    isCommutatorNeeded = true;
-  }
-  if (codeType === "twists" && inputText.length === 2) {
-    isCommutatorNeeded = true;
-  }
+  isCommutatorNeeded =
+    commutatorNeededList.includes(codeType) ||
+    (codeType === "twists" && inputText.length === 2);
 
   const [isVideoVisible, setIsVideoVisible] = useState(false);
   const [videoDimensions, setVideoDimensions] = useState({
@@ -236,6 +233,26 @@ const Table = ({
   const settings = loadSettings();
   const thumbPosition = settings.showThumbPosition;
   const mirrorLR = settings.mirrorLR;
+  type MoveCountMetric = "STM" | "QTM";
+
+  function getMoveCount(algorithm: string, metric: MoveCountMetric): number {
+    const tokens = algorithm.trim().split(/\s+/u).filter(Boolean);
+    if (tokens.length === 0) {
+      return 0;
+    }
+    if (metric === "STM") {
+      return tokens.length;
+    }
+    return tokens.reduce(
+      (sum, token) => sum + (token.endsWith("2") ? 2 : 1),
+      0,
+    );
+  }
+  const moveCountMetrics: MoveCountMetric[] = Array.isArray(
+    settings.moveCountMetrics,
+  )
+    ? (settings.moveCountMetrics as MoveCountMetric[])
+    : [];
   const allowedOrders = ["Chichu", "Speffz", "Alphabetical"] as const;
   type OrderOfAlgsType = (typeof allowedOrders)[number];
   let orderOfAlgs: OrderOfAlgsType =
@@ -280,6 +297,12 @@ const Table = ({
   }
   const isThumbPositionNeeded =
     is3bld && (typeof thumbPosition === "undefined" || thumbPosition);
+  const columnCount =
+    2 +
+    (isCommutatorNeeded ? 1 : 0) +
+    (isThumbPositionNeeded ? 1 : 0) +
+    (isManmade ? 1 : 0) +
+    moveCountMetrics.length;
   for (const [key, value] of Object.entries(data)) {
     if (
       !(
@@ -453,6 +476,9 @@ const Table = ({
                 {fingerResult}
               </td>
             )}
+            {moveCountMetrics.map((metric) => (
+              <td key={metric}>{getMoveCount(item[j], metric)}</td>
+            ))}
             {isManmade && j === 0 && (
               <td className="help" rowSpan={item.length}>
                 {source.length}
@@ -471,9 +497,8 @@ const Table = ({
         mirrorLR,
       );
       let matchedCode = "";
+      const regex = new RegExp(`^${inputText.replace(/\*/gu, ".")}$`, "u"); // Matches the entire string
       for (const i of variantCodeKey) {
-        const regexPattern = inputText.replace(/\*/gu, ".");
-        const regex = new RegExp(`^${regexPattern}$`, "u"); // Matches the entire string
         if (regex.test(i)) {
           matchedCode = i;
           break;
@@ -492,7 +517,7 @@ const Table = ({
           <thead>
             <tr>
               <th
-                colSpan={5}
+                colSpan={columnCount}
                 className="border-b-0 bg-green-300 text-left dark:bg-green-800"
                 style={{ fontFamily: "Inter, sans-serif" }}
               >
@@ -508,13 +533,16 @@ const Table = ({
               <th>{t("table.algorithm")}</th>
               {isCommutatorNeeded && <th>{t("table.commutator")}</th>}
               {isThumbPositionNeeded && <th>{t("table.thumbPosition")}</th>}
+              {moveCountMetrics.map((metric) => (
+                <th key={metric}>{metric}</th>
+              ))}
               {isManmade && <th>{t("table.source")}</th>}
             </tr>
           </thead>
           <tbody>
             {tableRows}
             <tr>
-              <td colSpan={5} style={{ border: "none" }}>
+              <td colSpan={columnCount} style={{ border: "none" }}>
                 &nbsp;
               </td>
             </tr>
@@ -533,13 +561,13 @@ const Table = ({
         <React.Fragment key={0}>
           <thead>
             <tr>
-              <td colSpan={5} style={{ border: "none" }}>
+              <td colSpan={columnCount} style={{ border: "none" }}>
                 &nbsp;
               </td>
             </tr>
             <tr>
               <th
-                colSpan={5}
+                colSpan={columnCount}
                 className="border-b-0 bg-green-300 text-left dark:bg-green-800"
                 style={{ fontFamily: "Inter, sans-serif" }}
               >
@@ -555,6 +583,9 @@ const Table = ({
               <th>{t("table.algorithm")}</th>
               {isCommutatorNeeded && <th>{t("table.commutator")}</th>}
               {isThumbPositionNeeded && <th>{t("table.thumbPosition")}</th>}
+              {moveCountMetrics.map((metric) => (
+                <th key={metric}>{metric}</th>
+              ))}
               {isManmade && <th>{t("table.source")}</th>}
             </tr>
           </thead>
@@ -570,6 +601,9 @@ const Table = ({
               <th>{t("table.algorithm")}</th>
               {isCommutatorNeeded && <th>{t("table.commutator")}</th>}
               {isThumbPositionNeeded && <th>{t("table.thumbPosition")}</th>}
+              {moveCountMetrics.map((metric) => (
+                <th key={metric}>{metric}</th>
+              ))}
               {isManmade && <th>{t("table.source")}</th>}
             </tr>
           </thead>

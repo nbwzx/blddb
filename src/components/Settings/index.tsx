@@ -11,15 +11,15 @@ const Settings = () => {
   const floatRegex = /^\d{0,4}(\.\d{0,2})?$/u;
 
   const [loading, setLoading] = useState(true);
-  const [settings, setSettings] = useState<Record<string, string | boolean>>(
-    {},
-  );
+  const [settings, setSettings] = useState<
+    Record<string, string | boolean | string[]>
+  >({});
 
   interface SettingItem {
     id: string;
-    type: "select" | "checkbox" | "text";
+    type: "select" | "checkbox" | "checkboxGroup" | "text";
     options?: { id: string }[];
-    default?: string | boolean;
+    default?: string | boolean | string[];
     regex?: RegExp;
   }
 
@@ -50,6 +50,12 @@ const Settings = () => {
         type: "select",
         options: [{ id: "Chichu" }, { id: "Speffz" }, { id: "Alphabetical" }],
         default: codeConverter.getDefaultOrderOfAlgs(),
+      },
+      {
+        id: "moveCountMetrics",
+        type: "checkboxGroup",
+        options: [{ id: "STM" }, { id: "QTM" }],
+        default: [],
       },
     ],
     manmade: [
@@ -96,7 +102,7 @@ const Settings = () => {
   const loadSettings = () => {
     if (typeof window !== "undefined") {
       const savedSettings = localStorage.getItem("settings");
-      let newSettings: Record<string, string | boolean> = {};
+      let newSettings: Record<string, string | boolean | string[]> = {};
       if (savedSettings) {
         const parsedSettings = JSON.parse(savedSettings);
         newSettings = { ...parsedSettings };
@@ -126,7 +132,11 @@ const Settings = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  const handleChange = (id: string, _type: string, value: string | boolean) => {
+  const handleChange = (
+    id: string,
+    _type: string,
+    value: string | boolean | string[],
+  ) => {
     if (_type === "text") {
       const setting = Object.values(settingsGroups)
         .flat()
@@ -198,6 +208,42 @@ const Settings = () => {
                       className="mr-2 ml-4 h-5 w-5 text-gray-400 dark:text-white"
                     />
                   )}
+                  {setting.type === "checkboxGroup" &&
+                    (setting as { options: { id: string }[] }).options.map(
+                      (option) => {
+                        const selected =
+                          Array.isArray(settings[setting.id]) &&
+                          (settings[setting.id] as string[]).includes(
+                            option.id,
+                          );
+                        return (
+                          <label
+                            key={option.id}
+                            className="mr-2 ml-4 flex items-center gap-1 text-black dark:text-white"
+                          >
+                            <input
+                              type="checkbox"
+                              checked={selected}
+                              onChange={(e) => {
+                                const current = Array.isArray(
+                                  settings[setting.id],
+                                )
+                                  ? (settings[setting.id] as string[])
+                                  : [];
+                                const next = e.target.checked
+                                  ? [...current, option.id]
+                                  : current.filter((v) => v !== option.id);
+                                handleChange(setting.id, "checkboxGroup", next);
+                              }}
+                              className="h-5 w-5 text-gray-400 dark:text-white"
+                            />
+                            <span>
+                              {t(`settings.${moduleId}.${option.id}`)}
+                            </span>
+                          </label>
+                        );
+                      },
+                    )}
                   {setting.type === "text" && (
                     <input
                       type="text"
