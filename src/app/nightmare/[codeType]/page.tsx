@@ -1,20 +1,9 @@
 import ArrayTable from "@/components/ArrayTable";
+import { NIGHTMARE_CODE_TYPES } from "@/utils/codeTypes";
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 export const dynamicParams = false;
-const codeTypes = [
-  "corner",
-  "edge",
-  "2c2c",
-  "2e2e",
-  "2flips",
-  "2twists",
-  "3twists",
-  "4flips",
-  "5style",
-  "ltct",
-  "parity",
-];
+const codeTypes = NIGHTMARE_CODE_TYPES;
 
 export async function generateStaticParams() {
   return codeTypes.map((codeType) => ({ codeType }));

@@ -1,8 +1,9 @@
 import BLD from "@/components/BLD";
+import { BLD_CODE_TYPES } from "@/utils/codeTypes";
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 export const dynamicParams = false;
-const codeTypes = ["corner", "edge", "parity", "ltct", "twists", "flips"];
+const codeTypes = BLD_CODE_TYPES;
 
 export async function generateStaticParams() {
   return codeTypes.map((codeType) => ({ codeType }));

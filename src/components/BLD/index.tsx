@@ -4,6 +4,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { useTranslation } from "@/i18n/client";
 import codeConverter from "@/utils/codeConverter";
 import bigbldCodeConverter from "@/utils/bigbldCodeConverter";
+import { BIGBLD_CODE_TYPES } from "@/utils/codeTypes";
 import Table from "@/components/Table";
 import useResponsiveTable from "@/utils/useResponsiveTable";
 import Loading from "@/app/loading";
@@ -33,7 +34,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
   };
   const selectValuesLen = selectValuesLenMap[codeType] || 3;
   let converter = codeConverter;
-  const bigbldCodeTypes = ["wing", "xcenter", "tcenter", "midge"];
+  const bigbldCodeTypes = BIGBLD_CODE_TYPES;
   if (bigbldCodeTypes.includes(codeType)) {
     converter = bigbldCodeConverter;
     is3bld = false;

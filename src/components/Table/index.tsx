@@ -4,6 +4,7 @@ import commutator_555 from "@/utils/commutator_555";
 import finger from "@/utils/finger";
 import codeConverter from "@/utils/codeConverter";
 import bigbldCodeConverter from "@/utils/bigbldCodeConverter";
+import { BIGBLD_CODE_TYPES } from "@/utils/codeTypes";
 import { useTranslation } from "@/i18n/client";
 import rewrite from "@/utils/rewrite";
 
@@ -127,7 +128,7 @@ const Table = ({
   let is3bld = true;
   let isCommutatorNeeded = false;
   let converter = codeConverter;
-  const bigbldCodeTypes = ["wing", "xcenter", "tcenter", "midge"];
+  const bigbldCodeTypes = BIGBLD_CODE_TYPES;
   const commutatorNeededList = bigbldCodeTypes.concat([
     "corner",
     "edge",
