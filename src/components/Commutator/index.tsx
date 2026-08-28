@@ -5,6 +5,7 @@ import { useTranslation } from "@/i18n/client";
 import Loading from "@/app/loading";
 import PageSection from "@/components/PageSection";
 import commutator from "@/utils/commutator";
+import { loadSettings, saveSettings, buildDefaults } from "@/utils/settings";
 import * as XLSX from "xlsx";
 
 const Commutator = () => {
@@ -93,6 +94,8 @@ const Commutator = () => {
       },
     ],
   };
+  const defaultSettings = buildDefaults(settingsGroups);
+
   const [inputAlg, setInputAlg] = useState("");
   const [outputAlg, setOutput] = useState("");
   const [showSettingsModal, setShowSettingsModal] = useState(false);
@@ -144,7 +147,7 @@ const Commutator = () => {
   const handleChange = (id: string, value: string | boolean) => {
     const newSettings = { ...settings, [id]: value };
     setSettings(newSettings);
-    localStorage.setItem("settings", JSON.stringify(newSettings));
+    saveSettings(newSettings);
   };
 
   const handleInputChange = (id: string, value: string) => {
@@ -184,34 +187,8 @@ const Commutator = () => {
     };
   }, [showSettingsModal]);
 
-  const loadSettings = () => {
-    if (typeof window !== "undefined") {
-      const savedSettings = localStorage.getItem("settings");
-      let newSettings: Record<string, string | boolean> = {};
-      if (savedSettings) {
-        const parsedSettings = JSON.parse(savedSettings);
-        newSettings = { ...parsedSettings };
-      }
-      Object.keys(settingsGroups).forEach((moduleId) => {
-        settingsGroups[moduleId as keyof typeof settingsGroups].forEach(
-          (setting) => {
-            if (
-              "default" in setting &&
-              typeof newSettings[setting.id] === "undefined" &&
-              typeof setting.default !== "undefined"
-            ) {
-              newSettings[setting.id] = setting.default;
-            }
-          },
-        );
-      });
-      return newSettings;
-    }
-    return {};
-  };
-
   useEffect(() => {
-    const initialSettings = loadSettings();
+    const initialSettings = loadSettings(defaultSettings);
     setSettings(initialSettings);
     setLoading(false);
     // eslint-disable-next-line react-hooks/exhaustive-deps

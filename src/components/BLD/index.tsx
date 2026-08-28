@@ -5,10 +5,13 @@ import { useTranslation } from "@/i18n/client";
 import codeConverter from "@/utils/codeConverter";
 import bigbldCodeConverter from "@/utils/bigbldCodeConverter";
 import { BIGBLD_CODE_TYPES } from "@/utils/codeTypes";
+import { loadSettings, saveSettings } from "@/utils/settings";
 import Table from "@/components/Table";
 import useResponsiveTable from "@/utils/useResponsiveTable";
 import Loading from "@/app/loading";
 import PageSection from "@/components/PageSection";
+import { useCopyToClipboard } from "@/hooks/useCopyToClipboard";
+import CopyPopup from "@/components/CopyPopup";
 import tracer from "@/utils/tracer";
 import tracer_555 from "@/utils/tracer_555";
 import { useMount } from "react-use";
@@ -45,13 +48,6 @@ const BLD = ({ codeType }: { codeType: string }) => {
   const [manmade, setManmade] = useState({});
   const [nightmare, setNightmare] = useState({});
   const [nightmareSelected, setNightmareSelected] = useState({});
-  const loadSettings = () => {
-    if (typeof window !== "undefined") {
-      const savedSettings = localStorage.getItem("settings");
-      return savedSettings ? JSON.parse(savedSettings) : {};
-    }
-    return {};
-  };
 
   const [modeValue, setModeValue] = useState(() => {
     if (typeof window !== "undefined") {
@@ -206,7 +202,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
     }
     const initialSettings = loadSettings();
     const newSettings = { ...initialSettings, mode: modeValue };
-    localStorage.setItem("settings", JSON.stringify(newSettings));
+    saveSettings(newSettings);
   }, [availableModes.length, codeType, modeValue]);
 
   const [selectValues, setSelectValues] = useState<string[]>(
@@ -440,16 +436,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
     return positionText;
   };
 
-  const [copySuccess, setCopySuccess] = useState<boolean>(false);
-  const handleCopyPosition = () => {
-    const text = getPosition(selectValues);
-    navigator.clipboard.writeText(text).then(() => {
-      setCopySuccess(true);
-      setTimeout(() => {
-        setCopySuccess(false);
-      }, 3000);
-    });
-  };
+  const { copySuccess, copy } = useCopyToClipboard(3000);
 
   const {
     setState,
@@ -476,7 +463,9 @@ const BLD = ({ codeType }: { codeType: string }) => {
     return (
       <div
         className={`text-dark mt-4 mr-2 mb-3 inline-block font-bold dark:text-white ${isClickable ? "cursor-pointer" : ""}`}
-        onClick={isClickable ? handleCopyPosition : undefined}
+        onClick={
+          isClickable ? () => copy(getPosition(selectValues)) : undefined
+        }
       >
         {positionHint}
       </div>
@@ -639,18 +628,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
 
   return (
     <PageSection title={t(`${codeType}.title`)}>
-      {copySuccess && (
-        <div
-          id="copypopup"
-          className="fade-in-out fixed bottom-[30px] left-1/2 z-50 -translate-x-1/2 transform rounded-md border-2 bg-gray-100 p-4 text-black shadow-lg dark:bg-gray-700 dark:text-white"
-          style={{
-            animation:
-              "fadein 0.5s ease forwards, fadeout 0.5s ease 1.5s forwards",
-          }}
-        >
-          <span className="text-lg">{t("table.copied")}</span>
-        </div>
-      )}
+      {copySuccess && <CopyPopup show={copySuccess} />}
       <p className="text-black dark:text-white">
         {t(`${codeType}.hint`)
           .split("\n")

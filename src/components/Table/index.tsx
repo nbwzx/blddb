@@ -7,6 +7,9 @@ import bigbldCodeConverter from "@/utils/bigbldCodeConverter";
 import { BIGBLD_CODE_TYPES } from "@/utils/codeTypes";
 import { useTranslation } from "@/i18n/client";
 import rewrite from "@/utils/rewrite";
+import { loadSettings } from "@/utils/settings";
+import { useCopyToClipboard } from "@/hooks/useCopyToClipboard";
+import CopyPopup from "@/components/CopyPopup";
 
 interface VideoAttributes {
   url: string;
@@ -102,23 +105,7 @@ const Table = ({
     return positionText;
   };
 
-  const [copySuccess, setCopySuccess] = useState<boolean>(false);
-  const handleCopy = (text: string) => {
-    navigator.clipboard.writeText(text).then(() => {
-      setCopySuccess(true);
-      setTimeout(() => {
-        setCopySuccess(false);
-      }, 3000);
-    });
-  };
-
-  const loadSettings = () => {
-    if (typeof window !== "undefined") {
-      const savedSettings = localStorage.getItem("settings");
-      return savedSettings ? JSON.parse(savedSettings) : {};
-    }
-    return {};
-  };
+  const { copySuccess, copy } = useCopyToClipboard(3000);
 
   const getInverseCode = (code: string): string => {
     return code[0] + code[2] + code[1];
@@ -450,14 +437,14 @@ const Table = ({
               }}
               className="cursor-pointer"
               id="alg"
-              onClick={() => handleCopy(item[j])}
+              onClick={() => copy(item[j])}
             >
               {item[j]}
             </td>
             {isCommutatorNeeded && (
               <td
                 className="cursor-pointer"
-                onClick={() => handleCopy(commutatorResult)}
+                onClick={() => copy(commutatorResult)}
               >
                 {commutatorResult}
               </td>
@@ -641,18 +628,7 @@ const Table = ({
   }
   return (
     <div ref={divRef} className="mt-4">
-      {copySuccess && (
-        <div
-          id="copypopup"
-          className="fade-in-out fixed bottom-[30px] left-1/2 z-50 -translate-x-1/2 transform rounded-md border-2 bg-gray-100 p-4 text-black shadow-lg dark:bg-gray-700 dark:text-white"
-          style={{
-            animation:
-              "fadein 0.5s ease forwards, fadeout 0.5s ease 1.5s forwards",
-          }}
-        >
-          <span className="text-lg">{t("table.copied")}</span>
-        </div>
-      )}
+      {copySuccess && <CopyPopup show={copySuccess} />}
       {tableElements2}
       {isVideoVisible && (
         <>

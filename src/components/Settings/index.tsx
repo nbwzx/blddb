@@ -5,6 +5,7 @@ import { useTranslation } from "@/i18n/client";
 import Loading from "@/app/loading";
 import codeConverter from "@/utils/codeConverter";
 import PageSection from "@/components/PageSection";
+import { loadSettings, saveSettings, buildDefaults } from "@/utils/settings";
 
 const Settings = () => {
   const { t } = useTranslation();
@@ -99,35 +100,10 @@ const Settings = () => {
     manmade: "\u{2009}\u{F2BD}\u{2009}",
   };
 
-  const loadSettings = () => {
-    if (typeof window !== "undefined") {
-      const savedSettings = localStorage.getItem("settings");
-      let newSettings: Record<string, string | boolean | string[]> = {};
-      if (savedSettings) {
-        const parsedSettings = JSON.parse(savedSettings);
-        newSettings = { ...parsedSettings };
-      }
-      Object.keys(settingsGroups).forEach((moduleId) => {
-        settingsGroups[moduleId as keyof typeof settingsGroups].forEach(
-          (setting) => {
-            if (
-              "default" in setting &&
-              typeof newSettings[setting.id] === "undefined" &&
-              typeof setting.default !== "undefined"
-            ) {
-              newSettings[setting.id] = setting.default;
-            }
-          },
-        );
-      });
-      return newSettings;
-    }
-    return {};
-  };
+  const defaults = buildDefaults(settingsGroups);
 
   useEffect(() => {
-    const initialSettings = loadSettings();
-    setSettings(initialSettings);
+    setSettings(loadSettings(defaults));
     setLoading(false);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
@@ -152,7 +128,7 @@ const Settings = () => {
     }
     const newSettings = { ...settings, [id]: value };
     setSettings(newSettings);
-    localStorage.setItem("settings", JSON.stringify(newSettings));
+    saveSettings(newSettings);
   };
 
   if (loading) {
