@@ -78,6 +78,7 @@
   },
   "table": {
     "no": "序号",
+    "letters": "编码",
     "source": "来源",
     "algorithm": "公式",
     "commutator": "交换子",
@@ -278,6 +279,21 @@
     "addScoreTip": "交换子叠加的分数",
     "fastTip": "仅显示一个结果",
     "for": "对于"
+  },
+  "custom": {
+    "title": "个人公式集",
+    "corner": "角块公式集",
+    "edge": "棱块公式集",
+    "upfile": "导入 Excel",
+    "downfile": "导出为 Excel",
+    "clear": "清空",
+    "buffer": "缓冲",
+    "all": "全部",
+    "floatingOrder": "浮动顺序",
+    "dragHint": "（拖拽以重新排序）",
+    "letter": "编码",
+    "exportName": "个人公式集-{{type}}",
+    "importStatus": "📊 处理了 {{totalRows}} 行。导入了 {{selectedCount}} 个{{letter}}。"
   },
   "error": {
     "prefix": "错误：",

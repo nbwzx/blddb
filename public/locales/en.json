@@ -78,6 +78,7 @@
   },
   "table": {
     "no": "No.",
+    "letters": "Letters",
     "algorithm": "Algorithm",
     "commutator": "Commutator",
     "thumbPosition": "Thumb Position",
@@ -278,6 +279,21 @@
     "addScoreTip": "Score for commutator combo",
     "fastTip": "Show one result only",
     "for": "for"
+  },
+  "custom": {
+    "title": "Custom Alg Set",
+    "corner": "3-Style Corner",
+    "edge": "3-Style Edge",
+    "upfile": "Import Excel",
+    "downfile": "Export Excel",
+    "clear": "Clear",
+    "buffer": "Buffer",
+    "all": "All",
+    "floatingOrder": "Floating Order",
+    "dragHint": "(drag to reorder)",
+    "letter": "letters",
+    "exportName": "Custom Alg Set - {{type}}",
+    "importStatus": "📊 Processed {{totalRows}} rows. Imported {{selectedCount}} {{letter}}."
   },
   "error": {
     "prefix": "Error: ",

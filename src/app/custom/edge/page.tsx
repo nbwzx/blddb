@@ -3,13 +3,13 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   other: {
-    title_locales: "custom.corner",
+    title_locales: "custom.edge",
   },
   // other metadata
 };
 
-const CustoCornerPage = () => {
-  return <Custom codeType="corner" />;
+const CustomEdgePage = () => {
+  return <Custom codeType="edge" />;
 };
 
-export default CustoCornerPage;
+export default CustomEdgePage;

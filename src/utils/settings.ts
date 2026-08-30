@@ -45,3 +45,40 @@ export function buildDefaults(
     });
   return defaults;
 }
+
+const CUSTOM_ALGS_KEY = "customAlgs";
+
+export type CustomAlgorithms = Record<string, string>;
+export type CustomAlgorithmStore = Record<string, CustomAlgorithms>;
+
+export function loadCustomAlgorithms(codeType: string): CustomAlgorithms {
+  try {
+    const store = JSON.parse(
+      getItem(CUSTOM_ALGS_KEY) || "{}",
+    ) as CustomAlgorithmStore | null;
+    return store?.[codeType] ?? {};
+  } catch {
+    return {};
+  }
+}
+
+export function saveCustomAlgorithms(
+  codeType: string,
+  algorithms: CustomAlgorithms,
+): void {
+  const store: CustomAlgorithmStore = {};
+  try {
+    Object.assign(
+      store,
+      JSON.parse(getItem(CUSTOM_ALGS_KEY) || "{}") as CustomAlgorithmStore,
+    );
+  } catch {
+    // keep an empty store if the existing value is corrupt
+  }
+  if (Object.keys(algorithms).length === 0) {
+    Reflect.deleteProperty(store, codeType);
+  } else {
+    store[codeType] = algorithms;
+  }
+  setItem(CUSTOM_ALGS_KEY, JSON.stringify(store));
+}

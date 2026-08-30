@@ -21,15 +21,20 @@ import {
 } from "react-select";
 import CreatableSelect from "react-select/creatable";
 import * as XLSX from "xlsx";
-import { loadSettings } from "@/utils/settings";
+import {
+  loadSettings,
+  saveSettings,
+  loadCustomAlgorithms,
+  saveCustomAlgorithms,
+  type CustomAlgorithms,
+} from "@/utils/settings";
 
 import { DndContext, DragEndEvent, UniqueIdentifier } from "@dnd-kit/core";
 import {
   SortableContext,
   useSortable,
   arrayMove,
-  horizontalListSortingStrategy,
-  verticalListSortingStrategy,
+  rectSortingStrategy,
 } from "@dnd-kit/sortable";
 import { CSS } from "@dnd-kit/utilities";
 
@@ -44,8 +49,8 @@ const SortableItem = ({ id }: { id: UniqueIdentifier }) => {
     transition,
     border: `1px solid ${isDark ? "#4a4a4a" : "#e5e7eb"}`,
     borderRadius: "0.375rem",
-    padding: "1rem",
-    marginRight: "1rem",
+    padding: "0.75rem 0.5rem",
+    textAlign: "center" as const,
     backgroundColor: isDark ? "#1f2937" : "white",
     boxShadow: "0 1px 2px rgba(0, 0, 0, 0.1)",
     cursor: "grab",
@@ -75,15 +80,8 @@ const SortableList: React.FC<{
   };
   return (
     <DndContext onDragEnd={handleDragEnd} id="unique-dnd-context-id">
-      <SortableContext
-        items={items}
-        strategy={
-          typeof window !== "undefined" && window.innerWidth >= 768
-            ? horizontalListSortingStrategy
-            : verticalListSortingStrategy
-        }
-      >
-        <div className="flex flex-col items-center md:flex-row">
+      <SortableContext items={items} strategy={rectSortingStrategy}>
+        <div className="grid grid-cols-3 gap-2 sm:grid-cols-4 md:flex md:flex-row md:flex-wrap md:gap-3">
           {items.map((item) => (
             <SortableItem key={item as string} id={item} />
           ))}
@@ -116,6 +114,7 @@ const transformManmadeData = (
 interface State {
   options: Record<string, Option[]>;
   values: Record<string, Option | null>;
+  displayCodes: Record<string, string>;
 }
 
 const cornerPositions = [
@@ -129,7 +128,20 @@ const cornerPositions = [
   "DBL",
 ];
 
-const bufferOptions = ["", ...cornerPositions];
+const edgePositions = [
+  "UF",
+  "UR",
+  "UB",
+  "UL",
+  "DF",
+  "DR",
+  "DB",
+  "DL",
+  "FR",
+  "FL",
+  "BR",
+  "BL",
+];
 
 const computeState = (
   rawData: Record<string, string[]>,
@@ -138,6 +150,7 @@ const computeState = (
   items: UniqueIdentifier[],
 ): State => {
   const newOptions: Record<string, Option[]> = {};
+  const displayCodes: Record<string, string> = {};
   const orderPositions = items.map(String);
   const positionToCustomCode = new Map(
     orderPositions.map((pos) => [
@@ -146,7 +159,7 @@ const computeState = (
     ]),
   );
   for (const [key, values] of Object.entries(rawData)) {
-    let customKey: string | null = null;
+    let displayCode: string | null = null;
 
     if (buffer) {
       const bufferCode = codeConverter.positionToCustomCode([buffer]);
@@ -163,11 +176,17 @@ const computeState = (
       if (hasVariantBeforeBuffer) {
         continue;
       }
-      customKey = matchingVariant;
+      displayCode = matchingVariant;
     } else {
-      customKey = codeConverter.initCodeToCustomCode(key, codeType);
+      displayCode = codeConverter.initCodeToCustomCode(key, codeType);
     }
-    newOptions[customKey] = values.map(createOption);
+
+    const posKey = codeConverter
+      .customCodeToPosition(displayCode, codeType)
+      .filter((pos) => pos !== " ")
+      .join("-");
+    newOptions[posKey] = values.map(createOption);
+    displayCodes[posKey] = displayCode;
   }
 
   const initialValues: Record<string, Option | null> = {};
@@ -175,7 +194,7 @@ const computeState = (
     initialValues[key] = null;
   }
 
-  return { options: newOptions, values: initialValues };
+  return { options: newOptions, values: initialValues, displayCodes };
 };
 
 const Custom = ({ codeType = "corner" }) => {
@@ -188,11 +207,31 @@ const Custom = ({ codeType = "corner" }) => {
   const availableModes = is3bld ? ["nightmare", "manmade"] : ["manmade"];
   const defaultMode = availableModes[0] as "nightmare" | "manmade";
 
-  const [items, setItems] = useState<UniqueIdentifier[]>(cornerPositions);
-  const [mode, setMode] = useState<"nightmare" | "manmade">(defaultMode);
-  const [buffer, setBuffer] = useState<string>("UFR");
+  const piecePositions = codeType === "edge" ? edgePositions : cornerPositions;
+  const bufferOptions = ["", ...piecePositions];
+  const bufferKey = `buffer${codeType[0].toUpperCase()}${codeType.slice(1)}`;
+  const orderKey = `order${codeType[0].toUpperCase()}${codeType.slice(1)}`;
+  const buildAlgorithms = (values: State["values"]): CustomAlgorithms => {
+    const algorithms: CustomAlgorithms = {};
+    for (const [key, option] of Object.entries(values)) {
+      if (option) {
+        algorithms[key] = option.label;
+      }
+    }
+    return algorithms;
+  };
 
-  const [state, setState] = useState<State>({ options: {}, values: {} });
+  const [items, setItems] = useState<UniqueIdentifier[]>(piecePositions);
+  const [mode, setMode] = useState<"nightmare" | "manmade">(defaultMode);
+  const [buffer, setBuffer] = useState<string>(
+    codeType === "edge" ? "UF" : "UFR",
+  );
+
+  const [state, setState] = useState<State>({
+    options: {},
+    values: {},
+    displayCodes: {},
+  });
   const [importStatus, setImportStatus] = useState<string | null>(null);
   const { theme } = useTheme();
   const tableRef = useRef<HTMLTableElement>(
@@ -200,6 +239,7 @@ const Custom = ({ codeType = "corner" }) => {
   );
   const divRef = useRef<HTMLDivElement>(null as unknown as HTMLDivElement);
   const fileInputRef = useRef<HTMLInputElement>(null);
+  const restoredRef = useRef(false);
 
   const { fontSize } = useResponsiveTable(tableRef, divRef);
 
@@ -224,74 +264,106 @@ const Custom = ({ codeType = "corner" }) => {
     }
   }, [is3bld, mode]);
 
-  const dataFetchedRef = useRef(false);
-  const prevCodeTypeRef = useRef(codeType);
-
   useEffect(() => {
     let isMounted = true;
-
-    const compute = () => {
-      const rawData = mode === "nightmare" ? nightmareData : manmadeData;
-      if (isMounted) {
-        setState(computeState(rawData, codeType, buffer, items));
-        setImportStatus(null);
-      }
-    };
-
-    const loadAndCompute = async () => {
+    const load = async () => {
       try {
         const manmadeModule = is3bld
           ? await import(`public/data/${codeType}Manmade.json`)
           : await import(`public/data/bigbld/${codeType}Manmade.json`);
-        const transformed = transformManmadeData(manmadeModule.default);
-        if (isMounted) {
-          setManmadeData(transformed);
-        }
-
-        let nightmare = {};
+        const manmade = transformManmadeData(manmadeModule.default);
+        let nightmare: Record<string, string[]> = {};
         if (is3bld) {
           const nightmareModule = await import(
             `public/data/${codeType}Nightmare.json`
           );
-          nightmare = nightmareModule.default;
+          nightmare = nightmareModule.default as Record<string, string[]>;
         }
         if (isMounted) {
+          setManmadeData(manmade);
           setNightmareData(nightmare);
-        }
+          const restorePositions =
+            codeType === "edge" ? edgePositions : cornerPositions;
+          const restoreModes = is3bld ? ["nightmare", "manmade"] : ["manmade"];
+          const stored = loadSettings();
+          const storedMode = stored["mode"];
+          if (
+            typeof storedMode === "string" &&
+            restoreModes.includes(storedMode as "nightmare" | "manmade")
+          ) {
+            setMode(storedMode as "nightmare" | "manmade");
+          }
+          const storedBuffer = stored[bufferKey];
+          if (typeof storedBuffer === "string") {
+            setBuffer(storedBuffer);
+          }
+          const storedOrder = stored[orderKey];
+          if (
+            Array.isArray(storedOrder) &&
+            storedOrder.length > 0 &&
+            storedOrder.every((id) => restorePositions.includes(String(id)))
+          ) {
+            setItems(storedOrder);
+          }
 
-        dataFetchedRef.current = true;
-        prevCodeTypeRef.current = codeType;
-        setLoading(false);
-        compute();
+          restoredRef.current = true;
+          setLoading(false);
+        }
       } catch {
         if (isMounted) {
+          restoredRef.current = true;
           setLoading(false);
         }
       }
     };
-
-    const needReload =
-      !dataFetchedRef.current || prevCodeTypeRef.current !== codeType;
-
-    if (needReload) {
-      loadAndCompute();
-    } else {
-      compute();
-    }
-
+    setLoading(true);
+    load();
     return () => {
       isMounted = false;
     };
-  }, [codeType, is3bld, mode, buffer, nightmareData, manmadeData, items]);
+  }, [codeType, is3bld, bufferKey, orderKey]);
+
+  useEffect(() => {
+    const rawData = mode === "nightmare" ? nightmareData : manmadeData;
+    const computed = computeState(rawData, codeType, buffer, items);
+    const stored = loadCustomAlgorithms(codeType);
+    const values: State["values"] = { ...computed.values };
+    for (const key of Object.keys(computed.options)) {
+      const label = stored[key];
+      if (label) {
+        const existing = computed.options[key].find((o) => o.label === label);
+        values[key] = existing ?? createOption(label);
+      }
+    }
+    setState({
+      options: computed.options,
+      values,
+      displayCodes: computed.displayCodes,
+    });
+    setImportStatus(null);
+  }, [nightmareData, manmadeData, mode, buffer, items, codeType]);
 
   const handleModeChange = (newType: "nightmare" | "manmade") => {
     setMode(newType);
     setImportStatus(null);
+    saveSettings({ ...loadSettings(), mode: newType });
   };
 
   const handleBufferChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    setBuffer(e.target.value);
+    const value = e.target.value;
+    setBuffer(value);
+    saveSettings({ ...loadSettings(), [bufferKey]: value });
   };
+
+  useEffect(() => {
+    if (!restoredRef.current) {
+      return;
+    }
+    saveSettings({
+      ...loadSettings(),
+      [orderKey]: items.map(String),
+    });
+  }, [items, codeType, orderKey]);
 
   const handleCreate = (inputValue: string, index: string) => {
     setIsLoading(true);
@@ -338,7 +410,10 @@ const Custom = ({ codeType = "corner" }) => {
       expandValue === "" ||
       hasValue ||
       hasOption ||
-      codeConverter.customCodeToInitCode(index, codeType) !== codeAuto[1]
+      codeConverter.customCodeToInitCode(
+        codeConverter.positionToCustomCode(index.split("-")),
+        codeType,
+      ) !== codeAuto[1]
     );
   };
 
@@ -381,10 +456,11 @@ const Custom = ({ codeType = "corner" }) => {
   }, [state.values, t, computeDisplay]);
 
   const updateValue = (value: Option | null, index: string) => {
-    setState((prev) => ({
-      ...prev,
-      values: { ...prev.values, [index]: value },
-    }));
+    setState((prev) => {
+      const nextValues = { ...prev.values, [index]: value };
+      saveCustomAlgorithms(codeType, buildAlgorithms(nextValues));
+      return { ...prev, values: nextValues };
+    });
   };
 
   const targetHeight = Math.trunc(fontSize * 2);
@@ -532,41 +608,36 @@ const Custom = ({ codeType = "corner" }) => {
     ? (storedOrder as OrderOfAlgsType)
     : (codeConverter.getDefaultOrderOfAlgs() as OrderOfAlgsType);
 
-  const compareKeys = (codeA: string, codeB: string): number => {
-    const keyA = codeConverter.customCodeToPosition(codeA, codeType);
-    const keyB = codeConverter.customCodeToPosition(codeB, codeType);
-
+  const compareKeys = (posA: string, posB: string): number => {
     if (currentOrder === "Alphabetical") {
+      const codeA = state.displayCodes[posA] ?? posA;
+      const codeB = state.displayCodes[posB] ?? posB;
       return codeA.localeCompare(codeB);
     }
-
-    const order = codeConverter.positionArrays[currentOrder];
-
-    const orderBuffer = items.map((id) => String(id));
-    const indexA = orderBuffer.indexOf(keyA[0]);
-    const indexB = orderBuffer.indexOf(keyB[0]);
-
-    const diff0 = indexA - indexB;
-    if (diff0 !== 0) {
-      return diff0;
-    }
-
-    const diff1 = order.indexOf(keyA[1]) - order.indexOf(keyB[1]);
-    if (diff1 !== 0) {
-      return diff1;
-    }
-
-    return order.indexOf(keyA[2]) - order.indexOf(keyB[2]);
+    const order = items.map((id) => String(id));
+    return (
+      order.indexOf(posA.split("-")[0]) - order.indexOf(posB.split("-")[0])
+    );
   };
 
   const exportToExcel = () => {
-    const headers = ["Letters", "Algorithm", "Commutator", "Thumb Position"];
+    const headers = [
+      t("table.letters"),
+      t("table.algorithm"),
+      t("table.commutator"),
+      t("table.thumbPosition"),
+    ];
     const rows: string[][] = [];
     for (const index of Object.keys(state.options).sort(compareKeys)) {
       const algorithm = state.values[index]?.label || "";
       const { commutator: commutatorText, thumb: thumbText } =
         computeDisplay(algorithm);
-      rows.push([index, algorithm, commutatorText, thumbText]);
+      rows.push([
+        state.displayCodes[index] ?? index,
+        algorithm,
+        commutatorText,
+        thumbText,
+      ]);
     }
     const sheetData = [headers, ...rows];
     const ws = XLSX.utils.aoa_to_sheet(sheetData);
@@ -574,14 +645,16 @@ const Custom = ({ codeType = "corner" }) => {
     ws["!cols"] = [{ wch: 10 }, { wch: 40 }, { wch: 30 }, { wch: 25 }];
 
     const wb = XLSX.utils.book_new();
-    XLSX.utils.book_append_sheet(wb, ws, "Corner Nightmare");
-    XLSX.writeFile(wb, "corner_nightmare_export.xlsx");
+    const exportName = t("custom.exportName", {
+      type: t(codeType === "corner" ? "custom.corner" : "custom.edge"),
+    });
+    XLSX.utils.book_append_sheet(wb, ws, exportName);
+    XLSX.writeFile(wb, `${exportName}.xlsx`);
   };
 
   const processWorkbook = (workbook: XLSX.WorkBook): string => {
     const algMap: Record<string, Set<string>> = {};
     let totalRows = 0;
-    let validAlgs = 0;
 
     for (const sheetName of workbook.SheetNames) {
       const sheet = workbook.Sheets[sheetName];
@@ -617,42 +690,52 @@ const Custom = ({ codeType = "corner" }) => {
             continue;
           }
 
-          validAlgs++;
-          algMap[key] = algMap[key] || new Set();
-          algMap[key].add(expanded);
-
-          break;
+          const variants = codeConverter.initCodeToVariantCustomCode(
+            key,
+            codeType,
+          );
+          for (const variant of variants) {
+            const positions = codeConverter
+              .customCodeToPosition(variant, codeType)
+              .filter((pos) => pos !== " ");
+            if (positions.length === 0 || positions.length !== variant.length) {
+              continue;
+            }
+            const posKey = positions.join("-");
+            algMap[posKey] = algMap[posKey] || new Set();
+            algMap[posKey].add(expanded);
+          }
         }
       }
     }
 
     const newOptions = { ...state.options };
     const newValues = { ...state.values };
-    let importedCount = 0;
     let selectedCount = 0;
 
-    for (const [key, algSet] of Object.entries(algMap)) {
-      if (!Object.hasOwn(newOptions, key)) {
-        newOptions[key] = [];
+    for (const [posKey, algSet] of Object.entries(algMap)) {
+      if (!Object.hasOwn(newOptions, posKey)) {
+        continue;
       }
 
       const firstAlg = Array.from(algSet)[0];
 
-      const existingLabels = new Set(newOptions[key].map((opt) => opt.label));
+      const existingLabels = new Set(
+        newOptions[posKey].map((opt) => opt.label),
+      );
       const newAlgs = Array.from(algSet).filter(
         (alg) => !existingLabels.has(alg),
       );
       if (newAlgs.length > 0) {
         const newOpts = newAlgs.map(createOption);
-        newOptions[key] = [...newOptions[key], ...newOpts];
-        importedCount += newAlgs.length;
+        newOptions[posKey] = [...newOptions[posKey], ...newOpts];
       }
 
-      const selectedOption = newOptions[key].find(
+      const selectedOption = newOptions[posKey].find(
         (opt) => opt.label === firstAlg,
       );
       if (selectedOption) {
-        newValues[key] = selectedOption;
+        newValues[posKey] = selectedOption;
         selectedCount++;
       }
     }
@@ -662,8 +745,13 @@ const Custom = ({ codeType = "corner" }) => {
       options: newOptions,
       values: newValues,
     }));
+    saveCustomAlgorithms(codeType, buildAlgorithms(newValues));
 
-    return `📊 Processed ${totalRows} rows. Found ${validAlgs} valid corner algorithm entries. Imported ${importedCount} new unique algorithm${importedCount === 1 ? "" : "s"}. Selected ${selectedCount} key${selectedCount === 1 ? "" : "s"} (first algorithm for each).`;
+    return t("custom.importStatus", {
+      totalRows,
+      selectedCount,
+      letter: t("custom.letter"),
+    });
   };
 
   const handleFileUpload = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -717,12 +805,24 @@ const Custom = ({ codeType = "corner" }) => {
     event.target.value = "";
   };
 
+  const handleClear = () => {
+    const clearedValues: State["values"] = {};
+    for (const key of Object.keys(state.options)) {
+      clearedValues[key] = null;
+    }
+    setState((prev) => ({ ...prev, values: clearedValues }));
+    saveCustomAlgorithms(codeType, {});
+    setImportStatus(null);
+  };
+
   if (loading) {
     return <Loading />;
   }
 
   return (
-    <PageSection title={t("custom.title")}>
+    <PageSection
+      title={t(codeType === "edge" ? "custom.edge" : "custom.corner")}
+    >
       <div className="mb-4 flex flex-wrap items-center justify-between gap-2">
         <div className="flex items-center gap-2">
           <label htmlFor="mode" className="font-medium">
@@ -746,7 +846,7 @@ const Custom = ({ codeType = "corner" }) => {
           <span className="mx-2">|</span>
 
           <label htmlFor="buffer" className="font-medium">
-            Buffer:
+            {t("custom.buffer")}：
           </label>
           <select
             id="buffer"
@@ -756,7 +856,7 @@ const Custom = ({ codeType = "corner" }) => {
           >
             {bufferOptions.map((pos) => (
               <option key={pos} value={pos}>
-                {pos === "" ? "All" : pos}
+                {pos === "" ? t("custom.all") : pos}
               </option>
             ))}
           </select>
@@ -765,7 +865,7 @@ const Custom = ({ codeType = "corner" }) => {
         <div className="flex items-center gap-2">
           <button
             onClick={() => fileInputRef.current?.click()}
-            className="flex items-center gap-2 rounded-md bg-blue-600 px-4 py-2 font-medium text-white shadow-sm transition-colors hover:bg-blue-700"
+            className="flex cursor-pointer items-center gap-2 rounded-md bg-blue-600 px-4 py-2 font-medium text-white shadow-sm transition-colors hover:bg-blue-700"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -781,7 +881,7 @@ const Custom = ({ codeType = "corner" }) => {
                 d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"
               />
             </svg>
-            Upload
+            {t("custom.upfile")}
           </button>
           <input
             type="file"
@@ -792,7 +892,7 @@ const Custom = ({ codeType = "corner" }) => {
           />
           <button
             onClick={exportToExcel}
-            className="flex items-center gap-2 rounded-md bg-green-600 px-4 py-2 font-medium text-white shadow-sm transition-colors hover:bg-green-700"
+            className="flex cursor-pointer items-center gap-2 rounded-md bg-green-600 px-4 py-2 font-medium text-white shadow-sm transition-colors hover:bg-green-700"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -808,16 +908,36 @@ const Custom = ({ codeType = "corner" }) => {
                 d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
               />
             </svg>
-            Export to Excel
+            {t("custom.downfile")}
+          </button>
+          <button
+            onClick={handleClear}
+            className="flex cursor-pointer items-center gap-2 rounded-md bg-red-600 px-4 py-2 font-medium text-white shadow-sm transition-colors hover:bg-red-700"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              strokeWidth={2}
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"
+              />
+            </svg>
+            {t("custom.clear")}
           </button>
         </div>
       </div>
 
-      <div className="mt-8 mb-6 max-w-fit rounded-xl border-2 border-dashed border-gray-300 bg-gray-50 p-6 shadow-inner dark:border-gray-600 dark:bg-gray-800/50">
+      <div className="mt-8 mb-6 w-full rounded-xl border-2 border-dashed border-gray-300 bg-gray-50 p-4 shadow-inner md:w-fit md:max-w-fit md:p-6 dark:border-gray-600 dark:bg-gray-800/50">
         <h3 className="mb-4 text-center text-lg font-semibold tracking-wide text-gray-700 dark:text-gray-300">
-          Floating Order&nbsp;
+          {t("custom.floatingOrder")}
           <span className="font-normal text-gray-400 lowercase dark:text-gray-400">
-            (drag to reorder)
+            &nbsp;{t("custom.dragHint")}
           </span>
         </h3>
         <SortableList items={items} setItems={setItems} />
@@ -831,12 +951,18 @@ const Custom = ({ codeType = "corner" }) => {
         <table ref={tableRef}>
           <thead>
             <tr>
-              <th style={{ width: "7.5%", minWidth: "4em" }}>Letters</th>
-              <th style={{ width: "43%", minWidth: "32em", zIndex: 2 }}>
-                Algorithm
+              <th style={{ width: "7.5%", minWidth: "4em" }}>
+                {t("table.letters")}
               </th>
-              <th style={{ width: "24.5%", minWidth: "20em" }}>Commutator</th>
-              <th style={{ width: "25%", minWidth: "15em" }}>Thumb Position</th>
+              <th style={{ width: "43%", minWidth: "32em", zIndex: 2 }}>
+                {t("table.algorithm")}
+              </th>
+              <th style={{ width: "24.5%", minWidth: "20em" }}>
+                {t("table.commutator")}
+              </th>
+              <th style={{ width: "25%", minWidth: "15em" }}>
+                {t("table.thumbPosition")}
+              </th>
             </tr>
           </thead>
           <tbody>
@@ -844,7 +970,9 @@ const Custom = ({ codeType = "corner" }) => {
               .sort(([a], [b]) => compareKeys(a, b))
               .map(([index]) => (
                 <tr key={index}>
-                  <td className="px-0 py-0">{index}</td>
+                  <td className="px-0 py-0">
+                    {state.displayCodes[index] ?? index}
+                  </td>
                   <td className="px-0 py-0">
                     <CreatableSelect
                       components={{

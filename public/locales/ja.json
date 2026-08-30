@@ -78,6 +78,7 @@
   },
   "table": {
     "no": "番号",
+    "letters": "エンコーディング",
     "source": "出典",
     "algorithm": "手順",
     "commutator": "コミュテーター",
@@ -246,6 +247,21 @@
   },
   "commutator": {
     "title": "コミュテーター"
+  },
+  "custom": {
+    "title": "カスタム手順表",
+    "corner": "3-Styleコーナー",
+    "edge": "3-Styleエッジ",
+    "upfile": "Excelをインポート",
+    "downfile": "Excelファイルにエクスポート",
+    "clear": "クリア",
+    "buffer": "バッファ",
+    "all": "すべて",
+    "floatingOrder": "浮動順序",
+    "dragHint": "（ドラッグで並べ替え）",
+    "letter": "エンコーディング",
+    "exportName": "カスタム手順表 - {{type}}",
+    "importStatus": "📊 {{totalRows}} 行を処理しました。{{selectedCount}} 件の{{letter}}をインポートしました。"
   },
   "error": {
     "prefix": "エラー：",
