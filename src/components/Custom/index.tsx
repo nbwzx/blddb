@@ -9,7 +9,13 @@ import finger from "@/utils/finger";
 import tracer from "@/utils/tracer";
 import useResponsiveTable from "@/utils/useResponsiveTable";
 import { useTheme } from "next-themes";
-import React, { useCallback, useEffect, useRef, useState } from "react";
+import React, {
+  useCallback,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+} from "react";
 import {
   components,
   IndicatorSeparatorProps,
@@ -197,6 +203,188 @@ const computeState = (
   return { options: newOptions, values: initialValues, displayCodes };
 };
 
+/* eslint-disable no-unused-vars */
+interface RowProps {
+  index: string;
+  displayCode: string;
+  value: Option | null;
+  options: Option[];
+  updateValue: (value: Option | null, index: string) => void;
+  handleCreate: (inputValue: string, index: string) => void;
+  isValidNewOption: (
+    inputValue: string,
+    value: readonly Option[],
+    optionsInput: OptionsOrGroups<Option, GroupBase<Option>>,
+    index: string,
+  ) => boolean;
+  filterOption: (option: Option, inputValue: string) => boolean;
+  styles: StylesConfig<Option, false>;
+  theme: string | undefined;
+  isLoading: boolean;
+  isDisabled: boolean;
+  registerCommutatorRef: (
+    index: string,
+    el: HTMLTableCellElement | null,
+  ) => void;
+  registerThumbRef: (index: string, el: HTMLTableCellElement | null) => void;
+}
+/* eslint-enable no-unused-vars */
+
+const Row = React.memo((props: RowProps) => {
+  const {
+    index,
+    displayCode,
+    value,
+    options,
+    updateValue,
+    handleCreate,
+    isValidNewOption,
+    filterOption,
+    styles,
+    theme,
+    isLoading,
+    isDisabled,
+    registerCommutatorRef,
+    registerThumbRef,
+  } = props;
+
+  const onChange = useCallback(
+    (newValue: Option | null) => updateValue(newValue, index),
+    [updateValue, index],
+  );
+
+  const onCreate = useCallback(
+    (inputValue: string) => handleCreate(inputValue, index),
+    [handleCreate, index],
+  );
+
+  const isValid = useCallback(
+    (
+      inputValue: string,
+      selectValue: readonly Option[],
+      optionsInput: OptionsOrGroups<Option, GroupBase<Option>>,
+    ) => isValidNewOption(inputValue, selectValue, optionsInput, index),
+    [isValidNewOption, index],
+  );
+
+  return (
+    <tr>
+      <td className="px-0 py-0">{displayCode}</td>
+      <td className="px-0 py-0">
+        <CreatableSelect
+          components={{
+            DropdownIndicator,
+            IndicatorSeparator,
+            ClearIndicator,
+          }}
+          instanceId={index}
+          isClearable={true}
+          isDisabled={isDisabled}
+          isLoading={isLoading}
+          onChange={onChange}
+          onCreateOption={onCreate}
+          options={options}
+          value={value}
+          isValidNewOption={isValid}
+          filterOption={filterOption}
+          styles={styles}
+          formatCreateLabel={(inputValue: string) => `Create ${inputValue}`}
+          theme={(themeInput) => ({
+            ...themeInput,
+            borderRadius: 0,
+            colors: {
+              ...themeInput.colors,
+              primary25: theme === "light" ? "#B2D4FF" : "#85C1E9",
+              primary50: theme === "light" ? "#B2D4FF" : "#85C1E9",
+            },
+          })}
+        />
+      </td>
+      <td
+        className="px-0 py-0"
+        ref={(el) => registerCommutatorRef(index, el)}
+      ></td>
+      <td className="px-0 py-0" ref={(el) => registerThumbRef(index, el)}></td>
+    </tr>
+  );
+});
+
+Row.displayName = "Row";
+
+interface IconProps extends React.SVGProps<SVGSVGElement> {
+  path: string;
+  size?: number;
+}
+
+const Icon: React.FC<IconProps> = ({ path, size = 20, ...rest }) => (
+  <svg
+    width={size}
+    height={size}
+    viewBox="0 0 20 20"
+    aria-hidden="true"
+    focusable="false"
+    style={{
+      display: "inline-block",
+      fill: "currentColor",
+      lineHeight: 1,
+      stroke: "currentColor",
+      strokeWidth: 0,
+    }}
+    {...rest}
+  >
+    <path d={path} />
+  </svg>
+);
+
+const DropdownIndicator: React.FC<DropdownIndicatorProps<Option, false>> = (
+  props,
+) => {
+  const { selectProps } = props;
+  const size = (selectProps as { iconSize?: number }).iconSize || 18;
+  return (
+    <components.DropdownIndicator {...props}>
+      <Icon
+        path="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"
+        size={size}
+      />
+    </components.DropdownIndicator>
+  );
+};
+
+const ClearIndicator: React.FC<ClearIndicatorProps<Option, false>> = (
+  props,
+) => {
+  const { selectProps } = props;
+  const size = (selectProps as { iconSize?: number }).iconSize || 18;
+  return (
+    <components.ClearIndicator {...props}>
+      <Icon
+        path="M14.348 14.849c-0.469 0.469-1.229 0.469-1.697 0l-2.651-3.030-2.651 3.029c-0.469 0.469-1.229 0.469-1.697 0-0.469-0.469-0.469-1.229 0-1.697l2.758-3.15-2.759-3.152c-0.469-0.469-0.469-1.228 0-1.697s1.228-0.469 1.697 0l2.652 3.031 2.651-3.031c0.469-0.469 1.228-0.469 1.697 0s0.469 1.229 0 1.697l-2.758 3.152 2.758 3.15c0.469 0.469 0.469 1.229 0 1.698z"
+        size={size}
+      />
+    </components.ClearIndicator>
+  );
+};
+
+const IndicatorSeparator: React.FC<IndicatorSeparatorProps<Option, false>> = (
+  props,
+) => {
+  const { selectProps } = props;
+  const height = (selectProps as { targetHeight?: number }).targetHeight || 30;
+  return (
+    <span
+      style={{
+        width: 1,
+        marginTop: `${height * 0.2}px`,
+        marginBottom: `${height * 0.2}px`,
+        backgroundColor: "hsl(0, 0%, 80%)",
+        alignSelf: "stretch",
+      }}
+      {...props.innerProps}
+    />
+  );
+};
+
 const Custom = ({ codeType = "corner" }) => {
   const { t } = useTranslation();
   const [loading, setLoading] = useState(true);
@@ -255,6 +443,40 @@ const Custom = ({ codeType = "corner" }) => {
     nightmare: "\u{1F480}",
     manmade: "\u{2009}\u{F2BD}\u{2009}",
   };
+
+  const displayCache = useRef<
+    Map<string, { commutator: string; thumb: string }>
+  >(new Map());
+  const lastChangedIndexRef = useRef<string | null>(null);
+
+  const useRegisterRef = (
+    refs: React.RefObject<Record<string, HTMLTableCellElement>>,
+  ) => {
+    return useCallback(
+      (index: string, el: HTMLTableCellElement | null) => {
+        if (el) {
+          refs.current[index] = el;
+        } else {
+          Reflect.deleteProperty(refs.current, index);
+        }
+      },
+      [refs],
+    );
+  };
+  const registerCommutatorRef = useRegisterRef(commutatorRefs);
+  const registerThumbRef = useRegisterRef(thumbPositionRefs);
+
+  const updateValue = useCallback(
+    (value: Option | null, index: string) => {
+      setState((prev) => {
+        const nextValues = { ...prev.values, [index]: value };
+        saveCustomAlgorithms(codeType, buildAlgorithms(nextValues));
+        return { ...prev, values: nextValues };
+      });
+      lastChangedIndexRef.current = index;
+    },
+    [codeType],
+  );
 
   useEffect(() => {
     const modes = is3bld ? ["nightmare", "manmade"] : ["manmade"];
@@ -365,82 +587,105 @@ const Custom = ({ codeType = "corner" }) => {
     });
   }, [items, codeType, orderKey]);
 
-  const handleCreate = (inputValue: string, index: string) => {
-    setIsLoading(true);
-    setTimeout(() => {
-      const newOption = createOption(
-        commutator.expand({ algorithm: inputValue }),
+  const handleCreate = useCallback(
+    (inputValue: string, index: string) => {
+      setIsLoading(true);
+      setTimeout(() => {
+        const newOption = createOption(
+          commutator.expand({ algorithm: inputValue }),
+        );
+        setIsLoading(false);
+        setState((prev) => ({
+          ...prev,
+          options: {
+            ...prev.options,
+            [index]: [newOption, ...prev.options[index]],
+          },
+        }));
+        updateValue(newOption, index);
+      }, 100);
+    },
+    [updateValue],
+  );
+
+  const customIsValidNewOption = useCallback(
+    (
+      inputValue: string,
+      value: readonly Option[],
+      optionsInput: OptionsOrGroups<Option, GroupBase<Option>>,
+      index: string,
+    ) => {
+      const expandValue = commutator.expand({ algorithm: inputValue });
+      const hasValue = value.some((option) => option.label === inputValue);
+      const flatOptions: Option[] = [];
+      optionsInput.forEach((opt) => {
+        if ("options" in opt && Array.isArray(opt.options)) {
+          flatOptions.push(...opt.options);
+        } else {
+          flatOptions.push(opt as Option);
+        }
+      });
+      const hasOption = flatOptions.some(
+        (option) => option.label === expandValue,
       );
-      setIsLoading(false);
-      setState((prev) => ({
-        ...prev,
-        options: {
-          ...prev.options,
-          [index]: [newOption, ...prev.options[index]],
-        },
-      }));
-      updateValue(newOption, index);
-    }, 100);
-  };
-
-  const customIsValidNewOption = (
-    inputValue: string,
-    value: readonly Option[],
-    optionsInput: OptionsOrGroups<Option, GroupBase<Option>>,
-    index: string,
-  ) => {
-    const expandValue = commutator.expand({ algorithm: inputValue });
-    const hasValue = value.some((option) => option.label === inputValue);
-    const flatOptions: Option[] = [];
-    optionsInput.forEach((opt) => {
-      if ("options" in opt && Array.isArray(opt.options)) {
-        flatOptions.push(...opt.options);
-      } else {
-        flatOptions.push(opt as Option);
+      const codeAuto = tracer.getCodeAuto(expandValue);
+      if (codeAuto[0] !== codeType) {
+        return false;
       }
-    });
-    const hasOption = flatOptions.some(
-      (option) => option.label === expandValue,
-    );
-    const codeAuto = tracer.getCodeAuto(expandValue);
-    if (codeAuto[0] !== codeType) {
-      return false;
-    }
-    return !(
-      expandValue === "" ||
-      hasValue ||
-      hasOption ||
-      codeConverter.customCodeToInitCode(
-        codeConverter.positionToCustomCode(index.split("-")),
-        codeType,
-      ) !== codeAuto[1]
-    );
-  };
+      return !(
+        expandValue === "" ||
+        hasValue ||
+        hasOption ||
+        codeConverter.customCodeToInitCode(
+          codeConverter.positionToCustomCode(index.split("-")),
+          codeType,
+        ) !== codeAuto[1]
+      );
+    },
+    [codeType],
+  );
 
-  const customFilterOption = (option: Option, inputValue: string) => {
-    const expandValue = commutator.expand({ algorithm: inputValue });
-    return (
-      option.label.startsWith(expandValue) || option.label.startsWith("Create ")
-    );
-  };
+  const customFilterOption = useCallback(
+    (option: Option, inputValue: string) => {
+      const expandValue = commutator.expand({ algorithm: inputValue });
+      return (
+        option.label.startsWith(expandValue) ||
+        option.label.startsWith("Create ")
+      );
+    },
+    [],
+  );
 
   const computeDisplay = useCallback(
     (label: string): { commutator: string; thumb: string } => {
       if (!label) {
         return { commutator: "", thumb: "" };
       }
+      const cached = displayCache.current.get(label);
+      if (cached) {
+        return cached;
+      }
       const commutatorText = commutator.search({ algorithm: label })[0] || "";
       const thumbText = finger
         .fingerbeginfrom(label)
         .map((word) => t(word))
         .join("/");
-      return { commutator: commutatorText, thumb: thumbText };
+      const result = { commutator: commutatorText, thumb: thumbText };
+      displayCache.current.set(label, result);
+      return result;
     },
     [t],
   );
 
   useEffect(() => {
-    for (const [index, value] of Object.entries(state.values)) {
+    const targetIndex = lastChangedIndexRef.current;
+    const indices =
+      targetIndex && state.values[targetIndex] !== undefined
+        ? [targetIndex]
+        : Object.keys(state.values);
+
+    for (const index of indices) {
+      const value = state.values[index];
       const { commutator: commutatorText, thumb: thumbText } = computeDisplay(
         value ? value.label : "",
       );
@@ -453,151 +698,80 @@ const Custom = ({ codeType = "corner" }) => {
         thumbCell.textContent = thumbText;
       }
     }
-  }, [state.values, t, computeDisplay]);
 
-  const updateValue = (value: Option | null, index: string) => {
-    setState((prev) => {
-      const nextValues = { ...prev.values, [index]: value };
-      saveCustomAlgorithms(codeType, buildAlgorithms(nextValues));
-      return { ...prev, values: nextValues };
-    });
-  };
+    if (targetIndex && state.values[targetIndex] !== undefined) {
+      lastChangedIndexRef.current = null;
+    }
+  }, [state.values, computeDisplay]);
 
   const targetHeight = Math.trunc(fontSize * 2);
   const iconSize = targetHeight - 2;
-  const customStyles: StylesConfig<Option, false> = {
-    singleValue: (base) => ({
-      ...base,
-      color: theme === "light" ? "black" : "white",
-      height: `${targetHeight - 1 - 1}px`,
-      lineHeight: `${targetHeight - 1 - 1}px`,
-      marginTop: "0px",
-      marginBottom: "0px",
-      paddingBottom: "0px",
-      paddingTop: "0px",
-      padding: "0px",
-      display: "grid",
-      gridTemplateRows: "1fr",
-      gridTemplateColumns: "1fr auto",
-      margin: "0",
-    }),
-    input: (base) => ({
-      ...base,
-      color: theme === "light" ? "black" : "white",
-      marginTop: "0px",
-      marginBottom: "0px",
-      paddingTop: "0px",
-      paddingBottom: "0px",
-    }),
-    control: (base) => ({
-      ...base,
-      border: "0px",
-      boxShadow: "none",
-      backgroundColor: "transparent",
-      minHeight: "initial",
-      padding: "0px",
-      display: "grid",
-      gridTemplateRows: "1fr",
-      gridTemplateColumns: "1fr auto",
-      margin: "0",
-    }),
-    clearIndicator: (base) => ({
-      ...base,
-      padding: `${(targetHeight - iconSize - 1 - 1) / 30}px`,
-    }),
-    valueContainer: (base) => ({
-      ...base,
-      padding: 0,
-    }),
-    dropdownIndicator: (base) => ({
-      ...base,
-      padding: `${(targetHeight - iconSize - 1 - 1) / 30}px`,
-    }),
-    menu: (base) => ({
-      ...base,
-      padding: 0,
-      margin: "1px",
-      outline: "none",
-      backgroundColor: theme === "light" ? "#EEEEEE" : "#616161",
-      lineHeight: 1,
-    }),
-    menuList: (base) => ({
-      ...base,
-      padding: 0,
-    }),
-    option: (base) => ({
-      ...base,
-      padding: `${fontSize / 2}px`,
-    }),
-  };
-
-  interface IconProps extends React.SVGProps<SVGSVGElement> {
-    path: string;
-    size?: number;
-  }
-
-  const Icon: React.FC<IconProps> = ({ path, size = 20, ...rest }) => (
-    <svg
-      width={size}
-      height={size}
-      viewBox="0 0 20 20"
-      aria-hidden="true"
-      focusable="false"
-      style={{
-        display: "inline-block",
-        fill: "currentColor",
+  const customStyles = useMemo<StylesConfig<Option, false>>(
+    () => ({
+      singleValue: (base) => ({
+        ...base,
+        color: theme === "light" ? "black" : "white",
+        height: `${targetHeight - 2}px`,
+        lineHeight: `${targetHeight - 2}px`,
+        marginTop: "0px",
+        marginBottom: "0px",
+        padding: "0px",
+        display: "grid",
+        gridTemplateRows: "1fr",
+        gridTemplateColumns: "1fr auto",
+        margin: "0",
+      }),
+      input: (base) => ({
+        ...base,
+        color: theme === "light" ? "black" : "white",
+        marginTop: "0px",
+        marginBottom: "0px",
+        paddingTop: "0px",
+        paddingBottom: "0px",
+      }),
+      control: (base) => ({
+        ...base,
+        border: "0px",
+        boxShadow: "none",
+        backgroundColor: "transparent",
+        minHeight: "initial",
+        padding: "0px",
+        display: "grid",
+        gridTemplateRows: "1fr",
+        gridTemplateColumns: "1fr auto",
+        margin: "0",
+      }),
+      clearIndicator: (base) => ({
+        ...base,
+        padding: `${(targetHeight - iconSize - 2) / 30}px`,
+      }),
+      valueContainer: (base) => ({
+        ...base,
+        padding: 0,
+      }),
+      dropdownIndicator: (base) => ({
+        ...base,
+        padding: `${(targetHeight - iconSize - 2) / 30}px`,
+      }),
+      menu: (base) => ({
+        ...base,
+        padding: 0,
+        margin: "1px",
+        outline: "none",
+        backgroundColor: theme === "light" ? "#EEEEEE" : "#616161",
         lineHeight: 1,
-        stroke: "currentColor",
-        strokeWidth: 0,
-      }}
-      {...rest}
-    >
-      <path d={path} />
-    </svg>
+      }),
+      menuList: (base) => ({
+        ...base,
+        padding: 0,
+      }),
+      option: (base) => ({
+        ...base,
+        padding: `${fontSize / 2}px`,
+      }),
+    }),
+    [fontSize, iconSize, targetHeight, theme],
   );
-
-  const DropdownIndicator: React.FC<DropdownIndicatorProps<Option, false>> = (
-    props,
-  ) => {
-    return (
-      <components.DropdownIndicator {...props}>
-        <Icon
-          path="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"
-          size={iconSize}
-        />
-      </components.DropdownIndicator>
-    );
-  };
-
-  const ClearIndicator: React.FC<ClearIndicatorProps<Option, false>> = (
-    props,
-  ) => {
-    return (
-      <components.ClearIndicator {...props}>
-        <Icon
-          path="M14.348 14.849c-0.469 0.469-1.229 0.469-1.697 0l-2.651-3.030-2.651 3.029c-0.469 0.469-1.229 0.469-1.697 0-0.469-0.469-0.469-1.229 0-1.697l2.758-3.15-2.759-3.152c-0.469-0.469-0.469-1.228 0-1.697s1.228-0.469 1.697 0l2.652 3.031 2.651-3.031c0.469-0.469 1.228-0.469 1.697 0s0.469 1.229 0 1.697l-2.758 3.152 2.758 3.15c0.469 0.469 0.469 1.229 0 1.698z"
-          size={iconSize}
-        />
-      </components.ClearIndicator>
-    );
-  };
-
-  const IndicatorSeparator: React.FC<IndicatorSeparatorProps<Option, false>> = (
-    props,
-  ) => {
-    return (
-      <span
-        style={{
-          width: 1,
-          marginTop: `${targetHeight * 0.2}px`,
-          marginBottom: `${targetHeight * 0.2}px`,
-          backgroundColor: "hsl(0, 0%, 80%)",
-          alignSelf: "stretch",
-        }}
-        {...props.innerProps}
-      />
-    );
-  };
 
   const allowedOrders = ["Chichu", "Speffz", "Alphabetical"] as const;
   type OrderOfAlgsType = (typeof allowedOrders)[number];
@@ -608,17 +782,24 @@ const Custom = ({ codeType = "corner" }) => {
     ? (storedOrder as OrderOfAlgsType)
     : (codeConverter.getDefaultOrderOfAlgs() as OrderOfAlgsType);
 
-  const compareKeys = (posA: string, posB: string): number => {
-    if (currentOrder === "Alphabetical") {
-      const codeA = state.displayCodes[posA] ?? posA;
-      const codeB = state.displayCodes[posB] ?? posB;
-      return codeA.localeCompare(codeB);
-    }
-    const order = items.map((id) => String(id));
-    return (
-      order.indexOf(posA.split("-")[0]) - order.indexOf(posB.split("-")[0])
-    );
-  };
+  const compareKeys = useCallback(
+    (posA: string, posB: string): number => {
+      if (currentOrder === "Alphabetical") {
+        const codeA = state.displayCodes[posA] ?? posA;
+        const codeB = state.displayCodes[posB] ?? posB;
+        return codeA.localeCompare(codeB);
+      }
+      const order = items.map((id) => String(id));
+      return (
+        order.indexOf(posA.split("-")[0]) - order.indexOf(posB.split("-")[0])
+      );
+    },
+    [currentOrder, state.displayCodes, items],
+  );
+
+  const rowKeys = useMemo(() => {
+    return Object.keys(state.options).sort(compareKeys);
+  }, [state.options, compareKeys]);
 
   const exportToExcel = () => {
     const headers = [
@@ -628,7 +809,7 @@ const Custom = ({ codeType = "corner" }) => {
       t("table.thumbPosition"),
     ];
     const rows: string[][] = [];
-    for (const index of Object.keys(state.options).sort(compareKeys)) {
+    for (const index of rowKeys) {
       const algorithm = state.values[index]?.label || "";
       const { commutator: commutatorText, thumb: thumbText } =
         computeDisplay(algorithm);
@@ -813,6 +994,7 @@ const Custom = ({ codeType = "corner" }) => {
     setState((prev) => ({ ...prev, values: clearedValues }));
     saveCustomAlgorithms(codeType, {});
     setImportStatus(null);
+    lastChangedIndexRef.current = null;
   };
 
   if (loading) {
@@ -966,75 +1148,25 @@ const Custom = ({ codeType = "corner" }) => {
             </tr>
           </thead>
           <tbody>
-            {Object.entries(state.options)
-              .sort(([a], [b]) => compareKeys(a, b))
-              .map(([index]) => (
-                <tr key={index}>
-                  <td className="px-0 py-0">
-                    {state.displayCodes[index] ?? index}
-                  </td>
-                  <td className="px-0 py-0">
-                    <CreatableSelect
-                      components={{
-                        DropdownIndicator,
-                        IndicatorSeparator,
-                        ClearIndicator,
-                      }}
-                      instanceId={index}
-                      isClearable={true}
-                      isDisabled={isLoading}
-                      isLoading={isLoading}
-                      onChange={(newValue) => updateValue(newValue, index)}
-                      createOptionPosition="first"
-                      onCreateOption={(newValue) =>
-                        handleCreate(newValue, index)
-                      }
-                      options={state.options[index]}
-                      value={state.values[index]}
-                      isValidNewOption={(
-                        inputValue,
-                        selectValue,
-                        optionsInput,
-                      ) =>
-                        customIsValidNewOption(
-                          inputValue,
-                          selectValue,
-                          optionsInput,
-                          index,
-                        )
-                      }
-                      filterOption={customFilterOption}
-                      styles={customStyles}
-                      formatCreateLabel={(inputValue: string) =>
-                        `Create ${inputValue}`
-                      }
-                      theme={(themeInput) => ({
-                        ...themeInput,
-                        borderRadius: 0,
-                        colors: {
-                          ...themeInput.colors,
-                          primary25: theme === "light" ? "#B2D4FF" : "#85C1E9",
-                          primary50: theme === "light" ? "#B2D4FF" : "#85C1E9",
-                        },
-                      })}
-                    />
-                  </td>
-                  <td
-                    className="px-0 py-0"
-                    ref={(ref) => {
-                      commutatorRefs.current[index] =
-                        ref as HTMLTableCellElement;
-                    }}
-                  ></td>
-                  <td
-                    className="px-0 py-0"
-                    ref={(ref) => {
-                      thumbPositionRefs.current[index] =
-                        ref as HTMLTableCellElement;
-                    }}
-                  ></td>
-                </tr>
-              ))}
+            {rowKeys.map((index) => (
+              <Row
+                key={index}
+                index={index}
+                displayCode={state.displayCodes[index] ?? index}
+                value={state.values[index]}
+                options={state.options[index]}
+                updateValue={updateValue}
+                handleCreate={handleCreate}
+                isValidNewOption={customIsValidNewOption}
+                filterOption={customFilterOption}
+                styles={customStyles}
+                theme={theme}
+                isLoading={isLoading}
+                isDisabled={isLoading}
+                registerCommutatorRef={registerCommutatorRef}
+                registerThumbRef={registerThumbRef}
+              />
+            ))}
           </tbody>
         </table>
       </div>
