@@ -389,6 +389,7 @@ const Custom = ({ codeType = "corner" }) => {
   const { t } = useTranslation();
   const [loading, setLoading] = useState(true);
   const [loadingRow, setLoadingRow] = useState<string | null>(null);
+  const [dataReady, setDataReady] = useState(false);
 
   const bigbldCodeTypes = ["wing", "xcenter", "tcenter", "midge"];
   const is3bld = !bigbldCodeTypes.includes(codeType);
@@ -529,7 +530,7 @@ const Custom = ({ codeType = "corner" }) => {
           }
 
           restoredRef.current = true;
-          setLoading(false);
+          setDataReady(true);
         }
       } catch {
         if (isMounted) {
@@ -539,6 +540,7 @@ const Custom = ({ codeType = "corner" }) => {
       }
     };
     setLoading(true);
+    setDataReady(false);
     load();
     return () => {
       isMounted = false;
@@ -563,7 +565,10 @@ const Custom = ({ codeType = "corner" }) => {
       displayCodes: computed.displayCodes,
     });
     setImportStatus(null);
-  }, [nightmareData, manmadeData, mode, buffer, items, codeType]);
+    if (dataReady) {
+      setLoading(false);
+    }
+  }, [nightmareData, manmadeData, mode, buffer, items, codeType, dataReady]);
 
   const handleModeChange = (newType: "nightmare" | "manmade") => {
     setMode(newType);
