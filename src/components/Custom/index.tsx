@@ -388,7 +388,7 @@ const IndicatorSeparator: React.FC<IndicatorSeparatorProps<Option, false>> = (
 const Custom = ({ codeType = "corner" }) => {
   const { t } = useTranslation();
   const [loading, setLoading] = useState(true);
-  const [isLoading, setIsLoading] = useState<boolean>(false);
+  const [loadingRow, setLoadingRow] = useState<string | null>(null);
 
   const bigbldCodeTypes = ["wing", "xcenter", "tcenter", "midge"];
   const is3bld = !bigbldCodeTypes.includes(codeType);
@@ -589,20 +589,23 @@ const Custom = ({ codeType = "corner" }) => {
 
   const handleCreate = useCallback(
     (inputValue: string, index: string) => {
-      setIsLoading(true);
+      setLoadingRow(index);
       setTimeout(() => {
-        const newOption = createOption(
-          commutator.expand({ algorithm: inputValue }),
-        );
-        setIsLoading(false);
-        setState((prev) => ({
-          ...prev,
-          options: {
-            ...prev.options,
-            [index]: [newOption, ...prev.options[index]],
-          },
-        }));
-        updateValue(newOption, index);
+        try {
+          const newOption = createOption(
+            commutator.expand({ algorithm: inputValue }),
+          );
+          setState((prev) => ({
+            ...prev,
+            options: {
+              ...prev.options,
+              [index]: [newOption, ...(prev.options[index] ?? [])],
+            },
+          }));
+          updateValue(newOption, index);
+        } finally {
+          setLoadingRow(null);
+        }
       }, 100);
     },
     [updateValue],
@@ -1161,8 +1164,8 @@ const Custom = ({ codeType = "corner" }) => {
                 filterOption={customFilterOption}
                 styles={customStyles}
                 theme={theme}
-                isLoading={isLoading}
-                isDisabled={isLoading}
+                isLoading={loadingRow === index}
+                isDisabled={loadingRow === index}
                 registerCommutatorRef={registerCommutatorRef}
                 registerThumbRef={registerThumbRef}
               />
