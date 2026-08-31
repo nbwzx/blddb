@@ -92,17 +92,6 @@
         ],
         [
             [
-                "R' S R2 S2 R' U R S2 R2 S' R U'"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "[R' S R2 S2 R',U]"
-            ]
-        ],
-        [
-            [
                 "R S2 R2 S' R U R' S R2 S2 R' U'"
             ],
             [
@@ -486,17 +475,6 @@
         ],
         [
             [
-                "R' S R U R S' R' U' R' S2 R U R S2 R' U'"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "Not found."
-            ]
-        ],
-        [
-            [
                 "D' M U R' F' R S R' F R S' U M' U2 D"
             ],
             [
@@ -768,7 +746,6 @@
             ],
             [
                 "Hyunseung Ko (고현승)",
-                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -886,7 +863,6 @@
                 "Max Hilliard",
                 "Neel Gore",
                 "Roman Strakhov",
-                "Sebastiano Tronto",
                 "Shuto Ueno (上野柊斗)",
                 "Tobias Peter",
                 "Tommy Cherry",
@@ -1003,7 +979,6 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Neel Gore",
-                "Sebastiano Tronto",
                 "Shuto Ueno (上野柊斗)",
                 "Tobias Peter",
                 "Tommy Cherry",
@@ -1108,22 +1083,6 @@
         ],
         [
             [
-                "R' S' R U R' S R2 S2 R' U' R S2 R'"
-            ],
-            [
-                "Hyunseung Ko (고현승)",
-                "Jacob Tucker",
-                "Neel Gore",
-                "Sebastiano Tronto",
-                "Yangyang Shen (沈炀炀)",
-                "Yifan Wang (王逸帆)"
-            ],
-            [
-                "R' S' R:[U,R' S R2 S2 R']"
-            ]
-        ],
-        [
-            [
                 "R S' R' F R U' M' U2 M U' S R' F'"
             ],
             [
@@ -1136,6 +1095,21 @@
             ],
             [
                 "Not found."
+            ]
+        ],
+        [
+            [
+                "R' S' R U R' S R2 S2 R' U' R S2 R'"
+            ],
+            [
+                "Hyunseung Ko (고현승)",
+                "Jacob Tucker",
+                "Neel Gore",
+                "Yangyang Shen (沈炀炀)",
+                "Yifan Wang (王逸帆)"
+            ],
+            [
+                "R' S' R:[U,R' S R2 S2 R']"
             ]
         ],
         [
@@ -1300,18 +1274,6 @@
         ],
         [
             [
-                "R' S R2 S2 R' U' R S2 R2 S' R U"
-            ],
-            [
-                "Hyunseung Ko (고현승)",
-                "Sebastiano Tronto"
-            ],
-            [
-                "[R' S R2 S2 R',U']"
-            ]
-        ],
-        [
-            [
                 "M' U M U' S R' F' R S' R' F R U' M' U M"
             ],
             [
@@ -1330,6 +1292,17 @@
             ],
             [
                 "Not found."
+            ]
+        ],
+        [
+            [
+                "R' S R2 S2 R' U' R S2 R2 S' R U"
+            ],
+            [
+                "Hyunseung Ko (고현승)"
+            ],
+            [
+                "[R' S R2 S2 R',U']"
             ]
         ]
     ],
@@ -1509,17 +1482,6 @@
         ],
         [
             [
-                "U R' S R U' R S' R' U R' S2 R U' R S2 R'"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "Not found."
-            ]
-        ],
-        [
-            [
                 "S' L2 S L2 D S' r U r' S r U' r' D'"
             ],
             [
@@ -1595,7 +1557,6 @@
                 "Israel Fraga da Silva",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)",
@@ -1730,17 +1691,6 @@
         ],
         [
             [
-                "U R S' R' U' R S R2 S2 R U R' S2 R U'"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "U R S' R':[U',R S R2 S2 R]"
-            ]
-        ],
-        [
-            [
                 "U' R S' R' U R S R2 S2 R U' R' S2 R U"
             ],
             [
@@ -1793,7 +1743,6 @@
                 "Dylan Wang",
                 "Israel Fraga da Silva",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -1851,21 +1800,6 @@
         ],
         [
             [
-                "R E' R' U2 R E R2 E2 R U2 R' E2 R"
-            ],
-            [
-                "Dylan Wang",
-                "Israel Fraga da Silva",
-                "Sebastiano Tronto",
-                "Tobias Peter",
-                "Yifan Wang (王逸帆)"
-            ],
-            [
-                "R E' R':[U2,R E R2 E2 R]"
-            ]
-        ],
-        [
-            [
                 "U R' E2 R U R' E2 R2 E' R' U' R E R' U'"
             ],
             [
@@ -1876,6 +1810,20 @@
             ],
             [
                 "U R' E2 R:[U,R' E2 R2 E' R']"
+            ]
+        ],
+        [
+            [
+                "R E' R' U2 R E R2 E2 R U2 R' E2 R"
+            ],
+            [
+                "Dylan Wang",
+                "Israel Fraga da Silva",
+                "Tobias Peter",
+                "Yifan Wang (王逸帆)"
+            ],
+            [
+                "R E' R':[U2,R E R2 E2 R]"
             ]
         ],
         [
@@ -2003,17 +1951,6 @@
         ],
         [
             [
-                "U R' S' R U' R' S R2 S2 R' U R S2 R' U'"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "U R' S' R:[U',R' S R2 S2 R']"
-            ]
-        ],
-        [
-            [
                 "U' L E2 L' U L E2 L2 E L U' L' E' L U"
             ],
             [
@@ -2130,17 +2067,6 @@
             ],
             [
                 "S:[U',R S2 R2 S' R]"
-            ]
-        ],
-        [
-            [
-                "R' S R U' R S' R' U R' S2 R U' R S2 R' U"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "Not found."
             ]
         ],
         [
@@ -2340,21 +2266,6 @@
         ],
         [
             [
-                "R S' R' U' R S R2 S2 R U R' S2 R"
-            ],
-            [
-                "Hyunseung Ko (고현승)",
-                "Israel Fraga da Silva",
-                "Sebastiano Tronto",
-                "Yangyang Shen (沈炀炀)",
-                "Yifan Wang (王逸帆)"
-            ],
-            [
-                "R S' R':[U',R S R2 S2 R]"
-            ]
-        ],
-        [
-            [
                 "L' E2 L U' L' E2 L2 E' L' U L E L'"
             ],
             [
@@ -2366,6 +2277,20 @@
             ],
             [
                 "L' E2 L:[U',L' E2 L2 E' L']"
+            ]
+        ],
+        [
+            [
+                "R S' R' U' R S R2 S2 R U R' S2 R"
+            ],
+            [
+                "Hyunseung Ko (고현승)",
+                "Israel Fraga da Silva",
+                "Yangyang Shen (沈炀炀)",
+                "Yifan Wang (王逸帆)"
+            ],
+            [
+                "R S' R':[U',R S R2 S2 R]"
             ]
         ],
         [
@@ -2396,7 +2321,6 @@
                 "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
                 "Michael Tripodi",
-                "Sebastiano Tronto",
                 "Shuto Ueno (上野柊斗)",
                 "Tobias Peter",
                 "Tommy Cherry",
@@ -2441,7 +2365,6 @@
                 "Israel Fraga da Silva",
                 "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
-                "Sebastiano Tronto",
                 "Shuto Ueno (上野柊斗)",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -2518,7 +2441,6 @@
                 "Hyunseung Ko (고현승)",
                 "Israel Fraga da Silva",
                 "Jacob Tucker",
-                "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
             ],
@@ -2647,17 +2569,6 @@
         ],
         [
             [
-                "U R' S R2 S2 R' U R S2 R2 S' R U2"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "U:[R' S R2 S2 R',U]"
-            ]
-        ],
-        [
-            [
                 "U' R' U2 R F U' R' U' R U R U R' U' F'"
             ],
             [
@@ -2729,7 +2640,6 @@
                 "Hyunseung Ko (고현승)",
                 "Israel Fraga da Silva",
                 "Liren Sun (孙立仁)",
-                "Sebastiano Tronto",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -2803,17 +2713,6 @@
         ],
         [
             [
-                "U' R' S R2 S2 R' U' R S2 R2 S' R U2"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "U':[R' S R2 S2 R',U']"
-            ]
-        ],
-        [
-            [
                 "r' F R U' M' U2 M U' S R' F' R S' M'"
             ],
             [
@@ -2857,7 +2756,6 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Michael Tripodi",
                 "Neel Gore",
-                "Sebastiano Tronto",
                 "Shuto Ueno (上野柊斗)",
                 "Tobias Peter",
                 "Xin Shi (石欣)",
@@ -3143,19 +3041,6 @@
         ],
         [
             [
-                "R S' R' U2 R S R2 S2 R U2 R' S2 R"
-            ],
-            [
-                "Israel Fraga da Silva",
-                "Sebastiano Tronto",
-                "Yifan Wang (王逸帆)"
-            ],
-            [
-                "R S' R':[U2,R S R2 S2 R]"
-            ]
-        ],
-        [
-            [
                 "U R U' R' E' R2 E2 R' U R E2 R2 u'"
             ],
             [
@@ -3165,6 +3050,18 @@
             ],
             [
                 "U R:[U',R' E' R2 E2 R']"
+            ]
+        ],
+        [
+            [
+                "R S' R' U2 R S R2 S2 R U2 R' S2 R"
+            ],
+            [
+                "Israel Fraga da Silva",
+                "Yifan Wang (王逸帆)"
+            ],
+            [
+                "R S' R':[U2,R S R2 S2 R]"
             ]
         ],
         [
@@ -3268,8 +3165,7 @@
             ],
             [
                 "Ethan Pan",
-                "Ishaan Agrawal",
-                "Sebastiano Tronto"
+                "Ishaan Agrawal"
             ],
             [
                 "U' R' E R:[U,R' E' R2 E2 R']"
@@ -3310,7 +3206,6 @@
                 "Elliott Kobelansky",
                 "Jacob Tucker",
                 "Jonghyun Kim (김종현)",
-                "Sebastiano Tronto",
                 "Shuto Ueno (上野柊斗)",
                 "Tommy Cherry"
             ],
@@ -3407,19 +3302,6 @@
         ],
         [
             [
-                "R' S' R U2 R' S R2 S2 R' U2 R S2 R'"
-            ],
-            [
-                "Israel Fraga da Silva",
-                "Sebastiano Tronto",
-                "Yifan Wang (王逸帆)"
-            ],
-            [
-                "R' S' R:[U2,R' S R2 S2 R']"
-            ]
-        ],
-        [
-            [
                 "U R' S' R U R' S R2 S2 R' U' R S2 R' U'"
             ],
             [
@@ -3429,6 +3311,18 @@
             ],
             [
                 "U R' S' R:[U,R' S R2 S2 R']"
+            ]
+        ],
+        [
+            [
+                "R' S' R U2 R' S R2 S2 R' U2 R S2 R'"
+            ],
+            [
+                "Israel Fraga da Silva",
+                "Yifan Wang (王逸帆)"
+            ],
+            [
+                "R' S' R:[U2,R' S R2 S2 R']"
             ]
         ],
         [
@@ -3850,7 +3744,6 @@
             ],
             [
                 "Hyunseung Ko (고현승)",
-                "Sebastiano Tronto",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -4155,7 +4048,6 @@
                 "S R' U2 R S' R' U2 S2 R2 S' R2 S' R"
             ],
             [
-                "Sebastiano Tronto",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -4244,8 +4136,7 @@
             [
                 "Dylan Wang",
                 "Ishaan Agrawal",
-                "Keiichiro Taira (平佳一郎)",
-                "Sebastiano Tronto"
+                "Keiichiro Taira (平佳一郎)"
             ],
             [
                 "R' F' R:[S',R' F R S R F' R']"
@@ -4324,17 +4215,6 @@
             ],
             [
                 "Not found."
-            ]
-        ],
-        [
-            [
-                "l' S' l' S R2 S' l S l S' R2 S"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "S':[S l' S' l' S,R2]"
             ]
         ],
         [
@@ -4554,7 +4434,6 @@
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Neel Gore",
-                "Sebastiano Tronto",
                 "Shuto Ueno (上野柊斗)",
                 "Tobias Peter",
                 "Tommy Cherry",
@@ -4596,7 +4475,6 @@
                 "Max Hilliard",
                 "Michael Tripodi",
                 "Neel Gore",
-                "Sebastiano Tronto",
                 "Tobias Peter",
                 "Yifan Wang (王逸帆)",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -4998,19 +4876,6 @@
         ],
         [
             [
-                "R u R' U' R E R2 E2 R U R' E2 R2 U' R'"
-            ],
-            [
-                "Israel Fraga da Silva",
-                "Sebastiano Tronto",
-                "Yifan Wang (王逸帆)"
-            ],
-            [
-                "R u R':[U',R E R2 E2 R]"
-            ]
-        ],
-        [
-            [
                 "E' L2 E L2 F2 L' S L F2 L' S' L"
             ],
             [
@@ -5020,6 +4885,18 @@
             ],
             [
                 "Not found."
+            ]
+        ],
+        [
+            [
+                "R u R' U' R E R2 E2 R U R' E2 R2 U' R'"
+            ],
+            [
+                "Israel Fraga da Silva",
+                "Yifan Wang (王逸帆)"
+            ],
+            [
+                "R u R':[U',R E R2 E2 R]"
             ]
         ],
         [
@@ -5076,18 +4953,6 @@
         ],
         [
             [
-                "R U R2 S' R U R' S R2 S2 R' U' R S2 U' R'"
-            ],
-            [
-                "Sebastiano Tronto",
-                "Yifan Wang (王逸帆)"
-            ],
-            [
-                "R U R2 S' R:[U,R' S R2 S2 R']"
-            ]
-        ],
-        [
-            [
                 "R S' U M' U2 M U R' F' R S R' F"
             ],
             [
@@ -5096,6 +4961,17 @@
             ],
             [
                 "Not found."
+            ]
+        ],
+        [
+            [
+                "R U R2 S' R U R' S R2 S2 R' U' R S2 U' R'"
+            ],
+            [
+                "Yifan Wang (王逸帆)"
+            ],
+            [
+                "R U R2 S' R:[U,R' S R2 S2 R']"
             ]
         ]
     ],
@@ -5310,17 +5186,6 @@
         ],
         [
             [
-                "R' B' E R U R' E' R2 E2 R' U' R E2 R2 B R"
-            ],
-            [
-                "Sebastiano Tronto"
-            ],
-            [
-                "R' B' E R:[U,R' E' R2 E2 R']"
-            ]
-        ],
-        [
-            [
                 "f R E' R' U' R E R2 E2 R U R' E2 R f'"
             ],
             [
@@ -5378,7 +5243,6 @@
                 "R' u' R U R' E' R2 E2 R' U' R E2 R2 U R"
             ],
             [
-                "Sebastiano Tronto",
                 "Yifan Wang (王逸帆)"
             ],
             [
