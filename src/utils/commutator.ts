@@ -1190,10 +1190,15 @@ const commutator = (function () {
     return (((amount % order) + order - minAmount) % order) + minAmount;
   }
 
+  function inverse(input: string): string {
+    return arrayToStr(invert(algToArray(expand({ algorithm: input }))));
+  }
+
   return {
     search,
     expand,
     commutatorPost,
+    inverse,
   };
 })();
 

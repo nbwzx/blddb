@@ -117,6 +117,11 @@ const transformManmadeData = (
   return result;
 };
 
+const reversePosKey = (posKey: string): string => {
+  const [buffer, ...rest] = posKey.split("-");
+  return [buffer, ...rest.reverse()].join("-");
+};
+
 interface State {
   options: Record<string, Option[]>;
   values: Record<string, Option | null>;
@@ -419,6 +424,14 @@ const Custom = ({ codeType = "corner" }) => {
   const divRef = useRef<HTMLDivElement>(null as unknown as HTMLDivElement);
   const fileInputRef = useRef<HTMLInputElement>(null);
   const restoredRef = useRef(false);
+  const [syncReverse, setSyncReverse] = useState<boolean>(() => {
+    const stored = loadSettings().syncReverse;
+    return typeof stored === "boolean" ? stored : false;
+  });
+  const syncReverseRef = useRef(syncReverse);
+  useEffect(() => {
+    syncReverseRef.current = syncReverse;
+  }, [syncReverse]);
 
   const { fontSize } = useResponsiveTable(tableRef, divRef);
 
@@ -461,8 +474,30 @@ const Custom = ({ codeType = "corner" }) => {
     (value: Option | null, index: string) => {
       setState((prev) => {
         const nextValues = { ...prev.values, [index]: value };
+        let nextOptions = prev.options;
+        if (syncReverseRef.current) {
+          const reverseKey = reversePosKey(index);
+          if (reverseKey !== index && Object.hasOwn(prev.options, reverseKey)) {
+            if (value) {
+              const inv = commutator.inverse(value.label);
+              const existing = prev.options[reverseKey].find(
+                (o) => o.label === inv,
+              );
+              const opt = existing ?? createOption(inv);
+              nextValues[reverseKey] = opt;
+              if (!existing) {
+                nextOptions = {
+                  ...prev.options,
+                  [reverseKey]: [opt, ...prev.options[reverseKey]],
+                };
+              }
+            } else {
+              nextValues[reverseKey] = null;
+            }
+          }
+        }
         saveCustomAlgorithms(codeType, buildAlgorithms(nextValues));
-        return { ...prev, values: nextValues };
+        return { ...prev, options: nextOptions, values: nextValues };
       });
       lastChangedIndexRef.current = index;
     },
@@ -679,7 +714,7 @@ const Custom = ({ codeType = "corner" }) => {
     const targetIndex = lastChangedIndexRef.current;
     const indices =
       targetIndex && state.values[targetIndex] !== undefined
-        ? [targetIndex]
+        ? [targetIndex, reversePosKey(targetIndex)]
         : Object.keys(state.values);
 
     for (const index of indices) {
@@ -935,6 +970,26 @@ const Custom = ({ codeType = "corner" }) => {
         newValues[posKey] = selectedOption;
         selectedCount++;
       }
+
+      if (
+        syncReverseRef.current &&
+        !Object.hasOwn(algMap, reversePosKey(posKey))
+      ) {
+        const reverseKey = reversePosKey(posKey);
+        if (reverseKey !== posKey && Object.hasOwn(newOptions, reverseKey)) {
+          const inv = commutator.inverse(firstAlg);
+          if (!newOptions[reverseKey].some((o) => o.label === inv)) {
+            const newOpt = createOption(inv);
+            newOptions[reverseKey] = [newOpt, ...newOptions[reverseKey]];
+          }
+          const reverseOption = newOptions[reverseKey].find(
+            (o) => o.label === inv,
+          );
+          if (reverseOption) {
+            newValues[reverseKey] = reverseOption;
+          }
+        }
+      }
     }
 
     setState((prev) => ({
@@ -1058,6 +1113,22 @@ const Custom = ({ codeType = "corner" }) => {
               </option>
             ))}
           </select>
+          <span className="mx-2">|</span>
+          <label className="flex cursor-pointer items-center gap-2 font-medium">
+            <input
+              type="checkbox"
+              checked={syncReverse}
+              onChange={(e) => {
+                setSyncReverse(e.target.checked);
+                saveSettings({
+                  ...loadSettings(),
+                  syncReverse: e.target.checked,
+                });
+              }}
+              className="h-4 w-4"
+            />
+            {t("custom.syncReverse")}
+          </label>
         </div>
 
         <div className="flex items-center gap-2">
