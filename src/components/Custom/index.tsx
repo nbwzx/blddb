@@ -158,33 +158,23 @@ const computeState = (
   const newOptions: Record<string, Option[]> = {};
   const displayCodes: Record<string, string> = {};
   const orderPositions = items.map(String);
-  const positionToCustomCode = new Map(
-    orderPositions.map((pos) => [
-      pos,
-      codeConverter.positionToCustomCode([pos]),
-    ]),
-  );
   for (const [key, values] of Object.entries(rawData)) {
     let displayCode: string | null = null;
 
-    if (buffer) {
-      const bufferCode = codeConverter.positionToCustomCode([buffer]);
-      const variants = codeConverter.initCodeToVariantCustomCode(key, codeType);
-      const matchingVariant = variants.find((v) => v[0] === bufferCode);
-      if (!matchingVariant) {
-        continue;
+    const variants = codeConverter.initCodeToVariantCustomCode(key, codeType);
+    let chosen = variants[0];
+    let bestRank = orderPositions.length;
+    for (const v of variants) {
+      const firstPos = codeConverter.customCodeToPosition(v, codeType)[0];
+      const rank = orderPositions.indexOf(firstPos);
+      if (rank !== -1 && rank < bestRank) {
+        bestRank = rank;
+        chosen = v;
       }
-      const bufferIndex = orderPositions.indexOf(buffer);
-      const positionsBeforeBuffer = orderPositions.slice(0, bufferIndex);
-      const hasVariantBeforeBuffer = positionsBeforeBuffer.some((pos) =>
-        variants.some((v) => v[0] === positionToCustomCode.get(pos)),
-      );
-      if (hasVariantBeforeBuffer) {
-        continue;
-      }
-      displayCode = matchingVariant;
-    } else {
-      displayCode = codeConverter.initCodeToCustomCode(key, codeType);
+    }
+    displayCode = chosen;
+    if (buffer && codeConverter.positionToCustomCode([buffer]) !== chosen[0]) {
+      continue;
     }
 
     const posKey = codeConverter
@@ -792,17 +782,35 @@ const Custom = ({ codeType = "corner" }) => {
 
   const compareKeys = useCallback(
     (posA: string, posB: string): number => {
-      if (currentOrder === "Alphabetical") {
-        const codeA = state.displayCodes[posA] ?? posA;
-        const codeB = state.displayCodes[posB] ?? posB;
-        return codeA.localeCompare(codeB);
+      const order =
+        currentOrder === "Alphabetical"
+          ? null
+          : ((codeConverter.positionArrays[currentOrder] as
+              | string[]
+              | undefined) ?? null);
+      const floatOrder = items.map((id) => String(id));
+      const rankAt = (pos: string, useFloat: boolean): number => {
+        if (useFloat) {
+          return floatOrder.indexOf(pos);
+        }
+        if (order === null) {
+          return pos.charCodeAt(0);
+        }
+        return order.indexOf(pos);
+      };
+      const ia = posA.split("-");
+      const ib = posB.split("-");
+      const n = ia.length;
+      for (let i = 0; i < n; i++) {
+        const a = rankAt(ia[i], i === 0);
+        const b = rankAt(ib[i], i === 0);
+        if (a !== b) {
+          return a - b;
+        }
       }
-      const order = items.map((id) => String(id));
-      return (
-        order.indexOf(posA.split("-")[0]) - order.indexOf(posB.split("-")[0])
-      );
+      return posA.localeCompare(posB);
     },
-    [currentOrder, state.displayCodes, items],
+    [currentOrder, items],
   );
 
   const rowKeys = useMemo(() => {
