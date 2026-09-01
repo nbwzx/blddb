@@ -19,10 +19,8 @@ import { useAppContext } from "../context";
 
 const BLD = ({ codeType }: { codeType: string }) => {
   const { i18n, t } = useTranslation();
-  const tableRef = useRef<HTMLTableElement>(
-    null as unknown as HTMLTableElement,
-  );
-  const divRef = useRef<HTMLDivElement>(null as unknown as HTMLDivElement);
+  const tableRef = useRef<HTMLTableElement>(null);
+  const divRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
   const selectRefs = useRef<HTMLSelectElement[]>([]);
   const modeRef = useRef<HTMLSelectElement>(null);

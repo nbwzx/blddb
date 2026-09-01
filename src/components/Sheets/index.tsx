@@ -28,10 +28,8 @@ const Sheets = () => {
   const [loading, setLoading] = useState(true);
 
   const [users, setUsers] = useState<Users>({});
-  const divRef = useRef<HTMLDivElement>(null as unknown as HTMLDivElement);
-  const tableRef = useRef<HTMLTableElement>(
-    null as unknown as HTMLTableElement,
-  );
+  const divRef = useRef<HTMLDivElement>(null);
+  const tableRef = useRef<HTMLTableElement>(null);
 
   useResponsiveTable(tableRef, divRef);
 

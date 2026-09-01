@@ -62,8 +62,8 @@ const Table = ({
     | { [key: string]: string[] } // nightmare
     | { [key: string]: [alg: string[], source: string[]][] } // manmade (3bld)
     | { [key: string]: [alg: string, source: string[], comm: string][] }; // manmade (bigbld)
-  divRef: React.RefObject<HTMLDivElement>;
-  tableRef: React.RefObject<HTMLTableElement>;
+  divRef: React.RefObject<HTMLDivElement | null>;
+  tableRef: React.RefObject<HTMLTableElement | null>;
   selected?: Record<string, string>;
   sourceToUrl?: Record<string, Record<string, string>>;
   sourceToResult?: {
