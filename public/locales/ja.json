@@ -262,7 +262,14 @@
     "syncReverse": "正逆順の同期",
     "letter": "エンコーディング",
     "exportName": "カスタム手順表 - {{type}}",
-    "importStatus": "📊 {{totalRows}} 行を処理しました。{{selectedCount}} 件の{{letter}}をインポートしました。"
+    "importStatus": "📊 {{totalRows}} 行を処理しました。{{selectedCount}} 件の{{letter}}をインポートしました。",
+    "noFileSelected": "❌ ファイルが選択されていません。",
+    "readingFile": "⏳ ファイルを読み込み中…",
+    "unsupportedFileType": "❌ 未対応のファイル形式です。.xlsx、.xls、.csv、.tsv を使用してください",
+    "noDataRead": "❌ ファイルからデータが読み込まれませんでした。",
+    "importError": "❌ ファイル処理エラー: {{message}}",
+    "readFailed": "❌ ファイル読み込み失敗（リーダーエラー）。",
+    "createLabel": "{{input}} を作成"
   },
   "error": {
     "prefix": "エラー：",

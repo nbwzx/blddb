@@ -228,6 +228,7 @@ interface RowProps {
 /* eslint-enable no-unused-vars */
 
 const Row = React.memo((props: RowProps) => {
+  const { t } = useTranslation();
   const {
     index,
     displayCode,
@@ -288,7 +289,9 @@ const Row = React.memo((props: RowProps) => {
           filterOption={filterOption}
           styles={styles}
           {...({ iconSize, targetHeight } as Record<string, unknown>)}
-          formatCreateLabel={(inputValue: string) => `Create ${inputValue}`}
+          formatCreateLabel={(inputValue: string) =>
+            t("custom.createLabel", { input: inputValue })
+          }
           theme={(themeInput) => ({
             ...themeInput,
             borderRadius: 0,
@@ -1014,20 +1017,18 @@ const Custom = ({ codeType = "corner" }) => {
   const handleFileUpload = (event: React.ChangeEvent<HTMLInputElement>) => {
     const file = event.target.files?.[0];
     if (!file) {
-      setImportStatus("❌ No file selected.");
+      setImportStatus(t("custom.noFileSelected"));
       return;
     }
 
-    setImportStatus("⏳ Reading file...");
+    setImportStatus(t("custom.readingFile"));
 
     const reader = new FileReader();
     const isExcel = file.name.endsWith(".xlsx") || file.name.endsWith(".xls");
     const isCSV = file.name.endsWith(".csv") || file.name.endsWith(".tsv");
 
     if (!isExcel && !isCSV) {
-      setImportStatus(
-        "❌ Unsupported file type. Please use .xlsx, .xls, .csv, or .tsv",
-      );
+      setImportStatus(t("custom.unsupportedFileType"));
       event.target.value = "";
       return;
     }
@@ -1036,7 +1037,7 @@ const Custom = ({ codeType = "corner" }) => {
       try {
         const result = e.target?.result;
         if (!result) {
-          setImportStatus("❌ No data read from file.");
+          setImportStatus(t("custom.noDataRead"));
           return;
         }
         const workbook = isExcel
@@ -1045,12 +1046,14 @@ const Custom = ({ codeType = "corner" }) => {
         const status = processWorkbook(workbook);
         setImportStatus(status);
       } catch (err) {
-        setImportStatus(`❌ Error processing file: ${(err as Error).message}`);
+        setImportStatus(
+          t("custom.importError", { message: (err as Error).message }),
+        );
       }
     };
 
     reader.onerror = () => {
-      setImportStatus("❌ Failed to read file (reader error).");
+      setImportStatus(t("custom.readFailed"));
     };
 
     if (isExcel) {

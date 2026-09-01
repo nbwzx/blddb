@@ -294,7 +294,14 @@
     "syncReverse": "Sync forward/reverse",
     "letter": "letters",
     "exportName": "Custom Alg Set - {{type}}",
-    "importStatus": "📊 Processed {{totalRows}} rows. Imported {{selectedCount}} {{letter}}."
+    "importStatus": "📊 Processed {{totalRows}} rows. Imported {{selectedCount}} {{letter}}.",
+    "noFileSelected": "❌ No file selected.",
+    "readingFile": "⏳ Reading file...",
+    "unsupportedFileType": "❌ Unsupported file type. Please use .xlsx, .xls, .csv, or .tsv",
+    "noDataRead": "❌ No data read from file.",
+    "importError": "❌ Error processing file: {{message}}",
+    "readFailed": "❌ Failed to read file (reader error).",
+    "createLabel": "Create {{input}}"
   },
   "error": {
     "prefix": "Error: ",

@@ -294,7 +294,14 @@
     "syncReverse": "同步正逆序",
     "letter": "编码",
     "exportName": "个人公式集-{{type}}",
-    "importStatus": "📊 处理了 {{totalRows}} 行。导入了 {{selectedCount}} 个{{letter}}。"
+    "importStatus": "📊 处理了 {{totalRows}} 行。导入了 {{selectedCount}} 个{{letter}}。",
+    "noFileSelected": "❌ 未选择文件。",
+    "readingFile": "⏳ 正在读取文件……",
+    "unsupportedFileType": "❌ 不支持的文件类型。请使用 .xlsx、.xls、.csv 或 .tsv",
+    "noDataRead": "❌ 未能从文件中读取到数据。",
+    "importError": "❌ 处理文件时出错：{{message}}",
+    "readFailed": "❌ 读取文件失败（读取器错误）。",
+    "createLabel": "创建 {{input}}"
   },
   "error": {
     "prefix": "错误：",
