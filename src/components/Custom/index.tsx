@@ -1077,7 +1077,7 @@ const Custom = ({ codeType = "corner" }) => {
       title={t(codeType === "edge" ? "custom.edge" : "custom.corner")}
     >
       <div className="mb-4 flex flex-wrap items-center justify-between gap-2">
-        <div className="flex items-center gap-2">
+        <div className="flex flex-wrap items-center gap-2">
           <label htmlFor="mode" className="font-medium">
             {t("common.mode")}
           </label>
