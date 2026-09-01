@@ -388,6 +388,9 @@ const IndicatorSeparator: React.FC<IndicatorSeparatorProps<Option, false>> = (
   );
 };
 
+const allowedOrders = ["Chichu", "Speffz", "Alphabetical"] as const;
+type OrderOfAlgsType = (typeof allowedOrders)[number];
+
 const Custom = ({ codeType = "corner" }) => {
   const { t, i18n } = useTranslation();
   const isCJK = i18n.language === "zh-CN" || i18n.language === "ja";
@@ -440,10 +443,8 @@ const Custom = ({ codeType = "corner" }) => {
   });
   const [importStatus, setImportStatus] = useState<string | null>(null);
   const { theme } = useTheme();
-  const tableRef = useRef<HTMLTableElement>(
-    null as unknown as HTMLTableElement,
-  );
-  const divRef = useRef<HTMLDivElement>(null as unknown as HTMLDivElement);
+  const tableRef = useRef<HTMLTableElement>(null);
+  const divRef = useRef<HTMLDivElement>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
   const restoredRef = useRef(false);
   const [syncReverse, setSyncReverse] = useState<boolean>(() => {
@@ -798,7 +799,7 @@ const Custom = ({ codeType = "corner" }) => {
       }),
       clearIndicator: (base) => ({
         ...base,
-        padding: `${(targetHeight - iconSize - 2) / 30}px`,
+        padding: 0,
       }),
       valueContainer: (base) => ({
         ...base,
@@ -806,7 +807,7 @@ const Custom = ({ codeType = "corner" }) => {
       }),
       dropdownIndicator: (base) => ({
         ...base,
-        padding: `${(targetHeight - iconSize - 2) / 30}px`,
+        padding: 0,
       }),
       menu: (base) => ({
         ...base,
@@ -825,17 +826,15 @@ const Custom = ({ codeType = "corner" }) => {
         padding: `${fontSize / 2}px`,
       }),
     }),
-    [fontSize, iconSize, targetHeight, theme],
+    [fontSize, targetHeight, theme],
   );
 
-  const allowedOrders = ["Chichu", "Speffz", "Alphabetical"] as const;
-  type OrderOfAlgsType = (typeof allowedOrders)[number];
-  const storedOrder = loadSettings().orderOfAlgs as string;
-  const currentOrder: OrderOfAlgsType = (
-    allowedOrders as readonly string[]
-  ).includes(storedOrder)
-    ? (storedOrder as OrderOfAlgsType)
-    : (codeConverter.getDefaultOrderOfAlgs() as OrderOfAlgsType);
+  const currentOrder: OrderOfAlgsType = useMemo(() => {
+    const storedOrder = loadSettings().orderOfAlgs as string;
+    return (allowedOrders as readonly string[]).includes(storedOrder)
+      ? (storedOrder as OrderOfAlgsType)
+      : (codeConverter.getDefaultOrderOfAlgs() as OrderOfAlgsType);
+  }, []);
 
   const compareKeys = useCallback(
     (posA: string, posB: string): number => {
@@ -1035,6 +1034,8 @@ const Custom = ({ codeType = "corner" }) => {
       return;
     }
 
+    event.target.value = "";
+
     setImportStatus(t("custom.readingFile"));
 
     const reader = new FileReader();
@@ -1043,7 +1044,6 @@ const Custom = ({ codeType = "corner" }) => {
 
     if (!isExcel && !isCSV) {
       setImportStatus(t("custom.unsupportedFileType"));
-      event.target.value = "";
       return;
     }
 
@@ -1075,8 +1075,6 @@ const Custom = ({ codeType = "corner" }) => {
     } else {
       reader.readAsText(file);
     }
-
-    event.target.value = "";
   };
 
   const handleClear = () => {
