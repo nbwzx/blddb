@@ -290,7 +290,7 @@ const Row = React.memo((props: RowProps) => {
           styles={styles}
           {...({ iconSize, targetHeight } as Record<string, unknown>)}
           formatCreateLabel={(inputValue: string) =>
-            t("custom.createLabel", { input: inputValue })
+            `${t("custom.createLabel")} ${inputValue}`
           }
           theme={(themeInput) => ({
             ...themeInput,
@@ -692,10 +692,9 @@ const Custom = ({ codeType = "corner" }) => {
         expandValue === "" ||
         hasValue ||
         hasOption ||
-        codeConverter.customCodeToInitCode(
-          codeConverter.positionToCustomCode(index.split("-")),
-          codeType,
-        ) !== codeAuto[1]
+        !codeConverter
+          .initCodeToVariantCustomCode(codeAuto[1], codeType)
+          .includes(codeConverter.positionToCustomCode(index.split("-")))
       );
     },
     [codeType],
