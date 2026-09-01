@@ -389,7 +389,21 @@ const IndicatorSeparator: React.FC<IndicatorSeparatorProps<Option, false>> = (
 };
 
 const Custom = ({ codeType = "corner" }) => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const isCJK = i18n.language === "zh-CN" || i18n.language === "ja";
+  const colWidths = isCJK
+    ? [
+        { width: "7.5%", minWidth: "4em" },
+        { width: "52%", minWidth: "23em", zIndex: 2 },
+        { width: "25.5%", minWidth: "15em" },
+        { width: "15%", minWidth: "3em" },
+      ]
+    : [
+        { width: "7.5%", minWidth: "4em" },
+        { width: "45%", minWidth: "23em", zIndex: 2 },
+        { width: "22.5%", minWidth: "15em" },
+        { width: "25%", minWidth: "12em" },
+      ];
   const [loading, setLoading] = useState(true);
   const [loadingRow, setLoadingRow] = useState<string | null>(null);
   const [dataReady, setDataReady] = useState(false);
@@ -1228,18 +1242,10 @@ const Custom = ({ codeType = "corner" }) => {
         <table ref={tableRef}>
           <thead>
             <tr>
-              <th style={{ width: "7.5%", minWidth: "4em" }}>
-                {t("table.letters")}
-              </th>
-              <th style={{ width: "43%", minWidth: "32em", zIndex: 2 }}>
-                {t("table.algorithm")}
-              </th>
-              <th style={{ width: "24.5%", minWidth: "20em" }}>
-                {t("table.commutator")}
-              </th>
-              <th style={{ width: "25%", minWidth: "15em" }}>
-                {t("table.thumbPosition")}
-              </th>
+              <th style={{ ...colWidths[0] }}>{t("table.letters")}</th>
+              <th style={{ ...colWidths[1] }}>{t("table.algorithm")}</th>
+              <th style={{ ...colWidths[2] }}>{t("table.commutator")}</th>
+              <th style={{ ...colWidths[3] }}>{t("table.thumbPosition")}</th>
             </tr>
           </thead>
           <tbody>
