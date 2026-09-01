@@ -126,6 +126,19 @@ const menuData: Menu[] = [
     ],
   },
   {
+    title: "custom.title",
+    submenu: [
+      {
+        title: "custom.corner",
+        path: "/custom/corner",
+      },
+      {
+        title: "custom.edge",
+        path: "/custom/edge",
+      },
+    ],
+  },
+  {
     title: "common.Settings",
     submenu: [
       {
