@@ -217,6 +217,8 @@ interface RowProps {
   theme: string | undefined;
   isLoading: boolean;
   isDisabled: boolean;
+  iconSize: number;
+  targetHeight: number;
   registerCommutatorRef: (
     index: string,
     el: HTMLTableCellElement | null,
@@ -239,6 +241,8 @@ const Row = React.memo((props: RowProps) => {
     theme,
     isLoading,
     isDisabled,
+    iconSize,
+    targetHeight,
     registerCommutatorRef,
     registerThumbRef,
   } = props;
@@ -283,6 +287,7 @@ const Row = React.memo((props: RowProps) => {
           isValidNewOption={isValid}
           filterOption={filterOption}
           styles={styles}
+          {...({ iconSize, targetHeight } as Record<string, unknown>)}
           formatCreateLabel={(inputValue: string) => `Create ${inputValue}`}
           theme={(themeInput) => ({
             ...themeInput,
@@ -1250,6 +1255,8 @@ const Custom = ({ codeType = "corner" }) => {
                 theme={theme}
                 isLoading={loadingRow === index}
                 isDisabled={loadingRow === index}
+                iconSize={iconSize}
+                targetHeight={targetHeight}
                 registerCommutatorRef={registerCommutatorRef}
                 registerThumbRef={registerThumbRef}
               />
