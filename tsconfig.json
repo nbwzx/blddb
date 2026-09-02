@@ -29,7 +29,8 @@
       }
     ],
     "strictNullChecks": true,
-    "target": "ESNext"
+    "target": "ESNext",
+    "ignoreDeprecations": "6.0"
   },
   "include": [
     "next-env.d.ts",

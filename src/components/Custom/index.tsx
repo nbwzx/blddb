@@ -841,8 +841,7 @@ const Custom = ({ codeType = "corner" }) => {
         currentOrder === "Alphabetical"
           ? null
           : ((codeConverter.positionArrays[currentOrder] as
-              | string[]
-              | undefined) ?? null);
+              string[] | undefined) ?? null);
       const floatOrder = items.map((id) => String(id));
       const rankAt = (pos: string, useFloat: boolean): number => {
         if (useFloat) {

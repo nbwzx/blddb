@@ -291,12 +291,10 @@ const Table = ({
     (isManmade ? 1 : 0) +
     moveCountMetrics.length;
   for (const [key, value] of Object.entries(data)) {
-    if (
-      !(
-        matchesPattern(variantCode, key) ||
-        (showInverseAlgs && matchesPattern(variantCode, getInverseCode(key)))
-      )
-    ) {
+    if (!(
+      matchesPattern(variantCode, key) ||
+      (showInverseAlgs && matchesPattern(variantCode, getInverseCode(key)))
+    )) {
       continue;
     }
     let processedValue = [...value];
