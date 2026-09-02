@@ -8,8 +8,7 @@ import tracer_555 from "@/utils/tracer_555";
 import { useTranslation } from "@/i18n/client";
 import Loading from "@/app/loading";
 import PageSection from "@/components/PageSection";
-import { useMount } from "react-use";
-import { useAppContext } from "../context";
+import { useResumeTour } from "@/hooks/useResumeTour";
 
 const Code = ({ cubeSize }: { cubeSize: 3 | 5 }) => {
   const { t } = useTranslation();
@@ -223,18 +222,7 @@ const Code = ({ cubeSize }: { cubeSize: 3 | 5 }) => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [cubeSize, inputValues]);
 
-  const {
-    setState,
-    state: { tourActive },
-  } = useAppContext();
-
-  useMount(() => {
-    if (tourActive) {
-      setTimeout(() => {
-        setState({ run: true, stepIndex: 1 });
-      }, 1000);
-    }
-  });
+  useResumeTour();
 
   if (loading) {
     return <Loading />;

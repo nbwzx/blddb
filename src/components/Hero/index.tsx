@@ -11,8 +11,8 @@ import commutator_555 from "@/utils/commutator_555";
 import commutator_555_final from "@/utils/commutator_555_final";
 import codeConverter from "@/utils/codeConverter";
 import bigbldCodeConverter from "@/utils/bigbldCodeConverter";
-import { useMount } from "react-use";
 import { useAppContext } from "../context";
+import { useResumeTour } from "@/hooks/useResumeTour";
 
 const Hero = () => {
   const { i18n, t } = useTranslation();
@@ -54,18 +54,9 @@ const Hero = () => {
     }
   };
 
-  const {
-    setState,
-    state: { tourActive },
-  } = useAppContext();
+  const { setState } = useAppContext();
 
-  useMount(() => {
-    if (tourActive) {
-      setTimeout(() => {
-        setState({ run: true, stepIndex: 0 });
-      }, 1000);
-    }
-  });
+  useResumeTour();
 
   const handleClickStart = () => {
     setState({ run: true, tourActive: true });

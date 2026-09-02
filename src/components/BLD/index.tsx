@@ -14,8 +14,7 @@ import { useCopyToClipboard } from "@/hooks/useCopyToClipboard";
 import CopyPopup from "@/components/CopyPopup";
 import tracer from "@/utils/tracer";
 import tracer_555 from "@/utils/tracer_555";
-import { useMount } from "react-use";
-import { useAppContext } from "../context";
+import { useResumeTour } from "@/hooks/useResumeTour";
 
 const BLD = ({ codeType }: { codeType: string }) => {
   const { i18n, t } = useTranslation();
@@ -436,18 +435,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
 
   const { copySuccess, copy } = useCopyToClipboard(3000);
 
-  const {
-    setState,
-    state: { tourActive },
-  } = useAppContext();
-
-  useMount(() => {
-    if (tourActive) {
-      setTimeout(() => {
-        setState({ run: true, stepIndex: 2 });
-      }, 1000);
-    }
-  });
+  useResumeTour();
 
   if (loading) {
     return <Loading />;

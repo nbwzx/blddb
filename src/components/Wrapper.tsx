@@ -66,7 +66,7 @@ export default function MultiRouteWrapper({
               <Paragraph>{t("tour.start")}</Paragraph>{" "}
             </>
           ),
-          data: { current: "/" },
+          route: "/",
         },
         {
           target: "#scheme",
@@ -75,7 +75,7 @@ export default function MultiRouteWrapper({
               <Paragraph size="lg">{t("tour.chooseScheme")}</Paragraph>
             </>
           ),
-          data: { current: "/code" },
+          route: "/code",
         },
         {
           target: "#mode",
@@ -84,7 +84,7 @@ export default function MultiRouteWrapper({
               <Paragraph size="lg">{t("tour.chooseMode")}</Paragraph>
             </>
           ),
-          data: { current: "/edge?position=UF-UB-RU&mode=manmade" },
+          route: "/edge?position=UF-UB-RU&mode=manmade",
         },
         {
           target: "#inputText",
@@ -93,7 +93,7 @@ export default function MultiRouteWrapper({
               <Paragraph size="lg">{t("tour.enterLetterPairs")}</Paragraph>
             </>
           ),
-          data: { current: "/edge?position=UF-UB-RU&mode=manmade" },
+          route: "/edge?position=UF-UB-RU&mode=manmade",
         },
         {
           target: "#alg",
@@ -102,7 +102,7 @@ export default function MultiRouteWrapper({
               <Paragraph size="lg">{t("tour.copyAlgs")}</Paragraph>
             </>
           ),
-          data: { current: "/edge?position=UF-UB-RU&mode=manmade" },
+          route: "/edge?position=UF-UB-RU&mode=manmade",
         },
         {
           target: "#video",
@@ -111,7 +111,7 @@ export default function MultiRouteWrapper({
               <Paragraph size="lg">{t("tour.watchVideo")}</Paragraph>
             </>
           ),
-          data: { current: "/edge?position=UF-UB-RU&mode=manmade" },
+          route: "/edge?position=UF-UB-RU&mode=manmade",
         },
       ],
     });
@@ -136,11 +136,11 @@ export default function MultiRouteWrapper({
         router.push("/");
         return;
       }
-      if (steps[index].data.current === steps[nextIndex].data.current) {
+      if (steps[index].route === steps[nextIndex].route) {
         setState({ run: true, stepIndex: nextIndex });
       } else {
         setState({ run: false });
-        router.push(steps[nextIndex].data.current);
+        router.push(steps[nextIndex].route);
       }
     }
   };
