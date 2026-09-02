@@ -2,11 +2,39 @@
 
 import { useRouter } from "next/navigation";
 import { useMount } from "react-use";
-import { Paragraph, theme } from "@gilbarbara/components";
 import { useAppContext } from "./context";
 import { useTranslation } from "@/i18n/client";
 import { Joyride, EventData, EVENTS } from "react-joyride";
 import React from "react";
+
+function Paragraph({
+  bold,
+  size,
+  children,
+}: {
+  bold?: boolean;
+  size?: "lg";
+  children: React.ReactNode;
+}) {
+  return (
+    <p
+      style={{
+        margin: 0,
+        fontWeight: bold ? 700 : 400,
+        fontSize: size === "lg" ? 18 : 16,
+        lineHeight: 1.2,
+      }}
+    >
+      {children}
+    </p>
+  );
+}
+
+const tourColors = {
+  background: "#4d4d4d",
+  primary: "#ad7bff",
+  text: "#fff",
+};
 
 export default function MultiRouteWrapper({
   children,
@@ -128,10 +156,10 @@ export default function MultiRouteWrapper({
         stepIndex={stepIndex}
         steps={steps}
         options={{
-          arrowColor: theme.grayScale[700],
-          backgroundColor: theme.grayScale[700],
-          primaryColor: theme.colors.purple,
-          textColor: theme.white,
+          arrowColor: tourColors.background,
+          backgroundColor: tourColors.background,
+          primaryColor: tourColors.primary,
+          textColor: tourColors.text,
           skipBeacon: true,
           scrollOffset: 400,
           overlayClickAction: false,
