@@ -10,6 +10,7 @@ import resourcesToBackend from "i18next-resources-to-backend";
 import LanguageDetector from "i18next-browser-languagedetector";
 import { getOptions, supportedLocales } from "./settings";
 import { useLocale } from "../app/localeProvider";
+import { getItem, setItem } from "@/utils/settings";
 import codeConverter from "@/utils/codeConverter";
 import bigbldCodeConverter from "@/utils/bigbldCodeConverter";
 
@@ -46,15 +47,12 @@ i18next
   });
 
 if (!runsOnServerSide) {
-  if (localStorage.getItem("code") === null) {
+  if (getItem("code") === null) {
     const browserLanguage = navigator.language;
     const isChinese = browserLanguage.startsWith("zh");
     if (!isChinese) {
-      localStorage.setItem("code", codeConverter.letteringSchemes["Speffz"]);
-      localStorage.setItem(
-        "bigbldCode",
-        bigbldCodeConverter.letteringSchemes["Speffz"],
-      );
+      setItem("code", codeConverter.letteringSchemes["Speffz"]);
+      setItem("bigbldCode", bigbldCodeConverter.letteringSchemes["Speffz"]);
     }
   }
 }
@@ -86,4 +84,17 @@ export function useTranslation() {
     }, [lng, i18next]);
   }
   return useTransAlias();
+}
+
+export function seedInitialI18n(
+  locale: string,
+  resources: Record<string, unknown>,
+) {
+  if (typeof window === "undefined" || !resources) {
+    return;
+  }
+  i18next.addResourceBundle(locale, "translation", resources, true, true);
+  if (i18next.resolvedLanguage !== locale) {
+    i18next.changeLanguage(locale);
+  }
 }

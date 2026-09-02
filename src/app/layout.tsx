@@ -4,7 +4,8 @@ import React from "react";
 import "../styles/index.css";
 import { Providers } from "./providers";
 import { LocaleProvider } from "./localeProvider";
-import { getLocale } from "../i18n/server";
+import { getLocale, loadLocaleResources } from "../i18n/server";
+import { I18nSeed } from "./i18nSeed";
 import ErrorBoundary from "./ErrorBoundary";
 import { AppProvider } from "../components/context";
 import MultiRouteWrapper from "../components/Wrapper";
@@ -15,6 +16,7 @@ export default async function RootLayout({
   children: React.ReactNode;
 }) {
   const locale = await getLocale();
+  const initialResources = await loadLocaleResources(locale);
   return (
     <html suppressHydrationWarning lang={locale}>
       {/*
@@ -27,6 +29,7 @@ export default async function RootLayout({
         suppressHydrationWarning
         className={"dark:bg-gray-dark bg-[#FCFCFC]"}
       >
+        <I18nSeed locale={locale} resources={initialResources} />
         <Providers>
           <LocaleProvider value={locale}>
             <ErrorBoundary>

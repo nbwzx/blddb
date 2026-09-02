@@ -2,7 +2,20 @@ import { createInstance } from "i18next";
 import resourcesToBackend from "i18next-resources-to-backend";
 import { initReactI18next } from "react-i18next/initReactI18next";
 import { getOptions, Locales } from "./settings";
-import { cookies } from "next/headers";
+import { cookies, headers } from "next/headers";
+
+function normalizeLocale(lng: string | null | undefined): Locales {
+  if (!lng) {
+    return "en";
+  }
+  if (lng.startsWith("zh")) {
+    return "zh-CN";
+  }
+  if (lng.startsWith("ja")) {
+    return "ja";
+  }
+  return "en";
+}
 
 async function initI18next(lang: Locales) {
   const i18nInstance = createInstance();
@@ -27,11 +40,25 @@ export async function createTranslation() {
 
   return {
     t: i18nextInstance.getFixedT(lang),
+    locale: lang,
   };
 }
 
 // Utility function to get the locale from server components
-export async function getLocale() {
-  const cookieStore = cookies();
-  return (await cookieStore).get("i18next")?.value as Locales;
+export async function getLocale(): Promise<Locales> {
+  const cookieStore = await cookies();
+  const cookieLocale = cookieStore.get("i18next")?.value;
+  if (cookieLocale) {
+    return normalizeLocale(cookieLocale);
+  }
+  const headerStore = await headers();
+  return normalizeLocale(headerStore.get("accept-language"));
+}
+
+export async function loadLocaleResources(
+  lang: Locales,
+): Promise<Record<string, unknown>> {
+  const mod = await import(`public/locales/${lang}.json`);
+  return ((mod as { default?: Record<string, unknown> }).default ??
+    mod) as Record<string, unknown>;
 }
