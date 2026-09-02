@@ -1,9 +1,18 @@
 "use client";
 
-import React, { createContext, useContext } from "react";
+import React, { createContext, useContext, useMemo, useState } from "react";
 import { FALLBACK_LOCALE, Locales } from "../i18n/settings";
 
-const Context = createContext<Locales>(FALLBACK_LOCALE);
+type LocaleContextValue = {
+  locale: Locales;
+  // eslint-disable-next-line no-unused-vars
+  setLocale: (locale: Locales) => void;
+};
+
+const Context = createContext<LocaleContextValue>({
+  locale: FALLBACK_LOCALE,
+  setLocale: () => undefined,
+});
 
 export function LocaleProvider({
   children,
@@ -12,9 +21,24 @@ export function LocaleProvider({
   children: React.ReactNode;
   value: Locales;
 }) {
-  return <Context.Provider value={value}>{children}</Context.Provider>;
+  const [locale, setLocaleState] = useState<Locales>(value);
+  const setLocale = (next: Locales) => {
+    setLocaleState(next);
+    if (typeof document !== "undefined") {
+      document.documentElement.lang = next;
+    }
+  };
+  const ctx = useMemo<LocaleContextValue>(
+    () => ({ locale, setLocale }),
+    [locale],
+  );
+  return <Context.Provider value={ctx}>{children}</Context.Provider>;
 }
 
 export function useLocale() {
-  return useContext(Context);
+  return useContext(Context).locale;
+}
+
+export function useSetLocale() {
+  return useContext(Context).setLocale;
 }
