@@ -591,3 +591,33 @@ layer(base);
     }
   }
 }
+
+.tour-paragraph {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  color: var(--tour-on-surface);
+}
+
+.tour-paragraph--bold {
+  font-weight: 700;
+}
+
+.tour-paragraph--lg {
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.react-joyride__tooltip {
+  max-width: min(360px, calc(100vw - 32px));
+}
+
+:root {
+  --tour-surface: var(--color-white);
+  --tour-on-surface: var(--color-dark);
+}
+.dark {
+  --tour-surface: var(--color-dark);
+  --tour-on-surface: var(--color-white);
+}

@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation";
 import { useMount } from "react-use";
 import { useAppContext } from "./context";
 import { useTranslation } from "@/i18n/client";
-import { Joyride, EventData, EVENTS } from "react-joyride";
+import { Joyride, EventData, EVENTS, type Styles } from "react-joyride";
 import React from "react";
 
 function Paragraph({
@@ -16,24 +16,62 @@ function Paragraph({
   size?: "lg";
   children: React.ReactNode;
 }) {
-  return (
-    <p
-      style={{
-        margin: 0,
-        fontWeight: bold ? 700 : 400,
-        fontSize: size === "lg" ? 18 : 16,
-        lineHeight: 1.2,
-      }}
-    >
-      {children}
-    </p>
-  );
+  const className = [
+    "tour-paragraph",
+    bold ? "tour-paragraph--bold" : "",
+    size === "lg" ? "tour-paragraph--lg" : "",
+  ]
+    .filter(Boolean)
+    .join(" ");
+  return <p className={className}>{children}</p>;
 }
 
 const tourColors = {
-  background: "#4d4d4d",
-  primary: "#ad7bff",
-  text: "#fff",
+  background: "var(--tour-surface)",
+  primary: "var(--color-primary)",
+  text: "var(--tour-on-surface)",
+};
+
+const tourStyles: Partial<Styles> = {
+  tooltip: {
+    borderRadius: "12px",
+    padding: "4px",
+    boxShadow: "0 12px 32px rgba(0, 0, 0, 0.28)",
+  },
+  tooltipContent: {
+    padding: "16px 18px",
+    textAlign: "left",
+  },
+  tooltipFooter: {
+    padding: "0 18px 16px",
+    gap: "8px",
+  },
+  buttonPrimary: {
+    backgroundColor: "var(--color-primary)",
+    borderRadius: "8px",
+    padding: "8px 14px",
+    fontWeight: 600,
+    fontSize: "14px",
+    color: "var(--color-white)",
+  },
+  buttonBack: {
+    color: "var(--tour-on-surface)",
+    marginRight: "auto",
+    fontSize: "14px",
+    fontWeight: 500,
+    opacity: 0.85,
+  },
+  buttonClose: {
+    color: "var(--tour-on-surface)",
+  },
+  buttonSkip: {
+    color: "var(--tour-on-surface)",
+    opacity: 0.7,
+    fontSize: "14px",
+  },
+  arrow: {
+    color: "var(--tour-surface)",
+  },
 };
 
 export default function MultiRouteWrapper({
@@ -155,6 +193,7 @@ export default function MultiRouteWrapper({
         run={run}
         stepIndex={stepIndex}
         steps={steps}
+        styles={tourStyles}
         options={{
           arrowColor: tourColors.background,
           backgroundColor: tourColors.background,
@@ -163,6 +202,7 @@ export default function MultiRouteWrapper({
           skipBeacon: true,
           scrollOffset: 400,
           overlayClickAction: false,
+          zIndex: 10000,
         }}
       />
     </>
