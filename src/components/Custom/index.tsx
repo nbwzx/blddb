@@ -716,18 +716,19 @@ const Custom = ({ codeType = "corner" }) => {
       if (!label) {
         return { commutator: "", thumb: "" };
       }
-      const cached = displayCache.current.get(label);
-      if (cached) {
-        return cached;
+      let commutatorText = displayCache.current.get(label)?.commutator;
+      if (!commutatorText) {
+        commutatorText = commutator.search({ algorithm: label })[0] || "";
+        displayCache.current.set(label, {
+          commutator: commutatorText,
+          thumb: "",
+        });
       }
-      const commutatorText = commutator.search({ algorithm: label })[0] || "";
       const thumbText = finger
         .fingerbeginfrom(label)
         .map((word) => t(word))
         .join("/");
-      const result = { commutator: commutatorText, thumb: thumbText };
-      displayCache.current.set(label, result);
-      return result;
+      return { commutator: commutatorText, thumb: thumbText };
     },
     [t],
   );
