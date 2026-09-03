@@ -1,6 +1,8 @@
 import BLD from "@/components/BLD";
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { Suspense } from "react";
+import Loading from "@/app/loading";
 export const dynamicParams = false;
 const bigbldCodeTypes = ["wing", "xcenter", "tcenter", "midge"];
 
@@ -36,5 +38,9 @@ export default async function Page({
   if (!bigbldCodeTypes.includes(codeType)) {
     return notFound();
   }
-  return <BLD codeType={codeType} />;
+  return (
+    <Suspense fallback={<Loading />}>
+      <BLD codeType={codeType} />
+    </Suspense>
+  );
 }

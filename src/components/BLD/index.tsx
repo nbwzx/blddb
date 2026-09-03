@@ -15,9 +15,12 @@ import CopyPopup from "@/components/CopyPopup";
 import tracer from "@/utils/tracer";
 import tracer_555 from "@/utils/tracer_555";
 import { useResumeTour } from "@/hooks/useResumeTour";
+import { useRouter, useSearchParams } from "next/navigation";
 
 const BLD = ({ codeType }: { codeType: string }) => {
   const { i18n, t } = useTranslation();
+  const router = useRouter();
+  const searchParams = useSearchParams();
   const tableRef = useRef<HTMLTableElement>(null);
   const divRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
@@ -101,29 +104,6 @@ const BLD = ({ codeType }: { codeType: string }) => {
       setNightmare(nightmareData.default || {});
       setNightmareSelected(nightmareSelectedData.default || {});
 
-      const params = new URLSearchParams(window.location.search);
-      const positionParam = params.get("position") || "";
-      const modeParam = params.get("mode") || modeValue;
-      const highlightParam = params.get("highlight") || "";
-
-      if (positionParam) {
-        const positions = positionParam.split("-");
-        setSelectValuesNew(positions);
-        const newInputValue = selectToInput(positions);
-        if (inputRef.current) {
-          inputRef.current.value = newInputValue;
-        }
-        checkForDuplicates(positions, modeParam);
-      }
-
-      if (modeParam) {
-        setModeValue(modeParam);
-      }
-
-      if (highlightParam) {
-        setHighlightValue(highlightParam);
-      }
-
       let isStandard = true;
       const localStorageKey = is3bld ? "code" : "bigbldCode";
       let storedValues = "";
@@ -163,7 +143,6 @@ const BLD = ({ codeType }: { codeType: string }) => {
       setLoading(false);
     };
     loadData();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [codeType, is3bld, converter, defaultMode, modeValue]);
 
   const modeToData = is3bld
@@ -298,7 +277,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
         value === " " ? "" : value,
       );
       const newUrl = `?position=${newSelectValuesTrim.join("-")}&mode=${modeValue}`;
-      window.history.pushState({ path: newUrl }, "", newUrl);
+      router.replace(newUrl);
     }
   };
 
@@ -342,7 +321,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
     );
     const positionStr = newSelectValuesTrim.join("-");
     const newUrl = `?position=${positionStr}&mode=${modeValue}`;
-    window.history.pushState({ path: newUrl }, "", newUrl);
+    router.replace(newUrl);
   };
 
   const handleModeChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
@@ -352,7 +331,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
     checkForDuplicates(selectValues, newModeValue);
     const positionStr = selectValues.join("-");
     const newUrl = `?position=${positionStr}&mode=${newModeValue}`;
-    window.history.pushState({ path: newUrl }, "", newUrl);
+    router.replace(newUrl);
     scrollToTop();
   };
 
@@ -400,7 +379,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
           value === " " ? "" : value,
         );
         const newUrl = `?position=${newSelectValuesTrim.join("-")}&mode=${modeValue}`;
-        window.history.pushState({ path: newUrl }, "", newUrl);
+        router.replace(newUrl);
         e.preventDefault();
       }
     };
@@ -408,6 +387,31 @@ const BLD = ({ codeType }: { codeType: string }) => {
     return () => document.removeEventListener("paste", handleGlobalPaste);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+  useEffect(() => {
+    if (loading) {
+      return;
+    }
+    const positionParam = searchParams.get("position") || "";
+    const modeParam = searchParams.get("mode") || modeValue;
+    const highlightParam = searchParams.get("highlight") || "";
+    if (positionParam) {
+      const positions = positionParam.split("-");
+      setSelectValuesNew(positions);
+      const newInputValue = selectToInput(positions);
+      if (inputRef.current) {
+        inputRef.current.value = newInputValue;
+      }
+      checkForDuplicates(positions, modeParam);
+    }
+    if (modeParam) {
+      setModeValue(modeParam);
+    }
+    if (highlightParam) {
+      setHighlightValue(highlightParam);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [searchParams, loading, modeValue]);
 
   const getPosition = (matchedPosition: string[]) => {
     let positionText = "";
