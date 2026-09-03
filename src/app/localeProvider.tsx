@@ -2,6 +2,8 @@
 
 import React, { createContext, useContext, useMemo, useState } from "react";
 import { FALLBACK_LOCALE, Locales } from "../i18n/settings";
+import i18next from "i18next";
+import { switchLocaleAction } from "@/components/Header/switchLocale";
 
 type LocaleContextValue = {
   locale: Locales;
@@ -27,6 +29,10 @@ export function LocaleProvider({
     if (typeof document !== "undefined") {
       document.documentElement.lang = next;
     }
+    if (typeof window !== "undefined") {
+      i18next.changeLanguage(next);
+    }
+    switchLocaleAction(next);
   };
   const ctx = useMemo<LocaleContextValue>(
     () => ({ locale, setLocale }),

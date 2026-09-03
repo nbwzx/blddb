@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import { seedInitialI18n } from "@/i18n/client";
 
 export function I18nSeed({
@@ -9,6 +10,9 @@ export function I18nSeed({
   locale: string;
   resources: Record<string, unknown>;
 }) {
-  seedInitialI18n(locale, resources);
+  useState(() => {
+    seedInitialI18n(locale, resources);
+    return null;
+  });
   return null;
 }

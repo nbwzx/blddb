@@ -11,3 +11,16 @@ export function getOptions(lang = FALLBACK_LOCALE): InitOptions {
     lng: lang,
   };
 }
+
+export function normalizeLocale(lng: string | null | undefined): Locales {
+  if (!lng) {
+    return FALLBACK_LOCALE;
+  }
+  if (lng.startsWith("zh")) {
+    return "zh-CN";
+  }
+  if (lng.startsWith("ja")) {
+    return "ja";
+  }
+  return FALLBACK_LOCALE;
+}

@@ -1,9 +1,6 @@
-import { useTranslation } from "@/i18n/client";
+import type { TFunction } from "i18next";
 
-export function updateMetadata(
-  document: Document,
-  t: ReturnType<typeof useTranslation>["t"],
-) {
+export function updateMetadata(document: Document, t: TFunction) {
   const checkMetaTag = async (
     maxAttempts = 10,
     interval = 100,

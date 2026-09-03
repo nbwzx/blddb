@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { switchLocaleAction } from "./switchLocale";
 import { useTranslation } from "@/i18n/client";
 import { useSetLocale } from "@/app/localeProvider";
 
@@ -22,7 +21,6 @@ const LanguageToggler: React.FC = () => {
   const updateLanguage = (newLang: string) => {
     toggleDropdown();
     setLocale(newLang as keyof typeof langNames);
-    switchLocaleAction(newLang);
   };
 
   const divRef = React.useRef<HTMLDivElement>(null);

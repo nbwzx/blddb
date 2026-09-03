@@ -1,21 +1,8 @@
 import { createInstance } from "i18next";
 import resourcesToBackend from "i18next-resources-to-backend";
 import { initReactI18next } from "react-i18next/initReactI18next";
-import { getOptions, Locales } from "./settings";
+import { getOptions, Locales, normalizeLocale } from "./settings";
 import { cookies, headers } from "next/headers";
-
-function normalizeLocale(lng: string | null | undefined): Locales {
-  if (!lng) {
-    return "en";
-  }
-  if (lng.startsWith("zh")) {
-    return "zh-CN";
-  }
-  if (lng.startsWith("ja")) {
-    return "ja";
-  }
-  return "en";
-}
 
 async function initI18next(lang: Locales) {
   const i18nInstance = createInstance();
