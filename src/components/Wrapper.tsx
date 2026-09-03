@@ -5,7 +5,7 @@ import { useMount } from "react-use";
 import { useAppContext } from "./context";
 import { useTranslation } from "@/i18n/client";
 import { Joyride, EventData, EVENTS, type Styles } from "react-joyride";
-import React from "react";
+import React, { useMemo } from "react";
 
 function Paragraph({
   bold,
@@ -91,68 +91,71 @@ export default function MultiRouteWrapper({
     next: t("tour.next"),
   };
 
+  const tourSteps = useMemo(
+    () => [
+      {
+        target: "#home1",
+        content: (
+          <>
+            <Paragraph bold size="lg">
+              {t("tour.welcome")}
+            </Paragraph>
+            <Paragraph>{t("tour.start")}</Paragraph>{" "}
+          </>
+        ),
+        route: "/",
+      },
+      {
+        target: "#scheme",
+        content: (
+          <>
+            <Paragraph size="lg">{t("tour.chooseScheme")}</Paragraph>
+          </>
+        ),
+        route: "/code",
+      },
+      {
+        target: "#mode",
+        content: (
+          <>
+            <Paragraph size="lg">{t("tour.chooseMode")}</Paragraph>
+          </>
+        ),
+        route: "/edge?position=UF-UB-RU&mode=manmade",
+      },
+      {
+        target: "#inputText",
+        content: (
+          <>
+            <Paragraph size="lg">{t("tour.enterLetterPairs")}</Paragraph>
+          </>
+        ),
+        route: "/edge?position=UF-UB-RU&mode=manmade",
+      },
+      {
+        target: "#alg",
+        content: (
+          <>
+            <Paragraph size="lg">{t("tour.copyAlgs")}</Paragraph>
+          </>
+        ),
+        route: "/edge?position=UF-UB-RU&mode=manmade",
+      },
+      {
+        target: "#video",
+        content: (
+          <>
+            <Paragraph size="lg">{t("tour.watchVideo")}</Paragraph>
+          </>
+        ),
+        route: "/edge?position=UF-UB-RU&mode=manmade",
+      },
+    ],
+    [t],
+  );
+
   useMount(() => {
-    setState({
-      steps: [
-        {
-          target: "#home1",
-          content: (
-            <>
-              <Paragraph bold size="lg">
-                {t("tour.welcome")}
-              </Paragraph>
-              <Paragraph>{t("tour.start")}</Paragraph>{" "}
-            </>
-          ),
-          route: "/",
-        },
-        {
-          target: "#scheme",
-          content: (
-            <>
-              <Paragraph size="lg">{t("tour.chooseScheme")}</Paragraph>
-            </>
-          ),
-          route: "/code",
-        },
-        {
-          target: "#mode",
-          content: (
-            <>
-              <Paragraph size="lg">{t("tour.chooseMode")}</Paragraph>
-            </>
-          ),
-          route: "/edge?position=UF-UB-RU&mode=manmade",
-        },
-        {
-          target: "#inputText",
-          content: (
-            <>
-              <Paragraph size="lg">{t("tour.enterLetterPairs")}</Paragraph>
-            </>
-          ),
-          route: "/edge?position=UF-UB-RU&mode=manmade",
-        },
-        {
-          target: "#alg",
-          content: (
-            <>
-              <Paragraph size="lg">{t("tour.copyAlgs")}</Paragraph>
-            </>
-          ),
-          route: "/edge?position=UF-UB-RU&mode=manmade",
-        },
-        {
-          target: "#video",
-          content: (
-            <>
-              <Paragraph size="lg">{t("tour.watchVideo")}</Paragraph>
-            </>
-          ),
-          route: "/edge?position=UF-UB-RU&mode=manmade",
-        },
-      ],
-    });
+    setState({ steps: tourSteps });
   });
 
   const handleEvent = (data: EventData) => {
@@ -192,7 +195,7 @@ export default function MultiRouteWrapper({
         continuous
         run={run}
         stepIndex={stepIndex}
-        steps={steps}
+        steps={tourSteps}
         styles={tourStyles}
         options={{
           arrowColor: tourColors.background,
