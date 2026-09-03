@@ -3,16 +3,25 @@
 import React, { useState, useEffect } from "react";
 import { useTranslation } from "@/i18n/client";
 import { useSetLocale } from "@/app/localeProvider";
+import { Locales, FALLBACK_LOCALE } from "@/i18n/settings";
+
+const langNames: Record<Locales, string> = {
+  en: "English",
+  "zh-CN": "简体中文",
+  ja: "日本語",
+};
+
+const flagFile: Record<Locales, string> = {
+  en: "en",
+  "zh-CN": "zh",
+  ja: "ja",
+};
 
 const LanguageToggler: React.FC = () => {
   const { i18n } = useTranslation();
   const setLocale = useSetLocale();
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-  const langNames = {
-    en: "English",
-    "zh-CN": "简体中文",
-    ja: "日本語",
-  };
+  const currentLocale = (i18n.resolvedLanguage ?? FALLBACK_LOCALE) as Locales;
 
   const toggleDropdown = () => {
     setIsDropdownOpen(!isDropdownOpen);
@@ -20,7 +29,7 @@ const LanguageToggler: React.FC = () => {
 
   const updateLanguage = (newLang: string) => {
     toggleDropdown();
-    setLocale(newLang as keyof typeof langNames);
+    setLocale(newLang as Locales);
   };
 
   const divRef = React.useRef<HTMLDivElement>(null);
@@ -44,26 +53,26 @@ const LanguageToggler: React.FC = () => {
       <div
         className="status_circle"
         style={{
-          backgroundImage: `url(/images/language/${(i18n.resolvedLanguage ?? "en").slice(0, 2)}.png)`,
+          backgroundImage: `url(/images/language/${flagFile[currentLocale]}.png)`,
           backgroundRepeat: "no-repeat",
           backgroundPosition: "left bottom 4px",
           marginLeft: "4px",
         }}
         onClick={toggleDropdown}
       >
-        {langNames[(i18n.resolvedLanguage ?? "en") as keyof typeof langNames]}
+        {langNames[currentLocale]}
       </div>
       <div
         className={"dropdown-content"}
         style={{ display: isDropdownOpen ? "block" : "none" }}
       >
         {Object.keys(langNames).map((langOther) => {
-          if (langOther !== (i18n.resolvedLanguage ?? "en")) {
+          if (langOther !== currentLocale) {
             return (
               <div
                 className="status_circle"
                 style={{
-                  backgroundImage: `url(/images/language/${langOther.slice(0, 2)}.png)`,
+                  backgroundImage: `url(/images/language/${flagFile[langOther as Locales]}.png)`,
                   backgroundRepeat: "no-repeat",
                   backgroundPosition: "left bottom 4px",
                   marginLeft: "4px",
@@ -71,7 +80,7 @@ const LanguageToggler: React.FC = () => {
                 key={langOther}
                 onClick={() => updateLanguage(langOther)}
               >
-                {langNames[langOther as keyof typeof langNames]}
+                {langNames[langOther as Locales]}
               </div>
             );
           }

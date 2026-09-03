@@ -24,3 +24,7 @@ export function normalizeLocale(lng: string | null | undefined): Locales {
   }
   return FALLBACK_LOCALE;
 }
+
+export function isCJK(locale: string): boolean {
+  return locale.startsWith("zh") || locale.startsWith("ja");
+}

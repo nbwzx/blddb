@@ -3,6 +3,7 @@
 import Loading from "@/app/loading";
 import PageSection from "@/components/PageSection";
 import { useTranslation } from "@/i18n/client";
+import { isCJK as isCJKLocale } from "@/i18n/settings";
 import codeConverter from "@/utils/codeConverter";
 import commutator from "@/utils/commutator";
 import finger from "@/utils/finger";
@@ -393,7 +394,7 @@ type OrderOfAlgsType = (typeof allowedOrders)[number];
 
 const Custom = ({ codeType = "corner" }) => {
   const { t, i18n } = useTranslation();
-  const isCJK = i18n.language === "zh-CN" || i18n.language === "ja";
+  const isCJK = isCJKLocale(i18n.language);
   const colWidths = isCJK
     ? [
         { width: "7.5%", minWidth: "4em" },
