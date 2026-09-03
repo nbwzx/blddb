@@ -533,4 +533,7 @@ const codeConverter = (function () {
   };
 })();
 
+export const getInverseCode = (code: string): string =>
+  code[0] + code[2] + code[1];
+
 export default codeConverter;

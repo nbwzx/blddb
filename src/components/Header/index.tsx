@@ -59,7 +59,7 @@ const Header = () => {
     };
   }, []);
 
-  const usePathName = usePathname();
+  const pathname = usePathname();
 
   return (
     <>
@@ -142,7 +142,7 @@ const Header = () => {
                             }
                             onClick={() => setNavbarOpen(false)}
                             className={`flex py-2 text-base font-bold whitespace-nowrap lg:mr-0 lg:inline-flex lg:px-1 lg:font-medium ${
-                              usePathName === menuItem.path
+                              pathname === menuItem.path
                                 ? "text-primary dark:text-white"
                                 : "text-dark hover:text-primary dark:hover:text-primary dark:text-white"
                             }`}

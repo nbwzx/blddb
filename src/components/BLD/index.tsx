@@ -253,34 +253,38 @@ const BLD = ({ codeType }: { codeType: string }) => {
     }
   };
 
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    if (!compositionRef.current) {
-      setErrorKey("");
-      const newValue = e.target.value.toUpperCase();
-      const newSelectValues = converter.customCodeToPosition(
-        newValue.padEnd(selectValuesLen, " "),
-        codeType,
-      );
-      setSelectValuesNew(newSelectValues);
-      if (codeType === "twists") {
-        const positions = converter.customCodeToPosition(newValue, "corner");
-        const corner1Positions = converter.codeTypeToPositions("corner1");
-        for (let i = 0; i < newValue.length; i++) {
-          if (!corner1Positions.includes(positions[i])) {
-            setErrorKey("invalidLetter");
-            break;
-          }
-        }
-      } else {
-        for (let i = 0; i < newValue.length; i++) {
-          if (newValue[i] !== selectToInput(newSelectValues)[i]) {
-            setErrorKey("invalidLetter");
-            break;
-          }
+  const applyInputChange = (value: string) => {
+    setErrorKey("");
+    const newValue = value.toUpperCase();
+    const newSelectValues = converter.customCodeToPosition(
+      newValue.padEnd(selectValuesLen, " "),
+      codeType,
+    );
+    setSelectValuesNew(newSelectValues);
+    if (codeType === "twists") {
+      const positions = converter.customCodeToPosition(newValue, "corner");
+      const corner1Positions = converter.codeTypeToPositions("corner1");
+      for (let i = 0; i < newValue.length; i++) {
+        if (!corner1Positions.includes(positions[i])) {
+          setErrorKey("invalidLetter");
+          break;
         }
       }
-      checkForDuplicates(newSelectValues, modeValue);
-      syncUrl(newSelectValues, modeValue);
+    } else {
+      for (let i = 0; i < newValue.length; i++) {
+        if (newValue[i] !== selectToInput(newSelectValues)[i]) {
+          setErrorKey("invalidLetter");
+          break;
+        }
+      }
+    }
+    checkForDuplicates(newSelectValues, modeValue);
+    syncUrl(newSelectValues, modeValue);
+  };
+
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    if (!compositionRef.current) {
+      applyInputChange(e.target.value);
     }
   };
 
@@ -334,7 +338,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
   const Composition = (e: React.CompositionEvent<HTMLInputElement>) => {
     if (e.type === "compositionend") {
       compositionRef.current = false;
-      handleInputChange(e as unknown as React.ChangeEvent<HTMLInputElement>);
+      applyInputChange((e.target as HTMLInputElement).value);
     } else {
       compositionRef.current = true;
     }

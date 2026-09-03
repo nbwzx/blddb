@@ -5,7 +5,7 @@ import { useTranslation } from "@/i18n/client";
 import tracer from "@/utils/tracer";
 import commutator from "@/utils/commutator";
 import commutator_555 from "@/utils/commutator_555";
-import codeConverter from "@/utils/codeConverter";
+import codeConverter, { getInverseCode } from "@/utils/codeConverter";
 import tracer_555 from "@/utils/tracer_555";
 import bigbldCodeConverter from "@/utils/bigbldCodeConverter";
 import PageSection from "@/components/PageSection";
@@ -171,6 +171,14 @@ const Checker = () => {
   };
 
   const getTableData = () => {
+    const FIVE_BLIND_MOVES = ["4Rw", "4Lw", "4Uw", "4Dw", "4Fw", "4Bw"];
+    const normalizeWideMoves = (cell: string, toLower: boolean): string => {
+      if (toLower) {
+        return cell.replace(/M/gu, "m").replace(/E/gu, "e").replace(/S/gu, "s");
+      }
+      return cell.replace(/m/gu, "M").replace(/e/gu, "E").replace(/s/gu, "S");
+    };
+
     const getPosition = (
       cellInput: string,
       firstRow: string,
@@ -195,23 +203,11 @@ const Checker = () => {
         ) {
           return "";
         }
-        if (converter.positionToCodeType(buffer) === "midge") {
-          cell = cell
-            .replace(/M/gu, "m")
-            .replace(/E/gu, "e")
-            .replace(/S/gu, "s");
-        }
-        if (converter.positionToCodeType(buffer) === "tcenter") {
-          cell = cell
-            .replace(/M/gu, "m")
-            .replace(/E/gu, "e")
-            .replace(/S/gu, "s");
-        }
-        if (converter.positionToCodeType(buffer) === "wing") {
-          cell = cell
-            .replace(/m/gu, "M")
-            .replace(/e/gu, "E")
-            .replace(/s/gu, "S");
+        const bufferType = converter.positionToCodeType(buffer);
+        if (bufferType === "midge" || bufferType === "tcenter") {
+          cell = normalizeWideMoves(cell, true);
+        } else if (bufferType === "wing") {
+          cell = normalizeWideMoves(cell, false);
         }
         // xcenter is complex, m and M are both used.
       }
@@ -265,14 +261,9 @@ const Checker = () => {
         codeAuto[0],
       );
       if (selectedTarget === t("checker.column")) {
-        if (
-          codeFromPattern.includes(
-            codeAuto[1][0] + codeAuto[1][2] + codeAuto[1][1],
-          )
-        ) {
+        if (codeFromPattern.includes(getInverseCode(codeAuto[1]))) {
           if (!(codeFromUser in sheetJson)) {
-            sheetJson[codeFromUser[0] + codeFromUser[2] + codeFromUser[1]] =
-              cell;
+            sheetJson[getInverseCode(codeFromUser)] = cell;
           }
           return "matched";
         }
@@ -286,11 +277,7 @@ const Checker = () => {
           }
           return "matched";
         }
-        if (
-          codeFromPattern.includes(
-            codeAuto[1][0] + codeAuto[1][2] + codeAuto[1][1],
-          )
-        ) {
+        if (codeFromPattern.includes(getInverseCode(codeAuto[1]))) {
           return "inverse";
         }
       }
@@ -304,11 +291,7 @@ const Checker = () => {
     let is5bld = false;
     for (const row of values) {
       for (const cell of row) {
-        if (
-          ["4Rw", "4Lw", "4Uw", "4Dw", "4Fw", "4Bw"].some((x) =>
-            cell.includes(x),
-          )
-        ) {
+        if (FIVE_BLIND_MOVES.some((x) => cell.includes(x))) {
           is5bld = true;
         }
       }
@@ -325,7 +308,7 @@ const Checker = () => {
     const getInconsistentAlgs = () => {
       const inconsistentKeys: string[][] = [];
       for (const [key, value] of Object.entries(sheetJson)) {
-        const keyInverse = key[0] + key[2] + key[1];
+        const keyInverse = getInverseCode(key);
         if (key[1] < key[2] && keyInverse in sheetJson) {
           const valueInverse = sheetJson[keyInverse];
           const combined = `${value}+${valueInverse}`;

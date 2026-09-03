@@ -2,7 +2,7 @@ import React, { JSX, useState, useEffect } from "react";
 import commutator from "@/utils/commutator";
 import commutator_555 from "@/utils/commutator_555";
 import finger from "@/utils/finger";
-import codeConverter from "@/utils/codeConverter";
+import codeConverter, { getInverseCode } from "@/utils/codeConverter";
 import bigbldCodeConverter from "@/utils/bigbldCodeConverter";
 import { BIGBLD_CODE_TYPES } from "@/utils/codeTypes";
 import { useTranslation } from "@/i18n/client";
@@ -106,10 +106,6 @@ const Table = ({
   };
 
   const { copySuccess, copy } = useCopyToClipboard(3000);
-
-  const getInverseCode = (code: string): string => {
-    return code[0] + code[2] + code[1];
-  };
 
   const { t } = useTranslation();
   let is3bld = true;
@@ -254,7 +250,7 @@ const Table = ({
     mirrorLR,
   );
   const tableElements: JSX.Element[] = [];
-  const isManmade = Object.values(data)[0][0] instanceof Array;
+  const isManmade = Array.isArray(Object.values(data)[0]?.[0]);
   if (variantCode.length === 0 || variantCode[0].split("*").length > 2) {
     return <div ref={divRef} className="mt-4"></div>;
   }
@@ -631,11 +627,11 @@ const Table = ({
       {isVideoVisible && (
         <>
           <div
-            className="fixed top-0 left-0 z-999 h-full w-full bg-black/50"
+            className="fixed top-0 left-0 z-[999] h-full w-full bg-black/50"
             onClick={() => setIsVideoVisible(false)}
           />
           <div
-            className="fixed top-1/2 left-1/2 z-1000 flex -translate-x-1/2 -translate-y-1/2 transform flex-col items-center rounded-lg bg-white shadow-lg"
+            className="fixed top-1/2 left-1/2 z-[1000] flex -translate-x-1/2 -translate-y-1/2 transform flex-col items-center rounded-lg bg-white shadow-lg"
             style={{
               width: videoDimensions.width || "80%",
               height: videoDimensions.height || "80%",
