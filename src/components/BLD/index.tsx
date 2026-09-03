@@ -66,6 +66,13 @@ const BLD = ({ codeType }: { codeType: string }) => {
     return converter.positionToCustomCode(getSelectValuesKey(positions));
   };
 
+  const syncUrl = (positions: string[], mode: string) => {
+    const positionStr = positions
+      .map((value) => (value === " " ? "" : value))
+      .join("-");
+    router.replace(`?position=${positionStr}&mode=${mode}`);
+  };
+
   const getSelectValuesDisplay = (positions: string[]) => {
     if (codeType !== "twists") {
       return positions;
@@ -273,11 +280,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
         }
       }
       checkForDuplicates(newSelectValues, modeValue);
-      const newSelectValuesTrim = newSelectValues.map((value) =>
-        value === " " ? "" : value,
-      );
-      const newUrl = `?position=${newSelectValuesTrim.join("-")}&mode=${modeValue}`;
-      router.replace(newUrl);
+      syncUrl(newSelectValues, modeValue);
     }
   };
 
@@ -316,12 +319,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
     if (inputRef.current) {
       inputRef.current.value = selectToInput(newSelectValues);
     }
-    const newSelectValuesTrim = newSelectValues.map((value) =>
-      value === " " ? "" : value,
-    );
-    const positionStr = newSelectValuesTrim.join("-");
-    const newUrl = `?position=${positionStr}&mode=${modeValue}`;
-    router.replace(newUrl);
+    syncUrl(newSelectValues, modeValue);
   };
 
   const handleModeChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
@@ -329,9 +327,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
     const newModeValue = e.target.value;
     setModeValue(newModeValue);
     checkForDuplicates(selectValues, newModeValue);
-    const positionStr = selectValues.join("-");
-    const newUrl = `?position=${positionStr}&mode=${newModeValue}`;
-    router.replace(newUrl);
+    syncUrl(selectValues, newModeValue);
     scrollToTop();
   };
 
@@ -375,11 +371,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
         }
         checkForDuplicates(newSelectValues, modeValue);
         setSelectValuesNew(newSelectValues);
-        const newSelectValuesTrim = newSelectValues.map((value) =>
-          value === " " ? "" : value,
-        );
-        const newUrl = `?position=${newSelectValuesTrim.join("-")}&mode=${modeValue}`;
-        router.replace(newUrl);
+        syncUrl(newSelectValues, modeValue);
         e.preventDefault();
       }
     };
