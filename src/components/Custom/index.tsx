@@ -706,10 +706,10 @@ const Custom = ({ codeType = "corner" }) => {
       const expandValue = commutator.expand({ algorithm: inputValue });
       return (
         option.label.startsWith(expandValue) ||
-        option.label.startsWith("Create ")
+        option.label.startsWith(t("custom.createLabel"))
       );
     },
-    [],
+    [t],
   );
 
   const computeDisplay = useCallback(
