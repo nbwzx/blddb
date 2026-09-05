@@ -421,15 +421,22 @@ const Custom = ({ codeType = "corner" }) => {
   const bufferOptions = ["", ...piecePositions];
   const bufferKey = `buffer${codeType[0].toUpperCase()}${codeType.slice(1)}`;
   const orderKey = `order${codeType[0].toUpperCase()}${codeType.slice(1)}`;
-  const buildAlgorithms = (values: State["values"]): CustomAlgorithms => {
-    const algorithms: CustomAlgorithms = {};
-    for (const [key, option] of Object.entries(values)) {
-      if (option) {
-        algorithms[key] = option.label;
+
+  const persistAlgorithms = useCallback(
+    (nextValues: State["values"]) => {
+      const stored = loadCustomAlgorithms(codeType);
+      const merged: CustomAlgorithms = { ...stored };
+      for (const [key, option] of Object.entries(nextValues)) {
+        if (option) {
+          merged[key] = option.label;
+        } else {
+          Reflect.deleteProperty(merged, key);
+        }
       }
-    }
-    return algorithms;
-  };
+      saveCustomAlgorithms(codeType, merged);
+    },
+    [codeType],
+  );
 
   const [items, setItems] = useState<UniqueIdentifier[]>(piecePositions);
   const [mode, setMode] = useState<"nightmare" | "manmade">(defaultMode);
@@ -520,12 +527,12 @@ const Custom = ({ codeType = "corner" }) => {
             }
           }
         }
-        saveCustomAlgorithms(codeType, buildAlgorithms(nextValues));
+        persistAlgorithms(nextValues);
         return { ...prev, options: nextOptions, values: nextValues };
       });
       lastChangedIndexRef.current = index;
     },
-    [codeType],
+    [persistAlgorithms],
   );
 
   useEffect(() => {
@@ -1028,7 +1035,7 @@ const Custom = ({ codeType = "corner" }) => {
       options: newOptions,
       values: newValues,
     }));
-    saveCustomAlgorithms(codeType, buildAlgorithms(newValues));
+    persistAlgorithms(newValues);
 
     return t("custom.importStatus", {
       totalRows,
@@ -1093,7 +1100,7 @@ const Custom = ({ codeType = "corner" }) => {
       clearedValues[key] = null;
     }
     setState((prev) => ({ ...prev, values: clearedValues }));
-    saveCustomAlgorithms(codeType, {});
+    persistAlgorithms(clearedValues);
     setImportStatus(null);
     lastChangedIndexRef.current = null;
   };
