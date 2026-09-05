@@ -719,7 +719,17 @@ const Custom = ({ codeType = "corner" }) => {
       }
       let commutatorText = displayCache.current.get(label)?.commutator;
       if (!commutatorText) {
-        commutatorText = commutator.search({ algorithm: label })[0] || "";
+        const stored = loadSettings();
+        commutatorText =
+          commutator.search({
+            algorithm: label,
+            maxDepth: 1,
+            slashNotation: stored.slashNotation,
+            noBrackets: stored.noBrackets,
+            spaceAfterColon: stored.spaceAfterColon,
+            spaceAfterComma: stored.spaceAfterComma,
+            outerBrackets: stored.outerBrackets,
+          })[0] || "";
         displayCache.current.set(label, {
           commutator: commutatorText,
           thumb: "",
