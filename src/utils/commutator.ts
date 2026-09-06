@@ -7,6 +7,9 @@
 
 const commutator = (function () {
   const MAX_INT = 4294967295;
+  const escapeRegExp = (value: string): string =>
+    value.replace(/[.*+?^${}()|[\]\\]/gu, "\\$&");
+  const scoreCache: Map<string, number> = new Map();
   const orderInit = 4,
     outerBracketInit = false,
     abMaxScoreInit = 2.5,
@@ -390,14 +393,13 @@ const commutator = (function () {
   }
 
   function isOperator(sign: string): boolean {
-    const operatorString = "+:,/[]";
-    return operatorString.indexOf(sign) > -1;
+    return operatorLevelInit[sign] !== undefined;
   }
 
   function initStack(algorithm: string): string[] {
     const stack: string[] = [algorithm[0]];
     for (let i = 1; i < algorithm.length; i++) {
-      if (isOperator(algorithm[i]) || isOperator(stack.slice(-1)[0])) {
+      if (isOperator(algorithm[i]) || isOperator(stack[stack.length - 1])) {
         stack.push(algorithm[i]);
       } else {
         stack.push(stack.pop() + algorithm[i]);
@@ -406,26 +408,17 @@ const commutator = (function () {
     return stack;
   }
 
+  const operatorLevelInit: { [id: string]: number } = {
+    ":": 0,
+    ",": 1,
+    "/": 2,
+    "+": 3,
+    "[": 4,
+    "]": 5,
+  };
+
   function operatorLevel(operator: string): number {
-    if (operator === ":") {
-      return 0;
-    }
-    if (operator === ",") {
-      return 1;
-    }
-    if (operator === "/") {
-      return 2;
-    }
-    if (operator === "+") {
-      return 3;
-    }
-    if (operator === "[") {
-      return 4;
-    }
-    if (operator === "]") {
-      return 5;
-    }
-    return -1;
+    return operatorLevelInit[operator] ?? -1;
   }
 
   function rpn(stackInput: string[]): string[] {
@@ -434,8 +427,8 @@ const commutator = (function () {
       operatorStack: string[] = [];
     let isMatch = false,
       operatorStackPop = "";
-    while (stackInput.length > 0) {
-      const sign = stackInput.shift() as string;
+    for (let index = 0; index < stackInput.length; index++) {
+      const sign = stackInput[index];
       if (!isOperator(sign)) {
         stackOutput.push(sign);
       } else if (sign === "]") {
@@ -455,8 +448,9 @@ const commutator = (function () {
       } else {
         while (
           operatorStack.length > 0 &&
-          operatorStack.slice(-1)[0] !== "[" &&
-          operatorLevel(sign) <= operatorLevel(operatorStack.slice(-1)[0])
+          operatorStack[operatorStack.length - 1] !== "[" &&
+          operatorLevel(sign) <=
+            operatorLevel(operatorStack[operatorStack.length - 1])
         ) {
           stackOutput.push(operatorStack.pop() as string);
         }
@@ -475,8 +469,8 @@ const commutator = (function () {
 
   function calc(stack: string[]): string {
     const calcOutput: string[] = [];
-    while (stack.length > 0) {
-      const sign = stack.shift() as string;
+    for (let index = 0; index < stack.length; index++) {
+      const sign = stack[index];
       if (isOperator(sign)) {
         if (calcOutput.length >= 2) {
           const calcPop2 = calcOutput.pop() as string;
@@ -526,13 +520,17 @@ const commutator = (function () {
   }
 
   function score(algorithm: string): number {
+    const cached = scoreCache.get(algorithm);
+    if (cached !== undefined) {
+      return cached;
+    }
     let alg = algorithm;
     alg = `[${alg.replace(/\+/gu, "]+[")}]`;
     alg = alg.replace(/\]\[/gu, "]+[");
     const rpnStack = rpn(initStack(alg)),
       scoreOutput: string[] = [];
-    while (rpnStack.length > 0) {
-      const sign = rpnStack.shift() as string;
+    for (let scoreIndex = 0; scoreIndex < rpnStack.length; scoreIndex++) {
+      const sign = rpnStack[scoreIndex];
       if (isOperator(sign)) {
         const scorePop2 = scoreOutput.pop() as string;
         const scorePop1 = scoreOutput.pop() as string;
@@ -556,7 +554,9 @@ const commutator = (function () {
       .trim();
     const moveDelta =
       algRemoveSign.split(" ").length - algToArray(algRemoveSign).length;
-    return Number(scoreOutput[0]) + moveDelta * 0.001;
+    const scoreValue = Number(scoreOutput[0]) + moveDelta * 0.001;
+    scoreCache.set(algorithm, scoreValue);
+    return scoreValue;
   }
 
   function scoreTwo(score1: number, score2: number, sign: string): number {
@@ -616,6 +616,7 @@ const commutator = (function () {
     const maxDepth = input.maxDepth ?? maxDepthInit,
       limit = input.limit ?? limitInit;
     result = [];
+    scoreCache.clear();
     if (algorithm === "") {
       return [""];
     }
@@ -679,7 +680,7 @@ const commutator = (function () {
       for (let i = 0; i < commuteTotal; i++) {
         let commuteArr = arr.concat();
         for (let j = 0; j < commuteCount; j++) {
-          if ((i & (1 << j)) !== 0) {
+          if (((i >> j) & 1) !== 0) {
             commuteArr = swapArray(
               commuteArr,
               commuteIndex[j],
@@ -806,10 +807,11 @@ const commutator = (function () {
   }
 
   function algToArray(algorithm: string): Move[] {
+    maxAlgAmount = 0;
     let algTemp = clean(algorithm);
-    for (const s in initialReplace) {
-      const re = new RegExp(s, "gu");
-      algTemp = algTemp.replace(re, initialReplace[s]);
+    for (const [s, replacement] of Object.entries(initialReplace)) {
+      const re = new RegExp(escapeRegExp(s), "gu");
+      algTemp = algTemp.replace(re, () => replacement);
     }
     algTemp = algTemp.replace(/\s+/giu, "");
     if (algTemp === "") {
@@ -865,7 +867,7 @@ const commutator = (function () {
     for (let i = 0; i < commuteTotal; i++) {
       let commuteArr = array.concat();
       for (let j = 0; j < commuteCount; j++) {
-        if ((i & (1 << j)) !== 0) {
+        if (((i >> j) & 1) !== 0) {
           commuteArr = swapArray(
             commuteArr,
             commuteIndex[j],
@@ -900,7 +902,7 @@ const commutator = (function () {
     if (arr.length < 3 * depth + 1) {
       return ["Not found."];
     }
-    for (let d = 0; d <= arrLen / 2; d++) {
+    for (let d = 0; d <= Math.floor(arrLen / 2); d++) {
       for (let drKey = 1; drKey < order; drKey++) {
         // 1, -1, 2, -2...
         const dr = ((drKey % 2) * 2 - 1) * Math.floor((drKey + 1) / 2);
@@ -923,14 +925,14 @@ const commutator = (function () {
         }
         let part0 = simplify(repeatEnd(arr.slice(0, d), dr));
         // For a b c b' a' d c' d' = a b:[c,b' a' d]
-        for (let i = d + 1; i <= d + arr.length / 2 - 1; i++) {
+        for (let i = d + 1; i <= d + Math.floor(arr.length / 2) - 1; i++) {
           let minj = i + 1;
           if (depth === 1) {
             minj = Math.max(i + 1, Math.floor((arr.length + 1) / 2));
           }
           for (
             let j = minj;
-            j <= Math.min(i + arr.length / 2 - 1, arr.length - 1);
+            j <= Math.min(i + Math.floor(arr.length / 2) - 1, arr.length - 1);
             j++
           ) {
             let part1x: Move[] = [],
@@ -1190,9 +1192,9 @@ const commutator = (function () {
       }
     }
     let arrOutput = `${arrTemp.join(" ")} `;
-    for (const i in finalReplace) {
-      const re = new RegExp(`${i} `, "gu");
-      arrOutput = arrOutput.replace(re, `${finalReplace[i]} `);
+    for (const [key, replacement] of Object.entries(finalReplace)) {
+      const re = new RegExp(`${escapeRegExp(key)} `, "gu");
+      arrOutput = arrOutput.replace(re, () => `${replacement} `);
     }
     arrOutput = arrOutput.substring(0, arrOutput.length - 1);
     return arrOutput;
