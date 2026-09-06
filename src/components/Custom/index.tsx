@@ -453,6 +453,11 @@ const Custom = ({ codeType = "corner" }) => {
       const merged: CustomAlgorithms = { ...stored };
       for (const [key, option] of Object.entries(nextValues)) {
         const canonical = canonicalPosKey(key, piecePositions);
+        for (const rotated of cyclicRotations(key)) {
+          if (rotated !== canonical) {
+            Reflect.deleteProperty(merged, rotated);
+          }
+        }
         if (option) {
           merged[canonical] = option.label;
         } else {
