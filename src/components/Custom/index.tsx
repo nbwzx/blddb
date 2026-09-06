@@ -123,6 +123,31 @@ const reversePosKey = (posKey: string): string => {
   return [buffer, ...rest.reverse()].join("-");
 };
 
+const cyclicRotations = (posKey: string): string[] => {
+  const tokens = posKey.split("-");
+  if (tokens.length < 2) {
+    return [posKey];
+  }
+  const out: string[] = [];
+  for (let i = 0; i < tokens.length; i++) {
+    out.push([...tokens.slice(i), ...tokens.slice(0, i)].join("-"));
+  }
+  return out;
+};
+
+const canonicalPosKey = (posKey: string, order: string[]): string => {
+  let best = posKey;
+  let bestRank = Number.POSITIVE_INFINITY;
+  for (const rotated of cyclicRotations(posKey)) {
+    const rank = order.indexOf(rotated.split("-")[0]);
+    if (rank !== -1 && rank < bestRank) {
+      bestRank = rank;
+      best = rotated;
+    }
+  }
+  return best;
+};
+
 interface State {
   options: Record<string, Option[]>;
   values: Record<string, Option | null>;
@@ -427,15 +452,16 @@ const Custom = ({ codeType = "corner" }) => {
       const stored = loadCustomAlgorithms(codeType);
       const merged: CustomAlgorithms = { ...stored };
       for (const [key, option] of Object.entries(nextValues)) {
+        const canonical = canonicalPosKey(key, piecePositions);
         if (option) {
-          merged[key] = option.label;
+          merged[canonical] = option.label;
         } else {
-          Reflect.deleteProperty(merged, key);
+          Reflect.deleteProperty(merged, canonical);
         }
       }
       saveCustomAlgorithms(codeType, merged);
     },
-    [codeType],
+    [codeType, piecePositions],
   );
 
   const [items, setItems] = useState<UniqueIdentifier[]>(piecePositions);
@@ -609,7 +635,9 @@ const Custom = ({ codeType = "corner" }) => {
     const stored = loadCustomAlgorithms(codeType);
     const values: State["values"] = { ...computed.values };
     for (const key of Object.keys(computed.options)) {
-      const label = stored[key];
+      const label = cyclicRotations(key)
+        .map((r) => stored[r])
+        .find((v): v is string => typeof v === "string");
       if (label) {
         const existing = computed.options[key].find((o) => o.label === label);
         values[key] = existing ?? createOption(label);
