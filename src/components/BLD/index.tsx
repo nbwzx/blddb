@@ -15,12 +15,9 @@ import CopyPopup from "@/components/CopyPopup";
 import tracer from "@/utils/tracer";
 import tracer_555 from "@/utils/tracer_555";
 import { useResumeTour } from "@/hooks/useResumeTour";
-import { useRouter, useSearchParams } from "next/navigation";
 
 const BLD = ({ codeType }: { codeType: string }) => {
   const { i18n, t } = useTranslation();
-  const router = useRouter();
-  const searchParams = useSearchParams();
   const tableRef = useRef<HTMLTableElement>(null);
   const divRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
@@ -66,13 +63,6 @@ const BLD = ({ codeType }: { codeType: string }) => {
     return converter.positionToCustomCode(getSelectValuesKey(positions));
   };
 
-  const syncUrl = (positions: string[], mode: string) => {
-    const positionStr = positions
-      .map((value) => (value === " " ? "" : value))
-      .join("-");
-    router.replace(`?position=${positionStr}&mode=${mode}`);
-  };
-
   const getSelectValuesDisplay = (positions: string[]) => {
     if (codeType !== "twists") {
       return positions;
@@ -110,6 +100,29 @@ const BLD = ({ codeType }: { codeType: string }) => {
       setManmade(manmadeData.default);
       setNightmare(nightmareData.default || {});
       setNightmareSelected(nightmareSelectedData.default || {});
+
+      const params = new URLSearchParams(window.location.search);
+      const positionParam = params.get("position") || "";
+      const modeParam = params.get("mode") || modeValue;
+      const highlightParam = params.get("highlight") || "";
+
+      if (positionParam) {
+        const positions = positionParam.split("-");
+        setSelectValuesNew(positions);
+        const newInputValue = selectToInput(positions);
+        if (inputRef.current) {
+          inputRef.current.value = newInputValue;
+        }
+        checkForDuplicates(positions, modeParam);
+      }
+
+      if (modeParam) {
+        setModeValue(modeParam);
+      }
+
+      if (highlightParam) {
+        setHighlightValue(highlightParam);
+      }
 
       let isStandard = true;
       const localStorageKey = is3bld ? "code" : "bigbldCode";
@@ -150,6 +163,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
       setLoading(false);
     };
     loadData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [codeType, is3bld, converter, defaultMode, modeValue]);
 
   const modeToData = is3bld
@@ -253,38 +267,38 @@ const BLD = ({ codeType }: { codeType: string }) => {
     }
   };
 
-  const applyInputChange = (value: string) => {
-    setErrorKey("");
-    const newValue = value.toUpperCase();
-    const newSelectValues = converter.customCodeToPosition(
-      newValue.padEnd(selectValuesLen, " "),
-      codeType,
-    );
-    setSelectValuesNew(newSelectValues);
-    if (codeType === "twists") {
-      const positions = converter.customCodeToPosition(newValue, "corner");
-      const corner1Positions = converter.codeTypeToPositions("corner1");
-      for (let i = 0; i < newValue.length; i++) {
-        if (!corner1Positions.includes(positions[i])) {
-          setErrorKey("invalidLetter");
-          break;
-        }
-      }
-    } else {
-      for (let i = 0; i < newValue.length; i++) {
-        if (newValue[i] !== selectToInput(newSelectValues)[i]) {
-          setErrorKey("invalidLetter");
-          break;
-        }
-      }
-    }
-    checkForDuplicates(newSelectValues, modeValue);
-    syncUrl(newSelectValues, modeValue);
-  };
-
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (!compositionRef.current) {
-      applyInputChange(e.target.value);
+      setErrorKey("");
+      const newValue = e.target.value.toUpperCase();
+      const newSelectValues = converter.customCodeToPosition(
+        newValue.padEnd(selectValuesLen, " "),
+        codeType,
+      );
+      setSelectValuesNew(newSelectValues);
+      if (codeType === "twists") {
+        const positions = converter.customCodeToPosition(newValue, "corner");
+        const corner1Positions = converter.codeTypeToPositions("corner1");
+        for (let i = 0; i < newValue.length; i++) {
+          if (!corner1Positions.includes(positions[i])) {
+            setErrorKey("invalidLetter");
+            break;
+          }
+        }
+      } else {
+        for (let i = 0; i < newValue.length; i++) {
+          if (newValue[i] !== selectToInput(newSelectValues)[i]) {
+            setErrorKey("invalidLetter");
+            break;
+          }
+        }
+      }
+      checkForDuplicates(newSelectValues, modeValue);
+      const newSelectValuesTrim = newSelectValues.map((value) =>
+        value === " " ? "" : value,
+      );
+      const newUrl = `?position=${newSelectValuesTrim.join("-")}&mode=${modeValue}`;
+      window.history.pushState({ path: newUrl }, "", newUrl);
     }
   };
 
@@ -323,7 +337,12 @@ const BLD = ({ codeType }: { codeType: string }) => {
     if (inputRef.current) {
       inputRef.current.value = selectToInput(newSelectValues);
     }
-    syncUrl(newSelectValues, modeValue);
+    const newSelectValuesTrim = newSelectValues.map((value) =>
+      value === " " ? "" : value,
+    );
+    const positionStr = newSelectValuesTrim.join("-");
+    const newUrl = `?position=${positionStr}&mode=${modeValue}`;
+    window.history.pushState({ path: newUrl }, "", newUrl);
   };
 
   const handleModeChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
@@ -331,14 +350,16 @@ const BLD = ({ codeType }: { codeType: string }) => {
     const newModeValue = e.target.value;
     setModeValue(newModeValue);
     checkForDuplicates(selectValues, newModeValue);
-    syncUrl(selectValues, newModeValue);
+    const positionStr = selectValues.join("-");
+    const newUrl = `?position=${positionStr}&mode=${newModeValue}`;
+    window.history.pushState({ path: newUrl }, "", newUrl);
     scrollToTop();
   };
 
   const Composition = (e: React.CompositionEvent<HTMLInputElement>) => {
     if (e.type === "compositionend") {
       compositionRef.current = false;
-      applyInputChange((e.target as HTMLInputElement).value);
+      handleInputChange(e as unknown as React.ChangeEvent<HTMLInputElement>);
     } else {
       compositionRef.current = true;
     }
@@ -375,7 +396,11 @@ const BLD = ({ codeType }: { codeType: string }) => {
         }
         checkForDuplicates(newSelectValues, modeValue);
         setSelectValuesNew(newSelectValues);
-        syncUrl(newSelectValues, modeValue);
+        const newSelectValuesTrim = newSelectValues.map((value) =>
+          value === " " ? "" : value,
+        );
+        const newUrl = `?position=${newSelectValuesTrim.join("-")}&mode=${modeValue}`;
+        window.history.pushState({ path: newUrl }, "", newUrl);
         e.preventDefault();
       }
     };
@@ -383,31 +408,6 @@ const BLD = ({ codeType }: { codeType: string }) => {
     return () => document.removeEventListener("paste", handleGlobalPaste);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
-
-  useEffect(() => {
-    if (loading) {
-      return;
-    }
-    const positionParam = searchParams.get("position") || "";
-    const modeParam = searchParams.get("mode") || modeValue;
-    const highlightParam = searchParams.get("highlight") || "";
-    if (positionParam) {
-      const positions = positionParam.split("-");
-      setSelectValuesNew(positions);
-      const newInputValue = selectToInput(positions);
-      if (inputRef.current) {
-        inputRef.current.value = newInputValue;
-      }
-      checkForDuplicates(positions, modeParam);
-    }
-    if (modeParam) {
-      setModeValue(modeParam);
-    }
-    if (highlightParam) {
-      setHighlightValue(highlightParam);
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [searchParams, loading, modeValue]);
 
   const getPosition = (matchedPosition: string[]) => {
     let positionText = "";

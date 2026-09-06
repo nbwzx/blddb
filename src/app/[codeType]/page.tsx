@@ -2,8 +2,6 @@ import BLD from "@/components/BLD";
 import { BLD_CODE_TYPES } from "@/utils/codeTypes";
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { Suspense } from "react";
-import Loading from "@/app/loading";
 export const dynamicParams = false;
 const codeTypes = BLD_CODE_TYPES;
 
@@ -39,9 +37,5 @@ export default async function Page({
   if (!codeTypes.includes(codeType)) {
     return notFound();
   }
-  return (
-    <Suspense fallback={<Loading />}>
-      <BLD codeType={codeType} />
-    </Suspense>
-  );
+  return <BLD codeType={codeType} />;
 }
