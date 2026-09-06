@@ -225,42 +225,6 @@ const commutator = (function () {
       .replace(/\+\s/gu, "+")
       .replace(/\s\+/gu, "+")
       .replace(/\*2/gu, "2");
-    for (let i = algorithm.length - 1; i > 1; i--) {
-      if (algorithm[i] === "2" && algorithm[i - 1] === ")") {
-        let j = i - 1;
-        while (algorithm[j] !== "(" && j >= 0) {
-          j--;
-        }
-        if (j >= 0) {
-          algorithm =
-            algorithm.slice(0, j) +
-            algorithm.slice(j + 1, i - 1) +
-            algorithm.slice(j + 1, i - 1) +
-            algorithm.slice(i + 1);
-          break;
-        }
-      }
-    }
-    for (let i = algorithm.length - 1; i > 1; i--) {
-      if (algorithm[i] === "2" && algorithm[i - 1] === "]") {
-        let j = i - 1;
-        while (algorithm[j] !== "[" && j >= 0) {
-          j--;
-        }
-        if (j >= 0) {
-          algorithm =
-            algorithm.slice(0, j) +
-            algorithm.slice(j + 1, i - 1) +
-            algorithm.slice(j + 1, i - 1) +
-            algorithm.slice(i + 1);
-          break;
-        }
-      }
-    }
-    algorithm = algorithm.replace(/\(/gu, "");
-    algorithm = algorithm.replace(/\)/gu, "");
-    algorithm = `[${algorithm.replace(/\+/gu, "]+[")}]`;
-    algorithm = algorithm.replace(/\]\[/gu, "]+[");
     if (order === 0) {
       isOrderZero = true;
       order = MAX_INT;
@@ -273,6 +237,31 @@ const commutator = (function () {
     // • order 3 → min -1 (e.g. Pyraminx)
     minAmount = Math.floor(order / 2) + 1 - order;
     maxAmount = Math.floor(order / 2);
+    const groupBody = (inner: string, inverseMark: string): string =>
+      inverseMark === "'" ? arrayToStr(invert(algToArray(inner))) : inner;
+    let isGroupChanged = true;
+    while (isGroupChanged) {
+      isGroupChanged = false;
+      algorithm = algorithm.replace(
+        /\(([^()]*)\)(\d*)('?)/gu,
+        (_match, inner: string, exponent: string, inverseMark: string) => {
+          isGroupChanged = true;
+          const times = exponent === "" ? 1 : Number(exponent);
+          return groupBody(inner, inverseMark).repeat(times);
+        },
+      );
+      algorithm = algorithm.replace(
+        /\[([^()[\]]*)\](\d+)('?)/gu,
+        (_match, inner: string, exponent: string, inverseMark: string) => {
+          isGroupChanged = true;
+          return `[${groupBody(inner, inverseMark)}]`.repeat(Number(exponent));
+        },
+      );
+    }
+    algorithm = algorithm.replace(/\(/gu, "");
+    algorithm = algorithm.replace(/\)/gu, "");
+    algorithm = `[${algorithm.replace(/\+/gu, "]+[")}]`;
+    algorithm = algorithm.replace(/\]\[/gu, "]+[");
     const rpnStack = rpn(initStack(algorithm));
     if (
       rpnStack[0] === "Lack left parenthesis." ||
