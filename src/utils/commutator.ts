@@ -199,6 +199,110 @@ const commutator = (function () {
     return string;
   }
 
+  type BracketGroup = {
+    start: number;
+    end: number;
+    inner: string;
+    exponent: string;
+    inverseMark: string;
+  };
+
+  const splitTopLevel = (input: string, separator: string): string[] => {
+    const parts: string[] = [];
+    let depth = 0,
+      current = "";
+    for (const char of input) {
+      if (char === "[" || char === "(") {
+        depth++;
+      } else if (char === "]" || char === ")") {
+        depth--;
+      }
+      if (char === separator && depth === 0) {
+        parts.push(current);
+        current = "";
+      } else {
+        current += char;
+      }
+    }
+    parts.push(current);
+    return parts;
+  };
+
+  const invertNotation = (input: string): string => {
+    const plusParts = splitTopLevel(input, "+");
+    if (plusParts.length > 1) {
+      return plusParts
+        .reverse()
+        .map((part) => invertNotation(part))
+        .join("+");
+    }
+    const colonParts = splitTopLevel(input, ":");
+    if (colonParts.length > 1) {
+      return `${colonParts[0]}:${invertNotation(colonParts.slice(1).join(":"))}`;
+    }
+    if (input.startsWith("[") && input.endsWith("]")) {
+      const commaParts = splitTopLevel(input.slice(1, -1), ",");
+      if (commaParts.length === 2) {
+        return `[${commaParts[1]},${commaParts[0]}]`;
+      }
+    }
+    return arrayToStr(invert(algToArray(input)));
+  };
+
+  const invertCommutator = (inner: string): string => {
+    const commaParts = splitTopLevel(inner, ",");
+    if (commaParts.length === 2) {
+      return `${commaParts[1]},${commaParts[0]}`;
+    }
+    return invertNotation(inner);
+  };
+
+  const findBracketGroup = (algorithm: string): BracketGroup | null => {
+    for (let i = 0; i < algorithm.length; i++) {
+      if (algorithm[i] !== "[") {
+        continue;
+      }
+      let depth = 0,
+        close = -1;
+      for (let j = i; j < algorithm.length; j++) {
+        if (algorithm[j] === "[") {
+          depth++;
+        } else if (algorithm[j] === "]") {
+          depth--;
+          if (depth === 0) {
+            close = j;
+            break;
+          }
+        }
+      }
+      if (close === -1) {
+        continue;
+      }
+      let cursor = close + 1;
+      let exponent = "";
+      while (
+        cursor < algorithm.length &&
+        algorithm[cursor] >= "0" &&
+        algorithm[cursor] <= "9"
+      ) {
+        exponent += algorithm[cursor];
+        cursor++;
+      }
+      if (exponent === "") {
+        continue;
+      }
+      const inverseMark = algorithm[cursor] === "'" ? "'" : "";
+      return {
+        start: i,
+        end: cursor + inverseMark.length,
+        inner: algorithm.slice(i + 1, close),
+        exponent,
+        inverseMark,
+      };
+    }
+    return null;
+  };
+
   function expand(input: {
     algorithm: string;
     order?: number;
@@ -238,7 +342,7 @@ const commutator = (function () {
     minAmount = Math.floor(order / 2) + 1 - order;
     maxAmount = Math.floor(order / 2);
     const groupBody = (inner: string, inverseMark: string): string =>
-      inverseMark === "'" ? arrayToStr(invert(algToArray(inner))) : inner;
+      inverseMark === "'" ? invertNotation(inner) : inner;
     let isGroupChanged = true;
     while (isGroupChanged) {
       isGroupChanged = false;
@@ -250,13 +354,18 @@ const commutator = (function () {
           return groupBody(inner, inverseMark).repeat(times);
         },
       );
-      algorithm = algorithm.replace(
-        /\[([^()[\]]*)\](\d+)('?)/gu,
-        (_match, inner: string, exponent: string, inverseMark: string) => {
-          isGroupChanged = true;
-          return `[${groupBody(inner, inverseMark)}]`.repeat(Number(exponent));
-        },
-      );
+      const bracketGroup = findBracketGroup(algorithm);
+      if (bracketGroup !== null) {
+        isGroupChanged = true;
+        const body =
+          bracketGroup.inverseMark === "'"
+            ? invertCommutator(bracketGroup.inner)
+            : bracketGroup.inner;
+        algorithm =
+          algorithm.slice(0, bracketGroup.start) +
+          `[${body}]`.repeat(Number(bracketGroup.exponent)) +
+          algorithm.slice(bracketGroup.end);
+      }
     }
     algorithm = algorithm.replace(/\(/gu, "");
     algorithm = algorithm.replace(/\)/gu, "");
