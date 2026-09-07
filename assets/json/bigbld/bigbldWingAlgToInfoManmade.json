@@ -30890,19 +30890,18 @@
             "r':[U' R2 U,r2]"
         ],
         [
-            "x r2 U' R U r2 U' R' U x'",
-            [
-                "Marcell Endrey",
-                "Simon Praschl"
-            ],
-            "x:[r2,U' R U]"
-        ],
-        [
             "x' U' R' U r2 U' R U r2 x",
             [
                 "Marcell Endrey"
             ],
             "x':[U' R' U,r2]"
+        ],
+        [
+            "x r2 U' R U r2 U' R' U x'",
+            [
+                "Marcell Endrey"
+            ],
+            "x:[r2,U' R U]"
         ]
     ],
     "FJP": [
@@ -31175,19 +31174,18 @@
             "r:[U' R2 U,r2]"
         ],
         [
-            "x U' R U r2 U' R' U r2 x'",
-            [
-                "Marcell Endrey",
-                "Simon Praschl"
-            ],
-            "x:[U' R U,r2]"
-        ],
-        [
             "x' r2 U' R' U r2 U' R U x",
             [
                 "Marcell Endrey"
             ],
             "x':[r2,U' R' U]"
+        ],
+        [
+            "x U' R U r2 U' R' U r2 x'",
+            [
+                "Marcell Endrey"
+            ],
+            "x:[U' R U,r2]"
         ]
     ],
     "FPJ": [
