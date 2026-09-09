@@ -335,15 +335,46 @@ const finger = (function () {
     return sum;
   }
 
+  // "E?" matches "E" and "E'"
+  function tokenMatches(token: string, pattern: string): boolean {
+    if (pattern.endsWith("?")) {
+      const base = pattern.slice(0, -1);
+      return token === base || token === `${base}'`;
+    }
+    return token === pattern;
+  }
+
   function fingerbeginfrom(alg: string, depth: number = 0) {
     if (alg === "") {
       return ["finger.homegrip"];
     }
-    if (alg === "L2 U S U2 S' U L2" || alg === "L2 U' S U2 S' U' L2") {
-      return ["finger.lefthomegrip"];
-    }
-    if (alg === "R2 U S' U2 S U R2" || alg === "R2 U' S' U2 S U' R2") {
-      return ["finger.homegrip"];
+
+    const homeGripCores: { pattern: string[]; result: string[] }[] = [
+      {
+        pattern: ["L2", "U?", "S", "U2", "S'", "U?", "L2"],
+        result: ["finger.lefthomegrip"],
+      },
+      {
+        pattern: ["R2", "U?", "S'", "U2", "S", "U?", "R2"],
+        result: ["finger.homegrip"],
+      },
+      {
+        pattern: ["E?", "L?", "S'", "L2", "S", "L?", "E?"],
+        result: ["finger.lefthomegrip"],
+      },
+      {
+        pattern: ["E?", "R?", "S", "R2", "S'", "R?", "E?"],
+        result: ["finger.homegrip"],
+      },
+    ];
+    const tokens = alg.split(" ");
+    for (const { pattern, result } of homeGripCores) {
+      if (
+        pattern.length === tokens.length &&
+        pattern.every((p, j) => tokenMatches(tokens[j], p))
+      ) {
+        return result;
+      }
     }
     if (depth === 0) {
       let fingerbeginNew: string[] = [];
