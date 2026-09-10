@@ -378,24 +378,31 @@ const finger = (function () {
     }
     if (depth === 0) {
       let fingerbeginNew: string[] = [];
-      const patterns = [
-        { prefix: "L", suffix: "L'", expected: "leftthumbdown" },
-        { prefix: "l", suffix: "l'", expected: "leftthumbdown" },
-        { prefix: "L'", suffix: "L", expected: "leftthumbup" },
-        { prefix: "l'", suffix: "l", expected: "leftthumbup" },
-        { prefix: "L U", suffix: "U' L'", expected: "leftthumbdown" },
-        { prefix: "l U", suffix: "U' l'", expected: "leftthumbdown" },
-        { prefix: "L' U", suffix: "U' L", expected: "leftthumbup" },
-        { prefix: "l' U", suffix: "U' l", expected: "leftthumbup" },
-        { prefix: "L U'", suffix: "U L'", expected: "leftthumbdown" },
-        { prefix: "l U'", suffix: "U l'", expected: "leftthumbdown" },
-        { prefix: "L' U'", suffix: "U L", expected: "leftthumbup" },
-        { prefix: "l' U'", suffix: "U l", expected: "leftthumbup" },
-        { prefix: "L U2", suffix: "U2 L'", expected: "leftthumbdown" },
-        { prefix: "l U2", suffix: "U2 l'", expected: "leftthumbdown" },
-        { prefix: "L' U2", suffix: "U2 L", expected: "leftthumbup" },
-        { prefix: "l' U2", suffix: "U2 l", expected: "leftthumbup" },
+      const thumbSetups = [
+        "L",
+        "l",
+        "L U",
+        "l U",
+        "L U'",
+        "l U'",
+        "L U2",
+        "l U2",
+        "L'",
+        "l'",
+        "L' U",
+        "l' U",
+        "L' U'",
+        "l' U'",
+        "L' U2",
+        "l' U2",
       ];
+      const patterns = thumbSetups.map((prefix) => ({
+        prefix,
+        suffix: commutator.inverse(prefix),
+        expected: prefix.split(" ")[0].endsWith("'")
+          ? "leftthumbup"
+          : "leftthumbdown",
+      }));
       for (const { prefix, suffix, expected } of patterns) {
         const algNew = commutator.expand({
           algorithm: `${prefix} ${alg} ${suffix}`,
