@@ -2,7 +2,10 @@ import React, { JSX, useState, useEffect } from "react";
 import commutator from "@/utils/commutator";
 import commutator_555 from "@/utils/commutator_555";
 import finger from "@/utils/finger";
-import codeConverter, { getInverseCode } from "@/utils/codeConverter";
+import codeConverter, {
+  getInverseCode,
+  canonicalCycleKey,
+} from "@/utils/codeConverter";
 import bigbldCodeConverter from "@/utils/bigbldCodeConverter";
 import { BIGBLD_CODE_TYPES } from "@/utils/codeTypes";
 import { useTranslation } from "@/i18n/client";
@@ -55,6 +58,7 @@ const Table = ({
   sourceToResult,
   algToUrl,
   highlight,
+  personalCycleToAlg,
 }: {
   codeType: string;
   inputText: string;
@@ -77,6 +81,7 @@ const Table = ({
     [key: string]: Array<VideoAttributes>;
   };
   highlight?: string;
+  personalCycleToAlg?: Map<string, string>;
 }) => {
   const [inChina, setInChina] = useState<boolean>(false);
   const [isLocationChecked, setIsLocationChecked] = useState<boolean>(false);
@@ -294,6 +299,11 @@ const Table = ({
       continue;
     }
     let processedValue = [...value];
+    let personalAlgDisplayed: string = "";
+    if (personalCycleToAlg && personalCycleToAlg.size > 0) {
+      const ck = canonicalCycleKey(key, codeType);
+      personalAlgDisplayed = personalCycleToAlg.get(ck) as string;
+    }
     if (isManmade && sourceToResult) {
       const show3BldAlgsUnderSecs = settings.show3BldAlgsUnderSecs;
       const show4BldAlgsUnderSecs = settings.show4BldAlgsUnderSecs;
@@ -319,6 +329,44 @@ const Table = ({
         return b[1].length - a[1].length;
       });
     }
+    if (personalAlgDisplayed) {
+      const listed = isManmade
+        ? processedValue.some((inner) => {
+            const algs = is3bld ? (inner[0] as string[]) : [inner[0] as string];
+            return algs.some((a) => a === personalAlgDisplayed);
+          })
+        : processedValue.some((alg) => alg === personalAlgDisplayed);
+      if (!listed) {
+        if (isManmade) {
+          let personalComm: string | string[] = "";
+          if (isCommutatorNeeded) {
+            const searchResult = is3bld
+              ? commutator.search({
+                  algorithm: personalAlgDisplayed,
+                  maxDepth: 1,
+                  slashNotation: settings.slashNotation,
+                  noBrackets: settings.noBrackets,
+                  spaceAfterColon: settings.spaceAfterColon,
+                  spaceAfterComma: settings.spaceAfterComma,
+                  outerBrackets: settings.outerBrackets,
+                })
+              : [];
+            const commStr =
+              Array.isArray(searchResult) && searchResult.length > 0
+                ? searchResult[0]
+                : "";
+            personalComm = is3bld ? [commStr] : commStr;
+          }
+          processedValue.push(
+            is3bld
+              ? [[personalAlgDisplayed], [], personalComm as string[]]
+              : [personalAlgDisplayed, [], personalComm as string],
+          );
+        } else {
+          processedValue.push(personalAlgDisplayed);
+        }
+      }
+    }
     const tableRows: JSX.Element[] = [];
     for (let i = 0; i < processedValue.length; i++) {
       let item: string[] = [];
@@ -334,6 +382,10 @@ const Table = ({
       if (mirrorLR) {
         item = item.map((alg) => rewrite.mirrorAxis(alg, "M"));
       }
+      const entryHasPersonalAlg =
+        personalAlgDisplayed !== null &&
+        item.some((alg) => alg === personalAlgDisplayed);
+      const cycleHasPersonalAlg = personalAlgDisplayed !== null;
       const fingerResult = finger
         .fingerbeginfrom(item[0])
         .map((word) => t(word))
@@ -348,31 +400,35 @@ const Table = ({
         let commutatorResult = "";
         if (isCommutatorNeeded) {
           if (is3bld && !isManmade) {
-            commutatorResult = commutator.search({
-              algorithm: item[j],
-              maxDepth: 1,
-              slashNotation: settings.slashNotation,
-              noBrackets: settings.noBrackets,
-              spaceAfterColon: settings.spaceAfterColon,
-              spaceAfterComma: settings.spaceAfterComma,
-              outerBrackets: settings.outerBrackets,
-            })[0];
+            commutatorResult =
+              typeof item[j] === "string" && item[j].length > 0
+                ? commutator.search({
+                    algorithm: item[j],
+                    maxDepth: 1,
+                    slashNotation: settings.slashNotation,
+                    noBrackets: settings.noBrackets,
+                    spaceAfterColon: settings.spaceAfterColon,
+                    spaceAfterComma: settings.spaceAfterComma,
+                    outerBrackets: settings.outerBrackets,
+                  })[0]
+                : "";
           } else {
             const commutatorResultBefore = is3bld ? comm[j] : comm;
             const commutatorFunction = is3bld
               ? commutator.commutatorPost
               : commutator_555.commutatorPost;
-            commutatorResult = commutatorFunction({
-              algorithm: commutatorResultBefore,
-              slashNotation: settings.slashNotation,
-              noBrackets: settings.noBrackets,
-              spaceAfterColon: settings.spaceAfterColon,
-              spaceAfterComma: settings.spaceAfterComma,
-              outerBrackets: settings.outerBrackets,
-            });
-            if (mirrorLR) {
-              commutatorResult = rewrite.mirrorAxis(commutatorResult, "M");
-            }
+            commutatorResult =
+              typeof commutatorResultBefore === "string" &&
+              commutatorResultBefore.length > 0
+                ? commutatorFunction({
+                    algorithm: commutatorResultBefore,
+                    slashNotation: settings.slashNotation,
+                    noBrackets: settings.noBrackets,
+                    spaceAfterColon: settings.spaceAfterColon,
+                    spaceAfterComma: settings.spaceAfterComma,
+                    outerBrackets: settings.outerBrackets,
+                  })
+                : "";
           }
         }
         let sourceResult: JSX.Element[] = [];
@@ -415,11 +471,17 @@ const Table = ({
           if (hasHighlight) {
             return "bg-orange-300 dark:bg-yellow-700";
           }
+          if (entryHasPersonalAlg) {
+            return "bg-gray-200 dark:bg-gray-600";
+          }
           const selectedValue = selected?.[key] ?? "";
           const compareValue = mirrorLR
             ? rewrite.mirrorAxis(selectedValue, "M")
             : selectedValue;
-          return item[j] === compareValue ? "bg-zinc-300 dark:bg-zinc-700" : "";
+          const isSelected = item[j] === compareValue;
+          return !cycleHasPersonalAlg && isSelected
+            ? "bg-gray-200 dark:bg-gray-600"
+            : "";
         };
 
         tableRows.push(
@@ -447,11 +509,7 @@ const Table = ({
               <td
                 rowSpan={item.length}
                 onClick={() => hasVideo(item) && handleCellClick(item)}
-                className={
-                  hasVideo(item)
-                    ? "text-primary cursor-pointer dark:text-[#00BCD4]"
-                    : ""
-                }
+                className={`${hasVideo(item) ? "text-primary cursor-pointer dark:text-[#00BCD4]" : ""} ${entryHasPersonalAlg ? "bg-gray-200 dark:bg-gray-600" : ""}`}
                 id={hasVideo(item) ? "video" : ""}
               >
                 {fingerResult}
@@ -461,7 +519,10 @@ const Table = ({
               <td key={metric}>{getMoveCount(item[j], metric)}</td>
             ))}
             {isManmade && j === 0 && (
-              <td className="help" rowSpan={item.length}>
+              <td
+                className={`help ${entryHasPersonalAlg ? "bg-gray-200 dark:bg-gray-600" : ""}`}
+                rowSpan={item.length}
+              >
                 {source.length}
                 <span className="help-content">{sourceResult}</span>
                 <div className="triangle"></div>

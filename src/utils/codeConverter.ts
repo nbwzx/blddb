@@ -536,4 +536,20 @@ const codeConverter = (function () {
 export const getInverseCode = (code: string): string =>
   code[0] + code[2] + code[1];
 
+export const canonicalCycleKey = (
+  code: string,
+  codeType: string,
+  mirrorLR = false,
+): string => {
+  const variants = codeConverter.customCodeToVariantCode(
+    code,
+    codeType,
+    mirrorLR,
+  );
+  if (variants.length === 0) {
+    return code;
+  }
+  return [...variants].sort()[0];
+};
+
 export default codeConverter;

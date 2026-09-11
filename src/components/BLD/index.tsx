@@ -1,11 +1,15 @@
 "use client";
 
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useMemo, useRef } from "react";
 import { useTranslation } from "@/i18n/client";
-import codeConverter from "@/utils/codeConverter";
+import codeConverter, { canonicalCycleKey } from "@/utils/codeConverter";
 import bigbldCodeConverter from "@/utils/bigbldCodeConverter";
 import { BIGBLD_CODE_TYPES } from "@/utils/codeTypes";
-import { loadSettings, saveSettings } from "@/utils/settings";
+import {
+  loadSettings,
+  saveSettings,
+  loadCustomAlgorithms,
+} from "@/utils/settings";
 import Table from "@/components/Table";
 import useResponsiveTable from "@/utils/useResponsiveTable";
 import Loading from "@/app/loading";
@@ -58,6 +62,18 @@ const BLD = ({ codeType }: { codeType: string }) => {
   });
 
   const [highlightValue, setHighlightValue] = useState("");
+  const personalCycleToAlg = useMemo(() => {
+    const custom = loadCustomAlgorithms(codeType);
+    const map = new Map<string, string>();
+    for (const [posKey, alg] of Object.entries(custom)) {
+      const posCode = converter.positionToCustomCode(posKey.split("-"));
+      const ck = canonicalCycleKey(posCode, codeType);
+      if (!map.has(ck)) {
+        map.set(ck, alg);
+      }
+    }
+    return map;
+  }, [codeType, converter]);
 
   const selectToInput = (positions: string[]) => {
     return converter.positionToCustomCode(getSelectValuesKey(positions));
@@ -642,6 +658,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
         sourceToResult={sourceToResult}
         algToUrl={algToUrl}
         highlight={highlightValue}
+        personalCycleToAlg={personalCycleToAlg}
       />
     </PageSection>
   );
