@@ -332,18 +332,18 @@
             "U' l':[l' u l,U]"
         ],
         [
-            "z l' U2 l u l' U2 l u' z'",
-            [
-                "Marcell Endrey"
-            ],
-            "z:[l' U2 l,u]"
-        ],
-        [
             "L2 U' d l' U l d' l' U' l U L2",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "L2 U':[d,l' U l]"
+        ],
+        [
+            "z l' U2 l u l' U2 l u' z'",
+            [
+                "Marcell Endrey"
+            ],
+            "z:[l' U2 l,u]"
         ]
     ],
     "ACO": [
@@ -357,18 +357,18 @@
             "U' l:[u,l U l']"
         ],
         [
-            "y' U2 l2 U r U' l2 U r' U y",
-            [
-                "Marcell Endrey"
-            ],
-            "y' U':[U' l2 U,r]"
-        ],
-        [
             "L d l2 U' r U l2 U' r' U d' L'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "L d:[l2,U' r U]"
+        ],
+        [
+            "y' U2 l2 U r U' l2 U r' U y",
+            [
+                "Marcell Endrey"
+            ],
+            "y' U':[U' l2 U,r]"
         ]
     ],
     "ACP": [
@@ -1860,18 +1860,18 @@
             "U' l:[d',l U2 l']"
         ],
         [
-            "Fw Rw Uw u2 r U r' u2 r U' r' Uw' Rw' Fw'",
-            [
-                "Marcell Endrey"
-            ],
-            "Fw Rw Uw:[u2,r U r']"
-        ],
-        [
             "D' d l2 U' r U l2 U' r' U d' D",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "D' d:[l2,U' r U]"
+        ],
+        [
+            "Fw Rw Uw u2 r U r' u2 r U' r' Uw' Rw' Fw'",
+            [
+                "Marcell Endrey"
+            ],
+            "Fw Rw Uw:[u2,r U r']"
         ]
     ],
     "AMX": [
@@ -1929,18 +1929,18 @@
             "U' l':[U,l' u l]"
         ],
         [
-            "z u l' U2 l u' l' U2 l z'",
-            [
-                "Marcell Endrey"
-            ],
-            "z:[u,l' U2 l]"
-        ],
-        [
             "L2 U' l' U l d l' U' l d' U L2",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "L2 U':[l' U l,d]"
+        ],
+        [
+            "z u l' U2 l u' l' U2 l z'",
+            [
+                "Marcell Endrey"
+            ],
+            "z:[u,l' U2 l]"
         ]
     ],
     "AND": [
@@ -2241,18 +2241,18 @@
             "U' l:[l U l',u]"
         ],
         [
-            "y' U' r U' l2 U r' U' l2 U2 y",
-            [
-                "Marcell Endrey"
-            ],
-            "y' U':[r,U' l2 U]"
-        ],
-        [
             "L d U' r U l2 U' r' U l2 d' L'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "L d:[U' r U,l2]"
+        ],
+        [
+            "y' U' r U' l2 U r' U' l2 U2 y",
+            [
+                "Marcell Endrey"
+            ],
+            "y' U':[r,U' l2 U]"
         ]
     ],
     "AOD": [
@@ -3102,18 +3102,18 @@
             "r':[l u2 l',U]"
         ],
         [
-            "4Uw' r2 D l2 D' r2 D l2 y",
-            [
-                "Marcell Endrey"
-            ],
-            "y':[D' r2 D,l2]"
-        ],
-        [
             "r l' d2 l U l' d2 l U' r'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "r:[l' d2 l,U]"
+        ],
+        [
+            "4Uw' r2 D l2 D' r2 D l2 y",
+            [
+                "Marcell Endrey"
+            ],
+            "y':[D' r2 D,l2]"
         ]
     ],
     "ARE": [
@@ -3930,18 +3930,18 @@
             "U' l:[l U2 l',d']"
         ],
         [
-            "Fw Rw Uw r U r' u2 r U' r' u2 Uw' Rw' Fw'",
-            [
-                "Marcell Endrey"
-            ],
-            "Fw Rw Uw:[r U r',u2]"
-        ],
-        [
             "D' d U' r U l2 U' r' U l2 d' D",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "D' d:[U' r U,l2]"
+        ],
+        [
+            "Fw Rw Uw r U r' u2 r U' r' u2 Uw' Rw' Fw'",
+            [
+                "Marcell Endrey"
+            ],
+            "Fw Rw Uw:[r U r',u2]"
         ]
     ],
     "AWN": [
@@ -23113,18 +23113,18 @@
             "U':[l U l',u']"
         ],
         [
-            "y u r U r' u' r U' r' y'",
-            [
-                "Marcell Endrey"
-            ],
-            "y:[u,r U r']"
-        ],
-        [
             "Uw u r U r' u' r U' r' Uw'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "Uw:[u,r U r']"
+        ],
+        [
+            "y u r U r' u' r U' r' y'",
+            [
+                "Marcell Endrey"
+            ],
+            "y:[u,r U r']"
         ]
     ],
     "IAM": [
@@ -23163,18 +23163,18 @@
             "Rw':[Uw' r' Uw,l']"
         ],
         [
-            "z' d r U2 r' d' r U2 r' z",
-            [
-                "Marcell Endrey"
-            ],
-            "z':[d,r U2 r']"
-        ],
-        [
             "R2 U' l' U l d' l' U' l d U R2",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "R2 U':[l' U l,d']"
+        ],
+        [
+            "z' d r U2 r' d' r U2 r' z",
+            [
+                "Marcell Endrey"
+            ],
+            "z':[d,r U2 r']"
         ]
     ],
     "IAO": [
@@ -24075,18 +24075,18 @@
             "Uw':[l U l',u]"
         ],
         [
-            "y r U r' u r U' r' u' y'",
-            [
-                "Marcell Endrey"
-            ],
-            "y:[r U r',u]"
-        ],
-        [
             "Uw r U r' u r U' r' u' Uw'",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "Uw:[r U r',u]"
+        ],
+        [
+            "y r U r' u r U' r' u' y'",
+            [
+                "Marcell Endrey"
+            ],
+            "y:[r U r',u]"
         ]
     ],
     "IFD": [
@@ -24224,18 +24224,18 @@
             "Rw':[l',Uw' r' Uw]"
         ],
         [
-            "z' r U2 r' d r U2 r' d' z",
-            [
-                "Marcell Endrey"
-            ],
-            "z':[r U2 r',d]"
-        ],
-        [
             "R2 U' d' l' U l d l' U' l U R2",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "R2 U':[d',l' U l]"
+        ],
+        [
+            "z' r U2 r' d r U2 r' d' z",
+            [
+                "Marcell Endrey"
+            ],
+            "z':[r U2 r',d]"
         ]
     ],
     "INB": [
@@ -46036,18 +46036,18 @@
             "r:[U',r u' r']"
         ],
         [
-            "x u' l U l' u l U' l' x'",
-            [
-                "Marcell Endrey"
-            ],
-            "x:[u',l U l']"
-        ],
-        [
             "R2 r U' r' d' r U r' d R2",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "R2:[r U' r',d']"
+        ],
+        [
+            "x u' l U l' u l U' l' x'",
+            [
+                "Marcell Endrey"
+            ],
+            "x:[u',l U l']"
         ]
     ],
     "KBA": [
@@ -48494,18 +48494,18 @@
             "r:[r u' r',U']"
         ],
         [
-            "x l U l' u' l U' l' u x'",
-            [
-                "Marcell Endrey"
-            ],
-            "x:[l U l',u']"
-        ],
-        [
             "R2 d' r U' r' d r U r' R2",
             [
                 "Ziyi Xu (徐梓翼)"
             ],
             "R2:[d',r U' r']"
+        ],
+        [
+            "x l U l' u' l U' l' u x'",
+            [
+                "Marcell Endrey"
+            ],
+            "x:[l U l',u']"
         ]
     ],
     "KYD": [
