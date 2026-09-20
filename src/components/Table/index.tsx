@@ -429,6 +429,9 @@ const Table = ({
                     outerBrackets: settings.outerBrackets,
                   })
                 : "";
+            if (mirrorLR) {
+              commutatorResult = rewrite.mirrorAxis(commutatorResult, "M");
+            }
           }
         }
         let sourceResult: JSX.Element[] = [];
