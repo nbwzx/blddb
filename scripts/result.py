@@ -6,6 +6,13 @@ import time
 from bs4 import BeautifulSoup
 from loguru import logger
 
+HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+    )
+}
+
 
 def parse_time(time_str):
     parts = time_str.split(":")
@@ -44,7 +51,7 @@ def main():
 
         while True:
             try:
-                response = requests.get(search_url, timeout=10)
+                response = requests.get(search_url, timeout=10, headers=HEADERS)
                 if response.status_code == 200:
                     search_results = response.json().get("result")
                     break
@@ -70,7 +77,7 @@ def main():
 
             while True:
                 try:
-                    response = requests.get(person_url, timeout=10)
+                    response = requests.get(person_url, timeout=10, headers=HEADERS)
 
                     if response.status_code == 200:
                         soup = BeautifulSoup(response.text, "html.parser")
