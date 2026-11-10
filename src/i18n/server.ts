@@ -1,7 +1,12 @@
 import { createInstance } from "i18next";
 import resourcesToBackend from "i18next-resources-to-backend";
 import { initReactI18next } from "react-i18next/initReactI18next";
-import { getOptions, Locales, normalizeLocale } from "./settings";
+import {
+  getOptions,
+  Locales,
+  normalizeLocale,
+  FALLBACK_LOCALE,
+} from "./settings";
 import { cookies, headers } from "next/headers";
 
 async function initI18next(lang: Locales) {
@@ -33,6 +38,12 @@ export async function createTranslation() {
 
 // Utility function to get the locale from server components
 export async function getLocale(): Promise<Locales> {
+  // Offline desktop build (STATIC_EXPORT=1): there is no request context, so
+  // cookies/headers are unavailable. Return the default locale; the client-side
+  // i18n (LanguageDetector) re-selects the language at runtime from cache/browser.
+  if (process.env.STATIC_EXPORT === "1") {
+    return FALLBACK_LOCALE;
+  }
   const cookieStore = await cookies();
   const cookieLocale = cookieStore.get("i18next")?.value;
   if (cookieLocale) {
