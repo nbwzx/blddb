@@ -9,6 +9,7 @@ import {
   loadSettings,
   saveSettings,
   loadCustomAlgorithms,
+  type CustomAlgorithms,
 } from "@/utils/settings";
 import Table from "@/components/Table";
 import useResponsiveTable from "@/utils/useResponsiveTable";
@@ -19,9 +20,17 @@ import CopyPopup from "@/components/CopyPopup";
 import tracer from "@/utils/tracer";
 import tracer_555 from "@/utils/tracer_555";
 import { useResumeTour } from "@/hooks/useResumeTour";
+import { loadJsonData } from "@/utils/syncData";
+import { useSync } from "@/components/SyncProvider";
+
+type ManmadeRecord =
+  | { [key: string]: [alg: string[], source: string[]][] }
+  | { [key: string]: [alg: string, source: string[], comm: string][] };
+type NightmareRecord = { [key: string]: string[] };
 
 const BLD = ({ codeType }: { codeType: string }) => {
   const { i18n, t } = useTranslation();
+  const { syncVersion } = useSync();
   const tableRef = useRef<HTMLTableElement>(null);
   const divRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
@@ -62,10 +71,17 @@ const BLD = ({ codeType }: { codeType: string }) => {
   });
 
   const [highlightValue, setHighlightValue] = useState("");
+
+  // Personal alg set, keyed by canonical cycle. Reloaded on code-type change.
+  const [customAlgs, setCustomAlgs] = useState<CustomAlgorithms>(() =>
+    loadCustomAlgorithms(codeType),
+  );
+  useEffect(() => {
+    setCustomAlgs(loadCustomAlgorithms(codeType));
+  }, [codeType]);
   const personalCycleToAlg = useMemo(() => {
-    const custom = loadCustomAlgorithms(codeType);
     const map = new Map<string, string>();
-    for (const [posKey, alg] of Object.entries(custom)) {
+    for (const [posKey, alg] of Object.entries(customAlgs)) {
       const posCode = converter.positionToCustomCode(posKey.split("-"));
       const ck = canonicalCycleKey(posCode, codeType);
       if (!map.has(ck)) {
@@ -73,7 +89,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
       }
     }
     return map;
-  }, [codeType, converter]);
+  }, [customAlgs, converter, codeType]);
 
   const selectToInput = (positions: string[]) => {
     return converter.positionToCustomCode(getSelectValuesKey(positions));
@@ -100,22 +116,72 @@ const BLD = ({ codeType }: { codeType: string }) => {
 
   useEffect(() => {
     const loadData = async () => {
-      const manmadeData = is3bld
-        ? await import(`public/data/${codeType}Manmade.json`)
-        : await import(`public/data/bigbld/${codeType}Manmade.json`);
+      const manmadeModule = is3bld
+        ? await loadJsonData<ManmadeRecord>(
+            `public/data/${codeType}Manmade.json`,
+            () =>
+              import(`public/data/${codeType}Manmade.json`) as Promise<{
+                default: ManmadeRecord;
+              }>,
+          )
+        : await loadJsonData<ManmadeRecord>(
+            `public/data/bigbld/${codeType}Manmade.json`,
+            () =>
+              import(`public/data/bigbld/${codeType}Manmade.json`) as Promise<{
+                default: ManmadeRecord;
+              }>,
+          );
 
-      const nightmareData = is3bld
-        ? await import(`public/data/${codeType}Nightmare.json`)
-        : {};
+      const nightmareModule = is3bld
+        ? await loadJsonData<NightmareRecord>(
+            `public/data/${codeType}Nightmare.json`,
+            () =>
+              import(`public/data/${codeType}Nightmare.json`) as Promise<{
+                default: NightmareRecord;
+              }>,
+          )
+        : { default: {} as NightmareRecord };
 
-      const nightmareSelectedData =
+      const nightmareSelectedModule =
         is3bld && codeType !== "ltct" && codeType !== "twists"
-          ? await import(`public/data/${codeType}NightmareSelected.json`)
-          : {};
+          ? await loadJsonData<NightmareRecord>(
+              `public/data/${codeType}NightmareSelected.json`,
+              () =>
+                import(
+                  `public/data/${codeType}NightmareSelected.json`
+                ) as Promise<{
+                  default: NightmareRecord;
+                }>,
+            )
+          : { default: {} as NightmareRecord };
 
-      setManmade(manmadeData.default);
-      setNightmare(nightmareData.default || {});
-      setNightmareSelected(nightmareSelectedData.default || {});
+      setManmade(manmadeModule.default);
+      setNightmare(nightmareModule.default);
+      setNightmareSelected(nightmareSelectedModule.default);
+
+      // In the desktop shell, refresh the reference tables from the latest remote copy.
+      try {
+        const [s2u, s2r, a2u] = await Promise.all([
+          loadJsonData("public/data/sourceToUrl.json", () =>
+            Promise.resolve({
+              default: require("public/data/sourceToUrl.json"),
+            }),
+          ),
+          loadJsonData("public/data/sourceToResult.json", () =>
+            Promise.resolve({
+              default: require("public/data/sourceToResult.json"),
+            }),
+          ),
+          loadJsonData("public/data/algToUrl.json", () =>
+            Promise.resolve({ default: require("public/data/algToUrl.json") }),
+          ),
+        ]);
+        setSourceToUrl(s2u.default);
+        setSourceToResult(s2r.default);
+        setAlgToUrl(a2u.default);
+      } catch {
+        /* keep bundled snapshot */
+      }
 
       const params = new URLSearchParams(window.location.search);
       const positionParam = params.get("position") || "";
@@ -180,7 +246,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
     };
     loadData();
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [codeType, is3bld, converter, defaultMode, modeValue]);
+  }, [codeType, is3bld, converter, defaultMode, modeValue, syncVersion]);
 
   const modeToData = is3bld
     ? {
@@ -203,9 +269,15 @@ const BLD = ({ codeType }: { codeType: string }) => {
     : {
         manmade: "\u{2009}\u{F2BD}\u{2009}",
       };
-  const sourceToUrl = require("public/data/sourceToUrl.json");
-  const sourceToResult = require("public/data/sourceToResult.json");
-  const algToUrl = require("public/data/algToUrl.json");
+  const [sourceToUrl, setSourceToUrl] = useState(() =>
+    require("public/data/sourceToUrl.json"),
+  );
+  const [sourceToResult, setSourceToResult] = useState(() =>
+    require("public/data/sourceToResult.json"),
+  );
+  const [algToUrl, setAlgToUrl] = useState(() =>
+    require("public/data/algToUrl.json"),
+  );
 
   useResponsiveTable(tableRef, divRef, { inputRef, selectRefs, modeRef });
 

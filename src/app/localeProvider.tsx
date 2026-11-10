@@ -1,9 +1,15 @@
 "use client";
 
-import React, { createContext, useContext, useMemo, useState } from "react";
-import { FALLBACK_LOCALE, Locales } from "../i18n/settings";
+import React, {
+  createContext,
+  useContext,
+  useMemo,
+  useState,
+  useEffect,
+} from "react";
+import { FALLBACK_LOCALE, Locales, supportedLocales } from "../i18n/settings";
 import i18next from "i18next";
-import { switchLocaleAction } from "@/components/Header/switchLocale";
+import { persistLocale, loadPersistedLocale } from "@/i18n/client";
 
 type LocaleContextValue = {
   locale: Locales;
@@ -23,7 +29,17 @@ export function LocaleProvider({
   children: React.ReactNode;
   value: Locales;
 }) {
-  const [locale, setLocaleState] = useState<Locales>(value);
+  const [locale, setLocaleState] = useState<Locales>(() => {
+    if (typeof window === "undefined") {
+      return value;
+    }
+    const persisted = loadPersistedLocale();
+    return (
+      persisted && supportedLocales.includes(persisted as Locales)
+        ? persisted
+        : value
+    ) as Locales;
+  });
   const setLocale = (next: Locales) => {
     setLocaleState(next);
     if (typeof document !== "undefined") {
@@ -32,8 +48,13 @@ export function LocaleProvider({
     if (typeof window !== "undefined") {
       i18next.changeLanguage(next);
     }
-    switchLocaleAction(next);
+    persistLocale(next);
   };
+  useEffect(() => {
+    if (typeof document !== "undefined") {
+      document.documentElement.lang = locale;
+    }
+  }, [locale]);
   const ctx = useMemo<LocaleContextValue>(
     () => ({ locale, setLocale }),
     [locale],

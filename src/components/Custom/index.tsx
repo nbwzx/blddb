@@ -9,6 +9,8 @@ import commutator from "@/utils/commutator";
 import finger from "@/utils/finger";
 import tracer from "@/utils/tracer";
 import useResponsiveTable from "@/utils/useResponsiveTable";
+import { loadJsonData } from "@/utils/syncData";
+import { useSync } from "@/components/SyncProvider";
 import { useTheme } from "next-themes";
 import React, {
   useCallback,
@@ -419,6 +421,7 @@ type OrderOfAlgsType = (typeof allowedOrders)[number];
 
 const Custom = ({ codeType = "corner" }) => {
   const { t, i18n } = useTranslation();
+  const { syncVersion } = useSync();
   const isCJK = isCJKLocale(i18n.resolvedLanguage ?? FALLBACK_LOCALE);
   const colWidths = isCJK
     ? [
@@ -579,13 +582,22 @@ const Custom = ({ codeType = "corner" }) => {
     const load = async () => {
       try {
         const manmadeModule = is3bld
-          ? await import(`public/data/${codeType}Manmade.json`)
-          : await import(`public/data/bigbld/${codeType}Manmade.json`);
-        const manmade = transformManmadeData(manmadeModule.default);
+          ? await loadJsonData(
+              `public/data/${codeType}Manmade.json`,
+              () => import(`public/data/${codeType}Manmade.json`),
+            )
+          : await loadJsonData(
+              `public/data/bigbld/${codeType}Manmade.json`,
+              () => import(`public/data/bigbld/${codeType}Manmade.json`),
+            );
+        const manmade = transformManmadeData(
+          manmadeModule.default as Record<string, [string[], string[]][]>,
+        );
         let nightmare: Record<string, string[]> = {};
         if (is3bld) {
-          const nightmareModule = await import(
-            `public/data/${codeType}Nightmare.json`
+          const nightmareModule = await loadJsonData(
+            `public/data/${codeType}Nightmare.json`,
+            () => import(`public/data/${codeType}Nightmare.json`),
           );
           nightmare = nightmareModule.default as Record<string, string[]>;
         }
@@ -632,7 +644,7 @@ const Custom = ({ codeType = "corner" }) => {
     return () => {
       isMounted = false;
     };
-  }, [codeType, is3bld, bufferKey, orderKey]);
+  }, [codeType, is3bld, bufferKey, orderKey, syncVersion]);
 
   useEffect(() => {
     const rawData = mode === "nightmare" ? nightmareData : manmadeData;

@@ -45,7 +45,13 @@ export async function getLocale(): Promise<Locales> {
     return FALLBACK_LOCALE;
   }
   const cookieStore = await cookies();
-  const cookieLocale = cookieStore.get("i18next")?.value;
+
+  // persistLocale() writes all three; the fallbacks also recover choices made
+  // before the keys were unified, so the SSR output matches the client language.
+  const cookieLocale =
+    cookieStore.get("i18next")?.value ??
+    cookieStore.get("blddb_locale")?.value ??
+    cookieStore.get("i18nextLng")?.value;
   if (cookieLocale) {
     return normalizeLocale(cookieLocale);
   }

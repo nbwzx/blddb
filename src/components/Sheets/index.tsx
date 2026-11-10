@@ -3,6 +3,8 @@
 import { useState, useEffect, useRef } from "react";
 import { useTranslation } from "@/i18n/client";
 import useResponsiveTable from "@/utils/useResponsiveTable";
+import { loadJsonData } from "@/utils/syncData";
+import { useSync } from "@/components/SyncProvider";
 import Loading from "@/app/loading";
 import PageSection from "@/components/PageSection";
 
@@ -25,6 +27,7 @@ interface Users {
 
 const Sheets = () => {
   const { t } = useTranslation();
+  const { syncVersion } = useSync();
   const [loading, setLoading] = useState(true);
 
   const [users, setUsers] = useState<Users>({});
@@ -36,8 +39,14 @@ const Sheets = () => {
   useEffect(() => {
     const fetchUsers = async () => {
       setLoading(true);
-      const response = await import("public/data/sourceToUrl.json");
-      const timeData = (await import("public/data/sourceToResult.json")) as {
+      const response = await loadJsonData(
+        "public/data/sourceToUrl.json",
+        () => import("public/data/sourceToUrl.json"),
+      );
+      const timeData = (await loadJsonData(
+        "public/data/sourceToResult.json",
+        () => import("public/data/sourceToResult.json"),
+      )) as {
         default: {
           [key: string]: { wca_id?: string; "3bld"?: number; "4bld"?: number };
         };
@@ -60,7 +69,7 @@ const Sheets = () => {
     };
 
     fetchUsers();
-  }, []);
+  }, [syncVersion]);
 
   const getLink = (key: string, value?: string) => {
     if (!value) {

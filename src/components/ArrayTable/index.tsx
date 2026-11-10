@@ -1,19 +1,53 @@
 "use client";
 
 import { useTranslation } from "@/i18n/client";
-import { JSX } from "react";
+import { JSX, useEffect, useState } from "react";
 import codeConverter from "@/utils/codeConverter";
+import { loadJsonData } from "@/utils/syncData";
+import { useSync } from "@/components/SyncProvider";
 import PageSection from "@/components/PageSection";
 
 const ArrayTable = ({ codeType }: { codeType: string }) => {
   const { t } = useTranslation();
+  const { syncVersion } = useSync();
   const isCornerEdge = codeType === "corner" || codeType === "edge";
   const data: string[][] = isCornerEdge
     ? []
     : require(`public/data/nightmare/${codeType}.ts`).default;
-  const dataCornerEdge: { [key: string]: string } = isCornerEdge
-    ? require(`public/data/${codeType}NightmareSelected.json`)
-    : {};
+  const [dataCornerEdge, setDataCornerEdge] = useState<{
+    [key: string]: string;
+  }>(() =>
+    isCornerEdge
+      ? require(`public/data/${codeType}NightmareSelected.json`)
+      : {},
+  );
+
+  useEffect(() => {
+    let mounted = true;
+    if (isCornerEdge) {
+      (async () => {
+        try {
+          const m = await loadJsonData(
+            `public/data/${codeType}NightmareSelected.json`,
+            () =>
+              Promise.resolve({
+                default: require(
+                  `public/data/${codeType}NightmareSelected.json`,
+                ),
+              }),
+          );
+          if (mounted) {
+            setDataCornerEdge(m.default);
+          }
+        } catch {
+          // ignore load failure
+        }
+      })();
+    }
+    return () => {
+      mounted = false;
+    };
+  }, [codeType, isCornerEdge, syncVersion]);
 
   const splitArrayByEmptyLine = (dataInput: string[][]): string[][][] => {
     const subArrays: string[][][] = [];
