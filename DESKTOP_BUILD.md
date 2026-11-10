@@ -8,6 +8,16 @@ This wraps the Next.js site in a Tauri shell after a static export, producing a 
 - **`src/i18n/server.ts`**: a static export has no request context, so during export `getLocale()` returns `FALLBACK_LOCALE` (currently `en`). At runtime the browser-side i18n (LanguageDetector + `changeLanguage`) selects the language from local cache / system locale, and the user can manually switch to `zh-CN` / `ja`.
 - **`src-tauri/`**: the Tauri v2 desktop shell. `frontendDist: "../out"` points at the static export, rendered with the system's built-in WebView2. **No Chromium is bundled, so the installer is small.**
 
+## Data sync (desktop only)
+
+The desktop installer bundles a frozen snapshot of `public/data` taken at build time. But those data files (the algorithm database and the source/url mappings) are regenerated weekly by the web repo's `actions.yml` workflow, so the offline app needs a way to stay current.
+
+- **Source**: on every page load, when running inside the Tauri shell and online, the app fetches the latest JSON from GitHub Raw (`raw.githubusercontent.com/nbwzx/blddb/v2/public/data/...`), caches it in **IndexedDB**, and falls back to the bundled snapshot when offline or on the first run. The web build (`isDesktop()` returns `false`) always uses its own freshly-served data and is **completely unaffected** by this logic.
+- **Manual sync**: a **Sync** button appears in the header (desktop only). Click it to force an immediate refresh of all data files.
+- **Automatic sync**: on startup the app refreshes the whole data set once if the last successful sync was more than 24 hours ago.
+- **Custom source**: set `NEXT_PUBLIC_DATA_BASE` at build time to point at a different host (e.g. your own CDN). It defaults to the GitHub Raw `v2` branch of the `nbwzx/blddb` repo, which already carries `Access-Control-Allow-Origin: *` so the WebView can fetch it directly.
+- The synced data set is defined in `src/utils/syncData.ts` (`SYNC_PATHS`). The static `.ts` tables under `public/data/nightmare/` are intentionally excluded (they are fixed reference tables, not weekly-updated).
+
 ## Prerequisites (install once)
 
 - **Node.js** (>= 18) and npm

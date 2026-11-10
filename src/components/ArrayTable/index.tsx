@@ -1,8 +1,9 @@
 "use client";
 
 import { useTranslation } from "@/i18n/client";
-import { JSX } from "react";
+import { JSX, useEffect, useState } from "react";
 import codeConverter from "@/utils/codeConverter";
+import { loadJsonData } from "@/utils/syncData";
 import PageSection from "@/components/PageSection";
 
 const ArrayTable = ({ codeType }: { codeType: string }) => {
@@ -11,9 +12,34 @@ const ArrayTable = ({ codeType }: { codeType: string }) => {
   const data: string[][] = isCornerEdge
     ? []
     : require(`public/data/nightmare/${codeType}.ts`).default;
-  const dataCornerEdge: { [key: string]: string } = isCornerEdge
-    ? require(`public/data/${codeType}NightmareSelected.json`)
-    : {};
+  const [dataCornerEdge, setDataCornerEdge] = useState<{
+    [key: string]: string;
+  }>(() =>
+    isCornerEdge
+      ? require(`public/data/${codeType}NightmareSelected.json`)
+      : {},
+  );
+
+  useEffect(() => {
+    let mounted = false;
+    if (isCornerEdge) {
+      mounted = true;
+      loadJsonData(`public/data/${codeType}NightmareSelected.json`, () =>
+        Promise.resolve({
+          default: require(`public/data/${codeType}NightmareSelected.json`),
+        }),
+      )
+        .then((m) => {
+          if (mounted) {
+            setDataCornerEdge(m.default);
+          }
+        })
+        .catch(() => undefined);
+    }
+    return () => {
+      mounted = false;
+    };
+  }, [codeType, isCornerEdge]);
 
   const splitArrayByEmptyLine = (dataInput: string[][]): string[][][] => {
     const subArrays: string[][][] = [];

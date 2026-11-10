@@ -9,6 +9,7 @@ import commutator from "@/utils/commutator";
 import finger from "@/utils/finger";
 import tracer from "@/utils/tracer";
 import useResponsiveTable from "@/utils/useResponsiveTable";
+import { loadJsonData } from "@/utils/syncData";
 import { useTheme } from "next-themes";
 import React, {
   useCallback,
@@ -579,13 +580,20 @@ const Custom = ({ codeType = "corner" }) => {
     const load = async () => {
       try {
         const manmadeModule = is3bld
-          ? await import(`public/data/${codeType}Manmade.json`)
-          : await import(`public/data/bigbld/${codeType}Manmade.json`);
+          ? await loadJsonData(
+              `public/data/${codeType}Manmade.json`,
+              () => import(`public/data/${codeType}Manmade.json`),
+            )
+          : await loadJsonData(
+              `public/data/bigbld/${codeType}Manmade.json`,
+              () => import(`public/data/bigbld/${codeType}Manmade.json`),
+            );
         const manmade = transformManmadeData(manmadeModule.default);
         let nightmare: Record<string, string[]> = {};
         if (is3bld) {
-          const nightmareModule = await import(
-            `public/data/${codeType}Nightmare.json`
+          const nightmareModule = await loadJsonData(
+            `public/data/${codeType}Nightmare.json`,
+            () => import(`public/data/${codeType}Nightmare.json`),
           );
           nightmare = nightmareModule.default as Record<string, string[]>;
         }
