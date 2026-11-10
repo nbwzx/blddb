@@ -23,6 +23,11 @@ import tracer_555 from "@/utils/tracer_555";
 import { useResumeTour } from "@/hooks/useResumeTour";
 import { loadJsonData } from "@/utils/syncData";
 
+type ManmadeRecord =
+  | { [key: string]: [alg: string[], source: string[]][] }
+  | { [key: string]: [alg: string, source: string[], comm: string][] };
+type NightmareRecord = { [key: string]: string[] };
+
 const BLD = ({ codeType }: { codeType: string }) => {
   const { i18n, t } = useTranslation();
   const tableRef = useRef<HTMLTableElement>(null);
@@ -121,34 +126,48 @@ const BLD = ({ codeType }: { codeType: string }) => {
 
   useEffect(() => {
     const loadData = async () => {
-      const manmadeData = is3bld
-        ? await loadJsonData(
+      const manmadeModule = is3bld
+        ? await loadJsonData<ManmadeRecord>(
             `public/data/${codeType}Manmade.json`,
-            () => import(`public/data/${codeType}Manmade.json`),
+            () =>
+              import(`public/data/${codeType}Manmade.json`) as Promise<{
+                default: ManmadeRecord;
+              }>,
           )
-        : await loadJsonData(
+        : await loadJsonData<ManmadeRecord>(
             `public/data/bigbld/${codeType}Manmade.json`,
-            () => import(`public/data/bigbld/${codeType}Manmade.json`),
+            () =>
+              import(`public/data/bigbld/${codeType}Manmade.json`) as Promise<{
+                default: ManmadeRecord;
+              }>,
           );
 
-      const nightmareData = is3bld
-        ? await loadJsonData(
+      const nightmareModule = is3bld
+        ? await loadJsonData<NightmareRecord>(
             `public/data/${codeType}Nightmare.json`,
-            () => import(`public/data/${codeType}Nightmare.json`),
+            () =>
+              import(`public/data/${codeType}Nightmare.json`) as Promise<{
+                default: NightmareRecord;
+              }>,
           )
-        : {};
+        : { default: {} as NightmareRecord };
 
-      const nightmareSelectedData =
+      const nightmareSelectedModule =
         is3bld && codeType !== "ltct" && codeType !== "twists"
-          ? await loadJsonData(
+          ? await loadJsonData<NightmareRecord>(
               `public/data/${codeType}NightmareSelected.json`,
-              () => import(`public/data/${codeType}NightmareSelected.json`),
+              () =>
+                import(
+                  `public/data/${codeType}NightmareSelected.json`
+                ) as Promise<{
+                  default: NightmareRecord;
+                }>,
             )
-          : {};
+          : { default: {} as NightmareRecord };
 
-      setManmade(manmadeData.default);
-      setNightmare(nightmareData.default || {});
-      setNightmareSelected(nightmareSelectedData.default || {});
+      setManmade(manmadeModule.default);
+      setNightmare(nightmareModule.default);
+      setNightmareSelected(nightmareSelectedModule.default);
 
       // In the desktop shell, refresh the reference tables from the latest remote copy.
       try {

@@ -588,7 +588,9 @@ const Custom = ({ codeType = "corner" }) => {
               `public/data/bigbld/${codeType}Manmade.json`,
               () => import(`public/data/bigbld/${codeType}Manmade.json`),
             );
-        const manmade = transformManmadeData(manmadeModule.default);
+        const manmade = transformManmadeData(
+          manmadeModule.default as Record<string, [string[], string[]][]>,
+        );
         let nightmare: Record<string, string[]> = {};
         if (is3bld) {
           const nightmareModule = await loadJsonData(

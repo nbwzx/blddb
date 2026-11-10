@@ -59,6 +59,7 @@ const Table = ({
   algToUrl,
   highlight,
   personalCycleToAlg,
+  onAddPersonalAlg,
 }: {
   codeType: string;
   inputText: string;
@@ -82,6 +83,8 @@ const Table = ({
   };
   highlight?: string;
   personalCycleToAlg?: Map<string, string>;
+  // eslint-disable-next-line no-unused-vars
+  onAddPersonalAlg?: (posKey: string, alg: string) => void;
 }) => {
   const [inChina, setInChina] = useState<boolean>(false);
   const [isLocationChecked, setIsLocationChecked] = useState<boolean>(false);
@@ -489,7 +492,16 @@ const Table = ({
 
         tableRows.push(
           <tr key={`${key}-${i}-${j}`} className={getClassName()}>
-            {j === 0 && <td rowSpan={item.length}>{i + 1}</td>}
+            {j === 0 && (
+              <td
+                rowSpan={item.length}
+                className="text-primary cursor-pointer dark:text-[#00BCD4]"
+                title="添加到个人公式集"
+                onClick={() => onAddPersonalAlg?.(key, item[0] ?? "")}
+              >
+                {i + 1}
+              </td>
+            )}
             <td
               style={{
                 borderLeft: j === 0 ? "" : "none",
