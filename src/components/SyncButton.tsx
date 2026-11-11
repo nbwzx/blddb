@@ -25,7 +25,7 @@ const SyncButton: React.FC = () => {
         type="button"
         onClick={() => sync()}
         disabled={syncing}
-        className="text-dark mr-2 flex items-center rounded border border-gray-300 px-2 py-1 text-xs hover:bg-gray-100 disabled:opacity-50 dark:border-gray-600 dark:text-white dark:hover:bg-gray-700"
+        className="text-dark mr-2 flex min-w-[80px] items-center justify-center rounded border border-gray-300 px-2 py-1 text-xs hover:bg-gray-100 disabled:opacity-50 dark:border-gray-600 dark:text-white dark:hover:bg-gray-700"
       >
         {syncing ? "Syncing…" : "Sync"}
       </button>

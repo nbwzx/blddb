@@ -213,7 +213,7 @@ const Header = () => {
                   </ul>
                 </nav>
               </div>
-              <div className="flex items-center justify-end pr-16 lg:pr-0">
+              <div className="flex shrink-0 items-center justify-end pr-16 lg:pr-0">
                 <SyncButton />
                 <div>
                   <LanguageToggler />
