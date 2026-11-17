@@ -28,6 +28,16 @@ type ManmadeRecord =
   | { [key: string]: [alg: string, source: string[], comm: string][] };
 type NightmareRecord = { [key: string]: string[] };
 
+const manmadeHasAlg = (data: ManmadeRecord, alg: string) =>
+  Object.values(data).some((entries: [string[] | string, ...unknown[]][]) =>
+    entries.some(([algs]) =>
+      Array.isArray(algs) ? algs.includes(alg) : algs === alg,
+    ),
+  );
+
+const nightmareHasAlg = (data: NightmareRecord, alg: string) =>
+  Object.values(data).some((algs) => algs.includes(alg));
+
 const BLD = ({ codeType }: { codeType: string }) => {
   const { i18n, t } = useTranslation();
   const { syncVersion } = useSync();
@@ -71,6 +81,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
   });
 
   const [highlightValue, setHighlightValue] = useState("");
+  const skipModeSaveRef = useRef(false);
 
   // Personal alg set, keyed by canonical cycle. Reloaded on code-type change.
   const [customAlgs, setCustomAlgs] = useState<CustomAlgorithms>(() =>
@@ -185,8 +196,23 @@ const BLD = ({ codeType }: { codeType: string }) => {
 
       const params = new URLSearchParams(window.location.search);
       const positionParam = params.get("position") || "";
-      const modeParam = params.get("mode") || modeValue;
       const highlightParam = params.get("highlight") || "";
+      // A search result lands here with a highlight but no mode: open the sheet
+      // that holds the alg, falling back to the preference when both or neither do.
+      let modeParam = params.get("mode") || modeValue;
+      if (!params.get("mode") && highlightParam && is3bld) {
+        const inManmade = manmadeHasAlg(manmadeModule.default, highlightParam);
+        const inNightmare = nightmareHasAlg(
+          nightmareModule.default,
+          highlightParam,
+        );
+        if (inManmade !== inNightmare) {
+          modeParam = inManmade ? "manmade" : "nightmare";
+
+          // A one-off jump to the other sheet must not overwrite the saved preference.
+          skipModeSaveRef.current = modeParam !== modeValue;
+        }
+      }
 
       if (positionParam) {
         const positions = positionParam.split("-");
@@ -283,6 +309,10 @@ const BLD = ({ codeType }: { codeType: string }) => {
 
   useEffect(() => {
     if (availableModes.length === 1) {
+      return;
+    }
+    if (skipModeSaveRef.current) {
+      skipModeSaveRef.current = false;
       return;
     }
     const initialSettings = loadSettings();
