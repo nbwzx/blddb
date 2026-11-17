@@ -5,6 +5,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import js from "@eslint/js";
 import { FlatCompat } from "@eslint/eslintrc";
+import prettierConfig from "eslint-config-prettier";
 
 const filename = fileURLToPath(import.meta.url);
 const dirname = path.dirname(filename);
@@ -363,6 +364,26 @@ const eslintConfig = defineConfig([
       "wrap-regex": 2,
       "yield-star-spacing": 2,
       yoda: [2, "never"],
+    },
+  },
+  prettierConfig,
+  {
+    // Re-enable checks Prettier does not cover, disabled by prettierConfig.
+
+    rules: {
+      curly: [2, "all"],
+      "lines-around-comment": [
+        2,
+        {
+          allowBlockStart: true,
+          allowBlockEnd: true,
+          allowObjectStart: true,
+          allowObjectEnd: true,
+          allowArrayStart: true,
+          allowArrayEnd: true,
+        },
+      ],
+      "no-unexpected-multiline": 2,
     },
   },
 ]);
