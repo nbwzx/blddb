@@ -19,6 +19,7 @@ import { useCopyToClipboard } from "@/hooks/useCopyToClipboard";
 import CopyPopup from "@/components/CopyPopup";
 import tracer from "@/utils/tracer";
 import tracer_555 from "@/utils/tracer_555";
+import rewrite from "@/utils/rewrite";
 import { useResumeTour } from "@/hooks/useResumeTour";
 import { loadJsonData } from "@/utils/syncData";
 import { useSync } from "@/components/SyncProvider";
@@ -201,11 +202,12 @@ const BLD = ({ codeType }: { codeType: string }) => {
       // that holds the alg, falling back to the preference when both or neither do.
       let modeParam = params.get("mode") || modeValue;
       if (!params.get("mode") && highlightParam && is3bld) {
-        const inManmade = manmadeHasAlg(manmadeModule.default, highlightParam);
-        const inNightmare = nightmareHasAlg(
-          nightmareModule.default,
-          highlightParam,
-        );
+        // The table matches the highlight against mirrored algs, so look up the unmirrored one.
+        const storedAlg = loadSettings().mirrorLR
+          ? rewrite.mirrorAxis(highlightParam, "M")
+          : highlightParam;
+        const inManmade = manmadeHasAlg(manmadeModule.default, storedAlg);
+        const inNightmare = nightmareHasAlg(nightmareModule.default, storedAlg);
         if (inManmade !== inNightmare) {
           modeParam = inManmade ? "manmade" : "nightmare";
 
@@ -466,6 +468,8 @@ const BLD = ({ codeType }: { codeType: string }) => {
   const handleModeChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
     setErrorKey("");
     const newModeValue = e.target.value;
+    // A stale skip from an overlapping data load must never swallow a choice the user made.
+    skipModeSaveRef.current = false;
     setModeValue(newModeValue);
     checkForDuplicates(selectValues, newModeValue);
     const positionStr = selectValues.join("-");
