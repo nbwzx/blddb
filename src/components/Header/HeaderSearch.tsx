@@ -68,7 +68,9 @@ const HeaderSearch = () => {
   };
 
   return (
-    <div ref={wrapperRef} className="relative mr-1.5 md:mr-2">
+    // Below md the panel anchors to the full-width header row, not the button:
+    // the button sits too far left for a panel growing leftward from it.
+    <div ref={wrapperRef} className="mr-1.5 md:relative md:mr-2">
       <button
         aria-label={t("common.search")}
         aria-expanded={open}
@@ -91,7 +93,7 @@ const HeaderSearch = () => {
         </svg>
       </button>
       {open && (
-        <div className="absolute top-full right-0 z-50 mt-2 w-[min(90vw,26rem)]">
+        <div className="absolute top-full z-50 mt-2 max-md:inset-x-4 md:right-0 md:w-[26rem]">
           <form
             onSubmit={handleSearch}
             className="flex items-stretch rounded-lg shadow-[1px_1px_3px_1px_rgba(0,0,0,0.2)]"

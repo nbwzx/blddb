@@ -16,6 +16,10 @@ const Hero = () => {
 
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
+    // Enter reaches here without the disabled button's guard.
+    if (!searchTerm.trim()) {
+      return;
+    }
     const url = algSearchUrl(searchTerm);
     if (url) {
       router.push(url);
