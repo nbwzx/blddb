@@ -23,6 +23,7 @@ import rewrite from "@/utils/rewrite";
 import { useResumeTour } from "@/hooks/useResumeTour";
 import { loadJsonData } from "@/utils/syncData";
 import { useSync } from "@/components/SyncProvider";
+import { ALG_SEARCH_EVENT } from "@/utils/algSearch";
 
 type ManmadeRecord =
   | { [key: string]: [alg: string[], source: string[]][] }
@@ -42,6 +43,14 @@ const nightmareHasAlg = (data: NightmareRecord, alg: string) =>
 const BLD = ({ codeType }: { codeType: string }) => {
   const { i18n, t } = useTranslation();
   const { syncVersion } = useSync();
+  // Bumped by a header search that lands on this already-open page, so the
+  // address is read again.
+  const [searchVersion, setSearchVersion] = useState(0);
+  useEffect(() => {
+    const handleSearch = () => setSearchVersion((v) => v + 1);
+    window.addEventListener(ALG_SEARCH_EVENT, handleSearch);
+    return () => window.removeEventListener(ALG_SEARCH_EVENT, handleSearch);
+  }, []);
   const tableRef = useRef<HTMLTableElement>(null);
   const divRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
@@ -274,7 +283,15 @@ const BLD = ({ codeType }: { codeType: string }) => {
     };
     loadData();
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [codeType, is3bld, converter, defaultMode, modeValue, syncVersion]);
+  }, [
+    codeType,
+    is3bld,
+    converter,
+    defaultMode,
+    modeValue,
+    syncVersion,
+    searchVersion,
+  ]);
 
   const modeToData = is3bld
     ? {
