@@ -11,6 +11,7 @@ const HeaderSearch = () => {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
+  const [notFound, setNotFound] = useState(false);
   const wrapperRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
 
@@ -53,6 +54,7 @@ const HeaderSearch = () => {
     e.preventDefault();
     const url = algSearchUrl(searchTerm);
     if (!url) {
+      setNotFound(true);
       return;
     }
     setOpen(false);
@@ -89,26 +91,39 @@ const HeaderSearch = () => {
         </svg>
       </button>
       {open && (
-        <form
-          onSubmit={handleSearch}
-          className="absolute top-full right-0 z-50 mt-2 flex w-[min(90vw,26rem)] items-stretch rounded-lg shadow-[1px_1px_3px_1px_rgba(0,0,0,0.2)]"
-        >
-          <input
-            ref={inputRef}
-            type="text"
-            value={searchTerm}
-            onChange={(e) => setSearchTerm(e.target.value)}
-            placeholder={t("common.searchHint")}
-            className="min-w-0 flex-1 rounded-l-lg border border-r-0 border-gray-300 bg-white px-4 py-2.5 text-base text-black focus:border-transparent focus:ring-2 focus:ring-blue-500 focus:outline-none dark:border-gray-600 dark:bg-gray-800 dark:text-white"
-          />
-          <button
-            type="submit"
-            disabled={!searchTerm.trim()}
-            className="bg-primary hover:bg-primary/90 cursor-pointer rounded-r-lg px-4 font-semibold text-white transition duration-300 ease-in-out disabled:cursor-not-allowed disabled:opacity-50"
+        <div className="absolute top-full right-0 z-50 mt-2 w-[min(90vw,26rem)]">
+          <form
+            onSubmit={handleSearch}
+            className="flex items-stretch rounded-lg shadow-[1px_1px_3px_1px_rgba(0,0,0,0.2)]"
           >
-            {t("common.search")}
-          </button>
-        </form>
+            <input
+              ref={inputRef}
+              type="text"
+              value={searchTerm}
+              onChange={(e) => {
+                setSearchTerm(e.target.value);
+                setNotFound(false);
+              }}
+              placeholder={t("common.searchHint")}
+              className="min-w-0 flex-1 rounded-l-lg border border-r-0 border-gray-300 bg-white px-4 py-2.5 text-base text-black focus:border-transparent focus:ring-2 focus:ring-blue-500 focus:outline-none dark:border-gray-600 dark:bg-gray-800 dark:text-white"
+            />
+            <button
+              type="submit"
+              disabled={!searchTerm.trim()}
+              className="bg-primary hover:bg-primary/90 cursor-pointer rounded-r-lg px-4 font-semibold text-white transition duration-300 ease-in-out disabled:cursor-not-allowed disabled:opacity-50"
+            >
+              {t("common.search")}
+            </button>
+          </form>
+          {notFound && (
+            <p
+              role="alert"
+              className="dark:bg-dark mt-1 rounded bg-white px-3 py-1.5 text-sm text-red-500 shadow-[1px_1px_3px_1px_rgba(0,0,0,0.2)]"
+            >
+              {t("common.searchNotFound")}
+            </p>
+          )}
+        </div>
       )}
     </div>
   );

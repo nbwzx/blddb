@@ -11,6 +11,7 @@ import { useResumeTour } from "@/hooks/useResumeTour";
 const Hero = () => {
   const { i18n, t } = useTranslation();
   const [searchTerm, setSearchTerm] = useState("");
+  const [notFound, setNotFound] = useState(false);
   const router = useRouter();
 
   const handleSearch = (e: React.FormEvent) => {
@@ -18,6 +19,8 @@ const Hero = () => {
     const url = algSearchUrl(searchTerm);
     if (url) {
       router.push(url);
+    } else {
+      setNotFound(true);
     }
   };
 
@@ -68,7 +71,10 @@ const Hero = () => {
                     <input
                       type="text"
                       value={searchTerm}
-                      onChange={(e) => setSearchTerm(e.target.value)}
+                      onChange={(e) => {
+                        setSearchTerm(e.target.value);
+                        setNotFound(false);
+                      }}
                       onKeyDown={handleKeyDown}
                       placeholder={t("common.searchHint")}
                       className="flex-1 rounded-l-lg border border-r-0 border-gray-300 bg-white px-4 py-3 text-base text-black focus:border-transparent focus:ring-2 focus:ring-blue-500 focus:outline-none sm:px-5 sm:py-4 dark:border-gray-600 dark:bg-gray-800 dark:text-white"
@@ -97,6 +103,15 @@ const Hero = () => {
                       </span>
                     </button>
                   </div>
+                  {/* Positioned below the box so it doesn't push the page down. */}
+                  {notFound && (
+                    <p
+                      role="alert"
+                      className="absolute top-full left-0 mt-2 text-sm text-red-500"
+                    >
+                      {t("common.searchNotFound")}
+                    </p>
+                  )}
                 </div>
               </div>
 
