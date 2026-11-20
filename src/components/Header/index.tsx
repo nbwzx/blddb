@@ -7,6 +7,7 @@ import { useEffect, useState, useRef } from "react";
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
 import LanguageToggler from "./LanguageToggler";
+import HeaderSearch from "./HeaderSearch";
 import SyncButton from "../SyncButton";
 import { useTranslation } from "@/i18n/client";
 import { updateMetadata } from "./updateMetadata";
@@ -214,6 +215,8 @@ const Header = () => {
                 </nav>
               </div>
               <div className="flex shrink-0 items-center justify-end pr-16 lg:pr-0">
+                {/* The homepage has its own large search box. */}
+                {pathname !== "/" && <HeaderSearch />}
                 <SyncButton />
                 <div>
                   <LanguageToggler />

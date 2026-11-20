@@ -4,13 +4,7 @@ import Link from "next/link";
 import { useTranslation } from "@/i18n/client";
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
-import tracer from "@/utils/tracer";
-import tracer_555 from "@/utils/tracer_555";
-import commutator from "@/utils/commutator";
-import commutator_555 from "@/utils/commutator_555";
-import commutator_555_final from "@/utils/commutator_555_final";
-import codeConverter from "@/utils/codeConverter";
-import bigbldCodeConverter from "@/utils/bigbldCodeConverter";
+import { algSearchUrl } from "@/utils/algSearch";
 import { useAppContext } from "../context";
 import { useResumeTour } from "@/hooks/useResumeTour";
 
@@ -21,30 +15,9 @@ const Hero = () => {
 
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
-    if (searchTerm.trim()) {
-      let expanded = commutator.expand({ algorithm: searchTerm });
-      let codeAuto = tracer.getCodeAuto(expanded);
-      let position = codeConverter
-        .customCodeToPosition(codeAuto[1], codeAuto[0], false)
-        .join("-");
-      if (codeAuto[0] === "") {
-        expanded = commutator_555_final.finalReplaceAlg(
-          commutator_555.expand(searchTerm),
-        );
-        codeAuto = tracer_555.getCodeAuto(expanded);
-        if (codeAuto[0] !== "") {
-          position = bigbldCodeConverter
-            .customCodeToPosition(codeAuto[1], codeAuto[0], false)
-            .join("-");
-          router.push(
-            `/bigbld/${codeAuto[0]}?position=${position}&highlight=${encodeURIComponent(expanded)}`,
-          );
-        }
-      } else {
-        router.push(
-          `/${codeAuto[0]}?position=${position}&highlight=${encodeURIComponent(expanded)}`,
-        );
-      }
+    const url = algSearchUrl(searchTerm);
+    if (url) {
+      router.push(url);
     }
   };
 
