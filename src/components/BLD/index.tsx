@@ -37,6 +37,30 @@ const manmadeHasAlg = (data: ManmadeRecord, alg: string) =>
     ),
   );
 
+type SourceResults = { [name: string]: { "3bld"?: number } };
+
+// Same source-time filter as the Table, so a search only counts algs the manmade sheet shows.
+const manmadeShowsAlg = (
+  data: ManmadeRecord,
+  alg: string,
+  sourceResults: SourceResults,
+  underSecs: string | undefined,
+) =>
+  Object.values(data).some(
+    (entries: [string[] | string, string[], ...unknown[]][]) =>
+      entries.some(
+        ([algs, sources]) =>
+          (Array.isArray(algs) ? algs.includes(alg) : algs === alg) &&
+          (underSecs === "" ||
+            typeof underSecs === "undefined" ||
+            sources.some(
+              (name) =>
+                (sourceResults[name]?.["3bld"] ?? Infinity) <=
+                100 * parseFloat(underSecs),
+            )),
+      ),
+  );
+
 const nightmareHasAlg = (data: NightmareRecord, alg: string) =>
   Object.values(data).some((algs) => algs.includes(alg));
 
@@ -180,6 +204,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
       setNightmare(nightmareModule.default);
       setNightmareSelected(nightmareSelectedModule.default);
 
+      let sourceResults: SourceResults = require("public/data/sourceToResult.json");
       // In the desktop shell, refresh the reference tables from the latest remote copy.
       try {
         const [s2u, s2r, a2u] = await Promise.all([
@@ -199,6 +224,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
         ]);
         setSourceToUrl(s2u.default);
         setSourceToResult(s2r.default);
+        sourceResults = s2r.default as SourceResults;
         setAlgToUrl(a2u.default);
       } catch {
         /* keep bundled snapshot */
@@ -210,18 +236,32 @@ const BLD = ({ codeType }: { codeType: string }) => {
       // A search result lands here with a highlight but no mode: open the sheet
       // that holds the alg, falling back to the preference when both or neither do.
       let modeParam = params.get("mode") || modeValue;
+      let jumped = false;
+      let hiddenByFilter = false;
       if (!params.get("mode") && highlightParam && is3bld) {
+        const settings = loadSettings();
         // The table matches the highlight against mirrored algs, so look up the unmirrored one.
-        const storedAlg = loadSettings().mirrorLR
+        const storedAlg = settings.mirrorLR
           ? rewrite.mirrorAxis(highlightParam, "M")
           : highlightParam;
-        const inManmade = manmadeHasAlg(manmadeModule.default, storedAlg);
+        const inManmade = manmadeShowsAlg(
+          manmadeModule.default,
+          storedAlg,
+          sourceResults,
+          settings.show3BldAlgsUnderSecs,
+        );
         const inNightmare = nightmareHasAlg(nightmareModule.default, storedAlg);
         if (inManmade !== inNightmare) {
           modeParam = inManmade ? "manmade" : "nightmare";
-
-          // A one-off jump to the other sheet must not overwrite the saved preference.
-          skipModeSaveRef.current = modeParam !== modeValue;
+          jumped = true;
+        } else if (
+          !inNightmare &&
+          manmadeHasAlg(manmadeModule.default, storedAlg)
+        ) {
+          // Only the user's time filter hides it: open manmade and say why it is missing.
+          modeParam = "manmade";
+          jumped = true;
+          hiddenByFilter = true;
         }
       }
 
@@ -236,12 +276,25 @@ const BLD = ({ codeType }: { codeType: string }) => {
       }
 
       if (modeParam) {
-        setModeValue(modeParam);
+        // A one-off jump must not overwrite the saved preference. Compare against the
+        // live mode: the captured modeValue is stale when two loads overlap.
+        setModeValue((current: string) => {
+          skipModeSaveRef.current = jumped && modeParam !== current;
+          return modeParam;
+        });
       }
 
       if (highlightParam) {
         setHighlightValue(highlightParam);
       }
+
+      // Clear only a note left by an earlier search; other errors are not ours to drop.
+      setErrorKey((key) => {
+        if (hiddenByFilter) {
+          return "searchFiltered";
+        }
+        return key === "searchFiltered" ? "" : key;
+      });
 
       let isStandard = true;
       const localStorageKey = is3bld ? "code" : "bigbldCode";
