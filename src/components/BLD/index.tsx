@@ -520,6 +520,16 @@ const BLD = ({ codeType }: { codeType: string }) => {
 
   useEffect(() => {
     const handleGlobalPaste = (e: ClipboardEvent) => {
+      // Only bare-page position pastes apply; inputs and the search panel own theirs.
+      const target = e.target as HTMLElement | null;
+      if (
+        document.getElementById("alg-search-panel") ||
+        (target &&
+          (target.isContentEditable ||
+            ["INPUT", "TEXTAREA", "SELECT"].includes(target.tagName)))
+      ) {
+        return;
+      }
       const pasteString =
         e.clipboardData
           ?.getData("text/plain")

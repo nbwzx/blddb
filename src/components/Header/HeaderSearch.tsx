@@ -93,7 +93,10 @@ const HeaderSearch = () => {
         </svg>
       </button>
       {open && (
-        <div className="absolute top-full z-50 mt-2 max-md:inset-x-4 md:right-0 md:w-[26rem]">
+        <div
+          id="alg-search-panel"
+          className="absolute top-full z-50 mt-2 max-md:inset-x-4 md:right-0 md:w-[26rem]"
+        >
           <form
             onSubmit={handleSearch}
             className="flex items-stretch rounded-lg shadow-[1px_1px_3px_1px_rgba(0,0,0,0.2)]"
