@@ -1246,7 +1246,8 @@
             ],
             [
                 "Anto Kam (甘浩東)",
-                "Gavriel Johann Arcilla"
+                "Gavriel Johann Arcilla",
+                "Rehan Cedrick L. Pascor"
             ],
             [
                 "D:[U,L' E' L]"
@@ -3729,6 +3730,7 @@
                 "Jonghyun Kim (김종현)",
                 "Oliver Fritz",
                 "Rachel Tucker",
+                "Rehan Cedrick L. Pascor",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)",
                 "Ziyi Xu (徐梓翼)"
@@ -22569,6 +22571,7 @@
                 "Jonghyun Kim (김종현)",
                 "Oliver Fritz",
                 "Rachel Tucker",
+                "Rehan Cedrick L. Pascor",
                 "Shuto Ueno (上野柊斗)",
                 "Timothy Loh",
                 "Tommy Cherry",
@@ -29038,6 +29041,7 @@
                 "Ishaan Agrawal",
                 "Jonghyun Kim (김종현)",
                 "Martin Vædele Egdal",
+                "Rehan Cedrick L. Pascor",
                 "Shuto Ueno (上野柊斗)",
                 "Tommy Cherry",
                 "Xin Shi (石欣)",
@@ -31872,6 +31876,7 @@
                 "Ishaan Agrawal",
                 "Jonghyun Kim (김종현)",
                 "Martin Vædele Egdal",
+                "Rehan Cedrick L. Pascor",
                 "Shuto Ueno (上野柊斗)",
                 "Tommy Cherry",
                 "Xin Shi (石欣)",
@@ -50576,16 +50581,13 @@
         ],
         [
             [
-                "D' S L' B L S' L' B' L D",
-                "D' S r' U r S' r' U' r D"
+                "D' S L' B L S' L' B' L D"
             ],
             [
-                "Anto Kam (甘浩東)",
-                "Rachel Tucker"
+                "Anto Kam (甘浩東)"
             ],
             [
-                "D':[S,L' B L]",
-                "D':[S,r' U r]"
+                "D':[S,L' B L]"
             ]
         ],
         [
@@ -50608,6 +50610,17 @@
             ],
             [
                 "R' F' r U:[M,U2]"
+            ]
+        ],
+        [
+            [
+                "f R' E R U R' E' R U' f'"
+            ],
+            [
+                "Rachel Tucker"
+            ],
+            [
+                "f:[R' E R,U]"
             ]
         ]
     ],
@@ -52165,7 +52178,6 @@
                 "U' R' F R S' R' F2 R S R' F R U"
             ],
             [
-                "Rachel Tucker",
                 "Rehan Cedrick L. Pascor",
                 "Sebastiano Tronto"
             ],
@@ -52194,6 +52206,17 @@
             ],
             [
                 "S R F' R':[S',R2]"
+            ]
+        ],
+        [
+            [
+                "D S R2 S' R2 D' R2 S R2 S'"
+            ],
+            [
+                "Rachel Tucker"
+            ],
+            [
+                "[D,S R2 S' R2]"
             ]
         ]
     ],
@@ -52899,16 +52922,13 @@
         ],
         [
             [
-                "D' L' B L S L' B' L S' D",
-                "D' r' U r S r' U' r S' D"
+                "D' L' B L S L' B' L S' D"
             ],
             [
-                "Anto Kam (甘浩東)",
-                "Rachel Tucker"
+                "Anto Kam (甘浩東)"
             ],
             [
-                "D':[L' B L,S]",
-                "D':[r' U r,S]"
+                "D':[L' B L,S]"
             ]
         ],
         [
@@ -52931,6 +52951,17 @@
             ],
             [
                 "R' F' r U':[M,U2]"
+            ]
+        ],
+        [
+            [
+                "f U R' E R U' R' E' R f'"
+            ],
+            [
+                "Rachel Tucker"
+            ],
+            [
+                "f:[U,R' E R]"
             ]
         ]
     ],
@@ -54623,7 +54654,6 @@
                 "Graham Siggins",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Rehan Cedrick L. Pascor",
                 "Tobias Peter",
                 "Tommy Cherry",
@@ -54638,6 +54668,7 @@
                 "S R' E R U2 R' E' R U2 S'"
             ],
             [
+                "Rachel Tucker",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -54707,7 +54738,6 @@
                 "Graham Siggins",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Rehan Cedrick L. Pascor",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -54721,6 +54751,7 @@
                 "S R E' R' U2 R E R' U2 S'"
             ],
             [
+                "Rachel Tucker",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -55427,13 +55458,13 @@
         ],
         [
             [
-                "F r U' r' S r U r' f'"
+                "r' F r U' r' S r U r' f' r"
             ],
             [
                 "Rachel Tucker"
             ],
             [
-                "F:[r U' r',S]"
+                "r' F:[r U' r',S]"
             ]
         ]
     ],
@@ -57764,7 +57795,6 @@
                 "U' R' F' R S' R' F2 R S R' F' R U"
             ],
             [
-                "Rachel Tucker",
                 "Rehan Cedrick L. Pascor",
                 "Sebastiano Tronto"
             ],
@@ -57804,6 +57834,17 @@
             ],
             [
                 "D' L D L:[S,L2]"
+            ]
+        ],
+        [
+            [
+                "S R2 S' R2 D R2 S R2 S' D'"
+            ],
+            [
+                "Rachel Tucker"
+            ],
+            [
+                "[S R2 S' R2,D]"
             ]
         ]
     ],
@@ -61169,7 +61210,6 @@
                 "Graham Siggins",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Rehan Cedrick L. Pascor",
                 "Tobias Peter",
                 "Tommy Cherry",
@@ -61184,6 +61224,7 @@
                 "S U2 R' E R U2 R' E' R S'"
             ],
             [
+                "Rachel Tucker",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -61249,13 +61290,13 @@
         ],
         [
             [
-                "f r U' r' S' r U r' F'"
+                "r' f r U' r' S' r U r' F' r"
             ],
             [
                 "Rachel Tucker"
             ],
             [
-                "f:[r U' r',S']"
+                "r' f:[r U' r',S']"
             ]
         ]
     ],
@@ -62425,7 +62466,6 @@
                 "Graham Siggins",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Rehan Cedrick L. Pascor",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -62440,6 +62480,7 @@
                 "R' E R U2 R' E R U2 R' E2 R"
             ],
             [
+                "Rachel Tucker",
                 "Sebastiano Tronto",
                 "Yifan Wang (王逸帆)"
             ],
@@ -62803,7 +62844,6 @@
                 "Graham Siggins",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Rehan Cedrick L. Pascor",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
@@ -62817,6 +62857,7 @@
                 "S U2 R E' R' U2 R E R' S'"
             ],
             [
+                "Rachel Tucker",
                 "Sebastiano Tronto",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -63186,7 +63227,6 @@
                 "Graham Siggins",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Rehan Cedrick L. Pascor",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
@@ -63201,6 +63241,7 @@
                 "R' E2 R U2 R' E' R U2 R' E' R"
             ],
             [
+                "Rachel Tucker",
                 "Sebastiano Tronto",
                 "Yifan Wang (王逸帆)"
             ],
@@ -81846,7 +81887,6 @@
                 "Morimichi Kikuchi (菊地守道)",
                 "Neel Gore",
                 "Oliver Fritz",
-                "Rachel Tucker",
                 "Rehan Cedrick L. Pascor",
                 "Roman Strakhov",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
@@ -81937,6 +81977,19 @@
         ],
         [
             [
+                "U R U R' S R U' R' S' U'"
+            ],
+            [
+                "Bpaul Paul",
+                "Ishaan Agrawal",
+                "Rachel Tucker"
+            ],
+            [
+                "U:[R U R',S]"
+            ]
+        ],
+        [
+            [
                 "U S' L' F' L S L' F L U'"
             ],
             [
@@ -81945,18 +81998,6 @@
             ],
             [
                 "U:[S',L' F' L]"
-            ]
-        ],
-        [
-            [
-                "U R U R' S R U' R' S' U'"
-            ],
-            [
-                "Bpaul Paul",
-                "Ishaan Agrawal"
-            ],
-            [
-                "U:[R U R',S]"
             ]
         ],
         [
@@ -89969,6 +90010,7 @@
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
                 "Michael Tripodi",
+                "Rachel Tucker",
                 "Rehan Cedrick L. Pascor",
                 "Tobias Peter"
             ],
@@ -89987,7 +90029,6 @@
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
                 "Leonardo Ezequiel Cruz",
-                "Rachel Tucker",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
             [
@@ -91137,18 +91178,6 @@
         ],
         [
             [
-                "R U' R2 F' R S R' F R S' R U R'"
-            ],
-            [
-                "Rachel Tucker",
-                "Rehan Cedrick L. Pascor"
-            ],
-            [
-                "R U' R':[R' F' R,S]"
-            ]
-        ],
-        [
-            [
                 "D S' R B' R' S R B R' D'"
             ],
             [
@@ -91167,6 +91196,28 @@
             ],
             [
                 "x:[M2,U' R' U]"
+            ]
+        ],
+        [
+            [
+                "R U' R2 F' R S R' F R S' R U R'"
+            ],
+            [
+                "Rehan Cedrick L. Pascor"
+            ],
+            [
+                "R U' R':[R' F' R,S]"
+            ]
+        ],
+        [
+            [
+                "f' R S' R' U' R S R' U f"
+            ],
+            [
+                "Rachel Tucker"
+            ],
+            [
+                "f':[R S' R',U']"
             ]
         ]
     ],
@@ -94395,18 +94446,6 @@
         ],
         [
             [
-                "R U' R' S R' F' R S' R' F R2 U R'"
-            ],
-            [
-                "Rachel Tucker",
-                "Rehan Cedrick L. Pascor"
-            ],
-            [
-                "R U' R':[S,R' F' R]"
-            ]
-        ],
-        [
-            [
                 "D R B' R' S' R B R' S D'"
             ],
             [
@@ -94425,6 +94464,28 @@
             ],
             [
                 "x:[U' R' U,M2]"
+            ]
+        ],
+        [
+            [
+                "R U' R' S R' F' R S' R' F R2 U R'"
+            ],
+            [
+                "Rehan Cedrick L. Pascor"
+            ],
+            [
+                "R U' R':[S,R' F' R]"
+            ]
+        ],
+        [
+            [
+                "f' U' R S' R' U R S R' f"
+            ],
+            [
+                "Rachel Tucker"
+            ],
+            [
+                "f':[U',R S' R']"
             ]
         ]
     ],
@@ -95429,6 +95490,19 @@
         ],
         [
             [
+                "M' U2 L' E L U' L' E' L U' M"
+            ],
+            [
+                "Gavriel Johann Arcilla",
+                "Rachel Tucker",
+                "Rehan Cedrick L. Pascor"
+            ],
+            [
+                "M' U:[U,L' E L]"
+            ]
+        ],
+        [
+            [
                 "E' R U M' U' R' U M u'"
             ],
             [
@@ -95438,18 +95512,6 @@
             ],
             [
                 "E':[R,U M' U']"
-            ]
-        ],
-        [
-            [
-                "M' U2 L' E L U' L' E' L U' M"
-            ],
-            [
-                "Gavriel Johann Arcilla",
-                "Rehan Cedrick L. Pascor"
-            ],
-            [
-                "M' U:[U,L' E L]"
             ]
         ],
         [
@@ -95506,17 +95568,6 @@
             ],
             [
                 "L F L':[U2,L' E L]"
-            ]
-        ],
-        [
-            [
-                "M' U2 R' S' R U' R' S R U' M"
-            ],
-            [
-                "Rachel Tucker"
-            ],
-            [
-                "M' U:[U,R' S' R]"
             ]
         ],
         [
@@ -96977,7 +97028,6 @@
                 "Michael Tripodi",
                 "Neel Gore",
                 "Oliver Fritz",
-                "Rachel Tucker",
                 "Rehan Cedrick L. Pascor",
                 "Roman Strakhov",
                 "Tanai Chaikraveephand (ธนัย ชัยกระวีพันธ์)",
@@ -97069,6 +97119,19 @@
         ],
         [
             [
+                "U S R U R' S' R U' R' U'"
+            ],
+            [
+                "Bpaul Paul",
+                "Ishaan Agrawal",
+                "Rachel Tucker"
+            ],
+            [
+                "U:[S,R U R']"
+            ]
+        ],
+        [
+            [
                 "U L' F' L S' L' F L S U'"
             ],
             [
@@ -97077,18 +97140,6 @@
             ],
             [
                 "U:[L' F' L,S']"
-            ]
-        ],
-        [
-            [
-                "U S R U R' S' R U' R' U'"
-            ],
-            [
-                "Bpaul Paul",
-                "Ishaan Agrawal"
-            ],
-            [
-                "U:[S,R U R']"
             ]
         ],
         [
@@ -101591,7 +101642,6 @@
                 "Leonardo Ezequiel Cruz",
                 "Masato Fujiwara (藤原正人)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yuki Tsuneyoshi (恒吉優紀)"
             ],
@@ -101607,6 +101657,7 @@
                 "Bpaul Paul",
                 "Dhruv Ambastha",
                 "Michael Tripodi",
+                "Rachel Tucker",
                 "Rehan Cedrick L. Pascor"
             ],
             [
@@ -107322,7 +107373,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Rehan Cedrick L. Pascor",
                 "Sebastiano Tronto",
                 "Tobias Peter",
@@ -107339,6 +107389,7 @@
                 "U' R U R' E R2 E' R' U' R' U"
             ],
             [
+                "Rachel Tucker",
                 "Tommy Cherry"
             ],
             [
@@ -112271,7 +112322,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Rehan Cedrick L. Pascor",
                 "Sebastiano Tronto",
                 "Tobias Peter",
@@ -112288,6 +112338,7 @@
                 "U' R U R E R2 E' R U' R' U"
             ],
             [
+                "Rachel Tucker",
                 "Tommy Cherry"
             ],
             [
@@ -113089,6 +113140,7 @@
             [
                 "Gavriel Johann Arcilla",
                 "Max Hilliard",
+                "Rachel Tucker",
                 "Rehan Cedrick L. Pascor"
             ],
             [
@@ -113151,17 +113203,6 @@
             ],
             [
                 "L F L':[L' E L,U2]"
-            ]
-        ],
-        [
-            [
-                "M' U R' S' R U R' S R U2 M"
-            ],
-            [
-                "Rachel Tucker"
-            ],
-            [
-                "M' U:[R' S' R,U]"
             ]
         ],
         [
@@ -114822,7 +114863,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Rob Holt",
                 "Tim Wong",
                 "Tobias Peter",
@@ -114857,7 +114897,6 @@
                 "Graham Siggins",
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -115608,7 +115647,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Rob Holt",
                 "Tim Wong",
                 "Tobias Peter",
@@ -115656,19 +115694,6 @@
         ],
         [
             [
-                "S L' U M2 U' L U M2 U' S'"
-            ],
-            [
-                "Diego Meneghetti",
-                "Graham Siggins",
-                "Rachel Tucker"
-            ],
-            [
-                "S:[L',U M2 U']"
-            ]
-        ],
-        [
-            [
                 "u L U' M' U L U' M U L2 u'"
             ],
             [
@@ -115678,6 +115703,18 @@
             ],
             [
                 "u L:[U' M' U,L]"
+            ]
+        ],
+        [
+            [
+                "S L' U M2 U' L U M2 U' S'"
+            ],
+            [
+                "Diego Meneghetti",
+                "Graham Siggins"
+            ],
+            [
+                "S:[L',U M2 U']"
             ]
         ],
         [
@@ -116262,7 +116299,6 @@
                 "Graham Siggins",
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)"
@@ -116306,7 +116342,6 @@
                 "Graham Siggins",
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -116777,7 +116812,6 @@
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -116817,18 +116851,6 @@
         ],
         [
             [
-                "M u' L E' L2 E L u M'"
-            ],
-            [
-                "Max Hilliard",
-                "Rachel Tucker"
-            ],
-            [
-                "M u' L:[E',L2]"
-            ]
-        ],
-        [
-            [
                 "R' E B R' S' R2 S R' B' E' R"
             ],
             [
@@ -116836,6 +116858,17 @@
             ],
             [
                 "R' E B R':[S',R2]"
+            ]
+        ],
+        [
+            [
+                "M u' L E' L2 E L u M'"
+            ],
+            [
+                "Max Hilliard"
+            ],
+            [
+                "M u' L:[E',L2]"
             ]
         ]
     ],
@@ -117948,7 +117981,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Rob Holt",
                 "Tim Wong",
                 "Tobias Peter",
@@ -117990,7 +118022,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Rob Holt",
                 "Tim Wong",
                 "Tobias Peter",
@@ -118025,7 +118056,6 @@
                 "Graham Siggins",
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)"
@@ -118070,7 +118100,6 @@
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -118185,17 +118214,6 @@
             [
                 "u2 R':[S',R2]"
             ]
-        ],
-        [
-            [
-                "f U2 R E' R' U R E R' U f'"
-            ],
-            [
-                "Rachel Tucker"
-            ],
-            [
-                "f U':[U',R E' R']"
-            ]
         ]
     ],
     "KSX": [
@@ -118222,8 +118240,7 @@
             ],
             [
                 "Elliott Kobelansky",
-                "Jonghyun Kim (김종현)",
-                "Rachel Tucker"
+                "Jonghyun Kim (김종현)"
             ],
             [
                 "L2 U:[L U' L',E']"
@@ -118254,7 +118271,6 @@
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Tobias Peter"
             ],
             [
@@ -118295,7 +118311,6 @@
                 "Graham Siggins",
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -118343,7 +118358,6 @@
                 "Graham Siggins",
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -118416,19 +118430,6 @@
         ],
         [
             [
-                "S U M2 U' L' U M2 U' L S'"
-            ],
-            [
-                "Diego Meneghetti",
-                "Graham Siggins",
-                "Rachel Tucker"
-            ],
-            [
-                "S:[U M2 U',L']"
-            ]
-        ],
-        [
-            [
                 "u L2 U' M' U L' U' M U L' u'"
             ],
             [
@@ -118438,6 +118439,18 @@
             ],
             [
                 "u L:[L,U' M' U]"
+            ]
+        ],
+        [
+            [
+                "S U M2 U' L' U M2 U' L S'"
+            ],
+            [
+                "Diego Meneghetti",
+                "Graham Siggins"
+            ],
+            [
+                "S:[U M2 U',L']"
             ]
         ],
         [
@@ -118475,7 +118488,6 @@
                 "Graham Siggins",
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -118526,18 +118538,6 @@
         ],
         [
             [
-                "M u' L' E' L2 E L' u M'"
-            ],
-            [
-                "Max Hilliard",
-                "Rachel Tucker"
-            ],
-            [
-                "M u' L':[E',L2]"
-            ]
-        ],
-        [
-            [
                 "R' E B R S' R2 S R B' E' R"
             ],
             [
@@ -118545,6 +118545,17 @@
             ],
             [
                 "R' E B R:[S',R2]"
+            ]
+        ],
+        [
+            [
+                "M u' L' E' L2 E L' u M'"
+            ],
+            [
+                "Max Hilliard"
+            ],
+            [
+                "M u' L':[E',L2]"
             ]
         ]
     ],
@@ -118639,17 +118650,6 @@
             [
                 "L2 u':[L' U L,E']"
             ]
-        ],
-        [
-            [
-                "L' S' U' L U S U' L' U L"
-            ],
-            [
-                "Rachel Tucker"
-            ],
-            [
-                "L':[S',U' L U]"
-            ]
         ]
     ],
     "KTX": [
@@ -118665,7 +118665,6 @@
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -118697,7 +118696,6 @@
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -118719,7 +118717,6 @@
                 "Graham Siggins",
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -119066,17 +119063,6 @@
             [
                 "u2 R:[S',R2]"
             ]
-        ],
-        [
-            [
-                "f U' R E' R' U' R E R' U2 f'"
-            ],
-            [
-                "Rachel Tucker"
-            ],
-            [
-                "f U':[R E' R',U']"
-            ]
         ]
     ],
     "KWT": [
@@ -119118,17 +119104,6 @@
             ],
             [
                 "L2 U':[L' U L,E]"
-            ]
-        ],
-        [
-            [
-                "L' U' L U S' U' L' U S L"
-            ],
-            [
-                "Rachel Tucker"
-            ],
-            [
-                "L':[U' L U,S']"
             ]
         ]
     ],
@@ -119529,7 +119504,6 @@
                 "Elliott Kobelansky",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Yangyang Shen (沈炀炀)"
             ],
             [
@@ -119561,7 +119535,6 @@
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -119948,7 +119921,6 @@
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Tobias Peter"
             ],
             [
@@ -119990,7 +119962,6 @@
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -120415,7 +120386,6 @@
                 "Graham Siggins",
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -120462,7 +120432,6 @@
                 "Graham Siggins",
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -121037,7 +121006,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -121132,7 +121100,6 @@
             [
                 "Ishaan Agrawal",
                 "Keiichiro Taira (平佳一郎)",
-                "Rachel Tucker",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -121889,7 +121856,6 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Neel Gore",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -121957,7 +121923,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)"
@@ -122670,7 +122635,6 @@
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -122704,7 +122668,6 @@
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -123190,7 +123153,6 @@
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -123237,7 +123199,6 @@
                 "Andrew Tan Jing Bang",
                 "Elliott Kobelansky",
                 "Jonghyun Kim (김종현)",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -123825,7 +123786,6 @@
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -123858,7 +123818,6 @@
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -124383,17 +124342,16 @@
         ],
         [
             [
-                "R B R2 E R2 E' B' R'",
-                "l U R2 S' R2 S U' l'"
+                "l U R2 S' R2 S U' l'",
+                "R B R2 E R2 E' B' R'"
             ],
             [
                 "Bpaul Paul",
-                "Rachel Tucker",
                 "Yifan Wang (王逸帆)"
             ],
             [
-                "R B:[R2,E]",
-                "l U:[R2,S']"
+                "l U:[R2,S']",
+                "R B:[R2,E]"
             ]
         ]
     ],
@@ -124435,17 +124393,6 @@
             ],
             [
                 "r:[E,R' D R]"
-            ]
-        ],
-        [
-            [
-                "S' D' R E R2 E' R D S"
-            ],
-            [
-                "Rachel Tucker"
-            ],
-            [
-                "S' D' R:[E,R2]"
             ]
         ]
     ],
@@ -125698,7 +125645,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -125771,7 +125717,6 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Neel Gore",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -125842,7 +125787,6 @@
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -125876,7 +125820,6 @@
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -125908,7 +125851,6 @@
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -125951,17 +125893,16 @@
         ],
         [
             [
-                "R B E R2 E' R2 B' R'",
-                "l U S' R2 S R2 U' l'"
+                "l U S' R2 S R2 U' l'",
+                "R B E R2 E' R2 B' R'"
             ],
             [
                 "Bpaul Paul",
-                "Rachel Tucker",
                 "Yifan Wang (王逸帆)"
             ],
             [
-                "R B:[E,R2]",
-                "l U:[S',R2]"
+                "l U:[S',R2]",
+                "R B:[E,R2]"
             ]
         ]
     ],
@@ -126052,7 +125993,6 @@
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -126095,7 +126035,6 @@
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -126141,7 +126080,6 @@
                 "R' U' R U R E R2 E' R U' R' U R"
             ],
             [
-                "Rachel Tucker",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -126162,7 +126100,6 @@
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -126222,7 +126159,6 @@
             [
                 "Ishaan Agrawal",
                 "Keiichiro Taira (平佳一郎)",
-                "Rachel Tucker",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -126267,7 +126203,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)"
@@ -126346,7 +126281,6 @@
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -126383,7 +126317,6 @@
                 "Andrew Tan Jing Bang",
                 "Elliott Kobelansky",
                 "Jonghyun Kim (김종현)",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -126405,7 +126338,6 @@
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -126463,17 +126395,6 @@
             ],
             [
                 "M':[D,R E R']"
-            ]
-        ],
-        [
-            [
-                "S' D' R' E R2 E' R' D S"
-            ],
-            [
-                "Rachel Tucker"
-            ],
-            [
-                "S' D' R':[E,R2]"
             ]
         ]
     ],
@@ -126595,7 +126516,6 @@
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -126618,7 +126538,6 @@
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -126647,7 +126566,6 @@
                 "Andrew Tan Jing Bang",
                 "Elliott Kobelansky",
                 "Jonghyun Kim (김종현)",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -126693,7 +126611,6 @@
                 "Graham Siggins",
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -127106,7 +127023,6 @@
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -127150,7 +127066,6 @@
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -127677,7 +127592,6 @@
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -127711,7 +127625,6 @@
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -128221,7 +128134,6 @@
                 "R' U' R U R' E R2 E' R' U' R' U R"
             ],
             [
-                "Rachel Tucker",
                 "Yifan Wang (王逸帆)"
             ],
             [
@@ -128238,7 +128150,6 @@
                 "Andrew Tan Jing Bang",
                 "Elliott Kobelansky",
                 "Jonghyun Kim (김종현)",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -128748,7 +128659,6 @@
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -128780,7 +128690,6 @@
                 "Graham Siggins",
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -133732,7 +133641,6 @@
                 "Diego Meneghetti",
                 "Elliott Kobelansky",
                 "Graham Siggins",
-                "Rachel Tucker",
                 "Tobias Peter"
             ],
             [
@@ -133838,7 +133746,6 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Marcell Endrey",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -133934,7 +133841,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)"
@@ -134011,7 +133917,6 @@
                 "Ishaan Agrawal",
                 "Israel Fraga da Silva",
                 "Keiichiro Taira (平佳一郎)",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -134090,7 +133995,6 @@
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -134194,7 +134098,6 @@
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -134265,7 +134168,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Rob Holt",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
@@ -134325,22 +134227,6 @@
     "SJN": [
         [
             [
-                "D R E R' D2 R E' R' D"
-            ],
-            [
-                "Anto Kam (甘浩東)",
-                "Graham Siggins",
-                "Israel Fraga da Silva",
-                "Jonghyun Kim (김종현)",
-                "Max Hilliard",
-                "Rachel Tucker"
-            ],
-            [
-                "D:[R E R',D2]"
-            ]
-        ],
-        [
-            [
                 "l' U' M U2 M U M' U2 L"
             ],
             [
@@ -134353,6 +134239,21 @@
             ],
             [
                 "l':[U',M U2 M]"
+            ]
+        ],
+        [
+            [
+                "D R E R' D2 R E' R' D"
+            ],
+            [
+                "Anto Kam (甘浩東)",
+                "Graham Siggins",
+                "Israel Fraga da Silva",
+                "Jonghyun Kim (김종현)",
+                "Max Hilliard"
+            ],
+            [
+                "D:[R E R',D2]"
             ]
         ],
         [
@@ -134446,7 +134347,6 @@
                 "Graham Siggins",
                 "Grzegorz Pacewicz",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Rob Holt",
                 "Tim Wong"
             ],
@@ -134516,8 +134416,7 @@
             [
                 "Elliott Kobelansky",
                 "Graham Siggins",
-                "Jonghyun Kim (김종현)",
-                "Rachel Tucker"
+                "Jonghyun Kim (김종현)"
             ],
             [
                 "[E,l' U l]",
@@ -134598,7 +134497,6 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Neel Gore",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -134699,7 +134597,6 @@
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -134767,22 +134664,6 @@
     "SMI": [
         [
             [
-                "L' u' M u2 M u' L"
-            ],
-            [
-                "Andrew Tan Jing Bang",
-                "Carter Kucala",
-                "Diego Meneghetti",
-                "Graham Siggins",
-                "Rachel Tucker",
-                "Tobias Peter"
-            ],
-            [
-                "Not found."
-            ]
-        ],
-        [
-            [
                 "L' D' L2 S L2 S' D L"
             ],
             [
@@ -134794,6 +134675,21 @@
             ],
             [
                 "L' D':[L2,S]"
+            ]
+        ],
+        [
+            [
+                "L' u' M u2 M u' L"
+            ],
+            [
+                "Andrew Tan Jing Bang",
+                "Carter Kucala",
+                "Diego Meneghetti",
+                "Graham Siggins",
+                "Tobias Peter"
+            ],
+            [
+                "Not found."
             ]
         ],
         [
@@ -134870,7 +134766,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Rob Holt",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
@@ -134941,7 +134836,6 @@
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -134985,7 +134879,6 @@
             [
                 "Elliott Kobelansky",
                 "Israel Fraga da Silva",
-                "Rachel Tucker",
                 "Yangyang Shen (沈炀炀)"
             ],
             [
@@ -135016,7 +134909,6 @@
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -135050,7 +134942,6 @@
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -135085,7 +134976,6 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Marcell Endrey",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -135176,8 +135066,7 @@
                 "Graham Siggins",
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
-                "Max Hilliard",
-                "Rachel Tucker"
+                "Max Hilliard"
             ],
             [
                 "D':[R E R',D2]"
@@ -135278,7 +135167,6 @@
                 "Elliott Kobelansky",
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
-                "Rachel Tucker",
                 "Yangyang Shen (沈炀炀)"
             ],
             [
@@ -135332,20 +135220,6 @@
         ],
         [
             [
-                "L' S L' B' L S' L' B L2",
-                "L' S r' U' r S' r' U r L"
-            ],
-            [
-                "Israel Fraga da Silva",
-                "Rachel Tucker"
-            ],
-            [
-                "L':[S,L' B' L]",
-                "L':[S,r' U' r]"
-            ]
-        ],
-        [
-            [
                 "R B2 R' U R' E R U' R' E' R2 B2 R'"
             ],
             [
@@ -135353,6 +135227,17 @@
             ],
             [
                 "R B2 R':[U,R' E R]"
+            ]
+        ],
+        [
+            [
+                "L' S L' B' L S' L' B L2"
+            ],
+            [
+                "Israel Fraga da Silva"
+            ],
+            [
+                "L':[S,L' B' L]"
             ]
         ]
     ],
@@ -135368,7 +135253,6 @@
                 "Graham Siggins",
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -135392,21 +135276,6 @@
     "SNZ": [
         [
             [
-                "r' M U' R' E R U R' E' r2"
-            ],
-            [
-                "Anto Kam (甘浩東)",
-                "Elliott Kobelansky",
-                "Max Hilliard",
-                "Rachel Tucker",
-                "Yangyang Shen (沈炀炀)"
-            ],
-            [
-                "r2:[R U' R',E]"
-            ]
-        ],
-        [
-            [
                 "R D' R E R' D R E' R2"
             ],
             [
@@ -135418,6 +135287,20 @@
             ],
             [
                 "R:[D',R E R']"
+            ]
+        ],
+        [
+            [
+                "r' M U' R' E R U R' E' r2"
+            ],
+            [
+                "Anto Kam (甘浩東)",
+                "Elliott Kobelansky",
+                "Max Hilliard",
+                "Yangyang Shen (沈炀炀)"
+            ],
+            [
+                "r2:[R U' R',E]"
             ]
         ],
         [
@@ -135448,7 +135331,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Tommy Cherry",
                 "Yangyang Shen (沈炀炀)"
@@ -135543,7 +135425,6 @@
                 "Daniel White",
                 "Graham Siggins",
                 "Grzegorz Pacewicz",
-                "Rachel Tucker",
                 "Rob Holt",
                 "Tim Wong"
             ],
@@ -135599,7 +135480,6 @@
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -135629,7 +135509,6 @@
                 "Elliott Kobelansky",
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
-                "Rachel Tucker",
                 "Yangyang Shen (沈炀炀)"
             ],
             [
@@ -135676,7 +135555,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keita Hayakawa (早川慶太)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -135737,17 +135615,6 @@
             [
                 "r':[E r' E',L2]"
             ]
-        ],
-        [
-            [
-                "u' F2 L' S L F2 L' S' L u"
-            ],
-            [
-                "Rachel Tucker"
-            ],
-            [
-                "u':[F2,L' S L]"
-            ]
         ]
     ],
     "SXI": [
@@ -135764,7 +135631,6 @@
                 "Ishaan Agrawal",
                 "Israel Fraga da Silva",
                 "Keiichiro Taira (平佳一郎)",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -135859,8 +135725,7 @@
                 "Elliott Kobelansky",
                 "Graham Siggins",
                 "Israel Fraga da Silva",
-                "Jonghyun Kim (김종현)",
-                "Rachel Tucker"
+                "Jonghyun Kim (김종현)"
             ],
             [
                 "[l' U l,E]",
@@ -135949,7 +135814,6 @@
             ],
             [
                 "Elliott Kobelansky",
-                "Rachel Tucker",
                 "Yangyang Shen (沈炀炀)"
             ],
             [
@@ -135998,36 +135862,22 @@
             [
                 "R B2 R':[R' E R,U]"
             ]
-        ],
-        [
-            [
-                "r' L' U' r S r' U r S' L"
-            ],
-            [
-                "Rachel Tucker"
-            ],
-            [
-                "L':[r' U' r,S]"
-            ]
         ]
     ],
     "SXY": [
         [
             [
-                "L2 B2 L S L' B2 L S' L",
-                "r' L' U2 r S r' U2 r S' L"
+                "L2 B2 L S L' B2 L S' L"
             ],
             [
                 "Graham Siggins",
                 "Israel Fraga da Silva",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
             [
-                "L':[L' B2 L,S]",
-                "L':[r' U2 r,S]"
+                "L':[L' B2 L,S]"
             ]
         ],
         [
@@ -136076,7 +135926,6 @@
                 "Elliott Kobelansky",
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -136120,7 +135969,6 @@
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -136227,7 +136075,6 @@
                 "Keiichiro Taira (平佳一郎)",
                 "Max Hilliard",
                 "Neel Gore",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -136314,7 +136161,6 @@
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -136348,7 +136194,6 @@
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -136382,7 +136227,6 @@
                 "Jonghyun Kim (김종현)",
                 "Keita Hayakawa (早川慶太)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -136405,19 +136249,16 @@
     "SYX": [
         [
             [
-                "L' S L' B2 L S' L' B2 L2",
-                "L' S r' U2 r S' r' U2 r L"
+                "L' S L' B2 L S' L' B2 L2"
             ],
             [
                 "Graham Siggins",
                 "Israel Fraga da Silva",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Tobias Peter"
             ],
             [
-                "L':[S,L' B2 L]",
-                "L':[S,r' U2 r]"
+                "L':[S,L' B2 L]"
             ]
         ],
         [
@@ -136470,7 +136311,6 @@
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
                 "Keiichiro Taira (平佳一郎)",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)",
                 "Yifan Wang (王逸帆)"
@@ -136542,7 +136382,6 @@
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -136620,7 +136459,6 @@
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
                 "Max Hilliard",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
@@ -136664,7 +136502,6 @@
             [
                 "Anto Kam (甘浩東)",
                 "Elliott Kobelansky",
-                "Rachel Tucker",
                 "Yangyang Shen (沈炀炀)"
             ],
             [
@@ -136724,17 +136561,6 @@
             [
                 "R:[E' R' E,l2]"
             ]
-        ],
-        [
-            [
-                "u' L' S L F2 L' S' L F2 u"
-            ],
-            [
-                "Rachel Tucker"
-            ],
-            [
-                "u':[L' S L,F2]"
-            ]
         ]
     ],
     "SZX": [
@@ -136748,7 +136574,6 @@
                 "Elliott Kobelansky",
                 "Israel Fraga da Silva",
                 "Jonghyun Kim (김종현)",
-                "Rachel Tucker",
                 "Tobias Peter",
                 "Yangyang Shen (沈炀炀)"
             ],
