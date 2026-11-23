@@ -573,11 +573,13 @@ const BLD = ({ codeType }: { codeType: string }) => {
 
   useEffect(() => {
     const handleGlobalPaste = (e: ClipboardEvent) => {
-      // Only bare-page position pastes apply; inputs and the search panel own theirs.
+      // A position paste applies on the bare page and in the letters box;
+      // any other text field, such as the alg search, keeps its own paste.
       const target = e.target as HTMLElement | null;
       if (
         document.getElementById("alg-search-panel") ||
         (target &&
+          target !== inputRef.current &&
           (target.isContentEditable ||
             ["INPUT", "TEXTAREA", "SELECT"].includes(target.tagName)))
       ) {
@@ -592,6 +594,10 @@ const BLD = ({ codeType }: { codeType: string }) => {
           .trim() || "";
       if (pasteString.match(/^[A-Za-z*]+(?:-+[A-Za-z*]*)*$/u)) {
         const values = pasteString.split(/-/u);
+        // In the letters box a single word is letters, not a position name.
+        if (target === inputRef.current && values.length < 2) {
+          return;
+        }
         const newSelectValues = Array(selectValuesLen).fill("");
         for (let i = 0; i < selectValuesLen && i < values.length; i++) {
           newSelectValues[i] = values[i];
