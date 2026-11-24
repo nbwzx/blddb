@@ -23,6 +23,7 @@ import rewrite from "@/utils/rewrite";
 import { useResumeTour } from "@/hooks/useResumeTour";
 import { loadJsonData } from "@/utils/syncData";
 import { useSync } from "@/components/SyncProvider";
+import { ALG_SEARCH_EVENT } from "@/utils/algSearch";
 
 type ManmadeRecord =
   | { [key: string]: [alg: string[], source: string[]][] }
@@ -36,12 +37,44 @@ const manmadeHasAlg = (data: ManmadeRecord, alg: string) =>
     ),
   );
 
+type SourceResults = { [name: string]: { "3bld"?: number } };
+
+// Same source-time filter as the Table, so a search only counts algs the manmade sheet shows.
+const manmadeShowsAlg = (
+  data: ManmadeRecord,
+  alg: string,
+  sourceResults: SourceResults,
+  underSecs: string | undefined,
+) =>
+  Object.values(data).some(
+    (entries: [string[] | string, string[], ...unknown[]][]) =>
+      entries.some(
+        ([algs, sources]) =>
+          (Array.isArray(algs) ? algs.includes(alg) : algs === alg) &&
+          (underSecs === "" ||
+            typeof underSecs === "undefined" ||
+            sources.some(
+              (name) =>
+                (sourceResults[name]?.["3bld"] ?? Infinity) <=
+                100 * parseFloat(underSecs),
+            )),
+      ),
+  );
+
 const nightmareHasAlg = (data: NightmareRecord, alg: string) =>
   Object.values(data).some((algs) => algs.includes(alg));
 
 const BLD = ({ codeType }: { codeType: string }) => {
   const { i18n, t } = useTranslation();
   const { syncVersion } = useSync();
+  // Bumped by a header search that lands on this already-open page, so the
+  // address is read again.
+  const [searchVersion, setSearchVersion] = useState(0);
+  useEffect(() => {
+    const handleSearch = () => setSearchVersion((v) => v + 1);
+    window.addEventListener(ALG_SEARCH_EVENT, handleSearch);
+    return () => window.removeEventListener(ALG_SEARCH_EVENT, handleSearch);
+  }, []);
   const tableRef = useRef<HTMLTableElement>(null);
   const divRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
@@ -171,6 +204,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
       setNightmare(nightmareModule.default);
       setNightmareSelected(nightmareSelectedModule.default);
 
+      let sourceResults: SourceResults = require("public/data/sourceToResult.json");
       // In the desktop shell, refresh the reference tables from the latest remote copy.
       try {
         const [s2u, s2r, a2u] = await Promise.all([
@@ -190,6 +224,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
         ]);
         setSourceToUrl(s2u.default);
         setSourceToResult(s2r.default);
+        sourceResults = s2r.default as SourceResults;
         setAlgToUrl(a2u.default);
       } catch {
         /* keep bundled snapshot */
@@ -201,18 +236,36 @@ const BLD = ({ codeType }: { codeType: string }) => {
       // A search result lands here with a highlight but no mode: open the sheet
       // that holds the alg, falling back to the preference when both or neither do.
       let modeParam = params.get("mode") || modeValue;
+      let jumped = false;
+      let hiddenByFilter = false;
+      let notListed = false;
       if (!params.get("mode") && highlightParam && is3bld) {
+        const settings = loadSettings();
         // The table matches the highlight against mirrored algs, so look up the unmirrored one.
-        const storedAlg = loadSettings().mirrorLR
+        const storedAlg = settings.mirrorLR
           ? rewrite.mirrorAxis(highlightParam, "M")
           : highlightParam;
-        const inManmade = manmadeHasAlg(manmadeModule.default, storedAlg);
+        const inManmade = manmadeShowsAlg(
+          manmadeModule.default,
+          storedAlg,
+          sourceResults,
+          settings.show3BldAlgsUnderSecs,
+        );
         const inNightmare = nightmareHasAlg(nightmareModule.default, storedAlg);
         if (inManmade !== inNightmare) {
           modeParam = inManmade ? "manmade" : "nightmare";
-
-          // A one-off jump to the other sheet must not overwrite the saved preference.
-          skipModeSaveRef.current = modeParam !== modeValue;
+          jumped = true;
+        } else if (
+          !inNightmare &&
+          manmadeHasAlg(manmadeModule.default, storedAlg)
+        ) {
+          // Only the user's time filter hides it: open manmade and say why it is missing.
+          modeParam = "manmade";
+          jumped = true;
+          hiddenByFilter = true;
+        } else if (!inNightmare && !inManmade) {
+          // A valid cycle that neither sheet lists: show its case and say so.
+          notListed = true;
         }
       }
 
@@ -227,12 +280,28 @@ const BLD = ({ codeType }: { codeType: string }) => {
       }
 
       if (modeParam) {
-        setModeValue(modeParam);
+        // A one-off jump must not overwrite the saved preference. Compare against the
+        // live mode: the captured modeValue is stale when two loads overlap.
+        setModeValue((current: string) => {
+          skipModeSaveRef.current = jumped && modeParam !== current;
+          return modeParam;
+        });
       }
 
       if (highlightParam) {
         setHighlightValue(highlightParam);
       }
+
+      // Clear only a note left by an earlier search; other errors are not ours to drop.
+      setErrorKey((key) => {
+        if (hiddenByFilter) {
+          return "searchFiltered";
+        }
+        if (notListed) {
+          return "searchNotListed";
+        }
+        return key === "searchFiltered" || key === "searchNotListed" ? "" : key;
+      });
 
       let isStandard = true;
       const localStorageKey = is3bld ? "code" : "bigbldCode";
@@ -274,7 +343,15 @@ const BLD = ({ codeType }: { codeType: string }) => {
     };
     loadData();
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [codeType, is3bld, converter, defaultMode, modeValue, syncVersion]);
+  }, [
+    codeType,
+    is3bld,
+    converter,
+    defaultMode,
+    modeValue,
+    syncVersion,
+    searchVersion,
+  ]);
 
   const modeToData = is3bld
     ? {
@@ -503,6 +580,18 @@ const BLD = ({ codeType }: { codeType: string }) => {
 
   useEffect(() => {
     const handleGlobalPaste = (e: ClipboardEvent) => {
+      // A position paste applies on the bare page and in the letters box;
+      // any other text field, such as the alg search, keeps its own paste.
+      const target = e.target as HTMLElement | null;
+      if (
+        document.getElementById("alg-search-panel") ||
+        (target &&
+          target !== inputRef.current &&
+          (target.isContentEditable ||
+            ["INPUT", "TEXTAREA", "SELECT"].includes(target.tagName)))
+      ) {
+        return;
+      }
       const pasteString =
         e.clipboardData
           ?.getData("text/plain")
@@ -512,6 +601,10 @@ const BLD = ({ codeType }: { codeType: string }) => {
           .trim() || "";
       if (pasteString.match(/^[A-Za-z*]+(?:-+[A-Za-z*]*)*$/u)) {
         const values = pasteString.split(/-/u);
+        // In the letters box a single word is letters, not a position name.
+        if (target === inputRef.current && values.length < 2) {
+          return;
+        }
         const newSelectValues = Array(selectValuesLen).fill("");
         for (let i = 0; i < selectValuesLen && i < values.length; i++) {
           newSelectValues[i] = values[i];

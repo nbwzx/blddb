@@ -45,7 +45,8 @@
     "Readme": "说明",
     "Star": "在 Github 点赞",
     "search": "搜索",
-    "searchHint": "搜索公式..."
+    "searchHint": "搜索公式...",
+    "searchNotFound": "没有找到与该公式匹配的三盲或高盲情况。"
   },
   "finger": {
     "thumbdown": "下",
@@ -309,7 +310,9 @@
     "starNightmare": "在噩梦模式下不允许使用 *.",
     "starManmade": "在人造模式下不允许使用多个 *.",
     "invalidLetter": "该编码无效。",
-    "invalidCode": "设置中的编码无效。"
+    "invalidCode": "设置中的编码无效。",
+    "searchFiltered": "搜索的公式已被设置中的三盲成绩筛选隐藏。",
+    "searchNotListed": "搜索的公式不在人造或噩梦公式表中。正在显示该情况的其他公式。"
   },
   "tour": {
     "title": "导览",

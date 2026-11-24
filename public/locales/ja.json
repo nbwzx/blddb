@@ -45,7 +45,8 @@
     "Readme": "Readme",
     "Star": "リポジトリの Star 付け",
     "search": "検索",
-    "searchHint": "検索手順..."
+    "searchHint": "検索手順...",
+    "searchNotFound": "この手順に一致する3BLDまたはBigBLDのケースはありません。"
   },
   "finger": {
     "thumbdown": "下",
@@ -277,7 +278,9 @@
     "starNightmare": "ナイトメアモードでは * は許可されていません。",
     "starManmade": "マニュメイドモードでは * を複数使用できません。",
     "invalidLetter": "エンコーディングは無効です。",
-    "invalidCode": "設定のエンコーディングスキームが無効です。"
+    "invalidCode": "設定のエンコーディングスキームが無効です。",
+    "searchFiltered": "検索した手順は、設定の3BLDタイムフィルターにより非表示になっています。",
+    "searchNotListed": "検索した手順はマニュメイドにもナイトメアにも収録されていません。このケースの他の手順を表示しています。"
   },
   "tour": {
     "title": "ツアーを始める",

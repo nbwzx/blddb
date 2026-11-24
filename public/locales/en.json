@@ -45,7 +45,8 @@
     "Readme": "Readme",
     "Star": "Star on GitHub",
     "search": "Search",
-    "searchHint": "Search algorithms..."
+    "searchHint": "Search algorithms...",
+    "searchNotFound": "No matching 3BLD or BigBLD case for this algorithm."
   },
   "finger": {
     "thumbdown": "Thumb down",
@@ -309,7 +310,9 @@
     "starNightmare": "* is not allowed in nightmare mode.",
     "starManmade": "Multiple * are not allowed in manmade mode.",
     "invalidLetter": "This letter is invalid.",
-    "invalidCode": "Your lettering scheme in settings is invalid."
+    "invalidCode": "Your lettering scheme in settings is invalid.",
+    "searchFiltered": "The searched algorithm is hidden by your 3BLD time filter in settings.",
+    "searchNotListed": "The searched algorithm is not in the manmade or nightmare sheet. Showing the other algorithms for its case."
   },
   "tour": {
     "title": "Start the tour",
