@@ -311,7 +311,8 @@
     "starManmade": "Multiple * are not allowed in manmade mode.",
     "invalidLetter": "This letter is invalid.",
     "invalidCode": "Your lettering scheme in settings is invalid.",
-    "searchFiltered": "The searched algorithm is hidden by your 3BLD time filter in settings."
+    "searchFiltered": "The searched algorithm is hidden by your 3BLD time filter in settings.",
+    "searchNotListed": "The searched algorithm is not in the manmade or nightmare sheet. Showing the other algorithms for its case."
   },
   "tour": {
     "title": "Start the tour",

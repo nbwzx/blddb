@@ -238,6 +238,7 @@ const BLD = ({ codeType }: { codeType: string }) => {
       let modeParam = params.get("mode") || modeValue;
       let jumped = false;
       let hiddenByFilter = false;
+      let notListed = false;
       if (!params.get("mode") && highlightParam && is3bld) {
         const settings = loadSettings();
         // The table matches the highlight against mirrored algs, so look up the unmirrored one.
@@ -262,6 +263,9 @@ const BLD = ({ codeType }: { codeType: string }) => {
           modeParam = "manmade";
           jumped = true;
           hiddenByFilter = true;
+        } else if (!inNightmare && !inManmade) {
+          // A valid cycle that neither sheet lists: show its case and say so.
+          notListed = true;
         }
       }
 
@@ -293,7 +297,10 @@ const BLD = ({ codeType }: { codeType: string }) => {
         if (hiddenByFilter) {
           return "searchFiltered";
         }
-        return key === "searchFiltered" ? "" : key;
+        if (notListed) {
+          return "searchNotListed";
+        }
+        return key === "searchFiltered" || key === "searchNotListed" ? "" : key;
       });
 
       let isStandard = true;
